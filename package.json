@@ -1,0 +1,28 @@
+{
+  "name": "the-daily-object",
+  "version": "1.0.0",
+  "description": "每日精选世界级设计作品",
+  "homepage": "https://nomibonnie.github.io/the-daily-object",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "date-fns": "^3.3.1",
+    "lucide-react": "^0.563.0",
+    "react": "^18.2.0",
+    "react-calendar": "^4.8.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.0"
+  }
+}

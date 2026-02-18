@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Calendar Styling - Luxury Brand Aesthetic with Dark Mode */
+.luxury-calendar {
+  @apply w-full border-none font-light;
+}
+
+/* Force transparent backgrounds for calendar in dark mode */
+.dark .luxury-calendar.react-calendar {
+  background-color: transparent !important;
+}
+
+.dark .luxury-calendar .react-calendar__viewContainer {
+  background-color: transparent !important;
+}
+
+.dark .luxury-calendar .react-calendar__month-view {
+  background-color: transparent !important;
+}
+
+.luxury-calendar .react-calendar__navigation {
+  @apply mb-6;
+}
+
+.luxury-calendar .react-calendar__navigation button {
+  @apply text-neutral-900 dark:text-neutral-100 min-w-[44px] bg-transparent hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-lg transition-colors font-light text-sm;
+}
+
+.luxury-calendar .react-calendar__navigation button:disabled {
+  @apply bg-transparent text-neutral-300 dark:text-neutral-700;
+}
+
+.luxury-calendar .react-calendar__month-view__weekdays {
+  @apply text-xs tracking-widest uppercase text-neutral-400 dark:text-neutral-600 font-light mb-4;
+}
+
+.luxury-calendar .react-calendar__month-view__weekdays__weekday {
+  @apply text-center py-2;
+}
+
+.luxury-calendar .react-calendar__month-view__weekdays__weekday abbr {
+  @apply no-underline;
+}
+
+.luxury-calendar .react-calendar__month-view__days {
+  background-color: transparent !important;
+}
+
+.luxury-calendar .react-calendar__tile {
+  @apply aspect-square flex items-center justify-center p-0 text-neutral-700 dark:text-neutral-400 rounded-lg transition-all font-light text-sm;
+  min-height: 48px;
+  background-color: transparent !important;
+}
+
+.luxury-calendar .react-calendar__tile:enabled:hover {
+  @apply bg-neutral-100 dark:bg-neutral-800;
+}
+
+.luxury-calendar .react-calendar__tile:disabled {
+  @apply text-neutral-300 dark:text-neutral-800 cursor-default;
+  background-color: transparent !important;
+}
+
+.luxury-calendar .react-calendar__tile--now {
+  @apply bg-neutral-100 dark:bg-neutral-800 font-normal;
+}
+
+.luxury-calendar .react-calendar__tile--active {
+  @apply bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900;
+}
+
+.luxury-calendar .react-calendar__tile--active:enabled:hover {
+  @apply bg-neutral-800 dark:bg-neutral-200;
+}
+
+.luxury-calendar .react-calendar__tile.wallpaper-date {
+  @apply relative font-normal text-neutral-900 dark:text-neutral-100;
+}
+
+.luxury-calendar .react-calendar__tile.wallpaper-date::after {
+  content: '';
+  @apply absolute bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 rounded-full bg-neutral-900 dark:bg-neutral-100;
+}
+
+.luxury-calendar .react-calendar__tile--active.wallpaper-date::after {
+  @apply bg-white dark:bg-neutral-900;
+}
+
+/* Smooth transitions */
+* {
+  @apply transition-colors duration-200;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-neutral-100 dark:bg-neutral-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-neutral-300 dark:bg-neutral-700 rounded-full hover:bg-neutral-400 dark:hover:bg-neutral-600;
+}
+
+/* Selection color */
+::selection {
+  @apply bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900;
+}
