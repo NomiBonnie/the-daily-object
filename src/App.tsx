@@ -182,7 +182,7 @@ function App() {
       </header>
 
       {/* Main Content */}
-      <main className="pt-24 pb-12 px-6 sm:px-8">
+      <main className="pt-32 pb-12 px-6 sm:px-8">
         {view === 'today' ? (
           <div className="max-w-screen-xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
