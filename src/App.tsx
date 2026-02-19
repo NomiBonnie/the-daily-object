@@ -103,7 +103,7 @@ function App() {
     setTimeout(() => {
       const contentArea = document.getElementById('design-content')
       if (contentArea) {
-        const headerHeight = 130 // header + comfortable padding
+        const headerHeight = 100 // header + comfortable padding
         const elementTop = contentArea.getBoundingClientRect().top + window.scrollY
         window.scrollTo({ top: elementTop - headerHeight, behavior: 'smooth' })
       }
@@ -236,19 +236,22 @@ function App() {
     <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950 transition-colors duration-300">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-neutral-900/80 backdrop-blur-xl border-b border-neutral-200 dark:border-neutral-800">
-        <div className="max-w-screen-xl mx-auto px-6 sm:px-8 py-6">
+        <div className="max-w-screen-xl mx-auto px-6 sm:px-8 py-4">
           <div className="flex items-center justify-between">
             <h1 className="text-xl font-light tracking-wide text-neutral-900 dark:text-neutral-100">
               THE DAILY OBJECT
             </h1>
             
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3">
               {/* Language Toggle */}
               <button
                 onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}
-                className="px-3 py-1.5 rounded-full text-xs font-medium tracking-wide border border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors text-neutral-600 dark:text-neutral-400"
+                className="p-2.5 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+                aria-label="Toggle language"
               >
-                {lang === 'zh' ? 'EN' : '中'}
+                <span className="text-sm font-light text-neutral-600 dark:text-neutral-400">
+                  {lang === 'zh' ? 'EN' : '中'}
+                </span>
               </button>
 
               <button
@@ -266,7 +269,7 @@ function App() {
               <nav className="flex gap-1 bg-neutral-100 dark:bg-neutral-800 rounded-full p-1">
                 <button
                   onClick={() => setView('today')}
-                  className={`px-6 py-2 rounded-full text-sm font-light tracking-wide transition-all ${
+                  className={`px-5 py-1.5 rounded-full text-sm font-light tracking-wide transition-all ${
                     view === 'today'
                       ? 'bg-white dark:bg-neutral-700 text-neutral-900 dark:text-neutral-100 shadow-sm'
                       : 'text-neutral-500 dark:text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-300'
@@ -276,7 +279,7 @@ function App() {
                 </button>
                 <button
                   onClick={() => setView('archive')}
-                  className={`px-6 py-2 rounded-full text-sm font-light tracking-wide transition-all ${
+                  className={`px-5 py-1.5 rounded-full text-sm font-light tracking-wide transition-all ${
                     view === 'archive'
                       ? 'bg-white dark:bg-neutral-700 text-neutral-900 dark:text-neutral-100 shadow-sm'
                       : 'text-neutral-500 dark:text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-300'
@@ -291,7 +294,7 @@ function App() {
       </header>
 
       {/* Main Content */}
-      <main className="pt-32 pb-12 px-6 sm:px-8">
+      <main className="pt-24 pb-12 px-6 sm:px-8">
         {view === 'today' ? (
           <div className="max-w-3xl mx-auto">
             {renderDesignDetail(todayDesign)}
