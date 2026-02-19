@@ -725,4 +725,222 @@ There's a hole in the base—not decoration, but for easy transport: insert a po
 
 Arco isn't showing off—it's solving a specific problem in the most elegant way. This "problem-oriented" design thinking influenced generations of industrial designers.`
   },
+  {
+    id: '11',
+    date: '2026-02-07',
+    imageUrl: '/the-daily-object/images/pinocchio-1940.jpg',
+    thumbnailUrl: '/the-daily-object/images/pinocchio-1940.jpg',
+    title: 'Pinocchio',
+    subtitle: 'Walt Disney Studios, 1940',
+    category: 'art',
+    designer: 'Walt Disney Studios',
+    year: '1940',
+    
+    dateConnection: '1940年2月7日，《匹诺曹》在纽约中心剧院首映。这部动画电影被认为是动画艺术的巅峰之作，首次赢得奥斯卡竞赛类奖项的动画长片。',
+    
+    designerBio: `Walt Disney Studios 在1940年代初期代表了动画艺术的最高水平。
+
+制作团队包括超过750名艺术家：动画师、助理、布局艺术家、背景画家、特效动画师和上色人员。他们创作了超过200万幅画稿，使用了1500多种颜色。
+
+Gustaf Tenggren 被任命为艺术指导，为影片赋予了欧洲童话书的华丽风格。Ward Kimball 创造了蟋蟀吉明尼的角色设计，将原著中的小角色变成了影片的灵魂人物。
+
+**"Animation can explain whatever the mind of man can conceive."**
+动画可以解释人类头脑所能想象的一切。——Walt Disney`,
+    
+    story: `1940年，《匹诺曹》首映时，二战已经在欧洲爆发。这部耗资260万美元的电影起初票房惨淡——欧洲和亚洲市场被战争切断了。
+
+但这部电影在技术上是革命性的。它首创了**多平面摄影机**的深度使用——让背景和前景以不同速度移动，创造出前所未有的三维空间感。
+
+水下场景、雨水、烟雾、木偶的关节运动——每一个特效都是动画历史上的第一次。当蓝仙女出现时，她的星尘效果需要特效动画师逐帧手绘每一颗闪烁的星星。
+
+**"When You Wish Upon a Star"** 不仅赢得了奥斯卡最佳原创歌曲，还成为了迪士尼公司的永久标志曲。`,
+    
+    legacy: `• 动画技术革命：多平面摄影机、特效动画、角色动画的里程碑
+• 奥斯卡双料冠军：首部获得竞赛类奥斯卡奖的动画长片（最佳原创音乐、最佳原创歌曲）
+• 美国国家电影登记册：1994年入选，被认定为"具有文化、历史或美学重要性"
+• 影响延续：成为后世所有动画电影的技术和艺术标杆`,
+    
+    significance: `《匹诺曹》证明了动画不只是儿童娱乐——它是一种完整的艺术形式。
+
+电影史学家常常将它评为**有史以来技术最完美的迪士尼动画**。它不仅讲述了一个木偶变成真正男孩的故事，它本身就是一个关于"艺术如何赋予无生命的东西以生命"的隐喻。
+
+每一帧都是手绘的艺术品。在数字时代回看，这种工艺几乎是不可思议的。`,
+
+    dateConnection_en: 'On February 7, 1940, Pinocchio premiered at the Center Theatre in New York City. This animated film is considered the pinnacle of animation art and the first animated feature to win a competitive Academy Award.',
+    
+    designerBio_en: `Walt Disney Studios in the early 1940s represented the highest level of animation art.
+
+The production team included over 750 artists: animators, assistants, layout artists, background painters, special effects animators, and ink and paint artists. They created over 2 million drawings and used more than 1,500 shades of paint.
+
+Gustaf Tenggren was assigned as art director, giving the film the lavish European storybook style that Walt Disney envisioned. Ward Kimball created the character design for Jiminy Cricket, transforming a minor character from the original story into the film's soul.
+
+**"Animation can explain whatever the mind of man can conceive."** — Walt Disney`,
+    
+    story_en: `In 1940, when Pinocchio premiered, World War II had already begun in Europe. This $2.6 million film initially flopped at the box office—European and Asian markets were cut off by war.
+
+But the film was technically revolutionary. It pioneered the extensive use of the **multiplane camera**—making backgrounds and foregrounds move at different speeds, creating an unprecedented sense of three-dimensional space.
+
+Underwater scenes, rain, smoke, the puppet's joint movements—every special effect was a first in animation history. When the Blue Fairy appears, her stardust effect required effects animators to hand-draw every twinkling star frame by frame.
+
+**"When You Wish Upon a Star"** not only won the Oscar for Best Original Song but became Disney's permanent signature tune.`,
+    
+    legacy_en: `• Animation technology revolution: Milestones in multiplane camera, effects animation, and character animation
+• Double Oscar winner: First animated feature to win competitive Academy Awards (Best Original Score, Best Original Song)
+• National Film Registry: Selected in 1994 as "culturally, historically, or aesthetically significant"
+• Lasting influence: Became the technical and artistic benchmark for all subsequent animated films`,
+    
+    significance_en: `Pinocchio proved that animation is not just children's entertainment—it is a complete art form.
+
+Film historians often rate it as **the most technically perfect Disney animation ever made**. It not only tells the story of a puppet becoming a real boy; it is itself a metaphor for "how art gives life to the inanimate."
+
+Every frame is a hand-drawn work of art. Looking back from the digital age, this craftsmanship is almost inconceivable.`
+  },
+  {
+    id: '12',
+    date: '2026-02-08',
+    imageUrl: '/the-daily-object/images/modersohn-becker-self-portrait.jpg',
+    thumbnailUrl: '/the-daily-object/images/modersohn-becker-self-portrait.jpg',
+    title: 'Self-Portrait on the 6th Wedding Anniversary',
+    subtitle: 'Paula Modersohn-Becker, 1906',
+    category: 'art',
+    designer: 'Paula Modersohn-Becker',
+    year: '1906',
+    
+    dateConnection: '1876年2月8日，Paula Modersohn-Becker 出生于德国德累斯顿。她是表现主义先驱，也是艺术史上第一位创作裸体自画像的女性画家。',
+    
+    designerBio: `Paula Modersohn-Becker (1876-1907)，德国表现主义画家，创作了超过700幅油画和1000多幅素描。
+
+她在Worpswede艺术家聚落中开始艺术生涯，但很快发现那里的传统风景画无法满足她的艺术野心。她四次前往巴黎，研习塞尚、高更和纳比派的作品，发展出简化形式和象征色彩的独特风格。
+
+**"I am becoming somebody—I'm living the most intensively happy period of my life."**
+我正在成为某个人——我正在经历生命中最强烈幸福的时期。
+
+1906年，她离开丈夫独自前往巴黎，创作了她最重要的作品。1907年，她在产后18天因肺栓塞去世，年仅31岁。`,
+    
+    story: `1906年的这幅自画像是艺术史上的里程碑。
+
+画中的Modersohn-Becker裸露上身，双手环抱腹部——暗示怀孕（尽管当时她并未怀孕）。她直视观者，没有羞怯，没有掩饰，没有任何女性裸体画传统中的"被观看"姿态。
+
+**这是第一幅由女性画家创作的裸体自画像。**
+
+这个事实令人震惊：在1906年，一位女性画家竟敢如此直接地呈现自己的身体，而且是以母性——而非性感——的方式。
+
+她在巴黎的工作室里完成这幅画时，正处于人生的转折点：离开丈夫、独自生活、专注创作。画面传达出一种静谧的力量和自我认知。`,
+    
+    legacy: `• 女性主义艺术先驱：打破了"女性作为被描绘对象"的传统，女性成为自己身体的叙述者
+• 表现主义先驱：比德国表现主义运动早了数年，影响了后来的Die Brücke和Der Blaue Reiter
+• 第一座女性艺术家专属博物馆：1927年Paula Modersohn-Becker Museum在不来梅成立
+• 现代母性图像：重新定义了艺术中的母性表现，影响至今`,
+    
+    significance: `Modersohn-Becker只活了31年，但她的作品改变了女性在艺术史中的位置。
+
+她证明了女性可以是创作者而非仅仅是被创作的对象；身体可以是力量的源泉而非羞耻的来源；自画像可以是自我宣言而非自恋的展示。
+
+诗人Rainer Maria Rilke——她的朋友——在她去世后写道："没有人比她更接近成为我们这个时代的伟大艺术家。"`,
+
+    dateConnection_en: 'On February 8, 1876, Paula Modersohn-Becker was born in Dresden, Germany. She was a pioneer of Expressionism and the first known female painter in art history to create nude self-portraits.',
+    
+    designerBio_en: `Paula Modersohn-Becker (1876-1907), German Expressionist painter who created over 700 paintings and more than 1,000 drawings.
+
+She began her artistic career in the Worpswede artists' colony but soon found its traditional landscape painting could not satisfy her artistic ambitions. She traveled to Paris four times, studying the works of Cézanne, Gauguin, and Les Nabis, developing a unique style of simplified forms and symbolic color.
+
+**"I am becoming somebody—I'm living the most intensively happy period of my life."**
+
+In 1906, she left her husband to go to Paris alone, where she created her most important works. In 1907, she died of a pulmonary embolism 18 days after giving birth, at just 31 years old.`,
+    
+    story_en: `This 1906 self-portrait is a milestone in art history.
+
+In the painting, Modersohn-Becker is bare-chested, her hands encircling her belly—suggesting pregnancy (though she was not pregnant at the time). She gazes directly at the viewer, without shyness, without concealment, without any of the "being-looked-at" poses traditional in female nude painting.
+
+**This is the first nude self-portrait created by a female painter.**
+
+This fact is stunning: in 1906, a female painter dared to present her own body so directly, and in a maternal—not sexual—way.
+
+She completed this painting in her Paris studio at a turning point in her life: having left her husband, living alone, focused on her work. The image conveys a quiet power and self-awareness.`,
+    
+    legacy_en: `• Feminist art pioneer: Broke the tradition of "woman as depicted object," women became narrators of their own bodies
+• Expressionism pioneer: Preceded the German Expressionist movement by several years, influencing later Die Brücke and Der Blaue Reiter
+• First museum dedicated to a female artist: Paula Modersohn-Becker Museum founded in Bremen in 1927
+• Modern maternal imagery: Redefined the representation of motherhood in art, influential to this day`,
+    
+    significance_en: `Modersohn-Becker lived only 31 years, but her work changed women's place in art history.
+
+She proved that women could be creators, not merely the created; that the body could be a source of power, not shame; that self-portraiture could be self-declaration, not narcissistic display.
+
+Poet Rainer Maria Rilke—her friend—wrote after her death: "No one came closer to becoming the great artist of our time than she did."`
+  },
+  {
+    id: '13',
+    date: '2026-02-09',
+    imageUrl: '/the-daily-object/images/frazetta-death-dealer.jpg',
+    thumbnailUrl: '/the-daily-object/images/frazetta-death-dealer.jpg',
+    title: 'Death Dealer',
+    subtitle: 'Frank Frazetta, 1973',
+    category: 'art',
+    designer: 'Frank Frazetta',
+    year: '1973',
+    
+    dateConnection: '1928年2月9日，Frank Frazetta 出生于纽约布鲁克林。他被称为"幻想艺术教父"，视觉定义了整个奇幻和科幻类型的美学。',
+    
+    designerBio: `Frank Frazetta (1928-2010)，美国艺术家，20世纪最具影响力的幻想艺术插画家。
+
+他8岁就进入布鲁克林美术学院学习，16岁开始画漫画。1960年代，他开始为平装书创作封面画，尤其是Robert E. Howard的"野蛮人柯南"系列。他的诠释彻底重新定义了剑与魔法类型的视觉语言。
+
+**"I didn't read any of it... I drew him my way. It was really rugged. And it caught on."**
+我没读那些书……我用我的方式画他。画得很粗犷。然后它就火了。
+
+他入选了威尔·艾斯纳漫画名人堂、杰克·科比名人堂、插画家协会名人堂和科幻名人堂。`,
+    
+    story: `1973年，Frazetta创作了《Death Dealer》——一个戴着角盔、骑在战马上的神秘战士，举着血淋淋的斧头。
+
+这幅画最初没有任何故事背景。它只是Frazetta脑海中的一个形象。
+
+**然后它引发了一个文化现象。**
+
+美国陆军第三军采用Death Dealer作为官方吉祥物。小说家创作了系列小说。电子游戏、重金属乐队、漫画书——无数创作者从这个形象中汲取灵感。
+
+Kirk Hammett（Metallica的吉他手）在2009年以100万美元买下了Frazetta的另一幅柯南画作。这证明了：在幻想艺术市场，Frazetta的原作是无价之宝。`,
+    
+    legacy: `• 幻想艺术定义者：他的风格定义了整个奇幻和科幻类型的视觉美学
+• 电影影响：《野蛮人柯南》《指环王》《权力的游戏》的视觉设计都受到他的深远影响
+• 原作市场：单幅原作售价可达数百万美元，是插画艺术市场的顶级藏品
+• 美学遗产：每一个画角斗士、野蛮人、女战士的艺术家都在他的影子下工作`,
+    
+    significance: `Frazetta证明了"通俗艺术"也可以是伟大艺术。
+
+他没有画博物馆里的静物或肖像。他画的是平装书封面、海报、唱片封套。但他的技艺——对人体解剖的理解、对光影的掌控、对动态构图的本能——不亚于任何古典大师。
+
+在他的笔下，肌肉是活的，阴影是危险的，每一个姿态都充满能量。他让"低俗"变得崇高。`,
+
+    dateConnection_en: 'On February 9, 1928, Frank Frazetta was born in Brooklyn, New York. He is called the "Godfather of Fantasy Art," having visually defined the aesthetic of the entire fantasy and science fiction genre.',
+    
+    designerBio_en: `Frank Frazetta (1928-2010), American artist and the most influential fantasy art illustrator of the 20th century.
+
+He entered the Brooklyn Academy of Fine Arts at age 8 and began drawing comics at 16. In the 1960s, he started creating paperback book covers, especially for Robert E. Howard's Conan the Barbarian series. His interpretation completely redefined the visual language of sword and sorcery.
+
+**"I didn't read any of it... I drew him my way. It was really rugged. And it caught on."**
+
+He was inducted into the Will Eisner Comic Book Hall of Fame, Jack Kirby Hall of Fame, Society of Illustrators Hall of Fame, and Science Fiction Hall of Fame.`,
+    
+    story_en: `In 1973, Frazetta created Death Dealer—a mysterious warrior in a horned helmet riding a war horse, wielding a bloody axe.
+
+This painting originally had no story behind it. It was just an image in Frazetta's mind.
+
+**Then it sparked a cultural phenomenon.**
+
+The U.S. Army III Corps adopted Death Dealer as its official mascot. Novelists created a book series. Video games, heavy metal bands, comic books—countless creators drew inspiration from this image.
+
+Kirk Hammett (Metallica's guitarist) bought another Frazetta Conan painting for $1 million in 2009. This proves: in the fantasy art market, Frazetta originals are priceless treasures.`,
+    
+    legacy_en: `• Fantasy art definer: His style defined the visual aesthetic of the entire fantasy and science fiction genre
+• Film influence: The visual design of Conan the Barbarian, Lord of the Rings, and Game of Thrones all bear his profound influence
+• Original art market: Single original paintings can sell for millions of dollars, top collectibles in the illustration art market
+• Aesthetic legacy: Every artist drawing gladiators, barbarians, and warrior women works in his shadow`,
+    
+    significance_en: `Frazetta proved that "popular art" can also be great art.
+
+He didn't paint still lifes or portraits for museums. He painted paperback covers, posters, album art. But his craftsmanship—his understanding of human anatomy, mastery of light and shadow, instinct for dynamic composition—rivaled any classical master.
+
+Under his brush, muscles are alive, shadows are dangerous, every pose bursting with energy. He made the "lowbrow" sublime.`
+  },
 ]
