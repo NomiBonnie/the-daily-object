@@ -28,8 +28,8 @@ export const designs: DesignObject[] = [
   {
     id: '7',
     date: '2026-02-13',
-    imageUrl: '/the-daily-object/images/panton-chair.jpg',
-    thumbnailUrl: '/the-daily-object/images/panton-chair.jpg',
+    imageUrl: '/the-daily-object/images/panton-chair.jpg?v=2',
+    thumbnailUrl: '/the-daily-object/images/panton-chair.jpg?v=2',
     title: 'Panton Chair',
     subtitle: 'Verner Panton, 1967',
     category: 'industrial',
