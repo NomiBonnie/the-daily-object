@@ -53,17 +53,7 @@ function App() {
 
   const renderDesignDetail = (design: DesignObject) => (
     <div className="space-y-8 lg:pt-8">
-      {/* Category & Date */}
-      <div className="space-y-2">
-        <p className="text-xs font-medium tracking-[0.2em] uppercase text-amber-600 dark:text-amber-400">
-          {categoryLabels[design.category]}
-        </p>
-        <p className="text-xs font-light tracking-[0.15em] uppercase text-neutral-400 dark:text-neutral-500">
-          {format(new Date(design.date), 'MMMM dd, yyyy')}
-        </p>
-      </div>
-
-      {/* Title & Subtitle */}
+      {/* Title */}
       <div className="space-y-3">
         <h2 className="text-4xl sm:text-5xl font-light tracking-tight text-neutral-900 dark:text-neutral-100 leading-tight">
           {design.title}
@@ -73,6 +63,16 @@ function App() {
             {design.subtitle}
           </p>
         )}
+      </div>
+
+      {/* Category & Date - moved below title */}
+      <div className="space-y-2">
+        <p className="text-xs font-medium tracking-[0.2em] uppercase text-amber-600 dark:text-amber-400">
+          {categoryLabels[design.category]}
+        </p>
+        <p className="text-xs font-light tracking-[0.15em] uppercase text-neutral-400 dark:text-neutral-500">
+          {format(new Date(design.date), 'MMMM dd, yyyy')}
+        </p>
       </div>
 
       {/* Why Today */}
