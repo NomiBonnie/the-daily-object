@@ -108,8 +108,8 @@ function App() {
     
     return (
     <div className="space-y-8">
-      {/* Title */}
-      <div className="space-y-2">
+      {/* Group 1: Title + Designer (subtitle) */}
+      <div className="space-y-1">
         <h2 className="text-4xl sm:text-5xl font-light tracking-tight text-neutral-900 dark:text-neutral-100 leading-tight">
           {design.title}
         </h2>
@@ -120,15 +120,15 @@ function App() {
         )}
       </div>
 
-      {/* Designer - Category */}
-      <p className="text-xs font-medium tracking-[0.2em] uppercase text-amber-600 dark:text-amber-400">
-        {categoryLabels[design.category]}
-      </p>
-
-      {/* Date */}
-      <p className="text-xs font-light tracking-[0.15em] uppercase text-neutral-400 dark:text-neutral-500">
-        {format(new Date(design.date), 'MMMM dd, yyyy')}
-      </p>
+      {/* Group 2: Category + Date */}
+      <div className="space-y-1">
+        <p className="text-xs font-medium tracking-[0.2em] uppercase text-amber-600 dark:text-amber-400">
+          {categoryLabels[design.category]}
+        </p>
+        <p className="text-xs font-light tracking-[0.15em] uppercase text-neutral-400 dark:text-neutral-500">
+          {format(new Date(design.date), 'MMMM dd, yyyy')}
+        </p>
+      </div>
 
       {/* Image */}
       {showImage && (
@@ -141,8 +141,8 @@ function App() {
         </div>
       )}
 
-      {/* 1. The Story of Design */}
-      <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
+      {/* 1. The Story of Design - no top border after image */}
+      <div>
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
           The Story of Design
         </p>
@@ -177,7 +177,7 @@ function App() {
         </div>
       )}
 
-      {/* 5. Why Today - 放最后 */}
+      {/* 5. Why Today */}
       <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
           Why Today
