@@ -52,9 +52,9 @@ function App() {
   }
 
   const renderDesignDetail = (design: DesignObject) => (
-    <div className="space-y-8 lg:pt-8">
+    <div className="space-y-10 pt-8 lg:pt-8">
       {/* Title */}
-      <div className="space-y-3">
+      <div className="space-y-4">
         <h2 className="text-4xl sm:text-5xl font-light tracking-tight text-neutral-900 dark:text-neutral-100 leading-tight">
           {design.title}
         </h2>
@@ -76,8 +76,8 @@ function App() {
       </div>
 
       {/* 1. The Story of Design */}
-      <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800">
-        <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-3">
+      <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
+        <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
           The Story of Design
         </p>
         <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300 whitespace-pre-line">
@@ -86,8 +86,8 @@ function App() {
       </div>
 
       {/* 2. The Designer */}
-      <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800">
-        <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-3">
+      <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
+        <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
           The Designer
         </p>
         <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300 whitespace-pre-line">
@@ -97,8 +97,8 @@ function App() {
 
       {/* 3. Legacy */}
       {design.legacy && (
-        <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800">
-          <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-3">
+        <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
+          <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
             Legacy
           </p>
           <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300 whitespace-pre-line">
@@ -109,8 +109,8 @@ function App() {
 
       {/* 4. Significance */}
       {design.significance && (
-        <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800">
-          <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-3">
+        <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
+          <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
             Significance
           </p>
           <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300 whitespace-pre-line">
@@ -120,8 +120,8 @@ function App() {
       )}
 
       {/* 5. Why Today - 放最后 */}
-      <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800">
-        <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-3">
+      <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
+        <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
           Why Today
         </p>
         <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300">
