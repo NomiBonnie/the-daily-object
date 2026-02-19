@@ -29,8 +29,8 @@ export const designs: DesignObject[] = [
   {
     id: '1',
     date: '2026-02-19',
-    imageUrl: 'https://images.unsplash.com/photo-1578926375605-eaf7559b1458?w=800&q=80',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1578926375605-eaf7559b1458?w=400&q=80',
+    imageUrl: '/the-daily-object/images/bird-in-space.png',
+    thumbnailUrl: '/the-daily-object/images/bird-in-space.png',
     title: 'Bird in Space',
     subtitle: 'Constantin Brâncuși, 1923',
     category: 'art',
