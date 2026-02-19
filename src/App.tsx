@@ -3,7 +3,7 @@ import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css'
 import { format } from 'date-fns'
 import { designs, type DesignObject } from './data'
-import { Moon, Sun, ChevronLeft, ChevronRight, Globe } from 'lucide-react'
+import { Moon, Sun, ChevronLeft, ChevronRight } from 'lucide-react'
 
 type View = 'today' | 'archive'
 type Language = 'zh' | 'en'
@@ -246,15 +246,17 @@ function App() {
               {/* Language Toggle */}
               <button
                 onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}
-                className="p-2 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+                className="w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
                 aria-label="Toggle language"
               >
-                <Globe className="w-4 h-4 sm:w-5 sm:h-5 text-neutral-600 dark:text-neutral-400" />
+                <span className="text-xs sm:text-sm font-light text-neutral-600 dark:text-neutral-400">
+                  {lang === 'zh' ? 'EN' : 'CN'}
+                </span>
               </button>
 
               <button
                 onClick={() => setDarkMode(!darkMode)}
-                className="p-2 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+                className="w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
                 aria-label="Toggle dark mode"
               >
                 {darkMode ? (
