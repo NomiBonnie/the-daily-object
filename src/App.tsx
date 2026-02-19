@@ -101,7 +101,7 @@ function App() {
     setTimeout(() => {
       const contentArea = document.getElementById('design-content')
       if (contentArea) {
-        const headerHeight = 100 // header + padding
+        const headerHeight = 130 // header + comfortable padding
         const elementTop = contentArea.getBoundingClientRect().top + window.scrollY
         window.scrollTo({ top: elementTop - headerHeight, behavior: 'smooth' })
       }
