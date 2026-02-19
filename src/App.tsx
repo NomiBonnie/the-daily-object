@@ -7,6 +7,32 @@ import { Moon, Sun } from 'lucide-react'
 
 type View = 'today' | 'archive'
 
+// Simple markdown bold renderer
+const renderMarkdown = (text: string) => {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g)
+  return parts.map((part, i) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={i} className="font-medium text-neutral-900 dark:text-neutral-100">{part.slice(2, -2)}</strong>
+    }
+    return part
+  })
+}
+
+// Render text with markdown bold and preserve line breaks
+const RenderText = ({ text, className }: { text: string; className?: string }) => {
+  const lines = text.split('\n')
+  return (
+    <p className={className}>
+      {lines.map((line, i) => (
+        <span key={i}>
+          {renderMarkdown(line)}
+          {i < lines.length - 1 && <br />}
+        </span>
+      ))}
+    </p>
+  )
+}
+
 const categoryLabels: Record<DesignObject['category'], string> = {
   industrial: 'Industrial Design',
   software: 'Software & UI',
@@ -80,9 +106,7 @@ function App() {
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
           The Story of Design
         </p>
-        <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300 whitespace-pre-line">
-          {design.story}
-        </p>
+        <RenderText text={design.story} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
 
       {/* 2. The Designer */}
@@ -90,9 +114,7 @@ function App() {
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
           The Designer
         </p>
-        <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300 whitespace-pre-line">
-          {design.designerBio}
-        </p>
+        <RenderText text={design.designerBio} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
 
       {/* 3. Legacy */}
@@ -101,9 +123,7 @@ function App() {
           <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
             Legacy
           </p>
-          <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300 whitespace-pre-line">
-            {design.legacy}
-          </p>
+          <RenderText text={design.legacy} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
         </div>
       )}
 
@@ -113,9 +133,7 @@ function App() {
           <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
             Significance
           </p>
-          <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300 whitespace-pre-line">
-            {design.significance}
-          </p>
+          <RenderText text={design.significance} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
         </div>
       )}
 
@@ -124,9 +142,7 @@ function App() {
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
           Why Today
         </p>
-        <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300">
-          {design.dateConnection}
-        </p>
+        <RenderText text={design.dateConnection} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
     </div>
   )
