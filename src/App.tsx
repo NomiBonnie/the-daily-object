@@ -3,7 +3,7 @@ import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css'
 import { format } from 'date-fns'
 import { designs, type DesignObject } from './data'
-import { Moon, Sun, ChevronLeft, ChevronRight } from 'lucide-react'
+import { Moon, Sun, ChevronLeft, ChevronRight, Globe } from 'lucide-react'
 
 type View = 'today' | 'archive'
 type Language = 'zh' | 'en'
@@ -249,9 +249,7 @@ function App() {
                 className="p-2 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
                 aria-label="Toggle language"
               >
-                <span className="text-xs sm:text-sm font-light text-neutral-600 dark:text-neutral-400">
-                  {lang === 'zh' ? 'EN' : '中'}
-                </span>
+                <Globe className="w-4 h-4 sm:w-5 sm:h-5 text-neutral-600 dark:text-neutral-400" />
               </button>
 
               <button
@@ -269,7 +267,7 @@ function App() {
               <nav className="flex gap-0.5 bg-neutral-100 dark:bg-neutral-800 rounded-full p-0.5">
                 <button
                   onClick={() => setView('today')}
-                  className={`px-3 sm:px-5 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-light tracking-wide transition-all ${
+                  className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-light tracking-wide transition-all ${
                     view === 'today'
                       ? 'bg-white dark:bg-neutral-700 text-neutral-900 dark:text-neutral-100 shadow-sm'
                       : 'text-neutral-500 dark:text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-300'
@@ -279,7 +277,7 @@ function App() {
                 </button>
                 <button
                   onClick={() => setView('archive')}
-                  className={`px-3 sm:px-5 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-light tracking-wide transition-all ${
+                  className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-light tracking-wide transition-all ${
                     view === 'archive'
                       ? 'bg-white dark:bg-neutral-700 text-neutral-900 dark:text-neutral-100 shadow-sm'
                       : 'text-neutral-500 dark:text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-300'
