@@ -347,7 +347,7 @@ function App() {
       <footer className="border-t border-neutral-200 dark:border-neutral-800 py-8 px-6 sm:px-8">
         <div className="max-w-screen-xl mx-auto text-center">
           <p className="text-xs font-light tracking-wide text-neutral-400 dark:text-neutral-600">
-            Curated by NOMI • World-class design, one object at a time
+            Sanono Studio • World-class design, one object at a time
           </p>
         </div>
       </footer>
