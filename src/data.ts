@@ -5,7 +5,7 @@ export interface DesignObject {
   thumbnailUrl?: string
   title: string
   subtitle?: string // 设计师 + 年份
-  category: 'industrial' | 'software' | 'music' | 'art' | 'architecture'
+  category: 'industrial' | 'music' | 'art' | 'architecture'
   designer: string
   year?: string
   
@@ -28,68 +28,84 @@ export const designs: DesignObject[] = [
   {
     id: '10',
     date: '2026-02-10',
-    imageUrl: '/the-daily-object/images/deep-blue.jpg',
-    thumbnailUrl: '/the-daily-object/images/deep-blue.jpg',
-    title: 'Deep Blue',
-    subtitle: 'IBM, 1996',
-    category: 'software',
-    designer: 'IBM Research Team',
-    year: '1996',
+    imageUrl: '/the-daily-object/images/up-chair.jpg',
+    thumbnailUrl: '/the-daily-object/images/up-chair.jpg',
+    title: 'UP5 & UP6',
+    subtitle: 'Gaetano Pesce, 1969',
+    category: 'industrial',
+    designer: 'Gaetano Pesce',
+    year: '1969',
     
-    dateConnection: '1996年2月10日，IBM Deep Blue 成为首个在标准比赛规则下击败在位世界棋王的计算机——尽管卡斯帕罗夫最终赢得了那场六局比赛。',
+    dateConnection: '1969年，UP Series 在米兰家具展首次亮相，彻底颠覆了人们对家具的认知。Gaetano Pesce (1939-2024) 是20世纪最激进的意大利设计师之一，2024年4月在纽约去世，留下了半个世纪的设计革命遗产。',
     
-    designerBio: `Deep Blue 由 IBM Research 团队开发，核心成员包括 Feng-hsiung Hsu（许峰雄）、Murray Campbell 和 Joseph Hoane。
+    designerBio: `Gaetano Pesce (1939-2024)，意大利建筑师、设计师，20世纪设计先驱。
 
-许峰雄从 1985 年在卡内基梅隆大学就开始研究国际象棋计算机，最初名为 "ChipTest"，后来演变为 "Deep Thought"，最终在 IBM 成为 Deep Blue。
+他在威尼斯大学跟随 Carlo Scarpa 和 Ernesto Rogers 学习建筑，但他的野心远不止于建筑。他要让设计成为**社会评论的工具**——每一件作品都有话要说。
 
-**"The goal was never to prove machines are smarter than humans. It was to explore the boundaries of computation."**
-目标从来不是证明机器比人聪明，而是探索计算的边界。`,
+**"Design should not be about beauty alone. It should provoke thought, create discourse, make people uncomfortable if necessary."**
+设计不应该只关乎美。它应该引发思考、创造对话，必要时让人不安。
+
+他的作品被 MoMA、蓬皮杜中心、V&A 博物馆永久收藏。`,
     
-    story: `1996年2月10日，费城，Deep Blue 在第一局击败了加里·卡斯帕罗夫。这是历史上第一次计算机在标准比赛条件下战胜世界冠军。
+    story: `1969年，米兰家具展。Pesce 展示了一系列真空包装的家具——打开包装，聚氨酯泡沫在几分钟内膨胀成完整的椅子。
 
-当时的 Deep Blue 每秒可以评估 2 亿个棋位。它不是"理解"国际象棋——它用**暴力计算**碾压人类的直觉。
+其中最震撼的是 UP5——一个丰腴的女性躯干形态，旁边连着一个球形脚凳 UP6。
 
-卡斯帕罗夫最终以 4-2 赢得了那场比赛。但他说了一句话：**"我在机器的棋步中看到了智慧和创造力。"**
+**这不是抽象的曲线，这是一个被囚禁的女人。**
 
-一年后的复赛，升级版 Deep Blue 以 3.5-2.5 击败卡斯帕罗夫。比赛结束后，卡斯帕罗夫要求查看机器的日志，被 IBM 拒绝。争议至今未解。
+Pesce 公开解释：UP5 象征女性，UP6 是她脚上的球和链——代表社会对女性的束缚。椅子的名字曾被称为 "La Mamma"、"Donna"、"Big Mama"。
 
-但那一刻，某种东西永远改变了：**人类不再是所有智力游戏的绝对霸主。**`,
+评论家震惊了。这是家具还是宣言？是产品还是艺术品？是舒适还是挑衅？
+
+**答案是：全都是。**
+
+这把椅子定义了意大利激进设计运动，证明家具可以承载政治信息。`,
     
-    legacy: `• AI 里程碑：证明了专用硬件 + 算法可以在特定领域超越人类专家
-• 计算机科学史：启发了后来的 Watson、AlphaGo 等 AI 项目
-• 人机关系思考：引发了关于"机器智能"本质的哲学讨论
-• 企业 AI 竞赛：开创了科技公司用 AI 挑战人类的 PR 模式`,
+    legacy: `• 激进设计运动：与 Superstudio、Archizoom 一起定义了60年代末意大利设计的反叛精神
+• 女性主义设计：最早将性别政治明确融入家具设计的作品之一
+• 包装创新：真空压缩包装是当时的技术突破，影响了后来 IKEA 的平板包装理念
+• 博物馆典藏：MoMA、V&A、蓬皮杜中心永久收藏，成为20世纪设计史的标志`,
     
-    significance: `Deep Blue 不是"人工智能"——它不学习、不思考、不创造。它只是非常非常快地计算。
+    significance: `Pesce 证明了设计可以是激进的、政治的、不舒服的——同时仍然是美的。
 
-但它证明了一个关键点：在某些领域，"思考"可能根本不需要。纯粹的计算力可以产生看起来像智慧的结果。这个洞见，定义了之后三十年 AI 发展的方向。`,
+UP5 坐起来令人惊讶地舒适。它包裹着你，像一个拥抱。但每次你坐下，你都被迫想起它的含义。这就是 Pesce 的天才：**他让批判变得亲密，让政治变得家常。**
 
-    dateConnection_en: 'On February 10, 1996, IBM\'s Deep Blue became the first computer to win a game against a reigning world chess champion under standard tournament rules—though Kasparov ultimately won that six-game match.',
+在他2024年去世后，设计界失去了最后一位敢于说"设计不只是解决问题"的大师。`,
+
+    dateConnection_en: 'In 1969, the UP Series debuted at the Milan Furniture Fair, completely revolutionizing how people perceived furniture. Gaetano Pesce (1939-2024) was one of the most radical Italian designers of the 20th century, passing away in New York in April 2024, leaving behind half a century of design revolution.',
     
-    designerBio_en: `Deep Blue was developed by IBM Research, with core team members including Feng-hsiung Hsu, Murray Campbell, and Joseph Hoane.
+    designerBio_en: `Gaetano Pesce (1939-2024), Italian architect and designer, a 20th-century design pioneer.
 
-Hsu began working on chess computers at Carnegie Mellon University in 1985, starting with "ChipTest," evolving into "Deep Thought," and finally becoming Deep Blue at IBM.
+He studied architecture at the University of Venice under Carlo Scarpa and Ernesto Rogers, but his ambitions went far beyond architecture. He wanted design to be **a tool for social commentary**—every piece had something to say.
 
-**"The goal was never to prove machines are smarter than humans. It was to explore the boundaries of computation."**`,
+**"Design should not be about beauty alone. It should provoke thought, create discourse, make people uncomfortable if necessary."**
+
+His works are in the permanent collections of MoMA, Centre Pompidou, and the V&A Museum.`,
     
-    story_en: `February 10, 1996, Philadelphia. Deep Blue defeated Garry Kasparov in Game 1. This was the first time in history that a computer beat a world champion under standard match conditions.
+    story_en: `1969, Milan Furniture Fair. Pesce unveiled a series of vacuum-packed furniture—open the package, and polyurethane foam expands into a complete chair within minutes.
 
-The Deep Blue of that era could evaluate 200 million positions per second. It didn't "understand" chess—it crushed human intuition with **brute force calculation**.
+The most stunning was UP5—a voluptuous female torso shape, connected to a ball-shaped ottoman, UP6.
 
-Kasparov won the match 4-2. But he said something telling: **"I saw intelligence and creativity in the machine's moves."**
+**This wasn't an abstract curve. This was an imprisoned woman.**
 
-A year later in the rematch, an upgraded Deep Blue won 3.5-2.5. After the match, Kasparov demanded to see the machine's logs. IBM refused. The controversy continues today.
+Pesce publicly explained: UP5 symbolizes woman, UP6 is the ball and chain at her feet—representing society's constraints on women. The chair has been called "La Mamma," "Donna," "Big Mama."
 
-But something changed forever in that moment: **humans were no longer the absolute masters of all intellectual games.**`,
+Critics were stunned. Was this furniture or manifesto? Product or artwork? Comfort or provocation?
+
+**The answer: all of the above.**
+
+This chair defined the Italian Radical Design movement, proving furniture could carry political messages.`,
     
-    legacy_en: `• AI milestone: Proved specialized hardware + algorithms could surpass human experts in specific domains
-• Computer science history: Inspired later AI projects like Watson and AlphaGo
-• Human-machine relations: Sparked philosophical debates about the nature of "machine intelligence"
-• Corporate AI competition: Pioneered the tech company PR model of challenging humans with AI`,
+    legacy_en: `• Radical Design movement: Alongside Superstudio and Archizoom, defined the rebellious spirit of late-60s Italian design
+• Feminist design: One of the first works to explicitly integrate gender politics into furniture design
+• Packaging innovation: Vacuum compression packaging was a technological breakthrough, influencing IKEA's later flat-pack concept
+• Museum collections: Permanently housed in MoMA, V&A, Centre Pompidou—icons of 20th-century design history`,
     
-    significance_en: `Deep Blue wasn't "artificial intelligence"—it didn't learn, think, or create. It just calculated very, very fast.
+    significance_en: `Pesce proved that design can be radical, political, uncomfortable—while still being beautiful.
 
-But it proved a crucial point: in some domains, "thinking" might not be necessary at all. Pure computational power can produce results that look like intelligence. This insight defined the direction of AI development for the next thirty years.`
+UP5 is surprisingly comfortable to sit in. It wraps around you like an embrace. But every time you sit down, you're forced to consider its meaning. This was Pesce's genius: **he made critique intimate, made politics domestic.**
+
+After his death in 2024, the design world lost its last master who dared to say "design is not just problem-solving."`
   },
   {
     id: '9',
