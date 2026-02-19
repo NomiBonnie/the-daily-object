@@ -97,8 +97,10 @@ function App() {
     if (view === 'today') {
       setView('archive')
     }
-    // Scroll to top
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    // Scroll to top after state update
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }, 50)
   }
 
   const renderDesignDetail = (design: DesignObject) => {
