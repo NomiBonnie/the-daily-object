@@ -238,9 +238,15 @@ function App() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-neutral-900/80 backdrop-blur-xl border-b border-neutral-200 dark:border-neutral-800">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-8 py-3">
           <div className="flex items-center justify-between">
-            <h1 className="text-base sm:text-xl font-light tracking-wide text-neutral-900 dark:text-neutral-100 whitespace-nowrap">
+            <button
+              onClick={() => {
+                setView('today')
+                window.scrollTo({ top: 0, behavior: 'smooth' })
+              }}
+              className="text-base sm:text-xl font-light tracking-wide text-neutral-900 dark:text-neutral-100 whitespace-nowrap hover:opacity-70 transition-opacity"
+            >
               THE DAILY OBJECT
-            </h1>
+            </button>
             
             <div className="flex items-center gap-1 sm:gap-3">
               {/* Language Toggle */}
@@ -268,7 +274,10 @@ function App() {
 
               <nav className="flex gap-0.5 bg-neutral-100 dark:bg-neutral-800 rounded-full p-0.5">
                 <button
-                  onClick={() => setView('today')}
+                  onClick={() => {
+                    setView('today')
+                    window.scrollTo({ top: 0, behavior: 'smooth' })
+                  }}
                   className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-light tracking-wide transition-all ${
                     view === 'today'
                       ? 'bg-white dark:bg-neutral-700 text-neutral-900 dark:text-neutral-100 shadow-sm'
