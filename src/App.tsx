@@ -97,11 +97,13 @@ function App() {
     if (view === 'today') {
       setView('archive')
     }
-    // Scroll to content area (hide calendar, show design)
+    // Scroll to content area with offset for fixed header
     setTimeout(() => {
       const contentArea = document.getElementById('design-content')
       if (contentArea) {
-        contentArea.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        const headerHeight = 100 // header + padding
+        const elementTop = contentArea.getBoundingClientRect().top + window.scrollY
+        window.scrollTo({ top: elementTop - headerHeight, behavior: 'smooth' })
       }
     }, 50)
   }
