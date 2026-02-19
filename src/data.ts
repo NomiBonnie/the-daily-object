@@ -26,6 +26,216 @@ export interface DesignObject {
 
 export const designs: DesignObject[] = [
   {
+    id: '7',
+    date: '2026-02-13',
+    imageUrl: '/the-daily-object/images/panton-chair.jpg',
+    thumbnailUrl: '/the-daily-object/images/panton-chair.jpg',
+    title: 'Panton Chair',
+    subtitle: 'Verner Panton, 1967',
+    category: 'industrial',
+    designer: 'Verner Panton',
+    year: '1967',
+    
+    dateConnection: '2月13日是 Verner Panton 的生日（1926年）。他是丹麦最激进的家具设计师，用塑料颠覆了北欧设计的传统美学。',
+    
+    designerBio: `Verner Panton (1926-1998)，丹麦设计师，20世纪最具实验性的家具设计师之一。
+
+他曾在 Arne Jacobsen 工作室工作，但很快走上了完全不同的道路。北欧设计讲究木头、自然、克制；他偏要用塑料、曲线、色彩爆炸。
+
+**"A less successful experiment is preferable to a beautiful platitude."**
+一个不太成功的实验，也比一句漂亮的陈词滥调好。
+
+他设计的空间像迷幻药一样刺激——天花板、墙壁、地板全部是有机曲线，色彩饱和到让人窒息。`,
+    
+    story: `Panton Chair 是历史上**第一把用单一材料一次成型的椅子**。
+
+从 1960 年开始，Panton 就想做一把没有腿的椅子——一个连续的 S 曲线，从地面流向座面再到靠背。概念很简单，执行却极难。
+
+他找了十几家厂商，都说做不出来。直到 1967 年，Vitra 终于用新型塑料注塑工艺实现了这个设计。
+
+**一把椅子，没有一个接缝、一颗螺丝。**
+
+它挑战了"椅子应该长什么样"的所有假设。可以叠放、可以户外使用、可以是任何颜色。年轻人把它当成反叛的符号。`,
+    
+    legacy: `• 塑料家具革命：证明塑料可以是高端材料，不只是"廉价替代品"
+• 一体成型设计：影响了后来所有的模块化、可堆叠家具设计
+• MoMA 永久收藏：成为 20 世纪设计史的标志性作品
+• 色彩运用：打破了北欧设计"黑白灰原木"的刻板印象`,
+    
+    significance: `Panton 证明了设计可以是纯粹的乐趣。
+
+在一个讲究功能、理性、克制的时代，他说：设计也可以是情绪、是色彩、是让人微笑的曲线。这把椅子不仅坐起来舒服，看起来就让人开心。`,
+
+    dateConnection_en: 'February 13 is Verner Panton\'s birthday (1926). He was Denmark\'s most radical furniture designer, using plastic to subvert traditional Scandinavian design aesthetics.',
+    
+    designerBio_en: `Verner Panton (1926-1998), Danish designer, one of the most experimental furniture designers of the 20th century.
+
+He worked at Arne Jacobsen's studio but soon took a completely different path. Nordic design emphasized wood, nature, and restraint; he insisted on plastic, curves, and color explosions.
+
+**"A less successful experiment is preferable to a beautiful platitude."**
+
+His designed spaces were like psychedelic trips—ceilings, walls, floors all organic curves, colors saturated to suffocation.`,
+    
+    story_en: `The Panton Chair is **the first chair in history molded from a single material in one piece**.
+
+Starting in 1960, Panton wanted to make a chair without legs—a continuous S-curve flowing from floor to seat to backrest. The concept was simple; execution was extremely difficult.
+
+He approached dozens of manufacturers; all said it couldn't be done. Finally in 1967, Vitra achieved the design using new plastic injection molding technology.
+
+**One chair, not a single seam, not a single screw.**
+
+It challenged every assumption about "what a chair should look like." Stackable, outdoor-friendly, available in any color. Young people adopted it as a symbol of rebellion.`,
+    
+    legacy_en: `• Plastic furniture revolution: Proved plastic could be a premium material, not just a "cheap substitute"
+• One-piece molding design: Influenced all subsequent modular, stackable furniture design
+• MoMA permanent collection: Became an iconic work of 20th-century design history
+• Color application: Broke the Scandinavian design stereotype of "black, white, gray, and wood"`,
+    
+    significance_en: `Panton proved that design can be pure joy.
+
+In an era obsessed with function, rationality, and restraint, he said: design can also be emotion, color, curves that make people smile. This chair isn't just comfortable to sit in—it's happy just to look at.`
+  },
+  {
+    id: '6',
+    date: '2026-02-14',
+    imageUrl: '/the-daily-object/images/i-love-ny.jpg',
+    thumbnailUrl: '/the-daily-object/images/i-love-ny.jpg',
+    title: 'I ♥ NY',
+    subtitle: 'Milton Glaser, 1977',
+    category: 'art',
+    designer: 'Milton Glaser',
+    year: '1977',
+    
+    dateConnection: '2月14日是情人节。而 I ♥ NY 是设计史上最著名的"爱"的表达——用一个符号代替了一个词，改变了视觉传达的语言。',
+    
+    designerBio: `Milton Glaser (1929-2020)，美国平面设计师，被称为"美国平面设计之父"。
+
+他联合创办了 Push Pin Studios，重新定义了插画和平面设计的关系。他设计了 Bob Dylan 那张迷幻的彩虹海报、DC Comics 的 logo、Brooklyn Brewery 的 logo。
+
+**"There are three responses to a piece of design — yes, no, and WOW! Wow is the one to aim for."**
+设计有三种反应——行、不行、哇！我们追求的是"哇！"。
+
+他一直工作到 91 岁去世。`,
+    
+    story: `1977年，纽约市快破产了。犯罪率飙升，市政府没钱，没人想来旅游。
+
+纽约州商务局找到广告公司做个宣传标语。Glaser 在出租车后座，用红蜡笔在信封背面画了一个草图：**I ♥ NY**。
+
+他用一个红心符号替代了"love"这个词——这在当时是革命性的。没人这样做过。
+
+他免费把这个设计给了纽约州，没收一分钱版税。这个 logo 现在每年为纽约创造数十亿美元的旅游收入。
+
+**全世界最被复制、最被恶搞的 logo，诞生于一个信封背面。**`,
+    
+    legacy: `• 视觉语言革命：开创了"用符号替代词汇"的设计手法，影响了 emoji 时代
+• 城市品牌先驱：证明了一个城市可以像一个品牌一样被设计和推广
+• 免费设计的力量：没有版权保护反而让它无处不在，成为真正的文化符号
+• 9/11 后的变体："I ♥ NY More Than Ever"（心上有个伤疤）成为城市韧性的象征`,
+    
+    significance: `Glaser 证明了最简单的设计可能是最强大的。
+
+三个字母、一个符号、两种颜色。任何人都能画出来，任何人都能理解。这就是伟大设计的定义——它属于所有人。`,
+
+    dateConnection_en: 'February 14 is Valentine\'s Day. And I ♥ NY is design history\'s most famous expression of "love"—using a symbol to replace a word, changing the language of visual communication.',
+    
+    designerBio_en: `Milton Glaser (1929-2020), American graphic designer, often called the "Father of American Graphic Design."
+
+He co-founded Push Pin Studios, redefining the relationship between illustration and graphic design. He designed Bob Dylan's psychedelic rainbow poster, the DC Comics logo, and Brooklyn Brewery's logo.
+
+**"There are three responses to a piece of design — yes, no, and WOW! Wow is the one to aim for."**
+
+He worked until his death at 91.`,
+    
+    story_en: `In 1977, New York City was nearly bankrupt. Crime rates soared, the city had no money, no one wanted to visit.
+
+The New York State Commerce Department asked an ad agency for a promotional slogan. Glaser, in the back of a taxi, sketched on the back of an envelope with a red crayon: **I ♥ NY**.
+
+He replaced the word "love" with a red heart symbol—revolutionary at the time. No one had done this before.
+
+He gave the design to New York State for free, without any royalties. This logo now generates billions in tourism revenue for New York annually.
+
+**The world's most copied, most parodied logo, born on the back of an envelope.**`,
+    
+    legacy_en: `• Visual language revolution: Pioneered "replacing words with symbols" in design, influencing the emoji era
+• City branding pioneer: Proved a city could be designed and promoted like a brand
+• The power of free design: Lack of copyright protection made it ubiquitous, a true cultural symbol
+• Post-9/11 variant: "I ♥ NY More Than Ever" (heart with a scar) became a symbol of city resilience`,
+    
+    significance_en: `Glaser proved that the simplest design can be the most powerful.
+
+Three letters, one symbol, two colors. Anyone can draw it, anyone can understand it. That's the definition of great design—it belongs to everyone.`
+  },
+  {
+    id: '5',
+    date: '2026-02-15',
+    imageUrl: '/the-daily-object/images/hope-poster.jpg',
+    thumbnailUrl: '/the-daily-object/images/hope-poster.jpg',
+    title: 'HOPE Poster',
+    subtitle: 'Shepard Fairey, 2008',
+    category: 'art',
+    designer: 'Shepard Fairey',
+    year: '2008',
+    
+    dateConnection: '2月15日是 Shepard Fairey 的生日（1970年）。他是当代最有影响力的街头艺术家，从滑板文化走向总统竞选视觉设计。',
+    
+    designerBio: `Shepard Fairey (1970-)，美国街头艺术家、平面设计师。
+
+他从罗德岛设计学院毕业后，开始了"OBEY Giant"运动——在全世界贴满安德烈巨人的脸和"OBEY"字样。这是对消费主义和服从文化的讽刺，也是他的签名符号。
+
+**"The medium is the message, but the message is also the medium."**
+媒介是信息，但信息也是媒介。
+
+他的作品混合了苏联宣传海报、朋克 zine、街头涂鸦的美学，创造出一种独特的视觉语言。`,
+    
+    story: `2008年美国总统大选，Fairey 自发为奥巴马设计了一张海报。没人委托他，没人付钱给他。
+
+他用了一张美联社的新闻照片作为参考，把它处理成**红白蓝三色的高对比图像**，下面只有一个词：HOPE。
+
+海报在网上疯传，成为整个竞选的视觉符号。奥巴马团队后来才官方采用它。
+
+这是互联网时代**第一个真正"病毒式"传播的政治设计**。它证明了：在社交媒体时代，一个草根艺术家可以定义一场运动的视觉身份。
+
+后来他因为照片版权问题被美联社起诉，最终和解。但这张海报已经成为历史。`,
+    
+    legacy: `• 政治设计民主化：证明竞选视觉不一定来自官方团队
+• 病毒式传播先驱：互联网时代设计传播的经典案例
+• 版权争议：引发了关于"transformative use"（转化性使用）的法律讨论
+• 模因模板：成为被模仿最多的政治海报格式`,
+    
+    significance: `HOPE 海报证明了设计可以改变政治。
+
+它把一个参议员变成了一个图标，把一场竞选变成了一场运动。在这之后，每个政治竞选都在寻找自己的"HOPE 时刻"。`,
+
+    dateConnection_en: 'February 15 is Shepard Fairey\'s birthday (1970). He is the most influential contemporary street artist, moving from skateboard culture to presidential campaign visual design.',
+    
+    designerBio_en: `Shepard Fairey (1970-), American street artist and graphic designer.
+
+After graduating from Rhode Island School of Design, he started the "OBEY Giant" campaign—plastering André the Giant's face and "OBEY" across the world. It was a satire of consumerism and obedience culture, and his signature symbol.
+
+**"The medium is the message, but the message is also the medium."**
+
+His work blends Soviet propaganda posters, punk zines, and street graffiti aesthetics, creating a unique visual language.`,
+    
+    story_en: `During the 2008 US presidential election, Fairey spontaneously designed a poster for Obama. No one commissioned him, no one paid him.
+
+He used an Associated Press news photo as reference, processing it into a **high-contrast red-white-blue image**, with just one word below: HOPE.
+
+The poster went viral online, becoming the visual symbol of the entire campaign. Obama's team only officially adopted it later.
+
+This was **the first truly "viral" political design of the internet age**. It proved that in the social media era, a grassroots artist could define a movement's visual identity.
+
+He was later sued by the AP over photo copyright, eventually settling. But the poster had already made history.`,
+    
+    legacy_en: `• Democratizing political design: Proved campaign visuals don't have to come from official teams
+• Viral spread pioneer: A classic case of design dissemination in the internet age
+• Copyright controversy: Sparked legal discussions about "transformative use"
+• Meme template: Became the most imitated political poster format`,
+    
+    significance_en: `The HOPE poster proved that design can change politics.
+
+It turned a senator into an icon, a campaign into a movement. After this, every political campaign has been searching for its own "HOPE moment."`
+  },
+  {
     id: '4',
     date: '2026-02-19',
     imageUrl: '/the-daily-object/images/bird-in-space.jpg',
