@@ -85,23 +85,23 @@ function App() {
         </p>
       </div>
 
-      {/* Designer Bio */}
-      <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800">
-        <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-3">
-          The Designer
-        </p>
-        <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300 whitespace-pre-line">
-          {design.designerBio}
-        </p>
-      </div>
-
-      {/* Story */}
+      {/* Story - 先讲作品 */}
       <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800">
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-3">
           The Story
         </p>
         <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300 whitespace-pre-line">
           {design.story}
+        </p>
+      </div>
+
+      {/* Designer Bio - 后讲设计师 */}
+      <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800">
+        <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-3">
+          The Designer
+        </p>
+        <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300 whitespace-pre-line">
+          {design.designerBio}
         </p>
       </div>
 
