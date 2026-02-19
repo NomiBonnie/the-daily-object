@@ -294,7 +294,7 @@ function App() {
       </header>
 
       {/* Main Content */}
-      <main className="pt-24 pb-12 px-6 sm:px-8">
+      <main className="pt-28 pb-12 px-6 sm:px-8">
         {view === 'today' ? (
           <div className="max-w-3xl mx-auto">
             {renderDesignDetail(todayDesign)}
