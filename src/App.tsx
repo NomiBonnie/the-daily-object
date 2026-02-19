@@ -144,9 +144,9 @@ function App() {
         </div>
       </div>
 
-      {/* Image */}
+      {/* Image - reduced top margin with mt-4 instead of space-y-6 */}
       {showImage && (
-        <div className="rounded-2xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 shadow-2xl">
+        <div className="rounded-2xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 shadow-2xl !mt-4">
           <img
             src={design.imageUrl}
             alt={design.title}
