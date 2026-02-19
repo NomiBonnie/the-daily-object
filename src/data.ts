@@ -728,8 +728,8 @@ Arco isn't showing off—it's solving a specific problem in the most elegant way
   {
     id: '11',
     date: '2026-02-07',
-    imageUrl: '/the-daily-object/images/pinocchio-1940.jpg',
-    thumbnailUrl: '/the-daily-object/images/pinocchio-1940.jpg',
+    imageUrl: '/the-daily-object/images/pinocchio-1940.jpg?v=2',
+    thumbnailUrl: '/the-daily-object/images/pinocchio-1940.jpg?v=2',
     title: 'Pinocchio',
     subtitle: 'Walt Disney Studios, 1940',
     category: 'art',
@@ -798,8 +798,8 @@ Every frame is a hand-drawn work of art. Looking back from the digital age, this
   {
     id: '12',
     date: '2026-02-08',
-    imageUrl: '/the-daily-object/images/modersohn-becker-self-portrait.jpg',
-    thumbnailUrl: '/the-daily-object/images/modersohn-becker-self-portrait.jpg',
+    imageUrl: '/the-daily-object/images/modersohn-becker-self-portrait.jpg?v=2',
+    thumbnailUrl: '/the-daily-object/images/modersohn-becker-self-portrait.jpg?v=2',
     title: 'Self-Portrait on the 6th Wedding Anniversary',
     subtitle: 'Paula Modersohn-Becker, 1906',
     category: 'art',
@@ -872,8 +872,8 @@ Poet Rainer Maria Rilke—her friend—wrote after her death: "No one came close
   {
     id: '13',
     date: '2026-02-09',
-    imageUrl: '/the-daily-object/images/frazetta-death-dealer.jpg',
-    thumbnailUrl: '/the-daily-object/images/frazetta-death-dealer.jpg',
+    imageUrl: '/the-daily-object/images/frazetta-death-dealer.jpg?v=2',
+    thumbnailUrl: '/the-daily-object/images/frazetta-death-dealer.jpg?v=2',
     title: 'Death Dealer',
     subtitle: 'Frank Frazetta, 1973',
     category: 'art',
