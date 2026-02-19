@@ -29,8 +29,8 @@ export const designs: DesignObject[] = [
   {
     id: '4',
     date: '2026-02-19',
-    imageUrl: '/the-daily-object/images/bird-in-space.png',
-    thumbnailUrl: '/the-daily-object/images/bird-in-space.png',
+    imageUrl: '/the-daily-object/images/bird-in-space.jpg',
+    thumbnailUrl: '/the-daily-object/images/bird-in-space.jpg',
     title: 'Bird in Space',
     subtitle: 'Constantin Brâncuși, 1923',
     category: 'art',
@@ -69,8 +69,8 @@ Brâncuși 说他雕刻的不是鸟的外形，而是**"飞翔的本质"**。
   {
     id: '3',
     date: '2026-02-18',
-    imageUrl: '/the-daily-object/images/tiffany-lamp.png',
-    thumbnailUrl: '/the-daily-object/images/tiffany-lamp.png',
+    imageUrl: '/the-daily-object/images/tiffany-lamp.jpg',
+    thumbnailUrl: '/the-daily-object/images/tiffany-lamp.jpg',
     title: 'Wisteria Lamp',
     subtitle: 'Louis Comfort Tiffany, 1901',
     category: 'art',
@@ -107,8 +107,8 @@ Brâncuși 说他雕刻的不是鸟的外形，而是**"飞翔的本质"**。
   {
     id: '2',
     date: '2026-02-17',
-    imageUrl: '/the-daily-object/images/vessel.png',
-    thumbnailUrl: '/the-daily-object/images/vessel.png',
+    imageUrl: '/the-daily-object/images/vessel.jpg',
+    thumbnailUrl: '/the-daily-object/images/vessel.jpg',
     title: 'Vessel',
     subtitle: 'Thomas Heatherwick, 2019',
     category: 'architecture',
@@ -145,8 +145,8 @@ Heatherwick 说：**"建筑太经常是关于'看'的，这个是关于'做'的�
   {
     id: '1',
     date: '2026-02-16',
-    imageUrl: '/the-daily-object/images/arco-lamp.png',
-    thumbnailUrl: '/the-daily-object/images/arco-lamp.png',
+    imageUrl: '/the-daily-object/images/arco-lamp.jpg',
+    thumbnailUrl: '/the-daily-object/images/arco-lamp.jpg',
     title: 'Arco Lamp',
     subtitle: 'Achille & Pier Giacomo Castiglioni, 1962',
     category: 'industrial',
