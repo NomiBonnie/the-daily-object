@@ -3,7 +3,7 @@ import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css'
 import { format } from 'date-fns'
 import { designs, type DesignObject } from './data'
-import { Moon, Sun } from 'lucide-react'
+import { Moon, Sun, ChevronLeft, ChevronRight } from 'lucide-react'
 
 type View = 'today' | 'archive'
 
@@ -77,7 +77,34 @@ function App() {
     setSelectedDate(date)
   }
 
-  const renderDesignDetail = (design: DesignObject) => (
+  // Get sorted designs by date
+  const sortedDesigns = [...designs].sort((a, b) => 
+    new Date(a.date).getTime() - new Date(b.date).getTime()
+  )
+
+  // Get prev/next design for a given design
+  const getAdjacentDesigns = (design: DesignObject) => {
+    const currentIndex = sortedDesigns.findIndex(d => d.date === design.date)
+    return {
+      prev: currentIndex > 0 ? sortedDesigns[currentIndex - 1] : null,
+      next: currentIndex < sortedDesigns.length - 1 ? sortedDesigns[currentIndex + 1] : null
+    }
+  }
+
+  // Navigate to a design
+  const navigateToDesign = (design: DesignObject) => {
+    setSelectedDate(new Date(design.date))
+    if (view === 'today') {
+      setView('archive')
+    }
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  const renderDesignDetail = (design: DesignObject) => {
+    const { prev, next } = getAdjacentDesigns(design)
+    
+    return (
     <div className="space-y-10 pt-8 lg:pt-8">
       {/* Title */}
       <div className="space-y-4">
@@ -144,8 +171,39 @@ function App() {
         </p>
         <RenderText text={design.dateConnection} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
+
+      {/* Prev / Next Navigation */}
+      <div className="pt-8 border-t border-neutral-200 dark:border-neutral-800">
+        <div className="flex items-center justify-between">
+          {prev ? (
+            <button
+              onClick={() => navigateToDesign(prev)}
+              className="flex items-center gap-2 text-sm font-light text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 transition-colors"
+            >
+              <ChevronLeft className="w-4 h-4" />
+              <span className="hidden sm:inline">{prev.title}</span>
+              <span className="sm:hidden">Prev</span>
+            </button>
+          ) : (
+            <div />
+          )}
+          {next ? (
+            <button
+              onClick={() => navigateToDesign(next)}
+              className="flex items-center gap-2 text-sm font-light text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 transition-colors"
+            >
+              <span className="hidden sm:inline">{next.title}</span>
+              <span className="sm:hidden">Next</span>
+              <ChevronRight className="w-4 h-4" />
+            </button>
+          ) : (
+            <div />
+          )}
+        </div>
+      </div>
     </div>
   )
+  }
 
   return (
     <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950 transition-colors duration-300">
