@@ -103,13 +103,13 @@ function App() {
     }, 50)
   }
 
-  const renderDesignDetail = (design: DesignObject) => {
+  const renderDesignDetail = (design: DesignObject, showImage: boolean = true) => {
     const { prev, next } = getAdjacentDesigns(design)
     
     return (
-    <div className="space-y-10 pt-8 lg:pt-8">
+    <div className="space-y-8">
       {/* Title */}
-      <div className="space-y-4">
+      <div className="space-y-2">
         <h2 className="text-4xl sm:text-5xl font-light tracking-tight text-neutral-900 dark:text-neutral-100 leading-tight">
           {design.title}
         </h2>
@@ -120,15 +120,26 @@ function App() {
         )}
       </div>
 
-      {/* Category & Date - moved below title */}
-      <div className="space-y-2">
-        <p className="text-xs font-medium tracking-[0.2em] uppercase text-amber-600 dark:text-amber-400">
-          {categoryLabels[design.category]}
-        </p>
-        <p className="text-xs font-light tracking-[0.15em] uppercase text-neutral-400 dark:text-neutral-500">
-          {format(new Date(design.date), 'MMMM dd, yyyy')}
-        </p>
-      </div>
+      {/* Designer - Category */}
+      <p className="text-xs font-medium tracking-[0.2em] uppercase text-amber-600 dark:text-amber-400">
+        {categoryLabels[design.category]}
+      </p>
+
+      {/* Date */}
+      <p className="text-xs font-light tracking-[0.15em] uppercase text-neutral-400 dark:text-neutral-500">
+        {format(new Date(design.date), 'MMMM dd, yyyy')}
+      </p>
+
+      {/* Image */}
+      {showImage && (
+        <div className="rounded-2xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 shadow-2xl">
+          <img
+            src={design.imageUrl}
+            alt={design.title}
+            className="w-full h-auto"
+          />
+        </div>
+      )}
 
       {/* 1. The Story of Design */}
       <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
@@ -260,24 +271,8 @@ function App() {
       {/* Main Content */}
       <main className="pt-32 pb-12 px-6 sm:px-8">
         {view === 'today' ? (
-          <div className="max-w-screen-xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-              {/* Image */}
-              <div className="lg:col-span-5">
-                <div className="rounded-2xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 shadow-2xl lg:sticky lg:top-24">
-                  <img
-                    src={todayDesign.imageUrl}
-                    alt={todayDesign.title}
-                    className="w-full h-auto"
-                  />
-                </div>
-              </div>
-
-              {/* Info */}
-              <div className="lg:col-span-7">
-                {renderDesignDetail(todayDesign)}
-              </div>
-            </div>
+          <div className="max-w-3xl mx-auto">
+            {renderDesignDetail(todayDesign)}
           </div>
         ) : (
           <div className="max-w-screen-xl mx-auto">
@@ -300,14 +295,7 @@ function App() {
               {/* Selected Design Preview */}
               <div className="lg:col-span-7">
                 {selectedDesign ? (
-                  <div className="space-y-8">
-                    <div className="rounded-2xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 shadow-2xl">
-                      <img
-                        src={selectedDesign.thumbnailUrl || selectedDesign.imageUrl}
-                        alt={selectedDesign.title}
-                        className="w-full h-auto"
-                      />
-                    </div>
+                  <div>
                     {renderDesignDetail(selectedDesign)}
                   </div>
                 ) : (
