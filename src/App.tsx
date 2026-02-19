@@ -75,27 +75,17 @@ function App() {
         </p>
       </div>
 
-      {/* Why Today */}
+      {/* 1. The Story of Design */}
       <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800">
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-3">
-          Why Today
-        </p>
-        <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300">
-          {design.dateConnection}
-        </p>
-      </div>
-
-      {/* Story - 先讲作品 */}
-      <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800">
-        <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-3">
-          The Story
+          The Story of Design
         </p>
         <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300 whitespace-pre-line">
           {design.story}
         </p>
       </div>
 
-      {/* Designer Bio - 后讲设计师 */}
+      {/* 2. The Designer */}
       <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800">
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-3">
           The Designer
@@ -105,7 +95,7 @@ function App() {
         </p>
       </div>
 
-      {/* Legacy */}
+      {/* 3. Legacy */}
       {design.legacy && (
         <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800">
           <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-3">
@@ -117,17 +107,15 @@ function App() {
         </div>
       )}
 
-      {/* Significance */}
-      {design.significance && (
-        <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800">
-          <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-3">
-            Significance
-          </p>
-          <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300 whitespace-pre-line">
-            {design.significance}
-          </p>
-        </div>
-      )}
+      {/* 4. Why Today - 放最后 */}
+      <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800">
+        <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-3">
+          Why Today
+        </p>
+        <p className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300">
+          {design.dateConnection}
+        </p>
+      </div>
     </div>
   )
 
