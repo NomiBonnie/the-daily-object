@@ -292,7 +292,15 @@ function App() {
                   Today
                 </button>
                 <button
-                  onClick={() => setView('archive')}
+                  onClick={() => {
+                    setView('archive')
+                    // If current selectedDate has no content, jump to most recent design
+                    const currentDateStr = format(selectedDate, 'yyyy-MM-dd')
+                    const hasContent = designs.some(d => d.date === currentDateStr)
+                    if (!hasContent && todayDesign) {
+                      setSelectedDate(new Date(todayDesign.date))
+                    }
+                  }}
                   className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-light tracking-wide transition-all ${
                     view === 'archive'
                       ? 'bg-white dark:bg-neutral-700 text-neutral-900 dark:text-neutral-100 shadow-sm'
