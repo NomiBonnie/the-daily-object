@@ -130,7 +130,34 @@ His studio (now reconstructed next to the Pompidou Center) is one of the most im
     
     significance: `Tiffany 模糊了"工艺"和"艺术"的界限。他的工作室是最早实现"设计师 + 工匠"协作模式的地方之一。
 
-他证明了：日常物品可以是艺术品；材料创新可以开创全新美学；光本身可以成为设计的主角。`
+他证明了：日常物品可以是艺术品；材料创新可以开创全新美学；光本身可以成为设计的主角。`,
+
+    // English
+    dateConnection_en: 'February 18 is Louis Comfort Tiffany\'s birthday (1848). He created the most iconic decorative art of the Art Nouveau era.',
+    
+    designerBio_en: `Louis Comfort Tiffany (1848-1933), American designer and artist, son of the founder of Tiffany & Co.
+
+He didn't inherit his father's jewelry business—instead, he pursued his own artistic dreams. He studied painting first, then turned to decorative arts. He was obsessed with the relationship between light and color, especially how light passes through stained glass.
+
+**"Color is to the eye what music is to the ear."**
+
+He invented the "Favrile" glass technique—a special iridescent glass that made each piece unique.`,
+    
+    story_en: `The Wisteria Lamp is one of Tiffany Studios' most complex works. The shade consists of over 2,000 pieces of hand-cut stained glass, each carefully selected and polished.
+
+Wisteria flowers cascade from the top of the shade, intertwined with green leaves. The base mimics the form of a wisteria tree trunk, cast in bronze, with roots spreading into the base.
+
+When lit, light penetrates the glass, and **the entire lamp becomes a glowing garden.**
+
+This is not a simple lighting tool—it's a functional work of art. Each lamp takes weeks to make, and no two are exactly alike.`,
+    
+    legacy_en: `• Art Nouveau movement: Tiffany lamps became synonymous with Art Nouveau, influencing the entire decorative arts field
+• Crafts revival: Proved that handicrafts can be art, paving the way for the Arts & Crafts movement
+• Collector's market: Original Tiffany lamps now worth millions of dollars, among the most sought-after decorative art pieces`,
+    
+    significance_en: `Tiffany blurred the line between "craft" and "art." His studio was one of the first to achieve a "designer + craftsman" collaborative model.
+
+He proved that everyday objects can be art; material innovation can create entirely new aesthetics; light itself can be the protagonist of design.`
   },
   {
     id: '2',
@@ -168,7 +195,34 @@ Heatherwick 说：**"建筑太经常是关于'看'的，这个是关于'做'的�
     
     significance: `Vessel 挑战了建筑的基本假设：建筑必须有明确功能吗？它更像一个巨大的游乐场或迷宫——存在的意义就是被探索。
 
-在一个什么都讲效率的时代，Heatherwick 提醒我们：有些东西的价值就是让人感到惊奇。`
+在一个什么都讲效率的时代，Heatherwick 提醒我们：有些东西的价值就是让人感到惊奇。`,
+
+    // English
+    dateConnection_en: 'February 17 is Thomas Heatherwick\'s birthday (1970). He is one of the most influential designers of our time, spanning architecture, product design, and public art.',
+    
+    designerBio_en: `Thomas Heatherwick (1970-), British designer, founder of Heatherwick Studio.
+
+He refuses to be defined. Not an architect, not a product designer, not an artist—but he does all of these things. His work ranges from the London Olympic Cauldron to the UK Pavilion at Shanghai Expo, from Google headquarters to New York's Hudson Yards.
+
+**"The enemy of good design is too much focus."**
+
+He believes design should provoke emotional responses, not just solve functional problems.`,
+    
+    story_en: `Vessel is a climbable public sculpture located at Hudson Yards in New York. 154 flights of stairs, 2,500 steps, 80 viewing platforms, all interwoven into a honeycomb-like structure.
+
+From the outside, it looks like a giant honeycomb or pinecone. But the real experience is **going inside**—you can start from any entrance, traverse up and down the stairs, seeing different views and other climbers at different heights.
+
+Heatherwick said: **"Architecture is too often about 'looking.' This is about 'doing.'"**
+
+There's no fixed visiting route. Everyone's experience is different.`,
+    
+    legacy_en: `• Public space design: Redefined the concept of "landmark architecture"—not meant to be gazed upon, but to be participated in
+• Interactive architecture: Proved that architecture can be an experience rather than a backdrop
+• Urban renewal: Became the core attraction of the Hudson Yards development, energizing the entire district`,
+    
+    significance_en: `Vessel challenges architecture's basic assumptions: must buildings have clear functions? It's more like a giant playground or maze—its purpose is to be explored.
+
+In an age obsessed with efficiency, Heatherwick reminds us: some things have value simply by making people feel wonder.`
   },
   {
     id: '1',
@@ -208,6 +262,35 @@ Heatherwick 说：**"建筑太经常是关于'看'的，这个是关于'做'的�
     
     significance: `Castiglioni 兄弟证明了：最好的设计往往来自最简单的问题。
 
-Arco 不是在炫技，它就是在解决一个具体问题——用最优雅的方式。这种"问题导向"的设计思维，影响了后来几代工业设计师。`
+Arco 不是在炫技，它就是在解决一个具体问题——用最优雅的方式。这种"问题导向"的设计思维，影响了后来几代工业设计师。`,
+
+    // English
+    dateConnection_en: 'February 16 is Achille Castiglioni\'s birthday (1918). He was the most representative designer of Italy\'s golden age of design, winning the Compasso d\'Oro (Golden Compass) award three times.',
+    
+    designerBio_en: `Achille Castiglioni (1918-2002), Italian industrial design master who created countless classic designs with his brother Pier Giacomo.
+
+He found inspiration in everyday objects. A tractor seat became a bar stool (Mezzadro), a car headlight became a lamp (Toio). He believed good design comes from **re-seeing familiar things.**
+
+**"Start from scratch. Ordinary people accept the world as it is. Designers re-imagine it."**
+
+His studio is now a museum in Milan, preserving the various "ordinary objects" he collected.`,
+    
+    story_en: `Arco's design problem was simple: how to move a light source from the floor to above the sofa—without drilling holes or installing a chandelier?
+
+The answer is an elegant arc. The marble base provides stability (weighing 65 kg), while the stainless steel arched arm delivers the shade to over 2 meters high.
+
+**This is a standing chandelier.**
+
+There's a hole in the base—not decoration, but for easy transport: insert a pole and two people can carry it. Every detail has a reason.
+
+60 years later, Arco is still in production, the design unchanged.`,
+    
+    legacy_en: `• Floor lamp revolution: Proved that floor lamps can replace chandeliers, changing interior lighting design thinking
+• Material honesty: Marble is marble, steel is steel—no disguise, no excess decoration
+• Italian design icon: Became one of the totems of mid-20th century Italian design movement, alongside Eames and Jacobsen`,
+    
+    significance_en: `The Castiglioni brothers proved that the best designs often come from the simplest questions.
+
+Arco isn't showing off—it's solving a specific problem in the most elegant way. This "problem-oriented" design thinking influenced generations of industrial designers.`
   },
 ]
