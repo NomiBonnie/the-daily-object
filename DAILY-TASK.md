@@ -275,19 +275,22 @@ browser action=open → 用 → browser action=close
 
 | 日期 | 作品 | 设计师 | 分类 |
 |------|------|--------|------|
-| 02-10 | Deep Blue | IBM | software |
-| 02-11 | The Horn of Plenty | Alexander McQueen | fashion |
+| 02-07 | Pinocchio | Walt Disney Studios | art |
+| 02-08 | Self-Portrait on the 6th Wedding Anniversary | Paula Modersohn-Becker | art |
+| 02-09 | Death Dealer | Frank Frazetta | art |
+| 02-10 | UP5 & UP6 | Gaetano Pesce | industrial |
+| 02-11 | The Horn of Plenty | Alexander McQueen | art |
 | 02-12 | Self-Portrait with Champagne Glass | Max Beckmann | art |
 | 02-13 | Panton Chair | Verner Panton | industrial |
-| 02-14 | Heart Chair | Verner Panton | industrial |
-| 02-15 | Snoopy Lamp | Achille Castiglioni | industrial |
-| 02-16 | IBM Logo | Paul Rand | graphic |
-| 02-17 | Tokyo 1964 Olympics Posters | Yusaku Kamekura | graphic |
-| 02-18 | Arco Lamp | Achille & Pier Giacomo Castiglioni | industrial |
-| 02-19 | Radio in a Bag | Daniel Weil | industrial |
+| 02-14 | I ♥ NY | Milton Glaser | art |
+| 02-15 | HOPE Poster | Shepard Fairey | art |
+| 02-16 | Arco Lamp | Achille Castiglioni | industrial |
+| 02-17 | Vessel | Thomas Heatherwick | architecture |
+| 02-18 | Wisteria Lamp | Louis Comfort Tiffany | art |
+| 02-19 | Bird in Space | Constantin Brâncuși | art |
 
 > 添加新内容后，请更新此索引。
 
 ---
 
-*最后更新：2026-02-19*
+*最后更新：2026-02-20*
