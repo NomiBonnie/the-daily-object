@@ -6,6 +6,7 @@ import { designs, type DesignObject } from './data'
 import { Moon, Sun, ChevronLeft, ChevronRight } from 'lucide-react'
 
 type View = 'today' | 'archive'
+type Language = 'zh' | 'en'
 
 // Simple markdown bold renderer
 const renderMarkdown = (text: string) => {
@@ -45,6 +46,7 @@ function App() {
   const [view, setView] = useState<View>('today')
   const [selectedDate, setSelectedDate] = useState(new Date())
   const [darkMode, setDarkMode] = useState(false)
+  const [lang, setLang] = useState<Language>('zh')
 
   useEffect(() => {
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -111,6 +113,13 @@ function App() {
   const renderDesignDetail = (design: DesignObject, showImage: boolean = true) => {
     const { prev, next } = getAdjacentDesigns(design)
     
+    // Get localized content
+    const story = lang === 'en' && design.story_en ? design.story_en : design.story
+    const designerBio = lang === 'en' && design.designerBio_en ? design.designerBio_en : design.designerBio
+    const legacy = lang === 'en' && design.legacy_en ? design.legacy_en : design.legacy
+    const significance = lang === 'en' && design.significance_en ? design.significance_en : design.significance
+    const dateConnection = lang === 'en' && design.dateConnection_en ? design.dateConnection_en : design.dateConnection
+    
     return (
     <div className="space-y-8">
       {/* Group 1: Title + Designer (subtitle) */}
@@ -149,45 +158,45 @@ function App() {
       {/* 1. The Story of Design - no top border after image */}
       <div>
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-          The Story of Design
+          {lang === 'en' ? 'The Story of Design' : '设计故事'}
         </p>
-        <RenderText text={design.story} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
+        <RenderText text={story} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
 
       {/* 2. The Designer */}
       <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-          The Designer
+          {lang === 'en' ? 'The Designer' : '设计师'}
         </p>
-        <RenderText text={design.designerBio} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
+        <RenderText text={designerBio} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
 
       {/* 3. Legacy */}
-      {design.legacy && (
+      {legacy && (
         <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
           <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-            Legacy
+            {lang === 'en' ? 'Legacy' : '影响与延续'}
           </p>
-          <RenderText text={design.legacy} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
+          <RenderText text={legacy} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
         </div>
       )}
 
       {/* 4. Significance */}
-      {design.significance && (
+      {significance && (
         <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
           <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-            Significance
+            {lang === 'en' ? 'Significance' : '设计意义'}
           </p>
-          <RenderText text={design.significance} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
+          <RenderText text={significance} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
         </div>
       )}
 
       {/* 5. Why Today */}
       <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-          Why Today
+          {lang === 'en' ? 'Why Today' : '为什么是今天'}
         </p>
-        <RenderText text={design.dateConnection} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
+        <RenderText text={dateConnection} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
 
       {/* Prev / Next Navigation */}
@@ -234,6 +243,14 @@ function App() {
             </h1>
             
             <div className="flex items-center gap-4">
+              {/* Language Toggle */}
+              <button
+                onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}
+                className="px-3 py-1.5 rounded-full text-xs font-medium tracking-wide border border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors text-neutral-600 dark:text-neutral-400"
+              >
+                {lang === 'zh' ? 'EN' : '中'}
+              </button>
+
               <button
                 onClick={() => setDarkMode(!darkMode)}
                 className="p-2.5 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"

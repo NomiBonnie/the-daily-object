@@ -9,20 +9,19 @@ export interface DesignObject {
   designer: string
   year?: string
   
-  // 为什么是今天
+  // 中文内容
   dateConnection: string
-  
-  // 设计师背景
   designerBio: string
-  
-  // 作品故事 + 为什么牛逼
   story: string
-  
-  // 设计的延展（对后世影响）
   legacy?: string
-  
-  // 对设计圈的意义
   significance?: string
+  
+  // 英文内容
+  dateConnection_en?: string
+  designerBio_en?: string
+  story_en?: string
+  legacy_en?: string
+  significance_en?: string
 }
 
 export const designs: DesignObject[] = [
@@ -64,7 +63,36 @@ Brâncuși 说他雕刻的不是鸟的外形，而是**"飞翔的本质"**。
     
     significance: `Brâncuși 证明了：雕塑可以不模仿现实；材料本身就是语言；底座可以是作品的一部分。
 
-他的工作室（现在在蓬皮杜中心旁边原样重建）是现代艺术史上最重要的空间之一。`
+他的工作室（现在在蓬皮杜中心旁边原样重建）是现代艺术史上最重要的空间之一。`,
+    
+    // English
+    dateConnection_en: 'February 19 is Brâncuși\'s birthday (1876). This day is also officially celebrated as Brâncuși Day in Romania.',
+    
+    designerBio_en: `Constantin Brâncuși (1876-1957), Romanian sculptor, known as the "Father of Modern Sculpture."
+
+He was a shepherd at 7, left home at 9 to work, and at 18 built a violin from scrap wood—which got him discovered and sent to art school. Later in Paris, Rodin invited him to his studio, but he left after just two months, saying:
+
+**"Nothing can grow under big trees."**
+
+Then he forged his own path.`,
+    
+    story_en: `The bird has no wings, no feathers, no eyes. Just a streamlined form, like an elongated water droplet.
+
+Brâncuși said he wasn't sculpting the bird's shape, but **"the essence of flight."**
+
+He polished the bronze surface himself to a mirror finish. Light flows across the curves, making the still sculpture appear to move.
+
+In 1926, photographer Edward Steichen bought a Bird in Space and shipped it to America. Customs refused to classify it as art—calling it an industrial part subject to import duty. The case went to court. The judge ultimately ruled: art doesn't have to be realistic imitation of nature; it can be an abstract concept—like "flight" itself.
+
+This verdict established a crucial principle: **abstract art is art.**`,
+    
+    legacy_en: `• Apple's design language: Jony Ive has cited Brâncuși's influence multiple times—simplicity, material honesty, form following essence
+• Aerospace: This streamlined shape predated systematic aerodynamic research, later proven to be near-perfect low-drag form
+• Modern furniture: From the Noguchi table to Scandinavian design, one of the origins of "less is more"`,
+    
+    significance_en: `Brâncuși proved that sculpture doesn't have to imitate reality; the material itself is a language; the pedestal can be part of the work.
+
+His studio (now reconstructed next to the Pompidou Center) is one of the most important spaces in modern art history.`
   },
   {
     id: '3',
