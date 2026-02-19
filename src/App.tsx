@@ -121,7 +121,7 @@ function App() {
     const dateConnection = lang === 'en' && design.dateConnection_en ? design.dateConnection_en : design.dateConnection
     
     return (
-    <div className="space-y-8">
+    <div className="space-y-6">
       {/* Group 1: Title + Designer (subtitle) */}
       <div className="space-y-1">
         <h2 className="text-4xl sm:text-5xl font-light tracking-tight text-neutral-900 dark:text-neutral-100 leading-tight">
@@ -132,16 +132,16 @@ function App() {
             {design.subtitle}
           </p>
         )}
-      </div>
-
-      {/* Group 2: Category + Date */}
-      <div className="space-y-1">
-        <p className="text-xs font-medium tracking-[0.2em] uppercase text-amber-600 dark:text-amber-400">
-          {categoryLabels[design.category]}
-        </p>
-        <p className="text-xs font-light tracking-[0.15em] uppercase text-neutral-400 dark:text-neutral-500">
-          {format(new Date(design.date), 'MMMM dd, yyyy')}
-        </p>
+        {/* Category + Date inline with title group */}
+        <div className="flex items-center gap-3 pt-2">
+          <p className="text-xs font-medium tracking-[0.2em] uppercase text-amber-600 dark:text-amber-400">
+            {categoryLabels[design.category]}
+          </p>
+          <span className="text-neutral-300 dark:text-neutral-600">·</span>
+          <p className="text-xs font-light tracking-[0.15em] uppercase text-neutral-400 dark:text-neutral-500">
+            {format(new Date(design.date), 'MMMM dd, yyyy')}
+          </p>
+        </div>
       </div>
 
       {/* Image */}
@@ -236,40 +236,40 @@ function App() {
     <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950 transition-colors duration-300">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-neutral-900/80 backdrop-blur-xl border-b border-neutral-200 dark:border-neutral-800">
-        <div className="max-w-screen-xl mx-auto px-6 sm:px-8 py-4">
+        <div className="max-w-screen-xl mx-auto px-4 sm:px-8 py-3">
           <div className="flex items-center justify-between">
-            <h1 className="text-xl font-light tracking-wide text-neutral-900 dark:text-neutral-100">
+            <h1 className="text-base sm:text-xl font-light tracking-wide text-neutral-900 dark:text-neutral-100 whitespace-nowrap">
               THE DAILY OBJECT
             </h1>
             
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-1 sm:gap-3">
               {/* Language Toggle */}
               <button
                 onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}
-                className="p-2.5 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+                className="p-2 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
                 aria-label="Toggle language"
               >
-                <span className="text-sm font-light text-neutral-600 dark:text-neutral-400">
+                <span className="text-xs sm:text-sm font-light text-neutral-600 dark:text-neutral-400">
                   {lang === 'zh' ? 'EN' : '中'}
                 </span>
               </button>
 
               <button
                 onClick={() => setDarkMode(!darkMode)}
-                className="p-2.5 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+                className="p-2 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
                 aria-label="Toggle dark mode"
               >
                 {darkMode ? (
-                  <Sun className="w-5 h-5 text-neutral-400" />
+                  <Sun className="w-4 h-4 sm:w-5 sm:h-5 text-neutral-400" />
                 ) : (
-                  <Moon className="w-5 h-5 text-neutral-600" />
+                  <Moon className="w-4 h-4 sm:w-5 sm:h-5 text-neutral-600" />
                 )}
               </button>
 
-              <nav className="flex gap-1 bg-neutral-100 dark:bg-neutral-800 rounded-full p-1">
+              <nav className="flex gap-0.5 bg-neutral-100 dark:bg-neutral-800 rounded-full p-0.5">
                 <button
                   onClick={() => setView('today')}
-                  className={`px-5 py-1.5 rounded-full text-sm font-light tracking-wide transition-all ${
+                  className={`px-3 sm:px-5 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-light tracking-wide transition-all ${
                     view === 'today'
                       ? 'bg-white dark:bg-neutral-700 text-neutral-900 dark:text-neutral-100 shadow-sm'
                       : 'text-neutral-500 dark:text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-300'
@@ -279,7 +279,7 @@ function App() {
                 </button>
                 <button
                   onClick={() => setView('archive')}
-                  className={`px-5 py-1.5 rounded-full text-sm font-light tracking-wide transition-all ${
+                  className={`px-3 sm:px-5 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-light tracking-wide transition-all ${
                     view === 'archive'
                       ? 'bg-white dark:bg-neutral-700 text-neutral-900 dark:text-neutral-100 shadow-sm'
                       : 'text-neutral-500 dark:text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-300'
