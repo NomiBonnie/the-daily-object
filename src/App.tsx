@@ -61,9 +61,14 @@ function App() {
     }
   }, [darkMode])
 
+  // Find today's design, or fallback to the most recent past design
+  const todayStr = format(new Date(), 'yyyy-MM-dd')
   const todayDesign = designs.find(
-    (d) => format(new Date(d.date), 'yyyy-MM-dd') === format(new Date(), 'yyyy-MM-dd')
-  ) || designs[designs.length - 1]
+    (d) => format(new Date(d.date), 'yyyy-MM-dd') === todayStr
+  ) || [...designs]
+    .filter(d => d.date <= todayStr)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0]
+    || designs[0]
 
   const selectedDesign = designs.find(
     (d) => format(new Date(d.date), 'yyyy-MM-dd') === format(selectedDate, 'yyyy-MM-dd')
