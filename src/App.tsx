@@ -97,9 +97,12 @@ function App() {
     if (view === 'today') {
       setView('archive')
     }
-    // Scroll to top after state update
+    // Scroll to content area (hide calendar, show design)
     setTimeout(() => {
-      window.scrollTo({ top: 0, behavior: 'smooth' })
+      const contentArea = document.getElementById('design-content')
+      if (contentArea) {
+        contentArea.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }
     }, 50)
   }
 
@@ -293,7 +296,7 @@ function App() {
               </div>
 
               {/* Selected Design Preview */}
-              <div className="lg:col-span-7">
+              <div className="lg:col-span-7" id="design-content">
                 {selectedDesign ? (
                   <div>
                     {renderDesignDetail(selectedDesign)}
