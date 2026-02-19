@@ -204,11 +204,11 @@ function App() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
               {/* Image */}
               <div className="lg:col-span-5">
-                <div className="aspect-[3/4] lg:aspect-[4/5] rounded-2xl overflow-hidden bg-neutral-200 dark:bg-neutral-800 shadow-2xl lg:sticky lg:top-24">
+                <div className="rounded-2xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 shadow-2xl lg:sticky lg:top-24">
                   <img
                     src={todayDesign.imageUrl}
                     alt={todayDesign.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-auto"
                   />
                 </div>
               </div>
@@ -241,11 +241,11 @@ function App() {
               <div className="lg:col-span-7">
                 {selectedDesign ? (
                   <div className="space-y-8">
-                    <div className="aspect-[16/10] rounded-2xl overflow-hidden bg-neutral-200 dark:bg-neutral-800 shadow-2xl">
+                    <div className="rounded-2xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 shadow-2xl">
                       <img
                         src={selectedDesign.thumbnailUrl || selectedDesign.imageUrl}
                         alt={selectedDesign.title}
-                        className="w-full h-full object-cover"
+                        className="w-full h-auto"
                       />
                     </div>
                     {renderDesignDetail(selectedDesign)}
