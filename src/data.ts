@@ -98,8 +98,8 @@ In an era obsessed with function, rationality, and restraint, he said: design ca
   {
     id: '6',
     date: '2026-02-14',
-    imageUrl: '/the-daily-object/images/i-love-ny.jpg',
-    thumbnailUrl: '/the-daily-object/images/i-love-ny.jpg',
+    imageUrl: '/the-daily-object/images/i-love-ny.png',
+    thumbnailUrl: '/the-daily-object/images/i-love-ny.png',
     title: 'I ♥ NY',
     subtitle: 'Milton Glaser, 1977',
     category: 'art',
