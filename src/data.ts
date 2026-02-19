@@ -26,6 +26,212 @@ export interface DesignObject {
 
 export const designs: DesignObject[] = [
   {
+    id: '10',
+    date: '2026-02-10',
+    imageUrl: '/the-daily-object/images/deep-blue.jpg',
+    thumbnailUrl: '/the-daily-object/images/deep-blue.jpg',
+    title: 'Deep Blue',
+    subtitle: 'IBM, 1996',
+    category: 'software',
+    designer: 'IBM Research Team',
+    year: '1996',
+    
+    dateConnection: '1996年2月10日，IBM Deep Blue 成为首个在标准比赛规则下击败在位世界棋王的计算机——尽管卡斯帕罗夫最终赢得了那场六局比赛。',
+    
+    designerBio: `Deep Blue 由 IBM Research 团队开发，核心成员包括 Feng-hsiung Hsu（许峰雄）、Murray Campbell 和 Joseph Hoane。
+
+许峰雄从 1985 年在卡内基梅隆大学就开始研究国际象棋计算机，最初名为 "ChipTest"，后来演变为 "Deep Thought"，最终在 IBM 成为 Deep Blue。
+
+**"The goal was never to prove machines are smarter than humans. It was to explore the boundaries of computation."**
+目标从来不是证明机器比人聪明，而是探索计算的边界。`,
+    
+    story: `1996年2月10日，费城，Deep Blue 在第一局击败了加里·卡斯帕罗夫。这是历史上第一次计算机在标准比赛条件下战胜世界冠军。
+
+当时的 Deep Blue 每秒可以评估 2 亿个棋位。它不是"理解"国际象棋——它用**暴力计算**碾压人类的直觉。
+
+卡斯帕罗夫最终以 4-2 赢得了那场比赛。但他说了一句话：**"我在机器的棋步中看到了智慧和创造力。"**
+
+一年后的复赛，升级版 Deep Blue 以 3.5-2.5 击败卡斯帕罗夫。比赛结束后，卡斯帕罗夫要求查看机器的日志，被 IBM 拒绝。争议至今未解。
+
+但那一刻，某种东西永远改变了：**人类不再是所有智力游戏的绝对霸主。**`,
+    
+    legacy: `• AI 里程碑：证明了专用硬件 + 算法可以在特定领域超越人类专家
+• 计算机科学史：启发了后来的 Watson、AlphaGo 等 AI 项目
+• 人机关系思考：引发了关于"机器智能"本质的哲学讨论
+• 企业 AI 竞赛：开创了科技公司用 AI 挑战人类的 PR 模式`,
+    
+    significance: `Deep Blue 不是"人工智能"——它不学习、不思考、不创造。它只是非常非常快地计算。
+
+但它证明了一个关键点：在某些领域，"思考"可能根本不需要。纯粹的计算力可以产生看起来像智慧的结果。这个洞见，定义了之后三十年 AI 发展的方向。`,
+
+    dateConnection_en: 'On February 10, 1996, IBM\'s Deep Blue became the first computer to win a game against a reigning world chess champion under standard tournament rules—though Kasparov ultimately won that six-game match.',
+    
+    designerBio_en: `Deep Blue was developed by IBM Research, with core team members including Feng-hsiung Hsu, Murray Campbell, and Joseph Hoane.
+
+Hsu began working on chess computers at Carnegie Mellon University in 1985, starting with "ChipTest," evolving into "Deep Thought," and finally becoming Deep Blue at IBM.
+
+**"The goal was never to prove machines are smarter than humans. It was to explore the boundaries of computation."**`,
+    
+    story_en: `February 10, 1996, Philadelphia. Deep Blue defeated Garry Kasparov in Game 1. This was the first time in history that a computer beat a world champion under standard match conditions.
+
+The Deep Blue of that era could evaluate 200 million positions per second. It didn't "understand" chess—it crushed human intuition with **brute force calculation**.
+
+Kasparov won the match 4-2. But he said something telling: **"I saw intelligence and creativity in the machine's moves."**
+
+A year later in the rematch, an upgraded Deep Blue won 3.5-2.5. After the match, Kasparov demanded to see the machine's logs. IBM refused. The controversy continues today.
+
+But something changed forever in that moment: **humans were no longer the absolute masters of all intellectual games.**`,
+    
+    legacy_en: `• AI milestone: Proved specialized hardware + algorithms could surpass human experts in specific domains
+• Computer science history: Inspired later AI projects like Watson and AlphaGo
+• Human-machine relations: Sparked philosophical debates about the nature of "machine intelligence"
+• Corporate AI competition: Pioneered the tech company PR model of challenging humans with AI`,
+    
+    significance_en: `Deep Blue wasn't "artificial intelligence"—it didn't learn, think, or create. It just calculated very, very fast.
+
+But it proved a crucial point: in some domains, "thinking" might not be necessary at all. Pure computational power can produce results that look like intelligence. This insight defined the direction of AI development for the next thirty years.`
+  },
+  {
+    id: '9',
+    date: '2026-02-11',
+    imageUrl: '/the-daily-object/images/mcqueen-horn-of-plenty.jpg',
+    thumbnailUrl: '/the-daily-object/images/mcqueen-horn-of-plenty.jpg',
+    title: 'The Horn of Plenty',
+    subtitle: 'Alexander McQueen, 2009',
+    category: 'art',
+    designer: 'Alexander McQueen',
+    year: '2009',
+    
+    dateConnection: '2010年2月11日，Alexander McQueen 在伦敦家中自杀身亡，享年40岁。他是21世纪最重要的时装设计师之一，将时装秀变成了剧场艺术。',
+    
+    designerBio: `Lee Alexander McQueen (1969-2010)，英国时装设计师，被称为"英国时尚界的坏孩子"（l'enfant terrible）。
+
+他16岁辍学去萨维尔街当裁缝学徒，25岁就成为纪梵希的创意总监。他的秀场像恐怖片、像梦魇、像诗——模特从玻璃箱里走出来，被机器人喷漆，在暴风雪中行走。
+
+**"I want to empower women. I want people to be afraid of the women I dress."**
+我想赋予女性力量。我想让人们害怕我穿着的女人。
+
+他的自杀发生在母亲葬礼前几天。时尚界至今无人能填补他留下的空白。`,
+    
+    story: `The Horn of Plenty 是 McQueen 2009 秋冬系列，也是他生前倒数第二个系列。
+
+整场秀是对时尚产业的**自我批判**。巨大的垃圾堆构成 T 台背景，模特戴着夸张到畸形的头饰——讽刺时尚界对"新"的病态追求。
+
+但在垃圾和讽刺之下，是无与伦比的工艺。羽毛裙从肩膀延伸到地面，每一片羽毛都经过手工染色和定位。面料的处理、剪裁的精确、对人体的理解——这是高级定制的巅峰。
+
+**McQueen 用最美的方式说了最丑陋的真相：时尚在消费自己。**`,
+    
+    legacy: `• 时装表演艺术：证明 runway show 可以是完整的艺术作品，而非商品展示
+• V&A "Savage Beauty" 展览：2015年成为 V&A 史上最成功的展览，排队长达6小时
+• 情感设计：McQueen 证明设计可以是创伤、愤怒、美丽的复杂混合
+• 后继者 Sarah Burton：继承品牌并设计了凯特王妃的婚纱`,
+    
+    significance: `McQueen 不是在"设计衣服"——他在讲故事、在治疗、在对抗。
+
+他的每个系列都有一个完整的叙事：被女巫烧死的祖先、苏格兰高地的屠杀、深海的生物。衣服是叙事的载体，T台是剧场，模特是角色。
+
+这种方法论——设计作为表达，而非商品——影响了整整一代设计师。`,
+
+    dateConnection_en: 'On February 11, 2010, Alexander McQueen took his own life at his London home at age 40. He was one of the most important fashion designers of the 21st century, transforming fashion shows into theatrical art.',
+    
+    designerBio_en: `Lee Alexander McQueen (1969-2010), British fashion designer, known as "l'enfant terrible" of British fashion.
+
+He dropped out of school at 16 to apprentice on Savile Row, and became creative director of Givenchy at 25. His shows were like horror films, like nightmares, like poetry—models emerged from glass boxes, were spray-painted by robots, walked through blizzards.
+
+**"I want to empower women. I want people to be afraid of the women I dress."**
+
+His suicide occurred just days before his mother's funeral. The fashion world has yet to fill the void he left.`,
+    
+    story_en: `The Horn of Plenty was McQueen's Autumn/Winter 2009 collection, his second-to-last before his death.
+
+The entire show was a **self-critique of the fashion industry**. A massive garbage heap formed the runway backdrop, models wore grotesquely exaggerated headpieces—satirizing fashion's pathological pursuit of "newness."
+
+But beneath the trash and satire was unparalleled craftsmanship. Feather gowns extended from shoulders to floor, each feather hand-dyed and positioned. The fabric treatment, precision of cut, understanding of the body—this was haute couture at its peak.
+
+**McQueen told the ugliest truth in the most beautiful way: fashion is consuming itself.**`,
+    
+    legacy_en: `• Fashion as performance art: Proved runway shows could be complete artworks, not merchandise displays
+• V&A "Savage Beauty" exhibition: Became V&A's most successful exhibition in 2015, with 6-hour queues
+• Emotional design: McQueen proved design could be a complex mixture of trauma, anger, and beauty
+• Successor Sarah Burton: Inherited the brand and designed Kate Middleton's wedding dress`,
+    
+    significance_en: `McQueen wasn't "designing clothes"—he was telling stories, healing, fighting back.
+
+Each collection had a complete narrative: ancestors burned as witches, Highland massacres, deep-sea creatures. Clothes were vehicles for narrative, the runway was theater, models were characters.
+
+This methodology—design as expression, not commodity—influenced an entire generation of designers.`
+  },
+  {
+    id: '8',
+    date: '2026-02-12',
+    imageUrl: '/the-daily-object/images/beckmann-self-portrait.png',
+    thumbnailUrl: '/the-daily-object/images/beckmann-self-portrait.png',
+    title: 'Self-Portrait with Champagne Glass',
+    subtitle: 'Max Beckmann, 1919',
+    category: 'art',
+    designer: 'Max Beckmann',
+    year: '1919',
+    
+    dateConnection: '1884年2月12日，Max Beckmann 出生于德国莱比锡。他是20世纪最重要的表现主义画家之一，用扭曲的形象记录了两次世界大战之间的人类处境。',
+    
+    designerBio: `Max Beckmann (1884-1950)，德国画家，表现主义和新客观主义的代表人物。
+
+他在一战中当过医疗兵，战争的恐怖彻底改变了他的艺术风格——从学院派转向扭曲、紧张、充满象征的表现主义。纳粹上台后，他的作品被列为"堕落艺术"，超过500件被从德国博物馆没收。
+
+**"What I want to show in my work is the idea that hides itself behind so-called reality."**
+我想在作品中展示的是隐藏在所谓现实背后的理念。
+
+1937年他离开德国，辗转荷兰、美国，再也没有回去。`,
+    
+    story: `1919年的自画像画于一战结束后第一年。Beckmann 刚从战场的精神崩溃中恢复。
+
+画中的他西装革履，手持香槟杯——像是在庆祝。但看他的眼睛：空洞、疲惫、带着某种警惕。背景是深色的、压迫性的。空间被刻意压缩，人物几乎要被挤出画框。
+
+**这不是庆祝，是幸存者的假面。**
+
+香槟杯是讽刺：魏玛共和国的纵情狂欢、战后德国的虚假繁荣、即将到来的灾难的前夜。Beckmann 看到了没人愿意看的东西。
+
+这幅画现藏于法兰克福施泰德博物馆。`,
+    
+    legacy: `• 战后艺术：定义了两次世界大战之间欧洲艺术的心理状态
+• 自画像传统：与伦勃朗、梵高并列，成为最重要的自画像画家之一
+• 流亡艺术家：代表了被纳粹驱逐的整整一代德国知识分子和艺术家
+• 新客观主义：影响了 George Grosz、Otto Dix 等同代画家`,
+    
+    significance: `Beckmann 证明了艺术可以是见证——不是美化现实，而是撕开它的伪装。
+
+他画的不是"美"，是真相。他的人物总是被挤压在狭小的空间里，就像现代人被挤压在历史的车轮下。这种紧张感、这种窒息感，至今仍然resonant。`,
+
+    dateConnection_en: 'On February 12, 1884, Max Beckmann was born in Leipzig, Germany. He was one of the most important Expressionist painters of the 20th century, documenting the human condition between two World Wars through distorted imagery.',
+    
+    designerBio_en: `Max Beckmann (1884-1950), German painter, a leading figure of Expressionism and New Objectivity.
+
+He served as a medical orderly in WWI, and the horrors of war completely transformed his artistic style—from academic to distorted, tense, symbol-laden Expressionism. After the Nazis came to power, his works were labeled "degenerate art," with over 500 pieces confiscated from German museums.
+
+**"What I want to show in my work is the idea that hides itself behind so-called reality."**
+
+In 1937 he left Germany, moving through the Netherlands and America, never returning.`,
+    
+    story_en: `The 1919 self-portrait was painted in the first year after WWI ended. Beckmann had just recovered from a mental breakdown on the battlefield.
+
+In the painting he wears a suit, holding a champagne glass—as if celebrating. But look at his eyes: hollow, exhausted, with a certain wariness. The background is dark, oppressive. Space is deliberately compressed; the figure nearly pressed out of the frame.
+
+**This isn't celebration—it's a survivor's mask.**
+
+The champagne glass is ironic: the wild revelry of the Weimar Republic, post-war Germany's false prosperity, the eve of coming disaster. Beckmann saw what no one wanted to see.
+
+This painting is now in the Städel Museum, Frankfurt.`,
+    
+    legacy_en: `• Post-war art: Defined the psychological state of European art between the World Wars
+• Self-portrait tradition: Ranked alongside Rembrandt and Van Gogh as one of the most important self-portrait painters
+• Exiled artists: Represented an entire generation of German intellectuals and artists expelled by the Nazis
+• New Objectivity: Influenced contemporaries like George Grosz and Otto Dix`,
+    
+    significance_en: `Beckmann proved that art can be witness—not beautifying reality, but tearing off its disguise.
+
+He didn't paint "beauty," he painted truth. His figures are always squeezed into cramped spaces, like modern humans crushed under history's wheels. That tension, that suffocation, still resonates today.`
+  },
+  {
     id: '7',
     date: '2026-02-13',
     imageUrl: '/the-daily-object/images/panton-chair.jpg?v=2',
