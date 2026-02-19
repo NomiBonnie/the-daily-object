@@ -158,7 +158,7 @@ function App() {
       {/* 1. The Story of Design - no top border after image */}
       <div>
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-          {lang === 'en' ? 'The Story of Design' : '设计故事'}
+          {lang === 'en' ? 'The Story Behind' : '作品故事'}
         </p>
         <RenderText text={story} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
@@ -166,7 +166,7 @@ function App() {
       {/* 2. The Designer */}
       <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-          {lang === 'en' ? 'The Designer' : '设计师'}
+          {lang === 'en' ? 'About The Designer' : '关于创作者'}
         </p>
         <RenderText text={designerBio} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
@@ -175,7 +175,7 @@ function App() {
       {legacy && (
         <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
           <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-            {lang === 'en' ? 'Legacy' : '影响与延续'}
+            {lang === 'en' ? 'Legacy & Influence' : '影响与传承'}
           </p>
           <RenderText text={legacy} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
         </div>
@@ -185,7 +185,7 @@ function App() {
       {significance && (
         <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
           <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-            {lang === 'en' ? 'Significance' : '设计意义'}
+            {lang === 'en' ? 'What It Means' : '设计的意义'}
           </p>
           <RenderText text={significance} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
         </div>
@@ -194,7 +194,7 @@ function App() {
       {/* 5. Why Today */}
       <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-          {lang === 'en' ? 'Why Today' : '为什么是今天'}
+          {lang === 'en' ? 'Why Today' : '今天的理由'}
         </p>
         <RenderText text={dateConnection} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
