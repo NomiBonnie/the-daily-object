@@ -288,6 +288,7 @@ browser action=open → 用 → browser action=close
 | 02-17 | Vessel | Thomas Heatherwick | architecture |
 | 02-18 | Wisteria Lamp | Louis Comfort Tiffany | art |
 | 02-19 | Bird in Space | Constantin Brâncuși | art |
+| 02-20 | Salk Institute for Biological Studies | Louis Kahn | architecture |
 
 > 添加新内容后，请更新此索引。
 

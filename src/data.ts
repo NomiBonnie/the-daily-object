@@ -943,4 +943,86 @@ He didn't paint still lifes or portraits for museums. He painted paperback cover
 
 Under his brush, muscles are alive, shadows are dangerous, every pose bursting with energy. He made the "lowbrow" sublime.`
   },
+  {
+    id: '15',
+    date: '2026-02-20',
+    imageUrl: '/the-daily-object/images/salk-institute.jpg',
+    thumbnailUrl: '/the-daily-object/images/salk-institute.jpg',
+    title: 'Salk Institute for Biological Studies',
+    subtitle: 'Louis Kahn, 1965',
+    category: 'architecture',
+    designer: 'Louis Kahn',
+    year: '1965',
+    
+    dateConnection: '1901年2月20日，Louis Kahn 出生于爱沙尼亚（当时属于俄罗斯帝国）。他是20世纪最伟大的建筑师之一，用光与混凝土创造了现代建筑的精神殿堂。',
+    
+    designerBio: `Louis Kahn (1901-1974)，美国建筑师，20世纪最具影响力的建筑大师之一。
+
+他出生于爱沙尼亚的一个贫穷犹太家庭，4岁时移民美国费城。童年时脸部被炉火严重烧伤，留下终身疤痕。他在宾夕法尼亚大学学习建筑，师从 Paul Cret。
+
+与其他现代主义建筑师不同，Kahn 50岁之后才开始他最重要的作品。他相信建筑应该追问自身的本质——"砖想成为什么？"
+
+**"Even a brick wants to be something."**
+即使是一块砖也想成为某种东西。
+
+他三次获得 AIA 金奖提名，获得 RIBA 皇家金奖。1974年，他在纽约宾夕法尼亚车站的洗手间里心脏病发作去世，身无分文，负债累累。`,
+    
+    story: `1959年，疫苗发明者 Jonas Salk 博士找到 Louis Kahn，委托他设计一座研究所。Salk 的要求很简单：
+
+**"创造一个连毕加索都愿意来工作的地方。"**
+
+Kahn 给出的答案是两排相对的混凝土建筑，中间是一条狭窄的水渠，直指太平洋。
+
+建筑由清水混凝土和柚木构成。实验室是无柱的开放空间，设备管道全部藏在"服务层"里，可以灵活改变布局。建筑外立面的柚木窗框在阳光下发出温暖的光泽，与冷峻的混凝土形成对比。
+
+**每年两次，春分和秋分，落日正好沿着中央水渠的轴线落入太平洋。**
+
+这不是偶然。这是 Kahn 与 Luis Barragán 讨论后的设计决定——让建筑与宇宙秩序对齐。`,
+    
+    legacy: `• 现代建筑圣地：被建筑师们誉为"建筑朝圣地"，每年数千人前来参观
+• 服务空间革命：将设备管道集中在独立楼层的做法，影响了此后所有的实验室和医院设计
+• 混凝土美学：证明清水混凝土可以是温暖的、精神性的、诗意的
+• 光的建筑：Kahn 对自然光的运用达到了几乎宗教性的高度`,
+    
+    significance: `Kahn 证明了现代建筑可以有灵魂。
+
+在他之前，现代主义建筑常常被批评为冷漠、功能主义、缺乏精神性。Kahn 用 Salk Institute 回答了这些批评：理性的结构可以创造神圣的空间；工业材料可以传达永恒的美；功能建筑可以让人落泪。
+
+站在中央广场上，面对无尽的太平洋和那条细细的水渠，你会明白为什么有人说：这是20世纪最伟大的建筑空间之一。`,
+
+    dateConnection_en: 'On February 20, 1901, Louis Kahn was born in Estonia (then part of the Russian Empire). He is one of the greatest architects of the 20th century, creating spiritual temples of modern architecture with light and concrete.',
+    
+    designerBio_en: `Louis Kahn (1901-1974), American architect, one of the most influential architectural masters of the 20th century.
+
+He was born into a poor Jewish family in Estonia and immigrated to Philadelphia at age 4. As a child, his face was severely burned by a stove fire, leaving permanent scars. He studied architecture at the University of Pennsylvania under Paul Cret.
+
+Unlike other modernist architects, Kahn only began his most important works after age 50. He believed architecture should question its own essence—"What does a brick want to be?"
+
+**"Even a brick wants to be something."**
+
+He was nominated three times for the AIA Gold Medal and received the RIBA Royal Gold Medal. In 1974, he died of a heart attack in a restroom at New York's Penn Station, penniless and in debt.`,
+    
+    story_en: `In 1959, vaccine inventor Dr. Jonas Salk approached Louis Kahn to design a research institute. Salk's request was simple:
+
+**"Create a place where even Picasso would want to work."**
+
+Kahn's answer was two rows of facing concrete buildings with a narrow water channel between them, pointing straight at the Pacific Ocean.
+
+The buildings are made of exposed concrete and teak. The laboratories are column-free open spaces, with all equipment and utilities hidden in "servant floors," allowing flexible layout changes. The teak window frames on the façade glow warmly in the sunlight, contrasting with the austere concrete.
+
+**Twice a year, on the spring and autumn equinoxes, the setting sun falls exactly along the axis of the central water channel into the Pacific.**
+
+This was not accidental. It was a design decision made after discussions between Kahn and Luis Barragán—aligning the building with cosmic order.`,
+    
+    legacy_en: `• Modern architecture pilgrimage site: Architects call it a "place of pilgrimage," with thousands visiting annually
+• Service space revolution: The approach of concentrating utilities on separate floors influenced all subsequent laboratory and hospital design
+• Concrete aesthetics: Proved that exposed concrete can be warm, spiritual, and poetic
+• Architecture of light: Kahn's use of natural light achieved an almost religious dimension`,
+    
+    significance_en: `Kahn proved that modern architecture can have a soul.
+
+Before him, modernist architecture was often criticized as cold, functionalist, lacking spirituality. Kahn answered these criticisms with the Salk Institute: rational structure can create sacred space; industrial materials can convey eternal beauty; functional buildings can move people to tears.
+
+Standing in the central plaza, facing the endless Pacific and that thin channel of water, you understand why some say: this is one of the greatest architectural spaces of the 20th century.`
+  },
 ]
