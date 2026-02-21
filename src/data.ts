@@ -1026,7 +1026,91 @@ Before him, modernist architecture was often criticized as cold, functionalist, 
 Standing in the central plaza, facing the endless Pacific and that thin channel of water, you understand why some say: this is one of the greatest architectural spaces of the 20th century.`
   },
   {
-    id: '16',
+    id: '16a',
+    date: '2026-02-21',
+    imageUrl: '/the-daily-object/images/polaroid-land-camera.jpg',
+    thumbnailUrl: '/the-daily-object/images/polaroid-land-camera.jpg',
+    title: 'Polaroid Land Camera Model 95',
+    category: 'industrial',
+    designer: 'Edwin Land',
+    year: '1948',
+    
+    dateConnection: '1947年2月21日，Edwin Land 在美国光学学会纽约会议上首次公开演示即时摄影技术，这台相机在一年后正式发售，改变了摄影史。',
+    
+    designerBio: `Edwin Herbert Land (1909-1991)，美国科学家、发明家、Polaroid 公司创始人。
+
+哈佛大学辍学生，17岁就开始研究偏振光。1937年创立 Polaroid 公司，最初生产偏光滤镜和太阳镜。
+
+传说1943年，他3岁的女儿问："为什么不能马上看到照片？"这个问题激发了他发明即时摄影。他在一个小时的散步中就构思出了整个化学和光学系统的雏形。
+
+Land 一生持有535项专利，仅次于爱迪生。他不只是发明家，更是一个将科学、设计与商业完美融合的人。Steve Jobs 视他为偶像，称他为"国宝级人物"。`,
+    
+    story: `1947年2月21日，Edwin Land 站在美国光学学会的讲台上，拍了一张照片。
+
+60秒后，他从相机里抽出了一张完全显影的照片。
+
+全场震惊。
+
+这是人类历史上第一次"即时摄影"的公开演示。一年后，Polaroid Land Camera Model 95 正式发售，定价89.75美元。第一天就卖光了全部库存。
+
+Model 95 的设计充满了工业时代的质感：棕色皮革机身、折叠式金属支架、精密的光学镜头。它不追求小巧——展开后像一只准备起飞的鸟，收起来像一本厚重的书。
+
+这台相机的革命性不在于外形，而在于它背后的哲学：**摄影不应该是等待和延迟的体验，它应该是即时的、亲密的、属于当下的。**`,
+    
+    legacy: `● 即时摄影文化：Polaroid 不仅是相机，更是一种文化符号，从 Andy Warhol 到日常家庭，人人都用 Polaroid 记录生活
+● 影响 Steve Jobs：Jobs 多次公开表示 Edwin Land 是他最崇拜的人，Polaroid 的"科技+人文"理念直接影响了 Apple 的产品哲学
+● 设计范式：Model 95 确立了"折叠式"相机的经典设计语言，影响了此后数十年的相机工业设计
+● 复兴浪潮：2008年 Polaroid 停产胶片后，"The Impossible Project"（现 Polaroid Originals）让即时摄影重获新生`,
+    
+    significance: `Model 95 证明了一件事：**最伟大的设计不是让技术更复杂，而是让复杂的技术消失。**
+
+在 Land 之前，摄影是一个需要暗房、化学药剂和耐心等待的专业活动。Model 95 把这一切浓缩成了"按下快门，等60秒"。
+
+这和后来 iPhone 做的事情一模一样——把电话、相机、电脑、音乐播放器合成一个东西，让技术的复杂性在用户面前完全消失。
+
+难怪 Steve Jobs 说："Edwin Land 是一个国宝。他是科学和人文的交叉路口上最伟大的创新者之一。"
+
+**一个好问题，可以改变世界。"为什么不能马上看到照片？"——这个3岁女孩的问题，价值数十亿美元。**`,
+
+    dateConnection_en: 'On February 21, 1947, Edwin Land publicly demonstrated instant photography for the first time at the Optical Society of America meeting in New York. The camera went on sale a year later and changed the history of photography.',
+    
+    designerBio_en: `Edwin Herbert Land (1909-1991), American scientist, inventor, and founder of the Polaroid Corporation.
+
+A Harvard dropout, he began researching polarized light at age 17. He founded Polaroid in 1937, initially producing polarizing filters and sunglasses.
+
+Legend has it that in 1943, his 3-year-old daughter asked: "Why can't I see the picture right away?" This question inspired him to invent instant photography. During a single hour-long walk, he conceived the entire chemical and optical system.
+
+Land held 535 patents in his lifetime, second only to Edison. He was not just an inventor but someone who perfectly fused science, design, and commerce. Steve Jobs idolized him, calling him "a national treasure."`,
+    
+    story_en: `On February 21, 1947, Edwin Land stood at the podium of the Optical Society of America, took a photograph.
+
+60 seconds later, he pulled a fully developed print from the camera.
+
+The audience was stunned.
+
+This was the first public demonstration of "instant photography" in human history. A year later, the Polaroid Land Camera Model 95 went on sale for $89.75. It sold out completely on the first day.
+
+The Model 95's design was full of industrial-era character: brown leather body, folding metal struts, precision optical lens. It didn't strive for compactness—unfolded, it looked like a bird ready to take flight; closed, like a hefty book.
+
+The revolution of this camera wasn't in its form, but in the philosophy behind it: **Photography should not be an experience of waiting and delay. It should be instant, intimate, and belong to the present moment.**`,
+    
+    legacy_en: `● Instant photography culture: Polaroid became more than a camera—a cultural icon, from Andy Warhol to everyday families, everyone used Polaroid to capture life
+● Influenced Steve Jobs: Jobs publicly stated multiple times that Edwin Land was his greatest hero; Polaroid's "technology + humanities" philosophy directly influenced Apple's product design
+● Design paradigm: Model 95 established the classic "folding" camera design language, influencing decades of camera industrial design
+● Revival: After Polaroid discontinued film in 2008, "The Impossible Project" (now Polaroid Originals) brought instant photography back to life`,
+    
+    significance_en: `Model 95 proved one thing: **The greatest design doesn't make technology more complex—it makes complex technology disappear.**
+
+Before Land, photography was a professional activity requiring darkrooms, chemicals, and patient waiting. Model 95 condensed all of this into "press the shutter, wait 60 seconds."
+
+This is exactly what the iPhone did later—combining phone, camera, computer, and music player into one device, making technological complexity completely invisible to the user.
+
+No wonder Steve Jobs said: "Edwin Land was a national treasure. He was one of the greatest innovators at the intersection of science and the humanities."
+
+**A good question can change the world. "Why can't I see the picture right away?"—that 3-year-old girl's question was worth billions of dollars.**`
+  },
+  {
+    id: '17',
     date: '2026-02-22',
     imageUrl: '/the-daily-object/images/gashlycrumb-tinies.jpg',
     thumbnailUrl: '/the-daily-object/images/gashlycrumb-tinies.jpg',
