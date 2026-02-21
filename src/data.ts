@@ -1,4 +1,4 @@
-export interface DesignObject {
+﻿export interface DesignObject {
   id: string
   date: string
   imageUrl: string
@@ -1026,7 +1026,7 @@ Before him, modernist architecture was often criticized as cold, functionalist, 
 Standing in the central plaza, facing the endless Pacific and that thin channel of water, you understand why some say: this is one of the greatest architectural spaces of the 20th century.`
   },
   {
-    id: '16a',
+    id: '16',
     date: '2026-02-21',
     imageUrl: '/the-daily-object/images/polaroid-land-camera.jpg',
     thumbnailUrl: '/the-daily-object/images/polaroid-land-camera.jpg',
@@ -1108,91 +1108,5 @@ This is exactly what the iPhone did later—combining phone, camera, computer, a
 No wonder Steve Jobs said: "Edwin Land was a national treasure. He was one of the greatest innovators at the intersection of science and the humanities."
 
 **A good question can change the world. "Why can't I see the picture right away?"—that 3-year-old girl's question was worth billions of dollars.**`
-  },
-  {
-    id: '17',
-    date: '2026-02-22',
-    imageUrl: '/the-daily-object/images/gashlycrumb-tinies.jpg',
-    thumbnailUrl: '/the-daily-object/images/gashlycrumb-tinies.jpg',
-    title: 'The Gashlycrumb Tinies',
-    subtitle: 'Edward Gorey, 1963',
-    category: 'graphic',
-    designer: 'Edward Gorey',
-    year: '1963',
-    
-    dateConnection: '1925年2月22日，Edward Gorey 出生于芝加哥。他是美国最独特的插画家和作家之一，用维多利亚风格的钢笔画和黑色幽默创造了一个无人能模仿的视觉世界。',
-    
-    designerBio: `Edward St. John Gorey (1925-2000)，美国插画家、作家和舞台设计师。
-
-出生于芝加哥，3岁自学阅读，18个月大就开始画画。他在哈佛大学主修法语，室友是诗人 Frank O'Hara。1953年起在纽约 Doubleday 出版社担任美术设计，为无数书籍设计封面。
-
-Gorey 的画风极其独特：精细的钢笔交叉排线、维多利亚/爱德华时代的场景、面无表情的人物、以及一种无处不在的诡异氛围。他一生创作了超过100本书，大部分是自写自画。
-
-**他穿着毛皮大衣和白球鞋，养了六只猫，每天看纽约城市芭蕾舞团的演出长达25年。**
-
-1978年凭音乐剧《德古拉》的服装设计获得托尼奖。晚年隐居在科德角的"大象屋"，与猫为伴，直到2000年去世。`,
-    
-    story: `1963年，Edward Gorey 出版了一本26页的小书——每一页是一个孩子以字母顺序排列的名字，以及他们各自荒唐而不幸的死法。
-
-**"A is for Amy who fell down the stairs. B is for Basil assaulted by bears."**
-
-这就是《The Gashlycrumb Tinies》。
-
-每一幅插画都是精心绘制的钢笔画：密集的交叉排线营造出维多利亚时代阴暗的氛围，穿着正装的小孩们面无表情地走向各自的命运。有人被熊袭击，有人喝了碱水，有人被水蛭吸干。
-
-这本书没有道德教训，没有救赎，没有任何安慰。它以一种极其冷淡的语气描述了26种儿童的死亡——而这恰恰是它的天才之处。
-
-Gorey 用精美的艺术形式包裹了最黑暗的内容，创造了一种前所未有的审美体验：**美丽而恐怖，精致而残酷，滑稽而悲伤。**`,
-    
-    legacy: `• 哥特美学先驱：Gorey 的视觉风格直接影响了 Tim Burton、Neil Gaiman、Lemony Snicket 等创作者
-• PBS Mystery! 片头：1980年代他为 PBS 经典推理节目设计的动画片头，成为美国电视史上最具辨识度的片头之一
-• 独立出版先驱：他在大出版商之外自行出版了大量小册子，是 zine 文化的先行者
-• 跨界影响：从插画到舞台设计、服装设计、动画，Gorey 证明了插画家可以定义一种完整的美学世界`,
-    
-    significance: `Gorey 证明了插画不只是文字的附庸——它可以是一种独立的艺术语言。
-
-在他之前，插画往往被视为"次等艺术"。Gorey 用极其精湛的技法和独特的叙事方式，创造了一种全新的视觉文学形式。他的钢笔画有伦勃朗版画的精密度，他的故事有卡夫卡小说的荒诞感。
-
-他影响了整整一个时代的黑暗美学：从 Tim Burton 的电影到 A Series of Unfortunate Events 的文学，从哥特时尚到独立漫画。今天，当你看到任何"精致而阴暗"的视觉风格，背后几乎都有 Gorey 的影子。
-
-**"My mission in life is to make everybody as uneasy as possible."**
-——让所有人都感到不安，就是我的人生使命。`,
-
-    dateConnection_en: 'On February 22, 1925, Edward Gorey was born in Chicago. He was one of America\'s most distinctive illustrators and writers, creating an inimitable visual world through Victorian-style pen-and-ink drawings and dark humor.',
-    
-    designerBio_en: `Edward St. John Gorey (1925-2000), American illustrator, writer, and stage designer.
-
-Born in Chicago, he taught himself to read by age 3 and started drawing at 18 months. He studied French at Harvard, rooming with poet Frank O'Hara. From 1953, he worked in the Art Department at Doubleday, designing countless book covers.
-
-Gorey's style was utterly unique: meticulous pen-and-ink crosshatching, Victorian and Edwardian settings, expressionless figures, and a pervasive sense of unease. He created over 100 books in his lifetime, most self-written and self-illustrated.
-
-He wore fur coats and white sneakers, kept six cats, and attended every performance of the New York City Ballet for 25 years.
-
-In 1978, he won a Tony Award for his costume design for "Dracula." He spent his final years as a recluse in the "Elephant House" on Cape Cod, living with his cats until his death in 2000.`,
-    
-    story_en: `In 1963, Edward Gorey published a 26-page book—each page featuring a child whose name followed alphabetical order, along with their absurd and unfortunate manner of death.
-
-**"A is for Amy who fell down the stairs. B is for Basil assaulted by bears."**
-
-This was The Gashlycrumb Tinies.
-
-Each illustration was a meticulously rendered pen-and-ink drawing: dense crosshatching created the gloomy atmosphere of the Victorian era, formally dressed children walked expressionless toward their respective fates. One was attacked by bears, another drank lye, another was drained by leeches.
-
-The book offers no moral lesson, no redemption, no comfort whatsoever. It describes 26 children's deaths in an utterly deadpan tone—and that is precisely its genius.
-
-Gorey wrapped the darkest content in exquisite artistic form, creating an unprecedented aesthetic experience: **beautiful yet horrifying, refined yet cruel, funny yet sad.**`,
-    
-    legacy_en: `• Gothic aesthetic pioneer: Gorey's visual style directly influenced Tim Burton, Neil Gaiman, Lemony Snicket, and countless other creators
-• PBS Mystery! opening: His animated title sequence for the classic PBS mystery show in the 1980s became one of the most recognizable TV openings in American history
-• Independent publishing pioneer: He self-published numerous booklets outside major publishers, pioneering zine culture
-• Cross-disciplinary influence: From illustration to stage design, costume design, and animation, Gorey proved that an illustrator can define an entire aesthetic universe`,
-    
-    significance_en: `Gorey proved that illustration is not merely subordinate to text—it can be an independent artistic language.
-
-Before him, illustration was often regarded as "lesser art." Through extraordinary technique and a unique narrative approach, Gorey created an entirely new form of visual literature. His pen drawings have the precision of Rembrandt's etchings; his stories carry the absurdity of Kafka's novels.
-
-He influenced an entire generation's dark aesthetic: from Tim Burton's films to A Series of Unfortunate Events in literature, from gothic fashion to independent comics. Today, whenever you encounter a visual style that is "refined yet sinister," Gorey's shadow is almost certainly behind it.
-
-**"My mission in life is to make everybody as uneasy as possible."**`
   },
 ]
