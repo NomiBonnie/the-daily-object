@@ -166,8 +166,10 @@ the-daily-object/
 
 ### 1. 确定日期
 ```powershell
-$tomorrow = (Get-Date).AddDays(1).ToString("MM-dd")
+# ⚠️ 是"今天"，不是"明天"！
+$today = (Get-Date).ToString("MM-dd")
 ```
+**⚠️ 只添加今天的条目，绝对不要添加明天或未来日期的内容！**
 
 ### 2. 检查是否已有内容
 读取 `src/data.ts`，搜索该日期是否已存在。如果有，报告"已存在"并结束。
@@ -199,8 +201,9 @@ Invoke-WebRequest -Uri "URL" -OutFile "public/images/filename.jpg" -Headers @{"U
 cd C:\Users\kaixin_yy\.openclaw\workspace\the-daily-object
 git add .
 git commit -m "Add MM-DD: Title"
-git push
+git push origin main
 ```
+**⚠️ 必须 `git push origin main`！** 这个项目用 GitHub Actions 部署（不是 gh-pages 分支），push main 会自动触发 build + deploy。`npx gh-pages` 无效！
 
 ### 8. 验证
 等 2 分钟，检查：
@@ -289,11 +292,18 @@ browser action=open → 用 → browser action=close
 | 02-18 | Wisteria Lamp | Louis Comfort Tiffany | art |
 | 02-19 | Bird in Space | Constantin Brâncuși | art |
 | 02-20 | Salk Institute for Biological Studies | Louis Kahn | architecture |
-| 02-22 | The Gashlycrumb Tinies | Edward Gorey | graphic |
-| 02-23 | Black Square | Kazimir Malevich | art |
+| 02-21 | Polaroid Land Camera Model 95 | Edwin Land | industrial |
+| 02-22 | Sexy Robot | Hajime Sorayama | industrial |
 
 > 添加新内容后，请更新此索引。
 
 ---
 
-*最后更新：2026-02-23*
+## ⚠️ 关键规则（血泪教训）
+
+1. **只添加今天的条目**，绝不提前添加明天的。cron 每天 08:00 跑，添加当天内容。
+2. **只用真实照片**，不用 DALL-E/AI 生成。来源：Unsplash > Flickr > Wikimedia。
+3. **部署用 `git push origin main`**，不用 `npx gh-pages`（项目用 GitHub Actions 部署）。
+4. **部署后等 2 分钟验证**，确认线上 JS bundle hash 已更新。
+
+*最后更新：2026-02-22*
