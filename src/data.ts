@@ -1112,88 +1112,77 @@ No wonder Steve Jobs said: "Edwin Land was a national treasure. He was one of th
   {
     id: '18',
     date: '2026-02-22',
-    imageUrl: '/the-daily-object/images/edward-gorey-portrait.jpg',
-    thumbnailUrl: '/the-daily-object/images/edward-gorey-portrait.jpg',
-    title: 'The Gashlycrumb Tinies',
-    subtitle: 'Edward Gorey, 1963',
-    category: 'graphic',
-    designer: 'Edward Gorey',
-    year: '1963',
+    imageUrl: '/the-daily-object/images/cleopatras-needle.jpg',
+    thumbnailUrl: '/the-daily-object/images/cleopatras-needle.jpg',
+    title: 'Cleopatra\'s Needle',
+    subtitle: 'Ancient Egypt → New York, 1461 BC / 1881',
+    category: 'architecture',
+    designer: 'Thutmose III',
+    year: '1461 BC',
     
-    dateConnection: '1925年2月22日，爱德华·戈里（Edward Gorey）出生于芝加哥。他用维多利亚哥特式的钢笔画风格创造了一个独一无二的视觉宇宙，影响了从蒂姆·伯顿到雷蒙·斯尼奇的整整一代创作者。',
+    dateConnection: '1881年2月22日，这座3500年历史的埃及方尖碑在纽约中央公园正式竖立。它是人类历史上最大规模的古物迁移工程之一——从亚历山大港跨越大西洋来到曼哈顿。',
     
-    designerBio: `爱德华·戈里（Edward Gorey），1925年生于芝加哥，哈佛大学法语文学专业毕业。在哈佛时与室友弗兰克·奥哈拉（诗人）一起泡在剧院和书店里。
+    designerBio: `这座方尖碑由法老图特摩斯三世（Thutmose III）下令建造于公元前1461年，最初矗立在古埃及赫利奥波利斯（太阳城）的神庙前。
 
-毕业后在纽约的 Doubleday Anchor Books 做书籍封面设计，同时创作自己的插画书。他一生创作了超过100本书，每一本都散发着独特的维多利亚时代阴郁美学。
+它高21米，重224吨，整块红色花岗岩雕刻而成。四面刻满象形文字，记录着法老的功绩。后来拉美西斯二世在上面又加刻了自己的铭文——这在古埃及是常见操作，相当于在别人的作品上署自己的名。
 
-**"I write about everyday life."** ——他如此形容自己充满死亡、厄运和黑色幽默的作品。
-
-他终身未婚，与六只猫同住在科德角的一栋老房子里。他收集毛皮大衣、看纽约城市芭蕾舞团的每一场演出，穿着拖鞋出席正式场合。`,
+公元前12年，罗马人将它从赫利奥波利斯搬到亚历山大港，矗立在凯撒神庙前。在那里，它又站了近两千年。`,
     
-    story: `1963年，戈里出版了一本26页的小书：《The Gashlycrumb Tinies》——从A到Z，26个孩子，每人一种荒诞的死法。
+    story: `1869年，埃及赫迪夫伊斯梅尔·帕夏为了拉拢美国的政治支持，将这座方尖碑作为礼物赠送给美国。但没人知道怎么把一块224吨的石头从非洲运到纽约。
 
-"A is for Amy who fell down the stairs. B is for Basil assaulted by bears."
+1879年，美国海军中尉亨利·戈林奇（Henry Gorringe）接下了这个不可能的任务。他先在亚历山大港把方尖碑从底座上放倒——光这一步就花了数月。然后他特制了一艘蒸汽船，在船体上开了一个洞，把方尖碑塞进船舱。
 
-这本书只有巴掌大小，每页一幅精细的钢笔画配一句韵文。画面极其克制——没有血腥，没有恐怖，只有维多利亚风格的孩子们在各种离奇的情境中安静地走向终点。一切都藏在交叉排线的阴影和一丝不苟的构图里。
+112天的海上航行后，方尖碑抵达纽约。接下来是更疯狂的部分：从哈德逊河码头到中央公园，全程靠蒸汽机和铁轨，以每天30米的速度推进。整个搬运过程耗时近四个月。
 
-**这不是恐怖故事。这是对"恐怖故事"本身的一次优雅解构。**
+**1881年2月22日**——华盛顿诞辰日——方尖碑在中央公园正式竖立。近万人到场见证。一座在尼罗河畔站了3000多年的石碑，现在站在了曼哈顿的树丛之间。`,
 
-它的形式完美地模仿了19世纪的儿童识字书——那种每页一个字母配插图的教育读物。但内容是反的。戈里用最温文尔雅的语气讲述最不体面的事，这种反差创造了一种前所未有的黑色幽默美学。
+    legacy: `Cleopatra's Needle 是19世纪"方尖碑热"的巅峰。伦敦（1878年）和巴黎（卢克索方尖碑，1833年）都得到了自己的埃及方尖碑，但纽约的运输工程最为壮观。
 
-1977年，百老汇请他为新版《德拉库拉》设计舞台和服装。他赢得了托尼奖。一个画小书的人，把整个剧场变成了他的钢笔画。1980年，PBS 的经典推理剧《Mystery!》请他设计片头动画——那些被谋杀的维多利亚小人偶，成为了美国一整代人的童年记忆。`,
+**对设计的影响：**
 
-    legacy: `戈里证明了一件事：**插画不需要色彩、不需要宏大叙事，一支钢笔和精确的交叉排线就足以创造一个完整的世界。**
+**纪念碑美学**：华盛顿纪念碑（1884年完工）的方尖碑造型直接受到了埃及方尖碑热的影响
+**Art Deco 运动**：1920年代图坦卡蒙墓的发现引发"埃及复兴"风格，克莱斯勒大厦等建筑大量使用埃及元素
+**公共艺术**：它证明了古代艺术品可以在全新的城市语境中获得新生命
 
-他的影响无处不在：
-
-**蒂姆·伯顿**：从《圣诞夜惊魂》到《僵尸新娘》，伯顿的哥特美学直接继承了戈里的视觉语言
-**雷蒙·斯尼奇**：《波特莱尔大遇险》系列的阴暗童话风格是对戈里的致敬
-**独立出版**：他证明了一本26页的手掌大小书可以成为经典，激励了整个独立出版运动
-**PBS Mystery!**：他设计的片头播出了超过20年，是美国电视史上最经典的动画序列之一
-
-2000年4月15日，他在科德角的家中去世，把遗产留给了一个动物保护基金会。`,
+但纽约的气候正在摧毁它。3500年来在干燥的沙漠中保存完好的象形文字，在纽约的酸雨和冻融循环下严重风化。这座方尖碑在纽约的140年里受到的损害，超过了它在埃及的3000年。`,
     
-    significance: `在一个追求"更多颜色、更大画面、更强冲击"的视觉世界里，戈里用最少的工具创造了最持久的美学。
+    significance: `一座3500年前的设计作品，至今仍然是中央公园最引人注目的地标之一。
 
-**黑白。钢笔。交叉排线。** 没有一丝多余。
+**方尖碑是人类最古老的"极简设计"。** 一整块石头，一个简单的几何形——底宽顶尖的四棱锥体。没有多余的装饰结构，形式就是内容。它的力量来自纯粹的比例和材料的诚实。
 
-《The Gashlycrumb Tinies》之所以经久不衰，是因为它揭示了一个设计真理：**克制比放纵更有力量。** 那些没有画出来的东西，比画出来的更令人不安。
+3500年过去了，我们仍然在用同样的设计原则：**一个强有力的形式，一种诚实的材料，足矣。**
 
-他用维多利亚时代的礼仪包装死亡，用儿童读物的形式颠覆儿童读物——这种"用形式对抗内容"的策略，至今仍是设计师最强大的武器之一。
+它也提出了一个永恒的设计问题：当你把一件作品从它原本的语境中抽离，放到一个完全不同的环境里——它还是同一件作品吗？`,
 
-**"Life is intrinsically, well, boring and dangerous at the same time. At any given moment the floor may open up."**`,
-
-    dateConnection_en: 'February 22, 1925 — Edward Gorey was born in Chicago. His Victorian Gothic pen-and-ink style created a unique visual universe that influenced an entire generation of creators, from Tim Burton to Lemony Snicket.',
+    dateConnection_en: 'February 22, 1881 — This 3,500-year-old Egyptian obelisk was officially erected in New York\'s Central Park. It was one of the largest ancient artifact relocations in history — crossing the Atlantic from Alexandria to Manhattan.',
     
-    designerBio_en: `Edward Gorey (1925–2000), born in Chicago, graduated from Harvard with a degree in French literature. At Harvard, he and his roommate Frank O'Hara (the poet) haunted theaters and bookshops.
+    designerBio_en: `Commissioned by Pharaoh Thutmose III around 1461 BC, this obelisk originally stood before the Temple of the Sun in ancient Heliopolis, Egypt.
 
-After graduation, he designed book covers at Doubleday Anchor Books in New York while creating his own illustrated books. He produced over 100 books in his lifetime, each radiating his distinctive Victorian gloom.
+Standing 21 meters tall and weighing 224 tons, it was carved from a single block of red granite. All four faces are covered in hieroglyphs recording the pharaoh's achievements. Ramesses II later added his own inscriptions — a common practice in ancient Egypt, essentially signing someone else's work.
 
-He never married, lived with six cats in an old house on Cape Cod, collected fur coats, attended every New York City Ballet performance, and wore sneakers to formal events.`,
+In 12 BC, the Romans moved it from Heliopolis to Alexandria, where it stood before the Temple of Caesar for nearly two thousand more years.`,
     
-    story_en: `In 1963, Gorey published a 26-page miniature book: "The Gashlycrumb Tinies" — from A to Z, 26 children, each meeting an absurd demise.
+    story_en: `In 1869, Egyptian Khedive Ismail Pasha gifted the obelisk to the United States to curry political favor. But nobody knew how to transport a 224-ton stone from Africa to New York.
 
-"A is for Amy who fell down the stairs. B is for Basil assaulted by bears."
+In 1879, US Navy Lieutenant Henry Gorringe took on the impossible task. First, he spent months lowering the obelisk from its pedestal in Alexandria. Then he had a custom steamship built with a hole cut in its hull to fit the obelisk inside.
 
-Each palm-sized page paired a meticulous pen-and-ink drawing with a single couplet. The images were supremely restrained — no gore, no horror, just Victorian children quietly meeting their ends in bizarre circumstances. Everything lurked in the crosshatched shadows and impeccable compositions.
+After 112 days at sea, it arrived in New York. The next phase was even more audacious: from the Hudson River pier to Central Park, the obelisk traveled on steam engines and rails at roughly 30 meters per day. The entire ground transport took nearly four months.
 
-The format perfectly mimicked 19th-century alphabet primers — those educational books with one letter and illustration per page. But the content was inverted. Gorey described the most undignified fates in the most genteel tone, creating an unprecedented black humor aesthetic.
-
-In 1977, Broadway hired him to design sets and costumes for a new production of "Dracula." He won a Tony Award. In 1980, PBS commissioned him to create the opening animation for "Mystery!" — those murdered Victorian figurines became a childhood memory for an entire American generation.`,
+On February 22, 1881 — George Washington's birthday — the obelisk was officially erected in Central Park before a crowd of nearly ten thousand. A stone that had stood by the Nile for over 3,000 years now stood among Manhattan's trees.`,
     
-    legacy_en: `Gorey proved that illustration needs neither color nor grand narrative — a pen and precise crosshatching can create an entire world.
+    legacy_en: `Cleopatra's Needle was the pinnacle of the 19th-century "obelisk craze." London (1878) and Paris (the Luxor Obelisk, 1833) both received their own Egyptian obelisks, but New York's transport engineering was the most spectacular.
 
-Tim Burton's Gothic aesthetic from "Nightmare Before Christmas" to "Corpse Bride" directly inherits Gorey's visual language. Lemony Snicket's "A Series of Unfortunate Events" pays homage to his dark fairy tale style. His "Mystery!" opening aired for over 20 years, one of the most iconic animation sequences in American television history.
+The Washington Monument (completed 1884) drew directly from obelisk fever. The 1920s "Egyptian Revival" style, triggered by the discovery of Tutankhamun's tomb, influenced Art Deco landmarks like the Chrysler Building.
 
-He left his estate to an animal welfare charity.`,
+But New York's climate is destroying it. Hieroglyphs preserved perfectly for 3,500 years in the dry desert have been severely weathered by acid rain and freeze-thaw cycles. The obelisk has suffered more damage in 140 years in New York than in 3,000 years in Egypt.`,
     
-    significance_en: `In a visual world chasing "more color, bigger canvases, stronger impact," Gorey created the most enduring aesthetic with the fewest tools.
+    significance_en: `A 3,500-year-old design that remains one of Central Park's most striking landmarks.
 
-Black and white. Pen. Crosshatching. Nothing superfluous.
+The obelisk is humanity's oldest "minimalist design." A single block of stone, one simple geometric form — a quadrilateral pyramid tapering from base to tip. No superfluous structural decoration; form is content. Its power comes from pure proportion and material honesty.
 
-"The Gashlycrumb Tinies" endures because it reveals a design truth: restraint is more powerful than excess. What's left undrawn disturbs more than what's drawn.
+3,500 years later, we still use the same design principles: one powerful form, one honest material, enough.
 
-He wrapped death in Victorian etiquette and subverted children's books using children's book format — this strategy of "form against content" remains one of a designer's most powerful weapons.`
+It also poses an eternal design question: when you remove a work from its original context and place it in an entirely different environment — is it still the same work?`
   },
 
 ]
