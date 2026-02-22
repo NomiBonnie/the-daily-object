@@ -183,10 +183,27 @@ $today = (Get-Date).ToString("MM-dd")
 
 ### 4. 选择作品
 考虑因素：
+- **图片质量是第一优先级** — 找不到好图就换作品，别死磕
 - 日期关联是否明确可验证
 - 是否足够"世界级"
 - 领域是否与最近几天不同
-- 是否能找到好图片
+
+**⚠️ 图片找不到时的策略：**
+- ❌ 错误：反复搜索同一个作品的不同图片来源
+- ✅ 正确：换一个有高质量图片的设计作品，哪怕日期关联弱一点
+- **有好图的弱关联作品 > 没好图的强关联作品**
+
+**⚠️ 图文一致性检查（发布前必做！最高优先级！）：**
+
+图片必须与以下三项**全部匹配**，任何一项不符就不能发布：
+1. **标题匹配** — 图片展示的必须是标题所说的那个作品
+2. **故事匹配** — 文字讲的是什么，图片就得是什么。讲插画→配插画图；讲建筑→配建筑照片；讲雕塑→配雕塑照片
+3. **类别匹配** — 工业设计配实物照，绘画配画作图，建筑配建筑照片
+
+**不匹配怎么办？**
+- 先尝试换图（找到匹配的图片）
+- 找不到匹配的图 → **直接换主题**，不要死磕
+- ❌ 绝不允许图文不一致的内容上线
 
 ### 5. 下载图片
 ```powershell
@@ -293,7 +310,7 @@ browser action=open → 用 → browser action=close
 | 02-19 | Bird in Space | Constantin Brâncuși | art |
 | 02-20 | Salk Institute for Biological Studies | Louis Kahn | architecture |
 | 02-21 | Polaroid Land Camera Model 95 | Edwin Land | industrial |
-| 02-22 | Sexy Robot | Hajime Sorayama | industrial |
+| 02-22 | The Gashlycrumb Tinies | Edward Gorey | graphic |
 
 > 添加新内容后，请更新此索引。
 
@@ -305,5 +322,7 @@ browser action=open → 用 → browser action=close
 2. **只用真实照片**，不用 DALL-E/AI 生成。来源：Unsplash > Flickr > Wikimedia。
 3. **部署用 `git push origin main`**，不用 `npx gh-pages`（项目用 GitHub Actions 部署）。
 4. **部署后等 2 分钟验证**，确认线上 JS bundle hash 已更新。
+5. **图文一致性 > 一切**：图片必须和标题、故事内容、类别全部匹配。找不到匹配的图就换主题，绝不允许图文不一致上线。
+6. **找不到好图就换主题**：尝试 3 次找图失败 → 立即换一个有好图的设计作品，别死磕。
 
 *最后更新：2026-02-22*
