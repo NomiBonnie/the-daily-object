@@ -1109,4 +1109,98 @@ No wonder Steve Jobs said: "Edwin Land was a national treasure. He was one of th
 
 **A good question can change the world. "Why can't I see the picture right away?"—that 3-year-old girl's question was worth billions of dollars.**`
   },
+  {
+    id: '17',
+    date: '2026-02-23',
+    imageUrl: '/the-daily-object/images/black-square.jpg',
+    thumbnailUrl: '/the-daily-object/images/black-square.jpg',
+    title: 'Black Square',
+    category: 'art',
+    designer: 'Kazimir Malevich',
+    year: '1915',
+    
+    dateConnection: '1879年2月23日，Kazimir Malevich 出生于基辅（今乌克兰）。他创立的至上主义运动彻底改变了视觉艺术和设计的走向。',
+    
+    designerBio: `Kazimir Severinovich Malevich (1879-1935)，俄裔乌克兰前卫艺术家，至上主义（Suprematism）创始人。
+
+出生于波兰裔乌克兰家庭，童年在乌克兰乡村度过。早年经历印象派、野兽派、立体主义等风格的探索，最终走向纯粹的几何抽象。
+
+1915年，他在彼得格勒的"0,10：最后的未来主义画展"上首次展出《黑色方块》，将其挂在展厅角落的最高处——那个位置在俄罗斯传统中是留给圣像画的。这不仅是美学宣言，更是一场精神革命。
+
+Malevich 不仅是画家，还是理论家、教育家和设计先驱。他在建筑、陶瓷和纺织设计中都实践了至上主义原则。1935年在列宁格勒去世，遗体安葬时覆盖着他设计的至上主义棺材。`,
+    
+    story: `1915年冬天，彼得格勒。
+
+"0,10：最后的未来主义画展"开幕。39件作品中，Malevich 把一幅画挂在了展厅角落的最高处。
+
+那是俄罗斯家庭中留给圣像画的位置——"红角"。
+
+画面上，只有一个黑色的方块。
+
+没有透视，没有光影，没有叙事，没有情感——什么都没有。或者说，什么都有。
+
+《黑色方块》不是一幅画。它是一个句号，结束了数百年的再现传统；也是一个起点，开启了一个全新的视觉语言体系。
+
+Malevich 自己写道："我把自己变成了形式的零点，从零开始。" 他称之为"纯粹感觉的至上主义"——不再模仿自然，不再讲述故事，而是让形式本身说话。
+
+这个79.5×79.5厘米的正方形画布，改变了整个20世纪。`,
+    
+    legacy: `● 至上主义运动：《黑色方块》标志着至上主义的诞生，影响了包豪斯、De Stijl、构成主义等现代设计运动
+● 平面设计基石：纯几何形式、负空间、极简排版——现代平面设计的核心原则都可以追溯到 Malevich
+● 建筑影响：Zaha Hadid 的毕业设计直接致敬 Malevich 的 Architecton 系列，她称之为"被压缩的至上主义"
+● 品牌设计：从 Apple 的极简美学到 Supreme 的红底白字 logo，至上主义的基因无处不在
+● 艺术市场：2008年，他的《至上主义构图》以6000万美元成交，刷新当时俄罗斯艺术品拍卖纪录`,
+    
+    significance: `一个黑色方块凭什么值得被记住？
+
+因为在1915年之前，艺术的价值在于"像不像"。Malevich 说：不，价值在于形式本身。
+
+这个想法看似简单，却颠覆了文艺复兴以来500年的视觉传统。它不只改变了艺术——它改变了设计的根基。
+
+今天你看到的每一个极简 logo、每一张留白大于内容的海报、每一栋干净利落的现代建筑，都回响着 Malevich 在1915年喊出的那句话：**少即是全。**
+
+当你打开一台 MacBook，面对那个纯净的铝合金表面和被咬了一口的苹果 logo 时，你看到的其实是一个一百多年前的乌克兰人在画布上涂下的那个黑色方块的回声。`,
+
+    dateConnection_en: 'On February 23, 1879, Kazimir Malevich was born in Kyiv (now Ukraine). The Suprematist movement he founded fundamentally altered the course of visual art and design.',
+    
+    designerBio_en: `Kazimir Severinovich Malevich (1879-1935), Russian-Ukrainian avant-garde artist and founder of Suprematism.
+
+Born into a Polish-Ukrainian family, he spent his childhood in the Ukrainian countryside. His early work explored Impressionism, Fauvism, and Cubism before he arrived at pure geometric abstraction.
+
+In 1915, he first exhibited "Black Square" at the "0,10: The Last Futurist Exhibition of Paintings" in Petrograd, hanging it in the uppermost corner of the room—the position traditionally reserved for religious icons in Russian homes. This was not merely an aesthetic statement but a spiritual revolution.
+
+Malevich was not only a painter but also a theorist, educator, and design pioneer. He applied Suprematist principles to architecture, ceramics, and textile design. He died in Leningrad in 1935 and was buried in a Suprematist coffin of his own design.`,
+    
+    story_en: `Winter, 1915. Petrograd.
+
+The "0,10: The Last Futurist Exhibition of Paintings" opened. Among 39 works, Malevich hung one painting in the uppermost corner of the gallery.
+
+That was the spot reserved for religious icons in Russian homes—the "red corner."
+
+On the canvas: nothing but a black square.
+
+No perspective, no light and shadow, no narrative, no emotion—nothing. Or rather, everything.
+
+"Black Square" is not a painting. It is a full stop, ending centuries of representational tradition; and a starting point, opening an entirely new system of visual language.
+
+Malevich himself wrote: "I transformed myself into the zero of form and dragged myself out of the rubbish-filled pool of Academic art." He called it "the Supremacy of pure feeling"—no longer imitating nature, no longer telling stories, but letting form itself speak.
+
+This 79.5 × 79.5 cm square canvas changed the entire 20th century.`,
+    
+    legacy_en: `● Suprematist movement: "Black Square" marked the birth of Suprematism, influencing Bauhaus, De Stijl, Constructivism, and other modern design movements
+● Foundation of graphic design: Pure geometric forms, negative space, minimal typography—the core principles of modern graphic design trace back to Malevich
+● Architectural influence: Zaha Hadid's thesis project directly paid homage to Malevich's Architecton series; she called it "compressed Suprematism"
+● Brand design: From Apple's minimalist aesthetics to Supreme's red-and-white box logo, Suprematist DNA is everywhere
+● Art market: In 2008, his "Suprematist Composition" sold for $60 million, setting a record for Russian art at auction`,
+    
+    significance_en: `Why does a black square deserve to be remembered?
+
+Because before 1915, art's value lay in resemblance. Malevich said: No—the value lies in form itself.
+
+This idea seems simple, yet it overturned 500 years of visual tradition since the Renaissance. It didn't just change art—it changed the very foundation of design.
+
+Every minimalist logo you see today, every poster with more white space than content, every clean-lined modern building—all echo what Malevich declared in 1915: **Less is everything.**
+
+When you open a MacBook and face that pure aluminum surface with a bitten apple logo, what you're really seeing is the echo of that black square painted by a Ukrainian man on canvas over a hundred years ago.`
+  },
 ]
