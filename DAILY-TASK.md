@@ -290,9 +290,10 @@ browser action=open → 用 → browser action=close
 | 02-19 | Bird in Space | Constantin Brâncuși | art |
 | 02-20 | Salk Institute for Biological Studies | Louis Kahn | architecture |
 | 02-22 | The Gashlycrumb Tinies | Edward Gorey | graphic |
+| 02-23 | Black Square | Kazimir Malevich | art |
 
 > 添加新内容后，请更新此索引。
 
 ---
 
-*最后更新：2026-02-22*
+*最后更新：2026-02-23*
