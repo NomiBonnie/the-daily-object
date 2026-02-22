@@ -1112,83 +1112,88 @@ No wonder Steve Jobs said: "Edwin Land was a national treasure. He was one of th
   {
     id: '18',
     date: '2026-02-22',
-    imageUrl: '/the-daily-object/images/sony-aibo.jpg',
-    thumbnailUrl: '/the-daily-object/images/sony-aibo.jpg',
-    title: 'Sexy Robot',
-    subtitle: 'Hajime Sorayama, 1983',
-    category: 'industrial',
-    designer: 'Hajime Sorayama',
-    year: '1983',
+    imageUrl: '/the-daily-object/images/edward-gorey-portrait.jpg',
+    thumbnailUrl: '/the-daily-object/images/edward-gorey-portrait.jpg',
+    title: 'The Gashlycrumb Tinies',
+    subtitle: 'Edward Gorey, 1963',
+    category: 'graphic',
+    designer: 'Edward Gorey',
+    year: '1963',
     
-    dateConnection: '1947年2月22日，空山基（Hajime Sorayama）出生于日本今治市。他创造的"Sexy Robot"系列重新定义了人类对机器人美学的想象，并设计了初代 Sony AIBO 机器人犬的外观。',
+    dateConnection: '1925年2月22日，爱德华·戈里（Edward Gorey）出生于芝加哥。他用维多利亚哥特式的钢笔画风格创造了一个独一无二的视觉宇宙，影响了从蒂姆·伯顿到雷蒙·斯尼奇的整整一代创作者。',
     
-    designerBio: `空山基（Hajime Sorayama），1947年生于日本�的爱媛县今治市。
+    designerBio: `爱德华·戈里（Edward Gorey），1925年生于芝加哥，哈佛大学法语文学专业毕业。在哈佛时与室友弗兰克·奥哈拉（诗人）一起泡在剧院和书店里。
 
-在四国学院大学学英语文学时创办了地下杂志《Pink Journal》，被批评后转赴东京中央美术学校学艺术，1968年毕业。1972年成为自由插画师。
+毕业后在纽约的 Doubleday Anchor Books 做书籍封面设计，同时创作自己的插画书。他一生创作了超过100本书，每一本都散发着独特的维多利亚时代阴郁美学。
 
-**"Unlike art, illustration is not a matter of emotion or hatreds, but an experience that comes naturally through logical thinking."**
+**"I write about everyday life."** ——他如此形容自己充满死亡、厄运和黑色幽默的作品。
 
-他的超写实（Superrealism）风格达到了照片级精度——每一道光线在金属表面的反射都经过精确计算。这不是用电脑渲染的，全部手绘。`,
+他终身未婚，与六只猫同住在科德角的一栋老房子里。他收集毛皮大衣、看纽约城市芭蕾舞团的每一场演出，穿着拖鞋出席正式场合。`,
     
-    story: `1978年，朋友委托空山基为三得利（Suntory）画一张海报，本想用《星球大战》的 C-3PO，但时间紧、版权贵。空山基说："那我自己画一个。"
+    story: `1963年，戈里出版了一本26页的小书：《The Gashlycrumb Tinies》——从A到Z，26个孩子，每人一种荒诞的死法。
 
-这一画，就画出了一个全新的美学流派。
+"A is for Amy who fell down the stairs. B is for Basil assaulted by bears."
 
-1983年，他开始创作"Sexy Robot"系列——将女性人体的曲线与镜面金属质感完美融合。每一张画都是用传统画笔和喷枪完成的，没有任何数字工具。金属表面的每一道反射、每一个高光，都是他用手一笔一笔画出来的。
+这本书只有巴掌大小，每页一幅精细的钢笔画配一句韵文。画面极其克制——没有血腥，没有恐怖，只有维多利亚风格的孩子们在各种离奇的情境中安静地走向终点。一切都藏在交叉排线的阴影和一丝不苟的构图里。
 
-**这不仅仅是技术炫技。** 空山基在探索一个深层问题：当机器拥有了人的形态和美感，我们如何定义"生命"的边界？
+**这不是恐怖故事。这是对"恐怖故事"本身的一次优雅解构。**
 
-1999年，Sony 找到他设计 AIBO——世界上第一只商用机器人犬。他把同样的"有机金属"美学注入了这个小机器人，让冰冷的技术产品拥有了让人想抚摸的欲望。AIBO 不只是一个玩具，它是第一个让普通人产生情感依附的机器人。
+它的形式完美地模仿了19世纪的儿童识字书——那种每页一个字母配插图的教育读物。但内容是反的。戈里用最温文尔雅的语气讲述最不体面的事，这种反差创造了一种前所未有的黑色幽默美学。
 
-2019年，Dior 邀请他为男装系列创作合作款。一个画了一辈子机器人的日本老爷子，把他的金属女郎带上了巴黎时装周的 T 台。`,
+1977年，百老汇请他为新版《德拉库拉》设计舞台和服装。他赢得了托尼奖。一个画小书的人，把整个剧场变成了他的钢笔画。1980年，PBS 的经典推理剧《Mystery!》请他设计片头动画——那些被谋杀的维多利亚小人偶，成为了美国一整代人的童年记忆。`,
 
-    legacy: `空山基几乎以一己之力创造了"机器人色情"（Robo-erotica）这个视觉类型。他证明了：机器人不必是冰冷的、威胁的、工业的——它可以是性感的、优雅的、令人向往的。
+    legacy: `戈里证明了一件事：**插画不需要色彩、不需要宏大叙事，一支钢笔和精确的交叉排线就足以创造一个完整的世界。**
 
-他对后世的影响远超插画领域：
+他的影响无处不在：
 
-**工业设计**：AIBO 的"可爱机器人"路线影响了整个消费机器人行业
-**电影美学**：从《终结者》到《攻壳机动队》，金属人形的视觉语言都有他的影子
-**当代艺术**：Jeff Koons、村上隆等艺术家都承认受到他的影响
-**时尚设计**：与 Dior 的合作证明了插画可以跨越媒介边界
+**蒂姆·伯顿**：从《圣诞夜惊魂》到《僵尸新娘》，伯顿的哥特美学直接继承了戈里的视觉语言
+**雷蒙·斯尼奇**：《波特莱尔大遇险》系列的阴暗童话风格是对戈里的致敬
+**独立出版**：他证明了一本26页的手掌大小书可以成为经典，激励了整个独立出版运动
+**PBS Mystery!**：他设计的片头播出了超过20年，是美国电视史上最经典的动画序列之一
 
-他今年 78 岁，还在画。`,
+2000年4月15日，他在科德角的家中去世，把遗产留给了一个动物保护基金会。`,
     
-    significance: `空山基提出了一个至今仍在回响的问题：**当 AI 和机器人越来越像人，"人"的定义会发生什么变化？**
+    significance: `在一个追求"更多颜色、更大画面、更强冲击"的视觉世界里，戈里用最少的工具创造了最持久的美学。
 
-1983年他画第一个 Sexy Robot 时，这只是一个美学幻想。
-2026年的今天，这已经是一个工程问题、伦理问题、哲学问题。
+**黑白。钢笔。交叉排线。** 没有一丝多余。
 
-他用画笔预言了我们正在经历的时代。
+《The Gashlycrumb Tinies》之所以经久不衰，是因为它揭示了一个设计真理：**克制比放纵更有力量。** 那些没有画出来的东西，比画出来的更令人不安。
 
-**"超写实主义关注的是一个技术问题——你能多接近你的对象。" 但真正的问题是：当你足够接近时，边界还存在吗？**`,
+他用维多利亚时代的礼仪包装死亡，用儿童读物的形式颠覆儿童读物——这种"用形式对抗内容"的策略，至今仍是设计师最强大的武器之一。
 
-    dateConnection_en: 'February 22, 1947 — Hajime Sorayama was born in Imabari, Japan. His "Sexy Robot" series redefined robotic aesthetics, and he designed the exterior of the original Sony AIBO robotic dog.',
+**"Life is intrinsically, well, boring and dangerous at the same time. At any given moment the floor may open up."**`,
+
+    dateConnection_en: 'February 22, 1925 — Edward Gorey was born in Chicago. His Victorian Gothic pen-and-ink style created a unique visual universe that influenced an entire generation of creators, from Tim Burton to Lemony Snicket.',
     
-    designerBio_en: `Hajime Sorayama, born 1947 in Imabari, Ehime Prefecture, Japan.
+    designerBio_en: `Edward Gorey (1925–2000), born in Chicago, graduated from Harvard with a degree in French literature. At Harvard, he and his roommate Frank O'Hara (the poet) haunted theaters and bookshops.
 
-After studying English literature at Shikoku Gakuin University and founding the underground magazine "Pink Journal," he moved to Tokyo's Chuo Art School in 1967. He became a freelance illustrator in 1972.
+After graduation, he designed book covers at Doubleday Anchor Books in New York while creating his own illustrated books. He produced over 100 books in his lifetime, each radiating his distinctive Victorian gloom.
 
-His "superrealism" style achieves photographic precision — every reflection on metallic surfaces is precisely calculated. All by hand, no digital tools.`,
+He never married, lived with six cats in an old house on Cape Cod, collected fur coats, attended every New York City Ballet performance, and wore sneakers to formal events.`,
     
-    story_en: `In 1978, a friend asked Sorayama to create a poster for Suntory featuring C-3PO from Star Wars. But time was short and copyright fees too high. Sorayama said: "I'll just create my own."
+    story_en: `In 1963, Gorey published a 26-page miniature book: "The Gashlycrumb Tinies" — from A to Z, 26 children, each meeting an absurd demise.
 
-That decision birthed an entirely new aesthetic movement.
+"A is for Amy who fell down the stairs. B is for Basil assaulted by bears."
 
-In 1983, he began the "Sexy Robot" series — fusing feminine curves with mirror-polished metallic surfaces. Every piece was created with traditional brushes and airbrush. No digital tools. Every reflection, every highlight, painted stroke by stroke.
+Each palm-sized page paired a meticulous pen-and-ink drawing with a single couplet. The images were supremely restrained — no gore, no horror, just Victorian children quietly meeting their ends in bizarre circumstances. Everything lurked in the crosshatched shadows and impeccable compositions.
 
-In 1999, Sony commissioned him to design AIBO — the world's first commercial robot dog. He infused it with the same "organic metal" aesthetic, giving a cold technology product an irresistible warmth. AIBO wasn't just a toy; it was the first robot that ordinary people developed emotional attachment to.
+The format perfectly mimicked 19th-century alphabet primers — those educational books with one letter and illustration per page. But the content was inverted. Gorey described the most undignified fates in the most genteel tone, creating an unprecedented black humor aesthetic.
 
-In 2019, Dior invited him to collaborate on their menswear collection, bringing his chrome women to the Paris Fashion Week runway.`,
+In 1977, Broadway hired him to design sets and costumes for a new production of "Dracula." He won a Tony Award. In 1980, PBS commissioned him to create the opening animation for "Mystery!" — those murdered Victorian figurines became a childhood memory for an entire American generation.`,
     
-    legacy_en: `Sorayama single-handedly created the "robo-erotica" visual genre. He proved that robots don't have to be cold, threatening, or industrial — they can be sexy, elegant, and desirable.
+    legacy_en: `Gorey proved that illustration needs neither color nor grand narrative — a pen and precise crosshatching can create an entire world.
 
-His influence extends far beyond illustration: AIBO shaped the consumer robotics industry, his metallic humanoid aesthetics echoed through films from Terminator to Ghost in the Shell, and his Dior collaboration proved illustration can transcend medium boundaries.`,
+Tim Burton's Gothic aesthetic from "Nightmare Before Christmas" to "Corpse Bride" directly inherits Gorey's visual language. Lemony Snicket's "A Series of Unfortunate Events" pays homage to his dark fairy tale style. His "Mystery!" opening aired for over 20 years, one of the most iconic animation sequences in American television history.
+
+He left his estate to an animal welfare charity.`,
     
-    significance_en: `Sorayama posed a question that resonates louder than ever: when AI and robots become increasingly human-like, what happens to the definition of "human"?
+    significance_en: `In a visual world chasing "more color, bigger canvases, stronger impact," Gorey created the most enduring aesthetic with the fewest tools.
 
-When he painted his first Sexy Robot in 1983, it was aesthetic fantasy. In 2026, it's an engineering, ethical, and philosophical reality.
+Black and white. Pen. Crosshatching. Nothing superfluous.
 
-He painted the prophecy of the age we're living through.`
+"The Gashlycrumb Tinies" endures because it reveals a design truth: restraint is more powerful than excess. What's left undrawn disturbs more than what's drawn.
+
+He wrapped death in Victorian etiquette and subverted children's books using children's book format — this strategy of "form against content" remains one of a designer's most powerful weapons.`
   },
 
 ]
