@@ -311,6 +311,7 @@ browser action=open → 用 → browser action=close
 | 02-20 | Salk Institute for Biological Studies | Louis Kahn | architecture |
 | 02-21 | Polaroid Land Camera Model 95 | Edwin Land | industrial |
 | 02-22 | Cleopatra's Needle | Thutmose III / Ancient Egypt | architecture |
+| 02-23 | Gutenberg Bible | Johannes Gutenberg | graphic |
 
 > 添加新内容后，请更新此索引。
 
