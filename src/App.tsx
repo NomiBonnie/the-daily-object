@@ -40,6 +40,7 @@ const categoryLabels: Record<DesignObject['category'], string> = {
   music: 'Music',
   art: 'Art',
   architecture: 'Architecture',
+  graphic: 'Graphic Design',
 }
 
 function App() {

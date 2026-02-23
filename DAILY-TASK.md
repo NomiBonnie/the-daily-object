@@ -319,10 +319,32 @@ browser action=open → 用 → browser action=close
 ## ⚠️ 关键规则（血泪教训）
 
 1. **只添加今天的条目**，绝不提前添加明天的。cron 每天 08:00 跑，添加当天内容。
-2. **只用真实照片**，不用 DALL-E/AI 生成。来源：Unsplash > Flickr > Wikimedia。
+2. **只用真实照片**，不用 DALL-E/AI 生成。图源优先级：
+   - **Unsplash API**（首选）：config 在 `~/.config/unsplash/config.json`，用法：`Invoke-RestMethod -Uri "https://api.unsplash.com/search/photos?query=xxx&per_page=5&client_id=$($config.access_key)"`，下载用 `urls.regular`（1080px）
+   - **Pexels API**（备用）：config 在 `~/.config/pexels/config.json`，用法：`Invoke-RestMethod -Uri "https://api.pexels.com/v1/search?query=xxx&per_page=5" -Headers @{Authorization=$config.api_key}`，下载用 `src.large`
+   - **Wikimedia Commons API**（第三选择）：免费无需 key，但下载时必须用 User-Agent `DailyObjectBot/1.0 (NomiBonnie@hotmail.com)` 否则会 429 限流
 3. **部署用 `git push origin main`**，不用 `npx gh-pages`（项目用 GitHub Actions 部署）。
-4. **部署后等 2 分钟验证**，确认线上 JS bundle hash 已更新。
-5. **图文一致性 > 一切**：图片必须和标题、故事内容、类别全部匹配。找不到匹配的图就换主题，绝不允许图文不一致上线。
-6. **找不到好图就换主题**：尝试 3 次找图失败 → 立即换一个有好图的设计作品，别死磕。
+4. **图文一致性 > 一切**：图片必须和标题、故事内容、类别全部匹配。找不到匹配的图就换主题，绝不允许图文不一致上线。
+5. **找不到好图就换主题**：尝试 3 次找图失败 → 立即换一个有好图的设计作品，别死磕。
+6. **必须跟设计有关**：选的人/作品必须是设计师或设计作品（工业设计/建筑/UI/产品设计/平面设计），纯文学、纯艺术、纯插画不算。
+7. **category 必须准确**：industrial / architecture / art / music / graphic / software，选错 = 不专业。
+
+---
+
+## ✅ Sub-Agent 发布前强制自检清单
+
+**每次发布前必须逐项确认，任何一项不通过就不能发布：**
+
+| # | 检查项 | 说明 |
+|---|--------|------|
+| 1 | 设计相关性 | 这个人/作品跟"设计"有直接关系吗？不是纯文学/纯艺术？ |
+| 2 | 图文一致性 | 图片展示的内容 = 标题 = 故事讲的 = category？ |
+| 3 | 图片质量 | 图片清晰、好看、能代表这件作品？不是人物肖像照？ |
+| 4 | 内容深度 | 故事有设计洞察，不是维基百科搬运？ |
+| 5 | 只加今天 | 确认只添加了今天的 entry，没有多加或少加 |
+| 6 | 构建成功 | git push 后确认 GitHub Actions 构建通过（conclusion: success） |
+| 7 | 网站验证 | fetch 网站确认页面可访问、标题正确 |
+
+**如果第 1-3 项不通过 → 换主题重做，不要硬上。**
 
 *最后更新：2026-02-22*

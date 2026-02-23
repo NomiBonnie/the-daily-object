@@ -5,7 +5,7 @@
   thumbnailUrl?: string
   title: string
   subtitle?: string // 设计师 + 年份
-  category: 'industrial' | 'music' | 'art' | 'architecture'
+  category: 'industrial' | 'music' | 'art' | 'architecture' | 'graphic' | 'software'
   designer: string
   year?: string
   
@@ -1183,6 +1183,91 @@ The obelisk is humanity's oldest "minimalist design." A single block of stone, o
 3,500 years later, we still use the same design principles: one powerful form, one honest material, enough.
 
 It also poses an eternal design question: when you remove a work from its original context and place it in an entirely different environment — is it still the same work?`
+  },
+  {
+    id: '19',
+    date: '2026-02-23',
+    imageUrl: '/the-daily-object/images/gutenberg-bible.jpg',
+    thumbnailUrl: '/the-daily-object/images/gutenberg-bible.jpg',
+    title: 'Gutenberg Bible',
+    subtitle: 'Johannes Gutenberg, c. 1455',
+    category: 'graphic',
+    designer: 'Johannes Gutenberg',
+    year: 'c. 1455',
+    
+    dateConnection: '1455年2月23日被认为是古腾堡圣经的出版日期——西方世界第一本用活字印刷术印制的书籍。这一天标志着人类传播史上最深刻的革命：知识不再是手抄的奢侈品，而成为可以批量生产的民主化载体。',
+    
+    designerBio: `约翰内斯·古腾堡（Johannes Gutenberg，约1400-1468），出生于德国美因茨，金匠出身。他花了近20年时间，将金属铸造、油墨调配、压榨技术融合成一套完整的活字印刷系统。
+
+他的突破不是"发明活字"——中国的毕昇在11世纪就发明了泥活字。古腾堡的天才在于**系统设计**：他发明了手持铸字模具（hand mold），可以快速、精确地批量铸造金属活字；他调配出油基墨水替代水基墨水，使字迹更清晰持久；他改造了葡萄酒压榨机，变成了印刷机。
+
+每一项单独看都不算惊天动地，但组合在一起，就成了改变世界的系统。这是真正的**设计思维**——不是发明一个零件，而是设计一整套工作流程。`,
+    
+    story: `古腾堡圣经的印制花了大约两年（1453-1455）。180份，其中约135份印在纸上，45份印在更昂贵的羊皮纸上——每份羊皮纸版需要170张小牛皮。
+
+但真正让设计师着迷的不是产量，而是**排版质量**。古腾堡追求的目标是：印刷品必须和手抄本一样美。
+
+他设计了290个不同的字符——远超26个字母。因为中世纪手抄本中有大量的连字（ligature）、缩写符号和变体字形，古腾堡全部复刻了。他甚至在同一行中微调字母间距，使右边距完美对齐（justified），这种精确度直到数字排版时代才被超越。
+
+每页42行，双栏排列。页面比例接近黄金比例。文字区域与页边距的关系遵循中世纪抄本的经典构图法则——这套法则后来被扬·奇肖尔德（Jan Tschichold）在20世纪重新发现并命名为"范德格拉夫准则"（Van de Graaf canon）。
+
+**一个讽刺的结局**：古腾堡在圣经完成前就因为债务纠纷失去了自己的印刷作坊。投资人约翰·福斯特（Johann Fust）通过诉讼夺走了设备，并与古腾堡的学徒彼得·舍费尔（Peter Schöffer）继续经营。改变世界的人，没有从中获利。`,
+
+    legacy: `古腾堡圣经现存49本（其中21本完整），是世界上最珍贵的书籍之一。2009年被联合国教科文组织列入世界记忆名录。
+
+**对设计的影响：**
+
+**字体设计的起点**：古腾堡的 Textura 哥特体直接催生了后来的字体设计传统。从 Garamond 到 Helvetica，所有西方字体的源头都可以追溯到这里。
+
+**网格系统的先驱**：古腾堡圣经的42行双栏版式，是有据可查的最早的系统化排版网格之一。约瑟夫·穆勒-布罗克曼（Josef Müller-Brockmann）在《网格系统》中专门提到了中世纪抄本的版式传统。
+
+**"看不见的设计"的典范**：古腾堡的最高追求是让印刷品看起来像手抄本——好的设计不彰显自己，而是服务于内容。这个理念贯穿了整部平面设计史。
+
+印刷术在古腾堡之后的50年内传遍整个欧洲。到1500年，已经有超过2000万册书被印刷。这直接推动了文艺复兴、宗教改革和科学革命。`,
+    
+    significance: `一本571年前的书，至今仍然是排版设计的教科书。
+
+**古腾堡圣经不只是一本书，它是人类第一个"用户界面"。** 在此之前，书是给精英看的奢侈品；在此之后，书是给所有人看的工具。古腾堡面临的设计挑战和今天的 UI 设计师一模一样：如何让信息清晰、美观、高效地到达用户？
+
+42行、双栏、黄金比例的页面——这些不是偶然的选择，而是深思熟虑的信息架构。571年后，我们的屏幕上仍然在用栏、网格、字体层级。
+
+**技术改变了，设计问题没有变。**`,
+
+    dateConnection_en: 'February 23, 1455 is traditionally recognized as the publication date of the Gutenberg Bible — the first major book printed with movable metal type in the Western world. This date marks the most profound revolution in the history of human communication: knowledge ceased to be a hand-copied luxury and became a mass-producible, democratized medium.',
+    
+    designerBio_en: `Johannes Gutenberg (c. 1400–1468), born in Mainz, Germany, was a goldsmith by trade. He spent nearly two decades combining metalcasting, ink formulation, and press engineering into a complete movable type printing system.
+
+His breakthrough wasn't "inventing movable type" — Bi Sheng in China had created ceramic movable type in the 11th century. Gutenberg's genius was in systems design: he invented the hand mold for rapid, precise mass-production of metal type; he formulated oil-based ink to replace water-based ink for sharper, more durable impressions; he adapted the wine press into a printing press.
+
+No single component was revolutionary on its own, but together they became a world-changing system. This is true design thinking — not inventing one part, but designing an entire workflow.`,
+    
+    story_en: `The Gutenberg Bible took roughly two years to print (1453–1455). 180 copies were produced — approximately 135 on paper and 45 on the more expensive vellum, each requiring 170 calfskins.
+
+But what truly fascinates designers isn't the output — it's the typographic quality. Gutenberg's goal was that printed pages must be as beautiful as manuscripts.
+
+He designed 290 different characters — far beyond 26 letters. Medieval manuscripts used extensive ligatures, abbreviations, and variant glyphs, and Gutenberg replicated them all. He even micro-adjusted letter spacing within lines to achieve perfect right-margin justification — a level of precision not surpassed until the digital typesetting era.
+
+Each page has 42 lines in two columns. The page proportions approximate the golden ratio. The relationship between text area and margins follows the classic composition rules of medieval codices — rules later rediscovered and named the "Van de Graaf canon" by Jan Tschichold in the 20th century.
+
+A cruel irony: Gutenberg lost his own printing workshop to a debt dispute before the Bible was even finished. Investor Johann Fust sued and seized the equipment, continuing the business with Gutenberg's apprentice Peter Schöffer. The man who changed the world never profited from it.`,
+    
+    legacy_en: `49 copies of the Gutenberg Bible survive today (21 complete), making it one of the world's most precious books. It was inscribed in the UNESCO Memory of the World Register in 2009.
+
+Gutenberg's Textura blackletter directly spawned the Western typeface design tradition. From Garamond to Helvetica, every Western typeface traces its lineage here.
+
+The 42-line, two-column layout is one of the earliest documented systematic typographic grids. Josef Müller-Brockmann specifically referenced medieval manuscript layout traditions in his seminal "Grid Systems."
+
+It exemplifies "invisible design" — Gutenberg's highest aspiration was making printed pages look like manuscripts. Good design doesn't announce itself; it serves the content. This principle runs through the entire history of graphic design.
+
+Within 50 years of Gutenberg, printing had spread across all of Europe. By 1500, over 20 million books had been printed, directly fueling the Renaissance, the Reformation, and the Scientific Revolution.`,
+    
+    significance_en: `A book from 571 years ago that remains a textbook in typographic design.
+
+The Gutenberg Bible isn't just a book — it's humanity's first "user interface." Before it, books were luxuries for elites; after it, books were tools for everyone. Gutenberg faced the same design challenge as today's UI designers: how to deliver information to users clearly, beautifully, and efficiently.
+
+42 lines, two columns, golden-ratio pages — these weren't accidental choices but deliberate information architecture. 571 years later, our screens still use columns, grids, and typographic hierarchy.
+
+The technology changed. The design problems didn't.`
   },
 
 ]
