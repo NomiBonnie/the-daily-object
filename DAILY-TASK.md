@@ -10,6 +10,14 @@
 
 **定位**：每天推荐一个世界级小众设计作品，必须与当天日期有关联。
 
+### ⚠️ 更新后必做：验证 + 报告（Sam 要求 2026-02-23）
+
+每次内容更新 push 后，必须：
+1. 确认 `git push` 成功
+2. 等 GitHub Actions 部署完成（约 1-2 分钟）
+3. 用浏览器打开线上网站，确认新内容正确渲染
+4. 给 Sam 发一份简报：今天的主题 + 线上状态 + 是否有问题
+
 ---
 
 ## 目录结构
@@ -312,6 +320,7 @@ browser action=open → 用 → browser action=close
 | 02-21 | Polaroid Land Camera Model 95 | Edwin Land | industrial |
 | 02-22 | Cleopatra's Needle | Thutmose III / Ancient Egypt | architecture |
 | 02-23 | Gutenberg Bible | Johannes Gutenberg | graphic |
+| 02-24 | Nike Air Force 1 | Bruce Kilgore / Phil Knight | industrial |
 
 > 添加新内容后，请更新此索引。
 

@@ -1270,4 +1270,84 @@ The Gutenberg Bible isn't just a book — it's humanity's first "user interface.
 The technology changed. The design problems didn't.`
   },
 
+  {
+    id: '20',
+    date: '2026-02-24',
+    imageUrl: '/the-daily-object/images/nike-air-force-1.jpg',
+    thumbnailUrl: '/the-daily-object/images/nike-air-force-1.jpg',
+    title: 'Nike Air Force 1',
+    subtitle: 'Bruce Kilgore / Nike, 1982',
+    category: 'industrial',
+    designer: 'Bruce Kilgore',
+    year: '1982',
+    
+    dateConnection: '1938年2月24日，Phil Knight 出生于俄勒冈州波特兰。1964年，他与田径教练 Bill Bowerman 共同创立了 Blue Ribbon Sports，后更名为 Nike。Knight 不是设计师，但他建立了一家以设计为核心竞争力的公司——从 Carolyn Davidson 的 Swoosh 标志到 Tinker Hatfield 的 Air Jordan 系列，Nike 证明了运动鞋可以是工业设计的最高表达。',
+    
+    designerBio: `Bruce Kilgore 是 Nike Air Force 1 的设计师，也是将 Nike Air 气垫技术首次引入篮球鞋的人。他1982年的设计彻底改写了运动鞋的定义。
+
+但 Nike 的设计基因要追溯到更早。联合创始人 Bill Bowerman 是一个痴迷于跑鞋的田径教练，他用妻子的华夫饼机浇铸橡胶，发明了传奇的华夫底（Waffle Sole）——这个故事成了设计创新的经典案例：最好的设计灵感往往来自最意想不到的地方。
+
+1971年，平面设计专业学生 Carolyn Davidson 以35美元的价格设计了 Swoosh 标志。Phil Knight 当时说"我不喜欢它，但也许会慢慢习惯。"这个35美元的设计后来成为世界上最有辨识度的商标之一。`,
+    
+    story: `Air Force 1 诞生于1982年，是第一双搭载 Nike Air 气垫的篮球鞋。Bruce Kilgore 的设计突破不只是技术层面——他重新定义了一双鞋可以是什么。
+
+圆形的外底设计灵感来自古罗马建筑的拱门结构，将力学原理应用到鞋底，让穿着者可以更灵活地做出快速转身动作。鞋面的简洁线条在当时的篮球鞋中独树一帜——那个年代的球鞋普遍追求复杂的结构和夸张的支撑，Kilgore 却选择了克制与优雅。
+
+Air Force 1 最初只生产了一年就停产了。但它在街头文化中获得了第二次生命。1986年，巴尔的摩的三家运动鞋店说服 Nike 重新生产这款鞋——这是 Nike 历史上第一次"复刻"（Retro）。这个决定开创了球鞋文化的一个全新范式：一双运动鞋可以超越功能，成为文化符号。
+
+纯白色的 Air Force 1（"White-on-White"）成为嘻哈文化的标志。Nelly 在2002年专门为它写了一首歌《Air Force Ones》。从纽约的篮球场到东京的潮流店，从说唱歌手到时装设计师，AF1 成了跨越阶层、种族和地域的通用语言。
+
+截至今天，Air Force 1 已经推出超过2000个配色版本，累计销售超过数亿双。它是历史上最畅销的运动鞋，没有之一。`,
+
+    legacy: `Nike Air Force 1 对设计界的影响远超运动鞋领域：
+
+**球鞋文化的起点**：AF1 的复刻开创了"经典重生"的商业模式，直接催生了今天价值数十亿美元的球鞋转售市场和潮流文化。Supreme、Off-White、Travis Scott——所有球鞋联名的源头都可以追溯到 AF1。
+
+**设计民主化**：Nike 后来推出了 Nike By You（原 NikeID），让消费者可以定制自己的 AF1 配色。这比"大规模定制"（Mass Customization）这个概念流行早了二十年。
+
+**跨界设计的先驱**：Virgil Abloh 的 Off-White × Nike "The Ten" 系列（2017）将 AF1 解构重组，模糊了运动鞋、时装和当代艺术的边界。这种跨界合作模式影响了整个消费品设计行业。
+
+**Swoosh 的设计传奇**：Carolyn Davidson 的35美元 Swoosh 后来被认为是史上最成功的标志设计之一。Nike 在1983年送给她一枚钻石 Swoosh 戒指和公司股票作为补偿——按今天的市值计算，这些股票价值数百万美元。`,
+    
+    significance: `一双1982年的篮球鞋，如何成为21世纪最具影响力的工业设计产品？
+
+答案藏在 Phil Knight 的创业哲学里：**不要卖产品，要讲故事。** Nike 从来不只是一家运动鞋公司——它是一家设计公司，一家营销公司，一家文化公司。Air Force 1 的成功证明了一个设计真理：**最好的产品设计不是在解决问题，而是在创造意义。**
+
+当 Bruce Kilgore 画出 AF1 的第一张草图时，他设计的是一双篮球鞋。四十多年后，全世界的人穿着它上班、约会、参加时装周。一个产品从"工具"变成"图腾"，这就是设计的终极力量。`,
+
+    dateConnection_en: 'February 24, 1938 marks the birth of Phil Knight in Portland, Oregon. In 1964, he co-founded Blue Ribbon Sports with track coach Bill Bowerman, later renamed Nike. Knight wasn\'t a designer, but he built a company where design was the core competitive advantage — from Carolyn Davidson\'s Swoosh to Tinker Hatfield\'s Air Jordan line, Nike proved that athletic footwear could be the highest expression of industrial design.',
+    
+    designerBio_en: `Bruce Kilgore designed the Nike Air Force 1, becoming the first person to integrate Nike Air cushioning into a basketball shoe. His 1982 design fundamentally redefined what a sneaker could be.
+
+But Nike's design DNA goes back further. Co-founder Bill Bowerman was a track coach obsessed with running shoes who poured rubber into his wife's waffle iron, inventing the legendary Waffle Sole — a story that became a classic case study in design innovation: the best design inspiration often comes from the most unexpected places.
+
+In 1971, graphic design student Carolyn Davidson designed the Swoosh logo for $35. Phil Knight said at the time, "I don't love it, but maybe it will grow on me." That $35 design became one of the most recognizable trademarks in the world.`,
+    
+    story_en: `The Air Force 1 was born in 1982 as the first basketball shoe featuring Nike Air cushioning. Bruce Kilgore's breakthrough wasn't just technical — he redefined what a shoe could be.
+
+The circular outsole design was inspired by Roman architectural arches, applying structural engineering principles to a shoe sole for enhanced pivot movement. The clean upper lines were unprecedented among basketball shoes of that era — when most court shoes pursued complex structures and exaggerated support, Kilgore chose restraint and elegance.
+
+The Air Force 1 was initially produced for just one year before being discontinued. But it found a second life in street culture. In 1986, three Baltimore sneaker stores convinced Nike to reproduce the shoe — Nike's first-ever "Retro." This decision created an entirely new paradigm in sneaker culture: an athletic shoe could transcend function and become a cultural symbol.
+
+The all-white Air Force 1 ("White-on-White") became an icon of hip-hop culture. Nelly wrote an entire song about it in 2002 — "Air Force Ones." From New York basketball courts to Tokyo boutiques, from rappers to fashion designers, the AF1 became a universal language that crossed class, race, and geography.
+
+To date, the Air Force 1 has been released in over 2,000 colorways with cumulative sales in the hundreds of millions of pairs. It is the best-selling sneaker in history, bar none.`,
+    
+    legacy_en: `The Nike Air Force 1's influence extends far beyond athletic footwear:
+
+**The birth of sneaker culture**: The AF1's retro release pioneered the "classic revival" business model, directly spawning today's multi-billion-dollar sneaker resale market and streetwear culture. Supreme, Off-White, Travis Scott — every sneaker collaboration traces its lineage to the AF1.
+
+**Design democratization**: Nike later launched Nike By You (formerly NikeID), letting consumers customize their own AF1 colorways. This predated the "mass customization" concept by two decades.
+
+**Cross-disciplinary design pioneer**: Virgil Abloh's Off-White × Nike "The Ten" collection (2017) deconstructed and reassembled the AF1, blurring the boundaries between sneakers, fashion, and contemporary art. This collaborative model influenced the entire consumer product design industry.
+
+**The Swoosh legend**: Carolyn Davidson's $35 Swoosh is now considered one of the most successful logo designs in history. In 1983, Nike gave her a diamond Swoosh ring and company stock as compensation — at today's valuation, those shares would be worth millions of dollars.`,
+    
+    significance_en: `How did a 1982 basketball shoe become the most influential industrial design product of the 21st century?
+
+The answer lies in Phil Knight's founding philosophy: don't sell products, tell stories. Nike was never just a sneaker company — it's a design company, a marketing company, a culture company. The Air Force 1's success proves a design truth: the best product design doesn't solve problems — it creates meaning.
+
+When Bruce Kilgore sketched the first AF1 draft, he was designing a basketball shoe. Four decades later, people worldwide wear it to work, on dates, and to fashion week. When a product transforms from "tool" to "totem" — that is the ultimate power of design.`
+  },
+
 ]
