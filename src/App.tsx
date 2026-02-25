@@ -44,8 +44,22 @@ const categoryLabels: Record<DesignObject['category'], string> = {
 }
 
 function App() {
-  const [view, setView] = useState<View>('today')
-  const [selectedDate, setSelectedDate] = useState(new Date())
+  // Initialize from hash: #/2026-02-14 -> archive view with that date
+  const initFromHash = () => {
+    const hash = window.location.hash
+    const match = hash.match(/^#\/(\d{4}-\d{2}-\d{2})$/)
+    if (match) {
+      const dateStr = match[1]
+      const found = designs.some(d => d.date === dateStr)
+      if (found) {
+        return { view: 'archive' as View, date: new Date(dateStr + 'T12:00:00') }
+      }
+    }
+    return { view: 'today' as View, date: new Date() }
+  }
+  const init = initFromHash()
+  const [view, setView] = useState<View>(init.view)
+  const [selectedDate, setSelectedDate] = useState(init.date)
   const [darkMode, setDarkMode] = useState(false)
   const [lang, setLang] = useState<Language>('zh')
   const [imageLoaded, setImageLoaded] = useState(false)
@@ -91,6 +105,8 @@ function App() {
 
   const handleDateClick = (date: Date) => {
     setSelectedDate(date)
+    const dateStr = format(date, 'yyyy-MM-dd')
+    window.location.hash = `/${dateStr}`
   }
 
   // Get sorted designs by date
@@ -143,6 +159,7 @@ function App() {
     if (view === 'today') {
       setView('archive')
     }
+    window.location.hash = `/${design.date}`
     // Scroll to content area with offset for fixed header
     setTimeout(() => {
       const contentArea = document.getElementById('design-content')
@@ -292,6 +309,8 @@ function App() {
             <button
               onClick={() => {
                 setView('today')
+                window.location.hash = ''
+                history.replaceState(null, '', window.location.pathname)
                 window.scrollTo({ top: 0, behavior: 'smooth' })
               }}
               className="text-base sm:text-xl font-light tracking-wide text-neutral-900 dark:text-neutral-100 whitespace-nowrap hover:opacity-70 transition-opacity"
@@ -327,6 +346,8 @@ function App() {
                 <button
                   onClick={() => {
                     setView('today')
+                    window.location.hash = ''
+                    history.replaceState(null, '', window.location.pathname)
                     window.scrollTo({ top: 0, behavior: 'smooth' })
                   }}
                   className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-light tracking-wide transition-all ${
