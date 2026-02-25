@@ -44,12 +44,12 @@ const categoryLabels: Record<DesignObject['category'], string> = {
 }
 
 const categoryColors: Record<DesignObject['category'], string> = {
-  industrial: '#d97706',      // amber-600
-  software: '#2563eb',        // blue-600
-  music: '#dc2626',           // red-600
-  art: '#9333ea',             // purple-600
-  architecture: '#059669',    // emerald-600
-  graphic: '#e11d48',         // rose-600
+  industrial: '#d97706',
+  software: '#d97706',
+  music: '#d97706',
+  art: '#d97706',
+  architecture: '#d97706',
+  graphic: '#d97706',
 }
 
 function App() {
@@ -415,17 +415,6 @@ function App() {
                     tileClassName={({ date }) =>
                       hasDesign(date) ? 'wallpaper-date' : ''
                     }
-                    tileContent={({ date }) => {
-                      const d = getDesignByDate(date)
-                      if (!d) return null
-                      const isSelected = format(date, 'yyyy-MM-dd') === format(selectedDate, 'yyyy-MM-dd')
-                      return (
-                        <div
-                          className="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-1.5 h-1.5 rounded-full transition-colors"
-                          style={{ backgroundColor: isSelected ? categoryColors[d.category] : '' }}
-                        />
-                      )
-                    }}
                     className="luxury-calendar"
                   />
                 </div>
