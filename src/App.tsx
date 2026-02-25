@@ -48,6 +48,7 @@ function App() {
   const [selectedDate, setSelectedDate] = useState(new Date())
   const [darkMode, setDarkMode] = useState(false)
   const [lang, setLang] = useState<Language>('zh')
+  const [imageLoaded, setImageLoaded] = useState(false)
 
   useEffect(() => {
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -61,6 +62,11 @@ function App() {
       document.documentElement.classList.remove('dark')
     }
   }, [darkMode])
+
+  // Reset image loaded state when design changes
+  useEffect(() => {
+    setImageLoaded(false)
+  }, [selectedDate, view])
 
   // Find today's design, or fallback to the most recent past design
   const todayStr = format(new Date(), 'yyyy-MM-dd')
@@ -98,6 +104,16 @@ function App() {
       next: currentIndex < sortedDesigns.length - 1 ? sortedDesigns[currentIndex + 1] : null
     }
   }
+
+  // Preload adjacent design images
+  useEffect(() => {
+    const current = view === 'today' ? todayDesign : selectedDesign
+    if (current) {
+      const { prev, next } = getAdjacentDesigns(current)
+      if (prev) { const img = new Image(); img.src = prev.imageUrl }
+      if (next) { const img = new Image(); img.src = next.imageUrl }
+    }
+  }, [selectedDate, view])
 
   // Navigate to a design
   const navigateToDesign = (design: DesignObject) => {
@@ -152,13 +168,17 @@ function App() {
         </div>
       </div>
 
-      {/* Image - reduced top margin with mt-4 instead of space-y-6 */}
+      {/* Image - with loading skeleton */}
       {showImage && (
-        <div className="rounded-2xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 shadow-2xl !mt-4">
+        <div className="relative rounded-2xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 shadow-2xl !mt-4">
+          {!imageLoaded && (
+            <div className="aspect-[4/5] bg-neutral-200 dark:bg-neutral-800 animate-pulse" />
+          )}
           <img
             src={design.imageUrl}
             alt={title}
-            className="w-full h-auto"
+            onLoad={() => setImageLoaded(true)}
+            className={`w-full h-auto transition-opacity duration-300 ${imageLoaded ? 'opacity-100' : 'opacity-0 absolute inset-0'}`}
           />
         </div>
       )}
