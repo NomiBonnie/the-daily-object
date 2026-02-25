@@ -303,6 +303,9 @@ browser action=open → 用 → browser action=close
 
 | 日期 | 作品 | 设计师 | 分类 |
 |------|------|--------|------|
+| 02-04 | 汝窑天青釉 | Song Dynasty Imperial Kilns | industrial |
+| 02-05 | Bakelite | Leo Baekeland | industrial |
+| 02-06 | Marina Bay Sands | Moshe Safdie | architecture |
 | 02-07 | Pinocchio | Walt Disney Studios | art |
 | 02-08 | Self-Portrait on the 6th Wedding Anniversary | Paula Modersohn-Becker | art |
 | 02-09 | Death Dealer | Frank Frazetta | art |
