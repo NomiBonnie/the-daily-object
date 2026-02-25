@@ -1350,4 +1350,88 @@ The answer lies in Phil Knight's founding philosophy: don't sell products, tell 
 When Bruce Kilgore sketched the first AF1 draft, he was designing a basketball shoe. Four decades later, people worldwide wear it to work, on dates, and to fashion week. When a product transforms from "tool" to "totem" — that is the ultimate power of design.`
   },
 
+  {
+    id: '21',
+    date: '2026-02-25',
+    imageUrl: '/the-daily-object/images/royal-crescent.jpg',
+    thumbnailUrl: '/the-daily-object/images/royal-crescent.jpg',
+    title: 'Royal Crescent',
+    subtitle: 'John Wood the Younger, 1774',
+    category: 'architecture',
+    designer: 'John Wood the Younger',
+    year: '1774',
+    
+    dateConnection: '1728年2月25日，英国建筑师 John Wood the Younger 出生于巴斯。他继承父亲 John Wood the Elder 的城市规划愿景，设计了被誉为英国乔治亚时代建筑最高成就的 Royal Crescent——一条由30栋联排住宅组成的弧形建筑群，将古罗马的圆形剧场语言转化为住宅建筑的壮丽诗篇。',
+    
+    designerBio: `John Wood the Younger（1728-1782）是英国乔治亚时代最重要的建筑师之一。他的父亲 John Wood the Elder 是巴斯城市改造的奠基人，设计了 Queen Square 和 The Circus——一个参照罗马斗兽场内立面的圆形广场。
+
+父亲在 The Circus 尚未完工时便于1754年去世，年仅26岁的小伍德接手了项目，并在完成父亲遗作后，创作了自己的巅峰之作：Royal Crescent。
+
+小伍德的天才在于，他没有简单地复制父亲的语言。The Circus 是向内的、封闭的，像一个私密的内院；而 Royal Crescent 是向外的、开放的，面向广阔的草坪和远方的风景。父与子，圆与弧，内与外——这对建筑父子完成了巴斯城市空间最完美的对话。`,
+    
+    story: `Royal Crescent 建于1767年至1774年间，由30栋联排住宅排列成一个巨大的半月形弧线，全长150米。它的正立面由114根爱奥尼亚柱统一支撑，形成一道宏伟的柱廊——从远处看，这不像30栋独立的房子，而像一座完整的宫殿。
+
+这就是它最伟大的设计创新：**统一的城市立面**（Unified Urban Facade）。在 Royal Crescent 之前，住宅就是住宅，每栋房子有自己的门面。Wood the Younger 提出了一个革命性的想法——让私人住宅共享一个公共的建筑表情，让个体服从整体，让城市美学凌驾于个人趣味之上。
+
+这个理念深刻影响了后来的城市规划。从巴黎的奥斯曼大道到伦敦的摄政街，从圣彼得堡的宫殿广场到纽约的中央公园西大道，"统一立面"成为了塑造城市天际线和街道美学的核心手法。
+
+Royal Crescent 的选址同样精妙。它坐落在一个缓坡之上，面朝南方，前方是开阔的草坪（Royal Victoria Park）。弧形的设计让每一栋住宅都享有几乎相同的景观视野和日照条件——这是18世纪对"公平设计"的一次优雅实践。`,
+
+    legacy: `Royal Crescent 对建筑和城市设计的影响延续至今：
+
+**城市设计的典范**：它证明了住宅建筑可以承担城市美学的使命。今天城市规划中的"设计导则"（Design Guidelines）——对建筑高度、材料、立面风格的统一要求——其思想源头可以直接追溯到 Wood 的巴斯实验。
+
+**场所精神（Genius Loci）的营造**：Royal Crescent 不是孤立的建筑，而是与 The Circus、Gay Street、Queen Square 共同构成的一个完整城市叙事。从方形到圆形到弧形，从封闭到开放，建筑空间像音乐一样展开。这种"建筑序列"（Architectural Sequence）的设计思维影响了从 Le Corbusier 到 Tadao Ando 的无数建筑师。
+
+**遗产保护的标杆**：1987年，巴斯整座城市被列入联合国教科文组织世界遗产名录，Royal Crescent 是其中最核心的建筑。它是英国建筑遗产保护运动的重要推动力。
+
+**巴斯石的美学**：整个 Crescent 使用当地开采的巴斯石（Bath Stone）建造，这种蜜色的石灰岩在不同光线下呈现出温暖的金黄色调——日出时橘红，正午时淡金，日落时琥珀。建筑与材料的完美融合，让 Royal Crescent 成为"在对的地方用对的材料"这一建筑原则的经典案例。`,
+    
+    significance: `为什么一座248年前的住宅建筑群今天依然重要？
+
+因为 John Wood the Younger 回答了一个永恒的设计问题：**个体与集体，如何在空间中共存？**
+
+Royal Crescent 的30栋住宅，每一栋内部都完全不同——业主可以自由装修自己的房子。但从外面看，它们是一个整体，一道优雅的弧线，一首用石头写成的交响乐。
+
+这种"外部统一、内部自由"的设计哲学，今天被用在从手机界面到城市天际线的一切设计中。Apple 的 iOS 有统一的设计语言，但每个 App 内部有自己的个性。城市有统一的街道肌理，但每栋建筑有自己的灵魂。
+
+Wood 在250年前就明白了：**好的设计不是消灭个性，而是创造一个让个性得以优雅共存的框架。**`,
+
+    dateConnection_en: 'February 25, 1728 marks the birth of English architect John Wood the Younger in Bath. He inherited his father John Wood the Elder\'s vision for urban planning and designed what is considered the crowning achievement of Georgian architecture — the Royal Crescent, a sweeping arc of 30 terraced houses that translated the language of Roman amphitheaters into a magnificent residential composition.',
+    
+    designerBio_en: `John Wood the Younger (1728-1782) was one of the most important architects of the Georgian era. His father, John Wood the Elder, laid the foundation for Bath's urban transformation, designing Queen Square and The Circus — a circular plaza modeled after the interior facade of the Roman Colosseum.
+
+When his father died in 1754 before The Circus was completed, the 26-year-old younger Wood took over the project. After finishing his father's work, he created his own masterpiece: the Royal Crescent.
+
+Wood the Younger's genius lay in not simply replicating his father's vocabulary. The Circus is inward-facing and enclosed, like a private courtyard; the Royal Crescent is outward-facing and open, looking onto expansive lawns and distant landscapes. Father and son, circle and arc, interior and exterior — this architectural father-son duo completed the most perfect spatial dialogue in Bath.`,
+    
+    story_en: `The Royal Crescent was built between 1767 and 1774, comprising 30 terraced houses arranged in a grand crescent spanning 150 meters. Its facade is unified by 114 Ionic columns forming a majestic colonnade — from a distance, it doesn't look like 30 individual houses but rather a single palace.
+
+This was its greatest design innovation: the **Unified Urban Facade**. Before the Royal Crescent, a house was just a house, each with its own frontage. Wood the Younger proposed a revolutionary idea — private residences sharing a public architectural expression, individuals subordinate to the whole, urban aesthetics elevated above personal taste.
+
+This concept profoundly influenced subsequent urban planning. From Haussmann's boulevards in Paris to Regent Street in London, from the Palace Square in St. Petersburg to Central Park West in New York, the "unified facade" became a core technique for shaping city skylines and street aesthetics.
+
+The siting was equally masterful. The Crescent sits on a gentle slope, facing south, with open lawns (Royal Victoria Park) stretching before it. The curved design ensures nearly every house enjoys the same views and sunlight — an elegant 18th-century exercise in equitable design.`,
+    
+    legacy_en: `The Royal Crescent's influence on architecture and urban design endures:
+
+**A paradigm for urban design**: It proved that residential architecture could serve an urban aesthetic mission. Today's urban "Design Guidelines" — unified requirements for building height, materials, and facade style — trace their intellectual origins directly to Wood's Bath experiment.
+
+**Crafting Genius Loci**: The Royal Crescent isn't an isolated building but part of a complete urban narrative with The Circus, Gay Street, and Queen Square. From square to circle to crescent, from enclosed to open, architectural spaces unfold like music. This "Architectural Sequence" thinking influenced countless architects from Le Corbusier to Tadao Ando.
+
+**A benchmark for heritage conservation**: In 1987, the entire city of Bath was inscribed as a UNESCO World Heritage Site, with the Royal Crescent at its core. It became a driving force behind Britain's architectural heritage conservation movement.
+
+**The aesthetics of Bath Stone**: The entire Crescent is built from locally quarried Bath Stone, a honey-colored limestone that shifts through warm golden hues in changing light — orange-red at dawn, pale gold at noon, amber at sunset. This perfect fusion of building and material makes the Royal Crescent a textbook example of using the right material in the right place.`,
+    
+    significance_en: `Why does a 248-year-old residential complex still matter today?
+
+Because John Wood the Younger answered an eternal design question: how can the individual and the collective coexist in space?
+
+Each of the Royal Crescent's 30 houses is completely different inside — owners were free to decorate as they wished. But from the outside, they form a unified whole, an elegant arc, a symphony written in stone.
+
+This philosophy of "external unity, internal freedom" is applied today in everything from phone interfaces to city skylines. Apple's iOS has a unified design language, yet each app has its own personality. Cities have consistent street textures, yet each building has its own soul.
+
+Wood understood 250 years ago what remains true today: good design doesn't eliminate individuality — it creates a framework where individuality can coexist with grace.`
+  },
+
 ]
