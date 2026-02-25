@@ -117,11 +117,13 @@ export interface DesignObject {
 | 内容字段 | `description` 一个字段 | 拆分为 `designerBio` / `story` / `legacy` / `significance` |
 | 副标题 | 无 | `subtitle` / `subtitle_en`（格式：设计师, 年份） |
 
-### 图片文件
+### 图片文件（⚠️ 双份规则！）
 
-- **压缩版**放 `public/images/filename.jpg`（页面展示用，<600KB）
-- **原图**放 `public/images/full/filename.jpg`（lightbox 放大用）
-- 文件名规则：小写、连字符，如 `panton-chair.jpg`
+1. **原图**永远放 `public/images/full/filename.jpg`（lightbox 放大用，不压缩）
+2. **展示版**放 `public/images/filename.jpg`（页面卡片用）：
+   - 原图 **≤ 600KB** → 直接复制原图，不压缩
+   - 原图 **> 600KB** → 用 ffmpeg 压缩到 ~400-500KB（q:v 3，max 1200px 宽）
+3. 文件名规则：小写、连字符，如 `panton-chair.jpg`
 
 ---
 
@@ -272,19 +274,36 @@ $todayShort = (Get-Date).ToString("MM-dd")  # 用于 commit message
 - ❌ 绝不允许图文不一致的内容上线
 
 ### 5. 下载图片
+
+**⚠️ 图片双份规则（必须严格执行！）：**
+
 ```powershell
-# 下载到 public/images/（页面展示用）
-Invoke-WebRequest -Uri "URL" -OutFile "public/images/filename.jpg" -Headers @{"User-Agent"="Mozilla/5.0"}
+# Step 1: 先下载原图到 public/images/full/（lightbox 用，永远保留原图）
+Invoke-WebRequest -Uri "URL" -OutFile "public/images/full/filename.jpg" -Headers @{"User-Agent"="Mozilla/5.0"}
 
-# 同时复制一份原图到 public/images/full/（lightbox 用）
-Copy-Item "public/images/filename.jpg" "public/images/full/filename.jpg"
+# Step 2: 检查原图大小
+$size = (Get-Item "public/images/full/filename.jpg").Length / 1KB
+Write-Host "Original size: $size KB"
 
-# 如果原图 > 600KB，压缩 public/images/ 里的版本到 ~500KB：
-ffmpeg -i "public/images/full/filename.jpg" -vf "scale='min(1200,iw)':-1" -q:v 3 "public/images/filename.jpg" -y
+# Step 3: 根据大小决定是否压缩
+if ($size -gt 600) {
+    # 原图 > 600KB → 压缩到 ~400-500KB 放 public/images/
+    ffmpeg -i "public/images/full/filename.jpg" -vf "scale='min(1200,iw)':-1" -q:v 3 "public/images/filename.jpg" -y
+    Write-Host "Compressed to: $((Get-Item 'public/images/filename.jpg').Length / 1KB) KB"
+} else {
+    # 原图 ≤ 600KB → 不压缩，直接复制到 public/images/
+    Copy-Item "public/images/full/filename.jpg" "public/images/filename.jpg"
+    Write-Host "Small enough, using original as-is"
+}
 ```
 
+**总结：**
+- `public/images/full/` → 永远是原图（lightbox 放大用）
+- `public/images/` → 页面展示用（≤600KB 直接用原图，>600KB 压缩到 ~500KB）
+- **不要用 q5 以上的压缩**——Sam 确认 q5 画质损失太大，最多用 q3
+
 ### 6. 写内容并更新代码
-编辑 `src/data.ts`，在 `designObjects` 数组末尾添加新条目。
+编辑 `src/data.ts`，在 `designs` 数组末尾添加新条目。
 
 ### 7. 部署
 ```powershell
