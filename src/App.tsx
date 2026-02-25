@@ -424,16 +424,14 @@ function App() {
                       if (!d) return null
                       const isSelected = format(date, 'yyyy-MM-dd') === format(selectedDate, 'yyyy-MM-dd')
                       return (
-                        <div className="flex justify-center mt-0.5">
-                          <div
-                            className="w-1.5 h-1.5 rounded-full"
-                            style={{
-                              backgroundColor: isSelected
-                                ? categoryColors[d.category]
-                                : '#a3a3a3'
-                            }}
-                          />
-                        </div>
+                        <div
+                          className="absolute bottom-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 rounded-full"
+                          style={{
+                            backgroundColor: isSelected
+                              ? categoryColors[d.category]
+                              : 'rgba(163,163,163,0.5)'
+                          }}
+                        />
                       )
                     }}
                     className="luxury-calendar"
