@@ -1434,4 +1434,286 @@ This philosophy of "external unity, internal freedom" is applied today in everyt
 Wood understood 250 years ago what remains true today: good design doesn't eliminate individuality — it creates a framework where individuality can coexist with grace.`
   },
 
+  {
+    id: '22',
+    date: '2026-02-04',
+    imageUrl: '/the-daily-object/images/ru-ware-celadon.jpg',
+    thumbnailUrl: '/the-daily-object/images/ru-ware-celadon.jpg',
+    title: '汝窑天青釉',
+    subtitle: 'Song Dynasty Imperial Kilns, c. 1086–1125',
+    category: 'industrial',
+    designer: 'Song Dynasty Imperial Kilns',
+    year: '1086',
+    
+    dateConnection: '公元960年2月4日，赵匡胤陈桥兵变，黄袍加身，建立宋朝。这个崇尚文治、追求极致美学的王朝，孕育了中国陶瓷史上最神秘、最珍贵的巅峰之作——汝窑。宋朝的建立，开启了一个将工艺美学推向哲学高度的时代。',
+    
+    designerBio: `汝窑并非某一位设计师的作品，而是北宋皇家窑场集体智慧的结晶。窑址位于今河南省宝丰县清凉寺，烧造时间仅约40年（约1086-1125年），却创造了中国陶瓷美学的绝对巅峰。
+
+宋徽宗赵佶是汝窑背后最重要的推动者。这位"艺术家皇帝"对美的追求近乎偏执——他不满足于已有的越窑和定窑，要求烧造出"雨过天青云破处"的颜色。这种对一种特定蓝色的执念，催生了陶瓷史上最伟大的技术与美学突破。
+
+**"雨过天青云破处，这般颜色做将来。"**——传为宋徽宗对汝窑釉色的描述。`,
+    
+    story: `汝窑的天青釉，是陶瓷史上最难以复制的奇迹。
+
+它的颜色介于蓝与绿之间，像雨后初晴的天空——不是明亮的蓝，不是鲜艳的绿，而是一种含蓄的、带着水汽的、仿佛随时会变化的灰蓝色。这种颜色不是靠颜料画上去的，而是铁元素在特定的还原气氛中、在1200°C高温下与釉料发生化学反应的结果。温度差1°C，气氛稍有变化，颜色就完全不同。
+
+汝窑的另一个设计特征是"蟹爪纹"——釉面上细密的开片纹路，像冰裂，像蛛网。这本是烧造中的"缺陷"——胎体与釉层膨胀系数不同导致的裂纹。但宋代匠人将这个缺陷转化为美学特征，精确控制裂纹的密度和走向，让"不完美"成为设计语言的一部分。
+
+**这是工业设计史上最早的"wabi-sabi"实践之一——在缺陷中发现美，在不完美中寻找完美。**
+
+存世的汝窑瓷器不超过90件，每一件都是无价之宝。2017年，一件汝窑天青釉洗在苏富比拍出2.94亿港元，创下中国瓷器拍卖世界纪录。`,
+
+    legacy: `汝窑对设计的影响远超陶瓷领域：
+
+**极简主义的东方源头**：汝窑没有繁复的纹样，没有鲜艳的色彩，只有一种颜色、一种质感。这种"少即是多"的美学理念，比 Mies van der Rohe 早了800年。
+
+**材料即设计**：汝窑证明了颜色可以不依赖颜料，而来自材料本身与工艺过程的互动。这种思想影响了从 Isamu Noguchi 的石雕到 Naoto Fukasawa 的"无意识设计"。
+
+**缺陷美学的先驱**：蟹爪纹的设计哲学直接启发了日本的侘寂美学（wabi-sabi），并在当代设计中以"有机设计"（organic design）的形式延续。
+
+**色彩标准**：天青色成为东亚陶瓷、建筑、服饰的经典色彩标准，影响至今。韩国的高丽青瓷、日本的青�的瓷器，都是汝窑美学的延伸。`,
+    
+    significance: `为什么一千年前的瓷器今天仍然重要？
+
+因为汝窑回答了设计中最根本的问题：**美的极致是什么？**
+
+宋代匠人的答案是：不是加法，而是减法。不是装饰，而是本质。不是完美，而是恰到好处的不完美。
+
+今天，当我们谈论 Dieter Rams 的"少即是多"，当我们欣赏 Apple 产品的克制美学，当我们理解日本设计中的"留白"——我们其实都在延续一千年前汝窑匠人的美学追求。
+
+**天青色不是一种颜色，而是一种态度：最好的设计，是让你忘记设计本身的存在。**`,
+
+    dateConnection_en: 'On February 4, 960, Zhao Kuangyin founded the Song Dynasty through the Chenqiao Mutiny. This dynasty, which championed civil culture and pursued aesthetic perfection, gave birth to the most mysterious and precious achievement in Chinese ceramic history — Ru Ware. The founding of the Song Dynasty ushered in an era that elevated craft aesthetics to philosophical heights.',
+    
+    designerBio_en: `Ru Ware was not the work of a single designer but the collective achievement of the Northern Song imperial kilns. Located at Qingliang Temple in Baofeng County, Henan Province, these kilns operated for only about 40 years (c. 1086-1125), yet produced the absolute pinnacle of Chinese ceramic aesthetics.
+
+Emperor Huizong was the driving force behind Ru Ware. This "artist emperor" pursued beauty with near-obsessive devotion — unsatisfied with existing Yue and Ding wares, he demanded a color like "the sky after rain, where clouds part." This fixation on a specific shade of blue catalyzed the greatest technical and aesthetic breakthrough in ceramic history.
+
+**"The color of sky after rain, where clouds break apart — make me that color."** — attributed to Emperor Huizong's description of the desired Ru Ware glaze.`,
+    
+    story_en: `Ru Ware's sky-blue glaze is the most difficult-to-replicate miracle in ceramic history.
+
+Its color sits between blue and green — like the sky just after rain clears. Not a bright blue, not a vivid green, but a restrained, misty, seemingly ever-shifting grey-blue. This color isn't painted on; it's the result of iron elements reacting with the glaze in a specific reducing atmosphere at 1200°C. A difference of 1°C, a slight change in atmosphere, and the color changes completely.
+
+Another defining feature is the "crab claw" crackle pattern — fine networks of lines across the glaze surface, like cracked ice or spider webs. These are technically "defects" — cracks caused by different expansion coefficients between the clay body and glaze layer. But Song dynasty craftsmen transformed this flaw into an aesthetic feature, precisely controlling the density and direction of cracks, making "imperfection" part of the design language.
+
+**This is one of the earliest examples of "wabi-sabi" in industrial design history — finding beauty in defects, seeking perfection in imperfection.**
+
+Fewer than 90 Ru Ware pieces survive worldwide, each priceless. In 2017, a Ru Ware sky-blue brush washer sold at Sotheby's for HK$294 million, setting a world auction record for Chinese ceramics.`,
+    
+    legacy_en: `Ru Ware's influence extends far beyond ceramics:
+
+**Eastern origins of minimalism**: Ru Ware has no elaborate patterns, no vivid colors — just one color, one texture. This "less is more" aesthetic philosophy predated Mies van der Rohe by 800 years.
+
+**Material as design**: Ru Ware proved that color could come not from pigments but from the interaction between material and process. This thinking influenced everything from Isamu Noguchi's stone sculptures to Naoto Fukasawa's "without thought" design.
+
+**Pioneer of defect aesthetics**: The crab claw crackle philosophy directly inspired Japanese wabi-sabi aesthetics and continues in contemporary design as "organic design."
+
+**Color standard**: Sky-blue became the classic color standard across East Asian ceramics, architecture, and textiles. Korean Goryeo celadon and Japanese blue-green ceramics are direct extensions of Ru Ware aesthetics.`,
+    
+    significance_en: `Why does thousand-year-old porcelain still matter today?
+
+Because Ru Ware answered design's most fundamental question: what is the ultimate expression of beauty?
+
+The Song dynasty craftsmen's answer: not addition, but subtraction. Not decoration, but essence. Not perfection, but just the right amount of imperfection.
+
+Today, when we discuss Dieter Rams' "less but better," when we admire Apple's restrained aesthetics, when we understand "negative space" in Japanese design — we are continuing the aesthetic pursuit that Ru Ware craftsmen began a thousand years ago.
+
+**Sky-blue is not just a color. It's an attitude: the best design makes you forget that design exists at all.**`
+  },
+
+  {
+    id: '23',
+    date: '2026-02-05',
+    imageUrl: '/the-daily-object/images/bakelite-telephone.jpg',
+    thumbnailUrl: '/the-daily-object/images/bakelite-telephone.jpg',
+    title: 'Bakelite',
+    subtitle: 'Leo Baekeland, 1907',
+    category: 'industrial',
+    designer: 'Leo Baekeland',
+    year: '1907',
+    
+    dateConnection: '1907年2月5日，比利时裔美国化学家 Leo Baekeland 正式宣布发明了酚醛树脂——世界上第一种完全合成的塑料，他将其命名为"Bakelite"（电木）。这一天标志着材料设计史上最重要的转折点：人类第一次创造了一种自然界中不存在的材料，从此彻底改变了工业设计的可能性边界。',
+    
+    designerBio: `Leo Hendrik Baekeland（1863-1944），生于比利时根特，20岁获得化学博士学位（当时根特大学最年轻的博士），随后移居美国。
+
+在发明 Bakelite 之前，他已经靠发明 Velox 相纸赚到了人生第一桶金——他将这项专利以100万美元（相当于今天约3000万美元）卖给了柯达公司的 George Eastman。
+
+但真正让他名垂青史的是他在纽约扬克斯家中实验室里的执念：找到一种能替代天然虫胶（shellac）的合成材料。虫胶来自紫胶虫的分泌物，供应不稳定且昂贵。Baekeland 花了三年时间研究苯酚和甲醛的反应，最终在高温高压条件下得到了一种全新的物质——坚硬、耐热、绝缘、不溶于任何溶剂，可以被模具塑造成任何形状。
+
+**"The material of a thousand uses"**——他这样称呼自己的发明。事实证明，这个说法还太保守了。`,
+    
+    story: `Bakelite 之所以是设计史的分水岭，不仅因为它是第一种合成塑料，更因为它彻底改变了"什么东西可以被设计"。
+
+在 Bakelite 之前，工业设计师受限于自然材料——木头、金属、玻璃、陶瓷。每种材料都有自己的脾气：木头会腐烂，金属会生锈，玻璃会碎。设计师必须顺从材料的限制。
+
+Bakelite 打破了这个规则。它可以被注塑成任何形状，可以染成任何颜色，不导电、不怕热、不怕水。突然之间，设计师拥有了一种"听话的材料"——**形式不再被材料决定，而是被想象力决定。**
+
+1930年代是 Bakelite 的黄金时代。Art Deco 风格的收音机、流线型的电话、色彩鲜艳的珠宝、棋子、烟斗、相机机身——Bakelite 几乎定义了那个时代的物质文化视觉语言。
+
+最经典的 Bakelite 设计包括：
+- **Ericsson DBH 1001 电话**（1931）：黑色 Bakelite 机身，优雅的曲线，成为"电话"这个概念的视觉原型
+- **Emerson AU-190 收音机**（1938）：催化剂绿色，Art Deco 造型，现在是收藏家的圣物
+- **Kodak Baby Brownie 相机**（1934）：Walter Dorwin Teague 设计，让摄影民主化的里程碑`,
+
+    legacy: `Bakelite 的影响远远超出了材料本身：
+
+**设计民主化**：在 Bakelite 之前，精美的产品只属于富人——银餐具、水晶玻璃、实木家具。Bakelite 让美丽的日用品变得人人买得起。这种"设计民主化"的理念，后来被宜家和无印良品继承发扬。
+
+**塑料时代的开端**：Bakelite 是第一块多米诺骨牌。没有它，就没有后来的尼龙（1935）、聚乙烯（1933）、聚丙烯（1954）。整个20世纪的材料革命，始于 Baekeland 在扬克斯的那间实验室。
+
+**Art Deco 的物质基础**：没有 Bakelite，Art Deco 运动将缺少最重要的表现媒介。那些流线型、几何化、色彩大胆的设计，正是因为 Bakelite 才得以从图纸变为现实。
+
+**可持续性的反思**：讽刺的是，Bakelite 的"不可降解"——当年被视为优点——如今成了塑料污染问题的源头。它提醒我们：每一次材料革命都有双面性。`,
+    
+    significance: `为什么一种119年前发明的塑料今天仍然重要？
+
+因为 Bakelite 回答了一个设计的元问题：**当材料不再是限制，设计的限制是什么？**
+
+答案是：想象力。
+
+Baekeland 给了设计师一种可以被塑造成任何形状的材料，从此设计的边界不再是"能做什么"，而是"想做什么"。这个思维方式的转变，比材料本身更具革命性。
+
+今天，当我们用3D打印创造前所未有的形态，当我们用碳纤维复合材料设计超级跑车，当我们用生物降解塑料追求可持续设计——我们仍然站在 Baekeland 开创的那条路上：**让材料服务于设计，而不是让设计屈服于材料。**`,
+
+    dateConnection_en: 'On February 5, 1907, Belgian-American chemist Leo Baekeland formally announced his invention of phenol formaldehyde resin — the world\'s first fully synthetic plastic, which he named "Bakelite." This day marks the most important turning point in material design history: for the first time, humans created a material that didn\'t exist in nature, permanently expanding the boundaries of what industrial design could achieve.',
+    
+    designerBio_en: `Leo Hendrik Baekeland (1863-1944) was born in Ghent, Belgium, earning his doctorate in chemistry at age 20 (the youngest PhD at the University of Ghent at the time) before emigrating to the United States.
+
+Before inventing Bakelite, he had already made his fortune by inventing Velox photographic paper, selling the patent to George Eastman of Kodak for $1 million (equivalent to roughly $30 million today).
+
+But what truly secured his place in history was his obsessive work in his home laboratory in Yonkers, New York: finding a synthetic replacement for shellac, a natural resin secreted by lac insects that was expensive and unreliable in supply. Baekeland spent three years studying the reaction between phenol and formaldehyde, ultimately producing under high temperature and pressure an entirely new substance — hard, heat-resistant, electrically insulating, insoluble in any solvent, and moldable into any shape.
+
+**"The material of a thousand uses"** — that's what he called his invention. As it turned out, even that was an understatement.`,
+    
+    story_en: `Bakelite is a watershed in design history not just because it was the first synthetic plastic, but because it fundamentally changed what could be designed.
+
+Before Bakelite, industrial designers were constrained by natural materials — wood, metal, glass, ceramics. Each had its own temperament: wood rots, metal rusts, glass shatters. Designers had to submit to material limitations.
+
+Bakelite broke that rule. It could be injection-molded into any shape, dyed any color; it didn't conduct electricity, resisted heat and water. Suddenly, designers had an "obedient material" — **form was no longer dictated by material but by imagination.**
+
+The 1930s were Bakelite's golden age. Art Deco radios, streamlined telephones, colorful jewelry, chess pieces, pipes, camera bodies — Bakelite virtually defined the visual language of that era's material culture.
+
+The most iconic Bakelite designs include:
+- **Ericsson DBH 1001 telephone** (1931): Black Bakelite body with elegant curves, becoming the visual prototype of "telephone" as a concept
+- **Emerson AU-190 radio** (1938): Catalin green, Art Deco styling, now a collector's holy grail
+- **Kodak Baby Brownie camera** (1934): Designed by Walter Dorwin Teague, a milestone in democratizing photography`,
+    
+    legacy_en: `Bakelite's influence far exceeded the material itself:
+
+**Democratization of design**: Before Bakelite, beautiful products belonged only to the wealthy — silver cutlery, crystal glass, solid wood furniture. Bakelite made beautiful everyday objects affordable for everyone. This concept of "design democratization" was later carried forward by IKEA and MUJI.
+
+**Dawn of the plastic age**: Bakelite was the first domino. Without it, there would be no nylon (1935), polyethylene (1933), or polypropylene (1954). The entire 20th-century materials revolution began in Baekeland's Yonkers laboratory.
+
+**Material foundation of Art Deco**: Without Bakelite, the Art Deco movement would have lacked its most important expressive medium. Those streamlined, geometric, boldly colored designs became reality precisely because of Bakelite.
+
+**Sustainability reflection**: Ironically, Bakelite's "indestructibility" — once considered a virtue — became the origin of the plastic pollution problem. It reminds us that every material revolution has two sides.`,
+    
+    significance_en: `Why does a plastic invented 119 years ago still matter?
+
+Because Bakelite answered a meta-question of design: **when material is no longer a constraint, what constrains design?**
+
+The answer: imagination.
+
+Baekeland gave designers a material that could be shaped into anything, shifting design's boundary from "what can be done" to "what do we want to do." This shift in thinking was more revolutionary than the material itself.
+
+Today, when we use 3D printing to create unprecedented forms, carbon fiber composites to design supercars, and biodegradable plastics to pursue sustainable design — we're still walking the path Baekeland pioneered: **making material serve design, not design submit to material.**`
+  },
+
+  {
+    id: '24',
+    date: '2026-02-06',
+    imageUrl: '/the-daily-object/images/marina-bay-sands.jpg',
+    thumbnailUrl: '/the-daily-object/images/marina-bay-sands.jpg',
+    title: 'Marina Bay Sands',
+    subtitle: 'Moshe Safdie, 2010',
+    category: 'architecture',
+    designer: 'Moshe Safdie',
+    year: '2010',
+    
+    dateConnection: '1819年2月6日，英国东印度公司的 Stamford Raffles 与柔佛苏丹签署《新加坡条约》，标志着现代新加坡的建立。191年后的2010年，Marina Bay Sands 在同一片土地上拔地而起——这座由 Moshe Safdie 设计的建筑，成为新加坡从殖民地贸易港口蜕变为全球设计之都的终极象征。',
+    
+    designerBio: `Moshe Safdie（1938-），以色列裔加拿大建筑师，当代最具实验精神的建筑师之一。
+
+他在麦吉尔大学师从 Louis Kahn（也出现在本日历 2月20日），毕业论文就是后来震惊世界的 Habitat 67——1967年蒙特利尔世博会上那个由354个预制混凝土盒子堆叠而成的住宅综合体。这个项目让28岁的 Safdie 一夜成名，也定义了他一生的设计追求：**如何在高密度城市中创造有尊严的居住空间？**
+
+从 Habitat 67 到耶路撒冷的 Yad Vashem 大屠杀纪念馆，从新加坡的 Jewel Changi Airport 到重庆的来福士广场，Safdie 的作品遍布全球，但始终围绕同一个核心问题：**建筑如何为公共生活创造意义？**`,
+    
+    story: `Marina Bay Sands 的设计始于一个看似不可能的想法：在三栋55层高楼的顶端，放一艘"船"。
+
+这艘340米长的空中花园（SkyPark）横跨三栋塔楼，悬挑67米——相当于把一座足球场悬挂在200米高空。从工程角度看，这近乎疯狂。Safdie 的团队与 Arup 工程师合作，使用了创新的钢桁架结构系统，让这个重达7700吨的空中平台稳稳地"漂浮"在城市上空。
+
+**但结构只是手段，设计意图才是灵魂。**
+
+Safdie 解释说，SkyPark 的灵感来自"公共空间"的理念。新加坡是全球人口密度最高的国家之一，地面空间寸土寸金。SkyPark 将花园、泳池、观景台"举"到200米高空，创造了一个属于所有人的空中公共花园——这不仅仅是一个酒店的豪华设施，更是对"城市公共空间可以在哪里"这个问题的激进回答。
+
+三栋塔楼的形态同样充满深意。它们不是平行排列，而是像三张扑克牌以不同角度倾斜、在顶部汇聚。这种设计让每栋塔楼都有独特的景观朝向，同时在地面层创造出宽阔的公共入口空间——像三只手掌张开，欢迎人们进入。
+
+Marina Bay Sands 的裙楼是一个莲花形态的 ArtScience Museum——Safdie 将新加坡的热带自然意象融入了建筑语言，让这座建筑不仅仅是国际化的，更是属于这片土地的。`,
+
+    legacy: `Marina Bay Sands 对建筑和城市设计的影响：
+
+**空中城市的先驱**：SkyPark 证明了城市公共空间不必局限于地面。这个理念影响了后来的众多项目，包括纽约的 The Vessel、首尔的 Seoullo 7017 空中花园、以及 Safdie 自己后来的重庆来福士"水晶连廊"。
+
+**综合体建筑的新范式**：Marina Bay Sands 将酒店、赌场、会展中心、剧院、博物馆、商场、餐饮融为一体，但不是简单的堆砌，而是通过建筑形态创造了空间的叙事和层次。它重新定义了"综合体"（Integrated Resort）的概念。
+
+**城市天际线的标志**：它成为新加坡的视觉名片，证明了一栋建筑可以定义一座城市的形象——就像悉尼歌剧院之于悉尼，迪拜帆船酒店之于迪拜。
+
+**东西方建筑语言的融合**：Safdie 将西方的工程理性与东方的自然意象相结合——莲花、花园、水——创造了一种既现代又有地域文化根基的建筑语言。`,
+    
+    significance: `为什么 Marina Bay Sands 不仅仅是一座豪华酒店？
+
+因为 Moshe Safdie 通过这座建筑回答了21世纪城市设计最紧迫的问题：**在寸土寸金的城市里，公共空间去哪了？**
+
+传统答案是公园、广场、滨水步道——这些都需要宝贵的地面空间。Safdie 的答案是：**向上。**
+
+SkyPark 不是屋顶花园的放大版，它是一个宣言：城市的第五立面（屋顶）可以像地面一样丰富、一样开放、一样属于公众。
+
+当你站在 SkyPark 的无边际泳池边缘，200米高空，脚下是整个新加坡的城市天际线——你会明白为什么建筑不只是建造房子，而是创造体验。
+
+**Safdie 把一艘船放在了天上。这本身就是设计最好的隐喻：拒绝地心引力，拒绝常规，拒绝"不可能"。**`,
+
+    dateConnection_en: 'On February 6, 1819, Stamford Raffles of the British East India Company signed the Treaty of Singapore with the Sultan of Johor, marking the founding of modern Singapore. 191 years later in 2010, Marina Bay Sands rose from the same land — this building designed by Moshe Safdie became the ultimate symbol of Singapore\'s transformation from a colonial trading port to a global design capital.',
+    
+    designerBio_en: `Moshe Safdie (1938-) is an Israeli-Canadian architect and one of the most experimental architects of our time.
+
+He studied under Louis Kahn (also featured in this calendar on February 20) at McGill University. His thesis project became the world-famous Habitat 67 — a housing complex of 354 prefabricated concrete boxes stacked at the 1967 Montreal World Expo. The project made the 28-year-old Safdie an overnight sensation and defined his lifelong design pursuit: **how to create dignified living spaces in high-density cities.**
+
+From Habitat 67 to Jerusalem's Yad Vashem Holocaust Memorial, from Singapore's Jewel Changi Airport to Chongqing's Raffles City, Safdie's work spans the globe but always revolves around one core question: **how can architecture create meaning for public life?**`,
+    
+    story_en: `Marina Bay Sands' design began with a seemingly impossible idea: place a "ship" atop three 55-story towers.
+
+This 340-meter-long SkyPark spans all three towers with a 67-meter cantilever — equivalent to suspending a football field 200 meters in the air. From an engineering standpoint, it borders on madness. Safdie's team collaborated with Arup engineers, using an innovative steel truss structural system to keep this 7,700-ton aerial platform stably "floating" above the city.
+
+**But structure is merely means; design intent is the soul.**
+
+Safdie explained that the SkyPark was inspired by the concept of "public space." Singapore is one of the world's most densely populated countries, where ground-level space is precious. The SkyPark lifts gardens, pools, and observation decks to 200 meters, creating an aerial public garden for everyone — not merely a luxury hotel amenity, but a radical answer to "where can urban public space exist?"
+
+The three towers' forms are equally intentional. Rather than parallel alignment, they lean at different angles like three playing cards converging at the top. This design gives each tower unique views while creating expansive public entry spaces at ground level — like three open palms welcoming visitors.
+
+The podium features a lotus-shaped ArtScience Museum — Safdie wove Singapore's tropical natural imagery into the architectural language, making this building not just international but belonging to this land.`,
+    
+    legacy_en: `Marina Bay Sands' influence on architecture and urban design:
+
+**Pioneer of cities in the sky**: The SkyPark proved that urban public space needn't be confined to ground level. This concept influenced numerous subsequent projects including New York's The Vessel, Seoul's Seoullo 7017 Sky Garden, and Safdie's own Chongqing Raffles City "Crystal Skybridge."
+
+**New paradigm for mixed-use complexes**: Marina Bay Sands integrates hotel, casino, convention center, theaters, museum, mall, and dining — not as simple aggregation but through architectural form that creates spatial narrative and hierarchy. It redefined the concept of "Integrated Resort."
+
+**Defining a city's skyline**: It became Singapore's visual identity, proving one building can define a city's image — like the Sydney Opera House for Sydney, or the Burj Al Arab for Dubai.
+
+**Fusion of Eastern and Western architectural language**: Safdie combined Western engineering rationality with Eastern natural imagery — lotus, gardens, water — creating an architectural language that is both modern and culturally rooted.`,
+    
+    significance_en: `Why is Marina Bay Sands more than just a luxury hotel?
+
+Because Moshe Safdie used this building to answer the most urgent question in 21st-century urban design: **in cities where every square meter is precious, where does public space go?**
+
+The traditional answer is parks, plazas, waterfront promenades — all requiring valuable ground-level real estate. Safdie's answer: **go up.**
+
+The SkyPark isn't an oversized rooftop garden; it's a declaration that a city's fifth facade (the roof) can be as rich, as open, and as public as the ground.
+
+When you stand at the edge of the SkyPark's infinity pool, 200 meters up, the entire Singapore skyline at your feet — you understand why architecture isn't just about constructing buildings, but creating experiences.
+
+**Safdie put a ship in the sky. That itself is design's best metaphor: defying gravity, defying convention, defying "impossible."**`
+  },
+
 ]
