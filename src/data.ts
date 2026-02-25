@@ -1857,6 +1857,94 @@ When you stand at the edge of the SkyPark's infinity pool, 200 meters up, the en
   },
 
   {
+    id: '28',
+    date: '2026-01-31',
+    imageUrl: '/the-daily-object/images/muji-cd-player.jpg',
+    fullImageUrl: '/the-daily-object/images/full/muji-cd-player.jpg',
+    title: 'MUJI 壁挂式 CD 播放器',
+    title_en: 'MUJI Wall-Mounted CD Player',
+    subtitle: '深澤直人, 1999',
+    subtitle_en: 'Naoto Fukasawa, 1999',
+    category: 'industrial',
+    designer: 'Naoto Fukasawa',
+    year: '1999',
+
+    dateConnection: '1月31日是一年中第一个月的最后一天——一个"结束"与"开始"交汇的时刻。深澤直人的 MUJI 壁挂式 CD 播放器恰好体现了这种边界消融的哲学：它让"播放音乐"这个动作的起点与终点融为一体——你拉下电源线，音乐开始；松手，音乐停止。没有复杂的界面，没有多余的步骤。设计消融在行为之中。',
+
+    designerBio: `深澤直人（Naoto Fukasawa，1956年生），日本工业设计师，被 Bloomberg 评为"全球最具影响力的设计师之一"。
+
+1980年毕业于多摩美术大学产品设计专业，先后在精工爱普生和 IDEO 工作。2003年创立个人事务所，同年创办家电品牌 ±0。自2002年起担任 MUJI 设计顾问委员会成员，主导了众多经典产品的设计。
+
+他提出了"无意識のデザイン"（Without Thought）设计理论——好的设计不需要用户思考，它应该像呼吸一样自然。他是 21_21 DESIGN SIGHT（日本首个设计博物馆）的联合馆长，多件作品被 MoMA 永久收藏。`,
+
+    story: `1999年，深澤直人为 MUJI 设计了一款壁挂式 CD 播放器。它看起来几乎不像一台电器——一个白色方形盒子，挂在墙上，CD 裸露在外面，下方垂着一根拉绳。
+
+**拉一下绳子，CD 开始转动，音乐流淌而出。**
+
+这个设计的天才之处在于它的操作暗示：拉绳启动的动作让人联想到老式排风扇或灯的拉线开关。深澤直人没有发明新的交互方式——他从人们已有的生活记忆中提取了一个动作，将它嫁接到了完全不同的产品上。
+
+**这就是"无意识设计"的精髓。**
+
+这台 CD 播放器没有显示屏，没有复杂的按钮面板，甚至没有传统音响设备的"存在感"。它挂在墙上，像一件装置艺术。CD 旋转时，你能看到它在转动——设计把"播放"这个抽象动作变成了一个可见的、诗意的过程。
+
+这不仅仅是简约。简约是做减法，但深澤直人做的是**翻译**——把复杂的技术翻译成人人都懂的日常语言。一根绳子，就是全部的用户界面。
+
+1999年问世以来，这台 CD 播放器从未停产，成为 MUJI 最具标志性的产品之一。它被 MoMA 永久收藏，被无数设计教科书引用，被全世界的设计师视为"少即是多"理念的终极范例。
+
+**深澤直人证明了：最好的设计不是让人惊叹"这设计真棒"，而是让人觉得"本来就应该是这样"。**`,
+
+    legacy: `• MoMA 永久收藏品：与 iPod、椅子等并列为20世纪末最重要的工业设计作品
+• MUJI 设计哲学的象征：这台 CD 播放器定义了 MUJI"够用就好"的极简美学
+• "无意识设计"理论的经典案例：深澤直人的设计哲学影响了整整一代产品设计师
+• 长青产品：1999年至今从未停产，证明了好设计超越潮流`,
+
+    significance: `在一个追求更多功能、更大屏幕、更复杂交互的时代，深澤直人用一台 CD 播放器证明了相反的道理：**最深刻的创新是让事物回归本质。**
+
+一根绳子，一张 CD，一面白墙。没有说明书，不需要学习，三岁小孩都知道该怎么做——拉一下。
+
+这是工业设计的至高境界：当技术变得足够成熟时，设计的任务不是展示技术，而是让技术消失。深澤直人称之为"设计溶解在行为中"。
+
+这也许是20世纪末最安静的设计革命——不是iPhone式的颠覆，而是一种温柔的提醒：**好设计不叫嚣，它只是在那里，等你伸手。**`,
+
+    dateConnection_en: 'January 31 marks the last day of the year\'s first month — a moment where "ending" meets "beginning." Naoto Fukasawa\'s MUJI Wall-Mounted CD Player embodies this philosophy of dissolving boundaries: it merges the start and end of "playing music" into a single gesture — pull the cord, music begins; let go, music stops. No complex interface, no extra steps. Design dissolves into behavior.',
+
+    designerBio_en: `Naoto Fukasawa (born 1956) is a Japanese industrial designer described by Bloomberg as "one of the world's most influential designers."
+
+He graduated from Tama Art University in 1980, then worked at Seiko Epson and IDEO before founding his own studio in 2003. That same year he launched ±0, a household electronics brand. Since 2002, he has served on MUJI's advisory board, leading the design of numerous iconic products.
+
+He coined the concept of "Without Thought" design — good design shouldn't require the user to think; it should be as natural as breathing. He co-directs 21_21 DESIGN SIGHT, Japan's first design museum, and multiple works are in MoMA's permanent collection.`,
+
+    story_en: `In 1999, Naoto Fukasawa designed a wall-mounted CD player for MUJI. It barely looks like an electronic device — a white square box mounted on the wall, with the CD exposed and a pull cord hanging below.
+
+**Pull the cord. The CD starts spinning. Music flows.**
+
+The genius of this design lies in its operational suggestion: the pull-cord activation evokes old-fashioned ventilation fan or lamp pull switches. Fukasawa didn't invent a new interaction — he extracted a gesture from people's existing life memories and grafted it onto an entirely different product.
+
+**This is the essence of "Without Thought" design.**
+
+The CD player has no display, no complex button panel, not even the typical "presence" of audio equipment. Hung on a wall, it resembles an art installation. When the CD spins, you can see it rotating — the design transforms the abstract act of "playing" into a visible, poetic process.
+
+This isn't mere minimalism. Minimalism is subtraction, but Fukasawa's work is **translation** — converting complex technology into everyday language everyone understands. One cord: that's the entire user interface.
+
+Since its 1999 debut, this CD player has never gone out of production, becoming one of MUJI's most iconic products. It's in MoMA's permanent collection, cited in countless design textbooks, and regarded by designers worldwide as the ultimate example of "less is more."
+
+**Fukasawa proved that the best design doesn't make people exclaim "what great design!" — it makes them feel "of course, it should be this way."**`,
+
+    legacy_en: `• MoMA permanent collection: Listed alongside the iPod and iconic chairs as one of the most important industrial designs of the late 20th century
+• Symbol of MUJI's design philosophy: This CD player defined MUJI's "just enough" minimalist aesthetic
+• Classic case of "Without Thought" design theory: Fukasawa's philosophy influenced an entire generation of product designers
+• Evergreen product: In continuous production since 1999, proving good design transcends trends`,
+
+    significance_en: `In an era chasing more features, bigger screens, and more complex interactions, Fukasawa used a CD player to prove the opposite: **the most profound innovation is returning things to their essence.**
+
+One cord, one CD, one white wall. No manual, no learning curve — a three-year-old knows what to do: pull.
+
+This is industrial design's highest aspiration: when technology matures enough, design's task isn't to showcase technology, but to make it disappear. Fukasawa calls this "design dissolving into behavior."
+
+Perhaps the quietest design revolution of the late 20th century — not an iPhone-style disruption, but a gentle reminder: **good design doesn't shout. It's simply there, waiting for your hand.**`
+  },
+
+  {
     id: '25',
     date: '2026-02-01',
     imageUrl: '/the-daily-object/images/rolleiflex-camera.jpg',
