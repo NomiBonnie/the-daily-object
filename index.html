@@ -11,12 +11,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
     <title>The Daily Object</title>
     <script>
-      // Prevent dark mode flash: apply dark class and bg color before first paint
       if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.documentElement.classList.add('dark')
         document.documentElement.style.backgroundColor = '#0a0a0a'
       }
     </script>
+    <style>
+      .dark body, .dark #root { background-color: #0a0a0a !important; }
+      .dark * { --tw-bg-opacity: 1; }
+      /* Hide everything until CSS loads to prevent white flash */
+      .dark #root { visibility: hidden; }
+    </style>
   </head>
   <body class="bg-neutral-50 dark:bg-neutral-950" style="background-color: #fafafa">
     <script>if(document.documentElement.classList.contains('dark'))document.body.style.backgroundColor='#0a0a0a'</script>
