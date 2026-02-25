@@ -317,10 +317,10 @@ if ($size -gt 600) {
 **⚠️ 使用自动化脚本（推荐）：**
 ```powershell
 cd C:\Users\kaixin_yy\.openclaw\workspace\the-daily-object
-.\scripts\publish.ps1
+.\scripts\publish.ps1 -Message "Add MM-DD: Title"
 ```
 
-脚本自动执行：图片验证（大小/比例/双份检查）→ TypeScript 检查 → Vite 构建 → git commit + push → 等 90s → 验证线上。
+脚本自动执行：变更图片验证（大小/比例/双份检查）→ TypeScript 检查 → Vite 构建 → git commit + push → 等 90s → 验证线上。
 
 **手动操作（备用）：**
 ```powershell

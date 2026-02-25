@@ -1,6 +1,7 @@
 # daily-object-publish.ps1 — Automated build, deploy, and verify
-# Usage: .\publish.ps1 [-SkipBuild] [-DryRun]
+# Usage: .\publish.ps1 -Message "Add 02-26: Panton Chair" [-SkipBuild] [-DryRun]
 param(
+    [Parameter(Mandatory)][string]$Message,
     [switch]$SkipBuild,
     [switch]$DryRun
 )
@@ -20,43 +21,46 @@ if (-not $status) {
 Write-Host "Changes detected:" -ForegroundColor Green
 $status | ForEach-Object { Write-Host "  $_" }
 
-# 2. Validate images (dual-copy check)
-Write-Host "`n--- Image Validation ---" -ForegroundColor Cyan
-$displayImages = Get-ChildItem "public/images/*.jpg","public/images/*.png" -ErrorAction SilentlyContinue
-$fullImages = Get-ChildItem "public/images/full/*.jpg","public/images/full/*.png" -ErrorAction SilentlyContinue
-$displayNames = $displayImages | ForEach-Object { $_.Name }
-$fullNames = $fullImages | ForEach-Object { $_.Name }
+# 2. Validate ONLY changed/new images (not all 25+)
+Write-Host "`n--- Image Validation (changed files only) ---" -ForegroundColor Cyan
+$changedImages = $status | Where-Object { $_ -match '\.(jpg|png)$' } | ForEach-Object { ($_ -replace '^\s*\??\??\s*', '').Trim().Trim('"') }
 
-$missingFull = $displayNames | Where-Object { $_ -notin $fullNames }
-if ($missingFull) {
-    Write-Host "WARNING: Display images missing from full/:" -ForegroundColor Red
-    $missingFull | ForEach-Object { Write-Host "  - $_" -ForegroundColor Red }
-}
-
-# Check image sizes
-foreach ($img in $displayImages) {
+foreach ($imgPath in $changedImages) {
+    if (-not (Test-Path $imgPath)) { continue }
+    $img = Get-Item $imgPath
     $sizeKB = [math]::Round($img.Length / 1KB)
-    $color = if ($sizeKB -gt 600) { "Red" } else { "Green" }
-    Write-Host ("  {0}: {1} KB" -f $img.Name, $sizeKB) -ForegroundColor $color
-    if ($sizeKB -gt 600) {
-        Write-Host "    ^ WARNING: Display image > 600KB, should be compressed!" -ForegroundColor Red
+    
+    # Size check
+    $isDisplay = $imgPath -notmatch 'full/'
+    if ($isDisplay -and $sizeKB -gt 600) {
+        Write-Host "  WARNING: $($img.Name) = $sizeKB KB (display image > 600KB!)" -ForegroundColor Red
+    } else {
+        Write-Host "  $($img.Name): $sizeKB KB" -ForegroundColor Green
     }
-}
 
-# Check image dimensions/ratio
-foreach ($img in $displayImages) {
+    # Ratio check
     try {
         $ffOut = & ffmpeg -i $img.FullName -hide_banner 2>&1 | Select-String "Stream.*Video"
         if ($ffOut -match '(\d{2,5})x(\d{2,5})') {
             $w = [int]$Matches[1]; $h = [int]$Matches[2]
             $ratio = [math]::Round($w / $h, 2)
-            $warning = if ($ratio -gt 2.0) { " ❌ ULTRA-WIDE (>2:1) — bad for mobile!" } elseif ($ratio -gt 1.8) { " ⚠️ Wide" } else { "" }
-            Write-Host ("  {0}: {1}x{2} (ratio {3}){4}" -f $img.Name, $w, $h, $ratio, $warning)
+            $warning = if ($ratio -gt 2.0) { " ❌ ULTRA-WIDE (>2:1)" } elseif ($ratio -gt 1.8) { " ⚠️ Wide" } else { "" }
+            Write-Host "    ${w}x${h} (ratio $ratio)$warning"
         }
     } catch {}
 }
 
-# 3. TypeScript check
+# 3. Dual-copy check (display images must have full/ counterpart)
+$displayImages = $changedImages | Where-Object { $_ -match 'public/images/[^/]+\.(jpg|png)$' }
+foreach ($dp in $displayImages) {
+    $name = Split-Path $dp -Leaf
+    $fullPath = "public/images/full/$name"
+    if (-not (Test-Path $fullPath)) {
+        Write-Host "  WARNING: $name missing from full/ (no lightbox original!)" -ForegroundColor Red
+    }
+}
+
+# 4. TypeScript check
 Write-Host "`n--- TypeScript Check ---" -ForegroundColor Cyan
 $tscResult = & npx tsc --noEmit 2>&1
 if ($LASTEXITCODE -ne 0) {
@@ -66,7 +70,7 @@ if ($LASTEXITCODE -ne 0) {
 }
 Write-Host "TypeScript: OK" -ForegroundColor Green
 
-# 4. Build
+# 5. Build
 if (-not $SkipBuild) {
     Write-Host "`n--- Vite Build ---" -ForegroundColor Cyan
     & npx vite build
@@ -77,18 +81,15 @@ if (-not $SkipBuild) {
     Write-Host "Build: OK" -ForegroundColor Green
 }
 
-# 5. Commit & Push
+# 6. Commit & Push
 if ($DryRun) {
-    Write-Host "`n[DRY RUN] Would commit and push. Exiting." -ForegroundColor Yellow
+    Write-Host "`n[DRY RUN] Would commit: $Message" -ForegroundColor Yellow
     exit 0
 }
 
 Write-Host "`n--- Git Commit & Push ---" -ForegroundColor Cyan
 git add .
-$today = (Get-Date).ToString("MM-dd")
-# Try to extract title from recent changes
-$commitMsg = "Update $today content"
-git commit -m $commitMsg
+git commit -m $Message
 git push origin main
 if ($LASTEXITCODE -ne 0) {
     Write-Host "Push failed!" -ForegroundColor Red
@@ -96,7 +97,7 @@ if ($LASTEXITCODE -ne 0) {
 }
 Write-Host "Push: OK" -ForegroundColor Green
 
-# 6. Wait & Verify
+# 7. Wait & Verify
 Write-Host "`n--- Waiting 90s for GitHub Actions deploy ---" -ForegroundColor Cyan
 Start-Sleep -Seconds 90
 
