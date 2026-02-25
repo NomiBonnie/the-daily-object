@@ -25,9 +25,10 @@
 ```
 the-daily-object/
 ├── src/
-│   └── data.ts          # 所有内容数据（designObjects 数组）
+│   └── data.ts          # 所有内容数据（designs 数组）
 ├── public/
-│   └── images/          # 作品图片
+│   ├── images/          # 展示用图片（≤600KB 原图 / >600KB 压缩版）
+│   └── images/full/     # 原图（lightbox 放大用，永远保留原图不压缩）
 ├── DAILY-TASK.md        # 本文档
 └── ...
 ```
@@ -388,15 +389,18 @@ browser action=open → 用 → browser action=close
 
 | 日期 | 作品 | 设计师 | 分类 |
 |------|------|--------|------|
-| 02-04 | 汝窑天青釉 | Song Dynasty Imperial Kilns | industrial |
+| 02-01 | Rolleiflex 双反相机 | Vivian Maier | art |
+| 02-02 | Grand Central Terminal | Reed & Stem, Warren & Wetmore | architecture |
+| 02-03 | Stool 60 | Alvar Aalto | industrial |
+| 02-04 | 机械元素 (Léger) | Fernand Léger | art |
 | 02-05 | Bakelite | Leo Baekeland | industrial |
 | 02-06 | Marina Bay Sands | Moshe Safdie | architecture |
 | 02-07 | Pinocchio | Walt Disney Studios | art |
-| 02-08 | Self-Portrait on the 6th Wedding Anniversary | Paula Modersohn-Becker | art |
+| 02-08 | 威尼斯之石 (Ruskin) | John Ruskin | architecture |
 | 02-09 | Mercedes 35 HP | Wilhelm Maybach | industrial |
 | 02-10 | UP5 & UP6 | Gaetano Pesce | industrial |
 | 02-11 | The Horn of Plenty | Alexander McQueen | art |
-| 02-12 | Self-Portrait with Champagne Glass | Max Beckmann | art |
+| 02-12 | 牛顿纪念堂 (Boullée) | Étienne-Louis Boullée | architecture |
 | 02-13 | Panton Chair | Verner Panton | industrial |
 | 02-14 | I ♥ NY | Milton Glaser | art |
 | 02-15 | HOPE Poster | Shepard Fairey | art |
@@ -404,11 +408,12 @@ browser action=open → 用 → browser action=close
 | 02-17 | Vessel | Thomas Heatherwick | architecture |
 | 02-18 | Wisteria Lamp | Louis Comfort Tiffany | art |
 | 02-19 | Bird in Space | Constantin Brâncuși | art |
-| 02-20 | Salk Institute for Biological Studies | Louis Kahn | architecture |
+| 02-20 | Salk Institute | Louis Kahn | architecture |
 | 02-21 | Polaroid Land Camera Model 95 | Edwin Land | industrial |
-| 02-22 | Cleopatra's Needle | Thutmose III / Ancient Egypt | architecture |
+| 02-22 | Gill Sans 字体 | Eric Gill | graphic |
 | 02-23 | Gutenberg Bible | Johannes Gutenberg | graphic |
-| 02-24 | Nike Air Force 1 | Bruce Kilgore / Phil Knight | industrial |
+| 02-24 | Nike Air Force 1 | Bruce Kilgore | industrial |
+| 02-25 | Royal Crescent | John Wood the Younger | architecture |
 
 > 添加新内容后，请更新此索引。
 
