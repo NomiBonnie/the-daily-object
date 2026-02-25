@@ -1716,4 +1716,252 @@ When you stand at the edge of the SkyPark's infinity pool, 200 meters up, the en
 **Safdie put a ship in the sky. That itself is design's best metaphor: defying gravity, defying convention, defying "impossible."**`
   },
 
+  {
+    id: '25',
+    date: '2026-02-01',
+    imageUrl: '/the-daily-object/images/oxford-english-dictionary.jpg',
+    thumbnailUrl: '/the-daily-object/images/oxford-english-dictionary.jpg',
+    title: 'Oxford English Dictionary',
+    subtitle: 'James Murray et al., 1884',
+    category: 'graphic',
+    designer: 'James Murray',
+    year: '1884',
+
+    dateConnection: '1884年2月1日，《牛津英语词典》第一卷（A-Ant）正式出版，开创了现代词典编纂的信息设计范式。这部历时70年才完成的巨著，不仅是语言学的里程碑，更是信息架构与排版设计的典范。',
+
+    designerBio: `James Murray (1837-1915)，苏格兰语言学家，OED 最重要的主编。
+
+他是一个自学成才的天才，13岁辍学，却掌握了十几种语言。1879年接手 OED 项目时，他在牛津自家后院搭建了一间"经典小屋"（Scriptorium），堆满了来自全世界志愿者寄来的数百万张引文卡片。
+
+Murray 发明了一套全新的词典编排体系：每个词条按**历史原则**排列，追溯词义演变，配以最早的引文出处。这种信息架构设计——从词源到语义流变的层级结构——影响了后世所有参考工具书的设计逻辑。`,
+
+    story: `1857年，伦敦语言学会决定编纂一部"完整的英语词典"。没人知道这个决定意味着什么。
+
+最初的编辑 Herbert Coleridge 估计需要两年。他错了——整整差了68年。
+
+James Murray 于1879年接手，开始了人类历史上最大规模的众包项目之一：他在报纸上刊登广告，邀请全英国的读者阅读书籍并摘录词语用法，寄到牛津。最终收到了超过600万张引文卡片。
+
+**排版设计本身就是一项工程奇迹。** 每个词条需要展示：词源（希腊文、拉丁文、古英文）、发音、多重定义、历史引文——全部压缩在窄窄的双栏页面中。Murray 和牛津大学出版社的排版师们发明了一套复杂的缩写系统和字体层级，让密集的信息变得可读。
+
+1884年2月1日，第一卷终于出版——只覆盖了 A 到 Ant。整部词典直到1928年才全部完成。
+
+**这是一部永远写不完的书。** 因为语言本身就在不断变化。`,
+
+    legacy: `• 信息架构范式：按历史原则编排的词条结构影响了 Wikipedia、Google Knowledge Graph 等现代知识系统
+• 排版设计标杆：复杂的字体层级、缩写系统和双栏布局成为参考工具书的设计标准
+• 众包先驱：600万张志愿者引文卡片——这是 Web 2.0 诞生前120年的"用户贡献内容"
+• 持续更新：OED 至今仍在更新，从纸质到数字化，信息设计的演化从未停止`,
+
+    significance: `OED 证明了**信息设计的力量**：如何将一种语言的全部历史——数十万词条、数百万引文——组织成人类可以检索和理解的形式。
+
+Murray 面对的设计问题和今天的 UX 设计师面对的本质相同：如何在有限空间内呈现海量信息？如何建立清晰的层级结构？如何让复杂变得可用？
+
+从 A 到 Ant 的那第一卷，就是信息设计的创世纪。`,
+
+    dateConnection_en: 'On February 1, 1884, the first volume of the Oxford English Dictionary (A to Ant) was published, establishing a new paradigm for information design in modern lexicography. This monumental work, which took 70 years to complete, is not only a linguistic milestone but also a masterpiece of information architecture and typographic design.',
+
+    designerBio_en: `James Murray (1837-1915), Scottish lexicographer and the most important editor of the OED.
+
+A self-taught genius who left school at 13 yet mastered over a dozen languages. When he took over the OED project in 1879, he built a corrugated iron shed called the "Scriptorium" in his Oxford garden, filled with millions of quotation slips sent by volunteers worldwide.
+
+Murray invented an entirely new dictionary organization system: entries arranged by **historical principles**, tracing the evolution of meaning, with the earliest known citations. This information architecture — a hierarchical structure from etymology to semantic evolution — influenced the design logic of all reference works that followed.`,
+
+    story_en: `In 1857, the Philological Society of London decided to compile "a complete English dictionary." No one knew what that decision truly meant.
+
+The first editor, Herbert Coleridge, estimated it would take two years. He was off by 68 years.
+
+James Murray took over in 1879 and launched one of the largest crowdsourcing projects in human history: he placed advertisements in newspapers inviting readers across Britain to read books, extract word usages, and mail them to Oxford. Over 6 million quotation slips eventually arrived.
+
+**The typographic design itself was an engineering marvel.** Each entry needed to display: etymology (Greek, Latin, Old English), pronunciation, multiple definitions, and historical citations — all compressed into narrow double-column pages. Murray and the Oxford University Press compositors invented an elaborate system of abbreviations and typographic hierarchies to make dense information readable.
+
+On February 1, 1884, the first volume was finally published — covering only A to Ant. The complete dictionary wasn't finished until 1928.
+
+**It's a book that can never truly be finished.** Because language itself never stops changing.`,
+
+    legacy_en: `• Information architecture paradigm: The historically-organized entry structure influenced modern knowledge systems from Wikipedia to Google Knowledge Graph
+• Typographic benchmark: Complex font hierarchies, abbreviation systems, and double-column layouts became the design standard for reference works
+• Crowdsourcing pioneer: 6 million volunteer quotation slips — "user-generated content" 120 years before Web 2.0
+• Continuous evolution: The OED continues updating to this day, from print to digital, its information design never ceasing to evolve`,
+
+    significance_en: `The OED proved **the power of information design**: how to organize an entire language's history — hundreds of thousands of entries, millions of citations — into a form humans can search and understand.
+
+The design problems Murray faced are essentially the same ones today's UX designers face: How do you present massive amounts of information in limited space? How do you establish clear hierarchies? How do you make complexity usable?
+
+That first volume, from A to Ant, was the genesis of information design.`
+  },
+
+  {
+    id: '26',
+    date: '2026-02-02',
+    imageUrl: '/the-daily-object/images/grand-central-terminal.jpg',
+    thumbnailUrl: '/the-daily-object/images/grand-central-terminal.jpg',
+    title: 'Grand Central Terminal',
+    subtitle: 'Reed & Stem / Warren & Wetmore, 1913',
+    category: 'architecture',
+    designer: 'Reed & Stem, Warren & Wetmore',
+    year: '1913',
+
+    dateConnection: '1913年2月2日，纽约中央车站（Grand Central Terminal）正式启用。这座布艺艺术（Beaux-Arts）风格的建筑杰作不仅重新定义了交通枢纽的设计，更创造了"城市客厅"的全新概念。',
+
+    designerBio: `Reed & Stem 和 Warren & Wetmore，两家建筑事务所的合作结晶。
+
+Charles Reed 和 Allen Stem 负责功能布局——他们的天才在于发明了环形高架道路系统和多层交通分流方案。Whitney Warren 和 Charles Wetmore 则负责建筑外观和室内设计，将布艺艺术风格的宏伟注入每一个细节。
+
+这种"功能建筑师+美学建筑师"的搭配在当时并不常见，但正是这种张力造就了 Grand Central 的伟大：**它既是一台完美的交通机器，又是一座让人驻足仰望的殿堂。**`,
+
+    story: `1902年，一场火车相撞事故让纽约市禁止蒸汽机车进入曼哈顿。老车站必须重建，而且只能使用电力机车。
+
+铁路大亨 Cornelius Vanderbilt 的继承人们决定：既然要重建，就建一座前所未有的车站。
+
+Reed & Stem 赢得了设计竞赛。他们的方案革命性地将铁轨沉入地下，地面释放出来的空间变成了 Park Avenue 上方价值连城的地产。**这不只是建一座车站——这是重新设计一整片城市。**
+
+Warren & Wetmore 随后加入，负责建筑的"面子工程"。他们设计了那个令人窒息的主大厅：高达38米的拱形天花板上，画着2,500颗星星组成的星座图（虽然画反了）。
+
+1913年2月2日开幕当天，15万人涌入参观。他们仰望星空般的天花板，穿行在光线从巨大的拱窗倾泻而下的大厅中，感受到了一种此前只属于教堂的庄严。
+
+**但这不是教堂，这是火车站。** Grand Central 证明了公共交通空间可以拥有大教堂级别的尊严。`,
+
+    legacy: `• 城市设计典范：将铁轨沉入地下、释放地面空间的做法直接催生了 Park Avenue 的繁荣，影响了全球城市的TOD（交通导向开发）理念
+• 交通建筑标杆：多层交通分流、环形车道系统被全球交通枢纽借鉴
+• 历史保护运动：1960年代面临拆除威胁，Jackie Kennedy 领导的保护运动拯救了它，催生了纽约地标保护法
+• 文化地标：每年2100万游客，是纽约第六大旅游景点，Apple Store 入驻更赋予它新的当代意义`,
+
+    significance: `Grand Central Terminal 回答了一个根本问题：**公共空间应该给人什么感受？**
+
+在一个人人匆忙赶路的火车站里，建筑师们选择让你停下来——抬头看那片人造星空，感受光线在大理石地面上的流动，听回声在穹顶下回荡。
+
+这种"在功能空间中创造仪式感"的设计哲学，从 Grand Central 一直延续到今天的机场航站楼、地铁站、高铁站。
+
+**伟大的交通建筑不只是让你通过，它让你到达。**`,
+
+    dateConnection_en: 'On February 2, 1913, Grand Central Terminal officially opened in New York City. This Beaux-Arts masterpiece didn\'t just redefine transportation hub design — it created an entirely new concept: the "urban living room."',
+
+    designerBio_en: `Reed & Stem and Warren & Wetmore — a collaboration between two architectural firms.
+
+Charles Reed and Allen Stem handled the functional layout — their genius lay in inventing the elevated circumferential roadway system and multi-level traffic separation. Whitney Warren and Charles Wetmore were responsible for the exterior and interior design, infusing every detail with Beaux-Arts grandeur.
+
+This pairing of "functional architect + aesthetic architect" was unusual at the time, but it was precisely this tension that made Grand Central great: **it is both a perfect transportation machine and a cathedral that makes you stop and look up.**`,
+
+    story_en: `In 1902, a train collision prompted New York City to ban steam locomotives from Manhattan. The old station had to be rebuilt using only electric trains.
+
+The heirs of railroad magnate Cornelius Vanderbilt decided: if they had to rebuild, they'd build a station unlike any before.
+
+Reed & Stem won the design competition. Their revolutionary plan sank the tracks underground, freeing the surface land into enormously valuable real estate above Park Avenue. **This wasn't just building a station — it was redesigning an entire section of the city.**
+
+Warren & Wetmore joined later, handling the building's grand face. They designed that breathtaking main concourse: a 125-foot vaulted ceiling painted with 2,500 stars forming constellations (albeit in reverse).
+
+On opening day, February 2, 1913, 150,000 people flooded in. They gazed up at a sky-like ceiling, walked through a hall where light cascaded through massive arched windows, and felt a solemnity previously reserved for cathedrals.
+
+**But this wasn't a cathedral. It was a train station.** Grand Central proved that public transit spaces could possess cathedral-level dignity.`,
+
+    legacy_en: `• Urban design paradigm: Sinking tracks underground and freeing surface space directly catalyzed Park Avenue's prosperity and influenced Transit-Oriented Development (TOD) worldwide
+• Transportation architecture benchmark: Multi-level traffic separation and circumferential roadway systems have been adopted by transit hubs globally
+• Historic preservation movement: Facing demolition in the 1960s, Jackie Kennedy's preservation campaign saved it and inspired New York's Landmarks Preservation Law
+• Cultural landmark: 21 million annual visitors make it NYC's sixth-largest tourist attraction; the Apple Store inside gives it new contemporary relevance`,
+
+    significance_en: `Grand Central Terminal answered a fundamental question: **How should public space make people feel?**
+
+In a train station where everyone rushes to catch their train, the architects chose to make you pause — look up at the artificial sky, feel the light flowing across marble floors, hear echoes reverberating beneath the vault.
+
+This design philosophy of "creating ceremony within functional space" extends from Grand Central all the way to today's airport terminals, metro stations, and high-speed rail hubs.
+
+**Great transit architecture doesn't just let you pass through. It lets you arrive.**`
+  },
+
+  {
+    id: '27',
+    date: '2026-02-03',
+    imageUrl: '/the-daily-object/images/aalto-stool-60.jpg',
+    thumbnailUrl: '/the-daily-object/images/aalto-stool-60.jpg',
+    title: 'Stool 60',
+    subtitle: 'Alvar Aalto, 1933',
+    category: 'industrial',
+    designer: 'Alvar Aalto',
+    year: '1933',
+
+    dateConnection: '1898年2月3日，芬兰建筑师、设计师 Alvar Aalto 出生于 Kuortane。他设计的 Stool 60 是工业设计史上最成功的家具之一——至今已售出超过800万件，几乎每个芬兰家庭都有一把。',
+
+    designerBio: `Alvar Aalto (1898-1976)，芬兰建筑师与设计师，现代主义运动中最具人文关怀的大师。
+
+当包豪斯在用钢管和玻璃追求冰冷的理性时，Aalto 选择了木头。他说：**"上帝创造了纸，目的是用来画建筑图纸。其他一切都只是木头的滥用。"**
+
+他在赫尔辛基理工大学学习建筑，早年受北欧古典主义影响，后转向功能主义。但他从未完全拥抱包豪斯的机械美学——他要的是**温暖的现代主义**。
+
+Aalto 不只设计建筑和家具。他还创立了 Artek（1935年），这家公司至今仍在生产他的设计。他是少数真正实现"从建筑到勺子"全领域设计的大师。`,
+
+    story: `1929年，Aalto 正在设计 Paimio 疗养院——一座为肺结核病人建造的现代主义建筑。他对每个细节都不满意，尤其是家具。
+
+钢管椅？太冷了。病人需要温暖。木头椅？太笨重了。病人需要轻便。
+
+**于是他开始了一项会改变家具设计史的实验：弯曲木材。**
+
+Aalto 和家具木工 Otto Korhonen 一起研发了"L型腿"技术：将实心桦木的一端切出薄片状的扇形锯缝，在锯缝中涂胶并嵌入薄木片，然后弯曲成90度。这样，一条直的木腿可以直接弯曲连接到座面，**不需要任何连接件**。
+
+1933年，Stool 60 诞生了：三条 L 型弯曲桦木腿，一个圆形座面。就这么简单。
+
+**简单到了极致就是革命。**
+
+它可以叠摞存放——这在当时是个新概念。它轻便到一只手就能拎起。它的结构如此简洁，以至于几乎不可能坏掉。它的价格足够低廉，每个人都买得起。
+
+从1933年至今，Stool 60 已经售出超过800万件。它出现在图书馆、咖啡馆、学校、医院、博物馆——以及几乎每个芬兰人的家中。`,
+
+    legacy: `• L型腿技术：这项弯曲实木的专利技术至今仍在使用，成为北欧家具制造的基础
+• 可叠摞设计：Stool 60 是最早的可叠摞凳子之一，影响了后来所有公共空间家具设计
+• Artek 公司：Aalto 于1935年创立的家具品牌至今仍在生产 Stool 60，设计93年来从未改变
+• 人文现代主义：Aalto 证明了现代设计可以温暖、自然、亲切——不必非得是冰冷的钢管和玻璃
+• 芬兰设计基因：Stool 60 成为芬兰设计的象征，影响了 Marimekko、Iittala 等品牌的设计哲学`,
+
+    significance: `Stool 60 的伟大在于它的**谦逊**。
+
+它不像 Eames Lounge Chair 那样宣告品味，不像 Barcelona Chair 那样彰显地位。它只是安静地存在——在图书馆角落、在厨房餐桌旁、在教室里。
+
+**最好的设计不是让你注意到它，而是让你忘记它。** Stool 60 如此自然地融入生活，以至于你可能坐了一辈子，却从未想过"谁设计了这把凳子"。
+
+Aalto 用一把凳子证明了：伟大的设计不需要惊叹号，只需要一个句号。安安静静，恰到好处。
+
+**93年了，这把凳子还在生产。这本身就是最好的设计评语。**`,
+
+    dateConnection_en: 'On February 3, 1898, Finnish architect and designer Alvar Aalto was born in Kuortane. His Stool 60 is one of the most successful pieces of furniture in industrial design history — over 8 million have been sold, and virtually every Finnish household owns one.',
+
+    designerBio_en: `Alvar Aalto (1898-1976), Finnish architect and designer, the most humanistic master of the modernist movement.
+
+While the Bauhaus pursued cold rationality with steel tubes and glass, Aalto chose wood. He said: **"God created paper to draw architecture on. Everything else is just an abuse of wood."**
+
+He studied architecture at Helsinki University of Technology, initially influenced by Nordic Classicism before turning to Functionalism. But he never fully embraced Bauhaus machine aesthetics — what he wanted was **warm modernism**.
+
+Aalto didn't just design buildings and furniture. He also founded Artek (1935), a company that still produces his designs today. He was one of the rare masters who truly achieved design "from architecture to the spoon."`,
+
+    story_en: `In 1929, Aalto was designing the Paimio Sanatorium — a modernist building for tuberculosis patients. He was dissatisfied with every detail, especially the furniture.
+
+Steel tube chairs? Too cold. Patients needed warmth. Wooden chairs? Too heavy. Patients needed lightness.
+
+**So he began an experiment that would change furniture design history: bending wood.**
+
+Working with furniture carpenter Otto Korhonen, Aalto developed the "L-leg" technique: cutting fan-shaped saw kerfs into one end of solid birch, applying glue and inserting thin wood veneers into the kerfs, then bending it to 90 degrees. This way, a straight wooden leg could bend directly into the seat surface — **requiring no connectors whatsoever**.
+
+In 1933, Stool 60 was born: three L-shaped bent birch legs, one circular seat. That simple.
+
+**Simplicity taken to its extreme is revolution.**
+
+It could be stacked for storage — a novel concept at the time. It was light enough to carry with one hand. Its structure was so minimal it was virtually indestructible. Its price was low enough for everyone.
+
+From 1933 to today, over 8 million Stool 60s have been sold. They appear in libraries, cafes, schools, hospitals, museums — and in virtually every Finnish home.`,
+
+    legacy_en: `• L-leg technology: This patented solid wood bending technique is still used today and forms the foundation of Nordic furniture manufacturing
+• Stackable design: Stool 60 was one of the earliest stackable stools, influencing all subsequent public space furniture design
+• Artek company: Founded by Aalto in 1935, it still produces Stool 60 today — the design unchanged in 93 years
+• Humanistic modernism: Aalto proved modern design could be warm, natural, and approachable — not necessarily cold steel tubes and glass
+• Finnish design DNA: Stool 60 became a symbol of Finnish design, influencing the design philosophy of brands like Marimekko and Iittala`,
+
+    significance_en: `The greatness of Stool 60 lies in its **humility**.
+
+It doesn't announce taste like the Eames Lounge Chair. It doesn't signal status like the Barcelona Chair. It simply exists quietly — in library corners, beside kitchen tables, in classrooms.
+
+**The best design isn't something you notice; it's something you forget.** Stool 60 blends so naturally into life that you might sit on one your entire life without ever wondering "who designed this stool?"
+
+With one stool, Aalto proved that great design doesn't need exclamation marks — just a period. Quiet, just right.
+
+**93 years later, this stool is still in production. That itself is the finest design review.**`
+  },
+
 ]
