@@ -168,17 +168,26 @@ function App() {
         </div>
       </div>
 
-      {/* Image - with loading skeleton */}
+      {/* Image - progressive loading with thumbnail */}
       {showImage && (
         <div className="relative rounded-2xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 shadow-2xl !mt-4">
-          {!imageLoaded && (
+          {/* Thumbnail (blur-up, shown immediately) */}
+          {design.thumbnailUrl && (
+            <img
+              src={design.thumbnailUrl}
+              alt=""
+              className={`w-full h-auto filter blur-sm scale-105 transition-opacity duration-300 ${imageLoaded ? 'opacity-0' : 'opacity-100'}`}
+            />
+          )}
+          {!design.thumbnailUrl && !imageLoaded && (
             <div className="aspect-[4/5] bg-neutral-200 dark:bg-neutral-800 animate-pulse" />
           )}
+          {/* Full image (shown after load) */}
           <img
             src={design.imageUrl}
             alt={title}
             onLoad={() => setImageLoaded(true)}
-            className={`w-full h-auto transition-opacity duration-300 ${imageLoaded ? 'opacity-100' : 'opacity-0 absolute inset-0'}`}
+            className={`w-full h-auto transition-opacity duration-500 ${imageLoaded ? 'opacity-100' : 'opacity-0'} ${design.thumbnailUrl ? 'absolute inset-0' : (imageLoaded ? '' : 'absolute inset-0')}`}
           />
         </div>
       )}
