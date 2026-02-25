@@ -872,76 +872,93 @@ Poet Rainer Maria Rilke—her friend—wrote after her death: "No one came close
   {
     id: '13',
     date: '2026-02-09',
-    imageUrl: '/the-daily-object/images/frazetta-death-dealer.jpg?v=2',
-    thumbnailUrl: '/the-daily-object/images/frazetta-death-dealer.jpg?v=2',
-    title: 'Death Dealer',
-    subtitle: 'Frank Frazetta, 1973',
-    category: 'art',
-    designer: 'Frank Frazetta',
-    year: '1973',
+    imageUrl: '/the-daily-object/images/mercedes-35hp.jpg',
+    thumbnailUrl: '/the-daily-object/images/mercedes-35hp.jpg',
+    title: 'Mercedes 35 HP',
+    subtitle: 'Wilhelm Maybach, 1901',
+    category: 'industrial',
+    designer: 'Wilhelm Maybach',
+    year: '1901',
     
-    dateConnection: '1928年2月9日，Frank Frazetta 出生于纽约布鲁克林。他被称为"幻想艺术教父"，视觉定义了整个奇幻和科幻类型的美学。',
+    dateConnection: '1846年2月9日，Wilhelm Maybach 出生于德国海尔布隆。他被称为"汽车设计之王"（König der Konstrukteure），设计了1901年的 Mercedes 35 HP——世界上第一辆真正意义上的现代汽车，终结了"无马马车"时代，开启了汽车设计的新纪元。',
     
-    designerBio: `Frank Frazetta (1928-2010)，美国艺术家，20世纪最具影响力的幻想艺术插画家。
+    designerBio: `Wilhelm Maybach (1846-1929)，德国工程师和工业设计师，现代汽车设计的奠基人。
 
-他8岁就进入布鲁克林美术学院学习，16岁开始画漫画。1960年代，他开始为平装书创作封面画，尤其是Robert E. Howard的"野蛮人柯南"系列。他的诠释彻底重新定义了剑与魔法类型的视觉语言。
+他10岁成为孤儿，在斯图加特的一家慈善机构长大，展现出惊人的机械天赋。1865年，他遇到了 Gottlieb Daimler——两人此后合作了30多年，彻底改变了人类出行的方式。
 
-**"I didn't read any of it... I drew him my way. It was really rugged. And it caught on."**
-我没读那些书……我用我的方式画他。画得很粗犷。然后它就火了。
+**"我不模仿，我创造。"**
 
-他入选了威尔·艾斯纳漫画名人堂、杰克·科比名人堂、插画家协会名人堂和科幻名人堂。`,
+Maybach 不只是工程师，他是一位真正的设计思想家。他理解：好的机器不仅要跑得快，还要美、要优雅、要让使用者感到愉悦。这种理念在1901年的 Mercedes 35 HP 中达到了巅峰。`,
     
-    story: `1973年，Frazetta创作了《Death Dealer》——一个戴着角盔、骑在战马上的神秘战士，举着血淋淋的斧头。
+    story: `19世纪末的"汽车"其实就是在马车车架上装个发动机——笨重、危险、丑陋。它们被叫做"无马马车"（Horseless Carriage），因为它们看起来确实就是没有马的马车。
 
-这幅画最初没有任何故事背景。它只是Frazetta脑海中的一个形象。
+1900年，奥地利商人兼赛车爱好者 Emil Jellinek 找到 Maybach，提出了一个大胆的要求：设计一款全新的、专门为速度和优雅而生的汽车，并以他女儿的名字命名——**Mercedes**。
 
-**然后它引发了一个文化现象。**
+Maybach 没有在旧设计上修修补补。他从零开始，重新思考了汽车应该是什么。
 
-美国陆军第三军采用Death Dealer作为官方吉祥物。小说家创作了系列小说。电子游戏、重金属乐队、漫画书——无数创作者从这个形象中汲取灵感。
+**Mercedes 35 HP 的革命性设计：**
+- **低重心蜂窝散热器**：不再把发动机高高架在车身上，而是压低放在前部，用全新的蜂窝散热器冷却——这奠定了现代汽车"前置发动机"的基本布局
+- **轻量化钢框架底盘**：抛弃了马车的木质结构，采用钢制底盘，让车身更轻、更坚固
+- **四速变速器**：让驾驶者可以根据路况选择不同的速度
+- **机械进气阀**：大幅提升了发动机效率
 
-Kirk Hammett（Metallica的吉他手）在2009年以100万美元买下了Frazetta的另一幅柯南画作。这证明了：在幻想艺术市场，Frazetta的原作是无价之宝。`,
+1901年3月，Mercedes 35 HP 在尼斯赛车周上横扫所有比赛项目。整个欧洲都震惊了。法国汽车杂志 Paul Meyan 写道："**我们进入了梅赛德斯时代。**"（Nous sommes entrés dans l'ère Mercédès.）
+
+这不是渐进式的改良。这是一个物种的诞生。`,
     
-    legacy: `• 幻想艺术定义者：他的风格定义了整个奇幻和科幻类型的视觉美学
-• 电影影响：《野蛮人柯南》《指环王》《权力的游戏》的视觉设计都受到他的深远影响
-• 原作市场：单幅原作售价可达数百万美元，是插画艺术市场的顶级藏品
-• 美学遗产：每一个画角斗士、野蛮人、女战士的艺术家都在他的影子下工作`,
+    legacy: `• 现代汽车设计原型：Mercedes 35 HP 确立了前置发动机、后轮驱动、低重心的基本布局，这一布局沿用至今
+• 品牌的诞生：Mercedes 成为世界上最著名的汽车品牌之一，至今仍是豪华与工程卓越的代名词
+• 蜂窝散热器：Maybach 发明的蜂窝散热器成为汽车冷却系统的标准，直到今天的散热器仍基于这一原理
+• 汽车运动的起点：Mercedes 35 HP 在赛车场的统治性表现开创了汽车运动作为技术验证平台的传统
+• Maybach 品牌：他的名字后来成为超豪华汽车品牌，今天作为梅赛德斯-迈巴赫延续`,
     
-    significance: `Frazetta证明了"通俗艺术"也可以是伟大艺术。
+    significance: `Mercedes 35 HP 的意义远超一辆车。
 
-他没有画博物馆里的静物或肖像。他画的是平装书封面、海报、唱片封套。但他的技艺——对人体解剖的理解、对光影的掌控、对动态构图的本能——不亚于任何古典大师。
+在它之前，"汽车"是一个笑话——贵族的玩具、工程师的实验、路人的噩梦。在它之后，汽车成为了20世纪最重要的设计对象，重塑了城市、社会和人类生活方式。
 
-在他的笔下，肌肉是活的，阴影是危险的，每一个姿态都充满能量。他让"低俗"变得崇高。`,
+Maybach 证明了一个深刻的设计原则：**真正的创新不是改良旧事物，而是重新定义事物本身。** 他没有设计一辆"更好的无马马车"——他设计了一个全新的物种。
 
-    dateConnection_en: 'On February 9, 1928, Frank Frazetta was born in Brooklyn, New York. He is called the "Godfather of Fantasy Art," having visually defined the aesthetic of the entire fantasy and science fiction genre.',
+125年后的今天，当我们争论电动车、自动驾驶和飞行汽车时，我们仍然站在 Maybach 画下的那条起跑线上。`,
+
+    dateConnection_en: 'On February 9, 1846, Wilhelm Maybach was born in Heilbronn, Germany. Known as the "King of Designers" (König der Konstrukteure), he designed the 1901 Mercedes 35 HP — the world\'s first truly modern automobile, ending the "horseless carriage" era and ushering in a new age of automotive design.',
     
-    designerBio_en: `Frank Frazetta (1928-2010), American artist and the most influential fantasy art illustrator of the 20th century.
+    designerBio_en: `Wilhelm Maybach (1846-1929), German engineer and industrial designer, the founding father of modern automotive design.
 
-He entered the Brooklyn Academy of Fine Arts at age 8 and began drawing comics at 16. In the 1960s, he started creating paperback book covers, especially for Robert E. Howard's Conan the Barbarian series. His interpretation completely redefined the visual language of sword and sorcery.
+Orphaned at 10, he grew up in a charitable institution in Stuttgart, displaying remarkable mechanical talent. In 1865, he met Gottlieb Daimler — the two would collaborate for over 30 years, fundamentally changing how humans travel.
 
-**"I didn't read any of it... I drew him my way. It was really rugged. And it caught on."**
+**"I don't imitate, I create."**
 
-He was inducted into the Will Eisner Comic Book Hall of Fame, Jack Kirby Hall of Fame, Society of Illustrators Hall of Fame, and Science Fiction Hall of Fame.`,
+Maybach wasn't just an engineer; he was a true design thinker. He understood that a good machine must not only run fast but also be beautiful, elegant, and pleasing to use. This philosophy reached its zenith in the 1901 Mercedes 35 HP.`,
     
-    story_en: `In 1973, Frazetta created Death Dealer—a mysterious warrior in a horned helmet riding a war horse, wielding a bloody axe.
+    story_en: `The "automobiles" of the late 19th century were essentially engines bolted onto horse carriage frames — clumsy, dangerous, and ugly. They were called "horseless carriages" because that's exactly what they looked like.
 
-This painting originally had no story behind it. It was just an image in Frazetta's mind.
+In 1900, Austrian businessman and racing enthusiast Emil Jellinek approached Maybach with a bold request: design an entirely new car built for speed and elegance, named after his daughter — **Mercedes**.
 
-**Then it sparked a cultural phenomenon.**
+Maybach didn't tinker with old designs. He started from scratch, rethinking what an automobile should be.
 
-The U.S. Army III Corps adopted Death Dealer as its official mascot. Novelists created a book series. Video games, heavy metal bands, comic books—countless creators drew inspiration from this image.
+**The Mercedes 35 HP's revolutionary design:**
+- **Low-center-of-gravity honeycomb radiator**: Instead of mounting the engine high on the body, it was placed low at the front with an innovative honeycomb radiator — establishing the modern "front-engine" layout
+- **Lightweight pressed-steel frame chassis**: Abandoning the wooden carriage structure for a steel chassis, making the car lighter and stronger
+- **Four-speed transmission**: Allowing drivers to select speeds for different road conditions
+- **Mechanically operated inlet valves**: Dramatically improving engine efficiency
 
-Kirk Hammett (Metallica's guitarist) bought another Frazetta Conan painting for $1 million in 2009. This proves: in the fantasy art market, Frazetta originals are priceless treasures.`,
+In March 1901, the Mercedes 35 HP swept every race at Nice Speed Week. All of Europe was stunned. French automotive journalist Paul Meyan wrote: **"We have entered the Mercedes era."** (Nous sommes entrés dans l'ère Mercédès.)
+
+This wasn't incremental improvement. It was the birth of a species.`,
     
-    legacy_en: `• Fantasy art definer: His style defined the visual aesthetic of the entire fantasy and science fiction genre
-• Film influence: The visual design of Conan the Barbarian, Lord of the Rings, and Game of Thrones all bear his profound influence
-• Original art market: Single original paintings can sell for millions of dollars, top collectibles in the illustration art market
-• Aesthetic legacy: Every artist drawing gladiators, barbarians, and warrior women works in his shadow`,
+    legacy_en: `• Modern automobile archetype: The Mercedes 35 HP established the front-engine, rear-wheel-drive, low-center-of-gravity layout still used today
+• Birth of a brand: Mercedes became one of the world's most famous automotive brands, still synonymous with luxury and engineering excellence
+• Honeycomb radiator: Maybach's invention became the standard for automotive cooling systems, with today's radiators still based on this principle
+• Motorsport origins: The 35 HP's dominant racing performance established the tradition of motorsport as a technology proving ground
+• Maybach brand: His name later became an ultra-luxury automotive brand, continuing today as Mercedes-Maybach`,
     
-    significance_en: `Frazetta proved that "popular art" can also be great art.
+    significance_en: `The Mercedes 35 HP's significance goes far beyond a single car.
 
-He didn't paint still lifes or portraits for museums. He painted paperback covers, posters, album art. But his craftsmanship—his understanding of human anatomy, mastery of light and shadow, instinct for dynamic composition—rivaled any classical master.
+Before it, the "automobile" was a joke — an aristocrat's toy, an engineer's experiment, a pedestrian's nightmare. After it, the car became the most important design object of the 20th century, reshaping cities, societies, and human lifestyles.
 
-Under his brush, muscles are alive, shadows are dangerous, every pose bursting with energy. He made the "lowbrow" sublime.`
+Maybach demonstrated a profound design principle: **true innovation isn't improving old things — it's redefining the thing itself.** He didn't design a "better horseless carriage" — he designed an entirely new species.
+
+125 years later, as we debate electric vehicles, autonomous driving, and flying cars, we still stand at the starting line Maybach drew.`
   },
   {
     id: '15',
