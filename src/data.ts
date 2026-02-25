@@ -1525,8 +1525,8 @@ Today, when we discuss Dieter Rams' "less but better," when we admire Apple's re
   {
     id: '23',
     date: '2026-02-05',
-    imageUrl: '/the-daily-object/images/bakelite-telephone.jpg',
-    thumbnailUrl: '/the-daily-object/images/bakelite-telephone.jpg',
+    imageUrl: '/the-daily-object/images/bakelite-radio-collection.jpg',
+    thumbnailUrl: '/the-daily-object/images/bakelite-radio-collection.jpg',
     title: 'Bakelite',
     subtitle: 'Leo Baekeland, 1907',
     category: 'industrial',
@@ -1719,75 +1719,83 @@ When you stand at the edge of the SkyPark's infinity pool, 200 meters up, the en
   {
     id: '25',
     date: '2026-02-01',
-    imageUrl: '/the-daily-object/images/oxford-english-dictionary.jpg',
-    thumbnailUrl: '/the-daily-object/images/oxford-english-dictionary.jpg',
-    title: 'Oxford English Dictionary',
-    subtitle: 'James Murray et al., 1884',
-    category: 'graphic',
-    designer: 'James Murray',
-    year: '1884',
+    imageUrl: '/the-daily-object/images/rolleiflex-camera.jpg',
+    thumbnailUrl: '/the-daily-object/images/rolleiflex-camera.jpg',
+    title: 'Rolleiflex 双反相机',
+    subtitle: 'Franke & Heidecke, 1929',
+    category: 'art',
+    designer: 'Vivian Maier',
+    year: '1929',
 
-    dateConnection: '1884年2月1日，《牛津英语词典》第一卷（A-Ant）正式出版，开创了现代词典编纂的信息设计范式。这部历时70年才完成的巨著，不仅是语言学的里程碑，更是信息架构与排版设计的典范。',
+    dateConnection: '1926年2月1日，Vivian Maier 出生于纽约。她一生以保姆为业，却用一台 Rolleiflex 双反相机秘密拍摄了超过15万张街头照片，死后才被世人发现，成为20世纪最伟大的街头摄影师之一。Rolleiflex——这台德国工业设计的杰作——是她观察世界的眼睛。',
 
-    designerBio: `James Murray (1837-1915)，苏格兰语言学家，OED 最重要的主编。
+    designerBio: `Vivian Maier（1926-2009），出生于纽约，在法国乡下度过部分童年，1951年回到美国后一直做保姆，先后在纽约和芝加哥的家庭里照顾孩子。
 
-他是一个自学成才的天才，13岁辍学，却掌握了十几种语言。1879年接手 OED 项目时，他在牛津自家后院搭建了一间"经典小屋"（Scriptorium），堆满了来自全世界志愿者寄来的数百万张引文卡片。
+没人知道她是摄影师。她从不展示自己的照片，甚至大量底片从未冲洗。她用一台 Rolleiflex 2.8C——一台1950年代的德国双镜头反光相机——在街头悄悄捕捉人间百态。
 
-Murray 发明了一套全新的词典编排体系：每个词条按**历史原则**排列，追溯词义演变，配以最早的引文出处。这种信息架构设计——从词源到语义流变的层级结构——影响了后世所有参考工具书的设计逻辑。`,
+Rolleiflex 的设计对她至关重要：双反相机的取景方式是**腰平取景**——摄影师低头看取景器，而不是把相机举到眼前。这意味着 Maier 可以在不引人注意的情况下拍摄，被摄者甚至不知道自己被拍了。这台相机的设计，成就了她独特的视角。`,
 
-    story: `1857年，伦敦语言学会决定编纂一部"完整的英语词典"。没人知道这个决定意味着什么。
+    story: `2007年，芝加哥一个叫 John Maloof 的房产经纪人在一场储物柜拍卖会上花了380美元，买下了一堆旧箱子。箱子里装着超过10万张底片、数千张照片和未冲洗的胶卷。
 
-最初的编辑 Herbert Coleridge 估计需要两年。他错了——整整差了68年。
+他不知道这些东西属于谁。
 
-James Murray 于1879年接手，开始了人类历史上最大规模的众包项目之一：他在报纸上刊登广告，邀请全英国的读者阅读书籍并摘录词语用法，寄到牛津。最终收到了超过600万张引文卡片。
+花了几年时间追溯，他找到了一个名字：Vivian Maier，一个刚刚在养老院去世的老太太。她一辈子做保姆，独居，没有亲密的朋友，几乎没人了解她的内心世界。
 
-**排版设计本身就是一项工程奇迹。** 每个词条需要展示：词源（希腊文、拉丁文、古英文）、发音、多重定义、历史引文——全部压缩在窄窄的双栏页面中。Murray 和牛津大学出版社的排版师们发明了一套复杂的缩写系统和字体层级，让密集的信息变得可读。
+但那些照片震惊了摄影界。
 
-1884年2月1日，第一卷终于出版——只覆盖了 A 到 Ant。整部词典直到1928年才全部完成。
+Maier 的街头摄影有一种罕见的品质：**她同时是局外人和参与者。** 作为一个法裔美国人、一个终身未婚的保姆、一个刻意保持距离的观察者，她用 Rolleiflex 捕捉到了1950-80年代芝加哥和纽约街头最真实的瞬间——那些富人不会注意、穷人无暇顾及的日常诗意。
 
-**这是一部永远写不完的书。** 因为语言本身就在不断变化。`,
+**为什么是 Rolleiflex？** 这台由德国 Franke & Heidecke 公司于1929年设计的相机，是工业设计史上的经典。它的双镜头系统——上方取景镜头、下方拍摄镜头——创造了一种全新的摄影体验。6x6厘米的方画幅底片，产出的影像有一种独特的沉静感。而它几乎无声的快门，让街头摄影变得像呼吸一样自然。
 
-    legacy: `• 信息架构范式：按历史原则编排的词条结构影响了 Wikipedia、Google Knowledge Graph 等现代知识系统
-• 排版设计标杆：复杂的字体层级、缩写系统和双栏布局成为参考工具书的设计标准
-• 众包先驱：600万张志愿者引文卡片——这是 Web 2.0 诞生前120年的"用户贡献内容"
-• 持续更新：OED 至今仍在更新，从纸质到数字化，信息设计的演化从未停止`,
+Maier 选择 Rolleiflex 不是偶然。这台相机的设计哲学——**让工具消失，让眼睛接管**——完美契合了她作为隐形观察者的身份。`,
 
-    significance: `OED 证明了**信息设计的力量**：如何将一种语言的全部历史——数十万词条、数百万引文——组织成人类可以检索和理解的形式。
+    legacy: `• 摄影民主化的隐喻：Maier 证明了伟大的艺术不需要画廊、不需要MFA学位、不需要社交网络——只需要一双眼睛和一台好相机
+• Rolleiflex 设计遗产：腰平取景的设计影响了后来所有的中画幅相机，至今仍是街头摄影师的选择
+• "被发现的天才"现象：Maier 的故事引发了关于艺术、创作动机和遗产的深层讨论——如果她不想让人看到这些照片，我们看到它们是否道德？
+• 工具与创作者的关系：Rolleiflex 的设计不仅是工程成就，它塑造了一种观看方式，进而塑造了一种艺术风格`,
 
-Murray 面对的设计问题和今天的 UX 设计师面对的本质相同：如何在有限空间内呈现海量信息？如何建立清晰的层级结构？如何让复杂变得可用？
+    significance: `Vivian Maier 和她的 Rolleiflex 是设计史上最动人的故事之一：**一件设计精良的工具，如何成为一个人观看世界的方式。**
 
-从 A 到 Ant 的那第一卷，就是信息设计的创世纪。`,
+Rolleiflex 的腰平取景设计不是噱头——它从根本上改变了摄影师与世界的关系。当你低头看取景器时，你的姿态是谦逊的、内省的，你在观察而不是侵入。这正是 Maier 的摄影哲学。
 
-    dateConnection_en: 'On February 1, 1884, the first volume of the Oxford English Dictionary (A to Ant) was published, establishing a new paradigm for information design in modern lexicography. This monumental work, which took 70 years to complete, is not only a linguistic milestone but also a masterpiece of information architecture and typographic design.',
+15万张照片，一个人看。没有Instagram，没有点赞，没有展览。纯粹的创作，纯粹的观看。
 
-    designerBio_en: `James Murray (1837-1915), Scottish lexicographer and the most important editor of the OED.
+这也许是对"为什么设计重要"最好的回答：因为一台设计精良的相机，让一个普通保姆变成了大师。`,
 
-A self-taught genius who left school at 13 yet mastered over a dozen languages. When he took over the OED project in 1879, he built a corrugated iron shed called the "Scriptorium" in his Oxford garden, filled with millions of quotation slips sent by volunteers worldwide.
+    dateConnection_en: 'On February 1, 1926, Vivian Maier was born in New York City. She spent her life working as a nanny, yet secretly captured over 150,000 street photographs with a Rolleiflex twin-lens reflex camera, only discovered after her death, making her one of the greatest street photographers of the 20th century. The Rolleiflex — a masterpiece of German industrial design — was her eye on the world.',
 
-Murray invented an entirely new dictionary organization system: entries arranged by **historical principles**, tracing the evolution of meaning, with the earliest known citations. This information architecture — a hierarchical structure from etymology to semantic evolution — influenced the design logic of all reference works that followed.`,
+    designerBio_en: `Vivian Maier (1926-2009) was born in New York, spent part of her childhood in rural France, and after returning to America in 1951, worked as a nanny for the rest of her life, caring for children in families across New York and Chicago.
 
-    story_en: `In 1857, the Philological Society of London decided to compile "a complete English dictionary." No one knew what that decision truly meant.
+Nobody knew she was a photographer. She never showed her pictures; vast numbers of negatives were never even developed. With a Rolleiflex 2.8C — a 1950s German twin-lens reflex camera — she quietly captured the human condition on the streets.
 
-The first editor, Herbert Coleridge, estimated it would take two years. He was off by 68 years.
+The Rolleiflex's design was crucial to her practice: the twin-lens reflex uses **waist-level viewing** — the photographer looks down into the viewfinder rather than raising the camera to eye level. This meant Maier could shoot without drawing attention; her subjects often didn't know they were being photographed. The camera's design enabled her unique perspective.`,
 
-James Murray took over in 1879 and launched one of the largest crowdsourcing projects in human history: he placed advertisements in newspapers inviting readers across Britain to read books, extract word usages, and mail them to Oxford. Over 6 million quotation slips eventually arrived.
+    story_en: `In 2007, a Chicago real estate agent named John Maloof paid $380 at a storage locker auction for a pile of old boxes. Inside were over 100,000 negatives, thousands of prints, and undeveloped rolls of film.
 
-**The typographic design itself was an engineering marvel.** Each entry needed to display: etymology (Greek, Latin, Old English), pronunciation, multiple definitions, and historical citations — all compressed into narrow double-column pages. Murray and the Oxford University Press compositors invented an elaborate system of abbreviations and typographic hierarchies to make dense information readable.
+He had no idea who they belonged to.
 
-On February 1, 1884, the first volume was finally published — covering only A to Ant. The complete dictionary wasn't finished until 1928.
+After years of tracing, he found a name: Vivian Maier, an elderly woman who had just died in a nursing home. She had been a nanny her entire life, lived alone, had no close friends, and almost no one understood her inner world.
 
-**It's a book that can never truly be finished.** Because language itself never stops changing.`,
+But those photographs stunned the photography world.
 
-    legacy_en: `• Information architecture paradigm: The historically-organized entry structure influenced modern knowledge systems from Wikipedia to Google Knowledge Graph
-• Typographic benchmark: Complex font hierarchies, abbreviation systems, and double-column layouts became the design standard for reference works
-• Crowdsourcing pioneer: 6 million volunteer quotation slips — "user-generated content" 120 years before Web 2.0
-• Continuous evolution: The OED continues updating to this day, from print to digital, its information design never ceasing to evolve`,
+Maier's street photography possessed a rare quality: **she was simultaneously an outsider and a participant.** As a French-American, a lifelong unmarried nanny, a deliberate observer who kept her distance, she used her Rolleiflex to capture the most authentic moments on the streets of 1950s-80s Chicago and New York — the everyday poetry that the rich wouldn't notice and the poor couldn't afford to contemplate.
 
-    significance_en: `The OED proved **the power of information design**: how to organize an entire language's history — hundreds of thousands of entries, millions of citations — into a form humans can search and understand.
+**Why the Rolleiflex?** This camera, designed by Germany's Franke & Heidecke company in 1929, is a classic of industrial design history. Its twin-lens system — viewing lens on top, taking lens below — created an entirely new photographic experience. The 6x6cm square format negatives produced images with a unique sense of stillness. And its nearly silent shutter made street photography as natural as breathing.
 
-The design problems Murray faced are essentially the same ones today's UX designers face: How do you present massive amounts of information in limited space? How do you establish clear hierarchies? How do you make complexity usable?
+Maier's choice of the Rolleiflex was no accident. The camera's design philosophy — **let the tool disappear, let the eye take over** — perfectly matched her identity as an invisible observer.`,
 
-That first volume, from A to Ant, was the genesis of information design.`
+    legacy_en: `• Metaphor for democratized photography: Maier proved that great art doesn't need galleries, MFA degrees, or social networks — just a pair of eyes and a good camera
+• Rolleiflex design legacy: The waist-level viewing design influenced all subsequent medium-format cameras and remains a choice for street photographers today
+• The "discovered genius" phenomenon: Maier's story sparked deep discussions about art, creative motivation, and legacy — if she didn't want these photos seen, is it ethical that we see them?
+• The relationship between tool and creator: The Rolleiflex's design wasn't just an engineering achievement; it shaped a way of seeing, which in turn shaped an artistic style`,
+
+    significance_en: `Vivian Maier and her Rolleiflex represent one of the most moving stories in design history: **how a beautifully designed tool became one person's way of seeing the world.**
+
+The Rolleiflex's waist-level viewfinder wasn't a gimmick — it fundamentally changed the photographer's relationship with the world. When you look down into the viewfinder, your posture is humble, introspective; you're observing, not intruding. This was exactly Maier's photographic philosophy.
+
+150,000 photographs, seen by one person. No Instagram, no likes, no exhibitions. Pure creation, pure seeing.
+
+This may be the best answer to "why design matters": because a beautifully designed camera turned an ordinary nanny into a master.`
   },
 
   {
