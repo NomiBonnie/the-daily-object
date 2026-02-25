@@ -81,7 +81,9 @@
 
 .luxury-calendar .react-calendar__tile.wallpaper-date::after {
   content: '';
-  @apply absolute bottom-1 left-1/2 transform -translate-x-1/2 w-1.5 h-1.5 rounded-full;
+  @apply absolute bottom-1 left-1/2 transform -translate-x-1/2 rounded-full;
+  width: 5px;
+  height: 5px;
   background-color: rgba(23, 23, 23, 0.25);
 }
 
@@ -90,8 +92,7 @@
 }
 
 .luxury-calendar .react-calendar__tile--active.wallpaper-date::after {
-  background-color: #d97706;
-  opacity: 1;
+  background-color: #d97706 !important;
 }
 
 /* Smooth transitions */
