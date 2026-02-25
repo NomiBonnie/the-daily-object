@@ -10,8 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
     <title>The Daily Object</title>
+    <script>
+      // Prevent dark mode flash: apply dark class before first paint
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark')
+      }
+    </script>
   </head>
-  <body>
+  <body class="bg-neutral-50 dark:bg-neutral-950">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
