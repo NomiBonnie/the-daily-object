@@ -1471,7 +1471,7 @@ Wood understood 250 years ago what remains true today: good design doesn't elimi
 
 **缺陷美学的先驱**：蟹爪纹的设计哲学直接启发了日本的侘寂美学（wabi-sabi），并在当代设计中以"有机设计"（organic design）的形式延续。
 
-**色彩标准**：天青色成为东亚陶瓷、建筑、服饰的经典色彩标准，影响至今。韩国的高丽青瓷、日本的青�的瓷器，都是汝窑美学的延伸。`,
+**色彩标准**：天青色成为东亚陶瓷、建筑、服饰的经典色彩标准，影响至今。韩国的高丽青瓷、日本的青瓷，都是汝窑美学的延伸。`,
     
     significance: `为什么一千年前的瓷器今天仍然重要？
 
@@ -1801,7 +1801,7 @@ That first volume, from A to Ant, was the genesis of information design.`
     designer: 'Reed & Stem, Warren & Wetmore',
     year: '1913',
 
-    dateConnection: '1913年2月2日，纽约中央车站（Grand Central Terminal）正式启用。这座布艺艺术（Beaux-Arts）风格的建筑杰作不仅重新定义了交通枢纽的设计，更创造了"城市客厅"的全新概念。',
+    dateConnection: '1913年2月2日，纽约中央车站（Grand Central Terminal）正式启用。这座布扎（Beaux-Arts）风格的建筑杰作不仅重新定义了交通枢纽的设计，更创造了"城市客厅"的全新概念。',
 
     designerBio: `Reed & Stem 和 Warren & Wetmore，两家建筑事务所的合作结晶。
 
