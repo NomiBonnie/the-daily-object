@@ -4,7 +4,9 @@
   imageUrl: string
   thumbnailUrl?: string
   title: string
+  title_en?: string
   subtitle?: string // 设计师 + 年份
+  subtitle_en?: string
   category: 'industrial' | 'music' | 'art' | 'architecture' | 'graphic' | 'software'
   designer: string
   year?: string
@@ -183,6 +185,7 @@ This methodology—design as expression, not commodity—influenced an entire ge
     imageUrl: '/the-daily-object/images/boullee-cenotaph-newton.jpg',
     thumbnailUrl: '/the-daily-object/images/boullee-cenotaph-newton.jpg',
     title: '牛顿纪念堂',
+    title_en: 'Cenotaph for Newton',
     subtitle: 'Étienne-Louis Boullée, 1784',
     category: 'architecture',
     designer: 'Étienne-Louis Boullée',
@@ -834,6 +837,7 @@ Every frame is a hand-drawn work of art. Looking back from the digital age, this
     imageUrl: '/the-daily-object/images/ruskin-stones-of-venice.jpg',
     thumbnailUrl: '/the-daily-object/images/ruskin-stones-of-venice.jpg',
     title: '威尼斯之石',
+    title_en: 'The Stones of Venice',
     subtitle: 'John Ruskin, 1851–1853',
     category: 'architecture',
     designer: 'John Ruskin',
@@ -1190,6 +1194,7 @@ No wonder Steve Jobs said: "Edwin Land was a national treasure. He was one of th
     imageUrl: '/the-daily-object/images/gill-sans-typography.jpg',
     thumbnailUrl: '/the-daily-object/images/gill-sans-typography.jpg',
     title: 'Gill Sans 字体',
+    title_en: 'Gill Sans Typeface',
     subtitle: 'Eric Gill, 1926–1928',
     category: 'graphic',
     designer: 'Eric Gill',
@@ -1539,6 +1544,7 @@ Wood understood 250 years ago what remains true today: good design doesn't elimi
     imageUrl: '/the-daily-object/images/leger-mechanical-elements.jpg',
     thumbnailUrl: '/the-daily-object/images/leger-mechanical-elements.jpg',
     title: '机械元素',
+    title_en: 'Mechanical Elements',
     subtitle: 'Fernand Léger, 1918',
     category: 'art',
     designer: 'Fernand Léger',
@@ -1833,6 +1839,7 @@ When you stand at the edge of the SkyPark's infinity pool, 200 meters up, the en
     imageUrl: '/the-daily-object/images/rolleiflex-camera.jpg',
     thumbnailUrl: '/the-daily-object/images/rolleiflex-camera.jpg',
     title: 'Rolleiflex 双反相机',
+    title_en: 'Rolleiflex TLR Camera',
     subtitle: 'Franke & Heidecke, 1929',
     category: 'art',
     designer: 'Vivian Maier',

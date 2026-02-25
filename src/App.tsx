@@ -125,17 +125,19 @@ function App() {
     const legacy = lang === 'en' && design.legacy_en ? design.legacy_en : design.legacy
     const significance = lang === 'en' && design.significance_en ? design.significance_en : design.significance
     const dateConnection = lang === 'en' && design.dateConnection_en ? design.dateConnection_en : design.dateConnection
+    const title = lang === 'en' && design.title_en ? design.title_en : design.title
+    const subtitle = lang === 'en' && design.subtitle_en ? design.subtitle_en : design.subtitle
     
     return (
     <div className="space-y-6">
       {/* Group 1: Title + Designer (subtitle) */}
       <div className="space-y-1">
         <h2 className="text-4xl sm:text-5xl font-light tracking-tight text-neutral-900 dark:text-neutral-100 leading-tight">
-          {design.title}
+          {title}
         </h2>
-        {design.subtitle && (
+        {subtitle && (
           <p className="text-lg font-light text-neutral-600 dark:text-neutral-400">
-            {design.subtitle}
+            {subtitle}
           </p>
         )}
         {/* Category + Date inline with title group */}
@@ -155,7 +157,7 @@ function App() {
         <div className="rounded-2xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 shadow-2xl !mt-4">
           <img
             src={design.imageUrl}
-            alt={design.title}
+            alt={title}
             className="w-full h-auto"
           />
         </div>
@@ -214,7 +216,7 @@ function App() {
               className="flex items-center gap-2 text-sm font-light text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 transition-colors"
             >
               <ChevronLeft className="w-4 h-4" />
-              <span className="hidden sm:inline">{prev.title}</span>
+              <span className="hidden sm:inline">{lang === 'en' && prev.title_en ? prev.title_en : prev.title}</span>
               <span className="sm:hidden">Prev</span>
             </button>
           ) : (
@@ -225,7 +227,7 @@ function App() {
               onClick={() => navigateToDesign(next)}
               className="flex items-center gap-2 text-sm font-light text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 transition-colors"
             >
-              <span className="hidden sm:inline">{next.title}</span>
+              <span className="hidden sm:inline">{lang === 'en' && next.title_en ? next.title_en : next.title}</span>
               <span className="sm:hidden">Next</span>
               <ChevronRight className="w-4 h-4" />
             </button>
