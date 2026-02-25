@@ -41,6 +41,8 @@ const categoryLabels: Record<DesignObject['category'], string> = {
   art: 'Art',
   architecture: 'Architecture',
   graphic: 'Graphic Design',
+  fashion: 'Fashion Design',
+  film: 'Film & Stage Design',
 }
 
 const categoryColors: Record<DesignObject['category'], string> = {
@@ -50,6 +52,8 @@ const categoryColors: Record<DesignObject['category'], string> = {
   art: '#d97706',
   architecture: '#d97706',
   graphic: '#d97706',
+  fashion: '#d97706',
+  film: '#d97706',
 }
 
 function App() {

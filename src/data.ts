@@ -8,7 +8,7 @@
   title_en?: string
   subtitle?: string // 设计师 + 年份
   subtitle_en?: string
-  category: 'industrial' | 'music' | 'art' | 'architecture' | 'graphic' | 'software'
+  category: 'industrial' | 'music' | 'art' | 'architecture' | 'graphic' | 'software' | 'fashion' | 'film'
   designer: string
   year?: string
   

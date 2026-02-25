@@ -52,7 +52,7 @@ export interface DesignObject {
   title_en?: string             // 英文标题
   subtitle?: string             // 中文副标题：'设计师, 年份'
   subtitle_en?: string          // 英文副标题：'Designer, Year'
-  category: 'industrial' | 'music' | 'art' | 'architecture' | 'graphic' | 'software'
+  category: 'industrial' | 'music' | 'art' | 'architecture' | 'graphic' | 'software' | 'fashion' | 'film'
   designer: string              // 设计师名（中文）
   year?: string                 // 年份字符串
 
@@ -135,11 +135,15 @@ export interface DesignObject {
 | `industrial` | 工业设计 | 椅子、灯具、汽车、电子产品、日用品 |
 | `architecture` | 建筑 | 建筑作品、室内设计 |
 | `graphic` | 平面设计 | 海报、书籍、品牌、字体、Logo |
-| `art` | 艺术 | 绘画、雕塑、装置、时尚 |
+| `art` | 艺术 | 绘画、雕塑、装置 |
 | `music` | 音乐 | 专辑封面、音乐人视觉、演出设计 |
 | `software` | 软件/UI | 经典界面、交互设计 |
+| `fashion` | 时尚设计 | 服装、配饰、珠宝、秀场设计 |
+| `film` | 电影/舞台设计 | 电影美术、布景、视觉特效、舞台设计 |
 
-**注意**：只有这 6 个 category 值，TypeScript 会校验。不要用 `fashion` / `film` / `product` 等旧值。
+**注意**：只有这 8 个 category 值，TypeScript 会校验。
+
+**核心选题原则**：只要是**从设计美学角度出发**、**对人类/社会产生真正变化**的设计，都可以选。不限于传统工业设计——时尚、电影、字体、任何有足够影响力的设计领域都行。关键是：影响力大 + 故事有共鸣 + 从设计角度出发。
 
 ---
 
