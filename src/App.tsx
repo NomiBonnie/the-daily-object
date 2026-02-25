@@ -116,10 +116,13 @@ function App() {
     return designs.find(d => format(new Date(d.date), 'yyyy-MM-dd') === dateStr)
   }
 
-  const handleDateClick = (date: Date) => {
-    setSelectedDate(date)
-    const dateStr = format(date, 'yyyy-MM-dd')
-    window.location.hash = `/${dateStr}`
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const handleDateClick = (value: any) => {
+    if (value instanceof Date) {
+      setSelectedDate(value)
+      const dateStr = format(value, 'yyyy-MM-dd')
+      window.location.hash = `/${dateStr}`
+    }
   }
 
   // Get sorted designs by date
@@ -416,6 +419,23 @@ function App() {
                     tileClassName={({ date }) =>
                       hasDesign(date) ? 'wallpaper-date' : ''
                     }
+                    tileContent={({ date }) => {
+                      const d = getDesignByDate(date)
+                      if (!d) return null
+                      const isSelected = format(date, 'yyyy-MM-dd') === format(selectedDate, 'yyyy-MM-dd')
+                      return (
+                        <div className="flex justify-center mt-0.5">
+                          <div
+                            className="w-1.5 h-1.5 rounded-full"
+                            style={{
+                              backgroundColor: isSelected
+                                ? categoryColors[d.category]
+                                : '#a3a3a3'
+                            }}
+                          />
+                        </div>
+                      )
+                    }}
                     className="luxury-calendar"
                   />
                 </div>
