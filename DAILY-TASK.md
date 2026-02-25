@@ -280,29 +280,31 @@ $todayShort = (Get-Date).ToString("MM-dd")  # 用于 commit message
 
 ### 5. 下载图片
 
-**⚠️ 图片双份规则（必须严格执行！）：**
-
+**⚠️ 使用自动化脚本（推荐）：**
 ```powershell
-# Step 1: 先下载原图到 public/images/full/（lightbox 用，永远保留原图）
+# 一条命令搞定：下载原图到 full/ → 检查大小 → 自动决定是否压缩 → 复制到 images/
+.\scripts\download-image.ps1 -Url "https://example.com/photo.jpg" -Name "designer-work.jpg"
+```
+
+脚本自动处理：
+- 下载原图到 `public/images/full/`（lightbox 用）
+- 检查尺寸比例（超宽会警告）
+- ≤600KB 直接复制到 `public/images/`，>600KB 用 q:v 3 压缩到 ~500KB
+
+**手动操作（备用）：**
+```powershell
+# Step 1: 下载原图
 Invoke-WebRequest -Uri "URL" -OutFile "public/images/full/filename.jpg" -Headers @{"User-Agent"="Mozilla/5.0"}
-
-# Step 2: 检查原图大小
+# Step 2: 检查大小，>600KB 则压缩
 $size = (Get-Item "public/images/full/filename.jpg").Length / 1KB
-Write-Host "Original size: $size KB"
-
-# Step 3: 根据大小决定是否压缩
 if ($size -gt 600) {
-    # 原图 > 600KB → 压缩到 ~400-500KB 放 public/images/
     ffmpeg -i "public/images/full/filename.jpg" -vf "scale='min(1200,iw)':-1" -q:v 3 "public/images/filename.jpg" -y
-    Write-Host "Compressed to: $((Get-Item 'public/images/filename.jpg').Length / 1KB) KB"
 } else {
-    # 原图 ≤ 600KB → 不压缩，直接复制到 public/images/
     Copy-Item "public/images/full/filename.jpg" "public/images/filename.jpg"
-    Write-Host "Small enough, using original as-is"
 }
 ```
 
-**总结：**
+**规则：**
 - `public/images/full/` → 永远是原图（lightbox 放大用）
 - `public/images/` → 页面展示用（≤600KB 直接用原图，>600KB 压缩到 ~500KB）
 - **不要用 q5 以上的压缩**——Sam 确认 q5 画质损失太大，最多用 q3
@@ -311,6 +313,16 @@ if ($size -gt 600) {
 编辑 `src/data.ts`，在 `designs` 数组末尾添加新条目。
 
 ### 7. 部署
+
+**⚠️ 使用自动化脚本（推荐）：**
+```powershell
+cd C:\Users\kaixin_yy\.openclaw\workspace\the-daily-object
+.\scripts\publish.ps1
+```
+
+脚本自动执行：图片验证（大小/比例/双份检查）→ TypeScript 检查 → Vite 构建 → git commit + push → 等 90s → 验证线上。
+
+**手动操作（备用）：**
 ```powershell
 cd C:\Users\kaixin_yy\.openclaw\workspace\the-daily-object
 npx vite build   # 先构建确认无报错
