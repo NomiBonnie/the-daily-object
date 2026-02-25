@@ -8,3 +8,12 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <App />
   </React.StrictMode>,
 )
+
+// Reveal after React + CSS are ready
+requestAnimationFrame(() => {
+  const root = document.getElementById('root')
+  if (root) {
+    root.style.transition = 'opacity 0.15s'
+    root.style.opacity = '1'
+  }
+})

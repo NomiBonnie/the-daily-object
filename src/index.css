@@ -127,5 +127,3 @@
   animation: fadeIn 0.3s ease-in-out;
 }
 
-/* Restore visibility after CSS loads (prevents dark mode white flash) */
-.dark #root { visibility: visible !important; }
