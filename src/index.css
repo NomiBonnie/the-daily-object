@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Reveal #root only after Tailwind CSS is loaded (prevents dark mode white flash) */
-#root { opacity: 1 !important; }
-
 /* Custom Calendar Styling - Luxury Brand Aesthetic with Dark Mode */
 .luxury-calendar {
   @apply w-full border-none font-light;

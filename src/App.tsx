@@ -69,16 +69,11 @@ function App() {
   const init = initFromHash()
   const [view, setView] = useState<View>(init.view)
   const [selectedDate, setSelectedDate] = useState(init.date)
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(() => window.matchMedia('(prefers-color-scheme: dark)').matches)
   const [lang, setLang] = useState<Language>('zh')
   const [imageLoaded, setImageLoaded] = useState(false)
   const [lightboxOpen, setLightboxOpen] = useState(false)
   const [lightboxDesign, setLightboxDesign] = useState<DesignObject | null>(null)
-
-  useEffect(() => {
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-    setDarkMode(prefersDark)
-  }, [])
 
   useEffect(() => {
     if (darkMode) {
