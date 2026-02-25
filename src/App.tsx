@@ -43,6 +43,15 @@ const categoryLabels: Record<DesignObject['category'], string> = {
   graphic: 'Graphic Design',
 }
 
+const categoryColors: Record<DesignObject['category'], string> = {
+  industrial: '#d97706',      // amber-600
+  software: '#2563eb',        // blue-600
+  music: '#dc2626',           // red-600
+  art: '#9333ea',             // purple-600
+  architecture: '#059669',    // emerald-600
+  graphic: '#e11d48',         // rose-600
+}
+
 function App() {
   // Initialize from hash: #/2026-02-14 -> archive view with that date
   const initFromHash = () => {
@@ -101,6 +110,11 @@ function App() {
     return designs.some(
       (d) => format(new Date(d.date), 'yyyy-MM-dd') === format(date, 'yyyy-MM-dd')
     )
+  }
+
+  const getDesignByDate = (date: Date) => {
+    const dateStr = format(date, 'yyyy-MM-dd')
+    return designs.find(d => format(new Date(d.date), 'yyyy-MM-dd') === dateStr)
   }
 
   const handleDateClick = (date: Date) => {
@@ -197,7 +211,7 @@ function App() {
         )}
         {/* Category + Date inline with title group */}
         <div className="flex items-center gap-3 pt-2">
-          <p className="text-xs font-medium tracking-[0.2em] uppercase text-amber-600 dark:text-amber-400">
+          <p className="text-xs font-medium tracking-[0.2em] uppercase" style={{ color: categoryColors[design.category] }}>
             {categoryLabels[design.category]}
           </p>
           <span className="text-neutral-300 dark:text-neutral-600">·</span>
@@ -401,6 +415,17 @@ function App() {
                     tileClassName={({ date }) =>
                       hasDesign(date) ? 'wallpaper-date' : ''
                     }
+                    tileContent={({ date }) => {
+                      const d = getDesignByDate(date)
+                      if (!d) return null
+                      const isSelected = format(date, 'yyyy-MM-dd') === format(selectedDate, 'yyyy-MM-dd')
+                      return (
+                        <div
+                          className="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-1.5 h-1.5 rounded-full transition-colors"
+                          style={{ backgroundColor: isSelected ? categoryColors[d.category] : '' }}
+                        />
+                      )
+                    }}
                     className="luxury-calendar"
                   />
                 </div>

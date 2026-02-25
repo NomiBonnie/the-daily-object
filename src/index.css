@@ -81,11 +81,11 @@
 
 .luxury-calendar .react-calendar__tile.wallpaper-date::after {
   content: '';
-  @apply absolute bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 rounded-full bg-neutral-900 dark:bg-neutral-100;
+  @apply absolute bottom-1 left-1/2 transform -translate-x-1/2 w-1.5 h-1.5 rounded-full bg-neutral-400 dark:bg-neutral-500;
 }
 
 .luxury-calendar .react-calendar__tile--active.wallpaper-date::after {
-  @apply bg-white dark:bg-neutral-900;
+  @apply bg-transparent;
 }
 
 /* Smooth transitions */
