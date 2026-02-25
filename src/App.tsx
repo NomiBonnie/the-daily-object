@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css'
 import { format } from 'date-fns'
@@ -51,8 +51,6 @@ function App() {
   const [imageLoaded, setImageLoaded] = useState(false)
   const [lightboxOpen, setLightboxOpen] = useState(false)
   const [lightboxDesign, setLightboxDesign] = useState<DesignObject | null>(null)
-  const touchStartX = useRef(0)
-  const touchStartY = useRef(0)
 
   useEffect(() => {
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -119,37 +117,15 @@ function App() {
     }
   }, [selectedDate, view])
 
-  // Lightbox touch handlers
-  const handleTouchStart = (e: React.TouchEvent) => {
-    touchStartX.current = e.touches[0].clientX
-    touchStartY.current = e.touches[0].clientY
-  }
-
-  const handleTouchEnd = (e: React.TouchEvent) => {
-    const diffX = touchStartX.current - e.changedTouches[0].clientX
-    const diffY = Math.abs(touchStartY.current - e.changedTouches[0].clientY)
-    if (Math.abs(diffX) > 50 && Math.abs(diffX) > diffY) {
-      const currentIndex = sortedDesigns.findIndex(d => d.id === lightboxDesign?.id)
-      if (diffX > 0 && currentIndex < sortedDesigns.length - 1) {
-        setLightboxDesign(sortedDesigns[currentIndex + 1])
-      } else if (diffX < 0 && currentIndex > 0) {
-        setLightboxDesign(sortedDesigns[currentIndex - 1])
-      }
-    }
-  }
-
-  // Lightbox keyboard support
+  // Lightbox keyboard support (ESC to close)
   useEffect(() => {
-    if (!lightboxOpen || !lightboxDesign) return
-    const currentIndex = sortedDesigns.findIndex(d => d.id === lightboxDesign.id)
+    if (!lightboxOpen) return
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') setLightboxOpen(false)
-      if (e.key === 'ArrowLeft' && currentIndex > 0) setLightboxDesign(sortedDesigns[currentIndex - 1])
-      if (e.key === 'ArrowRight' && currentIndex < sortedDesigns.length - 1) setLightboxDesign(sortedDesigns[currentIndex + 1])
     }
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [lightboxOpen, lightboxDesign])
+  }, [lightboxOpen])
 
   // Body scroll lock when lightbox is open
   useEffect(() => {
@@ -214,27 +190,18 @@ function App() {
         </div>
       </div>
 
-      {/* Image - progressive loading with thumbnail */}
+      {/* Image - solid placeholder until loaded */}
       {showImage && (
-        <div className="relative rounded-2xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 shadow-2xl !mt-4">
-          {/* Thumbnail (blur-up, shown immediately) */}
-          {design.thumbnailUrl && (
-            <img
-              src={design.thumbnailUrl}
-              alt=""
-              className={`w-full h-auto filter blur-sm scale-105 transition-opacity duration-300 ${imageLoaded ? 'opacity-0' : 'opacity-100'}`}
-            />
+        <div className="relative rounded-2xl overflow-hidden bg-neutral-200 dark:bg-neutral-800 shadow-2xl !mt-4">
+          {!imageLoaded && (
+            <div className="aspect-[4/5]" />
           )}
-          {!design.thumbnailUrl && !imageLoaded && (
-            <div className="aspect-[4/5] bg-neutral-200 dark:bg-neutral-800 animate-pulse" />
-          )}
-          {/* Full image (shown after load) */}
           <img
             src={design.imageUrl}
             alt={title}
             onLoad={() => setImageLoaded(true)}
             onClick={() => { setLightboxDesign(design); setLightboxOpen(true) }}
-            className={`w-full h-auto cursor-pointer transition-opacity duration-500 ${imageLoaded ? 'opacity-100' : 'opacity-0'} ${design.thumbnailUrl ? 'absolute inset-0' : (imageLoaded ? '' : 'absolute inset-0')}`}
+            className={`w-full h-auto cursor-pointer transition-opacity duration-300 ${imageLoaded ? 'opacity-100' : 'opacity-0 absolute inset-0'}`}
           />
         </div>
       )}
@@ -436,25 +403,20 @@ function App() {
       </main>
 
       {/* Lightbox */}
-      {lightboxOpen && lightboxDesign && (() => {
-        const currentIndex = sortedDesigns.findIndex(d => d.id === lightboxDesign.id)
-        const hasPrev = currentIndex > 0
-        const hasNext = currentIndex < sortedDesigns.length - 1
-        return (
+      {lightboxOpen && lightboxDesign && (
           <div
             className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center"
             onClick={() => setLightboxOpen(false)}
           >
             <button
-              className="absolute top-4 right-4 z-10 w-10 h-10 flex items-center justify-center text-white/60 hover:text-white text-2xl transition-colors"
+              className="absolute top-4 right-4 z-10 w-14 h-14 flex items-center justify-center text-white/80 hover:text-white text-3xl transition-colors rounded-full"
+              style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8)' }}
               onClick={() => setLightboxOpen(false)}
             >
               ✕
             </button>
             <div
               className="w-full h-full flex items-center justify-center p-4 sm:p-8"
-              onTouchStart={handleTouchStart}
-              onTouchEnd={handleTouchEnd}
               onClick={(e) => e.stopPropagation()}
             >
               <img
@@ -462,32 +424,11 @@ function App() {
                 src={lightboxDesign.fullImageUrl || lightboxDesign.imageUrl}
                 alt={lightboxDesign.title}
                 className="max-w-full max-h-full object-contain animate-fadeIn"
+                onClick={() => setLightboxOpen(false)}
               />
             </div>
-            {hasPrev && (
-              <button
-                onClick={(e) => { e.stopPropagation(); setLightboxDesign(sortedDesigns[currentIndex - 1]) }}
-                className="hidden sm:flex absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 items-center justify-center text-white/40 hover:text-white text-3xl transition-colors"
-              >
-                ‹
-              </button>
-            )}
-            {hasNext && (
-              <button
-                onClick={(e) => { e.stopPropagation(); setLightboxDesign(sortedDesigns[currentIndex + 1]) }}
-                className="hidden sm:flex absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 items-center justify-center text-white/40 hover:text-white text-3xl transition-colors"
-              >
-                ›
-              </button>
-            )}
-            <div className="absolute bottom-4 left-0 right-0 text-center">
-              <p className="text-white/60 text-sm font-light">
-                {lightboxDesign.title} · {lightboxDesign.subtitle}
-              </p>
-            </div>
           </div>
-        )
-      })()}
+      )}
 
       {/* Footer */}
       <footer className="border-t border-neutral-200 dark:border-neutral-800 py-8 px-6 sm:px-8">
