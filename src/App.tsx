@@ -231,6 +231,8 @@ function App() {
             src={design.imageUrl}
             alt={title}
             onLoad={() => setImageLoaded(true)}
+            onError={() => setImageLoaded(true)}
+            ref={(img) => { if (img && img.complete) setImageLoaded(true) }}
             onClick={() => { setLightboxDesign(design); setLightboxOpen(true) }}
             className={`w-full h-auto cursor-pointer transition-opacity duration-300 ${imageLoaded ? 'opacity-100' : 'opacity-0 absolute inset-0'}`}
           />
