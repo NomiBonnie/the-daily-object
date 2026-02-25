@@ -34,35 +34,94 @@ the-daily-object/
 
 ---
 
-## 数据格式
+## 数据格式（⚠️ 2026-02-25 架构更新，必须严格遵守！）
 
-在 `src/data.ts` 的 `designObjects` 数组中添加条目：
+在 `src/data.ts` 的 `designs` 数组中添加条目。
+
+### TypeScript Interface
+
+```typescript
+export interface DesignObject {
+  id: string                    // 字符串！日期数字如 '26'
+  date: string                  // 'YYYY-MM-DD' 完整日期格式（不是 MM-DD！）
+  imageUrl: string              // '/the-daily-object/images/filename.jpg'
+  fullImageUrl?: string         // '/the-daily-object/images/full/filename.jpg'（原图，用于 lightbox）
+  thumbnailUrl?: string         // '/the-daily-object/thumbnails/filename.jpg'（暂未使用）
+  title: string                 // 中文标题
+  title_en?: string             // 英文标题
+  subtitle?: string             // 中文副标题：'设计师, 年份'
+  subtitle_en?: string          // 英文副标题：'Designer, Year'
+  category: 'industrial' | 'music' | 'art' | 'architecture' | 'graphic' | 'software'
+  designer: string              // 设计师名（中文）
+  year?: string                 // 年份字符串
+
+  // 中文内容（必填）
+  dateConnection: string        // 为什么是今天
+  designerBio: string           // 设计师背景（支持 markdown，可多段）
+  story: string                 // 作品故事（支持 markdown，可多段）
+  legacy?: string               // 设计遗产/影响
+  significance?: string         // 设计圈意义
+
+  // 英文内容（必填！中英双语）
+  dateConnection_en?: string
+  designerBio_en?: string
+  story_en?: string
+  legacy_en?: string
+  significance_en?: string
+}
+```
+
+### 完整示例
 
 ```typescript
 {
-  id: 11,  // 递增，检查现有最大 id + 1
-  date: "02-20",  // MM-DD 格式
-  title: {
-    en: "English Title",
-    zh: "中文标题"
-  },
-  designer: {
-    en: "Designer Name",
-    zh: "设计师名"
-  },
-  year: 1969,  // 作品年份
-  image: "/images/filename.jpg",  // 相对路径
-  description: {
-    en: "English description...",
-    zh: "中文描述..."
-  },
-  dateConnection: {
-    en: "Why this date matters...",
-    zh: "为什么是今天..."
-  },
-  category: "industrial"  // 见下方分类
-}
+  id: '26',
+  date: '2026-02-26',
+  imageUrl: '/the-daily-object/images/example.jpg',
+  fullImageUrl: '/the-daily-object/images/full/example.jpg',
+  title: '中文作品名',
+  title_en: 'English Title',
+  subtitle: '设计师名, 1969',
+  subtitle_en: 'Designer Name, 1969',
+  category: 'industrial',
+  designer: '设计师名',
+  year: '1969',
+
+  dateConnection: '为什么是今天...',
+  designerBio: `设计师背景介绍...
+
+支持多段落，用模板字符串。`,
+  story: `作品故事...
+
+**支持 markdown 加粗**`,
+  legacy: '设计遗产...',
+  significance: '设计圈意义...',
+
+  dateConnection_en: 'Why this date...',
+  designerBio_en: `Designer bio in English...`,
+  story_en: `Story in English...`,
+  legacy_en: 'Legacy...',
+  significance_en: 'Significance...',
+},
 ```
+
+### ⚠️ 新架构关键差异（不要用旧格式！）
+
+| 项目 | ❌ 旧格式 | ✅ 新格式 |
+|------|----------|----------|
+| id | 数字 `11` | 字符串 `'26'` |
+| date | `"02-20"` (MM-DD) | `"2026-02-26"` (YYYY-MM-DD) |
+| 数组名 | `designObjects` | `designs` |
+| imageUrl | `"/images/file.jpg"` | `"/the-daily-object/images/file.jpg"` |
+| title/description | `{ en: "...", zh: "..." }` 对象 | 扁平字段：`title`(中文) + `title_en`(英文) |
+| 内容字段 | `description` 一个字段 | 拆分为 `designerBio` / `story` / `legacy` / `significance` |
+| 副标题 | 无 | `subtitle` / `subtitle_en`（格式：设计师, 年份） |
+
+### 图片文件
+
+- **压缩版**放 `public/images/filename.jpg`（页面展示用，<600KB）
+- **原图**放 `public/images/full/filename.jpg`（lightbox 放大用）
+- 文件名规则：小写、连字符，如 `panton-chair.jpg`
 
 ---
 
@@ -70,16 +129,14 @@ the-daily-object/
 
 | category | 领域 | 示例 |
 |----------|------|------|
-| `industrial` | 工业设计 | 椅子、灯具、汽车、电子产品 |
+| `industrial` | 工业设计 | 椅子、灯具、汽车、电子产品、日用品 |
 | `architecture` | 建筑 | 建筑作品、室内设计 |
-| `fashion` | 时尚 | 服装、配饰、珠宝 |
 | `graphic` | 平面设计 | 海报、书籍、品牌、字体、Logo |
-| `art` | 艺术 | 绘画、雕塑、装置 |
-| `film` | 电影 | 经典电影、导演作品、电影海报 |
+| `art` | 艺术 | 绘画、雕塑、装置、时尚 |
 | `music` | 音乐 | 专辑封面、音乐人视觉、演出设计 |
-| `product` | 产品设计 | 日用品、工具 |
+| `software` | 软件/UI | 经典界面、交互设计 |
 
-**原则**：尽量轮换领域，避免连续几天都是同一类。
+**注意**：只有这 6 个 category 值，TypeScript 会校验。不要用 `fashion` / `film` / `product` 等旧值。
 
 ---
 
@@ -174,8 +231,9 @@ the-daily-object/
 
 ### 1. 确定日期
 ```powershell
-# ⚠️ 是"今天"，不是"明天"！
-$today = (Get-Date).ToString("MM-dd")
+# ⚠️ 是"今天"，不是"明天"！用 YYYY-MM-DD 完整格式！
+$today = (Get-Date).ToString("yyyy-MM-dd")
+$todayShort = (Get-Date).ToString("MM-dd")  # 用于 commit message
 ```
 **⚠️ 只添加今天的条目，绝对不要添加明天或未来日期的内容！**
 
@@ -215,7 +273,14 @@ $today = (Get-Date).ToString("MM-dd")
 
 ### 5. 下载图片
 ```powershell
+# 下载到 public/images/（页面展示用）
 Invoke-WebRequest -Uri "URL" -OutFile "public/images/filename.jpg" -Headers @{"User-Agent"="Mozilla/5.0"}
+
+# 同时复制一份原图到 public/images/full/（lightbox 用）
+Copy-Item "public/images/filename.jpg" "public/images/full/filename.jpg"
+
+# 如果原图 > 600KB，压缩 public/images/ 里的版本到 ~500KB：
+ffmpeg -i "public/images/full/filename.jpg" -vf "scale='min(1200,iw)':-1" -q:v 3 "public/images/filename.jpg" -y
 ```
 
 ### 6. 写内容并更新代码
@@ -224,6 +289,7 @@ Invoke-WebRequest -Uri "URL" -OutFile "public/images/filename.jpg" -Headers @{"U
 ### 7. 部署
 ```powershell
 cd C:\Users\kaixin_yy\.openclaw\workspace\the-daily-object
+npx vite build   # 先构建确认无报错
 git add .
 git commit -m "Add MM-DD: Title"
 git push origin main
