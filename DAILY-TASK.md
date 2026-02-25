@@ -427,3 +427,14 @@ browser action=open → 用 → browser action=close
 **底线：每个选题至少要 ⭐⭐⭐ 级别。**
 
 *最后更新：2026-02-25*
+
+---
+
+## 📚 必读参考文档
+
+每次做 Daily Object 之前，除了本文档，还要读：
+
+1. **`memory/daily-object-lessons-0225.md`** — 2026-02-25 大修日的完整经验总结（踩坑案例、选图铁律、技术经验、Sam 的审美哲学）
+2. **`memory/design-checklist.md`** — 六大设计检查维度（间距/对齐/一致性/颜色/文案/响应式）
+
+这两份文档是从实战中总结的，比任何规则都具体。
