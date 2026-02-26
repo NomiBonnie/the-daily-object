@@ -107,11 +107,11 @@ function App() {
         changeMonth(dx < 0 ? 1 : -1)
       }
     }
-    el.addEventListener('touchstart', onTouchStart, { passive: true })
-    el.addEventListener('touchend', onTouchEnd, { passive: true })
+    el.addEventListener('touchstart', onTouchStart, { passive: true, capture: true })
+    el.addEventListener('touchend', onTouchEnd, { passive: true, capture: true })
     return () => {
-      el.removeEventListener('touchstart', onTouchStart)
-      el.removeEventListener('touchend', onTouchEnd)
+      el.removeEventListener('touchstart', onTouchStart, { capture: true } as EventListenerOptions)
+      el.removeEventListener('touchend', onTouchEnd, { capture: true } as EventListenerOptions)
     }
   }, [changeMonth])
   const [imageLoaded, setImageLoaded] = useState(false)
