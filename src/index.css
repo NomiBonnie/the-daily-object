@@ -60,6 +60,11 @@
   color: rgba(255, 255, 255, 0.25);
 }
 
+/* 上/下月日期: 整体 50% 透明度，更灰 */
+.luxury-calendar .react-calendar__month-view__days__day--neighboringMonth {
+  opacity: 0.5 !important;
+}
+
 .luxury-calendar .react-calendar__tile:enabled:hover {
   background-color: transparent !important;
 }
