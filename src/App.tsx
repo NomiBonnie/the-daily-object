@@ -273,16 +273,13 @@ function App() {
 
       {/* Tags */}
       {((lang === 'en' && design.tags_en?.length) || (lang !== 'en' && design.tags?.length)) && (
-        <div className="flex flex-wrap gap-1.5 !mt-3">
-          {(lang === 'en' ? design.tags_en! : design.tags!).map((tag, i) => (
-            <span
-              key={i}
-              className="inline-block text-[11px] font-light tracking-wide px-2.5 py-0.5 rounded-full bg-neutral-100 text-neutral-500 dark:bg-neutral-800/60 dark:text-neutral-400 border border-neutral-200/50 dark:border-neutral-700/30"
-            >
-              #{tag}
+        <p className="text-xs font-light text-neutral-400 dark:text-neutral-500 !mt-3">
+          {(lang === 'en' ? design.tags_en! : design.tags!).map((tag, i, arr) => (
+            <span key={i}>
+              {tag}{i < arr.length - 1 && <span className="mx-1.5">·</span>}
             </span>
           ))}
-        </div>
+        </p>
       )}
 
       {/* Image - solid placeholder until loaded */}
