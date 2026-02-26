@@ -3755,6 +3755,58 @@ From a **musical design** perspective, the arrangement structure is textbook: a 
     legacy_en: '• Ranked #12 on Rolling Stone\'s "500 Greatest Songs of All Time"\n• Became the iconic musical work of the American civil rights movement\n• Pioneered the soul music arrangement paradigm: orchestral + gospel + pop structure\n• Cooke\'s business model of owning his label influenced the entire Black music industry\n• The song\'s narrative structure became a template for protest music\n• Influenced Otis Redding, Aretha Franklin, Marvin Gaye, and other soul masters',
     significance_en: '"A Change Is Gonna Come" is **the ultimate case of music as a tool of social design.** Sam Cooke used precise arrangement and restrained yet deeply emotional vocals to elevate personal humiliation into the voice of an entire era. This song proves design\'s highest calling: **not to change the shape of the material world, but to change the landscape within people\'s hearts.**',
   },
+
+  // 01-21: New Look (Dior)
+  {
+    id: '48',
+    date: '2026-01-21',
+    imageUrl: '/the-daily-object/images/dior-new-look.jpg',
+    fullImageUrl: '/the-daily-object/images/full/dior-new-look.jpg',
+    title: 'New Look',
+    title_en: 'The New Look',
+    subtitle: 'Christian Dior, 1947',
+    subtitle_en: 'Christian Dior, 1947',
+    category: 'fashion',
+    designer: 'Christian Dior',
+    year: '1947',
+    dateConnection: 'Christian Dior 于 1905 年 1 月 21 日出生于法国诺曼底格朗维尔。他在 1947 年推出的首个系列彻底改变了战后时尚的面貌。',
+    designerBio: `Christian Dior（1905–1957）出生于法国诺曼底一个富裕家庭。年轻时经营过画廊，经历过家庭破产和战争的洗礼，直到 42 岁才创立自己的时装屋。\n\n这位大器晚成的设计师，在短短十年间重塑了整个时尚产业。他将高级定制从战时的简朴中解放出来，重新定义了女性优雅的标准。`,
+    story: `1947 年 2 月 12 日，Dior 在巴黎蒙田大道 30 号发布了他的首个系列。**Harper's Bazaar** 主编 Carmel Snow 看完秀后脱口而出："It's quite a revolution, dear Christian! Your dresses have such a new look!"\n\n这个"New Look"由此得名。核心是 **Bar Suit**——柔软的圆肩、收紧的蜂腰、使用多达 25 码布料的宽大裙摆。在战时布料配给刚刚结束的年代，这种奢侈的用料本身就是一种宣言。\n\n**New Look 不只是一件衣服，而是一种完整的女性轮廓设计**：从肩线到裙摆，每一个比例都经过精密计算。Dior 像建筑师一样构建服装——他称之为"花冠线条"（Corolle line），将女性身体重新雕塑成花朵绽放的形态。\n\nNew Look 引发了巨大争议。女权主义者抗议它"倒退"，面料制造商却欢呼雀跃。但无论褒贬，它标志着战后时尚新纪元的开始。`,
+    legacy: 'New Look 确立了 Dior 品牌的基因——建筑感的结构、戏剧性的轮廓、对女性曲线的崇拜。这种设计哲学影响了此后七十年的高级定制时装。',
+    significance: 'New Look 证明了时装设计可以像建筑一样具有结构性思维。Dior 用一个系列重新定义了"优雅"的视觉语言，使时装设计真正成为一门与建筑、工业设计并列的设计学科。',
+
+    dateConnection_en: 'Christian Dior was born on January 21, 1905, in Granville, Normandy, France. His debut collection in 1947 would completely transform the landscape of post-war fashion.',
+    designerBio_en: `Christian Dior (1905–1957) was born into a wealthy family in Normandy, France. He ran an art gallery in his youth, endured family bankruptcy and war, and didn't establish his own fashion house until the age of 42.\n\nThis late bloomer reshaped the entire fashion industry in just a decade, liberating haute couture from wartime austerity and redefining the standards of feminine elegance.`,
+    story_en: `On February 12, 1947, Dior presented his debut collection at 30 Avenue Montaigne in Paris. **Harper's Bazaar** editor Carmel Snow exclaimed after the show: "It's quite a revolution, dear Christian! Your dresses have such a new look!"\n\nThe "New Look" was thus named. At its heart was the **Bar Suit** — soft rounded shoulders, a cinched waist, and sweeping skirts using up to 25 yards of fabric. In an era when fabric rationing had barely ended, such lavish use of material was itself a manifesto.\n\n**The New Look was not just a garment but a complete feminine silhouette system**: from shoulder line to hemline, every proportion was precisely calculated. Dior constructed clothing like an architect — he called it the "Corolle line" (corolla line), resculpting the female body into the form of a blooming flower.\n\nThe New Look sparked enormous controversy. Feminists protested it as "regressive," while fabric manufacturers cheered. But regardless of opinion, it marked the beginning of a new era in post-war fashion.`,
+    legacy_en: 'The New Look established the DNA of the Dior brand — architectural structure, dramatic silhouettes, and the celebration of feminine curves. This design philosophy has influenced haute couture for over seventy years.',
+    significance_en: 'The New Look proved that fashion design could possess the same structural thinking as architecture. With a single collection, Dior redefined the visual language of "elegance," elevating fashion design to a discipline on par with architecture and industrial design.',
+  },
+
+  // 01-22: A Change Is Gonna Come (Sam Cooke)
+  {
+    id: '49',
+    date: '2026-01-22',
+    imageUrl: '/the-daily-object/images/a-change-is-gonna-come.jpg',
+    fullImageUrl: '/the-daily-object/images/full/a-change-is-gonna-come.jpg',
+    title: 'A Change Is Gonna Come',
+    title_en: 'A Change Is Gonna Come',
+    subtitle: 'Sam Cooke, 1964',
+    subtitle_en: 'Sam Cooke, 1964',
+    category: 'music',
+    designer: 'Sam Cooke',
+    year: '1964',
+    dateConnection: 'Sam Cooke 于 1931 年 1 月 22 日出生于密西西比州克拉克斯代尔。这位"灵魂乐之王"创作了美国民权运动最伟大的音乐作品之一。',
+    designerBio: `Sam Cooke（1931–1964）出生于密西西比州一个牧师家庭，在芝加哥长大。从福音音乐起步，他是第一批成功跨越福音与世俗音乐界限的非裔美国歌手。\n\n他不仅是歌手，更是音乐产业的革新者——他创立了自己的唱片公司 SAR Records 和出版公司，成为最早掌控自己音乐版权的非裔美国艺人之一。他对音乐产业的商业模式设计，与他的音乐本身同样具有开创性。`,
+    story: `1963 年 10 月，Sam Cooke 在听了 Bob Dylan 的 "Blowin' in the Wind" 后深受触动——一个白人民谣歌手写出了黑人民权运动的心声，这让他感到一种创作的紧迫感。\n\n他随即创作了 **"A Change Is Gonna Come"**。这首歌的编曲设计是音乐制作的里程碑：René Hall 的弦乐编排如同交响诗，法国号开场营造出史诗般的庄严感，Cooke 的声音在层层管弦乐中如同一束光穿透黑暗。\n\n**从声音设计的角度看**，这首歌打破了当时流行音乐的制作范式。它不是简单的"歌手+伴奏"模式，而是将古典管弦乐编曲与灵魂乐人声融为一体，创造了一种全新的音乐"建筑"——声音的空间感和层次感达到了前所未有的高度。\n\n1964 年 12 月 11 日，Sam Cooke 在洛杉矶一家汽车旅馆被枪杀，年仅 33 岁。三周后，"A Change Is Gonna Come" 作为单曲发行，成为民权运动的精神圣歌。`,
+    legacy: '这首歌的声音设计影响了此后六十年的音乐制作。从 Marvin Gaye 到 Beyoncé，无数音乐人在这首歌中找到了"用声音讲述社会故事"的范本。它证明了流行音乐可以同时是艺术品和社会宣言。',
+    significance: '"A Change Is Gonna Come" 是声音设计与社会设计的完美交汇。Sam Cooke 用音乐的结构——编曲的层次、和声的张力、人声的情感弧线——设计了一种能够打动所有人的"情感体验"，这与最好的产品设计异曲同工。',
+
+    dateConnection_en: 'Sam Cooke was born on January 22, 1931, in Clarksdale, Mississippi. The "King of Soul" created one of the greatest musical works of the American civil rights movement.',
+    designerBio_en: `Sam Cooke (1931–1964) was born into a minister's family in Mississippi and grew up in Chicago. Starting in gospel music, he was one of the first African American singers to successfully cross the boundary between gospel and secular music.\n\nHe was not merely a singer but an innovator of the music industry — he founded his own record label SAR Records and publishing company, becoming one of the earliest African American artists to control his own music rights. His design of the music business model was as groundbreaking as his music itself.`,
+    story_en: `In October 1963, Sam Cooke was deeply moved after hearing Bob Dylan's "Blowin' in the Wind" — a white folk singer had captured the voice of the Black civil rights movement, filling him with an urgent need to create.\n\nHe immediately composed **"A Change Is Gonna Come."** The song's arrangement design is a milestone in music production: René Hall's string orchestration unfolds like a symphonic poem, French horns open with epic solemnity, and Cooke's voice pierces through layers of orchestration like a beam of light through darkness.\n\n**From a sound design perspective**, the song shattered the production paradigm of popular music at the time. It was not a simple "singer plus accompaniment" model but fused classical orchestral arrangement with soul vocals, creating an entirely new musical "architecture" — achieving an unprecedented sense of spatial depth and layering in sound.\n\nOn December 11, 1964, Sam Cooke was shot and killed at a motel in Los Angeles at just 33 years old. Three weeks later, "A Change Is Gonna Come" was released as a single and became the spiritual anthem of the civil rights movement.`,
+    legacy_en: 'The sound design of this song influenced six decades of music production that followed. From Marvin Gaye to Beyoncé, countless musicians found in this song a template for "telling social stories through sound." It proved that popular music could be both art and social manifesto.',
+    significance_en: '"A Change Is Gonna Come" is the perfect intersection of sound design and social design. Sam Cooke used musical structure — the layering of arrangement, the tension of harmony, the emotional arc of vocals — to design an "emotional experience" that moves everyone, echoing the principles of the finest product design.',
+  },
 ]
 
 
