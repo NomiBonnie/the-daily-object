@@ -45,8 +45,8 @@ export const designs: DesignObject[] = [
     category: 'industrial',
     designer: 'Gaetano Pesce',
     year: '1969',
-    tags: ['激进设计', '女性主义', '意大利设计', '政治家具'],
-    tags_en: ['Radical Design', 'Feminism', 'Italian Design', 'Political Furniture'],
+    tags: ['让家具成为政治宣言', '女性主义设计先驱', '激进设计运动标志', '颠覆了家具的定义'],
+    tags_en: ['Turned Furniture into Political Manifesto', 'Feminist Design Pioneer', 'Icon of Radical Design', 'Redefined What Furniture Can Be'],
     
     dateConnection: '1969年，UP Series 在米兰家具展首次亮相，彻底颠覆了人们对家具的认知。Gaetano Pesce (1939-2024) 是20世纪最激进的意大利设计师之一，2024年4月在纽约去世，留下了半个世纪的设计革命遗产。',
     
@@ -130,8 +130,8 @@ After his death in 2024, the design world lost its last master who dared to say 
     category: 'art',
     designer: 'Alexander McQueen',
     year: '2009',
-    tags: ['先锋时尚', '解构主义', '概念设计', '时尚革命'],
-    tags_en: ['Avant-Garde Fashion', 'Deconstructivism', 'Conceptual Design', 'Fashion Revolution'],
+    tags: ['模糊了时尚与艺术的边界', '重新定义了时装秀', '时尚界最激进的叛逆者'],
+    tags_en: ['Blurred the Line Between Fashion and Art', 'Reinvented the Runway Show', 'Fashion\'s Most Radical Rebel'],
     
     dateConnection: '2010年2月11日，Alexander McQueen 在伦敦家中自杀身亡，享年40岁。他是21世纪最重要的时装设计师之一，将时装秀变成了剧场艺术。',
     
@@ -204,8 +204,8 @@ This methodology—design as expression, not commodity—influenced an entire ge
     category: 'architecture',
     designer: 'Étienne-Louis Boullée',
     year: '1784',
-    tags: ['启蒙建筑', '革命建筑', '乌托邦', '纪念碑设计'],
-    tags_en: ['Enlightenment Architecture', 'Revolutionary Architecture', 'Utopia', 'Monument Design'],
+    tags: ['纸上建筑的开创者', '启蒙理性的建筑化身', '影响了两百年建筑想象', '乌托邦建筑先驱'],
+    tags_en: ['Pioneer of Paper Architecture', 'Enlightenment Rationalism in Built Form', 'Shaped 200 Years of Architectural Imagination', 'Utopian Architecture Pioneer'],
     
     dateConnection: '1728年2月12日，Étienne-Louis Boullée 出生于巴黎。他是建筑史上最伟大的空想家之一——他设计的建筑从未建成，却影响了此后两百年的建筑思想。他的"牛顿纪念堂"是人类想象力最壮丽的建筑图纸。',
     
@@ -310,8 +310,8 @@ In today's era of virtual reality and the metaverse, Boullée's thinking is more
     category: 'industrial',
     designer: 'Verner Panton',
     year: '1967',
-    tags: ['极简主义', '塑料革命', '波普设计', '单体成型'],
-    tags_en: ['Minimalism', 'Plastics Revolution', 'Pop Design', 'Single-Piece Molding'],
+    tags: ['第一把单体成型塑料椅', '改变了家具制造方式', '波普设计运动标志', '材料革命的里程碑'],
+    tags_en: ['First Single-Piece Molded Plastic Chair', 'Changed How Furniture Is Made', 'Icon of Pop Design', 'Material Revolution Milestone'],
     
     dateConnection: '2月13日是 Verner Panton 的生日（1926年）。他是丹麦最激进的家具设计师，用塑料颠覆了北欧设计的传统美学。',
     
@@ -383,8 +383,8 @@ In an era obsessed with function, rationality, and restraint, he said: design ca
     category: 'art',
     designer: 'Milton Glaser',
     year: '1977',
-    tags: ['平面设计', '城市品牌', '流行文化', '极简图形'],
-    tags_en: ['Graphic Design', 'City Branding', 'Pop Culture', 'Minimal Graphics'],
+    tags: ['开创了城市品牌设计', '史上最被模仿的标志', '改变了城市营销方式', '极简图形的极致力量'],
+    tags_en: ['Invented City Branding', 'Most Imitated Logo in History', 'Changed How Cities Market Themselves', 'Power of Minimal Graphics'],
     
     dateConnection: '2月14日是情人节。而 I ♥ NY 是设计史上最著名的"爱"的表达——用一个符号代替了一个词，改变了视觉传达的语言。',
     
@@ -456,8 +456,8 @@ Three letters, one symbol, two colors. Anyone can draw it, anyone can understand
     category: 'art',
     designer: 'Shepard Fairey',
     year: '2008',
-    tags: ['政治设计', '街头艺术', '数字传播', '视觉运动'],
-    tags_en: ['Political Design', 'Street Art', 'Digital Dissemination', 'Visual Campaign'],
+    tags: ['改变了政治视觉传播', '街头艺术进入主流政治', '社交媒体时代首张竞选海报', '草根视觉运动'],
+    tags_en: ['Changed Political Visual Communication', 'Street Art Entered Mainstream Politics', 'First Campaign Poster of Social Media Era', 'Grassroots Visual Movement'],
     
     dateConnection: '2月15日是 Shepard Fairey 的生日（1970年）。他是当代最有影响力的街头艺术家，从滑板文化走向总统竞选视觉设计。',
     
@@ -529,8 +529,8 @@ It turned a senator into an icon, a campaign into a movement. After this, every 
     category: 'art',
     designer: 'Constantin Brâncuși',
     year: '1923',
-    tags: ['现代雕塑', '抽象艺术', '形式革命', '工业材料'],
-    tags_en: ['Modern Sculpture', 'Abstract Art', 'Formal Revolution', 'Industrial Materials'],
+    tags: ['定义了抽象雕塑', '颠覆了艺术的边界', '极简形式的先驱', '引发了艺术与法律的世纪之争'],
+    tags_en: ['Defined Abstract Sculpture', 'Challenged the Boundaries of Art', 'Pioneer of Minimal Form', 'Sparked a Landmark Art vs. Law Battle'],
     
     dateConnection: '2月19日是 Brâncuși 的生日（1876年）。这一天也是罗马尼亚的官方纪念日 Brâncuși Day。',
     
@@ -601,8 +601,8 @@ His studio (now reconstructed next to the Pompidou Center) is one of the most im
     category: 'art',
     designer: 'Louis Comfort Tiffany',
     year: '1901',
-    tags: ['新艺术运动', '手工艺', '玻璃工艺', '自然主义'],
-    tags_en: ['Art Nouveau', 'Craftsmanship', 'Glass Art', 'Naturalism'],
+    tags: ['新艺术运动的代名词', '革新了玻璃工艺', '定义了装饰艺术照明', '将自然转化为光'],
+    tags_en: ['Synonym for Art Nouveau', 'Revolutionized Glass Craft', 'Defined Decorative Lighting', 'Turned Nature into Light'],
     
     dateConnection: '2月18日是 Louis Comfort Tiffany 的生日（1848年）。他创造了 Art Nouveau 时代最具标志性的装饰艺术品。',
     
@@ -669,8 +669,8 @@ He proved that everyday objects can be art; material innovation can create entir
     category: 'architecture',
     designer: 'Thomas Heatherwick',
     year: '2019',
-    tags: ['当代建筑', '公共空间', '城市地标', '参数化设计'],
-    tags_en: ['Contemporary Architecture', 'Public Space', 'Urban Landmark', 'Parametric Design'],
+    tags: ['重新定义了公共互动空间', '最具争议的当代地标', '参数化设计的极致表达', '城市雕塑与建筑的融合'],
+    tags_en: ['Redefined Public Interactive Space', 'Most Controversial Contemporary Landmark', 'Parametric Design at Its Extreme', 'Fusion of Urban Sculpture and Architecture'],
     
     dateConnection: '2月17日是 Thomas Heatherwick 的生日（1970年）。他是当代最具影响力的设计师之一，跨越建筑、产品、公共艺术多个领域。',
     
@@ -737,8 +737,8 @@ In an age obsessed with efficiency, Heatherwick reminds us: some things have val
     category: 'industrial',
     designer: 'Achille Castiglioni',
     year: '1962',
-    tags: ['意大利设计', '现代主义', '经典灯具', '工业创新'],
-    tags_en: ['Italian Design', 'Modernism', 'Iconic Lighting', 'Industrial Innovation'],
+    tags: ['将街灯搬进客厅', '意大利设计黄金时代', '重新定义了落地灯', '功能主义设计典范'],
+    tags_en: ['Brought the Street Lamp Indoors', 'Golden Age of Italian Design', 'Reinvented the Floor Lamp', 'Functionalist Design Icon'],
     
     dateConnection: '2月16日是 Achille Castiglioni 的生日（1918年）。他是意大利设计黄金时代最具代表性的设计师，三次获得 Compasso d\'Oro é‡‘ç½—ç›˜å¥–ã€‚',
     
@@ -809,8 +809,8 @@ Arco isn't showing off—it's solving a specific problem in the most elegant way
     category: 'art',
     designer: 'Walt Disney Studios',
     year: '1940',
-    tags: ['童话文学', '角色设计', '道德寓言', '文化遗产'],
-    tags_en: ['Fairy Tale', 'Character Design', 'Moral Allegory', 'Cultural Heritage'],
+    tags: ['动画技术的巅峰突破', '定义了迪士尼动画美学', '最具教育意义的角色之一', '影响了整个动画产业'],
+    tags_en: ['Breakthrough in Animation Technology', 'Defined Disney Animation Aesthetic', 'One of Most Morally Influential Characters', 'Shaped the Entire Animation Industry'],
     
     dateConnection: '1940年2月7日，《匹诺曹》在纽约中心剧院首映。这部动画电影被认为是动画艺术的巅峰之作，首次赢得奥斯卡竞赛类奖项的动画长片。',
     
@@ -883,8 +883,8 @@ Every frame is a hand-drawn work of art. Looking back from the digital age, this
     category: 'architecture',
     designer: 'John Ruskin',
     year: '1851',
-    tags: ['哥特建筑', '拜占庭美学', '建筑理论', '文化批评'],
-    tags_en: ['Gothic Architecture', 'Byzantine Aesthetic', 'Architectural Theory', 'Cultural Criticism'],
+    tags: ['改变了人们看建筑的方式', '工艺美术运动的思想源头', '建筑批评的开创者', '影响了现代文化保护运动'],
+    tags_en: ['Changed How People See Architecture', 'Intellectual Origin of Arts and Crafts', 'Pioneer of Architectural Criticism', 'Influenced Modern Conservation Movement'],
     
     dateConnection: '1819年2月8日，John Ruskin 出生于伦敦。他是维多利亚时代最有影响力的艺术与建筑评论家，他关于哥特式建筑的理论直接催生了工艺美术运动（Arts and Crafts Movement），为现代设计的诞生铺平了道路。',
     
@@ -985,8 +985,8 @@ The Industrial Revolution made products cheap, uniform, and perfect. But Ruskin 
     category: 'industrial',
     designer: 'Wilhelm Maybach',
     year: '1901',
-    tags: ['汽车设计', '工业设计', '速度美学', '工程创新'],
-    tags_en: ['Automotive Design', 'Industrial Design', 'Speed Aesthetic', 'Engineering Innovation'],
+    tags: ['第一辆现代意义的汽车', '定义了汽车设计范式', '开创了速度美学', '改变了人类出行方式'],
+    tags_en: ['First Modern Automobile', 'Defined Automotive Design Paradigm', 'Pioneered the Aesthetic of Speed', 'Changed How Humanity Travels'],
     
     dateConnection: '1846年2月9日，Wilhelm Maybach 出生于德国海尔布隆。他被称为"汽车设计之王"（König der Konstrukteure），设计了1901年的 Mercedes 35 HP——世界上第一辆真正意义上的现代汽车，终结了"无马马车"时代，开启了汽车设计的新纪元。',
     
@@ -1079,8 +1079,8 @@ Maybach demonstrated a profound design principle: **true innovation isn't improv
     category: 'architecture',
     designer: 'Louis Kahn',
     year: '1965',
-    tags: ['粗野主义', '现代主义', '建筑诗学', '科研空间'],
-    tags_en: ['Brutalism', 'Modernism', 'Architectural Poetry', 'Research Space'],
+    tags: ['重新定义了科研建筑', '混凝土的诗意表达', '光与空间的哲学', '20世纪最伟大的建筑之一'],
+    tags_en: ['Redefined Research Architecture', 'Poetry in Concrete', 'Philosophy of Light and Space', 'One of the Greatest Buildings of the 20th Century'],
     
     dateConnection: '1901年2月20日，Louis Kahn 出生于爱沙尼亚（当时属于俄罗斯帝国）。他是20世纪最伟大的建筑师之一，用光与混凝土创造了现代建筑的精神殿堂。',
     
@@ -1163,8 +1163,8 @@ Standing in the central plaza, facing the endless Pacific and that thin channel 
     category: 'industrial',
     designer: 'Edwin Land',
     year: '1948',
-    tags: ['即时摄影', '大众摄影', '技术创新', '视觉民主化'],
-    tags_en: ['Instant Photography', 'Mass Photography', 'Tech Innovation', 'Visual Democratization'],
+    tags: ['发明了即时摄影', '让每个人都能留住瞬间', '改变了摄影的社交属性', '视觉民主化先驱'],
+    tags_en: ['Invented Instant Photography', 'Let Everyone Capture the Moment', 'Changed the Social Nature of Photography', 'Pioneer of Visual Democratization'],
     
     dateConnection: '1947年2月21日，Edwin Land 在美国光学学会纽约会议上首次公开演示即时摄影技术，这台相机在一年后正式发售，改变了摄影史。',
     
@@ -1252,8 +1252,8 @@ No wonder Steve Jobs said: "Edwin Land was a national treasure. He was one of th
     category: 'graphic',
     designer: 'Eric Gill',
     year: '1928',
-    tags: ['字体设计', '英国设计', '现代主义', '公共标识'],
-    tags_en: ['Typography', 'British Design', 'Modernism', 'Public Signage'],
+    tags: ['定义了英国的视觉形象', '改变了公共标识系统', '现代无衬线字体先驱', '伦敦地铁的视觉灵魂'],
+    tags_en: ['Defined Britain\'s Visual Identity', 'Transformed Public Signage', 'Modern Sans-Serif Pioneer', 'Visual Soul of the London Underground'],
     
     dateConnection: '1882年2月22日，Eric Gill 出生于英格兰布莱顿。他是20世纪最重要的字体设计师之一，设计的 Gill Sans 成为英国的"国家字体"——从伦敦地铁标识到 BBC 品牌，从企鹅图书到英国铁路，这款字体定义了英国的视觉身份。',
     
@@ -1354,8 +1354,8 @@ This balance remains the holy grail designers pursue today. Apple's San Francisc
     category: 'graphic',
     designer: 'Johannes Gutenberg',
     year: 'c. 1455',
-    tags: ['印刷革命', '知识民主化', '西方文明', '排版设计'],
-    tags_en: ['Print Revolution', 'Knowledge Democratization', 'Western Civilization', 'Typographic Design'],
+    tags: ['改变了人类文明进程', '知识民主化的起点', '印刷革命的开端', '影响了整个西方世界'],
+    tags_en: ['Changed the Course of Human Civilization', 'Starting Point of Knowledge Democratization', 'Birth of the Print Revolution', 'Shaped the Entire Western World'],
     
     dateConnection: '1455年2月23日被认为是古腾堡圣经的出版日期——西方世界第一本用活字印刷术印制的书籍。这一天标志着人类传播史上最深刻的革命：知识不再是手抄的奢侈品，而成为可以批量生产的民主化载体。',
     
@@ -1443,8 +1443,8 @@ The technology changed. The design problems didn't.`
     category: 'industrial',
     designer: 'Bruce Kilgore',
     year: '1982',
-    tags: ['运动时尚', '街头文化', '球鞋文化', '民主化设计'],
-    tags_en: ['Athleisure', 'Street Culture', 'Sneaker Culture', 'Democratized Design'],
+    tags: ['第一双气垫篮球鞋', '开创了球鞋文化', '从球场走进街头', '改变了运动鞋产业'],
+    tags_en: ['First Air-Cushioned Basketball Shoe', 'Pioneered Sneaker Culture', 'From Court to Street', 'Transformed the Sneaker Industry'],
     
     dateConnection: '1938年2月24日，Phil Knight 出生于俄勒冈州波特兰。1964年，他与田径教练 Bill Bowerman 共同创立了 Blue Ribbon Sports，后更名为 Nike。Knight 不是设计师，但他建立了一家以设计为核心竞争力的公司——从 Carolyn Davidson 的 Swoosh 标志到 Tinker Hatfield 的 Air Jordan 系列，Nike 证明了运动鞋可以是工业设计的最高表达。',
     
@@ -1526,8 +1526,8 @@ When Bruce Kilgore sketched the first AF1 draft, he was designing a basketball s
     category: 'architecture',
     designer: 'John Wood the Younger',
     year: '1774',
-    tags: ['格鲁吉亚建筑', '城市规划', '古典主义', '公共空间'],
-    tags_en: ['Georgian Architecture', 'Urban Planning', 'Classicism', 'Public Space'],
+    tags: ['城市规划的不朽典范', '定义了格鲁吉亚建筑美学', '改变了英国城市面貌', '古典主义的巅峰表达'],
+    tags_en: ['Timeless Model of Urban Planning', 'Defined Georgian Architectural Aesthetic', 'Transformed the British Cityscape', 'Peak Expression of Classicism'],
     
     dateConnection: '1728年2月25日，英国建筑师 John Wood the Younger 出生于巴斯。他继承父亲 John Wood the Elder 的城市规划愿景，设计了被誉为英国乔治亚时代建筑最高成就的 Royal Crescent——一条由30栋联排住宅组成的弧形建筑群，将古罗马的圆形剧场语言转化为住宅建筑的壮丽诗篇。',
     
@@ -1614,8 +1614,8 @@ Wood understood 250 years ago what remains true today: good design doesn't elimi
     category: 'art',
     designer: 'Fernand Léger',
     year: '1918',
-    tags: ['达达主义', '现代艺术', '机械美学', '反传统'],
-    tags_en: ['Dadaism', 'Modern Art', 'Machine Aesthetic', 'Anti-Tradition'],
+    tags: ['开创了机械美学', '将工业引入艺术', '立体主义的独特分支', '预言了波普艺术'],
+    tags_en: ['Pioneered Machine Aesthetic', 'Brought Industry into Art', 'Unique Branch of Cubism', 'Foretold Pop Art'],
     
     dateConnection: '1881年2月4日，Fernand Léger 出生于法国诺曼底阿让唐。他是立体主义运动的核心人物，也是第一位真正拥抱机器美学的现代画家——他把齿轮、管道和金属质感变成了绘画语言，模糊了纯艺术与工业设计之间的边界。',
     
@@ -1717,8 +1717,8 @@ This "machine aesthetic" attitude directly legitimized modern industrial design.
     category: 'industrial',
     designer: 'Leo Baekeland',
     year: '1907',
-    tags: ['材料革命', '塑料时代', '批量生产', '工业化学'],
-    tags_en: ['Material Revolution', 'Plastics Age', 'Mass Production', 'Industrial Chemistry'],
+    tags: ['第一种全合成塑料', '开启了塑料时代', '改变了整个制造业', '材料科学的里程碑'],
+    tags_en: ['First Fully Synthetic Plastic', 'Launched the Plastics Age', 'Transformed All of Manufacturing', 'Material Science Milestone'],
     
     dateConnection: '1907年2月5日，比利时裔美国化学家 Leo Baekeland 正式宣布发明了酚醛树脂——世界上第一种完全合成的塑料，他将其命名为"Bakelite"（电木）。这一天标志着材料设计史上最重要的转折点：人类第一次创造了一种自然界中不存在的材料，从此彻底改变了工业设计的可能性边界。',
     
@@ -1818,8 +1818,8 @@ Today, when we use 3D printing to create unprecedented forms, carbon fiber compo
     category: 'architecture',
     designer: 'Moshe Safdie',
     year: '2010',
-    tags: ['当代建筑', '城市地标', '结构工程', '综合体设计'],
-    tags_en: ['Contemporary Architecture', 'Urban Landmark', 'Structural Engineering', 'Mixed-Use Design'],
+    tags: ['重新定义了城市天际线', '改变了综合体建筑模式', '结构工程的奇迹', '新加坡的全球名片'],
+    tags_en: ['Redefined the Urban Skyline', 'Changed Mixed-Use Architecture', 'Structural Engineering Marvel', 'Singapore\'s Global Calling Card'],
     
     dateConnection: '1819年2月6日，英国东印度公司的 Stamford Raffles 与柔佛苏丹签署《新加坡条约》，标志着现代新加坡的建立。191年后的2010年，Marina Bay Sands 在同一片土地上拔地而起——这座由 Moshe Safdie 设计的建筑，成为新加坡从殖民地贸易港口蜕变为全球设计之都的终极象征。',
     
@@ -1918,8 +1918,8 @@ When you stand at the edge of the SkyPark's infinity pool, 200 meters up, the en
     category: 'industrial',
     designer: 'Naoto Fukasawa',
     year: '1999',
-    tags: ['极简主义', '日本设计', '无印良品', '民主化设计'],
-    tags_en: ['Minimalism', 'Japanese Design', 'MUJI Philosophy', 'Democratized Design'],
+    tags: ['定义了无意识设计', '改变了日用品的审美标准', '无印良品的设计灵魂', '极简主义的日本诠释'],
+    tags_en: ['Defined Without Thought Design', 'Changed Aesthetic Standard of Everyday Objects', 'Design Soul of MUJI', 'Japanese Interpretation of Minimalism'],
 
     dateConnection: '1月31日是一年中第一个月的最后一天——一个"结束"与"开始"交汇的时刻。深澤直人的 MUJI 壁挂式 CD 播放器恰好体现了这种边界消融的哲学：它让"播放音乐"这个动作的起点与终点融为一体——你拉下电源线，音乐开始；松手，音乐停止。没有复杂的界面，没有多余的步骤。设计消融在行为之中。',
 
@@ -2008,8 +2008,8 @@ Perhaps the quietest design revolution of the late 20th century — not an iPhon
     category: 'art',
     designer: 'Vivian Maier',
     year: '1929',
-    tags: ['摄影技术', '光学设计', '大众摄影', '工业精密'],
-    tags_en: ['Photography Technology', 'Optical Design', 'Mass Photography', 'Industrial Precision'],
+    tags: ['改变了街头摄影方式', '定义了中画幅摄影', '摄影大师的标志性工具', '德国精密工程典范'],
+    tags_en: ['Changed Street Photography Forever', 'Defined Medium Format Photography', 'Iconic Tool of Master Photographers', 'Pinnacle of German Precision Engineering'],
 
     dateConnection: '1926年2月1日，Vivian Maier 出生于纽约。她一生以保姆为业，却用一台 Rolleiflex 双反相机秘密拍摄了超过15万张街头照片，死后才被世人发现，成为20世纪最伟大的街头摄影师之一。Rolleiflex——这台德国工业设计的杰作——是她观察世界的眼睛。',
 
@@ -2093,8 +2093,8 @@ This may be the best answer to "why design matters": because a beautifully desig
     category: 'architecture',
     designer: 'Reed & Stem, Warren & Wetmore',
     year: '1913',
-    tags: ['布扎建筑', '城市基础设施', 'Art Deco', '公共空间'],
-    tags_en: ['Beaux-Arts Architecture', 'Urban Infrastructure', 'Art Deco', 'Public Space'],
+    tags: ['重新定义了交通建筑', '纽约的城市客厅', 'Art Deco建筑杰作', '基础设施也可以是艺术'],
+    tags_en: ['Redefined Transportation Architecture', 'New York\'s Living Room', 'Art Deco Masterpiece', 'Infrastructure as Art'],
 
     dateConnection: '1913年2月2日，纽约中央车站（Grand Central Terminal）正式启用。这座布扎（Beaux-Arts）风格的建筑杰作不仅重新定义了交通枢纽的设计，更创造了"城市客厅"的全新概念。',
 
@@ -2174,8 +2174,8 @@ This design philosophy of "creating ceremony within functional space" extends fr
     category: 'industrial',
     designer: 'Alvar Aalto',
     year: '1933',
-    tags: ['北欧设计', '民主化设计', '批量生产', '功能主义'],
-    tags_en: ['Scandinavian Design', 'Democratized Design', 'Mass Production', 'Functionalism'],
+    tags: ['北欧设计的奠基之作', '让好设计人人买得起', '弯曲木技术的突破', '卖出800万把的设计奇迹'],
+    tags_en: ['Foundation of Scandinavian Design', 'Made Good Design Affordable', 'Breakthrough in Bentwood Technology', '8 Million Sold — A Design Miracle'],
 
     dateConnection: '1898年2月3日，芬兰建筑师、设计师 Alvar Aalto 出生于 Kuortane。他设计的 Stool 60 是工业设计史上最成功的家具之一——至今已售出超过800万件，几乎每个芬兰家庭都有一把。',
 
@@ -2274,8 +2274,8 @@ With one stool, Aalto proved that great design doesn't need exclamation marks �
     category: 'fashion',
     designer: 'Levi Strauss',
     year: '1873',
-    tags: ['美国工装', '民主化时尚', '文化符号', '批量生产'],
-    tags_en: ['American Workwear', 'Democratized Fashion', 'Cultural Icon', 'Mass Production'],
+    tags: ['改变了全世界的穿着方式', '从工装到文化符号', '美国精神的象征', '铆钉专利改变了服装业'],
+    tags_en: ['Changed How the World Dresses', 'From Workwear to Cultural Icon', 'Symbol of the American Spirit', 'A Rivet Patent That Changed Fashion'],
 
     dateConnection: `1829年2月26日，Levi Strauss 出生于德国巴伐利亚的布滕海姆。这位日后将彻底改变人类穿着方式的移民，在18岁时跟随家人远渡重洋来到美国，最终在旧金山淘金热中找到了属于自己的"金矿"——不是在河床里，而是在工人们磨破的裤子上。`,
 
@@ -2344,8 +2344,8 @@ The deeper impact is **design democratization**: the 501 proved that great desig
     category: 'graphic',
     designer: 'John Baskerville',
     year: '1757',
-    tags: ['字体设计', '启蒙运动', '印刷革命', '理性主义'],
-    tags_en: ['Typography', 'Enlightenment', 'Print Revolution', 'Rationalism'],
+    tags: ['改变了印刷的审美标准', '启蒙运动的视觉表达', '过渡字体的开创者', '影响了两百年的排版设计'],
+    tags_en: ['Changed the Aesthetic Standard of Print', 'Visual Expression of the Enlightenment', 'Pioneer of Transitional Typefaces', 'Shaped 200 Years of Typography'],
 
     dateConnection: '1707年1月28日，John Baskerville 在英格兰伍斯特郡受洗。这位从墓碑雕刻师到漆器商人、再到印刷革命者的传奇人物，用一款字体改变了整个西方排版美学的走向。',
     dateConnection_en: 'John Baskerville was baptised on January 28, 1707 in Worcestershire, England. This remarkable figure — who went from gravestone carver to japanning manufacturer to printing revolutionary — changed the course of Western typographic aesthetics with a single typeface.',
@@ -2395,8 +2395,8 @@ His invention of wove paper fundamentally transformed the paper industry and rem
     category: 'industrial',
     designer: 'Karl Benz',
     year: '1886',
-    tags: ['汽车工业', '工业革命', '交通变革', '专利设计'],
-    tags_en: ['Automotive Industry', 'Industrial Revolution', 'Transportation', 'Patent Design'],
+    tags: ['世界第一辆汽车', '改变了人类出行方式', '现代交通的起点', '工业革命的里程碑'],
+    tags_en: ['World\'s First Automobile', 'Changed How Humanity Moves', 'Starting Point of Modern Transport', 'Industrial Revolution Milestone'],
 
     dateConnection: '1886年1月29日，Karl Benz 为他的"气体驱动车辆"（Benz Patent-Motorwagen）申请了专利（DRP 37435）。这是人类历史上第一辆被授予专利的汽车，标志着汽车工业的诞生。',
     dateConnection_en: 'On January 29, 1886, Karl Benz filed the patent for his "vehicle powered by a gas engine" (Benz Patent-Motorwagen, DRP 37435). It was the first automobile ever to be granted a patent, marking the birth of the automotive industry.',
@@ -2446,8 +2446,8 @@ But the Motorwagen's design legacy extends far beyond brand heritage. It establi
     category: 'architecture',
     designer: 'Balthasar Neumann',
     year: '1744',
-    tags: ['巴洛克建筑', '洛可可', '宫廷文化', '空间叙事'],
-    tags_en: ['Baroque Architecture', 'Rococo', 'Court Culture', 'Spatial Narrative'],
+    tags: ['巴洛克建筑的巅峰', '颠覆了教堂空间设计', '光与空间的戏剧大师', '洛可可美学的极致'],
+    tags_en: ['Peak of Baroque Architecture', 'Revolutionized Church Spatial Design', 'Master of Light and Spatial Drama', 'Rococo Aesthetic at Its Finest'],
 
     dateConnection: '1687年1月30日，巴洛克建筑大师 Balthasar Neumann 在波希米亚的埃格尔（今捷克赫布）受洗。他设计的维尔茨堡宫被 UNESCO 称为"欧洲最杰出的巴洛克宫殿之一"，其大楼梯间拥有世界上最大的天花板壁画。',
     dateConnection_en: 'Balthasar Neumann, the Baroque architectural master, was baptised on January 30, 1687 in Eger, Bohemia (now Cheb, Czech Republic). His Würzburg Residence is described by UNESCO as "one of the most outstanding Baroque palaces in Europe," with the grand staircase hall featuring the world\'s largest ceiling fresco.',
@@ -2501,8 +2501,8 @@ His Basilica of the Fourteen Holy Helpers (Vierzehnheiligen) is equally a pinnac
     category: 'art',
     designer: 'Édouard Manet',
     year: '1863',
-    tags: ['现实主义', '现代绘画', '女性凝视', '艺术争议'],
-    tags_en: ['Realism', 'Modern Painting', 'Female Gaze', 'Art Controversy'],
+    tags: ['引发了艺术史上最大的丑闻', '现代绘画的开端', '颠覆了女性裸体的表现方式', '印象派的思想先驱'],
+    tags_en: ['Sparked Art History\'s Greatest Scandal', 'Birth of Modern Painting', 'Subverted the Female Nude', 'Intellectual Precursor to Impressionism'],
 
     dateConnection: '1832年1月23日，Édouard Manet 出生于巴黎。他被公认为现代主义绘画的奠基人，《奥林匹亚》是他最具颠覆性的作品——一幅让整个巴黎艺术界炸锅的画。',
     dateConnection_en: 'Édouard Manet was born on January 23, 1832 in Paris. Widely regarded as the founding figure of modernist painting, his Olympia remains one of the most subversive works in art history — a painting that scandalized the entire Parisian art world.',
@@ -2572,8 +2572,8 @@ Manet proved that art could confront reality, refuse to beautify, and challenge 
     category: 'software',
     designer: 'Apple / Hartmut Esslinger',
     year: '1984',
-    tags: ['个人电脑', '图形界面', '民主化设计', '数字革命'],
-    tags_en: ['Personal Computing', 'GUI Revolution', 'Democratized Design', 'Digital Revolution'],
+    tags: ['让电脑走进千家万户', '图形界面革命的开端', '定义了个人电脑时代', '改变了人机交互方式'],
+    tags_en: ['Brought Computers to Every Home', 'Birth of the GUI Revolution', 'Defined the Personal Computer Era', 'Changed Human-Computer Interaction'],
 
     dateConnection: '1984年1月24日，Steve Jobs 在 Apple 股东大会上发布了初代 Macintosh。这不仅是一台电脑——它是图形用户界面走向大众的历史性时刻，是"个人电脑应该是什么样"这个问题的第一个真正答案。',
     dateConnection_en: 'On January 24, 1984, Steve Jobs unveiled the original Macintosh at an Apple shareholders meeting. This wasn\'t just a computer — it was the historic moment when the graphical user interface reached the masses, the first real answer to the question "what should a personal computer look like."',
@@ -2635,8 +2635,8 @@ From iPod to iPhone, the design philosophy behind every Apple product — "techn
     category: 'fashion',
     designer: 'Peter Moore',
     year: '1985',
-    tags: ['运动时尚', '街头文化', '球鞋文化', '跨界设计'],
-    tags_en: ['Athleisure', 'Street Culture', 'Sneaker Culture', 'Crossover Design'],
+    tags: ['开创了球星签名鞋时代', '从被NBA禁到全球现象', '改变了运动营销方式', '球鞋文化的起点'],
+    tags_en: ['Launched the Signature Shoe Era', 'From NBA Ban to Global Phenomenon', 'Changed Sports Marketing Forever', 'Origin of Sneaker Culture'],
 
     dateConnection: '1964年1月25日，俄勒冈大学田径运动员 Phil Knight 和教练 Bill Bowerman 以 $500 各出一半创立了 Blue Ribbon Sports——这家公司后来改名为 Nike。从 $1,000 起步的运动鞋小作坊，成长为定义全球运动时尚的帝国。',
     dateConnection_en: 'On January 25, 1964, University of Oregon track athlete Phil Knight and coach Bill Bowerman each put in $500 to found Blue Ribbon Sports — the company that would later become Nike. From a $1,000 sneaker startup to the empire that defined global athletic fashion.',
@@ -2702,8 +2702,8 @@ Nike grew from a $1,000 startup into a global brand worth over $150B — all of 
     category: 'film',
     designer: 'Maria Björnson',
     year: '1986',
-    tags: ['音乐剧', '舞台设计', '流行文化', '情感叙事'],
-    tags_en: ['Musical Theatre', 'Stage Design', 'Pop Culture', 'Emotional Narrative'],
+    tags: ['史上最长寿的百老汇音乐剧', '重新定义了舞台视觉体验', '改变了音乐剧制作规模', '流行文化的永恒符号'],
+    tags_en: ['Longest-Running Broadway Musical', 'Redefined Stage Visual Experience', 'Changed the Scale of Musical Production', 'Enduring Symbol of Pop Culture'],
 
     dateConnection: '1988年1月26日，Andrew Lloyd Webber 的《歌剧魅影》在纽约百老汇 Majestic Theatre 首演。此后它连续演出 35 年，成为百老汇历史上最长寿的剧目，也是全球票房最高的娱乐作品之一。而这一切的视觉魔法，来自一位不为大众所知的设计天才：Maria Björnson。',
     dateConnection_en: 'On January 26, 1988, Andrew Lloyd Webber\'s The Phantom of the Opera opened on Broadway at the Majestic Theatre. It would run continuously for 35 years, becoming the longest-running show in Broadway history and one of the highest-grossing entertainment properties ever. All of its visual magic came from a design genius largely unknown to the public: Maria Björnson.',
@@ -2765,8 +2765,8 @@ She passed away in 2002 at just 53. Andrew Lloyd Webber called her "the greatest
     category: 'music',
     designer: 'Wolfgang Amadeus Mozart',
     year: '1756',
-    tags: ['古典音乐', '音乐设计', '天才神话', '文化遗产'],
-    tags_en: ['Classical Music', 'Music Design', 'Genius Myth', 'Cultural Heritage'],
+    tags: ['改变了古典音乐的方向', '定义了天才的文化形象', '影响了所有后来的作曲家', '音乐史上最伟大的神童'],
+    tags_en: ['Changed the Direction of Classical Music', 'Defined the Cultural Image of Genius', 'Influenced Every Composer After Him', 'Greatest Prodigy in Music History'],
 
     dateConnection: '1756年1月27日，Wolfgang Amadeus Mozart 出生于奥地利萨尔茨堡。他在短短35年的生命中创作了超过600部作品，重新定义了音乐的形式与可能性。如果"设计"是"有意识地组织元素以达成目的"，那么 Mozart 是人类历史上最伟大的设计师之一。',
     dateConnection_en: 'Wolfgang Amadeus Mozart was born on January 27, 1756 in Salzburg, Austria. In just 35 years of life, he composed over 600 works, redefining the form and possibilities of music. If "design" is "the conscious organization of elements toward a purpose," then Mozart was one of the greatest designers in human history.',
@@ -2838,8 +2838,8 @@ Salzburg became a global music pilgrimage site because of him, with the annual S
     category: 'graphic',
     designer: 'Robert Kalina',
     year: '2002',
-    tags: ['货币设计', '欧洲一体化', '文化符号', '平面设计'],
-    tags_en: ['Currency Design', 'European Integration', 'Cultural Symbol', 'Graphic Design'],
+    tags: ['欧洲统一的视觉象征', '改变了货币设计范式', '最大规模的跨国设计项目', '用设计连接了一个大陆'],
+    tags_en: ['Visual Symbol of European Unity', 'Changed Currency Design Paradigm', 'Largest Multinational Design Project', 'Connected a Continent Through Design'],
 
     dateConnection: '2002年1月1日，欧元纸币和硬币在12个欧盟成员国正式流通，这是人类货币史上规模最大的一次货币替换行动——3亿人在一夜之间开始使用全新的纸币。',
     designerBio: `Robert Kalina，奥地利中央银行的平面设计师，1996年在欧洲货币研究所举办的设计竞赛中胜出。他面对的挑战前所未有：设计一套不代表任何单一国家的货币，同时要让十几个文化背景各异的国家都能接受。
@@ -2882,8 +2882,8 @@ Seven denominations (€5 to €500) span seven architectural periods: Classical
     category: 'software',
     designer: 'Isaac Asimov',
     year: '1942',
-    tags: ['科幻文学', '人工智能伦理', '设计伦理', '未来主义'],
-    tags_en: ['Science Fiction', 'AI Ethics', 'Design Ethics', 'Futurism'],
+    tags: ['定义了AI伦理框架', '影响了真实的机器人研究', '科幻史上最伟大的思想实验', '预言了人机关系的未来'],
+    tags_en: ['Defined the AI Ethics Framework', 'Influenced Real Robotics Research', 'Greatest Thought Experiment in Sci-Fi', 'Predicted the Future of Human-Machine Relations'],
 
     dateConnection: '1920年1月2日，Isaac Asimov 出生于俄罗斯斯摩棱斯克省彼得罗维奇。这位科幻巨匠后来提出的"机器人三定律"，成为人机交互设计领域最具影响力的思想框架之一。',
     designerBio: `Isaac Asimov（1920–1992），生物化学教授、科幻作家、科普作家，一生著述超过500部作品。他不是传统意义上的"设计师"，但他在1942年短篇小说《转圈圈》（Runaround）中首次明确提出的"机器人三定律"，本质上是一套**人机交互的设计规范**。
@@ -2930,8 +2930,8 @@ The most profound design insight lies in the First Law's "inaction" clause: a ro
     category: 'graphic',
     designer: 'J.R.R. Tolkien',
     year: '1954',
-    tags: ['奇幻文学', '世界构建', '地图设计', '叙事设计'],
-    tags_en: ['Fantasy Literature', 'Worldbuilding', 'Cartographic Design', 'Narrative Design'],
+    tags: ['开创了现代奇幻文学', '世界构建的终极典范', '影响了整个游戏产业', '创造了全新的文学类型'],
+    tags_en: ['Created Modern Fantasy Literature', 'Ultimate Standard for Worldbuilding', 'Shaped the Entire Gaming Industry', 'Invented a New Literary Genre'],
 
     dateConnection: '1892年1月3日，J.R.R. Tolkien 出生于南非布隆方丹。这位语言学教授不仅创造了一个完整的虚构世界，还亲手为它绘制了地图——开创了"虚构世界制图学"的先河。',
     designerBio: `J.R.R. Tolkien（1892–1973），牛津大学英语语言与文学教授，《霍比特人》和《魔戒》的作者。但鲜为人知的是，Tolkien 同时是一位严肃的视觉设计师——他亲手绘制了中洲世界的地图、书法、纹章和装饰图案。
@@ -2974,8 +2974,8 @@ There's an overlooked dimension to Tolkien's map design: **they are hand-drawn.*
     category: 'architecture',
     designer: 'Adrian Smith',
     year: '2010',
-    tags: ['超高层建筑', '结构工程', '城市地标', '参数化设计'],
-    tags_en: ['Supertall Architecture', 'Structural Engineering', 'Urban Landmark', 'Parametric Design'],
+    tags: ['世界最高建筑', '结构工程的极限挑战', '重新定义了城市天际线', '人类建造能力的象征'],
+    tags_en: ['World\'s Tallest Building', 'Pushed Structural Engineering to Its Limit', 'Redefined Urban Skylines', 'Symbol of Human Building Ambition'],
 
     dateConnection: '2010年1月4日，哈利法塔在迪拜正式开幕，以828米的高度成为世界最高建筑。这座超高层建筑不仅打破了工程记录，更重新定义了摩天大楼的设计语言。',
     designerBio: `Adrian Smith，美国建筑师，设计哈利法塔时任 SOM（Skidmore, Owings & Merrill）合伙人。他面对的设计挑战不仅是"盖世界最高的楼"，更是如何让一座超过800米的建筑在美学上成立——不沦为一根无聊的巨柱。
@@ -3019,8 +3019,8 @@ Smith drew inspiration from the desert flower Hymenocallis (spider lily). Its si
     category: 'film',
     designer: 'å®«å´Žéª',
     year: '2001',
-    tags: ['日本动画', '叙事设计', '文化符号', '手绘动画'],
-    tags_en: ['Japanese Animation', 'Narrative Design', 'Cultural Icon', 'Hand-Drawn Animation'],
+    tags: ['第一部获奥斯卡的日本动画', '定义了日本动画的全球形象', '改变了西方对动画的认知', '手绘动画的巅峰'],
+    tags_en: ['First Japanese Anime to Win an Oscar', 'Defined Japan\'s Global Animation Image', 'Changed Western Perception of Animation', 'Peak of Hand-Drawn Animation'],
 
     dateConnection: '宫崎骏（Hayao Miyazaki）1941年1月5日出生于东京。他是吉卜力工作室的灵魂人物，用手绘动画创造了一个又一个令全世界着迷的幻想世界。《千与千寻》是他最具代表性的作品，2003年获奥斯卡最佳动画长片奖。',
     designerBio: `宫崎骏，日本动画界的活神话，1941年1月5日生于东京。
@@ -3076,8 +3076,8 @@ The film earned ¥31.6 billion at the Japanese box office (still unbroken), the 
     category: 'art',
     designer: 'Gustave Doré',
     year: '1861',
-    tags: ['文学插图', '版画艺术', '叙事视觉化', '象征主义'],
-    tags_en: ['Literary Illustration', 'Printmaking', 'Visual Narrative', 'Symbolism'],
+    tags: ['定义了圣经的视觉想象', '版画艺术的巅峰', '影响了电影和漫画的视觉语言', '改变了文学插图的地位'],
+    tags_en: ['Defined the Visual Imagination of the Bible', 'Peak of Printmaking Art', 'Influenced Visual Language of Film and Comics', 'Elevated the Status of Literary Illustration'],
 
     dateConnection: '1832年1月6日，Gustave Doré 出生于法国斯特拉斯堡。这个15岁就开始为巴黎报纸画漫画的天才少年，后来成为19世纪最伟大的插画家——他为但丁《神曲》创作的版画插图，至今仍是西方文学视觉化的最高标准。',
     designerBio: `Gustave Doré (1832-1883)，法国版画家、插画家、画家、雕塑家。
@@ -3137,8 +3137,8 @@ He went on to illustrate Milton's Paradise Lost, Cervantes' Don Quixote, La Font
     category: 'graphic',
     designer: 'Charles Addams',
     year: '1938',
-    tags: ['哥特美学', '角色设计', '流行文化', '暗黑幽默'],
-    tags_en: ['Gothic Aesthetic', 'Character Design', 'Pop Culture', 'Dark Humor'],
+    tags: ['颠覆了美国家庭形象', '哥特美学的流行化', '影响了整个恐怖喜剧类型', '定义了暗黑幽默的审美'],
+    tags_en: ['Subverted the American Family Image', 'Popularized Gothic Aesthetic', 'Influenced the Horror-Comedy Genre', 'Defined the Aesthetic of Dark Humor'],
 
     dateConnection: '1912年1月7日，Charles Addams 出生于美国新泽西州韦斯特菲尔德。这个从小就喜欢在墓地闲逛的男孩，后来创造了美国流行文化中最著名的哥特家庭——亚当斯一家。从《纽约客》漫画到电视剧、电影、音乐剧，这个黑色幽默的家族形象影响了整整一个世纪的视觉文化。',
     designerBio: `Charles Addams (1912-1988)，美国漫画家，以黑色幽默和哥特风格著称。
@@ -3198,8 +3198,8 @@ The inspiration drawn from a small-town New Jersey cemetery ultimately grew into
     category: 'music',
     designer: 'David Bowie',
     year: '1972',
-    tags: ['摇滚美学', '舞台设计', '性别流动', '文化颠覆'],
-    tags_en: ['Glam Rock', 'Stage Design', 'Gender Fluidity', 'Cultural Subversion'],
+    tags: ['颠覆了性别与身份的边界', '开创了摇滚视觉文化', '改变了流行音乐的表演方式', '华丽摇滚运动的象征'],
+    tags_en: ['Shattered Gender and Identity Boundaries', 'Pioneered Rock Visual Culture', 'Changed How Pop Music Is Performed', 'Symbol of the Glam Rock Movement'],
 
     dateConnection: 'David Bowie 1947年1月8日出生于伦敦布里克斯顿。他不仅是音乐家，更是一位视觉设计大师——Ziggy Stardust 是流行文化史上最具影响力的角色设计，定义了"音乐人即视觉品牌"的范式。',
     designerBio: `David Bowie (1947-2016)，英国音乐家、演员、视觉艺术家，流行文化的变形者。
@@ -3259,8 +3259,8 @@ This was the boldest "brand termination" in design history — suicidally ending
     category: 'software',
     designer: 'Apple',
     year: '2007',
-    tags: ['用户体验', '触屏革命', '民主化设计', '数字时代'],
-    tags_en: ['User Experience', 'Touchscreen Revolution', 'Democratized Design', 'Digital Age'],
+    tags: ['重新发明了手机', '触屏革命的开端', '改变了十亿人的日常生活', '定义了智能手机时代'],
+    tags_en: ['Reinvented the Phone', 'Birth of the Touchscreen Revolution', 'Changed the Daily Life of a Billion People', 'Defined the Smartphone Era'],
 
     dateConnection: '2007年1月9日，Steve Jobs 在 Macworld 大会上发布了初代 iPhone——"一个 iPod，一个手机，一个突破性的互联网通信设备"。这三句话改变了整个消费电子行业。',
     designerBio: `Apple 工业设计团队在 Jony Ive 的带领下，将硬件、软件、交互三者融为一体。
@@ -3308,8 +3308,8 @@ The original iPhone had no App Store (that came a year later), no 3G, no copy-pa
     category: 'art',
     designer: 'Barbara Hepworth',
     year: '1964',
-    tags: ['现代雕塑', '有机形态', '抽象艺术', '公共艺术'],
-    tags_en: ['Modern Sculpture', 'Organic Form', 'Abstract Art', 'Public Art'],
+    tags: ['定义了现代公共雕塑', '将抽象艺术带入城市空间', '打破了雕塑界的性别壁垒', '有机形态的诗意表达'],
+    tags_en: ['Defined Modern Public Sculpture', 'Brought Abstract Art into Urban Space', 'Broke Gender Barriers in Sculpture', 'Poetic Expression of Organic Form'],
 
     dateConnection: 'Barbara Hepworth 于1903年1月10日出生在英国约克郡韦克菲尔德。她是20世纪最重要的雕塑家之一，与 Henry Moore 并列为英国现代雕塑的奠基人。',
     designerBio: `Barbara Hepworth（1903–1975），英国雕塑家，抽象雕塑运动的核心人物。
@@ -3361,8 +3361,8 @@ On June 11, 1964, Single Form was unveiled at UN headquarters. Sunlight passed t
     category: 'industrial',
     designer: 'George Stanley',
     year: '1929',
-    tags: ['奖项设计', '文化符号', 'Art Deco', '好莱坞'],
-    tags_en: ['Award Design', 'Cultural Symbol', 'Art Deco', 'Hollywood'],
+    tags: ['全球最具辨识度的奖杯', 'Art Deco的永恒符号', '定义了荣誉的视觉形象', '好莱坞的权力象征'],
+    tags_en: ['Most Recognizable Trophy in the World', 'Timeless Symbol of Art Deco', 'Defined the Visual Image of Honor', 'Power Symbol of Hollywood'],
 
     dateConnection: '1927年1月11日，美国电影艺术与科学学院（AMPAS）正式成立。两年后，学院创造了奥斯卡金像奖——影史上最著名的设计物件之一。',
     designerBio: `奥斯卡小金人的设计出自 Cedric Gibbons 之手——他是米高梅的首席艺术总监，也是好莱坞布景设计的教父级人物。
@@ -3418,8 +3418,8 @@ Why "Oscar"? The origin remains debated. The most popular story is that Academy 
     category: 'architecture',
     designer: 'Philip Webb',
     year: '1860',
-    tags: ['工艺美术运动', '中世纪复兴', '功能主义', '建筑改革'],
-    tags_en: ['Arts and Crafts Movement', 'Medieval Revival', 'Functionalism', 'Architectural Reform'],
+    tags: ['工艺美术运动的起点', '改变了住宅设计理念', '反工业化的建筑宣言', '现代建筑改革的先声'],
+    tags_en: ['Starting Point of Arts and Crafts Movement', 'Changed Residential Design Philosophy', 'Anti-Industrial Architectural Manifesto', 'Herald of Modern Architectural Reform'],
 
     dateConnection: 'Philip Webb 于1831年1月12日出生在英国牛津。他是英国工艺美术运动最重要的建筑师，而 Red House 是他最著名的作品——也是整个运动的宣言建筑。',
     designerBio: `Philip Webb（1831–1915），英国建筑师，工艺美术运动（Arts and Crafts Movement）的建筑核心人物。
@@ -3483,8 +3483,8 @@ It was during Red House's construction that Morris discovered he couldn't buy fu
     category: 'graphic',
     designer: 'National Geographic Society',
     year: '1888',
-    tags: ['杂志设计', '视觉新闻', '摄影传播', '文化教育'],
-    tags_en: ['Magazine Design', 'Visual Journalism', 'Photography', 'Cultural Education'],
+    tags: ['用摄影改变了人们看世界的方式', '视觉新闻的先驱', '定义了纪实摄影美学', '最具影响力的黄色边框'],
+    tags_en: ['Changed How People See the World Through Photography', 'Pioneer of Visual Journalism', 'Defined Documentary Photography Aesthetic', 'Most Influential Yellow Border'],
 
     dateConnection: '1888年1月13日，国家地理学会在华盛顿特区成立，33位创始人齐聚宇宙俱乐部，立下"增进和传播地理知识"的使命。九个月后，第一期《国家地理》杂志面世。',
     designerBio: `国家地理学会由探险家、地理学家、军事战略家等33人联合创立，首任会长是电话发明者亚历山大·格雷厄姆·贝尔的岳父加迪纳·格林·哈伯德。贝尔本人后来接任会长，将杂志从干涩的学术刊物转型为面向大众的视觉读物——这一决定彻底改变了杂志的命运。
@@ -3528,8 +3528,8 @@ From a layout perspective, National Geographic established the paradigm of "imme
     category: 'art',
     designer: 'Berthe Morisot',
     year: '1872',
-    tags: ['工艺美术运动', '有机设计', '手工艺复兴', '家具设计'],
-    tags_en: ['Arts and Crafts Movement', 'Organic Design', 'Craft Revival', 'Furniture Design'],
+    tags: ['印象派首位女性画家', '颠覆了母性的艺术表现', '打破了艺术界的性别壁垒', '私密空间的革命性描绘'],
+    tags_en: ['First Female Impressionist Painter', 'Subverted Artistic Depiction of Motherhood', 'Broke Gender Barriers in the Art World', 'Revolutionary Portrayal of Intimate Space'],
 
     dateConnection: '1841年1月14日，贝尔特·莫里索出生于法国布尔日。她是印象派运动的核心成员之一，也是19世纪最重要的女性画家——在一个女性甚至不被允许进入美术学院的时代。',
     designerBio: `贝尔特·莫里索出身于一个开明的法国中产家庭。她的父亲是省长，母亲是弗拉戈纳尔的后裔。莫里索和姐姐从小接受绘画教育，但她很快超越了"闺秀消遣"的范畴，成为一位真正的职业艺术家。
@@ -3577,8 +3577,8 @@ When *The Cradle* was exhibited at the first Impressionist exhibition in 1874, i
     category: 'software',
     designer: 'Jimmy Wales & Larry Sanger',
     year: '2001',
-    tags: ['知识民主化', '开源运动', '数字百科', '协作设计'],
-    tags_en: ['Knowledge Democratization', 'Open Source', 'Digital Encyclopedia', 'Collaborative Design'],
+    tags: ['颠覆了知识的生产方式', '人类历史上最大的协作项目', '开源运动的标杆', '消灭了传统百科全书'],
+    tags_en: ['Disrupted How Knowledge Is Produced', 'Largest Collaborative Project in Human History', 'Benchmark of the Open Source Movement', 'Made Traditional Encyclopedias Obsolete'],
 
     dateConnection: '2001年1月15日，维基百科正式上线。这个由用户协作编辑的免费百科全书，如今拥有超过6000万篇文章，覆盖300多种语言，是人类历史上最大的知识汇编工程。',
     designerBio: `维基百科的诞生源于一个失败的实验。吉米·威尔士最初创建的是 Nupedia——一个由专家撰写、经过严格同行评审的在线百科全书。但 Nupedia 进展极其缓慢，三年只产出了24篇完成的文章。
@@ -3630,8 +3630,8 @@ From a UX perspective, Wikipedia's editing system was **one of the earliest larg
     category: 'industrial',
     designer: 'André Michelin',
     year: '1900',
-    tags: ['评级体系', '美食文化', '品牌设计', '标准化'],
-    tags_en: ['Rating System', 'Gastronomy Culture', 'Brand Design', 'Standardization'],
+    tags: ['发明了餐厅评级制度', '改变了全球美食产业', '最具权力的三颗星', '从轮胎到美食帝国'],
+    tags_en: ['Invented the Restaurant Rating System', 'Changed the Global Gastronomy Industry', 'Most Powerful Three Stars', 'From Tires to Gastronomy Empire'],
 
     dateConnection: '1853年1月16日，安德烈·米其林出生于巴黎。他与弟弟爱德华共同创建了米其林轮胎公司，并在1900年发明了一本小红书——《米其林指南》，这本免费赠送给驾车者的手册，意外地成为了全球最权威的餐厅评级体系。',
     designerBio: `安德烈·米其林是一个**跨界思维**的先驱。他毕业于巴黎中央理工学院，最初从事地图制作工作。1889年，他与弟弟爱德华接管了家族的橡胶工厂，将其转型为轮胎公司。
@@ -3679,8 +3679,8 @@ From a design perspective, the *Michelin Guide* is **a masterclass in informatio
     category: 'fashion',
     designer: 'Vidal Sassoon',
     year: '1963',
-    tags: ['时尚革命', '几何剪裁', '现代主义', '女性解放'],
-    tags_en: ['Fashion Revolution', 'Geometric Cut', 'Modernism', 'Women\'s Liberation'],
+    tags: ['解放了女性的头发', '改变了整个美发行业', '将包豪斯美学带入时尚', '60年代女性解放的象征'],
+    tags_en: ['Liberated Women\'s Hair', 'Changed the Entire Hairdressing Industry', 'Brought Bauhaus Aesthetic into Fashion', 'Symbol of 1960s Women\'s Liberation'],
     dateConnection: 'Vidal Sassoon 于 1928 年 1 月 17 日出生于伦敦。这位彻底改变了发型设计的传奇人物，将建筑学的几何思维引入了美发领域。',
     designerBio: `Vidal Sassoon（1928–2012）出生于伦敦东区一个贫困的犹太家庭，14 岁便成为美发学徒。二战后他在以色列参加了独立战争，回到伦敦后在邦德街开设了自己的第一家沙龙。\n\nSassoon 对当时流行的僵硬、依赖发胶和卷发器的发型深感不满。他相信头发应该像建筑一样——拥有内在结构，而不是依赖外部支撑。他研究包豪斯建筑和几何学，将这些原则融入了发型设计。`,
     story: `1963 年，Sassoon 推出了革命性的 **Five-Point Cut**——一种不需要任何发胶或卷发器就能保持形状的几何短发。五个精确的切割点创造出一个完美的几何轮廓，头发会自然落回原位，如同建筑结构般稳固。\n\n这个发型的灵感来自包豪斯建筑的几何线条。Sassoon 后来回忆说："我想创造一种像建筑一样有结构的发型，洗完头甩一甩就能恢复原状。"\n\n1964 年，时尚设计师 Mary Quant 请 Sassoon 为她的模特设计发型。Sassoon 的几何短发与 Quant 的迷你裙完美搭配，共同定义了"摇摆伦敦"（Swinging London）的视觉语言。\n\n1968 年，导演 Roman Polanski 邀请 Sassoon 在电影《Rosemary's Baby》中为 Mia Farrow 剪掉长发——这个镜头成为了电影史上最令人难忘的场景之一。`,
@@ -3706,8 +3706,8 @@ From a design perspective, the *Michelin Guide* is **a masterclass in informatio
     category: 'industrial',
     designer: 'Philippe Starck',
     year: '1990',
-    tags: ['后现代设计', '意大利设计', '功能争议', '设计艺术化'],
-    tags_en: ['Postmodern Design', 'Italian Design', 'Form vs Function', 'Design as Art'],
+    tags: ['模糊了设计与艺术的边界', '后现代设计的标志', '史上最著名的不好用设计', '挑战了功能主义教条'],
+    tags_en: ['Blurred the Line Between Design and Art', 'Icon of Postmodern Design', 'Most Famous Dysfunctional Design', 'Challenged Functionalist Dogma'],
     dateConnection: 'Philippe Starck 于 1949 年 1 月 18 日出生于巴黎。这位当代最具争议也最具影响力的设计师，用一个榨汁器改变了人们对日用品的认知。',
     designerBio: `Philippe Starck（1949—）出生于巴黎，父亲是航空工程师。他从小在父亲的绘图桌下长大，吸收了工程与设计的双重基因。\n\nStarck 是少数能让设计"出圈"的设计师。从 1983 年为法国总统密特朗设计爱丽舍宫私人公寓开始，他的作品横跨家具、酒店、餐具、牙刷甚至太空旅馆。他信奉"民主设计"——好设计不应该是少数人的特权。`,
     story: `1988 年，Starck 在意大利 Capraia 岛的海鲜餐厅吃饭时，一边挤柠檬汁一边在餐巾纸上涂鸦。他画了无数个鱿鱼——柠檬汁和鱿鱼的形象在他脑中奇妙地融合了。\n\n1990 年，**Juicy Salif** 由 Alessi 公司上市。这个外星生物般的铝制柠檬榨汁器立刻引发轩然大波——三条蜘蛛般的长腿，顶部是带纹路的锥形头。造型戏剧化，但作为榨汁器饱受争议。\n\n甚至 Starck 本人都承认："我的榨汁器不是用来榨柠檬的，而是用来开启对话的。"这恰恰揭示了它的真正价值：工业设计史上第一件公然挑战"功能至上"教条的日用品。\n\nAlessi 还推出过 24K 镀金限量版，说明书写着："请勿使用，金色涂层会被柠檬酸腐蚀。"完美诠释了 Starck 的设计哲学。`,
@@ -3733,8 +3733,8 @@ From a design perspective, the *Michelin Guide* is **a masterclass in informatio
     category: 'art',
     designer: 'Paul Cézanne',
     year: '1885',
-    tags: ['后印象派', '现代绘画', '色彩革命', '形式探索'],
-    tags_en: ['Post-Impressionism', 'Modern Painting', 'Color Revolution', 'Formal Exploration'],
+    tags: ['现代艺术之父', '直接启发了立体主义', '改变了绘画观看世界的方式', '后印象派的巅峰'],
+    tags_en: ['Father of Modern Art', 'Directly Inspired Cubism', 'Changed How Painting Sees the World', 'Peak of Post-Impressionism'],
     dateConnection: 'Paul Cézanne 于 1839 年 1 月 19 日出生于法国普罗旺斯地区艾克斯。被毕加索称为"我们所有人的父亲"的画家，用一座山改变了人类观看世界的方式。',
     designerBio: `Paul Cézanne（1839–1906）出生于普罗旺斯艾克斯一个富裕的银行家家庭。他与 Émile Zola 是儿时好友，早年在巴黎与印象派画家交往密切，但始终游离于主流之外。\n\nCézanne 生前几乎得不到认可，被沙龙反复拒绝。他性格孤僻，晚年回到普罗旺斯几乎与世隔绝。但他从未停止思考——他的目标不是画出"看到的"自然，而是画出自然的**结构**。`,
     story: `从 1880 年代到 1906 年去世，Cézanne 反复描绘了家乡的**圣维克多山**——油画、水彩加起来超过 80 幅。这不是简单的重复，而是持续 20 多年的视觉实验。\n\nCézanne 的革命在于：他不再把绘画当作模仿自然的窗口，而是用色彩和几何**重建**现实。他用短小的笔触将山体分解为色块和平面，让观者同时看到多个角度——比立体主义早了整整 20 年。\n\n他的名言："用圆柱体、球体和锥体来处理自然。"成为了现代艺术的基石宣言。\n\n1906 年 10 月，67 岁的 Cézanne 在户外写生时遭遇暴风雨，倒在路边。一周后去世——画架上还留着未完成的圣维克多山。`,
@@ -3760,8 +3760,8 @@ From a design perspective, the *Michelin Guide* is **a masterclass in informatio
     category: 'film',
     designer: 'Federico Fellini',
     year: '1963',
-    tags: ['元电影', '意大利新现实主义', '叙事实验', '自我指涉'],
-    tags_en: ['Meta-Cinema', 'Italian Neorealism', 'Narrative Experiment', 'Self-Referential'],
+    tags: ['发明了元电影', '改变了电影叙事方式', '影响了所有后来的导演', '电影史上最伟大的自我剖析'],
+    tags_en: ['Invented Meta-Cinema', 'Changed Cinematic Narrative', 'Influenced Every Director After', 'Greatest Self-Portrait in Film History'],
     dateConnection: '1920年1月20日，Federico Fellini 出生在意大利亚得里亚海边的小城里米尼。没人会想到，这个在马戏团和电影院里泡大的男孩，四十年后会拍出一部关于"拍不出电影"的电影——而这部电影，成了影史上最伟大的作品之一。',
     designerBio: `Federico Fellini（1920–1993）出生于意大利里米尼。年少时逃离小镇前往罗马，从漫画家和记者起步，逐渐进入电影界。\n\nFellini 是电影史上最具视觉想象力的导演之一。他的电影不追求线性叙事，而是创造完整的**视觉宇宙**——梦境、记忆、幻想与现实交织成视觉交响诗。他与美术指导 Piero Gherardi 的合作，使每一帧都如同精心设计的舞台。`,
     story: `1962年，Fellini 遇到了每个创作者最恐惧的时刻：他什么都拍不出来了。
@@ -3807,8 +3807,8 @@ The famous opening dream — Guido trapped in a traffic jam, then floating skywa
     category: 'fashion',
     designer: 'Christian Dior',
     year: '1947',
-    tags: ['时尚革命', '战后重建', '女性形象', '高级定制'],
-    tags_en: ['Fashion Revolution', 'Post-War Reconstruction', 'Feminine Silhouette', 'Haute Couture'],
+    tags: ['重新定义了战后女性形象', '改变了整个时尚产业', '高级定制的黄金时代', '用时装重建了巴黎的荣耀'],
+    tags_en: ['Redefined Post-War Femininity', 'Transformed the Entire Fashion Industry', 'Golden Age of Haute Couture', 'Rebuilt Paris\'s Glory Through Fashion'],
 
     dateConnection: '1905年1月21日，Christian Dior 出生于法国诺曼底格兰维尔。1947年，他推出了震惊世界的"New Look"系列，彻底改变了战后时尚的面貌，重新定义了女性优雅的标准。',
     designerBio: `Christian Dior（1905-1957）是20世纪最具影响力的时装设计师之一。他出身于富裕家庭，年轻时热爱艺术，曾经营画廊。大萧条摧毁了家族财富后，他转向时装设计，在 Robert Piguet 和 Lucien Lelong 麾下学习技艺。
@@ -3860,8 +3860,8 @@ From a design perspective, the core innovation was **structural.** Dior used ela
     category: 'music',
     designer: 'Sam Cooke',
     year: '1964',
-    tags: ['民权运动', '音乐设计', '社会变革', '灵魂乐'],
-    tags_en: ['Civil Rights Movement', 'Music Design', 'Social Change', 'Soul Music'],
+    tags: ['民权运动的圣歌', '用音乐改变了社会', '灵魂乐的巅峰之作', '影响了整个抗议音乐传统'],
+    tags_en: ['Anthem of the Civil Rights Movement', 'Changed Society Through Music', 'Peak of Soul Music', 'Influenced the Entire Protest Music Tradition'],
 
     dateConnection: '1931年1月22日，Sam Cooke 出生于密西西比州克拉克斯代尔。他不仅是灵魂乐的先驱，更是第一位将音乐视为"设计产品"的非裔美国艺术家——从词曲创作、录音制作到唱片公司运营，他重新设计了流行音乐的整个产业链。',
     designerBio: `Sam Cooke（1931-1964）被誉为"灵魂乐之王"，是流行音乐史上最重要的创新者之一。他生于密西西比，成长于芝加哥，从小在教堂唱诗班展露天赋，19岁便成为传奇福音组合 Soul Stirrers 的主唱。
