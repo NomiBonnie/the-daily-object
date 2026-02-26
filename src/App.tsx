@@ -494,9 +494,52 @@ function App() {
                     {renderDesignDetail(selectedDesign)}
                   </div>
                 ) : (
-                  <div className="flex items-center justify-center h-64 text-neutral-400 dark:text-neutral-600 font-light">
-                    No design available for this date
-                  </div>
+                  (() => {
+                    const quotes = [
+                      { text: "Less is more.", author: "Mies van der Rohe" },
+                      { text: "Design is not just what it looks like. Design is how it works.", author: "Steve Jobs" },
+                      { text: "Good design is as little design as possible.", author: "Dieter Rams" },
+                      { text: "Have no fear of perfection — you'll never reach it.", author: "Salvador Dalí" },
+                      { text: "Simplicity is the ultimate sophistication.", author: "Leonardo da Vinci" },
+                      { text: "The details are not the details. They make the design.", author: "Charles Eames" },
+                      { text: "Design is thinking made visual.", author: "Saul Bass" },
+                      { text: "Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away.", author: "Antoine de Saint-Exupéry" },
+                      { text: "Everything is designed. Few things are designed well.", author: "Brian Reed" },
+                      { text: "White space is to be regarded as an active element, not a passive background.", author: "Jan Tschichold" },
+                      { text: "A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.", author: "Antoine de Saint-Exupéry" },
+                      { text: "Design creates culture. Culture shapes values. Values determine the future.", author: "Robert L. Peters" },
+                      { text: "You can design and create, and build the most wonderful place in the world. But it takes people to make the dream a reality.", author: "Walt Disney" },
+                      { text: "Color is a power which directly influences the soul.", author: "Wassily Kandinsky" },
+                      { text: "The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design.", author: "Paul Rand" },
+                      { text: "Art is not what you see, but what you make others see.", author: "Edgar Degas" },
+                      { text: "To design is to communicate clearly by whatever means you can control or master.", author: "Milton Glaser" },
+                      { text: "Every great design begins with an even better story.", author: "Lorinda Mamo" },
+                      { text: "Styles come and go. Good design is a language, not a style.", author: "Massimo Vignelli" },
+                      { text: "I strive for two things in design: simplicity and clarity.", author: "Lindon Leader" },
+                      { text: "Design is the silent ambassador of your brand.", author: "Paul Rand" },
+                      { text: "Creativity is allowing yourself to make mistakes. Design is knowing which ones to keep.", author: "Scott Adams" },
+                      { text: "The best ideas come as jokes. Make your thinking as funny as possible.", author: "David Ogilvy" },
+                      { text: "Architecture should speak of its time and place, but yearn for timelessness.", author: "Frank Gehry" },
+                      { text: "Typography is the craft of endowing human language with a durable visual form.", author: "Robert Bringhurst" },
+                      { text: "Objects should be more than functional. They should be desirable.", author: "Marc Newson" },
+                      { text: "Recognizing the need is the primary condition for design.", author: "Charles Eames" },
+                      { text: "Space and light and order. Those are the things that men need just as much as they need bread or a place to sleep.", author: "Le Corbusier" },
+                      { text: "Fashion is architecture: it is a matter of proportions.", author: "Coco Chanel" },
+                      { text: "I don't design clothes. I design dreams.", author: "Ralph Lauren" },
+                    ]
+                    const seed = Math.floor(selectedDate.getTime() / 86400000)
+                    const quote = quotes[Math.abs(seed) % quotes.length]
+                    return (
+                      <div className="flex flex-col items-center justify-center h-64 text-center px-8">
+                        <p className="italic text-neutral-300 dark:text-neutral-700 font-light text-sm leading-relaxed max-w-md">
+                          "{quote.text}"
+                        </p>
+                        <p className="text-neutral-300 dark:text-neutral-700 font-light text-xs mt-3">
+                          — {quote.author}
+                        </p>
+                      </div>
+                    )
+                  })()
                 )}
               </div>
             </div>
