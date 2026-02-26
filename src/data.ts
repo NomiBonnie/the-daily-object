@@ -2926,6 +2926,230 @@ Smith drew inspiration from the desert flower Hymenocallis (spider lily). Its si
     significance_en: 'The Burj Khalifa proved that in architecture, **form and structure can be perfectly unified.** The Y-shaped plan is both an aesthetic choice and an engineering necessity; the 26 setbacks both sculpt an elegant silhouette and solve wind load problems. The best architectural design never compromises between beauty and function — they are the same thing.',
   },
 
+  // 01-05: Spirited Away
+  {
+    id: '36',
+    date: '2026-01-05',
+    imageUrl: '/the-daily-object/images/spirited-away.jpg',
+    fullImageUrl: '/the-daily-object/images/full/spirited-away.jpg',
+    title: '千与千寻',
+    title_en: 'Spirited Away',
+    subtitle: '宫崎骏, 2001',
+    subtitle_en: 'Hayao Miyazaki, 2001',
+    category: 'film',
+    designer: '宫崎骏',
+    year: '2001',
+
+    dateConnection: '宫崎骏（Hayao Miyazaki）1941年1月5日出生于东京。他是吉卜力工作室的灵魂人物，用手绘动画创造了一个又一个令全世界着迷的幻想世界。《千与千寻》是他最具代表性的作品，2003年获奥斯卡最佳动画长片奖。',
+    designerBio: `宫崎骏，日本动画界的活神话，1941年1月5日生于东京。
+
+1985年他与高畑勋共同创立吉卜力工作室，此后30余年间创作了《龙猫》《幽灵公主》《千与千寻》《哈尔的移动城堡》等一系列改变动画电影定义的作品。他坚持手绘动画，在CG横扫一切的时代显得格外珍贵。
+
+**"我创作电影不是为了传递信息，而是为了展示一个世界。"**
+
+他的设计哲学是：每一帧画面都值得被当作独立的艺术品来对待。`,
+    story: `2001年，《千与千寻》上映，讲述了10岁少女千寻误入神灵世界的奇幻冒险。
+
+这部电影的美术设计堪称动画史上的巅峰。油屋（汤屋）的建筑设计融合了日本明治时代的温泉旅馆、台湾九份老街和欧洲建筑元素，创造出一个既熟悉又陌生的异世界空间。
+
+**无脸男（カオナシ）是设计史上最天才的角色造型之一。** 一张白色面具、一个黑色身影——极简到不能再简，却承载了孤独、欲望、从众等复杂的人性主题。他没有自己的声音，只能模仿别人；没有自己的面孔，只有一张面具。这种"减法设计"让角色拥有了无限的解读空间。
+
+色彩设计同样精妙：现实世界偏冷灰，神灵世界则饱和而温暖。千寻在两个世界间的转变，通过色调的微妙变化得以视觉化。
+
+影片日本票房316亿日元（至今未被超越），柏林电影节金熊奖，奥斯卡最佳动画长片——它让全世界重新认识了手绘动画的力量。`,
+    legacy: '《千与千寻》证明了手绘动画在数字时代依然具有不可替代的艺术价值。它的美术设计影响了无数后来的动画、游戏和建筑设计。无脸男成为全球流行文化符号，吉卜力美术馆成为设计朝圣地。',
+    significance: '宫崎骏用《千与千寻》展示了一种设计哲学：**最好的设计是创造一个完整的世界观。** 从建筑到角色到色彩，每个元素都服务于同一个叙事。这不仅是电影设计的典范，更是所有设计领域的终极追求。',
+
+    dateConnection_en: 'Hayao Miyazaki was born on January 5, 1941 in Tokyo. As the creative soul of Studio Ghibli, he crafted hand-drawn animated worlds that captivated audiences worldwide. Spirited Away, his masterpiece, won the Academy Award for Best Animated Feature in 2003.',
+    designerBio_en: `Hayao Miyazaki, the living legend of Japanese animation, born January 5, 1941 in Tokyo.
+
+In 1985, he co-founded Studio Ghibli with Isao Takahata, and over the following three decades created My Neighbor Totoro, Princess Mononoke, Spirited Away, and Howl's Moving Castle — films that redefined what animation could be. His insistence on hand-drawn animation in the age of CGI makes his work all the more precious.
+
+**"I don't make films to deliver messages. I make them to show a world."**
+
+His design philosophy: every single frame deserves to be treated as an independent work of art.`,
+    story_en: `In 2001, Spirited Away premiered — the story of 10-year-old Chihiro who stumbles into the spirit world.
+
+The film's art direction stands as a pinnacle in animation history. The Bathhouse design fuses Japanese Meiji-era hot spring inns, the old streets of Jiufen in Taiwan, and European architectural elements — creating a space that feels simultaneously familiar and otherworldly.
+
+**No-Face (Kaonashi) is one of the most brilliant character designs ever conceived.** A white mask, a black silhouette — minimalism pushed to its absolute limit, yet carrying complex themes of loneliness, desire, and conformity. He has no voice of his own, only mimicry; no face of his own, only a mask. This "subtractive design" gives the character infinite interpretive space.
+
+The color design is equally masterful: the real world skews cool and grey, while the spirit world is saturated and warm. Chihiro's transformation between worlds is visualized through subtle shifts in palette.
+
+The film earned ¥31.6 billion at the Japanese box office (still unbroken), the Golden Bear at Berlin, and the Academy Award for Best Animated Feature — it made the world rediscover the power of hand-drawn animation.`,
+    legacy_en: 'Spirited Away proved that hand-drawn animation retains irreplaceable artistic value in the digital age. Its art direction influenced countless subsequent animations, games, and architectural designs. No-Face became a global pop culture icon, and the Ghibli Museum became a design pilgrimage site.',
+    significance_en: 'With Spirited Away, Miyazaki demonstrated a design philosophy: **the best design creates a complete worldview.** From architecture to characters to color, every element serves the same narrative. This is not just a benchmark for film design — it is the ultimate aspiration of all design disciplines.',
+  },
+
+  // 01-06: Prometheus of Fire (Scriabin)
+  {
+    id: '37',
+    date: '2026-01-06',
+    imageUrl: '/the-daily-object/images/prometheus-poem-of-fire.jpg',
+    fullImageUrl: '/the-daily-object/images/full/prometheus-poem-of-fire.jpg',
+    title: '普罗米修斯：火之诗',
+    title_en: 'Prometheus: The Poem of Fire',
+    subtitle: 'Alexander Scriabin, 1910',
+    subtitle_en: 'Alexander Scriabin, 1910',
+    category: 'music',
+    designer: 'Alexander Scriabin',
+    year: '1910',
+
+    dateConnection: 'Alexander Scriabin 1872年1月6日出生于莫斯科。这位俄罗斯作曲家是音乐与视觉艺术融合的先驱，他的《普罗米修斯：火之诗》是人类历史上第一部要求"色彩键盘"（Clavier à lumières）参与演奏的交响作品。',
+    designerBio: `Alexander Scriabin (1872-1915)，俄罗斯作曲家、钢琴家，音乐-视觉联觉设计的先驱。
+
+他拥有一种罕见的天赋——联觉（synesthesia）：听到音符就能看到颜色。C大调是红色，D大调是黄色，升F大调是蓝紫色。这不是比喻，是他真实的感知体验。
+
+他将这种感知转化为一套完整的"音色-色彩对应系统"，并试图将其融入音乐演出中。他是第一个认真思考"如何让音乐可见"的作曲家。`,
+    story: `1910年，Scriabin 完成了他最大胆的作品——《普罗米修斯：火之诗》，Op. 60。
+
+这部交响诗的编制前所未有：管弦乐队、钢琴独奏、合唱团，以及一个从未有过的乐器——**色光钢琴（Clavier à lumières）**。这是一架特殊的键盘，不发出声音，而是向音乐厅投射彩色光线。
+
+Scriabin 为每个音高指定了颜色：C 是红色，G 是橙色，D 是黄色，A 是绿色，E 是浅蓝……他设计了一套完整的对应系统，让整个音乐厅随着和声变化而变换色彩。
+
+**这是多媒体艺术的起点。** 1915年纽约卡内基音乐厅的演出首次使用了色光投射装置——比 VJ（视觉骑师）文化早了整整80年，比沉浸式灯光秀早了一个世纪。
+
+但 Scriabin 的野心远不止于此。他梦想创作一部"Mysterium"——一部在喜马拉雅山演出的跨感官总体艺术作品，融合音乐、舞蹈、光影、香气，持续七天七夜，将全人类带入一种超越性的体验。他在43岁时英年早逝，Mysterium 未能完成。`,
+    legacy: '• 多媒体艺术先驱：色光钢琴是人类历史上第一个将视觉与音乐实时同步的设计\n• 影响链条：Scriabin → 1960s 迷幻灯光秀 → Pink Floyd 舞台设计 → 当代沉浸式体验\n• "神秘和弦"（Mystic Chord）影响了20世纪和声语言的发展\n• 他的音色-色彩系统启发了后来的 Kandinsky 的抽象绘画理论',
+    significance: 'Scriabin 证明了**设计可以跨越感官边界**。他不是在"装饰"音乐，而是在创造一种全新的感知维度。今天我们习以为常的演唱会灯光、VJ 文化、沉浸式展览，都可以追溯到这位俄罗斯作曲家在1910年的疯狂构想。',
+
+    dateConnection_en: 'Alexander Scriabin was born on January 6, 1872 in Moscow. This Russian composer was a pioneer in fusing music and visual art — his Prometheus: The Poem of Fire was the first symphonic work in history to require a "color keyboard" (Clavier à lumières) as part of the performance.',
+    designerBio_en: `Alexander Scriabin (1872–1915), Russian composer, pianist, and pioneer of music-visual synesthetic design.
+
+He possessed a rare gift — synesthesia: hearing notes triggered color perception. C major was red, D major yellow, F-sharp major blue-violet. This was not metaphor but his actual sensory experience.
+
+He translated this perception into a complete "timbre-color correspondence system" and sought to integrate it into musical performance. He was the first composer to seriously explore "how to make music visible."`,
+    story_en: `In 1910, Scriabin completed his most audacious work — Prometheus: The Poem of Fire, Op. 60.
+
+The scoring was unprecedented: orchestra, piano soloist, choir, and an instrument that had never existed — the **Clavier à lumières (color-light keyboard)**. This special keyboard produced no sound; instead, it projected colored light throughout the concert hall.
+
+Scriabin assigned a color to each pitch: C was red, G was orange, D was yellow, A was green, E was pale blue… He designed a complete correspondence system so the entire hall would shift colors with the changing harmonies.
+
+**This was the birth of multimedia art.** The 1915 performance at Carnegie Hall in New York was the first to use a color projection device — predating VJ culture by 80 years and immersive light shows by a full century.
+
+But Scriabin's ambition went far beyond this. He dreamed of creating a "Mysterium" — a cross-sensory Gesamtkunstwerk to be performed in the Himalayas, fusing music, dance, light, fragrance, lasting seven days and seven nights, elevating all humanity into a transcendent experience. He died at 43, and the Mysterium was never completed.`,
+    legacy_en: '• Multimedia art pioneer: the Clavier à lumières was the first device in history to synchronize visuals with music in real time\n• Influence chain: Scriabin → 1960s psychedelic light shows → Pink Floyd stage design → contemporary immersive experiences\n• The "Mystic Chord" influenced the development of 20th-century harmonic language\n• His timbre-color system inspired Kandinsky\'s abstract painting theories',
+    significance_en: 'Scriabin proved that **design can transcend sensory boundaries.** He was not "decorating" music — he was creating an entirely new perceptual dimension. The concert lighting, VJ culture, and immersive exhibitions we take for granted today can all be traced back to this Russian composer\'s wild vision in 1910.',
+  },
+
+  // 01-07: Tesla Coil
+  {
+    id: '38',
+    date: '2026-01-07',
+    imageUrl: '/the-daily-object/images/tesla-coil.jpg',
+    fullImageUrl: '/the-daily-object/images/full/tesla-coil.jpg',
+    title: '特斯拉线圈',
+    title_en: 'Tesla Coil',
+    subtitle: 'Nikola Tesla, 1891',
+    subtitle_en: 'Nikola Tesla, 1891',
+    category: 'industrial',
+    designer: 'Nikola Tesla',
+    year: '1891',
+
+    dateConnection: 'Nikola Tesla 于1943年1月7日在纽约客酒店孤独离世，享年86岁。这位塞尔维亚裔美国发明家一生持有300多项专利，而特斯拉线圈是他最具视觉冲击力的发明——将不可见的电力变成了可见的、令人敬畏的光之雕塑。',
+    designerBio: `Nikola Tesla (1856-1943)，塞尔维亚裔美国发明家、电气工程师，交流电系统的奠基人。
+
+他与 Edison 的"电流之战"是工业设计史上最著名的对决之一。Edison 坚持直流电，Tesla 则证明了交流电在远距离输电上的绝对优势。最终，Tesla 的交流电系统成为全世界电力基础设施的标准——你此刻使用的每一度电，都源自他的设计。
+
+**"如果你想发现宇宙的秘密，就从能量、频率和振动的角度思考。"**
+
+他是少有的同时具备工程天才和审美直觉的发明家。特斯拉线圈不仅是一个技术装置，更是他对电力之美的视觉宣言。`,
+    story: `1891年，Tesla 发明了以他名字命名的谐振变压器——特斯拉线圈。
+
+它的工作原理看似简单：两组线圈通过谐振耦合，将普通电压升高到数百万伏特，在尖端产生壮观的电弧放电。但这个"简单"的原理背后，是 Tesla 对电磁共振的深刻理解。
+
+**特斯拉线圈的设计之美在于：它让不可见的力变得可见。** 电——这个驱动现代文明的基本力量——在线圈顶端化为紫蓝色的闪电，在空气中跳舞、分叉、消散。它既是科学仪器，也是光之雕塑。
+
+Tesla 曾在他的纽约实验室里，站在特斯拉线圈旁，让人造闪电环绕全身——这些照片成为科学史上最具标志性的影像。他用这些壮观的演示来宣传无线输电的可能性。
+
+在科罗拉多泉实验室（1899年），他建造了直径达16米的巨型线圈，产生了长达40米的人造闪电——附近的蝴蝶翅膀上产生了圣埃尔摩之火，周围6英里内的灯泡自动亮起。
+
+虽然他的无线输电梦想未能实现，但特斯拉线圈后来在无线电通信、医疗设备、粒子加速器等领域找到了广泛应用。而它最持久的遗产，或许是作为一件"功能性雕塑"——在科学博物馆、音乐节和艺术装置中，持续激发着人们对电力之美的敬畏。`,
+    legacy: '• 无线通信基础：特斯拉线圈的谐振原理是无线电技术的关键基础\n• 科学可视化先驱：第一次让电力成为可以"观看"的现象，开创了科学展示的新范式\n• 文化符号：成为"疯狂科学家"和"天才发明家"的视觉代名词\n• 当代应用：从粒子加速器到音乐特斯拉线圈（能"演奏"音乐的放电装置），持续启发新的创造',
+    significance: 'Tesla Coil 是工业设计中罕见的案例：一个纯技术装置，仅凭其工作时的视觉效果，就成为了一件永恒的设计经典。它证明了**技术本身可以是美的**——不需要外壳、不需要装饰，电力在空气中跳跃的瞬间就是最纯粹的形式美。',
+
+    dateConnection_en: 'Nikola Tesla passed away alone at the New Yorker Hotel on January 7, 1943, at the age of 86. This Serbian-American inventor held over 300 patents, and the Tesla Coil remains his most visually spectacular invention — transforming invisible electricity into awe-inspiring sculptures of light.',
+    designerBio_en: `Nikola Tesla (1856–1943), Serbian-American inventor and electrical engineer, the architect of the alternating current power system.
+
+His "War of Currents" with Edison is one of the most famous rivalries in industrial design history. Edison championed direct current; Tesla proved alternating current's absolute superiority for long-distance transmission. Tesla's AC system became the global standard for electrical infrastructure — every watt you use right now traces back to his design.
+
+**"If you want to find the secrets of the universe, think in terms of energy, frequency and vibration."**
+
+He was a rare inventor who possessed both engineering genius and aesthetic intuition. The Tesla Coil is not merely a technical apparatus — it is his visual manifesto on the beauty of electricity.`,
+    story_en: `In 1891, Tesla invented the resonant transformer that bears his name — the Tesla Coil.
+
+Its principle seems straightforward: two coil sets coupled through resonance step up ordinary voltage to millions of volts, producing spectacular arc discharges at the terminal. But behind this "simple" principle lies Tesla's profound understanding of electromagnetic resonance.
+
+**The design beauty of the Tesla Coil is this: it makes the invisible visible.** Electricity — the fundamental force driving modern civilization — transforms into violet-blue lightning at the coil's terminal, dancing, branching, and dissipating through the air. It is both scientific instrument and light sculpture.
+
+Tesla once stood beside his coil in his New York laboratory, letting artificial lightning cascade around his body — those photographs became some of the most iconic images in the history of science. He used these spectacular demonstrations to promote the possibility of wireless power transmission.
+
+At his Colorado Springs laboratory (1899), he built a colossal coil 16 meters in diameter, generating artificial lightning bolts up to 40 meters long — St. Elmo's fire appeared on butterfly wings nearby, and light bulbs within 6 miles lit up spontaneously.
+
+Though his wireless power dream was never fully realized, the Tesla Coil found broad applications in radio communication, medical devices, and particle accelerators. And its most enduring legacy may be as a "functional sculpture" — continuing to inspire awe at the beauty of electricity in science museums, music festivals, and art installations around the world.`,
+    legacy_en: '• Wireless communication foundation: the Tesla Coil\'s resonance principle is fundamental to radio technology\n• Science visualization pioneer: the first device to make electricity something you could "watch," creating a new paradigm for science demonstration\n• Cultural icon: became the visual synonym for "mad scientist" and "genius inventor"\n• Contemporary applications: from particle accelerators to musical Tesla Coils (discharge devices that can "play" music), it continues to inspire new creations',
+    significance_en: 'The Tesla Coil is a rare case in industrial design: a purely technical device that became an enduring design classic solely through its visual spectacle during operation. It proves that **technology itself can be beautiful** — no housing needed, no decoration required. The moment electricity leaps through air is the purest form of aesthetic beauty.',
+  },
+
+  // 01-08: Ziggy Stardust
+  {
+    id: '39',
+    date: '2026-01-08',
+    imageUrl: '/the-daily-object/images/ziggy-stardust.jpg',
+    fullImageUrl: '/the-daily-object/images/full/ziggy-stardust.jpg',
+    title: 'Ziggy Stardust',
+    title_en: 'Ziggy Stardust',
+    subtitle: 'David Bowie, 1972',
+    subtitle_en: 'David Bowie, 1972',
+    category: 'music',
+    designer: 'David Bowie',
+    year: '1972',
+
+    dateConnection: 'David Bowie 1947年1月8日出生于伦敦布里克斯顿。他不仅是音乐家，更是一位视觉设计大师——Ziggy Stardust 是流行文化史上最具影响力的角色设计，定义了"音乐人即视觉品牌"的范式。',
+    designerBio: `David Bowie (1947-2016)，英国音乐家、演员、视觉艺术家，流行文化的变形者。
+
+他的天才不仅在于音乐，更在于**将自我作为设计媒介**。在他50年的职业生涯中，他不断重塑自己的视觉形象——从 Ziggy Stardust 到 Aladdin Sane，从 Thin White Duke 到 Blackstar——每一次转变都是一次完整的设计项目：造型、服装、舞台、专辑封面、MV，全部统一在一个视觉概念之下。
+
+**"我总是觉得自己更像一个用音乐工作的设计师，而不是一个碰巧有视觉品味的音乐人。"**`,
+    story: `1972年6月，专辑《The Rise and Fall of Ziggy Stardust and the Spiders from Mars》发行。
+
+Ziggy Stardust 不是一个角色，而是一个**完整的设计系统**。
+
+**造型设计**：火红色的刺猬头（由发型师 Suzi Fussey 打造）、闪电妆容、极度消瘦的身材——每一个元素都经过精心计算，既像外星来客又像末日摇滚明星。
+
+**服装设计**：日本设计师山本宽斋（Kansai Yamamoto）为 Bowie 设计的舞台服装成为时尚史经典——不对称连体衣、金属感面料、夸张的肩部轮廓。这些设计融合了日本歌舞伎美学与英国华丽摇滚，创造了一种全新的舞台服装语言。
+
+**专辑封面**：摄影师 Brian Ward 在伦敦 Heddon Street 拍摄的封面照——Bowie 站在雨后的街头，吉他挂在身上，头顶是"K.WEST"的招牌——成为摇滚乐史上最具标志性的封面之一。照片刻意选择了最平凡的伦敦街景，与 Ziggy 的外星身份形成张力。
+
+**概念的完整性**是 Ziggy 最伟大的设计遗产。Bowie 不是在"打扮成"Ziggy——他成为了 Ziggy。演唱会、采访、私生活，他完全以 Ziggy 的身份存在了一年半。然后在1973年7月3日的 Hammersmith Odeon 演唱会上，他宣布"这是 Ziggy 的最后一场演出"——杀死了自己创造的角色。
+
+这是设计史上最大胆的一次"品牌终结"——自杀式地结束一个正在巅峰的 IP。`,
+    legacy: '• 视觉品牌先驱：Ziggy 证明音乐人可以是一个完整的视觉设计项目，直接影响了 Madonna、Lady Gaga、Kanye West 等后来者\n• 性别流动美学：Ziggy 的雌雄同体造型挑战了性别二元的视觉规范，开创了流行文化中的性别流动美学\n• 舞台设计革命：将日本歌舞伎、德国表现主义和英国华丽摇滚融合，重新定义了演唱会的视觉标准\n• 专辑概念化：证明专辑可以是一个跨媒介的叙事设计项目，而不只是歌曲的集合',
+    significance: 'Ziggy Stardust 是流行文化设计的分水岭。在 Bowie 之前，音乐人的形象是"真实自我的延伸"。在 Bowie 之后，音乐人的形象成为了**可以被设计、被构建、被解构的创意产品**。今天每一个有视觉策略的艺人——从 Beyoncé 到 BTS——都在走 Bowie 1972年开辟的路。',
+
+    dateConnection_en: 'David Bowie was born on January 8, 1947 in Brixton, London. He was not merely a musician but a visual design master — Ziggy Stardust is the most influential character design in pop culture history, defining the paradigm of "musician as visual brand."',
+    designerBio_en: `David Bowie (1947–2016), British musician, actor, and visual artist — pop culture's ultimate shapeshifter.
+
+His genius lay not only in music but in **using the self as a design medium.** Across a 50-year career, he continually reinvented his visual identity — from Ziggy Stardust to Aladdin Sane, Thin White Duke to Blackstar — each transformation a complete design project: styling, costume, stage, album art, and music video, all unified under a single visual concept.
+
+**"I always felt I was more of a designer who worked with music than a musician who happened to have visual taste."**`,
+    story_en: `In June 1972, the album The Rise and Fall of Ziggy Stardust and the Spiders from Mars was released.
+
+Ziggy Stardust was not a character — it was a **complete design system.**
+
+**Styling:** The fire-red mullet (created by hairstylist Suzi Fussey), the lightning bolt makeup, the emaciated frame — every element was precisely calibrated to read as both alien visitor and apocalyptic rock star.
+
+**Costume design:** Japanese designer Kansai Yamamoto's stage costumes for Bowie became fashion history — asymmetric bodysuits, metallic fabrics, exaggerated shoulder silhouettes. These designs fused Japanese Kabuki aesthetics with British glam rock, creating an entirely new language for stage costume.
+
+**Album cover:** Photographer Brian Ward's cover shot on London's Heddon Street — Bowie standing on a rain-slicked street, guitar slung over his shoulder, the "K.WEST" sign overhead — became one of the most iconic covers in rock history. The deliberately mundane London street scene creates tension with Ziggy's alien identity.
+
+**Conceptual completeness** is Ziggy's greatest design legacy. Bowie didn't "dress up as" Ziggy — he became Ziggy. Concerts, interviews, private life — he existed entirely as Ziggy for eighteen months. Then on July 3, 1973 at the Hammersmith Odeon, he announced "this is the last show we'll ever do" — killing the character he had created.
+
+This was the boldest "brand termination" in design history — suicidally ending an IP at its absolute peak.`,
+    legacy_en: '• Visual branding pioneer: Ziggy proved that a musician could be a complete visual design project, directly influencing Madonna, Lady Gaga, Kanye West and more\n• Gender-fluid aesthetics: Ziggy\'s androgynous styling challenged binary gender norms in visual culture, pioneering gender fluidity in pop culture\n• Stage design revolution: fusing Japanese Kabuki, German Expressionism, and British glam rock, it redefined the visual standards of live performance\n• Album as concept: proved that an album could be a cross-media narrative design project, not just a collection of songs',
+    significance_en: 'Ziggy Stardust was pop culture design\'s watershed moment. Before Bowie, a musician\'s image was "an extension of their true self." After Bowie, a musician\'s image became **a creative product that could be designed, constructed, and deconstructed.** Every artist with a visual strategy today — from Beyoncé to BTS — walks the path Bowie carved in 1972.',
+  },
+
 ]
 
 
