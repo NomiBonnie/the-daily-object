@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from 'react'
+﻿import { useState, useEffect, useRef, useCallback } from 'react'
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css'
 import { format } from 'date-fns'
@@ -292,7 +292,7 @@ function App() {
       {/* 1. The Story of Design - no top border after image */}
       <div>
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-          {lang === 'en' ? 'The Story Behind' : '作品故事'}
+          'The Story Behind'
         </p>
         <RenderText text={story} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
@@ -300,7 +300,7 @@ function App() {
       {/* 2. The Designer */}
       <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-          {lang === 'en' ? 'About The Designer' : '关于创作者'}
+          'About The Designer'
         </p>
         <RenderText text={designerBio} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
@@ -309,7 +309,7 @@ function App() {
       {legacy && (
         <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
           <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-            {lang === 'en' ? 'Legacy & Influence' : '影响与传承'}
+            'Legacy & Influence'
           </p>
           <RenderText text={legacy} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
         </div>
@@ -319,7 +319,7 @@ function App() {
       {significance && (
         <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
           <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-            {lang === 'en' ? 'What It Means' : '设计的意义'}
+            'What It Means'
           </p>
           <RenderText text={significance} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
         </div>
@@ -328,7 +328,7 @@ function App() {
       {/* 5. Why Today */}
       <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-          {lang === 'en' ? 'Why Today' : '今天的理由'}
+          'Why Today'
         </p>
         <RenderText text={dateConnection} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
