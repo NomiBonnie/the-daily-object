@@ -2276,6 +2276,157 @@ The deeper impact is **design democratization**: the 501 proved that great desig
 153 years later, the 501 is still in production, still being worn, still being imitated. It reminds every designer: **Design that solves real problems naturally becomes timeless.**`
   },
 
+  {
+    id: '128',
+    date: '2026-01-28',
+    imageUrl: '/the-daily-object/images/baskerville-typeface.jpg',
+    fullImageUrl: '/the-daily-object/images/full/baskerville-typeface.jpg',
+    title: 'Baskerville 字体',
+    title_en: 'Baskerville Typeface',
+    subtitle: 'John Baskerville, 1757',
+    subtitle_en: 'John Baskerville, 1757',
+    category: 'graphic',
+    designer: 'John Baskerville',
+    year: '1757',
+
+    dateConnection: '1707年1月28日，John Baskerville 在英格兰伍斯特郡受洗。这位从墓碑雕刻师到漆器商人、再到印刷革命者的传奇人物，用一款字体改变了整个西方排版美学的走向。',
+    dateConnection_en: 'John Baskerville was baptised on January 28, 1707 in Worcestershire, England. This remarkable figure — who went from gravestone carver to japanning manufacturer to printing revolutionary — changed the course of Western typographic aesthetics with a single typeface.',
+
+    designerBio: `John Baskerville (1707–1775) 是英国印刷史上最重要的人物之一。他早年以教书法为生，后来靠漆器（japanning）生意发了财，44岁时才开始投身印刷事业——这在18世纪是一个极其大胆的转行。
+
+他不只是设计了一款字体，而是**重新发明了整个印刷流程**：自制更黑更亮的油墨、发明"织纹纸"(wove paper) 取代传统的"条纹纸"(laid paper)，让纸面更加光滑均匀，印刷效果前所未有地清晰锐利。`,
+
+    designerBio_en: `John Baskerville (1707–1775) was one of the most important figures in British printing history. He spent his early career teaching handwriting, then made a fortune in japanning (lacquerwork), before diving into printing at age 44 — an extraordinarily bold career change in the 18th century.
+
+He didn't just design a typeface — he **reinvented the entire printing process**: creating blacker, glossier ink, inventing "wove paper" to replace traditional "laid paper," achieving an unprecedented level of printing clarity and sharpness.`,
+
+    story: `Baskerville 字体诞生于1757年，首次出现在他印刷的维吉尔《田园诗》中。这款字体介于古典的 Old Style（如 Caslon）和后来的 Modern（如 Bodoni）之间，被归类为"过渡体"（Transitional）——笔画粗细对比更强，衬线更锐利，字形更加挺拔优雅。
+
+**然而 Baskerville 在生前并不被英国同行认可。** 印刷商们嘲笑他的字体"太刺眼"，传闻说阅读 Baskerville 印刷品会损害视力。讽刺的是，Benjamin Franklin 在一次著名的恶作剧中，给一位批评 Baskerville 字体的人看了一段用 Caslon（当时公认的"好"字体）印刷的文字，对方却指着它说"这就是 Baskerville，看了眼睛疼"——证明批评者根本分辨不出两者的区别。
+
+Baskerville 去世后，他的字模被卖到法国，深刻影响了 Didot 和 Bodoni 等后来的大师。**他在法国的影响力远超英国本土。**`,
+
+    story_en: `The Baskerville typeface was born in 1757, first appearing in his printing of Virgil's *Bucolica, Georgica, et Aeneis*. The typeface sits between the classical Old Style (like Caslon) and the later Modern style (like Bodoni), classified as "Transitional" — with stronger stroke contrast, sharper serifs, and more upright, elegant letterforms.
+
+**Yet Baskerville was not appreciated by his English contemporaries.** Fellow printers mocked his typeface as "too dazzling," with rumors that reading Baskerville's prints would damage one's eyesight. Ironically, Benjamin Franklin played a famous prank: he showed a critic of Baskerville a passage printed in Caslon (the accepted "good" typeface), and the critic pointed at it saying "that's Baskerville, it hurts my eyes" — proving critics couldn't even tell the difference.
+
+After Baskerville's death, his type punches were sold to France, profoundly influencing later masters like Didot and Bodoni. **His influence in France far exceeded his reputation in England.**`,
+
+    legacy: `Baskerville 字体经历了从被嘲笑到被封神的完整逆转。今天它是全球最广泛使用的经典衬线字体之一，被无数书籍、品牌和机构采用。2012年一项著名的心理学实验（纽约时报发起）证明：用 Baskerville 排版的文字比其他字体更容易让读者产生"信任感"——它被称为"最值得信赖的字体"。
+
+他发明的织纹纸技术更是彻底改变了造纸业，至今仍是现代纸张制造的基础。一个人同时革新了字体设计、油墨配方和造纸技术——这种跨领域的创新精神在设计史上极为罕见。`,
+
+    legacy_en: `The Baskerville typeface underwent a complete reversal from mockery to canonization. Today it's one of the most widely used classic serif typefaces globally, adopted by countless books, brands, and institutions. A famous 2012 psychology experiment (initiated by the New York Times) proved that text set in Baskerville was more likely to inspire trust in readers than other typefaces — earning it the title of "the most trustworthy font."
+
+His invention of wove paper fundamentally transformed the paper industry and remains the foundation of modern papermaking. One person simultaneously revolutionized typeface design, ink formulation, and papermaking technology — this kind of cross-disciplinary innovation is extraordinarily rare in design history.`,
+
+    significance: `Baskerville 代表了设计史上一个永恒的命题：**超前于时代的设计往往不被当代理解。** 他的字体在18世纪被视为异端，在21世纪被奉为经典。这提醒每一个设计师：大众的即时反馈不是衡量设计价值的唯一标准。`,
+
+    significance_en: `Baskerville represents an eternal proposition in design history: **design that is ahead of its time is often misunderstood by its contemporaries.** His typeface was considered heretical in the 18th century and canonical in the 21st. This reminds every designer: immediate public feedback is not the only measure of design value.`,
+  },
+
+  {
+    id: '129',
+    date: '2026-01-29',
+    imageUrl: '/the-daily-object/images/benz-patent-motorwagen.jpg',
+    fullImageUrl: '/the-daily-object/images/full/benz-patent-motorwagen.jpg',
+    title: 'Benz Patent-Motorwagen',
+    title_en: 'Benz Patent-Motorwagen',
+    subtitle: 'Karl Benz, 1886',
+    subtitle_en: 'Karl Benz, 1886',
+    category: 'industrial',
+    designer: 'Karl Benz',
+    year: '1886',
+
+    dateConnection: '1886年1月29日，Karl Benz 为他的"气体驱动车辆"（Benz Patent-Motorwagen）申请了专利（DRP 37435）。这是人类历史上第一辆被授予专利的汽车，标志着汽车工业的诞生。',
+    dateConnection_en: 'On January 29, 1886, Karl Benz filed the patent for his "vehicle powered by a gas engine" (Benz Patent-Motorwagen, DRP 37435). It was the first automobile ever to be granted a patent, marking the birth of the automotive industry.',
+
+    designerBio: `Karl Benz (1844–1929) 是德国工程师和发明家，被公认为"汽车之父"。他在曼海姆的小作坊里完成了这项改变世界的发明。
+
+与许多发明家不同，Benz 不仅设计了发动机，还从零开始设计了整辆车——底盘、传动系统、点火装置、冷却系统、转向机构，全部是原创设计。他把汽车视为一个**完整的设计系统**，而非简单地把发动机装在马车上。`,
+
+    designerBio_en: `Karl Benz (1844–1929) was a German engineer and inventor, widely recognized as the "father of the automobile." He completed this world-changing invention in his small workshop in Mannheim.
+
+Unlike many inventors, Benz didn't just design an engine — he designed the entire vehicle from scratch: chassis, drivetrain, ignition, cooling system, steering mechanism — all original designs. He saw the automobile as a **complete design system**, not simply an engine bolted onto a horse carriage.`,
+
+    story: `Patent-Motorwagen 的设计极其优雅地解决了一个根本问题：如何让内燃机驱动一辆可操控的车辆？
+
+三轮设计不是妥协，而是精妙的工程选择——当时没有可靠的差速器技术，三轮结构避免了前轮转向的复杂机械问题。单缸四冲程发动机排量954cc，输出约0.75马力，最高时速16公里。这些数字在今天看来微不足道，但在1886年，这是**人类第一次不依赖动物或自然力就能自由移动**。
+
+真正让 Motorwagen 从实验室走向公众视野的，是 Benz 的妻子 Bertha。1888年8月，她带着两个儿子驾驶 Motorwagen 完成了从曼海姆到普福尔茨海姆的106公里长途旅行——这是**世界上第一次汽车长途旅行**。这次旅行不仅证明了汽车的实用性，Bertha 还在途中发明了刹车片衬垫（用皮匠的皮革），并建议丈夫增加一个低速挡用于爬坡。`,
+
+    story_en: `The Patent-Motorwagen's design elegantly solved a fundamental problem: how to make an internal combustion engine drive a controllable vehicle.
+
+The three-wheel design wasn't a compromise — it was an ingenious engineering choice. Without reliable differential technology, the three-wheel structure avoided the complex mechanical issues of front-wheel steering. The single-cylinder four-stroke engine displaced 954cc, produced about 0.75 horsepower, and reached a top speed of 16 km/h. These numbers seem trivial today, but in 1886, this was **humanity's first time moving freely without relying on animals or natural forces**.
+
+What truly brought the Motorwagen from laboratory to public eye was Benz's wife, Bertha. In August 1888, she took their two sons on a 106-kilometer journey from Mannheim to Pforzheim — **the world's first long-distance automobile trip**. This journey not only proved the car's practicality; along the way, Bertha invented brake pad lining (using a cobbler's leather) and suggested her husband add a lower gear for hill climbing.`,
+
+    legacy: `Patent-Motorwagen 的专利号 DRP 37435 被视为汽车工业的"出生证"。Benz 随后创立的公司最终与 Daimler 合并，成为今天的 Mercedes-Benz。
+
+但 Motorwagen 的设计遗产远不止品牌传承。它确立了汽车作为**整体设计对象**的概念——不是拼凑，而是从功能到形式的完整思考。这种系统性设计思维影响了此后一个多世纪的工业设计方法论。`,
+
+    legacy_en: `Patent number DRP 37435 is regarded as the "birth certificate" of the automotive industry. The company Benz subsequently founded eventually merged with Daimler to become today's Mercedes-Benz.
+
+But the Motorwagen's design legacy extends far beyond brand heritage. It established the automobile as a **holistic design object** — not assembled from parts, but a complete integration of function and form. This systems-thinking approach to design influenced over a century of industrial design methodology.`,
+
+    significance: `Motorwagen 证明了一个设计真理：**最伟大的设计不是改良现有事物，而是创造一个全新的品类。** Benz 没有做一辆"更好的马车"，他发明了一种全新的移动方式。而 Bertha 的长途旅行则证明了另一个真理：**设计的价值要在真实使用中才能被验证。**`,
+
+    significance_en: `The Motorwagen proved a design truth: **the greatest designs don't improve existing things — they create entirely new categories.** Benz didn't make a "better carriage"; he invented a fundamentally new way of moving. And Bertha's long-distance journey proved another truth: **the value of design can only be validated through real-world use.**`,
+  },
+
+  {
+    id: '130',
+    date: '2026-01-30',
+    imageUrl: '/the-daily-object/images/wuerzburg-residence.jpg',
+    fullImageUrl: '/the-daily-object/images/full/wuerzburg-residence.jpg',
+    title: '维尔茨堡宫',
+    title_en: 'Würzburg Residence',
+    subtitle: 'Balthasar Neumann, 1744',
+    subtitle_en: 'Balthasar Neumann, 1744',
+    category: 'architecture',
+    designer: 'Balthasar Neumann',
+    year: '1744',
+
+    dateConnection: '1687年1月30日，巴洛克建筑大师 Balthasar Neumann 在波希米亚的埃格尔（今捷克赫布）受洗。他设计的维尔茨堡宫被 UNESCO 称为"欧洲最杰出的巴洛克宫殿之一"，其大楼梯间拥有世界上最大的天花板壁画。',
+    dateConnection_en: 'Balthasar Neumann, the Baroque architectural master, was baptised on January 30, 1687 in Eger, Bohemia (now Cheb, Czech Republic). His Würzburg Residence is described by UNESCO as "one of the most outstanding Baroque palaces in Europe," with the grand staircase hall featuring the world\'s largest ceiling fresco.',
+
+    designerBio: `Balthasar Neumann (1687–1753) 是德国巴洛克和洛可可时期最伟大的建筑师之一。出生于波希米亚，后移居维尔茨堡，从铸炮工匠起步，自学建筑。
+
+他的天赋在于**结构与空间的极限探索**——他设计的楼梯、穹顶和教堂中殿挑战了当时工程学的边界。他不只是装饰大师，更是结构工程的先驱，用数学和力学知识实现了前所未有的空间效果。`,
+
+    designerBio_en: `Balthasar Neumann (1687–1753) was one of the greatest architects of the German Baroque and Rococo periods. Born in Bohemia, he later settled in Würzburg, starting as a cannon founder before teaching himself architecture.
+
+His genius lay in **pushing the limits of structure and space** — the staircases, domes, and church naves he designed challenged the boundaries of contemporary engineering. He wasn't merely a master of decoration but a pioneer of structural engineering, using mathematics and mechanics to achieve unprecedented spatial effects.`,
+
+    story: `维尔茨堡宫 (Würzburger Residenz) 始建于1720年，历时约24年完成主体结构。这座宫殿是维尔茨堡亲王主教的府邸，Neumann 从最初的设计竞赛中脱颖而出，此后将毕生精力倾注于这座建筑。
+
+**大楼梯间 (Treppenhaus) 是整座宫殿的灵魂，也是建筑史上的奇迹。** 一个18×32米、没有任何柱子支撑的巨大空间上方，悬浮着一个自承重穹顶。当时几乎所有建筑师都认为这个跨度不可能实现——据说有人打赌穹顶会塌。Neumann 用精妙的力学计算证明了他们的错误。
+
+穹顶之上是威尼斯画家 Giovanni Battista Tiepolo 创作的天花板壁画——**世界上最大的单幅天花板壁画**，面积约677平方米，描绘了四大洲的寓言场景。建筑与绘画在这里达成了完美的共生：Neumann 的结构为 Tiepolo 的画笔提供了最宏大的画布，而 Tiepolo 的壁画又让 Neumann 的空间获得了无限的视觉延伸。
+
+二战中维尔茨堡被炸成废墟，但大楼梯间奇迹般地幸存，穹顶和壁画完好无损。`,
+
+    story_en: `The Würzburg Residence (Würzburger Residenz) was begun in 1720, with the main structure completed over approximately 24 years. The palace served as the residence of the Prince-Bishops of Würzburg, and Neumann emerged from the initial design competition, pouring his life's work into this building.
+
+**The grand staircase hall (Treppenhaus) is the soul of the palace and a miracle of architectural history.** Above an enormous 18×32 meter space with no column support, a self-supporting vault appears to float. Nearly every architect of the time believed this span was impossible — reportedly, some bet the vault would collapse. Neumann proved them wrong with brilliant structural calculations.
+
+Above the vault is a ceiling fresco by Venetian painter Giovanni Battista Tiepolo — **the world's largest single ceiling fresco**, covering approximately 677 square meters, depicting allegorical scenes of the four continents. Architecture and painting achieved perfect symbiosis here: Neumann's structure provided the grandest canvas for Tiepolo's brush, while Tiepolo's fresco gave Neumann's space infinite visual extension.
+
+During WWII, Würzburg was bombed to rubble, yet the grand staircase miraculously survived — vault and fresco intact.`,
+
+    legacy: `维尔茨堡宫1981年被列入 UNESCO 世界文化遗产，被誉为与凡尔赛宫和美泉宫并列的欧洲三大巴洛克宫殿之一。Neumann 对结构力学的创新——特别是大跨度无柱空间的实现——影响了后世数百年的建筑工程学。
+
+他设计的十四圣人教堂 (Vierzehnheiligen) 同样是巴洛克建筑的巅峰之作，展示了他将椭圆与圆相互穿插、创造流动空间的独特能力。`,
+
+    legacy_en: `The Würzburg Residence was inscribed as a UNESCO World Heritage Site in 1981, celebrated as one of Europe's three greatest Baroque palaces alongside Versailles and Schönbrunn. Neumann's structural innovations — particularly achieving large column-free spans — influenced centuries of subsequent architectural engineering.
+
+His Basilica of the Fourteen Holy Helpers (Vierzehnheiligen) is equally a pinnacle of Baroque architecture, showcasing his unique ability to interweave ellipses and circles to create flowing spatial experiences.`,
+
+    significance: `Neumann 证明了**伟大的建筑不是选择结构或美学，而是让两者合一。** 大楼梯间的穹顶既是工程壮举，也是艺术画布。在今天"网红建筑"泛滥的时代，维尔茨堡宫提醒我们：真正的建筑杰作是**结构诚实与空间诗意的统一**。`,
+
+    significance_en: `Neumann proved that **great architecture doesn't choose between structure and aesthetics — it unifies them.** The grand staircase vault is both an engineering feat and an artistic canvas. In today's era of "Instagram architecture," the Würzburg Residence reminds us that true architectural masterpieces are **the unity of structural honesty and spatial poetry.**`,
+  },
+
 ]
 
 
