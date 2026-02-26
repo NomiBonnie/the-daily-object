@@ -53,11 +53,11 @@
   @apply aspect-square flex items-center justify-center p-0 rounded-lg transition-all font-light text-sm;
   min-height: 48px;
   background-color: transparent !important;
-  color: rgba(0, 0, 0, 0.85);
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .dark .luxury-calendar .react-calendar__tile {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 /* 上/下月日期: 整体 50% 透明度，更灰 */
