@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css'
 import { format } from 'date-fns'
@@ -76,8 +76,44 @@ function App() {
   const init = initFromHash()
   const [view, setView] = useState<View>(init.view)
   const [selectedDate, setSelectedDate] = useState(init.date)
+  const [calendarDate, setCalendarDate] = useState(init.date)
   const [darkMode, setDarkMode] = useState(() => window.matchMedia('(prefers-color-scheme: dark)').matches)
   const [lang, setLang] = useState<Language>('zh')
+
+  // Swipe to change month
+  const calendarRef = useRef<HTMLDivElement>(null)
+  const touchStartX = useRef(0)
+  const touchStartY = useRef(0)
+
+  const changeMonth = useCallback((delta: number) => {
+    setCalendarDate(prev => {
+      const d = new Date(prev)
+      d.setMonth(d.getMonth() + delta)
+      return d
+    })
+  }, [])
+
+  useEffect(() => {
+    const el = calendarRef.current
+    if (!el) return
+    const onTouchStart = (e: TouchEvent) => {
+      touchStartX.current = e.touches[0].clientX
+      touchStartY.current = e.touches[0].clientY
+    }
+    const onTouchEnd = (e: TouchEvent) => {
+      const dx = e.changedTouches[0].clientX - touchStartX.current
+      const dy = e.changedTouches[0].clientY - touchStartY.current
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+        changeMonth(dx < 0 ? 1 : -1)
+      }
+    }
+    el.addEventListener('touchstart', onTouchStart, { passive: true })
+    el.addEventListener('touchend', onTouchEnd, { passive: true })
+    return () => {
+      el.removeEventListener('touchstart', onTouchStart)
+      el.removeEventListener('touchend', onTouchEnd)
+    }
+  }, [changeMonth])
   const [imageLoaded, setImageLoaded] = useState(false)
   const [lightboxOpen, setLightboxOpen] = useState(false)
   const [lightboxDesign, setLightboxDesign] = useState<DesignObject | null>(null)
@@ -414,10 +450,12 @@ function App() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
               {/* Calendar */}
               <div className="lg:col-span-5">
-                <div className="bg-white dark:bg-neutral-900 rounded-2xl p-8 shadow-xl border border-neutral-200 dark:border-neutral-800 lg:sticky lg:top-24">
+                <div ref={calendarRef} className="bg-white dark:bg-neutral-900 rounded-2xl p-8 shadow-xl border border-neutral-200 dark:border-neutral-800 lg:sticky lg:top-24">
                   <Calendar
                     onChange={handleDateClick}
                     value={selectedDate}
+                    activeStartDate={calendarDate}
+                    onActiveStartDateChange={({ activeStartDate }) => activeStartDate && setCalendarDate(activeStartDate)}
                     locale="en-US"
                     tileClassName={({ date }) =>
                       hasDesign(date) ? 'wallpaper-date' : ''
