@@ -1,6 +1,6 @@
 // Bump this when any image file is replaced (same filename, new content)
 // This busts CDN cache without renaming files
-export const IMAGE_VERSION = '20260226o'
+export const IMAGE_VERSION = '20260226p'
 
 export interface DesignObject {
   id: string
@@ -3468,8 +3468,8 @@ When *The Cradle* was exhibited at the first Impressionist exhibition in 1874, i
   {
     id: '15',
     date: '2026-01-15',
-    imageUrl: '/the-daily-object/images/wikipedia-logo.png',
-    fullImageUrl: '/the-daily-object/images/full/wikipedia-logo.png',
+    imageUrl: '/the-daily-object/images/wikipedia-logo.jpg',
+    fullImageUrl: '/the-daily-object/images/full/wikipedia-logo.jpg',
     title: '维基百科',
     title_en: 'Wikipedia',
     subtitle: 'Jimmy Wales & Larry Sanger, 2001',
