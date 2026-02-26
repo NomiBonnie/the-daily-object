@@ -56,6 +56,10 @@ export interface DesignObject {
   designer: string              // 设计师名（中文）
   year?: string                 // 年份字符串
 
+  // Tags（必填！3个，每个5-8字）
+  tags: string[]                // 中文 tags，体现设计对社会/历史的影响力
+  tags_en: string[]             // 英文 tags，与中文对应
+
   // 中文内容（必填）
   dateConnection: string        // 为什么是今天
   designerBio: string           // 设计师背景（支持 markdown，可多段）
@@ -87,6 +91,8 @@ export interface DesignObject {
   category: 'industrial',
   designer: '设计师名',
   year: '1969',
+  tags: ['改变了XX行业', '开创了XX设计', 'XX运动先驱'],
+  tags_en: ['Transformed XX Industry', 'Pioneered XX Design', 'XX Movement Pioneer'],
 
   dateConnection: '为什么是今天...',
   designerBio: `设计师背景介绍...
@@ -244,6 +250,27 @@ export interface DesignObject {
 
 ### 日期关联
 解释为什么选在这一天，让读者有"原来如此"的感觉。
+
+### Tags（必填！）
+每条 **3 个** tags，中英文各一组，纯文本 + `·` 分隔显示。
+
+**写作原则：**
+- 每个 tag **5-8 个字**（中文），不要太长
+- 体现**设计对社会/历史的影响力**，不是简单分类
+- 回答"这个设计凭什么值得被记住？"
+
+**好 tag 的模式：**
+- `XX的先驱` / `开创了XX` — 历史地位
+- `改变了XX` / `颠覆了XX` — 社会影响
+- `定义了XX美学` — 美学贡献
+- `第一个XX` — 突破性
+- 具体运动/流派名也可以（包豪斯、Art Deco）
+
+**❌ 差 tag（简单分类，没信息量）：**
+`工业设计`、`字体设计`、`童话文学`、`家具设计`、`音乐设计`
+
+**✅ 好 tag（体现影响力）：**
+`工业设计先驱`、`改变了印刷业`、`定义了极简美学`、`第一把塑料椅`、`视觉民主化`
 
 ---
 
@@ -481,6 +508,7 @@ browser action=open → 用 → browser action=close
 | 8 | 图片视觉冲击力 | 图片是否好看、有冲击力？在手机上看效果如何？（详见下方图片审美标准） |
 | 9 | 选题经典性 | 设计师/作品是否足够经典？设计师看了是否有共鸣？（详见下方选题审美标准） |
 | 10 | 故事性 | 作品背后有好故事吗？读完会想分享给别人吗？平平无奇的不要选。产品故事 > 人物故事 |
+| 11 | Tags 质量 | 有 3 个 tags（中英文）？每个 5-8 字？体现影响力而非简单分类？（❌ "工业设计" → ✅ "工业设计先驱"） |
 
 **如果第 1-3 项不通过 → 换主题重做，不要硬上。**
 **如果第 8-9 项不通过 → 也要换图/换主题，"能用"≠"好用"。**
