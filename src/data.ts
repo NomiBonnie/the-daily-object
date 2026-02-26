@@ -2204,6 +2204,74 @@ With one stool, Aalto proved that great design doesn't need exclamation marks �
 **93 years later, this stool is still in production. That itself is the finest design review.**`
   },
 
+  {
+    id: '26',
+    date: '2026-02-26',
+    imageUrl: '/the-daily-object/images/levis-501.jpg',
+    fullImageUrl: '/the-daily-object/images/full/levis-501.jpg',
+    title: 'Levi\'s 501 牛仔裤',
+    title_en: 'Levi\'s 501 Jeans',
+    subtitle: 'Levi Strauss & Jacob Davis, 1873',
+    subtitle_en: 'Levi Strauss & Jacob Davis, 1873',
+    category: 'fashion',
+    designer: 'Levi Strauss',
+    year: '1873',
+
+    dateConnection: `1829年2月26日，Levi Strauss 出生于德国巴伐利亚的布滕海姆。这位日后将彻底改变人类穿着方式的移民，在18岁时跟随家人远渡重洋来到美国，最终在旧金山淘金热中找到了属于自己的"金矿"——不是在河床里，而是在工人们磨破的裤子上。`,
+
+    designerBio: `Levi Strauss（1829–1902）是一个典型的美国梦故事，但他的伟大不在于发财致富，而在于**用设计思维解决了一个真实的问题**。
+
+1853年，24岁的 Strauss 来到旧金山，最初经营干货批发生意。他观察到矿工们的裤子总是在口袋和接缝处撕裂——这不是面料的问题，而是**结构设计的问题**。
+
+1872年，裁缝 Jacob Davis 写信给 Strauss，提出了一个天才的解决方案：在裤子的受力点使用铜铆钉加固。两人合作申请专利，1873年5月20日获批——这一天，牛仔裤正式诞生。
+
+Strauss 从未结婚，将毕生精力投入事业和慈善。他资助了加州大学伯克利分校的奖学金项目，至今仍在运行。1902年去世时，旧金山的商店全部关门一天以示悼念。`,
+
+    designerBio_en: `Levi Strauss (1829–1902) embodies the American Dream, but his greatness lies not in wealth — it's in **solving a real problem through design thinking**.
+
+In 1853, the 24-year-old Strauss arrived in San Francisco, initially running a dry goods wholesale business. He noticed that miners' pants kept tearing at the pockets and seams — this wasn't a fabric problem, it was a **structural design problem**.
+
+In 1872, tailor Jacob Davis wrote to Strauss proposing a genius solution: reinforcing stress points with copper rivets. Together they filed a patent, granted on May 20, 1873 — the official birthday of blue jeans.
+
+Strauss never married, devoting his life to business and philanthropy. He funded a scholarship program at UC Berkeley that still runs today. When he died in 1902, every store in San Francisco closed for a day in tribute.`,
+
+    story: `Levi's 501 不只是一条裤子，它是**人类服装史上被穿着最久、影响最广的单一设计**。
+
+最初的设计纯粹是功能性的：10盎司棉质帆布（后改为靛蓝染色的斜纹粗棉布），五个口袋，铜铆钉加固，纽扣门襟。每一个细节都是为了解决淘金矿工的实际需求——耐磨、耐撕、能装工具。
+
+但501的设计天才在于它的**不完美**。靛蓝染料会随时间和穿着褪色，每条裤子都会形成独一无二的褪色纹路——你的膝盖弯曲处、你的手机轮廓、你坐下时的折痕。**这条裤子会记录你的生活。**
+
+从矿工工装到二战美军制服，从James Dean的叛逆符号到Andy Warhol的艺术画布，从朋克摇滚到硅谷程序员，501完成了人类时尚史上最不可思议的身份转变：**从最底层的劳动服装，变成了全世界最民主的时尚单品。**
+
+没有哪个设计师品牌能做到这一点——让总统和牛仔、教授和工人穿同一条裤子，并且都觉得这条裤子就是为自己设计的。`,
+
+    story_en: `The Levi's 501 isn't just a pair of pants — it's **the single most worn, most influential garment design in human history**.
+
+The original design was purely functional: 10-oz cotton canvas (later switched to indigo-dyed twill denim), five pockets, copper rivet reinforcement, button fly. Every detail addressed the practical needs of gold miners — durability, tear resistance, tool storage.
+
+But the design genius of the 501 lies in its **imperfection**. Indigo dye fades with time and wear, and each pair develops unique fade patterns — where your knees bend, the outline of your phone, the creases when you sit. **This garment records your life.**
+
+From mining workwear to WWII military uniforms, from James Dean's rebel symbol to Andy Warhol's art canvas, from punk rock to Silicon Valley programmers, the 501 completed the most incredible identity transformation in fashion history: **from the lowest-class work clothing to the world's most democratic fashion item.**
+
+No designer brand has ever achieved this — making presidents and cowboys, professors and workers wear the same pants, each believing they were designed just for them.`,
+
+    legacy: `501的设计遗产远超时尚领域。铜铆钉加固技术开创了功能性五金件在服装中的应用，直接影响了后来所有工装和户外服饰的设计。五口袋布局成为全球牛仔裤的标准模板，至今未变。
+
+更深远的影响在于**设计民主化**：501证明了伟大的设计不需要昂贵、不需要限量、不需要设计师签名。它是第一个真正意义上的"全球设计"——在每一个国家、每一个阶层、每一个亚文化中都有自己的位置。MoMA 和 Smithsonian 都将501纳入永久收藏。`,
+
+    legacy_en: `The 501's design legacy extends far beyond fashion. Copper rivet reinforcement pioneered the use of functional hardware in clothing, directly influencing all subsequent workwear and outdoor apparel design. The five-pocket layout became the global standard template for jeans and remains unchanged today.
+
+The deeper impact is **design democratization**: the 501 proved that great design doesn't need to be expensive, limited-edition, or designer-signed. It was the first truly "global design" — finding its place in every country, every social class, every subculture. Both MoMA and the Smithsonian include the 501 in their permanent collections.`,
+
+    significance: `在设计史上，501代表了一个独特的命题：**最伟大的设计是否可以来自最朴素的出发点？** 答案是肯定的。Strauss 和 Davis 没有想过美学、没有想过品牌、没有想过文化符号——他们只想做一条不会撕破的裤子。而正是这种纯粹的功能主义，造就了最持久的设计。
+
+153年后，501仍在生产，仍在被穿着，仍在被模仿。它提醒每一个设计师：**解决真实问题的设计，自然会成为经典。**`,
+
+    significance_en: `In design history, the 501 represents a unique proposition: **Can the greatest design come from the humblest starting point?** The answer is yes. Strauss and Davis never thought about aesthetics, branding, or cultural symbolism — they just wanted to make pants that wouldn't rip. And it was precisely this pure functionalism that created the most enduring design.
+
+153 years later, the 501 is still in production, still being worn, still being imitated. It reminds every designer: **Design that solves real problems naturally becomes timeless.**`
+  },
+
 ]
 
 
