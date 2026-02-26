@@ -55,12 +55,12 @@
   background-color: transparent !important;
 }
 
-/* 无内容，未选中: 40% opacity - visually distinct from wallpaper-date pure black */
+/* 无内容，未选中: 60% opacity */
 .luxury-calendar .react-calendar__month-view__days__day {
-  color: rgba(0, 0, 0, 0.4) !important;
+  color: rgba(0, 0, 0, 0.6) !important;
 }
 .luxury-calendar .react-calendar__month-view__days__day:is(.dark *) {
-  color: rgba(255, 255, 255, 0.4) !important;
+  color: rgba(255, 255, 255, 0.6) !important;
 }
 
 /* 上/下月日期: 整体 50% 透明度 */
