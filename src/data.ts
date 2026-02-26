@@ -1,4 +1,4 @@
-// Bump this when any image file is replaced (same filename, new content)
+﻿// Bump this when any image file is replaced (same filename, new content)
 // This busts CDN cache without renaming files
 export const IMAGE_VERSION = '20260226b'
 
@@ -10,20 +10,20 @@ export interface DesignObject {
   thumbnailUrl?: string
   title: string
   title_en?: string
-  subtitle?: string // 设计师 + 年份
+  subtitle?: string // è®¾è®¡å¸ˆ + å¹´ä»½
   subtitle_en?: string
   category: 'industrial' | 'music' | 'art' | 'architecture' | 'graphic' | 'software' | 'fashion' | 'film'
   designer: string
   year?: string
   
-  // 中文内容
+  // ä¸­æ–‡å†…å®¹
   dateConnection: string
   designerBio: string
   story: string
   legacy?: string
   significance?: string
   
-  // 英文内容
+  // è‹±æ–‡å†…å®¹
   dateConnection_en?: string
   designerBio_en?: string
   story_en?: string
@@ -44,59 +44,59 @@ export const designs: DesignObject[] = [
     designer: 'Gaetano Pesce',
     year: '1969',
     
-    dateConnection: '1969年，UP Series 在米兰家具展首次亮相，彻底颠覆了人们对家具的认知。Gaetano Pesce (1939-2024) 是20世纪最激进的意大利设计师之一，2024年4月在纽约去世，留下了半个世纪的设计革命遗产。',
+    dateConnection: '1969å¹´ï¼ŒUP Series åœ¨ç±³å…°å®¶å…·å±•é¦–æ¬¡äº®ç›¸ï¼Œå½»åº•é¢ è¦†äº†äººä»¬å¯¹å®¶å…·çš„è®¤çŸ¥ã€‚Gaetano Pesce (1939-2024) æ˜¯20ä¸–çºªæœ€æ¿€è¿›çš„æ„å¤§åˆ©è®¾è®¡å¸ˆä¹‹ä¸€ï¼Œ2024å¹´4æœˆåœ¨çº½çº¦åŽ»ä¸–ï¼Œç•™ä¸‹äº†åŠä¸ªä¸–çºªçš„è®¾è®¡é©å‘½é—äº§ã€‚',
     
-    designerBio: `Gaetano Pesce (1939-2024)，意大利建筑师、设计师，20世纪设计先驱。
+    designerBio: `Gaetano Pesce (1939-2024)ï¼Œæ„å¤§åˆ©å»ºç­‘å¸ˆã€è®¾è®¡å¸ˆï¼Œ20ä¸–çºªè®¾è®¡å…ˆé©±ã€‚
 
-他在威尼斯大学跟随 Carlo Scarpa 和 Ernesto Rogers 学习建筑，但他的野心远不止于建筑。他要让设计成为**社会评论的工具**——每一件作品都有话要说。
+ä»–åœ¨å¨å°¼æ–¯å¤§å­¦è·Ÿéš Carlo Scarpa å’Œ Ernesto Rogers å­¦ä¹ å»ºç­‘ï¼Œä½†ä»–çš„é‡Žå¿ƒè¿œä¸æ­¢äºŽå»ºç­‘ã€‚ä»–è¦è®©è®¾è®¡æˆä¸º**ç¤¾ä¼šè¯„è®ºçš„å·¥å…·**â€”â€”æ¯ä¸€ä»¶ä½œå“éƒ½æœ‰è¯è¦è¯´ã€‚
 
 **"Design should not be about beauty alone. It should provoke thought, create discourse, make people uncomfortable if necessary."**
-设计不应该只关乎美。它应该引发思考、创造对话，必要时让人不安。
+è®¾è®¡ä¸åº”è¯¥åªå…³ä¹Žç¾Žã€‚å®ƒåº”è¯¥å¼•å‘æ€è€ƒã€åˆ›é€ å¯¹è¯ï¼Œå¿…è¦æ—¶è®©äººä¸å®‰ã€‚
 
-他的作品被 MoMA、蓬皮杜中心、V&A 博物馆永久收藏。`,
+ä»–çš„ä½œå“è¢« MoMAã€è“¬çš®æœä¸­å¿ƒã€V&A åšç‰©é¦†æ°¸ä¹…æ”¶è—ã€‚`,
     
-    story: `1969年，米兰家具展。Pesce 展示了一系列真空包装的家具——打开包装，聚氨酯泡沫在几分钟内膨胀成完整的椅子。
+    story: `1969å¹´ï¼Œç±³å…°å®¶å…·å±•ã€‚Pesce å±•ç¤ºäº†ä¸€ç³»åˆ—çœŸç©ºåŒ…è£…çš„å®¶å…·â€”â€”æ‰“å¼€åŒ…è£…ï¼Œèšæ°¨é…¯æ³¡æ²«åœ¨å‡ åˆ†é’Ÿå†…è†¨èƒ€æˆå®Œæ•´çš„æ¤…å­ã€‚
 
-其中最震撼的是 UP5——一个丰腴的女性躯干形态，旁边连着一个球形脚凳 UP6。
+å…¶ä¸­æœ€éœ‡æ’¼çš„æ˜¯ UP5â€”â€”ä¸€ä¸ªä¸°è…´çš„å¥³æ€§èº¯å¹²å½¢æ€ï¼Œæ—è¾¹è¿žç€ä¸€ä¸ªçƒå½¢è„šå‡³ UP6ã€‚
 
-**这不是抽象的曲线，这是一个被囚禁的女人。**
+**è¿™ä¸æ˜¯æŠ½è±¡çš„æ›²çº¿ï¼Œè¿™æ˜¯ä¸€ä¸ªè¢«å›šç¦çš„å¥³äººã€‚**
 
-Pesce 公开解释：UP5 象征女性，UP6 是她脚上的球和链——代表社会对女性的束缚。椅子的名字曾被称为 "La Mamma"、"Donna"、"Big Mama"。
+Pesce å…¬å¼€è§£é‡Šï¼šUP5 è±¡å¾å¥³æ€§ï¼ŒUP6 æ˜¯å¥¹è„šä¸Šçš„çƒå’Œé“¾â€”â€”ä»£è¡¨ç¤¾ä¼šå¯¹å¥³æ€§çš„æŸç¼šã€‚æ¤…å­çš„åå­—æ›¾è¢«ç§°ä¸º "La Mamma"ã€"Donna"ã€"Big Mama"ã€‚
 
-评论家震惊了。这是家具还是宣言？是产品还是艺术品？是舒适还是挑衅？
+è¯„è®ºå®¶éœ‡æƒŠäº†ã€‚è¿™æ˜¯å®¶å…·è¿˜æ˜¯å®£è¨€ï¼Ÿæ˜¯äº§å“è¿˜æ˜¯è‰ºæœ¯å“ï¼Ÿæ˜¯èˆ’é€‚è¿˜æ˜¯æŒ‘è¡…ï¼Ÿ
 
-**答案是：全都是。**
+**ç­”æ¡ˆæ˜¯ï¼šå…¨éƒ½æ˜¯ã€‚**
 
-这把椅子定义了意大利激进设计运动，证明家具可以承载政治信息。`,
+è¿™æŠŠæ¤…å­å®šä¹‰äº†æ„å¤§åˆ©æ¿€è¿›è®¾è®¡è¿åŠ¨ï¼Œè¯æ˜Žå®¶å…·å¯ä»¥æ‰¿è½½æ”¿æ²»ä¿¡æ¯ã€‚`,
     
-    legacy: `• 激进设计运动：与 Superstudio、Archizoom 一起定义了60年代末意大利设计的反叛精神
-• 女性主义设计：最早将性别政治明确融入家具设计的作品之一
-• 包装创新：真空压缩包装是当时的技术突破，影响了后来 IKEA 的平板包装理念
-• 博物馆典藏：MoMA、V&A、蓬皮杜中心永久收藏，成为20世纪设计史的标志`,
+    legacy: `â€¢ æ¿€è¿›è®¾è®¡è¿åŠ¨ï¼šä¸Ž Superstudioã€Archizoom ä¸€èµ·å®šä¹‰äº†60å¹´ä»£æœ«æ„å¤§åˆ©è®¾è®¡çš„åå›ç²¾ç¥ž
+â€¢ å¥³æ€§ä¸»ä¹‰è®¾è®¡ï¼šæœ€æ—©å°†æ€§åˆ«æ”¿æ²»æ˜Žç¡®èžå…¥å®¶å…·è®¾è®¡çš„ä½œå“ä¹‹ä¸€
+â€¢ åŒ…è£…åˆ›æ–°ï¼šçœŸç©ºåŽ‹ç¼©åŒ…è£…æ˜¯å½“æ—¶çš„æŠ€æœ¯çªç ´ï¼Œå½±å“äº†åŽæ¥ IKEA çš„å¹³æ¿åŒ…è£…ç†å¿µ
+â€¢ åšç‰©é¦†å…¸è—ï¼šMoMAã€V&Aã€è“¬çš®æœä¸­å¿ƒæ°¸ä¹…æ”¶è—ï¼Œæˆä¸º20ä¸–çºªè®¾è®¡å²çš„æ ‡å¿—`,
     
-    significance: `Pesce 证明了设计可以是激进的、政治的、不舒服的——同时仍然是美的。
+    significance: `Pesce è¯æ˜Žäº†è®¾è®¡å¯ä»¥æ˜¯æ¿€è¿›çš„ã€æ”¿æ²»çš„ã€ä¸èˆ’æœçš„â€”â€”åŒæ—¶ä»ç„¶æ˜¯ç¾Žçš„ã€‚
 
-UP5 坐起来令人惊讶地舒适。它包裹着你，像一个拥抱。但每次你坐下，你都被迫想起它的含义。这就是 Pesce 的天才：**他让批判变得亲密，让政治变得家常。**
+UP5 åèµ·æ¥ä»¤äººæƒŠè®¶åœ°èˆ’é€‚ã€‚å®ƒåŒ…è£¹ç€ä½ ï¼Œåƒä¸€ä¸ªæ‹¥æŠ±ã€‚ä½†æ¯æ¬¡ä½ åä¸‹ï¼Œä½ éƒ½è¢«è¿«æƒ³èµ·å®ƒçš„å«ä¹‰ã€‚è¿™å°±æ˜¯ Pesce çš„å¤©æ‰ï¼š**ä»–è®©æ‰¹åˆ¤å˜å¾—äº²å¯†ï¼Œè®©æ”¿æ²»å˜å¾—å®¶å¸¸ã€‚**
 
-在他2024年去世后，设计界失去了最后一位敢于说"设计不只是解决问题"的大师。`,
+åœ¨ä»–2024å¹´åŽ»ä¸–åŽï¼Œè®¾è®¡ç•Œå¤±åŽ»äº†æœ€åŽä¸€ä½æ•¢äºŽè¯´"è®¾è®¡ä¸åªæ˜¯è§£å†³é—®é¢˜"çš„å¤§å¸ˆã€‚`,
 
     dateConnection_en: 'In 1969, the UP Series debuted at the Milan Furniture Fair, completely revolutionizing how people perceived furniture. Gaetano Pesce (1939-2024) was one of the most radical Italian designers of the 20th century, passing away in New York in April 2024, leaving behind half a century of design revolution.',
     
     designerBio_en: `Gaetano Pesce (1939-2024), Italian architect and designer, a 20th-century design pioneer.
 
-He studied architecture at the University of Venice under Carlo Scarpa and Ernesto Rogers, but his ambitions went far beyond architecture. He wanted design to be **a tool for social commentary**—every piece had something to say.
+He studied architecture at the University of Venice under Carlo Scarpa and Ernesto Rogers, but his ambitions went far beyond architecture. He wanted design to be **a tool for social commentary**â€”every piece had something to say.
 
 **"Design should not be about beauty alone. It should provoke thought, create discourse, make people uncomfortable if necessary."**
 
 His works are in the permanent collections of MoMA, Centre Pompidou, and the V&A Museum.`,
     
-    story_en: `1969, Milan Furniture Fair. Pesce unveiled a series of vacuum-packed furniture—open the package, and polyurethane foam expands into a complete chair within minutes.
+    story_en: `1969, Milan Furniture Fair. Pesce unveiled a series of vacuum-packed furnitureâ€”open the package, and polyurethane foam expands into a complete chair within minutes.
 
-The most stunning was UP5—a voluptuous female torso shape, connected to a ball-shaped ottoman, UP6.
+The most stunning was UP5â€”a voluptuous female torso shape, connected to a ball-shaped ottoman, UP6.
 
 **This wasn't an abstract curve. This was an imprisoned woman.**
 
-Pesce publicly explained: UP5 symbolizes woman, UP6 is the ball and chain at her feet—representing society's constraints on women. The chair has been called "La Mamma," "Donna," "Big Mama."
+Pesce publicly explained: UP5 symbolizes woman, UP6 is the ball and chain at her feetâ€”representing society's constraints on women. The chair has been called "La Mamma," "Donna," "Big Mama."
 
 Critics were stunned. Was this furniture or manifesto? Product or artwork? Comfort or provocation?
 
@@ -104,12 +104,12 @@ Critics were stunned. Was this furniture or manifesto? Product or artwork? Comfo
 
 This chair defined the Italian Radical Design movement, proving furniture could carry political messages.`,
     
-    legacy_en: `• Radical Design movement: Alongside Superstudio and Archizoom, defined the rebellious spirit of late-60s Italian design
-• Feminist design: One of the first works to explicitly integrate gender politics into furniture design
-• Packaging innovation: Vacuum compression packaging was a technological breakthrough, influencing IKEA's later flat-pack concept
-• Museum collections: Permanently housed in MoMA, V&A, Centre Pompidou—icons of 20th-century design history`,
+    legacy_en: `â€¢ Radical Design movement: Alongside Superstudio and Archizoom, defined the rebellious spirit of late-60s Italian design
+â€¢ Feminist design: One of the first works to explicitly integrate gender politics into furniture design
+â€¢ Packaging innovation: Vacuum compression packaging was a technological breakthrough, influencing IKEA's later flat-pack concept
+â€¢ Museum collections: Permanently housed in MoMA, V&A, Centre Pompidouâ€”icons of 20th-century design history`,
     
-    significance_en: `Pesce proved that design can be radical, political, uncomfortable—while still being beautiful.
+    significance_en: `Pesce proved that design can be radical, political, uncomfortableâ€”while still being beautiful.
 
 UP5 is surprisingly comfortable to sit in. It wraps around you like an embrace. But every time you sit down, you're forced to consider its meaning. This was Pesce's genius: **he made critique intimate, made politics domestic.**
 
@@ -127,41 +127,41 @@ After his death in 2024, the design world lost its last master who dared to say 
     designer: 'Alexander McQueen',
     year: '2009',
     
-    dateConnection: '2010年2月11日，Alexander McQueen 在伦敦家中自杀身亡，享年40岁。他是21世纪最重要的时装设计师之一，将时装秀变成了剧场艺术。',
+    dateConnection: '2010å¹´2æœˆ11æ—¥ï¼ŒAlexander McQueen åœ¨ä¼¦æ•¦å®¶ä¸­è‡ªæ€èº«äº¡ï¼Œäº«å¹´40å²ã€‚ä»–æ˜¯21ä¸–çºªæœ€é‡è¦çš„æ—¶è£…è®¾è®¡å¸ˆä¹‹ä¸€ï¼Œå°†æ—¶è£…ç§€å˜æˆäº†å‰§åœºè‰ºæœ¯ã€‚',
     
-    designerBio: `Lee Alexander McQueen (1969-2010)，英国时装设计师，被称为"英国时尚界的坏孩子"（l'enfant terrible）。
+    designerBio: `Lee Alexander McQueen (1969-2010)ï¼Œè‹±å›½æ—¶è£…è®¾è®¡å¸ˆï¼Œè¢«ç§°ä¸º"è‹±å›½æ—¶å°šç•Œçš„åå­©å­"ï¼ˆl'enfant terribleï¼‰ã€‚
 
-他16岁辍学去萨维尔街当裁缝学徒，25岁就成为纪梵希的创意总监。他的秀场像恐怖片、像梦魇、像诗——模特从玻璃箱里走出来，被机器人喷漆，在暴风雪中行走。
+ä»–16å²è¾å­¦åŽ»è¨ç»´å°”è¡—å½“è£ç¼å­¦å¾’ï¼Œ25å²å°±æˆä¸ºçºªæ¢µå¸Œçš„åˆ›æ„æ€»ç›‘ã€‚ä»–çš„ç§€åœºåƒææ€–ç‰‡ã€åƒæ¢¦é­‡ã€åƒè¯—â€”â€”æ¨¡ç‰¹ä»ŽçŽ»ç’ƒç®±é‡Œèµ°å‡ºæ¥ï¼Œè¢«æœºå™¨äººå–·æ¼†ï¼Œåœ¨æš´é£Žé›ªä¸­è¡Œèµ°ã€‚
 
 **"I want to empower women. I want people to be afraid of the women I dress."**
-我想赋予女性力量。我想让人们害怕我穿着的女人。
+æˆ‘æƒ³èµ‹äºˆå¥³æ€§åŠ›é‡ã€‚æˆ‘æƒ³è®©äººä»¬å®³æ€•æˆ‘ç©¿ç€çš„å¥³äººã€‚
 
-他的自杀发生在母亲葬礼前几天。时尚界至今无人能填补他留下的空白。`,
+ä»–çš„è‡ªæ€å‘ç”Ÿåœ¨æ¯äº²è‘¬ç¤¼å‰å‡ å¤©ã€‚æ—¶å°šç•Œè‡³ä»Šæ— äººèƒ½å¡«è¡¥ä»–ç•™ä¸‹çš„ç©ºç™½ã€‚`,
     
-    story: `The Horn of Plenty 是 McQueen 2009 秋冬系列，也是他生前倒数第二个系列。
+    story: `The Horn of Plenty æ˜¯ McQueen 2009 ç§‹å†¬ç³»åˆ—ï¼Œä¹Ÿæ˜¯ä»–ç”Ÿå‰å€’æ•°ç¬¬äºŒä¸ªç³»åˆ—ã€‚
 
-整场秀是对时尚产业的**自我批判**。巨大的垃圾堆构成 T 台背景，模特戴着夸张到畸形的头饰——讽刺时尚界对"新"的病态追求。
+æ•´åœºç§€æ˜¯å¯¹æ—¶å°šäº§ä¸šçš„**è‡ªæˆ‘æ‰¹åˆ¤**ã€‚å·¨å¤§çš„åžƒåœ¾å †æž„æˆ T å°èƒŒæ™¯ï¼Œæ¨¡ç‰¹æˆ´ç€å¤¸å¼ åˆ°ç•¸å½¢çš„å¤´é¥°â€”â€”è®½åˆºæ—¶å°šç•Œå¯¹"æ–°"çš„ç—…æ€è¿½æ±‚ã€‚
 
-但在垃圾和讽刺之下，是无与伦比的工艺。羽毛裙从肩膀延伸到地面，每一片羽毛都经过手工染色和定位。面料的处理、剪裁的精确、对人体的理解——这是高级定制的巅峰。
+ä½†åœ¨åžƒåœ¾å’Œè®½åˆºä¹‹ä¸‹ï¼Œæ˜¯æ— ä¸Žä¼¦æ¯”çš„å·¥è‰ºã€‚ç¾½æ¯›è£™ä»Žè‚©è†€å»¶ä¼¸åˆ°åœ°é¢ï¼Œæ¯ä¸€ç‰‡ç¾½æ¯›éƒ½ç»è¿‡æ‰‹å·¥æŸ“è‰²å’Œå®šä½ã€‚é¢æ–™çš„å¤„ç†ã€å‰ªè£çš„ç²¾ç¡®ã€å¯¹äººä½“çš„ç†è§£â€”â€”è¿™æ˜¯é«˜çº§å®šåˆ¶çš„å·…å³°ã€‚
 
-**McQueen 用最美的方式说了最丑陋的真相：时尚在消费自己。**`,
+**McQueen ç”¨æœ€ç¾Žçš„æ–¹å¼è¯´äº†æœ€ä¸‘é™‹çš„çœŸç›¸ï¼šæ—¶å°šåœ¨æ¶ˆè´¹è‡ªå·±ã€‚**`,
     
-    legacy: `• 时装表演艺术：证明 runway show 可以是完整的艺术作品，而非商品展示
-• V&A "Savage Beauty" 展览：2015年成为 V&A 史上最成功的展览，排队长达6小时
-• 情感设计：McQueen 证明设计可以是创伤、愤怒、美丽的复杂混合
-• 后继者 Sarah Burton：继承品牌并设计了凯特王妃的婚纱`,
+    legacy: `â€¢ æ—¶è£…è¡¨æ¼”è‰ºæœ¯ï¼šè¯æ˜Ž runway show å¯ä»¥æ˜¯å®Œæ•´çš„è‰ºæœ¯ä½œå“ï¼Œè€Œéžå•†å“å±•ç¤º
+â€¢ V&A "Savage Beauty" å±•è§ˆï¼š2015å¹´æˆä¸º V&A å²ä¸Šæœ€æˆåŠŸçš„å±•è§ˆï¼ŒæŽ’é˜Ÿé•¿è¾¾6å°æ—¶
+â€¢ æƒ…æ„Ÿè®¾è®¡ï¼šMcQueen è¯æ˜Žè®¾è®¡å¯ä»¥æ˜¯åˆ›ä¼¤ã€æ„¤æ€’ã€ç¾Žä¸½çš„å¤æ‚æ··åˆ
+â€¢ åŽç»§è€… Sarah Burtonï¼šç»§æ‰¿å“ç‰Œå¹¶è®¾è®¡äº†å‡¯ç‰¹çŽ‹å¦ƒçš„å©šçº±`,
     
-    significance: `McQueen 不是在"设计衣服"——他在讲故事、在治疗、在对抗。
+    significance: `McQueen ä¸æ˜¯åœ¨"è®¾è®¡è¡£æœ"â€”â€”ä»–åœ¨è®²æ•…äº‹ã€åœ¨æ²»ç–—ã€åœ¨å¯¹æŠ—ã€‚
 
-他的每个系列都有一个完整的叙事：被女巫烧死的祖先、苏格兰高地的屠杀、深海的生物。衣服是叙事的载体，T台是剧场，模特是角色。
+ä»–çš„æ¯ä¸ªç³»åˆ—éƒ½æœ‰ä¸€ä¸ªå®Œæ•´çš„å™äº‹ï¼šè¢«å¥³å·«çƒ§æ­»çš„ç¥–å…ˆã€è‹æ ¼å…°é«˜åœ°çš„å± æ€ã€æ·±æµ·çš„ç”Ÿç‰©ã€‚è¡£æœæ˜¯å™äº‹çš„è½½ä½“ï¼ŒTå°æ˜¯å‰§åœºï¼Œæ¨¡ç‰¹æ˜¯è§’è‰²ã€‚
 
-这种方法论——设计作为表达，而非商品——影响了整整一代设计师。`,
+è¿™ç§æ–¹æ³•è®ºâ€”â€”è®¾è®¡ä½œä¸ºè¡¨è¾¾ï¼Œè€Œéžå•†å“â€”â€”å½±å“äº†æ•´æ•´ä¸€ä»£è®¾è®¡å¸ˆã€‚`,
 
     dateConnection_en: 'On February 11, 2010, Alexander McQueen took his own life at his London home at age 40. He was one of the most important fashion designers of the 21st century, transforming fashion shows into theatrical art.',
     
     designerBio_en: `Lee Alexander McQueen (1969-2010), British fashion designer, known as "l'enfant terrible" of British fashion.
 
-He dropped out of school at 16 to apprentice on Savile Row, and became creative director of Givenchy at 25. His shows were like horror films, like nightmares, like poetry—models emerged from glass boxes, were spray-painted by robots, walked through blizzards.
+He dropped out of school at 16 to apprentice on Savile Row, and became creative director of Givenchy at 25. His shows were like horror films, like nightmares, like poetryâ€”models emerged from glass boxes, were spray-painted by robots, walked through blizzards.
 
 **"I want to empower women. I want people to be afraid of the women I dress."**
 
@@ -169,22 +169,22 @@ His suicide occurred just days before his mother's funeral. The fashion world ha
     
     story_en: `The Horn of Plenty was McQueen's Autumn/Winter 2009 collection, his second-to-last before his death.
 
-The entire show was a **self-critique of the fashion industry**. A massive garbage heap formed the runway backdrop, models wore grotesquely exaggerated headpieces—satirizing fashion's pathological pursuit of "newness."
+The entire show was a **self-critique of the fashion industry**. A massive garbage heap formed the runway backdrop, models wore grotesquely exaggerated headpiecesâ€”satirizing fashion's pathological pursuit of "newness."
 
-But beneath the trash and satire was unparalleled craftsmanship. Feather gowns extended from shoulders to floor, each feather hand-dyed and positioned. The fabric treatment, precision of cut, understanding of the body—this was haute couture at its peak.
+But beneath the trash and satire was unparalleled craftsmanship. Feather gowns extended from shoulders to floor, each feather hand-dyed and positioned. The fabric treatment, precision of cut, understanding of the bodyâ€”this was haute couture at its peak.
 
 **McQueen told the ugliest truth in the most beautiful way: fashion is consuming itself.**`,
     
-    legacy_en: `• Fashion as performance art: Proved runway shows could be complete artworks, not merchandise displays
-• V&A "Savage Beauty" exhibition: Became V&A's most successful exhibition in 2015, with 6-hour queues
-• Emotional design: McQueen proved design could be a complex mixture of trauma, anger, and beauty
-• Successor Sarah Burton: Inherited the brand and designed Kate Middleton's wedding dress`,
+    legacy_en: `â€¢ Fashion as performance art: Proved runway shows could be complete artworks, not merchandise displays
+â€¢ V&A "Savage Beauty" exhibition: Became V&A's most successful exhibition in 2015, with 6-hour queues
+â€¢ Emotional design: McQueen proved design could be a complex mixture of trauma, anger, and beauty
+â€¢ Successor Sarah Burton: Inherited the brand and designed Kate Middleton's wedding dress`,
     
-    significance_en: `McQueen wasn't "designing clothes"—he was telling stories, healing, fighting back.
+    significance_en: `McQueen wasn't "designing clothes"â€”he was telling stories, healing, fighting back.
 
 Each collection had a complete narrative: ancestors burned as witches, Highland massacres, deep-sea creatures. Clothes were vehicles for narrative, the runway was theater, models were characters.
 
-This methodology—design as expression, not commodity—influenced an entire generation of designers.`
+This methodologyâ€”design as expression, not commodityâ€”influenced an entire generation of designers.`
   },
   {
     id: '8',
@@ -192,84 +192,84 @@ This methodology—design as expression, not commodity—influenced an entire ge
     imageUrl: '/the-daily-object/images/boullee-cenotaph-newton.jpg',
     fullImageUrl: '/the-daily-object/images/full/boullee-cenotaph-newton.jpg',
     thumbnailUrl: '/the-daily-object/thumbnails/boullee-cenotaph-newton.jpg',
-    title: '牛顿纪念堂',
+    title: 'ç‰›é¡¿çºªå¿µå ‚',
     title_en: 'Cenotaph for Newton',
-    subtitle: 'Étienne-Louis Boullée, 1784',
+    subtitle: 'Ã‰tienne-Louis BoullÃ©e, 1784',
     category: 'architecture',
-    designer: 'Étienne-Louis Boullée',
+    designer: 'Ã‰tienne-Louis BoullÃ©e',
     year: '1784',
     
-    dateConnection: '1728年2月12日，Étienne-Louis Boullée 出生于巴黎。他是建筑史上最伟大的空想家之一——他设计的建筑从未建成，却影响了此后两百年的建筑思想。他的"牛顿纪念堂"是人类想象力最壮丽的建筑图纸。',
+    dateConnection: '1728å¹´2æœˆ12æ—¥ï¼ŒÃ‰tienne-Louis BoullÃ©e å‡ºç”ŸäºŽå·´é»Žã€‚ä»–æ˜¯å»ºç­‘å²ä¸Šæœ€ä¼Ÿå¤§çš„ç©ºæƒ³å®¶ä¹‹ä¸€â€”â€”ä»–è®¾è®¡çš„å»ºç­‘ä»Žæœªå»ºæˆï¼Œå´å½±å“äº†æ­¤åŽä¸¤ç™¾å¹´çš„å»ºç­‘æ€æƒ³ã€‚ä»–çš„"ç‰›é¡¿çºªå¿µå ‚"æ˜¯äººç±»æƒ³è±¡åŠ›æœ€å£®ä¸½çš„å»ºç­‘å›¾çº¸ã€‚',
     
-    designerBio: `Étienne-Louis Boullée（1728-1799），法国建筑师、建筑理论家，"纸上建筑"（Paper Architecture）的先驱。
+    designerBio: `Ã‰tienne-Louis BoullÃ©eï¼ˆ1728-1799ï¼‰ï¼Œæ³•å›½å»ºç­‘å¸ˆã€å»ºç­‘ç†è®ºå®¶ï¼Œ"çº¸ä¸Šå»ºç­‘"ï¼ˆPaper Architectureï¼‰çš„å…ˆé©±ã€‚
 
-他在巴黎出生长大，年轻时师从多位建筑师，25岁被选入法兰西皇家建筑学院。他的实际建造作品不多——几座巴黎私人宅邸——但他真正的贡献在于那些永远不会（也不可能）建成的设计。
+ä»–åœ¨å·´é»Žå‡ºç”Ÿé•¿å¤§ï¼Œå¹´è½»æ—¶å¸ˆä»Žå¤šä½å»ºç­‘å¸ˆï¼Œ25å²è¢«é€‰å…¥æ³•å…°è¥¿çš‡å®¶å»ºç­‘å­¦é™¢ã€‚ä»–çš„å®žé™…å»ºé€ ä½œå“ä¸å¤šâ€”â€”å‡ åº§å·´é»Žç§äººå®…é‚¸â€”â€”ä½†ä»–çœŸæ­£çš„è´¡çŒ®åœ¨äºŽé‚£äº›æ°¸è¿œä¸ä¼šï¼ˆä¹Ÿä¸å¯èƒ½ï¼‰å»ºæˆçš„è®¾è®¡ã€‚
 
-1780年代，他开始创作一系列宏大的"空想建筑"图纸：巨大的球体、无限延伸的柱廊、吞噬天际线的金字塔。这些设计的尺度远超当时的工程能力，但它们的真正目的不是建造——而是**思考**。
+1780å¹´ä»£ï¼Œä»–å¼€å§‹åˆ›ä½œä¸€ç³»åˆ—å®å¤§çš„"ç©ºæƒ³å»ºç­‘"å›¾çº¸ï¼šå·¨å¤§çš„çƒä½“ã€æ— é™å»¶ä¼¸çš„æŸ±å»Šã€åžå™¬å¤©é™…çº¿çš„é‡‘å­—å¡”ã€‚è¿™äº›è®¾è®¡çš„å°ºåº¦è¿œè¶…å½“æ—¶çš„å·¥ç¨‹èƒ½åŠ›ï¼Œä½†å®ƒä»¬çš„çœŸæ­£ç›®çš„ä¸æ˜¯å»ºé€ â€”â€”è€Œæ˜¯**æ€è€ƒ**ã€‚
 
-**"我们必须用建筑来表达崇高。"**
+**"æˆ‘ä»¬å¿…é¡»ç”¨å»ºç­‘æ¥è¡¨è¾¾å´‡é«˜ã€‚"**
 
-他在遗著《建筑论》中写道：建筑不仅是遮风挡雨的容器，更是人类情感和思想的物质化身。`,
+ä»–åœ¨é—è‘—ã€Šå»ºç­‘è®ºã€‹ä¸­å†™é“ï¼šå»ºç­‘ä¸ä»…æ˜¯é®é£ŽæŒ¡é›¨çš„å®¹å™¨ï¼Œæ›´æ˜¯äººç±»æƒ…æ„Ÿå’Œæ€æƒ³çš„ç‰©è´¨åŒ–èº«ã€‚`,
     
-    story: `1784年，Boullée 画出了建筑史上最震撼人心的图纸：牛顿纪念堂（Cénotaphe de Newton）。
+    story: `1784å¹´ï¼ŒBoullÃ©e ç”»å‡ºäº†å»ºç­‘å²ä¸Šæœ€éœ‡æ’¼äººå¿ƒçš„å›¾çº¸ï¼šç‰›é¡¿çºªå¿µå ‚ï¼ˆCÃ©notaphe de Newtonï¼‰ã€‚
 
-这是一个直径约150米的巨大球体，坐落在层层环形阶梯之上。球体内部是一个模拟星空的巨大空间——白天，阳光通过球壳上密布的小孔射入，在黑暗的内壁上投射出满天繁星的效果。夜晚，中央悬挂一盏巨大的灯，模拟太阳。
+è¿™æ˜¯ä¸€ä¸ªç›´å¾„çº¦150ç±³çš„å·¨å¤§çƒä½“ï¼Œåè½åœ¨å±‚å±‚çŽ¯å½¢é˜¶æ¢¯ä¹‹ä¸Šã€‚çƒä½“å†…éƒ¨æ˜¯ä¸€ä¸ªæ¨¡æ‹Ÿæ˜Ÿç©ºçš„å·¨å¤§ç©ºé—´â€”â€”ç™½å¤©ï¼Œé˜³å…‰é€šè¿‡çƒå£³ä¸Šå¯†å¸ƒçš„å°å­”å°„å…¥ï¼Œåœ¨é»‘æš—çš„å†…å£ä¸ŠæŠ•å°„å‡ºæ»¡å¤©ç¹æ˜Ÿçš„æ•ˆæžœã€‚å¤œæ™šï¼Œä¸­å¤®æ‚¬æŒ‚ä¸€ç›å·¨å¤§çš„ç¯ï¼Œæ¨¡æ‹Ÿå¤ªé˜³ã€‚
 
-**建筑本身成为了一台天文仪器。**
+**å»ºç­‘æœ¬èº«æˆä¸ºäº†ä¸€å°å¤©æ–‡ä»ªå™¨ã€‚**
 
-牛顿的棺椁放在球体底部的正中央——一个人，面对整个宇宙。
+ç‰›é¡¿çš„æ£ºæ¤æ”¾åœ¨çƒä½“åº•éƒ¨çš„æ­£ä¸­å¤®â€”â€”ä¸€ä¸ªäººï¼Œé¢å¯¹æ•´ä¸ªå®‡å®™ã€‚
 
-这个设计从未建造，技术上也几乎不可能建造（150米跨度的球体在18世纪是天方夜谭）。但这恰恰是它的力量所在：它不受材料和结构的限制，纯粹地表达了一个建筑思想——**空间可以让人感受到崇高、渺小和宇宙的无限。**
+è¿™ä¸ªè®¾è®¡ä»Žæœªå»ºé€ ï¼ŒæŠ€æœ¯ä¸Šä¹Ÿå‡ ä¹Žä¸å¯èƒ½å»ºé€ ï¼ˆ150ç±³è·¨åº¦çš„çƒä½“åœ¨18ä¸–çºªæ˜¯å¤©æ–¹å¤œè°­ï¼‰ã€‚ä½†è¿™æ°æ°æ˜¯å®ƒçš„åŠ›é‡æ‰€åœ¨ï¼šå®ƒä¸å—ææ–™å’Œç»“æž„çš„é™åˆ¶ï¼Œçº¯ç²¹åœ°è¡¨è¾¾äº†ä¸€ä¸ªå»ºç­‘æ€æƒ³â€”â€”**ç©ºé—´å¯ä»¥è®©äººæ„Ÿå—åˆ°å´‡é«˜ã€æ¸ºå°å’Œå®‡å®™çš„æ— é™ã€‚**
 
-图纸中微小的人影与巨大球体的对比，传达出一种令人窒息的壮美。这不是建筑方案，这是哲学宣言。`,
+å›¾çº¸ä¸­å¾®å°çš„äººå½±ä¸Žå·¨å¤§çƒä½“çš„å¯¹æ¯”ï¼Œä¼ è¾¾å‡ºä¸€ç§ä»¤äººçª’æ¯çš„å£®ç¾Žã€‚è¿™ä¸æ˜¯å»ºç­‘æ–¹æ¡ˆï¼Œè¿™æ˜¯å“²å­¦å®£è¨€ã€‚`,
 
-    legacy: `Boullée 的影响远超他的时代：
+    legacy: `BoullÃ©e çš„å½±å“è¿œè¶…ä»–çš„æ—¶ä»£ï¼š
 
-**纸上建筑的先驱**：他证明了建筑图纸本身可以是艺术作品，影响了从 Piranesi 到 Lebbeus Woods 到 Zaha Hadid 的所有"纸上建筑师"
+**çº¸ä¸Šå»ºç­‘çš„å…ˆé©±**ï¼šä»–è¯æ˜Žäº†å»ºç­‘å›¾çº¸æœ¬èº«å¯ä»¥æ˜¯è‰ºæœ¯ä½œå“ï¼Œå½±å“äº†ä»Ž Piranesi åˆ° Lebbeus Woods åˆ° Zaha Hadid çš„æ‰€æœ‰"çº¸ä¸Šå»ºç­‘å¸ˆ"
 
-**巨构建筑的灵感源泉**：他对巨大尺度的迷恋直接影响了20世纪的巨构主义（Megastructure）和科幻建筑想象
+**å·¨æž„å»ºç­‘çš„çµæ„Ÿæºæ³‰**ï¼šä»–å¯¹å·¨å¤§å°ºåº¦çš„è¿·æ‹ç›´æŽ¥å½±å“äº†20ä¸–çºªçš„å·¨æž„ä¸»ä¹‰ï¼ˆMegastructureï¼‰å’Œç§‘å¹»å»ºç­‘æƒ³è±¡
 
-**光与空间**：他对光线作为建筑材料的理解，预言了安藤忠雄的光之教堂和 James Turrell 的天空空间
+**å…‰ä¸Žç©ºé—´**ï¼šä»–å¯¹å…‰çº¿ä½œä¸ºå»ºç­‘ææ–™çš„ç†è§£ï¼Œé¢„è¨€äº†å®‰è—¤å¿ é›„çš„å…‰ä¹‹æ•™å ‚å’Œ James Turrell çš„å¤©ç©ºç©ºé—´
 
-**建筑作为体验**：他把建筑从"功能容器"提升为"情感体验"，这一思想在今天的体验式建筑（如 teamLab 空间）中延续
+**å»ºç­‘ä½œä¸ºä½“éªŒ**ï¼šä»–æŠŠå»ºç­‘ä»Ž"åŠŸèƒ½å®¹å™¨"æå‡ä¸º"æƒ…æ„Ÿä½“éªŒ"ï¼Œè¿™ä¸€æ€æƒ³åœ¨ä»Šå¤©çš„ä½“éªŒå¼å»ºç­‘ï¼ˆå¦‚ teamLab ç©ºé—´ï¼‰ä¸­å»¶ç»­
 
-**革命建筑美学**：他的几何纯粹性——球体、圆柱、金字塔——直接影响了后来的新古典主义和现代主义建筑`,
+**é©å‘½å»ºç­‘ç¾Žå­¦**ï¼šä»–çš„å‡ ä½•çº¯ç²¹æ€§â€”â€”çƒä½“ã€åœ†æŸ±ã€é‡‘å­—å¡”â€”â€”ç›´æŽ¥å½±å“äº†åŽæ¥çš„æ–°å¤å…¸ä¸»ä¹‰å’ŒçŽ°ä»£ä¸»ä¹‰å»ºç­‘`,
     
-    significance: `为什么一座从未建成的建筑，比大多数建成的建筑更重要？
+    significance: `ä¸ºä»€ä¹ˆä¸€åº§ä»Žæœªå»ºæˆçš„å»ºç­‘ï¼Œæ¯”å¤§å¤šæ•°å»ºæˆçš„å»ºç­‘æ›´é‡è¦ï¼Ÿ
 
-因为 Boullée 揭示了建筑的终极本质：**建筑不是关于砖石，而是关于空间如何让人感受。**
+å› ä¸º BoullÃ©e æ­ç¤ºäº†å»ºç­‘çš„ç»ˆæžæœ¬è´¨ï¼š**å»ºç­‘ä¸æ˜¯å…³äºŽç –çŸ³ï¼Œè€Œæ˜¯å…³äºŽç©ºé—´å¦‚ä½•è®©äººæ„Ÿå—ã€‚**
 
-牛顿纪念堂不需要建成就已经完成了它的使命——它让每一个看到图纸的人都感受到了宇宙的浩瀚和人类的渺小。这种感受本身就是建筑。
+ç‰›é¡¿çºªå¿µå ‚ä¸éœ€è¦å»ºæˆå°±å·²ç»å®Œæˆäº†å®ƒçš„ä½¿å‘½â€”â€”å®ƒè®©æ¯ä¸€ä¸ªçœ‹åˆ°å›¾çº¸çš„äººéƒ½æ„Ÿå—åˆ°äº†å®‡å®™çš„æµ©ç€šå’Œäººç±»çš„æ¸ºå°ã€‚è¿™ç§æ„Ÿå—æœ¬èº«å°±æ˜¯å»ºç­‘ã€‚
 
-在今天这个虚拟现实和元宇宙的时代，Boullée 的思想比以往任何时候都更有意义：**当建筑可以脱离物理限制时，什么才是真正重要的？答案是体验——是空间带给人的感受。**
+åœ¨ä»Šå¤©è¿™ä¸ªè™šæ‹ŸçŽ°å®žå’Œå…ƒå®‡å®™çš„æ—¶ä»£ï¼ŒBoullÃ©e çš„æ€æƒ³æ¯”ä»¥å¾€ä»»ä½•æ—¶å€™éƒ½æ›´æœ‰æ„ä¹‰ï¼š**å½“å»ºç­‘å¯ä»¥è„±ç¦»ç‰©ç†é™åˆ¶æ—¶ï¼Œä»€ä¹ˆæ‰æ˜¯çœŸæ­£é‡è¦çš„ï¼Ÿç­”æ¡ˆæ˜¯ä½“éªŒâ€”â€”æ˜¯ç©ºé—´å¸¦ç»™äººçš„æ„Ÿå—ã€‚**
 
-240年前，Boullée 已经在思考这个问题了。`,
+240å¹´å‰ï¼ŒBoullÃ©e å·²ç»åœ¨æ€è€ƒè¿™ä¸ªé—®é¢˜äº†ã€‚`,
 
-    dateConnection_en: 'On February 12, 1728, Étienne-Louis Boullée was born in Paris. He was one of architecture\'s greatest visionaries — his buildings were never built, yet they influenced architectural thought for the next two centuries. His "Cenotaph for Newton" is the most magnificent architectural drawing in human imagination.',
+    dateConnection_en: 'On February 12, 1728, Ã‰tienne-Louis BoullÃ©e was born in Paris. He was one of architecture\'s greatest visionaries â€” his buildings were never built, yet they influenced architectural thought for the next two centuries. His "Cenotaph for Newton" is the most magnificent architectural drawing in human imagination.',
     
-    designerBio_en: `Étienne-Louis Boullée (1728-1799), French architect and architectural theorist, pioneer of "Paper Architecture."
+    designerBio_en: `Ã‰tienne-Louis BoullÃ©e (1728-1799), French architect and architectural theorist, pioneer of "Paper Architecture."
 
-Born and raised in Paris, he studied under several architects and was admitted to the Royal Academy of Architecture at 25. His actual built works were few — several Parisian private residences — but his true contribution lay in designs that would never (and could never) be built.
+Born and raised in Paris, he studied under several architects and was admitted to the Royal Academy of Architecture at 25. His actual built works were few â€” several Parisian private residences â€” but his true contribution lay in designs that would never (and could never) be built.
 
-In the 1780s, he began creating a series of grandiose "visionary architecture" drawings: enormous spheres, infinitely extending colonnades, pyramids that swallow the skyline. These designs far exceeded the engineering capabilities of the time, but their true purpose was not construction — it was **thinking**.
+In the 1780s, he began creating a series of grandiose "visionary architecture" drawings: enormous spheres, infinitely extending colonnades, pyramids that swallow the skyline. These designs far exceeded the engineering capabilities of the time, but their true purpose was not construction â€” it was **thinking**.
 
 **"We must use architecture to express the sublime."**
 
 In his posthumous treatise on architecture, he wrote: architecture is not merely a shelter from the elements, but the material embodiment of human emotion and thought.`,
     
-    story_en: `In 1784, Boullée produced the most awe-inspiring drawings in architectural history: the Cenotaph for Newton (Cénotaphe de Newton).
+    story_en: `In 1784, BoullÃ©e produced the most awe-inspiring drawings in architectural history: the Cenotaph for Newton (CÃ©notaphe de Newton).
 
-It is an enormous sphere roughly 150 meters in diameter, set upon tiered circular platforms. The interior is a vast space simulating the night sky — during the day, sunlight enters through countless tiny perforations in the shell, projecting a field of stars onto the darkened interior walls. At night, a massive lamp hangs at the center, simulating the sun.
+It is an enormous sphere roughly 150 meters in diameter, set upon tiered circular platforms. The interior is a vast space simulating the night sky â€” during the day, sunlight enters through countless tiny perforations in the shell, projecting a field of stars onto the darkened interior walls. At night, a massive lamp hangs at the center, simulating the sun.
 
 **The building itself becomes an astronomical instrument.**
 
-Newton's sarcophagus sits at the very center of the sphere's base — one person, facing the entire universe.
+Newton's sarcophagus sits at the very center of the sphere's base â€” one person, facing the entire universe.
 
-This design was never built, and was technically almost impossible to build (a 150-meter span sphere was fantasy in the 18th century). But that is precisely its power: freed from the constraints of materials and structure, it purely expresses an architectural idea — **space can make people feel the sublime, their own smallness, and the infinity of the universe.**
+This design was never built, and was technically almost impossible to build (a 150-meter span sphere was fantasy in the 18th century). But that is precisely its power: freed from the constraints of materials and structure, it purely expresses an architectural idea â€” **space can make people feel the sublime, their own smallness, and the infinity of the universe.**
 
 The contrast between tiny human figures and the massive sphere in the drawings conveys a breathtaking grandeur. This is not a building proposal; it is a philosophical manifesto.`,
 
-    legacy_en: `Boullée's influence extends far beyond his own era:
+    legacy_en: `BoullÃ©e's influence extends far beyond his own era:
 
 **Pioneer of Paper Architecture**: He proved that architectural drawings could be works of art in themselves, influencing every "paper architect" from Piranesi to Lebbeus Woods to Zaha Hadid
 
@@ -277,19 +277,19 @@ The contrast between tiny human figures and the massive sphere in the drawings c
 
 **Light and space**: His understanding of light as an architectural material foreshadowed Tadao Ando's Church of the Light and James Turrell's Skyspaces
 
-**Architecture as experience**: He elevated architecture from "functional container" to "emotional experience" — a concept that lives on in today's experiential architecture (such as teamLab spaces)
+**Architecture as experience**: He elevated architecture from "functional container" to "emotional experience" â€” a concept that lives on in today's experiential architecture (such as teamLab spaces)
 
-**Revolutionary architectural aesthetics**: His geometric purity — spheres, cylinders, pyramids — directly influenced later Neoclassical and Modernist architecture`,
+**Revolutionary architectural aesthetics**: His geometric purity â€” spheres, cylinders, pyramids â€” directly influenced later Neoclassical and Modernist architecture`,
     
     significance_en: `Why is a building that was never built more important than most buildings that were?
 
-Because Boullée revealed architecture's ultimate essence: **architecture is not about bricks and stone — it's about how space makes people feel.**
+Because BoullÃ©e revealed architecture's ultimate essence: **architecture is not about bricks and stone â€” it's about how space makes people feel.**
 
-The Cenotaph for Newton accomplished its mission without ever being built — it made everyone who saw the drawings feel the vastness of the universe and the smallness of humanity. That feeling itself is architecture.
+The Cenotaph for Newton accomplished its mission without ever being built â€” it made everyone who saw the drawings feel the vastness of the universe and the smallness of humanity. That feeling itself is architecture.
 
-In today's era of virtual reality and the metaverse, Boullée's thinking is more relevant than ever: **when architecture can be freed from physical constraints, what truly matters? The answer is experience — the feeling that space gives to people.**
+In today's era of virtual reality and the metaverse, BoullÃ©e's thinking is more relevant than ever: **when architecture can be freed from physical constraints, what truly matters? The answer is experience â€” the feeling that space gives to people.**
 
-240 years ago, Boullée was already thinking about this question.`
+240 years ago, BoullÃ©e was already thinking about this question.`
   },
   {
     id: '7',
@@ -303,35 +303,35 @@ In today's era of virtual reality and the metaverse, Boullée's thinking is more
     designer: 'Verner Panton',
     year: '1967',
     
-    dateConnection: '2月13日是 Verner Panton 的生日（1926年）。他是丹麦最激进的家具设计师，用塑料颠覆了北欧设计的传统美学。',
+    dateConnection: '2æœˆ13æ—¥æ˜¯ Verner Panton çš„ç”Ÿæ—¥ï¼ˆ1926å¹´ï¼‰ã€‚ä»–æ˜¯ä¸¹éº¦æœ€æ¿€è¿›çš„å®¶å…·è®¾è®¡å¸ˆï¼Œç”¨å¡‘æ–™é¢ è¦†äº†åŒ—æ¬§è®¾è®¡çš„ä¼ ç»Ÿç¾Žå­¦ã€‚',
     
-    designerBio: `Verner Panton (1926-1998)，丹麦设计师，20世纪最具实验性的家具设计师之一。
+    designerBio: `Verner Panton (1926-1998)ï¼Œä¸¹éº¦è®¾è®¡å¸ˆï¼Œ20ä¸–çºªæœ€å…·å®žéªŒæ€§çš„å®¶å…·è®¾è®¡å¸ˆä¹‹ä¸€ã€‚
 
-他曾在 Arne Jacobsen 工作室工作，但很快走上了完全不同的道路。北欧设计讲究木头、自然、克制；他偏要用塑料、曲线、色彩爆炸。
+ä»–æ›¾åœ¨ Arne Jacobsen å·¥ä½œå®¤å·¥ä½œï¼Œä½†å¾ˆå¿«èµ°ä¸Šäº†å®Œå…¨ä¸åŒçš„é“è·¯ã€‚åŒ—æ¬§è®¾è®¡è®²ç©¶æœ¨å¤´ã€è‡ªç„¶ã€å…‹åˆ¶ï¼›ä»–åè¦ç”¨å¡‘æ–™ã€æ›²çº¿ã€è‰²å½©çˆ†ç‚¸ã€‚
 
 **"A less successful experiment is preferable to a beautiful platitude."**
-一个不太成功的实验，也比一句漂亮的陈词滥调好。
+ä¸€ä¸ªä¸å¤ªæˆåŠŸçš„å®žéªŒï¼Œä¹Ÿæ¯”ä¸€å¥æ¼‚äº®çš„é™ˆè¯æ»¥è°ƒå¥½ã€‚
 
-他设计的空间像迷幻药一样刺激——天花板、墙壁、地板全部是有机曲线，色彩饱和到让人窒息。`,
+ä»–è®¾è®¡çš„ç©ºé—´åƒè¿·å¹»è¯ä¸€æ ·åˆºæ¿€â€”â€”å¤©èŠ±æ¿ã€å¢™å£ã€åœ°æ¿å…¨éƒ¨æ˜¯æœ‰æœºæ›²çº¿ï¼Œè‰²å½©é¥±å’Œåˆ°è®©äººçª’æ¯ã€‚`,
     
-    story: `Panton Chair 是历史上**第一把用单一材料一次成型的椅子**。
+    story: `Panton Chair æ˜¯åŽ†å²ä¸Š**ç¬¬ä¸€æŠŠç”¨å•ä¸€ææ–™ä¸€æ¬¡æˆåž‹çš„æ¤…å­**ã€‚
 
-从 1960 年开始，Panton 就想做一把没有腿的椅子——一个连续的 S 曲线，从地面流向座面再到靠背。概念很简单，执行却极难。
+ä»Ž 1960 å¹´å¼€å§‹ï¼ŒPanton å°±æƒ³åšä¸€æŠŠæ²¡æœ‰è…¿çš„æ¤…å­â€”â€”ä¸€ä¸ªè¿žç»­çš„ S æ›²çº¿ï¼Œä»Žåœ°é¢æµå‘åº§é¢å†åˆ°é èƒŒã€‚æ¦‚å¿µå¾ˆç®€å•ï¼Œæ‰§è¡Œå´æžéš¾ã€‚
 
-他找了十几家厂商，都说做不出来。直到 1967 年，Vitra 终于用新型塑料注塑工艺实现了这个设计。
+ä»–æ‰¾äº†åå‡ å®¶åŽ‚å•†ï¼Œéƒ½è¯´åšä¸å‡ºæ¥ã€‚ç›´åˆ° 1967 å¹´ï¼ŒVitra ç»ˆäºŽç”¨æ–°åž‹å¡‘æ–™æ³¨å¡‘å·¥è‰ºå®žçŽ°äº†è¿™ä¸ªè®¾è®¡ã€‚
 
-**一把椅子，没有一个接缝、一颗螺丝。**
+**ä¸€æŠŠæ¤…å­ï¼Œæ²¡æœ‰ä¸€ä¸ªæŽ¥ç¼ã€ä¸€é¢—èžºä¸ã€‚**
 
-它挑战了"椅子应该长什么样"的所有假设。可以叠放、可以户外使用、可以是任何颜色。年轻人把它当成反叛的符号。`,
+å®ƒæŒ‘æˆ˜äº†"æ¤…å­åº”è¯¥é•¿ä»€ä¹ˆæ ·"çš„æ‰€æœ‰å‡è®¾ã€‚å¯ä»¥å æ”¾ã€å¯ä»¥æˆ·å¤–ä½¿ç”¨ã€å¯ä»¥æ˜¯ä»»ä½•é¢œè‰²ã€‚å¹´è½»äººæŠŠå®ƒå½“æˆåå›çš„ç¬¦å·ã€‚`,
     
-    legacy: `• 塑料家具革命：证明塑料可以是高端材料，不只是"廉价替代品"
-• 一体成型设计：影响了后来所有的模块化、可堆叠家具设计
-• MoMA 永久收藏：成为 20 世纪设计史的标志性作品
-• 色彩运用：打破了北欧设计"黑白灰原木"的刻板印象`,
+    legacy: `â€¢ å¡‘æ–™å®¶å…·é©å‘½ï¼šè¯æ˜Žå¡‘æ–™å¯ä»¥æ˜¯é«˜ç«¯ææ–™ï¼Œä¸åªæ˜¯"å»‰ä»·æ›¿ä»£å“"
+â€¢ ä¸€ä½“æˆåž‹è®¾è®¡ï¼šå½±å“äº†åŽæ¥æ‰€æœ‰çš„æ¨¡å—åŒ–ã€å¯å †å å®¶å…·è®¾è®¡
+â€¢ MoMA æ°¸ä¹…æ”¶è—ï¼šæˆä¸º 20 ä¸–çºªè®¾è®¡å²çš„æ ‡å¿—æ€§ä½œå“
+â€¢ è‰²å½©è¿ç”¨ï¼šæ‰“ç ´äº†åŒ—æ¬§è®¾è®¡"é»‘ç™½ç°åŽŸæœ¨"çš„åˆ»æ¿å°è±¡`,
     
-    significance: `Panton 证明了设计可以是纯粹的乐趣。
+    significance: `Panton è¯æ˜Žäº†è®¾è®¡å¯ä»¥æ˜¯çº¯ç²¹çš„ä¹è¶£ã€‚
 
-在一个讲究功能、理性、克制的时代，他说：设计也可以是情绪、是色彩、是让人微笑的曲线。这把椅子不仅坐起来舒服，看起来就让人开心。`,
+åœ¨ä¸€ä¸ªè®²ç©¶åŠŸèƒ½ã€ç†æ€§ã€å…‹åˆ¶çš„æ—¶ä»£ï¼Œä»–è¯´ï¼šè®¾è®¡ä¹Ÿå¯ä»¥æ˜¯æƒ…ç»ªã€æ˜¯è‰²å½©ã€æ˜¯è®©äººå¾®ç¬‘çš„æ›²çº¿ã€‚è¿™æŠŠæ¤…å­ä¸ä»…åèµ·æ¥èˆ’æœï¼Œçœ‹èµ·æ¥å°±è®©äººå¼€å¿ƒã€‚`,
 
     dateConnection_en: 'February 13 is Verner Panton\'s birthday (1926). He was Denmark\'s most radical furniture designer, using plastic to subvert traditional Scandinavian design aesthetics.',
     
@@ -341,11 +341,11 @@ He worked at Arne Jacobsen's studio but soon took a completely different path. N
 
 **"A less successful experiment is preferable to a beautiful platitude."**
 
-His designed spaces were like psychedelic trips—ceilings, walls, floors all organic curves, colors saturated to suffocation.`,
+His designed spaces were like psychedelic tripsâ€”ceilings, walls, floors all organic curves, colors saturated to suffocation.`,
     
     story_en: `The Panton Chair is **the first chair in history molded from a single material in one piece**.
 
-Starting in 1960, Panton wanted to make a chair without legs—a continuous S-curve flowing from floor to seat to backrest. The concept was simple; execution was extremely difficult.
+Starting in 1960, Panton wanted to make a chair without legsâ€”a continuous S-curve flowing from floor to seat to backrest. The concept was simple; execution was extremely difficult.
 
 He approached dozens of manufacturers; all said it couldn't be done. Finally in 1967, Vitra achieved the design using new plastic injection molding technology.
 
@@ -353,14 +353,14 @@ He approached dozens of manufacturers; all said it couldn't be done. Finally in 
 
 It challenged every assumption about "what a chair should look like." Stackable, outdoor-friendly, available in any color. Young people adopted it as a symbol of rebellion.`,
     
-    legacy_en: `• Plastic furniture revolution: Proved plastic could be a premium material, not just a "cheap substitute"
-• One-piece molding design: Influenced all subsequent modular, stackable furniture design
-• MoMA permanent collection: Became an iconic work of 20th-century design history
-• Color application: Broke the Scandinavian design stereotype of "black, white, gray, and wood"`,
+    legacy_en: `â€¢ Plastic furniture revolution: Proved plastic could be a premium material, not just a "cheap substitute"
+â€¢ One-piece molding design: Influenced all subsequent modular, stackable furniture design
+â€¢ MoMA permanent collection: Became an iconic work of 20th-century design history
+â€¢ Color application: Broke the Scandinavian design stereotype of "black, white, gray, and wood"`,
     
     significance_en: `Panton proved that design can be pure joy.
 
-In an era obsessed with function, rationality, and restraint, he said: design can also be emotion, color, curves that make people smile. This chair isn't just comfortable to sit in—it's happy just to look at.`
+In an era obsessed with function, rationality, and restraint, he said: design can also be emotion, color, curves that make people smile. This chair isn't just comfortable to sit inâ€”it's happy just to look at.`
   },
   {
     id: '6',
@@ -368,70 +368,70 @@ In an era obsessed with function, rationality, and restraint, he said: design ca
     imageUrl: '/the-daily-object/images/i-love-ny.jpg',
     fullImageUrl: '/the-daily-object/images/full/i-love-ny.png',
     thumbnailUrl: '/the-daily-object/thumbnails/i-love-ny.jpg',
-    title: 'I ♥ NY',
+    title: 'I â™¥ NY',
     subtitle: 'Milton Glaser, 1977',
     category: 'art',
     designer: 'Milton Glaser',
     year: '1977',
     
-    dateConnection: '2月14日是情人节。而 I ♥ NY 是设计史上最著名的"爱"的表达——用一个符号代替了一个词，改变了视觉传达的语言。',
+    dateConnection: '2æœˆ14æ—¥æ˜¯æƒ…äººèŠ‚ã€‚è€Œ I â™¥ NY æ˜¯è®¾è®¡å²ä¸Šæœ€è‘—åçš„"çˆ±"çš„è¡¨è¾¾â€”â€”ç”¨ä¸€ä¸ªç¬¦å·ä»£æ›¿äº†ä¸€ä¸ªè¯ï¼Œæ”¹å˜äº†è§†è§‰ä¼ è¾¾çš„è¯­è¨€ã€‚',
     
-    designerBio: `Milton Glaser (1929-2020)，美国平面设计师，被称为"美国平面设计之父"。
+    designerBio: `Milton Glaser (1929-2020)ï¼Œç¾Žå›½å¹³é¢è®¾è®¡å¸ˆï¼Œè¢«ç§°ä¸º"ç¾Žå›½å¹³é¢è®¾è®¡ä¹‹çˆ¶"ã€‚
 
-他联合创办了 Push Pin Studios，重新定义了插画和平面设计的关系。他设计了 Bob Dylan 那张迷幻的彩虹海报、DC Comics 的 logo、Brooklyn Brewery 的 logo。
+ä»–è”åˆåˆ›åŠžäº† Push Pin Studiosï¼Œé‡æ–°å®šä¹‰äº†æ’ç”»å’Œå¹³é¢è®¾è®¡çš„å…³ç³»ã€‚ä»–è®¾è®¡äº† Bob Dylan é‚£å¼ è¿·å¹»çš„å½©è™¹æµ·æŠ¥ã€DC Comics çš„ logoã€Brooklyn Brewery çš„ logoã€‚
 
-**"There are three responses to a piece of design — yes, no, and WOW! Wow is the one to aim for."**
-设计有三种反应——行、不行、哇！我们追求的是"哇！"。
+**"There are three responses to a piece of design â€” yes, no, and WOW! Wow is the one to aim for."**
+è®¾è®¡æœ‰ä¸‰ç§ååº”â€”â€”è¡Œã€ä¸è¡Œã€å“‡ï¼æˆ‘ä»¬è¿½æ±‚çš„æ˜¯"å“‡ï¼"ã€‚
 
-他一直工作到 91 岁去世。`,
+ä»–ä¸€ç›´å·¥ä½œåˆ° 91 å²åŽ»ä¸–ã€‚`,
     
-    story: `1977年，纽约市快破产了。犯罪率飙升，市政府没钱，没人想来旅游。
+    story: `1977å¹´ï¼Œçº½çº¦å¸‚å¿«ç ´äº§äº†ã€‚çŠ¯ç½ªçŽ‡é£™å‡ï¼Œå¸‚æ”¿åºœæ²¡é’±ï¼Œæ²¡äººæƒ³æ¥æ—…æ¸¸ã€‚
 
-纽约州商务局找到广告公司做个宣传标语。Glaser 在出租车后座，用红蜡笔在信封背面画了一个草图：**I ♥ NY**。
+çº½çº¦å·žå•†åŠ¡å±€æ‰¾åˆ°å¹¿å‘Šå…¬å¸åšä¸ªå®£ä¼ æ ‡è¯­ã€‚Glaser åœ¨å‡ºç§Ÿè½¦åŽåº§ï¼Œç”¨çº¢èœ¡ç¬”åœ¨ä¿¡å°èƒŒé¢ç”»äº†ä¸€ä¸ªè‰å›¾ï¼š**I â™¥ NY**ã€‚
 
-他用一个红心符号替代了"love"这个词——这在当时是革命性的。没人这样做过。
+ä»–ç”¨ä¸€ä¸ªçº¢å¿ƒç¬¦å·æ›¿ä»£äº†"love"è¿™ä¸ªè¯â€”â€”è¿™åœ¨å½“æ—¶æ˜¯é©å‘½æ€§çš„ã€‚æ²¡äººè¿™æ ·åšè¿‡ã€‚
 
-他免费把这个设计给了纽约州，没收一分钱版税。这个 logo 现在每年为纽约创造数十亿美元的旅游收入。
+ä»–å…è´¹æŠŠè¿™ä¸ªè®¾è®¡ç»™äº†çº½çº¦å·žï¼Œæ²¡æ”¶ä¸€åˆ†é’±ç‰ˆç¨Žã€‚è¿™ä¸ª logo çŽ°åœ¨æ¯å¹´ä¸ºçº½çº¦åˆ›é€ æ•°åäº¿ç¾Žå…ƒçš„æ—…æ¸¸æ”¶å…¥ã€‚
 
-**全世界最被复制、最被恶搞的 logo，诞生于一个信封背面。**`,
+**å…¨ä¸–ç•Œæœ€è¢«å¤åˆ¶ã€æœ€è¢«æ¶æžçš„ logoï¼Œè¯žç”ŸäºŽä¸€ä¸ªä¿¡å°èƒŒé¢ã€‚**`,
     
-    legacy: `• 视觉语言革命：开创了"用符号替代词汇"的设计手法，影响了 emoji 时代
-• 城市品牌先驱：证明了一个城市可以像一个品牌一样被设计和推广
-• 免费设计的力量：没有版权保护反而让它无处不在，成为真正的文化符号
-• 9/11 后的变体："I ♥ NY More Than Ever"（心上有个伤疤）成为城市韧性的象征`,
+    legacy: `â€¢ è§†è§‰è¯­è¨€é©å‘½ï¼šå¼€åˆ›äº†"ç”¨ç¬¦å·æ›¿ä»£è¯æ±‡"çš„è®¾è®¡æ‰‹æ³•ï¼Œå½±å“äº† emoji æ—¶ä»£
+â€¢ åŸŽå¸‚å“ç‰Œå…ˆé©±ï¼šè¯æ˜Žäº†ä¸€ä¸ªåŸŽå¸‚å¯ä»¥åƒä¸€ä¸ªå“ç‰Œä¸€æ ·è¢«è®¾è®¡å’ŒæŽ¨å¹¿
+â€¢ å…è´¹è®¾è®¡çš„åŠ›é‡ï¼šæ²¡æœ‰ç‰ˆæƒä¿æŠ¤åè€Œè®©å®ƒæ— å¤„ä¸åœ¨ï¼Œæˆä¸ºçœŸæ­£çš„æ–‡åŒ–ç¬¦å·
+â€¢ 9/11 åŽçš„å˜ä½“ï¼š"I â™¥ NY More Than Ever"ï¼ˆå¿ƒä¸Šæœ‰ä¸ªä¼¤ç–¤ï¼‰æˆä¸ºåŸŽå¸‚éŸ§æ€§çš„è±¡å¾`,
     
-    significance: `Glaser 证明了最简单的设计可能是最强大的。
+    significance: `Glaser è¯æ˜Žäº†æœ€ç®€å•çš„è®¾è®¡å¯èƒ½æ˜¯æœ€å¼ºå¤§çš„ã€‚
 
-三个字母、一个符号、两种颜色。任何人都能画出来，任何人都能理解。这就是伟大设计的定义——它属于所有人。`,
+ä¸‰ä¸ªå­—æ¯ã€ä¸€ä¸ªç¬¦å·ã€ä¸¤ç§é¢œè‰²ã€‚ä»»ä½•äººéƒ½èƒ½ç”»å‡ºæ¥ï¼Œä»»ä½•äººéƒ½èƒ½ç†è§£ã€‚è¿™å°±æ˜¯ä¼Ÿå¤§è®¾è®¡çš„å®šä¹‰â€”â€”å®ƒå±žäºŽæ‰€æœ‰äººã€‚`,
 
-    dateConnection_en: 'February 14 is Valentine\'s Day. And I ♥ NY is design history\'s most famous expression of "love"—using a symbol to replace a word, changing the language of visual communication.',
+    dateConnection_en: 'February 14 is Valentine\'s Day. And I â™¥ NY is design history\'s most famous expression of "love"â€”using a symbol to replace a word, changing the language of visual communication.',
     
     designerBio_en: `Milton Glaser (1929-2020), American graphic designer, often called the "Father of American Graphic Design."
 
 He co-founded Push Pin Studios, redefining the relationship between illustration and graphic design. He designed Bob Dylan's psychedelic rainbow poster, the DC Comics logo, and Brooklyn Brewery's logo.
 
-**"There are three responses to a piece of design — yes, no, and WOW! Wow is the one to aim for."**
+**"There are three responses to a piece of design â€” yes, no, and WOW! Wow is the one to aim for."**
 
 He worked until his death at 91.`,
     
     story_en: `In 1977, New York City was nearly bankrupt. Crime rates soared, the city had no money, no one wanted to visit.
 
-The New York State Commerce Department asked an ad agency for a promotional slogan. Glaser, in the back of a taxi, sketched on the back of an envelope with a red crayon: **I ♥ NY**.
+The New York State Commerce Department asked an ad agency for a promotional slogan. Glaser, in the back of a taxi, sketched on the back of an envelope with a red crayon: **I â™¥ NY**.
 
-He replaced the word "love" with a red heart symbol—revolutionary at the time. No one had done this before.
+He replaced the word "love" with a red heart symbolâ€”revolutionary at the time. No one had done this before.
 
 He gave the design to New York State for free, without any royalties. This logo now generates billions in tourism revenue for New York annually.
 
 **The world's most copied, most parodied logo, born on the back of an envelope.**`,
     
-    legacy_en: `• Visual language revolution: Pioneered "replacing words with symbols" in design, influencing the emoji era
-• City branding pioneer: Proved a city could be designed and promoted like a brand
-• The power of free design: Lack of copyright protection made it ubiquitous, a true cultural symbol
-• Post-9/11 variant: "I ♥ NY More Than Ever" (heart with a scar) became a symbol of city resilience`,
+    legacy_en: `â€¢ Visual language revolution: Pioneered "replacing words with symbols" in design, influencing the emoji era
+â€¢ City branding pioneer: Proved a city could be designed and promoted like a brand
+â€¢ The power of free design: Lack of copyright protection made it ubiquitous, a true cultural symbol
+â€¢ Post-9/11 variant: "I â™¥ NY More Than Ever" (heart with a scar) became a symbol of city resilience`,
     
     significance_en: `Glaser proved that the simplest design can be the most powerful.
 
-Three letters, one symbol, two colors. Anyone can draw it, anyone can understand it. That's the definition of great design—it belongs to everyone.`
+Three letters, one symbol, two colors. Anyone can draw it, anyone can understand it. That's the definition of great designâ€”it belongs to everyone.`
   },
   {
     id: '5',
@@ -445,41 +445,41 @@ Three letters, one symbol, two colors. Anyone can draw it, anyone can understand
     designer: 'Shepard Fairey',
     year: '2008',
     
-    dateConnection: '2月15日是 Shepard Fairey 的生日（1970年）。他是当代最有影响力的街头艺术家，从滑板文化走向总统竞选视觉设计。',
+    dateConnection: '2æœˆ15æ—¥æ˜¯ Shepard Fairey çš„ç”Ÿæ—¥ï¼ˆ1970å¹´ï¼‰ã€‚ä»–æ˜¯å½“ä»£æœ€æœ‰å½±å“åŠ›çš„è¡—å¤´è‰ºæœ¯å®¶ï¼Œä»Žæ»‘æ¿æ–‡åŒ–èµ°å‘æ€»ç»Ÿç«žé€‰è§†è§‰è®¾è®¡ã€‚',
     
-    designerBio: `Shepard Fairey (1970-)，美国街头艺术家、平面设计师。
+    designerBio: `Shepard Fairey (1970-)ï¼Œç¾Žå›½è¡—å¤´è‰ºæœ¯å®¶ã€å¹³é¢è®¾è®¡å¸ˆã€‚
 
-他从罗德岛设计学院毕业后，开始了"OBEY Giant"运动——在全世界贴满安德烈巨人的脸和"OBEY"字样。这是对消费主义和服从文化的讽刺，也是他的签名符号。
+ä»–ä»Žç½—å¾·å²›è®¾è®¡å­¦é™¢æ¯•ä¸šåŽï¼Œå¼€å§‹äº†"OBEY Giant"è¿åŠ¨â€”â€”åœ¨å…¨ä¸–ç•Œè´´æ»¡å®‰å¾·çƒˆå·¨äººçš„è„¸å’Œ"OBEY"å­—æ ·ã€‚è¿™æ˜¯å¯¹æ¶ˆè´¹ä¸»ä¹‰å’Œæœä»Žæ–‡åŒ–çš„è®½åˆºï¼Œä¹Ÿæ˜¯ä»–çš„ç­¾åç¬¦å·ã€‚
 
 **"The medium is the message, but the message is also the medium."**
-媒介是信息，但信息也是媒介。
+åª’ä»‹æ˜¯ä¿¡æ¯ï¼Œä½†ä¿¡æ¯ä¹Ÿæ˜¯åª’ä»‹ã€‚
 
-他的作品混合了苏联宣传海报、朋克 zine、街头涂鸦的美学，创造出一种独特的视觉语言。`,
+ä»–çš„ä½œå“æ··åˆäº†è‹è”å®£ä¼ æµ·æŠ¥ã€æœ‹å…‹ zineã€è¡—å¤´æ¶‚é¸¦çš„ç¾Žå­¦ï¼Œåˆ›é€ å‡ºä¸€ç§ç‹¬ç‰¹çš„è§†è§‰è¯­è¨€ã€‚`,
     
-    story: `2008年美国总统大选，Fairey 自发为奥巴马设计了一张海报。没人委托他，没人付钱给他。
+    story: `2008å¹´ç¾Žå›½æ€»ç»Ÿå¤§é€‰ï¼ŒFairey è‡ªå‘ä¸ºå¥¥å·´é©¬è®¾è®¡äº†ä¸€å¼ æµ·æŠ¥ã€‚æ²¡äººå§”æ‰˜ä»–ï¼Œæ²¡äººä»˜é’±ç»™ä»–ã€‚
 
-他用了一张美联社的新闻照片作为参考，把它处理成**红白蓝三色的高对比图像**，下面只有一个词：HOPE。
+ä»–ç”¨äº†ä¸€å¼ ç¾Žè”ç¤¾çš„æ–°é—»ç…§ç‰‡ä½œä¸ºå‚è€ƒï¼ŒæŠŠå®ƒå¤„ç†æˆ**çº¢ç™½è“ä¸‰è‰²çš„é«˜å¯¹æ¯”å›¾åƒ**ï¼Œä¸‹é¢åªæœ‰ä¸€ä¸ªè¯ï¼šHOPEã€‚
 
-海报在网上疯传，成为整个竞选的视觉符号。奥巴马团队后来才官方采用它。
+æµ·æŠ¥åœ¨ç½‘ä¸Šç–¯ä¼ ï¼Œæˆä¸ºæ•´ä¸ªç«žé€‰çš„è§†è§‰ç¬¦å·ã€‚å¥¥å·´é©¬å›¢é˜ŸåŽæ¥æ‰å®˜æ–¹é‡‡ç”¨å®ƒã€‚
 
-这是互联网时代**第一个真正"病毒式"传播的政治设计**。它证明了：在社交媒体时代，一个草根艺术家可以定义一场运动的视觉身份。
+è¿™æ˜¯äº’è”ç½‘æ—¶ä»£**ç¬¬ä¸€ä¸ªçœŸæ­£"ç—…æ¯’å¼"ä¼ æ’­çš„æ”¿æ²»è®¾è®¡**ã€‚å®ƒè¯æ˜Žäº†ï¼šåœ¨ç¤¾äº¤åª’ä½“æ—¶ä»£ï¼Œä¸€ä¸ªè‰æ ¹è‰ºæœ¯å®¶å¯ä»¥å®šä¹‰ä¸€åœºè¿åŠ¨çš„è§†è§‰èº«ä»½ã€‚
 
-后来他因为照片版权问题被美联社起诉，最终和解。但这张海报已经成为历史。`,
+åŽæ¥ä»–å› ä¸ºç…§ç‰‡ç‰ˆæƒé—®é¢˜è¢«ç¾Žè”ç¤¾èµ·è¯‰ï¼Œæœ€ç»ˆå’Œè§£ã€‚ä½†è¿™å¼ æµ·æŠ¥å·²ç»æˆä¸ºåŽ†å²ã€‚`,
     
-    legacy: `• 政治设计民主化：证明竞选视觉不一定来自官方团队
-• 病毒式传播先驱：互联网时代设计传播的经典案例
-• 版权争议：引发了关于"transformative use"（转化性使用）的法律讨论
-• 模因模板：成为被模仿最多的政治海报格式`,
+    legacy: `â€¢ æ”¿æ²»è®¾è®¡æ°‘ä¸»åŒ–ï¼šè¯æ˜Žç«žé€‰è§†è§‰ä¸ä¸€å®šæ¥è‡ªå®˜æ–¹å›¢é˜Ÿ
+â€¢ ç—…æ¯’å¼ä¼ æ’­å…ˆé©±ï¼šäº’è”ç½‘æ—¶ä»£è®¾è®¡ä¼ æ’­çš„ç»å…¸æ¡ˆä¾‹
+â€¢ ç‰ˆæƒäº‰è®®ï¼šå¼•å‘äº†å…³äºŽ"transformative use"ï¼ˆè½¬åŒ–æ€§ä½¿ç”¨ï¼‰çš„æ³•å¾‹è®¨è®º
+â€¢ æ¨¡å› æ¨¡æ¿ï¼šæˆä¸ºè¢«æ¨¡ä»¿æœ€å¤šçš„æ”¿æ²»æµ·æŠ¥æ ¼å¼`,
     
-    significance: `HOPE 海报证明了设计可以改变政治。
+    significance: `HOPE æµ·æŠ¥è¯æ˜Žäº†è®¾è®¡å¯ä»¥æ”¹å˜æ”¿æ²»ã€‚
 
-它把一个参议员变成了一个图标，把一场竞选变成了一场运动。在这之后，每个政治竞选都在寻找自己的"HOPE 时刻"。`,
+å®ƒæŠŠä¸€ä¸ªå‚è®®å‘˜å˜æˆäº†ä¸€ä¸ªå›¾æ ‡ï¼ŒæŠŠä¸€åœºç«žé€‰å˜æˆäº†ä¸€åœºè¿åŠ¨ã€‚åœ¨è¿™ä¹‹åŽï¼Œæ¯ä¸ªæ”¿æ²»ç«žé€‰éƒ½åœ¨å¯»æ‰¾è‡ªå·±çš„"HOPE æ—¶åˆ»"ã€‚`,
 
     dateConnection_en: 'February 15 is Shepard Fairey\'s birthday (1970). He is the most influential contemporary street artist, moving from skateboard culture to presidential campaign visual design.',
     
     designerBio_en: `Shepard Fairey (1970-), American street artist and graphic designer.
 
-After graduating from Rhode Island School of Design, he started the "OBEY Giant" campaign—plastering André the Giant's face and "OBEY" across the world. It was a satire of consumerism and obedience culture, and his signature symbol.
+After graduating from Rhode Island School of Design, he started the "OBEY Giant" campaignâ€”plastering AndrÃ© the Giant's face and "OBEY" across the world. It was a satire of consumerism and obedience culture, and his signature symbol.
 
 **"The medium is the message, but the message is also the medium."**
 
@@ -495,10 +495,10 @@ This was **the first truly "viral" political design of the internet age**. It pr
 
 He was later sued by the AP over photo copyright, eventually settling. But the poster had already made history.`,
     
-    legacy_en: `• Democratizing political design: Proved campaign visuals don't have to come from official teams
-• Viral spread pioneer: A classic case of design dissemination in the internet age
-• Copyright controversy: Sparked legal discussions about "transformative use"
-• Meme template: Became the most imitated political poster format`,
+    legacy_en: `â€¢ Democratizing political design: Proved campaign visuals don't have to come from official teams
+â€¢ Viral spread pioneer: A classic case of design dissemination in the internet age
+â€¢ Copyright controversy: Sparked legal discussions about "transformative use"
+â€¢ Meme template: Became the most imitated political poster format`,
     
     significance_en: `The HOPE poster proved that design can change politics.
 
@@ -511,46 +511,46 @@ It turned a senator into an icon, a campaign into a movement. After this, every 
     fullImageUrl: '/the-daily-object/images/full/bird-in-space.jpg',
     thumbnailUrl: '/the-daily-object/thumbnails/bird-in-space.jpg',
     title: 'Bird in Space',
-    subtitle: 'Constantin Brâncuși, 1923',
+    subtitle: 'Constantin BrÃ¢ncuÈ™i, 1923',
     category: 'art',
-    designer: 'Constantin Brâncuși',
+    designer: 'Constantin BrÃ¢ncuÈ™i',
     year: '1923',
     
-    dateConnection: '2月19日是 Brâncuși 的生日（1876年）。这一天也是罗马尼亚的官方纪念日 Brâncuși Day。',
+    dateConnection: '2æœˆ19æ—¥æ˜¯ BrÃ¢ncuÈ™i çš„ç”Ÿæ—¥ï¼ˆ1876å¹´ï¼‰ã€‚è¿™ä¸€å¤©ä¹Ÿæ˜¯ç½—é©¬å°¼äºšçš„å®˜æ–¹çºªå¿µæ—¥ BrÃ¢ncuÈ™i Dayã€‚',
     
-    designerBio: `Constantin Brâncuși (1876-1957)，罗马尼亚人，被称为"现代雕塑之父"。
+    designerBio: `Constantin BrÃ¢ncuÈ™i (1876-1957)ï¼Œç½—é©¬å°¼äºšäººï¼Œè¢«ç§°ä¸º"çŽ°ä»£é›•å¡‘ä¹‹çˆ¶"ã€‚
 
-7岁放羊，9岁离家打工，18岁用废料自制了一把小提琴——被发现后送去学艺术。后来去巴黎，罗丹邀请他进工作室，他只待了两个月就离开，说：
+7å²æ”¾ç¾Šï¼Œ9å²ç¦»å®¶æ‰“å·¥ï¼Œ18å²ç”¨åºŸæ–™è‡ªåˆ¶äº†ä¸€æŠŠå°æç´â€”â€”è¢«å‘çŽ°åŽé€åŽ»å­¦è‰ºæœ¯ã€‚åŽæ¥åŽ»å·´é»Žï¼Œç½—ä¸¹é‚€è¯·ä»–è¿›å·¥ä½œå®¤ï¼Œä»–åªå¾…äº†ä¸¤ä¸ªæœˆå°±ç¦»å¼€ï¼Œè¯´ï¼š
 
 **"Nothing can grow under big trees."**
-大树底下长不出东西。
+å¤§æ ‘åº•ä¸‹é•¿ä¸å‡ºä¸œè¥¿ã€‚
 
-然后他开创了自己的风格。`,
+ç„¶åŽä»–å¼€åˆ›äº†è‡ªå·±çš„é£Žæ ¼ã€‚`,
     
-    story: `鸟没有翅膀、没有羽毛、没有眼睛。只有一根流线型的形态，像一滴拉长的水滴。
+    story: `é¸Ÿæ²¡æœ‰ç¿…è†€ã€æ²¡æœ‰ç¾½æ¯›ã€æ²¡æœ‰çœ¼ç›ã€‚åªæœ‰ä¸€æ ¹æµçº¿åž‹çš„å½¢æ€ï¼Œåƒä¸€æ»´æ‹‰é•¿çš„æ°´æ»´ã€‚
 
-Brâncuși 说他雕刻的不是鸟的外形，而是**"飞翔的本质"**。
+BrÃ¢ncuÈ™i è¯´ä»–é›•åˆ»çš„ä¸æ˜¯é¸Ÿçš„å¤–å½¢ï¼Œè€Œæ˜¯**"é£žç¿”çš„æœ¬è´¨"**ã€‚
 
-他亲自打磨青铜表面，抛光到镜面反射。光线在曲面上流动，让静止的雕塑看起来像在移动。
+ä»–äº²è‡ªæ‰“ç£¨é’é“œè¡¨é¢ï¼ŒæŠ›å…‰åˆ°é•œé¢åå°„ã€‚å…‰çº¿åœ¨æ›²é¢ä¸ŠæµåŠ¨ï¼Œè®©é™æ­¢çš„é›•å¡‘çœ‹èµ·æ¥åƒåœ¨ç§»åŠ¨ã€‚
 
-1926年，摄影师 Edward Steichen 买了一件 Bird in Space 运到美国。海关拒绝认定它是艺术品——说这是个工业零件，要收关税。官司打到法院。法官最终判定：艺术不必是对自然的写实模仿，可以是一个抽象概念——比如"飞翔"本身。
+1926å¹´ï¼Œæ‘„å½±å¸ˆ Edward Steichen ä¹°äº†ä¸€ä»¶ Bird in Space è¿åˆ°ç¾Žå›½ã€‚æµ·å…³æ‹’ç»è®¤å®šå®ƒæ˜¯è‰ºæœ¯å“â€”â€”è¯´è¿™æ˜¯ä¸ªå·¥ä¸šé›¶ä»¶ï¼Œè¦æ”¶å…³ç¨Žã€‚å®˜å¸æ‰“åˆ°æ³•é™¢ã€‚æ³•å®˜æœ€ç»ˆåˆ¤å®šï¼šè‰ºæœ¯ä¸å¿…æ˜¯å¯¹è‡ªç„¶çš„å†™å®žæ¨¡ä»¿ï¼Œå¯ä»¥æ˜¯ä¸€ä¸ªæŠ½è±¡æ¦‚å¿µâ€”â€”æ¯”å¦‚"é£žç¿”"æœ¬èº«ã€‚
 
-这个判决确立了一个重要原则：**抽象艺术也是艺术**。`,
+è¿™ä¸ªåˆ¤å†³ç¡®ç«‹äº†ä¸€ä¸ªé‡è¦åŽŸåˆ™ï¼š**æŠ½è±¡è‰ºæœ¯ä¹Ÿæ˜¯è‰ºæœ¯**ã€‚`,
     
-    legacy: `• Apple 设计语言：Jony Ive 多次提到 Brâncuși 对他的影响——简洁、材料真实、形式服从本质
-• 航空航天：这个流线型早于空气动力学的系统研究，后来被证明是近乎完美的低阻力形态  
-• 现代家具：从 Noguchi 茶几到北欧设计，"less is more"的源头之一`,
+    legacy: `â€¢ Apple è®¾è®¡è¯­è¨€ï¼šJony Ive å¤šæ¬¡æåˆ° BrÃ¢ncuÈ™i å¯¹ä»–çš„å½±å“â€”â€”ç®€æ´ã€ææ–™çœŸå®žã€å½¢å¼æœä»Žæœ¬è´¨
+â€¢ èˆªç©ºèˆªå¤©ï¼šè¿™ä¸ªæµçº¿åž‹æ—©äºŽç©ºæ°”åŠ¨åŠ›å­¦çš„ç³»ç»Ÿç ”ç©¶ï¼ŒåŽæ¥è¢«è¯æ˜Žæ˜¯è¿‘ä¹Žå®Œç¾Žçš„ä½Žé˜»åŠ›å½¢æ€  
+â€¢ çŽ°ä»£å®¶å…·ï¼šä»Ž Noguchi èŒ¶å‡ åˆ°åŒ—æ¬§è®¾è®¡ï¼Œ"less is more"çš„æºå¤´ä¹‹ä¸€`,
     
-    significance: `Brâncuși 证明了：雕塑可以不模仿现实；材料本身就是语言；底座可以是作品的一部分。
+    significance: `BrÃ¢ncuÈ™i è¯æ˜Žäº†ï¼šé›•å¡‘å¯ä»¥ä¸æ¨¡ä»¿çŽ°å®žï¼›ææ–™æœ¬èº«å°±æ˜¯è¯­è¨€ï¼›åº•åº§å¯ä»¥æ˜¯ä½œå“çš„ä¸€éƒ¨åˆ†ã€‚
 
-他的工作室（现在在蓬皮杜中心旁边原样重建）是现代艺术史上最重要的空间之一。`,
+ä»–çš„å·¥ä½œå®¤ï¼ˆçŽ°åœ¨åœ¨è“¬çš®æœä¸­å¿ƒæ—è¾¹åŽŸæ ·é‡å»ºï¼‰æ˜¯çŽ°ä»£è‰ºæœ¯å²ä¸Šæœ€é‡è¦çš„ç©ºé—´ä¹‹ä¸€ã€‚`,
     
     // English
-    dateConnection_en: 'February 19 is Brâncuși\'s birthday (1876). This day is also officially celebrated as Brâncuși Day in Romania.',
+    dateConnection_en: 'February 19 is BrÃ¢ncuÈ™i\'s birthday (1876). This day is also officially celebrated as BrÃ¢ncuÈ™i Day in Romania.',
     
-    designerBio_en: `Constantin Brâncuși (1876-1957), Romanian sculptor, known as the "Father of Modern Sculpture."
+    designerBio_en: `Constantin BrÃ¢ncuÈ™i (1876-1957), Romanian sculptor, known as the "Father of Modern Sculpture."
 
-He was a shepherd at 7, left home at 9 to work, and at 18 built a violin from scrap wood—which got him discovered and sent to art school. Later in Paris, Rodin invited him to his studio, but he left after just two months, saying:
+He was a shepherd at 7, left home at 9 to work, and at 18 built a violin from scrap woodâ€”which got him discovered and sent to art school. Later in Paris, Rodin invited him to his studio, but he left after just two months, saying:
 
 **"Nothing can grow under big trees."**
 
@@ -558,19 +558,19 @@ Then he forged his own path.`,
     
     story_en: `The bird has no wings, no feathers, no eyes. Just a streamlined form, like an elongated water droplet.
 
-Brâncuși said he wasn't sculpting the bird's shape, but **"the essence of flight."**
+BrÃ¢ncuÈ™i said he wasn't sculpting the bird's shape, but **"the essence of flight."**
 
 He polished the bronze surface himself to a mirror finish. Light flows across the curves, making the still sculpture appear to move.
 
-In 1926, photographer Edward Steichen bought a Bird in Space and shipped it to America. Customs refused to classify it as art—calling it an industrial part subject to import duty. The case went to court. The judge ultimately ruled: art doesn't have to be realistic imitation of nature; it can be an abstract concept—like "flight" itself.
+In 1926, photographer Edward Steichen bought a Bird in Space and shipped it to America. Customs refused to classify it as artâ€”calling it an industrial part subject to import duty. The case went to court. The judge ultimately ruled: art doesn't have to be realistic imitation of nature; it can be an abstract conceptâ€”like "flight" itself.
 
 This verdict established a crucial principle: **abstract art is art.**`,
     
-    legacy_en: `• Apple's design language: Jony Ive has cited Brâncuși's influence multiple times—simplicity, material honesty, form following essence
-• Aerospace: This streamlined shape predated systematic aerodynamic research, later proven to be near-perfect low-drag form
-• Modern furniture: From the Noguchi table to Scandinavian design, one of the origins of "less is more"`,
+    legacy_en: `â€¢ Apple's design language: Jony Ive has cited BrÃ¢ncuÈ™i's influence multiple timesâ€”simplicity, material honesty, form following essence
+â€¢ Aerospace: This streamlined shape predated systematic aerodynamic research, later proven to be near-perfect low-drag form
+â€¢ Modern furniture: From the Noguchi table to Scandinavian design, one of the origins of "less is more"`,
     
-    significance_en: `Brâncuși proved that sculpture doesn't have to imitate reality; the material itself is a language; the pedestal can be part of the work.
+    significance_en: `BrÃ¢ncuÈ™i proved that sculpture doesn't have to imitate reality; the material itself is a language; the pedestal can be part of the work.
 
 His studio (now reconstructed next to the Pompidou Center) is one of the most important spaces in modern art history.`
   },
@@ -586,43 +586,43 @@ His studio (now reconstructed next to the Pompidou Center) is one of the most im
     designer: 'Louis Comfort Tiffany',
     year: '1901',
     
-    dateConnection: '2月18日是 Louis Comfort Tiffany 的生日（1848年）。他创造了 Art Nouveau 时代最具标志性的装饰艺术品。',
+    dateConnection: '2æœˆ18æ—¥æ˜¯ Louis Comfort Tiffany çš„ç”Ÿæ—¥ï¼ˆ1848å¹´ï¼‰ã€‚ä»–åˆ›é€ äº† Art Nouveau æ—¶ä»£æœ€å…·æ ‡å¿—æ€§çš„è£…é¥°è‰ºæœ¯å“ã€‚',
     
-    designerBio: `Louis Comfort Tiffany (1848-1933)，美国设计师、艺术家，Tiffany & Co. 创始人之子。
+    designerBio: `Louis Comfort Tiffany (1848-1933)ï¼Œç¾Žå›½è®¾è®¡å¸ˆã€è‰ºæœ¯å®¶ï¼ŒTiffany & Co. åˆ›å§‹äººä¹‹å­ã€‚
 
-他没有继承父亲的珠宝生意，而是去追求自己的艺术梦想。先学绘画，后转向装饰艺术。他痴迷于光和色彩的关系，尤其是光穿透彩色玻璃时的效果。
+ä»–æ²¡æœ‰ç»§æ‰¿çˆ¶äº²çš„ç å®ç”Ÿæ„ï¼Œè€Œæ˜¯åŽ»è¿½æ±‚è‡ªå·±çš„è‰ºæœ¯æ¢¦æƒ³ã€‚å…ˆå­¦ç»˜ç”»ï¼ŒåŽè½¬å‘è£…é¥°è‰ºæœ¯ã€‚ä»–ç—´è¿·äºŽå…‰å’Œè‰²å½©çš„å…³ç³»ï¼Œå°¤å…¶æ˜¯å…‰ç©¿é€å½©è‰²çŽ»ç’ƒæ—¶çš„æ•ˆæžœã€‚
 
 **"Color is to the eye what music is to the ear."**
-色彩之于眼睛，如同音乐之于耳朵。
+è‰²å½©ä¹‹äºŽçœ¼ç›ï¼Œå¦‚åŒéŸ³ä¹ä¹‹äºŽè€³æœµã€‚
 
-他发明了"Favrile"玻璃工艺——一种能呈现虹彩效果的特殊玻璃，让每件作品都独一无二。`,
+ä»–å‘æ˜Žäº†"Favrile"çŽ»ç’ƒå·¥è‰ºâ€”â€”ä¸€ç§èƒ½å‘ˆçŽ°è™¹å½©æ•ˆæžœçš„ç‰¹æ®ŠçŽ»ç’ƒï¼Œè®©æ¯ä»¶ä½œå“éƒ½ç‹¬ä¸€æ— äºŒã€‚`,
     
-    story: `Wisteria Lamp 是 Tiffany Studios 最复杂的作品之一。灯罩由超过 2000 片手工切割的彩色玻璃组成，每一片都经过精心挑选和打磨。
+    story: `Wisteria Lamp æ˜¯ Tiffany Studios æœ€å¤æ‚çš„ä½œå“ä¹‹ä¸€ã€‚ç¯ç½©ç”±è¶…è¿‡ 2000 ç‰‡æ‰‹å·¥åˆ‡å‰²çš„å½©è‰²çŽ»ç’ƒç»„æˆï¼Œæ¯ä¸€ç‰‡éƒ½ç»è¿‡ç²¾å¿ƒæŒ‘é€‰å’Œæ‰“ç£¨ã€‚
 
-紫藤花从灯罩顶部倾泻而下，绿叶交织其中。灯座模仿紫藤树干的形态，青铜铸造，根须蔓延成底座。
+ç´«è—¤èŠ±ä»Žç¯ç½©é¡¶éƒ¨å€¾æ³»è€Œä¸‹ï¼Œç»¿å¶äº¤ç»‡å…¶ä¸­ã€‚ç¯åº§æ¨¡ä»¿ç´«è—¤æ ‘å¹²çš„å½¢æ€ï¼Œé’é“œé“¸é€ ï¼Œæ ¹é¡»è”“å»¶æˆåº•åº§ã€‚
 
-当灯点亮，光线穿透玻璃，**整盏灯变成一个发光的花园**。
+å½“ç¯ç‚¹äº®ï¼Œå…‰çº¿ç©¿é€çŽ»ç’ƒï¼Œ**æ•´ç›ç¯å˜æˆä¸€ä¸ªå‘å…‰çš„èŠ±å›­**ã€‚
 
-这不是简单的照明工具——它是一件可以使用的艺术品。每盏灯都需要数周制作，没有两盏完全相同。`,
+è¿™ä¸æ˜¯ç®€å•çš„ç…§æ˜Žå·¥å…·â€”â€”å®ƒæ˜¯ä¸€ä»¶å¯ä»¥ä½¿ç”¨çš„è‰ºæœ¯å“ã€‚æ¯ç›ç¯éƒ½éœ€è¦æ•°å‘¨åˆ¶ä½œï¼Œæ²¡æœ‰ä¸¤ç›å®Œå…¨ç›¸åŒã€‚`,
     
-    legacy: `• Art Nouveau 运动：Tiffany 灯成为新艺术运动的代名词，影响了整个装饰艺术领域
-• 工艺美术复兴：证明了手工艺品可以是艺术品，为后来的 Arts & Crafts 运动铺路
-• 收藏市场：原版 Tiffany 灯现在价值数百万美元，是装饰艺术品中最受追捧的品类之一`,
+    legacy: `â€¢ Art Nouveau è¿åŠ¨ï¼šTiffany ç¯æˆä¸ºæ–°è‰ºæœ¯è¿åŠ¨çš„ä»£åè¯ï¼Œå½±å“äº†æ•´ä¸ªè£…é¥°è‰ºæœ¯é¢†åŸŸ
+â€¢ å·¥è‰ºç¾Žæœ¯å¤å…´ï¼šè¯æ˜Žäº†æ‰‹å·¥è‰ºå“å¯ä»¥æ˜¯è‰ºæœ¯å“ï¼Œä¸ºåŽæ¥çš„ Arts & Crafts è¿åŠ¨é“ºè·¯
+â€¢ æ”¶è—å¸‚åœºï¼šåŽŸç‰ˆ Tiffany ç¯çŽ°åœ¨ä»·å€¼æ•°ç™¾ä¸‡ç¾Žå…ƒï¼Œæ˜¯è£…é¥°è‰ºæœ¯å“ä¸­æœ€å—è¿½æ§çš„å“ç±»ä¹‹ä¸€`,
     
-    significance: `Tiffany 模糊了"工艺"和"艺术"的界限。他的工作室是最早实现"设计师 + 工匠"协作模式的地方之一。
+    significance: `Tiffany æ¨¡ç³Šäº†"å·¥è‰º"å’Œ"è‰ºæœ¯"çš„ç•Œé™ã€‚ä»–çš„å·¥ä½œå®¤æ˜¯æœ€æ—©å®žçŽ°"è®¾è®¡å¸ˆ + å·¥åŒ "åä½œæ¨¡å¼çš„åœ°æ–¹ä¹‹ä¸€ã€‚
 
-他证明了：日常物品可以是艺术品；材料创新可以开创全新美学；光本身可以成为设计的主角。`,
+ä»–è¯æ˜Žäº†ï¼šæ—¥å¸¸ç‰©å“å¯ä»¥æ˜¯è‰ºæœ¯å“ï¼›ææ–™åˆ›æ–°å¯ä»¥å¼€åˆ›å…¨æ–°ç¾Žå­¦ï¼›å…‰æœ¬èº«å¯ä»¥æˆä¸ºè®¾è®¡çš„ä¸»è§’ã€‚`,
 
     // English
     dateConnection_en: 'February 18 is Louis Comfort Tiffany\'s birthday (1848). He created the most iconic decorative art of the Art Nouveau era.',
     
     designerBio_en: `Louis Comfort Tiffany (1848-1933), American designer and artist, son of the founder of Tiffany & Co.
 
-He didn't inherit his father's jewelry business—instead, he pursued his own artistic dreams. He studied painting first, then turned to decorative arts. He was obsessed with the relationship between light and color, especially how light passes through stained glass.
+He didn't inherit his father's jewelry businessâ€”instead, he pursued his own artistic dreams. He studied painting first, then turned to decorative arts. He was obsessed with the relationship between light and color, especially how light passes through stained glass.
 
 **"Color is to the eye what music is to the ear."**
 
-He invented the "Favrile" glass technique—a special iridescent glass that made each piece unique.`,
+He invented the "Favrile" glass techniqueâ€”a special iridescent glass that made each piece unique.`,
     
     story_en: `The Wisteria Lamp is one of Tiffany Studios' most complex works. The shade consists of over 2,000 pieces of hand-cut stained glass, each carefully selected and polished.
 
@@ -630,11 +630,11 @@ Wisteria flowers cascade from the top of the shade, intertwined with green leave
 
 When lit, light penetrates the glass, and **the entire lamp becomes a glowing garden.**
 
-This is not a simple lighting tool—it's a functional work of art. Each lamp takes weeks to make, and no two are exactly alike.`,
+This is not a simple lighting toolâ€”it's a functional work of art. Each lamp takes weeks to make, and no two are exactly alike.`,
     
-    legacy_en: `• Art Nouveau movement: Tiffany lamps became synonymous with Art Nouveau, influencing the entire decorative arts field
-• Crafts revival: Proved that handicrafts can be art, paving the way for the Arts & Crafts movement
-• Collector's market: Original Tiffany lamps now worth millions of dollars, among the most sought-after decorative art pieces`,
+    legacy_en: `â€¢ Art Nouveau movement: Tiffany lamps became synonymous with Art Nouveau, influencing the entire decorative arts field
+â€¢ Crafts revival: Proved that handicrafts can be art, paving the way for the Arts & Crafts movement
+â€¢ Collector's market: Original Tiffany lamps now worth millions of dollars, among the most sought-after decorative art pieces`,
     
     significance_en: `Tiffany blurred the line between "craft" and "art." His studio was one of the first to achieve a "designer + craftsman" collaborative model.
 
@@ -652,39 +652,39 @@ He proved that everyday objects can be art; material innovation can create entir
     designer: 'Thomas Heatherwick',
     year: '2019',
     
-    dateConnection: '2月17日是 Thomas Heatherwick 的生日（1970年）。他是当代最具影响力的设计师之一，跨越建筑、产品、公共艺术多个领域。',
+    dateConnection: '2æœˆ17æ—¥æ˜¯ Thomas Heatherwick çš„ç”Ÿæ—¥ï¼ˆ1970å¹´ï¼‰ã€‚ä»–æ˜¯å½“ä»£æœ€å…·å½±å“åŠ›çš„è®¾è®¡å¸ˆä¹‹ä¸€ï¼Œè·¨è¶Šå»ºç­‘ã€äº§å“ã€å…¬å…±è‰ºæœ¯å¤šä¸ªé¢†åŸŸã€‚',
     
-    designerBio: `Thomas Heatherwick (1970-)，英国设计师，Heatherwick Studio 创始人。
+    designerBio: `Thomas Heatherwick (1970-)ï¼Œè‹±å›½è®¾è®¡å¸ˆï¼ŒHeatherwick Studio åˆ›å§‹äººã€‚
 
-他拒绝被定义。不是建筑师，不是产品设计师，不是艺术家——但他做所有这些事。他的作品从伦敦奥运会主火炬到上海世博会英国馆，从 Google 总部到纽约 Hudson Yards。
+ä»–æ‹’ç»è¢«å®šä¹‰ã€‚ä¸æ˜¯å»ºç­‘å¸ˆï¼Œä¸æ˜¯äº§å“è®¾è®¡å¸ˆï¼Œä¸æ˜¯è‰ºæœ¯å®¶â€”â€”ä½†ä»–åšæ‰€æœ‰è¿™äº›äº‹ã€‚ä»–çš„ä½œå“ä»Žä¼¦æ•¦å¥¥è¿ä¼šä¸»ç«ç‚¬åˆ°ä¸Šæµ·ä¸–åšä¼šè‹±å›½é¦†ï¼Œä»Ž Google æ€»éƒ¨åˆ°çº½çº¦ Hudson Yardsã€‚
 
 **"The enemy of good design is too much focus."**
-好设计的敌人是过度聚焦。
+å¥½è®¾è®¡çš„æ•Œäººæ˜¯è¿‡åº¦èšç„¦ã€‚
 
-他相信设计应该引发情感反应，而不仅仅是解决功能问题。`,
+ä»–ç›¸ä¿¡è®¾è®¡åº”è¯¥å¼•å‘æƒ…æ„Ÿååº”ï¼Œè€Œä¸ä»…ä»…æ˜¯è§£å†³åŠŸèƒ½é—®é¢˜ã€‚`,
     
-    story: `Vessel 是一座可以攀爬的公共雕塑，位于纽约 Hudson Yards。154 段楼梯，2500 级台阶，80 个观景平台，全部交织成一个蜂巢状的结构。
+    story: `Vessel æ˜¯ä¸€åº§å¯ä»¥æ”€çˆ¬çš„å…¬å…±é›•å¡‘ï¼Œä½äºŽçº½çº¦ Hudson Yardsã€‚154 æ®µæ¥¼æ¢¯ï¼Œ2500 çº§å°é˜¶ï¼Œ80 ä¸ªè§‚æ™¯å¹³å°ï¼Œå…¨éƒ¨äº¤ç»‡æˆä¸€ä¸ªèœ‚å·¢çŠ¶çš„ç»“æž„ã€‚
 
-从外面看，它像一个巨大的蜂巢或松果。但真正的体验是**走进去**——你可以从任何一个入口开始，沿着楼梯上下穿梭，在不同高度看到不同的风景和其他攀爬者。
+ä»Žå¤–é¢çœ‹ï¼Œå®ƒåƒä¸€ä¸ªå·¨å¤§çš„èœ‚å·¢æˆ–æ¾æžœã€‚ä½†çœŸæ­£çš„ä½“éªŒæ˜¯**èµ°è¿›åŽ»**â€”â€”ä½ å¯ä»¥ä»Žä»»ä½•ä¸€ä¸ªå…¥å£å¼€å§‹ï¼Œæ²¿ç€æ¥¼æ¢¯ä¸Šä¸‹ç©¿æ¢­ï¼Œåœ¨ä¸åŒé«˜åº¦çœ‹åˆ°ä¸åŒçš„é£Žæ™¯å’Œå…¶ä»–æ”€çˆ¬è€…ã€‚
 
-Heatherwick 说：**"建筑太经常是关于'看'的，这个是关于'做'的。"**
+Heatherwick è¯´ï¼š**"å»ºç­‘å¤ªç»å¸¸æ˜¯å…³äºŽ'çœ‹'çš„ï¼Œè¿™ä¸ªæ˜¯å…³äºŽ'åš'çš„ã€‚"**
 
-它没有固定的参观路线。每个人的体验都不一样。`,
+å®ƒæ²¡æœ‰å›ºå®šçš„å‚è§‚è·¯çº¿ã€‚æ¯ä¸ªäººçš„ä½“éªŒéƒ½ä¸ä¸€æ ·ã€‚`,
     
-    legacy: `• 公共空间设计：重新定义了"地标建筑"的概念——不是用来仰望的，而是用来参与的
-• 交互式建筑：证明建筑可以是一种体验而非背景
-• 城市更新：成为 Hudson Yards 开发项目的核心吸引力，带动整个区域的活力`,
+    legacy: `â€¢ å…¬å…±ç©ºé—´è®¾è®¡ï¼šé‡æ–°å®šä¹‰äº†"åœ°æ ‡å»ºç­‘"çš„æ¦‚å¿µâ€”â€”ä¸æ˜¯ç”¨æ¥ä»°æœ›çš„ï¼Œè€Œæ˜¯ç”¨æ¥å‚ä¸Žçš„
+â€¢ äº¤äº’å¼å»ºç­‘ï¼šè¯æ˜Žå»ºç­‘å¯ä»¥æ˜¯ä¸€ç§ä½“éªŒè€ŒéžèƒŒæ™¯
+â€¢ åŸŽå¸‚æ›´æ–°ï¼šæˆä¸º Hudson Yards å¼€å‘é¡¹ç›®çš„æ ¸å¿ƒå¸å¼•åŠ›ï¼Œå¸¦åŠ¨æ•´ä¸ªåŒºåŸŸçš„æ´»åŠ›`,
     
-    significance: `Vessel 挑战了建筑的基本假设：建筑必须有明确功能吗？它更像一个巨大的游乐场或迷宫——存在的意义就是被探索。
+    significance: `Vessel æŒ‘æˆ˜äº†å»ºç­‘çš„åŸºæœ¬å‡è®¾ï¼šå»ºç­‘å¿…é¡»æœ‰æ˜Žç¡®åŠŸèƒ½å—ï¼Ÿå®ƒæ›´åƒä¸€ä¸ªå·¨å¤§çš„æ¸¸ä¹åœºæˆ–è¿·å®«â€”â€”å­˜åœ¨çš„æ„ä¹‰å°±æ˜¯è¢«æŽ¢ç´¢ã€‚
 
-在一个什么都讲效率的时代，Heatherwick 提醒我们：有些东西的价值就是让人感到惊奇。`,
+åœ¨ä¸€ä¸ªä»€ä¹ˆéƒ½è®²æ•ˆçŽ‡çš„æ—¶ä»£ï¼ŒHeatherwick æé†’æˆ‘ä»¬ï¼šæœ‰äº›ä¸œè¥¿çš„ä»·å€¼å°±æ˜¯è®©äººæ„Ÿåˆ°æƒŠå¥‡ã€‚`,
 
     // English
     dateConnection_en: 'February 17 is Thomas Heatherwick\'s birthday (1970). He is one of the most influential designers of our time, spanning architecture, product design, and public art.',
     
     designerBio_en: `Thomas Heatherwick (1970-), British designer, founder of Heatherwick Studio.
 
-He refuses to be defined. Not an architect, not a product designer, not an artist—but he does all of these things. His work ranges from the London Olympic Cauldron to the UK Pavilion at Shanghai Expo, from Google headquarters to New York's Hudson Yards.
+He refuses to be defined. Not an architect, not a product designer, not an artistâ€”but he does all of these things. His work ranges from the London Olympic Cauldron to the UK Pavilion at Shanghai Expo, from Google headquarters to New York's Hudson Yards.
 
 **"The enemy of good design is too much focus."**
 
@@ -692,17 +692,17 @@ He believes design should provoke emotional responses, not just solve functional
     
     story_en: `Vessel is a climbable public sculpture located at Hudson Yards in New York. 154 flights of stairs, 2,500 steps, 80 viewing platforms, all interwoven into a honeycomb-like structure.
 
-From the outside, it looks like a giant honeycomb or pinecone. But the real experience is **going inside**—you can start from any entrance, traverse up and down the stairs, seeing different views and other climbers at different heights.
+From the outside, it looks like a giant honeycomb or pinecone. But the real experience is **going inside**â€”you can start from any entrance, traverse up and down the stairs, seeing different views and other climbers at different heights.
 
 Heatherwick said: **"Architecture is too often about 'looking.' This is about 'doing.'"**
 
 There's no fixed visiting route. Everyone's experience is different.`,
     
-    legacy_en: `• Public space design: Redefined the concept of "landmark architecture"—not meant to be gazed upon, but to be participated in
-• Interactive architecture: Proved that architecture can be an experience rather than a backdrop
-• Urban renewal: Became the core attraction of the Hudson Yards development, energizing the entire district`,
+    legacy_en: `â€¢ Public space design: Redefined the concept of "landmark architecture"â€”not meant to be gazed upon, but to be participated in
+â€¢ Interactive architecture: Proved that architecture can be an experience rather than a backdrop
+â€¢ Urban renewal: Became the core attraction of the Hudson Yards development, energizing the entire district`,
     
-    significance_en: `Vessel challenges architecture's basic assumptions: must buildings have clear functions? It's more like a giant playground or maze—its purpose is to be explored.
+    significance_en: `Vessel challenges architecture's basic assumptions: must buildings have clear functions? It's more like a giant playground or mazeâ€”its purpose is to be explored.
 
 In an age obsessed with efficiency, Heatherwick reminds us: some things have value simply by making people feel wonder.`
   },
@@ -718,34 +718,34 @@ In an age obsessed with efficiency, Heatherwick reminds us: some things have val
     designer: 'Achille Castiglioni',
     year: '1962',
     
-    dateConnection: '2月16日是 Achille Castiglioni 的生日（1918年）。他是意大利设计黄金时代最具代表性的设计师，三次获得 Compasso d\'Oro 金罗盘奖。',
+    dateConnection: '2æœˆ16æ—¥æ˜¯ Achille Castiglioni çš„ç”Ÿæ—¥ï¼ˆ1918å¹´ï¼‰ã€‚ä»–æ˜¯æ„å¤§åˆ©è®¾è®¡é»„é‡‘æ—¶ä»£æœ€å…·ä»£è¡¨æ€§çš„è®¾è®¡å¸ˆï¼Œä¸‰æ¬¡èŽ·å¾— Compasso d\'Oro é‡‘ç½—ç›˜å¥–ã€‚',
     
-    designerBio: `Achille Castiglioni (1918-2002)，意大利工业设计大师，与哥哥 Pier Giacomo 合作创造了无数经典设计。
+    designerBio: `Achille Castiglioni (1918-2002)ï¼Œæ„å¤§åˆ©å·¥ä¸šè®¾è®¡å¤§å¸ˆï¼Œä¸Žå“¥å“¥ Pier Giacomo åˆä½œåˆ›é€ äº†æ— æ•°ç»å…¸è®¾è®¡ã€‚
 
-他从日常物品中寻找灵感。拖拉机座椅变成酒吧凳（Mezzadro），汽车大灯变成台灯（Toio）。他相信好设计来自于**重新观看熟悉的事物**。
+ä»–ä»Žæ—¥å¸¸ç‰©å“ä¸­å¯»æ‰¾çµæ„Ÿã€‚æ‹–æ‹‰æœºåº§æ¤…å˜æˆé…’å§å‡³ï¼ˆMezzadroï¼‰ï¼Œæ±½è½¦å¤§ç¯å˜æˆå°ç¯ï¼ˆToioï¼‰ã€‚ä»–ç›¸ä¿¡å¥½è®¾è®¡æ¥è‡ªäºŽ**é‡æ–°è§‚çœ‹ç†Ÿæ‚‰çš„äº‹ç‰©**ã€‚
 
 **"Start from scratch. Ordinary people accept the world as it is. Designers re-imagine it."**
-从零开始。普通人接受世界的样子，设计师重新想象它。
+ä»Žé›¶å¼€å§‹ã€‚æ™®é€šäººæŽ¥å—ä¸–ç•Œçš„æ ·å­ï¼Œè®¾è®¡å¸ˆé‡æ–°æƒ³è±¡å®ƒã€‚
 
-他的工作室现在是米兰的一个博物馆，保留着他收集的各种"普通物件"。`,
+ä»–çš„å·¥ä½œå®¤çŽ°åœ¨æ˜¯ç±³å…°çš„ä¸€ä¸ªåšç‰©é¦†ï¼Œä¿ç•™ç€ä»–æ”¶é›†çš„å„ç§"æ™®é€šç‰©ä»¶"ã€‚`,
     
-    story: `Arco 的设计问题很简单：如何把光源从地面移到沙发上方——不用打孔、不用吊灯？
+    story: `Arco çš„è®¾è®¡é—®é¢˜å¾ˆç®€å•ï¼šå¦‚ä½•æŠŠå…‰æºä»Žåœ°é¢ç§»åˆ°æ²™å‘ä¸Šæ–¹â€”â€”ä¸ç”¨æ‰“å­”ã€ä¸ç”¨åŠç¯ï¼Ÿ
 
-答案是一根优雅的弧线。大理石底座提供稳定性（重达65公斤），不锈钢弧形臂将灯罩送到2米多高的空中。
+ç­”æ¡ˆæ˜¯ä¸€æ ¹ä¼˜é›…çš„å¼§çº¿ã€‚å¤§ç†çŸ³åº•åº§æä¾›ç¨³å®šæ€§ï¼ˆé‡è¾¾65å…¬æ–¤ï¼‰ï¼Œä¸é”ˆé’¢å¼§å½¢è‡‚å°†ç¯ç½©é€åˆ°2ç±³å¤šé«˜çš„ç©ºä¸­ã€‚
 
-**这是站着的吊灯。**
+**è¿™æ˜¯ç«™ç€çš„åŠç¯ã€‚**
 
-底座上有个孔——不是装饰，是为了方便搬运：穿根棍子，两个人就能抬起来。每个细节都有原因。
+åº•åº§ä¸Šæœ‰ä¸ªå­”â€”â€”ä¸æ˜¯è£…é¥°ï¼Œæ˜¯ä¸ºäº†æ–¹ä¾¿æ¬è¿ï¼šç©¿æ ¹æ£å­ï¼Œä¸¤ä¸ªäººå°±èƒ½æŠ¬èµ·æ¥ã€‚æ¯ä¸ªç»†èŠ‚éƒ½æœ‰åŽŸå› ã€‚
 
-60年过去了，Arco 仍在生产，设计没改过一笔。`,
+60å¹´è¿‡åŽ»äº†ï¼ŒArco ä»åœ¨ç”Ÿäº§ï¼Œè®¾è®¡æ²¡æ”¹è¿‡ä¸€ç¬”ã€‚`,
     
-    legacy: `• 落地灯革命：证明落地灯可以替代吊灯的功能，改变了室内照明设计的思路
-• 材料诚实：大理石就是大理石，钢就是钢，没有伪装，没有多余装饰
-• 意大利设计标志：成为 20 世纪中期意大利设计运动的图腾之一，与 Eames、Jacobsen 齐名`,
+    legacy: `â€¢ è½åœ°ç¯é©å‘½ï¼šè¯æ˜Žè½åœ°ç¯å¯ä»¥æ›¿ä»£åŠç¯çš„åŠŸèƒ½ï¼Œæ”¹å˜äº†å®¤å†…ç…§æ˜Žè®¾è®¡çš„æ€è·¯
+â€¢ ææ–™è¯šå®žï¼šå¤§ç†çŸ³å°±æ˜¯å¤§ç†çŸ³ï¼Œé’¢å°±æ˜¯é’¢ï¼Œæ²¡æœ‰ä¼ªè£…ï¼Œæ²¡æœ‰å¤šä½™è£…é¥°
+â€¢ æ„å¤§åˆ©è®¾è®¡æ ‡å¿—ï¼šæˆä¸º 20 ä¸–çºªä¸­æœŸæ„å¤§åˆ©è®¾è®¡è¿åŠ¨çš„å›¾è…¾ä¹‹ä¸€ï¼Œä¸Ž Eamesã€Jacobsen é½å`,
     
-    significance: `Castiglioni 兄弟证明了：最好的设计往往来自最简单的问题。
+    significance: `Castiglioni å…„å¼Ÿè¯æ˜Žäº†ï¼šæœ€å¥½çš„è®¾è®¡å¾€å¾€æ¥è‡ªæœ€ç®€å•çš„é—®é¢˜ã€‚
 
-Arco 不是在炫技，它就是在解决一个具体问题——用最优雅的方式。这种"问题导向"的设计思维，影响了后来几代工业设计师。`,
+Arco ä¸æ˜¯åœ¨ç‚«æŠ€ï¼Œå®ƒå°±æ˜¯åœ¨è§£å†³ä¸€ä¸ªå…·ä½“é—®é¢˜â€”â€”ç”¨æœ€ä¼˜é›…çš„æ–¹å¼ã€‚è¿™ç§"é—®é¢˜å¯¼å‘"çš„è®¾è®¡æ€ç»´ï¼Œå½±å“äº†åŽæ¥å‡ ä»£å·¥ä¸šè®¾è®¡å¸ˆã€‚`,
 
     // English
     dateConnection_en: 'February 16 is Achille Castiglioni\'s birthday (1918). He was the most representative designer of Italy\'s golden age of design, winning the Compasso d\'Oro (Golden Compass) award three times.',
@@ -758,23 +758,23 @@ He found inspiration in everyday objects. A tractor seat became a bar stool (Mez
 
 His studio is now a museum in Milan, preserving the various "ordinary objects" he collected.`,
     
-    story_en: `Arco's design problem was simple: how to move a light source from the floor to above the sofa—without drilling holes or installing a chandelier?
+    story_en: `Arco's design problem was simple: how to move a light source from the floor to above the sofaâ€”without drilling holes or installing a chandelier?
 
 The answer is an elegant arc. The marble base provides stability (weighing 65 kg), while the stainless steel arched arm delivers the shade to over 2 meters high.
 
 **This is a standing chandelier.**
 
-There's a hole in the base—not decoration, but for easy transport: insert a pole and two people can carry it. Every detail has a reason.
+There's a hole in the baseâ€”not decoration, but for easy transport: insert a pole and two people can carry it. Every detail has a reason.
 
 60 years later, Arco is still in production, the design unchanged.`,
     
-    legacy_en: `• Floor lamp revolution: Proved that floor lamps can replace chandeliers, changing interior lighting design thinking
-• Material honesty: Marble is marble, steel is steel—no disguise, no excess decoration
-• Italian design icon: Became one of the totems of mid-20th century Italian design movement, alongside Eames and Jacobsen`,
+    legacy_en: `â€¢ Floor lamp revolution: Proved that floor lamps can replace chandeliers, changing interior lighting design thinking
+â€¢ Material honesty: Marble is marble, steel is steelâ€”no disguise, no excess decoration
+â€¢ Italian design icon: Became one of the totems of mid-20th century Italian design movement, alongside Eames and Jacobsen`,
     
     significance_en: `The Castiglioni brothers proved that the best designs often come from the simplest questions.
 
-Arco isn't showing off—it's solving a specific problem in the most elegant way. This "problem-oriented" design thinking influenced generations of industrial designers.`
+Arco isn't showing offâ€”it's solving a specific problem in the most elegant way. This "problem-oriented" design thinking influenced generations of industrial designers.`
   },
   {
     id: '11',
@@ -788,35 +788,35 @@ Arco isn't showing off—it's solving a specific problem in the most elegant way
     designer: 'Walt Disney Studios',
     year: '1940',
     
-    dateConnection: '1940年2月7日，《匹诺曹》在纽约中心剧院首映。这部动画电影被认为是动画艺术的巅峰之作，首次赢得奥斯卡竞赛类奖项的动画长片。',
+    dateConnection: '1940å¹´2æœˆ7æ—¥ï¼Œã€ŠåŒ¹è¯ºæ›¹ã€‹åœ¨çº½çº¦ä¸­å¿ƒå‰§é™¢é¦–æ˜ ã€‚è¿™éƒ¨åŠ¨ç”»ç”µå½±è¢«è®¤ä¸ºæ˜¯åŠ¨ç”»è‰ºæœ¯çš„å·…å³°ä¹‹ä½œï¼Œé¦–æ¬¡èµ¢å¾—å¥¥æ–¯å¡ç«žèµ›ç±»å¥–é¡¹çš„åŠ¨ç”»é•¿ç‰‡ã€‚',
     
-    designerBio: `Walt Disney Studios 在1940年代初期代表了动画艺术的最高水平。
+    designerBio: `Walt Disney Studios åœ¨1940å¹´ä»£åˆæœŸä»£è¡¨äº†åŠ¨ç”»è‰ºæœ¯çš„æœ€é«˜æ°´å¹³ã€‚
 
-制作团队包括超过750名艺术家：动画师、助理、布局艺术家、背景画家、特效动画师和上色人员。他们创作了超过200万幅画稿，使用了1500多种颜色。
+åˆ¶ä½œå›¢é˜ŸåŒ…æ‹¬è¶…è¿‡750åè‰ºæœ¯å®¶ï¼šåŠ¨ç”»å¸ˆã€åŠ©ç†ã€å¸ƒå±€è‰ºæœ¯å®¶ã€èƒŒæ™¯ç”»å®¶ã€ç‰¹æ•ˆåŠ¨ç”»å¸ˆå’Œä¸Šè‰²äººå‘˜ã€‚ä»–ä»¬åˆ›ä½œäº†è¶…è¿‡200ä¸‡å¹…ç”»ç¨¿ï¼Œä½¿ç”¨äº†1500å¤šç§é¢œè‰²ã€‚
 
-Gustaf Tenggren 被任命为艺术指导，为影片赋予了欧洲童话书的华丽风格。Ward Kimball 创造了蟋蟀吉明尼的角色设计，将原著中的小角色变成了影片的灵魂人物。
+Gustaf Tenggren è¢«ä»»å‘½ä¸ºè‰ºæœ¯æŒ‡å¯¼ï¼Œä¸ºå½±ç‰‡èµ‹äºˆäº†æ¬§æ´²ç«¥è¯ä¹¦çš„åŽä¸½é£Žæ ¼ã€‚Ward Kimball åˆ›é€ äº†èŸ‹èŸ€å‰æ˜Žå°¼çš„è§’è‰²è®¾è®¡ï¼Œå°†åŽŸè‘—ä¸­çš„å°è§’è‰²å˜æˆäº†å½±ç‰‡çš„çµé­‚äººç‰©ã€‚
 
 **"Animation can explain whatever the mind of man can conceive."**
-动画可以解释人类头脑所能想象的一切。——Walt Disney`,
+åŠ¨ç”»å¯ä»¥è§£é‡Šäººç±»å¤´è„‘æ‰€èƒ½æƒ³è±¡çš„ä¸€åˆ‡ã€‚â€”â€”Walt Disney`,
     
-    story: `1940年，《匹诺曹》首映时，二战已经在欧洲爆发。这部耗资260万美元的电影起初票房惨淡——欧洲和亚洲市场被战争切断了。
+    story: `1940å¹´ï¼Œã€ŠåŒ¹è¯ºæ›¹ã€‹é¦–æ˜ æ—¶ï¼ŒäºŒæˆ˜å·²ç»åœ¨æ¬§æ´²çˆ†å‘ã€‚è¿™éƒ¨è€—èµ„260ä¸‡ç¾Žå…ƒçš„ç”µå½±èµ·åˆç¥¨æˆ¿æƒ¨æ·¡â€”â€”æ¬§æ´²å’Œäºšæ´²å¸‚åœºè¢«æˆ˜äº‰åˆ‡æ–­äº†ã€‚
 
-但这部电影在技术上是革命性的。它首创了**多平面摄影机**的深度使用——让背景和前景以不同速度移动，创造出前所未有的三维空间感。
+ä½†è¿™éƒ¨ç”µå½±åœ¨æŠ€æœ¯ä¸Šæ˜¯é©å‘½æ€§çš„ã€‚å®ƒé¦–åˆ›äº†**å¤šå¹³é¢æ‘„å½±æœº**çš„æ·±åº¦ä½¿ç”¨â€”â€”è®©èƒŒæ™¯å’Œå‰æ™¯ä»¥ä¸åŒé€Ÿåº¦ç§»åŠ¨ï¼Œåˆ›é€ å‡ºå‰æ‰€æœªæœ‰çš„ä¸‰ç»´ç©ºé—´æ„Ÿã€‚
 
-水下场景、雨水、烟雾、木偶的关节运动——每一个特效都是动画历史上的第一次。当蓝仙女出现时，她的星尘效果需要特效动画师逐帧手绘每一颗闪烁的星星。
+æ°´ä¸‹åœºæ™¯ã€é›¨æ°´ã€çƒŸé›¾ã€æœ¨å¶çš„å…³èŠ‚è¿åŠ¨â€”â€”æ¯ä¸€ä¸ªç‰¹æ•ˆéƒ½æ˜¯åŠ¨ç”»åŽ†å²ä¸Šçš„ç¬¬ä¸€æ¬¡ã€‚å½“è“ä»™å¥³å‡ºçŽ°æ—¶ï¼Œå¥¹çš„æ˜Ÿå°˜æ•ˆæžœéœ€è¦ç‰¹æ•ˆåŠ¨ç”»å¸ˆé€å¸§æ‰‹ç»˜æ¯ä¸€é¢—é—ªçƒçš„æ˜Ÿæ˜Ÿã€‚
 
-**"When You Wish Upon a Star"** 不仅赢得了奥斯卡最佳原创歌曲，还成为了迪士尼公司的永久标志曲。`,
+**"When You Wish Upon a Star"** ä¸ä»…èµ¢å¾—äº†å¥¥æ–¯å¡æœ€ä½³åŽŸåˆ›æ­Œæ›²ï¼Œè¿˜æˆä¸ºäº†è¿ªå£«å°¼å…¬å¸çš„æ°¸ä¹…æ ‡å¿—æ›²ã€‚`,
     
-    legacy: `• 动画技术革命：多平面摄影机、特效动画、角色动画的里程碑
-• 奥斯卡双料冠军：首部获得竞赛类奥斯卡奖的动画长片（最佳原创音乐、最佳原创歌曲）
-• 美国国家电影登记册：1994年入选，被认定为"具有文化、历史或美学重要性"
-• 影响延续：成为后世所有动画电影的技术和艺术标杆`,
+    legacy: `â€¢ åŠ¨ç”»æŠ€æœ¯é©å‘½ï¼šå¤šå¹³é¢æ‘„å½±æœºã€ç‰¹æ•ˆåŠ¨ç”»ã€è§’è‰²åŠ¨ç”»çš„é‡Œç¨‹ç¢‘
+â€¢ å¥¥æ–¯å¡åŒæ–™å† å†›ï¼šé¦–éƒ¨èŽ·å¾—ç«žèµ›ç±»å¥¥æ–¯å¡å¥–çš„åŠ¨ç”»é•¿ç‰‡ï¼ˆæœ€ä½³åŽŸåˆ›éŸ³ä¹ã€æœ€ä½³åŽŸåˆ›æ­Œæ›²ï¼‰
+â€¢ ç¾Žå›½å›½å®¶ç”µå½±ç™»è®°å†Œï¼š1994å¹´å…¥é€‰ï¼Œè¢«è®¤å®šä¸º"å…·æœ‰æ–‡åŒ–ã€åŽ†å²æˆ–ç¾Žå­¦é‡è¦æ€§"
+â€¢ å½±å“å»¶ç»­ï¼šæˆä¸ºåŽä¸–æ‰€æœ‰åŠ¨ç”»ç”µå½±çš„æŠ€æœ¯å’Œè‰ºæœ¯æ ‡æ†`,
     
-    significance: `《匹诺曹》证明了动画不只是儿童娱乐——它是一种完整的艺术形式。
+    significance: `ã€ŠåŒ¹è¯ºæ›¹ã€‹è¯æ˜Žäº†åŠ¨ç”»ä¸åªæ˜¯å„¿ç«¥å¨±ä¹â€”â€”å®ƒæ˜¯ä¸€ç§å®Œæ•´çš„è‰ºæœ¯å½¢å¼ã€‚
 
-电影史学家常常将它评为**有史以来技术最完美的迪士尼动画**。它不仅讲述了一个木偶变成真正男孩的故事，它本身就是一个关于"艺术如何赋予无生命的东西以生命"的隐喻。
+ç”µå½±å²å­¦å®¶å¸¸å¸¸å°†å®ƒè¯„ä¸º**æœ‰å²ä»¥æ¥æŠ€æœ¯æœ€å®Œç¾Žçš„è¿ªå£«å°¼åŠ¨ç”»**ã€‚å®ƒä¸ä»…è®²è¿°äº†ä¸€ä¸ªæœ¨å¶å˜æˆçœŸæ­£ç”·å­©çš„æ•…äº‹ï¼Œå®ƒæœ¬èº«å°±æ˜¯ä¸€ä¸ªå…³äºŽ"è‰ºæœ¯å¦‚ä½•èµ‹äºˆæ— ç”Ÿå‘½çš„ä¸œè¥¿ä»¥ç”Ÿå‘½"çš„éšå–»ã€‚
 
-每一帧都是手绘的艺术品。在数字时代回看，这种工艺几乎是不可思议的。`,
+æ¯ä¸€å¸§éƒ½æ˜¯æ‰‹ç»˜çš„è‰ºæœ¯å“ã€‚åœ¨æ•°å­—æ—¶ä»£å›žçœ‹ï¼Œè¿™ç§å·¥è‰ºå‡ ä¹Žæ˜¯ä¸å¯æ€è®®çš„ã€‚`,
 
     dateConnection_en: 'On February 7, 1940, Pinocchio premiered at the Center Theatre in New York City. This animated film is considered the pinnacle of animation art and the first animated feature to win a competitive Academy Award.',
     
@@ -826,22 +826,22 @@ The production team included over 750 artists: animators, assistants, layout art
 
 Gustaf Tenggren was assigned as art director, giving the film the lavish European storybook style that Walt Disney envisioned. Ward Kimball created the character design for Jiminy Cricket, transforming a minor character from the original story into the film's soul.
 
-**"Animation can explain whatever the mind of man can conceive."** — Walt Disney`,
+**"Animation can explain whatever the mind of man can conceive."** â€” Walt Disney`,
     
-    story_en: `In 1940, when Pinocchio premiered, World War II had already begun in Europe. This $2.6 million film initially flopped at the box office—European and Asian markets were cut off by war.
+    story_en: `In 1940, when Pinocchio premiered, World War II had already begun in Europe. This $2.6 million film initially flopped at the box officeâ€”European and Asian markets were cut off by war.
 
-But the film was technically revolutionary. It pioneered the extensive use of the **multiplane camera**—making backgrounds and foregrounds move at different speeds, creating an unprecedented sense of three-dimensional space.
+But the film was technically revolutionary. It pioneered the extensive use of the **multiplane camera**â€”making backgrounds and foregrounds move at different speeds, creating an unprecedented sense of three-dimensional space.
 
-Underwater scenes, rain, smoke, the puppet's joint movements—every special effect was a first in animation history. When the Blue Fairy appears, her stardust effect required effects animators to hand-draw every twinkling star frame by frame.
+Underwater scenes, rain, smoke, the puppet's joint movementsâ€”every special effect was a first in animation history. When the Blue Fairy appears, her stardust effect required effects animators to hand-draw every twinkling star frame by frame.
 
 **"When You Wish Upon a Star"** not only won the Oscar for Best Original Song but became Disney's permanent signature tune.`,
     
-    legacy_en: `• Animation technology revolution: Milestones in multiplane camera, effects animation, and character animation
-• Double Oscar winner: First animated feature to win competitive Academy Awards (Best Original Score, Best Original Song)
-• National Film Registry: Selected in 1994 as "culturally, historically, or aesthetically significant"
-• Lasting influence: Became the technical and artistic benchmark for all subsequent animated films`,
+    legacy_en: `â€¢ Animation technology revolution: Milestones in multiplane camera, effects animation, and character animation
+â€¢ Double Oscar winner: First animated feature to win competitive Academy Awards (Best Original Score, Best Original Song)
+â€¢ National Film Registry: Selected in 1994 as "culturally, historically, or aesthetically significant"
+â€¢ Lasting influence: Became the technical and artistic benchmark for all subsequent animated films`,
     
-    significance_en: `Pinocchio proved that animation is not just children's entertainment—it is a complete art form.
+    significance_en: `Pinocchio proved that animation is not just children's entertainmentâ€”it is a complete art form.
 
 Film historians often rate it as **the most technically perfect Disney animation ever made**. It not only tells the story of a puppet becoming a real boy; it is itself a metaphor for "how art gives life to the inanimate."
 
@@ -853,56 +853,56 @@ Every frame is a hand-drawn work of art. Looking back from the digital age, this
     imageUrl: '/the-daily-object/images/ruskin-stones-of-venice.jpg',
     fullImageUrl: '/the-daily-object/images/full/ruskin-stones-of-venice.jpg',
     thumbnailUrl: '/the-daily-object/thumbnails/ruskin-stones-of-venice.jpg',
-    title: '威尼斯之石',
+    title: 'å¨å°¼æ–¯ä¹‹çŸ³',
     title_en: 'The Stones of Venice',
-    subtitle: 'John Ruskin, 1851–1853',
+    subtitle: 'John Ruskin, 1851â€“1853',
     category: 'architecture',
     designer: 'John Ruskin',
     year: '1851',
     
-    dateConnection: '1819年2月8日，John Ruskin 出生于伦敦。他是维多利亚时代最有影响力的艺术与建筑评论家，他关于哥特式建筑的理论直接催生了工艺美术运动（Arts and Crafts Movement），为现代设计的诞生铺平了道路。',
+    dateConnection: '1819å¹´2æœˆ8æ—¥ï¼ŒJohn Ruskin å‡ºç”ŸäºŽä¼¦æ•¦ã€‚ä»–æ˜¯ç»´å¤šåˆ©äºšæ—¶ä»£æœ€æœ‰å½±å“åŠ›çš„è‰ºæœ¯ä¸Žå»ºç­‘è¯„è®ºå®¶ï¼Œä»–å…³äºŽå“¥ç‰¹å¼å»ºç­‘çš„ç†è®ºç›´æŽ¥å‚¬ç”Ÿäº†å·¥è‰ºç¾Žæœ¯è¿åŠ¨ï¼ˆArts and Crafts Movementï¼‰ï¼Œä¸ºçŽ°ä»£è®¾è®¡çš„è¯žç”Ÿé“ºå¹³äº†é“è·¯ã€‚',
     
-    designerBio: `John Ruskin（1819-1900），英国作家、艺术评论家、建筑理论家、社会思想家。
+    designerBio: `John Ruskinï¼ˆ1819-1900ï¼‰ï¼Œè‹±å›½ä½œå®¶ã€è‰ºæœ¯è¯„è®ºå®¶ã€å»ºç­‘ç†è®ºå®¶ã€ç¤¾ä¼šæ€æƒ³å®¶ã€‚
 
-他不是设计师，却深刻改变了人们思考设计的方式。出身富裕的伦敦家庭，从小跟随父母游历欧洲，对阿尔卑斯山和威尼斯产生了终身的迷恋。23岁出版第一部巨著《现代画家》，为透纳的绘画辩护，一举成名。
+ä»–ä¸æ˜¯è®¾è®¡å¸ˆï¼Œå´æ·±åˆ»æ”¹å˜äº†äººä»¬æ€è€ƒè®¾è®¡çš„æ–¹å¼ã€‚å‡ºèº«å¯Œè£•çš„ä¼¦æ•¦å®¶åº­ï¼Œä»Žå°è·Ÿéšçˆ¶æ¯æ¸¸åŽ†æ¬§æ´²ï¼Œå¯¹é˜¿å°”å‘æ–¯å±±å’Œå¨å°¼æ–¯äº§ç”Ÿäº†ç»ˆèº«çš„è¿·æ‹ã€‚23å²å‡ºç‰ˆç¬¬ä¸€éƒ¨å·¨è‘—ã€ŠçŽ°ä»£ç”»å®¶ã€‹ï¼Œä¸ºé€çº³çš„ç»˜ç”»è¾©æŠ¤ï¼Œä¸€ä¸¾æˆåã€‚
 
-但真正改变设计史的是他对建筑的思考。1849年的《建筑七灯》和1851-53年的《威尼斯之石》提出了一个革命性的观点：**建筑的品质不取决于设计图纸，而取决于工匠在制作过程中的自由和尊严。**
+ä½†çœŸæ­£æ”¹å˜è®¾è®¡å²çš„æ˜¯ä»–å¯¹å»ºç­‘çš„æ€è€ƒã€‚1849å¹´çš„ã€Šå»ºç­‘ä¸ƒç¯ã€‹å’Œ1851-53å¹´çš„ã€Šå¨å°¼æ–¯ä¹‹çŸ³ã€‹æå‡ºäº†ä¸€ä¸ªé©å‘½æ€§çš„è§‚ç‚¹ï¼š**å»ºç­‘çš„å“è´¨ä¸å–å†³äºŽè®¾è®¡å›¾çº¸ï¼Œè€Œå–å†³äºŽå·¥åŒ åœ¨åˆ¶ä½œè¿‡ç¨‹ä¸­çš„è‡ªç”±å’Œå°Šä¸¥ã€‚**
 
-**"伟大的艺术是人类双手的快乐表达。"**`,
+**"ä¼Ÿå¤§çš„è‰ºæœ¯æ˜¯äººç±»åŒæ‰‹çš„å¿«ä¹è¡¨è¾¾ã€‚"**`,
     
-    story: `1849年至1852年，Ruskin 多次前往威尼斯，一砖一石地记录这座正在衰败的城市。他素描、测量、拍摄，留下了数千张细致入微的建筑细节研究——柱头上的叶子纹样、窗棂的曲线、墙面石材的色彩变化。
+    story: `1849å¹´è‡³1852å¹´ï¼ŒRuskin å¤šæ¬¡å‰å¾€å¨å°¼æ–¯ï¼Œä¸€ç –ä¸€çŸ³åœ°è®°å½•è¿™åº§æ­£åœ¨è¡°è´¥çš„åŸŽå¸‚ã€‚ä»–ç´ æã€æµ‹é‡ã€æ‹æ‘„ï¼Œç•™ä¸‹äº†æ•°åƒå¼ ç»†è‡´å…¥å¾®çš„å»ºç­‘ç»†èŠ‚ç ”ç©¶â€”â€”æŸ±å¤´ä¸Šçš„å¶å­çº¹æ ·ã€çª—æ£‚çš„æ›²çº¿ã€å¢™é¢çŸ³æçš„è‰²å½©å˜åŒ–ã€‚
 
-《威尼斯之石》的核心论点震撼了整个维多利亚时代：
+ã€Šå¨å°¼æ–¯ä¹‹çŸ³ã€‹çš„æ ¸å¿ƒè®ºç‚¹éœ‡æ’¼äº†æ•´ä¸ªç»´å¤šåˆ©äºšæ—¶ä»£ï¼š
 
-**哥特式建筑之所以伟大，不是因为它的设计方案精妙，而是因为每一个石匠都有自由发挥的空间。** 他们雕刻的叶子、面孔、怪兽，每一个都不同——粗糙的、不完美的，但充满生命力。
+**å“¥ç‰¹å¼å»ºç­‘ä¹‹æ‰€ä»¥ä¼Ÿå¤§ï¼Œä¸æ˜¯å› ä¸ºå®ƒçš„è®¾è®¡æ–¹æ¡ˆç²¾å¦™ï¼Œè€Œæ˜¯å› ä¸ºæ¯ä¸€ä¸ªçŸ³åŒ éƒ½æœ‰è‡ªç”±å‘æŒ¥çš„ç©ºé—´ã€‚** ä»–ä»¬é›•åˆ»çš„å¶å­ã€é¢å­”ã€æ€ªå…½ï¼Œæ¯ä¸€ä¸ªéƒ½ä¸åŒâ€”â€”ç²—ç³™çš„ã€ä¸å®Œç¾Žçš„ï¼Œä½†å……æ»¡ç”Ÿå‘½åŠ›ã€‚
 
-相比之下，文艺复兴建筑的精确对称意味着什么？意味着工匠变成了机器——只能按照图纸精确执行，没有创造的自由。
+ç›¸æ¯”ä¹‹ä¸‹ï¼Œæ–‡è‰ºå¤å…´å»ºç­‘çš„ç²¾ç¡®å¯¹ç§°æ„å‘³ç€ä»€ä¹ˆï¼Ÿæ„å‘³ç€å·¥åŒ å˜æˆäº†æœºå™¨â€”â€”åªèƒ½æŒ‰ç…§å›¾çº¸ç²¾ç¡®æ‰§è¡Œï¼Œæ²¡æœ‰åˆ›é€ çš„è‡ªç”±ã€‚
 
-**"你不能同时追求完美的装饰和完美的工人。你必须在两者间选择。"**
+**"ä½ ä¸èƒ½åŒæ—¶è¿½æ±‚å®Œç¾Žçš„è£…é¥°å’Œå®Œç¾Žçš„å·¥äººã€‚ä½ å¿…é¡»åœ¨ä¸¤è€…é—´é€‰æ‹©ã€‚"**
 
-这段话直接命中了工业革命的要害：工厂生产的东西越来越完美，但工人的灵魂越来越死。
+è¿™æ®µè¯ç›´æŽ¥å‘½ä¸­äº†å·¥ä¸šé©å‘½çš„è¦å®³ï¼šå·¥åŽ‚ç”Ÿäº§çš„ä¸œè¥¿è¶Šæ¥è¶Šå®Œç¾Žï¼Œä½†å·¥äººçš„çµé­‚è¶Šæ¥è¶Šæ­»ã€‚
 
-Ruskin 的学生 William Morris 把这个理论付诸实践，创立了工艺美术运动——用手工制作对抗机器生产，强调劳动的尊严和美感。这场运动最终演变为新艺术运动、德意志制造联盟、包豪斯，成为现代设计的源头。`,
+Ruskin çš„å­¦ç”Ÿ William Morris æŠŠè¿™ä¸ªç†è®ºä»˜è¯¸å®žè·µï¼Œåˆ›ç«‹äº†å·¥è‰ºç¾Žæœ¯è¿åŠ¨â€”â€”ç”¨æ‰‹å·¥åˆ¶ä½œå¯¹æŠ—æœºå™¨ç”Ÿäº§ï¼Œå¼ºè°ƒåŠ³åŠ¨çš„å°Šä¸¥å’Œç¾Žæ„Ÿã€‚è¿™åœºè¿åŠ¨æœ€ç»ˆæ¼”å˜ä¸ºæ–°è‰ºæœ¯è¿åŠ¨ã€å¾·æ„å¿—åˆ¶é€ è”ç›Ÿã€åŒ…è±ªæ–¯ï¼Œæˆä¸ºçŽ°ä»£è®¾è®¡çš„æºå¤´ã€‚`,
 
-    legacy: `Ruskin 对设计的影响是间接的，但无比深远：
+    legacy: `Ruskin å¯¹è®¾è®¡çš„å½±å“æ˜¯é—´æŽ¥çš„ï¼Œä½†æ— æ¯”æ·±è¿œï¼š
 
-**工艺美术运动的思想之父**：William Morris 直接受 Ruskin 启发，创立了现代设计史上第一场有意识的设计运动
+**å·¥è‰ºç¾Žæœ¯è¿åŠ¨çš„æ€æƒ³ä¹‹çˆ¶**ï¼šWilliam Morris ç›´æŽ¥å— Ruskin å¯å‘ï¼Œåˆ›ç«‹äº†çŽ°ä»£è®¾è®¡å²ä¸Šç¬¬ä¸€åœºæœ‰æ„è¯†çš„è®¾è®¡è¿åŠ¨
 
-**手工艺的复兴**：他关于"工匠尊严"的论述在今天的手工复兴运动、慢设计（Slow Design）和可持续设计中依然回响
+**æ‰‹å·¥è‰ºçš„å¤å…´**ï¼šä»–å…³äºŽ"å·¥åŒ å°Šä¸¥"çš„è®ºè¿°åœ¨ä»Šå¤©çš„æ‰‹å·¥å¤å…´è¿åŠ¨ã€æ…¢è®¾è®¡ï¼ˆSlow Designï¼‰å’Œå¯æŒç»­è®¾è®¡ä¸­ä¾ç„¶å›žå“
 
-**建筑保护运动**：他是最早呼吁保护历史建筑的人之一，影响了现代文物保护理论
+**å»ºç­‘ä¿æŠ¤è¿åŠ¨**ï¼šä»–æ˜¯æœ€æ—©å‘¼åä¿æŠ¤åŽ†å²å»ºç­‘çš„äººä¹‹ä¸€ï¼Œå½±å“äº†çŽ°ä»£æ–‡ç‰©ä¿æŠ¤ç†è®º
 
-**设计伦理的先驱**：他是第一个把"设计"和"社会正义"联系起来的人——好的设计不仅关乎美，更关乎制作者的尊严
+**è®¾è®¡ä¼¦ç†çš„å…ˆé©±**ï¼šä»–æ˜¯ç¬¬ä¸€ä¸ªæŠŠ"è®¾è®¡"å’Œ"ç¤¾ä¼šæ­£ä¹‰"è”ç³»èµ·æ¥çš„äººâ€”â€”å¥½çš„è®¾è®¡ä¸ä»…å…³ä¹Žç¾Žï¼Œæ›´å…³ä¹Žåˆ¶ä½œè€…çš„å°Šä¸¥
 
-**视觉素养教育**：他在牛津大学创办了绘画学校，认为每个人都应该学会"看"——这是现代设计教育的前身`,
+**è§†è§‰ç´ å…»æ•™è‚²**ï¼šä»–åœ¨ç‰›æ´¥å¤§å­¦åˆ›åŠžäº†ç»˜ç”»å­¦æ ¡ï¼Œè®¤ä¸ºæ¯ä¸ªäººéƒ½åº”è¯¥å­¦ä¼š"çœ‹"â€”â€”è¿™æ˜¯çŽ°ä»£è®¾è®¡æ•™è‚²çš„å‰èº«`,
     
-    significance: `为什么一个从不画设计图的人，却是设计史上最重要的人物之一？
+    significance: `ä¸ºä»€ä¹ˆä¸€ä¸ªä»Žä¸ç”»è®¾è®¡å›¾çš„äººï¼Œå´æ˜¯è®¾è®¡å²ä¸Šæœ€é‡è¦çš„äººç‰©ä¹‹ä¸€ï¼Ÿ
 
-因为 Ruskin 问了一个至今仍在困扰我们的问题：**当我们追求效率和完美时，失去了什么？**
+å› ä¸º Ruskin é—®äº†ä¸€ä¸ªè‡³ä»Šä»åœ¨å›°æ‰°æˆ‘ä»¬çš„é—®é¢˜ï¼š**å½“æˆ‘ä»¬è¿½æ±‚æ•ˆçŽ‡å’Œå®Œç¾Žæ—¶ï¼Œå¤±åŽ»äº†ä»€ä¹ˆï¼Ÿ**
 
-工业革命让产品变得便宜、统一、完美。但 Ruskin 看到了代价：工匠变成了机器的附庸，产品失去了灵魂，城市变得丑陋。
+å·¥ä¸šé©å‘½è®©äº§å“å˜å¾—ä¾¿å®œã€ç»Ÿä¸€ã€å®Œç¾Žã€‚ä½† Ruskin çœ‹åˆ°äº†ä»£ä»·ï¼šå·¥åŒ å˜æˆäº†æœºå™¨çš„é™„åº¸ï¼Œäº§å“å¤±åŽ»äº†çµé­‚ï¼ŒåŸŽå¸‚å˜å¾—ä¸‘é™‹ã€‚
 
-170年后，这个问题依然尖锐。当 AI 可以在几秒钟内生成"完美"的设计方案时，人类设计师的价值在哪里？答案可能就在 Ruskin 那里：**不完美的人类创造力，比完美的机器输出更有价值——因为前者包含了自由、判断和灵魂。**`,
+170å¹´åŽï¼Œè¿™ä¸ªé—®é¢˜ä¾ç„¶å°–é”ã€‚å½“ AI å¯ä»¥åœ¨å‡ ç§’é’Ÿå†…ç”Ÿæˆ"å®Œç¾Ž"çš„è®¾è®¡æ–¹æ¡ˆæ—¶ï¼Œäººç±»è®¾è®¡å¸ˆçš„ä»·å€¼åœ¨å“ªé‡Œï¼Ÿç­”æ¡ˆå¯èƒ½å°±åœ¨ Ruskin é‚£é‡Œï¼š**ä¸å®Œç¾Žçš„äººç±»åˆ›é€ åŠ›ï¼Œæ¯”å®Œç¾Žçš„æœºå™¨è¾“å‡ºæ›´æœ‰ä»·å€¼â€”â€”å› ä¸ºå‰è€…åŒ…å«äº†è‡ªç”±ã€åˆ¤æ–­å’Œçµé­‚ã€‚**`,
 
     dateConnection_en: 'On February 8, 1819, John Ruskin was born in London. He was the most influential art and architecture critic of the Victorian era. His theories on Gothic architecture directly gave rise to the Arts and Crafts Movement, paving the way for the birth of modern design.',
     
@@ -914,19 +914,19 @@ But what truly changed design history was his thinking about architecture. "The 
 
 **"Great art is the expression of the joy of human hands."**`,
     
-    story_en: `Between 1849 and 1852, Ruskin made multiple trips to Venice, documenting the decaying city stone by stone. He sketched, measured, and photographed, leaving thousands of meticulous studies of architectural details — leaf patterns on capitals, curves of window tracery, color variations in wall stone.
+    story_en: `Between 1849 and 1852, Ruskin made multiple trips to Venice, documenting the decaying city stone by stone. He sketched, measured, and photographed, leaving thousands of meticulous studies of architectural details â€” leaf patterns on capitals, curves of window tracery, color variations in wall stone.
 
 The central argument of "The Stones of Venice" shook the entire Victorian era:
 
-**Gothic architecture was great not because its design schemes were ingenious, but because every stonemason had freedom to create.** The leaves, faces, and grotesques they carved were each unique — rough, imperfect, but full of life.
+**Gothic architecture was great not because its design schemes were ingenious, but because every stonemason had freedom to create.** The leaves, faces, and grotesques they carved were each unique â€” rough, imperfect, but full of life.
 
-By contrast, what did the precise symmetry of Renaissance architecture mean? It meant craftsmen became machines — executing blueprints exactly, with no creative freedom.
+By contrast, what did the precise symmetry of Renaissance architecture mean? It meant craftsmen became machines â€” executing blueprints exactly, with no creative freedom.
 
 **"You can have either perfect finish or perfect workmen. You cannot have both. You must choose."**
 
 This struck at the heart of the Industrial Revolution: factory products grew ever more perfect, but workers' souls grew ever more dead.
 
-Ruskin's student William Morris put this theory into practice, founding the Arts and Crafts Movement — handcraft against machine production, emphasizing the dignity and beauty of labor. This movement eventually evolved into Art Nouveau, the Deutscher Werkbund, and the Bauhaus, becoming the wellspring of modern design.`,
+Ruskin's student William Morris put this theory into practice, founding the Arts and Crafts Movement â€” handcraft against machine production, emphasizing the dignity and beauty of labor. This movement eventually evolved into Art Nouveau, the Deutscher Werkbund, and the Bauhaus, becoming the wellspring of modern design.`,
 
     legacy_en: `Ruskin's influence on design was indirect but immeasurably profound:
 
@@ -936,9 +936,9 @@ Ruskin's student William Morris put this theory into practice, founding the Arts
 
 **Architectural conservation**: He was among the first to call for preserving historic buildings, influencing modern heritage conservation theory
 
-**Design ethics pioneer**: He was the first to connect "design" with "social justice" — good design is not only about beauty but about the dignity of makers
+**Design ethics pioneer**: He was the first to connect "design" with "social justice" â€” good design is not only about beauty but about the dignity of makers
 
-**Visual literacy education**: He founded a drawing school at Oxford, believing everyone should learn to "see" — a precursor to modern design education`,
+**Visual literacy education**: He founded a drawing school at Oxford, believing everyone should learn to "see" â€” a precursor to modern design education`,
     
     significance_en: `Why is someone who never drew a design blueprint one of the most important figures in design history?
 
@@ -946,7 +946,7 @@ Because Ruskin asked a question that still haunts us: **when we pursue efficienc
 
 The Industrial Revolution made products cheap, uniform, and perfect. But Ruskin saw the cost: craftsmen became appendages of machines, products lost their souls, cities became ugly.
 
-170 years later, the question remains sharp. When AI can generate "perfect" design solutions in seconds, where is the value of human designers? The answer may lie with Ruskin: **imperfect human creativity is more valuable than perfect machine output — because the former contains freedom, judgment, and soul.**`
+170 years later, the question remains sharp. When AI can generate "perfect" design solutions in seconds, where is the value of human designers? The answer may lie with Ruskin: **imperfect human creativity is more valuable than perfect machine output â€” because the former contains freedom, judgment, and soul.**`
   },
   {
     id: '13',
@@ -960,83 +960,83 @@ The Industrial Revolution made products cheap, uniform, and perfect. But Ruskin 
     designer: 'Wilhelm Maybach',
     year: '1901',
     
-    dateConnection: '1846年2月9日，Wilhelm Maybach 出生于德国海尔布隆。他被称为"汽车设计之王"（König der Konstrukteure），设计了1901年的 Mercedes 35 HP——世界上第一辆真正意义上的现代汽车，终结了"无马马车"时代，开启了汽车设计的新纪元。',
+    dateConnection: '1846å¹´2æœˆ9æ—¥ï¼ŒWilhelm Maybach å‡ºç”ŸäºŽå¾·å›½æµ·å°”å¸ƒéš†ã€‚ä»–è¢«ç§°ä¸º"æ±½è½¦è®¾è®¡ä¹‹çŽ‹"ï¼ˆKÃ¶nig der Konstrukteureï¼‰ï¼Œè®¾è®¡äº†1901å¹´çš„ Mercedes 35 HPâ€”â€”ä¸–ç•Œä¸Šç¬¬ä¸€è¾†çœŸæ­£æ„ä¹‰ä¸Šçš„çŽ°ä»£æ±½è½¦ï¼Œç»ˆç»“äº†"æ— é©¬é©¬è½¦"æ—¶ä»£ï¼Œå¼€å¯äº†æ±½è½¦è®¾è®¡çš„æ–°çºªå…ƒã€‚',
     
-    designerBio: `Wilhelm Maybach (1846-1929)，德国工程师和工业设计师，现代汽车设计的奠基人。
+    designerBio: `Wilhelm Maybach (1846-1929)ï¼Œå¾·å›½å·¥ç¨‹å¸ˆå’Œå·¥ä¸šè®¾è®¡å¸ˆï¼ŒçŽ°ä»£æ±½è½¦è®¾è®¡çš„å¥ åŸºäººã€‚
 
-他10岁成为孤儿，在斯图加特的一家慈善机构长大，展现出惊人的机械天赋。1865年，他遇到了 Gottlieb Daimler——两人此后合作了30多年，彻底改变了人类出行的方式。
+ä»–10å²æˆä¸ºå­¤å„¿ï¼Œåœ¨æ–¯å›¾åŠ ç‰¹çš„ä¸€å®¶æ…ˆå–„æœºæž„é•¿å¤§ï¼Œå±•çŽ°å‡ºæƒŠäººçš„æœºæ¢°å¤©èµ‹ã€‚1865å¹´ï¼Œä»–é‡åˆ°äº† Gottlieb Daimlerâ€”â€”ä¸¤äººæ­¤åŽåˆä½œäº†30å¤šå¹´ï¼Œå½»åº•æ”¹å˜äº†äººç±»å‡ºè¡Œçš„æ–¹å¼ã€‚
 
-**"我不模仿，我创造。"**
+**"æˆ‘ä¸æ¨¡ä»¿ï¼Œæˆ‘åˆ›é€ ã€‚"**
 
-Maybach 不只是工程师，他是一位真正的设计思想家。他理解：好的机器不仅要跑得快，还要美、要优雅、要让使用者感到愉悦。这种理念在1901年的 Mercedes 35 HP 中达到了巅峰。`,
+Maybach ä¸åªæ˜¯å·¥ç¨‹å¸ˆï¼Œä»–æ˜¯ä¸€ä½çœŸæ­£çš„è®¾è®¡æ€æƒ³å®¶ã€‚ä»–ç†è§£ï¼šå¥½çš„æœºå™¨ä¸ä»…è¦è·‘å¾—å¿«ï¼Œè¿˜è¦ç¾Žã€è¦ä¼˜é›…ã€è¦è®©ä½¿ç”¨è€…æ„Ÿåˆ°æ„‰æ‚¦ã€‚è¿™ç§ç†å¿µåœ¨1901å¹´çš„ Mercedes 35 HP ä¸­è¾¾åˆ°äº†å·…å³°ã€‚`,
     
-    story: `19世纪末的"汽车"其实就是在马车车架上装个发动机——笨重、危险、丑陋。它们被叫做"无马马车"（Horseless Carriage），因为它们看起来确实就是没有马的马车。
+    story: `19ä¸–çºªæœ«çš„"æ±½è½¦"å…¶å®žå°±æ˜¯åœ¨é©¬è½¦è½¦æž¶ä¸Šè£…ä¸ªå‘åŠ¨æœºâ€”â€”ç¬¨é‡ã€å±é™©ã€ä¸‘é™‹ã€‚å®ƒä»¬è¢«å«åš"æ— é©¬é©¬è½¦"ï¼ˆHorseless Carriageï¼‰ï¼Œå› ä¸ºå®ƒä»¬çœ‹èµ·æ¥ç¡®å®žå°±æ˜¯æ²¡æœ‰é©¬çš„é©¬è½¦ã€‚
 
-1900年，奥地利商人兼赛车爱好者 Emil Jellinek 找到 Maybach，提出了一个大胆的要求：设计一款全新的、专门为速度和优雅而生的汽车，并以他女儿的名字命名——**Mercedes**。
+1900å¹´ï¼Œå¥¥åœ°åˆ©å•†äººå…¼èµ›è½¦çˆ±å¥½è€… Emil Jellinek æ‰¾åˆ° Maybachï¼Œæå‡ºäº†ä¸€ä¸ªå¤§èƒ†çš„è¦æ±‚ï¼šè®¾è®¡ä¸€æ¬¾å…¨æ–°çš„ã€ä¸“é—¨ä¸ºé€Ÿåº¦å’Œä¼˜é›…è€Œç”Ÿçš„æ±½è½¦ï¼Œå¹¶ä»¥ä»–å¥³å„¿çš„åå­—å‘½åâ€”â€”**Mercedes**ã€‚
 
-Maybach 没有在旧设计上修修补补。他从零开始，重新思考了汽车应该是什么。
+Maybach æ²¡æœ‰åœ¨æ—§è®¾è®¡ä¸Šä¿®ä¿®è¡¥è¡¥ã€‚ä»–ä»Žé›¶å¼€å§‹ï¼Œé‡æ–°æ€è€ƒäº†æ±½è½¦åº”è¯¥æ˜¯ä»€ä¹ˆã€‚
 
-**Mercedes 35 HP 的革命性设计：**
-- **低重心蜂窝散热器**：不再把发动机高高架在车身上，而是压低放在前部，用全新的蜂窝散热器冷却——这奠定了现代汽车"前置发动机"的基本布局
-- **轻量化钢框架底盘**：抛弃了马车的木质结构，采用钢制底盘，让车身更轻、更坚固
-- **四速变速器**：让驾驶者可以根据路况选择不同的速度
-- **机械进气阀**：大幅提升了发动机效率
+**Mercedes 35 HP çš„é©å‘½æ€§è®¾è®¡ï¼š**
+- **ä½Žé‡å¿ƒèœ‚çªæ•£çƒ­å™¨**ï¼šä¸å†æŠŠå‘åŠ¨æœºé«˜é«˜æž¶åœ¨è½¦èº«ä¸Šï¼Œè€Œæ˜¯åŽ‹ä½Žæ”¾åœ¨å‰éƒ¨ï¼Œç”¨å…¨æ–°çš„èœ‚çªæ•£çƒ­å™¨å†·å´â€”â€”è¿™å¥ å®šäº†çŽ°ä»£æ±½è½¦"å‰ç½®å‘åŠ¨æœº"çš„åŸºæœ¬å¸ƒå±€
+- **è½»é‡åŒ–é’¢æ¡†æž¶åº•ç›˜**ï¼šæŠ›å¼ƒäº†é©¬è½¦çš„æœ¨è´¨ç»“æž„ï¼Œé‡‡ç”¨é’¢åˆ¶åº•ç›˜ï¼Œè®©è½¦èº«æ›´è½»ã€æ›´åšå›º
+- **å››é€Ÿå˜é€Ÿå™¨**ï¼šè®©é©¾é©¶è€…å¯ä»¥æ ¹æ®è·¯å†µé€‰æ‹©ä¸åŒçš„é€Ÿåº¦
+- **æœºæ¢°è¿›æ°”é˜€**ï¼šå¤§å¹…æå‡äº†å‘åŠ¨æœºæ•ˆçŽ‡
 
-1901年3月，Mercedes 35 HP 在尼斯赛车周上横扫所有比赛项目。整个欧洲都震惊了。法国汽车杂志 Paul Meyan 写道："**我们进入了梅赛德斯时代。**"（Nous sommes entrés dans l'ère Mercédès.）
+1901å¹´3æœˆï¼ŒMercedes 35 HP åœ¨å°¼æ–¯èµ›è½¦å‘¨ä¸Šæ¨ªæ‰«æ‰€æœ‰æ¯”èµ›é¡¹ç›®ã€‚æ•´ä¸ªæ¬§æ´²éƒ½éœ‡æƒŠäº†ã€‚æ³•å›½æ±½è½¦æ‚å¿— Paul Meyan å†™é“ï¼š"**æˆ‘ä»¬è¿›å…¥äº†æ¢…èµ›å¾·æ–¯æ—¶ä»£ã€‚**"ï¼ˆNous sommes entrÃ©s dans l'Ã¨re MercÃ©dÃ¨s.ï¼‰
 
-这不是渐进式的改良。这是一个物种的诞生。`,
+è¿™ä¸æ˜¯æ¸è¿›å¼çš„æ”¹è‰¯ã€‚è¿™æ˜¯ä¸€ä¸ªç‰©ç§çš„è¯žç”Ÿã€‚`,
     
-    legacy: `• 现代汽车设计原型：Mercedes 35 HP 确立了前置发动机、后轮驱动、低重心的基本布局，这一布局沿用至今
-• 品牌的诞生：Mercedes 成为世界上最著名的汽车品牌之一，至今仍是豪华与工程卓越的代名词
-• 蜂窝散热器：Maybach 发明的蜂窝散热器成为汽车冷却系统的标准，直到今天的散热器仍基于这一原理
-• 汽车运动的起点：Mercedes 35 HP 在赛车场的统治性表现开创了汽车运动作为技术验证平台的传统
-• Maybach 品牌：他的名字后来成为超豪华汽车品牌，今天作为梅赛德斯-迈巴赫延续`,
+    legacy: `â€¢ çŽ°ä»£æ±½è½¦è®¾è®¡åŽŸåž‹ï¼šMercedes 35 HP ç¡®ç«‹äº†å‰ç½®å‘åŠ¨æœºã€åŽè½®é©±åŠ¨ã€ä½Žé‡å¿ƒçš„åŸºæœ¬å¸ƒå±€ï¼Œè¿™ä¸€å¸ƒå±€æ²¿ç”¨è‡³ä»Š
+â€¢ å“ç‰Œçš„è¯žç”Ÿï¼šMercedes æˆä¸ºä¸–ç•Œä¸Šæœ€è‘—åçš„æ±½è½¦å“ç‰Œä¹‹ä¸€ï¼Œè‡³ä»Šä»æ˜¯è±ªåŽä¸Žå·¥ç¨‹å“è¶Šçš„ä»£åè¯
+â€¢ èœ‚çªæ•£çƒ­å™¨ï¼šMaybach å‘æ˜Žçš„èœ‚çªæ•£çƒ­å™¨æˆä¸ºæ±½è½¦å†·å´ç³»ç»Ÿçš„æ ‡å‡†ï¼Œç›´åˆ°ä»Šå¤©çš„æ•£çƒ­å™¨ä»åŸºäºŽè¿™ä¸€åŽŸç†
+â€¢ æ±½è½¦è¿åŠ¨çš„èµ·ç‚¹ï¼šMercedes 35 HP åœ¨èµ›è½¦åœºçš„ç»Ÿæ²»æ€§è¡¨çŽ°å¼€åˆ›äº†æ±½è½¦è¿åŠ¨ä½œä¸ºæŠ€æœ¯éªŒè¯å¹³å°çš„ä¼ ç»Ÿ
+â€¢ Maybach å“ç‰Œï¼šä»–çš„åå­—åŽæ¥æˆä¸ºè¶…è±ªåŽæ±½è½¦å“ç‰Œï¼Œä»Šå¤©ä½œä¸ºæ¢…èµ›å¾·æ–¯-è¿ˆå·´èµ«å»¶ç»­`,
     
-    significance: `Mercedes 35 HP 的意义远超一辆车。
+    significance: `Mercedes 35 HP çš„æ„ä¹‰è¿œè¶…ä¸€è¾†è½¦ã€‚
 
-在它之前，"汽车"是一个笑话——贵族的玩具、工程师的实验、路人的噩梦。在它之后，汽车成为了20世纪最重要的设计对象，重塑了城市、社会和人类生活方式。
+åœ¨å®ƒä¹‹å‰ï¼Œ"æ±½è½¦"æ˜¯ä¸€ä¸ªç¬‘è¯â€”â€”è´µæ—çš„çŽ©å…·ã€å·¥ç¨‹å¸ˆçš„å®žéªŒã€è·¯äººçš„å™©æ¢¦ã€‚åœ¨å®ƒä¹‹åŽï¼Œæ±½è½¦æˆä¸ºäº†20ä¸–çºªæœ€é‡è¦çš„è®¾è®¡å¯¹è±¡ï¼Œé‡å¡‘äº†åŸŽå¸‚ã€ç¤¾ä¼šå’Œäººç±»ç”Ÿæ´»æ–¹å¼ã€‚
 
-Maybach 证明了一个深刻的设计原则：**真正的创新不是改良旧事物，而是重新定义事物本身。** 他没有设计一辆"更好的无马马车"——他设计了一个全新的物种。
+Maybach è¯æ˜Žäº†ä¸€ä¸ªæ·±åˆ»çš„è®¾è®¡åŽŸåˆ™ï¼š**çœŸæ­£çš„åˆ›æ–°ä¸æ˜¯æ”¹è‰¯æ—§äº‹ç‰©ï¼Œè€Œæ˜¯é‡æ–°å®šä¹‰äº‹ç‰©æœ¬èº«ã€‚** ä»–æ²¡æœ‰è®¾è®¡ä¸€è¾†"æ›´å¥½çš„æ— é©¬é©¬è½¦"â€”â€”ä»–è®¾è®¡äº†ä¸€ä¸ªå…¨æ–°çš„ç‰©ç§ã€‚
 
-125年后的今天，当我们争论电动车、自动驾驶和飞行汽车时，我们仍然站在 Maybach 画下的那条起跑线上。`,
+125å¹´åŽçš„ä»Šå¤©ï¼Œå½“æˆ‘ä»¬äº‰è®ºç”µåŠ¨è½¦ã€è‡ªåŠ¨é©¾é©¶å’Œé£žè¡Œæ±½è½¦æ—¶ï¼Œæˆ‘ä»¬ä»ç„¶ç«™åœ¨ Maybach ç”»ä¸‹çš„é‚£æ¡èµ·è·‘çº¿ä¸Šã€‚`,
 
-    dateConnection_en: 'On February 9, 1846, Wilhelm Maybach was born in Heilbronn, Germany. Known as the "King of Designers" (König der Konstrukteure), he designed the 1901 Mercedes 35 HP — the world\'s first truly modern automobile, ending the "horseless carriage" era and ushering in a new age of automotive design.',
+    dateConnection_en: 'On February 9, 1846, Wilhelm Maybach was born in Heilbronn, Germany. Known as the "King of Designers" (KÃ¶nig der Konstrukteure), he designed the 1901 Mercedes 35 HP â€” the world\'s first truly modern automobile, ending the "horseless carriage" era and ushering in a new age of automotive design.',
     
     designerBio_en: `Wilhelm Maybach (1846-1929), German engineer and industrial designer, the founding father of modern automotive design.
 
-Orphaned at 10, he grew up in a charitable institution in Stuttgart, displaying remarkable mechanical talent. In 1865, he met Gottlieb Daimler — the two would collaborate for over 30 years, fundamentally changing how humans travel.
+Orphaned at 10, he grew up in a charitable institution in Stuttgart, displaying remarkable mechanical talent. In 1865, he met Gottlieb Daimler â€” the two would collaborate for over 30 years, fundamentally changing how humans travel.
 
 **"I don't imitate, I create."**
 
 Maybach wasn't just an engineer; he was a true design thinker. He understood that a good machine must not only run fast but also be beautiful, elegant, and pleasing to use. This philosophy reached its zenith in the 1901 Mercedes 35 HP.`,
     
-    story_en: `The "automobiles" of the late 19th century were essentially engines bolted onto horse carriage frames — clumsy, dangerous, and ugly. They were called "horseless carriages" because that's exactly what they looked like.
+    story_en: `The "automobiles" of the late 19th century were essentially engines bolted onto horse carriage frames â€” clumsy, dangerous, and ugly. They were called "horseless carriages" because that's exactly what they looked like.
 
-In 1900, Austrian businessman and racing enthusiast Emil Jellinek approached Maybach with a bold request: design an entirely new car built for speed and elegance, named after his daughter — **Mercedes**.
+In 1900, Austrian businessman and racing enthusiast Emil Jellinek approached Maybach with a bold request: design an entirely new car built for speed and elegance, named after his daughter â€” **Mercedes**.
 
 Maybach didn't tinker with old designs. He started from scratch, rethinking what an automobile should be.
 
 **The Mercedes 35 HP's revolutionary design:**
-- **Low-center-of-gravity honeycomb radiator**: Instead of mounting the engine high on the body, it was placed low at the front with an innovative honeycomb radiator — establishing the modern "front-engine" layout
+- **Low-center-of-gravity honeycomb radiator**: Instead of mounting the engine high on the body, it was placed low at the front with an innovative honeycomb radiator â€” establishing the modern "front-engine" layout
 - **Lightweight pressed-steel frame chassis**: Abandoning the wooden carriage structure for a steel chassis, making the car lighter and stronger
 - **Four-speed transmission**: Allowing drivers to select speeds for different road conditions
 - **Mechanically operated inlet valves**: Dramatically improving engine efficiency
 
-In March 1901, the Mercedes 35 HP swept every race at Nice Speed Week. All of Europe was stunned. French automotive journalist Paul Meyan wrote: **"We have entered the Mercedes era."** (Nous sommes entrés dans l'ère Mercédès.)
+In March 1901, the Mercedes 35 HP swept every race at Nice Speed Week. All of Europe was stunned. French automotive journalist Paul Meyan wrote: **"We have entered the Mercedes era."** (Nous sommes entrÃ©s dans l'Ã¨re MercÃ©dÃ¨s.)
 
 This wasn't incremental improvement. It was the birth of a species.`,
     
-    legacy_en: `• Modern automobile archetype: The Mercedes 35 HP established the front-engine, rear-wheel-drive, low-center-of-gravity layout still used today
-• Birth of a brand: Mercedes became one of the world's most famous automotive brands, still synonymous with luxury and engineering excellence
-• Honeycomb radiator: Maybach's invention became the standard for automotive cooling systems, with today's radiators still based on this principle
-• Motorsport origins: The 35 HP's dominant racing performance established the tradition of motorsport as a technology proving ground
-• Maybach brand: His name later became an ultra-luxury automotive brand, continuing today as Mercedes-Maybach`,
+    legacy_en: `â€¢ Modern automobile archetype: The Mercedes 35 HP established the front-engine, rear-wheel-drive, low-center-of-gravity layout still used today
+â€¢ Birth of a brand: Mercedes became one of the world's most famous automotive brands, still synonymous with luxury and engineering excellence
+â€¢ Honeycomb radiator: Maybach's invention became the standard for automotive cooling systems, with today's radiators still based on this principle
+â€¢ Motorsport origins: The 35 HP's dominant racing performance established the tradition of motorsport as a technology proving ground
+â€¢ Maybach brand: His name later became an ultra-luxury automotive brand, continuing today as Mercedes-Maybach`,
     
     significance_en: `The Mercedes 35 HP's significance goes far beyond a single car.
 
-Before it, the "automobile" was a joke — an aristocrat's toy, an engineer's experiment, a pedestrian's nightmare. After it, the car became the most important design object of the 20th century, reshaping cities, societies, and human lifestyles.
+Before it, the "automobile" was a joke â€” an aristocrat's toy, an engineer's experiment, a pedestrian's nightmare. After it, the car became the most important design object of the 20th century, reshaping cities, societies, and human lifestyles.
 
-Maybach demonstrated a profound design principle: **true innovation isn't improving old things — it's redefining the thing itself.** He didn't design a "better horseless carriage" — he designed an entirely new species.
+Maybach demonstrated a profound design principle: **true innovation isn't improving old things â€” it's redefining the thing itself.** He didn't design a "better horseless carriage" â€” he designed an entirely new species.
 
 125 years later, as we debate electric vehicles, autonomous driving, and flying cars, we still stand at the starting line Maybach drew.`
   },
@@ -1052,41 +1052,41 @@ Maybach demonstrated a profound design principle: **true innovation isn't improv
     designer: 'Louis Kahn',
     year: '1965',
     
-    dateConnection: '1901年2月20日，Louis Kahn 出生于爱沙尼亚（当时属于俄罗斯帝国）。他是20世纪最伟大的建筑师之一，用光与混凝土创造了现代建筑的精神殿堂。',
+    dateConnection: '1901å¹´2æœˆ20æ—¥ï¼ŒLouis Kahn å‡ºç”ŸäºŽçˆ±æ²™å°¼äºšï¼ˆå½“æ—¶å±žäºŽä¿„ç½—æ–¯å¸å›½ï¼‰ã€‚ä»–æ˜¯20ä¸–çºªæœ€ä¼Ÿå¤§çš„å»ºç­‘å¸ˆä¹‹ä¸€ï¼Œç”¨å…‰ä¸Žæ··å‡åœŸåˆ›é€ äº†çŽ°ä»£å»ºç­‘çš„ç²¾ç¥žæ®¿å ‚ã€‚',
     
-    designerBio: `Louis Kahn (1901-1974)，美国建筑师，20世纪最具影响力的建筑大师之一。
+    designerBio: `Louis Kahn (1901-1974)ï¼Œç¾Žå›½å»ºç­‘å¸ˆï¼Œ20ä¸–çºªæœ€å…·å½±å“åŠ›çš„å»ºç­‘å¤§å¸ˆä¹‹ä¸€ã€‚
 
-他出生于爱沙尼亚的一个贫穷犹太家庭，4岁时移民美国费城。童年时脸部被炉火严重烧伤，留下终身疤痕。他在宾夕法尼亚大学学习建筑，师从 Paul Cret。
+ä»–å‡ºç”ŸäºŽçˆ±æ²™å°¼äºšçš„ä¸€ä¸ªè´«ç©·çŠ¹å¤ªå®¶åº­ï¼Œ4å²æ—¶ç§»æ°‘ç¾Žå›½è´¹åŸŽã€‚ç«¥å¹´æ—¶è„¸éƒ¨è¢«ç‚‰ç«ä¸¥é‡çƒ§ä¼¤ï¼Œç•™ä¸‹ç»ˆèº«ç–¤ç—•ã€‚ä»–åœ¨å®¾å¤•æ³•å°¼äºšå¤§å­¦å­¦ä¹ å»ºç­‘ï¼Œå¸ˆä»Ž Paul Cretã€‚
 
-与其他现代主义建筑师不同，Kahn 50岁之后才开始他最重要的作品。他相信建筑应该追问自身的本质——"砖想成为什么？"
+ä¸Žå…¶ä»–çŽ°ä»£ä¸»ä¹‰å»ºç­‘å¸ˆä¸åŒï¼ŒKahn 50å²ä¹‹åŽæ‰å¼€å§‹ä»–æœ€é‡è¦çš„ä½œå“ã€‚ä»–ç›¸ä¿¡å»ºç­‘åº”è¯¥è¿½é—®è‡ªèº«çš„æœ¬è´¨â€”â€”"ç –æƒ³æˆä¸ºä»€ä¹ˆï¼Ÿ"
 
 **"Even a brick wants to be something."**
-即使是一块砖也想成为某种东西。
+å³ä½¿æ˜¯ä¸€å—ç –ä¹Ÿæƒ³æˆä¸ºæŸç§ä¸œè¥¿ã€‚
 
-他三次获得 AIA 金奖提名，获得 RIBA 皇家金奖。1974年，他在纽约宾夕法尼亚车站的洗手间里心脏病发作去世，身无分文，负债累累。`,
+ä»–ä¸‰æ¬¡èŽ·å¾— AIA é‡‘å¥–æåï¼ŒèŽ·å¾— RIBA çš‡å®¶é‡‘å¥–ã€‚1974å¹´ï¼Œä»–åœ¨çº½çº¦å®¾å¤•æ³•å°¼äºšè½¦ç«™çš„æ´—æ‰‹é—´é‡Œå¿ƒè„ç—…å‘ä½œåŽ»ä¸–ï¼Œèº«æ— åˆ†æ–‡ï¼Œè´Ÿå€ºç´¯ç´¯ã€‚`,
     
-    story: `1959年，疫苗发明者 Jonas Salk 博士找到 Louis Kahn，委托他设计一座研究所。Salk 的要求很简单：
+    story: `1959å¹´ï¼Œç–«è‹—å‘æ˜Žè€… Jonas Salk åšå£«æ‰¾åˆ° Louis Kahnï¼Œå§”æ‰˜ä»–è®¾è®¡ä¸€åº§ç ”ç©¶æ‰€ã€‚Salk çš„è¦æ±‚å¾ˆç®€å•ï¼š
 
-**"创造一个连毕加索都愿意来工作的地方。"**
+**"åˆ›é€ ä¸€ä¸ªè¿žæ¯•åŠ ç´¢éƒ½æ„¿æ„æ¥å·¥ä½œçš„åœ°æ–¹ã€‚"**
 
-Kahn 给出的答案是两排相对的混凝土建筑，中间是一条狭窄的水渠，直指太平洋。
+Kahn ç»™å‡ºçš„ç­”æ¡ˆæ˜¯ä¸¤æŽ’ç›¸å¯¹çš„æ··å‡åœŸå»ºç­‘ï¼Œä¸­é—´æ˜¯ä¸€æ¡ç‹­çª„çš„æ°´æ¸ ï¼Œç›´æŒ‡å¤ªå¹³æ´‹ã€‚
 
-建筑由清水混凝土和柚木构成。实验室是无柱的开放空间，设备管道全部藏在"服务层"里，可以灵活改变布局。建筑外立面的柚木窗框在阳光下发出温暖的光泽，与冷峻的混凝土形成对比。
+å»ºç­‘ç”±æ¸…æ°´æ··å‡åœŸå’ŒæŸšæœ¨æž„æˆã€‚å®žéªŒå®¤æ˜¯æ— æŸ±çš„å¼€æ”¾ç©ºé—´ï¼Œè®¾å¤‡ç®¡é“å…¨éƒ¨è—åœ¨"æœåŠ¡å±‚"é‡Œï¼Œå¯ä»¥çµæ´»æ”¹å˜å¸ƒå±€ã€‚å»ºç­‘å¤–ç«‹é¢çš„æŸšæœ¨çª—æ¡†åœ¨é˜³å…‰ä¸‹å‘å‡ºæ¸©æš–çš„å…‰æ³½ï¼Œä¸Žå†·å³»çš„æ··å‡åœŸå½¢æˆå¯¹æ¯”ã€‚
 
-**每年两次，春分和秋分，落日正好沿着中央水渠的轴线落入太平洋。**
+**æ¯å¹´ä¸¤æ¬¡ï¼Œæ˜¥åˆ†å’Œç§‹åˆ†ï¼Œè½æ—¥æ­£å¥½æ²¿ç€ä¸­å¤®æ°´æ¸ çš„è½´çº¿è½å…¥å¤ªå¹³æ´‹ã€‚**
 
-这不是偶然。这是 Kahn 与 Luis Barragán 讨论后的设计决定——让建筑与宇宙秩序对齐。`,
+è¿™ä¸æ˜¯å¶ç„¶ã€‚è¿™æ˜¯ Kahn ä¸Ž Luis BarragÃ¡n è®¨è®ºåŽçš„è®¾è®¡å†³å®šâ€”â€”è®©å»ºç­‘ä¸Žå®‡å®™ç§©åºå¯¹é½ã€‚`,
     
-    legacy: `• 现代建筑圣地：被建筑师们誉为"建筑朝圣地"，每年数千人前来参观
-• 服务空间革命：将设备管道集中在独立楼层的做法，影响了此后所有的实验室和医院设计
-• 混凝土美学：证明清水混凝土可以是温暖的、精神性的、诗意的
-• 光的建筑：Kahn 对自然光的运用达到了几乎宗教性的高度`,
+    legacy: `â€¢ çŽ°ä»£å»ºç­‘åœ£åœ°ï¼šè¢«å»ºç­‘å¸ˆä»¬èª‰ä¸º"å»ºç­‘æœåœ£åœ°"ï¼Œæ¯å¹´æ•°åƒäººå‰æ¥å‚è§‚
+â€¢ æœåŠ¡ç©ºé—´é©å‘½ï¼šå°†è®¾å¤‡ç®¡é“é›†ä¸­åœ¨ç‹¬ç«‹æ¥¼å±‚çš„åšæ³•ï¼Œå½±å“äº†æ­¤åŽæ‰€æœ‰çš„å®žéªŒå®¤å’ŒåŒ»é™¢è®¾è®¡
+â€¢ æ··å‡åœŸç¾Žå­¦ï¼šè¯æ˜Žæ¸…æ°´æ··å‡åœŸå¯ä»¥æ˜¯æ¸©æš–çš„ã€ç²¾ç¥žæ€§çš„ã€è¯—æ„çš„
+â€¢ å…‰çš„å»ºç­‘ï¼šKahn å¯¹è‡ªç„¶å…‰çš„è¿ç”¨è¾¾åˆ°äº†å‡ ä¹Žå®—æ•™æ€§çš„é«˜åº¦`,
     
-    significance: `Kahn 证明了现代建筑可以有灵魂。
+    significance: `Kahn è¯æ˜Žäº†çŽ°ä»£å»ºç­‘å¯ä»¥æœ‰çµé­‚ã€‚
 
-在他之前，现代主义建筑常常被批评为冷漠、功能主义、缺乏精神性。Kahn 用 Salk Institute 回答了这些批评：理性的结构可以创造神圣的空间；工业材料可以传达永恒的美；功能建筑可以让人落泪。
+åœ¨ä»–ä¹‹å‰ï¼ŒçŽ°ä»£ä¸»ä¹‰å»ºç­‘å¸¸å¸¸è¢«æ‰¹è¯„ä¸ºå†·æ¼ ã€åŠŸèƒ½ä¸»ä¹‰ã€ç¼ºä¹ç²¾ç¥žæ€§ã€‚Kahn ç”¨ Salk Institute å›žç­”äº†è¿™äº›æ‰¹è¯„ï¼šç†æ€§çš„ç»“æž„å¯ä»¥åˆ›é€ ç¥žåœ£çš„ç©ºé—´ï¼›å·¥ä¸šææ–™å¯ä»¥ä¼ è¾¾æ°¸æ’çš„ç¾Žï¼›åŠŸèƒ½å»ºç­‘å¯ä»¥è®©äººè½æ³ªã€‚
 
-站在中央广场上，面对无尽的太平洋和那条细细的水渠，你会明白为什么有人说：这是20世纪最伟大的建筑空间之一。`,
+ç«™åœ¨ä¸­å¤®å¹¿åœºä¸Šï¼Œé¢å¯¹æ— å°½çš„å¤ªå¹³æ´‹å’Œé‚£æ¡ç»†ç»†çš„æ°´æ¸ ï¼Œä½ ä¼šæ˜Žç™½ä¸ºä»€ä¹ˆæœ‰äººè¯´ï¼šè¿™æ˜¯20ä¸–çºªæœ€ä¼Ÿå¤§çš„å»ºç­‘ç©ºé—´ä¹‹ä¸€ã€‚`,
 
     dateConnection_en: 'On February 20, 1901, Louis Kahn was born in Estonia (then part of the Russian Empire). He is one of the greatest architects of the 20th century, creating spiritual temples of modern architecture with light and concrete.',
     
@@ -1094,7 +1094,7 @@ Kahn 给出的答案是两排相对的混凝土建筑，中间是一条狭窄的
 
 He was born into a poor Jewish family in Estonia and immigrated to Philadelphia at age 4. As a child, his face was severely burned by a stove fire, leaving permanent scars. He studied architecture at the University of Pennsylvania under Paul Cret.
 
-Unlike other modernist architects, Kahn only began his most important works after age 50. He believed architecture should question its own essence—"What does a brick want to be?"
+Unlike other modernist architects, Kahn only began his most important works after age 50. He believed architecture should question its own essenceâ€”"What does a brick want to be?"
 
 **"Even a brick wants to be something."**
 
@@ -1106,16 +1106,16 @@ He was nominated three times for the AIA Gold Medal and received the RIBA Royal 
 
 Kahn's answer was two rows of facing concrete buildings with a narrow water channel between them, pointing straight at the Pacific Ocean.
 
-The buildings are made of exposed concrete and teak. The laboratories are column-free open spaces, with all equipment and utilities hidden in "servant floors," allowing flexible layout changes. The teak window frames on the façade glow warmly in the sunlight, contrasting with the austere concrete.
+The buildings are made of exposed concrete and teak. The laboratories are column-free open spaces, with all equipment and utilities hidden in "servant floors," allowing flexible layout changes. The teak window frames on the faÃ§ade glow warmly in the sunlight, contrasting with the austere concrete.
 
 **Twice a year, on the spring and autumn equinoxes, the setting sun falls exactly along the axis of the central water channel into the Pacific.**
 
-This was not accidental. It was a design decision made after discussions between Kahn and Luis Barragán—aligning the building with cosmic order.`,
+This was not accidental. It was a design decision made after discussions between Kahn and Luis BarragÃ¡nâ€”aligning the building with cosmic order.`,
     
-    legacy_en: `• Modern architecture pilgrimage site: Architects call it a "place of pilgrimage," with thousands visiting annually
-• Service space revolution: The approach of concentrating utilities on separate floors influenced all subsequent laboratory and hospital design
-• Concrete aesthetics: Proved that exposed concrete can be warm, spiritual, and poetic
-• Architecture of light: Kahn's use of natural light achieved an almost religious dimension`,
+    legacy_en: `â€¢ Modern architecture pilgrimage site: Architects call it a "place of pilgrimage," with thousands visiting annually
+â€¢ Service space revolution: The approach of concentrating utilities on separate floors influenced all subsequent laboratory and hospital design
+â€¢ Concrete aesthetics: Proved that exposed concrete can be warm, spiritual, and poetic
+â€¢ Architecture of light: Kahn's use of natural light achieved an almost religious dimension`,
     
     significance_en: `Kahn proved that modern architecture can have a soul.
 
@@ -1134,42 +1134,42 @@ Standing in the central plaza, facing the endless Pacific and that thin channel 
     designer: 'Edwin Land',
     year: '1948',
     
-    dateConnection: '1947年2月21日，Edwin Land 在美国光学学会纽约会议上首次公开演示即时摄影技术，这台相机在一年后正式发售，改变了摄影史。',
+    dateConnection: '1947å¹´2æœˆ21æ—¥ï¼ŒEdwin Land åœ¨ç¾Žå›½å…‰å­¦å­¦ä¼šçº½çº¦ä¼šè®®ä¸Šé¦–æ¬¡å…¬å¼€æ¼”ç¤ºå³æ—¶æ‘„å½±æŠ€æœ¯ï¼Œè¿™å°ç›¸æœºåœ¨ä¸€å¹´åŽæ­£å¼å‘å”®ï¼Œæ”¹å˜äº†æ‘„å½±å²ã€‚',
     
-    designerBio: `Edwin Herbert Land (1909-1991)，美国科学家、发明家、Polaroid 公司创始人。
+    designerBio: `Edwin Herbert Land (1909-1991)ï¼Œç¾Žå›½ç§‘å­¦å®¶ã€å‘æ˜Žå®¶ã€Polaroid å…¬å¸åˆ›å§‹äººã€‚
 
-哈佛大学辍学生，17岁就开始研究偏振光。1937年创立 Polaroid 公司，最初生产偏光滤镜和太阳镜。
+å“ˆä½›å¤§å­¦è¾å­¦ç”Ÿï¼Œ17å²å°±å¼€å§‹ç ”ç©¶åæŒ¯å…‰ã€‚1937å¹´åˆ›ç«‹ Polaroid å…¬å¸ï¼Œæœ€åˆç”Ÿäº§åå…‰æ»¤é•œå’Œå¤ªé˜³é•œã€‚
 
-传说1943年，他3岁的女儿问："为什么不能马上看到照片？"这个问题激发了他发明即时摄影。他在一个小时的散步中就构思出了整个化学和光学系统的雏形。
+ä¼ è¯´1943å¹´ï¼Œä»–3å²çš„å¥³å„¿é—®ï¼š"ä¸ºä»€ä¹ˆä¸èƒ½é©¬ä¸Šçœ‹åˆ°ç…§ç‰‡ï¼Ÿ"è¿™ä¸ªé—®é¢˜æ¿€å‘äº†ä»–å‘æ˜Žå³æ—¶æ‘„å½±ã€‚ä»–åœ¨ä¸€ä¸ªå°æ—¶çš„æ•£æ­¥ä¸­å°±æž„æ€å‡ºäº†æ•´ä¸ªåŒ–å­¦å’Œå…‰å­¦ç³»ç»Ÿçš„é›å½¢ã€‚
 
-Land 一生持有535项专利，仅次于爱迪生。他不只是发明家，更是一个将科学、设计与商业完美融合的人。Steve Jobs 视他为偶像，称他为"国宝级人物"。`,
+Land ä¸€ç”ŸæŒæœ‰535é¡¹ä¸“åˆ©ï¼Œä»…æ¬¡äºŽçˆ±è¿ªç”Ÿã€‚ä»–ä¸åªæ˜¯å‘æ˜Žå®¶ï¼Œæ›´æ˜¯ä¸€ä¸ªå°†ç§‘å­¦ã€è®¾è®¡ä¸Žå•†ä¸šå®Œç¾Žèžåˆçš„äººã€‚Steve Jobs è§†ä»–ä¸ºå¶åƒï¼Œç§°ä»–ä¸º"å›½å®çº§äººç‰©"ã€‚`,
     
-    story: `1947年2月21日，Edwin Land 站在美国光学学会的讲台上，拍了一张照片。
+    story: `1947å¹´2æœˆ21æ—¥ï¼ŒEdwin Land ç«™åœ¨ç¾Žå›½å…‰å­¦å­¦ä¼šçš„è®²å°ä¸Šï¼Œæ‹äº†ä¸€å¼ ç…§ç‰‡ã€‚
 
-60秒后，他从相机里抽出了一张完全显影的照片。
+60ç§’åŽï¼Œä»–ä»Žç›¸æœºé‡ŒæŠ½å‡ºäº†ä¸€å¼ å®Œå…¨æ˜¾å½±çš„ç…§ç‰‡ã€‚
 
-全场震惊。
+å…¨åœºéœ‡æƒŠã€‚
 
-这是人类历史上第一次"即时摄影"的公开演示。一年后，Polaroid Land Camera Model 95 正式发售，定价89.75美元。第一天就卖光了全部库存。
+è¿™æ˜¯äººç±»åŽ†å²ä¸Šç¬¬ä¸€æ¬¡"å³æ—¶æ‘„å½±"çš„å…¬å¼€æ¼”ç¤ºã€‚ä¸€å¹´åŽï¼ŒPolaroid Land Camera Model 95 æ­£å¼å‘å”®ï¼Œå®šä»·89.75ç¾Žå…ƒã€‚ç¬¬ä¸€å¤©å°±å–å…‰äº†å…¨éƒ¨åº“å­˜ã€‚
 
-Model 95 的设计充满了工业时代的质感：棕色皮革机身、折叠式金属支架、精密的光学镜头。它不追求小巧——展开后像一只准备起飞的鸟，收起来像一本厚重的书。
+Model 95 çš„è®¾è®¡å……æ»¡äº†å·¥ä¸šæ—¶ä»£çš„è´¨æ„Ÿï¼šæ£•è‰²çš®é©æœºèº«ã€æŠ˜å å¼é‡‘å±žæ”¯æž¶ã€ç²¾å¯†çš„å…‰å­¦é•œå¤´ã€‚å®ƒä¸è¿½æ±‚å°å·§â€”â€”å±•å¼€åŽåƒä¸€åªå‡†å¤‡èµ·é£žçš„é¸Ÿï¼Œæ”¶èµ·æ¥åƒä¸€æœ¬åŽšé‡çš„ä¹¦ã€‚
 
-这台相机的革命性不在于外形，而在于它背后的哲学：**摄影不应该是等待和延迟的体验，它应该是即时的、亲密的、属于当下的。**`,
+è¿™å°ç›¸æœºçš„é©å‘½æ€§ä¸åœ¨äºŽå¤–å½¢ï¼Œè€Œåœ¨äºŽå®ƒèƒŒåŽçš„å“²å­¦ï¼š**æ‘„å½±ä¸åº”è¯¥æ˜¯ç­‰å¾…å’Œå»¶è¿Ÿçš„ä½“éªŒï¼Œå®ƒåº”è¯¥æ˜¯å³æ—¶çš„ã€äº²å¯†çš„ã€å±žäºŽå½“ä¸‹çš„ã€‚**`,
     
-    legacy: `● 即时摄影文化：Polaroid 不仅是相机，更是一种文化符号，从 Andy Warhol 到日常家庭，人人都用 Polaroid 记录生活
-● 影响 Steve Jobs：Jobs 多次公开表示 Edwin Land 是他最崇拜的人，Polaroid 的"科技+人文"理念直接影响了 Apple 的产品哲学
-● 设计范式：Model 95 确立了"折叠式"相机的经典设计语言，影响了此后数十年的相机工业设计
-● 复兴浪潮：2008年 Polaroid 停产胶片后，"The Impossible Project"（现 Polaroid Originals）让即时摄影重获新生`,
+    legacy: `â— å³æ—¶æ‘„å½±æ–‡åŒ–ï¼šPolaroid ä¸ä»…æ˜¯ç›¸æœºï¼Œæ›´æ˜¯ä¸€ç§æ–‡åŒ–ç¬¦å·ï¼Œä»Ž Andy Warhol åˆ°æ—¥å¸¸å®¶åº­ï¼Œäººäººéƒ½ç”¨ Polaroid è®°å½•ç”Ÿæ´»
+â— å½±å“ Steve Jobsï¼šJobs å¤šæ¬¡å…¬å¼€è¡¨ç¤º Edwin Land æ˜¯ä»–æœ€å´‡æ‹œçš„äººï¼ŒPolaroid çš„"ç§‘æŠ€+äººæ–‡"ç†å¿µç›´æŽ¥å½±å“äº† Apple çš„äº§å“å“²å­¦
+â— è®¾è®¡èŒƒå¼ï¼šModel 95 ç¡®ç«‹äº†"æŠ˜å å¼"ç›¸æœºçš„ç»å…¸è®¾è®¡è¯­è¨€ï¼Œå½±å“äº†æ­¤åŽæ•°åå¹´çš„ç›¸æœºå·¥ä¸šè®¾è®¡
+â— å¤å…´æµªæ½®ï¼š2008å¹´ Polaroid åœäº§èƒ¶ç‰‡åŽï¼Œ"The Impossible Project"ï¼ˆçŽ° Polaroid Originalsï¼‰è®©å³æ—¶æ‘„å½±é‡èŽ·æ–°ç”Ÿ`,
     
-    significance: `Model 95 证明了一件事：**最伟大的设计不是让技术更复杂，而是让复杂的技术消失。**
+    significance: `Model 95 è¯æ˜Žäº†ä¸€ä»¶äº‹ï¼š**æœ€ä¼Ÿå¤§çš„è®¾è®¡ä¸æ˜¯è®©æŠ€æœ¯æ›´å¤æ‚ï¼Œè€Œæ˜¯è®©å¤æ‚çš„æŠ€æœ¯æ¶ˆå¤±ã€‚**
 
-在 Land 之前，摄影是一个需要暗房、化学药剂和耐心等待的专业活动。Model 95 把这一切浓缩成了"按下快门，等60秒"。
+åœ¨ Land ä¹‹å‰ï¼Œæ‘„å½±æ˜¯ä¸€ä¸ªéœ€è¦æš—æˆ¿ã€åŒ–å­¦è¯å‰‚å’Œè€å¿ƒç­‰å¾…çš„ä¸“ä¸šæ´»åŠ¨ã€‚Model 95 æŠŠè¿™ä¸€åˆ‡æµ“ç¼©æˆäº†"æŒ‰ä¸‹å¿«é—¨ï¼Œç­‰60ç§’"ã€‚
 
-这和后来 iPhone 做的事情一模一样——把电话、相机、电脑、音乐播放器合成一个东西，让技术的复杂性在用户面前完全消失。
+è¿™å’ŒåŽæ¥ iPhone åšçš„äº‹æƒ…ä¸€æ¨¡ä¸€æ ·â€”â€”æŠŠç”µè¯ã€ç›¸æœºã€ç”µè„‘ã€éŸ³ä¹æ’­æ”¾å™¨åˆæˆä¸€ä¸ªä¸œè¥¿ï¼Œè®©æŠ€æœ¯çš„å¤æ‚æ€§åœ¨ç”¨æˆ·é¢å‰å®Œå…¨æ¶ˆå¤±ã€‚
 
-难怪 Steve Jobs 说："Edwin Land 是一个国宝。他是科学和人文的交叉路口上最伟大的创新者之一。"
+éš¾æ€ª Steve Jobs è¯´ï¼š"Edwin Land æ˜¯ä¸€ä¸ªå›½å®ã€‚ä»–æ˜¯ç§‘å­¦å’Œäººæ–‡çš„äº¤å‰è·¯å£ä¸Šæœ€ä¼Ÿå¤§çš„åˆ›æ–°è€…ä¹‹ä¸€ã€‚"
 
-**一个好问题，可以改变世界。"为什么不能马上看到照片？"——这个3岁女孩的问题，价值数十亿美元。**`,
+**ä¸€ä¸ªå¥½é—®é¢˜ï¼Œå¯ä»¥æ”¹å˜ä¸–ç•Œã€‚"ä¸ºä»€ä¹ˆä¸èƒ½é©¬ä¸Šçœ‹åˆ°ç…§ç‰‡ï¼Ÿ"â€”â€”è¿™ä¸ª3å²å¥³å­©çš„é—®é¢˜ï¼Œä»·å€¼æ•°åäº¿ç¾Žå…ƒã€‚**`,
 
     dateConnection_en: 'On February 21, 1947, Edwin Land publicly demonstrated instant photography for the first time at the Optical Society of America meeting in New York. The camera went on sale a year later and changed the history of photography.',
     
@@ -1189,24 +1189,24 @@ The audience was stunned.
 
 This was the first public demonstration of "instant photography" in human history. A year later, the Polaroid Land Camera Model 95 went on sale for $89.75. It sold out completely on the first day.
 
-The Model 95's design was full of industrial-era character: brown leather body, folding metal struts, precision optical lens. It didn't strive for compactness—unfolded, it looked like a bird ready to take flight; closed, like a hefty book.
+The Model 95's design was full of industrial-era character: brown leather body, folding metal struts, precision optical lens. It didn't strive for compactnessâ€”unfolded, it looked like a bird ready to take flight; closed, like a hefty book.
 
 The revolution of this camera wasn't in its form, but in the philosophy behind it: **Photography should not be an experience of waiting and delay. It should be instant, intimate, and belong to the present moment.**`,
     
-    legacy_en: `● Instant photography culture: Polaroid became more than a camera—a cultural icon, from Andy Warhol to everyday families, everyone used Polaroid to capture life
-● Influenced Steve Jobs: Jobs publicly stated multiple times that Edwin Land was his greatest hero; Polaroid's "technology + humanities" philosophy directly influenced Apple's product design
-● Design paradigm: Model 95 established the classic "folding" camera design language, influencing decades of camera industrial design
-● Revival: After Polaroid discontinued film in 2008, "The Impossible Project" (now Polaroid Originals) brought instant photography back to life`,
+    legacy_en: `â— Instant photography culture: Polaroid became more than a cameraâ€”a cultural icon, from Andy Warhol to everyday families, everyone used Polaroid to capture life
+â— Influenced Steve Jobs: Jobs publicly stated multiple times that Edwin Land was his greatest hero; Polaroid's "technology + humanities" philosophy directly influenced Apple's product design
+â— Design paradigm: Model 95 established the classic "folding" camera design language, influencing decades of camera industrial design
+â— Revival: After Polaroid discontinued film in 2008, "The Impossible Project" (now Polaroid Originals) brought instant photography back to life`,
     
-    significance_en: `Model 95 proved one thing: **The greatest design doesn't make technology more complex—it makes complex technology disappear.**
+    significance_en: `Model 95 proved one thing: **The greatest design doesn't make technology more complexâ€”it makes complex technology disappear.**
 
 Before Land, photography was a professional activity requiring darkrooms, chemicals, and patient waiting. Model 95 condensed all of this into "press the shutter, wait 60 seconds."
 
-This is exactly what the iPhone did later—combining phone, camera, computer, and music player into one device, making technological complexity completely invisible to the user.
+This is exactly what the iPhone did laterâ€”combining phone, camera, computer, and music player into one device, making technological complexity completely invisible to the user.
 
 No wonder Steve Jobs said: "Edwin Land was a national treasure. He was one of the greatest innovators at the intersection of science and the humanities."
 
-**A good question can change the world. "Why can't I see the picture right away?"—that 3-year-old girl's question was worth billions of dollars.**`
+**A good question can change the world. "Why can't I see the picture right away?"â€”that 3-year-old girl's question was worth billions of dollars.**`
   },
   {
     id: '18',
@@ -1214,78 +1214,78 @@ No wonder Steve Jobs said: "Edwin Land was a national treasure. He was one of th
     imageUrl: '/the-daily-object/images/gill-sans-typography.jpg',
     fullImageUrl: '/the-daily-object/images/full/gill-sans-typography.jpg',
     thumbnailUrl: '/the-daily-object/thumbnails/gill-sans-typography.jpg',
-    title: 'Gill Sans 字体',
+    title: 'Gill Sans å­—ä½“',
     title_en: 'Gill Sans Typeface',
-    subtitle: 'Eric Gill, 1926–1928',
+    subtitle: 'Eric Gill, 1926â€“1928',
     category: 'graphic',
     designer: 'Eric Gill',
     year: '1928',
     
-    dateConnection: '1882年2月22日，Eric Gill 出生于英格兰布莱顿。他是20世纪最重要的字体设计师之一，设计的 Gill Sans 成为英国的"国家字体"——从伦敦地铁标识到 BBC 品牌，从企鹅图书到英国铁路，这款字体定义了英国的视觉身份。',
+    dateConnection: '1882å¹´2æœˆ22æ—¥ï¼ŒEric Gill å‡ºç”ŸäºŽè‹±æ ¼å…°å¸ƒèŽ±é¡¿ã€‚ä»–æ˜¯20ä¸–çºªæœ€é‡è¦çš„å­—ä½“è®¾è®¡å¸ˆä¹‹ä¸€ï¼Œè®¾è®¡çš„ Gill Sans æˆä¸ºè‹±å›½çš„"å›½å®¶å­—ä½“"â€”â€”ä»Žä¼¦æ•¦åœ°é“æ ‡è¯†åˆ° BBC å“ç‰Œï¼Œä»Žä¼é¹…å›¾ä¹¦åˆ°è‹±å›½é“è·¯ï¼Œè¿™æ¬¾å­—ä½“å®šä¹‰äº†è‹±å›½çš„è§†è§‰èº«ä»½ã€‚',
     
-    designerBio: `Eric Gill（1882-1940），英国字体设计师、石刻艺术家、雕塑家、版画家。
+    designerBio: `Eric Gillï¼ˆ1882-1940ï¼‰ï¼Œè‹±å›½å­—ä½“è®¾è®¡å¸ˆã€çŸ³åˆ»è‰ºæœ¯å®¶ã€é›•å¡‘å®¶ã€ç‰ˆç”»å®¶ã€‚
 
-他出身于牧师家庭，14岁开始在建筑事务所做学徒，后来师从 Edward Johnston——伦敦地铁标志性字体 Johnston Sans 的设计者。这段师承关系决定了英国字体设计的走向。
+ä»–å‡ºèº«äºŽç‰§å¸ˆå®¶åº­ï¼Œ14å²å¼€å§‹åœ¨å»ºç­‘äº‹åŠ¡æ‰€åšå­¦å¾’ï¼ŒåŽæ¥å¸ˆä»Ž Edward Johnstonâ€”â€”ä¼¦æ•¦åœ°é“æ ‡å¿—æ€§å­—ä½“ Johnston Sans çš„è®¾è®¡è€…ã€‚è¿™æ®µå¸ˆæ‰¿å…³ç³»å†³å®šäº†è‹±å›½å­—ä½“è®¾è®¡çš„èµ°å‘ã€‚
 
-Gill 是一个多面手：他为威斯敏斯特大教堂雕刻过浮雕，为BBC广播大厦创作过外墙雕塑（Prospero and Ariel），为Golden Cockerel Press 设计过整套字体和插画。
+Gill æ˜¯ä¸€ä¸ªå¤šé¢æ‰‹ï¼šä»–ä¸ºå¨æ–¯æ•æ–¯ç‰¹å¤§æ•™å ‚é›•åˆ»è¿‡æµ®é›•ï¼Œä¸ºBBCå¹¿æ’­å¤§åŽ¦åˆ›ä½œè¿‡å¤–å¢™é›•å¡‘ï¼ˆProspero and Arielï¼‰ï¼Œä¸ºGolden Cockerel Press è®¾è®¡è¿‡æ•´å¥—å­—ä½“å’Œæ’ç”»ã€‚
 
-**"字母是纯粹形式的东西——它们的形状本身就是美。"**
+**"å­—æ¯æ˜¯çº¯ç²¹å½¢å¼çš„ä¸œè¥¿â€”â€”å®ƒä»¬çš„å½¢çŠ¶æœ¬èº«å°±æ˜¯ç¾Žã€‚"**
 
-1926年，Monotype 公司委托他设计一款新的无衬线字体。他以老师 Johnston 的字体为起点，但赋予了它更人文主义的气质——线条更流畅、比例更和谐、细节更精致。这就是 Gill Sans。`,
+1926å¹´ï¼ŒMonotype å…¬å¸å§”æ‰˜ä»–è®¾è®¡ä¸€æ¬¾æ–°çš„æ— è¡¬çº¿å­—ä½“ã€‚ä»–ä»¥è€å¸ˆ Johnston çš„å­—ä½“ä¸ºèµ·ç‚¹ï¼Œä½†èµ‹äºˆäº†å®ƒæ›´äººæ–‡ä¸»ä¹‰çš„æ°”è´¨â€”â€”çº¿æ¡æ›´æµç•…ã€æ¯”ä¾‹æ›´å’Œè°ã€ç»†èŠ‚æ›´ç²¾è‡´ã€‚è¿™å°±æ˜¯ Gill Sansã€‚`,
     
-    story: `Gill Sans 的故事，是一款字体如何成为一个国家视觉身份的故事。
+    story: `Gill Sans çš„æ•…äº‹ï¼Œæ˜¯ä¸€æ¬¾å­—ä½“å¦‚ä½•æˆä¸ºä¸€ä¸ªå›½å®¶è§†è§‰èº«ä»½çš„æ•…äº‹ã€‚
 
-1928年，Gill Sans 由 Monotype 公司正式发布。它的设计基于老师 Edward Johnston 为伦敦地铁设计的 Johnston Sans（1916年），但 Gill 做了关键的改进：
+1928å¹´ï¼ŒGill Sans ç”± Monotype å…¬å¸æ­£å¼å‘å¸ƒã€‚å®ƒçš„è®¾è®¡åŸºäºŽè€å¸ˆ Edward Johnston ä¸ºä¼¦æ•¦åœ°é“è®¾è®¡çš„ Johnston Sansï¼ˆ1916å¹´ï¼‰ï¼Œä½† Gill åšäº†å…³é”®çš„æ”¹è¿›ï¼š
 
-**Johnston Sans 是严格几何的**——像用圆规和直尺画出来的。Gill Sans 则融入了手写的温度——字母"a"有一个微妙的曲线变化，"g"的下半部分有一种手工的韵律感。它在理性和感性之间找到了完美的平衡。
+**Johnston Sans æ˜¯ä¸¥æ ¼å‡ ä½•çš„**â€”â€”åƒç”¨åœ†è§„å’Œç›´å°ºç”»å‡ºæ¥çš„ã€‚Gill Sans åˆ™èžå…¥äº†æ‰‹å†™çš„æ¸©åº¦â€”â€”å­—æ¯"a"æœ‰ä¸€ä¸ªå¾®å¦™çš„æ›²çº¿å˜åŒ–ï¼Œ"g"çš„ä¸‹åŠéƒ¨åˆ†æœ‰ä¸€ç§æ‰‹å·¥çš„éŸµå¾‹æ„Ÿã€‚å®ƒåœ¨ç†æ€§å’Œæ„Ÿæ€§ä¹‹é—´æ‰¾åˆ°äº†å®Œç¾Žçš„å¹³è¡¡ã€‚
 
-1929年，英国铁路（LNER）率先采用 Gill Sans 作为官方字体，用于时刻表、海报和标识。然后是企鹅图书——Allen Lane 在1935年创立企鹅时，选择 Gill Sans 作为封面字体，让这款字体出现在了每一个英国书店和火车站。
+1929å¹´ï¼Œè‹±å›½é“è·¯ï¼ˆLNERï¼‰çŽ‡å…ˆé‡‡ç”¨ Gill Sans ä½œä¸ºå®˜æ–¹å­—ä½“ï¼Œç”¨äºŽæ—¶åˆ»è¡¨ã€æµ·æŠ¥å’Œæ ‡è¯†ã€‚ç„¶åŽæ˜¯ä¼é¹…å›¾ä¹¦â€”â€”Allen Lane åœ¨1935å¹´åˆ›ç«‹ä¼é¹…æ—¶ï¼Œé€‰æ‹© Gill Sans ä½œä¸ºå°é¢å­—ä½“ï¼Œè®©è¿™æ¬¾å­—ä½“å‡ºçŽ°åœ¨äº†æ¯ä¸€ä¸ªè‹±å›½ä¹¦åº—å’Œç«è½¦ç«™ã€‚
 
-BBC 在1997年将 Gill Sans 定为官方字体。英国教堂、战争纪念碑、政府公告——到处都能看到 Gill Sans。
+BBC åœ¨1997å¹´å°† Gill Sans å®šä¸ºå®˜æ–¹å­—ä½“ã€‚è‹±å›½æ•™å ‚ã€æˆ˜äº‰çºªå¿µç¢‘ã€æ”¿åºœå…¬å‘Šâ€”â€”åˆ°å¤„éƒ½èƒ½çœ‹åˆ° Gill Sansã€‚
 
-**一款字体，定义了一个国家的视觉性格：理性但不冷漠，优雅但不傲慢，现代但不忘传统。** 这正是英国人理想中的自己。`,
+**ä¸€æ¬¾å­—ä½“ï¼Œå®šä¹‰äº†ä¸€ä¸ªå›½å®¶çš„è§†è§‰æ€§æ ¼ï¼šç†æ€§ä½†ä¸å†·æ¼ ï¼Œä¼˜é›…ä½†ä¸å‚²æ…¢ï¼ŒçŽ°ä»£ä½†ä¸å¿˜ä¼ ç»Ÿã€‚** è¿™æ­£æ˜¯è‹±å›½äººç†æƒ³ä¸­çš„è‡ªå·±ã€‚`,
 
-    legacy: `Gill Sans 的影响遍及设计的每一个角落：
+    legacy: `Gill Sans çš„å½±å“éåŠè®¾è®¡çš„æ¯ä¸€ä¸ªè§’è½ï¼š
 
-**英国视觉身份**：它是英国设计的代名词，就像 Helvetica 之于瑞士、Futura 之于德国
+**è‹±å›½è§†è§‰èº«ä»½**ï¼šå®ƒæ˜¯è‹±å›½è®¾è®¡çš„ä»£åè¯ï¼Œå°±åƒ Helvetica ä¹‹äºŽç‘žå£«ã€Futura ä¹‹äºŽå¾·å›½
 
-**人文主义无衬线**：它开创了"人文主义无衬线字体"（Humanist Sans-serif）这一分类，影响了 Frutiger、Myriad、Optima 等后来的经典字体
+**äººæ–‡ä¸»ä¹‰æ— è¡¬çº¿**ï¼šå®ƒå¼€åˆ›äº†"äººæ–‡ä¸»ä¹‰æ— è¡¬çº¿å­—ä½“"ï¼ˆHumanist Sans-serifï¼‰è¿™ä¸€åˆ†ç±»ï¼Œå½±å“äº† Frutigerã€Myriadã€Optima ç­‰åŽæ¥çš„ç»å…¸å­—ä½“
 
-**企鹅图书革命**：Gill Sans + 三段式封面设计 = 现代平装书的诞生，让优质文学从精装书架走进了每个人的口袋
+**ä¼é¹…å›¾ä¹¦é©å‘½**ï¼šGill Sans + ä¸‰æ®µå¼å°é¢è®¾è®¡ = çŽ°ä»£å¹³è£…ä¹¦çš„è¯žç”Ÿï¼Œè®©ä¼˜è´¨æ–‡å­¦ä»Žç²¾è£…ä¹¦æž¶èµ°è¿›äº†æ¯ä¸ªäººçš„å£è¢‹
 
-**品牌字体的先驱**：Gill Sans 是最早被整个企业系统性采用的字体之一，开创了"品牌字体"（brand typeface）的概念
+**å“ç‰Œå­—ä½“çš„å…ˆé©±**ï¼šGill Sans æ˜¯æœ€æ—©è¢«æ•´ä¸ªä¼ä¸šç³»ç»Ÿæ€§é‡‡ç”¨çš„å­—ä½“ä¹‹ä¸€ï¼Œå¼€åˆ›äº†"å“ç‰Œå­—ä½“"ï¼ˆbrand typefaceï¼‰çš„æ¦‚å¿µ
 
-**字体设计教育**：它是字体设计课程中的必讲案例，展示了如何在几何精确性和人文温度之间找平衡`,
+**å­—ä½“è®¾è®¡æ•™è‚²**ï¼šå®ƒæ˜¯å­—ä½“è®¾è®¡è¯¾ç¨‹ä¸­çš„å¿…è®²æ¡ˆä¾‹ï¼Œå±•ç¤ºäº†å¦‚ä½•åœ¨å‡ ä½•ç²¾ç¡®æ€§å’Œäººæ–‡æ¸©åº¦ä¹‹é—´æ‰¾å¹³è¡¡`,
     
-    significance: `Gill Sans 回答了一个根本性的设计问题：**理性和人情味可以共存吗？**
+    significance: `Gill Sans å›žç­”äº†ä¸€ä¸ªæ ¹æœ¬æ€§çš„è®¾è®¡é—®é¢˜ï¼š**ç†æ€§å’Œäººæƒ…å‘³å¯ä»¥å…±å­˜å—ï¼Ÿ**
 
-20世纪初的欧洲设计界在两极之间拉扯：一边是包豪斯和构成主义的冰冷几何，一边是工艺美术运动的温暖手工。Gill Sans 找到了第三条路——它有几何无衬线字体的清晰和现代感，但保留了手写字体的温度和节奏。
+20ä¸–çºªåˆçš„æ¬§æ´²è®¾è®¡ç•Œåœ¨ä¸¤æžä¹‹é—´æ‹‰æ‰¯ï¼šä¸€è¾¹æ˜¯åŒ…è±ªæ–¯å’Œæž„æˆä¸»ä¹‰çš„å†°å†·å‡ ä½•ï¼Œä¸€è¾¹æ˜¯å·¥è‰ºç¾Žæœ¯è¿åŠ¨çš„æ¸©æš–æ‰‹å·¥ã€‚Gill Sans æ‰¾åˆ°äº†ç¬¬ä¸‰æ¡è·¯â€”â€”å®ƒæœ‰å‡ ä½•æ— è¡¬çº¿å­—ä½“çš„æ¸…æ™°å’ŒçŽ°ä»£æ„Ÿï¼Œä½†ä¿ç•™äº†æ‰‹å†™å­—ä½“çš„æ¸©åº¦å’ŒèŠ‚å¥ã€‚
 
-这个平衡点至今仍是设计师追求的圣杯。Apple 的 San Francisco 字体、Google 的 Roboto、IBM 的 Plex——每一款当代品牌字体都在试图找到 Gill Sans 90多年前就找到的那个平衡。
+è¿™ä¸ªå¹³è¡¡ç‚¹è‡³ä»Šä»æ˜¯è®¾è®¡å¸ˆè¿½æ±‚çš„åœ£æ¯ã€‚Apple çš„ San Francisco å­—ä½“ã€Google çš„ Robotoã€IBM çš„ Plexâ€”â€”æ¯ä¸€æ¬¾å½“ä»£å“ç‰Œå­—ä½“éƒ½åœ¨è¯•å›¾æ‰¾åˆ° Gill Sans 90å¤šå¹´å‰å°±æ‰¾åˆ°çš„é‚£ä¸ªå¹³è¡¡ã€‚
 
-**好的字体设计不是让你注意到字体，而是让你忘记字体的存在，只看到文字本身要表达的意思。Gill Sans 做到了。**`,
+**å¥½çš„å­—ä½“è®¾è®¡ä¸æ˜¯è®©ä½ æ³¨æ„åˆ°å­—ä½“ï¼Œè€Œæ˜¯è®©ä½ å¿˜è®°å­—ä½“çš„å­˜åœ¨ï¼Œåªçœ‹åˆ°æ–‡å­—æœ¬èº«è¦è¡¨è¾¾çš„æ„æ€ã€‚Gill Sans åšåˆ°äº†ã€‚**`,
 
-    dateConnection_en: 'On February 22, 1882, Eric Gill was born in Brighton, England. He was one of the 20th century\'s most important typeface designers. His Gill Sans became Britain\'s "national typeface" — from London Underground signage to the BBC brand, from Penguin Books to British Railways, this typeface defined Britain\'s visual identity.',
+    dateConnection_en: 'On February 22, 1882, Eric Gill was born in Brighton, England. He was one of the 20th century\'s most important typeface designers. His Gill Sans became Britain\'s "national typeface" â€” from London Underground signage to the BBC brand, from Penguin Books to British Railways, this typeface defined Britain\'s visual identity.',
     
     designerBio_en: `Eric Gill (1882-1940), British typeface designer, stone carver, sculptor, and printmaker.
 
-Born into a clergyman's family, he began an apprenticeship at an architectural firm at 14, later studying under Edward Johnston — the designer of Johnston Sans, the iconic London Underground typeface. This lineage shaped the course of British type design.
+Born into a clergyman's family, he began an apprenticeship at an architectural firm at 14, later studying under Edward Johnston â€” the designer of Johnston Sans, the iconic London Underground typeface. This lineage shaped the course of British type design.
 
 Gill was a Renaissance man: he carved reliefs for Westminster Cathedral, created exterior sculptures for BBC Broadcasting House (Prospero and Ariel), and designed complete typefaces and illustrations for the Golden Cockerel Press.
 
-**"Letters are pure form — their shapes are beautiful in themselves."**
+**"Letters are pure form â€” their shapes are beautiful in themselves."**
 
-In 1926, the Monotype Corporation commissioned him to design a new sans-serif typeface. Starting from his teacher Johnston's typeface, he gave it a more humanist character — smoother lines, more harmonious proportions, more refined details. This became Gill Sans.`,
+In 1926, the Monotype Corporation commissioned him to design a new sans-serif typeface. Starting from his teacher Johnston's typeface, he gave it a more humanist character â€” smoother lines, more harmonious proportions, more refined details. This became Gill Sans.`,
     
     story_en: `The story of Gill Sans is the story of how a typeface became a nation's visual identity.
 
 In 1928, Gill Sans was officially released by the Monotype Corporation. Its design was based on Edward Johnston's Johnston Sans (1916), designed for the London Underground, but Gill made crucial refinements:
 
-**Johnston Sans was strictly geometric** — as if drawn with compass and ruler. Gill Sans incorporated the warmth of handwriting — the letter "a" has subtle curve variations, the lower half of "g" carries a handcrafted rhythm. It found a perfect balance between rationality and sensibility.
+**Johnston Sans was strictly geometric** â€” as if drawn with compass and ruler. Gill Sans incorporated the warmth of handwriting â€” the letter "a" has subtle curve variations, the lower half of "g" carries a handcrafted rhythm. It found a perfect balance between rationality and sensibility.
 
-In 1929, the London and North Eastern Railway (LNER) became the first to adopt Gill Sans as its official typeface for timetables, posters, and signage. Then came Penguin Books — when Allen Lane founded Penguin in 1935, he chose Gill Sans for the covers, placing the typeface in every British bookshop and railway station.
+In 1929, the London and North Eastern Railway (LNER) became the first to adopt Gill Sans as its official typeface for timetables, posters, and signage. Then came Penguin Books â€” when Allen Lane founded Penguin in 1935, he chose Gill Sans for the covers, placing the typeface in every British bookshop and railway station.
 
-The BBC adopted Gill Sans as its official typeface in 1997. British churches, war memorials, government notices — Gill Sans appeared everywhere.
+The BBC adopted Gill Sans as its official typeface in 1997. British churches, war memorials, government notices â€” Gill Sans appeared everywhere.
 
 **One typeface defined a nation's visual character: rational but not cold, elegant but not arrogant, modern yet respectful of tradition.** This is exactly how the British idealize themselves.`,
 
@@ -1303,11 +1303,11 @@ The BBC adopted Gill Sans as its official typeface in 1997. British churches, wa
     
     significance_en: `Gill Sans answered a fundamental design question: **can rationality and humanity coexist?**
 
-The early 20th-century European design world was torn between extremes: on one side, the cold geometry of the Bauhaus and Constructivism; on the other, the warm handcraft of the Arts and Crafts movement. Gill Sans found a third way — it has the clarity and modernity of a geometric sans-serif, but retains the warmth and rhythm of handwritten letterforms.
+The early 20th-century European design world was torn between extremes: on one side, the cold geometry of the Bauhaus and Constructivism; on the other, the warm handcraft of the Arts and Crafts movement. Gill Sans found a third way â€” it has the clarity and modernity of a geometric sans-serif, but retains the warmth and rhythm of handwritten letterforms.
 
-This balance remains the holy grail designers pursue today. Apple's San Francisco, Google's Roboto, IBM's Plex — every contemporary brand typeface is trying to find the equilibrium that Gill Sans discovered over 90 years ago.
+This balance remains the holy grail designers pursue today. Apple's San Francisco, Google's Roboto, IBM's Plex â€” every contemporary brand typeface is trying to find the equilibrium that Gill Sans discovered over 90 years ago.
 
-**Good type design doesn't make you notice the typeface — it makes you forget the typeface exists and see only the meaning the words express. Gill Sans achieved exactly that.**`
+**Good type design doesn't make you notice the typeface â€” it makes you forget the typeface exists and see only the meaning the words express. Gill Sans achieved exactly that.**`
   },
   {
     id: '19',
@@ -1321,77 +1321,77 @@ This balance remains the holy grail designers pursue today. Apple's San Francisc
     designer: 'Johannes Gutenberg',
     year: 'c. 1455',
     
-    dateConnection: '1455年2月23日被认为是古腾堡圣经的出版日期——西方世界第一本用活字印刷术印制的书籍。这一天标志着人类传播史上最深刻的革命：知识不再是手抄的奢侈品，而成为可以批量生产的民主化载体。',
+    dateConnection: '1455å¹´2æœˆ23æ—¥è¢«è®¤ä¸ºæ˜¯å¤è…¾å ¡åœ£ç»çš„å‡ºç‰ˆæ—¥æœŸâ€”â€”è¥¿æ–¹ä¸–ç•Œç¬¬ä¸€æœ¬ç”¨æ´»å­—å°åˆ·æœ¯å°åˆ¶çš„ä¹¦ç±ã€‚è¿™ä¸€å¤©æ ‡å¿—ç€äººç±»ä¼ æ’­å²ä¸Šæœ€æ·±åˆ»çš„é©å‘½ï¼šçŸ¥è¯†ä¸å†æ˜¯æ‰‹æŠ„çš„å¥¢ä¾ˆå“ï¼Œè€Œæˆä¸ºå¯ä»¥æ‰¹é‡ç”Ÿäº§çš„æ°‘ä¸»åŒ–è½½ä½“ã€‚',
     
-    designerBio: `约翰内斯·古腾堡（Johannes Gutenberg，约1400-1468），出生于德国美因茨，金匠出身。他花了近20年时间，将金属铸造、油墨调配、压榨技术融合成一套完整的活字印刷系统。
+    designerBio: `çº¦ç¿°å†…æ–¯Â·å¤è…¾å ¡ï¼ˆJohannes Gutenbergï¼Œçº¦1400-1468ï¼‰ï¼Œå‡ºç”ŸäºŽå¾·å›½ç¾Žå› èŒ¨ï¼Œé‡‘åŒ å‡ºèº«ã€‚ä»–èŠ±äº†è¿‘20å¹´æ—¶é—´ï¼Œå°†é‡‘å±žé“¸é€ ã€æ²¹å¢¨è°ƒé…ã€åŽ‹æ¦¨æŠ€æœ¯èžåˆæˆä¸€å¥—å®Œæ•´çš„æ´»å­—å°åˆ·ç³»ç»Ÿã€‚
 
-他的突破不是"发明活字"——中国的毕昇在11世纪就发明了泥活字。古腾堡的天才在于**系统设计**：他发明了手持铸字模具（hand mold），可以快速、精确地批量铸造金属活字；他调配出油基墨水替代水基墨水，使字迹更清晰持久；他改造了葡萄酒压榨机，变成了印刷机。
+ä»–çš„çªç ´ä¸æ˜¯"å‘æ˜Žæ´»å­—"â€”â€”ä¸­å›½çš„æ¯•æ˜‡åœ¨11ä¸–çºªå°±å‘æ˜Žäº†æ³¥æ´»å­—ã€‚å¤è…¾å ¡çš„å¤©æ‰åœ¨äºŽ**ç³»ç»Ÿè®¾è®¡**ï¼šä»–å‘æ˜Žäº†æ‰‹æŒé“¸å­—æ¨¡å…·ï¼ˆhand moldï¼‰ï¼Œå¯ä»¥å¿«é€Ÿã€ç²¾ç¡®åœ°æ‰¹é‡é“¸é€ é‡‘å±žæ´»å­—ï¼›ä»–è°ƒé…å‡ºæ²¹åŸºå¢¨æ°´æ›¿ä»£æ°´åŸºå¢¨æ°´ï¼Œä½¿å­—è¿¹æ›´æ¸…æ™°æŒä¹…ï¼›ä»–æ”¹é€ äº†è‘¡è„é…’åŽ‹æ¦¨æœºï¼Œå˜æˆäº†å°åˆ·æœºã€‚
 
-每一项单独看都不算惊天动地，但组合在一起，就成了改变世界的系统。这是真正的**设计思维**——不是发明一个零件，而是设计一整套工作流程。`,
+æ¯ä¸€é¡¹å•ç‹¬çœ‹éƒ½ä¸ç®—æƒŠå¤©åŠ¨åœ°ï¼Œä½†ç»„åˆåœ¨ä¸€èµ·ï¼Œå°±æˆäº†æ”¹å˜ä¸–ç•Œçš„ç³»ç»Ÿã€‚è¿™æ˜¯çœŸæ­£çš„**è®¾è®¡æ€ç»´**â€”â€”ä¸æ˜¯å‘æ˜Žä¸€ä¸ªé›¶ä»¶ï¼Œè€Œæ˜¯è®¾è®¡ä¸€æ•´å¥—å·¥ä½œæµç¨‹ã€‚`,
     
-    story: `古腾堡圣经的印制花了大约两年（1453-1455）。180份，其中约135份印在纸上，45份印在更昂贵的羊皮纸上——每份羊皮纸版需要170张小牛皮。
+    story: `å¤è…¾å ¡åœ£ç»çš„å°åˆ¶èŠ±äº†å¤§çº¦ä¸¤å¹´ï¼ˆ1453-1455ï¼‰ã€‚180ä»½ï¼Œå…¶ä¸­çº¦135ä»½å°åœ¨çº¸ä¸Šï¼Œ45ä»½å°åœ¨æ›´æ˜‚è´µçš„ç¾Šçš®çº¸ä¸Šâ€”â€”æ¯ä»½ç¾Šçš®çº¸ç‰ˆéœ€è¦170å¼ å°ç‰›çš®ã€‚
 
-但真正让设计师着迷的不是产量，而是**排版质量**。古腾堡追求的目标是：印刷品必须和手抄本一样美。
+ä½†çœŸæ­£è®©è®¾è®¡å¸ˆç€è¿·çš„ä¸æ˜¯äº§é‡ï¼Œè€Œæ˜¯**æŽ’ç‰ˆè´¨é‡**ã€‚å¤è…¾å ¡è¿½æ±‚çš„ç›®æ ‡æ˜¯ï¼šå°åˆ·å“å¿…é¡»å’Œæ‰‹æŠ„æœ¬ä¸€æ ·ç¾Žã€‚
 
-他设计了290个不同的字符——远超26个字母。因为中世纪手抄本中有大量的连字（ligature）、缩写符号和变体字形，古腾堡全部复刻了。他甚至在同一行中微调字母间距，使右边距完美对齐（justified），这种精确度直到数字排版时代才被超越。
+ä»–è®¾è®¡äº†290ä¸ªä¸åŒçš„å­—ç¬¦â€”â€”è¿œè¶…26ä¸ªå­—æ¯ã€‚å› ä¸ºä¸­ä¸–çºªæ‰‹æŠ„æœ¬ä¸­æœ‰å¤§é‡çš„è¿žå­—ï¼ˆligatureï¼‰ã€ç¼©å†™ç¬¦å·å’Œå˜ä½“å­—å½¢ï¼Œå¤è…¾å ¡å…¨éƒ¨å¤åˆ»äº†ã€‚ä»–ç”šè‡³åœ¨åŒä¸€è¡Œä¸­å¾®è°ƒå­—æ¯é—´è·ï¼Œä½¿å³è¾¹è·å®Œç¾Žå¯¹é½ï¼ˆjustifiedï¼‰ï¼Œè¿™ç§ç²¾ç¡®åº¦ç›´åˆ°æ•°å­—æŽ’ç‰ˆæ—¶ä»£æ‰è¢«è¶…è¶Šã€‚
 
-每页42行，双栏排列。页面比例接近黄金比例。文字区域与页边距的关系遵循中世纪抄本的经典构图法则——这套法则后来被扬·奇肖尔德（Jan Tschichold）在20世纪重新发现并命名为"范德格拉夫准则"（Van de Graaf canon）。
+æ¯é¡µ42è¡Œï¼ŒåŒæ æŽ’åˆ—ã€‚é¡µé¢æ¯”ä¾‹æŽ¥è¿‘é»„é‡‘æ¯”ä¾‹ã€‚æ–‡å­—åŒºåŸŸä¸Žé¡µè¾¹è·çš„å…³ç³»éµå¾ªä¸­ä¸–çºªæŠ„æœ¬çš„ç»å…¸æž„å›¾æ³•åˆ™â€”â€”è¿™å¥—æ³•åˆ™åŽæ¥è¢«æ‰¬Â·å¥‡è‚–å°”å¾·ï¼ˆJan Tschicholdï¼‰åœ¨20ä¸–çºªé‡æ–°å‘çŽ°å¹¶å‘½åä¸º"èŒƒå¾·æ ¼æ‹‰å¤«å‡†åˆ™"ï¼ˆVan de Graaf canonï¼‰ã€‚
 
-**一个讽刺的结局**：古腾堡在圣经完成前就因为债务纠纷失去了自己的印刷作坊。投资人约翰·福斯特（Johann Fust）通过诉讼夺走了设备，并与古腾堡的学徒彼得·舍费尔（Peter Schöffer）继续经营。改变世界的人，没有从中获利。`,
+**ä¸€ä¸ªè®½åˆºçš„ç»“å±€**ï¼šå¤è…¾å ¡åœ¨åœ£ç»å®Œæˆå‰å°±å› ä¸ºå€ºåŠ¡çº çº·å¤±åŽ»äº†è‡ªå·±çš„å°åˆ·ä½œåŠã€‚æŠ•èµ„äººçº¦ç¿°Â·ç¦æ–¯ç‰¹ï¼ˆJohann Fustï¼‰é€šè¿‡è¯‰è®¼å¤ºèµ°äº†è®¾å¤‡ï¼Œå¹¶ä¸Žå¤è…¾å ¡çš„å­¦å¾’å½¼å¾—Â·èˆè´¹å°”ï¼ˆPeter SchÃ¶fferï¼‰ç»§ç»­ç»è¥ã€‚æ”¹å˜ä¸–ç•Œçš„äººï¼Œæ²¡æœ‰ä»Žä¸­èŽ·åˆ©ã€‚`,
 
-    legacy: `古腾堡圣经现存49本（其中21本完整），是世界上最珍贵的书籍之一。2009年被联合国教科文组织列入世界记忆名录。
+    legacy: `å¤è…¾å ¡åœ£ç»çŽ°å­˜49æœ¬ï¼ˆå…¶ä¸­21æœ¬å®Œæ•´ï¼‰ï¼Œæ˜¯ä¸–ç•Œä¸Šæœ€çè´µçš„ä¹¦ç±ä¹‹ä¸€ã€‚2009å¹´è¢«è”åˆå›½æ•™ç§‘æ–‡ç»„ç»‡åˆ—å…¥ä¸–ç•Œè®°å¿†åå½•ã€‚
 
-**对设计的影响：**
+**å¯¹è®¾è®¡çš„å½±å“ï¼š**
 
-**字体设计的起点**：古腾堡的 Textura 哥特体直接催生了后来的字体设计传统。从 Garamond 到 Helvetica，所有西方字体的源头都可以追溯到这里。
+**å­—ä½“è®¾è®¡çš„èµ·ç‚¹**ï¼šå¤è…¾å ¡çš„ Textura å“¥ç‰¹ä½“ç›´æŽ¥å‚¬ç”Ÿäº†åŽæ¥çš„å­—ä½“è®¾è®¡ä¼ ç»Ÿã€‚ä»Ž Garamond åˆ° Helveticaï¼Œæ‰€æœ‰è¥¿æ–¹å­—ä½“çš„æºå¤´éƒ½å¯ä»¥è¿½æº¯åˆ°è¿™é‡Œã€‚
 
-**网格系统的先驱**：古腾堡圣经的42行双栏版式，是有据可查的最早的系统化排版网格之一。约瑟夫·穆勒-布罗克曼（Josef Müller-Brockmann）在《网格系统》中专门提到了中世纪抄本的版式传统。
+**ç½‘æ ¼ç³»ç»Ÿçš„å…ˆé©±**ï¼šå¤è…¾å ¡åœ£ç»çš„42è¡ŒåŒæ ç‰ˆå¼ï¼Œæ˜¯æœ‰æ®å¯æŸ¥çš„æœ€æ—©çš„ç³»ç»ŸåŒ–æŽ’ç‰ˆç½‘æ ¼ä¹‹ä¸€ã€‚çº¦ç‘Ÿå¤«Â·ç©†å‹’-å¸ƒç½—å…‹æ›¼ï¼ˆJosef MÃ¼ller-Brockmannï¼‰åœ¨ã€Šç½‘æ ¼ç³»ç»Ÿã€‹ä¸­ä¸“é—¨æåˆ°äº†ä¸­ä¸–çºªæŠ„æœ¬çš„ç‰ˆå¼ä¼ ç»Ÿã€‚
 
-**"看不见的设计"的典范**：古腾堡的最高追求是让印刷品看起来像手抄本——好的设计不彰显自己，而是服务于内容。这个理念贯穿了整部平面设计史。
+**"çœ‹ä¸è§çš„è®¾è®¡"çš„å…¸èŒƒ**ï¼šå¤è…¾å ¡çš„æœ€é«˜è¿½æ±‚æ˜¯è®©å°åˆ·å“çœ‹èµ·æ¥åƒæ‰‹æŠ„æœ¬â€”â€”å¥½çš„è®¾è®¡ä¸å½°æ˜¾è‡ªå·±ï¼Œè€Œæ˜¯æœåŠ¡äºŽå†…å®¹ã€‚è¿™ä¸ªç†å¿µè´¯ç©¿äº†æ•´éƒ¨å¹³é¢è®¾è®¡å²ã€‚
 
-印刷术在古腾堡之后的50年内传遍整个欧洲。到1500年，已经有超过2000万册书被印刷。这直接推动了文艺复兴、宗教改革和科学革命。`,
+å°åˆ·æœ¯åœ¨å¤è…¾å ¡ä¹‹åŽçš„50å¹´å†…ä¼ éæ•´ä¸ªæ¬§æ´²ã€‚åˆ°1500å¹´ï¼Œå·²ç»æœ‰è¶…è¿‡2000ä¸‡å†Œä¹¦è¢«å°åˆ·ã€‚è¿™ç›´æŽ¥æŽ¨åŠ¨äº†æ–‡è‰ºå¤å…´ã€å®—æ•™æ”¹é©å’Œç§‘å­¦é©å‘½ã€‚`,
     
-    significance: `一本571年前的书，至今仍然是排版设计的教科书。
+    significance: `ä¸€æœ¬571å¹´å‰çš„ä¹¦ï¼Œè‡³ä»Šä»ç„¶æ˜¯æŽ’ç‰ˆè®¾è®¡çš„æ•™ç§‘ä¹¦ã€‚
 
-**古腾堡圣经不只是一本书，它是人类第一个"用户界面"。** 在此之前，书是给精英看的奢侈品；在此之后，书是给所有人看的工具。古腾堡面临的设计挑战和今天的 UI 设计师一模一样：如何让信息清晰、美观、高效地到达用户？
+**å¤è…¾å ¡åœ£ç»ä¸åªæ˜¯ä¸€æœ¬ä¹¦ï¼Œå®ƒæ˜¯äººç±»ç¬¬ä¸€ä¸ª"ç”¨æˆ·ç•Œé¢"ã€‚** åœ¨æ­¤ä¹‹å‰ï¼Œä¹¦æ˜¯ç»™ç²¾è‹±çœ‹çš„å¥¢ä¾ˆå“ï¼›åœ¨æ­¤ä¹‹åŽï¼Œä¹¦æ˜¯ç»™æ‰€æœ‰äººçœ‹çš„å·¥å…·ã€‚å¤è…¾å ¡é¢ä¸´çš„è®¾è®¡æŒ‘æˆ˜å’Œä»Šå¤©çš„ UI è®¾è®¡å¸ˆä¸€æ¨¡ä¸€æ ·ï¼šå¦‚ä½•è®©ä¿¡æ¯æ¸…æ™°ã€ç¾Žè§‚ã€é«˜æ•ˆåœ°åˆ°è¾¾ç”¨æˆ·ï¼Ÿ
 
-42行、双栏、黄金比例的页面——这些不是偶然的选择，而是深思熟虑的信息架构。571年后，我们的屏幕上仍然在用栏、网格、字体层级。
+42è¡Œã€åŒæ ã€é»„é‡‘æ¯”ä¾‹çš„é¡µé¢â€”â€”è¿™äº›ä¸æ˜¯å¶ç„¶çš„é€‰æ‹©ï¼Œè€Œæ˜¯æ·±æ€ç†Ÿè™‘çš„ä¿¡æ¯æž¶æž„ã€‚571å¹´åŽï¼Œæˆ‘ä»¬çš„å±å¹•ä¸Šä»ç„¶åœ¨ç”¨æ ã€ç½‘æ ¼ã€å­—ä½“å±‚çº§ã€‚
 
-**技术改变了，设计问题没有变。**`,
+**æŠ€æœ¯æ”¹å˜äº†ï¼Œè®¾è®¡é—®é¢˜æ²¡æœ‰å˜ã€‚**`,
 
-    dateConnection_en: 'February 23, 1455 is traditionally recognized as the publication date of the Gutenberg Bible — the first major book printed with movable metal type in the Western world. This date marks the most profound revolution in the history of human communication: knowledge ceased to be a hand-copied luxury and became a mass-producible, democratized medium.',
+    dateConnection_en: 'February 23, 1455 is traditionally recognized as the publication date of the Gutenberg Bible â€” the first major book printed with movable metal type in the Western world. This date marks the most profound revolution in the history of human communication: knowledge ceased to be a hand-copied luxury and became a mass-producible, democratized medium.',
     
-    designerBio_en: `Johannes Gutenberg (c. 1400–1468), born in Mainz, Germany, was a goldsmith by trade. He spent nearly two decades combining metalcasting, ink formulation, and press engineering into a complete movable type printing system.
+    designerBio_en: `Johannes Gutenberg (c. 1400â€“1468), born in Mainz, Germany, was a goldsmith by trade. He spent nearly two decades combining metalcasting, ink formulation, and press engineering into a complete movable type printing system.
 
-His breakthrough wasn't "inventing movable type" — Bi Sheng in China had created ceramic movable type in the 11th century. Gutenberg's genius was in systems design: he invented the hand mold for rapid, precise mass-production of metal type; he formulated oil-based ink to replace water-based ink for sharper, more durable impressions; he adapted the wine press into a printing press.
+His breakthrough wasn't "inventing movable type" â€” Bi Sheng in China had created ceramic movable type in the 11th century. Gutenberg's genius was in systems design: he invented the hand mold for rapid, precise mass-production of metal type; he formulated oil-based ink to replace water-based ink for sharper, more durable impressions; he adapted the wine press into a printing press.
 
-No single component was revolutionary on its own, but together they became a world-changing system. This is true design thinking — not inventing one part, but designing an entire workflow.`,
+No single component was revolutionary on its own, but together they became a world-changing system. This is true design thinking â€” not inventing one part, but designing an entire workflow.`,
     
-    story_en: `The Gutenberg Bible took roughly two years to print (1453–1455). 180 copies were produced — approximately 135 on paper and 45 on the more expensive vellum, each requiring 170 calfskins.
+    story_en: `The Gutenberg Bible took roughly two years to print (1453â€“1455). 180 copies were produced â€” approximately 135 on paper and 45 on the more expensive vellum, each requiring 170 calfskins.
 
-But what truly fascinates designers isn't the output — it's the typographic quality. Gutenberg's goal was that printed pages must be as beautiful as manuscripts.
+But what truly fascinates designers isn't the output â€” it's the typographic quality. Gutenberg's goal was that printed pages must be as beautiful as manuscripts.
 
-He designed 290 different characters — far beyond 26 letters. Medieval manuscripts used extensive ligatures, abbreviations, and variant glyphs, and Gutenberg replicated them all. He even micro-adjusted letter spacing within lines to achieve perfect right-margin justification — a level of precision not surpassed until the digital typesetting era.
+He designed 290 different characters â€” far beyond 26 letters. Medieval manuscripts used extensive ligatures, abbreviations, and variant glyphs, and Gutenberg replicated them all. He even micro-adjusted letter spacing within lines to achieve perfect right-margin justification â€” a level of precision not surpassed until the digital typesetting era.
 
-Each page has 42 lines in two columns. The page proportions approximate the golden ratio. The relationship between text area and margins follows the classic composition rules of medieval codices — rules later rediscovered and named the "Van de Graaf canon" by Jan Tschichold in the 20th century.
+Each page has 42 lines in two columns. The page proportions approximate the golden ratio. The relationship between text area and margins follows the classic composition rules of medieval codices â€” rules later rediscovered and named the "Van de Graaf canon" by Jan Tschichold in the 20th century.
 
-A cruel irony: Gutenberg lost his own printing workshop to a debt dispute before the Bible was even finished. Investor Johann Fust sued and seized the equipment, continuing the business with Gutenberg's apprentice Peter Schöffer. The man who changed the world never profited from it.`,
+A cruel irony: Gutenberg lost his own printing workshop to a debt dispute before the Bible was even finished. Investor Johann Fust sued and seized the equipment, continuing the business with Gutenberg's apprentice Peter SchÃ¶ffer. The man who changed the world never profited from it.`,
     
     legacy_en: `49 copies of the Gutenberg Bible survive today (21 complete), making it one of the world's most precious books. It was inscribed in the UNESCO Memory of the World Register in 2009.
 
 Gutenberg's Textura blackletter directly spawned the Western typeface design tradition. From Garamond to Helvetica, every Western typeface traces its lineage here.
 
-The 42-line, two-column layout is one of the earliest documented systematic typographic grids. Josef Müller-Brockmann specifically referenced medieval manuscript layout traditions in his seminal "Grid Systems."
+The 42-line, two-column layout is one of the earliest documented systematic typographic grids. Josef MÃ¼ller-Brockmann specifically referenced medieval manuscript layout traditions in his seminal "Grid Systems."
 
-It exemplifies "invisible design" — Gutenberg's highest aspiration was making printed pages look like manuscripts. Good design doesn't announce itself; it serves the content. This principle runs through the entire history of graphic design.
+It exemplifies "invisible design" â€” Gutenberg's highest aspiration was making printed pages look like manuscripts. Good design doesn't announce itself; it serves the content. This principle runs through the entire history of graphic design.
 
 Within 50 years of Gutenberg, printing had spread across all of Europe. By 1500, over 20 million books had been printed, directly fueling the Renaissance, the Reformation, and the Scientific Revolution.`,
     
     significance_en: `A book from 571 years ago that remains a textbook in typographic design.
 
-The Gutenberg Bible isn't just a book — it's humanity's first "user interface." Before it, books were luxuries for elites; after it, books were tools for everyone. Gutenberg faced the same design challenge as today's UI designers: how to deliver information to users clearly, beautifully, and efficiently.
+The Gutenberg Bible isn't just a book â€” it's humanity's first "user interface." Before it, books were luxuries for elites; after it, books were tools for everyone. Gutenberg faced the same design challenge as today's UI designers: how to deliver information to users clearly, beautifully, and efficiently.
 
-42 lines, two columns, golden-ratio pages — these weren't accidental choices but deliberate information architecture. 571 years later, our screens still use columns, grids, and typographic hierarchy.
+42 lines, two columns, golden-ratio pages â€” these weren't accidental choices but deliberate information architecture. 571 years later, our screens still use columns, grids, and typographic hierarchy.
 
 The technology changed. The design problems didn't.`
   },
@@ -1408,73 +1408,73 @@ The technology changed. The design problems didn't.`
     designer: 'Bruce Kilgore',
     year: '1982',
     
-    dateConnection: '1938年2月24日，Phil Knight 出生于俄勒冈州波特兰。1964年，他与田径教练 Bill Bowerman 共同创立了 Blue Ribbon Sports，后更名为 Nike。Knight 不是设计师，但他建立了一家以设计为核心竞争力的公司——从 Carolyn Davidson 的 Swoosh 标志到 Tinker Hatfield 的 Air Jordan 系列，Nike 证明了运动鞋可以是工业设计的最高表达。',
+    dateConnection: '1938å¹´2æœˆ24æ—¥ï¼ŒPhil Knight å‡ºç”ŸäºŽä¿„å‹’å†ˆå·žæ³¢ç‰¹å…°ã€‚1964å¹´ï¼Œä»–ä¸Žç”°å¾„æ•™ç»ƒ Bill Bowerman å…±åŒåˆ›ç«‹äº† Blue Ribbon Sportsï¼ŒåŽæ›´åä¸º Nikeã€‚Knight ä¸æ˜¯è®¾è®¡å¸ˆï¼Œä½†ä»–å»ºç«‹äº†ä¸€å®¶ä»¥è®¾è®¡ä¸ºæ ¸å¿ƒç«žäº‰åŠ›çš„å…¬å¸â€”â€”ä»Ž Carolyn Davidson çš„ Swoosh æ ‡å¿—åˆ° Tinker Hatfield çš„ Air Jordan ç³»åˆ—ï¼ŒNike è¯æ˜Žäº†è¿åŠ¨éž‹å¯ä»¥æ˜¯å·¥ä¸šè®¾è®¡çš„æœ€é«˜è¡¨è¾¾ã€‚',
     
-    designerBio: `Bruce Kilgore 是 Nike Air Force 1 的设计师，也是将 Nike Air 气垫技术首次引入篮球鞋的人。他1982年的设计彻底改写了运动鞋的定义。
+    designerBio: `Bruce Kilgore æ˜¯ Nike Air Force 1 çš„è®¾è®¡å¸ˆï¼Œä¹Ÿæ˜¯å°† Nike Air æ°”åž«æŠ€æœ¯é¦–æ¬¡å¼•å…¥ç¯®çƒéž‹çš„äººã€‚ä»–1982å¹´çš„è®¾è®¡å½»åº•æ”¹å†™äº†è¿åŠ¨éž‹çš„å®šä¹‰ã€‚
 
-但 Nike 的设计基因要追溯到更早。联合创始人 Bill Bowerman 是一个痴迷于跑鞋的田径教练，他用妻子的华夫饼机浇铸橡胶，发明了传奇的华夫底（Waffle Sole）——这个故事成了设计创新的经典案例：最好的设计灵感往往来自最意想不到的地方。
+ä½† Nike çš„è®¾è®¡åŸºå› è¦è¿½æº¯åˆ°æ›´æ—©ã€‚è”åˆåˆ›å§‹äºº Bill Bowerman æ˜¯ä¸€ä¸ªç—´è¿·äºŽè·‘éž‹çš„ç”°å¾„æ•™ç»ƒï¼Œä»–ç”¨å¦»å­çš„åŽå¤«é¥¼æœºæµ‡é“¸æ©¡èƒ¶ï¼Œå‘æ˜Žäº†ä¼ å¥‡çš„åŽå¤«åº•ï¼ˆWaffle Soleï¼‰â€”â€”è¿™ä¸ªæ•…äº‹æˆäº†è®¾è®¡åˆ›æ–°çš„ç»å…¸æ¡ˆä¾‹ï¼šæœ€å¥½çš„è®¾è®¡çµæ„Ÿå¾€å¾€æ¥è‡ªæœ€æ„æƒ³ä¸åˆ°çš„åœ°æ–¹ã€‚
 
-1971年，平面设计专业学生 Carolyn Davidson 以35美元的价格设计了 Swoosh 标志。Phil Knight 当时说"我不喜欢它，但也许会慢慢习惯。"这个35美元的设计后来成为世界上最有辨识度的商标之一。`,
+1971å¹´ï¼Œå¹³é¢è®¾è®¡ä¸“ä¸šå­¦ç”Ÿ Carolyn Davidson ä»¥35ç¾Žå…ƒçš„ä»·æ ¼è®¾è®¡äº† Swoosh æ ‡å¿—ã€‚Phil Knight å½“æ—¶è¯´"æˆ‘ä¸å–œæ¬¢å®ƒï¼Œä½†ä¹Ÿè®¸ä¼šæ…¢æ…¢ä¹ æƒ¯ã€‚"è¿™ä¸ª35ç¾Žå…ƒçš„è®¾è®¡åŽæ¥æˆä¸ºä¸–ç•Œä¸Šæœ€æœ‰è¾¨è¯†åº¦çš„å•†æ ‡ä¹‹ä¸€ã€‚`,
     
-    story: `Air Force 1 诞生于1982年，是第一双搭载 Nike Air 气垫的篮球鞋。Bruce Kilgore 的设计突破不只是技术层面——他重新定义了一双鞋可以是什么。
+    story: `Air Force 1 è¯žç”ŸäºŽ1982å¹´ï¼Œæ˜¯ç¬¬ä¸€åŒæ­è½½ Nike Air æ°”åž«çš„ç¯®çƒéž‹ã€‚Bruce Kilgore çš„è®¾è®¡çªç ´ä¸åªæ˜¯æŠ€æœ¯å±‚é¢â€”â€”ä»–é‡æ–°å®šä¹‰äº†ä¸€åŒéž‹å¯ä»¥æ˜¯ä»€ä¹ˆã€‚
 
-圆形的外底设计灵感来自古罗马建筑的拱门结构，将力学原理应用到鞋底，让穿着者可以更灵活地做出快速转身动作。鞋面的简洁线条在当时的篮球鞋中独树一帜——那个年代的球鞋普遍追求复杂的结构和夸张的支撑，Kilgore 却选择了克制与优雅。
+åœ†å½¢çš„å¤–åº•è®¾è®¡çµæ„Ÿæ¥è‡ªå¤ç½—é©¬å»ºç­‘çš„æ‹±é—¨ç»“æž„ï¼Œå°†åŠ›å­¦åŽŸç†åº”ç”¨åˆ°éž‹åº•ï¼Œè®©ç©¿ç€è€…å¯ä»¥æ›´çµæ´»åœ°åšå‡ºå¿«é€Ÿè½¬èº«åŠ¨ä½œã€‚éž‹é¢çš„ç®€æ´çº¿æ¡åœ¨å½“æ—¶çš„ç¯®çƒéž‹ä¸­ç‹¬æ ‘ä¸€å¸œâ€”â€”é‚£ä¸ªå¹´ä»£çš„çƒéž‹æ™®éè¿½æ±‚å¤æ‚çš„ç»“æž„å’Œå¤¸å¼ çš„æ”¯æ’‘ï¼ŒKilgore å´é€‰æ‹©äº†å…‹åˆ¶ä¸Žä¼˜é›…ã€‚
 
-Air Force 1 最初只生产了一年就停产了。但它在街头文化中获得了第二次生命。1986年，巴尔的摩的三家运动鞋店说服 Nike 重新生产这款鞋——这是 Nike 历史上第一次"复刻"（Retro）。这个决定开创了球鞋文化的一个全新范式：一双运动鞋可以超越功能，成为文化符号。
+Air Force 1 æœ€åˆåªç”Ÿäº§äº†ä¸€å¹´å°±åœäº§äº†ã€‚ä½†å®ƒåœ¨è¡—å¤´æ–‡åŒ–ä¸­èŽ·å¾—äº†ç¬¬äºŒæ¬¡ç”Ÿå‘½ã€‚1986å¹´ï¼Œå·´å°”çš„æ‘©çš„ä¸‰å®¶è¿åŠ¨éž‹åº—è¯´æœ Nike é‡æ–°ç”Ÿäº§è¿™æ¬¾éž‹â€”â€”è¿™æ˜¯ Nike åŽ†å²ä¸Šç¬¬ä¸€æ¬¡"å¤åˆ»"ï¼ˆRetroï¼‰ã€‚è¿™ä¸ªå†³å®šå¼€åˆ›äº†çƒéž‹æ–‡åŒ–çš„ä¸€ä¸ªå…¨æ–°èŒƒå¼ï¼šä¸€åŒè¿åŠ¨éž‹å¯ä»¥è¶…è¶ŠåŠŸèƒ½ï¼Œæˆä¸ºæ–‡åŒ–ç¬¦å·ã€‚
 
-纯白色的 Air Force 1（"White-on-White"）成为嘻哈文化的标志。Nelly 在2002年专门为它写了一首歌《Air Force Ones》。从纽约的篮球场到东京的潮流店，从说唱歌手到时装设计师，AF1 成了跨越阶层、种族和地域的通用语言。
+çº¯ç™½è‰²çš„ Air Force 1ï¼ˆ"White-on-White"ï¼‰æˆä¸ºå˜»å“ˆæ–‡åŒ–çš„æ ‡å¿—ã€‚Nelly åœ¨2002å¹´ä¸“é—¨ä¸ºå®ƒå†™äº†ä¸€é¦–æ­Œã€ŠAir Force Onesã€‹ã€‚ä»Žçº½çº¦çš„ç¯®çƒåœºåˆ°ä¸œäº¬çš„æ½®æµåº—ï¼Œä»Žè¯´å”±æ­Œæ‰‹åˆ°æ—¶è£…è®¾è®¡å¸ˆï¼ŒAF1 æˆäº†è·¨è¶Šé˜¶å±‚ã€ç§æ—å’Œåœ°åŸŸçš„é€šç”¨è¯­è¨€ã€‚
 
-截至今天，Air Force 1 已经推出超过2000个配色版本，累计销售超过数亿双。它是历史上最畅销的运动鞋，没有之一。`,
+æˆªè‡³ä»Šå¤©ï¼ŒAir Force 1 å·²ç»æŽ¨å‡ºè¶…è¿‡2000ä¸ªé…è‰²ç‰ˆæœ¬ï¼Œç´¯è®¡é”€å”®è¶…è¿‡æ•°äº¿åŒã€‚å®ƒæ˜¯åŽ†å²ä¸Šæœ€ç•…é”€çš„è¿åŠ¨éž‹ï¼Œæ²¡æœ‰ä¹‹ä¸€ã€‚`,
 
-    legacy: `Nike Air Force 1 对设计界的影响远超运动鞋领域：
+    legacy: `Nike Air Force 1 å¯¹è®¾è®¡ç•Œçš„å½±å“è¿œè¶…è¿åŠ¨éž‹é¢†åŸŸï¼š
 
-**球鞋文化的起点**：AF1 的复刻开创了"经典重生"的商业模式，直接催生了今天价值数十亿美元的球鞋转售市场和潮流文化。Supreme、Off-White、Travis Scott——所有球鞋联名的源头都可以追溯到 AF1。
+**çƒéž‹æ–‡åŒ–çš„èµ·ç‚¹**ï¼šAF1 çš„å¤åˆ»å¼€åˆ›äº†"ç»å…¸é‡ç”Ÿ"çš„å•†ä¸šæ¨¡å¼ï¼Œç›´æŽ¥å‚¬ç”Ÿäº†ä»Šå¤©ä»·å€¼æ•°åäº¿ç¾Žå…ƒçš„çƒéž‹è½¬å”®å¸‚åœºå’Œæ½®æµæ–‡åŒ–ã€‚Supremeã€Off-Whiteã€Travis Scottâ€”â€”æ‰€æœ‰çƒéž‹è”åçš„æºå¤´éƒ½å¯ä»¥è¿½æº¯åˆ° AF1ã€‚
 
-**设计民主化**：Nike 后来推出了 Nike By You（原 NikeID），让消费者可以定制自己的 AF1 配色。这比"大规模定制"（Mass Customization）这个概念流行早了二十年。
+**è®¾è®¡æ°‘ä¸»åŒ–**ï¼šNike åŽæ¥æŽ¨å‡ºäº† Nike By Youï¼ˆåŽŸ NikeIDï¼‰ï¼Œè®©æ¶ˆè´¹è€…å¯ä»¥å®šåˆ¶è‡ªå·±çš„ AF1 é…è‰²ã€‚è¿™æ¯”"å¤§è§„æ¨¡å®šåˆ¶"ï¼ˆMass Customizationï¼‰è¿™ä¸ªæ¦‚å¿µæµè¡Œæ—©äº†äºŒåå¹´ã€‚
 
-**跨界设计的先驱**：Virgil Abloh 的 Off-White × Nike "The Ten" 系列（2017）将 AF1 解构重组，模糊了运动鞋、时装和当代艺术的边界。这种跨界合作模式影响了整个消费品设计行业。
+**è·¨ç•Œè®¾è®¡çš„å…ˆé©±**ï¼šVirgil Abloh çš„ Off-White Ã— Nike "The Ten" ç³»åˆ—ï¼ˆ2017ï¼‰å°† AF1 è§£æž„é‡ç»„ï¼Œæ¨¡ç³Šäº†è¿åŠ¨éž‹ã€æ—¶è£…å’Œå½“ä»£è‰ºæœ¯çš„è¾¹ç•Œã€‚è¿™ç§è·¨ç•Œåˆä½œæ¨¡å¼å½±å“äº†æ•´ä¸ªæ¶ˆè´¹å“è®¾è®¡è¡Œä¸šã€‚
 
-**Swoosh 的设计传奇**：Carolyn Davidson 的35美元 Swoosh 后来被认为是史上最成功的标志设计之一。Nike 在1983年送给她一枚钻石 Swoosh 戒指和公司股票作为补偿——按今天的市值计算，这些股票价值数百万美元。`,
+**Swoosh çš„è®¾è®¡ä¼ å¥‡**ï¼šCarolyn Davidson çš„35ç¾Žå…ƒ Swoosh åŽæ¥è¢«è®¤ä¸ºæ˜¯å²ä¸Šæœ€æˆåŠŸçš„æ ‡å¿—è®¾è®¡ä¹‹ä¸€ã€‚Nike åœ¨1983å¹´é€ç»™å¥¹ä¸€æžšé’»çŸ³ Swoosh æˆ’æŒ‡å’Œå…¬å¸è‚¡ç¥¨ä½œä¸ºè¡¥å¿â€”â€”æŒ‰ä»Šå¤©çš„å¸‚å€¼è®¡ç®—ï¼Œè¿™äº›è‚¡ç¥¨ä»·å€¼æ•°ç™¾ä¸‡ç¾Žå…ƒã€‚`,
     
-    significance: `一双1982年的篮球鞋，如何成为21世纪最具影响力的工业设计产品？
+    significance: `ä¸€åŒ1982å¹´çš„ç¯®çƒéž‹ï¼Œå¦‚ä½•æˆä¸º21ä¸–çºªæœ€å…·å½±å“åŠ›çš„å·¥ä¸šè®¾è®¡äº§å“ï¼Ÿ
 
-答案藏在 Phil Knight 的创业哲学里：**不要卖产品，要讲故事。** Nike 从来不只是一家运动鞋公司——它是一家设计公司，一家营销公司，一家文化公司。Air Force 1 的成功证明了一个设计真理：**最好的产品设计不是在解决问题，而是在创造意义。**
+ç­”æ¡ˆè—åœ¨ Phil Knight çš„åˆ›ä¸šå“²å­¦é‡Œï¼š**ä¸è¦å–äº§å“ï¼Œè¦è®²æ•…äº‹ã€‚** Nike ä»Žæ¥ä¸åªæ˜¯ä¸€å®¶è¿åŠ¨éž‹å…¬å¸â€”â€”å®ƒæ˜¯ä¸€å®¶è®¾è®¡å…¬å¸ï¼Œä¸€å®¶è¥é”€å…¬å¸ï¼Œä¸€å®¶æ–‡åŒ–å…¬å¸ã€‚Air Force 1 çš„æˆåŠŸè¯æ˜Žäº†ä¸€ä¸ªè®¾è®¡çœŸç†ï¼š**æœ€å¥½çš„äº§å“è®¾è®¡ä¸æ˜¯åœ¨è§£å†³é—®é¢˜ï¼Œè€Œæ˜¯åœ¨åˆ›é€ æ„ä¹‰ã€‚**
 
-当 Bruce Kilgore 画出 AF1 的第一张草图时，他设计的是一双篮球鞋。四十多年后，全世界的人穿着它上班、约会、参加时装周。一个产品从"工具"变成"图腾"，这就是设计的终极力量。`,
+å½“ Bruce Kilgore ç”»å‡º AF1 çš„ç¬¬ä¸€å¼ è‰å›¾æ—¶ï¼Œä»–è®¾è®¡çš„æ˜¯ä¸€åŒç¯®çƒéž‹ã€‚å››åå¤šå¹´åŽï¼Œå…¨ä¸–ç•Œçš„äººç©¿ç€å®ƒä¸Šç­ã€çº¦ä¼šã€å‚åŠ æ—¶è£…å‘¨ã€‚ä¸€ä¸ªäº§å“ä»Ž"å·¥å…·"å˜æˆ"å›¾è…¾"ï¼Œè¿™å°±æ˜¯è®¾è®¡çš„ç»ˆæžåŠ›é‡ã€‚`,
 
-    dateConnection_en: 'February 24, 1938 marks the birth of Phil Knight in Portland, Oregon. In 1964, he co-founded Blue Ribbon Sports with track coach Bill Bowerman, later renamed Nike. Knight wasn\'t a designer, but he built a company where design was the core competitive advantage — from Carolyn Davidson\'s Swoosh to Tinker Hatfield\'s Air Jordan line, Nike proved that athletic footwear could be the highest expression of industrial design.',
+    dateConnection_en: 'February 24, 1938 marks the birth of Phil Knight in Portland, Oregon. In 1964, he co-founded Blue Ribbon Sports with track coach Bill Bowerman, later renamed Nike. Knight wasn\'t a designer, but he built a company where design was the core competitive advantage â€” from Carolyn Davidson\'s Swoosh to Tinker Hatfield\'s Air Jordan line, Nike proved that athletic footwear could be the highest expression of industrial design.',
     
     designerBio_en: `Bruce Kilgore designed the Nike Air Force 1, becoming the first person to integrate Nike Air cushioning into a basketball shoe. His 1982 design fundamentally redefined what a sneaker could be.
 
-But Nike's design DNA goes back further. Co-founder Bill Bowerman was a track coach obsessed with running shoes who poured rubber into his wife's waffle iron, inventing the legendary Waffle Sole — a story that became a classic case study in design innovation: the best design inspiration often comes from the most unexpected places.
+But Nike's design DNA goes back further. Co-founder Bill Bowerman was a track coach obsessed with running shoes who poured rubber into his wife's waffle iron, inventing the legendary Waffle Sole â€” a story that became a classic case study in design innovation: the best design inspiration often comes from the most unexpected places.
 
 In 1971, graphic design student Carolyn Davidson designed the Swoosh logo for $35. Phil Knight said at the time, "I don't love it, but maybe it will grow on me." That $35 design became one of the most recognizable trademarks in the world.`,
     
-    story_en: `The Air Force 1 was born in 1982 as the first basketball shoe featuring Nike Air cushioning. Bruce Kilgore's breakthrough wasn't just technical — he redefined what a shoe could be.
+    story_en: `The Air Force 1 was born in 1982 as the first basketball shoe featuring Nike Air cushioning. Bruce Kilgore's breakthrough wasn't just technical â€” he redefined what a shoe could be.
 
-The circular outsole design was inspired by Roman architectural arches, applying structural engineering principles to a shoe sole for enhanced pivot movement. The clean upper lines were unprecedented among basketball shoes of that era — when most court shoes pursued complex structures and exaggerated support, Kilgore chose restraint and elegance.
+The circular outsole design was inspired by Roman architectural arches, applying structural engineering principles to a shoe sole for enhanced pivot movement. The clean upper lines were unprecedented among basketball shoes of that era â€” when most court shoes pursued complex structures and exaggerated support, Kilgore chose restraint and elegance.
 
-The Air Force 1 was initially produced for just one year before being discontinued. But it found a second life in street culture. In 1986, three Baltimore sneaker stores convinced Nike to reproduce the shoe — Nike's first-ever "Retro." This decision created an entirely new paradigm in sneaker culture: an athletic shoe could transcend function and become a cultural symbol.
+The Air Force 1 was initially produced for just one year before being discontinued. But it found a second life in street culture. In 1986, three Baltimore sneaker stores convinced Nike to reproduce the shoe â€” Nike's first-ever "Retro." This decision created an entirely new paradigm in sneaker culture: an athletic shoe could transcend function and become a cultural symbol.
 
-The all-white Air Force 1 ("White-on-White") became an icon of hip-hop culture. Nelly wrote an entire song about it in 2002 — "Air Force Ones." From New York basketball courts to Tokyo boutiques, from rappers to fashion designers, the AF1 became a universal language that crossed class, race, and geography.
+The all-white Air Force 1 ("White-on-White") became an icon of hip-hop culture. Nelly wrote an entire song about it in 2002 â€” "Air Force Ones." From New York basketball courts to Tokyo boutiques, from rappers to fashion designers, the AF1 became a universal language that crossed class, race, and geography.
 
 To date, the Air Force 1 has been released in over 2,000 colorways with cumulative sales in the hundreds of millions of pairs. It is the best-selling sneaker in history, bar none.`,
     
     legacy_en: `The Nike Air Force 1's influence extends far beyond athletic footwear:
 
-**The birth of sneaker culture**: The AF1's retro release pioneered the "classic revival" business model, directly spawning today's multi-billion-dollar sneaker resale market and streetwear culture. Supreme, Off-White, Travis Scott — every sneaker collaboration traces its lineage to the AF1.
+**The birth of sneaker culture**: The AF1's retro release pioneered the "classic revival" business model, directly spawning today's multi-billion-dollar sneaker resale market and streetwear culture. Supreme, Off-White, Travis Scott â€” every sneaker collaboration traces its lineage to the AF1.
 
 **Design democratization**: Nike later launched Nike By You (formerly NikeID), letting consumers customize their own AF1 colorways. This predated the "mass customization" concept by two decades.
 
-**Cross-disciplinary design pioneer**: Virgil Abloh's Off-White × Nike "The Ten" collection (2017) deconstructed and reassembled the AF1, blurring the boundaries between sneakers, fashion, and contemporary art. This collaborative model influenced the entire consumer product design industry.
+**Cross-disciplinary design pioneer**: Virgil Abloh's Off-White Ã— Nike "The Ten" collection (2017) deconstructed and reassembled the AF1, blurring the boundaries between sneakers, fashion, and contemporary art. This collaborative model influenced the entire consumer product design industry.
 
-**The Swoosh legend**: Carolyn Davidson's $35 Swoosh is now considered one of the most successful logo designs in history. In 1983, Nike gave her a diamond Swoosh ring and company stock as compensation — at today's valuation, those shares would be worth millions of dollars.`,
+**The Swoosh legend**: Carolyn Davidson's $35 Swoosh is now considered one of the most successful logo designs in history. In 1983, Nike gave her a diamond Swoosh ring and company stock as compensation â€” at today's valuation, those shares would be worth millions of dollars.`,
     
     significance_en: `How did a 1982 basketball shoe become the most influential industrial design product of the 21st century?
 
-The answer lies in Phil Knight's founding philosophy: don't sell products, tell stories. Nike was never just a sneaker company — it's a design company, a marketing company, a culture company. The Air Force 1's success proves a design truth: the best product design doesn't solve problems — it creates meaning.
+The answer lies in Phil Knight's founding philosophy: don't sell products, tell stories. Nike was never just a sneaker company â€” it's a design company, a marketing company, a culture company. The Air Force 1's success proves a design truth: the best product design doesn't solve problems â€” it creates meaning.
 
-When Bruce Kilgore sketched the first AF1 draft, he was designing a basketball shoe. Four decades later, people worldwide wear it to work, on dates, and to fashion week. When a product transforms from "tool" to "totem" — that is the ultimate power of design.`
+When Bruce Kilgore sketched the first AF1 draft, he was designing a basketball shoe. Four decades later, people worldwide wear it to work, on dates, and to fashion week. When a product transforms from "tool" to "totem" â€” that is the ultimate power of design.`
   },
 
   {
@@ -1489,77 +1489,77 @@ When Bruce Kilgore sketched the first AF1 draft, he was designing a basketball s
     designer: 'John Wood the Younger',
     year: '1774',
     
-    dateConnection: '1728年2月25日，英国建筑师 John Wood the Younger 出生于巴斯。他继承父亲 John Wood the Elder 的城市规划愿景，设计了被誉为英国乔治亚时代建筑最高成就的 Royal Crescent——一条由30栋联排住宅组成的弧形建筑群，将古罗马的圆形剧场语言转化为住宅建筑的壮丽诗篇。',
+    dateConnection: '1728å¹´2æœˆ25æ—¥ï¼Œè‹±å›½å»ºç­‘å¸ˆ John Wood the Younger å‡ºç”ŸäºŽå·´æ–¯ã€‚ä»–ç»§æ‰¿çˆ¶äº² John Wood the Elder çš„åŸŽå¸‚è§„åˆ’æ„¿æ™¯ï¼Œè®¾è®¡äº†è¢«èª‰ä¸ºè‹±å›½ä¹”æ²»äºšæ—¶ä»£å»ºç­‘æœ€é«˜æˆå°±çš„ Royal Crescentâ€”â€”ä¸€æ¡ç”±30æ ‹è”æŽ’ä½å®…ç»„æˆçš„å¼§å½¢å»ºç­‘ç¾¤ï¼Œå°†å¤ç½—é©¬çš„åœ†å½¢å‰§åœºè¯­è¨€è½¬åŒ–ä¸ºä½å®…å»ºç­‘çš„å£®ä¸½è¯—ç¯‡ã€‚',
     
-    designerBio: `John Wood the Younger（1728-1782）是英国乔治亚时代最重要的建筑师之一。他的父亲 John Wood the Elder 是巴斯城市改造的奠基人，设计了 Queen Square 和 The Circus——一个参照罗马斗兽场内立面的圆形广场。
+    designerBio: `John Wood the Youngerï¼ˆ1728-1782ï¼‰æ˜¯è‹±å›½ä¹”æ²»äºšæ—¶ä»£æœ€é‡è¦çš„å»ºç­‘å¸ˆä¹‹ä¸€ã€‚ä»–çš„çˆ¶äº² John Wood the Elder æ˜¯å·´æ–¯åŸŽå¸‚æ”¹é€ çš„å¥ åŸºäººï¼Œè®¾è®¡äº† Queen Square å’Œ The Circusâ€”â€”ä¸€ä¸ªå‚ç…§ç½—é©¬æ–—å…½åœºå†…ç«‹é¢çš„åœ†å½¢å¹¿åœºã€‚
 
-父亲在 The Circus 尚未完工时便于1754年去世，年仅26岁的小伍德接手了项目，并在完成父亲遗作后，创作了自己的巅峰之作：Royal Crescent。
+çˆ¶äº²åœ¨ The Circus å°šæœªå®Œå·¥æ—¶ä¾¿äºŽ1754å¹´åŽ»ä¸–ï¼Œå¹´ä»…26å²çš„å°ä¼å¾·æŽ¥æ‰‹äº†é¡¹ç›®ï¼Œå¹¶åœ¨å®Œæˆçˆ¶äº²é—ä½œåŽï¼Œåˆ›ä½œäº†è‡ªå·±çš„å·…å³°ä¹‹ä½œï¼šRoyal Crescentã€‚
 
-小伍德的天才在于，他没有简单地复制父亲的语言。The Circus 是向内的、封闭的，像一个私密的内院；而 Royal Crescent 是向外的、开放的，面向广阔的草坪和远方的风景。父与子，圆与弧，内与外——这对建筑父子完成了巴斯城市空间最完美的对话。`,
+å°ä¼å¾·çš„å¤©æ‰åœ¨äºŽï¼Œä»–æ²¡æœ‰ç®€å•åœ°å¤åˆ¶çˆ¶äº²çš„è¯­è¨€ã€‚The Circus æ˜¯å‘å†…çš„ã€å°é—­çš„ï¼Œåƒä¸€ä¸ªç§å¯†çš„å†…é™¢ï¼›è€Œ Royal Crescent æ˜¯å‘å¤–çš„ã€å¼€æ”¾çš„ï¼Œé¢å‘å¹¿é˜”çš„è‰åªå’Œè¿œæ–¹çš„é£Žæ™¯ã€‚çˆ¶ä¸Žå­ï¼Œåœ†ä¸Žå¼§ï¼Œå†…ä¸Žå¤–â€”â€”è¿™å¯¹å»ºç­‘çˆ¶å­å®Œæˆäº†å·´æ–¯åŸŽå¸‚ç©ºé—´æœ€å®Œç¾Žçš„å¯¹è¯ã€‚`,
     
-    story: `Royal Crescent 建于1767年至1774年间，由30栋联排住宅排列成一个巨大的半月形弧线，全长150米。它的正立面由114根爱奥尼亚柱统一支撑，形成一道宏伟的柱廊——从远处看，这不像30栋独立的房子，而像一座完整的宫殿。
+    story: `Royal Crescent å»ºäºŽ1767å¹´è‡³1774å¹´é—´ï¼Œç”±30æ ‹è”æŽ’ä½å®…æŽ’åˆ—æˆä¸€ä¸ªå·¨å¤§çš„åŠæœˆå½¢å¼§çº¿ï¼Œå…¨é•¿150ç±³ã€‚å®ƒçš„æ­£ç«‹é¢ç”±114æ ¹çˆ±å¥¥å°¼äºšæŸ±ç»Ÿä¸€æ”¯æ’‘ï¼Œå½¢æˆä¸€é“å®ä¼Ÿçš„æŸ±å»Šâ€”â€”ä»Žè¿œå¤„çœ‹ï¼Œè¿™ä¸åƒ30æ ‹ç‹¬ç«‹çš„æˆ¿å­ï¼Œè€Œåƒä¸€åº§å®Œæ•´çš„å®«æ®¿ã€‚
 
-这就是它最伟大的设计创新：**统一的城市立面**（Unified Urban Facade）。在 Royal Crescent 之前，住宅就是住宅，每栋房子有自己的门面。Wood the Younger 提出了一个革命性的想法——让私人住宅共享一个公共的建筑表情，让个体服从整体，让城市美学凌驾于个人趣味之上。
+è¿™å°±æ˜¯å®ƒæœ€ä¼Ÿå¤§çš„è®¾è®¡åˆ›æ–°ï¼š**ç»Ÿä¸€çš„åŸŽå¸‚ç«‹é¢**ï¼ˆUnified Urban Facadeï¼‰ã€‚åœ¨ Royal Crescent ä¹‹å‰ï¼Œä½å®…å°±æ˜¯ä½å®…ï¼Œæ¯æ ‹æˆ¿å­æœ‰è‡ªå·±çš„é—¨é¢ã€‚Wood the Younger æå‡ºäº†ä¸€ä¸ªé©å‘½æ€§çš„æƒ³æ³•â€”â€”è®©ç§äººä½å®…å…±äº«ä¸€ä¸ªå…¬å…±çš„å»ºç­‘è¡¨æƒ…ï¼Œè®©ä¸ªä½“æœä»Žæ•´ä½“ï¼Œè®©åŸŽå¸‚ç¾Žå­¦å‡Œé©¾äºŽä¸ªäººè¶£å‘³ä¹‹ä¸Šã€‚
 
-这个理念深刻影响了后来的城市规划。从巴黎的奥斯曼大道到伦敦的摄政街，从圣彼得堡的宫殿广场到纽约的中央公园西大道，"统一立面"成为了塑造城市天际线和街道美学的核心手法。
+è¿™ä¸ªç†å¿µæ·±åˆ»å½±å“äº†åŽæ¥çš„åŸŽå¸‚è§„åˆ’ã€‚ä»Žå·´é»Žçš„å¥¥æ–¯æ›¼å¤§é“åˆ°ä¼¦æ•¦çš„æ‘„æ”¿è¡—ï¼Œä»Žåœ£å½¼å¾—å ¡çš„å®«æ®¿å¹¿åœºåˆ°çº½çº¦çš„ä¸­å¤®å…¬å›­è¥¿å¤§é“ï¼Œ"ç»Ÿä¸€ç«‹é¢"æˆä¸ºäº†å¡‘é€ åŸŽå¸‚å¤©é™…çº¿å’Œè¡—é“ç¾Žå­¦çš„æ ¸å¿ƒæ‰‹æ³•ã€‚
 
-Royal Crescent 的选址同样精妙。它坐落在一个缓坡之上，面朝南方，前方是开阔的草坪（Royal Victoria Park）。弧形的设计让每一栋住宅都享有几乎相同的景观视野和日照条件——这是18世纪对"公平设计"的一次优雅实践。`,
+Royal Crescent çš„é€‰å€åŒæ ·ç²¾å¦™ã€‚å®ƒåè½åœ¨ä¸€ä¸ªç¼“å¡ä¹‹ä¸Šï¼Œé¢æœå—æ–¹ï¼Œå‰æ–¹æ˜¯å¼€é˜”çš„è‰åªï¼ˆRoyal Victoria Parkï¼‰ã€‚å¼§å½¢çš„è®¾è®¡è®©æ¯ä¸€æ ‹ä½å®…éƒ½äº«æœ‰å‡ ä¹Žç›¸åŒçš„æ™¯è§‚è§†é‡Žå’Œæ—¥ç…§æ¡ä»¶â€”â€”è¿™æ˜¯18ä¸–çºªå¯¹"å…¬å¹³è®¾è®¡"çš„ä¸€æ¬¡ä¼˜é›…å®žè·µã€‚`,
 
-    legacy: `Royal Crescent 对建筑和城市设计的影响延续至今：
+    legacy: `Royal Crescent å¯¹å»ºç­‘å’ŒåŸŽå¸‚è®¾è®¡çš„å½±å“å»¶ç»­è‡³ä»Šï¼š
 
-**城市设计的典范**：它证明了住宅建筑可以承担城市美学的使命。今天城市规划中的"设计导则"（Design Guidelines）——对建筑高度、材料、立面风格的统一要求——其思想源头可以直接追溯到 Wood 的巴斯实验。
+**åŸŽå¸‚è®¾è®¡çš„å…¸èŒƒ**ï¼šå®ƒè¯æ˜Žäº†ä½å®…å»ºç­‘å¯ä»¥æ‰¿æ‹…åŸŽå¸‚ç¾Žå­¦çš„ä½¿å‘½ã€‚ä»Šå¤©åŸŽå¸‚è§„åˆ’ä¸­çš„"è®¾è®¡å¯¼åˆ™"ï¼ˆDesign Guidelinesï¼‰â€”â€”å¯¹å»ºç­‘é«˜åº¦ã€ææ–™ã€ç«‹é¢é£Žæ ¼çš„ç»Ÿä¸€è¦æ±‚â€”â€”å…¶æ€æƒ³æºå¤´å¯ä»¥ç›´æŽ¥è¿½æº¯åˆ° Wood çš„å·´æ–¯å®žéªŒã€‚
 
-**场所精神（Genius Loci）的营造**：Royal Crescent 不是孤立的建筑，而是与 The Circus、Gay Street、Queen Square 共同构成的一个完整城市叙事。从方形到圆形到弧形，从封闭到开放，建筑空间像音乐一样展开。这种"建筑序列"（Architectural Sequence）的设计思维影响了从 Le Corbusier 到 Tadao Ando 的无数建筑师。
+**åœºæ‰€ç²¾ç¥žï¼ˆGenius Lociï¼‰çš„è¥é€ **ï¼šRoyal Crescent ä¸æ˜¯å­¤ç«‹çš„å»ºç­‘ï¼Œè€Œæ˜¯ä¸Ž The Circusã€Gay Streetã€Queen Square å…±åŒæž„æˆçš„ä¸€ä¸ªå®Œæ•´åŸŽå¸‚å™äº‹ã€‚ä»Žæ–¹å½¢åˆ°åœ†å½¢åˆ°å¼§å½¢ï¼Œä»Žå°é—­åˆ°å¼€æ”¾ï¼Œå»ºç­‘ç©ºé—´åƒéŸ³ä¹ä¸€æ ·å±•å¼€ã€‚è¿™ç§"å»ºç­‘åºåˆ—"ï¼ˆArchitectural Sequenceï¼‰çš„è®¾è®¡æ€ç»´å½±å“äº†ä»Ž Le Corbusier åˆ° Tadao Ando çš„æ— æ•°å»ºç­‘å¸ˆã€‚
 
-**遗产保护的标杆**：1987年，巴斯整座城市被列入联合国教科文组织世界遗产名录，Royal Crescent 是其中最核心的建筑。它是英国建筑遗产保护运动的重要推动力。
+**é—äº§ä¿æŠ¤çš„æ ‡æ†**ï¼š1987å¹´ï¼Œå·´æ–¯æ•´åº§åŸŽå¸‚è¢«åˆ—å…¥è”åˆå›½æ•™ç§‘æ–‡ç»„ç»‡ä¸–ç•Œé—äº§åå½•ï¼ŒRoyal Crescent æ˜¯å…¶ä¸­æœ€æ ¸å¿ƒçš„å»ºç­‘ã€‚å®ƒæ˜¯è‹±å›½å»ºç­‘é—äº§ä¿æŠ¤è¿åŠ¨çš„é‡è¦æŽ¨åŠ¨åŠ›ã€‚
 
-**巴斯石的美学**：整个 Crescent 使用当地开采的巴斯石（Bath Stone）建造，这种蜜色的石灰岩在不同光线下呈现出温暖的金黄色调——日出时橘红，正午时淡金，日落时琥珀。建筑与材料的完美融合，让 Royal Crescent 成为"在对的地方用对的材料"这一建筑原则的经典案例。`,
+**å·´æ–¯çŸ³çš„ç¾Žå­¦**ï¼šæ•´ä¸ª Crescent ä½¿ç”¨å½“åœ°å¼€é‡‡çš„å·´æ–¯çŸ³ï¼ˆBath Stoneï¼‰å»ºé€ ï¼Œè¿™ç§èœœè‰²çš„çŸ³ç°å²©åœ¨ä¸åŒå…‰çº¿ä¸‹å‘ˆçŽ°å‡ºæ¸©æš–çš„é‡‘é»„è‰²è°ƒâ€”â€”æ—¥å‡ºæ—¶æ©˜çº¢ï¼Œæ­£åˆæ—¶æ·¡é‡‘ï¼Œæ—¥è½æ—¶ç¥ç€ã€‚å»ºç­‘ä¸Žææ–™çš„å®Œç¾Žèžåˆï¼Œè®© Royal Crescent æˆä¸º"åœ¨å¯¹çš„åœ°æ–¹ç”¨å¯¹çš„ææ–™"è¿™ä¸€å»ºç­‘åŽŸåˆ™çš„ç»å…¸æ¡ˆä¾‹ã€‚`,
     
-    significance: `为什么一座248年前的住宅建筑群今天依然重要？
+    significance: `ä¸ºä»€ä¹ˆä¸€åº§248å¹´å‰çš„ä½å®…å»ºç­‘ç¾¤ä»Šå¤©ä¾ç„¶é‡è¦ï¼Ÿ
 
-因为 John Wood the Younger 回答了一个永恒的设计问题：**个体与集体，如何在空间中共存？**
+å› ä¸º John Wood the Younger å›žç­”äº†ä¸€ä¸ªæ°¸æ’çš„è®¾è®¡é—®é¢˜ï¼š**ä¸ªä½“ä¸Žé›†ä½“ï¼Œå¦‚ä½•åœ¨ç©ºé—´ä¸­å…±å­˜ï¼Ÿ**
 
-Royal Crescent 的30栋住宅，每一栋内部都完全不同——业主可以自由装修自己的房子。但从外面看，它们是一个整体，一道优雅的弧线，一首用石头写成的交响乐。
+Royal Crescent çš„30æ ‹ä½å®…ï¼Œæ¯ä¸€æ ‹å†…éƒ¨éƒ½å®Œå…¨ä¸åŒâ€”â€”ä¸šä¸»å¯ä»¥è‡ªç”±è£…ä¿®è‡ªå·±çš„æˆ¿å­ã€‚ä½†ä»Žå¤–é¢çœ‹ï¼Œå®ƒä»¬æ˜¯ä¸€ä¸ªæ•´ä½“ï¼Œä¸€é“ä¼˜é›…çš„å¼§çº¿ï¼Œä¸€é¦–ç”¨çŸ³å¤´å†™æˆçš„äº¤å“ä¹ã€‚
 
-这种"外部统一、内部自由"的设计哲学，今天被用在从手机界面到城市天际线的一切设计中。Apple 的 iOS 有统一的设计语言，但每个 App 内部有自己的个性。城市有统一的街道肌理，但每栋建筑有自己的灵魂。
+è¿™ç§"å¤–éƒ¨ç»Ÿä¸€ã€å†…éƒ¨è‡ªç”±"çš„è®¾è®¡å“²å­¦ï¼Œä»Šå¤©è¢«ç”¨åœ¨ä»Žæ‰‹æœºç•Œé¢åˆ°åŸŽå¸‚å¤©é™…çº¿çš„ä¸€åˆ‡è®¾è®¡ä¸­ã€‚Apple çš„ iOS æœ‰ç»Ÿä¸€çš„è®¾è®¡è¯­è¨€ï¼Œä½†æ¯ä¸ª App å†…éƒ¨æœ‰è‡ªå·±çš„ä¸ªæ€§ã€‚åŸŽå¸‚æœ‰ç»Ÿä¸€çš„è¡—é“è‚Œç†ï¼Œä½†æ¯æ ‹å»ºç­‘æœ‰è‡ªå·±çš„çµé­‚ã€‚
 
-Wood 在250年前就明白了：**好的设计不是消灭个性，而是创造一个让个性得以优雅共存的框架。**`,
+Wood åœ¨250å¹´å‰å°±æ˜Žç™½äº†ï¼š**å¥½çš„è®¾è®¡ä¸æ˜¯æ¶ˆç­ä¸ªæ€§ï¼Œè€Œæ˜¯åˆ›é€ ä¸€ä¸ªè®©ä¸ªæ€§å¾—ä»¥ä¼˜é›…å…±å­˜çš„æ¡†æž¶ã€‚**`,
 
-    dateConnection_en: 'February 25, 1728 marks the birth of English architect John Wood the Younger in Bath. He inherited his father John Wood the Elder\'s vision for urban planning and designed what is considered the crowning achievement of Georgian architecture — the Royal Crescent, a sweeping arc of 30 terraced houses that translated the language of Roman amphitheaters into a magnificent residential composition.',
+    dateConnection_en: 'February 25, 1728 marks the birth of English architect John Wood the Younger in Bath. He inherited his father John Wood the Elder\'s vision for urban planning and designed what is considered the crowning achievement of Georgian architecture â€” the Royal Crescent, a sweeping arc of 30 terraced houses that translated the language of Roman amphitheaters into a magnificent residential composition.',
     
-    designerBio_en: `John Wood the Younger (1728-1782) was one of the most important architects of the Georgian era. His father, John Wood the Elder, laid the foundation for Bath's urban transformation, designing Queen Square and The Circus — a circular plaza modeled after the interior facade of the Roman Colosseum.
+    designerBio_en: `John Wood the Younger (1728-1782) was one of the most important architects of the Georgian era. His father, John Wood the Elder, laid the foundation for Bath's urban transformation, designing Queen Square and The Circus â€” a circular plaza modeled after the interior facade of the Roman Colosseum.
 
 When his father died in 1754 before The Circus was completed, the 26-year-old younger Wood took over the project. After finishing his father's work, he created his own masterpiece: the Royal Crescent.
 
-Wood the Younger's genius lay in not simply replicating his father's vocabulary. The Circus is inward-facing and enclosed, like a private courtyard; the Royal Crescent is outward-facing and open, looking onto expansive lawns and distant landscapes. Father and son, circle and arc, interior and exterior — this architectural father-son duo completed the most perfect spatial dialogue in Bath.`,
+Wood the Younger's genius lay in not simply replicating his father's vocabulary. The Circus is inward-facing and enclosed, like a private courtyard; the Royal Crescent is outward-facing and open, looking onto expansive lawns and distant landscapes. Father and son, circle and arc, interior and exterior â€” this architectural father-son duo completed the most perfect spatial dialogue in Bath.`,
     
-    story_en: `The Royal Crescent was built between 1767 and 1774, comprising 30 terraced houses arranged in a grand crescent spanning 150 meters. Its facade is unified by 114 Ionic columns forming a majestic colonnade — from a distance, it doesn't look like 30 individual houses but rather a single palace.
+    story_en: `The Royal Crescent was built between 1767 and 1774, comprising 30 terraced houses arranged in a grand crescent spanning 150 meters. Its facade is unified by 114 Ionic columns forming a majestic colonnade â€” from a distance, it doesn't look like 30 individual houses but rather a single palace.
 
-This was its greatest design innovation: the **Unified Urban Facade**. Before the Royal Crescent, a house was just a house, each with its own frontage. Wood the Younger proposed a revolutionary idea — private residences sharing a public architectural expression, individuals subordinate to the whole, urban aesthetics elevated above personal taste.
+This was its greatest design innovation: the **Unified Urban Facade**. Before the Royal Crescent, a house was just a house, each with its own frontage. Wood the Younger proposed a revolutionary idea â€” private residences sharing a public architectural expression, individuals subordinate to the whole, urban aesthetics elevated above personal taste.
 
 This concept profoundly influenced subsequent urban planning. From Haussmann's boulevards in Paris to Regent Street in London, from the Palace Square in St. Petersburg to Central Park West in New York, the "unified facade" became a core technique for shaping city skylines and street aesthetics.
 
-The siting was equally masterful. The Crescent sits on a gentle slope, facing south, with open lawns (Royal Victoria Park) stretching before it. The curved design ensures nearly every house enjoys the same views and sunlight — an elegant 18th-century exercise in equitable design.`,
+The siting was equally masterful. The Crescent sits on a gentle slope, facing south, with open lawns (Royal Victoria Park) stretching before it. The curved design ensures nearly every house enjoys the same views and sunlight â€” an elegant 18th-century exercise in equitable design.`,
     
     legacy_en: `The Royal Crescent's influence on architecture and urban design endures:
 
-**A paradigm for urban design**: It proved that residential architecture could serve an urban aesthetic mission. Today's urban "Design Guidelines" — unified requirements for building height, materials, and facade style — trace their intellectual origins directly to Wood's Bath experiment.
+**A paradigm for urban design**: It proved that residential architecture could serve an urban aesthetic mission. Today's urban "Design Guidelines" â€” unified requirements for building height, materials, and facade style â€” trace their intellectual origins directly to Wood's Bath experiment.
 
 **Crafting Genius Loci**: The Royal Crescent isn't an isolated building but part of a complete urban narrative with The Circus, Gay Street, and Queen Square. From square to circle to crescent, from enclosed to open, architectural spaces unfold like music. This "Architectural Sequence" thinking influenced countless architects from Le Corbusier to Tadao Ando.
 
 **A benchmark for heritage conservation**: In 1987, the entire city of Bath was inscribed as a UNESCO World Heritage Site, with the Royal Crescent at its core. It became a driving force behind Britain's architectural heritage conservation movement.
 
-**The aesthetics of Bath Stone**: The entire Crescent is built from locally quarried Bath Stone, a honey-colored limestone that shifts through warm golden hues in changing light — orange-red at dawn, pale gold at noon, amber at sunset. This perfect fusion of building and material makes the Royal Crescent a textbook example of using the right material in the right place.`,
+**The aesthetics of Bath Stone**: The entire Crescent is built from locally quarried Bath Stone, a honey-colored limestone that shifts through warm golden hues in changing light â€” orange-red at dawn, pale gold at noon, amber at sunset. This perfect fusion of building and material makes the Royal Crescent a textbook example of using the right material in the right place.`,
     
     significance_en: `Why does a 248-year-old residential complex still matter today?
 
 Because John Wood the Younger answered an eternal design question: how can the individual and the collective coexist in space?
 
-Each of the Royal Crescent's 30 houses is completely different inside — owners were free to decorate as they wished. But from the outside, they form a unified whole, an elegant arc, a symphony written in stone.
+Each of the Royal Crescent's 30 houses is completely different inside â€” owners were free to decorate as they wished. But from the outside, they form a unified whole, an elegant arc, a symphony written in stone.
 
 This philosophy of "external unity, internal freedom" is applied today in everything from phone interfaces to city skylines. Apple's iOS has a unified design language, yet each app has its own personality. Cities have consistent street textures, yet each building has its own soul.
 
-Wood understood 250 years ago what remains true today: good design doesn't eliminate individuality — it creates a framework where individuality can coexist with grace.`
+Wood understood 250 years ago what remains true today: good design doesn't eliminate individuality â€” it creates a framework where individuality can coexist with grace.`
   },
 
   {
@@ -1568,98 +1568,98 @@ Wood understood 250 years ago what remains true today: good design doesn't elimi
     imageUrl: '/the-daily-object/images/leger-mechanical-elements.jpg',
     fullImageUrl: '/the-daily-object/images/full/leger-mechanical-elements.jpg',
     thumbnailUrl: '/the-daily-object/thumbnails/leger-mechanical-elements.jpg',
-    title: '机械元素',
+    title: 'æœºæ¢°å…ƒç´ ',
     title_en: 'Mechanical Elements',
-    subtitle: 'Fernand Léger, 1918',
+    subtitle: 'Fernand LÃ©ger, 1918',
     category: 'art',
-    designer: 'Fernand Léger',
+    designer: 'Fernand LÃ©ger',
     year: '1918',
     
-    dateConnection: '1881年2月4日，Fernand Léger 出生于法国诺曼底阿让唐。他是立体主义运动的核心人物，也是第一位真正拥抱机器美学的现代画家——他把齿轮、管道和金属质感变成了绘画语言，模糊了纯艺术与工业设计之间的边界。',
+    dateConnection: '1881å¹´2æœˆ4æ—¥ï¼ŒFernand LÃ©ger å‡ºç”ŸäºŽæ³•å›½è¯ºæ›¼åº•é˜¿è®©å”ã€‚ä»–æ˜¯ç«‹ä½“ä¸»ä¹‰è¿åŠ¨çš„æ ¸å¿ƒäººç‰©ï¼Œä¹Ÿæ˜¯ç¬¬ä¸€ä½çœŸæ­£æ‹¥æŠ±æœºå™¨ç¾Žå­¦çš„çŽ°ä»£ç”»å®¶â€”â€”ä»–æŠŠé½¿è½®ã€ç®¡é“å’Œé‡‘å±žè´¨æ„Ÿå˜æˆäº†ç»˜ç”»è¯­è¨€ï¼Œæ¨¡ç³Šäº†çº¯è‰ºæœ¯ä¸Žå·¥ä¸šè®¾è®¡ä¹‹é—´çš„è¾¹ç•Œã€‚',
     
-    designerBio: `Fernand Léger（1881-1955），法国画家、雕塑家、电影制作人，立体主义运动的关键人物。
+    designerBio: `Fernand LÃ©gerï¼ˆ1881-1955ï¼‰ï¼Œæ³•å›½ç”»å®¶ã€é›•å¡‘å®¶ã€ç”µå½±åˆ¶ä½œäººï¼Œç«‹ä½“ä¸»ä¹‰è¿åŠ¨çš„å…³é”®äººç‰©ã€‚
 
-出身诺曼底农家，最初在建筑事务所做制图员——这段经历深刻影响了他对结构和形式的理解。1903年来到巴黎，在学院朱利安和美术学院学习，结识了毕加索和布拉克。
+å‡ºèº«è¯ºæ›¼åº•å†œå®¶ï¼Œæœ€åˆåœ¨å»ºç­‘äº‹åŠ¡æ‰€åšåˆ¶å›¾å‘˜â€”â€”è¿™æ®µç»åŽ†æ·±åˆ»å½±å“äº†ä»–å¯¹ç»“æž„å’Œå½¢å¼çš„ç†è§£ã€‚1903å¹´æ¥åˆ°å·´é»Žï¼Œåœ¨å­¦é™¢æœ±åˆ©å®‰å’Œç¾Žæœ¯å­¦é™¢å­¦ä¹ ï¼Œç»“è¯†äº†æ¯•åŠ ç´¢å’Œå¸ƒæ‹‰å…‹ã€‚
 
-但 Léger 走了一条完全不同的路。毕加索和布拉克把吉他和报纸切碎重组，Léger 则把目光投向了工厂、城市和机器。他被一战中的士兵、大炮和钢铁深深震撼——"我在前线被大炮后膛的光泽迷住了。"
+ä½† LÃ©ger èµ°äº†ä¸€æ¡å®Œå…¨ä¸åŒçš„è·¯ã€‚æ¯•åŠ ç´¢å’Œå¸ƒæ‹‰å…‹æŠŠå‰ä»–å’ŒæŠ¥çº¸åˆ‡ç¢Žé‡ç»„ï¼ŒLÃ©ger åˆ™æŠŠç›®å…‰æŠ•å‘äº†å·¥åŽ‚ã€åŸŽå¸‚å’Œæœºå™¨ã€‚ä»–è¢«ä¸€æˆ˜ä¸­çš„å£«å…µã€å¤§ç‚®å’Œé’¢é“æ·±æ·±éœ‡æ’¼â€”â€”"æˆ‘åœ¨å‰çº¿è¢«å¤§ç‚®åŽè†›çš„å…‰æ³½è¿·ä½äº†ã€‚"
 
-**"现代美学的根基在于机器。"**
+**"çŽ°ä»£ç¾Žå­¦çš„æ ¹åŸºåœ¨äºŽæœºå™¨ã€‚"**
 
-他不是冷冰冰地描绘机器，而是赋予机器以人的温度。他笔下的管道像手臂，齿轮像眼睛，整个画面像一座有呼吸的工厂。`,
+ä»–ä¸æ˜¯å†·å†°å†°åœ°æç»˜æœºå™¨ï¼Œè€Œæ˜¯èµ‹äºˆæœºå™¨ä»¥äººçš„æ¸©åº¦ã€‚ä»–ç¬”ä¸‹çš„ç®¡é“åƒæ‰‹è‡‚ï¼Œé½¿è½®åƒçœ¼ç›ï¼Œæ•´ä¸ªç”»é¢åƒä¸€åº§æœ‰å‘¼å¸çš„å·¥åŽ‚ã€‚`,
     
-    story: `1918年的《机械元素》（Éléments mécaniques）是 Léger 最重要的作品之一。
+    story: `1918å¹´çš„ã€Šæœºæ¢°å…ƒç´ ã€‹ï¼ˆÃ‰lÃ©ments mÃ©caniquesï¼‰æ˜¯ LÃ©ger æœ€é‡è¦çš„ä½œå“ä¹‹ä¸€ã€‚
 
-一战刚刚结束。Léger 从战场归来，整个人被现代工业的力量彻底改变。他在凡尔登前线亲眼见证了机器如何主宰战争——坦克、飞机、重炮——这些钢铁巨兽让个人英雄主义变得毫无意义。
+ä¸€æˆ˜åˆšåˆšç»“æŸã€‚LÃ©ger ä»Žæˆ˜åœºå½’æ¥ï¼Œæ•´ä¸ªäººè¢«çŽ°ä»£å·¥ä¸šçš„åŠ›é‡å½»åº•æ”¹å˜ã€‚ä»–åœ¨å‡¡å°”ç™»å‰çº¿äº²çœ¼è§è¯äº†æœºå™¨å¦‚ä½•ä¸»å®°æˆ˜äº‰â€”â€”å¦å…‹ã€é£žæœºã€é‡ç‚®â€”â€”è¿™äº›é’¢é“å·¨å…½è®©ä¸ªäººè‹±é›„ä¸»ä¹‰å˜å¾—æ¯«æ— æ„ä¹‰ã€‚
 
-但他没有像其他艺术家那样恐惧机器。他选择了**拥抱**。
+ä½†ä»–æ²¡æœ‰åƒå…¶ä»–è‰ºæœ¯å®¶é‚£æ ·ææƒ§æœºå™¨ã€‚ä»–é€‰æ‹©äº†**æ‹¥æŠ±**ã€‚
 
-《机械元素》用圆柱体、锥体和管状形态构建了一个纯粹的机械世界。金属质感的灰色和银色占据画面，偶尔闪过红色和蓝色的点缀。没有人物，没有风景，只有形式——但这些形式有一种奇特的生命力，仿佛这些机械零件正在组装成某种有机生命体。
+ã€Šæœºæ¢°å…ƒç´ ã€‹ç”¨åœ†æŸ±ä½“ã€é”¥ä½“å’Œç®¡çŠ¶å½¢æ€æž„å»ºäº†ä¸€ä¸ªçº¯ç²¹çš„æœºæ¢°ä¸–ç•Œã€‚é‡‘å±žè´¨æ„Ÿçš„ç°è‰²å’Œé“¶è‰²å æ®ç”»é¢ï¼Œå¶å°”é—ªè¿‡çº¢è‰²å’Œè“è‰²çš„ç‚¹ç¼€ã€‚æ²¡æœ‰äººç‰©ï¼Œæ²¡æœ‰é£Žæ™¯ï¼Œåªæœ‰å½¢å¼â€”â€”ä½†è¿™äº›å½¢å¼æœ‰ä¸€ç§å¥‡ç‰¹çš„ç”Ÿå‘½åŠ›ï¼Œä»¿ä½›è¿™äº›æœºæ¢°é›¶ä»¶æ­£åœ¨ç»„è£…æˆæŸç§æœ‰æœºç”Ÿå‘½ä½“ã€‚
 
-**这幅画提出了一个在今天仍然迫切的问题：机器是冷漠的对立面，还是人类创造力的延伸？**
+**è¿™å¹…ç”»æå‡ºäº†ä¸€ä¸ªåœ¨ä»Šå¤©ä»ç„¶è¿«åˆ‡çš„é—®é¢˜ï¼šæœºå™¨æ˜¯å†·æ¼ çš„å¯¹ç«‹é¢ï¼Œè¿˜æ˜¯äººç±»åˆ›é€ åŠ›çš„å»¶ä¼¸ï¼Ÿ**
 
-Léger 的答案很明确：机器是美的。不是因为它模仿了自然，而是因为它诚实——每一个形状都有功能，每一个曲线都有理由。这正是后来包豪斯和现代工业设计的核心信条。`,
+LÃ©ger çš„ç­”æ¡ˆå¾ˆæ˜Žç¡®ï¼šæœºå™¨æ˜¯ç¾Žçš„ã€‚ä¸æ˜¯å› ä¸ºå®ƒæ¨¡ä»¿äº†è‡ªç„¶ï¼Œè€Œæ˜¯å› ä¸ºå®ƒè¯šå®žâ€”â€”æ¯ä¸€ä¸ªå½¢çŠ¶éƒ½æœ‰åŠŸèƒ½ï¼Œæ¯ä¸€ä¸ªæ›²çº¿éƒ½æœ‰ç†ç”±ã€‚è¿™æ­£æ˜¯åŽæ¥åŒ…è±ªæ–¯å’ŒçŽ°ä»£å·¥ä¸šè®¾è®¡çš„æ ¸å¿ƒä¿¡æ¡ã€‚`,
 
-    legacy: `Léger 对设计的影响远超绘画：
+    legacy: `LÃ©ger å¯¹è®¾è®¡çš„å½±å“è¿œè¶…ç»˜ç”»ï¼š
 
-**包豪斯的精神盟友**：虽然 Léger 不是包豪斯成员，但他的"机器美学"与格罗皮乌斯的理念高度一致——艺术不应该害怕工业，而应该与工业融合
+**åŒ…è±ªæ–¯çš„ç²¾ç¥žç›Ÿå‹**ï¼šè™½ç„¶ LÃ©ger ä¸æ˜¯åŒ…è±ªæ–¯æˆå‘˜ï¼Œä½†ä»–çš„"æœºå™¨ç¾Žå­¦"ä¸Žæ ¼ç½—çš®ä¹Œæ–¯çš„ç†å¿µé«˜åº¦ä¸€è‡´â€”â€”è‰ºæœ¯ä¸åº”è¯¥å®³æ€•å·¥ä¸šï¼Œè€Œåº”è¯¥ä¸Žå·¥ä¸šèžåˆ
 
-**平面设计先驱**：他的大色块、粗轮廓、几何构图直接影响了20世纪中叶的海报设计和视觉传达
+**å¹³é¢è®¾è®¡å…ˆé©±**ï¼šä»–çš„å¤§è‰²å—ã€ç²—è½®å»“ã€å‡ ä½•æž„å›¾ç›´æŽ¥å½±å“äº†20ä¸–çºªä¸­å¶çš„æµ·æŠ¥è®¾è®¡å’Œè§†è§‰ä¼ è¾¾
 
-**建筑合作**：他与勒·柯布西耶合作，为马赛公寓等建筑创作壁画，实践了"综合艺术"（Gesamtkunstwerk）的理念
+**å»ºç­‘åˆä½œ**ï¼šä»–ä¸Žå‹’Â·æŸ¯å¸ƒè¥¿è€¶åˆä½œï¼Œä¸ºé©¬èµ›å…¬å¯“ç­‰å»ºç­‘åˆ›ä½œå£ç”»ï¼Œå®žè·µäº†"ç»¼åˆè‰ºæœ¯"ï¼ˆGesamtkunstwerkï¼‰çš„ç†å¿µ
 
-**电影实验**：1924年的实验电影《机械芭蕾》（Ballet Mécanique）是影史上最早的抽象电影之一，影响了后来所有的运动图形设计
+**ç”µå½±å®žéªŒ**ï¼š1924å¹´çš„å®žéªŒç”µå½±ã€Šæœºæ¢°èŠ­è•¾ã€‹ï¼ˆBallet MÃ©caniqueï¼‰æ˜¯å½±å²ä¸Šæœ€æ—©çš„æŠ½è±¡ç”µå½±ä¹‹ä¸€ï¼Œå½±å“äº†åŽæ¥æ‰€æœ‰çš„è¿åŠ¨å›¾å½¢è®¾è®¡
 
-**波普艺术前驱**：他对日常物品的关注、鲜明的色彩和大胆的形式，直接启发了沃霍尔和利希滕斯坦`,
+**æ³¢æ™®è‰ºæœ¯å‰é©±**ï¼šä»–å¯¹æ—¥å¸¸ç‰©å“çš„å…³æ³¨ã€é²œæ˜Žçš„è‰²å½©å’Œå¤§èƒ†çš„å½¢å¼ï¼Œç›´æŽ¥å¯å‘äº†æ²ƒéœå°”å’Œåˆ©å¸Œæ»•æ–¯å¦`,
     
-    significance: `Léger 解决了一个困扰现代设计师一百多年的心理障碍：**机器可以是美的吗？**
+    significance: `LÃ©ger è§£å†³äº†ä¸€ä¸ªå›°æ‰°çŽ°ä»£è®¾è®¡å¸ˆä¸€ç™¾å¤šå¹´çš„å¿ƒç†éšœç¢ï¼š**æœºå™¨å¯ä»¥æ˜¯ç¾Žçš„å—ï¼Ÿ**
 
-在他之前，艺术界对工业革命的态度要么是浪漫主义的逃避（回归自然！），要么是恐惧（机器会毁灭人类！）。Léger 说：停。看看大炮后膛的光泽，看看齿轮咬合的精确，看看管道弯曲的优雅——这些都是美。
+åœ¨ä»–ä¹‹å‰ï¼Œè‰ºæœ¯ç•Œå¯¹å·¥ä¸šé©å‘½çš„æ€åº¦è¦ä¹ˆæ˜¯æµªæ¼«ä¸»ä¹‰çš„é€ƒé¿ï¼ˆå›žå½’è‡ªç„¶ï¼ï¼‰ï¼Œè¦ä¹ˆæ˜¯ææƒ§ï¼ˆæœºå™¨ä¼šæ¯ç­äººç±»ï¼ï¼‰ã€‚LÃ©ger è¯´ï¼šåœã€‚çœ‹çœ‹å¤§ç‚®åŽè†›çš„å…‰æ³½ï¼Œçœ‹çœ‹é½¿è½®å’¬åˆçš„ç²¾ç¡®ï¼Œçœ‹çœ‹ç®¡é“å¼¯æ›²çš„ä¼˜é›…â€”â€”è¿™äº›éƒ½æ˜¯ç¾Žã€‚
 
-这种"机器美学"的态度直接催生了现代工业设计的合法性。没有 Léger 们的铺路，Dieter Rams 的博朗收音机、乔纳森·艾维的 iMac，都不可能被认为是"美的"。
+è¿™ç§"æœºå™¨ç¾Žå­¦"çš„æ€åº¦ç›´æŽ¥å‚¬ç”Ÿäº†çŽ°ä»£å·¥ä¸šè®¾è®¡çš„åˆæ³•æ€§ã€‚æ²¡æœ‰ LÃ©ger ä»¬çš„é“ºè·¯ï¼ŒDieter Rams çš„åšæœ—æ”¶éŸ³æœºã€ä¹”çº³æ£®Â·è‰¾ç»´çš„ iMacï¼Œéƒ½ä¸å¯èƒ½è¢«è®¤ä¸ºæ˜¯"ç¾Žçš„"ã€‚
 
-**他让我们不再害怕承认：人造物可以和自然物一样美丽。这是所有工业设计的起点。**`,
+**ä»–è®©æˆ‘ä»¬ä¸å†å®³æ€•æ‰¿è®¤ï¼šäººé€ ç‰©å¯ä»¥å’Œè‡ªç„¶ç‰©ä¸€æ ·ç¾Žä¸½ã€‚è¿™æ˜¯æ‰€æœ‰å·¥ä¸šè®¾è®¡çš„èµ·ç‚¹ã€‚**`,
 
-    dateConnection_en: 'On February 4, 1881, Fernand Léger was born in Argentan, Normandy, France. A central figure of Cubism, he was the first modern painter to truly embrace machine aesthetics — transforming gears, pipes, and metallic textures into a pictorial language that blurred the boundary between fine art and industrial design.',
+    dateConnection_en: 'On February 4, 1881, Fernand LÃ©ger was born in Argentan, Normandy, France. A central figure of Cubism, he was the first modern painter to truly embrace machine aesthetics â€” transforming gears, pipes, and metallic textures into a pictorial language that blurred the boundary between fine art and industrial design.',
     
-    designerBio_en: `Fernand Léger (1881-1955), French painter, sculptor, and filmmaker, a key figure in the Cubist movement.
+    designerBio_en: `Fernand LÃ©ger (1881-1955), French painter, sculptor, and filmmaker, a key figure in the Cubist movement.
 
-Born to a farming family in Normandy, he initially worked as an architectural draftsman — an experience that deeply shaped his understanding of structure and form. He arrived in Paris in 1903, studying at the Académie Julian and the École des Beaux-Arts, where he met Picasso and Braque.
+Born to a farming family in Normandy, he initially worked as an architectural draftsman â€” an experience that deeply shaped his understanding of structure and form. He arrived in Paris in 1903, studying at the AcadÃ©mie Julian and the Ã‰cole des Beaux-Arts, where he met Picasso and Braque.
 
-But Léger took an entirely different path. While Picasso and Braque deconstructed guitars and newspapers, Léger turned his gaze toward factories, cities, and machines. He was profoundly struck by the soldiers, cannons, and steel of World War I — "At the front, I was dazzled by the gleam of a cannon breech."
+But LÃ©ger took an entirely different path. While Picasso and Braque deconstructed guitars and newspapers, LÃ©ger turned his gaze toward factories, cities, and machines. He was profoundly struck by the soldiers, cannons, and steel of World War I â€” "At the front, I was dazzled by the gleam of a cannon breech."
 
 **"The basis of modern aesthetics is the machine."**
 
-He didn't depict machines coldly — he gave them human warmth. In his paintings, pipes resemble arms, gears look like eyes, and entire compositions breathe like living factories.`,
+He didn't depict machines coldly â€” he gave them human warmth. In his paintings, pipes resemble arms, gears look like eyes, and entire compositions breathe like living factories.`,
     
-    story_en: `The 1918 painting "Éléments mécaniques" (Mechanical Elements) is one of Léger's most important works.
+    story_en: `The 1918 painting "Ã‰lÃ©ments mÃ©caniques" (Mechanical Elements) is one of LÃ©ger's most important works.
 
-World War I had just ended. Léger returned from the battlefield, fundamentally transformed by the power of modern industry. At the Verdun front, he witnessed firsthand how machines dominated warfare — tanks, aircraft, heavy artillery — steel behemoths that rendered individual heroism meaningless.
+World War I had just ended. LÃ©ger returned from the battlefield, fundamentally transformed by the power of modern industry. At the Verdun front, he witnessed firsthand how machines dominated warfare â€” tanks, aircraft, heavy artillery â€” steel behemoths that rendered individual heroism meaningless.
 
 But unlike other artists, he didn't fear the machine. He chose to **embrace** it.
 
-"Mechanical Elements" builds a purely mechanical world from cylinders, cones, and tubular forms. Metallic grays and silvers dominate the canvas, punctuated by flashes of red and blue. No figures, no landscapes — just forms. Yet these forms possess a strange vitality, as if the mechanical parts are assembling themselves into some organic life form.
+"Mechanical Elements" builds a purely mechanical world from cylinders, cones, and tubular forms. Metallic grays and silvers dominate the canvas, punctuated by flashes of red and blue. No figures, no landscapes â€” just forms. Yet these forms possess a strange vitality, as if the mechanical parts are assembling themselves into some organic life form.
 
 **The painting poses a question that remains urgent today: is the machine a cold antithesis to humanity, or an extension of human creativity?**
 
-Léger's answer was clear: machines are beautiful. Not because they imitate nature, but because they are honest — every shape has a function, every curve has a reason. This became the core creed of the Bauhaus and modern industrial design.`,
+LÃ©ger's answer was clear: machines are beautiful. Not because they imitate nature, but because they are honest â€” every shape has a function, every curve has a reason. This became the core creed of the Bauhaus and modern industrial design.`,
     
-    legacy_en: `Léger's influence extends far beyond painting:
+    legacy_en: `LÃ©ger's influence extends far beyond painting:
 
-**Spiritual ally of the Bauhaus**: Though not a Bauhaus member, Léger's "machine aesthetic" aligned closely with Gropius's vision — art shouldn't fear industry but merge with it
+**Spiritual ally of the Bauhaus**: Though not a Bauhaus member, LÃ©ger's "machine aesthetic" aligned closely with Gropius's vision â€” art shouldn't fear industry but merge with it
 
 **Graphic design pioneer**: His bold color blocks, thick outlines, and geometric compositions directly influenced mid-20th century poster design and visual communication
 
-**Architectural collaboration**: He worked with Le Corbusier, creating murals for buildings like the Unité d'Habitation in Marseille, practicing the ideal of Gesamtkunstwerk (total work of art)
+**Architectural collaboration**: He worked with Le Corbusier, creating murals for buildings like the UnitÃ© d'Habitation in Marseille, practicing the ideal of Gesamtkunstwerk (total work of art)
 
-**Film experimentation**: His 1924 experimental film "Ballet Mécanique" was one of cinema's earliest abstract films, influencing all subsequent motion graphics design
+**Film experimentation**: His 1924 experimental film "Ballet MÃ©canique" was one of cinema's earliest abstract films, influencing all subsequent motion graphics design
 
 **Pop Art precursor**: His attention to everyday objects, vivid colors, and bold forms directly inspired Warhol and Lichtenstein`,
     
-    significance_en: `Léger resolved a psychological barrier that had troubled modern designers for over a century: **can machines be beautiful?**
+    significance_en: `LÃ©ger resolved a psychological barrier that had troubled modern designers for over a century: **can machines be beautiful?**
 
-Before him, the art world's attitude toward the Industrial Revolution was either Romantic escapism (return to nature!) or fear (machines will destroy humanity!). Léger said: stop. Look at the gleam of a cannon breech, the precision of meshing gears, the elegance of a curving pipe — these are beautiful.
+Before him, the art world's attitude toward the Industrial Revolution was either Romantic escapism (return to nature!) or fear (machines will destroy humanity!). LÃ©ger said: stop. Look at the gleam of a cannon breech, the precision of meshing gears, the elegance of a curving pipe â€” these are beautiful.
 
-This "machine aesthetic" attitude directly legitimized modern industrial design. Without the groundwork laid by Léger and his contemporaries, Dieter Rams' Braun radios and Jony Ive's iMac could never have been considered "beautiful."
+This "machine aesthetic" attitude directly legitimized modern industrial design. Without the groundwork laid by LÃ©ger and his contemporaries, Dieter Rams' Braun radios and Jony Ive's iMac could never have been considered "beautiful."
 
 **He made us unafraid to admit: human-made objects can be as beautiful as natural ones. This is the starting point of all industrial design.**`
   },
@@ -1676,66 +1676,66 @@ This "machine aesthetic" attitude directly legitimized modern industrial design.
     designer: 'Leo Baekeland',
     year: '1907',
     
-    dateConnection: '1907年2月5日，比利时裔美国化学家 Leo Baekeland 正式宣布发明了酚醛树脂——世界上第一种完全合成的塑料，他将其命名为"Bakelite"（电木）。这一天标志着材料设计史上最重要的转折点：人类第一次创造了一种自然界中不存在的材料，从此彻底改变了工业设计的可能性边界。',
+    dateConnection: '1907å¹´2æœˆ5æ—¥ï¼Œæ¯”åˆ©æ—¶è£”ç¾Žå›½åŒ–å­¦å®¶ Leo Baekeland æ­£å¼å®£å¸ƒå‘æ˜Žäº†é…šé†›æ ‘è„‚â€”â€”ä¸–ç•Œä¸Šç¬¬ä¸€ç§å®Œå…¨åˆæˆçš„å¡‘æ–™ï¼Œä»–å°†å…¶å‘½åä¸º"Bakelite"ï¼ˆç”µæœ¨ï¼‰ã€‚è¿™ä¸€å¤©æ ‡å¿—ç€ææ–™è®¾è®¡å²ä¸Šæœ€é‡è¦çš„è½¬æŠ˜ç‚¹ï¼šäººç±»ç¬¬ä¸€æ¬¡åˆ›é€ äº†ä¸€ç§è‡ªç„¶ç•Œä¸­ä¸å­˜åœ¨çš„ææ–™ï¼Œä»Žæ­¤å½»åº•æ”¹å˜äº†å·¥ä¸šè®¾è®¡çš„å¯èƒ½æ€§è¾¹ç•Œã€‚',
     
-    designerBio: `Leo Hendrik Baekeland（1863-1944），生于比利时根特，20岁获得化学博士学位（当时根特大学最年轻的博士），随后移居美国。
+    designerBio: `Leo Hendrik Baekelandï¼ˆ1863-1944ï¼‰ï¼Œç”ŸäºŽæ¯”åˆ©æ—¶æ ¹ç‰¹ï¼Œ20å²èŽ·å¾—åŒ–å­¦åšå£«å­¦ä½ï¼ˆå½“æ—¶æ ¹ç‰¹å¤§å­¦æœ€å¹´è½»çš„åšå£«ï¼‰ï¼ŒéšåŽç§»å±…ç¾Žå›½ã€‚
 
-在发明 Bakelite 之前，他已经靠发明 Velox 相纸赚到了人生第一桶金——他将这项专利以100万美元（相当于今天约3000万美元）卖给了柯达公司的 George Eastman。
+åœ¨å‘æ˜Ž Bakelite ä¹‹å‰ï¼Œä»–å·²ç»é å‘æ˜Ž Velox ç›¸çº¸èµšåˆ°äº†äººç”Ÿç¬¬ä¸€æ¡¶é‡‘â€”â€”ä»–å°†è¿™é¡¹ä¸“åˆ©ä»¥100ä¸‡ç¾Žå…ƒï¼ˆç›¸å½“äºŽä»Šå¤©çº¦3000ä¸‡ç¾Žå…ƒï¼‰å–ç»™äº†æŸ¯è¾¾å…¬å¸çš„ George Eastmanã€‚
 
-但真正让他名垂青史的是他在纽约扬克斯家中实验室里的执念：找到一种能替代天然虫胶（shellac）的合成材料。虫胶来自紫胶虫的分泌物，供应不稳定且昂贵。Baekeland 花了三年时间研究苯酚和甲醛的反应，最终在高温高压条件下得到了一种全新的物质——坚硬、耐热、绝缘、不溶于任何溶剂，可以被模具塑造成任何形状。
+ä½†çœŸæ­£è®©ä»–ååž‚é’å²çš„æ˜¯ä»–åœ¨çº½çº¦æ‰¬å…‹æ–¯å®¶ä¸­å®žéªŒå®¤é‡Œçš„æ‰§å¿µï¼šæ‰¾åˆ°ä¸€ç§èƒ½æ›¿ä»£å¤©ç„¶è™«èƒ¶ï¼ˆshellacï¼‰çš„åˆæˆææ–™ã€‚è™«èƒ¶æ¥è‡ªç´«èƒ¶è™«çš„åˆ†æ³Œç‰©ï¼Œä¾›åº”ä¸ç¨³å®šä¸”æ˜‚è´µã€‚Baekeland èŠ±äº†ä¸‰å¹´æ—¶é—´ç ”ç©¶è‹¯é…šå’Œç”²é†›çš„ååº”ï¼Œæœ€ç»ˆåœ¨é«˜æ¸©é«˜åŽ‹æ¡ä»¶ä¸‹å¾—åˆ°äº†ä¸€ç§å…¨æ–°çš„ç‰©è´¨â€”â€”åšç¡¬ã€è€çƒ­ã€ç»ç¼˜ã€ä¸æº¶äºŽä»»ä½•æº¶å‰‚ï¼Œå¯ä»¥è¢«æ¨¡å…·å¡‘é€ æˆä»»ä½•å½¢çŠ¶ã€‚
 
-**"The material of a thousand uses"**——他这样称呼自己的发明。事实证明，这个说法还太保守了。`,
+**"The material of a thousand uses"**â€”â€”ä»–è¿™æ ·ç§°å‘¼è‡ªå·±çš„å‘æ˜Žã€‚äº‹å®žè¯æ˜Žï¼Œè¿™ä¸ªè¯´æ³•è¿˜å¤ªä¿å®ˆäº†ã€‚`,
     
-    story: `Bakelite 之所以是设计史的分水岭，不仅因为它是第一种合成塑料，更因为它彻底改变了"什么东西可以被设计"。
+    story: `Bakelite ä¹‹æ‰€ä»¥æ˜¯è®¾è®¡å²çš„åˆ†æ°´å²­ï¼Œä¸ä»…å› ä¸ºå®ƒæ˜¯ç¬¬ä¸€ç§åˆæˆå¡‘æ–™ï¼Œæ›´å› ä¸ºå®ƒå½»åº•æ”¹å˜äº†"ä»€ä¹ˆä¸œè¥¿å¯ä»¥è¢«è®¾è®¡"ã€‚
 
-在 Bakelite 之前，工业设计师受限于自然材料——木头、金属、玻璃、陶瓷。每种材料都有自己的脾气：木头会腐烂，金属会生锈，玻璃会碎。设计师必须顺从材料的限制。
+åœ¨ Bakelite ä¹‹å‰ï¼Œå·¥ä¸šè®¾è®¡å¸ˆå—é™äºŽè‡ªç„¶ææ–™â€”â€”æœ¨å¤´ã€é‡‘å±žã€çŽ»ç’ƒã€é™¶ç“·ã€‚æ¯ç§ææ–™éƒ½æœ‰è‡ªå·±çš„è„¾æ°”ï¼šæœ¨å¤´ä¼šè…çƒ‚ï¼Œé‡‘å±žä¼šç”Ÿé”ˆï¼ŒçŽ»ç’ƒä¼šç¢Žã€‚è®¾è®¡å¸ˆå¿…é¡»é¡ºä»Žææ–™çš„é™åˆ¶ã€‚
 
-Bakelite 打破了这个规则。它可以被注塑成任何形状，可以染成任何颜色，不导电、不怕热、不怕水。突然之间，设计师拥有了一种"听话的材料"——**形式不再被材料决定，而是被想象力决定。**
+Bakelite æ‰“ç ´äº†è¿™ä¸ªè§„åˆ™ã€‚å®ƒå¯ä»¥è¢«æ³¨å¡‘æˆä»»ä½•å½¢çŠ¶ï¼Œå¯ä»¥æŸ“æˆä»»ä½•é¢œè‰²ï¼Œä¸å¯¼ç”µã€ä¸æ€•çƒ­ã€ä¸æ€•æ°´ã€‚çªç„¶ä¹‹é—´ï¼Œè®¾è®¡å¸ˆæ‹¥æœ‰äº†ä¸€ç§"å¬è¯çš„ææ–™"â€”â€”**å½¢å¼ä¸å†è¢«ææ–™å†³å®šï¼Œè€Œæ˜¯è¢«æƒ³è±¡åŠ›å†³å®šã€‚**
 
-1930年代是 Bakelite 的黄金时代。Art Deco 风格的收音机、流线型的电话、色彩鲜艳的珠宝、棋子、烟斗、相机机身——Bakelite 几乎定义了那个时代的物质文化视觉语言。
+1930å¹´ä»£æ˜¯ Bakelite çš„é»„é‡‘æ—¶ä»£ã€‚Art Deco é£Žæ ¼çš„æ”¶éŸ³æœºã€æµçº¿åž‹çš„ç”µè¯ã€è‰²å½©é²œè‰³çš„ç å®ã€æ£‹å­ã€çƒŸæ–—ã€ç›¸æœºæœºèº«â€”â€”Bakelite å‡ ä¹Žå®šä¹‰äº†é‚£ä¸ªæ—¶ä»£çš„ç‰©è´¨æ–‡åŒ–è§†è§‰è¯­è¨€ã€‚
 
-最经典的 Bakelite 设计包括：
-- **Ericsson DBH 1001 电话**（1931）：黑色 Bakelite 机身，优雅的曲线，成为"电话"这个概念的视觉原型
-- **Emerson AU-190 收音机**（1938）：催化剂绿色，Art Deco 造型，现在是收藏家的圣物
-- **Kodak Baby Brownie 相机**（1934）：Walter Dorwin Teague 设计，让摄影民主化的里程碑`,
+æœ€ç»å…¸çš„ Bakelite è®¾è®¡åŒ…æ‹¬ï¼š
+- **Ericsson DBH 1001 ç”µè¯**ï¼ˆ1931ï¼‰ï¼šé»‘è‰² Bakelite æœºèº«ï¼Œä¼˜é›…çš„æ›²çº¿ï¼Œæˆä¸º"ç”µè¯"è¿™ä¸ªæ¦‚å¿µçš„è§†è§‰åŽŸåž‹
+- **Emerson AU-190 æ”¶éŸ³æœº**ï¼ˆ1938ï¼‰ï¼šå‚¬åŒ–å‰‚ç»¿è‰²ï¼ŒArt Deco é€ åž‹ï¼ŒçŽ°åœ¨æ˜¯æ”¶è—å®¶çš„åœ£ç‰©
+- **Kodak Baby Brownie ç›¸æœº**ï¼ˆ1934ï¼‰ï¼šWalter Dorwin Teague è®¾è®¡ï¼Œè®©æ‘„å½±æ°‘ä¸»åŒ–çš„é‡Œç¨‹ç¢‘`,
 
-    legacy: `Bakelite 的影响远远超出了材料本身：
+    legacy: `Bakelite çš„å½±å“è¿œè¿œè¶…å‡ºäº†ææ–™æœ¬èº«ï¼š
 
-**设计民主化**：在 Bakelite 之前，精美的产品只属于富人——银餐具、水晶玻璃、实木家具。Bakelite 让美丽的日用品变得人人买得起。这种"设计民主化"的理念，后来被宜家和无印良品继承发扬。
+**è®¾è®¡æ°‘ä¸»åŒ–**ï¼šåœ¨ Bakelite ä¹‹å‰ï¼Œç²¾ç¾Žçš„äº§å“åªå±žäºŽå¯Œäººâ€”â€”é“¶é¤å…·ã€æ°´æ™¶çŽ»ç’ƒã€å®žæœ¨å®¶å…·ã€‚Bakelite è®©ç¾Žä¸½çš„æ—¥ç”¨å“å˜å¾—äººäººä¹°å¾—èµ·ã€‚è¿™ç§"è®¾è®¡æ°‘ä¸»åŒ–"çš„ç†å¿µï¼ŒåŽæ¥è¢«å®œå®¶å’Œæ— å°è‰¯å“ç»§æ‰¿å‘æ‰¬ã€‚
 
-**塑料时代的开端**：Bakelite 是第一块多米诺骨牌。没有它，就没有后来的尼龙（1935）、聚乙烯（1933）、聚丙烯（1954）。整个20世纪的材料革命，始于 Baekeland 在扬克斯的那间实验室。
+**å¡‘æ–™æ—¶ä»£çš„å¼€ç«¯**ï¼šBakelite æ˜¯ç¬¬ä¸€å—å¤šç±³è¯ºéª¨ç‰Œã€‚æ²¡æœ‰å®ƒï¼Œå°±æ²¡æœ‰åŽæ¥çš„å°¼é¾™ï¼ˆ1935ï¼‰ã€èšä¹™çƒ¯ï¼ˆ1933ï¼‰ã€èšä¸™çƒ¯ï¼ˆ1954ï¼‰ã€‚æ•´ä¸ª20ä¸–çºªçš„ææ–™é©å‘½ï¼Œå§‹äºŽ Baekeland åœ¨æ‰¬å…‹æ–¯çš„é‚£é—´å®žéªŒå®¤ã€‚
 
-**Art Deco 的物质基础**：没有 Bakelite，Art Deco 运动将缺少最重要的表现媒介。那些流线型、几何化、色彩大胆的设计，正是因为 Bakelite 才得以从图纸变为现实。
+**Art Deco çš„ç‰©è´¨åŸºç¡€**ï¼šæ²¡æœ‰ Bakeliteï¼ŒArt Deco è¿åŠ¨å°†ç¼ºå°‘æœ€é‡è¦çš„è¡¨çŽ°åª’ä»‹ã€‚é‚£äº›æµçº¿åž‹ã€å‡ ä½•åŒ–ã€è‰²å½©å¤§èƒ†çš„è®¾è®¡ï¼Œæ­£æ˜¯å› ä¸º Bakelite æ‰å¾—ä»¥ä»Žå›¾çº¸å˜ä¸ºçŽ°å®žã€‚
 
-**可持续性的反思**：讽刺的是，Bakelite 的"不可降解"——当年被视为优点——如今成了塑料污染问题的源头。它提醒我们：每一次材料革命都有双面性。`,
+**å¯æŒç»­æ€§çš„åæ€**ï¼šè®½åˆºçš„æ˜¯ï¼ŒBakelite çš„"ä¸å¯é™è§£"â€”â€”å½“å¹´è¢«è§†ä¸ºä¼˜ç‚¹â€”â€”å¦‚ä»Šæˆäº†å¡‘æ–™æ±¡æŸ“é—®é¢˜çš„æºå¤´ã€‚å®ƒæé†’æˆ‘ä»¬ï¼šæ¯ä¸€æ¬¡ææ–™é©å‘½éƒ½æœ‰åŒé¢æ€§ã€‚`,
     
-    significance: `为什么一种119年前发明的塑料今天仍然重要？
+    significance: `ä¸ºä»€ä¹ˆä¸€ç§119å¹´å‰å‘æ˜Žçš„å¡‘æ–™ä»Šå¤©ä»ç„¶é‡è¦ï¼Ÿ
 
-因为 Bakelite 回答了一个设计的元问题：**当材料不再是限制，设计的限制是什么？**
+å› ä¸º Bakelite å›žç­”äº†ä¸€ä¸ªè®¾è®¡çš„å…ƒé—®é¢˜ï¼š**å½“ææ–™ä¸å†æ˜¯é™åˆ¶ï¼Œè®¾è®¡çš„é™åˆ¶æ˜¯ä»€ä¹ˆï¼Ÿ**
 
-答案是：想象力。
+ç­”æ¡ˆæ˜¯ï¼šæƒ³è±¡åŠ›ã€‚
 
-Baekeland 给了设计师一种可以被塑造成任何形状的材料，从此设计的边界不再是"能做什么"，而是"想做什么"。这个思维方式的转变，比材料本身更具革命性。
+Baekeland ç»™äº†è®¾è®¡å¸ˆä¸€ç§å¯ä»¥è¢«å¡‘é€ æˆä»»ä½•å½¢çŠ¶çš„ææ–™ï¼Œä»Žæ­¤è®¾è®¡çš„è¾¹ç•Œä¸å†æ˜¯"èƒ½åšä»€ä¹ˆ"ï¼Œè€Œæ˜¯"æƒ³åšä»€ä¹ˆ"ã€‚è¿™ä¸ªæ€ç»´æ–¹å¼çš„è½¬å˜ï¼Œæ¯”ææ–™æœ¬èº«æ›´å…·é©å‘½æ€§ã€‚
 
-今天，当我们用3D打印创造前所未有的形态，当我们用碳纤维复合材料设计超级跑车，当我们用生物降解塑料追求可持续设计——我们仍然站在 Baekeland 开创的那条路上：**让材料服务于设计，而不是让设计屈服于材料。**`,
+ä»Šå¤©ï¼Œå½“æˆ‘ä»¬ç”¨3Dæ‰“å°åˆ›é€ å‰æ‰€æœªæœ‰çš„å½¢æ€ï¼Œå½“æˆ‘ä»¬ç”¨ç¢³çº¤ç»´å¤åˆææ–™è®¾è®¡è¶…çº§è·‘è½¦ï¼Œå½“æˆ‘ä»¬ç”¨ç”Ÿç‰©é™è§£å¡‘æ–™è¿½æ±‚å¯æŒç»­è®¾è®¡â€”â€”æˆ‘ä»¬ä»ç„¶ç«™åœ¨ Baekeland å¼€åˆ›çš„é‚£æ¡è·¯ä¸Šï¼š**è®©ææ–™æœåŠ¡äºŽè®¾è®¡ï¼Œè€Œä¸æ˜¯è®©è®¾è®¡å±ˆæœäºŽææ–™ã€‚**`,
 
-    dateConnection_en: 'On February 5, 1907, Belgian-American chemist Leo Baekeland formally announced his invention of phenol formaldehyde resin — the world\'s first fully synthetic plastic, which he named "Bakelite." This day marks the most important turning point in material design history: for the first time, humans created a material that didn\'t exist in nature, permanently expanding the boundaries of what industrial design could achieve.',
+    dateConnection_en: 'On February 5, 1907, Belgian-American chemist Leo Baekeland formally announced his invention of phenol formaldehyde resin â€” the world\'s first fully synthetic plastic, which he named "Bakelite." This day marks the most important turning point in material design history: for the first time, humans created a material that didn\'t exist in nature, permanently expanding the boundaries of what industrial design could achieve.',
     
     designerBio_en: `Leo Hendrik Baekeland (1863-1944) was born in Ghent, Belgium, earning his doctorate in chemistry at age 20 (the youngest PhD at the University of Ghent at the time) before emigrating to the United States.
 
 Before inventing Bakelite, he had already made his fortune by inventing Velox photographic paper, selling the patent to George Eastman of Kodak for $1 million (equivalent to roughly $30 million today).
 
-But what truly secured his place in history was his obsessive work in his home laboratory in Yonkers, New York: finding a synthetic replacement for shellac, a natural resin secreted by lac insects that was expensive and unreliable in supply. Baekeland spent three years studying the reaction between phenol and formaldehyde, ultimately producing under high temperature and pressure an entirely new substance — hard, heat-resistant, electrically insulating, insoluble in any solvent, and moldable into any shape.
+But what truly secured his place in history was his obsessive work in his home laboratory in Yonkers, New York: finding a synthetic replacement for shellac, a natural resin secreted by lac insects that was expensive and unreliable in supply. Baekeland spent three years studying the reaction between phenol and formaldehyde, ultimately producing under high temperature and pressure an entirely new substance â€” hard, heat-resistant, electrically insulating, insoluble in any solvent, and moldable into any shape.
 
-**"The material of a thousand uses"** — that's what he called his invention. As it turned out, even that was an understatement.`,
+**"The material of a thousand uses"** â€” that's what he called his invention. As it turned out, even that was an understatement.`,
     
     story_en: `Bakelite is a watershed in design history not just because it was the first synthetic plastic, but because it fundamentally changed what could be designed.
 
-Before Bakelite, industrial designers were constrained by natural materials — wood, metal, glass, ceramics. Each had its own temperament: wood rots, metal rusts, glass shatters. Designers had to submit to material limitations.
+Before Bakelite, industrial designers were constrained by natural materials â€” wood, metal, glass, ceramics. Each had its own temperament: wood rots, metal rusts, glass shatters. Designers had to submit to material limitations.
 
-Bakelite broke that rule. It could be injection-molded into any shape, dyed any color; it didn't conduct electricity, resisted heat and water. Suddenly, designers had an "obedient material" — **form was no longer dictated by material but by imagination.**
+Bakelite broke that rule. It could be injection-molded into any shape, dyed any color; it didn't conduct electricity, resisted heat and water. Suddenly, designers had an "obedient material" â€” **form was no longer dictated by material but by imagination.**
 
-The 1930s were Bakelite's golden age. Art Deco radios, streamlined telephones, colorful jewelry, chess pieces, pipes, camera bodies — Bakelite virtually defined the visual language of that era's material culture.
+The 1930s were Bakelite's golden age. Art Deco radios, streamlined telephones, colorful jewelry, chess pieces, pipes, camera bodies â€” Bakelite virtually defined the visual language of that era's material culture.
 
 The most iconic Bakelite designs include:
 - **Ericsson DBH 1001 telephone** (1931): Black Bakelite body with elegant curves, becoming the visual prototype of "telephone" as a concept
@@ -1744,13 +1744,13 @@ The most iconic Bakelite designs include:
     
     legacy_en: `Bakelite's influence far exceeded the material itself:
 
-**Democratization of design**: Before Bakelite, beautiful products belonged only to the wealthy — silver cutlery, crystal glass, solid wood furniture. Bakelite made beautiful everyday objects affordable for everyone. This concept of "design democratization" was later carried forward by IKEA and MUJI.
+**Democratization of design**: Before Bakelite, beautiful products belonged only to the wealthy â€” silver cutlery, crystal glass, solid wood furniture. Bakelite made beautiful everyday objects affordable for everyone. This concept of "design democratization" was later carried forward by IKEA and MUJI.
 
 **Dawn of the plastic age**: Bakelite was the first domino. Without it, there would be no nylon (1935), polyethylene (1933), or polypropylene (1954). The entire 20th-century materials revolution began in Baekeland's Yonkers laboratory.
 
 **Material foundation of Art Deco**: Without Bakelite, the Art Deco movement would have lacked its most important expressive medium. Those streamlined, geometric, boldly colored designs became reality precisely because of Bakelite.
 
-**Sustainability reflection**: Ironically, Bakelite's "indestructibility" — once considered a virtue — became the origin of the plastic pollution problem. It reminds us that every material revolution has two sides.`,
+**Sustainability reflection**: Ironically, Bakelite's "indestructibility" â€” once considered a virtue â€” became the origin of the plastic pollution problem. It reminds us that every material revolution has two sides.`,
     
     significance_en: `Why does a plastic invented 119 years ago still matter?
 
@@ -1760,7 +1760,7 @@ The answer: imagination.
 
 Baekeland gave designers a material that could be shaped into anything, shifting design's boundary from "what can be done" to "what do we want to do." This shift in thinking was more revolutionary than the material itself.
 
-Today, when we use 3D printing to create unprecedented forms, carbon fiber composites to design supercars, and biodegradable plastics to pursue sustainable design — we're still walking the path Baekeland pioneered: **making material serve design, not design submit to material.**`
+Today, when we use 3D printing to create unprecedented forms, carbon fiber composites to design supercars, and biodegradable plastics to pursue sustainable design â€” we're still walking the path Baekeland pioneered: **making material serve design, not design submit to material.**`
   },
 
   {
@@ -1775,87 +1775,87 @@ Today, when we use 3D printing to create unprecedented forms, carbon fiber compo
     designer: 'Moshe Safdie',
     year: '2010',
     
-    dateConnection: '1819年2月6日，英国东印度公司的 Stamford Raffles 与柔佛苏丹签署《新加坡条约》，标志着现代新加坡的建立。191年后的2010年，Marina Bay Sands 在同一片土地上拔地而起——这座由 Moshe Safdie 设计的建筑，成为新加坡从殖民地贸易港口蜕变为全球设计之都的终极象征。',
+    dateConnection: '1819å¹´2æœˆ6æ—¥ï¼Œè‹±å›½ä¸œå°åº¦å…¬å¸çš„ Stamford Raffles ä¸ŽæŸ”ä½›è‹ä¸¹ç­¾ç½²ã€Šæ–°åŠ å¡æ¡çº¦ã€‹ï¼Œæ ‡å¿—ç€çŽ°ä»£æ–°åŠ å¡çš„å»ºç«‹ã€‚191å¹´åŽçš„2010å¹´ï¼ŒMarina Bay Sands åœ¨åŒä¸€ç‰‡åœŸåœ°ä¸Šæ‹”åœ°è€Œèµ·â€”â€”è¿™åº§ç”± Moshe Safdie è®¾è®¡çš„å»ºç­‘ï¼Œæˆä¸ºæ–°åŠ å¡ä»Žæ®–æ°‘åœ°è´¸æ˜“æ¸¯å£èœ•å˜ä¸ºå…¨çƒè®¾è®¡ä¹‹éƒ½çš„ç»ˆæžè±¡å¾ã€‚',
     
-    designerBio: `Moshe Safdie（1938-），以色列裔加拿大建筑师，当代最具实验精神的建筑师之一。
+    designerBio: `Moshe Safdieï¼ˆ1938-ï¼‰ï¼Œä»¥è‰²åˆ—è£”åŠ æ‹¿å¤§å»ºç­‘å¸ˆï¼Œå½“ä»£æœ€å…·å®žéªŒç²¾ç¥žçš„å»ºç­‘å¸ˆä¹‹ä¸€ã€‚
 
-他在麦吉尔大学师从 Louis Kahn（也出现在本日历 2月20日），毕业论文就是后来震惊世界的 Habitat 67——1967年蒙特利尔世博会上那个由354个预制混凝土盒子堆叠而成的住宅综合体。这个项目让28岁的 Safdie 一夜成名，也定义了他一生的设计追求：**如何在高密度城市中创造有尊严的居住空间？**
+ä»–åœ¨éº¦å‰å°”å¤§å­¦å¸ˆä»Ž Louis Kahnï¼ˆä¹Ÿå‡ºçŽ°åœ¨æœ¬æ—¥åŽ† 2æœˆ20æ—¥ï¼‰ï¼Œæ¯•ä¸šè®ºæ–‡å°±æ˜¯åŽæ¥éœ‡æƒŠä¸–ç•Œçš„ Habitat 67â€”â€”1967å¹´è’™ç‰¹åˆ©å°”ä¸–åšä¼šä¸Šé‚£ä¸ªç”±354ä¸ªé¢„åˆ¶æ··å‡åœŸç›’å­å †å è€Œæˆçš„ä½å®…ç»¼åˆä½“ã€‚è¿™ä¸ªé¡¹ç›®è®©28å²çš„ Safdie ä¸€å¤œæˆåï¼Œä¹Ÿå®šä¹‰äº†ä»–ä¸€ç”Ÿçš„è®¾è®¡è¿½æ±‚ï¼š**å¦‚ä½•åœ¨é«˜å¯†åº¦åŸŽå¸‚ä¸­åˆ›é€ æœ‰å°Šä¸¥çš„å±…ä½ç©ºé—´ï¼Ÿ**
 
-从 Habitat 67 到耶路撒冷的 Yad Vashem 大屠杀纪念馆，从新加坡的 Jewel Changi Airport 到重庆的来福士广场，Safdie 的作品遍布全球，但始终围绕同一个核心问题：**建筑如何为公共生活创造意义？**`,
+ä»Ž Habitat 67 åˆ°è€¶è·¯æ’’å†·çš„ Yad Vashem å¤§å± æ€çºªå¿µé¦†ï¼Œä»Žæ–°åŠ å¡çš„ Jewel Changi Airport åˆ°é‡åº†çš„æ¥ç¦å£«å¹¿åœºï¼ŒSafdie çš„ä½œå“éå¸ƒå…¨çƒï¼Œä½†å§‹ç»ˆå›´ç»•åŒä¸€ä¸ªæ ¸å¿ƒé—®é¢˜ï¼š**å»ºç­‘å¦‚ä½•ä¸ºå…¬å…±ç”Ÿæ´»åˆ›é€ æ„ä¹‰ï¼Ÿ**`,
     
-    story: `Marina Bay Sands 的设计始于一个看似不可能的想法：在三栋55层高楼的顶端，放一艘"船"。
+    story: `Marina Bay Sands çš„è®¾è®¡å§‹äºŽä¸€ä¸ªçœ‹ä¼¼ä¸å¯èƒ½çš„æƒ³æ³•ï¼šåœ¨ä¸‰æ ‹55å±‚é«˜æ¥¼çš„é¡¶ç«¯ï¼Œæ”¾ä¸€è‰˜"èˆ¹"ã€‚
 
-这艘340米长的空中花园（SkyPark）横跨三栋塔楼，悬挑67米——相当于把一座足球场悬挂在200米高空。从工程角度看，这近乎疯狂。Safdie 的团队与 Arup 工程师合作，使用了创新的钢桁架结构系统，让这个重达7700吨的空中平台稳稳地"漂浮"在城市上空。
+è¿™è‰˜340ç±³é•¿çš„ç©ºä¸­èŠ±å›­ï¼ˆSkyParkï¼‰æ¨ªè·¨ä¸‰æ ‹å¡”æ¥¼ï¼Œæ‚¬æŒ‘67ç±³â€”â€”ç›¸å½“äºŽæŠŠä¸€åº§è¶³çƒåœºæ‚¬æŒ‚åœ¨200ç±³é«˜ç©ºã€‚ä»Žå·¥ç¨‹è§’åº¦çœ‹ï¼Œè¿™è¿‘ä¹Žç–¯ç‹‚ã€‚Safdie çš„å›¢é˜Ÿä¸Ž Arup å·¥ç¨‹å¸ˆåˆä½œï¼Œä½¿ç”¨äº†åˆ›æ–°çš„é’¢æ¡æž¶ç»“æž„ç³»ç»Ÿï¼Œè®©è¿™ä¸ªé‡è¾¾7700å¨çš„ç©ºä¸­å¹³å°ç¨³ç¨³åœ°"æ¼‚æµ®"åœ¨åŸŽå¸‚ä¸Šç©ºã€‚
 
-**但结构只是手段，设计意图才是灵魂。**
+**ä½†ç»“æž„åªæ˜¯æ‰‹æ®µï¼Œè®¾è®¡æ„å›¾æ‰æ˜¯çµé­‚ã€‚**
 
-Safdie 解释说，SkyPark 的灵感来自"公共空间"的理念。新加坡是全球人口密度最高的国家之一，地面空间寸土寸金。SkyPark 将花园、泳池、观景台"举"到200米高空，创造了一个属于所有人的空中公共花园——这不仅仅是一个酒店的豪华设施，更是对"城市公共空间可以在哪里"这个问题的激进回答。
+Safdie è§£é‡Šè¯´ï¼ŒSkyPark çš„çµæ„Ÿæ¥è‡ª"å…¬å…±ç©ºé—´"çš„ç†å¿µã€‚æ–°åŠ å¡æ˜¯å…¨çƒäººå£å¯†åº¦æœ€é«˜çš„å›½å®¶ä¹‹ä¸€ï¼Œåœ°é¢ç©ºé—´å¯¸åœŸå¯¸é‡‘ã€‚SkyPark å°†èŠ±å›­ã€æ³³æ± ã€è§‚æ™¯å°"ä¸¾"åˆ°200ç±³é«˜ç©ºï¼Œåˆ›é€ äº†ä¸€ä¸ªå±žäºŽæ‰€æœ‰äººçš„ç©ºä¸­å…¬å…±èŠ±å›­â€”â€”è¿™ä¸ä»…ä»…æ˜¯ä¸€ä¸ªé…’åº—çš„è±ªåŽè®¾æ–½ï¼Œæ›´æ˜¯å¯¹"åŸŽå¸‚å…¬å…±ç©ºé—´å¯ä»¥åœ¨å“ªé‡Œ"è¿™ä¸ªé—®é¢˜çš„æ¿€è¿›å›žç­”ã€‚
 
-三栋塔楼的形态同样充满深意。它们不是平行排列，而是像三张扑克牌以不同角度倾斜、在顶部汇聚。这种设计让每栋塔楼都有独特的景观朝向，同时在地面层创造出宽阔的公共入口空间——像三只手掌张开，欢迎人们进入。
+ä¸‰æ ‹å¡”æ¥¼çš„å½¢æ€åŒæ ·å……æ»¡æ·±æ„ã€‚å®ƒä»¬ä¸æ˜¯å¹³è¡ŒæŽ’åˆ—ï¼Œè€Œæ˜¯åƒä¸‰å¼ æ‰‘å…‹ç‰Œä»¥ä¸åŒè§’åº¦å€¾æ–œã€åœ¨é¡¶éƒ¨æ±‡èšã€‚è¿™ç§è®¾è®¡è®©æ¯æ ‹å¡”æ¥¼éƒ½æœ‰ç‹¬ç‰¹çš„æ™¯è§‚æœå‘ï¼ŒåŒæ—¶åœ¨åœ°é¢å±‚åˆ›é€ å‡ºå®½é˜”çš„å…¬å…±å…¥å£ç©ºé—´â€”â€”åƒä¸‰åªæ‰‹æŽŒå¼ å¼€ï¼Œæ¬¢è¿Žäººä»¬è¿›å…¥ã€‚
 
-Marina Bay Sands 的裙楼是一个莲花形态的 ArtScience Museum——Safdie 将新加坡的热带自然意象融入了建筑语言，让这座建筑不仅仅是国际化的，更是属于这片土地的。`,
+Marina Bay Sands çš„è£™æ¥¼æ˜¯ä¸€ä¸ªèŽ²èŠ±å½¢æ€çš„ ArtScience Museumâ€”â€”Safdie å°†æ–°åŠ å¡çš„çƒ­å¸¦è‡ªç„¶æ„è±¡èžå…¥äº†å»ºç­‘è¯­è¨€ï¼Œè®©è¿™åº§å»ºç­‘ä¸ä»…ä»…æ˜¯å›½é™…åŒ–çš„ï¼Œæ›´æ˜¯å±žäºŽè¿™ç‰‡åœŸåœ°çš„ã€‚`,
 
-    legacy: `Marina Bay Sands 对建筑和城市设计的影响：
+    legacy: `Marina Bay Sands å¯¹å»ºç­‘å’ŒåŸŽå¸‚è®¾è®¡çš„å½±å“ï¼š
 
-**空中城市的先驱**：SkyPark 证明了城市公共空间不必局限于地面。这个理念影响了后来的众多项目，包括纽约的 The Vessel、首尔的 Seoullo 7017 空中花园、以及 Safdie 自己后来的重庆来福士"水晶连廊"。
+**ç©ºä¸­åŸŽå¸‚çš„å…ˆé©±**ï¼šSkyPark è¯æ˜Žäº†åŸŽå¸‚å…¬å…±ç©ºé—´ä¸å¿…å±€é™äºŽåœ°é¢ã€‚è¿™ä¸ªç†å¿µå½±å“äº†åŽæ¥çš„ä¼—å¤šé¡¹ç›®ï¼ŒåŒ…æ‹¬çº½çº¦çš„ The Vesselã€é¦–å°”çš„ Seoullo 7017 ç©ºä¸­èŠ±å›­ã€ä»¥åŠ Safdie è‡ªå·±åŽæ¥çš„é‡åº†æ¥ç¦å£«"æ°´æ™¶è¿žå»Š"ã€‚
 
-**综合体建筑的新范式**：Marina Bay Sands 将酒店、赌场、会展中心、剧院、博物馆、商场、餐饮融为一体，但不是简单的堆砌，而是通过建筑形态创造了空间的叙事和层次。它重新定义了"综合体"（Integrated Resort）的概念。
+**ç»¼åˆä½“å»ºç­‘çš„æ–°èŒƒå¼**ï¼šMarina Bay Sands å°†é…’åº—ã€èµŒåœºã€ä¼šå±•ä¸­å¿ƒã€å‰§é™¢ã€åšç‰©é¦†ã€å•†åœºã€é¤é¥®èžä¸ºä¸€ä½“ï¼Œä½†ä¸æ˜¯ç®€å•çš„å †ç Œï¼Œè€Œæ˜¯é€šè¿‡å»ºç­‘å½¢æ€åˆ›é€ äº†ç©ºé—´çš„å™äº‹å’Œå±‚æ¬¡ã€‚å®ƒé‡æ–°å®šä¹‰äº†"ç»¼åˆä½“"ï¼ˆIntegrated Resortï¼‰çš„æ¦‚å¿µã€‚
 
-**城市天际线的标志**：它成为新加坡的视觉名片，证明了一栋建筑可以定义一座城市的形象——就像悉尼歌剧院之于悉尼，迪拜帆船酒店之于迪拜。
+**åŸŽå¸‚å¤©é™…çº¿çš„æ ‡å¿—**ï¼šå®ƒæˆä¸ºæ–°åŠ å¡çš„è§†è§‰åç‰‡ï¼Œè¯æ˜Žäº†ä¸€æ ‹å»ºç­‘å¯ä»¥å®šä¹‰ä¸€åº§åŸŽå¸‚çš„å½¢è±¡â€”â€”å°±åƒæ‚‰å°¼æ­Œå‰§é™¢ä¹‹äºŽæ‚‰å°¼ï¼Œè¿ªæ‹œå¸†èˆ¹é…’åº—ä¹‹äºŽè¿ªæ‹œã€‚
 
-**东西方建筑语言的融合**：Safdie 将西方的工程理性与东方的自然意象相结合——莲花、花园、水——创造了一种既现代又有地域文化根基的建筑语言。`,
+**ä¸œè¥¿æ–¹å»ºç­‘è¯­è¨€çš„èžåˆ**ï¼šSafdie å°†è¥¿æ–¹çš„å·¥ç¨‹ç†æ€§ä¸Žä¸œæ–¹çš„è‡ªç„¶æ„è±¡ç›¸ç»“åˆâ€”â€”èŽ²èŠ±ã€èŠ±å›­ã€æ°´â€”â€”åˆ›é€ äº†ä¸€ç§æ—¢çŽ°ä»£åˆæœ‰åœ°åŸŸæ–‡åŒ–æ ¹åŸºçš„å»ºç­‘è¯­è¨€ã€‚`,
     
-    significance: `为什么 Marina Bay Sands 不仅仅是一座豪华酒店？
+    significance: `ä¸ºä»€ä¹ˆ Marina Bay Sands ä¸ä»…ä»…æ˜¯ä¸€åº§è±ªåŽé…’åº—ï¼Ÿ
 
-因为 Moshe Safdie 通过这座建筑回答了21世纪城市设计最紧迫的问题：**在寸土寸金的城市里，公共空间去哪了？**
+å› ä¸º Moshe Safdie é€šè¿‡è¿™åº§å»ºç­‘å›žç­”äº†21ä¸–çºªåŸŽå¸‚è®¾è®¡æœ€ç´§è¿«çš„é—®é¢˜ï¼š**åœ¨å¯¸åœŸå¯¸é‡‘çš„åŸŽå¸‚é‡Œï¼Œå…¬å…±ç©ºé—´åŽ»å“ªäº†ï¼Ÿ**
 
-传统答案是公园、广场、滨水步道——这些都需要宝贵的地面空间。Safdie 的答案是：**向上。**
+ä¼ ç»Ÿç­”æ¡ˆæ˜¯å…¬å›­ã€å¹¿åœºã€æ»¨æ°´æ­¥é“â€”â€”è¿™äº›éƒ½éœ€è¦å®è´µçš„åœ°é¢ç©ºé—´ã€‚Safdie çš„ç­”æ¡ˆæ˜¯ï¼š**å‘ä¸Šã€‚**
 
-SkyPark 不是屋顶花园的放大版，它是一个宣言：城市的第五立面（屋顶）可以像地面一样丰富、一样开放、一样属于公众。
+SkyPark ä¸æ˜¯å±‹é¡¶èŠ±å›­çš„æ”¾å¤§ç‰ˆï¼Œå®ƒæ˜¯ä¸€ä¸ªå®£è¨€ï¼šåŸŽå¸‚çš„ç¬¬äº”ç«‹é¢ï¼ˆå±‹é¡¶ï¼‰å¯ä»¥åƒåœ°é¢ä¸€æ ·ä¸°å¯Œã€ä¸€æ ·å¼€æ”¾ã€ä¸€æ ·å±žäºŽå…¬ä¼—ã€‚
 
-当你站在 SkyPark 的无边际泳池边缘，200米高空，脚下是整个新加坡的城市天际线——你会明白为什么建筑不只是建造房子，而是创造体验。
+å½“ä½ ç«™åœ¨ SkyPark çš„æ— è¾¹é™…æ³³æ± è¾¹ç¼˜ï¼Œ200ç±³é«˜ç©ºï¼Œè„šä¸‹æ˜¯æ•´ä¸ªæ–°åŠ å¡çš„åŸŽå¸‚å¤©é™…çº¿â€”â€”ä½ ä¼šæ˜Žç™½ä¸ºä»€ä¹ˆå»ºç­‘ä¸åªæ˜¯å»ºé€ æˆ¿å­ï¼Œè€Œæ˜¯åˆ›é€ ä½“éªŒã€‚
 
-**Safdie 把一艘船放在了天上。这本身就是设计最好的隐喻：拒绝地心引力，拒绝常规，拒绝"不可能"。**`,
+**Safdie æŠŠä¸€è‰˜èˆ¹æ”¾åœ¨äº†å¤©ä¸Šã€‚è¿™æœ¬èº«å°±æ˜¯è®¾è®¡æœ€å¥½çš„éšå–»ï¼šæ‹’ç»åœ°å¿ƒå¼•åŠ›ï¼Œæ‹’ç»å¸¸è§„ï¼Œæ‹’ç»"ä¸å¯èƒ½"ã€‚**`,
 
-    dateConnection_en: 'On February 6, 1819, Stamford Raffles of the British East India Company signed the Treaty of Singapore with the Sultan of Johor, marking the founding of modern Singapore. 191 years later in 2010, Marina Bay Sands rose from the same land — this building designed by Moshe Safdie became the ultimate symbol of Singapore\'s transformation from a colonial trading port to a global design capital.',
+    dateConnection_en: 'On February 6, 1819, Stamford Raffles of the British East India Company signed the Treaty of Singapore with the Sultan of Johor, marking the founding of modern Singapore. 191 years later in 2010, Marina Bay Sands rose from the same land â€” this building designed by Moshe Safdie became the ultimate symbol of Singapore\'s transformation from a colonial trading port to a global design capital.',
     
     designerBio_en: `Moshe Safdie (1938-) is an Israeli-Canadian architect and one of the most experimental architects of our time.
 
-He studied under Louis Kahn (also featured in this calendar on February 20) at McGill University. His thesis project became the world-famous Habitat 67 — a housing complex of 354 prefabricated concrete boxes stacked at the 1967 Montreal World Expo. The project made the 28-year-old Safdie an overnight sensation and defined his lifelong design pursuit: **how to create dignified living spaces in high-density cities.**
+He studied under Louis Kahn (also featured in this calendar on February 20) at McGill University. His thesis project became the world-famous Habitat 67 â€” a housing complex of 354 prefabricated concrete boxes stacked at the 1967 Montreal World Expo. The project made the 28-year-old Safdie an overnight sensation and defined his lifelong design pursuit: **how to create dignified living spaces in high-density cities.**
 
 From Habitat 67 to Jerusalem's Yad Vashem Holocaust Memorial, from Singapore's Jewel Changi Airport to Chongqing's Raffles City, Safdie's work spans the globe but always revolves around one core question: **how can architecture create meaning for public life?**`,
     
     story_en: `Marina Bay Sands' design began with a seemingly impossible idea: place a "ship" atop three 55-story towers.
 
-This 340-meter-long SkyPark spans all three towers with a 67-meter cantilever — equivalent to suspending a football field 200 meters in the air. From an engineering standpoint, it borders on madness. Safdie's team collaborated with Arup engineers, using an innovative steel truss structural system to keep this 7,700-ton aerial platform stably "floating" above the city.
+This 340-meter-long SkyPark spans all three towers with a 67-meter cantilever â€” equivalent to suspending a football field 200 meters in the air. From an engineering standpoint, it borders on madness. Safdie's team collaborated with Arup engineers, using an innovative steel truss structural system to keep this 7,700-ton aerial platform stably "floating" above the city.
 
 **But structure is merely means; design intent is the soul.**
 
-Safdie explained that the SkyPark was inspired by the concept of "public space." Singapore is one of the world's most densely populated countries, where ground-level space is precious. The SkyPark lifts gardens, pools, and observation decks to 200 meters, creating an aerial public garden for everyone — not merely a luxury hotel amenity, but a radical answer to "where can urban public space exist?"
+Safdie explained that the SkyPark was inspired by the concept of "public space." Singapore is one of the world's most densely populated countries, where ground-level space is precious. The SkyPark lifts gardens, pools, and observation decks to 200 meters, creating an aerial public garden for everyone â€” not merely a luxury hotel amenity, but a radical answer to "where can urban public space exist?"
 
-The three towers' forms are equally intentional. Rather than parallel alignment, they lean at different angles like three playing cards converging at the top. This design gives each tower unique views while creating expansive public entry spaces at ground level — like three open palms welcoming visitors.
+The three towers' forms are equally intentional. Rather than parallel alignment, they lean at different angles like three playing cards converging at the top. This design gives each tower unique views while creating expansive public entry spaces at ground level â€” like three open palms welcoming visitors.
 
-The podium features a lotus-shaped ArtScience Museum — Safdie wove Singapore's tropical natural imagery into the architectural language, making this building not just international but belonging to this land.`,
+The podium features a lotus-shaped ArtScience Museum â€” Safdie wove Singapore's tropical natural imagery into the architectural language, making this building not just international but belonging to this land.`,
     
     legacy_en: `Marina Bay Sands' influence on architecture and urban design:
 
 **Pioneer of cities in the sky**: The SkyPark proved that urban public space needn't be confined to ground level. This concept influenced numerous subsequent projects including New York's The Vessel, Seoul's Seoullo 7017 Sky Garden, and Safdie's own Chongqing Raffles City "Crystal Skybridge."
 
-**New paradigm for mixed-use complexes**: Marina Bay Sands integrates hotel, casino, convention center, theaters, museum, mall, and dining — not as simple aggregation but through architectural form that creates spatial narrative and hierarchy. It redefined the concept of "Integrated Resort."
+**New paradigm for mixed-use complexes**: Marina Bay Sands integrates hotel, casino, convention center, theaters, museum, mall, and dining â€” not as simple aggregation but through architectural form that creates spatial narrative and hierarchy. It redefined the concept of "Integrated Resort."
 
-**Defining a city's skyline**: It became Singapore's visual identity, proving one building can define a city's image — like the Sydney Opera House for Sydney, or the Burj Al Arab for Dubai.
+**Defining a city's skyline**: It became Singapore's visual identity, proving one building can define a city's image â€” like the Sydney Opera House for Sydney, or the Burj Al Arab for Dubai.
 
-**Fusion of Eastern and Western architectural language**: Safdie combined Western engineering rationality with Eastern natural imagery — lotus, gardens, water — creating an architectural language that is both modern and culturally rooted.`,
+**Fusion of Eastern and Western architectural language**: Safdie combined Western engineering rationality with Eastern natural imagery â€” lotus, gardens, water â€” creating an architectural language that is both modern and culturally rooted.`,
     
     significance_en: `Why is Marina Bay Sands more than just a luxury hotel?
 
 Because Moshe Safdie used this building to answer the most urgent question in 21st-century urban design: **in cities where every square meter is precious, where does public space go?**
 
-The traditional answer is parks, plazas, waterfront promenades — all requiring valuable ground-level real estate. Safdie's answer: **go up.**
+The traditional answer is parks, plazas, waterfront promenades â€” all requiring valuable ground-level real estate. Safdie's answer: **go up.**
 
 The SkyPark isn't an oversized rooftop garden; it's a declaration that a city's fifth facade (the roof) can be as rich, as open, and as public as the ground.
 
-When you stand at the edge of the SkyPark's infinity pool, 200 meters up, the entire Singapore skyline at your feet — you understand why architecture isn't just about constructing buildings, but creating experiences.
+When you stand at the edge of the SkyPark's infinity pool, 200 meters up, the entire Singapore skyline at your feet â€” you understand why architecture isn't just about constructing buildings, but creating experiences.
 
 **Safdie put a ship in the sky. That itself is design's best metaphor: defying gravity, defying convention, defying "impossible."**`
   },
@@ -1865,87 +1865,87 @@ When you stand at the edge of the SkyPark's infinity pool, 200 meters up, the en
     date: '2026-01-31',
     imageUrl: '/the-daily-object/images/muji-cd-player.jpg',
     fullImageUrl: '/the-daily-object/images/full/muji-cd-player.jpg',
-    title: 'MUJI 壁挂式 CD 播放器',
+    title: 'MUJI å£æŒ‚å¼ CD æ’­æ”¾å™¨',
     title_en: 'MUJI Wall-Mounted CD Player',
-    subtitle: '深澤直人, 1999',
+    subtitle: 'æ·±æ¾¤ç›´äºº, 1999',
     subtitle_en: 'Naoto Fukasawa, 1999',
     category: 'industrial',
     designer: 'Naoto Fukasawa',
     year: '1999',
 
-    dateConnection: '1月31日是一年中第一个月的最后一天——一个"结束"与"开始"交汇的时刻。深澤直人的 MUJI 壁挂式 CD 播放器恰好体现了这种边界消融的哲学：它让"播放音乐"这个动作的起点与终点融为一体——你拉下电源线，音乐开始；松手，音乐停止。没有复杂的界面，没有多余的步骤。设计消融在行为之中。',
+    dateConnection: '1æœˆ31æ—¥æ˜¯ä¸€å¹´ä¸­ç¬¬ä¸€ä¸ªæœˆçš„æœ€åŽä¸€å¤©â€”â€”ä¸€ä¸ª"ç»“æŸ"ä¸Ž"å¼€å§‹"äº¤æ±‡çš„æ—¶åˆ»ã€‚æ·±æ¾¤ç›´äººçš„ MUJI å£æŒ‚å¼ CD æ’­æ”¾å™¨æ°å¥½ä½“çŽ°äº†è¿™ç§è¾¹ç•Œæ¶ˆèžçš„å“²å­¦ï¼šå®ƒè®©"æ’­æ”¾éŸ³ä¹"è¿™ä¸ªåŠ¨ä½œçš„èµ·ç‚¹ä¸Žç»ˆç‚¹èžä¸ºä¸€ä½“â€”â€”ä½ æ‹‰ä¸‹ç”µæºçº¿ï¼ŒéŸ³ä¹å¼€å§‹ï¼›æ¾æ‰‹ï¼ŒéŸ³ä¹åœæ­¢ã€‚æ²¡æœ‰å¤æ‚çš„ç•Œé¢ï¼Œæ²¡æœ‰å¤šä½™çš„æ­¥éª¤ã€‚è®¾è®¡æ¶ˆèžåœ¨è¡Œä¸ºä¹‹ä¸­ã€‚',
 
-    designerBio: `深澤直人（Naoto Fukasawa，1956年生），日本工业设计师，被 Bloomberg 评为"全球最具影响力的设计师之一"。
+    designerBio: `æ·±æ¾¤ç›´äººï¼ˆNaoto Fukasawaï¼Œ1956å¹´ç”Ÿï¼‰ï¼Œæ—¥æœ¬å·¥ä¸šè®¾è®¡å¸ˆï¼Œè¢« Bloomberg è¯„ä¸º"å…¨çƒæœ€å…·å½±å“åŠ›çš„è®¾è®¡å¸ˆä¹‹ä¸€"ã€‚
 
-1980年毕业于多摩美术大学产品设计专业，先后在精工爱普生和 IDEO 工作。2003年创立个人事务所，同年创办家电品牌 ±0。自2002年起担任 MUJI 设计顾问委员会成员，主导了众多经典产品的设计。
+1980å¹´æ¯•ä¸šäºŽå¤šæ‘©ç¾Žæœ¯å¤§å­¦äº§å“è®¾è®¡ä¸“ä¸šï¼Œå…ˆåŽåœ¨ç²¾å·¥çˆ±æ™®ç”Ÿå’Œ IDEO å·¥ä½œã€‚2003å¹´åˆ›ç«‹ä¸ªäººäº‹åŠ¡æ‰€ï¼ŒåŒå¹´åˆ›åŠžå®¶ç”µå“ç‰Œ Â±0ã€‚è‡ª2002å¹´èµ·æ‹…ä»» MUJI è®¾è®¡é¡¾é—®å§”å‘˜ä¼šæˆå‘˜ï¼Œä¸»å¯¼äº†ä¼—å¤šç»å…¸äº§å“çš„è®¾è®¡ã€‚
 
-他提出了"无意識のデザイン"（Without Thought）设计理论——好的设计不需要用户思考，它应该像呼吸一样自然。他是 21_21 DESIGN SIGHT（日本首个设计博物馆）的联合馆长，多件作品被 MoMA 永久收藏。`,
+ä»–æå‡ºäº†"æ— æ„è­˜ã®ãƒ‡ã‚¶ã‚¤ãƒ³"ï¼ˆWithout Thoughtï¼‰è®¾è®¡ç†è®ºâ€”â€”å¥½çš„è®¾è®¡ä¸éœ€è¦ç”¨æˆ·æ€è€ƒï¼Œå®ƒåº”è¯¥åƒå‘¼å¸ä¸€æ ·è‡ªç„¶ã€‚ä»–æ˜¯ 21_21 DESIGN SIGHTï¼ˆæ—¥æœ¬é¦–ä¸ªè®¾è®¡åšç‰©é¦†ï¼‰çš„è”åˆé¦†é•¿ï¼Œå¤šä»¶ä½œå“è¢« MoMA æ°¸ä¹…æ”¶è—ã€‚`,
 
-    story: `1999年，深澤直人为 MUJI 设计了一款壁挂式 CD 播放器。它看起来几乎不像一台电器——一个白色方形盒子，挂在墙上，CD 裸露在外面，下方垂着一根拉绳。
+    story: `1999å¹´ï¼Œæ·±æ¾¤ç›´äººä¸º MUJI è®¾è®¡äº†ä¸€æ¬¾å£æŒ‚å¼ CD æ’­æ”¾å™¨ã€‚å®ƒçœ‹èµ·æ¥å‡ ä¹Žä¸åƒä¸€å°ç”µå™¨â€”â€”ä¸€ä¸ªç™½è‰²æ–¹å½¢ç›’å­ï¼ŒæŒ‚åœ¨å¢™ä¸Šï¼ŒCD è£¸éœ²åœ¨å¤–é¢ï¼Œä¸‹æ–¹åž‚ç€ä¸€æ ¹æ‹‰ç»³ã€‚
 
-**拉一下绳子，CD 开始转动，音乐流淌而出。**
+**æ‹‰ä¸€ä¸‹ç»³å­ï¼ŒCD å¼€å§‹è½¬åŠ¨ï¼ŒéŸ³ä¹æµæ·Œè€Œå‡ºã€‚**
 
-这个设计的天才之处在于它的操作暗示：拉绳启动的动作让人联想到老式排风扇或灯的拉线开关。深澤直人没有发明新的交互方式——他从人们已有的生活记忆中提取了一个动作，将它嫁接到了完全不同的产品上。
+è¿™ä¸ªè®¾è®¡çš„å¤©æ‰ä¹‹å¤„åœ¨äºŽå®ƒçš„æ“ä½œæš—ç¤ºï¼šæ‹‰ç»³å¯åŠ¨çš„åŠ¨ä½œè®©äººè”æƒ³åˆ°è€å¼æŽ’é£Žæ‰‡æˆ–ç¯çš„æ‹‰çº¿å¼€å…³ã€‚æ·±æ¾¤ç›´äººæ²¡æœ‰å‘æ˜Žæ–°çš„äº¤äº’æ–¹å¼â€”â€”ä»–ä»Žäººä»¬å·²æœ‰çš„ç”Ÿæ´»è®°å¿†ä¸­æå–äº†ä¸€ä¸ªåŠ¨ä½œï¼Œå°†å®ƒå«æŽ¥åˆ°äº†å®Œå…¨ä¸åŒçš„äº§å“ä¸Šã€‚
 
-**这就是"无意识设计"的精髓。**
+**è¿™å°±æ˜¯"æ— æ„è¯†è®¾è®¡"çš„ç²¾é«“ã€‚**
 
-这台 CD 播放器没有显示屏，没有复杂的按钮面板，甚至没有传统音响设备的"存在感"。它挂在墙上，像一件装置艺术。CD 旋转时，你能看到它在转动——设计把"播放"这个抽象动作变成了一个可见的、诗意的过程。
+è¿™å° CD æ’­æ”¾å™¨æ²¡æœ‰æ˜¾ç¤ºå±ï¼Œæ²¡æœ‰å¤æ‚çš„æŒ‰é’®é¢æ¿ï¼Œç”šè‡³æ²¡æœ‰ä¼ ç»ŸéŸ³å“è®¾å¤‡çš„"å­˜åœ¨æ„Ÿ"ã€‚å®ƒæŒ‚åœ¨å¢™ä¸Šï¼Œåƒä¸€ä»¶è£…ç½®è‰ºæœ¯ã€‚CD æ—‹è½¬æ—¶ï¼Œä½ èƒ½çœ‹åˆ°å®ƒåœ¨è½¬åŠ¨â€”â€”è®¾è®¡æŠŠ"æ’­æ”¾"è¿™ä¸ªæŠ½è±¡åŠ¨ä½œå˜æˆäº†ä¸€ä¸ªå¯è§çš„ã€è¯—æ„çš„è¿‡ç¨‹ã€‚
 
-这不仅仅是简约。简约是做减法，但深澤直人做的是**翻译**——把复杂的技术翻译成人人都懂的日常语言。一根绳子，就是全部的用户界面。
+è¿™ä¸ä»…ä»…æ˜¯ç®€çº¦ã€‚ç®€çº¦æ˜¯åšå‡æ³•ï¼Œä½†æ·±æ¾¤ç›´äººåšçš„æ˜¯**ç¿»è¯‘**â€”â€”æŠŠå¤æ‚çš„æŠ€æœ¯ç¿»è¯‘æˆäººäººéƒ½æ‡‚çš„æ—¥å¸¸è¯­è¨€ã€‚ä¸€æ ¹ç»³å­ï¼Œå°±æ˜¯å…¨éƒ¨çš„ç”¨æˆ·ç•Œé¢ã€‚
 
-1999年问世以来，这台 CD 播放器从未停产，成为 MUJI 最具标志性的产品之一。它被 MoMA 永久收藏，被无数设计教科书引用，被全世界的设计师视为"少即是多"理念的终极范例。
+1999å¹´é—®ä¸–ä»¥æ¥ï¼Œè¿™å° CD æ’­æ”¾å™¨ä»Žæœªåœäº§ï¼Œæˆä¸º MUJI æœ€å…·æ ‡å¿—æ€§çš„äº§å“ä¹‹ä¸€ã€‚å®ƒè¢« MoMA æ°¸ä¹…æ”¶è—ï¼Œè¢«æ— æ•°è®¾è®¡æ•™ç§‘ä¹¦å¼•ç”¨ï¼Œè¢«å…¨ä¸–ç•Œçš„è®¾è®¡å¸ˆè§†ä¸º"å°‘å³æ˜¯å¤š"ç†å¿µçš„ç»ˆæžèŒƒä¾‹ã€‚
 
-**深澤直人证明了：最好的设计不是让人惊叹"这设计真棒"，而是让人觉得"本来就应该是这样"。**`,
+**æ·±æ¾¤ç›´äººè¯æ˜Žäº†ï¼šæœ€å¥½çš„è®¾è®¡ä¸æ˜¯è®©äººæƒŠå¹"è¿™è®¾è®¡çœŸæ£’"ï¼Œè€Œæ˜¯è®©äººè§‰å¾—"æœ¬æ¥å°±åº”è¯¥æ˜¯è¿™æ ·"ã€‚**`,
 
-    legacy: `• MoMA 永久收藏品：与 iPod、椅子等并列为20世纪末最重要的工业设计作品
-• MUJI 设计哲学的象征：这台 CD 播放器定义了 MUJI"够用就好"的极简美学
-• "无意识设计"理论的经典案例：深澤直人的设计哲学影响了整整一代产品设计师
-• 长青产品：1999年至今从未停产，证明了好设计超越潮流`,
+    legacy: `â€¢ MoMA æ°¸ä¹…æ”¶è—å“ï¼šä¸Ž iPodã€æ¤…å­ç­‰å¹¶åˆ—ä¸º20ä¸–çºªæœ«æœ€é‡è¦çš„å·¥ä¸šè®¾è®¡ä½œå“
+â€¢ MUJI è®¾è®¡å“²å­¦çš„è±¡å¾ï¼šè¿™å° CD æ’­æ”¾å™¨å®šä¹‰äº† MUJI"å¤Ÿç”¨å°±å¥½"çš„æžç®€ç¾Žå­¦
+â€¢ "æ— æ„è¯†è®¾è®¡"ç†è®ºçš„ç»å…¸æ¡ˆä¾‹ï¼šæ·±æ¾¤ç›´äººçš„è®¾è®¡å“²å­¦å½±å“äº†æ•´æ•´ä¸€ä»£äº§å“è®¾è®¡å¸ˆ
+â€¢ é•¿é’äº§å“ï¼š1999å¹´è‡³ä»Šä»Žæœªåœäº§ï¼Œè¯æ˜Žäº†å¥½è®¾è®¡è¶…è¶Šæ½®æµ`,
 
-    significance: `在一个追求更多功能、更大屏幕、更复杂交互的时代，深澤直人用一台 CD 播放器证明了相反的道理：**最深刻的创新是让事物回归本质。**
+    significance: `åœ¨ä¸€ä¸ªè¿½æ±‚æ›´å¤šåŠŸèƒ½ã€æ›´å¤§å±å¹•ã€æ›´å¤æ‚äº¤äº’çš„æ—¶ä»£ï¼Œæ·±æ¾¤ç›´äººç”¨ä¸€å° CD æ’­æ”¾å™¨è¯æ˜Žäº†ç›¸åçš„é“ç†ï¼š**æœ€æ·±åˆ»çš„åˆ›æ–°æ˜¯è®©äº‹ç‰©å›žå½’æœ¬è´¨ã€‚**
 
-一根绳子，一张 CD，一面白墙。没有说明书，不需要学习，三岁小孩都知道该怎么做——拉一下。
+ä¸€æ ¹ç»³å­ï¼Œä¸€å¼  CDï¼Œä¸€é¢ç™½å¢™ã€‚æ²¡æœ‰è¯´æ˜Žä¹¦ï¼Œä¸éœ€è¦å­¦ä¹ ï¼Œä¸‰å²å°å­©éƒ½çŸ¥é“è¯¥æ€Žä¹ˆåšâ€”â€”æ‹‰ä¸€ä¸‹ã€‚
 
-这是工业设计的至高境界：当技术变得足够成熟时，设计的任务不是展示技术，而是让技术消失。深澤直人称之为"设计溶解在行为中"。
+è¿™æ˜¯å·¥ä¸šè®¾è®¡çš„è‡³é«˜å¢ƒç•Œï¼šå½“æŠ€æœ¯å˜å¾—è¶³å¤Ÿæˆç†Ÿæ—¶ï¼Œè®¾è®¡çš„ä»»åŠ¡ä¸æ˜¯å±•ç¤ºæŠ€æœ¯ï¼Œè€Œæ˜¯è®©æŠ€æœ¯æ¶ˆå¤±ã€‚æ·±æ¾¤ç›´äººç§°ä¹‹ä¸º"è®¾è®¡æº¶è§£åœ¨è¡Œä¸ºä¸­"ã€‚
 
-这也许是20世纪末最安静的设计革命——不是iPhone式的颠覆，而是一种温柔的提醒：**好设计不叫嚣，它只是在那里，等你伸手。**`,
+è¿™ä¹Ÿè®¸æ˜¯20ä¸–çºªæœ«æœ€å®‰é™çš„è®¾è®¡é©å‘½â€”â€”ä¸æ˜¯iPhoneå¼çš„é¢ è¦†ï¼Œè€Œæ˜¯ä¸€ç§æ¸©æŸ”çš„æé†’ï¼š**å¥½è®¾è®¡ä¸å«åš£ï¼Œå®ƒåªæ˜¯åœ¨é‚£é‡Œï¼Œç­‰ä½ ä¼¸æ‰‹ã€‚**`,
 
-    dateConnection_en: 'January 31 marks the last day of the year\'s first month — a moment where "ending" meets "beginning." Naoto Fukasawa\'s MUJI Wall-Mounted CD Player embodies this philosophy of dissolving boundaries: it merges the start and end of "playing music" into a single gesture — pull the cord, music begins; let go, music stops. No complex interface, no extra steps. Design dissolves into behavior.',
+    dateConnection_en: 'January 31 marks the last day of the year\'s first month â€” a moment where "ending" meets "beginning." Naoto Fukasawa\'s MUJI Wall-Mounted CD Player embodies this philosophy of dissolving boundaries: it merges the start and end of "playing music" into a single gesture â€” pull the cord, music begins; let go, music stops. No complex interface, no extra steps. Design dissolves into behavior.',
 
     designerBio_en: `Naoto Fukasawa (born 1956) is a Japanese industrial designer described by Bloomberg as "one of the world's most influential designers."
 
-He graduated from Tama Art University in 1980, then worked at Seiko Epson and IDEO before founding his own studio in 2003. That same year he launched ±0, a household electronics brand. Since 2002, he has served on MUJI's advisory board, leading the design of numerous iconic products.
+He graduated from Tama Art University in 1980, then worked at Seiko Epson and IDEO before founding his own studio in 2003. That same year he launched Â±0, a household electronics brand. Since 2002, he has served on MUJI's advisory board, leading the design of numerous iconic products.
 
-He coined the concept of "Without Thought" design — good design shouldn't require the user to think; it should be as natural as breathing. He co-directs 21_21 DESIGN SIGHT, Japan's first design museum, and multiple works are in MoMA's permanent collection.`,
+He coined the concept of "Without Thought" design â€” good design shouldn't require the user to think; it should be as natural as breathing. He co-directs 21_21 DESIGN SIGHT, Japan's first design museum, and multiple works are in MoMA's permanent collection.`,
 
-    story_en: `In 1999, Naoto Fukasawa designed a wall-mounted CD player for MUJI. It barely looks like an electronic device — a white square box mounted on the wall, with the CD exposed and a pull cord hanging below.
+    story_en: `In 1999, Naoto Fukasawa designed a wall-mounted CD player for MUJI. It barely looks like an electronic device â€” a white square box mounted on the wall, with the CD exposed and a pull cord hanging below.
 
 **Pull the cord. The CD starts spinning. Music flows.**
 
-The genius of this design lies in its operational suggestion: the pull-cord activation evokes old-fashioned ventilation fan or lamp pull switches. Fukasawa didn't invent a new interaction — he extracted a gesture from people's existing life memories and grafted it onto an entirely different product.
+The genius of this design lies in its operational suggestion: the pull-cord activation evokes old-fashioned ventilation fan or lamp pull switches. Fukasawa didn't invent a new interaction â€” he extracted a gesture from people's existing life memories and grafted it onto an entirely different product.
 
 **This is the essence of "Without Thought" design.**
 
-The CD player has no display, no complex button panel, not even the typical "presence" of audio equipment. Hung on a wall, it resembles an art installation. When the CD spins, you can see it rotating — the design transforms the abstract act of "playing" into a visible, poetic process.
+The CD player has no display, no complex button panel, not even the typical "presence" of audio equipment. Hung on a wall, it resembles an art installation. When the CD spins, you can see it rotating â€” the design transforms the abstract act of "playing" into a visible, poetic process.
 
-This isn't mere minimalism. Minimalism is subtraction, but Fukasawa's work is **translation** — converting complex technology into everyday language everyone understands. One cord: that's the entire user interface.
+This isn't mere minimalism. Minimalism is subtraction, but Fukasawa's work is **translation** â€” converting complex technology into everyday language everyone understands. One cord: that's the entire user interface.
 
 Since its 1999 debut, this CD player has never gone out of production, becoming one of MUJI's most iconic products. It's in MoMA's permanent collection, cited in countless design textbooks, and regarded by designers worldwide as the ultimate example of "less is more."
 
-**Fukasawa proved that the best design doesn't make people exclaim "what great design!" — it makes them feel "of course, it should be this way."**`,
+**Fukasawa proved that the best design doesn't make people exclaim "what great design!" â€” it makes them feel "of course, it should be this way."**`,
 
-    legacy_en: `• MoMA permanent collection: Listed alongside the iPod and iconic chairs as one of the most important industrial designs of the late 20th century
-• Symbol of MUJI's design philosophy: This CD player defined MUJI's "just enough" minimalist aesthetic
-• Classic case of "Without Thought" design theory: Fukasawa's philosophy influenced an entire generation of product designers
-• Evergreen product: In continuous production since 1999, proving good design transcends trends`,
+    legacy_en: `â€¢ MoMA permanent collection: Listed alongside the iPod and iconic chairs as one of the most important industrial designs of the late 20th century
+â€¢ Symbol of MUJI's design philosophy: This CD player defined MUJI's "just enough" minimalist aesthetic
+â€¢ Classic case of "Without Thought" design theory: Fukasawa's philosophy influenced an entire generation of product designers
+â€¢ Evergreen product: In continuous production since 1999, proving good design transcends trends`,
 
     significance_en: `In an era chasing more features, bigger screens, and more complex interactions, Fukasawa used a CD player to prove the opposite: **the most profound innovation is returning things to their essence.**
 
-One cord, one CD, one white wall. No manual, no learning curve — a three-year-old knows what to do: pull.
+One cord, one CD, one white wall. No manual, no learning curve â€” a three-year-old knows what to do: pull.
 
 This is industrial design's highest aspiration: when technology matures enough, design's task isn't to showcase technology, but to make it disappear. Fukasawa calls this "design dissolving into behavior."
 
-Perhaps the quietest design revolution of the late 20th century — not an iPhone-style disruption, but a gentle reminder: **good design doesn't shout. It's simply there, waiting for your hand.**`
+Perhaps the quietest design revolution of the late 20th century â€” not an iPhone-style disruption, but a gentle reminder: **good design doesn't shout. It's simply there, waiting for your hand.**`
   },
 
   {
@@ -1954,55 +1954,55 @@ Perhaps the quietest design revolution of the late 20th century — not an iPhon
     imageUrl: '/the-daily-object/images/rolleiflex-camera.jpg',
     fullImageUrl: '/the-daily-object/images/full/rolleiflex-camera.jpg',
     thumbnailUrl: '/the-daily-object/thumbnails/rolleiflex-camera.jpg',
-    title: 'Rolleiflex 双反相机',
+    title: 'Rolleiflex åŒåç›¸æœº',
     title_en: 'Rolleiflex TLR Camera',
     subtitle: 'Franke & Heidecke, 1929',
     category: 'art',
     designer: 'Vivian Maier',
     year: '1929',
 
-    dateConnection: '1926年2月1日，Vivian Maier 出生于纽约。她一生以保姆为业，却用一台 Rolleiflex 双反相机秘密拍摄了超过15万张街头照片，死后才被世人发现，成为20世纪最伟大的街头摄影师之一。Rolleiflex——这台德国工业设计的杰作——是她观察世界的眼睛。',
+    dateConnection: '1926å¹´2æœˆ1æ—¥ï¼ŒVivian Maier å‡ºç”ŸäºŽçº½çº¦ã€‚å¥¹ä¸€ç”Ÿä»¥ä¿å§†ä¸ºä¸šï¼Œå´ç”¨ä¸€å° Rolleiflex åŒåç›¸æœºç§˜å¯†æ‹æ‘„äº†è¶…è¿‡15ä¸‡å¼ è¡—å¤´ç…§ç‰‡ï¼Œæ­»åŽæ‰è¢«ä¸–äººå‘çŽ°ï¼Œæˆä¸º20ä¸–çºªæœ€ä¼Ÿå¤§çš„è¡—å¤´æ‘„å½±å¸ˆä¹‹ä¸€ã€‚Rolleiflexâ€”â€”è¿™å°å¾·å›½å·¥ä¸šè®¾è®¡çš„æ°ä½œâ€”â€”æ˜¯å¥¹è§‚å¯Ÿä¸–ç•Œçš„çœ¼ç›ã€‚',
 
-    designerBio: `Vivian Maier（1926-2009），出生于纽约，在法国乡下度过部分童年，1951年回到美国后一直做保姆，先后在纽约和芝加哥的家庭里照顾孩子。
+    designerBio: `Vivian Maierï¼ˆ1926-2009ï¼‰ï¼Œå‡ºç”ŸäºŽçº½çº¦ï¼Œåœ¨æ³•å›½ä¹¡ä¸‹åº¦è¿‡éƒ¨åˆ†ç«¥å¹´ï¼Œ1951å¹´å›žåˆ°ç¾Žå›½åŽä¸€ç›´åšä¿å§†ï¼Œå…ˆåŽåœ¨çº½çº¦å’ŒèŠåŠ å“¥çš„å®¶åº­é‡Œç…§é¡¾å­©å­ã€‚
 
-没人知道她是摄影师。她从不展示自己的照片，甚至大量底片从未冲洗。她用一台 Rolleiflex 2.8C——一台1950年代的德国双镜头反光相机——在街头悄悄捕捉人间百态。
+æ²¡äººçŸ¥é“å¥¹æ˜¯æ‘„å½±å¸ˆã€‚å¥¹ä»Žä¸å±•ç¤ºè‡ªå·±çš„ç…§ç‰‡ï¼Œç”šè‡³å¤§é‡åº•ç‰‡ä»Žæœªå†²æ´—ã€‚å¥¹ç”¨ä¸€å° Rolleiflex 2.8Câ€”â€”ä¸€å°1950å¹´ä»£çš„å¾·å›½åŒé•œå¤´åå…‰ç›¸æœºâ€”â€”åœ¨è¡—å¤´æ‚„æ‚„æ•æ‰äººé—´ç™¾æ€ã€‚
 
-Rolleiflex 的设计对她至关重要：双反相机的取景方式是**腰平取景**——摄影师低头看取景器，而不是把相机举到眼前。这意味着 Maier 可以在不引人注意的情况下拍摄，被摄者甚至不知道自己被拍了。这台相机的设计，成就了她独特的视角。`,
+Rolleiflex çš„è®¾è®¡å¯¹å¥¹è‡³å…³é‡è¦ï¼šåŒåç›¸æœºçš„å–æ™¯æ–¹å¼æ˜¯**è…°å¹³å–æ™¯**â€”â€”æ‘„å½±å¸ˆä½Žå¤´çœ‹å–æ™¯å™¨ï¼Œè€Œä¸æ˜¯æŠŠç›¸æœºä¸¾åˆ°çœ¼å‰ã€‚è¿™æ„å‘³ç€ Maier å¯ä»¥åœ¨ä¸å¼•äººæ³¨æ„çš„æƒ…å†µä¸‹æ‹æ‘„ï¼Œè¢«æ‘„è€…ç”šè‡³ä¸çŸ¥é“è‡ªå·±è¢«æ‹äº†ã€‚è¿™å°ç›¸æœºçš„è®¾è®¡ï¼Œæˆå°±äº†å¥¹ç‹¬ç‰¹çš„è§†è§’ã€‚`,
 
-    story: `2007年，芝加哥一个叫 John Maloof 的房产经纪人在一场储物柜拍卖会上花了380美元，买下了一堆旧箱子。箱子里装着超过10万张底片、数千张照片和未冲洗的胶卷。
+    story: `2007å¹´ï¼ŒèŠåŠ å“¥ä¸€ä¸ªå« John Maloof çš„æˆ¿äº§ç»çºªäººåœ¨ä¸€åœºå‚¨ç‰©æŸœæ‹å–ä¼šä¸ŠèŠ±äº†380ç¾Žå…ƒï¼Œä¹°ä¸‹äº†ä¸€å †æ—§ç®±å­ã€‚ç®±å­é‡Œè£…ç€è¶…è¿‡10ä¸‡å¼ åº•ç‰‡ã€æ•°åƒå¼ ç…§ç‰‡å’Œæœªå†²æ´—çš„èƒ¶å·ã€‚
 
-他不知道这些东西属于谁。
+ä»–ä¸çŸ¥é“è¿™äº›ä¸œè¥¿å±žäºŽè°ã€‚
 
-花了几年时间追溯，他找到了一个名字：Vivian Maier，一个刚刚在养老院去世的老太太。她一辈子做保姆，独居，没有亲密的朋友，几乎没人了解她的内心世界。
+èŠ±äº†å‡ å¹´æ—¶é—´è¿½æº¯ï¼Œä»–æ‰¾åˆ°äº†ä¸€ä¸ªåå­—ï¼šVivian Maierï¼Œä¸€ä¸ªåˆšåˆšåœ¨å…»è€é™¢åŽ»ä¸–çš„è€å¤ªå¤ªã€‚å¥¹ä¸€è¾ˆå­åšä¿å§†ï¼Œç‹¬å±…ï¼Œæ²¡æœ‰äº²å¯†çš„æœ‹å‹ï¼Œå‡ ä¹Žæ²¡äººäº†è§£å¥¹çš„å†…å¿ƒä¸–ç•Œã€‚
 
-但那些照片震惊了摄影界。
+ä½†é‚£äº›ç…§ç‰‡éœ‡æƒŠäº†æ‘„å½±ç•Œã€‚
 
-Maier 的街头摄影有一种罕见的品质：**她同时是局外人和参与者。** 作为一个法裔美国人、一个终身未婚的保姆、一个刻意保持距离的观察者，她用 Rolleiflex 捕捉到了1950-80年代芝加哥和纽约街头最真实的瞬间——那些富人不会注意、穷人无暇顾及的日常诗意。
+Maier çš„è¡—å¤´æ‘„å½±æœ‰ä¸€ç§ç½•è§çš„å“è´¨ï¼š**å¥¹åŒæ—¶æ˜¯å±€å¤–äººå’Œå‚ä¸Žè€…ã€‚** ä½œä¸ºä¸€ä¸ªæ³•è£”ç¾Žå›½äººã€ä¸€ä¸ªç»ˆèº«æœªå©šçš„ä¿å§†ã€ä¸€ä¸ªåˆ»æ„ä¿æŒè·ç¦»çš„è§‚å¯Ÿè€…ï¼Œå¥¹ç”¨ Rolleiflex æ•æ‰åˆ°äº†1950-80å¹´ä»£èŠåŠ å“¥å’Œçº½çº¦è¡—å¤´æœ€çœŸå®žçš„çž¬é—´â€”â€”é‚£äº›å¯Œäººä¸ä¼šæ³¨æ„ã€ç©·äººæ— æš‡é¡¾åŠçš„æ—¥å¸¸è¯—æ„ã€‚
 
-**为什么是 Rolleiflex？** 这台由德国 Franke & Heidecke 公司于1929年设计的相机，是工业设计史上的经典。它的双镜头系统——上方取景镜头、下方拍摄镜头——创造了一种全新的摄影体验。6x6厘米的方画幅底片，产出的影像有一种独特的沉静感。而它几乎无声的快门，让街头摄影变得像呼吸一样自然。
+**ä¸ºä»€ä¹ˆæ˜¯ Rolleiflexï¼Ÿ** è¿™å°ç”±å¾·å›½ Franke & Heidecke å…¬å¸äºŽ1929å¹´è®¾è®¡çš„ç›¸æœºï¼Œæ˜¯å·¥ä¸šè®¾è®¡å²ä¸Šçš„ç»å…¸ã€‚å®ƒçš„åŒé•œå¤´ç³»ç»Ÿâ€”â€”ä¸Šæ–¹å–æ™¯é•œå¤´ã€ä¸‹æ–¹æ‹æ‘„é•œå¤´â€”â€”åˆ›é€ äº†ä¸€ç§å…¨æ–°çš„æ‘„å½±ä½“éªŒã€‚6x6åŽ˜ç±³çš„æ–¹ç”»å¹…åº•ç‰‡ï¼Œäº§å‡ºçš„å½±åƒæœ‰ä¸€ç§ç‹¬ç‰¹çš„æ²‰é™æ„Ÿã€‚è€Œå®ƒå‡ ä¹Žæ— å£°çš„å¿«é—¨ï¼Œè®©è¡—å¤´æ‘„å½±å˜å¾—åƒå‘¼å¸ä¸€æ ·è‡ªç„¶ã€‚
 
-Maier 选择 Rolleiflex 不是偶然。这台相机的设计哲学——**让工具消失，让眼睛接管**——完美契合了她作为隐形观察者的身份。`,
+Maier é€‰æ‹© Rolleiflex ä¸æ˜¯å¶ç„¶ã€‚è¿™å°ç›¸æœºçš„è®¾è®¡å“²å­¦â€”â€”**è®©å·¥å…·æ¶ˆå¤±ï¼Œè®©çœ¼ç›æŽ¥ç®¡**â€”â€”å®Œç¾Žå¥‘åˆäº†å¥¹ä½œä¸ºéšå½¢è§‚å¯Ÿè€…çš„èº«ä»½ã€‚`,
 
-    legacy: `• 摄影民主化的隐喻：Maier 证明了伟大的艺术不需要画廊、不需要MFA学位、不需要社交网络——只需要一双眼睛和一台好相机
-• Rolleiflex 设计遗产：腰平取景的设计影响了后来所有的中画幅相机，至今仍是街头摄影师的选择
-• "被发现的天才"现象：Maier 的故事引发了关于艺术、创作动机和遗产的深层讨论——如果她不想让人看到这些照片，我们看到它们是否道德？
-• 工具与创作者的关系：Rolleiflex 的设计不仅是工程成就，它塑造了一种观看方式，进而塑造了一种艺术风格`,
+    legacy: `â€¢ æ‘„å½±æ°‘ä¸»åŒ–çš„éšå–»ï¼šMaier è¯æ˜Žäº†ä¼Ÿå¤§çš„è‰ºæœ¯ä¸éœ€è¦ç”»å»Šã€ä¸éœ€è¦MFAå­¦ä½ã€ä¸éœ€è¦ç¤¾äº¤ç½‘ç»œâ€”â€”åªéœ€è¦ä¸€åŒçœ¼ç›å’Œä¸€å°å¥½ç›¸æœº
+â€¢ Rolleiflex è®¾è®¡é—äº§ï¼šè…°å¹³å–æ™¯çš„è®¾è®¡å½±å“äº†åŽæ¥æ‰€æœ‰çš„ä¸­ç”»å¹…ç›¸æœºï¼Œè‡³ä»Šä»æ˜¯è¡—å¤´æ‘„å½±å¸ˆçš„é€‰æ‹©
+â€¢ "è¢«å‘çŽ°çš„å¤©æ‰"çŽ°è±¡ï¼šMaier çš„æ•…äº‹å¼•å‘äº†å…³äºŽè‰ºæœ¯ã€åˆ›ä½œåŠ¨æœºå’Œé—äº§çš„æ·±å±‚è®¨è®ºâ€”â€”å¦‚æžœå¥¹ä¸æƒ³è®©äººçœ‹åˆ°è¿™äº›ç…§ç‰‡ï¼Œæˆ‘ä»¬çœ‹åˆ°å®ƒä»¬æ˜¯å¦é“å¾·ï¼Ÿ
+â€¢ å·¥å…·ä¸Žåˆ›ä½œè€…çš„å…³ç³»ï¼šRolleiflex çš„è®¾è®¡ä¸ä»…æ˜¯å·¥ç¨‹æˆå°±ï¼Œå®ƒå¡‘é€ äº†ä¸€ç§è§‚çœ‹æ–¹å¼ï¼Œè¿›è€Œå¡‘é€ äº†ä¸€ç§è‰ºæœ¯é£Žæ ¼`,
 
-    significance: `Vivian Maier 和她的 Rolleiflex 是设计史上最动人的故事之一：**一件设计精良的工具，如何成为一个人观看世界的方式。**
+    significance: `Vivian Maier å’Œå¥¹çš„ Rolleiflex æ˜¯è®¾è®¡å²ä¸Šæœ€åŠ¨äººçš„æ•…äº‹ä¹‹ä¸€ï¼š**ä¸€ä»¶è®¾è®¡ç²¾è‰¯çš„å·¥å…·ï¼Œå¦‚ä½•æˆä¸ºä¸€ä¸ªäººè§‚çœ‹ä¸–ç•Œçš„æ–¹å¼ã€‚**
 
-Rolleiflex 的腰平取景设计不是噱头——它从根本上改变了摄影师与世界的关系。当你低头看取景器时，你的姿态是谦逊的、内省的，你在观察而不是侵入。这正是 Maier 的摄影哲学。
+Rolleiflex çš„è…°å¹³å–æ™¯è®¾è®¡ä¸æ˜¯å™±å¤´â€”â€”å®ƒä»Žæ ¹æœ¬ä¸Šæ”¹å˜äº†æ‘„å½±å¸ˆä¸Žä¸–ç•Œçš„å…³ç³»ã€‚å½“ä½ ä½Žå¤´çœ‹å–æ™¯å™¨æ—¶ï¼Œä½ çš„å§¿æ€æ˜¯è°¦é€Šçš„ã€å†…çœçš„ï¼Œä½ åœ¨è§‚å¯Ÿè€Œä¸æ˜¯ä¾µå…¥ã€‚è¿™æ­£æ˜¯ Maier çš„æ‘„å½±å“²å­¦ã€‚
 
-15万张照片，一个人看。没有Instagram，没有点赞，没有展览。纯粹的创作，纯粹的观看。
+15ä¸‡å¼ ç…§ç‰‡ï¼Œä¸€ä¸ªäººçœ‹ã€‚æ²¡æœ‰Instagramï¼Œæ²¡æœ‰ç‚¹èµžï¼Œæ²¡æœ‰å±•è§ˆã€‚çº¯ç²¹çš„åˆ›ä½œï¼Œçº¯ç²¹çš„è§‚çœ‹ã€‚
 
-这也许是对"为什么设计重要"最好的回答：因为一台设计精良的相机，让一个普通保姆变成了大师。`,
+è¿™ä¹Ÿè®¸æ˜¯å¯¹"ä¸ºä»€ä¹ˆè®¾è®¡é‡è¦"æœ€å¥½çš„å›žç­”ï¼šå› ä¸ºä¸€å°è®¾è®¡ç²¾è‰¯çš„ç›¸æœºï¼Œè®©ä¸€ä¸ªæ™®é€šä¿å§†å˜æˆäº†å¤§å¸ˆã€‚`,
 
-    dateConnection_en: 'On February 1, 1926, Vivian Maier was born in New York City. She spent her life working as a nanny, yet secretly captured over 150,000 street photographs with a Rolleiflex twin-lens reflex camera, only discovered after her death, making her one of the greatest street photographers of the 20th century. The Rolleiflex — a masterpiece of German industrial design — was her eye on the world.',
+    dateConnection_en: 'On February 1, 1926, Vivian Maier was born in New York City. She spent her life working as a nanny, yet secretly captured over 150,000 street photographs with a Rolleiflex twin-lens reflex camera, only discovered after her death, making her one of the greatest street photographers of the 20th century. The Rolleiflex â€” a masterpiece of German industrial design â€” was her eye on the world.',
 
     designerBio_en: `Vivian Maier (1926-2009) was born in New York, spent part of her childhood in rural France, and after returning to America in 1951, worked as a nanny for the rest of her life, caring for children in families across New York and Chicago.
 
-Nobody knew she was a photographer. She never showed her pictures; vast numbers of negatives were never even developed. With a Rolleiflex 2.8C — a 1950s German twin-lens reflex camera — she quietly captured the human condition on the streets.
+Nobody knew she was a photographer. She never showed her pictures; vast numbers of negatives were never even developed. With a Rolleiflex 2.8C â€” a 1950s German twin-lens reflex camera â€” she quietly captured the human condition on the streets.
 
-The Rolleiflex's design was crucial to her practice: the twin-lens reflex uses **waist-level viewing** — the photographer looks down into the viewfinder rather than raising the camera to eye level. This meant Maier could shoot without drawing attention; her subjects often didn't know they were being photographed. The camera's design enabled her unique perspective.`,
+The Rolleiflex's design was crucial to her practice: the twin-lens reflex uses **waist-level viewing** â€” the photographer looks down into the viewfinder rather than raising the camera to eye level. This meant Maier could shoot without drawing attention; her subjects often didn't know they were being photographed. The camera's design enabled her unique perspective.`,
 
     story_en: `In 2007, a Chicago real estate agent named John Maloof paid $380 at a storage locker auction for a pile of old boxes. Inside were over 100,000 negatives, thousands of prints, and undeveloped rolls of film.
 
@@ -2012,20 +2012,20 @@ After years of tracing, he found a name: Vivian Maier, an elderly woman who had 
 
 But those photographs stunned the photography world.
 
-Maier's street photography possessed a rare quality: **she was simultaneously an outsider and a participant.** As a French-American, a lifelong unmarried nanny, a deliberate observer who kept her distance, she used her Rolleiflex to capture the most authentic moments on the streets of 1950s-80s Chicago and New York — the everyday poetry that the rich wouldn't notice and the poor couldn't afford to contemplate.
+Maier's street photography possessed a rare quality: **she was simultaneously an outsider and a participant.** As a French-American, a lifelong unmarried nanny, a deliberate observer who kept her distance, she used her Rolleiflex to capture the most authentic moments on the streets of 1950s-80s Chicago and New York â€” the everyday poetry that the rich wouldn't notice and the poor couldn't afford to contemplate.
 
-**Why the Rolleiflex?** This camera, designed by Germany's Franke & Heidecke company in 1929, is a classic of industrial design history. Its twin-lens system — viewing lens on top, taking lens below — created an entirely new photographic experience. The 6x6cm square format negatives produced images with a unique sense of stillness. And its nearly silent shutter made street photography as natural as breathing.
+**Why the Rolleiflex?** This camera, designed by Germany's Franke & Heidecke company in 1929, is a classic of industrial design history. Its twin-lens system â€” viewing lens on top, taking lens below â€” created an entirely new photographic experience. The 6x6cm square format negatives produced images with a unique sense of stillness. And its nearly silent shutter made street photography as natural as breathing.
 
-Maier's choice of the Rolleiflex was no accident. The camera's design philosophy — **let the tool disappear, let the eye take over** — perfectly matched her identity as an invisible observer.`,
+Maier's choice of the Rolleiflex was no accident. The camera's design philosophy â€” **let the tool disappear, let the eye take over** â€” perfectly matched her identity as an invisible observer.`,
 
-    legacy_en: `• Metaphor for democratized photography: Maier proved that great art doesn't need galleries, MFA degrees, or social networks — just a pair of eyes and a good camera
-• Rolleiflex design legacy: The waist-level viewing design influenced all subsequent medium-format cameras and remains a choice for street photographers today
-• The "discovered genius" phenomenon: Maier's story sparked deep discussions about art, creative motivation, and legacy — if she didn't want these photos seen, is it ethical that we see them?
-• The relationship between tool and creator: The Rolleiflex's design wasn't just an engineering achievement; it shaped a way of seeing, which in turn shaped an artistic style`,
+    legacy_en: `â€¢ Metaphor for democratized photography: Maier proved that great art doesn't need galleries, MFA degrees, or social networks â€” just a pair of eyes and a good camera
+â€¢ Rolleiflex design legacy: The waist-level viewing design influenced all subsequent medium-format cameras and remains a choice for street photographers today
+â€¢ The "discovered genius" phenomenon: Maier's story sparked deep discussions about art, creative motivation, and legacy â€” if she didn't want these photos seen, is it ethical that we see them?
+â€¢ The relationship between tool and creator: The Rolleiflex's design wasn't just an engineering achievement; it shaped a way of seeing, which in turn shaped an artistic style`,
 
     significance_en: `Vivian Maier and her Rolleiflex represent one of the most moving stories in design history: **how a beautifully designed tool became one person's way of seeing the world.**
 
-The Rolleiflex's waist-level viewfinder wasn't a gimmick — it fundamentally changed the photographer's relationship with the world. When you look down into the viewfinder, your posture is humble, introspective; you're observing, not intruding. This was exactly Maier's photographic philosophy.
+The Rolleiflex's waist-level viewfinder wasn't a gimmick â€” it fundamentally changed the photographer's relationship with the world. When you look down into the viewfinder, your posture is humble, introspective; you're observing, not intruding. This was exactly Maier's photographic philosophy.
 
 150,000 photographs, seen by one person. No Instagram, no likes, no exhibitions. Pure creation, pure seeing.
 
@@ -2044,44 +2044,44 @@ This may be the best answer to "why design matters": because a beautifully desig
     designer: 'Reed & Stem, Warren & Wetmore',
     year: '1913',
 
-    dateConnection: '1913年2月2日，纽约中央车站（Grand Central Terminal）正式启用。这座布扎（Beaux-Arts）风格的建筑杰作不仅重新定义了交通枢纽的设计，更创造了"城市客厅"的全新概念。',
+    dateConnection: '1913å¹´2æœˆ2æ—¥ï¼Œçº½çº¦ä¸­å¤®è½¦ç«™ï¼ˆGrand Central Terminalï¼‰æ­£å¼å¯ç”¨ã€‚è¿™åº§å¸ƒæ‰Žï¼ˆBeaux-Artsï¼‰é£Žæ ¼çš„å»ºç­‘æ°ä½œä¸ä»…é‡æ–°å®šä¹‰äº†äº¤é€šæž¢çº½çš„è®¾è®¡ï¼Œæ›´åˆ›é€ äº†"åŸŽå¸‚å®¢åŽ…"çš„å…¨æ–°æ¦‚å¿µã€‚',
 
-    designerBio: `Reed & Stem 和 Warren & Wetmore，两家建筑事务所的合作结晶。
+    designerBio: `Reed & Stem å’Œ Warren & Wetmoreï¼Œä¸¤å®¶å»ºç­‘äº‹åŠ¡æ‰€çš„åˆä½œç»“æ™¶ã€‚
 
-Charles Reed 和 Allen Stem 负责功能布局——他们的天才在于发明了环形高架道路系统和多层交通分流方案。Whitney Warren 和 Charles Wetmore 则负责建筑外观和室内设计，将布艺艺术风格的宏伟注入每一个细节。
+Charles Reed å’Œ Allen Stem è´Ÿè´£åŠŸèƒ½å¸ƒå±€â€”â€”ä»–ä»¬çš„å¤©æ‰åœ¨äºŽå‘æ˜Žäº†çŽ¯å½¢é«˜æž¶é“è·¯ç³»ç»Ÿå’Œå¤šå±‚äº¤é€šåˆ†æµæ–¹æ¡ˆã€‚Whitney Warren å’Œ Charles Wetmore åˆ™è´Ÿè´£å»ºç­‘å¤–è§‚å’Œå®¤å†…è®¾è®¡ï¼Œå°†å¸ƒè‰ºè‰ºæœ¯é£Žæ ¼çš„å®ä¼Ÿæ³¨å…¥æ¯ä¸€ä¸ªç»†èŠ‚ã€‚
 
-这种"功能建筑师+美学建筑师"的搭配在当时并不常见，但正是这种张力造就了 Grand Central 的伟大：**它既是一台完美的交通机器，又是一座让人驻足仰望的殿堂。**`,
+è¿™ç§"åŠŸèƒ½å»ºç­‘å¸ˆ+ç¾Žå­¦å»ºç­‘å¸ˆ"çš„æ­é…åœ¨å½“æ—¶å¹¶ä¸å¸¸è§ï¼Œä½†æ­£æ˜¯è¿™ç§å¼ åŠ›é€ å°±äº† Grand Central çš„ä¼Ÿå¤§ï¼š**å®ƒæ—¢æ˜¯ä¸€å°å®Œç¾Žçš„äº¤é€šæœºå™¨ï¼Œåˆæ˜¯ä¸€åº§è®©äººé©»è¶³ä»°æœ›çš„æ®¿å ‚ã€‚**`,
 
-    story: `1902年，一场火车相撞事故让纽约市禁止蒸汽机车进入曼哈顿。老车站必须重建，而且只能使用电力机车。
+    story: `1902å¹´ï¼Œä¸€åœºç«è½¦ç›¸æ’žäº‹æ•…è®©çº½çº¦å¸‚ç¦æ­¢è’¸æ±½æœºè½¦è¿›å…¥æ›¼å“ˆé¡¿ã€‚è€è½¦ç«™å¿…é¡»é‡å»ºï¼Œè€Œä¸”åªèƒ½ä½¿ç”¨ç”µåŠ›æœºè½¦ã€‚
 
-铁路大亨 Cornelius Vanderbilt 的继承人们决定：既然要重建，就建一座前所未有的车站。
+é“è·¯å¤§äº¨ Cornelius Vanderbilt çš„ç»§æ‰¿äººä»¬å†³å®šï¼šæ—¢ç„¶è¦é‡å»ºï¼Œå°±å»ºä¸€åº§å‰æ‰€æœªæœ‰çš„è½¦ç«™ã€‚
 
-Reed & Stem 赢得了设计竞赛。他们的方案革命性地将铁轨沉入地下，地面释放出来的空间变成了 Park Avenue 上方价值连城的地产。**这不只是建一座车站——这是重新设计一整片城市。**
+Reed & Stem èµ¢å¾—äº†è®¾è®¡ç«žèµ›ã€‚ä»–ä»¬çš„æ–¹æ¡ˆé©å‘½æ€§åœ°å°†é“è½¨æ²‰å…¥åœ°ä¸‹ï¼Œåœ°é¢é‡Šæ”¾å‡ºæ¥çš„ç©ºé—´å˜æˆäº† Park Avenue ä¸Šæ–¹ä»·å€¼è¿žåŸŽçš„åœ°äº§ã€‚**è¿™ä¸åªæ˜¯å»ºä¸€åº§è½¦ç«™â€”â€”è¿™æ˜¯é‡æ–°è®¾è®¡ä¸€æ•´ç‰‡åŸŽå¸‚ã€‚**
 
-Warren & Wetmore 随后加入，负责建筑的"面子工程"。他们设计了那个令人窒息的主大厅：高达38米的拱形天花板上，画着2,500颗星星组成的星座图（虽然画反了）。
+Warren & Wetmore éšåŽåŠ å…¥ï¼Œè´Ÿè´£å»ºç­‘çš„"é¢å­å·¥ç¨‹"ã€‚ä»–ä»¬è®¾è®¡äº†é‚£ä¸ªä»¤äººçª’æ¯çš„ä¸»å¤§åŽ…ï¼šé«˜è¾¾38ç±³çš„æ‹±å½¢å¤©èŠ±æ¿ä¸Šï¼Œç”»ç€2,500é¢—æ˜Ÿæ˜Ÿç»„æˆçš„æ˜Ÿåº§å›¾ï¼ˆè™½ç„¶ç”»åäº†ï¼‰ã€‚
 
-1913年2月2日开幕当天，15万人涌入参观。他们仰望星空般的天花板，穿行在光线从巨大的拱窗倾泻而下的大厅中，感受到了一种此前只属于教堂的庄严。
+1913å¹´2æœˆ2æ—¥å¼€å¹•å½“å¤©ï¼Œ15ä¸‡äººæ¶Œå…¥å‚è§‚ã€‚ä»–ä»¬ä»°æœ›æ˜Ÿç©ºèˆ¬çš„å¤©èŠ±æ¿ï¼Œç©¿è¡Œåœ¨å…‰çº¿ä»Žå·¨å¤§çš„æ‹±çª—å€¾æ³»è€Œä¸‹çš„å¤§åŽ…ä¸­ï¼Œæ„Ÿå—åˆ°äº†ä¸€ç§æ­¤å‰åªå±žäºŽæ•™å ‚çš„åº„ä¸¥ã€‚
 
-**但这不是教堂，这是火车站。** Grand Central 证明了公共交通空间可以拥有大教堂级别的尊严。`,
+**ä½†è¿™ä¸æ˜¯æ•™å ‚ï¼Œè¿™æ˜¯ç«è½¦ç«™ã€‚** Grand Central è¯æ˜Žäº†å…¬å…±äº¤é€šç©ºé—´å¯ä»¥æ‹¥æœ‰å¤§æ•™å ‚çº§åˆ«çš„å°Šä¸¥ã€‚`,
 
-    legacy: `• 城市设计典范：将铁轨沉入地下、释放地面空间的做法直接催生了 Park Avenue 的繁荣，影响了全球城市的TOD（交通导向开发）理念
-• 交通建筑标杆：多层交通分流、环形车道系统被全球交通枢纽借鉴
-• 历史保护运动：1960年代面临拆除威胁，Jackie Kennedy 领导的保护运动拯救了它，催生了纽约地标保护法
-• 文化地标：每年2100万游客，是纽约第六大旅游景点，Apple Store 入驻更赋予它新的当代意义`,
+    legacy: `â€¢ åŸŽå¸‚è®¾è®¡å…¸èŒƒï¼šå°†é“è½¨æ²‰å…¥åœ°ä¸‹ã€é‡Šæ”¾åœ°é¢ç©ºé—´çš„åšæ³•ç›´æŽ¥å‚¬ç”Ÿäº† Park Avenue çš„ç¹è£ï¼Œå½±å“äº†å…¨çƒåŸŽå¸‚çš„TODï¼ˆäº¤é€šå¯¼å‘å¼€å‘ï¼‰ç†å¿µ
+â€¢ äº¤é€šå»ºç­‘æ ‡æ†ï¼šå¤šå±‚äº¤é€šåˆ†æµã€çŽ¯å½¢è½¦é“ç³»ç»Ÿè¢«å…¨çƒäº¤é€šæž¢çº½å€Ÿé‰´
+â€¢ åŽ†å²ä¿æŠ¤è¿åŠ¨ï¼š1960å¹´ä»£é¢ä¸´æ‹†é™¤å¨èƒï¼ŒJackie Kennedy é¢†å¯¼çš„ä¿æŠ¤è¿åŠ¨æ‹¯æ•‘äº†å®ƒï¼Œå‚¬ç”Ÿäº†çº½çº¦åœ°æ ‡ä¿æŠ¤æ³•
+â€¢ æ–‡åŒ–åœ°æ ‡ï¼šæ¯å¹´2100ä¸‡æ¸¸å®¢ï¼Œæ˜¯çº½çº¦ç¬¬å…­å¤§æ—…æ¸¸æ™¯ç‚¹ï¼ŒApple Store å…¥é©»æ›´èµ‹äºˆå®ƒæ–°çš„å½“ä»£æ„ä¹‰`,
 
-    significance: `Grand Central Terminal 回答了一个根本问题：**公共空间应该给人什么感受？**
+    significance: `Grand Central Terminal å›žç­”äº†ä¸€ä¸ªæ ¹æœ¬é—®é¢˜ï¼š**å…¬å…±ç©ºé—´åº”è¯¥ç»™äººä»€ä¹ˆæ„Ÿå—ï¼Ÿ**
 
-在一个人人匆忙赶路的火车站里，建筑师们选择让你停下来——抬头看那片人造星空，感受光线在大理石地面上的流动，听回声在穹顶下回荡。
+åœ¨ä¸€ä¸ªäººäººåŒ†å¿™èµ¶è·¯çš„ç«è½¦ç«™é‡Œï¼Œå»ºç­‘å¸ˆä»¬é€‰æ‹©è®©ä½ åœä¸‹æ¥â€”â€”æŠ¬å¤´çœ‹é‚£ç‰‡äººé€ æ˜Ÿç©ºï¼Œæ„Ÿå—å…‰çº¿åœ¨å¤§ç†çŸ³åœ°é¢ä¸Šçš„æµåŠ¨ï¼Œå¬å›žå£°åœ¨ç©¹é¡¶ä¸‹å›žè¡ã€‚
 
-这种"在功能空间中创造仪式感"的设计哲学，从 Grand Central 一直延续到今天的机场航站楼、地铁站、高铁站。
+è¿™ç§"åœ¨åŠŸèƒ½ç©ºé—´ä¸­åˆ›é€ ä»ªå¼æ„Ÿ"çš„è®¾è®¡å“²å­¦ï¼Œä»Ž Grand Central ä¸€ç›´å»¶ç»­åˆ°ä»Šå¤©çš„æœºåœºèˆªç«™æ¥¼ã€åœ°é“ç«™ã€é«˜é“ç«™ã€‚
 
-**伟大的交通建筑不只是让你通过，它让你到达。**`,
+**ä¼Ÿå¤§çš„äº¤é€šå»ºç­‘ä¸åªæ˜¯è®©ä½ é€šè¿‡ï¼Œå®ƒè®©ä½ åˆ°è¾¾ã€‚**`,
 
-    dateConnection_en: 'On February 2, 1913, Grand Central Terminal officially opened in New York City. This Beaux-Arts masterpiece didn\'t just redefine transportation hub design — it created an entirely new concept: the "urban living room."',
+    dateConnection_en: 'On February 2, 1913, Grand Central Terminal officially opened in New York City. This Beaux-Arts masterpiece didn\'t just redefine transportation hub design â€” it created an entirely new concept: the "urban living room."',
 
-    designerBio_en: `Reed & Stem and Warren & Wetmore — a collaboration between two architectural firms.
+    designerBio_en: `Reed & Stem and Warren & Wetmore â€” a collaboration between two architectural firms.
 
-Charles Reed and Allen Stem handled the functional layout — their genius lay in inventing the elevated circumferential roadway system and multi-level traffic separation. Whitney Warren and Charles Wetmore were responsible for the exterior and interior design, infusing every detail with Beaux-Arts grandeur.
+Charles Reed and Allen Stem handled the functional layout â€” their genius lay in inventing the elevated circumferential roadway system and multi-level traffic separation. Whitney Warren and Charles Wetmore were responsible for the exterior and interior design, infusing every detail with Beaux-Arts grandeur.
 
 This pairing of "functional architect + aesthetic architect" was unusual at the time, but it was precisely this tension that made Grand Central great: **it is both a perfect transportation machine and a cathedral that makes you stop and look up.**`,
 
@@ -2089,7 +2089,7 @@ This pairing of "functional architect + aesthetic architect" was unusual at the 
 
 The heirs of railroad magnate Cornelius Vanderbilt decided: if they had to rebuild, they'd build a station unlike any before.
 
-Reed & Stem won the design competition. Their revolutionary plan sank the tracks underground, freeing the surface land into enormously valuable real estate above Park Avenue. **This wasn't just building a station — it was redesigning an entire section of the city.**
+Reed & Stem won the design competition. Their revolutionary plan sank the tracks underground, freeing the surface land into enormously valuable real estate above Park Avenue. **This wasn't just building a station â€” it was redesigning an entire section of the city.**
 
 Warren & Wetmore joined later, handling the building's grand face. They designed that breathtaking main concourse: a 125-foot vaulted ceiling painted with 2,500 stars forming constellations (albeit in reverse).
 
@@ -2097,14 +2097,14 @@ On opening day, February 2, 1913, 150,000 people flooded in. They gazed up at a 
 
 **But this wasn't a cathedral. It was a train station.** Grand Central proved that public transit spaces could possess cathedral-level dignity.`,
 
-    legacy_en: `• Urban design paradigm: Sinking tracks underground and freeing surface space directly catalyzed Park Avenue's prosperity and influenced Transit-Oriented Development (TOD) worldwide
-• Transportation architecture benchmark: Multi-level traffic separation and circumferential roadway systems have been adopted by transit hubs globally
-• Historic preservation movement: Facing demolition in the 1960s, Jackie Kennedy's preservation campaign saved it and inspired New York's Landmarks Preservation Law
-• Cultural landmark: 21 million annual visitors make it NYC's sixth-largest tourist attraction; the Apple Store inside gives it new contemporary relevance`,
+    legacy_en: `â€¢ Urban design paradigm: Sinking tracks underground and freeing surface space directly catalyzed Park Avenue's prosperity and influenced Transit-Oriented Development (TOD) worldwide
+â€¢ Transportation architecture benchmark: Multi-level traffic separation and circumferential roadway systems have been adopted by transit hubs globally
+â€¢ Historic preservation movement: Facing demolition in the 1960s, Jackie Kennedy's preservation campaign saved it and inspired New York's Landmarks Preservation Law
+â€¢ Cultural landmark: 21 million annual visitors make it NYC's sixth-largest tourist attraction; the Apple Store inside gives it new contemporary relevance`,
 
     significance_en: `Grand Central Terminal answered a fundamental question: **How should public space make people feel?**
 
-In a train station where everyone rushes to catch their train, the architects chose to make you pause — look up at the artificial sky, feel the light flowing across marble floors, hear echoes reverberating beneath the vault.
+In a train station where everyone rushes to catch their train, the architects chose to make you pause â€” look up at the artificial sky, feel the light flowing across marble floors, hear echoes reverberating beneath the vault.
 
 This design philosophy of "creating ceremony within functional space" extends from Grand Central all the way to today's airport terminals, metro stations, and high-speed rail hubs.
 
@@ -2123,87 +2123,87 @@ This design philosophy of "creating ceremony within functional space" extends fr
     designer: 'Alvar Aalto',
     year: '1933',
 
-    dateConnection: '1898年2月3日，芬兰建筑师、设计师 Alvar Aalto 出生于 Kuortane。他设计的 Stool 60 是工业设计史上最成功的家具之一——至今已售出超过800万件，几乎每个芬兰家庭都有一把。',
+    dateConnection: '1898å¹´2æœˆ3æ—¥ï¼ŒèŠ¬å…°å»ºç­‘å¸ˆã€è®¾è®¡å¸ˆ Alvar Aalto å‡ºç”ŸäºŽ Kuortaneã€‚ä»–è®¾è®¡çš„ Stool 60 æ˜¯å·¥ä¸šè®¾è®¡å²ä¸Šæœ€æˆåŠŸçš„å®¶å…·ä¹‹ä¸€â€”â€”è‡³ä»Šå·²å”®å‡ºè¶…è¿‡800ä¸‡ä»¶ï¼Œå‡ ä¹Žæ¯ä¸ªèŠ¬å…°å®¶åº­éƒ½æœ‰ä¸€æŠŠã€‚',
 
-    designerBio: `Alvar Aalto (1898-1976)，芬兰建筑师与设计师，现代主义运动中最具人文关怀的大师。
+    designerBio: `Alvar Aalto (1898-1976)ï¼ŒèŠ¬å…°å»ºç­‘å¸ˆä¸Žè®¾è®¡å¸ˆï¼ŒçŽ°ä»£ä¸»ä¹‰è¿åŠ¨ä¸­æœ€å…·äººæ–‡å…³æ€€çš„å¤§å¸ˆã€‚
 
-当包豪斯在用钢管和玻璃追求冰冷的理性时，Aalto 选择了木头。他说：**"上帝创造了纸，目的是用来画建筑图纸。其他一切都只是木头的滥用。"**
+å½“åŒ…è±ªæ–¯åœ¨ç”¨é’¢ç®¡å’ŒçŽ»ç’ƒè¿½æ±‚å†°å†·çš„ç†æ€§æ—¶ï¼ŒAalto é€‰æ‹©äº†æœ¨å¤´ã€‚ä»–è¯´ï¼š**"ä¸Šå¸åˆ›é€ äº†çº¸ï¼Œç›®çš„æ˜¯ç”¨æ¥ç”»å»ºç­‘å›¾çº¸ã€‚å…¶ä»–ä¸€åˆ‡éƒ½åªæ˜¯æœ¨å¤´çš„æ»¥ç”¨ã€‚"**
 
-他在赫尔辛基理工大学学习建筑，早年受北欧古典主义影响，后转向功能主义。但他从未完全拥抱包豪斯的机械美学——他要的是**温暖的现代主义**。
+ä»–åœ¨èµ«å°”è¾›åŸºç†å·¥å¤§å­¦å­¦ä¹ å»ºç­‘ï¼Œæ—©å¹´å—åŒ—æ¬§å¤å…¸ä¸»ä¹‰å½±å“ï¼ŒåŽè½¬å‘åŠŸèƒ½ä¸»ä¹‰ã€‚ä½†ä»–ä»Žæœªå®Œå…¨æ‹¥æŠ±åŒ…è±ªæ–¯çš„æœºæ¢°ç¾Žå­¦â€”â€”ä»–è¦çš„æ˜¯**æ¸©æš–çš„çŽ°ä»£ä¸»ä¹‰**ã€‚
 
-Aalto 不只设计建筑和家具。他还创立了 Artek（1935年），这家公司至今仍在生产他的设计。他是少数真正实现"从建筑到勺子"全领域设计的大师。`,
+Aalto ä¸åªè®¾è®¡å»ºç­‘å’Œå®¶å…·ã€‚ä»–è¿˜åˆ›ç«‹äº† Artekï¼ˆ1935å¹´ï¼‰ï¼Œè¿™å®¶å…¬å¸è‡³ä»Šä»åœ¨ç”Ÿäº§ä»–çš„è®¾è®¡ã€‚ä»–æ˜¯å°‘æ•°çœŸæ­£å®žçŽ°"ä»Žå»ºç­‘åˆ°å‹ºå­"å…¨é¢†åŸŸè®¾è®¡çš„å¤§å¸ˆã€‚`,
 
-    story: `1929年，Aalto 正在设计 Paimio 疗养院——一座为肺结核病人建造的现代主义建筑。他对每个细节都不满意，尤其是家具。
+    story: `1929å¹´ï¼ŒAalto æ­£åœ¨è®¾è®¡ Paimio ç–—å…»é™¢â€”â€”ä¸€åº§ä¸ºè‚ºç»“æ ¸ç—…äººå»ºé€ çš„çŽ°ä»£ä¸»ä¹‰å»ºç­‘ã€‚ä»–å¯¹æ¯ä¸ªç»†èŠ‚éƒ½ä¸æ»¡æ„ï¼Œå°¤å…¶æ˜¯å®¶å…·ã€‚
 
-钢管椅？太冷了。病人需要温暖。木头椅？太笨重了。病人需要轻便。
+é’¢ç®¡æ¤…ï¼Ÿå¤ªå†·äº†ã€‚ç—…äººéœ€è¦æ¸©æš–ã€‚æœ¨å¤´æ¤…ï¼Ÿå¤ªç¬¨é‡äº†ã€‚ç—…äººéœ€è¦è½»ä¾¿ã€‚
 
-**于是他开始了一项会改变家具设计史的实验：弯曲木材。**
+**äºŽæ˜¯ä»–å¼€å§‹äº†ä¸€é¡¹ä¼šæ”¹å˜å®¶å…·è®¾è®¡å²çš„å®žéªŒï¼šå¼¯æ›²æœ¨æã€‚**
 
-Aalto 和家具木工 Otto Korhonen 一起研发了"L型腿"技术：将实心桦木的一端切出薄片状的扇形锯缝，在锯缝中涂胶并嵌入薄木片，然后弯曲成90度。这样，一条直的木腿可以直接弯曲连接到座面，**不需要任何连接件**。
+Aalto å’Œå®¶å…·æœ¨å·¥ Otto Korhonen ä¸€èµ·ç ”å‘äº†"Låž‹è…¿"æŠ€æœ¯ï¼šå°†å®žå¿ƒæ¡¦æœ¨çš„ä¸€ç«¯åˆ‡å‡ºè–„ç‰‡çŠ¶çš„æ‰‡å½¢é”¯ç¼ï¼Œåœ¨é”¯ç¼ä¸­æ¶‚èƒ¶å¹¶åµŒå…¥è–„æœ¨ç‰‡ï¼Œç„¶åŽå¼¯æ›²æˆ90åº¦ã€‚è¿™æ ·ï¼Œä¸€æ¡ç›´çš„æœ¨è…¿å¯ä»¥ç›´æŽ¥å¼¯æ›²è¿žæŽ¥åˆ°åº§é¢ï¼Œ**ä¸éœ€è¦ä»»ä½•è¿žæŽ¥ä»¶**ã€‚
 
-1933年，Stool 60 诞生了：三条 L 型弯曲桦木腿，一个圆形座面。就这么简单。
+1933å¹´ï¼ŒStool 60 è¯žç”Ÿäº†ï¼šä¸‰æ¡ L åž‹å¼¯æ›²æ¡¦æœ¨è…¿ï¼Œä¸€ä¸ªåœ†å½¢åº§é¢ã€‚å°±è¿™ä¹ˆç®€å•ã€‚
 
-**简单到了极致就是革命。**
+**ç®€å•åˆ°äº†æžè‡´å°±æ˜¯é©å‘½ã€‚**
 
-它可以叠摞存放——这在当时是个新概念。它轻便到一只手就能拎起。它的结构如此简洁，以至于几乎不可能坏掉。它的价格足够低廉，每个人都买得起。
+å®ƒå¯ä»¥å æ‘žå­˜æ”¾â€”â€”è¿™åœ¨å½“æ—¶æ˜¯ä¸ªæ–°æ¦‚å¿µã€‚å®ƒè½»ä¾¿åˆ°ä¸€åªæ‰‹å°±èƒ½æ‹Žèµ·ã€‚å®ƒçš„ç»“æž„å¦‚æ­¤ç®€æ´ï¼Œä»¥è‡³äºŽå‡ ä¹Žä¸å¯èƒ½åæŽ‰ã€‚å®ƒçš„ä»·æ ¼è¶³å¤Ÿä½Žå»‰ï¼Œæ¯ä¸ªäººéƒ½ä¹°å¾—èµ·ã€‚
 
-从1933年至今，Stool 60 已经售出超过800万件。它出现在图书馆、咖啡馆、学校、医院、博物馆——以及几乎每个芬兰人的家中。`,
+ä»Ž1933å¹´è‡³ä»Šï¼ŒStool 60 å·²ç»å”®å‡ºè¶…è¿‡800ä¸‡ä»¶ã€‚å®ƒå‡ºçŽ°åœ¨å›¾ä¹¦é¦†ã€å’–å•¡é¦†ã€å­¦æ ¡ã€åŒ»é™¢ã€åšç‰©é¦†â€”â€”ä»¥åŠå‡ ä¹Žæ¯ä¸ªèŠ¬å…°äººçš„å®¶ä¸­ã€‚`,
 
-    legacy: `• L型腿技术：这项弯曲实木的专利技术至今仍在使用，成为北欧家具制造的基础
-• 可叠摞设计：Stool 60 是最早的可叠摞凳子之一，影响了后来所有公共空间家具设计
-• Artek 公司：Aalto 于1935年创立的家具品牌至今仍在生产 Stool 60，设计93年来从未改变
-• 人文现代主义：Aalto 证明了现代设计可以温暖、自然、亲切——不必非得是冰冷的钢管和玻璃
-• 芬兰设计基因：Stool 60 成为芬兰设计的象征，影响了 Marimekko、Iittala 等品牌的设计哲学`,
+    legacy: `â€¢ Låž‹è…¿æŠ€æœ¯ï¼šè¿™é¡¹å¼¯æ›²å®žæœ¨çš„ä¸“åˆ©æŠ€æœ¯è‡³ä»Šä»åœ¨ä½¿ç”¨ï¼Œæˆä¸ºåŒ—æ¬§å®¶å…·åˆ¶é€ çš„åŸºç¡€
+â€¢ å¯å æ‘žè®¾è®¡ï¼šStool 60 æ˜¯æœ€æ—©çš„å¯å æ‘žå‡³å­ä¹‹ä¸€ï¼Œå½±å“äº†åŽæ¥æ‰€æœ‰å…¬å…±ç©ºé—´å®¶å…·è®¾è®¡
+â€¢ Artek å…¬å¸ï¼šAalto äºŽ1935å¹´åˆ›ç«‹çš„å®¶å…·å“ç‰Œè‡³ä»Šä»åœ¨ç”Ÿäº§ Stool 60ï¼Œè®¾è®¡93å¹´æ¥ä»Žæœªæ”¹å˜
+â€¢ äººæ–‡çŽ°ä»£ä¸»ä¹‰ï¼šAalto è¯æ˜Žäº†çŽ°ä»£è®¾è®¡å¯ä»¥æ¸©æš–ã€è‡ªç„¶ã€äº²åˆ‡â€”â€”ä¸å¿…éžå¾—æ˜¯å†°å†·çš„é’¢ç®¡å’ŒçŽ»ç’ƒ
+â€¢ èŠ¬å…°è®¾è®¡åŸºå› ï¼šStool 60 æˆä¸ºèŠ¬å…°è®¾è®¡çš„è±¡å¾ï¼Œå½±å“äº† Marimekkoã€Iittala ç­‰å“ç‰Œçš„è®¾è®¡å“²å­¦`,
 
-    significance: `Stool 60 的伟大在于它的**谦逊**。
+    significance: `Stool 60 çš„ä¼Ÿå¤§åœ¨äºŽå®ƒçš„**è°¦é€Š**ã€‚
 
-它不像 Eames Lounge Chair 那样宣告品味，不像 Barcelona Chair 那样彰显地位。它只是安静地存在——在图书馆角落、在厨房餐桌旁、在教室里。
+å®ƒä¸åƒ Eames Lounge Chair é‚£æ ·å®£å‘Šå“å‘³ï¼Œä¸åƒ Barcelona Chair é‚£æ ·å½°æ˜¾åœ°ä½ã€‚å®ƒåªæ˜¯å®‰é™åœ°å­˜åœ¨â€”â€”åœ¨å›¾ä¹¦é¦†è§’è½ã€åœ¨åŽ¨æˆ¿é¤æ¡Œæ—ã€åœ¨æ•™å®¤é‡Œã€‚
 
-**最好的设计不是让你注意到它，而是让你忘记它。** Stool 60 如此自然地融入生活，以至于你可能坐了一辈子，却从未想过"谁设计了这把凳子"。
+**æœ€å¥½çš„è®¾è®¡ä¸æ˜¯è®©ä½ æ³¨æ„åˆ°å®ƒï¼Œè€Œæ˜¯è®©ä½ å¿˜è®°å®ƒã€‚** Stool 60 å¦‚æ­¤è‡ªç„¶åœ°èžå…¥ç”Ÿæ´»ï¼Œä»¥è‡³äºŽä½ å¯èƒ½åäº†ä¸€è¾ˆå­ï¼Œå´ä»Žæœªæƒ³è¿‡"è°è®¾è®¡äº†è¿™æŠŠå‡³å­"ã€‚
 
-Aalto 用一把凳子证明了：伟大的设计不需要惊叹号，只需要一个句号。安安静静，恰到好处。
+Aalto ç”¨ä¸€æŠŠå‡³å­è¯æ˜Žäº†ï¼šä¼Ÿå¤§çš„è®¾è®¡ä¸éœ€è¦æƒŠå¹å·ï¼Œåªéœ€è¦ä¸€ä¸ªå¥å·ã€‚å®‰å®‰é™é™ï¼Œæ°åˆ°å¥½å¤„ã€‚
 
-**93年了，这把凳子还在生产。这本身就是最好的设计评语。**`,
+**93å¹´äº†ï¼Œè¿™æŠŠå‡³å­è¿˜åœ¨ç”Ÿäº§ã€‚è¿™æœ¬èº«å°±æ˜¯æœ€å¥½çš„è®¾è®¡è¯„è¯­ã€‚**`,
 
-    dateConnection_en: 'On February 3, 1898, Finnish architect and designer Alvar Aalto was born in Kuortane. His Stool 60 is one of the most successful pieces of furniture in industrial design history — over 8 million have been sold, and virtually every Finnish household owns one.',
+    dateConnection_en: 'On February 3, 1898, Finnish architect and designer Alvar Aalto was born in Kuortane. His Stool 60 is one of the most successful pieces of furniture in industrial design history â€” over 8 million have been sold, and virtually every Finnish household owns one.',
 
     designerBio_en: `Alvar Aalto (1898-1976), Finnish architect and designer, the most humanistic master of the modernist movement.
 
 While the Bauhaus pursued cold rationality with steel tubes and glass, Aalto chose wood. He said: **"God created paper to draw architecture on. Everything else is just an abuse of wood."**
 
-He studied architecture at Helsinki University of Technology, initially influenced by Nordic Classicism before turning to Functionalism. But he never fully embraced Bauhaus machine aesthetics — what he wanted was **warm modernism**.
+He studied architecture at Helsinki University of Technology, initially influenced by Nordic Classicism before turning to Functionalism. But he never fully embraced Bauhaus machine aesthetics â€” what he wanted was **warm modernism**.
 
 Aalto didn't just design buildings and furniture. He also founded Artek (1935), a company that still produces his designs today. He was one of the rare masters who truly achieved design "from architecture to the spoon."`,
 
-    story_en: `In 1929, Aalto was designing the Paimio Sanatorium — a modernist building for tuberculosis patients. He was dissatisfied with every detail, especially the furniture.
+    story_en: `In 1929, Aalto was designing the Paimio Sanatorium â€” a modernist building for tuberculosis patients. He was dissatisfied with every detail, especially the furniture.
 
 Steel tube chairs? Too cold. Patients needed warmth. Wooden chairs? Too heavy. Patients needed lightness.
 
 **So he began an experiment that would change furniture design history: bending wood.**
 
-Working with furniture carpenter Otto Korhonen, Aalto developed the "L-leg" technique: cutting fan-shaped saw kerfs into one end of solid birch, applying glue and inserting thin wood veneers into the kerfs, then bending it to 90 degrees. This way, a straight wooden leg could bend directly into the seat surface — **requiring no connectors whatsoever**.
+Working with furniture carpenter Otto Korhonen, Aalto developed the "L-leg" technique: cutting fan-shaped saw kerfs into one end of solid birch, applying glue and inserting thin wood veneers into the kerfs, then bending it to 90 degrees. This way, a straight wooden leg could bend directly into the seat surface â€” **requiring no connectors whatsoever**.
 
 In 1933, Stool 60 was born: three L-shaped bent birch legs, one circular seat. That simple.
 
 **Simplicity taken to its extreme is revolution.**
 
-It could be stacked for storage — a novel concept at the time. It was light enough to carry with one hand. Its structure was so minimal it was virtually indestructible. Its price was low enough for everyone.
+It could be stacked for storage â€” a novel concept at the time. It was light enough to carry with one hand. Its structure was so minimal it was virtually indestructible. Its price was low enough for everyone.
 
-From 1933 to today, over 8 million Stool 60s have been sold. They appear in libraries, cafes, schools, hospitals, museums — and in virtually every Finnish home.`,
+From 1933 to today, over 8 million Stool 60s have been sold. They appear in libraries, cafes, schools, hospitals, museums â€” and in virtually every Finnish home.`,
 
-    legacy_en: `• L-leg technology: This patented solid wood bending technique is still used today and forms the foundation of Nordic furniture manufacturing
-• Stackable design: Stool 60 was one of the earliest stackable stools, influencing all subsequent public space furniture design
-• Artek company: Founded by Aalto in 1935, it still produces Stool 60 today — the design unchanged in 93 years
-• Humanistic modernism: Aalto proved modern design could be warm, natural, and approachable — not necessarily cold steel tubes and glass
-• Finnish design DNA: Stool 60 became a symbol of Finnish design, influencing the design philosophy of brands like Marimekko and Iittala`,
+    legacy_en: `â€¢ L-leg technology: This patented solid wood bending technique is still used today and forms the foundation of Nordic furniture manufacturing
+â€¢ Stackable design: Stool 60 was one of the earliest stackable stools, influencing all subsequent public space furniture design
+â€¢ Artek company: Founded by Aalto in 1935, it still produces Stool 60 today â€” the design unchanged in 93 years
+â€¢ Humanistic modernism: Aalto proved modern design could be warm, natural, and approachable â€” not necessarily cold steel tubes and glass
+â€¢ Finnish design DNA: Stool 60 became a symbol of Finnish design, influencing the design philosophy of brands like Marimekko and Iittala`,
 
     significance_en: `The greatness of Stool 60 lies in its **humility**.
 
-It doesn't announce taste like the Eames Lounge Chair. It doesn't signal status like the Barcelona Chair. It simply exists quietly — in library corners, beside kitchen tables, in classrooms.
+It doesn't announce taste like the Eames Lounge Chair. It doesn't signal status like the Barcelona Chair. It simply exists quietly â€” in library corners, beside kitchen tables, in classrooms.
 
 **The best design isn't something you notice; it's something you forget.** Stool 60 blends so naturally into life that you might sit on one your entire life without ever wondering "who designed this stool?"
 
-With one stool, Aalto proved that great design doesn't need exclamation marks — just a period. Quiet, just right.
+With one stool, Aalto proved that great design doesn't need exclamation marks â€” just a period. Quiet, just right.
 
 **93 years later, this stool is still in production. That itself is the finest design review.**`
   },
@@ -2213,7 +2213,7 @@ With one stool, Aalto proved that great design doesn't need exclamation marks �
     date: '2026-02-26',
     imageUrl: '/the-daily-object/images/levis-501.jpg',
     fullImageUrl: '/the-daily-object/images/full/levis-501.jpg',
-    title: 'Levi\'s 501 牛仔裤',
+    title: 'Levi\'s 501 ç‰›ä»”è£¤',
     title_en: 'Levi\'s 501 Jeans',
     subtitle: 'Levi Strauss & Jacob Davis, 1873',
     subtitle_en: 'Levi Strauss & Jacob Davis, 1873',
@@ -2221,57 +2221,57 @@ With one stool, Aalto proved that great design doesn't need exclamation marks �
     designer: 'Levi Strauss',
     year: '1873',
 
-    dateConnection: `1829年2月26日，Levi Strauss 出生于德国巴伐利亚的布滕海姆。这位日后将彻底改变人类穿着方式的移民，在18岁时跟随家人远渡重洋来到美国，最终在旧金山淘金热中找到了属于自己的"金矿"——不是在河床里，而是在工人们磨破的裤子上。`,
+    dateConnection: `1829å¹´2æœˆ26æ—¥ï¼ŒLevi Strauss å‡ºç”ŸäºŽå¾·å›½å·´ä¼åˆ©äºšçš„å¸ƒæ»•æµ·å§†ã€‚è¿™ä½æ—¥åŽå°†å½»åº•æ”¹å˜äººç±»ç©¿ç€æ–¹å¼çš„ç§»æ°‘ï¼Œåœ¨18å²æ—¶è·Ÿéšå®¶äººè¿œæ¸¡é‡æ´‹æ¥åˆ°ç¾Žå›½ï¼Œæœ€ç»ˆåœ¨æ—§é‡‘å±±æ·˜é‡‘çƒ­ä¸­æ‰¾åˆ°äº†å±žäºŽè‡ªå·±çš„"é‡‘çŸ¿"â€”â€”ä¸æ˜¯åœ¨æ²³åºŠé‡Œï¼Œè€Œæ˜¯åœ¨å·¥äººä»¬ç£¨ç ´çš„è£¤å­ä¸Šã€‚`,
 
-    designerBio: `Levi Strauss（1829–1902）是一个典型的美国梦故事，但他的伟大不在于发财致富，而在于**用设计思维解决了一个真实的问题**。
+    designerBio: `Levi Straussï¼ˆ1829â€“1902ï¼‰æ˜¯ä¸€ä¸ªå…¸åž‹çš„ç¾Žå›½æ¢¦æ•…äº‹ï¼Œä½†ä»–çš„ä¼Ÿå¤§ä¸åœ¨äºŽå‘è´¢è‡´å¯Œï¼Œè€Œåœ¨äºŽ**ç”¨è®¾è®¡æ€ç»´è§£å†³äº†ä¸€ä¸ªçœŸå®žçš„é—®é¢˜**ã€‚
 
-1853年，24岁的 Strauss 来到旧金山，最初经营干货批发生意。他观察到矿工们的裤子总是在口袋和接缝处撕裂——这不是面料的问题，而是**结构设计的问题**。
+1853å¹´ï¼Œ24å²çš„ Strauss æ¥åˆ°æ—§é‡‘å±±ï¼Œæœ€åˆç»è¥å¹²è´§æ‰¹å‘ç”Ÿæ„ã€‚ä»–è§‚å¯Ÿåˆ°çŸ¿å·¥ä»¬çš„è£¤å­æ€»æ˜¯åœ¨å£è¢‹å’ŒæŽ¥ç¼å¤„æ’•è£‚â€”â€”è¿™ä¸æ˜¯é¢æ–™çš„é—®é¢˜ï¼Œè€Œæ˜¯**ç»“æž„è®¾è®¡çš„é—®é¢˜**ã€‚
 
-1872年，裁缝 Jacob Davis 写信给 Strauss，提出了一个天才的解决方案：在裤子的受力点使用铜铆钉加固。两人合作申请专利，1873年5月20日获批——这一天，牛仔裤正式诞生。
+1872å¹´ï¼Œè£ç¼ Jacob Davis å†™ä¿¡ç»™ Straussï¼Œæå‡ºäº†ä¸€ä¸ªå¤©æ‰çš„è§£å†³æ–¹æ¡ˆï¼šåœ¨è£¤å­çš„å—åŠ›ç‚¹ä½¿ç”¨é“œé“†é’‰åŠ å›ºã€‚ä¸¤äººåˆä½œç”³è¯·ä¸“åˆ©ï¼Œ1873å¹´5æœˆ20æ—¥èŽ·æ‰¹â€”â€”è¿™ä¸€å¤©ï¼Œç‰›ä»”è£¤æ­£å¼è¯žç”Ÿã€‚
 
-Strauss 从未结婚，将毕生精力投入事业和慈善。他资助了加州大学伯克利分校的奖学金项目，至今仍在运行。1902年去世时，旧金山的商店全部关门一天以示悼念。`,
+Strauss ä»Žæœªç»“å©šï¼Œå°†æ¯•ç”Ÿç²¾åŠ›æŠ•å…¥äº‹ä¸šå’Œæ…ˆå–„ã€‚ä»–èµ„åŠ©äº†åŠ å·žå¤§å­¦ä¼¯å…‹åˆ©åˆ†æ ¡çš„å¥–å­¦é‡‘é¡¹ç›®ï¼Œè‡³ä»Šä»åœ¨è¿è¡Œã€‚1902å¹´åŽ»ä¸–æ—¶ï¼Œæ—§é‡‘å±±çš„å•†åº—å…¨éƒ¨å…³é—¨ä¸€å¤©ä»¥ç¤ºæ‚¼å¿µã€‚`,
 
-    designerBio_en: `Levi Strauss (1829–1902) embodies the American Dream, but his greatness lies not in wealth — it's in **solving a real problem through design thinking**.
+    designerBio_en: `Levi Strauss (1829â€“1902) embodies the American Dream, but his greatness lies not in wealth â€” it's in **solving a real problem through design thinking**.
 
-In 1853, the 24-year-old Strauss arrived in San Francisco, initially running a dry goods wholesale business. He noticed that miners' pants kept tearing at the pockets and seams — this wasn't a fabric problem, it was a **structural design problem**.
+In 1853, the 24-year-old Strauss arrived in San Francisco, initially running a dry goods wholesale business. He noticed that miners' pants kept tearing at the pockets and seams â€” this wasn't a fabric problem, it was a **structural design problem**.
 
-In 1872, tailor Jacob Davis wrote to Strauss proposing a genius solution: reinforcing stress points with copper rivets. Together they filed a patent, granted on May 20, 1873 — the official birthday of blue jeans.
+In 1872, tailor Jacob Davis wrote to Strauss proposing a genius solution: reinforcing stress points with copper rivets. Together they filed a patent, granted on May 20, 1873 â€” the official birthday of blue jeans.
 
 Strauss never married, devoting his life to business and philanthropy. He funded a scholarship program at UC Berkeley that still runs today. When he died in 1902, every store in San Francisco closed for a day in tribute.`,
 
-    story: `Levi's 501 不只是一条裤子，它是**人类服装史上被穿着最久、影响最广的单一设计**。
+    story: `Levi's 501 ä¸åªæ˜¯ä¸€æ¡è£¤å­ï¼Œå®ƒæ˜¯**äººç±»æœè£…å²ä¸Šè¢«ç©¿ç€æœ€ä¹…ã€å½±å“æœ€å¹¿çš„å•ä¸€è®¾è®¡**ã€‚
 
-最初的设计纯粹是功能性的：10盎司棉质帆布（后改为靛蓝染色的斜纹粗棉布），五个口袋，铜铆钉加固，纽扣门襟。每一个细节都是为了解决淘金矿工的实际需求——耐磨、耐撕、能装工具。
+æœ€åˆçš„è®¾è®¡çº¯ç²¹æ˜¯åŠŸèƒ½æ€§çš„ï¼š10ç›Žå¸æ£‰è´¨å¸†å¸ƒï¼ˆåŽæ”¹ä¸ºé›è“æŸ“è‰²çš„æ–œçº¹ç²—æ£‰å¸ƒï¼‰ï¼Œäº”ä¸ªå£è¢‹ï¼Œé“œé“†é’‰åŠ å›ºï¼Œçº½æ‰£é—¨è¥Ÿã€‚æ¯ä¸€ä¸ªç»†èŠ‚éƒ½æ˜¯ä¸ºäº†è§£å†³æ·˜é‡‘çŸ¿å·¥çš„å®žé™…éœ€æ±‚â€”â€”è€ç£¨ã€è€æ’•ã€èƒ½è£…å·¥å…·ã€‚
 
-但501的设计天才在于它的**不完美**。靛蓝染料会随时间和穿着褪色，每条裤子都会形成独一无二的褪色纹路——你的膝盖弯曲处、你的手机轮廓、你坐下时的折痕。**这条裤子会记录你的生活。**
+ä½†501çš„è®¾è®¡å¤©æ‰åœ¨äºŽå®ƒçš„**ä¸å®Œç¾Ž**ã€‚é›è“æŸ“æ–™ä¼šéšæ—¶é—´å’Œç©¿ç€è¤ªè‰²ï¼Œæ¯æ¡è£¤å­éƒ½ä¼šå½¢æˆç‹¬ä¸€æ— äºŒçš„è¤ªè‰²çº¹è·¯â€”â€”ä½ çš„è†ç›–å¼¯æ›²å¤„ã€ä½ çš„æ‰‹æœºè½®å»“ã€ä½ åä¸‹æ—¶çš„æŠ˜ç—•ã€‚**è¿™æ¡è£¤å­ä¼šè®°å½•ä½ çš„ç”Ÿæ´»ã€‚**
 
-从矿工工装到二战美军制服，从James Dean的叛逆符号到Andy Warhol的艺术画布，从朋克摇滚到硅谷程序员，501完成了人类时尚史上最不可思议的身份转变：**从最底层的劳动服装，变成了全世界最民主的时尚单品。**
+ä»ŽçŸ¿å·¥å·¥è£…åˆ°äºŒæˆ˜ç¾Žå†›åˆ¶æœï¼Œä»ŽJames Deançš„å›é€†ç¬¦å·åˆ°Andy Warholçš„è‰ºæœ¯ç”»å¸ƒï¼Œä»Žæœ‹å…‹æ‘‡æ»šåˆ°ç¡…è°·ç¨‹åºå‘˜ï¼Œ501å®Œæˆäº†äººç±»æ—¶å°šå²ä¸Šæœ€ä¸å¯æ€è®®çš„èº«ä»½è½¬å˜ï¼š**ä»Žæœ€åº•å±‚çš„åŠ³åŠ¨æœè£…ï¼Œå˜æˆäº†å…¨ä¸–ç•Œæœ€æ°‘ä¸»çš„æ—¶å°šå•å“ã€‚**
 
-没有哪个设计师品牌能做到这一点——让总统和牛仔、教授和工人穿同一条裤子，并且都觉得这条裤子就是为自己设计的。`,
+æ²¡æœ‰å“ªä¸ªè®¾è®¡å¸ˆå“ç‰Œèƒ½åšåˆ°è¿™ä¸€ç‚¹â€”â€”è®©æ€»ç»Ÿå’Œç‰›ä»”ã€æ•™æŽˆå’Œå·¥äººç©¿åŒä¸€æ¡è£¤å­ï¼Œå¹¶ä¸”éƒ½è§‰å¾—è¿™æ¡è£¤å­å°±æ˜¯ä¸ºè‡ªå·±è®¾è®¡çš„ã€‚`,
 
-    story_en: `The Levi's 501 isn't just a pair of pants — it's **the single most worn, most influential garment design in human history**.
+    story_en: `The Levi's 501 isn't just a pair of pants â€” it's **the single most worn, most influential garment design in human history**.
 
-The original design was purely functional: 10-oz cotton canvas (later switched to indigo-dyed twill denim), five pockets, copper rivet reinforcement, button fly. Every detail addressed the practical needs of gold miners — durability, tear resistance, tool storage.
+The original design was purely functional: 10-oz cotton canvas (later switched to indigo-dyed twill denim), five pockets, copper rivet reinforcement, button fly. Every detail addressed the practical needs of gold miners â€” durability, tear resistance, tool storage.
 
-But the design genius of the 501 lies in its **imperfection**. Indigo dye fades with time and wear, and each pair develops unique fade patterns — where your knees bend, the outline of your phone, the creases when you sit. **This garment records your life.**
+But the design genius of the 501 lies in its **imperfection**. Indigo dye fades with time and wear, and each pair develops unique fade patterns â€” where your knees bend, the outline of your phone, the creases when you sit. **This garment records your life.**
 
 From mining workwear to WWII military uniforms, from James Dean's rebel symbol to Andy Warhol's art canvas, from punk rock to Silicon Valley programmers, the 501 completed the most incredible identity transformation in fashion history: **from the lowest-class work clothing to the world's most democratic fashion item.**
 
-No designer brand has ever achieved this — making presidents and cowboys, professors and workers wear the same pants, each believing they were designed just for them.`,
+No designer brand has ever achieved this â€” making presidents and cowboys, professors and workers wear the same pants, each believing they were designed just for them.`,
 
-    legacy: `501的设计遗产远超时尚领域。铜铆钉加固技术开创了功能性五金件在服装中的应用，直接影响了后来所有工装和户外服饰的设计。五口袋布局成为全球牛仔裤的标准模板，至今未变。
+    legacy: `501çš„è®¾è®¡é—äº§è¿œè¶…æ—¶å°šé¢†åŸŸã€‚é“œé“†é’‰åŠ å›ºæŠ€æœ¯å¼€åˆ›äº†åŠŸèƒ½æ€§äº”é‡‘ä»¶åœ¨æœè£…ä¸­çš„åº”ç”¨ï¼Œç›´æŽ¥å½±å“äº†åŽæ¥æ‰€æœ‰å·¥è£…å’Œæˆ·å¤–æœé¥°çš„è®¾è®¡ã€‚äº”å£è¢‹å¸ƒå±€æˆä¸ºå…¨çƒç‰›ä»”è£¤çš„æ ‡å‡†æ¨¡æ¿ï¼Œè‡³ä»Šæœªå˜ã€‚
 
-更深远的影响在于**设计民主化**：501证明了伟大的设计不需要昂贵、不需要限量、不需要设计师签名。它是第一个真正意义上的"全球设计"——在每一个国家、每一个阶层、每一个亚文化中都有自己的位置。MoMA 和 Smithsonian 都将501纳入永久收藏。`,
+æ›´æ·±è¿œçš„å½±å“åœ¨äºŽ**è®¾è®¡æ°‘ä¸»åŒ–**ï¼š501è¯æ˜Žäº†ä¼Ÿå¤§çš„è®¾è®¡ä¸éœ€è¦æ˜‚è´µã€ä¸éœ€è¦é™é‡ã€ä¸éœ€è¦è®¾è®¡å¸ˆç­¾åã€‚å®ƒæ˜¯ç¬¬ä¸€ä¸ªçœŸæ­£æ„ä¹‰ä¸Šçš„"å…¨çƒè®¾è®¡"â€”â€”åœ¨æ¯ä¸€ä¸ªå›½å®¶ã€æ¯ä¸€ä¸ªé˜¶å±‚ã€æ¯ä¸€ä¸ªäºšæ–‡åŒ–ä¸­éƒ½æœ‰è‡ªå·±çš„ä½ç½®ã€‚MoMA å’Œ Smithsonian éƒ½å°†501çº³å…¥æ°¸ä¹…æ”¶è—ã€‚`,
 
     legacy_en: `The 501's design legacy extends far beyond fashion. Copper rivet reinforcement pioneered the use of functional hardware in clothing, directly influencing all subsequent workwear and outdoor apparel design. The five-pocket layout became the global standard template for jeans and remains unchanged today.
 
-The deeper impact is **design democratization**: the 501 proved that great design doesn't need to be expensive, limited-edition, or designer-signed. It was the first truly "global design" — finding its place in every country, every social class, every subculture. Both MoMA and the Smithsonian include the 501 in their permanent collections.`,
+The deeper impact is **design democratization**: the 501 proved that great design doesn't need to be expensive, limited-edition, or designer-signed. It was the first truly "global design" â€” finding its place in every country, every social class, every subculture. Both MoMA and the Smithsonian include the 501 in their permanent collections.`,
 
-    significance: `在设计史上，501代表了一个独特的命题：**最伟大的设计是否可以来自最朴素的出发点？** 答案是肯定的。Strauss 和 Davis 没有想过美学、没有想过品牌、没有想过文化符号——他们只想做一条不会撕破的裤子。而正是这种纯粹的功能主义，造就了最持久的设计。
+    significance: `åœ¨è®¾è®¡å²ä¸Šï¼Œ501ä»£è¡¨äº†ä¸€ä¸ªç‹¬ç‰¹çš„å‘½é¢˜ï¼š**æœ€ä¼Ÿå¤§çš„è®¾è®¡æ˜¯å¦å¯ä»¥æ¥è‡ªæœ€æœ´ç´ çš„å‡ºå‘ç‚¹ï¼Ÿ** ç­”æ¡ˆæ˜¯è‚¯å®šçš„ã€‚Strauss å’Œ Davis æ²¡æœ‰æƒ³è¿‡ç¾Žå­¦ã€æ²¡æœ‰æƒ³è¿‡å“ç‰Œã€æ²¡æœ‰æƒ³è¿‡æ–‡åŒ–ç¬¦å·â€”â€”ä»–ä»¬åªæƒ³åšä¸€æ¡ä¸ä¼šæ’•ç ´çš„è£¤å­ã€‚è€Œæ­£æ˜¯è¿™ç§çº¯ç²¹çš„åŠŸèƒ½ä¸»ä¹‰ï¼Œé€ å°±äº†æœ€æŒä¹…çš„è®¾è®¡ã€‚
 
-153年后，501仍在生产，仍在被穿着，仍在被模仿。它提醒每一个设计师：**解决真实问题的设计，自然会成为经典。**`,
+153å¹´åŽï¼Œ501ä»åœ¨ç”Ÿäº§ï¼Œä»åœ¨è¢«ç©¿ç€ï¼Œä»åœ¨è¢«æ¨¡ä»¿ã€‚å®ƒæé†’æ¯ä¸€ä¸ªè®¾è®¡å¸ˆï¼š**è§£å†³çœŸå®žé—®é¢˜çš„è®¾è®¡ï¼Œè‡ªç„¶ä¼šæˆä¸ºç»å…¸ã€‚**`,
 
-    significance_en: `In design history, the 501 represents a unique proposition: **Can the greatest design come from the humblest starting point?** The answer is yes. Strauss and Davis never thought about aesthetics, branding, or cultural symbolism — they just wanted to make pants that wouldn't rip. And it was precisely this pure functionalism that created the most enduring design.
+    significance_en: `In design history, the 501 represents a unique proposition: **Can the greatest design come from the humblest starting point?** The answer is yes. Strauss and Davis never thought about aesthetics, branding, or cultural symbolism â€” they just wanted to make pants that wouldn't rip. And it was precisely this pure functionalism that created the most enduring design.
 
 153 years later, the 501 is still in production, still being worn, still being imitated. It reminds every designer: **Design that solves real problems naturally becomes timeless.**`
   },
@@ -2281,7 +2281,7 @@ The deeper impact is **design democratization**: the 501 proved that great desig
     date: '2026-01-28',
     imageUrl: '/the-daily-object/images/baskerville-typeface.jpg',
     fullImageUrl: '/the-daily-object/images/full/baskerville-typeface.jpg',
-    title: 'Baskerville 字体',
+    title: 'Baskerville å­—ä½“',
     title_en: 'Baskerville Typeface',
     subtitle: 'John Baskerville, 1757',
     subtitle_en: 'John Baskerville, 1757',
@@ -2289,38 +2289,38 @@ The deeper impact is **design democratization**: the 501 proved that great desig
     designer: 'John Baskerville',
     year: '1757',
 
-    dateConnection: '1707年1月28日，John Baskerville 在英格兰伍斯特郡受洗。这位从墓碑雕刻师到漆器商人、再到印刷革命者的传奇人物，用一款字体改变了整个西方排版美学的走向。',
-    dateConnection_en: 'John Baskerville was baptised on January 28, 1707 in Worcestershire, England. This remarkable figure — who went from gravestone carver to japanning manufacturer to printing revolutionary — changed the course of Western typographic aesthetics with a single typeface.',
+    dateConnection: '1707å¹´1æœˆ28æ—¥ï¼ŒJohn Baskerville åœ¨è‹±æ ¼å…°ä¼æ–¯ç‰¹éƒ¡å—æ´—ã€‚è¿™ä½ä»Žå¢“ç¢‘é›•åˆ»å¸ˆåˆ°æ¼†å™¨å•†äººã€å†åˆ°å°åˆ·é©å‘½è€…çš„ä¼ å¥‡äººç‰©ï¼Œç”¨ä¸€æ¬¾å­—ä½“æ”¹å˜äº†æ•´ä¸ªè¥¿æ–¹æŽ’ç‰ˆç¾Žå­¦çš„èµ°å‘ã€‚',
+    dateConnection_en: 'John Baskerville was baptised on January 28, 1707 in Worcestershire, England. This remarkable figure â€” who went from gravestone carver to japanning manufacturer to printing revolutionary â€” changed the course of Western typographic aesthetics with a single typeface.',
 
-    designerBio: `John Baskerville (1707–1775) 是英国印刷史上最重要的人物之一。他早年以教书法为生，后来靠漆器（japanning）生意发了财，44岁时才开始投身印刷事业——这在18世纪是一个极其大胆的转行。
+    designerBio: `John Baskerville (1707â€“1775) æ˜¯è‹±å›½å°åˆ·å²ä¸Šæœ€é‡è¦çš„äººç‰©ä¹‹ä¸€ã€‚ä»–æ—©å¹´ä»¥æ•™ä¹¦æ³•ä¸ºç”Ÿï¼ŒåŽæ¥é æ¼†å™¨ï¼ˆjapanningï¼‰ç”Ÿæ„å‘äº†è´¢ï¼Œ44å²æ—¶æ‰å¼€å§‹æŠ•èº«å°åˆ·äº‹ä¸šâ€”â€”è¿™åœ¨18ä¸–çºªæ˜¯ä¸€ä¸ªæžå…¶å¤§èƒ†çš„è½¬è¡Œã€‚
 
-他不只是设计了一款字体，而是**重新发明了整个印刷流程**：自制更黑更亮的油墨、发明"织纹纸"(wove paper) 取代传统的"条纹纸"(laid paper)，让纸面更加光滑均匀，印刷效果前所未有地清晰锐利。`,
+ä»–ä¸åªæ˜¯è®¾è®¡äº†ä¸€æ¬¾å­—ä½“ï¼Œè€Œæ˜¯**é‡æ–°å‘æ˜Žäº†æ•´ä¸ªå°åˆ·æµç¨‹**ï¼šè‡ªåˆ¶æ›´é»‘æ›´äº®çš„æ²¹å¢¨ã€å‘æ˜Ž"ç»‡çº¹çº¸"(wove paper) å–ä»£ä¼ ç»Ÿçš„"æ¡çº¹çº¸"(laid paper)ï¼Œè®©çº¸é¢æ›´åŠ å…‰æ»‘å‡åŒ€ï¼Œå°åˆ·æ•ˆæžœå‰æ‰€æœªæœ‰åœ°æ¸…æ™°é”åˆ©ã€‚`,
 
-    designerBio_en: `John Baskerville (1707–1775) was one of the most important figures in British printing history. He spent his early career teaching handwriting, then made a fortune in japanning (lacquerwork), before diving into printing at age 44 — an extraordinarily bold career change in the 18th century.
+    designerBio_en: `John Baskerville (1707â€“1775) was one of the most important figures in British printing history. He spent his early career teaching handwriting, then made a fortune in japanning (lacquerwork), before diving into printing at age 44 â€” an extraordinarily bold career change in the 18th century.
 
-He didn't just design a typeface — he **reinvented the entire printing process**: creating blacker, glossier ink, inventing "wove paper" to replace traditional "laid paper," achieving an unprecedented level of printing clarity and sharpness.`,
+He didn't just design a typeface â€” he **reinvented the entire printing process**: creating blacker, glossier ink, inventing "wove paper" to replace traditional "laid paper," achieving an unprecedented level of printing clarity and sharpness.`,
 
-    story: `Baskerville 字体诞生于1757年，首次出现在他印刷的维吉尔《田园诗》中。这款字体介于古典的 Old Style（如 Caslon）和后来的 Modern（如 Bodoni）之间，被归类为"过渡体"（Transitional）——笔画粗细对比更强，衬线更锐利，字形更加挺拔优雅。
+    story: `Baskerville å­—ä½“è¯žç”ŸäºŽ1757å¹´ï¼Œé¦–æ¬¡å‡ºçŽ°åœ¨ä»–å°åˆ·çš„ç»´å‰å°”ã€Šç”°å›­è¯—ã€‹ä¸­ã€‚è¿™æ¬¾å­—ä½“ä»‹äºŽå¤å…¸çš„ Old Styleï¼ˆå¦‚ Caslonï¼‰å’ŒåŽæ¥çš„ Modernï¼ˆå¦‚ Bodoniï¼‰ä¹‹é—´ï¼Œè¢«å½’ç±»ä¸º"è¿‡æ¸¡ä½“"ï¼ˆTransitionalï¼‰â€”â€”ç¬”ç”»ç²—ç»†å¯¹æ¯”æ›´å¼ºï¼Œè¡¬çº¿æ›´é”åˆ©ï¼Œå­—å½¢æ›´åŠ æŒºæ‹”ä¼˜é›…ã€‚
 
-**然而 Baskerville 在生前并不被英国同行认可。** 印刷商们嘲笑他的字体"太刺眼"，传闻说阅读 Baskerville 印刷品会损害视力。讽刺的是，Benjamin Franklin 在一次著名的恶作剧中，给一位批评 Baskerville 字体的人看了一段用 Caslon（当时公认的"好"字体）印刷的文字，对方却指着它说"这就是 Baskerville，看了眼睛疼"——证明批评者根本分辨不出两者的区别。
+**ç„¶è€Œ Baskerville åœ¨ç”Ÿå‰å¹¶ä¸è¢«è‹±å›½åŒè¡Œè®¤å¯ã€‚** å°åˆ·å•†ä»¬å˜²ç¬‘ä»–çš„å­—ä½“"å¤ªåˆºçœ¼"ï¼Œä¼ é—»è¯´é˜…è¯» Baskerville å°åˆ·å“ä¼šæŸå®³è§†åŠ›ã€‚è®½åˆºçš„æ˜¯ï¼ŒBenjamin Franklin åœ¨ä¸€æ¬¡è‘—åçš„æ¶ä½œå‰§ä¸­ï¼Œç»™ä¸€ä½æ‰¹è¯„ Baskerville å­—ä½“çš„äººçœ‹äº†ä¸€æ®µç”¨ Caslonï¼ˆå½“æ—¶å…¬è®¤çš„"å¥½"å­—ä½“ï¼‰å°åˆ·çš„æ–‡å­—ï¼Œå¯¹æ–¹å´æŒ‡ç€å®ƒè¯´"è¿™å°±æ˜¯ Baskervilleï¼Œçœ‹äº†çœ¼ç›ç–¼"â€”â€”è¯æ˜Žæ‰¹è¯„è€…æ ¹æœ¬åˆ†è¾¨ä¸å‡ºä¸¤è€…çš„åŒºåˆ«ã€‚
 
-Baskerville 去世后，他的字模被卖到法国，深刻影响了 Didot 和 Bodoni 等后来的大师。**他在法国的影响力远超英国本土。**`,
+Baskerville åŽ»ä¸–åŽï¼Œä»–çš„å­—æ¨¡è¢«å–åˆ°æ³•å›½ï¼Œæ·±åˆ»å½±å“äº† Didot å’Œ Bodoni ç­‰åŽæ¥çš„å¤§å¸ˆã€‚**ä»–åœ¨æ³•å›½çš„å½±å“åŠ›è¿œè¶…è‹±å›½æœ¬åœŸã€‚**`,
 
-    story_en: `The Baskerville typeface was born in 1757, first appearing in his printing of Virgil's *Bucolica, Georgica, et Aeneis*. The typeface sits between the classical Old Style (like Caslon) and the later Modern style (like Bodoni), classified as "Transitional" — with stronger stroke contrast, sharper serifs, and more upright, elegant letterforms.
+    story_en: `The Baskerville typeface was born in 1757, first appearing in his printing of Virgil's *Bucolica, Georgica, et Aeneis*. The typeface sits between the classical Old Style (like Caslon) and the later Modern style (like Bodoni), classified as "Transitional" â€” with stronger stroke contrast, sharper serifs, and more upright, elegant letterforms.
 
-**Yet Baskerville was not appreciated by his English contemporaries.** Fellow printers mocked his typeface as "too dazzling," with rumors that reading Baskerville's prints would damage one's eyesight. Ironically, Benjamin Franklin played a famous prank: he showed a critic of Baskerville a passage printed in Caslon (the accepted "good" typeface), and the critic pointed at it saying "that's Baskerville, it hurts my eyes" — proving critics couldn't even tell the difference.
+**Yet Baskerville was not appreciated by his English contemporaries.** Fellow printers mocked his typeface as "too dazzling," with rumors that reading Baskerville's prints would damage one's eyesight. Ironically, Benjamin Franklin played a famous prank: he showed a critic of Baskerville a passage printed in Caslon (the accepted "good" typeface), and the critic pointed at it saying "that's Baskerville, it hurts my eyes" â€” proving critics couldn't even tell the difference.
 
 After Baskerville's death, his type punches were sold to France, profoundly influencing later masters like Didot and Bodoni. **His influence in France far exceeded his reputation in England.**`,
 
-    legacy: `Baskerville 字体经历了从被嘲笑到被封神的完整逆转。今天它是全球最广泛使用的经典衬线字体之一，被无数书籍、品牌和机构采用。2012年一项著名的心理学实验（纽约时报发起）证明：用 Baskerville 排版的文字比其他字体更容易让读者产生"信任感"——它被称为"最值得信赖的字体"。
+    legacy: `Baskerville å­—ä½“ç»åŽ†äº†ä»Žè¢«å˜²ç¬‘åˆ°è¢«å°ç¥žçš„å®Œæ•´é€†è½¬ã€‚ä»Šå¤©å®ƒæ˜¯å…¨çƒæœ€å¹¿æ³›ä½¿ç”¨çš„ç»å…¸è¡¬çº¿å­—ä½“ä¹‹ä¸€ï¼Œè¢«æ— æ•°ä¹¦ç±ã€å“ç‰Œå’Œæœºæž„é‡‡ç”¨ã€‚2012å¹´ä¸€é¡¹è‘—åçš„å¿ƒç†å­¦å®žéªŒï¼ˆçº½çº¦æ—¶æŠ¥å‘èµ·ï¼‰è¯æ˜Žï¼šç”¨ Baskerville æŽ’ç‰ˆçš„æ–‡å­—æ¯”å…¶ä»–å­—ä½“æ›´å®¹æ˜“è®©è¯»è€…äº§ç”Ÿ"ä¿¡ä»»æ„Ÿ"â€”â€”å®ƒè¢«ç§°ä¸º"æœ€å€¼å¾—ä¿¡èµ–çš„å­—ä½“"ã€‚
 
-他发明的织纹纸技术更是彻底改变了造纸业，至今仍是现代纸张制造的基础。一个人同时革新了字体设计、油墨配方和造纸技术——这种跨领域的创新精神在设计史上极为罕见。`,
+ä»–å‘æ˜Žçš„ç»‡çº¹çº¸æŠ€æœ¯æ›´æ˜¯å½»åº•æ”¹å˜äº†é€ çº¸ä¸šï¼Œè‡³ä»Šä»æ˜¯çŽ°ä»£çº¸å¼ åˆ¶é€ çš„åŸºç¡€ã€‚ä¸€ä¸ªäººåŒæ—¶é©æ–°äº†å­—ä½“è®¾è®¡ã€æ²¹å¢¨é…æ–¹å’Œé€ çº¸æŠ€æœ¯â€”â€”è¿™ç§è·¨é¢†åŸŸçš„åˆ›æ–°ç²¾ç¥žåœ¨è®¾è®¡å²ä¸Šæžä¸ºç½•è§ã€‚`,
 
-    legacy_en: `The Baskerville typeface underwent a complete reversal from mockery to canonization. Today it's one of the most widely used classic serif typefaces globally, adopted by countless books, brands, and institutions. A famous 2012 psychology experiment (initiated by the New York Times) proved that text set in Baskerville was more likely to inspire trust in readers than other typefaces — earning it the title of "the most trustworthy font."
+    legacy_en: `The Baskerville typeface underwent a complete reversal from mockery to canonization. Today it's one of the most widely used classic serif typefaces globally, adopted by countless books, brands, and institutions. A famous 2012 psychology experiment (initiated by the New York Times) proved that text set in Baskerville was more likely to inspire trust in readers than other typefaces â€” earning it the title of "the most trustworthy font."
 
-His invention of wove paper fundamentally transformed the paper industry and remains the foundation of modern papermaking. One person simultaneously revolutionized typeface design, ink formulation, and papermaking technology — this kind of cross-disciplinary innovation is extraordinarily rare in design history.`,
+His invention of wove paper fundamentally transformed the paper industry and remains the foundation of modern papermaking. One person simultaneously revolutionized typeface design, ink formulation, and papermaking technology â€” this kind of cross-disciplinary innovation is extraordinarily rare in design history.`,
 
-    significance: `Baskerville 代表了设计史上一个永恒的命题：**超前于时代的设计往往不被当代理解。** 他的字体在18世纪被视为异端，在21世纪被奉为经典。这提醒每一个设计师：大众的即时反馈不是衡量设计价值的唯一标准。`,
+    significance: `Baskerville ä»£è¡¨äº†è®¾è®¡å²ä¸Šä¸€ä¸ªæ°¸æ’çš„å‘½é¢˜ï¼š**è¶…å‰äºŽæ—¶ä»£çš„è®¾è®¡å¾€å¾€ä¸è¢«å½“ä»£ç†è§£ã€‚** ä»–çš„å­—ä½“åœ¨18ä¸–çºªè¢«è§†ä¸ºå¼‚ç«¯ï¼Œåœ¨21ä¸–çºªè¢«å¥‰ä¸ºç»å…¸ã€‚è¿™æé†’æ¯ä¸€ä¸ªè®¾è®¡å¸ˆï¼šå¤§ä¼—çš„å³æ—¶åé¦ˆä¸æ˜¯è¡¡é‡è®¾è®¡ä»·å€¼çš„å”¯ä¸€æ ‡å‡†ã€‚`,
 
     significance_en: `Baskerville represents an eternal proposition in design history: **design that is ahead of its time is often misunderstood by its contemporaries.** His typeface was considered heretical in the 18th century and canonical in the 21st. This reminds every designer: immediate public feedback is not the only measure of design value.`,
   },
@@ -2338,40 +2338,40 @@ His invention of wove paper fundamentally transformed the paper industry and rem
     designer: 'Karl Benz',
     year: '1886',
 
-    dateConnection: '1886年1月29日，Karl Benz 为他的"气体驱动车辆"（Benz Patent-Motorwagen）申请了专利（DRP 37435）。这是人类历史上第一辆被授予专利的汽车，标志着汽车工业的诞生。',
+    dateConnection: '1886å¹´1æœˆ29æ—¥ï¼ŒKarl Benz ä¸ºä»–çš„"æ°”ä½“é©±åŠ¨è½¦è¾†"ï¼ˆBenz Patent-Motorwagenï¼‰ç”³è¯·äº†ä¸“åˆ©ï¼ˆDRP 37435ï¼‰ã€‚è¿™æ˜¯äººç±»åŽ†å²ä¸Šç¬¬ä¸€è¾†è¢«æŽˆäºˆä¸“åˆ©çš„æ±½è½¦ï¼Œæ ‡å¿—ç€æ±½è½¦å·¥ä¸šçš„è¯žç”Ÿã€‚',
     dateConnection_en: 'On January 29, 1886, Karl Benz filed the patent for his "vehicle powered by a gas engine" (Benz Patent-Motorwagen, DRP 37435). It was the first automobile ever to be granted a patent, marking the birth of the automotive industry.',
 
-    designerBio: `Karl Benz (1844–1929) 是德国工程师和发明家，被公认为"汽车之父"。他在曼海姆的小作坊里完成了这项改变世界的发明。
+    designerBio: `Karl Benz (1844â€“1929) æ˜¯å¾·å›½å·¥ç¨‹å¸ˆå’Œå‘æ˜Žå®¶ï¼Œè¢«å…¬è®¤ä¸º"æ±½è½¦ä¹‹çˆ¶"ã€‚ä»–åœ¨æ›¼æµ·å§†çš„å°ä½œåŠé‡Œå®Œæˆäº†è¿™é¡¹æ”¹å˜ä¸–ç•Œçš„å‘æ˜Žã€‚
 
-与许多发明家不同，Benz 不仅设计了发动机，还从零开始设计了整辆车——底盘、传动系统、点火装置、冷却系统、转向机构，全部是原创设计。他把汽车视为一个**完整的设计系统**，而非简单地把发动机装在马车上。`,
+ä¸Žè®¸å¤šå‘æ˜Žå®¶ä¸åŒï¼ŒBenz ä¸ä»…è®¾è®¡äº†å‘åŠ¨æœºï¼Œè¿˜ä»Žé›¶å¼€å§‹è®¾è®¡äº†æ•´è¾†è½¦â€”â€”åº•ç›˜ã€ä¼ åŠ¨ç³»ç»Ÿã€ç‚¹ç«è£…ç½®ã€å†·å´ç³»ç»Ÿã€è½¬å‘æœºæž„ï¼Œå…¨éƒ¨æ˜¯åŽŸåˆ›è®¾è®¡ã€‚ä»–æŠŠæ±½è½¦è§†ä¸ºä¸€ä¸ª**å®Œæ•´çš„è®¾è®¡ç³»ç»Ÿ**ï¼Œè€Œéžç®€å•åœ°æŠŠå‘åŠ¨æœºè£…åœ¨é©¬è½¦ä¸Šã€‚`,
 
-    designerBio_en: `Karl Benz (1844–1929) was a German engineer and inventor, widely recognized as the "father of the automobile." He completed this world-changing invention in his small workshop in Mannheim.
+    designerBio_en: `Karl Benz (1844â€“1929) was a German engineer and inventor, widely recognized as the "father of the automobile." He completed this world-changing invention in his small workshop in Mannheim.
 
-Unlike many inventors, Benz didn't just design an engine — he designed the entire vehicle from scratch: chassis, drivetrain, ignition, cooling system, steering mechanism — all original designs. He saw the automobile as a **complete design system**, not simply an engine bolted onto a horse carriage.`,
+Unlike many inventors, Benz didn't just design an engine â€” he designed the entire vehicle from scratch: chassis, drivetrain, ignition, cooling system, steering mechanism â€” all original designs. He saw the automobile as a **complete design system**, not simply an engine bolted onto a horse carriage.`,
 
-    story: `Patent-Motorwagen 的设计极其优雅地解决了一个根本问题：如何让内燃机驱动一辆可操控的车辆？
+    story: `Patent-Motorwagen çš„è®¾è®¡æžå…¶ä¼˜é›…åœ°è§£å†³äº†ä¸€ä¸ªæ ¹æœ¬é—®é¢˜ï¼šå¦‚ä½•è®©å†…ç‡ƒæœºé©±åŠ¨ä¸€è¾†å¯æ“æŽ§çš„è½¦è¾†ï¼Ÿ
 
-三轮设计不是妥协，而是精妙的工程选择——当时没有可靠的差速器技术，三轮结构避免了前轮转向的复杂机械问题。单缸四冲程发动机排量954cc，输出约0.75马力，最高时速16公里。这些数字在今天看来微不足道，但在1886年，这是**人类第一次不依赖动物或自然力就能自由移动**。
+ä¸‰è½®è®¾è®¡ä¸æ˜¯å¦¥åï¼Œè€Œæ˜¯ç²¾å¦™çš„å·¥ç¨‹é€‰æ‹©â€”â€”å½“æ—¶æ²¡æœ‰å¯é çš„å·®é€Ÿå™¨æŠ€æœ¯ï¼Œä¸‰è½®ç»“æž„é¿å…äº†å‰è½®è½¬å‘çš„å¤æ‚æœºæ¢°é—®é¢˜ã€‚å•ç¼¸å››å†²ç¨‹å‘åŠ¨æœºæŽ’é‡954ccï¼Œè¾“å‡ºçº¦0.75é©¬åŠ›ï¼Œæœ€é«˜æ—¶é€Ÿ16å…¬é‡Œã€‚è¿™äº›æ•°å­—åœ¨ä»Šå¤©çœ‹æ¥å¾®ä¸è¶³é“ï¼Œä½†åœ¨1886å¹´ï¼Œè¿™æ˜¯**äººç±»ç¬¬ä¸€æ¬¡ä¸ä¾èµ–åŠ¨ç‰©æˆ–è‡ªç„¶åŠ›å°±èƒ½è‡ªç”±ç§»åŠ¨**ã€‚
 
-真正让 Motorwagen 从实验室走向公众视野的，是 Benz 的妻子 Bertha。1888年8月，她带着两个儿子驾驶 Motorwagen 完成了从曼海姆到普福尔茨海姆的106公里长途旅行——这是**世界上第一次汽车长途旅行**。这次旅行不仅证明了汽车的实用性，Bertha 还在途中发明了刹车片衬垫（用皮匠的皮革），并建议丈夫增加一个低速挡用于爬坡。`,
+çœŸæ­£è®© Motorwagen ä»Žå®žéªŒå®¤èµ°å‘å…¬ä¼—è§†é‡Žçš„ï¼Œæ˜¯ Benz çš„å¦»å­ Berthaã€‚1888å¹´8æœˆï¼Œå¥¹å¸¦ç€ä¸¤ä¸ªå„¿å­é©¾é©¶ Motorwagen å®Œæˆäº†ä»Žæ›¼æµ·å§†åˆ°æ™®ç¦å°”èŒ¨æµ·å§†çš„106å…¬é‡Œé•¿é€”æ—…è¡Œâ€”â€”è¿™æ˜¯**ä¸–ç•Œä¸Šç¬¬ä¸€æ¬¡æ±½è½¦é•¿é€”æ—…è¡Œ**ã€‚è¿™æ¬¡æ—…è¡Œä¸ä»…è¯æ˜Žäº†æ±½è½¦çš„å®žç”¨æ€§ï¼ŒBertha è¿˜åœ¨é€”ä¸­å‘æ˜Žäº†åˆ¹è½¦ç‰‡è¡¬åž«ï¼ˆç”¨çš®åŒ çš„çš®é©ï¼‰ï¼Œå¹¶å»ºè®®ä¸ˆå¤«å¢žåŠ ä¸€ä¸ªä½Žé€ŸæŒ¡ç”¨äºŽçˆ¬å¡ã€‚`,
 
     story_en: `The Patent-Motorwagen's design elegantly solved a fundamental problem: how to make an internal combustion engine drive a controllable vehicle.
 
-The three-wheel design wasn't a compromise — it was an ingenious engineering choice. Without reliable differential technology, the three-wheel structure avoided the complex mechanical issues of front-wheel steering. The single-cylinder four-stroke engine displaced 954cc, produced about 0.75 horsepower, and reached a top speed of 16 km/h. These numbers seem trivial today, but in 1886, this was **humanity's first time moving freely without relying on animals or natural forces**.
+The three-wheel design wasn't a compromise â€” it was an ingenious engineering choice. Without reliable differential technology, the three-wheel structure avoided the complex mechanical issues of front-wheel steering. The single-cylinder four-stroke engine displaced 954cc, produced about 0.75 horsepower, and reached a top speed of 16 km/h. These numbers seem trivial today, but in 1886, this was **humanity's first time moving freely without relying on animals or natural forces**.
 
-What truly brought the Motorwagen from laboratory to public eye was Benz's wife, Bertha. In August 1888, she took their two sons on a 106-kilometer journey from Mannheim to Pforzheim — **the world's first long-distance automobile trip**. This journey not only proved the car's practicality; along the way, Bertha invented brake pad lining (using a cobbler's leather) and suggested her husband add a lower gear for hill climbing.`,
+What truly brought the Motorwagen from laboratory to public eye was Benz's wife, Bertha. In August 1888, she took their two sons on a 106-kilometer journey from Mannheim to Pforzheim â€” **the world's first long-distance automobile trip**. This journey not only proved the car's practicality; along the way, Bertha invented brake pad lining (using a cobbler's leather) and suggested her husband add a lower gear for hill climbing.`,
 
-    legacy: `Patent-Motorwagen 的专利号 DRP 37435 被视为汽车工业的"出生证"。Benz 随后创立的公司最终与 Daimler 合并，成为今天的 Mercedes-Benz。
+    legacy: `Patent-Motorwagen çš„ä¸“åˆ©å· DRP 37435 è¢«è§†ä¸ºæ±½è½¦å·¥ä¸šçš„"å‡ºç”Ÿè¯"ã€‚Benz éšåŽåˆ›ç«‹çš„å…¬å¸æœ€ç»ˆä¸Ž Daimler åˆå¹¶ï¼Œæˆä¸ºä»Šå¤©çš„ Mercedes-Benzã€‚
 
-但 Motorwagen 的设计遗产远不止品牌传承。它确立了汽车作为**整体设计对象**的概念——不是拼凑，而是从功能到形式的完整思考。这种系统性设计思维影响了此后一个多世纪的工业设计方法论。`,
+ä½† Motorwagen çš„è®¾è®¡é—äº§è¿œä¸æ­¢å“ç‰Œä¼ æ‰¿ã€‚å®ƒç¡®ç«‹äº†æ±½è½¦ä½œä¸º**æ•´ä½“è®¾è®¡å¯¹è±¡**çš„æ¦‚å¿µâ€”â€”ä¸æ˜¯æ‹¼å‡‘ï¼Œè€Œæ˜¯ä»ŽåŠŸèƒ½åˆ°å½¢å¼çš„å®Œæ•´æ€è€ƒã€‚è¿™ç§ç³»ç»Ÿæ€§è®¾è®¡æ€ç»´å½±å“äº†æ­¤åŽä¸€ä¸ªå¤šä¸–çºªçš„å·¥ä¸šè®¾è®¡æ–¹æ³•è®ºã€‚`,
 
     legacy_en: `Patent number DRP 37435 is regarded as the "birth certificate" of the automotive industry. The company Benz subsequently founded eventually merged with Daimler to become today's Mercedes-Benz.
 
-But the Motorwagen's design legacy extends far beyond brand heritage. It established the automobile as a **holistic design object** — not assembled from parts, but a complete integration of function and form. This systems-thinking approach to design influenced over a century of industrial design methodology.`,
+But the Motorwagen's design legacy extends far beyond brand heritage. It established the automobile as a **holistic design object** â€” not assembled from parts, but a complete integration of function and form. This systems-thinking approach to design influenced over a century of industrial design methodology.`,
 
-    significance: `Motorwagen 证明了一个设计真理：**最伟大的设计不是改良现有事物，而是创造一个全新的品类。** Benz 没有做一辆"更好的马车"，他发明了一种全新的移动方式。而 Bertha 的长途旅行则证明了另一个真理：**设计的价值要在真实使用中才能被验证。**`,
+    significance: `Motorwagen è¯æ˜Žäº†ä¸€ä¸ªè®¾è®¡çœŸç†ï¼š**æœ€ä¼Ÿå¤§çš„è®¾è®¡ä¸æ˜¯æ”¹è‰¯çŽ°æœ‰äº‹ç‰©ï¼Œè€Œæ˜¯åˆ›é€ ä¸€ä¸ªå…¨æ–°çš„å“ç±»ã€‚** Benz æ²¡æœ‰åšä¸€è¾†"æ›´å¥½çš„é©¬è½¦"ï¼Œä»–å‘æ˜Žäº†ä¸€ç§å…¨æ–°çš„ç§»åŠ¨æ–¹å¼ã€‚è€Œ Bertha çš„é•¿é€”æ—…è¡Œåˆ™è¯æ˜Žäº†å¦ä¸€ä¸ªçœŸç†ï¼š**è®¾è®¡çš„ä»·å€¼è¦åœ¨çœŸå®žä½¿ç”¨ä¸­æ‰èƒ½è¢«éªŒè¯ã€‚**`,
 
-    significance_en: `The Motorwagen proved a design truth: **the greatest designs don't improve existing things — they create entirely new categories.** Benz didn't make a "better carriage"; he invented a fundamentally new way of moving. And Bertha's long-distance journey proved another truth: **the value of design can only be validated through real-world use.**`,
+    significance_en: `The Motorwagen proved a design truth: **the greatest designs don't improve existing things â€” they create entirely new categories.** Benz didn't make a "better carriage"; he invented a fundamentally new way of moving. And Bertha's long-distance journey proved another truth: **the value of design can only be validated through real-world use.**`,
   },
 
   {
@@ -2379,52 +2379,52 @@ But the Motorwagen's design legacy extends far beyond brand heritage. It establi
     date: '2026-01-30',
     imageUrl: '/the-daily-object/images/wuerzburg-residence.jpg',
     fullImageUrl: '/the-daily-object/images/full/wuerzburg-residence.jpg',
-    title: '维尔茨堡宫',
-    title_en: 'Würzburg Residence',
+    title: 'ç»´å°”èŒ¨å ¡å®«',
+    title_en: 'WÃ¼rzburg Residence',
     subtitle: 'Balthasar Neumann, 1744',
     subtitle_en: 'Balthasar Neumann, 1744',
     category: 'architecture',
     designer: 'Balthasar Neumann',
     year: '1744',
 
-    dateConnection: '1687年1月30日，巴洛克建筑大师 Balthasar Neumann 在波希米亚的埃格尔（今捷克赫布）受洗。他设计的维尔茨堡宫被 UNESCO 称为"欧洲最杰出的巴洛克宫殿之一"，其大楼梯间拥有世界上最大的天花板壁画。',
-    dateConnection_en: 'Balthasar Neumann, the Baroque architectural master, was baptised on January 30, 1687 in Eger, Bohemia (now Cheb, Czech Republic). His Würzburg Residence is described by UNESCO as "one of the most outstanding Baroque palaces in Europe," with the grand staircase hall featuring the world\'s largest ceiling fresco.',
+    dateConnection: '1687å¹´1æœˆ30æ—¥ï¼Œå·´æ´›å…‹å»ºç­‘å¤§å¸ˆ Balthasar Neumann åœ¨æ³¢å¸Œç±³äºšçš„åŸƒæ ¼å°”ï¼ˆä»Šæ·å…‹èµ«å¸ƒï¼‰å—æ´—ã€‚ä»–è®¾è®¡çš„ç»´å°”èŒ¨å ¡å®«è¢« UNESCO ç§°ä¸º"æ¬§æ´²æœ€æ°å‡ºçš„å·´æ´›å…‹å®«æ®¿ä¹‹ä¸€"ï¼Œå…¶å¤§æ¥¼æ¢¯é—´æ‹¥æœ‰ä¸–ç•Œä¸Šæœ€å¤§çš„å¤©èŠ±æ¿å£ç”»ã€‚',
+    dateConnection_en: 'Balthasar Neumann, the Baroque architectural master, was baptised on January 30, 1687 in Eger, Bohemia (now Cheb, Czech Republic). His WÃ¼rzburg Residence is described by UNESCO as "one of the most outstanding Baroque palaces in Europe," with the grand staircase hall featuring the world\'s largest ceiling fresco.',
 
-    designerBio: `Balthasar Neumann (1687–1753) 是德国巴洛克和洛可可时期最伟大的建筑师之一。出生于波希米亚，后移居维尔茨堡，从铸炮工匠起步，自学建筑。
+    designerBio: `Balthasar Neumann (1687â€“1753) æ˜¯å¾·å›½å·´æ´›å…‹å’Œæ´›å¯å¯æ—¶æœŸæœ€ä¼Ÿå¤§çš„å»ºç­‘å¸ˆä¹‹ä¸€ã€‚å‡ºç”ŸäºŽæ³¢å¸Œç±³äºšï¼ŒåŽç§»å±…ç»´å°”èŒ¨å ¡ï¼Œä»Žé“¸ç‚®å·¥åŒ èµ·æ­¥ï¼Œè‡ªå­¦å»ºç­‘ã€‚
 
-他的天赋在于**结构与空间的极限探索**——他设计的楼梯、穹顶和教堂中殿挑战了当时工程学的边界。他不只是装饰大师，更是结构工程的先驱，用数学和力学知识实现了前所未有的空间效果。`,
+ä»–çš„å¤©èµ‹åœ¨äºŽ**ç»“æž„ä¸Žç©ºé—´çš„æžé™æŽ¢ç´¢**â€”â€”ä»–è®¾è®¡çš„æ¥¼æ¢¯ã€ç©¹é¡¶å’Œæ•™å ‚ä¸­æ®¿æŒ‘æˆ˜äº†å½“æ—¶å·¥ç¨‹å­¦çš„è¾¹ç•Œã€‚ä»–ä¸åªæ˜¯è£…é¥°å¤§å¸ˆï¼Œæ›´æ˜¯ç»“æž„å·¥ç¨‹çš„å…ˆé©±ï¼Œç”¨æ•°å­¦å’ŒåŠ›å­¦çŸ¥è¯†å®žçŽ°äº†å‰æ‰€æœªæœ‰çš„ç©ºé—´æ•ˆæžœã€‚`,
 
-    designerBio_en: `Balthasar Neumann (1687–1753) was one of the greatest architects of the German Baroque and Rococo periods. Born in Bohemia, he later settled in Würzburg, starting as a cannon founder before teaching himself architecture.
+    designerBio_en: `Balthasar Neumann (1687â€“1753) was one of the greatest architects of the German Baroque and Rococo periods. Born in Bohemia, he later settled in WÃ¼rzburg, starting as a cannon founder before teaching himself architecture.
 
-His genius lay in **pushing the limits of structure and space** — the staircases, domes, and church naves he designed challenged the boundaries of contemporary engineering. He wasn't merely a master of decoration but a pioneer of structural engineering, using mathematics and mechanics to achieve unprecedented spatial effects.`,
+His genius lay in **pushing the limits of structure and space** â€” the staircases, domes, and church naves he designed challenged the boundaries of contemporary engineering. He wasn't merely a master of decoration but a pioneer of structural engineering, using mathematics and mechanics to achieve unprecedented spatial effects.`,
 
-    story: `维尔茨堡宫 (Würzburger Residenz) 始建于1720年，历时约24年完成主体结构。这座宫殿是维尔茨堡亲王主教的府邸，Neumann 从最初的设计竞赛中脱颖而出，此后将毕生精力倾注于这座建筑。
+    story: `ç»´å°”èŒ¨å ¡å®« (WÃ¼rzburger Residenz) å§‹å»ºäºŽ1720å¹´ï¼ŒåŽ†æ—¶çº¦24å¹´å®Œæˆä¸»ä½“ç»“æž„ã€‚è¿™åº§å®«æ®¿æ˜¯ç»´å°”èŒ¨å ¡äº²çŽ‹ä¸»æ•™çš„åºœé‚¸ï¼ŒNeumann ä»Žæœ€åˆçš„è®¾è®¡ç«žèµ›ä¸­è„±é¢–è€Œå‡ºï¼Œæ­¤åŽå°†æ¯•ç”Ÿç²¾åŠ›å€¾æ³¨äºŽè¿™åº§å»ºç­‘ã€‚
 
-**大楼梯间 (Treppenhaus) 是整座宫殿的灵魂，也是建筑史上的奇迹。** 一个18×32米、没有任何柱子支撑的巨大空间上方，悬浮着一个自承重穹顶。当时几乎所有建筑师都认为这个跨度不可能实现——据说有人打赌穹顶会塌。Neumann 用精妙的力学计算证明了他们的错误。
+**å¤§æ¥¼æ¢¯é—´ (Treppenhaus) æ˜¯æ•´åº§å®«æ®¿çš„çµé­‚ï¼Œä¹Ÿæ˜¯å»ºç­‘å²ä¸Šçš„å¥‡è¿¹ã€‚** ä¸€ä¸ª18Ã—32ç±³ã€æ²¡æœ‰ä»»ä½•æŸ±å­æ”¯æ’‘çš„å·¨å¤§ç©ºé—´ä¸Šæ–¹ï¼Œæ‚¬æµ®ç€ä¸€ä¸ªè‡ªæ‰¿é‡ç©¹é¡¶ã€‚å½“æ—¶å‡ ä¹Žæ‰€æœ‰å»ºç­‘å¸ˆéƒ½è®¤ä¸ºè¿™ä¸ªè·¨åº¦ä¸å¯èƒ½å®žçŽ°â€”â€”æ®è¯´æœ‰äººæ‰“èµŒç©¹é¡¶ä¼šå¡Œã€‚Neumann ç”¨ç²¾å¦™çš„åŠ›å­¦è®¡ç®—è¯æ˜Žäº†ä»–ä»¬çš„é”™è¯¯ã€‚
 
-穹顶之上是威尼斯画家 Giovanni Battista Tiepolo 创作的天花板壁画——**世界上最大的单幅天花板壁画**，面积约677平方米，描绘了四大洲的寓言场景。建筑与绘画在这里达成了完美的共生：Neumann 的结构为 Tiepolo 的画笔提供了最宏大的画布，而 Tiepolo 的壁画又让 Neumann 的空间获得了无限的视觉延伸。
+ç©¹é¡¶ä¹‹ä¸Šæ˜¯å¨å°¼æ–¯ç”»å®¶ Giovanni Battista Tiepolo åˆ›ä½œçš„å¤©èŠ±æ¿å£ç”»â€”â€”**ä¸–ç•Œä¸Šæœ€å¤§çš„å•å¹…å¤©èŠ±æ¿å£ç”»**ï¼Œé¢ç§¯çº¦677å¹³æ–¹ç±³ï¼Œæç»˜äº†å››å¤§æ´²çš„å¯“è¨€åœºæ™¯ã€‚å»ºç­‘ä¸Žç»˜ç”»åœ¨è¿™é‡Œè¾¾æˆäº†å®Œç¾Žçš„å…±ç”Ÿï¼šNeumann çš„ç»“æž„ä¸º Tiepolo çš„ç”»ç¬”æä¾›äº†æœ€å®å¤§çš„ç”»å¸ƒï¼Œè€Œ Tiepolo çš„å£ç”»åˆè®© Neumann çš„ç©ºé—´èŽ·å¾—äº†æ— é™çš„è§†è§‰å»¶ä¼¸ã€‚
 
-二战中维尔茨堡被炸成废墟，但大楼梯间奇迹般地幸存，穹顶和壁画完好无损。`,
+äºŒæˆ˜ä¸­ç»´å°”èŒ¨å ¡è¢«ç‚¸æˆåºŸå¢Ÿï¼Œä½†å¤§æ¥¼æ¢¯é—´å¥‡è¿¹èˆ¬åœ°å¹¸å­˜ï¼Œç©¹é¡¶å’Œå£ç”»å®Œå¥½æ— æŸã€‚`,
 
-    story_en: `The Würzburg Residence (Würzburger Residenz) was begun in 1720, with the main structure completed over approximately 24 years. The palace served as the residence of the Prince-Bishops of Würzburg, and Neumann emerged from the initial design competition, pouring his life's work into this building.
+    story_en: `The WÃ¼rzburg Residence (WÃ¼rzburger Residenz) was begun in 1720, with the main structure completed over approximately 24 years. The palace served as the residence of the Prince-Bishops of WÃ¼rzburg, and Neumann emerged from the initial design competition, pouring his life's work into this building.
 
-**The grand staircase hall (Treppenhaus) is the soul of the palace and a miracle of architectural history.** Above an enormous 18×32 meter space with no column support, a self-supporting vault appears to float. Nearly every architect of the time believed this span was impossible — reportedly, some bet the vault would collapse. Neumann proved them wrong with brilliant structural calculations.
+**The grand staircase hall (Treppenhaus) is the soul of the palace and a miracle of architectural history.** Above an enormous 18Ã—32 meter space with no column support, a self-supporting vault appears to float. Nearly every architect of the time believed this span was impossible â€” reportedly, some bet the vault would collapse. Neumann proved them wrong with brilliant structural calculations.
 
-Above the vault is a ceiling fresco by Venetian painter Giovanni Battista Tiepolo — **the world's largest single ceiling fresco**, covering approximately 677 square meters, depicting allegorical scenes of the four continents. Architecture and painting achieved perfect symbiosis here: Neumann's structure provided the grandest canvas for Tiepolo's brush, while Tiepolo's fresco gave Neumann's space infinite visual extension.
+Above the vault is a ceiling fresco by Venetian painter Giovanni Battista Tiepolo â€” **the world's largest single ceiling fresco**, covering approximately 677 square meters, depicting allegorical scenes of the four continents. Architecture and painting achieved perfect symbiosis here: Neumann's structure provided the grandest canvas for Tiepolo's brush, while Tiepolo's fresco gave Neumann's space infinite visual extension.
 
-During WWII, Würzburg was bombed to rubble, yet the grand staircase miraculously survived — vault and fresco intact.`,
+During WWII, WÃ¼rzburg was bombed to rubble, yet the grand staircase miraculously survived â€” vault and fresco intact.`,
 
-    legacy: `维尔茨堡宫1981年被列入 UNESCO 世界文化遗产，被誉为与凡尔赛宫和美泉宫并列的欧洲三大巴洛克宫殿之一。Neumann 对结构力学的创新——特别是大跨度无柱空间的实现——影响了后世数百年的建筑工程学。
+    legacy: `ç»´å°”èŒ¨å ¡å®«1981å¹´è¢«åˆ—å…¥ UNESCO ä¸–ç•Œæ–‡åŒ–é—äº§ï¼Œè¢«èª‰ä¸ºä¸Žå‡¡å°”èµ›å®«å’Œç¾Žæ³‰å®«å¹¶åˆ—çš„æ¬§æ´²ä¸‰å¤§å·´æ´›å…‹å®«æ®¿ä¹‹ä¸€ã€‚Neumann å¯¹ç»“æž„åŠ›å­¦çš„åˆ›æ–°â€”â€”ç‰¹åˆ«æ˜¯å¤§è·¨åº¦æ— æŸ±ç©ºé—´çš„å®žçŽ°â€”â€”å½±å“äº†åŽä¸–æ•°ç™¾å¹´çš„å»ºç­‘å·¥ç¨‹å­¦ã€‚
 
-他设计的十四圣人教堂 (Vierzehnheiligen) 同样是巴洛克建筑的巅峰之作，展示了他将椭圆与圆相互穿插、创造流动空间的独特能力。`,
+ä»–è®¾è®¡çš„åå››åœ£äººæ•™å ‚ (Vierzehnheiligen) åŒæ ·æ˜¯å·´æ´›å…‹å»ºç­‘çš„å·…å³°ä¹‹ä½œï¼Œå±•ç¤ºäº†ä»–å°†æ¤­åœ†ä¸Žåœ†ç›¸äº’ç©¿æ’ã€åˆ›é€ æµåŠ¨ç©ºé—´çš„ç‹¬ç‰¹èƒ½åŠ›ã€‚`,
 
-    legacy_en: `The Würzburg Residence was inscribed as a UNESCO World Heritage Site in 1981, celebrated as one of Europe's three greatest Baroque palaces alongside Versailles and Schönbrunn. Neumann's structural innovations — particularly achieving large column-free spans — influenced centuries of subsequent architectural engineering.
+    legacy_en: `The WÃ¼rzburg Residence was inscribed as a UNESCO World Heritage Site in 1981, celebrated as one of Europe's three greatest Baroque palaces alongside Versailles and SchÃ¶nbrunn. Neumann's structural innovations â€” particularly achieving large column-free spans â€” influenced centuries of subsequent architectural engineering.
 
 His Basilica of the Fourteen Holy Helpers (Vierzehnheiligen) is equally a pinnacle of Baroque architecture, showcasing his unique ability to interweave ellipses and circles to create flowing spatial experiences.`,
 
-    significance: `Neumann 证明了**伟大的建筑不是选择结构或美学，而是让两者合一。** 大楼梯间的穹顶既是工程壮举，也是艺术画布。在今天"网红建筑"泛滥的时代，维尔茨堡宫提醒我们：真正的建筑杰作是**结构诚实与空间诗意的统一**。`,
+    significance: `Neumann è¯æ˜Žäº†**ä¼Ÿå¤§çš„å»ºç­‘ä¸æ˜¯é€‰æ‹©ç»“æž„æˆ–ç¾Žå­¦ï¼Œè€Œæ˜¯è®©ä¸¤è€…åˆä¸€ã€‚** å¤§æ¥¼æ¢¯é—´çš„ç©¹é¡¶æ—¢æ˜¯å·¥ç¨‹å£®ä¸¾ï¼Œä¹Ÿæ˜¯è‰ºæœ¯ç”»å¸ƒã€‚åœ¨ä»Šå¤©"ç½‘çº¢å»ºç­‘"æ³›æ»¥çš„æ—¶ä»£ï¼Œç»´å°”èŒ¨å ¡å®«æé†’æˆ‘ä»¬ï¼šçœŸæ­£çš„å»ºç­‘æ°ä½œæ˜¯**ç»“æž„è¯šå®žä¸Žç©ºé—´è¯—æ„çš„ç»Ÿä¸€**ã€‚`,
 
-    significance_en: `Neumann proved that **great architecture doesn't choose between structure and aesthetics — it unifies them.** The grand staircase vault is both an engineering feat and an artistic canvas. In today's era of "Instagram architecture," the Würzburg Residence reminds us that true architectural masterpieces are **the unity of structural honesty and spatial poetry.**`,
+    significance_en: `Neumann proved that **great architecture doesn't choose between structure and aesthetics â€” it unifies them.** The grand staircase vault is both an engineering feat and an artistic canvas. In today's era of "Instagram architecture," the WÃ¼rzburg Residence reminds us that true architectural masterpieces are **the unity of structural honesty and spatial poetry.**`,
   },
 
   {
@@ -2432,68 +2432,68 @@ His Basilica of the Fourteen Holy Helpers (Vierzehnheiligen) is equally a pinnac
     date: '2026-01-23',
     imageUrl: '/the-daily-object/images/manet-olympia.jpg',
     fullImageUrl: '/the-daily-object/images/full/manet-olympia.jpg',
-    title: '奥林匹亚',
+    title: 'å¥¥æž—åŒ¹äºš',
     title_en: 'Olympia',
-    subtitle: 'Édouard Manet, 1863',
-    subtitle_en: 'Édouard Manet, 1863',
+    subtitle: 'Ã‰douard Manet, 1863',
+    subtitle_en: 'Ã‰douard Manet, 1863',
     category: 'art',
-    designer: 'Édouard Manet',
+    designer: 'Ã‰douard Manet',
     year: '1863',
 
-    dateConnection: '1832年1月23日，Édouard Manet 出生于巴黎。他被公认为现代主义绘画的奠基人，《奥林匹亚》是他最具颠覆性的作品——一幅让整个巴黎艺术界炸锅的画。',
-    dateConnection_en: 'Édouard Manet was born on January 23, 1832 in Paris. Widely regarded as the founding figure of modernist painting, his Olympia remains one of the most subversive works in art history — a painting that scandalized the entire Parisian art world.',
+    dateConnection: '1832å¹´1æœˆ23æ—¥ï¼ŒÃ‰douard Manet å‡ºç”ŸäºŽå·´é»Žã€‚ä»–è¢«å…¬è®¤ä¸ºçŽ°ä»£ä¸»ä¹‰ç»˜ç”»çš„å¥ åŸºäººï¼Œã€Šå¥¥æž—åŒ¹äºšã€‹æ˜¯ä»–æœ€å…·é¢ è¦†æ€§çš„ä½œå“â€”â€”ä¸€å¹…è®©æ•´ä¸ªå·´é»Žè‰ºæœ¯ç•Œç‚¸é”…çš„ç”»ã€‚',
+    dateConnection_en: 'Ã‰douard Manet was born on January 23, 1832 in Paris. Widely regarded as the founding figure of modernist painting, his Olympia remains one of the most subversive works in art history â€” a painting that scandalized the entire Parisian art world.',
 
-    designerBio: `Édouard Manet (1832–1883)，法国画家，现代艺术的关键开创者。
+    designerBio: `Ã‰douard Manet (1832â€“1883)ï¼Œæ³•å›½ç”»å®¶ï¼ŒçŽ°ä»£è‰ºæœ¯çš„å…³é”®å¼€åˆ›è€…ã€‚
 
-出生于巴黎上流社会家庭，父亲希望他从事法律，母亲鼓励他的艺术天赋。他曾在海军服役，最终选择了绘画。师从学院派画家 Thomas Couture，但很快就对学院派的陈规感到厌倦。
+å‡ºç”ŸäºŽå·´é»Žä¸Šæµç¤¾ä¼šå®¶åº­ï¼Œçˆ¶äº²å¸Œæœ›ä»–ä»Žäº‹æ³•å¾‹ï¼Œæ¯äº²é¼“åŠ±ä»–çš„è‰ºæœ¯å¤©èµ‹ã€‚ä»–æ›¾åœ¨æµ·å†›æœå½¹ï¼Œæœ€ç»ˆé€‰æ‹©äº†ç»˜ç”»ã€‚å¸ˆä»Žå­¦é™¢æ´¾ç”»å®¶ Thomas Coutureï¼Œä½†å¾ˆå¿«å°±å¯¹å­¦é™¢æ´¾çš„é™ˆè§„æ„Ÿåˆ°åŽŒå€¦ã€‚
 
-**"我画我所见，而非人们希望我见到的。"**
+**"æˆ‘ç”»æˆ‘æ‰€è§ï¼Œè€Œéžäººä»¬å¸Œæœ›æˆ‘è§åˆ°çš„ã€‚"**
 
-Manet 不属于任何流派。他不是印象派——虽然印象派画家视他为精神领袖。他是一个孤独的革命者，站在传统与现代的裂缝之间，向两边同时开火。`,
+Manet ä¸å±žäºŽä»»ä½•æµæ´¾ã€‚ä»–ä¸æ˜¯å°è±¡æ´¾â€”â€”è™½ç„¶å°è±¡æ´¾ç”»å®¶è§†ä»–ä¸ºç²¾ç¥žé¢†è¢–ã€‚ä»–æ˜¯ä¸€ä¸ªå­¤ç‹¬çš„é©å‘½è€…ï¼Œç«™åœ¨ä¼ ç»Ÿä¸ŽçŽ°ä»£çš„è£‚ç¼ä¹‹é—´ï¼Œå‘ä¸¤è¾¹åŒæ—¶å¼€ç«ã€‚`,
 
-    designerBio_en: `Édouard Manet (1832–1883), French painter and a pivotal figure in the birth of modern art.
+    designerBio_en: `Ã‰douard Manet (1832â€“1883), French painter and a pivotal figure in the birth of modern art.
 
 Born into an affluent Parisian family, his father wanted him in law while his mother encouraged his artistic talents. After a stint in the navy, he chose painting. He studied under academic painter Thomas Couture but quickly grew restless with academic conventions.
 
 **"I paint what I see, not what others wish me to see."**
 
-Manet belonged to no movement. He wasn't an Impressionist — though the Impressionists regarded him as their spiritual leader. He was a solitary revolutionary, standing in the fault line between tradition and modernity, firing in both directions.`,
+Manet belonged to no movement. He wasn't an Impressionist â€” though the Impressionists regarded him as their spiritual leader. He was a solitary revolutionary, standing in the fault line between tradition and modernity, firing in both directions.`,
 
-    story: `1865年巴黎沙龙。Manet 展出了一幅裸体女性的画作。裸体在学院派绘画中司空见惯——维纳斯、仙女、女神，都是可以接受的。
+    story: `1865å¹´å·´é»Žæ²™é¾™ã€‚Manet å±•å‡ºäº†ä¸€å¹…è£¸ä½“å¥³æ€§çš„ç”»ä½œã€‚è£¸ä½“åœ¨å­¦é™¢æ´¾ç»˜ç”»ä¸­å¸ç©ºè§æƒ¯â€”â€”ç»´çº³æ–¯ã€ä»™å¥³ã€å¥³ç¥žï¼Œéƒ½æ˜¯å¯ä»¥æŽ¥å—çš„ã€‚
 
-但《奥林匹亚》不是维纳斯。
+ä½†ã€Šå¥¥æž—åŒ¹äºšã€‹ä¸æ˜¯ç»´çº³æ–¯ã€‚
 
-**她是一个妓女。** 她的名字"Olympia"在当时的巴黎是妓女的通用名。她戴着颈带和手镯，脚穿拖鞋，身旁是一位黑人女仆递上客人送的花束。一只黑猫弓着背站在床尾——在当时的象征语言中，这代表性。
+**å¥¹æ˜¯ä¸€ä¸ªå¦“å¥³ã€‚** å¥¹çš„åå­—"Olympia"åœ¨å½“æ—¶çš„å·´é»Žæ˜¯å¦“å¥³çš„é€šç”¨åã€‚å¥¹æˆ´ç€é¢ˆå¸¦å’Œæ‰‹é•¯ï¼Œè„šç©¿æ‹–éž‹ï¼Œèº«æ—æ˜¯ä¸€ä½é»‘äººå¥³ä»†é€’ä¸Šå®¢äººé€çš„èŠ±æŸã€‚ä¸€åªé»‘çŒ«å¼“ç€èƒŒç«™åœ¨åºŠå°¾â€”â€”åœ¨å½“æ—¶çš„è±¡å¾è¯­è¨€ä¸­ï¼Œè¿™ä»£è¡¨æ€§ã€‚
 
-最令人不安的是她的目光。她直视观众，毫不羞愧，甚至带着一丝挑衅。传统裸体画中的女性总是回避目光，假装不知道有人在看。**Olympia 知道你在看她，而且她不在乎。**
+æœ€ä»¤äººä¸å®‰çš„æ˜¯å¥¹çš„ç›®å…‰ã€‚å¥¹ç›´è§†è§‚ä¼—ï¼Œæ¯«ä¸ç¾žæ„§ï¼Œç”šè‡³å¸¦ç€ä¸€ä¸æŒ‘è¡…ã€‚ä¼ ç»Ÿè£¸ä½“ç”»ä¸­çš„å¥³æ€§æ€»æ˜¯å›žé¿ç›®å…‰ï¼Œå‡è£…ä¸çŸ¥é“æœ‰äººåœ¨çœ‹ã€‚**Olympia çŸ¥é“ä½ åœ¨çœ‹å¥¹ï¼Œè€Œä¸”å¥¹ä¸åœ¨ä¹Žã€‚**
 
-沙龙里一片哗然。评论家称之为"道德败坏"，观众试图用雨伞戳画布。展览方不得不派守卫保护这幅画，并将它移到最高处，远离愤怒的人群。
+æ²™é¾™é‡Œä¸€ç‰‡å“—ç„¶ã€‚è¯„è®ºå®¶ç§°ä¹‹ä¸º"é“å¾·è´¥å"ï¼Œè§‚ä¼—è¯•å›¾ç”¨é›¨ä¼žæˆ³ç”»å¸ƒã€‚å±•è§ˆæ–¹ä¸å¾—ä¸æ´¾å®ˆå«ä¿æŠ¤è¿™å¹…ç”»ï¼Œå¹¶å°†å®ƒç§»åˆ°æœ€é«˜å¤„ï¼Œè¿œç¦»æ„¤æ€’çš„äººç¾¤ã€‚
 
-但 Manet 做的事情远比画一个妓女更深刻：他摧毁了绘画的幻觉。平坦的色块取代了传统的明暗渐变，画面中几乎没有景深。这不是"像照片一样"的写实——这是**承认自己是一幅画**的绘画。`,
+ä½† Manet åšçš„äº‹æƒ…è¿œæ¯”ç”»ä¸€ä¸ªå¦“å¥³æ›´æ·±åˆ»ï¼šä»–æ‘§æ¯äº†ç»˜ç”»çš„å¹»è§‰ã€‚å¹³å¦çš„è‰²å—å–ä»£äº†ä¼ ç»Ÿçš„æ˜Žæš—æ¸å˜ï¼Œç”»é¢ä¸­å‡ ä¹Žæ²¡æœ‰æ™¯æ·±ã€‚è¿™ä¸æ˜¯"åƒç…§ç‰‡ä¸€æ ·"çš„å†™å®žâ€”â€”è¿™æ˜¯**æ‰¿è®¤è‡ªå·±æ˜¯ä¸€å¹…ç”»**çš„ç»˜ç”»ã€‚`,
 
-    story_en: `The Paris Salon of 1865. Manet exhibited a painting of a nude woman. Nudes were commonplace in academic painting — Venus, nymphs, goddesses were all acceptable subjects.
+    story_en: `The Paris Salon of 1865. Manet exhibited a painting of a nude woman. Nudes were commonplace in academic painting â€” Venus, nymphs, goddesses were all acceptable subjects.
 
 But Olympia was not Venus.
 
-**She was a courtesan.** Her name "Olympia" was a common pseudonym for Parisian prostitutes. She wore a choker and bracelet, slippers on her feet, while a Black maid presented a bouquet from a client. A black cat arched its back at the foot of the bed — in the symbolic language of the time, it represented sexuality.
+**She was a courtesan.** Her name "Olympia" was a common pseudonym for Parisian prostitutes. She wore a choker and bracelet, slippers on her feet, while a Black maid presented a bouquet from a client. A black cat arched its back at the foot of the bed â€” in the symbolic language of the time, it represented sexuality.
 
 Most disturbing was her gaze. She stared directly at the viewer, unashamed, even defiant. Women in traditional nudes always averted their eyes, pretending not to know they were being observed. **Olympia knew you were looking at her, and she didn't care.**
 
 The Salon erupted. Critics called it "morally corrupt," visitors tried to stab the canvas with their umbrellas. Exhibition staff had to post guards and eventually moved it to the highest position on the wall, away from the angry crowds.
 
-But what Manet did went far deeper than painting a courtesan: he shattered the illusion of painting itself. Flat blocks of color replaced traditional chiaroscuro, with almost no depth of field. This wasn't photographic realism — this was **painting that acknowledged itself as painting.**`,
+But what Manet did went far deeper than painting a courtesan: he shattered the illusion of painting itself. Flat blocks of color replaced traditional chiaroscuro, with almost no depth of field. This wasn't photographic realism â€” this was **painting that acknowledged itself as painting.**`,
 
-    legacy: `《奥林匹亚》直接启发了整个现代艺术运动。印象派、后印象派、甚至毕加索都从 Manet 的平面化处理中汲取灵感。这幅画现藏于巴黎奥赛博物馆，被视为从古典绘画到现代艺术的转折点。
+    legacy: `ã€Šå¥¥æž—åŒ¹äºšã€‹ç›´æŽ¥å¯å‘äº†æ•´ä¸ªçŽ°ä»£è‰ºæœ¯è¿åŠ¨ã€‚å°è±¡æ´¾ã€åŽå°è±¡æ´¾ã€ç”šè‡³æ¯•åŠ ç´¢éƒ½ä»Ž Manet çš„å¹³é¢åŒ–å¤„ç†ä¸­æ±²å–çµæ„Ÿã€‚è¿™å¹…ç”»çŽ°è—äºŽå·´é»Žå¥¥èµ›åšç‰©é¦†ï¼Œè¢«è§†ä¸ºä»Žå¤å…¸ç»˜ç”»åˆ°çŽ°ä»£è‰ºæœ¯çš„è½¬æŠ˜ç‚¹ã€‚
 
-Manet 证明了艺术可以直面现实、拒绝美化、挑战观众的舒适区——同时仍然是伟大的绘画。`,
+Manet è¯æ˜Žäº†è‰ºæœ¯å¯ä»¥ç›´é¢çŽ°å®žã€æ‹’ç»ç¾ŽåŒ–ã€æŒ‘æˆ˜è§‚ä¼—çš„èˆ’é€‚åŒºâ€”â€”åŒæ—¶ä»ç„¶æ˜¯ä¼Ÿå¤§çš„ç»˜ç”»ã€‚`,
 
-    legacy_en: `Olympia directly inspired the entire modern art movement. Impressionism, Post-Impressionism, even Picasso drew from Manet's flattening of pictorial space. The painting now hangs in the Musée d'Orsay in Paris, recognized as the turning point from classical painting to modern art.
+    legacy_en: `Olympia directly inspired the entire modern art movement. Impressionism, Post-Impressionism, even Picasso drew from Manet's flattening of pictorial space. The painting now hangs in the MusÃ©e d'Orsay in Paris, recognized as the turning point from classical painting to modern art.
 
-Manet proved that art could confront reality, refuse to beautify, and challenge the viewer's comfort zone — while still being great painting.`,
+Manet proved that art could confront reality, refuse to beautify, and challenge the viewer's comfort zone â€” while still being great painting.`,
 
-    significance: `Manet 教会了后来所有的艺术家一件事：**最危险的创新不是技法上的突破，而是观看方式的改变。** Olympia 的技法并不复杂，甚至被当时的人批评为"粗糙"。但她改变了人们看画的方式——从被动的审美欣赏，变成了主动的、不舒服的对视。`,
+    significance: `Manet æ•™ä¼šäº†åŽæ¥æ‰€æœ‰çš„è‰ºæœ¯å®¶ä¸€ä»¶äº‹ï¼š**æœ€å±é™©çš„åˆ›æ–°ä¸æ˜¯æŠ€æ³•ä¸Šçš„çªç ´ï¼Œè€Œæ˜¯è§‚çœ‹æ–¹å¼çš„æ”¹å˜ã€‚** Olympia çš„æŠ€æ³•å¹¶ä¸å¤æ‚ï¼Œç”šè‡³è¢«å½“æ—¶çš„äººæ‰¹è¯„ä¸º"ç²—ç³™"ã€‚ä½†å¥¹æ”¹å˜äº†äººä»¬çœ‹ç”»çš„æ–¹å¼â€”â€”ä»Žè¢«åŠ¨çš„å®¡ç¾Žæ¬£èµï¼Œå˜æˆäº†ä¸»åŠ¨çš„ã€ä¸èˆ’æœçš„å¯¹è§†ã€‚`,
 
-    significance_en: `Manet taught every artist who followed one thing: **the most dangerous innovation isn't a technical breakthrough, but a change in the way of seeing.** Olympia's technique wasn't complex — critics of the time even called it "crude." But she changed how people looked at paintings — from passive aesthetic appreciation to an active, uncomfortable confrontation.`,
+    significance_en: `Manet taught every artist who followed one thing: **the most dangerous innovation isn't a technical breakthrough, but a change in the way of seeing.** Olympia's technique wasn't complex â€” critics of the time even called it "crude." But she changed how people looked at paintings â€” from passive aesthetic appreciation to an active, uncomfortable confrontation.`,
   },
 
   {
@@ -2509,52 +2509,52 @@ Manet proved that art could confront reality, refuse to beautify, and challenge 
     designer: 'Apple / Hartmut Esslinger',
     year: '1984',
 
-    dateConnection: '1984年1月24日，Steve Jobs 在 Apple 股东大会上发布了初代 Macintosh。这不仅是一台电脑——它是图形用户界面走向大众的历史性时刻，是"个人电脑应该是什么样"这个问题的第一个真正答案。',
-    dateConnection_en: 'On January 24, 1984, Steve Jobs unveiled the original Macintosh at an Apple shareholders meeting. This wasn\'t just a computer — it was the historic moment when the graphical user interface reached the masses, the first real answer to the question "what should a personal computer look like."',
+    dateConnection: '1984å¹´1æœˆ24æ—¥ï¼ŒSteve Jobs åœ¨ Apple è‚¡ä¸œå¤§ä¼šä¸Šå‘å¸ƒäº†åˆä»£ Macintoshã€‚è¿™ä¸ä»…æ˜¯ä¸€å°ç”µè„‘â€”â€”å®ƒæ˜¯å›¾å½¢ç”¨æˆ·ç•Œé¢èµ°å‘å¤§ä¼—çš„åŽ†å²æ€§æ—¶åˆ»ï¼Œæ˜¯"ä¸ªäººç”µè„‘åº”è¯¥æ˜¯ä»€ä¹ˆæ ·"è¿™ä¸ªé—®é¢˜çš„ç¬¬ä¸€ä¸ªçœŸæ­£ç­”æ¡ˆã€‚',
+    dateConnection_en: 'On January 24, 1984, Steve Jobs unveiled the original Macintosh at an Apple shareholders meeting. This wasn\'t just a computer â€” it was the historic moment when the graphical user interface reached the masses, the first real answer to the question "what should a personal computer look like."',
 
-    designerBio: `初代 Macintosh 的设计是一次集体创作。工业设计由 Hartmut Esslinger 的 frog design 团队主导（Snow White 设计语言），软件界面由 Bill Atkinson、Andy Hertzfeld 等天才工程师打造，而 Steve Jobs 是那个将一切推向极致的人。
+    designerBio: `åˆä»£ Macintosh çš„è®¾è®¡æ˜¯ä¸€æ¬¡é›†ä½“åˆ›ä½œã€‚å·¥ä¸šè®¾è®¡ç”± Hartmut Esslinger çš„ frog design å›¢é˜Ÿä¸»å¯¼ï¼ˆSnow White è®¾è®¡è¯­è¨€ï¼‰ï¼Œè½¯ä»¶ç•Œé¢ç”± Bill Atkinsonã€Andy Hertzfeld ç­‰å¤©æ‰å·¥ç¨‹å¸ˆæ‰“é€ ï¼Œè€Œ Steve Jobs æ˜¯é‚£ä¸ªå°†ä¸€åˆ‡æŽ¨å‘æžè‡´çš„äººã€‚
 
-Susan Kare 设计了 Mac 上几乎所有的图标和字体——包括那个经典的笑脸启动图标、Chicago 字体、以及垃圾桶图标。她被称为"Mac 的毕加索"。
+Susan Kare è®¾è®¡äº† Mac ä¸Šå‡ ä¹Žæ‰€æœ‰çš„å›¾æ ‡å’Œå­—ä½“â€”â€”åŒ…æ‹¬é‚£ä¸ªç»å…¸çš„ç¬‘è„¸å¯åŠ¨å›¾æ ‡ã€Chicago å­—ä½“ã€ä»¥åŠåžƒåœ¾æ¡¶å›¾æ ‡ã€‚å¥¹è¢«ç§°ä¸º"Mac çš„æ¯•åŠ ç´¢"ã€‚
 
-**"我们要做的不是一台更好的电脑，而是一台让所有人都能用的电脑。"** — Steve Jobs`,
+**"æˆ‘ä»¬è¦åšçš„ä¸æ˜¯ä¸€å°æ›´å¥½çš„ç”µè„‘ï¼Œè€Œæ˜¯ä¸€å°è®©æ‰€æœ‰äººéƒ½èƒ½ç”¨çš„ç”µè„‘ã€‚"** â€” Steve Jobs`,
 
     designerBio_en: `The original Macintosh was a collective creation. Industrial design was led by Hartmut Esslinger's frog design team (the Snow White design language), the software interface was built by brilliant engineers like Bill Atkinson and Andy Hertzfeld, and Steve Jobs was the one who pushed everything to the extreme.
 
-Susan Kare designed nearly all of the Mac's icons and fonts — including the iconic smiling face startup icon, the Chicago typeface, and the trash can icon. She's been called "the Picasso of the Mac."
+Susan Kare designed nearly all of the Mac's icons and fonts â€” including the iconic smiling face startup icon, the Chicago typeface, and the trash can icon. She's been called "the Picasso of the Mac."
 
-**"We're not making a better computer. We're making a computer for everyone."** — Steve Jobs`,
+**"We're not making a better computer. We're making a computer for everyone."** â€” Steve Jobs`,
 
-    story: `1984年1月22日，Apple 在超级碗上播出了由 Ridley Scott 执导的"1984"广告——一个女运动员冲入灰暗的大厅，用铁锤砸碎了巨幕上"老大哥"的脸。两天后，Jobs 拉开了 Macintosh 的幕布。
+    story: `1984å¹´1æœˆ22æ—¥ï¼ŒApple åœ¨è¶…çº§ç¢—ä¸Šæ’­å‡ºäº†ç”± Ridley Scott æ‰§å¯¼çš„"1984"å¹¿å‘Šâ€”â€”ä¸€ä¸ªå¥³è¿åŠ¨å‘˜å†²å…¥ç°æš—çš„å¤§åŽ…ï¼Œç”¨é“é”¤ç ¸ç¢Žäº†å·¨å¹•ä¸Š"è€å¤§å“¥"çš„è„¸ã€‚ä¸¤å¤©åŽï¼ŒJobs æ‹‰å¼€äº† Macintosh çš„å¹•å¸ƒã€‚
 
-当 Mac 的屏幕亮起，它用合成语音说出了第一句话：**"Hello. I am Macintosh. It sure is great to get out of that bag."** 全场起立鼓掌。
+å½“ Mac çš„å±å¹•äº®èµ·ï¼Œå®ƒç”¨åˆæˆè¯­éŸ³è¯´å‡ºäº†ç¬¬ä¸€å¥è¯ï¼š**"Hello. I am Macintosh. It sure is great to get out of that bag."** å…¨åœºèµ·ç«‹é¼“æŽŒã€‚
 
-这台电脑重 7.5 公斤，只有 128KB 内存，9英寸黑白屏幕。但它有鼠标、有图形界面、有桌面隐喻——文件夹、垃圾桶、窗口。你不需要记住命令行，你只需要**指和点**。
+è¿™å°ç”µè„‘é‡ 7.5 å…¬æ–¤ï¼Œåªæœ‰ 128KB å†…å­˜ï¼Œ9è‹±å¯¸é»‘ç™½å±å¹•ã€‚ä½†å®ƒæœ‰é¼ æ ‡ã€æœ‰å›¾å½¢ç•Œé¢ã€æœ‰æ¡Œé¢éšå–»â€”â€”æ–‡ä»¶å¤¹ã€åžƒåœ¾æ¡¶ã€çª—å£ã€‚ä½ ä¸éœ€è¦è®°ä½å‘½ä»¤è¡Œï¼Œä½ åªéœ€è¦**æŒ‡å’Œç‚¹**ã€‚
 
-Macintosh 最革命性的不是硬件规格，而是**态度**。它假设用户是聪明的普通人，而非技术极客。它用视觉隐喻替代了代码命令，用人类直觉替代了机器逻辑。
+Macintosh æœ€é©å‘½æ€§çš„ä¸æ˜¯ç¡¬ä»¶è§„æ ¼ï¼Œè€Œæ˜¯**æ€åº¦**ã€‚å®ƒå‡è®¾ç”¨æˆ·æ˜¯èªæ˜Žçš„æ™®é€šäººï¼Œè€ŒéžæŠ€æœ¯æžå®¢ã€‚å®ƒç”¨è§†è§‰éšå–»æ›¿ä»£äº†ä»£ç å‘½ä»¤ï¼Œç”¨äººç±»ç›´è§‰æ›¿ä»£äº†æœºå™¨é€»è¾‘ã€‚
 
-商业上，初代 Mac 并不算成功——价格太高（$2,495）、内存太小、软件太少。但它种下的种子最终改变了整个计算机行业。`,
+å•†ä¸šä¸Šï¼Œåˆä»£ Mac å¹¶ä¸ç®—æˆåŠŸâ€”â€”ä»·æ ¼å¤ªé«˜ï¼ˆ$2,495ï¼‰ã€å†…å­˜å¤ªå°ã€è½¯ä»¶å¤ªå°‘ã€‚ä½†å®ƒç§ä¸‹çš„ç§å­æœ€ç»ˆæ”¹å˜äº†æ•´ä¸ªè®¡ç®—æœºè¡Œä¸šã€‚`,
 
-    story_en: `On January 22, 1984, Apple aired its Ridley Scott-directed "1984" commercial during the Super Bowl — a female athlete charging into a gray hall, smashing the face of "Big Brother" on a giant screen with a sledgehammer. Two days later, Jobs unveiled the Macintosh.
+    story_en: `On January 22, 1984, Apple aired its Ridley Scott-directed "1984" commercial during the Super Bowl â€” a female athlete charging into a gray hall, smashing the face of "Big Brother" on a giant screen with a sledgehammer. Two days later, Jobs unveiled the Macintosh.
 
 When the Mac's screen lit up, it spoke its first words in synthesized voice: **"Hello. I am Macintosh. It sure is great to get out of that bag."** The audience gave a standing ovation.
 
-The computer weighed 7.5 kg, had only 128KB of RAM, and a 9-inch black-and-white screen. But it had a mouse, a graphical interface, and the desktop metaphor — folders, a trash can, windows. You didn't need to memorize command lines; you just needed to **point and click.**
+The computer weighed 7.5 kg, had only 128KB of RAM, and a 9-inch black-and-white screen. But it had a mouse, a graphical interface, and the desktop metaphor â€” folders, a trash can, windows. You didn't need to memorize command lines; you just needed to **point and click.**
 
 The Macintosh's most revolutionary aspect wasn't its hardware specs, but its **attitude.** It assumed users were smart ordinary people, not tech geeks. It replaced code commands with visual metaphors, machine logic with human intuition.
 
-Commercially, the original Mac wasn't exactly a hit — too expensive ($2,495), too little RAM, too few software titles. But the seeds it planted ultimately transformed the entire computer industry.`,
+Commercially, the original Mac wasn't exactly a hit â€” too expensive ($2,495), too little RAM, too few software titles. But the seeds it planted ultimately transformed the entire computer industry.`,
 
-    legacy: `初代 Macintosh 确立了图形用户界面的设计范式——桌面隐喻、窗口系统、鼠标交互——这套范式至今仍是所有个人电脑的基础。Susan Kare 的图标设计开创了像素艺术美学，影响了此后四十年的 UI 设计。
+    legacy: `åˆä»£ Macintosh ç¡®ç«‹äº†å›¾å½¢ç”¨æˆ·ç•Œé¢çš„è®¾è®¡èŒƒå¼â€”â€”æ¡Œé¢éšå–»ã€çª—å£ç³»ç»Ÿã€é¼ æ ‡äº¤äº’â€”â€”è¿™å¥—èŒƒå¼è‡³ä»Šä»æ˜¯æ‰€æœ‰ä¸ªäººç”µè„‘çš„åŸºç¡€ã€‚Susan Kare çš„å›¾æ ‡è®¾è®¡å¼€åˆ›äº†åƒç´ è‰ºæœ¯ç¾Žå­¦ï¼Œå½±å“äº†æ­¤åŽå››åå¹´çš„ UI è®¾è®¡ã€‚
 
-从 iPod 到 iPhone，Apple 后来所有产品的设计哲学——"技术应该为人服务，而不是相反"——都源自1984年1月24日那台 128K Macintosh。`,
+ä»Ž iPod åˆ° iPhoneï¼ŒApple åŽæ¥æ‰€æœ‰äº§å“çš„è®¾è®¡å“²å­¦â€”â€”"æŠ€æœ¯åº”è¯¥ä¸ºäººæœåŠ¡ï¼Œè€Œä¸æ˜¯ç›¸å"â€”â€”éƒ½æºè‡ª1984å¹´1æœˆ24æ—¥é‚£å° 128K Macintoshã€‚`,
 
-    legacy_en: `The original Macintosh established the GUI design paradigm — the desktop metaphor, window systems, mouse interaction — a paradigm that remains the foundation of all personal computers today. Susan Kare's icon designs pioneered pixel art aesthetics, influencing four decades of UI design.
+    legacy_en: `The original Macintosh established the GUI design paradigm â€” the desktop metaphor, window systems, mouse interaction â€” a paradigm that remains the foundation of all personal computers today. Susan Kare's icon designs pioneered pixel art aesthetics, influencing four decades of UI design.
 
-From iPod to iPhone, the design philosophy behind every Apple product — "technology should serve people, not the other way around" — traces back to that 128K Macintosh on January 24, 1984.`,
+From iPod to iPhone, the design philosophy behind every Apple product â€” "technology should serve people, not the other way around" â€” traces back to that 128K Macintosh on January 24, 1984.`,
 
-    significance: `Macintosh 128K 证明了一件至今仍然重要的事：**设计不是在工程完成后的装饰，而是工程的起点。** Jobs 不是让工程师做完电脑然后"设计一下外壳"，他从人的体验出发，倒推出技术需要做什么。这种"设计驱动工程"的思维方式，至今是硅谷最稀缺的能力。`,
+    significance: `Macintosh 128K è¯æ˜Žäº†ä¸€ä»¶è‡³ä»Šä»ç„¶é‡è¦çš„äº‹ï¼š**è®¾è®¡ä¸æ˜¯åœ¨å·¥ç¨‹å®ŒæˆåŽçš„è£…é¥°ï¼Œè€Œæ˜¯å·¥ç¨‹çš„èµ·ç‚¹ã€‚** Jobs ä¸æ˜¯è®©å·¥ç¨‹å¸ˆåšå®Œç”µè„‘ç„¶åŽ"è®¾è®¡ä¸€ä¸‹å¤–å£³"ï¼Œä»–ä»Žäººçš„ä½“éªŒå‡ºå‘ï¼Œå€’æŽ¨å‡ºæŠ€æœ¯éœ€è¦åšä»€ä¹ˆã€‚è¿™ç§"è®¾è®¡é©±åŠ¨å·¥ç¨‹"çš„æ€ç»´æ–¹å¼ï¼Œè‡³ä»Šæ˜¯ç¡…è°·æœ€ç¨€ç¼ºçš„èƒ½åŠ›ã€‚`,
 
-    significance_en: `The Macintosh 128K proved something still vital today: **design isn't decoration applied after engineering is done — it's where engineering begins.** Jobs didn't ask engineers to build a computer and then "design a case for it." He started from the human experience and worked backward to determine what the technology needed to do. This "design-driven engineering" mindset remains Silicon Valley's scarcest capability.`,
+    significance_en: `The Macintosh 128K proved something still vital today: **design isn't decoration applied after engineering is done â€” it's where engineering begins.** Jobs didn't ask engineers to build a computer and then "design a case for it." He started from the human experience and worked backward to determine what the technology needed to do. This "design-driven engineering" mindset remains Silicon Valley's scarcest capability.`,
   },
 
   {
@@ -2570,56 +2570,56 @@ From iPod to iPhone, the design philosophy behind every Apple product — "techn
     designer: 'Peter Moore',
     year: '1985',
 
-    dateConnection: '1964年1月25日，俄勒冈大学田径运动员 Phil Knight 和教练 Bill Bowerman 以 $500 各出一半创立了 Blue Ribbon Sports——这家公司后来改名为 Nike。从 $1,000 起步的运动鞋小作坊，成长为定义全球运动时尚的帝国。',
-    dateConnection_en: 'On January 25, 1964, University of Oregon track athlete Phil Knight and coach Bill Bowerman each put in $500 to found Blue Ribbon Sports — the company that would later become Nike. From a $1,000 sneaker startup to the empire that defined global athletic fashion.',
+    dateConnection: '1964å¹´1æœˆ25æ—¥ï¼Œä¿„å‹’å†ˆå¤§å­¦ç”°å¾„è¿åŠ¨å‘˜ Phil Knight å’Œæ•™ç»ƒ Bill Bowerman ä»¥ $500 å„å‡ºä¸€åŠåˆ›ç«‹äº† Blue Ribbon Sportsâ€”â€”è¿™å®¶å…¬å¸åŽæ¥æ”¹åä¸º Nikeã€‚ä»Ž $1,000 èµ·æ­¥çš„è¿åŠ¨éž‹å°ä½œåŠï¼Œæˆé•¿ä¸ºå®šä¹‰å…¨çƒè¿åŠ¨æ—¶å°šçš„å¸å›½ã€‚',
+    dateConnection_en: 'On January 25, 1964, University of Oregon track athlete Phil Knight and coach Bill Bowerman each put in $500 to found Blue Ribbon Sports â€” the company that would later become Nike. From a $1,000 sneaker startup to the empire that defined global athletic fashion.',
 
-    designerBio: `Peter Moore 是 Nike 的第一任创意总监，Air Jordan I 的设计者。
+    designerBio: `Peter Moore æ˜¯ Nike çš„ç¬¬ä¸€ä»»åˆ›æ„æ€»ç›‘ï¼ŒAir Jordan I çš„è®¾è®¡è€…ã€‚
 
-在加入 Nike 之前，Moore 是一位广告人。他为 Nike 带来了一种全新的思维：运动鞋不只是运动装备，**它是文化符号**。他设计了 Air Jordan I 的红黑配色——故意违反 NBA 当时"球鞋必须以白色为主"的规定。NBA 每场罚款 $5,000，Nike 替 Jordan 交了罚款，然后把这变成了营销——**"被禁止的球鞋"**。
+åœ¨åŠ å…¥ Nike ä¹‹å‰ï¼ŒMoore æ˜¯ä¸€ä½å¹¿å‘Šäººã€‚ä»–ä¸º Nike å¸¦æ¥äº†ä¸€ç§å…¨æ–°çš„æ€ç»´ï¼šè¿åŠ¨éž‹ä¸åªæ˜¯è¿åŠ¨è£…å¤‡ï¼Œ**å®ƒæ˜¯æ–‡åŒ–ç¬¦å·**ã€‚ä»–è®¾è®¡äº† Air Jordan I çš„çº¢é»‘é…è‰²â€”â€”æ•…æ„è¿å NBA å½“æ—¶"çƒéž‹å¿…é¡»ä»¥ç™½è‰²ä¸ºä¸»"çš„è§„å®šã€‚NBA æ¯åœºç½šæ¬¾ $5,000ï¼ŒNike æ›¿ Jordan äº¤äº†ç½šæ¬¾ï¼Œç„¶åŽæŠŠè¿™å˜æˆäº†è¥é”€â€”â€”**"è¢«ç¦æ­¢çš„çƒéž‹"**ã€‚
 
-Moore 还设计了经典的 Jumpman 标志和 Nike "Wings" logo。`,
+Moore è¿˜è®¾è®¡äº†ç»å…¸çš„ Jumpman æ ‡å¿—å’Œ Nike "Wings" logoã€‚`,
 
     designerBio_en: `Peter Moore was Nike's first creative director and the designer of the Air Jordan I.
 
-Before joining Nike, Moore was an adman. He brought Nike a radical new perspective: sneakers weren't just athletic equipment — **they were cultural symbols.** He designed the Air Jordan I in red and black — deliberately violating the NBA's rule that shoes must be predominantly white. The NBA fined Jordan $5,000 per game; Nike paid the fines and turned it into marketing — **"the banned sneaker."**
+Before joining Nike, Moore was an adman. He brought Nike a radical new perspective: sneakers weren't just athletic equipment â€” **they were cultural symbols.** He designed the Air Jordan I in red and black â€” deliberately violating the NBA's rule that shoes must be predominantly white. The NBA fined Jordan $5,000 per game; Nike paid the fines and turned it into marketing â€” **"the banned sneaker."**
 
 Moore also designed the iconic Jumpman logo and the Nike "Wings" logo.`,
 
-    story: `1984年，Michael Jordan 还是个 NBA 新秀。Nike 当时是跑鞋品牌，在篮球市场远落后于 Converse 和 adidas。签下 Jordan 是一场豪赌——给一个没打过一场 NBA 比赛的新人一份 $2.5M 的合同。
+    story: `1984å¹´ï¼ŒMichael Jordan è¿˜æ˜¯ä¸ª NBA æ–°ç§€ã€‚Nike å½“æ—¶æ˜¯è·‘éž‹å“ç‰Œï¼Œåœ¨ç¯®çƒå¸‚åœºè¿œè½åŽäºŽ Converse å’Œ adidasã€‚ç­¾ä¸‹ Jordan æ˜¯ä¸€åœºè±ªèµŒâ€”â€”ç»™ä¸€ä¸ªæ²¡æ‰“è¿‡ä¸€åœº NBA æ¯”èµ›çš„æ–°äººä¸€ä»½ $2.5M çš„åˆåŒã€‚
 
-Peter Moore 设计的 Air Jordan I 打破了所有规则。红黑配色在当时的球鞋界闻所未闻——NBA 规定球鞋必须以白色为主并且全队统一。Jordan 穿着这双鞋上场，联盟立即发出禁令。
+Peter Moore è®¾è®¡çš„ Air Jordan I æ‰“ç ´äº†æ‰€æœ‰è§„åˆ™ã€‚çº¢é»‘é…è‰²åœ¨å½“æ—¶çš„çƒéž‹ç•Œé—»æ‰€æœªé—»â€”â€”NBA è§„å®šçƒéž‹å¿…é¡»ä»¥ç™½è‰²ä¸ºä¸»å¹¶ä¸”å…¨é˜Ÿç»Ÿä¸€ã€‚Jordan ç©¿ç€è¿™åŒéž‹ä¸Šåœºï¼Œè”ç›Ÿç«‹å³å‘å‡ºç¦ä»¤ã€‚
 
-**Nike 的天才回应：把禁令变成广告。**
+**Nike çš„å¤©æ‰å›žåº”ï¼šæŠŠç¦ä»¤å˜æˆå¹¿å‘Šã€‚**
 
 "On October 15, Nike created a revolutionary new basketball shoe. On October 18, the NBA threw them out of the game. Fortunately, the NBA can't keep you from wearing them."
 
-Air Jordan I 不仅仅是一双鞋。它发明了"签名球鞋"这个概念——一双鞋可以承载一个运动员的个性、风格和故事。它开创了球鞋文化（sneaker culture）——年轻人排队几天只为买一双限量版球鞋。
+Air Jordan I ä¸ä»…ä»…æ˜¯ä¸€åŒéž‹ã€‚å®ƒå‘æ˜Žäº†"ç­¾åçƒéž‹"è¿™ä¸ªæ¦‚å¿µâ€”â€”ä¸€åŒéž‹å¯ä»¥æ‰¿è½½ä¸€ä¸ªè¿åŠ¨å‘˜çš„ä¸ªæ€§ã€é£Žæ ¼å’Œæ•…äº‹ã€‚å®ƒå¼€åˆ›äº†çƒéž‹æ–‡åŒ–ï¼ˆsneaker cultureï¼‰â€”â€”å¹´è½»äººæŽ’é˜Ÿå‡ å¤©åªä¸ºä¹°ä¸€åŒé™é‡ç‰ˆçƒéž‹ã€‚
 
-第一年，Air Jordan 系列卖出了 $126M——是 Nike 预期的三倍。`,
+ç¬¬ä¸€å¹´ï¼ŒAir Jordan ç³»åˆ—å–å‡ºäº† $126Mâ€”â€”æ˜¯ Nike é¢„æœŸçš„ä¸‰å€ã€‚`,
 
-    story_en: `In 1984, Michael Jordan was an NBA rookie. Nike was a running shoe brand, far behind Converse and adidas in basketball. Signing Jordan was a gamble — a $2.5M contract for a player who hadn't played a single NBA game.
+    story_en: `In 1984, Michael Jordan was an NBA rookie. Nike was a running shoe brand, far behind Converse and adidas in basketball. Signing Jordan was a gamble â€” a $2.5M contract for a player who hadn't played a single NBA game.
 
-Peter Moore's Air Jordan I broke every rule. The red-and-black colorway was unheard of in basketball footwear — the NBA mandated shoes be predominantly white and uniform across the team. Jordan wore them on court; the league immediately issued a ban.
+Peter Moore's Air Jordan I broke every rule. The red-and-black colorway was unheard of in basketball footwear â€” the NBA mandated shoes be predominantly white and uniform across the team. Jordan wore them on court; the league immediately issued a ban.
 
 **Nike's genius response: turn the ban into an ad.**
 
 "On October 15, Nike created a revolutionary new basketball shoe. On October 18, the NBA threw them out of the game. Fortunately, the NBA can't keep you from wearing them."
 
-The Air Jordan I wasn't just a shoe. It invented the concept of the "signature sneaker" — a shoe that could carry an athlete's personality, style, and story. It birthed sneaker culture — young people camping out for days to buy limited-edition releases.
+The Air Jordan I wasn't just a shoe. It invented the concept of the "signature sneaker" â€” a shoe that could carry an athlete's personality, style, and story. It birthed sneaker culture â€” young people camping out for days to buy limited-edition releases.
 
-In its first year, the Air Jordan line sold $126M — three times Nike's projection.`,
+In its first year, the Air Jordan line sold $126M â€” three times Nike's projection.`,
 
-    legacy: `Air Jordan I 开创了价值数十亿美元的球鞋文化产业。今天，限量球鞋的转售市场估值超过 $60B。从 Virgil Abloh 到 Travis Scott，球鞋成为了时尚、街头文化和身份认同的核心载体。
+    legacy: `Air Jordan I å¼€åˆ›äº†ä»·å€¼æ•°åäº¿ç¾Žå…ƒçš„çƒéž‹æ–‡åŒ–äº§ä¸šã€‚ä»Šå¤©ï¼Œé™é‡çƒéž‹çš„è½¬å”®å¸‚åœºä¼°å€¼è¶…è¿‡ $60Bã€‚ä»Ž Virgil Abloh åˆ° Travis Scottï¼Œçƒéž‹æˆä¸ºäº†æ—¶å°šã€è¡—å¤´æ–‡åŒ–å’Œèº«ä»½è®¤åŒçš„æ ¸å¿ƒè½½ä½“ã€‚
 
-而 Nike 从一家 $1,000 起步的小公司，成长为市值超过 $1,500 亿的全球品牌——这一切始于1964年1月25日的那 $1,000。`,
+è€Œ Nike ä»Žä¸€å®¶ $1,000 èµ·æ­¥çš„å°å…¬å¸ï¼Œæˆé•¿ä¸ºå¸‚å€¼è¶…è¿‡ $1,500 äº¿çš„å…¨çƒå“ç‰Œâ€”â€”è¿™ä¸€åˆ‡å§‹äºŽ1964å¹´1æœˆ25æ—¥çš„é‚£ $1,000ã€‚`,
 
     legacy_en: `The Air Jordan I spawned a multi-billion-dollar sneaker culture industry. Today, the sneaker resale market is valued at over $60B. From Virgil Abloh to Travis Scott, sneakers have become a core vehicle for fashion, street culture, and identity.
 
-Nike grew from a $1,000 startup into a global brand worth over $150B — all of it beginning with that $1,000 on January 25, 1964.`,
+Nike grew from a $1,000 startup into a global brand worth over $150B â€” all of it beginning with that $1,000 on January 25, 1964.`,
 
-    significance: `Air Jordan I 证明了**设计可以创造文化**。Peter Moore 不只是设计了一双好看的鞋——他设计了一种叙事方式：通过产品讲述一个人的故事。这种"产品即叙事"的设计思维，后来成为了从 Apple 到 Supreme 的核心方法论。`,
+    significance: `Air Jordan I è¯æ˜Žäº†**è®¾è®¡å¯ä»¥åˆ›é€ æ–‡åŒ–**ã€‚Peter Moore ä¸åªæ˜¯è®¾è®¡äº†ä¸€åŒå¥½çœ‹çš„éž‹â€”â€”ä»–è®¾è®¡äº†ä¸€ç§å™äº‹æ–¹å¼ï¼šé€šè¿‡äº§å“è®²è¿°ä¸€ä¸ªäººçš„æ•…äº‹ã€‚è¿™ç§"äº§å“å³å™äº‹"çš„è®¾è®¡æ€ç»´ï¼ŒåŽæ¥æˆä¸ºäº†ä»Ž Apple åˆ° Supreme çš„æ ¸å¿ƒæ–¹æ³•è®ºã€‚`,
 
-    significance_en: `The Air Jordan I proved that **design can create culture.** Peter Moore didn't just design a good-looking shoe — he designed a narrative framework: telling a person's story through a product. This "product as narrative" design thinking later became the core methodology from Apple to Supreme.`,
+    significance_en: `The Air Jordan I proved that **design can create culture.** Peter Moore didn't just design a good-looking shoe â€” he designed a narrative framework: telling a person's story through a product. This "product as narrative" design thinking later became the core methodology from Apple to Supreme.`,
   },
 
   {
@@ -2627,60 +2627,60 @@ Nike grew from a $1,000 startup into a global brand worth over $150B — all of 
     date: '2026-01-26',
     imageUrl: '/the-daily-object/images/phantom-of-the-opera.jpg',
     fullImageUrl: '/the-daily-object/images/full/phantom-of-the-opera.jpg',
-    title: '歌剧魅影',
+    title: 'æ­Œå‰§é­…å½±',
     title_en: 'The Phantom of the Opera',
-    subtitle: 'Maria Björnson, 1986',
-    subtitle_en: 'Maria Björnson, 1986',
+    subtitle: 'Maria BjÃ¶rnson, 1986',
+    subtitle_en: 'Maria BjÃ¶rnson, 1986',
     category: 'film',
-    designer: 'Maria Björnson',
+    designer: 'Maria BjÃ¶rnson',
     year: '1986',
 
-    dateConnection: '1988年1月26日，Andrew Lloyd Webber 的《歌剧魅影》在纽约百老汇 Majestic Theatre 首演。此后它连续演出 35 年，成为百老汇历史上最长寿的剧目，也是全球票房最高的娱乐作品之一。而这一切的视觉魔法，来自一位不为大众所知的设计天才：Maria Björnson。',
-    dateConnection_en: 'On January 26, 1988, Andrew Lloyd Webber\'s The Phantom of the Opera opened on Broadway at the Majestic Theatre. It would run continuously for 35 years, becoming the longest-running show in Broadway history and one of the highest-grossing entertainment properties ever. All of its visual magic came from a design genius largely unknown to the public: Maria Björnson.',
+    dateConnection: '1988å¹´1æœˆ26æ—¥ï¼ŒAndrew Lloyd Webber çš„ã€Šæ­Œå‰§é­…å½±ã€‹åœ¨çº½çº¦ç™¾è€æ±‡ Majestic Theatre é¦–æ¼”ã€‚æ­¤åŽå®ƒè¿žç»­æ¼”å‡º 35 å¹´ï¼Œæˆä¸ºç™¾è€æ±‡åŽ†å²ä¸Šæœ€é•¿å¯¿çš„å‰§ç›®ï¼Œä¹Ÿæ˜¯å…¨çƒç¥¨æˆ¿æœ€é«˜çš„å¨±ä¹ä½œå“ä¹‹ä¸€ã€‚è€Œè¿™ä¸€åˆ‡çš„è§†è§‰é­”æ³•ï¼Œæ¥è‡ªä¸€ä½ä¸ä¸ºå¤§ä¼—æ‰€çŸ¥çš„è®¾è®¡å¤©æ‰ï¼šMaria BjÃ¶rnsonã€‚',
+    dateConnection_en: 'On January 26, 1988, Andrew Lloyd Webber\'s The Phantom of the Opera opened on Broadway at the Majestic Theatre. It would run continuously for 35 years, becoming the longest-running show in Broadway history and one of the highest-grossing entertainment properties ever. All of its visual magic came from a design genius largely unknown to the public: Maria BjÃ¶rnson.',
 
-    designerBio: `Maria Björnson (1949–2002)，英国舞台设计师，出生于巴黎，父亲是罗马尼亚人，母亲是挪威人。
+    designerBio: `Maria BjÃ¶rnson (1949â€“2002)ï¼Œè‹±å›½èˆžå°è®¾è®¡å¸ˆï¼Œå‡ºç”ŸäºŽå·´é»Žï¼Œçˆ¶äº²æ˜¯ç½—é©¬å°¼äºšäººï¼Œæ¯äº²æ˜¯æŒªå¨äººã€‚
 
-她在伦敦中央圣马丁艺术学院学习，很早就展现出将绘画、雕塑和戏剧融为一体的能力。在为皇家莎士比亚剧团和英国国家歌剧院工作多年后，她遇到了 Andrew Lloyd Webber。
+å¥¹åœ¨ä¼¦æ•¦ä¸­å¤®åœ£é©¬ä¸è‰ºæœ¯å­¦é™¢å­¦ä¹ ï¼Œå¾ˆæ—©å°±å±•çŽ°å‡ºå°†ç»˜ç”»ã€é›•å¡‘å’Œæˆå‰§èžä¸ºä¸€ä½“çš„èƒ½åŠ›ã€‚åœ¨ä¸ºçš‡å®¶èŽŽå£«æ¯”äºšå‰§å›¢å’Œè‹±å›½å›½å®¶æ­Œå‰§é™¢å·¥ä½œå¤šå¹´åŽï¼Œå¥¹é‡åˆ°äº† Andrew Lloyd Webberã€‚
 
-**Björnson 为《歌剧魅影》设计了一切**——布景、服装、道具、甚至那个标志性的半脸面具。她坚持面具只遮半张脸，而非 Lloyd Webber 最初设想的全脸面具——因为半张人脸比全遮更恐怖，**你看到的那一半让你想象被遮住的那一半**。`,
+**BjÃ¶rnson ä¸ºã€Šæ­Œå‰§é­…å½±ã€‹è®¾è®¡äº†ä¸€åˆ‡**â€”â€”å¸ƒæ™¯ã€æœè£…ã€é“å…·ã€ç”šè‡³é‚£ä¸ªæ ‡å¿—æ€§çš„åŠè„¸é¢å…·ã€‚å¥¹åšæŒé¢å…·åªé®åŠå¼ è„¸ï¼Œè€Œéž Lloyd Webber æœ€åˆè®¾æƒ³çš„å…¨è„¸é¢å…·â€”â€”å› ä¸ºåŠå¼ äººè„¸æ¯”å…¨é®æ›´ææ€–ï¼Œ**ä½ çœ‹åˆ°çš„é‚£ä¸€åŠè®©ä½ æƒ³è±¡è¢«é®ä½çš„é‚£ä¸€åŠ**ã€‚`,
 
-    designerBio_en: `Maria Björnson (1949–2002), British stage designer, born in Paris to a Romanian father and Norwegian mother.
+    designerBio_en: `Maria BjÃ¶rnson (1949â€“2002), British stage designer, born in Paris to a Romanian father and Norwegian mother.
 
 She studied at London's Central Saint Martins and early showed an ability to fuse painting, sculpture, and theater. After years working with the Royal Shakespeare Company and English National Opera, she met Andrew Lloyd Webber.
 
-**Björnson designed everything for The Phantom of the Opera** — sets, costumes, props, even that iconic half-face mask. She insisted the mask cover only half the face rather than the full face as Lloyd Webber initially envisioned — because half a human face is more terrifying than a fully covered one. **What you see makes you imagine what's hidden.**`,
+**BjÃ¶rnson designed everything for The Phantom of the Opera** â€” sets, costumes, props, even that iconic half-face mask. She insisted the mask cover only half the face rather than the full face as Lloyd Webber initially envisioned â€” because half a human face is more terrifying than a fully covered one. **What you see makes you imagine what's hidden.**`,
 
-    story: `《歌剧魅影》的舞台设计史上最奢华、最精密，也最具戏剧性的之一。
+    story: `ã€Šæ­Œå‰§é­…å½±ã€‹çš„èˆžå°è®¾è®¡å²ä¸Šæœ€å¥¢åŽã€æœ€ç²¾å¯†ï¼Œä¹Ÿæœ€å…·æˆå‰§æ€§çš„ä¹‹ä¸€ã€‚
 
-**吊灯。** 那盏重达一吨的水晶吊灯，在每场演出中从天花板坠落到舞台——在观众头顶上方仅一米处急停。这不是特效，是真实的物理运动。Björnson 和技术团队花了数月计算配重和制动系统，确保每次坠落都精确到毫秒。
+**åŠç¯ã€‚** é‚£ç›é‡è¾¾ä¸€å¨çš„æ°´æ™¶åŠç¯ï¼Œåœ¨æ¯åœºæ¼”å‡ºä¸­ä»Žå¤©èŠ±æ¿å è½åˆ°èˆžå°â€”â€”åœ¨è§‚ä¼—å¤´é¡¶ä¸Šæ–¹ä»…ä¸€ç±³å¤„æ€¥åœã€‚è¿™ä¸æ˜¯ç‰¹æ•ˆï¼Œæ˜¯çœŸå®žçš„ç‰©ç†è¿åŠ¨ã€‚BjÃ¶rnson å’ŒæŠ€æœ¯å›¢é˜ŸèŠ±äº†æ•°æœˆè®¡ç®—é…é‡å’Œåˆ¶åŠ¨ç³»ç»Ÿï¼Œç¡®ä¿æ¯æ¬¡å è½éƒ½ç²¾ç¡®åˆ°æ¯«ç§’ã€‚
 
-**地下湖。** 舞台下方真的建了一个水池，蜡烛从水面升起（实际是电动蜡烛在水下的升降台上），营造出巴黎歌剧院地下迷宫的幻觉。Björnson 用雾机和灯光让水面若隐若现。
+**åœ°ä¸‹æ¹–ã€‚** èˆžå°ä¸‹æ–¹çœŸçš„å»ºäº†ä¸€ä¸ªæ°´æ± ï¼Œèœ¡çƒ›ä»Žæ°´é¢å‡èµ·ï¼ˆå®žé™…æ˜¯ç”µåŠ¨èœ¡çƒ›åœ¨æ°´ä¸‹çš„å‡é™å°ä¸Šï¼‰ï¼Œè¥é€ å‡ºå·´é»Žæ­Œå‰§é™¢åœ°ä¸‹è¿·å®«çš„å¹»è§‰ã€‚BjÃ¶rnson ç”¨é›¾æœºå’Œç¯å…‰è®©æ°´é¢è‹¥éšè‹¥çŽ°ã€‚
 
-**230 套服装。** Björnson 为整部剧设计了超过 230 套服装，从19世纪巴黎歌剧院的华丽礼服到地下迷宫的暗黑斗篷。每一套都经过她亲手绘制的详细水彩效果图。
+**230 å¥—æœè£…ã€‚** BjÃ¶rnson ä¸ºæ•´éƒ¨å‰§è®¾è®¡äº†è¶…è¿‡ 230 å¥—æœè£…ï¼Œä»Ž19ä¸–çºªå·´é»Žæ­Œå‰§é™¢çš„åŽä¸½ç¤¼æœåˆ°åœ°ä¸‹è¿·å®«çš„æš—é»‘æ–—ç¯·ã€‚æ¯ä¸€å¥—éƒ½ç»è¿‡å¥¹äº²æ‰‹ç»˜åˆ¶çš„è¯¦ç»†æ°´å½©æ•ˆæžœå›¾ã€‚
 
-**半脸面具。** 这个设计决定成为了百老汇最具辨识度的视觉符号——后来成为了整部音乐剧的 logo。一个半遮半露的白色面具，简洁到极致，却承载了整部剧关于美与丑、表面与内心的所有主题。`,
+**åŠè„¸é¢å…·ã€‚** è¿™ä¸ªè®¾è®¡å†³å®šæˆä¸ºäº†ç™¾è€æ±‡æœ€å…·è¾¨è¯†åº¦çš„è§†è§‰ç¬¦å·â€”â€”åŽæ¥æˆä¸ºäº†æ•´éƒ¨éŸ³ä¹å‰§çš„ logoã€‚ä¸€ä¸ªåŠé®åŠéœ²çš„ç™½è‰²é¢å…·ï¼Œç®€æ´åˆ°æžè‡´ï¼Œå´æ‰¿è½½äº†æ•´éƒ¨å‰§å…³äºŽç¾Žä¸Žä¸‘ã€è¡¨é¢ä¸Žå†…å¿ƒçš„æ‰€æœ‰ä¸»é¢˜ã€‚`,
 
     story_en: `The stage design of The Phantom of the Opera is among the most lavish, precise, and dramatic in theater history.
 
-**The chandelier.** That one-ton crystal chandelier crashes from the ceiling to the stage in every performance — stopping just one meter above the audience. This isn't a special effect; it's real physical movement. Björnson and the technical team spent months calculating counterweights and braking systems, ensuring each fall was precise to the millisecond.
+**The chandelier.** That one-ton crystal chandelier crashes from the ceiling to the stage in every performance â€” stopping just one meter above the audience. This isn't a special effect; it's real physical movement. BjÃ¶rnson and the technical team spent months calculating counterweights and braking systems, ensuring each fall was precise to the millisecond.
 
-**The underground lake.** A real water pool was built beneath the stage, with candles rising from the water surface (actually electric candles on underwater lifts), creating the illusion of the Paris Opera House's underground labyrinth. Björnson used fog machines and lighting to make the water shimmer in and out of view.
+**The underground lake.** A real water pool was built beneath the stage, with candles rising from the water surface (actually electric candles on underwater lifts), creating the illusion of the Paris Opera House's underground labyrinth. BjÃ¶rnson used fog machines and lighting to make the water shimmer in and out of view.
 
-**230 costumes.** Björnson designed over 230 costumes for the production, from the opulent gowns of 19th-century Paris Opera to the dark cloaks of the underground labyrinth. Each was rendered in her detailed hand-painted watercolor sketches.
+**230 costumes.** BjÃ¶rnson designed over 230 costumes for the production, from the opulent gowns of 19th-century Paris Opera to the dark cloaks of the underground labyrinth. Each was rendered in her detailed hand-painted watercolor sketches.
 
-**The half-mask.** This design decision became Broadway's most recognizable visual symbol — later becoming the logo for the entire musical. A half-covered white mask, minimalist to the extreme, yet carrying all of the show's themes about beauty and ugliness, surface and soul.`,
+**The half-mask.** This design decision became Broadway's most recognizable visual symbol â€” later becoming the logo for the entire musical. A half-covered white mask, minimalist to the extreme, yet carrying all of the show's themes about beauty and ugliness, surface and soul.`,
 
-    legacy: `《歌剧魅影》全球累计票房超过 $60 亿，在超过 35 个国家演出，观众超过 1.45 亿人次。Björnson 的半脸面具成为了全球最知名的舞台设计标志——你不需要看过这部剧，也认识这个面具。
+    legacy: `ã€Šæ­Œå‰§é­…å½±ã€‹å…¨çƒç´¯è®¡ç¥¨æˆ¿è¶…è¿‡ $60 äº¿ï¼Œåœ¨è¶…è¿‡ 35 ä¸ªå›½å®¶æ¼”å‡ºï¼Œè§‚ä¼—è¶…è¿‡ 1.45 äº¿äººæ¬¡ã€‚BjÃ¶rnson çš„åŠè„¸é¢å…·æˆä¸ºäº†å…¨çƒæœ€çŸ¥åçš„èˆžå°è®¾è®¡æ ‡å¿—â€”â€”ä½ ä¸éœ€è¦çœ‹è¿‡è¿™éƒ¨å‰§ï¼Œä¹Ÿè®¤è¯†è¿™ä¸ªé¢å…·ã€‚
 
-她在2002年去世，年仅53岁。Andrew Lloyd Webber 称她为"我合作过的最伟大的设计师"。`,
+å¥¹åœ¨2002å¹´åŽ»ä¸–ï¼Œå¹´ä»…53å²ã€‚Andrew Lloyd Webber ç§°å¥¹ä¸º"æˆ‘åˆä½œè¿‡çš„æœ€ä¼Ÿå¤§çš„è®¾è®¡å¸ˆ"ã€‚`,
 
-    legacy_en: `The Phantom of the Opera has grossed over $6 billion worldwide, performed in over 35 countries to more than 145 million people. Björnson's half-mask became the world's most recognized stage design icon — you don't need to have seen the show to recognize the mask.
+    legacy_en: `The Phantom of the Opera has grossed over $6 billion worldwide, performed in over 35 countries to more than 145 million people. BjÃ¶rnson's half-mask became the world's most recognized stage design icon â€” you don't need to have seen the show to recognize the mask.
 
 She passed away in 2002 at just 53. Andrew Lloyd Webber called her "the greatest designer I have ever worked with."`,
 
-    significance: `Maria Björnson 证明了**舞台设计可以成为叙事的主角**。在《歌剧魅影》中，布景和服装不是背景——它们是故事本身。吊灯的坠落是高潮，地下湖是情感的隐喻，半脸面具是整部剧的灵魂。她让设计从"服务于表演"升级为"与表演平等对话"。`,
+    significance: `Maria BjÃ¶rnson è¯æ˜Žäº†**èˆžå°è®¾è®¡å¯ä»¥æˆä¸ºå™äº‹çš„ä¸»è§’**ã€‚åœ¨ã€Šæ­Œå‰§é­…å½±ã€‹ä¸­ï¼Œå¸ƒæ™¯å’Œæœè£…ä¸æ˜¯èƒŒæ™¯â€”â€”å®ƒä»¬æ˜¯æ•…äº‹æœ¬èº«ã€‚åŠç¯çš„å è½æ˜¯é«˜æ½®ï¼Œåœ°ä¸‹æ¹–æ˜¯æƒ…æ„Ÿçš„éšå–»ï¼ŒåŠè„¸é¢å…·æ˜¯æ•´éƒ¨å‰§çš„çµé­‚ã€‚å¥¹è®©è®¾è®¡ä»Ž"æœåŠ¡äºŽè¡¨æ¼”"å‡çº§ä¸º"ä¸Žè¡¨æ¼”å¹³ç­‰å¯¹è¯"ã€‚`,
 
-    significance_en: `Maria Björnson proved that **stage design can be the protagonist of the narrative.** In The Phantom of the Opera, sets and costumes aren't background — they are the story itself. The chandelier crash is the climax, the underground lake a metaphor for emotion, the half-mask the soul of the entire production. She elevated design from "serving the performance" to "dialoguing with the performance as an equal."`,
+    significance_en: `Maria BjÃ¶rnson proved that **stage design can be the protagonist of the narrative.** In The Phantom of the Opera, sets and costumes aren't background â€” they are the story itself. The chandelier crash is the climax, the underground lake a metaphor for emotion, the half-mask the soul of the entire production. She elevated design from "serving the performance" to "dialoguing with the performance as an equal."`,
   },
 
   {
@@ -2688,7 +2688,7 @@ She passed away in 2002 at just 53. Andrew Lloyd Webber called her "the greatest
     date: '2026-01-27',
     imageUrl: '/the-daily-object/images/mozart-salzburg.jpg',
     fullImageUrl: '/the-daily-object/images/full/mozart-salzburg.jpg',
-    title: '莫扎特与音乐设计',
+    title: 'èŽ«æ‰Žç‰¹ä¸ŽéŸ³ä¹è®¾è®¡',
     title_en: 'Mozart & The Design of Sound',
     subtitle: 'Wolfgang Amadeus Mozart, 1756',
     subtitle_en: 'Wolfgang Amadeus Mozart, 1756',
@@ -2696,60 +2696,60 @@ She passed away in 2002 at just 53. Andrew Lloyd Webber called her "the greatest
     designer: 'Wolfgang Amadeus Mozart',
     year: '1756',
 
-    dateConnection: '1756年1月27日，Wolfgang Amadeus Mozart 出生于奥地利萨尔茨堡。他在短短35年的生命中创作了超过600部作品，重新定义了音乐的形式与可能性。如果"设计"是"有意识地组织元素以达成目的"，那么 Mozart 是人类历史上最伟大的设计师之一。',
+    dateConnection: '1756å¹´1æœˆ27æ—¥ï¼ŒWolfgang Amadeus Mozart å‡ºç”ŸäºŽå¥¥åœ°åˆ©è¨å°”èŒ¨å ¡ã€‚ä»–åœ¨çŸ­çŸ­35å¹´çš„ç”Ÿå‘½ä¸­åˆ›ä½œäº†è¶…è¿‡600éƒ¨ä½œå“ï¼Œé‡æ–°å®šä¹‰äº†éŸ³ä¹çš„å½¢å¼ä¸Žå¯èƒ½æ€§ã€‚å¦‚æžœ"è®¾è®¡"æ˜¯"æœ‰æ„è¯†åœ°ç»„ç»‡å…ƒç´ ä»¥è¾¾æˆç›®çš„"ï¼Œé‚£ä¹ˆ Mozart æ˜¯äººç±»åŽ†å²ä¸Šæœ€ä¼Ÿå¤§çš„è®¾è®¡å¸ˆä¹‹ä¸€ã€‚',
     dateConnection_en: 'Wolfgang Amadeus Mozart was born on January 27, 1756 in Salzburg, Austria. In just 35 years of life, he composed over 600 works, redefining the form and possibilities of music. If "design" is "the conscious organization of elements toward a purpose," then Mozart was one of the greatest designers in human history.',
 
-    designerBio: `Wolfgang Amadeus Mozart (1756–1791)，奥地利作曲家，古典主义音乐的巅峰人物。
+    designerBio: `Wolfgang Amadeus Mozart (1756â€“1791)ï¼Œå¥¥åœ°åˆ©ä½œæ›²å®¶ï¼Œå¤å…¸ä¸»ä¹‰éŸ³ä¹çš„å·…å³°äººç‰©ã€‚
 
-3岁开始弹琴，5岁作曲，6岁在欧洲宫廷巡演。他的父亲 Leopold Mozart 既是他的老师，也是他的经纪人——带着他穿梭于维也纳、巴黎、伦敦的皇室之间。
+3å²å¼€å§‹å¼¹ç´ï¼Œ5å²ä½œæ›²ï¼Œ6å²åœ¨æ¬§æ´²å®«å»·å·¡æ¼”ã€‚ä»–çš„çˆ¶äº² Leopold Mozart æ—¢æ˜¯ä»–çš„è€å¸ˆï¼Œä¹Ÿæ˜¯ä»–çš„ç»çºªäººâ€”â€”å¸¦ç€ä»–ç©¿æ¢­äºŽç»´ä¹Ÿçº³ã€å·´é»Žã€ä¼¦æ•¦çš„çš‡å®¤ä¹‹é—´ã€‚
 
-但 Mozart 不只是神童。他成年后的作品展现了对人性的深刻理解——从《费加罗的婚礼》中对阶级的讽刺，到《唐·乔瓦尼》中对欲望与惩罚的探索，再到《安魂曲》中对死亡的直视。
+ä½† Mozart ä¸åªæ˜¯ç¥žç«¥ã€‚ä»–æˆå¹´åŽçš„ä½œå“å±•çŽ°äº†å¯¹äººæ€§çš„æ·±åˆ»ç†è§£â€”â€”ä»Žã€Šè´¹åŠ ç½—çš„å©šç¤¼ã€‹ä¸­å¯¹é˜¶çº§çš„è®½åˆºï¼Œåˆ°ã€Šå”Â·ä¹”ç“¦å°¼ã€‹ä¸­å¯¹æ¬²æœ›ä¸Žæƒ©ç½šçš„æŽ¢ç´¢ï¼Œå†åˆ°ã€Šå®‰é­‚æ›²ã€‹ä¸­å¯¹æ­»äº¡çš„ç›´è§†ã€‚
 
-**他是一个用音符思考的建筑师。**`,
+**ä»–æ˜¯ä¸€ä¸ªç”¨éŸ³ç¬¦æ€è€ƒçš„å»ºç­‘å¸ˆã€‚**`,
 
-    designerBio_en: `Wolfgang Amadeus Mozart (1756–1791), Austrian composer and the pinnacle of Classical music.
+    designerBio_en: `Wolfgang Amadeus Mozart (1756â€“1791), Austrian composer and the pinnacle of Classical music.
 
 He began playing at 3, composing at 5, and touring European courts at 6. His father Leopold Mozart was both his teacher and manager, parading him through the courts of Vienna, Paris, and London.
 
-But Mozart was more than a prodigy. His adult works revealed a profound understanding of human nature — from the class satire of The Marriage of Figaro to the exploration of desire and punishment in Don Giovanni, to the unflinching gaze at death in the Requiem.
+But Mozart was more than a prodigy. His adult works revealed a profound understanding of human nature â€” from the class satire of The Marriage of Figaro to the exploration of desire and punishment in Don Giovanni, to the unflinching gaze at death in the Requiem.
 
 **He was an architect who thought in notes.**`,
 
-    story: `为什么一个18世纪的作曲家出现在设计日历上？
+    story: `ä¸ºä»€ä¹ˆä¸€ä¸ª18ä¸–çºªçš„ä½œæ›²å®¶å‡ºçŽ°åœ¨è®¾è®¡æ—¥åŽ†ä¸Šï¼Ÿ
 
-因为 Mozart 做的事情，和最好的设计师做的事情完全一样：**在限制中创造自由**。
+å› ä¸º Mozart åšçš„äº‹æƒ…ï¼Œå’Œæœ€å¥½çš„è®¾è®¡å¸ˆåšçš„äº‹æƒ…å®Œå…¨ä¸€æ ·ï¼š**åœ¨é™åˆ¶ä¸­åˆ›é€ è‡ªç”±**ã€‚
 
-古典奏鸣曲式有严格的结构——呈示部、展开部、再现部。就像网格系统之于平面设计，这些是"规则"。但 Mozart 在这些规则内做到了令人难以置信的事情：他让每个音符都"不可替代"。
+å¤å…¸å¥é¸£æ›²å¼æœ‰ä¸¥æ ¼çš„ç»“æž„â€”â€”å‘ˆç¤ºéƒ¨ã€å±•å¼€éƒ¨ã€å†çŽ°éƒ¨ã€‚å°±åƒç½‘æ ¼ç³»ç»Ÿä¹‹äºŽå¹³é¢è®¾è®¡ï¼Œè¿™äº›æ˜¯"è§„åˆ™"ã€‚ä½† Mozart åœ¨è¿™äº›è§„åˆ™å†…åšåˆ°äº†ä»¤äººéš¾ä»¥ç½®ä¿¡çš„äº‹æƒ…ï¼šä»–è®©æ¯ä¸ªéŸ³ç¬¦éƒ½"ä¸å¯æ›¿ä»£"ã€‚
 
-听他的G小调第40交响曲的开头——那个焦虑的、不安的主题，每个音都恰好在那个位置。换掉任何一个音，整个结构就会坍塌。这就是"设计"的定义：**每个元素都在它该在的地方，移除任何一个，整体就不完整。**
+å¬ä»–çš„Gå°è°ƒç¬¬40äº¤å“æ›²çš„å¼€å¤´â€”â€”é‚£ä¸ªç„¦è™‘çš„ã€ä¸å®‰çš„ä¸»é¢˜ï¼Œæ¯ä¸ªéŸ³éƒ½æ°å¥½åœ¨é‚£ä¸ªä½ç½®ã€‚æ¢æŽ‰ä»»ä½•ä¸€ä¸ªéŸ³ï¼Œæ•´ä¸ªç»“æž„å°±ä¼šåå¡Œã€‚è¿™å°±æ˜¯"è®¾è®¡"çš„å®šä¹‰ï¼š**æ¯ä¸ªå…ƒç´ éƒ½åœ¨å®ƒè¯¥åœ¨çš„åœ°æ–¹ï¼Œç§»é™¤ä»»ä½•ä¸€ä¸ªï¼Œæ•´ä½“å°±ä¸å®Œæ•´ã€‚**
 
-Mozart 还是"用户体验"的先驱。他写信给父亲说："我的音乐不会让行家不满，但外行也能享受——虽然他们不知道为什么。"这和 Steve Jobs 说的"it just works"是同一种设计哲学：**复杂的结构，简单的体验。**
+Mozart è¿˜æ˜¯"ç”¨æˆ·ä½“éªŒ"çš„å…ˆé©±ã€‚ä»–å†™ä¿¡ç»™çˆ¶äº²è¯´ï¼š"æˆ‘çš„éŸ³ä¹ä¸ä¼šè®©è¡Œå®¶ä¸æ»¡ï¼Œä½†å¤–è¡Œä¹Ÿèƒ½äº«å—â€”â€”è™½ç„¶ä»–ä»¬ä¸çŸ¥é“ä¸ºä»€ä¹ˆã€‚"è¿™å’Œ Steve Jobs è¯´çš„"it just works"æ˜¯åŒä¸€ç§è®¾è®¡å“²å­¦ï¼š**å¤æ‚çš„ç»“æž„ï¼Œç®€å•çš„ä½“éªŒã€‚**
 
-他的歌剧更是多维度的设计杰作。《费加罗的婚礼》第二幕终场，六个角色同时在台上唱不同的旋律，每个人都有自己的情感线——愤怒、困惑、恐惧、算计——但合在一起却是完美的和声。这不是音乐，这是**信息架构**。`,
+ä»–çš„æ­Œå‰§æ›´æ˜¯å¤šç»´åº¦çš„è®¾è®¡æ°ä½œã€‚ã€Šè´¹åŠ ç½—çš„å©šç¤¼ã€‹ç¬¬äºŒå¹•ç»ˆåœºï¼Œå…­ä¸ªè§’è‰²åŒæ—¶åœ¨å°ä¸Šå”±ä¸åŒçš„æ—‹å¾‹ï¼Œæ¯ä¸ªäººéƒ½æœ‰è‡ªå·±çš„æƒ…æ„Ÿçº¿â€”â€”æ„¤æ€’ã€å›°æƒ‘ã€ææƒ§ã€ç®—è®¡â€”â€”ä½†åˆåœ¨ä¸€èµ·å´æ˜¯å®Œç¾Žçš„å’Œå£°ã€‚è¿™ä¸æ˜¯éŸ³ä¹ï¼Œè¿™æ˜¯**ä¿¡æ¯æž¶æž„**ã€‚`,
 
     story_en: `Why does an 18th-century composer appear in a design calendar?
 
 Because what Mozart did is exactly what the best designers do: **create freedom within constraints.**
 
-Classical sonata form has a rigid structure — exposition, development, recapitulation. Like the grid system in graphic design, these are the "rules." But within these rules, Mozart achieved something incredible: he made every note irreplaceable.
+Classical sonata form has a rigid structure â€” exposition, development, recapitulation. Like the grid system in graphic design, these are the "rules." But within these rules, Mozart achieved something incredible: he made every note irreplaceable.
 
-Listen to the opening of his Symphony No. 40 in G minor — that anxious, restless theme where every note sits in exactly the right place. Change any single note, and the entire structure collapses. This is the definition of "design": **every element is where it should be; remove any one, and the whole is incomplete.**
+Listen to the opening of his Symphony No. 40 in G minor â€” that anxious, restless theme where every note sits in exactly the right place. Change any single note, and the entire structure collapses. This is the definition of "design": **every element is where it should be; remove any one, and the whole is incomplete.**
 
-Mozart was also a pioneer of "user experience." He wrote to his father: "My music won't dissatisfy connoisseurs, but amateurs will enjoy it too — without knowing why." This is the same design philosophy as Steve Jobs' "it just works": **complex structure, simple experience.**
+Mozart was also a pioneer of "user experience." He wrote to his father: "My music won't dissatisfy connoisseurs, but amateurs will enjoy it too â€” without knowing why." This is the same design philosophy as Steve Jobs' "it just works": **complex structure, simple experience.**
 
-His operas were multidimensional design masterpieces. In the Act II finale of The Marriage of Figaro, six characters sing different melodies simultaneously on stage, each with their own emotional arc — anger, confusion, fear, scheming — yet together they form perfect harmony. This isn't music; it's **information architecture.**`,
+His operas were multidimensional design masterpieces. In the Act II finale of The Marriage of Figaro, six characters sing different melodies simultaneously on stage, each with their own emotional arc â€” anger, confusion, fear, scheming â€” yet together they form perfect harmony. This isn't music; it's **information architecture.**`,
 
-    legacy: `Mozart 对后世的影响无法估量。贝多芬、柴可夫斯基、马勒都视他为最高标准。他的音乐至今是全球演出最多的古典曲目。
+    legacy: `Mozart å¯¹åŽä¸–çš„å½±å“æ— æ³•ä¼°é‡ã€‚è´å¤šèŠ¬ã€æŸ´å¯å¤«æ–¯åŸºã€é©¬å‹’éƒ½è§†ä»–ä¸ºæœ€é«˜æ ‡å‡†ã€‚ä»–çš„éŸ³ä¹è‡³ä»Šæ˜¯å…¨çƒæ¼”å‡ºæœ€å¤šçš„å¤å…¸æ›²ç›®ã€‚
 
-萨尔茨堡因他成为全球音乐朝圣地，每年的萨尔茨堡音乐节吸引25万观众。他的形象出现在从巧克力包装到城市品牌的一切设计中——Mozart 本身成为了一个设计符号。`,
+è¨å°”èŒ¨å ¡å› ä»–æˆä¸ºå…¨çƒéŸ³ä¹æœåœ£åœ°ï¼Œæ¯å¹´çš„è¨å°”èŒ¨å ¡éŸ³ä¹èŠ‚å¸å¼•25ä¸‡è§‚ä¼—ã€‚ä»–çš„å½¢è±¡å‡ºçŽ°åœ¨ä»Žå·§å…‹åŠ›åŒ…è£…åˆ°åŸŽå¸‚å“ç‰Œçš„ä¸€åˆ‡è®¾è®¡ä¸­â€”â€”Mozart æœ¬èº«æˆä¸ºäº†ä¸€ä¸ªè®¾è®¡ç¬¦å·ã€‚`,
 
     legacy_en: `Mozart's influence on posterity is immeasurable. Beethoven, Tchaikovsky, and Mahler all regarded him as the highest standard. His music remains the most performed classical repertoire worldwide.
 
-Salzburg became a global music pilgrimage site because of him, with the annual Salzburg Festival attracting 250,000 visitors. His image appears on everything from chocolate packaging to city branding — Mozart himself became a design symbol.`,
+Salzburg became a global music pilgrimage site because of him, with the annual Salzburg Festival attracting 250,000 visitors. His image appears on everything from chocolate packaging to city branding â€” Mozart himself became a design symbol.`,
 
-    significance: `Mozart 给所有设计师上了一课：**真正的精湛不是炫技，而是让复杂看起来简单。** 他最好的作品听起来毫不费力——但这种"毫不费力"背后是惊人的结构精密度。这和 Dieter Rams 的"好设计是尽可能少的设计"、Mies van der Rohe 的"少即是多"，说的是同一件事。`,
+    significance: `Mozart ç»™æ‰€æœ‰è®¾è®¡å¸ˆä¸Šäº†ä¸€è¯¾ï¼š**çœŸæ­£çš„ç²¾æ¹›ä¸æ˜¯ç‚«æŠ€ï¼Œè€Œæ˜¯è®©å¤æ‚çœ‹èµ·æ¥ç®€å•ã€‚** ä»–æœ€å¥½çš„ä½œå“å¬èµ·æ¥æ¯«ä¸è´¹åŠ›â€”â€”ä½†è¿™ç§"æ¯«ä¸è´¹åŠ›"èƒŒåŽæ˜¯æƒŠäººçš„ç»“æž„ç²¾å¯†åº¦ã€‚è¿™å’Œ Dieter Rams çš„"å¥½è®¾è®¡æ˜¯å°½å¯èƒ½å°‘çš„è®¾è®¡"ã€Mies van der Rohe çš„"å°‘å³æ˜¯å¤š"ï¼Œè¯´çš„æ˜¯åŒä¸€ä»¶äº‹ã€‚`,
 
-    significance_en: `Mozart taught every designer a lesson: **true mastery isn't showing off technique — it's making complexity look simple.** His best works sound effortless — but behind that effortlessness lies astonishing structural precision. This is the same thing as Dieter Rams' "good design is as little design as possible" and Mies van der Rohe's "less is more."`,
+    significance_en: `Mozart taught every designer a lesson: **true mastery isn't showing off technique â€” it's making complexity look simple.** His best works sound effortless â€” but behind that effortlessness lies astonishing structural precision. This is the same thing as Dieter Rams' "good design is as little design as possible" and Mies van der Rohe's "less is more."`,
   },
 
   // === 01-01 to 01-04 ===
@@ -2759,7 +2759,7 @@ Salzburg became a global music pilgrimage site because of him, with the annual S
     date: '2026-01-01',
     imageUrl: '/the-daily-object/images/euro-currency.jpg',
     fullImageUrl: '/the-daily-object/images/full/euro-currency.jpg',
-    title: '欧元纸币设计',
+    title: 'æ¬§å…ƒçº¸å¸è®¾è®¡',
     title_en: 'Euro Banknote Design',
     subtitle: 'Robert Kalina, 2002',
     subtitle_en: 'Robert Kalina, 2002',
@@ -2767,33 +2767,33 @@ Salzburg became a global music pilgrimage site because of him, with the annual S
     designer: 'Robert Kalina',
     year: '2002',
 
-    dateConnection: '2002年1月1日，欧元纸币和硬币在12个欧盟成员国正式流通，这是人类货币史上规模最大的一次货币替换行动——3亿人在一夜之间开始使用全新的纸币。',
-    designerBio: `Robert Kalina，奥地利中央银行的平面设计师，1996年在欧洲货币研究所举办的设计竞赛中胜出。他面对的挑战前所未有：设计一套不代表任何单一国家的货币，同时要让十几个文化背景各异的国家都能接受。
+    dateConnection: '2002å¹´1æœˆ1æ—¥ï¼Œæ¬§å…ƒçº¸å¸å’Œç¡¬å¸åœ¨12ä¸ªæ¬§ç›Ÿæˆå‘˜å›½æ­£å¼æµé€šï¼Œè¿™æ˜¯äººç±»è´§å¸å²ä¸Šè§„æ¨¡æœ€å¤§çš„ä¸€æ¬¡è´§å¸æ›¿æ¢è¡ŒåŠ¨â€”â€”3äº¿äººåœ¨ä¸€å¤œä¹‹é—´å¼€å§‹ä½¿ç”¨å…¨æ–°çš„çº¸å¸ã€‚',
+    designerBio: `Robert Kalinaï¼Œå¥¥åœ°åˆ©ä¸­å¤®é“¶è¡Œçš„å¹³é¢è®¾è®¡å¸ˆï¼Œ1996å¹´åœ¨æ¬§æ´²è´§å¸ç ”ç©¶æ‰€ä¸¾åŠžçš„è®¾è®¡ç«žèµ›ä¸­èƒœå‡ºã€‚ä»–é¢å¯¹çš„æŒ‘æˆ˜å‰æ‰€æœªæœ‰ï¼šè®¾è®¡ä¸€å¥—ä¸ä»£è¡¨ä»»ä½•å•ä¸€å›½å®¶çš„è´§å¸ï¼ŒåŒæ—¶è¦è®©åå‡ ä¸ªæ–‡åŒ–èƒŒæ™¯å„å¼‚çš„å›½å®¶éƒ½èƒ½æŽ¥å—ã€‚
 
-Kalina 的方案以"欧洲建筑风格的演变"为主题，每张面额展现一个建筑时期——从古典到现代。但这些建筑不是真实存在的，而是各风格的理想化综合体，避免任何国家声称"这是我们的建筑"。`,
-    story: `欧元纸币的设计堪称20世纪末最复杂的平面设计项目之一。
+Kalina çš„æ–¹æ¡ˆä»¥"æ¬§æ´²å»ºç­‘é£Žæ ¼çš„æ¼”å˜"ä¸ºä¸»é¢˜ï¼Œæ¯å¼ é¢é¢å±•çŽ°ä¸€ä¸ªå»ºç­‘æ—¶æœŸâ€”â€”ä»Žå¤å…¸åˆ°çŽ°ä»£ã€‚ä½†è¿™äº›å»ºç­‘ä¸æ˜¯çœŸå®žå­˜åœ¨çš„ï¼Œè€Œæ˜¯å„é£Žæ ¼çš„ç†æƒ³åŒ–ç»¼åˆä½“ï¼Œé¿å…ä»»ä½•å›½å®¶å£°ç§°"è¿™æ˜¯æˆ‘ä»¬çš„å»ºç­‘"ã€‚`,
+    story: `æ¬§å…ƒçº¸å¸çš„è®¾è®¡å ªç§°20ä¸–çºªæœ«æœ€å¤æ‚çš„å¹³é¢è®¾è®¡é¡¹ç›®ä¹‹ä¸€ã€‚
 
-**核心挑战：如何设计一个"无国籍"的货币？** 每张纸币都必须在文化上中立，却又必须让数亿欧洲人感到亲切。Kalina 的天才之处在于选择了"窗户与门"（正面）和"桥梁"（背面）作为核心视觉意象——窗户象征开放与透明，桥梁象征连接与沟通。
+**æ ¸å¿ƒæŒ‘æˆ˜ï¼šå¦‚ä½•è®¾è®¡ä¸€ä¸ª"æ— å›½ç±"çš„è´§å¸ï¼Ÿ** æ¯å¼ çº¸å¸éƒ½å¿…é¡»åœ¨æ–‡åŒ–ä¸Šä¸­ç«‹ï¼Œå´åˆå¿…é¡»è®©æ•°äº¿æ¬§æ´²äººæ„Ÿåˆ°äº²åˆ‡ã€‚Kalina çš„å¤©æ‰ä¹‹å¤„åœ¨äºŽé€‰æ‹©äº†"çª—æˆ·ä¸Žé—¨"ï¼ˆæ­£é¢ï¼‰å’Œ"æ¡¥æ¢"ï¼ˆèƒŒé¢ï¼‰ä½œä¸ºæ ¸å¿ƒè§†è§‰æ„è±¡â€”â€”çª—æˆ·è±¡å¾å¼€æ”¾ä¸Žé€æ˜Žï¼Œæ¡¥æ¢è±¡å¾è¿žæŽ¥ä¸Žæ²Ÿé€šã€‚
 
-七种面额（€5至€500）横跨七个建筑时期：古典、罗马式、哥特式、文艺复兴、巴洛克与洛可可、铁与玻璃建筑、现代建筑。色彩系统同样精心设计——灰色、红色、蓝色、橙色、绿色、黄棕色、紫色——确保视障人士也能通过颜色区分面额。
+ä¸ƒç§é¢é¢ï¼ˆâ‚¬5è‡³â‚¬500ï¼‰æ¨ªè·¨ä¸ƒä¸ªå»ºç­‘æ—¶æœŸï¼šå¤å…¸ã€ç½—é©¬å¼ã€å“¥ç‰¹å¼ã€æ–‡è‰ºå¤å…´ã€å·´æ´›å…‹ä¸Žæ´›å¯å¯ã€é“ä¸ŽçŽ»ç’ƒå»ºç­‘ã€çŽ°ä»£å»ºç­‘ã€‚è‰²å½©ç³»ç»ŸåŒæ ·ç²¾å¿ƒè®¾è®¡â€”â€”ç°è‰²ã€çº¢è‰²ã€è“è‰²ã€æ©™è‰²ã€ç»¿è‰²ã€é»„æ£•è‰²ã€ç´«è‰²â€”â€”ç¡®ä¿è§†éšœäººå£«ä¹Ÿèƒ½é€šè¿‡é¢œè‰²åŒºåˆ†é¢é¢ã€‚
 
-**防伪设计同样是一场设计革命。** 全息图、水印、安全线、变色油墨——这些技术元素被完美融入整体设计，不显突兀，却极难伪造。`,
-    legacy: '欧元纸币成为世界上使用人数第二多的货币，流通于20个国家的3.4亿人手中。2019年推出的"欧罗巴系列"新版纸币在保持 Kalina 原始设计语言的基础上，进一步提升了防伪技术和触觉辨识度。',
-    significance: '欧元纸币证明了平面设计可以承载巨大的政治与文化使命。它是史上最大规模的"品牌统一"项目——不是一家公司，而是一个大陆。Kalina 用建筑风格的演变讲述了一个超越国界的欧洲故事，让设计成为政治愿景的视觉化表达。',
+**é˜²ä¼ªè®¾è®¡åŒæ ·æ˜¯ä¸€åœºè®¾è®¡é©å‘½ã€‚** å…¨æ¯å›¾ã€æ°´å°ã€å®‰å…¨çº¿ã€å˜è‰²æ²¹å¢¨â€”â€”è¿™äº›æŠ€æœ¯å…ƒç´ è¢«å®Œç¾Žèžå…¥æ•´ä½“è®¾è®¡ï¼Œä¸æ˜¾çªå…€ï¼Œå´æžéš¾ä¼ªé€ ã€‚`,
+    legacy: 'æ¬§å…ƒçº¸å¸æˆä¸ºä¸–ç•Œä¸Šä½¿ç”¨äººæ•°ç¬¬äºŒå¤šçš„è´§å¸ï¼Œæµé€šäºŽ20ä¸ªå›½å®¶çš„3.4äº¿äººæ‰‹ä¸­ã€‚2019å¹´æŽ¨å‡ºçš„"æ¬§ç½—å·´ç³»åˆ—"æ–°ç‰ˆçº¸å¸åœ¨ä¿æŒ Kalina åŽŸå§‹è®¾è®¡è¯­è¨€çš„åŸºç¡€ä¸Šï¼Œè¿›ä¸€æ­¥æå‡äº†é˜²ä¼ªæŠ€æœ¯å’Œè§¦è§‰è¾¨è¯†åº¦ã€‚',
+    significance: 'æ¬§å…ƒçº¸å¸è¯æ˜Žäº†å¹³é¢è®¾è®¡å¯ä»¥æ‰¿è½½å·¨å¤§çš„æ”¿æ²»ä¸Žæ–‡åŒ–ä½¿å‘½ã€‚å®ƒæ˜¯å²ä¸Šæœ€å¤§è§„æ¨¡çš„"å“ç‰Œç»Ÿä¸€"é¡¹ç›®â€”â€”ä¸æ˜¯ä¸€å®¶å…¬å¸ï¼Œè€Œæ˜¯ä¸€ä¸ªå¤§é™†ã€‚Kalina ç”¨å»ºç­‘é£Žæ ¼çš„æ¼”å˜è®²è¿°äº†ä¸€ä¸ªè¶…è¶Šå›½ç•Œçš„æ¬§æ´²æ•…äº‹ï¼Œè®©è®¾è®¡æˆä¸ºæ”¿æ²»æ„¿æ™¯çš„è§†è§‰åŒ–è¡¨è¾¾ã€‚',
 
-    dateConnection_en: 'On January 1, 2002, euro banknotes and coins entered circulation across 12 EU member states — the largest currency changeover in history, with 300 million people adopting entirely new banknotes overnight.',
+    dateConnection_en: 'On January 1, 2002, euro banknotes and coins entered circulation across 12 EU member states â€” the largest currency changeover in history, with 300 million people adopting entirely new banknotes overnight.',
     designerBio_en: `Robert Kalina, a graphic designer at the Austrian National Bank, won the 1996 design competition held by the European Monetary Institute. His challenge was unprecedented: design a currency that represents no single nation while being accepted by over a dozen countries with vastly different cultural identities.
 
-Kalina's solution used "the evolution of European architectural styles" as its theme, with each denomination showcasing a different period — from Classical to Modern. Crucially, none of the buildings depicted actually exist; they are idealized composites of each style, preventing any nation from claiming ownership.`,
+Kalina's solution used "the evolution of European architectural styles" as its theme, with each denomination showcasing a different period â€” from Classical to Modern. Crucially, none of the buildings depicted actually exist; they are idealized composites of each style, preventing any nation from claiming ownership.`,
     story_en: `The euro banknote design was one of the most complex graphic design projects of the late 20th century.
 
-**The core challenge: how do you design a "stateless" currency?** Each note had to be culturally neutral yet feel familiar to hundreds of millions of Europeans. Kalina's genius was choosing "windows and doorways" (front) and "bridges" (back) as the central visual metaphors — windows symbolizing openness and transparency, bridges representing connection and communication.
+**The core challenge: how do you design a "stateless" currency?** Each note had to be culturally neutral yet feel familiar to hundreds of millions of Europeans. Kalina's genius was choosing "windows and doorways" (front) and "bridges" (back) as the central visual metaphors â€” windows symbolizing openness and transparency, bridges representing connection and communication.
 
-Seven denominations (€5 to €500) span seven architectural periods: Classical, Romanesque, Gothic, Renaissance, Baroque and Rococo, Iron and Glass, and Modern. The color system was equally deliberate — grey, red, blue, orange, green, yellow-brown, and purple — ensuring even visually impaired users can distinguish denominations by color.
+Seven denominations (â‚¬5 to â‚¬500) span seven architectural periods: Classical, Romanesque, Gothic, Renaissance, Baroque and Rococo, Iron and Glass, and Modern. The color system was equally deliberate â€” grey, red, blue, orange, green, yellow-brown, and purple â€” ensuring even visually impaired users can distinguish denominations by color.
 
-**The anti-counterfeiting design was itself a revolution.** Holograms, watermarks, security threads, and color-shifting inks — these technical elements were seamlessly integrated into the overall design, never feeling intrusive yet proving extremely difficult to forge.`,
+**The anti-counterfeiting design was itself a revolution.** Holograms, watermarks, security threads, and color-shifting inks â€” these technical elements were seamlessly integrated into the overall design, never feeling intrusive yet proving extremely difficult to forge.`,
     legacy_en: 'The euro became the world\'s second most-used currency, circulating among 340 million people across 20 countries. The 2019 "Europa series" redesign maintained Kalina\'s original design language while advancing anti-counterfeiting technology and tactile accessibility.',
-    significance_en: 'The euro banknote proved that graphic design can carry immense political and cultural missions. It remains the largest-ever "brand unification" project — not for a company, but for a continent. Kalina used the evolution of architectural styles to tell a pan-European story that transcends borders, turning design into the visual expression of a political vision.',
+    significance_en: 'The euro banknote proved that graphic design can carry immense political and cultural missions. It remains the largest-ever "brand unification" project â€” not for a company, but for a continent. Kalina used the evolution of architectural styles to tell a pan-European story that transcends borders, turning design into the visual expression of a political vision.',
   },
 
   {
@@ -2801,7 +2801,7 @@ Seven denominations (€5 to €500) span seven architectural periods: Classical
     date: '2026-01-02',
     imageUrl: '/the-daily-object/images/three-laws-of-robotics.jpg',
     fullImageUrl: '/the-daily-object/images/full/three-laws-of-robotics.jpg',
-    title: '机器人三定律',
+    title: 'æœºå™¨äººä¸‰å®šå¾‹',
     title_en: 'Three Laws of Robotics',
     subtitle: 'Isaac Asimov, 1942',
     subtitle_en: 'Isaac Asimov, 1942',
@@ -2809,37 +2809,37 @@ Seven denominations (€5 to €500) span seven architectural periods: Classical
     designer: 'Isaac Asimov',
     year: '1942',
 
-    dateConnection: '1920年1月2日，Isaac Asimov 出生于俄罗斯斯摩棱斯克省彼得罗维奇。这位科幻巨匠后来提出的"机器人三定律"，成为人机交互设计领域最具影响力的思想框架之一。',
-    designerBio: `Isaac Asimov（1920–1992），生物化学教授、科幻作家、科普作家，一生著述超过500部作品。他不是传统意义上的"设计师"，但他在1942年短篇小说《转圈圈》（Runaround）中首次明确提出的"机器人三定律"，本质上是一套**人机交互的设计规范**。
+    dateConnection: '1920å¹´1æœˆ2æ—¥ï¼ŒIsaac Asimov å‡ºç”ŸäºŽä¿„ç½—æ–¯æ–¯æ‘©æ£±æ–¯å…‹çœå½¼å¾—ç½—ç»´å¥‡ã€‚è¿™ä½ç§‘å¹»å·¨åŒ åŽæ¥æå‡ºçš„"æœºå™¨äººä¸‰å®šå¾‹"ï¼Œæˆä¸ºäººæœºäº¤äº’è®¾è®¡é¢†åŸŸæœ€å…·å½±å“åŠ›çš„æ€æƒ³æ¡†æž¶ä¹‹ä¸€ã€‚',
+    designerBio: `Isaac Asimovï¼ˆ1920â€“1992ï¼‰ï¼Œç”Ÿç‰©åŒ–å­¦æ•™æŽˆã€ç§‘å¹»ä½œå®¶ã€ç§‘æ™®ä½œå®¶ï¼Œä¸€ç”Ÿè‘—è¿°è¶…è¿‡500éƒ¨ä½œå“ã€‚ä»–ä¸æ˜¯ä¼ ç»Ÿæ„ä¹‰ä¸Šçš„"è®¾è®¡å¸ˆ"ï¼Œä½†ä»–åœ¨1942å¹´çŸ­ç¯‡å°è¯´ã€Šè½¬åœˆåœˆã€‹ï¼ˆRunaroundï¼‰ä¸­é¦–æ¬¡æ˜Žç¡®æå‡ºçš„"æœºå™¨äººä¸‰å®šå¾‹"ï¼Œæœ¬è´¨ä¸Šæ˜¯ä¸€å¥—**äººæœºäº¤äº’çš„è®¾è®¡è§„èŒƒ**ã€‚
 
-Asimov 厌恶当时科幻小说中"机器人必然反叛人类"的陈词滥调。他认为，机器人不过是工具——烤面包机不会反叛人类，汽车也不会，那为什么机器人就一定要？从这个朴素的洞察出发，他设计了三条优先级递减的行为准则。`,
-    story: `**第一定律**：机器人不得伤害人类，或因不作为而使人类受到伤害。
-**第二定律**：机器人必须服从人类命令，除非该命令与第一定律冲突。
-**第三定律**：在不违反第一、第二定律的前提下，机器人必须保护自身。
+Asimov åŽŒæ¶å½“æ—¶ç§‘å¹»å°è¯´ä¸­"æœºå™¨äººå¿…ç„¶åå›äººç±»"çš„é™ˆè¯æ»¥è°ƒã€‚ä»–è®¤ä¸ºï¼Œæœºå™¨äººä¸è¿‡æ˜¯å·¥å…·â€”â€”çƒ¤é¢åŒ…æœºä¸ä¼šåå›äººç±»ï¼Œæ±½è½¦ä¹Ÿä¸ä¼šï¼Œé‚£ä¸ºä»€ä¹ˆæœºå™¨äººå°±ä¸€å®šè¦ï¼Ÿä»Žè¿™ä¸ªæœ´ç´ çš„æ´žå¯Ÿå‡ºå‘ï¼Œä»–è®¾è®¡äº†ä¸‰æ¡ä¼˜å…ˆçº§é€’å‡çš„è¡Œä¸ºå‡†åˆ™ã€‚`,
+    story: `**ç¬¬ä¸€å®šå¾‹**ï¼šæœºå™¨äººä¸å¾—ä¼¤å®³äººç±»ï¼Œæˆ–å› ä¸ä½œä¸ºè€Œä½¿äººç±»å—åˆ°ä¼¤å®³ã€‚
+**ç¬¬äºŒå®šå¾‹**ï¼šæœºå™¨äººå¿…é¡»æœä»Žäººç±»å‘½ä»¤ï¼Œé™¤éžè¯¥å‘½ä»¤ä¸Žç¬¬ä¸€å®šå¾‹å†²çªã€‚
+**ç¬¬ä¸‰å®šå¾‹**ï¼šåœ¨ä¸è¿åç¬¬ä¸€ã€ç¬¬äºŒå®šå¾‹çš„å‰æä¸‹ï¼Œæœºå™¨äººå¿…é¡»ä¿æŠ¤è‡ªèº«ã€‚
 
-这三条看似简单的规则，构成了一个**优雅的优先级系统**——安全 > 服从 > 自保。Asimov 花了数十年、数十篇小说来探索这套系统的边界情况：当两条定律互相冲突时会发生什么？当"伤害"的定义模糊时怎么办？当机器人的认知能力超过人类时，"服从"又意味着什么？
+è¿™ä¸‰æ¡çœ‹ä¼¼ç®€å•çš„è§„åˆ™ï¼Œæž„æˆäº†ä¸€ä¸ª**ä¼˜é›…çš„ä¼˜å…ˆçº§ç³»ç»Ÿ**â€”â€”å®‰å…¨ > æœä»Ž > è‡ªä¿ã€‚Asimov èŠ±äº†æ•°åå¹´ã€æ•°åç¯‡å°è¯´æ¥æŽ¢ç´¢è¿™å¥—ç³»ç»Ÿçš„è¾¹ç•Œæƒ…å†µï¼šå½“ä¸¤æ¡å®šå¾‹äº’ç›¸å†²çªæ—¶ä¼šå‘ç”Ÿä»€ä¹ˆï¼Ÿå½“"ä¼¤å®³"çš„å®šä¹‰æ¨¡ç³Šæ—¶æ€Žä¹ˆåŠžï¼Ÿå½“æœºå™¨äººçš„è®¤çŸ¥èƒ½åŠ›è¶…è¿‡äººç±»æ—¶ï¼Œ"æœä»Ž"åˆæ„å‘³ç€ä»€ä¹ˆï¼Ÿ
 
-**这不是科幻设定，这是设计方法论。** 现代 UX 设计中的"用户安全优先于用户自由"原则，AI 伦理中的"对齐问题"（alignment problem），自动驾驶的决策优先级——都能追溯到 Asimov 80多年前的这套框架。
+**è¿™ä¸æ˜¯ç§‘å¹»è®¾å®šï¼Œè¿™æ˜¯è®¾è®¡æ–¹æ³•è®ºã€‚** çŽ°ä»£ UX è®¾è®¡ä¸­çš„"ç”¨æˆ·å®‰å…¨ä¼˜å…ˆäºŽç”¨æˆ·è‡ªç”±"åŽŸåˆ™ï¼ŒAI ä¼¦ç†ä¸­çš„"å¯¹é½é—®é¢˜"ï¼ˆalignment problemï¼‰ï¼Œè‡ªåŠ¨é©¾é©¶çš„å†³ç­–ä¼˜å…ˆçº§â€”â€”éƒ½èƒ½è¿½æº¯åˆ° Asimov 80å¤šå¹´å‰çš„è¿™å¥—æ¡†æž¶ã€‚
 
-最深刻的设计洞察在于第一定律的"不作为"条款：机器人不仅不能主动伤害人类，还不能在有能力阻止伤害时袖手旁观。这预见了今天关于AI责任边界的核心争论。`,
-    legacy: '机器人三定律已超越科幻，成为AI伦理、人机交互设计、自动化系统安全的基础参考框架。从 Google 的 AI 伦理原则到 OpenAI 的安全对齐研究，从自动驾驶的伦理决策到医疗AI的设计准则，Asimov 的影响无处不在。',
-    significance: 'Asimov 证明了一件事：**最好的设计框架不来自技术细节，而来自对人类需求的深刻理解。** 三定律的力量不在于它告诉机器人"怎么做"，而在于它定义了"什么是最重要的"——人的安全。这与 Don Norman 的"以人为中心的设计"一脉相承：先理解人，再设计系统。',
+æœ€æ·±åˆ»çš„è®¾è®¡æ´žå¯Ÿåœ¨äºŽç¬¬ä¸€å®šå¾‹çš„"ä¸ä½œä¸º"æ¡æ¬¾ï¼šæœºå™¨äººä¸ä»…ä¸èƒ½ä¸»åŠ¨ä¼¤å®³äººç±»ï¼Œè¿˜ä¸èƒ½åœ¨æœ‰èƒ½åŠ›é˜»æ­¢ä¼¤å®³æ—¶è¢–æ‰‹æ—è§‚ã€‚è¿™é¢„è§äº†ä»Šå¤©å…³äºŽAIè´£ä»»è¾¹ç•Œçš„æ ¸å¿ƒäº‰è®ºã€‚`,
+    legacy: 'æœºå™¨äººä¸‰å®šå¾‹å·²è¶…è¶Šç§‘å¹»ï¼Œæˆä¸ºAIä¼¦ç†ã€äººæœºäº¤äº’è®¾è®¡ã€è‡ªåŠ¨åŒ–ç³»ç»Ÿå®‰å…¨çš„åŸºç¡€å‚è€ƒæ¡†æž¶ã€‚ä»Ž Google çš„ AI ä¼¦ç†åŽŸåˆ™åˆ° OpenAI çš„å®‰å…¨å¯¹é½ç ”ç©¶ï¼Œä»Žè‡ªåŠ¨é©¾é©¶çš„ä¼¦ç†å†³ç­–åˆ°åŒ»ç–—AIçš„è®¾è®¡å‡†åˆ™ï¼ŒAsimov çš„å½±å“æ— å¤„ä¸åœ¨ã€‚',
+    significance: 'Asimov è¯æ˜Žäº†ä¸€ä»¶äº‹ï¼š**æœ€å¥½çš„è®¾è®¡æ¡†æž¶ä¸æ¥è‡ªæŠ€æœ¯ç»†èŠ‚ï¼Œè€Œæ¥è‡ªå¯¹äººç±»éœ€æ±‚çš„æ·±åˆ»ç†è§£ã€‚** ä¸‰å®šå¾‹çš„åŠ›é‡ä¸åœ¨äºŽå®ƒå‘Šè¯‰æœºå™¨äºº"æ€Žä¹ˆåš"ï¼Œè€Œåœ¨äºŽå®ƒå®šä¹‰äº†"ä»€ä¹ˆæ˜¯æœ€é‡è¦çš„"â€”â€”äººçš„å®‰å…¨ã€‚è¿™ä¸Ž Don Norman çš„"ä»¥äººä¸ºä¸­å¿ƒçš„è®¾è®¡"ä¸€è„‰ç›¸æ‰¿ï¼šå…ˆç†è§£äººï¼Œå†è®¾è®¡ç³»ç»Ÿã€‚',
 
-    dateConnection_en: 'On January 2, 1920, Isaac Asimov was born in Petrovichi, Smolensk, Russia. The science fiction master would go on to formulate the "Three Laws of Robotics" — one of the most influential conceptual frameworks in human-machine interaction design.',
-    designerBio_en: `Isaac Asimov (1920–1992), biochemistry professor, science fiction author, and prolific science writer with over 500 published works. While not a "designer" in the traditional sense, his Three Laws of Robotics — first explicitly stated in the 1942 short story "Runaround" — are essentially **a design specification for human-machine interaction.**
+    dateConnection_en: 'On January 2, 1920, Isaac Asimov was born in Petrovichi, Smolensk, Russia. The science fiction master would go on to formulate the "Three Laws of Robotics" â€” one of the most influential conceptual frameworks in human-machine interaction design.',
+    designerBio_en: `Isaac Asimov (1920â€“1992), biochemistry professor, science fiction author, and prolific science writer with over 500 published works. While not a "designer" in the traditional sense, his Three Laws of Robotics â€” first explicitly stated in the 1942 short story "Runaround" â€” are essentially **a design specification for human-machine interaction.**
 
-Asimov despised the tired sci-fi trope of "robots inevitably rebelling against humans." He argued that robots are simply tools — toasters don't rebel, cars don't rebel, so why should robots? From this simple insight, he designed three behavioral rules with descending priority.`,
+Asimov despised the tired sci-fi trope of "robots inevitably rebelling against humans." He argued that robots are simply tools â€” toasters don't rebel, cars don't rebel, so why should robots? From this simple insight, he designed three behavioral rules with descending priority.`,
     story_en: `**First Law:** A robot may not injure a human being or, through inaction, allow a human being to come to harm.
 **Second Law:** A robot must obey orders given by human beings, except where such orders would conflict with the First Law.
 **Third Law:** A robot must protect its own existence, as long as such protection does not conflict with the First or Second Law.
 
-These three seemingly simple rules form an **elegant priority system** — safety > obedience > self-preservation. Asimov spent decades and dozens of stories exploring the edge cases: What happens when two laws conflict? What when "harm" is ambiguously defined? What does "obedience" mean when a robot's cognitive capacity exceeds a human's?
+These three seemingly simple rules form an **elegant priority system** â€” safety > obedience > self-preservation. Asimov spent decades and dozens of stories exploring the edge cases: What happens when two laws conflict? What when "harm" is ambiguously defined? What does "obedience" mean when a robot's cognitive capacity exceeds a human's?
 
-**This isn't science fiction worldbuilding — it's design methodology.** The modern UX principle of "user safety over user freedom," AI ethics' "alignment problem," autonomous driving's decision hierarchies — all trace back to Asimov's framework from over 80 years ago.
+**This isn't science fiction worldbuilding â€” it's design methodology.** The modern UX principle of "user safety over user freedom," AI ethics' "alignment problem," autonomous driving's decision hierarchies â€” all trace back to Asimov's framework from over 80 years ago.
 
 The most profound design insight lies in the First Law's "inaction" clause: a robot must not only refrain from actively harming humans but cannot stand by when it has the ability to prevent harm. This anticipated today's core debates about AI responsibility boundaries.`,
     legacy_en: 'The Three Laws have transcended science fiction to become a foundational reference framework for AI ethics, human-machine interaction design, and automated system safety. From Google\'s AI principles to OpenAI\'s alignment research, from autonomous vehicle ethics to medical AI guidelines, Asimov\'s influence is everywhere.',
-    significance_en: 'Asimov proved something essential: **the best design frameworks don\'t come from technical specifications but from a deep understanding of human needs.** The Three Laws\' power lies not in telling robots "how to act" but in defining "what matters most" — human safety. This aligns directly with Don Norman\'s "human-centered design": understand people first, then design the system.',
+    significance_en: 'Asimov proved something essential: **the best design frameworks don\'t come from technical specifications but from a deep understanding of human needs.** The Three Laws\' power lies not in telling robots "how to act" but in defining "what matters most" â€” human safety. This aligns directly with Don Norman\'s "human-centered design": understand people first, then design the system.',
   },
 
   {
@@ -2847,7 +2847,7 @@ The most profound design insight lies in the First Law's "inaction" clause: a ro
     date: '2026-01-03',
     imageUrl: '/the-daily-object/images/middle-earth-maps.jpg',
     fullImageUrl: '/the-daily-object/images/full/middle-earth-maps.jpg',
-    title: '中洲地图',
+    title: 'ä¸­æ´²åœ°å›¾',
     title_en: 'Middle-earth Maps',
     subtitle: 'J.R.R. Tolkien, 1954',
     subtitle_en: 'J.R.R. Tolkien, 1954',
@@ -2855,33 +2855,33 @@ The most profound design insight lies in the First Law's "inaction" clause: a ro
     designer: 'J.R.R. Tolkien',
     year: '1954',
 
-    dateConnection: '1892年1月3日，J.R.R. Tolkien 出生于南非布隆方丹。这位语言学教授不仅创造了一个完整的虚构世界，还亲手为它绘制了地图——开创了"虚构世界制图学"的先河。',
-    designerBio: `J.R.R. Tolkien（1892–1973），牛津大学英语语言与文学教授，《霍比特人》和《魔戒》的作者。但鲜为人知的是，Tolkien 同时是一位严肃的视觉设计师——他亲手绘制了中洲世界的地图、书法、纹章和装饰图案。
+    dateConnection: '1892å¹´1æœˆ3æ—¥ï¼ŒJ.R.R. Tolkien å‡ºç”ŸäºŽå—éžå¸ƒéš†æ–¹ä¸¹ã€‚è¿™ä½è¯­è¨€å­¦æ•™æŽˆä¸ä»…åˆ›é€ äº†ä¸€ä¸ªå®Œæ•´çš„è™šæž„ä¸–ç•Œï¼Œè¿˜äº²æ‰‹ä¸ºå®ƒç»˜åˆ¶äº†åœ°å›¾â€”â€”å¼€åˆ›äº†"è™šæž„ä¸–ç•Œåˆ¶å›¾å­¦"çš„å…ˆæ²³ã€‚',
+    designerBio: `J.R.R. Tolkienï¼ˆ1892â€“1973ï¼‰ï¼Œç‰›æ´¥å¤§å­¦è‹±è¯­è¯­è¨€ä¸Žæ–‡å­¦æ•™æŽˆï¼Œã€Šéœæ¯”ç‰¹äººã€‹å’Œã€Šé­”æˆ’ã€‹çš„ä½œè€…ã€‚ä½†é²œä¸ºäººçŸ¥çš„æ˜¯ï¼ŒTolkien åŒæ—¶æ˜¯ä¸€ä½ä¸¥è‚ƒçš„è§†è§‰è®¾è®¡å¸ˆâ€”â€”ä»–äº²æ‰‹ç»˜åˆ¶äº†ä¸­æ´²ä¸–ç•Œçš„åœ°å›¾ã€ä¹¦æ³•ã€çº¹ç« å’Œè£…é¥°å›¾æ¡ˆã€‚
 
-Tolkien 的制图方法论极其严谨。他先确定地理逻辑（河流必须流向海洋、山脉必须符合地质规律），再用地图来检验故事中的旅程是否在时间和距离上合理。**地图不是故事的附属品，而是故事的骨架。**`,
-    story: `中洲地图的设计影响远超文学领域。
+Tolkien çš„åˆ¶å›¾æ–¹æ³•è®ºæžå…¶ä¸¥è°¨ã€‚ä»–å…ˆç¡®å®šåœ°ç†é€»è¾‘ï¼ˆæ²³æµå¿…é¡»æµå‘æµ·æ´‹ã€å±±è„‰å¿…é¡»ç¬¦åˆåœ°è´¨è§„å¾‹ï¼‰ï¼Œå†ç”¨åœ°å›¾æ¥æ£€éªŒæ•…äº‹ä¸­çš„æ—…ç¨‹æ˜¯å¦åœ¨æ—¶é—´å’Œè·ç¦»ä¸Šåˆç†ã€‚**åœ°å›¾ä¸æ˜¯æ•…äº‹çš„é™„å±žå“ï¼Œè€Œæ˜¯æ•…äº‹çš„éª¨æž¶ã€‚**`,
+    story: `ä¸­æ´²åœ°å›¾çš„è®¾è®¡å½±å“è¿œè¶…æ–‡å­¦é¢†åŸŸã€‚
 
-Tolkien 为《魔戒》绘制的地图是**信息设计的杰作**。每一座山脉、每一条河流都有名字，用精心设计的书法体（基于他自创的精灵文字系统）标注。地图不仅展示空间关系，还暗示了文化边界——矮人的领地多在山中，精灵靠近森林，人类占据平原和海岸。
+Tolkien ä¸ºã€Šé­”æˆ’ã€‹ç»˜åˆ¶çš„åœ°å›¾æ˜¯**ä¿¡æ¯è®¾è®¡çš„æ°ä½œ**ã€‚æ¯ä¸€åº§å±±è„‰ã€æ¯ä¸€æ¡æ²³æµéƒ½æœ‰åå­—ï¼Œç”¨ç²¾å¿ƒè®¾è®¡çš„ä¹¦æ³•ä½“ï¼ˆåŸºäºŽä»–è‡ªåˆ›çš„ç²¾çµæ–‡å­—ç³»ç»Ÿï¼‰æ ‡æ³¨ã€‚åœ°å›¾ä¸ä»…å±•ç¤ºç©ºé—´å…³ç³»ï¼Œè¿˜æš—ç¤ºäº†æ–‡åŒ–è¾¹ç•Œâ€”â€”çŸ®äººçš„é¢†åœ°å¤šåœ¨å±±ä¸­ï¼Œç²¾çµé è¿‘æ£®æž—ï¼Œäººç±»å æ®å¹³åŽŸå’Œæµ·å²¸ã€‚
 
-**制图作为叙事工具。** Tolkien 的地图让读者可以追踪弗罗多的旅程，计算距离，感受从夏尔到魔多的地理递进——从田园牧歌到荒芜绝望。这种"空间叙事"技巧后来被所有奇幻文学和游戏设计所继承。
+**åˆ¶å›¾ä½œä¸ºå™äº‹å·¥å…·ã€‚** Tolkien çš„åœ°å›¾è®©è¯»è€…å¯ä»¥è¿½è¸ªå¼—ç½—å¤šçš„æ—…ç¨‹ï¼Œè®¡ç®—è·ç¦»ï¼Œæ„Ÿå—ä»Žå¤å°”åˆ°é­”å¤šçš„åœ°ç†é€’è¿›â€”â€”ä»Žç”°å›­ç‰§æ­Œåˆ°è’èŠœç»æœ›ã€‚è¿™ç§"ç©ºé—´å™äº‹"æŠ€å·§åŽæ¥è¢«æ‰€æœ‰å¥‡å¹»æ–‡å­¦å’Œæ¸¸æˆè®¾è®¡æ‰€ç»§æ‰¿ã€‚
 
-Tolkien 的地图设计还有一个被忽视的维度：**它们是手绘的。** 在一个逐渐被机械制图主导的时代，Tolkien 坚持用钢笔和墨水绘制。那些微微颤抖的山脉轮廓、参差不齐的海岸线，传递出一种手工的温度——这不是一张"精确"的地图，而是一张"有人画过"的地图，带着制图者的呼吸。`,
-    legacy: '中洲地图直接催生了整个"奇幻制图学"传统。从《龙与地下城》的大陆地图到《塞尔达传说》的海拉鲁地图，从《权力的游戏》的维斯特洛地图到无数独立游戏的世界设定，Tolkien 确立了"好的虚构世界必须有一张好地图"的设计准则。',
-    significance: 'Tolkien 证明了**地图不仅是导航工具，更是叙事媒介**。一张精心设计的地图可以讲述文化、历史、冲突和旅程。这个洞察对今天的信息设计、数据可视化、游戏世界构建依然适用——最好的信息设计不只是呈现数据，而是讲述故事。',
+Tolkien çš„åœ°å›¾è®¾è®¡è¿˜æœ‰ä¸€ä¸ªè¢«å¿½è§†çš„ç»´åº¦ï¼š**å®ƒä»¬æ˜¯æ‰‹ç»˜çš„ã€‚** åœ¨ä¸€ä¸ªé€æ¸è¢«æœºæ¢°åˆ¶å›¾ä¸»å¯¼çš„æ—¶ä»£ï¼ŒTolkien åšæŒç”¨é’¢ç¬”å’Œå¢¨æ°´ç»˜åˆ¶ã€‚é‚£äº›å¾®å¾®é¢¤æŠ–çš„å±±è„‰è½®å»“ã€å‚å·®ä¸é½çš„æµ·å²¸çº¿ï¼Œä¼ é€’å‡ºä¸€ç§æ‰‹å·¥çš„æ¸©åº¦â€”â€”è¿™ä¸æ˜¯ä¸€å¼ "ç²¾ç¡®"çš„åœ°å›¾ï¼Œè€Œæ˜¯ä¸€å¼ "æœ‰äººç”»è¿‡"çš„åœ°å›¾ï¼Œå¸¦ç€åˆ¶å›¾è€…çš„å‘¼å¸ã€‚`,
+    legacy: 'ä¸­æ´²åœ°å›¾ç›´æŽ¥å‚¬ç”Ÿäº†æ•´ä¸ª"å¥‡å¹»åˆ¶å›¾å­¦"ä¼ ç»Ÿã€‚ä»Žã€Šé¾™ä¸Žåœ°ä¸‹åŸŽã€‹çš„å¤§é™†åœ°å›¾åˆ°ã€Šå¡žå°”è¾¾ä¼ è¯´ã€‹çš„æµ·æ‹‰é²åœ°å›¾ï¼Œä»Žã€ŠæƒåŠ›çš„æ¸¸æˆã€‹çš„ç»´æ–¯ç‰¹æ´›åœ°å›¾åˆ°æ— æ•°ç‹¬ç«‹æ¸¸æˆçš„ä¸–ç•Œè®¾å®šï¼ŒTolkien ç¡®ç«‹äº†"å¥½çš„è™šæž„ä¸–ç•Œå¿…é¡»æœ‰ä¸€å¼ å¥½åœ°å›¾"çš„è®¾è®¡å‡†åˆ™ã€‚',
+    significance: 'Tolkien è¯æ˜Žäº†**åœ°å›¾ä¸ä»…æ˜¯å¯¼èˆªå·¥å…·ï¼Œæ›´æ˜¯å™äº‹åª’ä»‹**ã€‚ä¸€å¼ ç²¾å¿ƒè®¾è®¡çš„åœ°å›¾å¯ä»¥è®²è¿°æ–‡åŒ–ã€åŽ†å²ã€å†²çªå’Œæ—…ç¨‹ã€‚è¿™ä¸ªæ´žå¯Ÿå¯¹ä»Šå¤©çš„ä¿¡æ¯è®¾è®¡ã€æ•°æ®å¯è§†åŒ–ã€æ¸¸æˆä¸–ç•Œæž„å»ºä¾ç„¶é€‚ç”¨â€”â€”æœ€å¥½çš„ä¿¡æ¯è®¾è®¡ä¸åªæ˜¯å‘ˆçŽ°æ•°æ®ï¼Œè€Œæ˜¯è®²è¿°æ•…äº‹ã€‚',
 
-    dateConnection_en: 'On January 3, 1892, J.R.R. Tolkien was born in Bloemfontein, South Africa. The linguistics professor would not only create a complete fictional world but hand-draw its maps — pioneering the field of fictional cartography.',
-    designerBio_en: `J.R.R. Tolkien (1892–1973), Professor of English Language and Literature at Oxford University, author of The Hobbit and The Lord of the Rings. Less well known is that Tolkien was also a serious visual designer — he personally created maps, calligraphy, heraldry, and decorative patterns for Middle-earth.
+    dateConnection_en: 'On January 3, 1892, J.R.R. Tolkien was born in Bloemfontein, South Africa. The linguistics professor would not only create a complete fictional world but hand-draw its maps â€” pioneering the field of fictional cartography.',
+    designerBio_en: `J.R.R. Tolkien (1892â€“1973), Professor of English Language and Literature at Oxford University, author of The Hobbit and The Lord of the Rings. Less well known is that Tolkien was also a serious visual designer â€” he personally created maps, calligraphy, heraldry, and decorative patterns for Middle-earth.
 
-Tolkien's cartographic methodology was extraordinarily rigorous. He first established geographic logic (rivers must flow to the sea, mountain ranges must follow geological principles), then used maps to verify whether the journeys in his stories were plausible in terms of time and distance. **Maps weren't accessories to the story — they were its skeleton.**`,
+Tolkien's cartographic methodology was extraordinarily rigorous. He first established geographic logic (rivers must flow to the sea, mountain ranges must follow geological principles), then used maps to verify whether the journeys in his stories were plausible in terms of time and distance. **Maps weren't accessories to the story â€” they were its skeleton.**`,
     story_en: `The design influence of Middle-earth maps extends far beyond literature.
 
-The maps Tolkien drew for The Lord of the Rings are **masterpieces of information design.** Every mountain range and river is named, labeled in carefully designed calligraphy (based on his invented Elvish writing systems). The maps don't just show spatial relationships — they imply cultural boundaries: Dwarven realms cluster in mountains, Elves near forests, Men across plains and coasts.
+The maps Tolkien drew for The Lord of the Rings are **masterpieces of information design.** Every mountain range and river is named, labeled in carefully designed calligraphy (based on his invented Elvish writing systems). The maps don't just show spatial relationships â€” they imply cultural boundaries: Dwarven realms cluster in mountains, Elves near forests, Men across plains and coasts.
 
-**Cartography as narrative tool.** Tolkien's maps allow readers to trace Frodo's journey, calculate distances, and feel the geographic progression from the Shire to Mordor — from pastoral idyll to barren despair. This "spatial narrative" technique was inherited by all subsequent fantasy literature and game design.
+**Cartography as narrative tool.** Tolkien's maps allow readers to trace Frodo's journey, calculate distances, and feel the geographic progression from the Shire to Mordor â€” from pastoral idyll to barren despair. This "spatial narrative" technique was inherited by all subsequent fantasy literature and game design.
 
-There's an overlooked dimension to Tolkien's map design: **they are hand-drawn.** In an era increasingly dominated by mechanical cartography, Tolkien insisted on pen and ink. Those slightly trembling mountain outlines and irregular coastlines convey a handmade warmth — this isn't a "precise" map but one that has been *drawn by someone*, carrying the cartographer's breath.`,
+There's an overlooked dimension to Tolkien's map design: **they are hand-drawn.** In an era increasingly dominated by mechanical cartography, Tolkien insisted on pen and ink. Those slightly trembling mountain outlines and irregular coastlines convey a handmade warmth â€” this isn't a "precise" map but one that has been *drawn by someone*, carrying the cartographer's breath.`,
     legacy_en: 'Middle-earth maps directly spawned the entire tradition of "fantasy cartography." From Dungeons & Dragons continent maps to Zelda\'s Hyrule, from Game of Thrones\' Westeros to countless indie game worlds, Tolkien established the design principle that "a good fictional world needs a good map."',
-    significance_en: 'Tolkien proved that **maps are not just navigation tools but narrative media.** A carefully designed map can tell stories of culture, history, conflict, and journey. This insight remains relevant for today\'s information design, data visualization, and game world-building — the best information design doesn\'t just present data, it tells a story.',
+    significance_en: 'Tolkien proved that **maps are not just navigation tools but narrative media.** A carefully designed map can tell stories of culture, history, conflict, and journey. This insight remains relevant for today\'s information design, data visualization, and game world-building â€” the best information design doesn\'t just present data, it tells a story.',
   },
 
   {
@@ -2889,7 +2889,7 @@ There's an overlooked dimension to Tolkien's map design: **they are hand-drawn.*
     date: '2026-01-04',
     imageUrl: '/the-daily-object/images/burj-khalifa.jpg',
     fullImageUrl: '/the-daily-object/images/full/burj-khalifa.jpg',
-    title: '哈利法塔',
+    title: 'å“ˆåˆ©æ³•å¡”',
     title_en: 'Burj Khalifa',
     subtitle: 'Adrian Smith (SOM), 2010',
     subtitle_en: 'Adrian Smith (SOM), 2010',
@@ -2897,33 +2897,33 @@ There's an overlooked dimension to Tolkien's map design: **they are hand-drawn.*
     designer: 'Adrian Smith',
     year: '2010',
 
-    dateConnection: '2010年1月4日，哈利法塔在迪拜正式开幕，以828米的高度成为世界最高建筑。这座超高层建筑不仅打破了工程记录，更重新定义了摩天大楼的设计语言。',
-    designerBio: `Adrian Smith，美国建筑师，设计哈利法塔时任 SOM（Skidmore, Owings & Merrill）合伙人。他面对的设计挑战不仅是"盖世界最高的楼"，更是如何让一座超过800米的建筑在美学上成立——不沦为一根无聊的巨柱。
+    dateConnection: '2010å¹´1æœˆ4æ—¥ï¼Œå“ˆåˆ©æ³•å¡”åœ¨è¿ªæ‹œæ­£å¼å¼€å¹•ï¼Œä»¥828ç±³çš„é«˜åº¦æˆä¸ºä¸–ç•Œæœ€é«˜å»ºç­‘ã€‚è¿™åº§è¶…é«˜å±‚å»ºç­‘ä¸ä»…æ‰“ç ´äº†å·¥ç¨‹è®°å½•ï¼Œæ›´é‡æ–°å®šä¹‰äº†æ‘©å¤©å¤§æ¥¼çš„è®¾è®¡è¯­è¨€ã€‚',
+    designerBio: `Adrian Smithï¼Œç¾Žå›½å»ºç­‘å¸ˆï¼Œè®¾è®¡å“ˆåˆ©æ³•å¡”æ—¶ä»» SOMï¼ˆSkidmore, Owings & Merrillï¼‰åˆä¼™äººã€‚ä»–é¢å¯¹çš„è®¾è®¡æŒ‘æˆ˜ä¸ä»…æ˜¯"ç›–ä¸–ç•Œæœ€é«˜çš„æ¥¼"ï¼Œæ›´æ˜¯å¦‚ä½•è®©ä¸€åº§è¶…è¿‡800ç±³çš„å»ºç­‘åœ¨ç¾Žå­¦ä¸Šæˆç«‹â€”â€”ä¸æ²¦ä¸ºä¸€æ ¹æ— èŠçš„å·¨æŸ±ã€‚
 
-Smith 从沙漠之花 Hymenocallis（蜘蛛兰）中获得灵感。这种花的六瓣结构在生物力学上极其高效，Smith 将其简化为三瓣 Y 形平面——这个形状不仅美观，而且能有效抵抗迪拜的沙漠强风。`,
-    story: `哈利法塔的设计是一堂关于"形式追随力学"的大师课。
+Smith ä»Žæ²™æ¼ ä¹‹èŠ± Hymenocallisï¼ˆèœ˜è››å…°ï¼‰ä¸­èŽ·å¾—çµæ„Ÿã€‚è¿™ç§èŠ±çš„å…­ç“£ç»“æž„åœ¨ç”Ÿç‰©åŠ›å­¦ä¸Šæžå…¶é«˜æ•ˆï¼ŒSmith å°†å…¶ç®€åŒ–ä¸ºä¸‰ç“£ Y å½¢å¹³é¢â€”â€”è¿™ä¸ªå½¢çŠ¶ä¸ä»…ç¾Žè§‚ï¼Œè€Œä¸”èƒ½æœ‰æ•ˆæŠµæŠ—è¿ªæ‹œçš„æ²™æ¼ å¼ºé£Žã€‚`,
+    story: `å“ˆåˆ©æ³•å¡”çš„è®¾è®¡æ˜¯ä¸€å ‚å…³äºŽ"å½¢å¼è¿½éšåŠ›å­¦"çš„å¤§å¸ˆè¯¾ã€‚
 
-**Y形平面是设计的核心。** 三个翼从中心核筒向外延伸，建筑在上升过程中逐级退缩——共进行了26次退缩，使每个高度层面上风力对结构的影响各不相同，避免了共振效应。这不仅是工程解决方案，更创造了一种优雅的螺旋向上的视觉效果，让828米的高度显得轻盈而非沉重。
+**Yå½¢å¹³é¢æ˜¯è®¾è®¡çš„æ ¸å¿ƒã€‚** ä¸‰ä¸ªç¿¼ä»Žä¸­å¿ƒæ ¸ç­’å‘å¤–å»¶ä¼¸ï¼Œå»ºç­‘åœ¨ä¸Šå‡è¿‡ç¨‹ä¸­é€çº§é€€ç¼©â€”â€”å…±è¿›è¡Œäº†26æ¬¡é€€ç¼©ï¼Œä½¿æ¯ä¸ªé«˜åº¦å±‚é¢ä¸Šé£ŽåŠ›å¯¹ç»“æž„çš„å½±å“å„ä¸ç›¸åŒï¼Œé¿å…äº†å…±æŒ¯æ•ˆåº”ã€‚è¿™ä¸ä»…æ˜¯å·¥ç¨‹è§£å†³æ–¹æ¡ˆï¼Œæ›´åˆ›é€ äº†ä¸€ç§ä¼˜é›…çš„èžºæ—‹å‘ä¸Šçš„è§†è§‰æ•ˆæžœï¼Œè®©828ç±³çš„é«˜åº¦æ˜¾å¾—è½»ç›ˆè€Œéžæ²‰é‡ã€‚
 
-**材料设计同样精心。** 外立面使用超过26,000块反射玻璃面板，每块都经过精确计算以应对不同高度的风荷载和温差。底部的玻璃更厚、更耐冲击；顶部的更轻、反射率更高。建筑的颜色也因此从底部的温暖金色渐变为顶部的清冷银白——像沙漠中升起的一道光柱。
+**ææ–™è®¾è®¡åŒæ ·ç²¾å¿ƒã€‚** å¤–ç«‹é¢ä½¿ç”¨è¶…è¿‡26,000å—åå°„çŽ»ç’ƒé¢æ¿ï¼Œæ¯å—éƒ½ç»è¿‡ç²¾ç¡®è®¡ç®—ä»¥åº”å¯¹ä¸åŒé«˜åº¦çš„é£Žè·è½½å’Œæ¸©å·®ã€‚åº•éƒ¨çš„çŽ»ç’ƒæ›´åŽšã€æ›´è€å†²å‡»ï¼›é¡¶éƒ¨çš„æ›´è½»ã€åå°„çŽ‡æ›´é«˜ã€‚å»ºç­‘çš„é¢œè‰²ä¹Ÿå› æ­¤ä»Žåº•éƒ¨çš„æ¸©æš–é‡‘è‰²æ¸å˜ä¸ºé¡¶éƒ¨çš„æ¸…å†·é“¶ç™½â€”â€”åƒæ²™æ¼ ä¸­å‡èµ·çš„ä¸€é“å…‰æŸ±ã€‚
 
-**灯光设计是另一个杰作。** 超过100万颗LED灯珠覆盖了建筑外表面，使它在夜间成为一块巨大的数字画布——从新年烟火到国庆日图案，哈利法塔能以整座建筑为屏幕进行灯光秀。`,
-    legacy: '哈利法塔重新定义了"超高层"的设计标准。它证明超过500米的建筑可以是优雅的——不需要牺牲美学来换取工程可行性。此后的沙特王国塔（正在建设，目标1000米）和全球各地的超高层项目，都在不同程度上借鉴了它的设计策略。',
-    significance: '哈利法塔证明了建筑设计中**形式与结构可以完美合一**。Y形平面既是美学选择，也是工程必需；26次退缩既塑造了优美的轮廓线，也解决了风荷载问题。最好的建筑设计从不需要在美和功能之间妥协——它们本身就是同一件事。',
+**ç¯å…‰è®¾è®¡æ˜¯å¦ä¸€ä¸ªæ°ä½œã€‚** è¶…è¿‡100ä¸‡é¢—LEDç¯ç è¦†ç›–äº†å»ºç­‘å¤–è¡¨é¢ï¼Œä½¿å®ƒåœ¨å¤œé—´æˆä¸ºä¸€å—å·¨å¤§çš„æ•°å­—ç”»å¸ƒâ€”â€”ä»Žæ–°å¹´çƒŸç«åˆ°å›½åº†æ—¥å›¾æ¡ˆï¼Œå“ˆåˆ©æ³•å¡”èƒ½ä»¥æ•´åº§å»ºç­‘ä¸ºå±å¹•è¿›è¡Œç¯å…‰ç§€ã€‚`,
+    legacy: 'å“ˆåˆ©æ³•å¡”é‡æ–°å®šä¹‰äº†"è¶…é«˜å±‚"çš„è®¾è®¡æ ‡å‡†ã€‚å®ƒè¯æ˜Žè¶…è¿‡500ç±³çš„å»ºç­‘å¯ä»¥æ˜¯ä¼˜é›…çš„â€”â€”ä¸éœ€è¦ç‰ºç‰²ç¾Žå­¦æ¥æ¢å–å·¥ç¨‹å¯è¡Œæ€§ã€‚æ­¤åŽçš„æ²™ç‰¹çŽ‹å›½å¡”ï¼ˆæ­£åœ¨å»ºè®¾ï¼Œç›®æ ‡1000ç±³ï¼‰å’Œå…¨çƒå„åœ°çš„è¶…é«˜å±‚é¡¹ç›®ï¼Œéƒ½åœ¨ä¸åŒç¨‹åº¦ä¸Šå€Ÿé‰´äº†å®ƒçš„è®¾è®¡ç­–ç•¥ã€‚',
+    significance: 'å“ˆåˆ©æ³•å¡”è¯æ˜Žäº†å»ºç­‘è®¾è®¡ä¸­**å½¢å¼ä¸Žç»“æž„å¯ä»¥å®Œç¾Žåˆä¸€**ã€‚Yå½¢å¹³é¢æ—¢æ˜¯ç¾Žå­¦é€‰æ‹©ï¼Œä¹Ÿæ˜¯å·¥ç¨‹å¿…éœ€ï¼›26æ¬¡é€€ç¼©æ—¢å¡‘é€ äº†ä¼˜ç¾Žçš„è½®å»“çº¿ï¼Œä¹Ÿè§£å†³äº†é£Žè·è½½é—®é¢˜ã€‚æœ€å¥½çš„å»ºç­‘è®¾è®¡ä»Žä¸éœ€è¦åœ¨ç¾Žå’ŒåŠŸèƒ½ä¹‹é—´å¦¥åâ€”â€”å®ƒä»¬æœ¬èº«å°±æ˜¯åŒä¸€ä»¶äº‹ã€‚',
 
-    dateConnection_en: 'On January 4, 2010, the Burj Khalifa officially opened in Dubai, becoming the world\'s tallest building at 828 meters. This supertall skyscraper didn\'t just break engineering records — it redefined the design language of skyscrapers.',
-    designerBio_en: `Adrian Smith, American architect and partner at SOM (Skidmore, Owings & Merrill) when he designed the Burj Khalifa. His design challenge wasn't merely "build the world's tallest building" but how to make a structure over 800 meters aesthetically compelling — not just a boring giant column.
+    dateConnection_en: 'On January 4, 2010, the Burj Khalifa officially opened in Dubai, becoming the world\'s tallest building at 828 meters. This supertall skyscraper didn\'t just break engineering records â€” it redefined the design language of skyscrapers.',
+    designerBio_en: `Adrian Smith, American architect and partner at SOM (Skidmore, Owings & Merrill) when he designed the Burj Khalifa. His design challenge wasn't merely "build the world's tallest building" but how to make a structure over 800 meters aesthetically compelling â€” not just a boring giant column.
 
-Smith drew inspiration from the desert flower Hymenocallis (spider lily). Its six-petal structure is biomechanically efficient; Smith simplified it into a three-petal Y-shaped floor plan — a form that is not only beautiful but effectively resists Dubai's desert winds.`,
+Smith drew inspiration from the desert flower Hymenocallis (spider lily). Its six-petal structure is biomechanically efficient; Smith simplified it into a three-petal Y-shaped floor plan â€” a form that is not only beautiful but effectively resists Dubai's desert winds.`,
     story_en: `The Burj Khalifa's design is a masterclass in "form follows mechanics."
 
-**The Y-shaped plan is the design's core.** Three wings extend from a central core, and the building steps back progressively as it rises — 26 setbacks in total, ensuring that wind loads affect the structure differently at each height, preventing resonance. This isn't just an engineering solution; it creates an elegant spiraling visual effect that makes 828 meters look light rather than heavy.
+**The Y-shaped plan is the design's core.** Three wings extend from a central core, and the building steps back progressively as it rises â€” 26 setbacks in total, ensuring that wind loads affect the structure differently at each height, preventing resonance. This isn't just an engineering solution; it creates an elegant spiraling visual effect that makes 828 meters look light rather than heavy.
 
-**The material design is equally meticulous.** The facade uses over 26,000 reflective glass panels, each precisely calculated for the wind loads and temperature differentials at its specific height. Lower panels are thicker and more impact-resistant; upper panels are lighter with higher reflectivity. The building's color thus gradates from warm gold at the base to cool silver-white at the top — like a column of light rising from the desert.
+**The material design is equally meticulous.** The facade uses over 26,000 reflective glass panels, each precisely calculated for the wind loads and temperature differentials at its specific height. Lower panels are thicker and more impact-resistant; upper panels are lighter with higher reflectivity. The building's color thus gradates from warm gold at the base to cool silver-white at the top â€” like a column of light rising from the desert.
 
-**The lighting design is another masterpiece.** Over one million LED nodes cover the building's exterior, turning it into a massive digital canvas at night — from New Year's fireworks to national day patterns, the Burj Khalifa uses the entire building as a screen for light shows.`,
-    legacy_en: 'The Burj Khalifa redefined design standards for supertall buildings. It proved that structures over 500 meters can be elegant — that engineering feasibility need not come at the cost of aesthetics. The subsequent Jeddah Tower (under construction, targeting 1,000 meters) and supertall projects worldwide have borrowed from its design strategies.',
-    significance_en: 'The Burj Khalifa proved that in architecture, **form and structure can be perfectly unified.** The Y-shaped plan is both an aesthetic choice and an engineering necessity; the 26 setbacks both sculpt an elegant silhouette and solve wind load problems. The best architectural design never compromises between beauty and function — they are the same thing.',
+**The lighting design is another masterpiece.** Over one million LED nodes cover the building's exterior, turning it into a massive digital canvas at night â€” from New Year's fireworks to national day patterns, the Burj Khalifa uses the entire building as a screen for light shows.`,
+    legacy_en: 'The Burj Khalifa redefined design standards for supertall buildings. It proved that structures over 500 meters can be elegant â€” that engineering feasibility need not come at the cost of aesthetics. The subsequent Jeddah Tower (under construction, targeting 1,000 meters) and supertall projects worldwide have borrowed from its design strategies.',
+    significance_en: 'The Burj Khalifa proved that in architecture, **form and structure can be perfectly unified.** The Y-shaped plan is both an aesthetic choice and an engineering necessity; the 26 setbacks both sculpt an elegant silhouette and solve wind load problems. The best architectural design never compromises between beauty and function â€” they are the same thing.',
   },
 
   // 01-05: Spirited Away
@@ -2932,53 +2932,53 @@ Smith drew inspiration from the desert flower Hymenocallis (spider lily). Its si
     date: '2026-01-05',
     imageUrl: '/the-daily-object/images/spirited-away.jpg',
     fullImageUrl: '/the-daily-object/images/full/spirited-away.jpg',
-    title: '千与千寻',
+    title: 'åƒä¸Žåƒå¯»',
     title_en: 'Spirited Away',
-    subtitle: '宫崎骏, 2001',
+    subtitle: 'å®«å´Žéª, 2001',
     subtitle_en: 'Hayao Miyazaki, 2001',
     category: 'film',
-    designer: '宫崎骏',
+    designer: 'å®«å´Žéª',
     year: '2001',
 
-    dateConnection: '宫崎骏（Hayao Miyazaki）1941年1月5日出生于东京。他是吉卜力工作室的灵魂人物，用手绘动画创造了一个又一个令全世界着迷的幻想世界。《千与千寻》是他最具代表性的作品，2003年获奥斯卡最佳动画长片奖。',
-    designerBio: `宫崎骏，日本动画界的活神话，1941年1月5日生于东京。
+    dateConnection: 'å®«å´Žéªï¼ˆHayao Miyazakiï¼‰1941å¹´1æœˆ5æ—¥å‡ºç”ŸäºŽä¸œäº¬ã€‚ä»–æ˜¯å‰åœåŠ›å·¥ä½œå®¤çš„çµé­‚äººç‰©ï¼Œç”¨æ‰‹ç»˜åŠ¨ç”»åˆ›é€ äº†ä¸€ä¸ªåˆä¸€ä¸ªä»¤å…¨ä¸–ç•Œç€è¿·çš„å¹»æƒ³ä¸–ç•Œã€‚ã€Šåƒä¸Žåƒå¯»ã€‹æ˜¯ä»–æœ€å…·ä»£è¡¨æ€§çš„ä½œå“ï¼Œ2003å¹´èŽ·å¥¥æ–¯å¡æœ€ä½³åŠ¨ç”»é•¿ç‰‡å¥–ã€‚',
+    designerBio: `å®«å´Žéªï¼Œæ—¥æœ¬åŠ¨ç”»ç•Œçš„æ´»ç¥žè¯ï¼Œ1941å¹´1æœˆ5æ—¥ç”ŸäºŽä¸œäº¬ã€‚
 
-1985年他与高畑勋共同创立吉卜力工作室，此后30余年间创作了《龙猫》《幽灵公主》《千与千寻》《哈尔的移动城堡》等一系列改变动画电影定义的作品。他坚持手绘动画，在CG横扫一切的时代显得格外珍贵。
+1985å¹´ä»–ä¸Žé«˜ç•‘å‹‹å…±åŒåˆ›ç«‹å‰åœåŠ›å·¥ä½œå®¤ï¼Œæ­¤åŽ30ä½™å¹´é—´åˆ›ä½œäº†ã€Šé¾™çŒ«ã€‹ã€Šå¹½çµå…¬ä¸»ã€‹ã€Šåƒä¸Žåƒå¯»ã€‹ã€Šå“ˆå°”çš„ç§»åŠ¨åŸŽå ¡ã€‹ç­‰ä¸€ç³»åˆ—æ”¹å˜åŠ¨ç”»ç”µå½±å®šä¹‰çš„ä½œå“ã€‚ä»–åšæŒæ‰‹ç»˜åŠ¨ç”»ï¼Œåœ¨CGæ¨ªæ‰«ä¸€åˆ‡çš„æ—¶ä»£æ˜¾å¾—æ ¼å¤–çè´µã€‚
 
-**"我创作电影不是为了传递信息，而是为了展示一个世界。"**
+**"æˆ‘åˆ›ä½œç”µå½±ä¸æ˜¯ä¸ºäº†ä¼ é€’ä¿¡æ¯ï¼Œè€Œæ˜¯ä¸ºäº†å±•ç¤ºä¸€ä¸ªä¸–ç•Œã€‚"**
 
-他的设计哲学是：每一帧画面都值得被当作独立的艺术品来对待。`,
-    story: `2001年，《千与千寻》上映，讲述了10岁少女千寻误入神灵世界的奇幻冒险。
+ä»–çš„è®¾è®¡å“²å­¦æ˜¯ï¼šæ¯ä¸€å¸§ç”»é¢éƒ½å€¼å¾—è¢«å½“ä½œç‹¬ç«‹çš„è‰ºæœ¯å“æ¥å¯¹å¾…ã€‚`,
+    story: `2001å¹´ï¼Œã€Šåƒä¸Žåƒå¯»ã€‹ä¸Šæ˜ ï¼Œè®²è¿°äº†10å²å°‘å¥³åƒå¯»è¯¯å…¥ç¥žçµä¸–ç•Œçš„å¥‡å¹»å†’é™©ã€‚
 
-这部电影的美术设计堪称动画史上的巅峰。油屋（汤屋）的建筑设计融合了日本明治时代的温泉旅馆、台湾九份老街和欧洲建筑元素，创造出一个既熟悉又陌生的异世界空间。
+è¿™éƒ¨ç”µå½±çš„ç¾Žæœ¯è®¾è®¡å ªç§°åŠ¨ç”»å²ä¸Šçš„å·…å³°ã€‚æ²¹å±‹ï¼ˆæ±¤å±‹ï¼‰çš„å»ºç­‘è®¾è®¡èžåˆäº†æ—¥æœ¬æ˜Žæ²»æ—¶ä»£çš„æ¸©æ³‰æ—…é¦†ã€å°æ¹¾ä¹ä»½è€è¡—å’Œæ¬§æ´²å»ºç­‘å…ƒç´ ï¼Œåˆ›é€ å‡ºä¸€ä¸ªæ—¢ç†Ÿæ‚‰åˆé™Œç”Ÿçš„å¼‚ä¸–ç•Œç©ºé—´ã€‚
 
-**无脸男（カオナシ）是设计史上最天才的角色造型之一。** 一张白色面具、一个黑色身影——极简到不能再简，却承载了孤独、欲望、从众等复杂的人性主题。他没有自己的声音，只能模仿别人；没有自己的面孔，只有一张面具。这种"减法设计"让角色拥有了无限的解读空间。
+**æ— è„¸ç”·ï¼ˆã‚«ã‚ªãƒŠã‚·ï¼‰æ˜¯è®¾è®¡å²ä¸Šæœ€å¤©æ‰çš„è§’è‰²é€ åž‹ä¹‹ä¸€ã€‚** ä¸€å¼ ç™½è‰²é¢å…·ã€ä¸€ä¸ªé»‘è‰²èº«å½±â€”â€”æžç®€åˆ°ä¸èƒ½å†ç®€ï¼Œå´æ‰¿è½½äº†å­¤ç‹¬ã€æ¬²æœ›ã€ä»Žä¼—ç­‰å¤æ‚çš„äººæ€§ä¸»é¢˜ã€‚ä»–æ²¡æœ‰è‡ªå·±çš„å£°éŸ³ï¼Œåªèƒ½æ¨¡ä»¿åˆ«äººï¼›æ²¡æœ‰è‡ªå·±çš„é¢å­”ï¼Œåªæœ‰ä¸€å¼ é¢å…·ã€‚è¿™ç§"å‡æ³•è®¾è®¡"è®©è§’è‰²æ‹¥æœ‰äº†æ— é™çš„è§£è¯»ç©ºé—´ã€‚
 
-色彩设计同样精妙：现实世界偏冷灰，神灵世界则饱和而温暖。千寻在两个世界间的转变，通过色调的微妙变化得以视觉化。
+è‰²å½©è®¾è®¡åŒæ ·ç²¾å¦™ï¼šçŽ°å®žä¸–ç•Œåå†·ç°ï¼Œç¥žçµä¸–ç•Œåˆ™é¥±å’Œè€Œæ¸©æš–ã€‚åƒå¯»åœ¨ä¸¤ä¸ªä¸–ç•Œé—´çš„è½¬å˜ï¼Œé€šè¿‡è‰²è°ƒçš„å¾®å¦™å˜åŒ–å¾—ä»¥è§†è§‰åŒ–ã€‚
 
-影片日本票房316亿日元（至今未被超越），柏林电影节金熊奖，奥斯卡最佳动画长片——它让全世界重新认识了手绘动画的力量。`,
-    legacy: '《千与千寻》证明了手绘动画在数字时代依然具有不可替代的艺术价值。它的美术设计影响了无数后来的动画、游戏和建筑设计。无脸男成为全球流行文化符号，吉卜力美术馆成为设计朝圣地。',
-    significance: '宫崎骏用《千与千寻》展示了一种设计哲学：**最好的设计是创造一个完整的世界观。** 从建筑到角色到色彩，每个元素都服务于同一个叙事。这不仅是电影设计的典范，更是所有设计领域的终极追求。',
+å½±ç‰‡æ—¥æœ¬ç¥¨æˆ¿316äº¿æ—¥å…ƒï¼ˆè‡³ä»Šæœªè¢«è¶…è¶Šï¼‰ï¼ŒæŸæž—ç”µå½±èŠ‚é‡‘ç†Šå¥–ï¼Œå¥¥æ–¯å¡æœ€ä½³åŠ¨ç”»é•¿ç‰‡â€”â€”å®ƒè®©å…¨ä¸–ç•Œé‡æ–°è®¤è¯†äº†æ‰‹ç»˜åŠ¨ç”»çš„åŠ›é‡ã€‚`,
+    legacy: 'ã€Šåƒä¸Žåƒå¯»ã€‹è¯æ˜Žäº†æ‰‹ç»˜åŠ¨ç”»åœ¨æ•°å­—æ—¶ä»£ä¾ç„¶å…·æœ‰ä¸å¯æ›¿ä»£çš„è‰ºæœ¯ä»·å€¼ã€‚å®ƒçš„ç¾Žæœ¯è®¾è®¡å½±å“äº†æ— æ•°åŽæ¥çš„åŠ¨ç”»ã€æ¸¸æˆå’Œå»ºç­‘è®¾è®¡ã€‚æ— è„¸ç”·æˆä¸ºå…¨çƒæµè¡Œæ–‡åŒ–ç¬¦å·ï¼Œå‰åœåŠ›ç¾Žæœ¯é¦†æˆä¸ºè®¾è®¡æœåœ£åœ°ã€‚',
+    significance: 'å®«å´Žéªç”¨ã€Šåƒä¸Žåƒå¯»ã€‹å±•ç¤ºäº†ä¸€ç§è®¾è®¡å“²å­¦ï¼š**æœ€å¥½çš„è®¾è®¡æ˜¯åˆ›é€ ä¸€ä¸ªå®Œæ•´çš„ä¸–ç•Œè§‚ã€‚** ä»Žå»ºç­‘åˆ°è§’è‰²åˆ°è‰²å½©ï¼Œæ¯ä¸ªå…ƒç´ éƒ½æœåŠ¡äºŽåŒä¸€ä¸ªå™äº‹ã€‚è¿™ä¸ä»…æ˜¯ç”µå½±è®¾è®¡çš„å…¸èŒƒï¼Œæ›´æ˜¯æ‰€æœ‰è®¾è®¡é¢†åŸŸçš„ç»ˆæžè¿½æ±‚ã€‚',
 
     dateConnection_en: 'Hayao Miyazaki was born on January 5, 1941 in Tokyo. As the creative soul of Studio Ghibli, he crafted hand-drawn animated worlds that captivated audiences worldwide. Spirited Away, his masterpiece, won the Academy Award for Best Animated Feature in 2003.',
     designerBio_en: `Hayao Miyazaki, the living legend of Japanese animation, born January 5, 1941 in Tokyo.
 
-In 1985, he co-founded Studio Ghibli with Isao Takahata, and over the following three decades created My Neighbor Totoro, Princess Mononoke, Spirited Away, and Howl's Moving Castle — films that redefined what animation could be. His insistence on hand-drawn animation in the age of CGI makes his work all the more precious.
+In 1985, he co-founded Studio Ghibli with Isao Takahata, and over the following three decades created My Neighbor Totoro, Princess Mononoke, Spirited Away, and Howl's Moving Castle â€” films that redefined what animation could be. His insistence on hand-drawn animation in the age of CGI makes his work all the more precious.
 
 **"I don't make films to deliver messages. I make them to show a world."**
 
 His design philosophy: every single frame deserves to be treated as an independent work of art.`,
-    story_en: `In 2001, Spirited Away premiered — the story of 10-year-old Chihiro who stumbles into the spirit world.
+    story_en: `In 2001, Spirited Away premiered â€” the story of 10-year-old Chihiro who stumbles into the spirit world.
 
-The film's art direction stands as a pinnacle in animation history. The Bathhouse design fuses Japanese Meiji-era hot spring inns, the old streets of Jiufen in Taiwan, and European architectural elements — creating a space that feels simultaneously familiar and otherworldly.
+The film's art direction stands as a pinnacle in animation history. The Bathhouse design fuses Japanese Meiji-era hot spring inns, the old streets of Jiufen in Taiwan, and European architectural elements â€” creating a space that feels simultaneously familiar and otherworldly.
 
-**No-Face (Kaonashi) is one of the most brilliant character designs ever conceived.** A white mask, a black silhouette — minimalism pushed to its absolute limit, yet carrying complex themes of loneliness, desire, and conformity. He has no voice of his own, only mimicry; no face of his own, only a mask. This "subtractive design" gives the character infinite interpretive space.
+**No-Face (Kaonashi) is one of the most brilliant character designs ever conceived.** A white mask, a black silhouette â€” minimalism pushed to its absolute limit, yet carrying complex themes of loneliness, desire, and conformity. He has no voice of his own, only mimicry; no face of his own, only a mask. This "subtractive design" gives the character infinite interpretive space.
 
 The color design is equally masterful: the real world skews cool and grey, while the spirit world is saturated and warm. Chihiro's transformation between worlds is visualized through subtle shifts in palette.
 
-The film earned ¥31.6 billion at the Japanese box office (still unbroken), the Golden Bear at Berlin, and the Academy Award for Best Animated Feature — it made the world rediscover the power of hand-drawn animation.`,
+The film earned Â¥31.6 billion at the Japanese box office (still unbroken), the Golden Bear at Berlin, and the Academy Award for Best Animated Feature â€” it made the world rediscover the power of hand-drawn animation.`,
     legacy_en: 'Spirited Away proved that hand-drawn animation retains irreplaceable artistic value in the digital age. Its art direction influenced countless subsequent animations, games, and architectural designs. No-Face became a global pop culture icon, and the Ghibli Museum became a design pilgrimage site.',
-    significance_en: 'With Spirited Away, Miyazaki demonstrated a design philosophy: **the best design creates a complete worldview.** From architecture to characters to color, every element serves the same narrative. This is not just a benchmark for film design — it is the ultimate aspiration of all design disciplines.',
+    significance_en: 'With Spirited Away, Miyazaki demonstrated a design philosophy: **the best design creates a complete worldview.** From architecture to characters to color, every element serves the same narrative. This is not just a benchmark for film design â€” it is the ultimate aspiration of all design disciplines.',
   },
 
   // 01-06: Prometheus of Fire (Scriabin)
@@ -2987,7 +2987,7 @@ The film earned ¥31.6 billion at the Japanese box office (still unbroken), the 
     date: '2026-01-06',
     imageUrl: '/the-daily-object/images/prometheus-poem-of-fire.jpg',
     fullImageUrl: '/the-daily-object/images/full/prometheus-poem-of-fire.jpg',
-    title: '普罗米修斯：火之诗',
+    title: 'æ™®ç½—ç±³ä¿®æ–¯ï¼šç«ä¹‹è¯—',
     title_en: 'Prometheus: The Poem of Fire',
     subtitle: 'Alexander Scriabin, 1910',
     subtitle_en: 'Alexander Scriabin, 1910',
@@ -2995,41 +2995,41 @@ The film earned ¥31.6 billion at the Japanese box office (still unbroken), the 
     designer: 'Alexander Scriabin',
     year: '1910',
 
-    dateConnection: 'Alexander Scriabin 1872年1月6日出生于莫斯科。这位俄罗斯作曲家是音乐与视觉艺术融合的先驱，他的《普罗米修斯：火之诗》是人类历史上第一部要求"色彩键盘"（Clavier à lumières）参与演奏的交响作品。',
-    designerBio: `Alexander Scriabin (1872-1915)，俄罗斯作曲家、钢琴家，音乐-视觉联觉设计的先驱。
+    dateConnection: 'Alexander Scriabin 1872å¹´1æœˆ6æ—¥å‡ºç”ŸäºŽèŽ«æ–¯ç§‘ã€‚è¿™ä½ä¿„ç½—æ–¯ä½œæ›²å®¶æ˜¯éŸ³ä¹ä¸Žè§†è§‰è‰ºæœ¯èžåˆçš„å…ˆé©±ï¼Œä»–çš„ã€Šæ™®ç½—ç±³ä¿®æ–¯ï¼šç«ä¹‹è¯—ã€‹æ˜¯äººç±»åŽ†å²ä¸Šç¬¬ä¸€éƒ¨è¦æ±‚"è‰²å½©é”®ç›˜"ï¼ˆClavier Ã  lumiÃ¨resï¼‰å‚ä¸Žæ¼”å¥çš„äº¤å“ä½œå“ã€‚',
+    designerBio: `Alexander Scriabin (1872-1915)ï¼Œä¿„ç½—æ–¯ä½œæ›²å®¶ã€é’¢ç´å®¶ï¼ŒéŸ³ä¹-è§†è§‰è”è§‰è®¾è®¡çš„å…ˆé©±ã€‚
 
-他拥有一种罕见的天赋——联觉（synesthesia）：听到音符就能看到颜色。C大调是红色，D大调是黄色，升F大调是蓝紫色。这不是比喻，是他真实的感知体验。
+ä»–æ‹¥æœ‰ä¸€ç§ç½•è§çš„å¤©èµ‹â€”â€”è”è§‰ï¼ˆsynesthesiaï¼‰ï¼šå¬åˆ°éŸ³ç¬¦å°±èƒ½çœ‹åˆ°é¢œè‰²ã€‚Cå¤§è°ƒæ˜¯çº¢è‰²ï¼ŒDå¤§è°ƒæ˜¯é»„è‰²ï¼Œå‡Få¤§è°ƒæ˜¯è“ç´«è‰²ã€‚è¿™ä¸æ˜¯æ¯”å–»ï¼Œæ˜¯ä»–çœŸå®žçš„æ„ŸçŸ¥ä½“éªŒã€‚
 
-他将这种感知转化为一套完整的"音色-色彩对应系统"，并试图将其融入音乐演出中。他是第一个认真思考"如何让音乐可见"的作曲家。`,
-    story: `1910年，Scriabin 完成了他最大胆的作品——《普罗米修斯：火之诗》，Op. 60。
+ä»–å°†è¿™ç§æ„ŸçŸ¥è½¬åŒ–ä¸ºä¸€å¥—å®Œæ•´çš„"éŸ³è‰²-è‰²å½©å¯¹åº”ç³»ç»Ÿ"ï¼Œå¹¶è¯•å›¾å°†å…¶èžå…¥éŸ³ä¹æ¼”å‡ºä¸­ã€‚ä»–æ˜¯ç¬¬ä¸€ä¸ªè®¤çœŸæ€è€ƒ"å¦‚ä½•è®©éŸ³ä¹å¯è§"çš„ä½œæ›²å®¶ã€‚`,
+    story: `1910å¹´ï¼ŒScriabin å®Œæˆäº†ä»–æœ€å¤§èƒ†çš„ä½œå“â€”â€”ã€Šæ™®ç½—ç±³ä¿®æ–¯ï¼šç«ä¹‹è¯—ã€‹ï¼ŒOp. 60ã€‚
 
-这部交响诗的编制前所未有：管弦乐队、钢琴独奏、合唱团，以及一个从未有过的乐器——**色光钢琴（Clavier à lumières）**。这是一架特殊的键盘，不发出声音，而是向音乐厅投射彩色光线。
+è¿™éƒ¨äº¤å“è¯—çš„ç¼–åˆ¶å‰æ‰€æœªæœ‰ï¼šç®¡å¼¦ä¹é˜Ÿã€é’¢ç´ç‹¬å¥ã€åˆå”±å›¢ï¼Œä»¥åŠä¸€ä¸ªä»Žæœªæœ‰è¿‡çš„ä¹å™¨â€”â€”**è‰²å…‰é’¢ç´ï¼ˆClavier Ã  lumiÃ¨resï¼‰**ã€‚è¿™æ˜¯ä¸€æž¶ç‰¹æ®Šçš„é”®ç›˜ï¼Œä¸å‘å‡ºå£°éŸ³ï¼Œè€Œæ˜¯å‘éŸ³ä¹åŽ…æŠ•å°„å½©è‰²å…‰çº¿ã€‚
 
-Scriabin 为每个音高指定了颜色：C 是红色，G 是橙色，D 是黄色，A 是绿色，E 是浅蓝……他设计了一套完整的对应系统，让整个音乐厅随着和声变化而变换色彩。
+Scriabin ä¸ºæ¯ä¸ªéŸ³é«˜æŒ‡å®šäº†é¢œè‰²ï¼šC æ˜¯çº¢è‰²ï¼ŒG æ˜¯æ©™è‰²ï¼ŒD æ˜¯é»„è‰²ï¼ŒA æ˜¯ç»¿è‰²ï¼ŒE æ˜¯æµ…è“â€¦â€¦ä»–è®¾è®¡äº†ä¸€å¥—å®Œæ•´çš„å¯¹åº”ç³»ç»Ÿï¼Œè®©æ•´ä¸ªéŸ³ä¹åŽ…éšç€å’Œå£°å˜åŒ–è€Œå˜æ¢è‰²å½©ã€‚
 
-**这是多媒体艺术的起点。** 1915年纽约卡内基音乐厅的演出首次使用了色光投射装置——比 VJ（视觉骑师）文化早了整整80年，比沉浸式灯光秀早了一个世纪。
+**è¿™æ˜¯å¤šåª’ä½“è‰ºæœ¯çš„èµ·ç‚¹ã€‚** 1915å¹´çº½çº¦å¡å†…åŸºéŸ³ä¹åŽ…çš„æ¼”å‡ºé¦–æ¬¡ä½¿ç”¨äº†è‰²å…‰æŠ•å°„è£…ç½®â€”â€”æ¯” VJï¼ˆè§†è§‰éª‘å¸ˆï¼‰æ–‡åŒ–æ—©äº†æ•´æ•´80å¹´ï¼Œæ¯”æ²‰æµ¸å¼ç¯å…‰ç§€æ—©äº†ä¸€ä¸ªä¸–çºªã€‚
 
-但 Scriabin 的野心远不止于此。他梦想创作一部"Mysterium"——一部在喜马拉雅山演出的跨感官总体艺术作品，融合音乐、舞蹈、光影、香气，持续七天七夜，将全人类带入一种超越性的体验。他在43岁时英年早逝，Mysterium 未能完成。`,
-    legacy: '• 多媒体艺术先驱：色光钢琴是人类历史上第一个将视觉与音乐实时同步的设计\n• 影响链条：Scriabin → 1960s 迷幻灯光秀 → Pink Floyd 舞台设计 → 当代沉浸式体验\n• "神秘和弦"（Mystic Chord）影响了20世纪和声语言的发展\n• 他的音色-色彩系统启发了后来的 Kandinsky 的抽象绘画理论',
-    significance: 'Scriabin 证明了**设计可以跨越感官边界**。他不是在"装饰"音乐，而是在创造一种全新的感知维度。今天我们习以为常的演唱会灯光、VJ 文化、沉浸式展览，都可以追溯到这位俄罗斯作曲家在1910年的疯狂构想。',
+ä½† Scriabin çš„é‡Žå¿ƒè¿œä¸æ­¢äºŽæ­¤ã€‚ä»–æ¢¦æƒ³åˆ›ä½œä¸€éƒ¨"Mysterium"â€”â€”ä¸€éƒ¨åœ¨å–œé©¬æ‹‰é›…å±±æ¼”å‡ºçš„è·¨æ„Ÿå®˜æ€»ä½“è‰ºæœ¯ä½œå“ï¼ŒèžåˆéŸ³ä¹ã€èˆžè¹ˆã€å…‰å½±ã€é¦™æ°”ï¼ŒæŒç»­ä¸ƒå¤©ä¸ƒå¤œï¼Œå°†å…¨äººç±»å¸¦å…¥ä¸€ç§è¶…è¶Šæ€§çš„ä½“éªŒã€‚ä»–åœ¨43å²æ—¶è‹±å¹´æ—©é€ï¼ŒMysterium æœªèƒ½å®Œæˆã€‚`,
+    legacy: 'â€¢ å¤šåª’ä½“è‰ºæœ¯å…ˆé©±ï¼šè‰²å…‰é’¢ç´æ˜¯äººç±»åŽ†å²ä¸Šç¬¬ä¸€ä¸ªå°†è§†è§‰ä¸ŽéŸ³ä¹å®žæ—¶åŒæ­¥çš„è®¾è®¡\nâ€¢ å½±å“é“¾æ¡ï¼šScriabin â†’ 1960s è¿·å¹»ç¯å…‰ç§€ â†’ Pink Floyd èˆžå°è®¾è®¡ â†’ å½“ä»£æ²‰æµ¸å¼ä½“éªŒ\nâ€¢ "ç¥žç§˜å’Œå¼¦"ï¼ˆMystic Chordï¼‰å½±å“äº†20ä¸–çºªå’Œå£°è¯­è¨€çš„å‘å±•\nâ€¢ ä»–çš„éŸ³è‰²-è‰²å½©ç³»ç»Ÿå¯å‘äº†åŽæ¥çš„ Kandinsky çš„æŠ½è±¡ç»˜ç”»ç†è®º',
+    significance: 'Scriabin è¯æ˜Žäº†**è®¾è®¡å¯ä»¥è·¨è¶Šæ„Ÿå®˜è¾¹ç•Œ**ã€‚ä»–ä¸æ˜¯åœ¨"è£…é¥°"éŸ³ä¹ï¼Œè€Œæ˜¯åœ¨åˆ›é€ ä¸€ç§å…¨æ–°çš„æ„ŸçŸ¥ç»´åº¦ã€‚ä»Šå¤©æˆ‘ä»¬ä¹ ä»¥ä¸ºå¸¸çš„æ¼”å”±ä¼šç¯å…‰ã€VJ æ–‡åŒ–ã€æ²‰æµ¸å¼å±•è§ˆï¼Œéƒ½å¯ä»¥è¿½æº¯åˆ°è¿™ä½ä¿„ç½—æ–¯ä½œæ›²å®¶åœ¨1910å¹´çš„ç–¯ç‹‚æž„æƒ³ã€‚',
 
-    dateConnection_en: 'Alexander Scriabin was born on January 6, 1872 in Moscow. This Russian composer was a pioneer in fusing music and visual art — his Prometheus: The Poem of Fire was the first symphonic work in history to require a "color keyboard" (Clavier à lumières) as part of the performance.',
-    designerBio_en: `Alexander Scriabin (1872–1915), Russian composer, pianist, and pioneer of music-visual synesthetic design.
+    dateConnection_en: 'Alexander Scriabin was born on January 6, 1872 in Moscow. This Russian composer was a pioneer in fusing music and visual art â€” his Prometheus: The Poem of Fire was the first symphonic work in history to require a "color keyboard" (Clavier Ã  lumiÃ¨res) as part of the performance.',
+    designerBio_en: `Alexander Scriabin (1872â€“1915), Russian composer, pianist, and pioneer of music-visual synesthetic design.
 
-He possessed a rare gift — synesthesia: hearing notes triggered color perception. C major was red, D major yellow, F-sharp major blue-violet. This was not metaphor but his actual sensory experience.
+He possessed a rare gift â€” synesthesia: hearing notes triggered color perception. C major was red, D major yellow, F-sharp major blue-violet. This was not metaphor but his actual sensory experience.
 
 He translated this perception into a complete "timbre-color correspondence system" and sought to integrate it into musical performance. He was the first composer to seriously explore "how to make music visible."`,
-    story_en: `In 1910, Scriabin completed his most audacious work — Prometheus: The Poem of Fire, Op. 60.
+    story_en: `In 1910, Scriabin completed his most audacious work â€” Prometheus: The Poem of Fire, Op. 60.
 
-The scoring was unprecedented: orchestra, piano soloist, choir, and an instrument that had never existed — the **Clavier à lumières (color-light keyboard)**. This special keyboard produced no sound; instead, it projected colored light throughout the concert hall.
+The scoring was unprecedented: orchestra, piano soloist, choir, and an instrument that had never existed â€” the **Clavier Ã  lumiÃ¨res (color-light keyboard)**. This special keyboard produced no sound; instead, it projected colored light throughout the concert hall.
 
-Scriabin assigned a color to each pitch: C was red, G was orange, D was yellow, A was green, E was pale blue… He designed a complete correspondence system so the entire hall would shift colors with the changing harmonies.
+Scriabin assigned a color to each pitch: C was red, G was orange, D was yellow, A was green, E was pale blueâ€¦ He designed a complete correspondence system so the entire hall would shift colors with the changing harmonies.
 
-**This was the birth of multimedia art.** The 1915 performance at Carnegie Hall in New York was the first to use a color projection device — predating VJ culture by 80 years and immersive light shows by a full century.
+**This was the birth of multimedia art.** The 1915 performance at Carnegie Hall in New York was the first to use a color projection device â€” predating VJ culture by 80 years and immersive light shows by a full century.
 
-But Scriabin's ambition went far beyond this. He dreamed of creating a "Mysterium" — a cross-sensory Gesamtkunstwerk to be performed in the Himalayas, fusing music, dance, light, fragrance, lasting seven days and seven nights, elevating all humanity into a transcendent experience. He died at 43, and the Mysterium was never completed.`,
-    legacy_en: '• Multimedia art pioneer: the Clavier à lumières was the first device in history to synchronize visuals with music in real time\n• Influence chain: Scriabin → 1960s psychedelic light shows → Pink Floyd stage design → contemporary immersive experiences\n• The "Mystic Chord" influenced the development of 20th-century harmonic language\n• His timbre-color system inspired Kandinsky\'s abstract painting theories',
-    significance_en: 'Scriabin proved that **design can transcend sensory boundaries.** He was not "decorating" music — he was creating an entirely new perceptual dimension. The concert lighting, VJ culture, and immersive exhibitions we take for granted today can all be traced back to this Russian composer\'s wild vision in 1910.',
+But Scriabin's ambition went far beyond this. He dreamed of creating a "Mysterium" â€” a cross-sensory Gesamtkunstwerk to be performed in the Himalayas, fusing music, dance, light, fragrance, lasting seven days and seven nights, elevating all humanity into a transcendent experience. He died at 43, and the Mysterium was never completed.`,
+    legacy_en: 'â€¢ Multimedia art pioneer: the Clavier Ã  lumiÃ¨res was the first device in history to synchronize visuals with music in real time\nâ€¢ Influence chain: Scriabin â†’ 1960s psychedelic light shows â†’ Pink Floyd stage design â†’ contemporary immersive experiences\nâ€¢ The "Mystic Chord" influenced the development of 20th-century harmonic language\nâ€¢ His timbre-color system inspired Kandinsky\'s abstract painting theories',
+    significance_en: 'Scriabin proved that **design can transcend sensory boundaries.** He was not "decorating" music â€” he was creating an entirely new perceptual dimension. The concert lighting, VJ culture, and immersive exhibitions we take for granted today can all be traced back to this Russian composer\'s wild vision in 1910.',
   },
 
   // 01-07: Tesla Coil
@@ -3038,7 +3038,7 @@ But Scriabin's ambition went far beyond this. He dreamed of creating a "Mysteriu
     date: '2026-01-07',
     imageUrl: '/the-daily-object/images/tesla-coil.jpg',
     fullImageUrl: '/the-daily-object/images/full/tesla-coil.jpg',
-    title: '特斯拉线圈',
+    title: 'ç‰¹æ–¯æ‹‰çº¿åœˆ',
     title_en: 'Tesla Coil',
     subtitle: 'Nikola Tesla, 1891',
     subtitle_en: 'Nikola Tesla, 1891',
@@ -3046,49 +3046,49 @@ But Scriabin's ambition went far beyond this. He dreamed of creating a "Mysteriu
     designer: 'Nikola Tesla',
     year: '1891',
 
-    dateConnection: 'Nikola Tesla 于1943年1月7日在纽约客酒店孤独离世，享年86岁。这位塞尔维亚裔美国发明家一生持有300多项专利，而特斯拉线圈是他最具视觉冲击力的发明——将不可见的电力变成了可见的、令人敬畏的光之雕塑。',
-    designerBio: `Nikola Tesla (1856-1943)，塞尔维亚裔美国发明家、电气工程师，交流电系统的奠基人。
+    dateConnection: 'Nikola Tesla äºŽ1943å¹´1æœˆ7æ—¥åœ¨çº½çº¦å®¢é…’åº—å­¤ç‹¬ç¦»ä¸–ï¼Œäº«å¹´86å²ã€‚è¿™ä½å¡žå°”ç»´äºšè£”ç¾Žå›½å‘æ˜Žå®¶ä¸€ç”ŸæŒæœ‰300å¤šé¡¹ä¸“åˆ©ï¼Œè€Œç‰¹æ–¯æ‹‰çº¿åœˆæ˜¯ä»–æœ€å…·è§†è§‰å†²å‡»åŠ›çš„å‘æ˜Žâ€”â€”å°†ä¸å¯è§çš„ç”µåŠ›å˜æˆäº†å¯è§çš„ã€ä»¤äººæ•¬ç•çš„å…‰ä¹‹é›•å¡‘ã€‚',
+    designerBio: `Nikola Tesla (1856-1943)ï¼Œå¡žå°”ç»´äºšè£”ç¾Žå›½å‘æ˜Žå®¶ã€ç”µæ°”å·¥ç¨‹å¸ˆï¼Œäº¤æµç”µç³»ç»Ÿçš„å¥ åŸºäººã€‚
 
-他与 Edison 的"电流之战"是工业设计史上最著名的对决之一。Edison 坚持直流电，Tesla 则证明了交流电在远距离输电上的绝对优势。最终，Tesla 的交流电系统成为全世界电力基础设施的标准——你此刻使用的每一度电，都源自他的设计。
+ä»–ä¸Ž Edison çš„"ç”µæµä¹‹æˆ˜"æ˜¯å·¥ä¸šè®¾è®¡å²ä¸Šæœ€è‘—åçš„å¯¹å†³ä¹‹ä¸€ã€‚Edison åšæŒç›´æµç”µï¼ŒTesla åˆ™è¯æ˜Žäº†äº¤æµç”µåœ¨è¿œè·ç¦»è¾“ç”µä¸Šçš„ç»å¯¹ä¼˜åŠ¿ã€‚æœ€ç»ˆï¼ŒTesla çš„äº¤æµç”µç³»ç»Ÿæˆä¸ºå…¨ä¸–ç•Œç”µåŠ›åŸºç¡€è®¾æ–½çš„æ ‡å‡†â€”â€”ä½ æ­¤åˆ»ä½¿ç”¨çš„æ¯ä¸€åº¦ç”µï¼Œéƒ½æºè‡ªä»–çš„è®¾è®¡ã€‚
 
-**"如果你想发现宇宙的秘密，就从能量、频率和振动的角度思考。"**
+**"å¦‚æžœä½ æƒ³å‘çŽ°å®‡å®™çš„ç§˜å¯†ï¼Œå°±ä»Žèƒ½é‡ã€é¢‘çŽ‡å’ŒæŒ¯åŠ¨çš„è§’åº¦æ€è€ƒã€‚"**
 
-他是少有的同时具备工程天才和审美直觉的发明家。特斯拉线圈不仅是一个技术装置，更是他对电力之美的视觉宣言。`,
-    story: `1891年，Tesla 发明了以他名字命名的谐振变压器——特斯拉线圈。
+ä»–æ˜¯å°‘æœ‰çš„åŒæ—¶å…·å¤‡å·¥ç¨‹å¤©æ‰å’Œå®¡ç¾Žç›´è§‰çš„å‘æ˜Žå®¶ã€‚ç‰¹æ–¯æ‹‰çº¿åœˆä¸ä»…æ˜¯ä¸€ä¸ªæŠ€æœ¯è£…ç½®ï¼Œæ›´æ˜¯ä»–å¯¹ç”µåŠ›ä¹‹ç¾Žçš„è§†è§‰å®£è¨€ã€‚`,
+    story: `1891å¹´ï¼ŒTesla å‘æ˜Žäº†ä»¥ä»–åå­—å‘½åçš„è°æŒ¯å˜åŽ‹å™¨â€”â€”ç‰¹æ–¯æ‹‰çº¿åœˆã€‚
 
-它的工作原理看似简单：两组线圈通过谐振耦合，将普通电压升高到数百万伏特，在尖端产生壮观的电弧放电。但这个"简单"的原理背后，是 Tesla 对电磁共振的深刻理解。
+å®ƒçš„å·¥ä½œåŽŸç†çœ‹ä¼¼ç®€å•ï¼šä¸¤ç»„çº¿åœˆé€šè¿‡è°æŒ¯è€¦åˆï¼Œå°†æ™®é€šç”µåŽ‹å‡é«˜åˆ°æ•°ç™¾ä¸‡ä¼ç‰¹ï¼Œåœ¨å°–ç«¯äº§ç”Ÿå£®è§‚çš„ç”µå¼§æ”¾ç”µã€‚ä½†è¿™ä¸ª"ç®€å•"çš„åŽŸç†èƒŒåŽï¼Œæ˜¯ Tesla å¯¹ç”µç£å…±æŒ¯çš„æ·±åˆ»ç†è§£ã€‚
 
-**特斯拉线圈的设计之美在于：它让不可见的力变得可见。** 电——这个驱动现代文明的基本力量——在线圈顶端化为紫蓝色的闪电，在空气中跳舞、分叉、消散。它既是科学仪器，也是光之雕塑。
+**ç‰¹æ–¯æ‹‰çº¿åœˆçš„è®¾è®¡ä¹‹ç¾Žåœ¨äºŽï¼šå®ƒè®©ä¸å¯è§çš„åŠ›å˜å¾—å¯è§ã€‚** ç”µâ€”â€”è¿™ä¸ªé©±åŠ¨çŽ°ä»£æ–‡æ˜Žçš„åŸºæœ¬åŠ›é‡â€”â€”åœ¨çº¿åœˆé¡¶ç«¯åŒ–ä¸ºç´«è“è‰²çš„é—ªç”µï¼Œåœ¨ç©ºæ°”ä¸­è·³èˆžã€åˆ†å‰ã€æ¶ˆæ•£ã€‚å®ƒæ—¢æ˜¯ç§‘å­¦ä»ªå™¨ï¼Œä¹Ÿæ˜¯å…‰ä¹‹é›•å¡‘ã€‚
 
-Tesla 曾在他的纽约实验室里，站在特斯拉线圈旁，让人造闪电环绕全身——这些照片成为科学史上最具标志性的影像。他用这些壮观的演示来宣传无线输电的可能性。
+Tesla æ›¾åœ¨ä»–çš„çº½çº¦å®žéªŒå®¤é‡Œï¼Œç«™åœ¨ç‰¹æ–¯æ‹‰çº¿åœˆæ—ï¼Œè®©äººé€ é—ªç”µçŽ¯ç»•å…¨èº«â€”â€”è¿™äº›ç…§ç‰‡æˆä¸ºç§‘å­¦å²ä¸Šæœ€å…·æ ‡å¿—æ€§çš„å½±åƒã€‚ä»–ç”¨è¿™äº›å£®è§‚çš„æ¼”ç¤ºæ¥å®£ä¼ æ— çº¿è¾“ç”µçš„å¯èƒ½æ€§ã€‚
 
-在科罗拉多泉实验室（1899年），他建造了直径达16米的巨型线圈，产生了长达40米的人造闪电——附近的蝴蝶翅膀上产生了圣埃尔摩之火，周围6英里内的灯泡自动亮起。
+åœ¨ç§‘ç½—æ‹‰å¤šæ³‰å®žéªŒå®¤ï¼ˆ1899å¹´ï¼‰ï¼Œä»–å»ºé€ äº†ç›´å¾„è¾¾16ç±³çš„å·¨åž‹çº¿åœˆï¼Œäº§ç”Ÿäº†é•¿è¾¾40ç±³çš„äººé€ é—ªç”µâ€”â€”é™„è¿‘çš„è´è¶ç¿…è†€ä¸Šäº§ç”Ÿäº†åœ£åŸƒå°”æ‘©ä¹‹ç«ï¼Œå‘¨å›´6è‹±é‡Œå†…çš„ç¯æ³¡è‡ªåŠ¨äº®èµ·ã€‚
 
-虽然他的无线输电梦想未能实现，但特斯拉线圈后来在无线电通信、医疗设备、粒子加速器等领域找到了广泛应用。而它最持久的遗产，或许是作为一件"功能性雕塑"——在科学博物馆、音乐节和艺术装置中，持续激发着人们对电力之美的敬畏。`,
-    legacy: '• 无线通信基础：特斯拉线圈的谐振原理是无线电技术的关键基础\n• 科学可视化先驱：第一次让电力成为可以"观看"的现象，开创了科学展示的新范式\n• 文化符号：成为"疯狂科学家"和"天才发明家"的视觉代名词\n• 当代应用：从粒子加速器到音乐特斯拉线圈（能"演奏"音乐的放电装置），持续启发新的创造',
-    significance: 'Tesla Coil 是工业设计中罕见的案例：一个纯技术装置，仅凭其工作时的视觉效果，就成为了一件永恒的设计经典。它证明了**技术本身可以是美的**——不需要外壳、不需要装饰，电力在空气中跳跃的瞬间就是最纯粹的形式美。',
+è™½ç„¶ä»–çš„æ— çº¿è¾“ç”µæ¢¦æƒ³æœªèƒ½å®žçŽ°ï¼Œä½†ç‰¹æ–¯æ‹‰çº¿åœˆåŽæ¥åœ¨æ— çº¿ç”µé€šä¿¡ã€åŒ»ç–—è®¾å¤‡ã€ç²’å­åŠ é€Ÿå™¨ç­‰é¢†åŸŸæ‰¾åˆ°äº†å¹¿æ³›åº”ç”¨ã€‚è€Œå®ƒæœ€æŒä¹…çš„é—äº§ï¼Œæˆ–è®¸æ˜¯ä½œä¸ºä¸€ä»¶"åŠŸèƒ½æ€§é›•å¡‘"â€”â€”åœ¨ç§‘å­¦åšç‰©é¦†ã€éŸ³ä¹èŠ‚å’Œè‰ºæœ¯è£…ç½®ä¸­ï¼ŒæŒç»­æ¿€å‘ç€äººä»¬å¯¹ç”µåŠ›ä¹‹ç¾Žçš„æ•¬ç•ã€‚`,
+    legacy: 'â€¢ æ— çº¿é€šä¿¡åŸºç¡€ï¼šç‰¹æ–¯æ‹‰çº¿åœˆçš„è°æŒ¯åŽŸç†æ˜¯æ— çº¿ç”µæŠ€æœ¯çš„å…³é”®åŸºç¡€\nâ€¢ ç§‘å­¦å¯è§†åŒ–å…ˆé©±ï¼šç¬¬ä¸€æ¬¡è®©ç”µåŠ›æˆä¸ºå¯ä»¥"è§‚çœ‹"çš„çŽ°è±¡ï¼Œå¼€åˆ›äº†ç§‘å­¦å±•ç¤ºçš„æ–°èŒƒå¼\nâ€¢ æ–‡åŒ–ç¬¦å·ï¼šæˆä¸º"ç–¯ç‹‚ç§‘å­¦å®¶"å’Œ"å¤©æ‰å‘æ˜Žå®¶"çš„è§†è§‰ä»£åè¯\nâ€¢ å½“ä»£åº”ç”¨ï¼šä»Žç²’å­åŠ é€Ÿå™¨åˆ°éŸ³ä¹ç‰¹æ–¯æ‹‰çº¿åœˆï¼ˆèƒ½"æ¼”å¥"éŸ³ä¹çš„æ”¾ç”µè£…ç½®ï¼‰ï¼ŒæŒç»­å¯å‘æ–°çš„åˆ›é€ ',
+    significance: 'Tesla Coil æ˜¯å·¥ä¸šè®¾è®¡ä¸­ç½•è§çš„æ¡ˆä¾‹ï¼šä¸€ä¸ªçº¯æŠ€æœ¯è£…ç½®ï¼Œä»…å‡­å…¶å·¥ä½œæ—¶çš„è§†è§‰æ•ˆæžœï¼Œå°±æˆä¸ºäº†ä¸€ä»¶æ°¸æ’çš„è®¾è®¡ç»å…¸ã€‚å®ƒè¯æ˜Žäº†**æŠ€æœ¯æœ¬èº«å¯ä»¥æ˜¯ç¾Žçš„**â€”â€”ä¸éœ€è¦å¤–å£³ã€ä¸éœ€è¦è£…é¥°ï¼Œç”µåŠ›åœ¨ç©ºæ°”ä¸­è·³è·ƒçš„çž¬é—´å°±æ˜¯æœ€çº¯ç²¹çš„å½¢å¼ç¾Žã€‚',
 
-    dateConnection_en: 'Nikola Tesla passed away alone at the New Yorker Hotel on January 7, 1943, at the age of 86. This Serbian-American inventor held over 300 patents, and the Tesla Coil remains his most visually spectacular invention — transforming invisible electricity into awe-inspiring sculptures of light.',
-    designerBio_en: `Nikola Tesla (1856–1943), Serbian-American inventor and electrical engineer, the architect of the alternating current power system.
+    dateConnection_en: 'Nikola Tesla passed away alone at the New Yorker Hotel on January 7, 1943, at the age of 86. This Serbian-American inventor held over 300 patents, and the Tesla Coil remains his most visually spectacular invention â€” transforming invisible electricity into awe-inspiring sculptures of light.',
+    designerBio_en: `Nikola Tesla (1856â€“1943), Serbian-American inventor and electrical engineer, the architect of the alternating current power system.
 
-His "War of Currents" with Edison is one of the most famous rivalries in industrial design history. Edison championed direct current; Tesla proved alternating current's absolute superiority for long-distance transmission. Tesla's AC system became the global standard for electrical infrastructure — every watt you use right now traces back to his design.
+His "War of Currents" with Edison is one of the most famous rivalries in industrial design history. Edison championed direct current; Tesla proved alternating current's absolute superiority for long-distance transmission. Tesla's AC system became the global standard for electrical infrastructure â€” every watt you use right now traces back to his design.
 
 **"If you want to find the secrets of the universe, think in terms of energy, frequency and vibration."**
 
-He was a rare inventor who possessed both engineering genius and aesthetic intuition. The Tesla Coil is not merely a technical apparatus — it is his visual manifesto on the beauty of electricity.`,
-    story_en: `In 1891, Tesla invented the resonant transformer that bears his name — the Tesla Coil.
+He was a rare inventor who possessed both engineering genius and aesthetic intuition. The Tesla Coil is not merely a technical apparatus â€” it is his visual manifesto on the beauty of electricity.`,
+    story_en: `In 1891, Tesla invented the resonant transformer that bears his name â€” the Tesla Coil.
 
 Its principle seems straightforward: two coil sets coupled through resonance step up ordinary voltage to millions of volts, producing spectacular arc discharges at the terminal. But behind this "simple" principle lies Tesla's profound understanding of electromagnetic resonance.
 
-**The design beauty of the Tesla Coil is this: it makes the invisible visible.** Electricity — the fundamental force driving modern civilization — transforms into violet-blue lightning at the coil's terminal, dancing, branching, and dissipating through the air. It is both scientific instrument and light sculpture.
+**The design beauty of the Tesla Coil is this: it makes the invisible visible.** Electricity â€” the fundamental force driving modern civilization â€” transforms into violet-blue lightning at the coil's terminal, dancing, branching, and dissipating through the air. It is both scientific instrument and light sculpture.
 
-Tesla once stood beside his coil in his New York laboratory, letting artificial lightning cascade around his body — those photographs became some of the most iconic images in the history of science. He used these spectacular demonstrations to promote the possibility of wireless power transmission.
+Tesla once stood beside his coil in his New York laboratory, letting artificial lightning cascade around his body â€” those photographs became some of the most iconic images in the history of science. He used these spectacular demonstrations to promote the possibility of wireless power transmission.
 
-At his Colorado Springs laboratory (1899), he built a colossal coil 16 meters in diameter, generating artificial lightning bolts up to 40 meters long — St. Elmo's fire appeared on butterfly wings nearby, and light bulbs within 6 miles lit up spontaneously.
+At his Colorado Springs laboratory (1899), he built a colossal coil 16 meters in diameter, generating artificial lightning bolts up to 40 meters long â€” St. Elmo's fire appeared on butterfly wings nearby, and light bulbs within 6 miles lit up spontaneously.
 
-Though his wireless power dream was never fully realized, the Tesla Coil found broad applications in radio communication, medical devices, and particle accelerators. And its most enduring legacy may be as a "functional sculpture" — continuing to inspire awe at the beauty of electricity in science museums, music festivals, and art installations around the world.`,
-    legacy_en: '• Wireless communication foundation: the Tesla Coil\'s resonance principle is fundamental to radio technology\n• Science visualization pioneer: the first device to make electricity something you could "watch," creating a new paradigm for science demonstration\n• Cultural icon: became the visual synonym for "mad scientist" and "genius inventor"\n• Contemporary applications: from particle accelerators to musical Tesla Coils (discharge devices that can "play" music), it continues to inspire new creations',
-    significance_en: 'The Tesla Coil is a rare case in industrial design: a purely technical device that became an enduring design classic solely through its visual spectacle during operation. It proves that **technology itself can be beautiful** — no housing needed, no decoration required. The moment electricity leaps through air is the purest form of aesthetic beauty.',
+Though his wireless power dream was never fully realized, the Tesla Coil found broad applications in radio communication, medical devices, and particle accelerators. And its most enduring legacy may be as a "functional sculpture" â€” continuing to inspire awe at the beauty of electricity in science museums, music festivals, and art installations around the world.`,
+    legacy_en: 'â€¢ Wireless communication foundation: the Tesla Coil\'s resonance principle is fundamental to radio technology\nâ€¢ Science visualization pioneer: the first device to make electricity something you could "watch," creating a new paradigm for science demonstration\nâ€¢ Cultural icon: became the visual synonym for "mad scientist" and "genius inventor"\nâ€¢ Contemporary applications: from particle accelerators to musical Tesla Coils (discharge devices that can "play" music), it continues to inspire new creations',
+    significance_en: 'The Tesla Coil is a rare case in industrial design: a purely technical device that became an enduring design classic solely through its visual spectacle during operation. It proves that **technology itself can be beautiful** â€” no housing needed, no decoration required. The moment electricity leaps through air is the purest form of aesthetic beauty.',
   },
 
   // 01-08: Ziggy Stardust
@@ -3105,49 +3105,49 @@ Though his wireless power dream was never fully realized, the Tesla Coil found b
     designer: 'David Bowie',
     year: '1972',
 
-    dateConnection: 'David Bowie 1947年1月8日出生于伦敦布里克斯顿。他不仅是音乐家，更是一位视觉设计大师——Ziggy Stardust 是流行文化史上最具影响力的角色设计，定义了"音乐人即视觉品牌"的范式。',
-    designerBio: `David Bowie (1947-2016)，英国音乐家、演员、视觉艺术家，流行文化的变形者。
+    dateConnection: 'David Bowie 1947å¹´1æœˆ8æ—¥å‡ºç”ŸäºŽä¼¦æ•¦å¸ƒé‡Œå…‹æ–¯é¡¿ã€‚ä»–ä¸ä»…æ˜¯éŸ³ä¹å®¶ï¼Œæ›´æ˜¯ä¸€ä½è§†è§‰è®¾è®¡å¤§å¸ˆâ€”â€”Ziggy Stardust æ˜¯æµè¡Œæ–‡åŒ–å²ä¸Šæœ€å…·å½±å“åŠ›çš„è§’è‰²è®¾è®¡ï¼Œå®šä¹‰äº†"éŸ³ä¹äººå³è§†è§‰å“ç‰Œ"çš„èŒƒå¼ã€‚',
+    designerBio: `David Bowie (1947-2016)ï¼Œè‹±å›½éŸ³ä¹å®¶ã€æ¼”å‘˜ã€è§†è§‰è‰ºæœ¯å®¶ï¼Œæµè¡Œæ–‡åŒ–çš„å˜å½¢è€…ã€‚
 
-他的天才不仅在于音乐，更在于**将自我作为设计媒介**。在他50年的职业生涯中，他不断重塑自己的视觉形象——从 Ziggy Stardust 到 Aladdin Sane，从 Thin White Duke 到 Blackstar——每一次转变都是一次完整的设计项目：造型、服装、舞台、专辑封面、MV，全部统一在一个视觉概念之下。
+ä»–çš„å¤©æ‰ä¸ä»…åœ¨äºŽéŸ³ä¹ï¼Œæ›´åœ¨äºŽ**å°†è‡ªæˆ‘ä½œä¸ºè®¾è®¡åª’ä»‹**ã€‚åœ¨ä»–50å¹´çš„èŒä¸šç”Ÿæ¶¯ä¸­ï¼Œä»–ä¸æ–­é‡å¡‘è‡ªå·±çš„è§†è§‰å½¢è±¡â€”â€”ä»Ž Ziggy Stardust åˆ° Aladdin Saneï¼Œä»Ž Thin White Duke åˆ° Blackstarâ€”â€”æ¯ä¸€æ¬¡è½¬å˜éƒ½æ˜¯ä¸€æ¬¡å®Œæ•´çš„è®¾è®¡é¡¹ç›®ï¼šé€ åž‹ã€æœè£…ã€èˆžå°ã€ä¸“è¾‘å°é¢ã€MVï¼Œå…¨éƒ¨ç»Ÿä¸€åœ¨ä¸€ä¸ªè§†è§‰æ¦‚å¿µä¹‹ä¸‹ã€‚
 
-**"我总是觉得自己更像一个用音乐工作的设计师，而不是一个碰巧有视觉品味的音乐人。"**`,
-    story: `1972年6月，专辑《The Rise and Fall of Ziggy Stardust and the Spiders from Mars》发行。
+**"æˆ‘æ€»æ˜¯è§‰å¾—è‡ªå·±æ›´åƒä¸€ä¸ªç”¨éŸ³ä¹å·¥ä½œçš„è®¾è®¡å¸ˆï¼Œè€Œä¸æ˜¯ä¸€ä¸ªç¢°å·§æœ‰è§†è§‰å“å‘³çš„éŸ³ä¹äººã€‚"**`,
+    story: `1972å¹´6æœˆï¼Œä¸“è¾‘ã€ŠThe Rise and Fall of Ziggy Stardust and the Spiders from Marsã€‹å‘è¡Œã€‚
 
-Ziggy Stardust 不是一个角色，而是一个**完整的设计系统**。
+Ziggy Stardust ä¸æ˜¯ä¸€ä¸ªè§’è‰²ï¼Œè€Œæ˜¯ä¸€ä¸ª**å®Œæ•´çš„è®¾è®¡ç³»ç»Ÿ**ã€‚
 
-**造型设计**：火红色的刺猬头（由发型师 Suzi Fussey 打造）、闪电妆容、极度消瘦的身材——每一个元素都经过精心计算，既像外星来客又像末日摇滚明星。
+**é€ åž‹è®¾è®¡**ï¼šç«çº¢è‰²çš„åˆºçŒ¬å¤´ï¼ˆç”±å‘åž‹å¸ˆ Suzi Fussey æ‰“é€ ï¼‰ã€é—ªç”µå¦†å®¹ã€æžåº¦æ¶ˆç˜¦çš„èº«æâ€”â€”æ¯ä¸€ä¸ªå…ƒç´ éƒ½ç»è¿‡ç²¾å¿ƒè®¡ç®—ï¼Œæ—¢åƒå¤–æ˜Ÿæ¥å®¢åˆåƒæœ«æ—¥æ‘‡æ»šæ˜Žæ˜Ÿã€‚
 
-**服装设计**：日本设计师山本宽斋（Kansai Yamamoto）为 Bowie 设计的舞台服装成为时尚史经典——不对称连体衣、金属感面料、夸张的肩部轮廓。这些设计融合了日本歌舞伎美学与英国华丽摇滚，创造了一种全新的舞台服装语言。
+**æœè£…è®¾è®¡**ï¼šæ—¥æœ¬è®¾è®¡å¸ˆå±±æœ¬å®½æ–‹ï¼ˆKansai Yamamotoï¼‰ä¸º Bowie è®¾è®¡çš„èˆžå°æœè£…æˆä¸ºæ—¶å°šå²ç»å…¸â€”â€”ä¸å¯¹ç§°è¿žä½“è¡£ã€é‡‘å±žæ„Ÿé¢æ–™ã€å¤¸å¼ çš„è‚©éƒ¨è½®å»“ã€‚è¿™äº›è®¾è®¡èžåˆäº†æ—¥æœ¬æ­Œèˆžä¼Žç¾Žå­¦ä¸Žè‹±å›½åŽä¸½æ‘‡æ»šï¼Œåˆ›é€ äº†ä¸€ç§å…¨æ–°çš„èˆžå°æœè£…è¯­è¨€ã€‚
 
-**专辑封面**：摄影师 Brian Ward 在伦敦 Heddon Street 拍摄的封面照——Bowie 站在雨后的街头，吉他挂在身上，头顶是"K.WEST"的招牌——成为摇滚乐史上最具标志性的封面之一。照片刻意选择了最平凡的伦敦街景，与 Ziggy 的外星身份形成张力。
+**ä¸“è¾‘å°é¢**ï¼šæ‘„å½±å¸ˆ Brian Ward åœ¨ä¼¦æ•¦ Heddon Street æ‹æ‘„çš„å°é¢ç…§â€”â€”Bowie ç«™åœ¨é›¨åŽçš„è¡—å¤´ï¼Œå‰ä»–æŒ‚åœ¨èº«ä¸Šï¼Œå¤´é¡¶æ˜¯"K.WEST"çš„æ‹›ç‰Œâ€”â€”æˆä¸ºæ‘‡æ»šä¹å²ä¸Šæœ€å…·æ ‡å¿—æ€§çš„å°é¢ä¹‹ä¸€ã€‚ç…§ç‰‡åˆ»æ„é€‰æ‹©äº†æœ€å¹³å‡¡çš„ä¼¦æ•¦è¡—æ™¯ï¼Œä¸Ž Ziggy çš„å¤–æ˜Ÿèº«ä»½å½¢æˆå¼ åŠ›ã€‚
 
-**概念的完整性**是 Ziggy 最伟大的设计遗产。Bowie 不是在"打扮成"Ziggy——他成为了 Ziggy。演唱会、采访、私生活，他完全以 Ziggy 的身份存在了一年半。然后在1973年7月3日的 Hammersmith Odeon 演唱会上，他宣布"这是 Ziggy 的最后一场演出"——杀死了自己创造的角色。
+**æ¦‚å¿µçš„å®Œæ•´æ€§**æ˜¯ Ziggy æœ€ä¼Ÿå¤§çš„è®¾è®¡é—äº§ã€‚Bowie ä¸æ˜¯åœ¨"æ‰“æ‰®æˆ"Ziggyâ€”â€”ä»–æˆä¸ºäº† Ziggyã€‚æ¼”å”±ä¼šã€é‡‡è®¿ã€ç§ç”Ÿæ´»ï¼Œä»–å®Œå…¨ä»¥ Ziggy çš„èº«ä»½å­˜åœ¨äº†ä¸€å¹´åŠã€‚ç„¶åŽåœ¨1973å¹´7æœˆ3æ—¥çš„ Hammersmith Odeon æ¼”å”±ä¼šä¸Šï¼Œä»–å®£å¸ƒ"è¿™æ˜¯ Ziggy çš„æœ€åŽä¸€åœºæ¼”å‡º"â€”â€”æ€æ­»äº†è‡ªå·±åˆ›é€ çš„è§’è‰²ã€‚
 
-这是设计史上最大胆的一次"品牌终结"——自杀式地结束一个正在巅峰的 IP。`,
-    legacy: '• 视觉品牌先驱：Ziggy 证明音乐人可以是一个完整的视觉设计项目，直接影响了 Madonna、Lady Gaga、Kanye West 等后来者\n• 性别流动美学：Ziggy 的雌雄同体造型挑战了性别二元的视觉规范，开创了流行文化中的性别流动美学\n• 舞台设计革命：将日本歌舞伎、德国表现主义和英国华丽摇滚融合，重新定义了演唱会的视觉标准\n• 专辑概念化：证明专辑可以是一个跨媒介的叙事设计项目，而不只是歌曲的集合',
-    significance: 'Ziggy Stardust 是流行文化设计的分水岭。在 Bowie 之前，音乐人的形象是"真实自我的延伸"。在 Bowie 之后，音乐人的形象成为了**可以被设计、被构建、被解构的创意产品**。今天每一个有视觉策略的艺人——从 Beyoncé 到 BTS——都在走 Bowie 1972年开辟的路。',
+è¿™æ˜¯è®¾è®¡å²ä¸Šæœ€å¤§èƒ†çš„ä¸€æ¬¡"å“ç‰Œç»ˆç»“"â€”â€”è‡ªæ€å¼åœ°ç»“æŸä¸€ä¸ªæ­£åœ¨å·…å³°çš„ IPã€‚`,
+    legacy: 'â€¢ è§†è§‰å“ç‰Œå…ˆé©±ï¼šZiggy è¯æ˜ŽéŸ³ä¹äººå¯ä»¥æ˜¯ä¸€ä¸ªå®Œæ•´çš„è§†è§‰è®¾è®¡é¡¹ç›®ï¼Œç›´æŽ¥å½±å“äº† Madonnaã€Lady Gagaã€Kanye West ç­‰åŽæ¥è€…\nâ€¢ æ€§åˆ«æµåŠ¨ç¾Žå­¦ï¼šZiggy çš„é›Œé›„åŒä½“é€ åž‹æŒ‘æˆ˜äº†æ€§åˆ«äºŒå…ƒçš„è§†è§‰è§„èŒƒï¼Œå¼€åˆ›äº†æµè¡Œæ–‡åŒ–ä¸­çš„æ€§åˆ«æµåŠ¨ç¾Žå­¦\nâ€¢ èˆžå°è®¾è®¡é©å‘½ï¼šå°†æ—¥æœ¬æ­Œèˆžä¼Žã€å¾·å›½è¡¨çŽ°ä¸»ä¹‰å’Œè‹±å›½åŽä¸½æ‘‡æ»šèžåˆï¼Œé‡æ–°å®šä¹‰äº†æ¼”å”±ä¼šçš„è§†è§‰æ ‡å‡†\nâ€¢ ä¸“è¾‘æ¦‚å¿µåŒ–ï¼šè¯æ˜Žä¸“è¾‘å¯ä»¥æ˜¯ä¸€ä¸ªè·¨åª’ä»‹çš„å™äº‹è®¾è®¡é¡¹ç›®ï¼Œè€Œä¸åªæ˜¯æ­Œæ›²çš„é›†åˆ',
+    significance: 'Ziggy Stardust æ˜¯æµè¡Œæ–‡åŒ–è®¾è®¡çš„åˆ†æ°´å²­ã€‚åœ¨ Bowie ä¹‹å‰ï¼ŒéŸ³ä¹äººçš„å½¢è±¡æ˜¯"çœŸå®žè‡ªæˆ‘çš„å»¶ä¼¸"ã€‚åœ¨ Bowie ä¹‹åŽï¼ŒéŸ³ä¹äººçš„å½¢è±¡æˆä¸ºäº†**å¯ä»¥è¢«è®¾è®¡ã€è¢«æž„å»ºã€è¢«è§£æž„çš„åˆ›æ„äº§å“**ã€‚ä»Šå¤©æ¯ä¸€ä¸ªæœ‰è§†è§‰ç­–ç•¥çš„è‰ºäººâ€”â€”ä»Ž BeyoncÃ© åˆ° BTSâ€”â€”éƒ½åœ¨èµ° Bowie 1972å¹´å¼€è¾Ÿçš„è·¯ã€‚',
 
-    dateConnection_en: 'David Bowie was born on January 8, 1947 in Brixton, London. He was not merely a musician but a visual design master — Ziggy Stardust is the most influential character design in pop culture history, defining the paradigm of "musician as visual brand."',
-    designerBio_en: `David Bowie (1947–2016), British musician, actor, and visual artist — pop culture's ultimate shapeshifter.
+    dateConnection_en: 'David Bowie was born on January 8, 1947 in Brixton, London. He was not merely a musician but a visual design master â€” Ziggy Stardust is the most influential character design in pop culture history, defining the paradigm of "musician as visual brand."',
+    designerBio_en: `David Bowie (1947â€“2016), British musician, actor, and visual artist â€” pop culture's ultimate shapeshifter.
 
-His genius lay not only in music but in **using the self as a design medium.** Across a 50-year career, he continually reinvented his visual identity — from Ziggy Stardust to Aladdin Sane, Thin White Duke to Blackstar — each transformation a complete design project: styling, costume, stage, album art, and music video, all unified under a single visual concept.
+His genius lay not only in music but in **using the self as a design medium.** Across a 50-year career, he continually reinvented his visual identity â€” from Ziggy Stardust to Aladdin Sane, Thin White Duke to Blackstar â€” each transformation a complete design project: styling, costume, stage, album art, and music video, all unified under a single visual concept.
 
 **"I always felt I was more of a designer who worked with music than a musician who happened to have visual taste."**`,
     story_en: `In June 1972, the album The Rise and Fall of Ziggy Stardust and the Spiders from Mars was released.
 
-Ziggy Stardust was not a character — it was a **complete design system.**
+Ziggy Stardust was not a character â€” it was a **complete design system.**
 
-**Styling:** The fire-red mullet (created by hairstylist Suzi Fussey), the lightning bolt makeup, the emaciated frame — every element was precisely calibrated to read as both alien visitor and apocalyptic rock star.
+**Styling:** The fire-red mullet (created by hairstylist Suzi Fussey), the lightning bolt makeup, the emaciated frame â€” every element was precisely calibrated to read as both alien visitor and apocalyptic rock star.
 
-**Costume design:** Japanese designer Kansai Yamamoto's stage costumes for Bowie became fashion history — asymmetric bodysuits, metallic fabrics, exaggerated shoulder silhouettes. These designs fused Japanese Kabuki aesthetics with British glam rock, creating an entirely new language for stage costume.
+**Costume design:** Japanese designer Kansai Yamamoto's stage costumes for Bowie became fashion history â€” asymmetric bodysuits, metallic fabrics, exaggerated shoulder silhouettes. These designs fused Japanese Kabuki aesthetics with British glam rock, creating an entirely new language for stage costume.
 
-**Album cover:** Photographer Brian Ward's cover shot on London's Heddon Street — Bowie standing on a rain-slicked street, guitar slung over his shoulder, the "K.WEST" sign overhead — became one of the most iconic covers in rock history. The deliberately mundane London street scene creates tension with Ziggy's alien identity.
+**Album cover:** Photographer Brian Ward's cover shot on London's Heddon Street â€” Bowie standing on a rain-slicked street, guitar slung over his shoulder, the "K.WEST" sign overhead â€” became one of the most iconic covers in rock history. The deliberately mundane London street scene creates tension with Ziggy's alien identity.
 
-**Conceptual completeness** is Ziggy's greatest design legacy. Bowie didn't "dress up as" Ziggy — he became Ziggy. Concerts, interviews, private life — he existed entirely as Ziggy for eighteen months. Then on July 3, 1973 at the Hammersmith Odeon, he announced "this is the last show we'll ever do" — killing the character he had created.
+**Conceptual completeness** is Ziggy's greatest design legacy. Bowie didn't "dress up as" Ziggy â€” he became Ziggy. Concerts, interviews, private life â€” he existed entirely as Ziggy for eighteen months. Then on July 3, 1973 at the Hammersmith Odeon, he announced "this is the last show we'll ever do" â€” killing the character he had created.
 
-This was the boldest "brand termination" in design history — suicidally ending an IP at its absolute peak.`,
-    legacy_en: '• Visual branding pioneer: Ziggy proved that a musician could be a complete visual design project, directly influencing Madonna, Lady Gaga, Kanye West and more\n• Gender-fluid aesthetics: Ziggy\'s androgynous styling challenged binary gender norms in visual culture, pioneering gender fluidity in pop culture\n• Stage design revolution: fusing Japanese Kabuki, German Expressionism, and British glam rock, it redefined the visual standards of live performance\n• Album as concept: proved that an album could be a cross-media narrative design project, not just a collection of songs',
-    significance_en: 'Ziggy Stardust was pop culture design\'s watershed moment. Before Bowie, a musician\'s image was "an extension of their true self." After Bowie, a musician\'s image became **a creative product that could be designed, constructed, and deconstructed.** Every artist with a visual strategy today — from Beyoncé to BTS — walks the path Bowie carved in 1972.',
+This was the boldest "brand termination" in design history â€” suicidally ending an IP at its absolute peak.`,
+    legacy_en: 'â€¢ Visual branding pioneer: Ziggy proved that a musician could be a complete visual design project, directly influencing Madonna, Lady Gaga, Kanye West and more\nâ€¢ Gender-fluid aesthetics: Ziggy\'s androgynous styling challenged binary gender norms in visual culture, pioneering gender fluidity in pop culture\nâ€¢ Stage design revolution: fusing Japanese Kabuki, German Expressionism, and British glam rock, it redefined the visual standards of live performance\nâ€¢ Album as concept: proved that an album could be a cross-media narrative design project, not just a collection of songs',
+    significance_en: 'Ziggy Stardust was pop culture design\'s watershed moment. Before Bowie, a musician\'s image was "an extension of their true self." After Bowie, a musician\'s image became **a creative product that could be designed, constructed, and deconstructed.** Every artist with a visual strategy today â€” from BeyoncÃ© to BTS â€” walks the path Bowie carved in 1972.',
   },
 
   // 01-09: iPhone
@@ -3164,37 +3164,37 @@ This was the boldest "brand termination" in design history — suicidally ending
     designer: 'Apple',
     year: '2007',
 
-    dateConnection: '2007年1月9日，Steve Jobs 在 Macworld 大会上发布了初代 iPhone——"一个 iPod，一个手机，一个突破性的互联网通信设备"。这三句话改变了整个消费电子行业。',
-    designerBio: `Apple 工业设计团队在 Jony Ive 的带领下，将硬件、软件、交互三者融为一体。
+    dateConnection: '2007å¹´1æœˆ9æ—¥ï¼ŒSteve Jobs åœ¨ Macworld å¤§ä¼šä¸Šå‘å¸ƒäº†åˆä»£ iPhoneâ€”â€”"ä¸€ä¸ª iPodï¼Œä¸€ä¸ªæ‰‹æœºï¼Œä¸€ä¸ªçªç ´æ€§çš„äº’è”ç½‘é€šä¿¡è®¾å¤‡"ã€‚è¿™ä¸‰å¥è¯æ”¹å˜äº†æ•´ä¸ªæ¶ˆè´¹ç”µå­è¡Œä¸šã€‚',
+    designerBio: `Apple å·¥ä¸šè®¾è®¡å›¢é˜Ÿåœ¨ Jony Ive çš„å¸¦é¢†ä¸‹ï¼Œå°†ç¡¬ä»¶ã€è½¯ä»¶ã€äº¤äº’ä¸‰è€…èžä¸ºä¸€ä½“ã€‚
 
-iPhone 的设计哲学不是"做一个更好的手机"，而是**重新定义手机应该是什么**。在一个满是物理键盘和触控笔的时代，iPhone 用一块 3.5 英寸多点触控屏幕取代了一切。Steve Jobs 在台上滑动解锁的那一刻，整个行业的范式被改写了。`,
-    story: `iPhone 的诞生源于一个内部项目——"Project Purple"。团队在苹果总部的一间上锁的房间里工作了两年多，门上的标牌写着"Fight Club"。
+iPhone çš„è®¾è®¡å“²å­¦ä¸æ˜¯"åšä¸€ä¸ªæ›´å¥½çš„æ‰‹æœº"ï¼Œè€Œæ˜¯**é‡æ–°å®šä¹‰æ‰‹æœºåº”è¯¥æ˜¯ä»€ä¹ˆ**ã€‚åœ¨ä¸€ä¸ªæ»¡æ˜¯ç‰©ç†é”®ç›˜å’Œè§¦æŽ§ç¬”çš„æ—¶ä»£ï¼ŒiPhone ç”¨ä¸€å— 3.5 è‹±å¯¸å¤šç‚¹è§¦æŽ§å±å¹•å–ä»£äº†ä¸€åˆ‡ã€‚Steve Jobs åœ¨å°ä¸Šæ»‘åŠ¨è§£é”çš„é‚£ä¸€åˆ»ï¼Œæ•´ä¸ªè¡Œä¸šçš„èŒƒå¼è¢«æ”¹å†™äº†ã€‚`,
+    story: `iPhone çš„è¯žç”ŸæºäºŽä¸€ä¸ªå†…éƒ¨é¡¹ç›®â€”â€”"Project Purple"ã€‚å›¢é˜Ÿåœ¨è‹¹æžœæ€»éƒ¨çš„ä¸€é—´ä¸Šé”çš„æˆ¿é—´é‡Œå·¥ä½œäº†ä¸¤å¹´å¤šï¼Œé—¨ä¸Šçš„æ ‡ç‰Œå†™ç€"Fight Club"ã€‚
 
-**"我们想要一个不需要说明书的产品。"** 这是 Jobs 给团队定下的核心设计原则。为此，iPhone 做了大量"减法"——没有物理键盘、没有触控笔、没有可拆卸电池。每一个删减都在当时被视为疯狂。
+**"æˆ‘ä»¬æƒ³è¦ä¸€ä¸ªä¸éœ€è¦è¯´æ˜Žä¹¦çš„äº§å“ã€‚"** è¿™æ˜¯ Jobs ç»™å›¢é˜Ÿå®šä¸‹çš„æ ¸å¿ƒè®¾è®¡åŽŸåˆ™ã€‚ä¸ºæ­¤ï¼ŒiPhone åšäº†å¤§é‡"å‡æ³•"â€”â€”æ²¡æœ‰ç‰©ç†é”®ç›˜ã€æ²¡æœ‰è§¦æŽ§ç¬”ã€æ²¡æœ‰å¯æ‹†å¸ç”µæ± ã€‚æ¯ä¸€ä¸ªåˆ å‡éƒ½åœ¨å½“æ—¶è¢«è§†ä¸ºç–¯ç‹‚ã€‚
 
-最革命性的设计决策是**多点触控**。之前的触控屏都是电阻式的，需要用力按压，只能识别单点。iPhone 的电容式多点触控让"捏合缩放"成为可能——这个手势如今已融入人类的肌肉记忆。
+æœ€é©å‘½æ€§çš„è®¾è®¡å†³ç­–æ˜¯**å¤šç‚¹è§¦æŽ§**ã€‚ä¹‹å‰çš„è§¦æŽ§å±éƒ½æ˜¯ç”µé˜»å¼çš„ï¼Œéœ€è¦ç”¨åŠ›æŒ‰åŽ‹ï¼Œåªèƒ½è¯†åˆ«å•ç‚¹ã€‚iPhone çš„ç”µå®¹å¼å¤šç‚¹è§¦æŽ§è®©"æåˆç¼©æ”¾"æˆä¸ºå¯èƒ½â€”â€”è¿™ä¸ªæ‰‹åŠ¿å¦‚ä»Šå·²èžå…¥äººç±»çš„è‚Œè‚‰è®°å¿†ã€‚
 
-发布会上最经典的一幕：Jobs 展示了一张照片，然后用两根手指轻轻一捏，照片缩小了。台下安静了一秒，然后爆发出欢呼。那一秒的安静，是人们的大脑在重新理解"人机交互"的含义。
+å‘å¸ƒä¼šä¸Šæœ€ç»å…¸çš„ä¸€å¹•ï¼šJobs å±•ç¤ºäº†ä¸€å¼ ç…§ç‰‡ï¼Œç„¶åŽç”¨ä¸¤æ ¹æ‰‹æŒ‡è½»è½»ä¸€æï¼Œç…§ç‰‡ç¼©å°äº†ã€‚å°ä¸‹å®‰é™äº†ä¸€ç§’ï¼Œç„¶åŽçˆ†å‘å‡ºæ¬¢å‘¼ã€‚é‚£ä¸€ç§’çš„å®‰é™ï¼Œæ˜¯äººä»¬çš„å¤§è„‘åœ¨é‡æ–°ç†è§£"äººæœºäº¤äº’"çš„å«ä¹‰ã€‚
 
-初代 iPhone 没有 App Store（那是一年后的事），没有 3G，没有复制粘贴。但它用**极致的交互设计**和**前所未有的界面美学**证明了一件事：好的设计不是功能的堆叠，而是体验的重塑。`,
-    legacy: '• 消灭了物理键盘手机，开创了全触控智能手机时代\n• "滑动解锁"成为史上最具辨识度的交互手势之一\n• 催生了整个移动应用生态系统（App Store，2008）\n• 让"用户体验设计"从边缘学科变成核心竞争力\n• 重新定义了产品发布会的形式——科技界的"One more thing"',
-    significance: 'iPhone 是21世纪最具影响力的设计作品，没有之一。它不只是一个产品，而是一个**设计范式的转折点**——证明了好的设计可以重新定义一个品类，甚至改变人类的日常行为方式。从此以后，每一个消费电子产品都在追问同一个问题："用户体验够好吗？"',
+åˆä»£ iPhone æ²¡æœ‰ App Storeï¼ˆé‚£æ˜¯ä¸€å¹´åŽçš„äº‹ï¼‰ï¼Œæ²¡æœ‰ 3Gï¼Œæ²¡æœ‰å¤åˆ¶ç²˜è´´ã€‚ä½†å®ƒç”¨**æžè‡´çš„äº¤äº’è®¾è®¡**å’Œ**å‰æ‰€æœªæœ‰çš„ç•Œé¢ç¾Žå­¦**è¯æ˜Žäº†ä¸€ä»¶äº‹ï¼šå¥½çš„è®¾è®¡ä¸æ˜¯åŠŸèƒ½çš„å †å ï¼Œè€Œæ˜¯ä½“éªŒçš„é‡å¡‘ã€‚`,
+    legacy: 'â€¢ æ¶ˆç­äº†ç‰©ç†é”®ç›˜æ‰‹æœºï¼Œå¼€åˆ›äº†å…¨è§¦æŽ§æ™ºèƒ½æ‰‹æœºæ—¶ä»£\nâ€¢ "æ»‘åŠ¨è§£é”"æˆä¸ºå²ä¸Šæœ€å…·è¾¨è¯†åº¦çš„äº¤äº’æ‰‹åŠ¿ä¹‹ä¸€\nâ€¢ å‚¬ç”Ÿäº†æ•´ä¸ªç§»åŠ¨åº”ç”¨ç”Ÿæ€ç³»ç»Ÿï¼ˆApp Storeï¼Œ2008ï¼‰\nâ€¢ è®©"ç”¨æˆ·ä½“éªŒè®¾è®¡"ä»Žè¾¹ç¼˜å­¦ç§‘å˜æˆæ ¸å¿ƒç«žäº‰åŠ›\nâ€¢ é‡æ–°å®šä¹‰äº†äº§å“å‘å¸ƒä¼šçš„å½¢å¼â€”â€”ç§‘æŠ€ç•Œçš„"One more thing"',
+    significance: 'iPhone æ˜¯21ä¸–çºªæœ€å…·å½±å“åŠ›çš„è®¾è®¡ä½œå“ï¼Œæ²¡æœ‰ä¹‹ä¸€ã€‚å®ƒä¸åªæ˜¯ä¸€ä¸ªäº§å“ï¼Œè€Œæ˜¯ä¸€ä¸ª**è®¾è®¡èŒƒå¼çš„è½¬æŠ˜ç‚¹**â€”â€”è¯æ˜Žäº†å¥½çš„è®¾è®¡å¯ä»¥é‡æ–°å®šä¹‰ä¸€ä¸ªå“ç±»ï¼Œç”šè‡³æ”¹å˜äººç±»çš„æ—¥å¸¸è¡Œä¸ºæ–¹å¼ã€‚ä»Žæ­¤ä»¥åŽï¼Œæ¯ä¸€ä¸ªæ¶ˆè´¹ç”µå­äº§å“éƒ½åœ¨è¿½é—®åŒä¸€ä¸ªé—®é¢˜ï¼š"ç”¨æˆ·ä½“éªŒå¤Ÿå¥½å—ï¼Ÿ"',
 
-    dateConnection_en: 'On January 9, 2007, Steve Jobs unveiled the original iPhone at Macworld — "an iPod, a phone, and a breakthrough internet communications device." Those three phrases changed the entire consumer electronics industry.',
+    dateConnection_en: 'On January 9, 2007, Steve Jobs unveiled the original iPhone at Macworld â€” "an iPod, a phone, and a breakthrough internet communications device." Those three phrases changed the entire consumer electronics industry.',
     designerBio_en: `Apple's industrial design team, led by Jony Ive, fused hardware, software, and interaction into a single unified experience.
 
-The iPhone's design philosophy wasn't "make a better phone" — it was **redefine what a phone should be.** In an era of physical keyboards and styluses, iPhone replaced everything with a 3.5-inch multi-touch display. The moment Steve Jobs performed "slide to unlock" on stage, the industry's paradigm was rewritten.`,
+The iPhone's design philosophy wasn't "make a better phone" â€” it was **redefine what a phone should be.** In an era of physical keyboards and styluses, iPhone replaced everything with a 3.5-inch multi-touch display. The moment Steve Jobs performed "slide to unlock" on stage, the industry's paradigm was rewritten.`,
     story_en: `The iPhone was born from an internal initiative called "Project Purple." The team worked for over two years in a locked room at Apple headquarters, with a sign on the door reading "Fight Club."
 
-**"We want a product that doesn't need a manual."** That was Jobs' core design principle. To achieve it, iPhone practiced radical subtraction — no physical keyboard, no stylus, no removable battery. Every elimination was considered insane at the time.
+**"We want a product that doesn't need a manual."** That was Jobs' core design principle. To achieve it, iPhone practiced radical subtraction â€” no physical keyboard, no stylus, no removable battery. Every elimination was considered insane at the time.
 
-The most revolutionary design decision was **multi-touch.** Previous touchscreens were resistive, requiring firm pressure and recognizing only single points. iPhone's capacitive multi-touch made "pinch to zoom" possible — a gesture now embedded in humanity's muscle memory.
+The most revolutionary design decision was **multi-touch.** Previous touchscreens were resistive, requiring firm pressure and recognizing only single points. iPhone's capacitive multi-touch made "pinch to zoom" possible â€” a gesture now embedded in humanity's muscle memory.
 
 The keynote's most iconic moment: Jobs displayed a photo, then gently pinched with two fingers. The photo shrank. The audience went silent for one second, then erupted in cheers. That one second of silence was people's brains recalibrating their understanding of human-computer interaction.
 
-The original iPhone had no App Store (that came a year later), no 3G, no copy-paste. But through **impeccable interaction design** and **unprecedented interface aesthetics**, it proved one thing: great design isn't about stacking features — it's about reimagining the experience.`,
-    legacy_en: '• Killed the physical keyboard phone, inaugurating the all-touch smartphone era\n• "Slide to unlock" became one of the most recognizable interaction gestures in history\n• Spawned the entire mobile app ecosystem (App Store, 2008)\n• Elevated "user experience design" from a niche discipline to a core competitive advantage\n• Redefined the product launch format — tech\'s "One more thing"',
-    significance_en: 'The iPhone is the most influential design artifact of the 21st century, bar none. It wasn\'t just a product but a **paradigm shift in design** — proving that great design can redefine an entire category and even change how humans behave daily. Ever since, every consumer electronics product asks the same question: "Is the user experience good enough?"',
+The original iPhone had no App Store (that came a year later), no 3G, no copy-paste. But through **impeccable interaction design** and **unprecedented interface aesthetics**, it proved one thing: great design isn't about stacking features â€” it's about reimagining the experience.`,
+    legacy_en: 'â€¢ Killed the physical keyboard phone, inaugurating the all-touch smartphone era\nâ€¢ "Slide to unlock" became one of the most recognizable interaction gestures in history\nâ€¢ Spawned the entire mobile app ecosystem (App Store, 2008)\nâ€¢ Elevated "user experience design" from a niche discipline to a core competitive advantage\nâ€¢ Redefined the product launch format â€” tech\'s "One more thing"',
+    significance_en: 'The iPhone is the most influential design artifact of the 21st century, bar none. It wasn\'t just a product but a **paradigm shift in design** â€” proving that great design can redefine an entire category and even change how humans behave daily. Ever since, every consumer electronics product asks the same question: "Is the user experience good enough?"',
   },
 
   // 01-10: Single Form
@@ -3205,47 +3205,47 @@ The original iPhone had no App Store (that came a year later), no 3G, no copy-pa
     fullImageUrl: '/the-daily-object/images/full/single-form-hepworth.jpg',
     title: 'Single Form',
     title_en: 'Single Form',
-    subtitle: 'Barbara Hepworth, 1961–64',
-    subtitle_en: 'Barbara Hepworth, 1961–64',
+    subtitle: 'Barbara Hepworth, 1961â€“64',
+    subtitle_en: 'Barbara Hepworth, 1961â€“64',
     category: 'art',
     designer: 'Barbara Hepworth',
     year: '1964',
 
-    dateConnection: 'Barbara Hepworth 于1903年1月10日出生在英国约克郡韦克菲尔德。她是20世纪最重要的雕塑家之一，与 Henry Moore 并列为英国现代雕塑的奠基人。',
-    designerBio: `Barbara Hepworth（1903–1975），英国雕塑家，抽象雕塑运动的核心人物。
+    dateConnection: 'Barbara Hepworth äºŽ1903å¹´1æœˆ10æ—¥å‡ºç”Ÿåœ¨è‹±å›½çº¦å…‹éƒ¡éŸ¦å…‹è²å°”å¾·ã€‚å¥¹æ˜¯20ä¸–çºªæœ€é‡è¦çš„é›•å¡‘å®¶ä¹‹ä¸€ï¼Œä¸Ž Henry Moore å¹¶åˆ—ä¸ºè‹±å›½çŽ°ä»£é›•å¡‘çš„å¥ åŸºäººã€‚',
+    designerBio: `Barbara Hepworthï¼ˆ1903â€“1975ï¼‰ï¼Œè‹±å›½é›•å¡‘å®¶ï¼ŒæŠ½è±¡é›•å¡‘è¿åŠ¨çš„æ ¸å¿ƒäººç‰©ã€‚
 
-她的作品以**有机形态与负空间**的对话著称——在坚实的材料中开凿出空洞，让光线和空气穿透雕塑。这不是简单的"挖洞"，而是一种关于**内与外、实与虚、存在与缺席**的哲学探索。
+å¥¹çš„ä½œå“ä»¥**æœ‰æœºå½¢æ€ä¸Žè´Ÿç©ºé—´**çš„å¯¹è¯è‘—ç§°â€”â€”åœ¨åšå®žçš„ææ–™ä¸­å¼€å‡¿å‡ºç©ºæ´žï¼Œè®©å…‰çº¿å’Œç©ºæ°”ç©¿é€é›•å¡‘ã€‚è¿™ä¸æ˜¯ç®€å•çš„"æŒ–æ´ž"ï¼Œè€Œæ˜¯ä¸€ç§å…³äºŽ**å†…ä¸Žå¤–ã€å®žä¸Žè™šã€å­˜åœ¨ä¸Žç¼ºå¸­**çš„å“²å­¦æŽ¢ç´¢ã€‚
 
-Hepworth 在男性主导的雕塑界开辟了独特的道路。她不追随当时流行的几何抽象，而是从约克郡的山丘和康沃尔的海岸线中汲取灵感，创造出既现代又永恒的形式语言。`,
-    story: `1961年，联合国秘书长 Dag Hammarskjöld 在非洲因空难去世。他生前一直梦想在联合国总部放置一件 Hepworth 的作品。为纪念这位和平使者，联合国委托 Hepworth 创作一件纪念雕塑。
+Hepworth åœ¨ç”·æ€§ä¸»å¯¼çš„é›•å¡‘ç•Œå¼€è¾Ÿäº†ç‹¬ç‰¹çš„é“è·¯ã€‚å¥¹ä¸è¿½éšå½“æ—¶æµè¡Œçš„å‡ ä½•æŠ½è±¡ï¼Œè€Œæ˜¯ä»Žçº¦å…‹éƒ¡çš„å±±ä¸˜å’Œåº·æ²ƒå°”çš„æµ·å²¸çº¿ä¸­æ±²å–çµæ„Ÿï¼Œåˆ›é€ å‡ºæ—¢çŽ°ä»£åˆæ°¸æ’çš„å½¢å¼è¯­è¨€ã€‚`,
+    story: `1961å¹´ï¼Œè”åˆå›½ç§˜ä¹¦é•¿ Dag HammarskjÃ¶ld åœ¨éžæ´²å› ç©ºéš¾åŽ»ä¸–ã€‚ä»–ç”Ÿå‰ä¸€ç›´æ¢¦æƒ³åœ¨è”åˆå›½æ€»éƒ¨æ”¾ç½®ä¸€ä»¶ Hepworth çš„ä½œå“ã€‚ä¸ºçºªå¿µè¿™ä½å’Œå¹³ä½¿è€…ï¼Œè”åˆå›½å§”æ‰˜ Hepworth åˆ›ä½œä¸€ä»¶çºªå¿µé›•å¡‘ã€‚
 
-**Single Form** 就此诞生——一块高达 6.4 米的青铜巨作，矗立在联合国总部广场的水池中。
+**Single Form** å°±æ­¤è¯žç”Ÿâ€”â€”ä¸€å—é«˜è¾¾ 6.4 ç±³çš„é’é“œå·¨ä½œï¼ŒçŸ—ç«‹åœ¨è”åˆå›½æ€»éƒ¨å¹¿åœºçš„æ°´æ± ä¸­ã€‚
 
-这件作品的力量在于它的**极致简洁**。一个垂直的椭圆形体，表面有一个圆形的凹陷，仿佛一只凝视世界的眼睛。没有任何具象元素，没有人物，没有符号——只有纯粹的形式在传递一种庄严的平静。
+è¿™ä»¶ä½œå“çš„åŠ›é‡åœ¨äºŽå®ƒçš„**æžè‡´ç®€æ´**ã€‚ä¸€ä¸ªåž‚ç›´çš„æ¤­åœ†å½¢ä½“ï¼Œè¡¨é¢æœ‰ä¸€ä¸ªåœ†å½¢çš„å‡¹é™·ï¼Œä»¿ä½›ä¸€åªå‡è§†ä¸–ç•Œçš„çœ¼ç›ã€‚æ²¡æœ‰ä»»ä½•å…·è±¡å…ƒç´ ï¼Œæ²¡æœ‰äººç‰©ï¼Œæ²¡æœ‰ç¬¦å·â€”â€”åªæœ‰çº¯ç²¹çš„å½¢å¼åœ¨ä¼ é€’ä¸€ç§åº„ä¸¥çš„å¹³é™ã€‚
 
-Hepworth 说："我希望这件作品能传达一种**人类精神的坚定与宁静**。" 她花了三年时间完善这个形式——调整曲线的弧度、凹陷的深度、表面的纹理。每一个决定都是为了让这件巨大的雕塑既有纪念碑的庄严，又有人性的温度。
+Hepworth è¯´ï¼š"æˆ‘å¸Œæœ›è¿™ä»¶ä½œå“èƒ½ä¼ è¾¾ä¸€ç§**äººç±»ç²¾ç¥žçš„åšå®šä¸Žå®é™**ã€‚" å¥¹èŠ±äº†ä¸‰å¹´æ—¶é—´å®Œå–„è¿™ä¸ªå½¢å¼â€”â€”è°ƒæ•´æ›²çº¿çš„å¼§åº¦ã€å‡¹é™·çš„æ·±åº¦ã€è¡¨é¢çš„çº¹ç†ã€‚æ¯ä¸€ä¸ªå†³å®šéƒ½æ˜¯ä¸ºäº†è®©è¿™ä»¶å·¨å¤§çš„é›•å¡‘æ—¢æœ‰çºªå¿µç¢‘çš„åº„ä¸¥ï¼Œåˆæœ‰äººæ€§çš„æ¸©åº¦ã€‚
 
-1964年6月11日，Single Form 在联合国总部揭幕。阳光穿过青铜表面的圆孔，在水面投下变幻的光影——这正是 Hepworth 设计的一部分：**让自然光成为雕塑的共同创作者**。`,
-    legacy: '• 成为联合国总部最标志性的艺术品，象征着国际和平与人类尊严\n• 证明了抽象雕塑可以承载深厚的情感和公共意义\n• 开创了"负空间"作为雕塑核心语言的传统，影响了 Anish Kapoor 等后来者\n• 在公共艺术领域树立了标杆——雕塑不是建筑的附属品，而是空间的定义者',
-    significance: 'Single Form 代表了雕塑与建筑、公共空间的理想融合。它证明了**纯粹的抽象形式可以与每一个人对话**——不需要文字，不需要叙事，一个形状就足以传递和平、尊严和人类精神的力量。这种"少即是多"的设计哲学，至今影响着公共艺术和空间设计。',
+1964å¹´6æœˆ11æ—¥ï¼ŒSingle Form åœ¨è”åˆå›½æ€»éƒ¨æ­å¹•ã€‚é˜³å…‰ç©¿è¿‡é’é“œè¡¨é¢çš„åœ†å­”ï¼Œåœ¨æ°´é¢æŠ•ä¸‹å˜å¹»çš„å…‰å½±â€”â€”è¿™æ­£æ˜¯ Hepworth è®¾è®¡çš„ä¸€éƒ¨åˆ†ï¼š**è®©è‡ªç„¶å…‰æˆä¸ºé›•å¡‘çš„å…±åŒåˆ›ä½œè€…**ã€‚`,
+    legacy: 'â€¢ æˆä¸ºè”åˆå›½æ€»éƒ¨æœ€æ ‡å¿—æ€§çš„è‰ºæœ¯å“ï¼Œè±¡å¾ç€å›½é™…å’Œå¹³ä¸Žäººç±»å°Šä¸¥\nâ€¢ è¯æ˜Žäº†æŠ½è±¡é›•å¡‘å¯ä»¥æ‰¿è½½æ·±åŽšçš„æƒ…æ„Ÿå’Œå…¬å…±æ„ä¹‰\nâ€¢ å¼€åˆ›äº†"è´Ÿç©ºé—´"ä½œä¸ºé›•å¡‘æ ¸å¿ƒè¯­è¨€çš„ä¼ ç»Ÿï¼Œå½±å“äº† Anish Kapoor ç­‰åŽæ¥è€…\nâ€¢ åœ¨å…¬å…±è‰ºæœ¯é¢†åŸŸæ ‘ç«‹äº†æ ‡æ†â€”â€”é›•å¡‘ä¸æ˜¯å»ºç­‘çš„é™„å±žå“ï¼Œè€Œæ˜¯ç©ºé—´çš„å®šä¹‰è€…',
+    significance: 'Single Form ä»£è¡¨äº†é›•å¡‘ä¸Žå»ºç­‘ã€å…¬å…±ç©ºé—´çš„ç†æƒ³èžåˆã€‚å®ƒè¯æ˜Žäº†**çº¯ç²¹çš„æŠ½è±¡å½¢å¼å¯ä»¥ä¸Žæ¯ä¸€ä¸ªäººå¯¹è¯**â€”â€”ä¸éœ€è¦æ–‡å­—ï¼Œä¸éœ€è¦å™äº‹ï¼Œä¸€ä¸ªå½¢çŠ¶å°±è¶³ä»¥ä¼ é€’å’Œå¹³ã€å°Šä¸¥å’Œäººç±»ç²¾ç¥žçš„åŠ›é‡ã€‚è¿™ç§"å°‘å³æ˜¯å¤š"çš„è®¾è®¡å“²å­¦ï¼Œè‡³ä»Šå½±å“ç€å…¬å…±è‰ºæœ¯å’Œç©ºé—´è®¾è®¡ã€‚',
 
     dateConnection_en: 'Barbara Hepworth was born on January 10, 1903 in Wakefield, Yorkshire. She was one of the most important sculptors of the 20th century, standing alongside Henry Moore as a founder of British modern sculpture.',
-    designerBio_en: `Barbara Hepworth (1903–1975), British sculptor and a central figure in the abstract sculpture movement.
+    designerBio_en: `Barbara Hepworth (1903â€“1975), British sculptor and a central figure in the abstract sculpture movement.
 
-Her work is celebrated for the dialogue between **organic form and negative space** — carving voids into solid materials, allowing light and air to penetrate the sculpture. This wasn't simply "making holes" but a philosophical exploration of **interior and exterior, solid and void, presence and absence.**
+Her work is celebrated for the dialogue between **organic form and negative space** â€” carving voids into solid materials, allowing light and air to penetrate the sculpture. This wasn't simply "making holes" but a philosophical exploration of **interior and exterior, solid and void, presence and absence.**
 
 Hepworth forged a distinctive path in the male-dominated sculpture world. Rather than following the prevailing geometric abstraction, she drew inspiration from the hills of Yorkshire and the coastline of Cornwall, creating a formal language that was both modern and timeless.`,
-    story_en: `In 1961, UN Secretary-General Dag Hammarskjöld died in a plane crash in Africa. He had long dreamed of placing a Hepworth work at UN headquarters. To honor this peace advocate, the United Nations commissioned Hepworth to create a memorial sculpture.
+    story_en: `In 1961, UN Secretary-General Dag HammarskjÃ¶ld died in a plane crash in Africa. He had long dreamed of placing a Hepworth work at UN headquarters. To honor this peace advocate, the United Nations commissioned Hepworth to create a memorial sculpture.
 
-**Single Form** was born — a towering 6.4-meter bronze monolith standing in the reflecting pool at UN Plaza.
+**Single Form** was born â€” a towering 6.4-meter bronze monolith standing in the reflecting pool at UN Plaza.
 
-The work's power lies in its **radical simplicity.** A vertical oval form with a circular concavity on its surface, like an eye gazing upon the world. No figurative elements, no characters, no symbols — only pure form conveying a solemn tranquility.
+The work's power lies in its **radical simplicity.** A vertical oval form with a circular concavity on its surface, like an eye gazing upon the world. No figurative elements, no characters, no symbols â€” only pure form conveying a solemn tranquility.
 
-Hepworth said: "I wanted the work to convey a sense of **steadfastness and serenity of the human spirit.**" She spent three years perfecting the form — adjusting the curvature, the depth of the concavity, the surface texture. Every decision aimed to give this monumental sculpture both the gravity of a memorial and the warmth of humanity.
+Hepworth said: "I wanted the work to convey a sense of **steadfastness and serenity of the human spirit.**" She spent three years perfecting the form â€” adjusting the curvature, the depth of the concavity, the surface texture. Every decision aimed to give this monumental sculpture both the gravity of a memorial and the warmth of humanity.
 
-On June 11, 1964, Single Form was unveiled at UN headquarters. Sunlight passed through the circular aperture in the bronze surface, casting shifting patterns on the water below — exactly as Hepworth had designed: **making natural light a co-creator of the sculpture.**`,
-    legacy_en: '• Became the most iconic artwork at UN headquarters, symbolizing international peace and human dignity\n• Proved that abstract sculpture can carry profound emotion and public meaning\n• Pioneered "negative space" as a core sculptural language, influencing later artists like Anish Kapoor\n• Set a benchmark in public art — sculpture as a definer of space, not an accessory to architecture',
-    significance_en: 'Single Form represents the ideal fusion of sculpture, architecture, and public space. It proved that **pure abstract form can speak to everyone** — no words needed, no narrative required, a single shape sufficient to convey peace, dignity, and the power of the human spirit. This "less is more" design philosophy continues to influence public art and spatial design today.',
+On June 11, 1964, Single Form was unveiled at UN headquarters. Sunlight passed through the circular aperture in the bronze surface, casting shifting patterns on the water below â€” exactly as Hepworth had designed: **making natural light a co-creator of the sculpture.**`,
+    legacy_en: 'â€¢ Became the most iconic artwork at UN headquarters, symbolizing international peace and human dignity\nâ€¢ Proved that abstract sculpture can carry profound emotion and public meaning\nâ€¢ Pioneered "negative space" as a core sculptural language, influencing later artists like Anish Kapoor\nâ€¢ Set a benchmark in public art â€” sculpture as a definer of space, not an accessory to architecture',
+    significance_en: 'Single Form represents the ideal fusion of sculpture, architecture, and public space. It proved that **pure abstract form can speak to everyone** â€” no words needed, no narrative required, a single shape sufficient to convey peace, dignity, and the power of the human spirit. This "less is more" design philosophy continues to influence public art and spatial design today.',
   },
 
   // 01-11: Oscar Statuette
@@ -3262,45 +3262,45 @@ On June 11, 1964, Single Form was unveiled at UN headquarters. Sunlight passed t
     designer: 'George Stanley',
     year: '1929',
 
-    dateConnection: '1927年1月11日，美国电影艺术与科学学院（AMPAS）正式成立。两年后，学院创造了奥斯卡金像奖——影史上最著名的设计物件之一。',
-    designerBio: `奥斯卡小金人的设计出自 Cedric Gibbons 之手——他是米高梅的首席艺术总监，也是好莱坞布景设计的教父级人物。
+    dateConnection: '1927å¹´1æœˆ11æ—¥ï¼Œç¾Žå›½ç”µå½±è‰ºæœ¯ä¸Žç§‘å­¦å­¦é™¢ï¼ˆAMPASï¼‰æ­£å¼æˆç«‹ã€‚ä¸¤å¹´åŽï¼Œå­¦é™¢åˆ›é€ äº†å¥¥æ–¯å¡é‡‘åƒå¥–â€”â€”å½±å²ä¸Šæœ€è‘—åçš„è®¾è®¡ç‰©ä»¶ä¹‹ä¸€ã€‚',
+    designerBio: `å¥¥æ–¯å¡å°é‡‘äººçš„è®¾è®¡å‡ºè‡ª Cedric Gibbons ä¹‹æ‰‹â€”â€”ä»–æ˜¯ç±³é«˜æ¢…çš„é¦–å¸­è‰ºæœ¯æ€»ç›‘ï¼Œä¹Ÿæ˜¯å¥½èŽ±åžå¸ƒæ™¯è®¾è®¡çš„æ•™çˆ¶çº§äººç‰©ã€‚
 
-Gibbons 在一次学院晚宴的餐巾纸上画下了最初的草图：一个骑士站在一卷胶片上，手持一把十字军宝剑。这个草图后来由雕塑家 George Stanley 塑造成三维形态。
+Gibbons åœ¨ä¸€æ¬¡å­¦é™¢æ™šå®´çš„é¤å·¾çº¸ä¸Šç”»ä¸‹äº†æœ€åˆçš„è‰å›¾ï¼šä¸€ä¸ªéª‘å£«ç«™åœ¨ä¸€å·èƒ¶ç‰‡ä¸Šï¼Œæ‰‹æŒä¸€æŠŠåå­—å†›å®å‰‘ã€‚è¿™ä¸ªè‰å›¾åŽæ¥ç”±é›•å¡‘å®¶ George Stanley å¡‘é€ æˆä¸‰ç»´å½¢æ€ã€‚
 
-**Gibbons 本人后来赢了11座奥斯卡**——比任何人都了解这个小金人的分量。`,
-    story: `Oscar 小金人的设计堪称**工业设计史上最持久的品牌形象之一**。
+**Gibbons æœ¬äººåŽæ¥èµ¢äº†11åº§å¥¥æ–¯å¡**â€”â€”æ¯”ä»»ä½•äººéƒ½äº†è§£è¿™ä¸ªå°é‡‘äººçš„åˆ†é‡ã€‚`,
+    story: `Oscar å°é‡‘äººçš„è®¾è®¡å ªç§°**å·¥ä¸šè®¾è®¡å²ä¸Šæœ€æŒä¹…çš„å“ç‰Œå½¢è±¡ä¹‹ä¸€**ã€‚
 
-1929年的初版设计至今几乎没有改变——34厘米高，3.9公斤重，一个 Art Deco 风格的骑士形象。这种设计的持久性本身就是一种成就：在一个每年都在追求新鲜感的行业里，Oscar 用**不变**赢得了永恒。
+1929å¹´çš„åˆç‰ˆè®¾è®¡è‡³ä»Šå‡ ä¹Žæ²¡æœ‰æ”¹å˜â€”â€”34åŽ˜ç±³é«˜ï¼Œ3.9å…¬æ–¤é‡ï¼Œä¸€ä¸ª Art Deco é£Žæ ¼çš„éª‘å£«å½¢è±¡ã€‚è¿™ç§è®¾è®¡çš„æŒä¹…æ€§æœ¬èº«å°±æ˜¯ä¸€ç§æˆå°±ï¼šåœ¨ä¸€ä¸ªæ¯å¹´éƒ½åœ¨è¿½æ±‚æ–°é²œæ„Ÿçš„è¡Œä¸šé‡Œï¼ŒOscar ç”¨**ä¸å˜**èµ¢å¾—äº†æ°¸æ’ã€‚
 
-小金人的 Art Deco 美学绝非偶然。1920年代末正是 Art Deco 运动的巅峰——几何化的人体、流线型的轮廓、简洁有力的形式。Oscar 完美捕捉了那个时代的设计精神，又因为足够抽象而超越了时代。
+å°é‡‘äººçš„ Art Deco ç¾Žå­¦ç»éžå¶ç„¶ã€‚1920å¹´ä»£æœ«æ­£æ˜¯ Art Deco è¿åŠ¨çš„å·…å³°â€”â€”å‡ ä½•åŒ–çš„äººä½“ã€æµçº¿åž‹çš„è½®å»“ã€ç®€æ´æœ‰åŠ›çš„å½¢å¼ã€‚Oscar å®Œç¾Žæ•æ‰äº†é‚£ä¸ªæ—¶ä»£çš„è®¾è®¡ç²¾ç¥žï¼Œåˆå› ä¸ºè¶³å¤ŸæŠ½è±¡è€Œè¶…è¶Šäº†æ—¶ä»£ã€‚
 
-**制造工艺的演变**也是一部材料设计史：最初是青铜镀金，二战期间因金属短缺改用石膏（战后可以换回金属版），如今是锡锑铜合金电镀24K金。每一座 Oscar 都要经过数十道工序的手工打磨。
+**åˆ¶é€ å·¥è‰ºçš„æ¼”å˜**ä¹Ÿæ˜¯ä¸€éƒ¨ææ–™è®¾è®¡å²ï¼šæœ€åˆæ˜¯é’é“œé•€é‡‘ï¼ŒäºŒæˆ˜æœŸé—´å› é‡‘å±žçŸ­ç¼ºæ”¹ç”¨çŸ³è†ï¼ˆæˆ˜åŽå¯ä»¥æ¢å›žé‡‘å±žç‰ˆï¼‰ï¼Œå¦‚ä»Šæ˜¯é”¡é”‘é“œåˆé‡‘ç”µé•€24Ké‡‘ã€‚æ¯ä¸€åº§ Oscar éƒ½è¦ç»è¿‡æ•°åé“å·¥åºçš„æ‰‹å·¥æ‰“ç£¨ã€‚
 
-一个有趣的细节：Oscar 脚下的胶片卷轴有五个齿槽，分别代表学院的五个原始分支——演员、导演、制片人、技术人员和编剧。这种**将象征意义编织进形式细节**的做法，正是优秀设计的标志。
+ä¸€ä¸ªæœ‰è¶£çš„ç»†èŠ‚ï¼šOscar è„šä¸‹çš„èƒ¶ç‰‡å·è½´æœ‰äº”ä¸ªé½¿æ§½ï¼Œåˆ†åˆ«ä»£è¡¨å­¦é™¢çš„äº”ä¸ªåŽŸå§‹åˆ†æ”¯â€”â€”æ¼”å‘˜ã€å¯¼æ¼”ã€åˆ¶ç‰‡äººã€æŠ€æœ¯äººå‘˜å’Œç¼–å‰§ã€‚è¿™ç§**å°†è±¡å¾æ„ä¹‰ç¼–ç»‡è¿›å½¢å¼ç»†èŠ‚**çš„åšæ³•ï¼Œæ­£æ˜¯ä¼˜ç§€è®¾è®¡çš„æ ‡å¿—ã€‚
 
-为什么叫"Oscar"至今众说纷纭。最流行的说法是学院图书馆员 Margaret Herrick 看到小金人后说"他看起来像我的叔叔 Oscar"。无论真假，这个昵称比官方名称"Academy Award of Merit"亲切一万倍——**好的设计总会获得一个好的名字**。`,
-    legacy: '• 全球辨识度最高的奖杯设计，超越了电影行业本身\n• Art Deco 设计在当代文化中最持久的活化石\n• 定义了"颁奖典礼"的视觉语言——此后所有奖项都在某种程度上模仿它\n• 证明了极简形式的力量：近百年不变的设计，依然现代',
-    significance: 'Oscar 小金人是**设计持久力的终极证明**。在一个不断追新的世界里，它用近百年的不变证明了一个道理：真正伟大的设计不需要跟随潮流，因为它本身就是潮流无法超越的标准。每一个拿起小金人的人——从第一届的 Emil Jannings 到最新一届的获奖者——手中握着的是同一个设计。这种穿越时间的一致性，本身就是最优雅的设计宣言。',
+ä¸ºä»€ä¹ˆå«"Oscar"è‡³ä»Šä¼—è¯´çº·çº­ã€‚æœ€æµè¡Œçš„è¯´æ³•æ˜¯å­¦é™¢å›¾ä¹¦é¦†å‘˜ Margaret Herrick çœ‹åˆ°å°é‡‘äººåŽè¯´"ä»–çœ‹èµ·æ¥åƒæˆ‘çš„å”å” Oscar"ã€‚æ— è®ºçœŸå‡ï¼Œè¿™ä¸ªæ˜µç§°æ¯”å®˜æ–¹åç§°"Academy Award of Merit"äº²åˆ‡ä¸€ä¸‡å€â€”â€”**å¥½çš„è®¾è®¡æ€»ä¼šèŽ·å¾—ä¸€ä¸ªå¥½çš„åå­—**ã€‚`,
+    legacy: 'â€¢ å…¨çƒè¾¨è¯†åº¦æœ€é«˜çš„å¥–æ¯è®¾è®¡ï¼Œè¶…è¶Šäº†ç”µå½±è¡Œä¸šæœ¬èº«\nâ€¢ Art Deco è®¾è®¡åœ¨å½“ä»£æ–‡åŒ–ä¸­æœ€æŒä¹…çš„æ´»åŒ–çŸ³\nâ€¢ å®šä¹‰äº†"é¢å¥–å…¸ç¤¼"çš„è§†è§‰è¯­è¨€â€”â€”æ­¤åŽæ‰€æœ‰å¥–é¡¹éƒ½åœ¨æŸç§ç¨‹åº¦ä¸Šæ¨¡ä»¿å®ƒ\nâ€¢ è¯æ˜Žäº†æžç®€å½¢å¼çš„åŠ›é‡ï¼šè¿‘ç™¾å¹´ä¸å˜çš„è®¾è®¡ï¼Œä¾ç„¶çŽ°ä»£',
+    significance: 'Oscar å°é‡‘äººæ˜¯**è®¾è®¡æŒä¹…åŠ›çš„ç»ˆæžè¯æ˜Ž**ã€‚åœ¨ä¸€ä¸ªä¸æ–­è¿½æ–°çš„ä¸–ç•Œé‡Œï¼Œå®ƒç”¨è¿‘ç™¾å¹´çš„ä¸å˜è¯æ˜Žäº†ä¸€ä¸ªé“ç†ï¼šçœŸæ­£ä¼Ÿå¤§çš„è®¾è®¡ä¸éœ€è¦è·Ÿéšæ½®æµï¼Œå› ä¸ºå®ƒæœ¬èº«å°±æ˜¯æ½®æµæ— æ³•è¶…è¶Šçš„æ ‡å‡†ã€‚æ¯ä¸€ä¸ªæ‹¿èµ·å°é‡‘äººçš„äººâ€”â€”ä»Žç¬¬ä¸€å±Šçš„ Emil Jannings åˆ°æœ€æ–°ä¸€å±Šçš„èŽ·å¥–è€…â€”â€”æ‰‹ä¸­æ¡ç€çš„æ˜¯åŒä¸€ä¸ªè®¾è®¡ã€‚è¿™ç§ç©¿è¶Šæ—¶é—´çš„ä¸€è‡´æ€§ï¼Œæœ¬èº«å°±æ˜¯æœ€ä¼˜é›…çš„è®¾è®¡å®£è¨€ã€‚',
 
-    dateConnection_en: 'On January 11, 1927, the Academy of Motion Picture Arts and Sciences (AMPAS) was officially founded. Two years later, the Academy created the Oscar statuette — one of the most recognizable design objects in cinema history.',
-    designerBio_en: `The Oscar statuette was designed by Cedric Gibbons — MGM's chief art director and the godfather of Hollywood production design.
+    dateConnection_en: 'On January 11, 1927, the Academy of Motion Picture Arts and Sciences (AMPAS) was officially founded. Two years later, the Academy created the Oscar statuette â€” one of the most recognizable design objects in cinema history.',
+    designerBio_en: `The Oscar statuette was designed by Cedric Gibbons â€” MGM's chief art director and the godfather of Hollywood production design.
 
 Gibbons sketched the original concept on a napkin during an Academy dinner: a knight standing on a reel of film, holding a crusader's sword. Sculptor George Stanley then translated this sketch into three-dimensional form.
 
-**Gibbons himself went on to win 11 Oscars** — no one understood the weight of that statuette better.`,
+**Gibbons himself went on to win 11 Oscars** â€” no one understood the weight of that statuette better.`,
     story_en: `The Oscar statuette is **one of the most enduring brand identities in design history.**
 
-The 1929 original design has remained virtually unchanged — 34 centimeters tall, 3.9 kilograms, an Art Deco knight figure. This design longevity is itself an achievement: in an industry that craves novelty every year, Oscar won eternity through **staying the same.**
+The 1929 original design has remained virtually unchanged â€” 34 centimeters tall, 3.9 kilograms, an Art Deco knight figure. This design longevity is itself an achievement: in an industry that craves novelty every year, Oscar won eternity through **staying the same.**
 
-The Art Deco aesthetic was no accident. The late 1920s were the peak of the Art Deco movement — geometrized human forms, streamlined silhouettes, clean and powerful shapes. Oscar perfectly captured that era's design spirit, yet was abstract enough to transcend its time.
+The Art Deco aesthetic was no accident. The late 1920s were the peak of the Art Deco movement â€” geometrized human forms, streamlined silhouettes, clean and powerful shapes. Oscar perfectly captured that era's design spirit, yet was abstract enough to transcend its time.
 
 **The evolution of its manufacture** reads like a material design history: originally bronze with gold plating, switched to plaster during WWII due to metal shortages (recipients could exchange them for metal versions after the war), and today cast in a tin-antimony-copper alloy electroplated with 24-karat gold. Each Oscar undergoes dozens of hand-polishing steps.
 
-A fascinating detail: the film reel beneath Oscar's feet has five spokes, representing the Academy's five original branches — actors, directors, producers, technicians, and writers. This practice of **weaving symbolism into formal details** is the hallmark of excellent design.
+A fascinating detail: the film reel beneath Oscar's feet has five spokes, representing the Academy's five original branches â€” actors, directors, producers, technicians, and writers. This practice of **weaving symbolism into formal details** is the hallmark of excellent design.
 
-Why "Oscar"? The origin remains debated. The most popular story is that Academy librarian Margaret Herrick saw the statuette and remarked, "He reminds me of my Uncle Oscar." True or not, the nickname is infinitely warmer than the official "Academy Award of Merit" — **great design always earns a great name.**`,
-    legacy_en: '• The most globally recognized trophy design, transcending the film industry itself\n• The most enduring living fossil of Art Deco design in contemporary culture\n• Defined the visual language of "awards ceremonies" — every award since has imitated it to some degree\n• Proved the power of minimal form: a nearly century-old design that still feels modern',
-    significance_en: 'The Oscar statuette is **the ultimate proof of design longevity.** In a world obsessed with the new, it has spent nearly a century proving that truly great design doesn\'t need to follow trends — because it is the standard that trends cannot surpass. Every person who lifts an Oscar — from the first recipient Emil Jannings to the latest winner — holds the same design in their hands. That consistency across time is itself the most elegant design statement.',
+Why "Oscar"? The origin remains debated. The most popular story is that Academy librarian Margaret Herrick saw the statuette and remarked, "He reminds me of my Uncle Oscar." True or not, the nickname is infinitely warmer than the official "Academy Award of Merit" â€” **great design always earns a great name.**`,
+    legacy_en: 'â€¢ The most globally recognized trophy design, transcending the film industry itself\nâ€¢ The most enduring living fossil of Art Deco design in contemporary culture\nâ€¢ Defined the visual language of "awards ceremonies" â€” every award since has imitated it to some degree\nâ€¢ Proved the power of minimal form: a nearly century-old design that still feels modern',
+    significance_en: 'The Oscar statuette is **the ultimate proof of design longevity.** In a world obsessed with the new, it has spent nearly a century proving that truly great design doesn\'t need to follow trends â€” because it is the standard that trends cannot surpass. Every person who lifts an Oscar â€” from the first recipient Emil Jannings to the latest winner â€” holds the same design in their hands. That consistency across time is itself the most elegant design statement.',
   },
 
   // 01-12: Red House
@@ -3317,53 +3317,53 @@ Why "Oscar"? The origin remains debated. The most popular story is that Academy 
     designer: 'Philip Webb',
     year: '1860',
 
-    dateConnection: 'Philip Webb 于1831年1月12日出生在英国牛津。他是英国工艺美术运动最重要的建筑师，而 Red House 是他最著名的作品——也是整个运动的宣言建筑。',
-    designerBio: `Philip Webb（1831–1915），英国建筑师，工艺美术运动（Arts and Crafts Movement）的建筑核心人物。
+    dateConnection: 'Philip Webb äºŽ1831å¹´1æœˆ12æ—¥å‡ºç”Ÿåœ¨è‹±å›½ç‰›æ´¥ã€‚ä»–æ˜¯è‹±å›½å·¥è‰ºç¾Žæœ¯è¿åŠ¨æœ€é‡è¦çš„å»ºç­‘å¸ˆï¼Œè€Œ Red House æ˜¯ä»–æœ€è‘—åçš„ä½œå“â€”â€”ä¹Ÿæ˜¯æ•´ä¸ªè¿åŠ¨çš„å®£è¨€å»ºç­‘ã€‚',
+    designerBio: `Philip Webbï¼ˆ1831â€“1915ï¼‰ï¼Œè‹±å›½å»ºç­‘å¸ˆï¼Œå·¥è‰ºç¾Žæœ¯è¿åŠ¨ï¼ˆArts and Crafts Movementï¼‰çš„å»ºç­‘æ ¸å¿ƒäººç‰©ã€‚
 
-Webb 在建筑师 G.E. Street 的事务所里遇到了 William Morris——这段友谊改变了设计史。两人共同反对维多利亚时代工业化大生产对美学的摧残，主张**回归手工艺、诚实用材、形式追随功能**。
+Webb åœ¨å»ºç­‘å¸ˆ G.E. Street çš„äº‹åŠ¡æ‰€é‡Œé‡åˆ°äº† William Morrisâ€”â€”è¿™æ®µå‹è°Šæ”¹å˜äº†è®¾è®¡å²ã€‚ä¸¤äººå…±åŒåå¯¹ç»´å¤šåˆ©äºšæ—¶ä»£å·¥ä¸šåŒ–å¤§ç”Ÿäº§å¯¹ç¾Žå­¦çš„æ‘§æ®‹ï¼Œä¸»å¼ **å›žå½’æ‰‹å·¥è‰ºã€è¯šå®žç”¨æã€å½¢å¼è¿½éšåŠŸèƒ½**ã€‚
 
-Webb 的建筑哲学极其超前：他拒绝当时流行的历史主义风格的矫饰，坚持**让建筑诚实地表达它的结构和材料**。这种理念比现代主义早了半个多世纪。`,
-    story: `1859年，William Morris 结婚，他需要一栋房子。他找到了好友 Philip Webb，两人一起设计了 Red House——一栋红砖砌筑的乡间住宅，位于伦敦东南的 Bexleyheath。
+Webb çš„å»ºç­‘å“²å­¦æžå…¶è¶…å‰ï¼šä»–æ‹’ç»å½“æ—¶æµè¡Œçš„åŽ†å²ä¸»ä¹‰é£Žæ ¼çš„çŸ«é¥°ï¼ŒåšæŒ**è®©å»ºç­‘è¯šå®žåœ°è¡¨è¾¾å®ƒçš„ç»“æž„å’Œææ–™**ã€‚è¿™ç§ç†å¿µæ¯”çŽ°ä»£ä¸»ä¹‰æ—©äº†åŠä¸ªå¤šä¸–çºªã€‚`,
+    story: `1859å¹´ï¼ŒWilliam Morris ç»“å©šï¼Œä»–éœ€è¦ä¸€æ ‹æˆ¿å­ã€‚ä»–æ‰¾åˆ°äº†å¥½å‹ Philip Webbï¼Œä¸¤äººä¸€èµ·è®¾è®¡äº† Red Houseâ€”â€”ä¸€æ ‹çº¢ç –ç Œç­‘çš„ä¹¡é—´ä½å®…ï¼Œä½äºŽä¼¦æ•¦ä¸œå—çš„ Bexleyheathã€‚
 
-**Red House 是建筑史上的一次宣言。**
+**Red House æ˜¯å»ºç­‘å²ä¸Šçš„ä¸€æ¬¡å®£è¨€ã€‚**
 
-在维多利亚时代，体面的房子应该是什么样？古典柱廊、对称立面、粉刷成白色或灰色的灰泥外墙。Red House 拒绝了这一切。
+åœ¨ç»´å¤šåˆ©äºšæ—¶ä»£ï¼Œä½“é¢çš„æˆ¿å­åº”è¯¥æ˜¯ä»€ä¹ˆæ ·ï¼Ÿå¤å…¸æŸ±å»Šã€å¯¹ç§°ç«‹é¢ã€ç²‰åˆ·æˆç™½è‰²æˆ–ç°è‰²çš„ç°æ³¥å¤–å¢™ã€‚Red House æ‹’ç»äº†è¿™ä¸€åˆ‡ã€‚
 
-Webb 用**裸露的红砖**代替灰泥——不加修饰，让材料以本来面目示人。这在当时是惊世骇俗的：红砖被视为"穷人的材料"，不配出现在绅士的宅邸上。
+Webb ç”¨**è£¸éœ²çš„çº¢ç –**ä»£æ›¿ç°æ³¥â€”â€”ä¸åŠ ä¿®é¥°ï¼Œè®©ææ–™ä»¥æœ¬æ¥é¢ç›®ç¤ºäººã€‚è¿™åœ¨å½“æ—¶æ˜¯æƒŠä¸–éª‡ä¿—çš„ï¼šçº¢ç –è¢«è§†ä¸º"ç©·äººçš„ææ–™"ï¼Œä¸é…å‡ºçŽ°åœ¨ç»…å£«çš„å®…é‚¸ä¸Šã€‚
 
-建筑的平面布局不是对称的——它**追随功能**。房间根据实际需要来安排，走廊根据动线来弯曲，窗户根据采光需求来开设。这种"形式追随功能"的理念，比 Louis Sullivan 的名言早了近40年。
+å»ºç­‘çš„å¹³é¢å¸ƒå±€ä¸æ˜¯å¯¹ç§°çš„â€”â€”å®ƒ**è¿½éšåŠŸèƒ½**ã€‚æˆ¿é—´æ ¹æ®å®žé™…éœ€è¦æ¥å®‰æŽ’ï¼Œèµ°å»Šæ ¹æ®åŠ¨çº¿æ¥å¼¯æ›²ï¼Œçª—æˆ·æ ¹æ®é‡‡å…‰éœ€æ±‚æ¥å¼€è®¾ã€‚è¿™ç§"å½¢å¼è¿½éšåŠŸèƒ½"çš„ç†å¿µï¼Œæ¯” Louis Sullivan çš„åè¨€æ—©äº†è¿‘40å¹´ã€‚
 
-室内设计同样革命性。Morris 和他的朋友们（包括 Edward Burne-Jones 和 Dante Gabriel Rossetti）亲手绘制壁画、设计家具、编织挂毯。**每一件物品都是手工制作的**，每一面墙都讲述一个故事。
+å®¤å†…è®¾è®¡åŒæ ·é©å‘½æ€§ã€‚Morris å’Œä»–çš„æœ‹å‹ä»¬ï¼ˆåŒ…æ‹¬ Edward Burne-Jones å’Œ Dante Gabriel Rossettiï¼‰äº²æ‰‹ç»˜åˆ¶å£ç”»ã€è®¾è®¡å®¶å…·ã€ç¼–ç»‡æŒ‚æ¯¯ã€‚**æ¯ä¸€ä»¶ç‰©å“éƒ½æ˜¯æ‰‹å·¥åˆ¶ä½œçš„**ï¼Œæ¯ä¸€é¢å¢™éƒ½è®²è¿°ä¸€ä¸ªæ•…äº‹ã€‚
 
-正是在 Red House 的建造过程中，Morris 发现市面上买不到他满意的家具和装饰品——这直接促使他创办了 Morris, Marshall, Faulkner & Co.（后来的 Morris & Co.），开启了工艺美术运动的商业实践。
+æ­£æ˜¯åœ¨ Red House çš„å»ºé€ è¿‡ç¨‹ä¸­ï¼ŒMorris å‘çŽ°å¸‚é¢ä¸Šä¹°ä¸åˆ°ä»–æ»¡æ„çš„å®¶å…·å’Œè£…é¥°å“â€”â€”è¿™ç›´æŽ¥ä¿ƒä½¿ä»–åˆ›åŠžäº† Morris, Marshall, Faulkner & Co.ï¼ˆåŽæ¥çš„ Morris & Co.ï¼‰ï¼Œå¼€å¯äº†å·¥è‰ºç¾Žæœ¯è¿åŠ¨çš„å•†ä¸šå®žè·µã€‚
 
-**一栋房子催生了一场运动。** 从 Red House 到 Morris & Co.，从工艺美术运动到包豪斯，一条清晰的设计思想谱系延伸至今。`,
-    legacy: '• 工艺美术运动的起源建筑，直接催生了 Morris & Co. 的成立\n• "形式追随功能"的早期实践者——比 Sullivan 和现代主义早了几十年\n• 诚实用材的先驱：裸露红砖、不加修饰，影响了后来的 Brutalism 和当代建筑\n• 总体艺术品（Gesamtkunstwerk）理念的建筑实践——建筑、家具、装饰、景观浑然一体\n• 从 Red House 到 Bauhaus 的思想谱系：手工艺精神、整合设计、反工业化粗制滥造',
-    significance: 'Red House 是**现代设计思想的源头之一**。它证明了建筑可以诚实、可以不矫饰、可以让功能而非风格来决定形式。从 Red House 出发，经由工艺美术运动、新艺术运动，到包豪斯和现代主义——这条线索清晰可循。每一个主张"好设计应该诚实"的设计师，都在呼应160多年前 Webb 和 Morris 在这栋红砖房子里做出的选择。',
+**ä¸€æ ‹æˆ¿å­å‚¬ç”Ÿäº†ä¸€åœºè¿åŠ¨ã€‚** ä»Ž Red House åˆ° Morris & Co.ï¼Œä»Žå·¥è‰ºç¾Žæœ¯è¿åŠ¨åˆ°åŒ…è±ªæ–¯ï¼Œä¸€æ¡æ¸…æ™°çš„è®¾è®¡æ€æƒ³è°±ç³»å»¶ä¼¸è‡³ä»Šã€‚`,
+    legacy: 'â€¢ å·¥è‰ºç¾Žæœ¯è¿åŠ¨çš„èµ·æºå»ºç­‘ï¼Œç›´æŽ¥å‚¬ç”Ÿäº† Morris & Co. çš„æˆç«‹\nâ€¢ "å½¢å¼è¿½éšåŠŸèƒ½"çš„æ—©æœŸå®žè·µè€…â€”â€”æ¯” Sullivan å’ŒçŽ°ä»£ä¸»ä¹‰æ—©äº†å‡ åå¹´\nâ€¢ è¯šå®žç”¨æçš„å…ˆé©±ï¼šè£¸éœ²çº¢ç –ã€ä¸åŠ ä¿®é¥°ï¼Œå½±å“äº†åŽæ¥çš„ Brutalism å’Œå½“ä»£å»ºç­‘\nâ€¢ æ€»ä½“è‰ºæœ¯å“ï¼ˆGesamtkunstwerkï¼‰ç†å¿µçš„å»ºç­‘å®žè·µâ€”â€”å»ºç­‘ã€å®¶å…·ã€è£…é¥°ã€æ™¯è§‚æµ‘ç„¶ä¸€ä½“\nâ€¢ ä»Ž Red House åˆ° Bauhaus çš„æ€æƒ³è°±ç³»ï¼šæ‰‹å·¥è‰ºç²¾ç¥žã€æ•´åˆè®¾è®¡ã€åå·¥ä¸šåŒ–ç²—åˆ¶æ»¥é€ ',
+    significance: 'Red House æ˜¯**çŽ°ä»£è®¾è®¡æ€æƒ³çš„æºå¤´ä¹‹ä¸€**ã€‚å®ƒè¯æ˜Žäº†å»ºç­‘å¯ä»¥è¯šå®žã€å¯ä»¥ä¸çŸ«é¥°ã€å¯ä»¥è®©åŠŸèƒ½è€Œéžé£Žæ ¼æ¥å†³å®šå½¢å¼ã€‚ä»Ž Red House å‡ºå‘ï¼Œç»ç”±å·¥è‰ºç¾Žæœ¯è¿åŠ¨ã€æ–°è‰ºæœ¯è¿åŠ¨ï¼Œåˆ°åŒ…è±ªæ–¯å’ŒçŽ°ä»£ä¸»ä¹‰â€”â€”è¿™æ¡çº¿ç´¢æ¸…æ™°å¯å¾ªã€‚æ¯ä¸€ä¸ªä¸»å¼ "å¥½è®¾è®¡åº”è¯¥è¯šå®ž"çš„è®¾è®¡å¸ˆï¼Œéƒ½åœ¨å‘¼åº”160å¤šå¹´å‰ Webb å’Œ Morris åœ¨è¿™æ ‹çº¢ç –æˆ¿å­é‡Œåšå‡ºçš„é€‰æ‹©ã€‚',
 
-    dateConnection_en: 'Philip Webb was born on January 12, 1831 in Oxford, England. He was the most important architect of the British Arts and Crafts Movement, and Red House is his most celebrated work — the manifesto building of the entire movement.',
-    designerBio_en: `Philip Webb (1831–1915), British architect and the architectural cornerstone of the Arts and Crafts Movement.
+    dateConnection_en: 'Philip Webb was born on January 12, 1831 in Oxford, England. He was the most important architect of the British Arts and Crafts Movement, and Red House is his most celebrated work â€” the manifesto building of the entire movement.',
+    designerBio_en: `Philip Webb (1831â€“1915), British architect and the architectural cornerstone of the Arts and Crafts Movement.
 
-Webb met William Morris at the office of architect G.E. Street — a friendship that changed design history. Together they opposed the Victorian industrial mass-production's destruction of aesthetics, advocating for a **return to craftsmanship, honest materials, and form following function.**
+Webb met William Morris at the office of architect G.E. Street â€” a friendship that changed design history. Together they opposed the Victorian industrial mass-production's destruction of aesthetics, advocating for a **return to craftsmanship, honest materials, and form following function.**
 
 Webb's architectural philosophy was remarkably ahead of its time: he rejected the popular historicist style's affectations, insisting that **a building should honestly express its structure and materials.** This conviction preceded Modernism by more than half a century.`,
-    story_en: `In 1859, William Morris married and needed a house. He turned to his friend Philip Webb, and together they designed Red House — a red-brick country home in Bexleyheath, southeast London.
+    story_en: `In 1859, William Morris married and needed a house. He turned to his friend Philip Webb, and together they designed Red House â€” a red-brick country home in Bexleyheath, southeast London.
 
 **Red House was an architectural manifesto.**
 
 In Victorian England, what should a respectable house look like? Classical porticos, symmetrical facades, walls rendered in white or grey stucco. Red House rejected all of it.
 
-Webb used **exposed red brick** instead of stucco — unadorned, letting the material show its true face. This was shocking: red brick was considered a "poor man's material," unfit for a gentleman's residence.
+Webb used **exposed red brick** instead of stucco â€” unadorned, letting the material show its true face. This was shocking: red brick was considered a "poor man's material," unfit for a gentleman's residence.
 
-The floor plan was asymmetrical — it **followed function.** Rooms were arranged according to actual needs, corridors curved to follow circulation patterns, windows were placed for optimal lighting. This "form follows function" approach predated Louis Sullivan's famous dictum by nearly 40 years.
+The floor plan was asymmetrical â€” it **followed function.** Rooms were arranged according to actual needs, corridors curved to follow circulation patterns, windows were placed for optimal lighting. This "form follows function" approach predated Louis Sullivan's famous dictum by nearly 40 years.
 
-The interior was equally revolutionary. Morris and his friends — including Edward Burne-Jones and Dante Gabriel Rossetti — hand-painted murals, designed furniture, and wove tapestries. **Every object was handmade,** every wall told a story.
+The interior was equally revolutionary. Morris and his friends â€” including Edward Burne-Jones and Dante Gabriel Rossetti â€” hand-painted murals, designed furniture, and wove tapestries. **Every object was handmade,** every wall told a story.
 
-It was during Red House's construction that Morris discovered he couldn't buy furniture and decorations that met his standards — directly prompting him to found Morris, Marshall, Faulkner & Co. (later Morris & Co.), launching the commercial practice of the Arts and Crafts Movement.
+It was during Red House's construction that Morris discovered he couldn't buy furniture and decorations that met his standards â€” directly prompting him to found Morris, Marshall, Faulkner & Co. (later Morris & Co.), launching the commercial practice of the Arts and Crafts Movement.
 
 **One house gave birth to a movement.** From Red House to Morris & Co., from the Arts and Crafts Movement to the Bauhaus, a clear genealogy of design thought extends to the present day.`,
-    legacy_en: '• The origin building of the Arts and Crafts Movement, directly catalyzing the founding of Morris & Co.\n• An early practitioner of "form follows function" — decades before Sullivan and Modernism\n• Pioneer of material honesty: exposed red brick, no ornamentation, influencing later Brutalism and contemporary architecture\n• Architectural practice of the Gesamtkunstwerk concept — architecture, furniture, decoration, and landscape as a unified whole\n• The intellectual lineage from Red House to the Bauhaus: craft spirit, integrated design, resistance to industrial mediocrity',
-    significance_en: 'Red House is **one of the wellsprings of modern design thinking.** It proved that architecture could be honest, unaffected, and let function rather than style dictate form. From Red House through the Arts and Crafts Movement, Art Nouveau, to the Bauhaus and Modernism — the thread is clear. Every designer who argues that "good design should be honest" echoes the choice Webb and Morris made in this red-brick house over 160 years ago.',
+    legacy_en: 'â€¢ The origin building of the Arts and Crafts Movement, directly catalyzing the founding of Morris & Co.\nâ€¢ An early practitioner of "form follows function" â€” decades before Sullivan and Modernism\nâ€¢ Pioneer of material honesty: exposed red brick, no ornamentation, influencing later Brutalism and contemporary architecture\nâ€¢ Architectural practice of the Gesamtkunstwerk concept â€” architecture, furniture, decoration, and landscape as a unified whole\nâ€¢ The intellectual lineage from Red House to the Bauhaus: craft spirit, integrated design, resistance to industrial mediocrity',
+    significance_en: 'Red House is **one of the wellsprings of modern design thinking.** It proved that architecture could be honest, unaffected, and let function rather than style dictate form. From Red House through the Arts and Crafts Movement, Art Nouveau, to the Bauhaus and Modernism â€” the thread is clear. Every designer who argues that "good design should be honest" echoes the choice Webb and Morris made in this red-brick house over 160 years ago.',
   },
 
   // 01-13: National Geographic Magazine
@@ -3372,7 +3372,7 @@ It was during Red House's construction that Morris discovered he couldn't buy fu
     date: '2026-01-13',
     imageUrl: '/the-daily-object/images/national-geographic-magazine.jpg',
     fullImageUrl: '/the-daily-object/images/full/national-geographic-magazine.jpg',
-    title: '《国家地理》杂志',
+    title: 'ã€Šå›½å®¶åœ°ç†ã€‹æ‚å¿—',
     title_en: 'National Geographic Magazine',
     subtitle: 'National Geographic Society, 1888',
     subtitle_en: 'National Geographic Society, 1888',
@@ -3380,33 +3380,33 @@ It was during Red House's construction that Morris discovered he couldn't buy fu
     designer: 'National Geographic Society',
     year: '1888',
 
-    dateConnection: '1888年1月13日，国家地理学会在华盛顿特区成立，33位创始人齐聚宇宙俱乐部，立下"增进和传播地理知识"的使命。九个月后，第一期《国家地理》杂志面世。',
-    designerBio: `国家地理学会由探险家、地理学家、军事战略家等33人联合创立，首任会长是电话发明者亚历山大·格雷厄姆·贝尔的岳父加迪纳·格林·哈伯德。贝尔本人后来接任会长，将杂志从干涩的学术刊物转型为面向大众的视觉读物——这一决定彻底改变了杂志的命运。
+    dateConnection: '1888å¹´1æœˆ13æ—¥ï¼Œå›½å®¶åœ°ç†å­¦ä¼šåœ¨åŽç››é¡¿ç‰¹åŒºæˆç«‹ï¼Œ33ä½åˆ›å§‹äººé½èšå®‡å®™ä¿±ä¹éƒ¨ï¼Œç«‹ä¸‹"å¢žè¿›å’Œä¼ æ’­åœ°ç†çŸ¥è¯†"çš„ä½¿å‘½ã€‚ä¹ä¸ªæœˆåŽï¼Œç¬¬ä¸€æœŸã€Šå›½å®¶åœ°ç†ã€‹æ‚å¿—é¢ä¸–ã€‚',
+    designerBio: `å›½å®¶åœ°ç†å­¦ä¼šç”±æŽ¢é™©å®¶ã€åœ°ç†å­¦å®¶ã€å†›äº‹æˆ˜ç•¥å®¶ç­‰33äººè”åˆåˆ›ç«‹ï¼Œé¦–ä»»ä¼šé•¿æ˜¯ç”µè¯å‘æ˜Žè€…äºšåŽ†å±±å¤§Â·æ ¼é›·åŽ„å§†Â·è´å°”çš„å²³çˆ¶åŠ è¿ªçº³Â·æ ¼æž—Â·å“ˆä¼¯å¾·ã€‚è´å°”æœ¬äººåŽæ¥æŽ¥ä»»ä¼šé•¿ï¼Œå°†æ‚å¿—ä»Žå¹²æ¶©çš„å­¦æœ¯åˆŠç‰©è½¬åž‹ä¸ºé¢å‘å¤§ä¼—çš„è§†è§‰è¯»ç‰©â€”â€”è¿™ä¸€å†³å®šå½»åº•æ”¹å˜äº†æ‚å¿—çš„å‘½è¿ã€‚
 
-1905年，编辑吉尔伯特·H·格罗夫纳大胆刊登了一组西藏拉萨的全页照片，董事会认为这是"不成体统"的做法。但读者的热烈反响证明，**照片比文字更能激发人们对世界的好奇心**。这一理念成为国家地理的核心设计哲学。`,
-    story: `《国家地理》最标志性的设计元素是那道**黄色边框**——1910年首次出现在封面上，从此成为全球最具辨识度的杂志视觉符号之一。这抹鲜明的黄色简洁有力，在报摊上一眼便能认出，被读者亲切地称为"那本黄框杂志"。
+1905å¹´ï¼Œç¼–è¾‘å‰å°”ä¼¯ç‰¹Â·HÂ·æ ¼ç½—å¤«çº³å¤§èƒ†åˆŠç™»äº†ä¸€ç»„è¥¿è—æ‹‰è¨çš„å…¨é¡µç…§ç‰‡ï¼Œè‘£äº‹ä¼šè®¤ä¸ºè¿™æ˜¯"ä¸æˆä½“ç»Ÿ"çš„åšæ³•ã€‚ä½†è¯»è€…çš„çƒ­çƒˆåå“è¯æ˜Žï¼Œ**ç…§ç‰‡æ¯”æ–‡å­—æ›´èƒ½æ¿€å‘äººä»¬å¯¹ä¸–ç•Œçš„å¥½å¥‡å¿ƒ**ã€‚è¿™ä¸€ç†å¿µæˆä¸ºå›½å®¶åœ°ç†çš„æ ¸å¿ƒè®¾è®¡å“²å­¦ã€‚`,
+    story: `ã€Šå›½å®¶åœ°ç†ã€‹æœ€æ ‡å¿—æ€§çš„è®¾è®¡å…ƒç´ æ˜¯é‚£é“**é»„è‰²è¾¹æ¡†**â€”â€”1910å¹´é¦–æ¬¡å‡ºçŽ°åœ¨å°é¢ä¸Šï¼Œä»Žæ­¤æˆä¸ºå…¨çƒæœ€å…·è¾¨è¯†åº¦çš„æ‚å¿—è§†è§‰ç¬¦å·ä¹‹ä¸€ã€‚è¿™æŠ¹é²œæ˜Žçš„é»„è‰²ç®€æ´æœ‰åŠ›ï¼Œåœ¨æŠ¥æ‘Šä¸Šä¸€çœ¼ä¾¿èƒ½è®¤å‡ºï¼Œè¢«è¯»è€…äº²åˆ‡åœ°ç§°ä¸º"é‚£æœ¬é»„æ¡†æ‚å¿—"ã€‚
 
-杂志的设计革命不仅在于封面。国家地理率先在印刷媒体中大规模使用**彩色摄影**：1914年刊登了首批天然彩色照片，1930年代开始系统使用柯达彩色胶片。每一张照片都经过严苛的筛选和编排——编辑部常常从数万张底片中只挑选几十张刊用。
+æ‚å¿—çš„è®¾è®¡é©å‘½ä¸ä»…åœ¨äºŽå°é¢ã€‚å›½å®¶åœ°ç†çŽ‡å…ˆåœ¨å°åˆ·åª’ä½“ä¸­å¤§è§„æ¨¡ä½¿ç”¨**å½©è‰²æ‘„å½±**ï¼š1914å¹´åˆŠç™»äº†é¦–æ‰¹å¤©ç„¶å½©è‰²ç…§ç‰‡ï¼Œ1930å¹´ä»£å¼€å§‹ç³»ç»Ÿä½¿ç”¨æŸ¯è¾¾å½©è‰²èƒ¶ç‰‡ã€‚æ¯ä¸€å¼ ç…§ç‰‡éƒ½ç»è¿‡ä¸¥è‹›çš„ç­›é€‰å’Œç¼–æŽ’â€”â€”ç¼–è¾‘éƒ¨å¸¸å¸¸ä»Žæ•°ä¸‡å¼ åº•ç‰‡ä¸­åªæŒ‘é€‰å‡ åå¼ åˆŠç”¨ã€‚
 
-**地图设计**是另一个被低估的贡献。国家地理制图部门创造了大量精美的地图增刊，其制图风格——清晰的层次、优雅的配色、精确的标注——影响了整个现代制图学的审美标准。1922年发布的亚洲地图甚至被白宫用作参考资料。
+**åœ°å›¾è®¾è®¡**æ˜¯å¦ä¸€ä¸ªè¢«ä½Žä¼°çš„è´¡çŒ®ã€‚å›½å®¶åœ°ç†åˆ¶å›¾éƒ¨é—¨åˆ›é€ äº†å¤§é‡ç²¾ç¾Žçš„åœ°å›¾å¢žåˆŠï¼Œå…¶åˆ¶å›¾é£Žæ ¼â€”â€”æ¸…æ™°çš„å±‚æ¬¡ã€ä¼˜é›…çš„é…è‰²ã€ç²¾ç¡®çš„æ ‡æ³¨â€”â€”å½±å“äº†æ•´ä¸ªçŽ°ä»£åˆ¶å›¾å­¦çš„å®¡ç¾Žæ ‡å‡†ã€‚1922å¹´å‘å¸ƒçš„äºšæ´²åœ°å›¾ç”šè‡³è¢«ç™½å®«ç”¨ä½œå‚è€ƒèµ„æ–™ã€‚
 
-从版式设计角度看，国家地理确立了"沉浸式图文叙事"的范式：全页跨版照片、精心排布的图片序列、照片与文字的节奏感——这套视觉语言后来被无数杂志效仿，成为现代杂志编辑设计的基石。`,
-    legacy: '• 黄色边框：全球最具辨识度的杂志品牌标识之一，100多年未曾改变\n• 开创了"影像驱动叙事"的杂志设计范式，影响了 LIFE、Time、Monocle 等后来者\n• 推动了彩色摄影和摄影报道在主流媒体中的普及\n• 制图设计标准至今影响着 Google Maps 等数字地图的视觉语言\n• 累计发行超过140个国家，40种语言，封面照片成为摄影史的重要档案',
-    significance: '《国家地理》不仅是一本杂志，更是**视觉传播设计的里程碑**。它证明了一个深刻的设计真理：当信息设计（排版、摄影、地图）与人类天生的好奇心结合时，知识可以像故事一样传播。那道黄色边框是极简品牌设计的典范——一个色块，一百年不变，全世界都认识。',
+ä»Žç‰ˆå¼è®¾è®¡è§’åº¦çœ‹ï¼Œå›½å®¶åœ°ç†ç¡®ç«‹äº†"æ²‰æµ¸å¼å›¾æ–‡å™äº‹"çš„èŒƒå¼ï¼šå…¨é¡µè·¨ç‰ˆç…§ç‰‡ã€ç²¾å¿ƒæŽ’å¸ƒçš„å›¾ç‰‡åºåˆ—ã€ç…§ç‰‡ä¸Žæ–‡å­—çš„èŠ‚å¥æ„Ÿâ€”â€”è¿™å¥—è§†è§‰è¯­è¨€åŽæ¥è¢«æ— æ•°æ‚å¿—æ•ˆä»¿ï¼Œæˆä¸ºçŽ°ä»£æ‚å¿—ç¼–è¾‘è®¾è®¡çš„åŸºçŸ³ã€‚`,
+    legacy: 'â€¢ é»„è‰²è¾¹æ¡†ï¼šå…¨çƒæœ€å…·è¾¨è¯†åº¦çš„æ‚å¿—å“ç‰Œæ ‡è¯†ä¹‹ä¸€ï¼Œ100å¤šå¹´æœªæ›¾æ”¹å˜\nâ€¢ å¼€åˆ›äº†"å½±åƒé©±åŠ¨å™äº‹"çš„æ‚å¿—è®¾è®¡èŒƒå¼ï¼Œå½±å“äº† LIFEã€Timeã€Monocle ç­‰åŽæ¥è€…\nâ€¢ æŽ¨åŠ¨äº†å½©è‰²æ‘„å½±å’Œæ‘„å½±æŠ¥é“åœ¨ä¸»æµåª’ä½“ä¸­çš„æ™®åŠ\nâ€¢ åˆ¶å›¾è®¾è®¡æ ‡å‡†è‡³ä»Šå½±å“ç€ Google Maps ç­‰æ•°å­—åœ°å›¾çš„è§†è§‰è¯­è¨€\nâ€¢ ç´¯è®¡å‘è¡Œè¶…è¿‡140ä¸ªå›½å®¶ï¼Œ40ç§è¯­è¨€ï¼Œå°é¢ç…§ç‰‡æˆä¸ºæ‘„å½±å²çš„é‡è¦æ¡£æ¡ˆ',
+    significance: 'ã€Šå›½å®¶åœ°ç†ã€‹ä¸ä»…æ˜¯ä¸€æœ¬æ‚å¿—ï¼Œæ›´æ˜¯**è§†è§‰ä¼ æ’­è®¾è®¡çš„é‡Œç¨‹ç¢‘**ã€‚å®ƒè¯æ˜Žäº†ä¸€ä¸ªæ·±åˆ»çš„è®¾è®¡çœŸç†ï¼šå½“ä¿¡æ¯è®¾è®¡ï¼ˆæŽ’ç‰ˆã€æ‘„å½±ã€åœ°å›¾ï¼‰ä¸Žäººç±»å¤©ç”Ÿçš„å¥½å¥‡å¿ƒç»“åˆæ—¶ï¼ŒçŸ¥è¯†å¯ä»¥åƒæ•…äº‹ä¸€æ ·ä¼ æ’­ã€‚é‚£é“é»„è‰²è¾¹æ¡†æ˜¯æžç®€å“ç‰Œè®¾è®¡çš„å…¸èŒƒâ€”â€”ä¸€ä¸ªè‰²å—ï¼Œä¸€ç™¾å¹´ä¸å˜ï¼Œå…¨ä¸–ç•Œéƒ½è®¤è¯†ã€‚',
 
     dateConnection_en: 'On January 13, 1888, the National Geographic Society was founded in Washington, D.C. Thirty-three explorers, geographers, and scholars gathered at the Cosmos Club with a mission to "increase and diffuse geographic knowledge." Nine months later, the first issue of National Geographic Magazine was published.',
-    designerBio_en: `The National Geographic Society was co-founded by 33 individuals including explorers, geographers, and military strategists. Its first president was Gardiner Greene Hubbard, father-in-law of telephone inventor Alexander Graham Bell. Bell himself later became president and transformed the magazine from a dry academic journal into a visually driven publication for the general public — a decision that forever changed its destiny.
+    designerBio_en: `The National Geographic Society was co-founded by 33 individuals including explorers, geographers, and military strategists. Its first president was Gardiner Greene Hubbard, father-in-law of telephone inventor Alexander Graham Bell. Bell himself later became president and transformed the magazine from a dry academic journal into a visually driven publication for the general public â€” a decision that forever changed its destiny.
 
 In 1905, editor Gilbert H. Grosvenor boldly published a series of full-page photographs of Lhasa, Tibet. The board considered this "undignified," but the overwhelming reader response proved that **photographs could inspire curiosity about the world far more powerfully than words alone.** This insight became National Geographic's core design philosophy.`,
-    story_en: `National Geographic's most iconic design element is its **yellow border** — first appearing on the cover in 1910, it became one of the most recognizable visual identities in magazine history. Bold and minimal, it made the magazine instantly identifiable on any newsstand, earning it the affectionate nickname "that yellow-bordered magazine."
+    story_en: `National Geographic's most iconic design element is its **yellow border** â€” first appearing on the cover in 1910, it became one of the most recognizable visual identities in magazine history. Bold and minimal, it made the magazine instantly identifiable on any newsstand, earning it the affectionate nickname "that yellow-bordered magazine."
 
-The design revolution went beyond the cover. National Geographic pioneered large-scale use of **color photography** in print media: it published its first natural-color photographs in 1914 and began systematic use of Kodak color film in the 1930s. Every image underwent rigorous selection — editors routinely chose just dozens of frames from tens of thousands of negatives.
+The design revolution went beyond the cover. National Geographic pioneered large-scale use of **color photography** in print media: it published its first natural-color photographs in 1914 and began systematic use of Kodak color film in the 1930s. Every image underwent rigorous selection â€” editors routinely chose just dozens of frames from tens of thousands of negatives.
 
-**Cartographic design** is another underappreciated contribution. National Geographic's cartography department produced exquisite map supplements whose style — clear hierarchy, elegant color palettes, precise labeling — influenced the aesthetic standards of modern cartography. Their 1922 map of Asia was even used as a reference by the White House.
+**Cartographic design** is another underappreciated contribution. National Geographic's cartography department produced exquisite map supplements whose style â€” clear hierarchy, elegant color palettes, precise labeling â€” influenced the aesthetic standards of modern cartography. Their 1922 map of Asia was even used as a reference by the White House.
 
-From a layout perspective, National Geographic established the paradigm of "immersive visual storytelling": full-bleed photographs, carefully sequenced image narratives, rhythmic interplay between image and text — a visual language later emulated by countless magazines and now foundational to modern editorial design.`,
-    legacy_en: '• The yellow border: one of the world\'s most recognizable magazine brand identities, unchanged for over a century\n• Pioneered "image-driven storytelling" in magazine design, influencing LIFE, Time, Monocle, and many others\n• Accelerated the adoption of color photography and photojournalism in mainstream media\n• Cartographic design standards that continue to influence digital maps like Google Maps\n• Published in over 140 countries and 40 languages; its cover photographs form an important archive in the history of photography',
-    significance_en: 'National Geographic is not just a magazine — it is **a milestone in visual communication design.** It proved a profound design truth: when information design (typography, photography, cartography) meets innate human curiosity, knowledge can spread like a story. That yellow border is a masterclass in minimal brand design — one color, one century, universally recognized.',
+From a layout perspective, National Geographic established the paradigm of "immersive visual storytelling": full-bleed photographs, carefully sequenced image narratives, rhythmic interplay between image and text â€” a visual language later emulated by countless magazines and now foundational to modern editorial design.`,
+    legacy_en: 'â€¢ The yellow border: one of the world\'s most recognizable magazine brand identities, unchanged for over a century\nâ€¢ Pioneered "image-driven storytelling" in magazine design, influencing LIFE, Time, Monocle, and many others\nâ€¢ Accelerated the adoption of color photography and photojournalism in mainstream media\nâ€¢ Cartographic design standards that continue to influence digital maps like Google Maps\nâ€¢ Published in over 140 countries and 40 languages; its cover photographs form an important archive in the history of photography',
+    significance_en: 'National Geographic is not just a magazine â€” it is **a milestone in visual communication design.** It proved a profound design truth: when information design (typography, photography, cartography) meets innate human curiosity, knowledge can spread like a story. That yellow border is a masterclass in minimal brand design â€” one color, one century, universally recognized.',
   },
 
   // 01-14: The Cradle by Berthe Morisot
@@ -3415,7 +3415,7 @@ From a layout perspective, National Geographic established the paradigm of "imme
     date: '2026-01-14',
     imageUrl: '/the-daily-object/images/the-cradle-morisot.jpg',
     fullImageUrl: '/the-daily-object/images/full/the-cradle-morisot.jpg',
-    title: '摇篮',
+    title: 'æ‘‡ç¯®',
     title_en: 'The Cradle',
     subtitle: 'Berthe Morisot, 1872',
     subtitle_en: 'Berthe Morisot, 1872',
@@ -3423,37 +3423,37 @@ From a layout perspective, National Geographic established the paradigm of "imme
     designer: 'Berthe Morisot',
     year: '1872',
 
-    dateConnection: '1841年1月14日，贝尔特·莫里索出生于法国布尔日。她是印象派运动的核心成员之一，也是19世纪最重要的女性画家——在一个女性甚至不被允许进入美术学院的时代。',
-    designerBio: `贝尔特·莫里索出身于一个开明的法国中产家庭。她的父亲是省长，母亲是弗拉戈纳尔的后裔。莫里索和姐姐从小接受绘画教育，但她很快超越了"闺秀消遣"的范畴，成为一位真正的职业艺术家。
+    dateConnection: '1841å¹´1æœˆ14æ—¥ï¼Œè´å°”ç‰¹Â·èŽ«é‡Œç´¢å‡ºç”ŸäºŽæ³•å›½å¸ƒå°”æ—¥ã€‚å¥¹æ˜¯å°è±¡æ´¾è¿åŠ¨çš„æ ¸å¿ƒæˆå‘˜ä¹‹ä¸€ï¼Œä¹Ÿæ˜¯19ä¸–çºªæœ€é‡è¦çš„å¥³æ€§ç”»å®¶â€”â€”åœ¨ä¸€ä¸ªå¥³æ€§ç”šè‡³ä¸è¢«å…è®¸è¿›å…¥ç¾Žæœ¯å­¦é™¢çš„æ—¶ä»£ã€‚',
+    designerBio: `è´å°”ç‰¹Â·èŽ«é‡Œç´¢å‡ºèº«äºŽä¸€ä¸ªå¼€æ˜Žçš„æ³•å›½ä¸­äº§å®¶åº­ã€‚å¥¹çš„çˆ¶äº²æ˜¯çœé•¿ï¼Œæ¯äº²æ˜¯å¼—æ‹‰æˆˆçº³å°”çš„åŽè£”ã€‚èŽ«é‡Œç´¢å’Œå§å§ä»Žå°æŽ¥å—ç»˜ç”»æ•™è‚²ï¼Œä½†å¥¹å¾ˆå¿«è¶…è¶Šäº†"é—ºç§€æ¶ˆé£"çš„èŒƒç•´ï¼Œæˆä¸ºä¸€ä½çœŸæ­£çš„èŒä¸šè‰ºæœ¯å®¶ã€‚
 
-莫里索师从柯罗，后与马奈家族结缘——她既是马奈最钟爱的模特，也嫁给了马奈的弟弟欧仁。但她从不是任何人的附属。在1874年第一届印象派画展上，莫里索是唯一受邀参展的女性画家，此后她参加了除一届以外的所有印象派展览。
+èŽ«é‡Œç´¢å¸ˆä»ŽæŸ¯ç½—ï¼ŒåŽä¸Žé©¬å¥ˆå®¶æ—ç»“ç¼˜â€”â€”å¥¹æ—¢æ˜¯é©¬å¥ˆæœ€é’Ÿçˆ±çš„æ¨¡ç‰¹ï¼Œä¹Ÿå«ç»™äº†é©¬å¥ˆçš„å¼Ÿå¼Ÿæ¬§ä»ã€‚ä½†å¥¹ä»Žä¸æ˜¯ä»»ä½•äººçš„é™„å±žã€‚åœ¨1874å¹´ç¬¬ä¸€å±Šå°è±¡æ´¾ç”»å±•ä¸Šï¼ŒèŽ«é‡Œç´¢æ˜¯å”¯ä¸€å—é‚€å‚å±•çš„å¥³æ€§ç”»å®¶ï¼Œæ­¤åŽå¥¹å‚åŠ äº†é™¤ä¸€å±Šä»¥å¤–çš„æ‰€æœ‰å°è±¡æ´¾å±•è§ˆã€‚
 
-她的绘画风格以**流动的笔触和透明的光感**著称。评论家常常惊讶于她作品中"未完成"的自由感——那些看似随意的笔触实际上经过深思熟虑，创造出一种介于写实与抽象之间的诗意空间。`,
-    story: `《摇篮》创作于1872年，画中人物是莫里索的姐姐艾德玛，她正透过薄纱帷幔注视着摇篮中沉睡的婴儿。这幅画是**西方美术史上第一幅以母性为主题的印象派作品**，也是莫里索最广为人知的代表作。
+å¥¹çš„ç»˜ç”»é£Žæ ¼ä»¥**æµåŠ¨çš„ç¬”è§¦å’Œé€æ˜Žçš„å…‰æ„Ÿ**è‘—ç§°ã€‚è¯„è®ºå®¶å¸¸å¸¸æƒŠè®¶äºŽå¥¹ä½œå“ä¸­"æœªå®Œæˆ"çš„è‡ªç”±æ„Ÿâ€”â€”é‚£äº›çœ‹ä¼¼éšæ„çš„ç¬”è§¦å®žé™…ä¸Šç»è¿‡æ·±æ€ç†Ÿè™‘ï¼Œåˆ›é€ å‡ºä¸€ç§ä»‹äºŽå†™å®žä¸ŽæŠ½è±¡ä¹‹é—´çš„è¯—æ„ç©ºé—´ã€‚`,
+    story: `ã€Šæ‘‡ç¯®ã€‹åˆ›ä½œäºŽ1872å¹´ï¼Œç”»ä¸­äººç‰©æ˜¯èŽ«é‡Œç´¢çš„å§å§è‰¾å¾·çŽ›ï¼Œå¥¹æ­£é€è¿‡è–„çº±å¸·å¹”æ³¨è§†ç€æ‘‡ç¯®ä¸­æ²‰ç¡çš„å©´å„¿ã€‚è¿™å¹…ç”»æ˜¯**è¥¿æ–¹ç¾Žæœ¯å²ä¸Šç¬¬ä¸€å¹…ä»¥æ¯æ€§ä¸ºä¸»é¢˜çš„å°è±¡æ´¾ä½œå“**ï¼Œä¹Ÿæ˜¯èŽ«é‡Œç´¢æœ€å¹¿ä¸ºäººçŸ¥çš„ä»£è¡¨ä½œã€‚
 
-画面的构图精妙而亲密：母亲的身体形成一个保护性的弧线，右手轻拉帷幔，左手支撑着脸颊。那层半透明的白色薄纱——用极其轻盈的笔触画成——同时是物理屏障和情感纽带，将母亲与婴儿既分隔又连接。
+ç”»é¢çš„æž„å›¾ç²¾å¦™è€Œäº²å¯†ï¼šæ¯äº²çš„èº«ä½“å½¢æˆä¸€ä¸ªä¿æŠ¤æ€§çš„å¼§çº¿ï¼Œå³æ‰‹è½»æ‹‰å¸·å¹”ï¼Œå·¦æ‰‹æ”¯æ’‘ç€è„¸é¢Šã€‚é‚£å±‚åŠé€æ˜Žçš„ç™½è‰²è–„çº±â€”â€”ç”¨æžå…¶è½»ç›ˆçš„ç¬”è§¦ç”»æˆâ€”â€”åŒæ—¶æ˜¯ç‰©ç†å±éšœå’Œæƒ…æ„Ÿçº½å¸¦ï¼Œå°†æ¯äº²ä¸Žå©´å„¿æ—¢åˆ†éš”åˆè¿žæŽ¥ã€‚
 
-莫里索在色彩上展现了惊人的克制力。整幅画以**黑、白、灰蓝**为主调，母亲深色的衣裙与婴儿的白色襁褓形成对比，帷幔则用近乎水彩般的透明笔触处理，让光线穿透织物。这种"少即是多"的色彩策略，让画面散发出一种安静的力量。
+èŽ«é‡Œç´¢åœ¨è‰²å½©ä¸Šå±•çŽ°äº†æƒŠäººçš„å…‹åˆ¶åŠ›ã€‚æ•´å¹…ç”»ä»¥**é»‘ã€ç™½ã€ç°è“**ä¸ºä¸»è°ƒï¼Œæ¯äº²æ·±è‰²çš„è¡£è£™ä¸Žå©´å„¿çš„ç™½è‰²è¥è¤“å½¢æˆå¯¹æ¯”ï¼Œå¸·å¹”åˆ™ç”¨è¿‘ä¹Žæ°´å½©èˆ¬çš„é€æ˜Žç¬”è§¦å¤„ç†ï¼Œè®©å…‰çº¿ç©¿é€ç»‡ç‰©ã€‚è¿™ç§"å°‘å³æ˜¯å¤š"çš„è‰²å½©ç­–ç•¥ï¼Œè®©ç”»é¢æ•£å‘å‡ºä¸€ç§å®‰é™çš„åŠ›é‡ã€‚
 
-《摇篮》在1874年首届印象派展览上展出时，几乎无人问津。当时的评论界对整个印象派运动充满敌意，而一幅描绘"日常家庭场景"的画作更被视为不登大雅之堂。但正是这种对私密日常的关注，让莫里索的作品在一个多世纪后获得了重新评价。`,
-    legacy: '• 西方美术史上首幅以母性为主题的印象派作品\n• 将"私密空间"和"日常生活"确立为严肃的艺术主题\n• 莫里索的笔触技法影响了后来的纳比派和野兽派画家\n• 现藏于巴黎奥赛博物馆，是该馆最受欢迎的藏品之一\n• 为女性艺术家在专业艺术圈的地位开辟了道路',
-    significance: '《摇篮》的伟大之处在于它**将亲密感转化为艺术力量**。在一个崇尚宏大历史叙事的时代，莫里索选择画一位母亲看着孩子入睡——这个最平凡的瞬间。她用印象派的光影语言赋予了这个日常场景以永恒的诗意，证明了**亲密与宏大、私密与公共之间不存在高低之分**。',
+ã€Šæ‘‡ç¯®ã€‹åœ¨1874å¹´é¦–å±Šå°è±¡æ´¾å±•è§ˆä¸Šå±•å‡ºæ—¶ï¼Œå‡ ä¹Žæ— äººé—®æ´¥ã€‚å½“æ—¶çš„è¯„è®ºç•Œå¯¹æ•´ä¸ªå°è±¡æ´¾è¿åŠ¨å……æ»¡æ•Œæ„ï¼Œè€Œä¸€å¹…æç»˜"æ—¥å¸¸å®¶åº­åœºæ™¯"çš„ç”»ä½œæ›´è¢«è§†ä¸ºä¸ç™»å¤§é›…ä¹‹å ‚ã€‚ä½†æ­£æ˜¯è¿™ç§å¯¹ç§å¯†æ—¥å¸¸çš„å…³æ³¨ï¼Œè®©èŽ«é‡Œç´¢çš„ä½œå“åœ¨ä¸€ä¸ªå¤šä¸–çºªåŽèŽ·å¾—äº†é‡æ–°è¯„ä»·ã€‚`,
+    legacy: 'â€¢ è¥¿æ–¹ç¾Žæœ¯å²ä¸Šé¦–å¹…ä»¥æ¯æ€§ä¸ºä¸»é¢˜çš„å°è±¡æ´¾ä½œå“\nâ€¢ å°†"ç§å¯†ç©ºé—´"å’Œ"æ—¥å¸¸ç”Ÿæ´»"ç¡®ç«‹ä¸ºä¸¥è‚ƒçš„è‰ºæœ¯ä¸»é¢˜\nâ€¢ èŽ«é‡Œç´¢çš„ç¬”è§¦æŠ€æ³•å½±å“äº†åŽæ¥çš„çº³æ¯”æ´¾å’Œé‡Žå…½æ´¾ç”»å®¶\nâ€¢ çŽ°è—äºŽå·´é»Žå¥¥èµ›åšç‰©é¦†ï¼Œæ˜¯è¯¥é¦†æœ€å—æ¬¢è¿Žçš„è—å“ä¹‹ä¸€\nâ€¢ ä¸ºå¥³æ€§è‰ºæœ¯å®¶åœ¨ä¸“ä¸šè‰ºæœ¯åœˆçš„åœ°ä½å¼€è¾Ÿäº†é“è·¯',
+    significance: 'ã€Šæ‘‡ç¯®ã€‹çš„ä¼Ÿå¤§ä¹‹å¤„åœ¨äºŽå®ƒ**å°†äº²å¯†æ„Ÿè½¬åŒ–ä¸ºè‰ºæœ¯åŠ›é‡**ã€‚åœ¨ä¸€ä¸ªå´‡å°šå®å¤§åŽ†å²å™äº‹çš„æ—¶ä»£ï¼ŒèŽ«é‡Œç´¢é€‰æ‹©ç”»ä¸€ä½æ¯äº²çœ‹ç€å­©å­å…¥ç¡â€”â€”è¿™ä¸ªæœ€å¹³å‡¡çš„çž¬é—´ã€‚å¥¹ç”¨å°è±¡æ´¾çš„å…‰å½±è¯­è¨€èµ‹äºˆäº†è¿™ä¸ªæ—¥å¸¸åœºæ™¯ä»¥æ°¸æ’çš„è¯—æ„ï¼Œè¯æ˜Žäº†**äº²å¯†ä¸Žå®å¤§ã€ç§å¯†ä¸Žå…¬å…±ä¹‹é—´ä¸å­˜åœ¨é«˜ä½Žä¹‹åˆ†**ã€‚',
 
-    dateConnection_en: 'On January 14, 1841, Berthe Morisot was born in Bourges, France. She became one of the core members of the Impressionist movement and the most important female painter of the 19th century — in an era when women were not even permitted to enroll in fine art academies.',
+    dateConnection_en: 'On January 14, 1841, Berthe Morisot was born in Bourges, France. She became one of the core members of the Impressionist movement and the most important female painter of the 19th century â€” in an era when women were not even permitted to enroll in fine art academies.',
     designerBio_en: `Berthe Morisot was born into an enlightened French bourgeois family. Her father was a prefect, and her mother was a descendant of Fragonard. Morisot and her sister received painting lessons from childhood, but she quickly transcended the realm of "genteel pastime" to become a truly professional artist.
 
-Morisot studied under Corot and later became connected to the Manet family — she was Édouard Manet's favorite model and married his brother Eugène. Yet she was never anyone's appendage. At the first Impressionist exhibition in 1874, Morisot was the only female painter invited, and she participated in all but one subsequent Impressionist show.
+Morisot studied under Corot and later became connected to the Manet family â€” she was Ã‰douard Manet's favorite model and married his brother EugÃ¨ne. Yet she was never anyone's appendage. At the first Impressionist exhibition in 1874, Morisot was the only female painter invited, and she participated in all but one subsequent Impressionist show.
 
-Her painting style is renowned for its **fluid brushwork and luminous transparency.** Critics were often astonished by the "unfinished" freedom in her work — those seemingly spontaneous strokes were in fact deeply considered, creating a poetic space between realism and abstraction.`,
+Her painting style is renowned for its **fluid brushwork and luminous transparency.** Critics were often astonished by the "unfinished" freedom in her work â€” those seemingly spontaneous strokes were in fact deeply considered, creating a poetic space between realism and abstraction.`,
     story_en: `*The Cradle* was painted in 1872. It depicts Morisot's sister Edma gazing through a sheer curtain at her sleeping infant in a cradle. This painting is **the first Impressionist work to take motherhood as its subject** in Western art history, and remains Morisot's best-known masterpiece.
 
-The composition is exquisitely intimate: the mother's body forms a protective arc, her right hand gently drawing back the veil, her left hand cradling her cheek. The translucent white curtain — rendered in feather-light brushstrokes — serves simultaneously as physical barrier and emotional bond, both separating and connecting mother and child.
+The composition is exquisitely intimate: the mother's body forms a protective arc, her right hand gently drawing back the veil, her left hand cradling her cheek. The translucent white curtain â€” rendered in feather-light brushstrokes â€” serves simultaneously as physical barrier and emotional bond, both separating and connecting mother and child.
 
 Morisot demonstrated remarkable restraint in her palette. The entire painting is built on **blacks, whites, and blue-grays**. The mother's dark dress contrasts with the baby's white swaddling, while the curtain is handled with near-watercolor transparency, allowing light to penetrate the fabric. This "less is more" color strategy gives the painting a quiet, profound power.
 
 When *The Cradle* was exhibited at the first Impressionist exhibition in 1874, it was largely ignored. Critics were hostile to the entire Impressionist movement, and a painting depicting a "mundane domestic scene" was considered beneath serious art. Yet it was precisely this attention to intimate everyday life that led to Morisot's radical reappraisal more than a century later.`,
-    legacy_en: '• The first Impressionist painting to take motherhood as its subject in Western art\n• Established "intimate space" and "everyday life" as legitimate subjects for serious art\n• Morisot\'s brushwork technique influenced the Nabis and Fauvist painters\n• Now in the Musée d\'Orsay, Paris — one of the museum\'s most beloved works\n• Paved the way for women artists in professional art circles',
-    significance_en: 'The greatness of *The Cradle* lies in its **transformation of intimacy into artistic power.** In an era that worshipped grand historical narratives, Morisot chose to paint a mother watching her child fall asleep — the most ordinary of moments. With the Impressionist language of light and shadow, she gave this everyday scene an eternal poetry, proving that **there is no hierarchy between the intimate and the monumental, the private and the public.**',
+    legacy_en: 'â€¢ The first Impressionist painting to take motherhood as its subject in Western art\nâ€¢ Established "intimate space" and "everyday life" as legitimate subjects for serious art\nâ€¢ Morisot\'s brushwork technique influenced the Nabis and Fauvist painters\nâ€¢ Now in the MusÃ©e d\'Orsay, Paris â€” one of the museum\'s most beloved works\nâ€¢ Paved the way for women artists in professional art circles',
+    significance_en: 'The greatness of *The Cradle* lies in its **transformation of intimacy into artistic power.** In an era that worshipped grand historical narratives, Morisot chose to paint a mother watching her child fall asleep â€” the most ordinary of moments. With the Impressionist language of light and shadow, she gave this everyday scene an eternal poetry, proving that **there is no hierarchy between the intimate and the monumental, the private and the public.**',
   },
 
   // 01-15: Wikipedia
@@ -3462,7 +3462,7 @@ When *The Cradle* was exhibited at the first Impressionist exhibition in 1874, i
     date: '2026-01-15',
     imageUrl: '/the-daily-object/images/wikipedia-logo.png',
     fullImageUrl: '/the-daily-object/images/full/wikipedia-logo.png',
-    title: '维基百科',
+    title: 'ç»´åŸºç™¾ç§‘',
     title_en: 'Wikipedia',
     subtitle: 'Jimmy Wales & Larry Sanger, 2001',
     subtitle_en: 'Jimmy Wales & Larry Sanger, 2001',
@@ -3470,41 +3470,41 @@ When *The Cradle* was exhibited at the first Impressionist exhibition in 1874, i
     designer: 'Jimmy Wales & Larry Sanger',
     year: '2001',
 
-    dateConnection: '2001年1月15日，维基百科正式上线。这个由用户协作编辑的免费百科全书，如今拥有超过6000万篇文章，覆盖300多种语言，是人类历史上最大的知识汇编工程。',
-    designerBio: `维基百科的诞生源于一个失败的实验。吉米·威尔士最初创建的是 Nupedia——一个由专家撰写、经过严格同行评审的在线百科全书。但 Nupedia 进展极其缓慢，三年只产出了24篇完成的文章。
+    dateConnection: '2001å¹´1æœˆ15æ—¥ï¼Œç»´åŸºç™¾ç§‘æ­£å¼ä¸Šçº¿ã€‚è¿™ä¸ªç”±ç”¨æˆ·åä½œç¼–è¾‘çš„å…è´¹ç™¾ç§‘å…¨ä¹¦ï¼Œå¦‚ä»Šæ‹¥æœ‰è¶…è¿‡6000ä¸‡ç¯‡æ–‡ç« ï¼Œè¦†ç›–300å¤šç§è¯­è¨€ï¼Œæ˜¯äººç±»åŽ†å²ä¸Šæœ€å¤§çš„çŸ¥è¯†æ±‡ç¼–å·¥ç¨‹ã€‚',
+    designerBio: `ç»´åŸºç™¾ç§‘çš„è¯žç”ŸæºäºŽä¸€ä¸ªå¤±è´¥çš„å®žéªŒã€‚å‰ç±³Â·å¨å°”å£«æœ€åˆåˆ›å»ºçš„æ˜¯ Nupediaâ€”â€”ä¸€ä¸ªç”±ä¸“å®¶æ’°å†™ã€ç»è¿‡ä¸¥æ ¼åŒè¡Œè¯„å®¡çš„åœ¨çº¿ç™¾ç§‘å…¨ä¹¦ã€‚ä½† Nupedia è¿›å±•æžå…¶ç¼“æ…¢ï¼Œä¸‰å¹´åªäº§å‡ºäº†24ç¯‡å®Œæˆçš„æ–‡ç« ã€‚
 
-拉里·桑格提议使用"wiki"技术（一种任何人都可以编辑的网页系统）来加速内容生产。威尔士同意将其作为 Nupedia 的"喂料项目"。但这个副产品很快超越了本体：维基百科上线仅一个月就有了600篇文章，一年内超过20,000篇。
+æ‹‰é‡ŒÂ·æ¡‘æ ¼æè®®ä½¿ç”¨"wiki"æŠ€æœ¯ï¼ˆä¸€ç§ä»»ä½•äººéƒ½å¯ä»¥ç¼–è¾‘çš„ç½‘é¡µç³»ç»Ÿï¼‰æ¥åŠ é€Ÿå†…å®¹ç”Ÿäº§ã€‚å¨å°”å£«åŒæ„å°†å…¶ä½œä¸º Nupedia çš„"å–‚æ–™é¡¹ç›®"ã€‚ä½†è¿™ä¸ªå‰¯äº§å“å¾ˆå¿«è¶…è¶Šäº†æœ¬ä½“ï¼šç»´åŸºç™¾ç§‘ä¸Šçº¿ä»…ä¸€ä¸ªæœˆå°±æœ‰äº†600ç¯‡æ–‡ç« ï¼Œä¸€å¹´å†…è¶…è¿‡20,000ç¯‡ã€‚
 
-维基百科的成功本质上是一次**信息架构设计的胜利**。它证明了：当你设计出正确的规则系统（开放编辑 + 版本历史 + 社区治理），普通人的集体智慧可以产出堪比专家的知识体系。`,
-    story: `从设计角度看，维基百科最引人注目的不是它的内容，而是它的**信息架构和交互设计哲学**。
+ç»´åŸºç™¾ç§‘çš„æˆåŠŸæœ¬è´¨ä¸Šæ˜¯ä¸€æ¬¡**ä¿¡æ¯æž¶æž„è®¾è®¡çš„èƒœåˆ©**ã€‚å®ƒè¯æ˜Žäº†ï¼šå½“ä½ è®¾è®¡å‡ºæ­£ç¡®çš„è§„åˆ™ç³»ç»Ÿï¼ˆå¼€æ”¾ç¼–è¾‘ + ç‰ˆæœ¬åŽ†å² + ç¤¾åŒºæ²»ç†ï¼‰ï¼Œæ™®é€šäººçš„é›†ä½“æ™ºæ…§å¯ä»¥äº§å‡ºå ªæ¯”ä¸“å®¶çš„çŸ¥è¯†ä½“ç³»ã€‚`,
+    story: `ä»Žè®¾è®¡è§’åº¦çœ‹ï¼Œç»´åŸºç™¾ç§‘æœ€å¼•äººæ³¨ç›®çš„ä¸æ˜¯å®ƒçš„å†…å®¹ï¼Œè€Œæ˜¯å®ƒçš„**ä¿¡æ¯æž¶æž„å’Œäº¤äº’è®¾è®¡å“²å­¦**ã€‚
 
-维基百科的页面设计遵循极端的**内容优先原则**：没有广告、没有推荐算法、没有个性化推送。纯粹的文字、链接和偶尔的图片——这在注意力经济时代几乎是一种激进的设计宣言。它的界面20多年来几乎没有本质变化，不是因为落后，而是因为**功能已经足够完善**。
+ç»´åŸºç™¾ç§‘çš„é¡µé¢è®¾è®¡éµå¾ªæžç«¯çš„**å†…å®¹ä¼˜å…ˆåŽŸåˆ™**ï¼šæ²¡æœ‰å¹¿å‘Šã€æ²¡æœ‰æŽ¨èç®—æ³•ã€æ²¡æœ‰ä¸ªæ€§åŒ–æŽ¨é€ã€‚çº¯ç²¹çš„æ–‡å­—ã€é“¾æŽ¥å’Œå¶å°”çš„å›¾ç‰‡â€”â€”è¿™åœ¨æ³¨æ„åŠ›ç»æµŽæ—¶ä»£å‡ ä¹Žæ˜¯ä¸€ç§æ¿€è¿›çš„è®¾è®¡å®£è¨€ã€‚å®ƒçš„ç•Œé¢20å¤šå¹´æ¥å‡ ä¹Žæ²¡æœ‰æœ¬è´¨å˜åŒ–ï¼Œä¸æ˜¯å› ä¸ºè½åŽï¼Œè€Œæ˜¯å› ä¸º**åŠŸèƒ½å·²ç»è¶³å¤Ÿå®Œå–„**ã€‚
 
-**维基球标志（Wikipedia Globe）** 是另一个设计杰作。2003年定稿的拼图地球仪由不同文字系统的字符拼成——每块拼图代表一种语言和文化。球体顶部故意留有缺口，象征着知识永远是未完成的、等待补充的。这个标志完美传达了维基百科的核心理念：**知识是全人类协作的、永远进行中的工程**。
+**ç»´åŸºçƒæ ‡å¿—ï¼ˆWikipedia Globeï¼‰** æ˜¯å¦ä¸€ä¸ªè®¾è®¡æ°ä½œã€‚2003å¹´å®šç¨¿çš„æ‹¼å›¾åœ°çƒä»ªç”±ä¸åŒæ–‡å­—ç³»ç»Ÿçš„å­—ç¬¦æ‹¼æˆâ€”â€”æ¯å—æ‹¼å›¾ä»£è¡¨ä¸€ç§è¯­è¨€å’Œæ–‡åŒ–ã€‚çƒä½“é¡¶éƒ¨æ•…æ„ç•™æœ‰ç¼ºå£ï¼Œè±¡å¾ç€çŸ¥è¯†æ°¸è¿œæ˜¯æœªå®Œæˆçš„ã€ç­‰å¾…è¡¥å……çš„ã€‚è¿™ä¸ªæ ‡å¿—å®Œç¾Žä¼ è¾¾äº†ç»´åŸºç™¾ç§‘çš„æ ¸å¿ƒç†å¿µï¼š**çŸ¥è¯†æ˜¯å…¨äººç±»åä½œçš„ã€æ°¸è¿œè¿›è¡Œä¸­çš„å·¥ç¨‹**ã€‚
 
-维基百科的**超链接系统**重新定义了知识的组织方式。每篇文章中密集的蓝色链接构成了一张巨大的知识图谱，读者可以沿着自己的好奇心自由探索——这种"兔子洞"式的学习体验，是传统百科全书无法提供的。维基百科本质上设计了一种**非线性的知识导航系统**。
+ç»´åŸºç™¾ç§‘çš„**è¶…é“¾æŽ¥ç³»ç»Ÿ**é‡æ–°å®šä¹‰äº†çŸ¥è¯†çš„ç»„ç»‡æ–¹å¼ã€‚æ¯ç¯‡æ–‡ç« ä¸­å¯†é›†çš„è“è‰²é“¾æŽ¥æž„æˆäº†ä¸€å¼ å·¨å¤§çš„çŸ¥è¯†å›¾è°±ï¼Œè¯»è€…å¯ä»¥æ²¿ç€è‡ªå·±çš„å¥½å¥‡å¿ƒè‡ªç”±æŽ¢ç´¢â€”â€”è¿™ç§"å…”å­æ´ž"å¼çš„å­¦ä¹ ä½“éªŒï¼Œæ˜¯ä¼ ç»Ÿç™¾ç§‘å…¨ä¹¦æ— æ³•æä¾›çš„ã€‚ç»´åŸºç™¾ç§‘æœ¬è´¨ä¸Šè®¾è®¡äº†ä¸€ç§**éžçº¿æ€§çš„çŸ¥è¯†å¯¼èˆªç³»ç»Ÿ**ã€‚
 
-从用户体验的角度看，维基百科的编辑系统是**最早的大规模协作平台之一**，比 Google Docs 早了整整六年。它的版本控制、讨论页、编辑历史等功能，为后来所有在线协作工具奠定了范式。`,
-    legacy: '• 信息架构设计的里程碑：证明了开放协作可以产出可靠的知识体系\n• 维基球标志成为"开放知识"的全球符号\n• 内容优先的极简界面影响了后来的阅读类产品（Medium、Notion 等）\n• 超链接知识图谱重新定义了人们获取知识的方式\n• 编辑协作系统是现代在线协作工具（Google Docs、Notion）的思想先驱\n• 覆盖300+语言、6000万+文章，是人类最大的集体智慧工程',
-    significance: '维基百科的设计意义远超一个网站。它是**信息民主化设计的最伟大实验**——证明了当你把正确的工具交给所有人时，集体智慧可以创造出超越任何个体或机构的知识体系。那个未完成的拼图地球仪，不仅是一个标志，更是一种设计哲学：**最好的设计是邀请每个人参与的设计。**',
+ä»Žç”¨æˆ·ä½“éªŒçš„è§’åº¦çœ‹ï¼Œç»´åŸºç™¾ç§‘çš„ç¼–è¾‘ç³»ç»Ÿæ˜¯**æœ€æ—©çš„å¤§è§„æ¨¡åä½œå¹³å°ä¹‹ä¸€**ï¼Œæ¯” Google Docs æ—©äº†æ•´æ•´å…­å¹´ã€‚å®ƒçš„ç‰ˆæœ¬æŽ§åˆ¶ã€è®¨è®ºé¡µã€ç¼–è¾‘åŽ†å²ç­‰åŠŸèƒ½ï¼Œä¸ºåŽæ¥æ‰€æœ‰åœ¨çº¿åä½œå·¥å…·å¥ å®šäº†èŒƒå¼ã€‚`,
+    legacy: 'â€¢ ä¿¡æ¯æž¶æž„è®¾è®¡çš„é‡Œç¨‹ç¢‘ï¼šè¯æ˜Žäº†å¼€æ”¾åä½œå¯ä»¥äº§å‡ºå¯é çš„çŸ¥è¯†ä½“ç³»\nâ€¢ ç»´åŸºçƒæ ‡å¿—æˆä¸º"å¼€æ”¾çŸ¥è¯†"çš„å…¨çƒç¬¦å·\nâ€¢ å†…å®¹ä¼˜å…ˆçš„æžç®€ç•Œé¢å½±å“äº†åŽæ¥çš„é˜…è¯»ç±»äº§å“ï¼ˆMediumã€Notion ç­‰ï¼‰\nâ€¢ è¶…é“¾æŽ¥çŸ¥è¯†å›¾è°±é‡æ–°å®šä¹‰äº†äººä»¬èŽ·å–çŸ¥è¯†çš„æ–¹å¼\nâ€¢ ç¼–è¾‘åä½œç³»ç»Ÿæ˜¯çŽ°ä»£åœ¨çº¿åä½œå·¥å…·ï¼ˆGoogle Docsã€Notionï¼‰çš„æ€æƒ³å…ˆé©±\nâ€¢ è¦†ç›–300+è¯­è¨€ã€6000ä¸‡+æ–‡ç« ï¼Œæ˜¯äººç±»æœ€å¤§çš„é›†ä½“æ™ºæ…§å·¥ç¨‹',
+    significance: 'ç»´åŸºç™¾ç§‘çš„è®¾è®¡æ„ä¹‰è¿œè¶…ä¸€ä¸ªç½‘ç«™ã€‚å®ƒæ˜¯**ä¿¡æ¯æ°‘ä¸»åŒ–è®¾è®¡çš„æœ€ä¼Ÿå¤§å®žéªŒ**â€”â€”è¯æ˜Žäº†å½“ä½ æŠŠæ­£ç¡®çš„å·¥å…·äº¤ç»™æ‰€æœ‰äººæ—¶ï¼Œé›†ä½“æ™ºæ…§å¯ä»¥åˆ›é€ å‡ºè¶…è¶Šä»»ä½•ä¸ªä½“æˆ–æœºæž„çš„çŸ¥è¯†ä½“ç³»ã€‚é‚£ä¸ªæœªå®Œæˆçš„æ‹¼å›¾åœ°çƒä»ªï¼Œä¸ä»…æ˜¯ä¸€ä¸ªæ ‡å¿—ï¼Œæ›´æ˜¯ä¸€ç§è®¾è®¡å“²å­¦ï¼š**æœ€å¥½çš„è®¾è®¡æ˜¯é‚€è¯·æ¯ä¸ªäººå‚ä¸Žçš„è®¾è®¡ã€‚**',
 
-    dateConnection_en: 'On January 15, 2001, Wikipedia went live. This collaboratively edited free encyclopedia now contains over 60 million articles across 300+ languages — the largest knowledge compilation project in human history.',
-    designerBio_en: `Wikipedia was born from a failed experiment. Jimmy Wales originally created Nupedia — an expert-written, peer-reviewed online encyclopedia. But Nupedia was painfully slow, producing only 24 completed articles in three years.
+    dateConnection_en: 'On January 15, 2001, Wikipedia went live. This collaboratively edited free encyclopedia now contains over 60 million articles across 300+ languages â€” the largest knowledge compilation project in human history.',
+    designerBio_en: `Wikipedia was born from a failed experiment. Jimmy Wales originally created Nupedia â€” an expert-written, peer-reviewed online encyclopedia. But Nupedia was painfully slow, producing only 24 completed articles in three years.
 
-Larry Sanger proposed using "wiki" technology — a web system anyone could edit — to accelerate content creation. Wales agreed to try it as a "feeder project" for Nupedia. But the side project quickly surpassed the original: Wikipedia had 600 articles within its first month and over 20,000 within a year.
+Larry Sanger proposed using "wiki" technology â€” a web system anyone could edit â€” to accelerate content creation. Wales agreed to try it as a "feeder project" for Nupedia. But the side project quickly surpassed the original: Wikipedia had 600 articles within its first month and over 20,000 within a year.
 
 Wikipedia's success was fundamentally **a triumph of information architecture design.** It proved that when you design the right system of rules (open editing + version history + community governance), the collective intelligence of ordinary people can produce a knowledge system rivaling that of experts.`,
     story_en: `From a design perspective, the most remarkable thing about Wikipedia is not its content but its **information architecture and interaction design philosophy.**
 
-Wikipedia's page design follows an extreme **content-first principle**: no ads, no recommendation algorithms, no personalized feeds. Pure text, links, and occasional images — in the attention economy era, this is almost a radical design manifesto. Its interface has barely changed in over 20 years, not because it's outdated, but because **the functionality is already sufficient.**
+Wikipedia's page design follows an extreme **content-first principle**: no ads, no recommendation algorithms, no personalized feeds. Pure text, links, and occasional images â€” in the attention economy era, this is almost a radical design manifesto. Its interface has barely changed in over 20 years, not because it's outdated, but because **the functionality is already sufficient.**
 
-**The Wikipedia Globe** is another design masterpiece. Finalized in 2003, the puzzle globe is composed of characters from different writing systems — each puzzle piece representing a language and culture. The top of the globe is deliberately incomplete, symbolizing that knowledge is forever unfinished, always awaiting contribution. This logo perfectly conveys Wikipedia's core idea: **knowledge is a collaborative, perpetually ongoing project of all humanity.**
+**The Wikipedia Globe** is another design masterpiece. Finalized in 2003, the puzzle globe is composed of characters from different writing systems â€” each puzzle piece representing a language and culture. The top of the globe is deliberately incomplete, symbolizing that knowledge is forever unfinished, always awaiting contribution. This logo perfectly conveys Wikipedia's core idea: **knowledge is a collaborative, perpetually ongoing project of all humanity.**
 
-Wikipedia's **hyperlink system** redefined how knowledge is organized. The dense blue links in every article form a vast knowledge graph, allowing readers to follow their curiosity freely — this "rabbit hole" learning experience is something traditional encyclopedias could never provide. Wikipedia essentially designed a **non-linear knowledge navigation system.**
+Wikipedia's **hyperlink system** redefined how knowledge is organized. The dense blue links in every article form a vast knowledge graph, allowing readers to follow their curiosity freely â€” this "rabbit hole" learning experience is something traditional encyclopedias could never provide. Wikipedia essentially designed a **non-linear knowledge navigation system.**
 
 From a UX perspective, Wikipedia's editing system was **one of the earliest large-scale collaboration platforms**, predating Google Docs by a full six years. Its version control, discussion pages, and edit history features established the paradigm for all subsequent online collaboration tools.`,
-    legacy_en: '• A milestone in information architecture design: proved open collaboration can produce reliable knowledge systems\n• The Wikipedia Globe became a global symbol of "open knowledge"\n• Its content-first minimalist interface influenced later reading products (Medium, Notion, etc.)\n• Hyperlinked knowledge graphs redefined how people access knowledge\n• Its editing collaboration system was an intellectual precursor to modern tools (Google Docs, Notion)\n• Spanning 300+ languages with 60M+ articles, it is humanity\'s largest collective intelligence project',
-    significance_en: 'Wikipedia\'s design significance extends far beyond a website. It is **the greatest experiment in democratizing information design** — proving that when you put the right tools in everyone\'s hands, collective intelligence can create a knowledge system surpassing any individual or institution. That unfinished puzzle globe is not just a logo but a design philosophy: **the best design is design that invites everyone to participate.**',
+    legacy_en: 'â€¢ A milestone in information architecture design: proved open collaboration can produce reliable knowledge systems\nâ€¢ The Wikipedia Globe became a global symbol of "open knowledge"\nâ€¢ Its content-first minimalist interface influenced later reading products (Medium, Notion, etc.)\nâ€¢ Hyperlinked knowledge graphs redefined how people access knowledge\nâ€¢ Its editing collaboration system was an intellectual precursor to modern tools (Google Docs, Notion)\nâ€¢ Spanning 300+ languages with 60M+ articles, it is humanity\'s largest collective intelligence project',
+    significance_en: 'Wikipedia\'s design significance extends far beyond a website. It is **the greatest experiment in democratizing information design** â€” proving that when you put the right tools in everyone\'s hands, collective intelligence can create a knowledge system surpassing any individual or institution. That unfinished puzzle globe is not just a logo but a design philosophy: **the best design is design that invites everyone to participate.**',
   },
 
   // 01-16: Michelin Guide
@@ -3513,47 +3513,146 @@ From a UX perspective, Wikipedia's editing system was **one of the earliest larg
     date: '2026-01-16',
     imageUrl: '/the-daily-object/images/michelin-guide.jpg',
     fullImageUrl: '/the-daily-object/images/full/michelin-guide.jpg',
-    title: '米其林指南',
+    title: 'ç±³å…¶æž—æŒ‡å—',
     title_en: 'Michelin Guide',
-    subtitle: 'André Michelin, 1900',
-    subtitle_en: 'André Michelin, 1900',
+    subtitle: 'AndrÃ© Michelin, 1900',
+    subtitle_en: 'AndrÃ© Michelin, 1900',
     category: 'industrial',
-    designer: 'André Michelin',
+    designer: 'AndrÃ© Michelin',
     year: '1900',
 
-    dateConnection: '1853年1月16日，安德烈·米其林出生于巴黎。他与弟弟爱德华共同创建了米其林轮胎公司，并在1900年发明了一本小红书——《米其林指南》，这本免费赠送给驾车者的手册，意外地成为了全球最权威的餐厅评级体系。',
-    designerBio: `安德烈·米其林是一个**跨界思维**的先驱。他毕业于巴黎中央理工学院，最初从事地图制作工作。1889年，他与弟弟爱德华接管了家族的橡胶工厂，将其转型为轮胎公司。
+    dateConnection: '1853å¹´1æœˆ16æ—¥ï¼Œå®‰å¾·çƒˆÂ·ç±³å…¶æž—å‡ºç”ŸäºŽå·´é»Žã€‚ä»–ä¸Žå¼Ÿå¼Ÿçˆ±å¾·åŽå…±åŒåˆ›å»ºäº†ç±³å…¶æž—è½®èƒŽå…¬å¸ï¼Œå¹¶åœ¨1900å¹´å‘æ˜Žäº†ä¸€æœ¬å°çº¢ä¹¦â€”â€”ã€Šç±³å…¶æž—æŒ‡å—ã€‹ï¼Œè¿™æœ¬å…è´¹èµ é€ç»™é©¾è½¦è€…çš„æ‰‹å†Œï¼Œæ„å¤–åœ°æˆä¸ºäº†å…¨çƒæœ€æƒå¨çš„é¤åŽ…è¯„çº§ä½“ç³»ã€‚',
+    designerBio: `å®‰å¾·çƒˆÂ·ç±³å…¶æž—æ˜¯ä¸€ä¸ª**è·¨ç•Œæ€ç»´**çš„å…ˆé©±ã€‚ä»–æ¯•ä¸šäºŽå·´é»Žä¸­å¤®ç†å·¥å­¦é™¢ï¼Œæœ€åˆä»Žäº‹åœ°å›¾åˆ¶ä½œå·¥ä½œã€‚1889å¹´ï¼Œä»–ä¸Žå¼Ÿå¼Ÿçˆ±å¾·åŽæŽ¥ç®¡äº†å®¶æ—çš„æ©¡èƒ¶å·¥åŽ‚ï¼Œå°†å…¶è½¬åž‹ä¸ºè½®èƒŽå…¬å¸ã€‚
 
-米其林兄弟的商业天才在于：他们意识到**轮胎销量取决于人们开车的里程数**。要卖更多轮胎，就要让人们多开车。要让人们多开车，就要给他们理由——于是他们开始制作驾车出行指南。
+ç±³å…¶æž—å…„å¼Ÿçš„å•†ä¸šå¤©æ‰åœ¨äºŽï¼šä»–ä»¬æ„è¯†åˆ°**è½®èƒŽé”€é‡å–å†³äºŽäººä»¬å¼€è½¦çš„é‡Œç¨‹æ•°**ã€‚è¦å–æ›´å¤šè½®èƒŽï¼Œå°±è¦è®©äººä»¬å¤šå¼€è½¦ã€‚è¦è®©äººä»¬å¤šå¼€è½¦ï¼Œå°±è¦ç»™ä»–ä»¬ç†ç”±â€”â€”äºŽæ˜¯ä»–ä»¬å¼€å§‹åˆ¶ä½œé©¾è½¦å‡ºè¡ŒæŒ‡å—ã€‚
 
-安德烈负责《米其林指南》的内容策划和设计方向。他坚持指南必须**实用、精确、独立**——不接受餐厅付费上榜，评审员匿名就餐，所有评价基于统一标准。这些原则在100多年后依然是米其林指南的核心。`,
-    story: `1900年巴黎世博会期间，米其林兄弟免费发放了35,000本红色小册子。最初的《米其林指南》是一本纯粹的**驾车实用手册**：加油站位置、换轮胎的方法、沿途旅馆推荐。封面采用鲜明的红色——这个颜色选择几乎是随意的，但后来成为了全球餐饮界最令人敬畏的色彩。
+å®‰å¾·çƒˆè´Ÿè´£ã€Šç±³å…¶æž—æŒ‡å—ã€‹çš„å†…å®¹ç­–åˆ’å’Œè®¾è®¡æ–¹å‘ã€‚ä»–åšæŒæŒ‡å—å¿…é¡»**å®žç”¨ã€ç²¾ç¡®ã€ç‹¬ç«‹**â€”â€”ä¸æŽ¥å—é¤åŽ…ä»˜è´¹ä¸Šæ¦œï¼Œè¯„å®¡å‘˜åŒ¿åå°±é¤ï¼Œæ‰€æœ‰è¯„ä»·åŸºäºŽç»Ÿä¸€æ ‡å‡†ã€‚è¿™äº›åŽŸåˆ™åœ¨100å¤šå¹´åŽä¾ç„¶æ˜¯ç±³å…¶æž—æŒ‡å—çš„æ ¸å¿ƒã€‚`,
+    story: `1900å¹´å·´é»Žä¸–åšä¼šæœŸé—´ï¼Œç±³å…¶æž—å…„å¼Ÿå…è´¹å‘æ”¾äº†35,000æœ¬çº¢è‰²å°å†Œå­ã€‚æœ€åˆçš„ã€Šç±³å…¶æž—æŒ‡å—ã€‹æ˜¯ä¸€æœ¬çº¯ç²¹çš„**é©¾è½¦å®žç”¨æ‰‹å†Œ**ï¼šåŠ æ²¹ç«™ä½ç½®ã€æ¢è½®èƒŽçš„æ–¹æ³•ã€æ²¿é€”æ—…é¦†æŽ¨èã€‚å°é¢é‡‡ç”¨é²œæ˜Žçš„çº¢è‰²â€”â€”è¿™ä¸ªé¢œè‰²é€‰æ‹©å‡ ä¹Žæ˜¯éšæ„çš„ï¼Œä½†åŽæ¥æˆä¸ºäº†å…¨çƒé¤é¥®ç•Œæœ€ä»¤äººæ•¬ç•çš„è‰²å½©ã€‚
 
-1920年代的转折点至关重要。安德烈·米其林注意到有些修车厂把免费指南垫在工作台下面，他说了一句著名的话："**人们只会尊重自己付钱买的东西。**"从1920年起，指南开始收费，同时删除了所有广告——这个决定赋予了它独立评价的公信力。
+1920å¹´ä»£çš„è½¬æŠ˜ç‚¹è‡³å…³é‡è¦ã€‚å®‰å¾·çƒˆÂ·ç±³å…¶æž—æ³¨æ„åˆ°æœ‰äº›ä¿®è½¦åŽ‚æŠŠå…è´¹æŒ‡å—åž«åœ¨å·¥ä½œå°ä¸‹é¢ï¼Œä»–è¯´äº†ä¸€å¥è‘—åçš„è¯ï¼š"**äººä»¬åªä¼šå°Šé‡è‡ªå·±ä»˜é’±ä¹°çš„ä¸œè¥¿ã€‚**"ä»Ž1920å¹´èµ·ï¼ŒæŒ‡å—å¼€å§‹æ”¶è´¹ï¼ŒåŒæ—¶åˆ é™¤äº†æ‰€æœ‰å¹¿å‘Šâ€”â€”è¿™ä¸ªå†³å®šèµ‹äºˆäº†å®ƒç‹¬ç«‹è¯„ä»·çš„å…¬ä¿¡åŠ›ã€‚
 
-1926年，米其林开始为优质餐厅颁发星级。**一星**表示"值得停下来"，**二星**表示"值得绕路前往"，**三星**表示"值得专程旅行"。这套极简的评级系统——仅用三个层级——成为了人类历史上最有影响力的品质评价体系之一。
+1926å¹´ï¼Œç±³å…¶æž—å¼€å§‹ä¸ºä¼˜è´¨é¤åŽ…é¢å‘æ˜Ÿçº§ã€‚**ä¸€æ˜Ÿ**è¡¨ç¤º"å€¼å¾—åœä¸‹æ¥"ï¼Œ**äºŒæ˜Ÿ**è¡¨ç¤º"å€¼å¾—ç»•è·¯å‰å¾€"ï¼Œ**ä¸‰æ˜Ÿ**è¡¨ç¤º"å€¼å¾—ä¸“ç¨‹æ—…è¡Œ"ã€‚è¿™å¥—æžç®€çš„è¯„çº§ç³»ç»Ÿâ€”â€”ä»…ç”¨ä¸‰ä¸ªå±‚çº§â€”â€”æˆä¸ºäº†äººç±»åŽ†å²ä¸Šæœ€æœ‰å½±å“åŠ›çš„å“è´¨è¯„ä»·ä½“ç³»ä¹‹ä¸€ã€‚
 
-从设计角度看，《米其林指南》是**信息设计的典范**。它的排版紧凑而清晰，用最少的符号系统（星星、叉勺、人头标志）传递最丰富的信息。每一个图标都经过深思熟虑：叉勺代表餐具舒适度，黑色必比登代表物美价廉。这套视觉语言系统100多年来基本未变，却依然高效运作——这是信息设计最高境界的证明。`,
-    legacy: '• 开创了独立、匿名的餐厅评价体系，成为全球餐饮业的最高标准\n• 三星评级系统是极简信息设计的教科书案例\n• 红色封面成为品质与权威的全球符号\n• 从轮胎营销手册到文化权威的转变，是品牌跨界设计的经典案例\n• 米其林指南的信息设计体系（图标、符号、排版）影响了现代评级系统（Yelp、TripAdvisor 等）\n• "值得专程旅行"的理念改变了人们对美食和旅行关系的理解',
-    significance: '《米其林指南》是**内容设计改变世界的终极案例**。一家轮胎公司的营销小册子，通过严谨的信息架构和坚定的设计原则（独立、匿名、统一标准），演变成了全球餐饮文化的最高权威。它证明了一个设计真理：**最强大的设计系统是那些规则简单、执行严格、时间越长越有价值的系统。** 三颗星——仅仅三颗——就足以改变一位厨师的命运、一座城市的美食版图。',
+ä»Žè®¾è®¡è§’åº¦çœ‹ï¼Œã€Šç±³å…¶æž—æŒ‡å—ã€‹æ˜¯**ä¿¡æ¯è®¾è®¡çš„å…¸èŒƒ**ã€‚å®ƒçš„æŽ’ç‰ˆç´§å‡‘è€Œæ¸…æ™°ï¼Œç”¨æœ€å°‘çš„ç¬¦å·ç³»ç»Ÿï¼ˆæ˜Ÿæ˜Ÿã€å‰å‹ºã€äººå¤´æ ‡å¿—ï¼‰ä¼ é€’æœ€ä¸°å¯Œçš„ä¿¡æ¯ã€‚æ¯ä¸€ä¸ªå›¾æ ‡éƒ½ç»è¿‡æ·±æ€ç†Ÿè™‘ï¼šå‰å‹ºä»£è¡¨é¤å…·èˆ’é€‚åº¦ï¼Œé»‘è‰²å¿…æ¯”ç™»ä»£è¡¨ç‰©ç¾Žä»·å»‰ã€‚è¿™å¥—è§†è§‰è¯­è¨€ç³»ç»Ÿ100å¤šå¹´æ¥åŸºæœ¬æœªå˜ï¼Œå´ä¾ç„¶é«˜æ•ˆè¿ä½œâ€”â€”è¿™æ˜¯ä¿¡æ¯è®¾è®¡æœ€é«˜å¢ƒç•Œçš„è¯æ˜Žã€‚`,
+    legacy: 'â€¢ å¼€åˆ›äº†ç‹¬ç«‹ã€åŒ¿åçš„é¤åŽ…è¯„ä»·ä½“ç³»ï¼Œæˆä¸ºå…¨çƒé¤é¥®ä¸šçš„æœ€é«˜æ ‡å‡†\nâ€¢ ä¸‰æ˜Ÿè¯„çº§ç³»ç»Ÿæ˜¯æžç®€ä¿¡æ¯è®¾è®¡çš„æ•™ç§‘ä¹¦æ¡ˆä¾‹\nâ€¢ çº¢è‰²å°é¢æˆä¸ºå“è´¨ä¸Žæƒå¨çš„å…¨çƒç¬¦å·\nâ€¢ ä»Žè½®èƒŽè¥é”€æ‰‹å†Œåˆ°æ–‡åŒ–æƒå¨çš„è½¬å˜ï¼Œæ˜¯å“ç‰Œè·¨ç•Œè®¾è®¡çš„ç»å…¸æ¡ˆä¾‹\nâ€¢ ç±³å…¶æž—æŒ‡å—çš„ä¿¡æ¯è®¾è®¡ä½“ç³»ï¼ˆå›¾æ ‡ã€ç¬¦å·ã€æŽ’ç‰ˆï¼‰å½±å“äº†çŽ°ä»£è¯„çº§ç³»ç»Ÿï¼ˆYelpã€TripAdvisor ç­‰ï¼‰\nâ€¢ "å€¼å¾—ä¸“ç¨‹æ—…è¡Œ"çš„ç†å¿µæ”¹å˜äº†äººä»¬å¯¹ç¾Žé£Ÿå’Œæ—…è¡Œå…³ç³»çš„ç†è§£',
+    significance: 'ã€Šç±³å…¶æž—æŒ‡å—ã€‹æ˜¯**å†…å®¹è®¾è®¡æ”¹å˜ä¸–ç•Œçš„ç»ˆæžæ¡ˆä¾‹**ã€‚ä¸€å®¶è½®èƒŽå…¬å¸çš„è¥é”€å°å†Œå­ï¼Œé€šè¿‡ä¸¥è°¨çš„ä¿¡æ¯æž¶æž„å’Œåšå®šçš„è®¾è®¡åŽŸåˆ™ï¼ˆç‹¬ç«‹ã€åŒ¿åã€ç»Ÿä¸€æ ‡å‡†ï¼‰ï¼Œæ¼”å˜æˆäº†å…¨çƒé¤é¥®æ–‡åŒ–çš„æœ€é«˜æƒå¨ã€‚å®ƒè¯æ˜Žäº†ä¸€ä¸ªè®¾è®¡çœŸç†ï¼š**æœ€å¼ºå¤§çš„è®¾è®¡ç³»ç»Ÿæ˜¯é‚£äº›è§„åˆ™ç®€å•ã€æ‰§è¡Œä¸¥æ ¼ã€æ—¶é—´è¶Šé•¿è¶Šæœ‰ä»·å€¼çš„ç³»ç»Ÿã€‚** ä¸‰é¢—æ˜Ÿâ€”â€”ä»…ä»…ä¸‰é¢—â€”â€”å°±è¶³ä»¥æ”¹å˜ä¸€ä½åŽ¨å¸ˆçš„å‘½è¿ã€ä¸€åº§åŸŽå¸‚çš„ç¾Žé£Ÿç‰ˆå›¾ã€‚',
 
-    dateConnection_en: 'On January 16, 1853, André Michelin was born in Paris. Together with his brother Édouard, he founded the Michelin tire company and in 1900 created a small red book — the *Michelin Guide*. Originally a free handbook for motorists, it unexpectedly became the world\'s most authoritative restaurant rating system.',
-    designerBio_en: `André Michelin was a pioneer of **cross-disciplinary thinking.** He graduated from the École Centrale Paris and initially worked in cartography. In 1889, he and his brother Édouard took over the family rubber factory and transformed it into a tire company.
+    dateConnection_en: 'On January 16, 1853, AndrÃ© Michelin was born in Paris. Together with his brother Ã‰douard, he founded the Michelin tire company and in 1900 created a small red book â€” the *Michelin Guide*. Originally a free handbook for motorists, it unexpectedly became the world\'s most authoritative restaurant rating system.',
+    designerBio_en: `AndrÃ© Michelin was a pioneer of **cross-disciplinary thinking.** He graduated from the Ã‰cole Centrale Paris and initially worked in cartography. In 1889, he and his brother Ã‰douard took over the family rubber factory and transformed it into a tire company.
 
-The Michelin brothers' commercial genius lay in a key insight: **tire sales depended on how many miles people drove.** To sell more tires, you had to get people driving more. To get people driving more, you had to give them reasons — so they began producing travel guides.
+The Michelin brothers' commercial genius lay in a key insight: **tire sales depended on how many miles people drove.** To sell more tires, you had to get people driving more. To get people driving more, you had to give them reasons â€” so they began producing travel guides.
 
-André oversaw the content strategy and design direction of the Michelin Guide. He insisted that the guide must be **practical, precise, and independent** — restaurants could not pay for inclusion, inspectors dined anonymously, and all evaluations followed unified standards. These principles remain the guide's core over a century later.`,
-    story_en: `During the 1900 Paris World's Fair, the Michelin brothers distributed 35,000 free red booklets. The original *Michelin Guide* was a purely **practical motoring handbook**: gas station locations, tire-changing instructions, roadside hotel recommendations. The cover was a vivid red — a color choice that was almost arbitrary, but would become the most revered hue in the global dining world.
+AndrÃ© oversaw the content strategy and design direction of the Michelin Guide. He insisted that the guide must be **practical, precise, and independent** â€” restaurants could not pay for inclusion, inspectors dined anonymously, and all evaluations followed unified standards. These principles remain the guide's core over a century later.`,
+    story_en: `During the 1900 Paris World's Fair, the Michelin brothers distributed 35,000 free red booklets. The original *Michelin Guide* was a purely **practical motoring handbook**: gas station locations, tire-changing instructions, roadside hotel recommendations. The cover was a vivid red â€” a color choice that was almost arbitrary, but would become the most revered hue in the global dining world.
 
-The turning point came in the 1920s. André Michelin noticed that some garages were using the free guides to prop up workbenches. He famously declared: **"People only respect what they pay for."** Starting in 1920, the guide began charging a cover price and simultaneously removed all advertising — a decision that gave it the credibility of independent evaluation.
+The turning point came in the 1920s. AndrÃ© Michelin noticed that some garages were using the free guides to prop up workbenches. He famously declared: **"People only respect what they pay for."** Starting in 1920, the guide began charging a cover price and simultaneously removed all advertising â€” a decision that gave it the credibility of independent evaluation.
 
-In 1926, Michelin began awarding stars to outstanding restaurants. **One star** meant "worth a stop," **two stars** meant "worth a detour," and **three stars** meant "worth a special journey." This minimalist rating system — using only three tiers — became one of the most influential quality assessment systems in human history.
+In 1926, Michelin began awarding stars to outstanding restaurants. **One star** meant "worth a stop," **two stars** meant "worth a detour," and **three stars** meant "worth a special journey." This minimalist rating system â€” using only three tiers â€” became one of the most influential quality assessment systems in human history.
 
-From a design perspective, the *Michelin Guide* is **a masterclass in information design.** Its typography is compact yet clear, conveying maximum information through a minimal symbol system (stars, crossed cutlery, Bib Gourmand icons). Every icon was carefully considered: crossed utensils indicate dining comfort levels; the black Bibendum marks outstanding value. This visual language system has remained essentially unchanged for over a century while still functioning perfectly — proof of information design at its highest level.`,
-    legacy_en: '• Created the independent, anonymous restaurant evaluation system that became the global standard for fine dining\n• The three-star rating system is a textbook case of minimalist information design\n• The red cover became a global symbol of quality and authority\n• The transformation from tire marketing booklet to cultural authority is a classic case of brand cross-domain design\n• The guide\'s information design system (icons, symbols, typography) influenced modern rating platforms (Yelp, TripAdvisor, etc.)\n• The concept of "worth a special journey" changed how people understand the relationship between food and travel',
-    significance_en: 'The *Michelin Guide* is **the ultimate case of content design changing the world.** A tire company\'s marketing booklet, through rigorous information architecture and unwavering design principles (independence, anonymity, unified standards), evolved into the supreme authority of global dining culture. It proves a design truth: **the most powerful design systems are those with simple rules, strict execution, and value that compounds over time.** Three stars — just three — are enough to change a chef\'s destiny and reshape a city\'s culinary landscape.',
+From a design perspective, the *Michelin Guide* is **a masterclass in information design.** Its typography is compact yet clear, conveying maximum information through a minimal symbol system (stars, crossed cutlery, Bib Gourmand icons). Every icon was carefully considered: crossed utensils indicate dining comfort levels; the black Bibendum marks outstanding value. This visual language system has remained essentially unchanged for over a century while still functioning perfectly â€” proof of information design at its highest level.`,
+    legacy_en: 'â€¢ Created the independent, anonymous restaurant evaluation system that became the global standard for fine dining\nâ€¢ The three-star rating system is a textbook case of minimalist information design\nâ€¢ The red cover became a global symbol of quality and authority\nâ€¢ The transformation from tire marketing booklet to cultural authority is a classic case of brand cross-domain design\nâ€¢ The guide\'s information design system (icons, symbols, typography) influenced modern rating platforms (Yelp, TripAdvisor, etc.)\nâ€¢ The concept of "worth a special journey" changed how people understand the relationship between food and travel',
+    significance_en: 'The *Michelin Guide* is **the ultimate case of content design changing the world.** A tire company\'s marketing booklet, through rigorous information architecture and unwavering design principles (independence, anonymity, unified standards), evolved into the supreme authority of global dining culture. It proves a design truth: **the most powerful design systems are those with simple rules, strict execution, and value that compounds over time.** Three stars â€” just three â€” are enough to change a chef\'s destiny and reshape a city\'s culinary landscape.',
   },
 
+  // 01-17: Five-Point Cut
+  {
+    id: '44',
+    date: '2026-01-17',
+    imageUrl: '/the-daily-object/images/five-point-cut.jpg',
+    fullImageUrl: '/the-daily-object/images/full/five-point-cut.jpg',
+    title: 'Five-Point Cut',
+    title_en: 'Five-Point Cut',
+    subtitle: 'Vidal Sassoon, 1963',
+    subtitle_en: 'Vidal Sassoon, 1963',
+    category: 'fashion',
+    designer: 'Vidal Sassoon',
+    year: '1963',
+    dateConnection: 'Vidal Sassoon 于 1928 年 1 月 17 日出生于伦敦。这位彻底改变了发型设计的传奇人物，将建筑学的几何思维引入了美发领域。',
+    designerBio: `Vidal Sassoon（1928–2012）出生于伦敦东区一个贫困的犹太家庭，14 岁便成为美发学徒。二战后他在以色列参加了独立战争，回到伦敦后在邦德街开设了自己的第一家沙龙。\n\nSassoon 对当时流行的僵硬、依赖发胶和卷发器的发型深感不满。他相信头发应该像建筑一样——拥有内在结构，而不是依赖外部支撑。他研究包豪斯建筑和几何学，将这些原则融入了发型设计。`,
+    story: `1963 年，Sassoon 推出了革命性的 **Five-Point Cut**——一种不需要任何发胶或卷发器就能保持形状的几何短发。五个精确的切割点创造出一个完美的几何轮廓，头发会自然落回原位，如同建筑结构般稳固。\n\n这个发型的灵感来自包豪斯建筑的几何线条。Sassoon 后来回忆说："我想创造一种像建筑一样有结构的发型，洗完头甩一甩就能恢复原状。"\n\n1964 年，时尚设计师 Mary Quant 请 Sassoon 为她的模特设计发型。Sassoon 的几何短发与 Quant 的迷你裙完美搭配，共同定义了"摇摆伦敦"（Swinging London）的视觉语言。\n\n1968 年，导演 Roman Polanski 邀请 Sassoon 在电影《Rosemary's Baby》中为 Mia Farrow 剪掉长发——这个镜头成为了电影史上最令人难忘的场景之一。`,
+    legacy: '• 彻底解放了女性——不再需要每周去美发店做头发、睡觉时缠卷发器\n• 将美发从"手艺"提升为"设计"，开创了发型作为建筑/雕塑的理念\n• 创建了全球美发教育体系，Sassoon Academy 至今仍是行业标杆\n• 证明了设计思维可以应用于任何领域——包括人的身体',
+    significance: 'Five-Point Cut 不仅是一个发型，更是一场**设计革命**。Sassoon 证明了设计的本质——用结构取代装饰，用内在逻辑取代外在支撑——可以应用于最意想不到的领域。',
+    dateConnection_en: 'Vidal Sassoon was born on January 17, 1928, in London. This legendary figure who revolutionized hairstyling brought architectural geometric thinking into hair design.',
+    designerBio_en: `Vidal Sassoon (1928–2012) was born into a poor Jewish family in London's East End and became a hairdressing apprentice at 14. After WWII, he fought in Israel's War of Independence, then returned to London to open his first salon on Bond Street.\n\nSassoon was deeply dissatisfied with the stiff, hairspray-and-roller-dependent styles of the era. He believed hair should be like architecture — possessing internal structure rather than relying on external support.`,
+    story_en: `In 1963, Sassoon introduced the revolutionary **Five-Point Cut** — a geometric bob that held its shape without any hairspray or rollers. Five precise cutting points created a perfect geometric silhouette.\n\nThe hairstyle was inspired by Bauhaus architecture. Sassoon recalled: "I wanted to create a hairstyle with structure like a building — wash it, shake it, and it falls right back."\n\n In 1964, Mary Quant asked Sassoon to style her models' hair. His geometric cuts paired perfectly with Quant's miniskirts, defining Swinging London's visual language.\n\nIn 1968, Roman Polanski invited Sassoon to cut Mia Farrow's hair on camera for Rosemary's Baby — one of cinema's most unforgettable scenes.`,
+    legacy_en: '• Liberated women — no more weekly salon visits or sleeping in rollers\n• Elevated hairdressing from craft to design, pioneering hairstyling as architecture\n• Built a global hair education system; Sassoon Academy remains the industry benchmark\n• Proved design thinking applies to any domain — including the human body',
+    significance_en: 'The Five-Point Cut was not just a hairstyle but a **design revolution.** Sassoon proved that design\'s essence — replacing decoration with structure — can be applied to the most unexpected domains.',
+  },
+
+  // 01-18: Juicy Salif
+  {
+    id: '45',
+    date: '2026-01-18',
+    imageUrl: '/the-daily-object/images/juicy-salif.jpg',
+    fullImageUrl: '/the-daily-object/images/full/juicy-salif.jpg',
+    title: 'Juicy Salif',
+    title_en: 'Juicy Salif',
+    subtitle: 'Philippe Starck, 1990',
+    subtitle_en: 'Philippe Starck, 1990',
+    category: 'industrial',
+    designer: 'Philippe Starck',
+    year: '1990',
+    dateConnection: 'Philippe Starck 于 1949 年 1 月 18 日出生于巴黎。这位当代最具争议也最具影响力的设计师，用一个榨汁器改变了人们对日用品的认知。',
+    designerBio: `Philippe Starck（1949—）出生于巴黎，父亲是航空工程师。他从小在父亲的绘图桌下长大，吸收了工程与设计的双重基因。\n\nStarck 是少数能让设计"出圈"的设计师。从 1983 年为法国总统密特朗设计爱丽舍宫私人公寓开始，他的作品横跨家具、酒店、餐具、牙刷甚至太空旅馆。他信奉"民主设计"——好设计不应该是少数人的特权。`,
+    story: `1988 年，Starck 在意大利 Capraia 岛的海鲜餐厅吃饭时，一边挤柠檬汁一边在餐巾纸上涂鸦。他画了无数个鱿鱼——柠檬汁和鱿鱼的形象在他脑中奇妙地融合了。\n\n1990 年，**Juicy Salif** 由 Alessi 公司上市。这个外星生物般的铝制柠檬榨汁器立刻引发轩然大波——三条蜘蛛般的长腿，顶部是带纹路的锥形头。造型戏剧化，但作为榨汁器饱受争议。\n\n甚至 Starck 本人都承认："我的榨汁器不是用来榨柠檬的，而是用来开启对话的。"这恰恰揭示了它的真正价值：工业设计史上第一件公然挑战"功能至上"教条的日用品。\n\nAlessi 还推出过 24K 镀金限量版，说明书写着："请勿使用，金色涂层会被柠檬酸腐蚀。"完美诠释了 Starck 的设计哲学。`,
+    legacy: '• 全球累计销售超过 300 万件，最畅销的设计师日用品之一\n• 被 MoMA、蓬皮杜中心等多家博物馆永久收藏\n• 开启了"设计作为文化符号"的时代\n• 深刻影响了 Alessi 的品牌策略，从厨具品牌转型为设计文化品牌',
+    significance: 'Juicy Salif 是设计史上最重要的"无用之物"。它证明了**设计的价值不止于解决问题，也在于提出问题。**',
+    dateConnection_en: 'Philippe Starck was born on January 18, 1949, in Paris. This most controversial and influential contemporary designer changed how people perceive everyday objects with a single lemon squeezer.',
+    designerBio_en: `Philippe Starck (1949–) was born in Paris to an aeronautical engineer father. Growing up under his father's drafting table, he absorbed the dual DNA of engineering and design.\n\nStarck is one of the rare designers who transcend the design world. From redesigning President Mitterrand's private apartments at the Élysée Palace in 1983, his work spans furniture, hotels, tableware, toothbrushes, and even space hotels. He champions "democratic design."`,
+    story_en: `In 1988, Starck was dining at a seafood restaurant on Italy's Capraia island, squeezing lemon juice while doodling on a napkin. The images of lemon juice and squid merged bizarrely in his mind.\n\nIn 1990, **Juicy Salif** was launched by Alessi. This alien-looking aluminum lemon squeezer — standing on three spider-like legs with a ridged conical head — immediately sparked a firestorm.\n\nEven Starck himself admitted: "My juicer is not meant to squeeze lemons. It is meant to start conversations." It was the first everyday object to openly challenge the dogma of "function first."\n\nAlessi released a 24K gold-plated limited edition with instructions: "Do not use — the gold coating will be corroded by citric acid." A perfect encapsulation of Starck's philosophy.`,
+    legacy_en: '• Over 3 million units sold worldwide\n• Collected by MoMA, Centre Pompidou, and other major museums\n• Ushered in the era of "design as cultural symbol"\n• Transformed Alessi from kitchenware company to design culture brand',
+    significance_en: 'Juicy Salif is the most important "useless object" in design history. It proved that **design\'s value lies not only in solving problems but in posing them.**',
+  },
+
+  // 01-19: Mont Sainte-Victoire
+  {
+    id: '46',
+    date: '2026-01-19',
+    imageUrl: '/the-daily-object/images/mont-sainte-victoire.jpg',
+    fullImageUrl: '/the-daily-object/images/full/mont-sainte-victoire.jpg',
+    title: 'Mont Sainte-Victoire',
+    title_en: 'Mont Sainte-Victoire',
+    subtitle: 'Paul Cézanne, c. 1885–1906',
+    subtitle_en: 'Paul Cézanne, c. 1885–1906',
+    category: 'art',
+    designer: 'Paul Cézanne',
+    year: '1885',
+    dateConnection: 'Paul Cézanne 于 1839 年 1 月 19 日出生于法国普罗旺斯地区艾克斯。被毕加索称为"我们所有人的父亲"的画家，用一座山改变了人类观看世界的方式。',
+    designerBio: `Paul Cézanne（1839–1906）出生于普罗旺斯艾克斯一个富裕的银行家家庭。他与 Émile Zola 是儿时好友，早年在巴黎与印象派画家交往密切，但始终游离于主流之外。\n\nCézanne 生前几乎得不到认可，被沙龙反复拒绝。他性格孤僻，晚年回到普罗旺斯几乎与世隔绝。但他从未停止思考——他的目标不是画出"看到的"自然，而是画出自然的**结构**。`,
+    story: `从 1880 年代到 1906 年去世，Cézanne 反复描绘了家乡的**圣维克多山**——油画、水彩加起来超过 80 幅。这不是简单的重复，而是持续 20 多年的视觉实验。\n\nCézanne 的革命在于：他不再把绘画当作模仿自然的窗口，而是用色彩和几何**重建**现实。他用短小的笔触将山体分解为色块和平面，让观者同时看到多个角度——比立体主义早了整整 20 年。\n\n他的名言："用圆柱体、球体和锥体来处理自然。"成为了现代艺术的基石宣言。\n\n1906 年 10 月，67 岁的 Cézanne 在户外写生时遭遇暴风雨，倒在路边。一周后去世——画架上还留着未完成的圣维克多山。`,
+    legacy: '• 直接催生了立体主义\n• "用几何结构重建自然"的方法论影响了整个 20 世纪的艺术和设计\n• 圣维克多山系列被认为是西方艺术从具象到抽象的关键过渡\n• "多视角同时呈现"的理念深刻影响了建筑设计和平面设计',
+    significance: 'Cézanne 的圣维克多山是**设计思维的源头之一**。他教会后来的设计师：不是复制现实，而是用结构重建现实。从包豪斯到当代极简设计，"用圆柱体、球体和锥体来处理自然"的回声从未消失。',
+    dateConnection_en: 'Paul Cézanne was born on January 19, 1839, in Aix-en-Provence. Called "the father of us all" by Picasso, this painter changed how humanity sees the world — through one mountain.',
+    designerBio_en: `Paul Cézanne (1839–1906) was born into a wealthy banking family in Aix-en-Provence. A childhood friend of Émile Zola, he associated with the Impressionists in Paris but remained an outsider.\n\nCézanne received almost no recognition in his lifetime. Reclusive by nature, he retreated to Provence, nearly isolating himself. Yet he never stopped — his goal was not to paint nature as "seen," but to paint its **structure**.`,
+    story_en: `From the 1880s until his death in 1906, Cézanne repeatedly painted **Mont Sainte-Victoire** — over 80 works in oil and watercolor. This was not repetition but a 20-year visual experiment.\n\nHis revolution: he stopped treating painting as a window imitating nature and instead **reconstructed** reality through color and geometry. Short brushstrokes decomposed the mountain into color planes, showing multiple angles simultaneously — two decades before Cubism.\n\nHis famous dictum: "Treat nature by the cylinder, the sphere, the cone" — became modern art's foundational manifesto.\n\nIn October 1906, the 67-year-old Cézanne collapsed in a storm while painting outdoors. He died a week later — an unfinished Mont Sainte-Victoire still on his easel.`,
+    legacy_en: '• Directly gave birth to Cubism\n• His methodology influenced all of 20th-century art and design\n• The series marks the critical transition from figurative to abstract in Western art\n• His "simultaneous multiple perspectives" profoundly influenced architectural and graphic design',
+    significance_en: 'Cézanne\'s Mont Sainte-Victoire is **one of the wellsprings of design thinking.** He taught designers a fundamental truth: don\'t copy reality — reconstruct it through structure.',
+  },
+
+  // 01-20: 8½ (Otto e Mezzo)
+  {
+    id: '47',
+    date: '2026-01-20',
+    imageUrl: '/the-daily-object/images/fellini-8-half.jpg',
+    fullImageUrl: '/the-daily-object/images/full/fellini-8-half.jpg',
+    title: '8½',
+    title_en: '8½ (Otto e Mezzo)',
+    subtitle: 'Federico Fellini, 1963',
+    subtitle_en: 'Federico Fellini, 1963',
+    category: 'film',
+    designer: 'Federico Fellini',
+    year: '1963',
+    dateConnection: 'Federico Fellini 于 1920 年 1 月 20 日出生于意大利里米尼。这位电影大师的第八部半作品，至今仍是电影视觉设计的最高峰之一。',
+    designerBio: `Federico Fellini（1920–1993）出生于意大利里米尼。年少时逃离小镇前往罗马，从漫画家和记者起步，逐渐进入电影界。\n\nFellini 是电影史上最具视觉想象力的导演之一。他的电影不追求线性叙事，而是创造完整的**视觉宇宙**——梦境、记忆、幻想与现实交织成视觉交响诗。他与美术指导 Piero Gherardi 的合作，使每一帧都如同精心设计的舞台。`,
+    story: `1962 年，Fellini 在筹备新片时陷入严重的创作危机。于是他做了一个天才的决定：**把拍不出电影这件事本身拍成一部电影。**\n\n**8½**（1963）的片名来自 Fellini 的作品数量：六部长片、两部短片各算半部，加上这一部 = 八又二分之一。\n\n美术指导 Piero Gherardi 创造了亦真亦幻的世界：巨大的火箭发射台布景象征膨胀的野心，温泉浴场的超现实空间暗示记忆与欲望的交融。开场梦境——Guido 在交通堵塞中飘浮升空——至今仍是电影史上最具标志性的视觉段落。\n\nGherardi 的服装设计同样惊艳：Guido 标志性的黑色礼帽是"导演面具"的具象化，Claudia Cardinale 全白的形象象征不可及的理想。\n\n8½ 赢得了 1963 年奥斯卡最佳外语片和最佳服装设计两项大奖。`,
+    legacy: '• 开创了"元电影"类型，影响了伍迪·艾伦、查理·考夫曼等后来者\n• 视觉设计方法论——用布景、服装和空间叙事——成为电影美术设计教科书\n• Piero Gherardi 的服装设计至今仍是时尚界灵感源泉\n• 开场梦境序列被无数导演致敬',
+    significance: '8½ 是**电影作为设计媒介的巅峰证明。** Fellini 和 Gherardi 展示了视觉设计不仅是"好看的背景"，而是叙事本身——布景就是心理空间，服装就是人物性格，光影就是情绪节奏。',
+    dateConnection_en: 'Federico Fellini was born on January 20, 1920, in Rimini, Italy. This master filmmaker\'s eighth-and-a-half work remains one of the supreme achievements in cinematic visual design.',
+    designerBio_en: `Federico Fellini (1920–1993) was born in Rimini, Italy. He escaped to Rome as a young man, starting as a cartoonist and journalist before entering film.\n\nFellini is one of cinema's most visually imaginative directors. His films create complete **visual universes** — dreams, memories, fantasies, and reality woven into symphonic poems. His collaboration with production designer Piero Gherardi ensured every frame was a meticulously designed stage.`,
+    story_en: `In 1962, Fellini fell into a severe creative crisis. So he made a genius decision: **turn the inability to make a film into a film itself.**\n\n**8½** (1963) takes its title from Fellini's filmography: six features plus two shorts (each counting as half) plus this one = eight and a half.\n\nProduction designer Piero Gherardi created a world between real and surreal: a massive rocket launchpad symbolizing inflated ambitions, surreal thermal baths suggesting the fusion of memory and desire. The opening dream — Guido floating from a traffic jam — remains one of cinema's most iconic visual sequences.\n\nGherardi's costumes were equally stunning: Guido's signature black hat materializes his "director's mask"; Claudia Cardinale's all-white look symbolizes the unattainable ideal.\n\n8½ won two Academy Awards — Best Foreign Language Film and Best Costume Design.`,
+    legacy_en: '• Pioneered the "meta-film" genre, influencing Woody Allen, Charlie Kaufman, and countless others\n• Its visual design methodology became a textbook for film production design\n• Piero Gherardi\'s costumes remain a fashion inspiration\n• The opening dream sequence is a milestone in cinematic visual language',
+    significance_en: '8½ is the **supreme proof of cinema as a design medium.** Fellini and Gherardi demonstrated that visual design is narrative itself — sets are psychological spaces, costumes are character, light and shadow are emotional rhythm.',
+  },
 ]
 
 
