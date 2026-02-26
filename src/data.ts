@@ -1,6 +1,6 @@
 ﻿// Bump this when any image file is replaced (same filename, new content)
 // This busts CDN cache without renaming files
-export const IMAGE_VERSION = '20260226f'
+export const IMAGE_VERSION = '20260226h'
 
 export interface DesignObject {
   id: string
@@ -35,9 +35,9 @@ export const designs: DesignObject[] = [
   {
     id: '10',
     date: '2026-02-10',
-    imageUrl: '/the-daily-object/images/boullee-cenotaph-newton.jpg',
-    fullImageUrl: '/the-daily-object/images/full/boullee-cenotaph-newton.jpg',
-    thumbnailUrl: '/the-daily-object/thumbnails/boullee-cenotaph-newton.jpg',
+    imageUrl: '/the-daily-object/images/up-chair.jpg',
+    fullImageUrl: '/the-daily-object/images/full/up-chair.jpg',
+    thumbnailUrl: '/the-daily-object/thumbnails/up-chair.jpg',
     title: 'UP5 & UP6',
     subtitle: 'Gaetano Pesce, 1969',
     category: 'industrial',
@@ -294,9 +294,9 @@ In today's era of virtual reality and the metaverse, Boullée's thinking is more
   {
     id: '7',
     date: '2026-02-13',
-    imageUrl: '/the-daily-object/images/ruskin-stones-of-venice.jpg?v=2',
-    fullImageUrl: '/the-daily-object/images/full/ruskin-stones-of-venice.jpg',
-    thumbnailUrl: '/the-daily-object/thumbnails/ruskin-stones-of-venice.jpg',
+    imageUrl: '/the-daily-object/images/panton-chair.jpg?v=2',
+    fullImageUrl: '/the-daily-object/images/full/panton-chair.jpg',
+    thumbnailUrl: '/the-daily-object/thumbnails/panton-chair.jpg',
     title: 'Panton Chair',
     subtitle: 'Verner Panton, 1967',
     category: 'industrial',
@@ -951,9 +951,9 @@ The Industrial Revolution made products cheap, uniform, and perfect. But Ruskin 
   {
     id: '13',
     date: '2026-02-09',
-    imageUrl: '/the-daily-object/images/gill-sans-typography.jpg',
-    fullImageUrl: '/the-daily-object/images/full/gill-sans-typography.jpg',
-    thumbnailUrl: '/the-daily-object/thumbnails/gill-sans-typography.jpg',
+    imageUrl: '/the-daily-object/images/mercedes-35hp.jpg',
+    fullImageUrl: '/the-daily-object/images/full/mercedes-35hp.jpg',
+    thumbnailUrl: '/the-daily-object/thumbnails/mercedes-35hp.jpg',
     title: 'Mercedes 35 HP',
     subtitle: 'Wilhelm Maybach, 1901',
     category: 'industrial',
@@ -1312,9 +1312,9 @@ This balance remains the holy grail designers pursue today. Apple's San Francisc
   {
     id: '19',
     date: '2026-02-23',
-    imageUrl: '/the-daily-object/images/leger-mechanical-elements.jpg',
-    fullImageUrl: '/the-daily-object/images/full/leger-mechanical-elements.jpg',
-    thumbnailUrl: '/the-daily-object/thumbnails/leger-mechanical-elements.jpg',
+    imageUrl: '/the-daily-object/images/gutenberg-bible.jpg',
+    fullImageUrl: '/the-daily-object/images/full/gutenberg-bible.jpg',
+    thumbnailUrl: '/the-daily-object/thumbnails/gutenberg-bible.jpg',
     title: 'Gutenberg Bible',
     subtitle: 'Johannes Gutenberg, c. 1455',
     category: 'graphic',
@@ -1667,9 +1667,9 @@ This "machine aesthetic" attitude directly legitimized modern industrial design.
   {
     id: '23',
     date: '2026-02-05',
-    imageUrl: '/the-daily-object/images/muji-cd-player.jpg',
-    fullImageUrl: '/the-daily-object/images/full/muji-cd-player.jpg',
-    thumbnailUrl: '/the-daily-object/thumbnails/muji-cd-player.jpg',
+    imageUrl: '/the-daily-object/images/bakelite-radio-collection.jpg',
+    fullImageUrl: '/the-daily-object/images/full/bakelite-radio-collection.jpg',
+    thumbnailUrl: '/the-daily-object/thumbnails/bakelite-radio-collection.jpg',
     title: 'Bakelite',
     subtitle: 'Leo Baekeland, 1907',
     category: 'industrial',
@@ -1863,8 +1863,8 @@ When you stand at the edge of the SkyPark's infinity pool, 200 meters up, the en
   {
     id: '28',
     date: '2026-01-31',
-    imageUrl: '/the-daily-object/images/muji-cd-player.jpg',
-    fullImageUrl: '/the-daily-object/images/full/muji-cd-player.jpg',
+    imageUrl: '/the-daily-object/images/bakelite-radio-collection.jpg',
+    fullImageUrl: '/the-daily-object/images/full/bakelite-radio-collection.jpg',
     title: 'MUJI 壁挂式 CD 播放器',
     title_en: 'MUJI Wall-Mounted CD Player',
     subtitle: '深澤直人, 1999',
@@ -2035,9 +2035,9 @@ This may be the best answer to "why design matters": because a beautifully desig
   {
     id: '26',
     date: '2026-02-02',
-    imageUrl: '/the-daily-object/images/levis-501.jpg',
-    fullImageUrl: '/the-daily-object/images/full/levis-501.jpg',
-    thumbnailUrl: '/the-daily-object/thumbnails/levis-501.jpg',
+    imageUrl: '/the-daily-object/images/grand-central-terminal.jpg',
+    fullImageUrl: '/the-daily-object/images/full/grand-central-terminal.jpg',
+    thumbnailUrl: '/the-daily-object/thumbnails/grand-central-terminal.jpg',
     title: 'Grand Central Terminal',
     subtitle: 'Reed & Stem / Warren & Wetmore, 1913',
     category: 'architecture',
