@@ -68,11 +68,20 @@
 }
 
 .luxury-calendar .react-calendar__tile--active {
-  @apply bg-neutral-900 dark:bg-neutral-700 text-white dark:text-white;
+  background-color: rgb(23 23 23) !important;
+  @apply text-white dark:text-white;
+}
+
+.dark .luxury-calendar .react-calendar__tile--active {
+  background-color: rgb(64 64 64) !important;
 }
 
 .luxury-calendar .react-calendar__tile--active:enabled:hover {
-  @apply bg-neutral-800 dark:bg-neutral-600;
+  background-color: rgb(38 38 38) !important;
+}
+
+.dark .luxury-calendar .react-calendar__tile--active:enabled:hover {
+  background-color: rgb(82 82 82) !important;
 }
 
 .luxury-calendar .react-calendar__tile.wallpaper-date {
