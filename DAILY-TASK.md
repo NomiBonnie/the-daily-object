@@ -222,9 +222,10 @@ export interface DesignObject {
 
 ### 标题
 - 简洁有力
-- **段落标题（section headings）统一用英文**，不管中文版还是英文版都用英文标题
-- 段落标题已固定为：The Story Behind / About The Designer / Legacy & Influence / What It Means / Why Today
-- 数据中的 `title` 字段仍可使用中文，`title_en` 提供英文版
+- **作品大标题（title）统一用英文**，中英文版都显示英文标题
+- `title_en` 字段**必填**，这是实际显示的标题
+- `title` 字段可以放中文（作为数据保留），但页面不会显示
+- 段落标题（The Story Behind / 作品故事 等）保持中英切换
 
 ### 描述（重要！）
 不是流水账，要讲**设计背后的故事**：
