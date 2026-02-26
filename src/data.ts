@@ -2752,6 +2752,180 @@ Salzburg became a global music pilgrimage site because of him, with the annual S
     significance_en: `Mozart taught every designer a lesson: **true mastery isn't showing off technique — it's making complexity look simple.** His best works sound effortless — but behind that effortlessness lies astonishing structural precision. This is the same thing as Dieter Rams' "good design is as little design as possible" and Mies van der Rohe's "less is more."`,
   },
 
+  // === 01-01 to 01-04 ===
+
+  {
+    id: '128',
+    date: '2026-01-01',
+    imageUrl: '/the-daily-object/images/euro-currency.jpg',
+    fullImageUrl: '/the-daily-object/images/full/euro-currency.jpg',
+    title: '欧元纸币设计',
+    title_en: 'Euro Banknote Design',
+    subtitle: 'Robert Kalina, 2002',
+    subtitle_en: 'Robert Kalina, 2002',
+    category: 'graphic',
+    designer: 'Robert Kalina',
+    year: '2002',
+
+    dateConnection: '2002年1月1日，欧元纸币和硬币在12个欧盟成员国正式流通，这是人类货币史上规模最大的一次货币替换行动——3亿人在一夜之间开始使用全新的纸币。',
+    designerBio: `Robert Kalina，奥地利中央银行的平面设计师，1996年在欧洲货币研究所举办的设计竞赛中胜出。他面对的挑战前所未有：设计一套不代表任何单一国家的货币，同时要让十几个文化背景各异的国家都能接受。
+
+Kalina 的方案以"欧洲建筑风格的演变"为主题，每张面额展现一个建筑时期——从古典到现代。但这些建筑不是真实存在的，而是各风格的理想化综合体，避免任何国家声称"这是我们的建筑"。`,
+    story: `欧元纸币的设计堪称20世纪末最复杂的平面设计项目之一。
+
+**核心挑战：如何设计一个"无国籍"的货币？** 每张纸币都必须在文化上中立，却又必须让数亿欧洲人感到亲切。Kalina 的天才之处在于选择了"窗户与门"（正面）和"桥梁"（背面）作为核心视觉意象——窗户象征开放与透明，桥梁象征连接与沟通。
+
+七种面额（€5至€500）横跨七个建筑时期：古典、罗马式、哥特式、文艺复兴、巴洛克与洛可可、铁与玻璃建筑、现代建筑。色彩系统同样精心设计——灰色、红色、蓝色、橙色、绿色、黄棕色、紫色——确保视障人士也能通过颜色区分面额。
+
+**防伪设计同样是一场设计革命。** 全息图、水印、安全线、变色油墨——这些技术元素被完美融入整体设计，不显突兀，却极难伪造。`,
+    legacy: '欧元纸币成为世界上使用人数第二多的货币，流通于20个国家的3.4亿人手中。2019年推出的"欧罗巴系列"新版纸币在保持 Kalina 原始设计语言的基础上，进一步提升了防伪技术和触觉辨识度。',
+    significance: '欧元纸币证明了平面设计可以承载巨大的政治与文化使命。它是史上最大规模的"品牌统一"项目——不是一家公司，而是一个大陆。Kalina 用建筑风格的演变讲述了一个超越国界的欧洲故事，让设计成为政治愿景的视觉化表达。',
+
+    dateConnection_en: 'On January 1, 2002, euro banknotes and coins entered circulation across 12 EU member states — the largest currency changeover in history, with 300 million people adopting entirely new banknotes overnight.',
+    designerBio_en: `Robert Kalina, a graphic designer at the Austrian National Bank, won the 1996 design competition held by the European Monetary Institute. His challenge was unprecedented: design a currency that represents no single nation while being accepted by over a dozen countries with vastly different cultural identities.
+
+Kalina's solution used "the evolution of European architectural styles" as its theme, with each denomination showcasing a different period — from Classical to Modern. Crucially, none of the buildings depicted actually exist; they are idealized composites of each style, preventing any nation from claiming ownership.`,
+    story_en: `The euro banknote design was one of the most complex graphic design projects of the late 20th century.
+
+**The core challenge: how do you design a "stateless" currency?** Each note had to be culturally neutral yet feel familiar to hundreds of millions of Europeans. Kalina's genius was choosing "windows and doorways" (front) and "bridges" (back) as the central visual metaphors — windows symbolizing openness and transparency, bridges representing connection and communication.
+
+Seven denominations (€5 to €500) span seven architectural periods: Classical, Romanesque, Gothic, Renaissance, Baroque and Rococo, Iron and Glass, and Modern. The color system was equally deliberate — grey, red, blue, orange, green, yellow-brown, and purple — ensuring even visually impaired users can distinguish denominations by color.
+
+**The anti-counterfeiting design was itself a revolution.** Holograms, watermarks, security threads, and color-shifting inks — these technical elements were seamlessly integrated into the overall design, never feeling intrusive yet proving extremely difficult to forge.`,
+    legacy_en: 'The euro became the world\'s second most-used currency, circulating among 340 million people across 20 countries. The 2019 "Europa series" redesign maintained Kalina\'s original design language while advancing anti-counterfeiting technology and tactile accessibility.',
+    significance_en: 'The euro banknote proved that graphic design can carry immense political and cultural missions. It remains the largest-ever "brand unification" project — not for a company, but for a continent. Kalina used the evolution of architectural styles to tell a pan-European story that transcends borders, turning design into the visual expression of a political vision.',
+  },
+
+  {
+    id: '129',
+    date: '2026-01-02',
+    imageUrl: '/the-daily-object/images/three-laws-of-robotics.jpg',
+    fullImageUrl: '/the-daily-object/images/full/three-laws-of-robotics.jpg',
+    title: '机器人三定律',
+    title_en: 'Three Laws of Robotics',
+    subtitle: 'Isaac Asimov, 1942',
+    subtitle_en: 'Isaac Asimov, 1942',
+    category: 'software',
+    designer: 'Isaac Asimov',
+    year: '1942',
+
+    dateConnection: '1920年1月2日，Isaac Asimov 出生于俄罗斯斯摩棱斯克省彼得罗维奇。这位科幻巨匠后来提出的"机器人三定律"，成为人机交互设计领域最具影响力的思想框架之一。',
+    designerBio: `Isaac Asimov（1920–1992），生物化学教授、科幻作家、科普作家，一生著述超过500部作品。他不是传统意义上的"设计师"，但他在1942年短篇小说《转圈圈》（Runaround）中首次明确提出的"机器人三定律"，本质上是一套**人机交互的设计规范**。
+
+Asimov 厌恶当时科幻小说中"机器人必然反叛人类"的陈词滥调。他认为，机器人不过是工具——烤面包机不会反叛人类，汽车也不会，那为什么机器人就一定要？从这个朴素的洞察出发，他设计了三条优先级递减的行为准则。`,
+    story: `**第一定律**：机器人不得伤害人类，或因不作为而使人类受到伤害。
+**第二定律**：机器人必须服从人类命令，除非该命令与第一定律冲突。
+**第三定律**：在不违反第一、第二定律的前提下，机器人必须保护自身。
+
+这三条看似简单的规则，构成了一个**优雅的优先级系统**——安全 > 服从 > 自保。Asimov 花了数十年、数十篇小说来探索这套系统的边界情况：当两条定律互相冲突时会发生什么？当"伤害"的定义模糊时怎么办？当机器人的认知能力超过人类时，"服从"又意味着什么？
+
+**这不是科幻设定，这是设计方法论。** 现代 UX 设计中的"用户安全优先于用户自由"原则，AI 伦理中的"对齐问题"（alignment problem），自动驾驶的决策优先级——都能追溯到 Asimov 80多年前的这套框架。
+
+最深刻的设计洞察在于第一定律的"不作为"条款：机器人不仅不能主动伤害人类，还不能在有能力阻止伤害时袖手旁观。这预见了今天关于AI责任边界的核心争论。`,
+    legacy: '机器人三定律已超越科幻，成为AI伦理、人机交互设计、自动化系统安全的基础参考框架。从 Google 的 AI 伦理原则到 OpenAI 的安全对齐研究，从自动驾驶的伦理决策到医疗AI的设计准则，Asimov 的影响无处不在。',
+    significance: 'Asimov 证明了一件事：**最好的设计框架不来自技术细节，而来自对人类需求的深刻理解。** 三定律的力量不在于它告诉机器人"怎么做"，而在于它定义了"什么是最重要的"——人的安全。这与 Don Norman 的"以人为中心的设计"一脉相承：先理解人，再设计系统。',
+
+    dateConnection_en: 'On January 2, 1920, Isaac Asimov was born in Petrovichi, Smolensk, Russia. The science fiction master would go on to formulate the "Three Laws of Robotics" — one of the most influential conceptual frameworks in human-machine interaction design.',
+    designerBio_en: `Isaac Asimov (1920–1992), biochemistry professor, science fiction author, and prolific science writer with over 500 published works. While not a "designer" in the traditional sense, his Three Laws of Robotics — first explicitly stated in the 1942 short story "Runaround" — are essentially **a design specification for human-machine interaction.**
+
+Asimov despised the tired sci-fi trope of "robots inevitably rebelling against humans." He argued that robots are simply tools — toasters don't rebel, cars don't rebel, so why should robots? From this simple insight, he designed three behavioral rules with descending priority.`,
+    story_en: `**First Law:** A robot may not injure a human being or, through inaction, allow a human being to come to harm.
+**Second Law:** A robot must obey orders given by human beings, except where such orders would conflict with the First Law.
+**Third Law:** A robot must protect its own existence, as long as such protection does not conflict with the First or Second Law.
+
+These three seemingly simple rules form an **elegant priority system** — safety > obedience > self-preservation. Asimov spent decades and dozens of stories exploring the edge cases: What happens when two laws conflict? What when "harm" is ambiguously defined? What does "obedience" mean when a robot's cognitive capacity exceeds a human's?
+
+**This isn't science fiction worldbuilding — it's design methodology.** The modern UX principle of "user safety over user freedom," AI ethics' "alignment problem," autonomous driving's decision hierarchies — all trace back to Asimov's framework from over 80 years ago.
+
+The most profound design insight lies in the First Law's "inaction" clause: a robot must not only refrain from actively harming humans but cannot stand by when it has the ability to prevent harm. This anticipated today's core debates about AI responsibility boundaries.`,
+    legacy_en: 'The Three Laws have transcended science fiction to become a foundational reference framework for AI ethics, human-machine interaction design, and automated system safety. From Google\'s AI principles to OpenAI\'s alignment research, from autonomous vehicle ethics to medical AI guidelines, Asimov\'s influence is everywhere.',
+    significance_en: 'Asimov proved something essential: **the best design frameworks don\'t come from technical specifications but from a deep understanding of human needs.** The Three Laws\' power lies not in telling robots "how to act" but in defining "what matters most" — human safety. This aligns directly with Don Norman\'s "human-centered design": understand people first, then design the system.',
+  },
+
+  {
+    id: '130',
+    date: '2026-01-03',
+    imageUrl: '/the-daily-object/images/middle-earth-maps.jpg',
+    fullImageUrl: '/the-daily-object/images/full/middle-earth-maps.jpg',
+    title: '中洲地图',
+    title_en: 'Middle-earth Maps',
+    subtitle: 'J.R.R. Tolkien, 1954',
+    subtitle_en: 'J.R.R. Tolkien, 1954',
+    category: 'graphic',
+    designer: 'J.R.R. Tolkien',
+    year: '1954',
+
+    dateConnection: '1892年1月3日，J.R.R. Tolkien 出生于南非布隆方丹。这位语言学教授不仅创造了一个完整的虚构世界，还亲手为它绘制了地图——开创了"虚构世界制图学"的先河。',
+    designerBio: `J.R.R. Tolkien（1892–1973），牛津大学英语语言与文学教授，《霍比特人》和《魔戒》的作者。但鲜为人知的是，Tolkien 同时是一位严肃的视觉设计师——他亲手绘制了中洲世界的地图、书法、纹章和装饰图案。
+
+Tolkien 的制图方法论极其严谨。他先确定地理逻辑（河流必须流向海洋、山脉必须符合地质规律），再用地图来检验故事中的旅程是否在时间和距离上合理。**地图不是故事的附属品，而是故事的骨架。**`,
+    story: `中洲地图的设计影响远超文学领域。
+
+Tolkien 为《魔戒》绘制的地图是**信息设计的杰作**。每一座山脉、每一条河流都有名字，用精心设计的书法体（基于他自创的精灵文字系统）标注。地图不仅展示空间关系，还暗示了文化边界——矮人的领地多在山中，精灵靠近森林，人类占据平原和海岸。
+
+**制图作为叙事工具。** Tolkien 的地图让读者可以追踪弗罗多的旅程，计算距离，感受从夏尔到魔多的地理递进——从田园牧歌到荒芜绝望。这种"空间叙事"技巧后来被所有奇幻文学和游戏设计所继承。
+
+Tolkien 的地图设计还有一个被忽视的维度：**它们是手绘的。** 在一个逐渐被机械制图主导的时代，Tolkien 坚持用钢笔和墨水绘制。那些微微颤抖的山脉轮廓、参差不齐的海岸线，传递出一种手工的温度——这不是一张"精确"的地图，而是一张"有人画过"的地图，带着制图者的呼吸。`,
+    legacy: '中洲地图直接催生了整个"奇幻制图学"传统。从《龙与地下城》的大陆地图到《塞尔达传说》的海拉鲁地图，从《权力的游戏》的维斯特洛地图到无数独立游戏的世界设定，Tolkien 确立了"好的虚构世界必须有一张好地图"的设计准则。',
+    significance: 'Tolkien 证明了**地图不仅是导航工具，更是叙事媒介**。一张精心设计的地图可以讲述文化、历史、冲突和旅程。这个洞察对今天的信息设计、数据可视化、游戏世界构建依然适用——最好的信息设计不只是呈现数据，而是讲述故事。',
+
+    dateConnection_en: 'On January 3, 1892, J.R.R. Tolkien was born in Bloemfontein, South Africa. The linguistics professor would not only create a complete fictional world but hand-draw its maps — pioneering the field of fictional cartography.',
+    designerBio_en: `J.R.R. Tolkien (1892–1973), Professor of English Language and Literature at Oxford University, author of The Hobbit and The Lord of the Rings. Less well known is that Tolkien was also a serious visual designer — he personally created maps, calligraphy, heraldry, and decorative patterns for Middle-earth.
+
+Tolkien's cartographic methodology was extraordinarily rigorous. He first established geographic logic (rivers must flow to the sea, mountain ranges must follow geological principles), then used maps to verify whether the journeys in his stories were plausible in terms of time and distance. **Maps weren't accessories to the story — they were its skeleton.**`,
+    story_en: `The design influence of Middle-earth maps extends far beyond literature.
+
+The maps Tolkien drew for The Lord of the Rings are **masterpieces of information design.** Every mountain range and river is named, labeled in carefully designed calligraphy (based on his invented Elvish writing systems). The maps don't just show spatial relationships — they imply cultural boundaries: Dwarven realms cluster in mountains, Elves near forests, Men across plains and coasts.
+
+**Cartography as narrative tool.** Tolkien's maps allow readers to trace Frodo's journey, calculate distances, and feel the geographic progression from the Shire to Mordor — from pastoral idyll to barren despair. This "spatial narrative" technique was inherited by all subsequent fantasy literature and game design.
+
+There's an overlooked dimension to Tolkien's map design: **they are hand-drawn.** In an era increasingly dominated by mechanical cartography, Tolkien insisted on pen and ink. Those slightly trembling mountain outlines and irregular coastlines convey a handmade warmth — this isn't a "precise" map but one that has been *drawn by someone*, carrying the cartographer's breath.`,
+    legacy_en: 'Middle-earth maps directly spawned the entire tradition of "fantasy cartography." From Dungeons & Dragons continent maps to Zelda\'s Hyrule, from Game of Thrones\' Westeros to countless indie game worlds, Tolkien established the design principle that "a good fictional world needs a good map."',
+    significance_en: 'Tolkien proved that **maps are not just navigation tools but narrative media.** A carefully designed map can tell stories of culture, history, conflict, and journey. This insight remains relevant for today\'s information design, data visualization, and game world-building — the best information design doesn\'t just present data, it tells a story.',
+  },
+
+  {
+    id: '131',
+    date: '2026-01-04',
+    imageUrl: '/the-daily-object/images/burj-khalifa.jpg',
+    fullImageUrl: '/the-daily-object/images/full/burj-khalifa.jpg',
+    title: '哈利法塔',
+    title_en: 'Burj Khalifa',
+    subtitle: 'Adrian Smith (SOM), 2010',
+    subtitle_en: 'Adrian Smith (SOM), 2010',
+    category: 'architecture',
+    designer: 'Adrian Smith',
+    year: '2010',
+
+    dateConnection: '2010年1月4日，哈利法塔在迪拜正式开幕，以828米的高度成为世界最高建筑。这座超高层建筑不仅打破了工程记录，更重新定义了摩天大楼的设计语言。',
+    designerBio: `Adrian Smith，美国建筑师，设计哈利法塔时任 SOM（Skidmore, Owings & Merrill）合伙人。他面对的设计挑战不仅是"盖世界最高的楼"，更是如何让一座超过800米的建筑在美学上成立——不沦为一根无聊的巨柱。
+
+Smith 从沙漠之花 Hymenocallis（蜘蛛兰）中获得灵感。这种花的六瓣结构在生物力学上极其高效，Smith 将其简化为三瓣 Y 形平面——这个形状不仅美观，而且能有效抵抗迪拜的沙漠强风。`,
+    story: `哈利法塔的设计是一堂关于"形式追随力学"的大师课。
+
+**Y形平面是设计的核心。** 三个翼从中心核筒向外延伸，建筑在上升过程中逐级退缩——共进行了26次退缩，使每个高度层面上风力对结构的影响各不相同，避免了共振效应。这不仅是工程解决方案，更创造了一种优雅的螺旋向上的视觉效果，让828米的高度显得轻盈而非沉重。
+
+**材料设计同样精心。** 外立面使用超过26,000块反射玻璃面板，每块都经过精确计算以应对不同高度的风荷载和温差。底部的玻璃更厚、更耐冲击；顶部的更轻、反射率更高。建筑的颜色也因此从底部的温暖金色渐变为顶部的清冷银白——像沙漠中升起的一道光柱。
+
+**灯光设计是另一个杰作。** 超过100万颗LED灯珠覆盖了建筑外表面，使它在夜间成为一块巨大的数字画布——从新年烟火到国庆日图案，哈利法塔能以整座建筑为屏幕进行灯光秀。`,
+    legacy: '哈利法塔重新定义了"超高层"的设计标准。它证明超过500米的建筑可以是优雅的——不需要牺牲美学来换取工程可行性。此后的沙特王国塔（正在建设，目标1000米）和全球各地的超高层项目，都在不同程度上借鉴了它的设计策略。',
+    significance: '哈利法塔证明了建筑设计中**形式与结构可以完美合一**。Y形平面既是美学选择，也是工程必需；26次退缩既塑造了优美的轮廓线，也解决了风荷载问题。最好的建筑设计从不需要在美和功能之间妥协——它们本身就是同一件事。',
+
+    dateConnection_en: 'On January 4, 2010, the Burj Khalifa officially opened in Dubai, becoming the world\'s tallest building at 828 meters. This supertall skyscraper didn\'t just break engineering records — it redefined the design language of skyscrapers.',
+    designerBio_en: `Adrian Smith, American architect and partner at SOM (Skidmore, Owings & Merrill) when he designed the Burj Khalifa. His design challenge wasn't merely "build the world's tallest building" but how to make a structure over 800 meters aesthetically compelling — not just a boring giant column.
+
+Smith drew inspiration from the desert flower Hymenocallis (spider lily). Its six-petal structure is biomechanically efficient; Smith simplified it into a three-petal Y-shaped floor plan — a form that is not only beautiful but effectively resists Dubai's desert winds.`,
+    story_en: `The Burj Khalifa's design is a masterclass in "form follows mechanics."
+
+**The Y-shaped plan is the design's core.** Three wings extend from a central core, and the building steps back progressively as it rises — 26 setbacks in total, ensuring that wind loads affect the structure differently at each height, preventing resonance. This isn't just an engineering solution; it creates an elegant spiraling visual effect that makes 828 meters look light rather than heavy.
+
+**The material design is equally meticulous.** The facade uses over 26,000 reflective glass panels, each precisely calculated for the wind loads and temperature differentials at its specific height. Lower panels are thicker and more impact-resistant; upper panels are lighter with higher reflectivity. The building's color thus gradates from warm gold at the base to cool silver-white at the top — like a column of light rising from the desert.
+
+**The lighting design is another masterpiece.** Over one million LED nodes cover the building's exterior, turning it into a massive digital canvas at night — from New Year's fireworks to national day patterns, the Burj Khalifa uses the entire building as a screen for light shows.`,
+    legacy_en: 'The Burj Khalifa redefined design standards for supertall buildings. It proved that structures over 500 meters can be elegant — that engineering feasibility need not come at the cost of aesthetics. The subsequent Jeddah Tower (under construction, targeting 1,000 meters) and supertall projects worldwide have borrowed from its design strategies.',
+    significance_en: 'The Burj Khalifa proved that in architecture, **form and structure can be perfectly unified.** The Y-shaped plan is both an aesthetic choice and an engineering necessity; the 26 setbacks both sculpt an elegant silhouette and solve wind load problems. The best architectural design never compromises between beauty and function — they are the same thing.',
+  },
+
 ]
 
 
