@@ -450,7 +450,7 @@ function App() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
               {/* Calendar */}
               <div className="lg:col-span-5">
-                <div ref={calendarRef} className="bg-white dark:bg-neutral-900 rounded-2xl p-8 shadow-xl border border-neutral-200 dark:border-neutral-800 lg:sticky lg:top-24">
+                <div ref={calendarRef} style={{ touchAction: 'pan-y' }} className="bg-white dark:bg-neutral-900 rounded-2xl p-8 shadow-xl border border-neutral-200 dark:border-neutral-800 lg:sticky lg:top-24">
                   <Calendar
                     onChange={handleDateClick}
                     value={selectedDate}
