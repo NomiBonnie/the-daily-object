@@ -2427,6 +2427,331 @@ His Basilica of the Fourteen Holy Helpers (Vierzehnheiligen) is equally a pinnac
     significance_en: `Neumann proved that **great architecture doesn't choose between structure and aesthetics — it unifies them.** The grand staircase vault is both an engineering feat and an artistic canvas. In today's era of "Instagram architecture," the Würzburg Residence reminds us that true architectural masterpieces are **the unity of structural honesty and spatial poetry.**`,
   },
 
+  {
+    id: '123',
+    date: '2026-01-23',
+    imageUrl: '/the-daily-object/images/manet-olympia.jpg',
+    fullImageUrl: '/the-daily-object/images/full/manet-olympia.jpg',
+    title: '奥林匹亚',
+    title_en: 'Olympia',
+    subtitle: 'Édouard Manet, 1863',
+    subtitle_en: 'Édouard Manet, 1863',
+    category: 'art',
+    designer: 'Édouard Manet',
+    year: '1863',
+
+    dateConnection: '1832年1月23日，Édouard Manet 出生于巴黎。他被公认为现代主义绘画的奠基人，《奥林匹亚》是他最具颠覆性的作品——一幅让整个巴黎艺术界炸锅的画。',
+    dateConnection_en: 'Édouard Manet was born on January 23, 1832 in Paris. Widely regarded as the founding figure of modernist painting, his Olympia remains one of the most subversive works in art history — a painting that scandalized the entire Parisian art world.',
+
+    designerBio: `Édouard Manet (1832–1883)，法国画家，现代艺术的关键开创者。
+
+出生于巴黎上流社会家庭，父亲希望他从事法律，母亲鼓励他的艺术天赋。他曾在海军服役，最终选择了绘画。师从学院派画家 Thomas Couture，但很快就对学院派的陈规感到厌倦。
+
+**"我画我所见，而非人们希望我见到的。"**
+
+Manet 不属于任何流派。他不是印象派——虽然印象派画家视他为精神领袖。他是一个孤独的革命者，站在传统与现代的裂缝之间，向两边同时开火。`,
+
+    designerBio_en: `Édouard Manet (1832–1883), French painter and a pivotal figure in the birth of modern art.
+
+Born into an affluent Parisian family, his father wanted him in law while his mother encouraged his artistic talents. After a stint in the navy, he chose painting. He studied under academic painter Thomas Couture but quickly grew restless with academic conventions.
+
+**"I paint what I see, not what others wish me to see."**
+
+Manet belonged to no movement. He wasn't an Impressionist — though the Impressionists regarded him as their spiritual leader. He was a solitary revolutionary, standing in the fault line between tradition and modernity, firing in both directions.`,
+
+    story: `1865年巴黎沙龙。Manet 展出了一幅裸体女性的画作。裸体在学院派绘画中司空见惯——维纳斯、仙女、女神，都是可以接受的。
+
+但《奥林匹亚》不是维纳斯。
+
+**她是一个妓女。** 她的名字"Olympia"在当时的巴黎是妓女的通用名。她戴着颈带和手镯，脚穿拖鞋，身旁是一位黑人女仆递上客人送的花束。一只黑猫弓着背站在床尾——在当时的象征语言中，这代表性。
+
+最令人不安的是她的目光。她直视观众，毫不羞愧，甚至带着一丝挑衅。传统裸体画中的女性总是回避目光，假装不知道有人在看。**Olympia 知道你在看她，而且她不在乎。**
+
+沙龙里一片哗然。评论家称之为"道德败坏"，观众试图用雨伞戳画布。展览方不得不派守卫保护这幅画，并将它移到最高处，远离愤怒的人群。
+
+但 Manet 做的事情远比画一个妓女更深刻：他摧毁了绘画的幻觉。平坦的色块取代了传统的明暗渐变，画面中几乎没有景深。这不是"像照片一样"的写实——这是**承认自己是一幅画**的绘画。`,
+
+    story_en: `The Paris Salon of 1865. Manet exhibited a painting of a nude woman. Nudes were commonplace in academic painting — Venus, nymphs, goddesses were all acceptable subjects.
+
+But Olympia was not Venus.
+
+**She was a courtesan.** Her name "Olympia" was a common pseudonym for Parisian prostitutes. She wore a choker and bracelet, slippers on her feet, while a Black maid presented a bouquet from a client. A black cat arched its back at the foot of the bed — in the symbolic language of the time, it represented sexuality.
+
+Most disturbing was her gaze. She stared directly at the viewer, unashamed, even defiant. Women in traditional nudes always averted their eyes, pretending not to know they were being observed. **Olympia knew you were looking at her, and she didn't care.**
+
+The Salon erupted. Critics called it "morally corrupt," visitors tried to stab the canvas with their umbrellas. Exhibition staff had to post guards and eventually moved it to the highest position on the wall, away from the angry crowds.
+
+But what Manet did went far deeper than painting a courtesan: he shattered the illusion of painting itself. Flat blocks of color replaced traditional chiaroscuro, with almost no depth of field. This wasn't photographic realism — this was **painting that acknowledged itself as painting.**`,
+
+    legacy: `《奥林匹亚》直接启发了整个现代艺术运动。印象派、后印象派、甚至毕加索都从 Manet 的平面化处理中汲取灵感。这幅画现藏于巴黎奥赛博物馆，被视为从古典绘画到现代艺术的转折点。
+
+Manet 证明了艺术可以直面现实、拒绝美化、挑战观众的舒适区——同时仍然是伟大的绘画。`,
+
+    legacy_en: `Olympia directly inspired the entire modern art movement. Impressionism, Post-Impressionism, even Picasso drew from Manet's flattening of pictorial space. The painting now hangs in the Musée d'Orsay in Paris, recognized as the turning point from classical painting to modern art.
+
+Manet proved that art could confront reality, refuse to beautify, and challenge the viewer's comfort zone — while still being great painting.`,
+
+    significance: `Manet 教会了后来所有的艺术家一件事：**最危险的创新不是技法上的突破，而是观看方式的改变。** Olympia 的技法并不复杂，甚至被当时的人批评为"粗糙"。但她改变了人们看画的方式——从被动的审美欣赏，变成了主动的、不舒服的对视。`,
+
+    significance_en: `Manet taught every artist who followed one thing: **the most dangerous innovation isn't a technical breakthrough, but a change in the way of seeing.** Olympia's technique wasn't complex — critics of the time even called it "crude." But she changed how people looked at paintings — from passive aesthetic appreciation to an active, uncomfortable confrontation.`,
+  },
+
+  {
+    id: '124',
+    date: '2026-01-24',
+    imageUrl: '/the-daily-object/images/macintosh-128k.jpg',
+    fullImageUrl: '/the-daily-object/images/full/macintosh-128k.jpg',
+    title: 'Macintosh 128K',
+    title_en: 'Macintosh 128K',
+    subtitle: 'Apple / Hartmut Esslinger, 1984',
+    subtitle_en: 'Apple / Hartmut Esslinger, 1984',
+    category: 'software',
+    designer: 'Apple / Hartmut Esslinger',
+    year: '1984',
+
+    dateConnection: '1984年1月24日，Steve Jobs 在 Apple 股东大会上发布了初代 Macintosh。这不仅是一台电脑——它是图形用户界面走向大众的历史性时刻，是"个人电脑应该是什么样"这个问题的第一个真正答案。',
+    dateConnection_en: 'On January 24, 1984, Steve Jobs unveiled the original Macintosh at an Apple shareholders meeting. This wasn\'t just a computer — it was the historic moment when the graphical user interface reached the masses, the first real answer to the question "what should a personal computer look like."',
+
+    designerBio: `初代 Macintosh 的设计是一次集体创作。工业设计由 Hartmut Esslinger 的 frog design 团队主导（Snow White 设计语言），软件界面由 Bill Atkinson、Andy Hertzfeld 等天才工程师打造，而 Steve Jobs 是那个将一切推向极致的人。
+
+Susan Kare 设计了 Mac 上几乎所有的图标和字体——包括那个经典的笑脸启动图标、Chicago 字体、以及垃圾桶图标。她被称为"Mac 的毕加索"。
+
+**"我们要做的不是一台更好的电脑，而是一台让所有人都能用的电脑。"** — Steve Jobs`,
+
+    designerBio_en: `The original Macintosh was a collective creation. Industrial design was led by Hartmut Esslinger's frog design team (the Snow White design language), the software interface was built by brilliant engineers like Bill Atkinson and Andy Hertzfeld, and Steve Jobs was the one who pushed everything to the extreme.
+
+Susan Kare designed nearly all of the Mac's icons and fonts — including the iconic smiling face startup icon, the Chicago typeface, and the trash can icon. She's been called "the Picasso of the Mac."
+
+**"We're not making a better computer. We're making a computer for everyone."** — Steve Jobs`,
+
+    story: `1984年1月22日，Apple 在超级碗上播出了由 Ridley Scott 执导的"1984"广告——一个女运动员冲入灰暗的大厅，用铁锤砸碎了巨幕上"老大哥"的脸。两天后，Jobs 拉开了 Macintosh 的幕布。
+
+当 Mac 的屏幕亮起，它用合成语音说出了第一句话：**"Hello. I am Macintosh. It sure is great to get out of that bag."** 全场起立鼓掌。
+
+这台电脑重 7.5 公斤，只有 128KB 内存，9英寸黑白屏幕。但它有鼠标、有图形界面、有桌面隐喻——文件夹、垃圾桶、窗口。你不需要记住命令行，你只需要**指和点**。
+
+Macintosh 最革命性的不是硬件规格，而是**态度**。它假设用户是聪明的普通人，而非技术极客。它用视觉隐喻替代了代码命令，用人类直觉替代了机器逻辑。
+
+商业上，初代 Mac 并不算成功——价格太高（$2,495）、内存太小、软件太少。但它种下的种子最终改变了整个计算机行业。`,
+
+    story_en: `On January 22, 1984, Apple aired its Ridley Scott-directed "1984" commercial during the Super Bowl — a female athlete charging into a gray hall, smashing the face of "Big Brother" on a giant screen with a sledgehammer. Two days later, Jobs unveiled the Macintosh.
+
+When the Mac's screen lit up, it spoke its first words in synthesized voice: **"Hello. I am Macintosh. It sure is great to get out of that bag."** The audience gave a standing ovation.
+
+The computer weighed 7.5 kg, had only 128KB of RAM, and a 9-inch black-and-white screen. But it had a mouse, a graphical interface, and the desktop metaphor — folders, a trash can, windows. You didn't need to memorize command lines; you just needed to **point and click.**
+
+The Macintosh's most revolutionary aspect wasn't its hardware specs, but its **attitude.** It assumed users were smart ordinary people, not tech geeks. It replaced code commands with visual metaphors, machine logic with human intuition.
+
+Commercially, the original Mac wasn't exactly a hit — too expensive ($2,495), too little RAM, too few software titles. But the seeds it planted ultimately transformed the entire computer industry.`,
+
+    legacy: `初代 Macintosh 确立了图形用户界面的设计范式——桌面隐喻、窗口系统、鼠标交互——这套范式至今仍是所有个人电脑的基础。Susan Kare 的图标设计开创了像素艺术美学，影响了此后四十年的 UI 设计。
+
+从 iPod 到 iPhone，Apple 后来所有产品的设计哲学——"技术应该为人服务，而不是相反"——都源自1984年1月24日那台 128K Macintosh。`,
+
+    legacy_en: `The original Macintosh established the GUI design paradigm — the desktop metaphor, window systems, mouse interaction — a paradigm that remains the foundation of all personal computers today. Susan Kare's icon designs pioneered pixel art aesthetics, influencing four decades of UI design.
+
+From iPod to iPhone, the design philosophy behind every Apple product — "technology should serve people, not the other way around" — traces back to that 128K Macintosh on January 24, 1984.`,
+
+    significance: `Macintosh 128K 证明了一件至今仍然重要的事：**设计不是在工程完成后的装饰，而是工程的起点。** Jobs 不是让工程师做完电脑然后"设计一下外壳"，他从人的体验出发，倒推出技术需要做什么。这种"设计驱动工程"的思维方式，至今是硅谷最稀缺的能力。`,
+
+    significance_en: `The Macintosh 128K proved something still vital today: **design isn't decoration applied after engineering is done — it's where engineering begins.** Jobs didn't ask engineers to build a computer and then "design a case for it." He started from the human experience and worked backward to determine what the technology needed to do. This "design-driven engineering" mindset remains Silicon Valley's scarcest capability.`,
+  },
+
+  {
+    id: '125',
+    date: '2026-01-25',
+    imageUrl: '/the-daily-object/images/nike-air-jordan-1.jpg',
+    fullImageUrl: '/the-daily-object/images/full/nike-air-jordan-1.jpg',
+    title: 'Nike Air Jordan I',
+    title_en: 'Nike Air Jordan I',
+    subtitle: 'Peter Moore / Nike, 1985',
+    subtitle_en: 'Peter Moore / Nike, 1985',
+    category: 'fashion',
+    designer: 'Peter Moore',
+    year: '1985',
+
+    dateConnection: '1964年1月25日，俄勒冈大学田径运动员 Phil Knight 和教练 Bill Bowerman 以 $500 各出一半创立了 Blue Ribbon Sports——这家公司后来改名为 Nike。从 $1,000 起步的运动鞋小作坊，成长为定义全球运动时尚的帝国。',
+    dateConnection_en: 'On January 25, 1964, University of Oregon track athlete Phil Knight and coach Bill Bowerman each put in $500 to found Blue Ribbon Sports — the company that would later become Nike. From a $1,000 sneaker startup to the empire that defined global athletic fashion.',
+
+    designerBio: `Peter Moore 是 Nike 的第一任创意总监，Air Jordan I 的设计者。
+
+在加入 Nike 之前，Moore 是一位广告人。他为 Nike 带来了一种全新的思维：运动鞋不只是运动装备，**它是文化符号**。他设计了 Air Jordan I 的红黑配色——故意违反 NBA 当时"球鞋必须以白色为主"的规定。NBA 每场罚款 $5,000，Nike 替 Jordan 交了罚款，然后把这变成了营销——**"被禁止的球鞋"**。
+
+Moore 还设计了经典的 Jumpman 标志和 Nike "Wings" logo。`,
+
+    designerBio_en: `Peter Moore was Nike's first creative director and the designer of the Air Jordan I.
+
+Before joining Nike, Moore was an adman. He brought Nike a radical new perspective: sneakers weren't just athletic equipment — **they were cultural symbols.** He designed the Air Jordan I in red and black — deliberately violating the NBA's rule that shoes must be predominantly white. The NBA fined Jordan $5,000 per game; Nike paid the fines and turned it into marketing — **"the banned sneaker."**
+
+Moore also designed the iconic Jumpman logo and the Nike "Wings" logo.`,
+
+    story: `1984年，Michael Jordan 还是个 NBA 新秀。Nike 当时是跑鞋品牌，在篮球市场远落后于 Converse 和 adidas。签下 Jordan 是一场豪赌——给一个没打过一场 NBA 比赛的新人一份 $2.5M 的合同。
+
+Peter Moore 设计的 Air Jordan I 打破了所有规则。红黑配色在当时的球鞋界闻所未闻——NBA 规定球鞋必须以白色为主并且全队统一。Jordan 穿着这双鞋上场，联盟立即发出禁令。
+
+**Nike 的天才回应：把禁令变成广告。**
+
+"On October 15, Nike created a revolutionary new basketball shoe. On October 18, the NBA threw them out of the game. Fortunately, the NBA can't keep you from wearing them."
+
+Air Jordan I 不仅仅是一双鞋。它发明了"签名球鞋"这个概念——一双鞋可以承载一个运动员的个性、风格和故事。它开创了球鞋文化（sneaker culture）——年轻人排队几天只为买一双限量版球鞋。
+
+第一年，Air Jordan 系列卖出了 $126M——是 Nike 预期的三倍。`,
+
+    story_en: `In 1984, Michael Jordan was an NBA rookie. Nike was a running shoe brand, far behind Converse and adidas in basketball. Signing Jordan was a gamble — a $2.5M contract for a player who hadn't played a single NBA game.
+
+Peter Moore's Air Jordan I broke every rule. The red-and-black colorway was unheard of in basketball footwear — the NBA mandated shoes be predominantly white and uniform across the team. Jordan wore them on court; the league immediately issued a ban.
+
+**Nike's genius response: turn the ban into an ad.**
+
+"On October 15, Nike created a revolutionary new basketball shoe. On October 18, the NBA threw them out of the game. Fortunately, the NBA can't keep you from wearing them."
+
+The Air Jordan I wasn't just a shoe. It invented the concept of the "signature sneaker" — a shoe that could carry an athlete's personality, style, and story. It birthed sneaker culture — young people camping out for days to buy limited-edition releases.
+
+In its first year, the Air Jordan line sold $126M — three times Nike's projection.`,
+
+    legacy: `Air Jordan I 开创了价值数十亿美元的球鞋文化产业。今天，限量球鞋的转售市场估值超过 $60B。从 Virgil Abloh 到 Travis Scott，球鞋成为了时尚、街头文化和身份认同的核心载体。
+
+而 Nike 从一家 $1,000 起步的小公司，成长为市值超过 $1,500 亿的全球品牌——这一切始于1964年1月25日的那 $1,000。`,
+
+    legacy_en: `The Air Jordan I spawned a multi-billion-dollar sneaker culture industry. Today, the sneaker resale market is valued at over $60B. From Virgil Abloh to Travis Scott, sneakers have become a core vehicle for fashion, street culture, and identity.
+
+Nike grew from a $1,000 startup into a global brand worth over $150B — all of it beginning with that $1,000 on January 25, 1964.`,
+
+    significance: `Air Jordan I 证明了**设计可以创造文化**。Peter Moore 不只是设计了一双好看的鞋——他设计了一种叙事方式：通过产品讲述一个人的故事。这种"产品即叙事"的设计思维，后来成为了从 Apple 到 Supreme 的核心方法论。`,
+
+    significance_en: `The Air Jordan I proved that **design can create culture.** Peter Moore didn't just design a good-looking shoe — he designed a narrative framework: telling a person's story through a product. This "product as narrative" design thinking later became the core methodology from Apple to Supreme.`,
+  },
+
+  {
+    id: '126',
+    date: '2026-01-26',
+    imageUrl: '/the-daily-object/images/phantom-of-the-opera.jpg',
+    fullImageUrl: '/the-daily-object/images/full/phantom-of-the-opera.jpg',
+    title: '歌剧魅影',
+    title_en: 'The Phantom of the Opera',
+    subtitle: 'Maria Björnson, 1986',
+    subtitle_en: 'Maria Björnson, 1986',
+    category: 'film',
+    designer: 'Maria Björnson',
+    year: '1986',
+
+    dateConnection: '1988年1月26日，Andrew Lloyd Webber 的《歌剧魅影》在纽约百老汇 Majestic Theatre 首演。此后它连续演出 35 年，成为百老汇历史上最长寿的剧目，也是全球票房最高的娱乐作品之一。而这一切的视觉魔法，来自一位不为大众所知的设计天才：Maria Björnson。',
+    dateConnection_en: 'On January 26, 1988, Andrew Lloyd Webber\'s The Phantom of the Opera opened on Broadway at the Majestic Theatre. It would run continuously for 35 years, becoming the longest-running show in Broadway history and one of the highest-grossing entertainment properties ever. All of its visual magic came from a design genius largely unknown to the public: Maria Björnson.',
+
+    designerBio: `Maria Björnson (1949–2002)，英国舞台设计师，出生于巴黎，父亲是罗马尼亚人，母亲是挪威人。
+
+她在伦敦中央圣马丁艺术学院学习，很早就展现出将绘画、雕塑和戏剧融为一体的能力。在为皇家莎士比亚剧团和英国国家歌剧院工作多年后，她遇到了 Andrew Lloyd Webber。
+
+**Björnson 为《歌剧魅影》设计了一切**——布景、服装、道具、甚至那个标志性的半脸面具。她坚持面具只遮半张脸，而非 Lloyd Webber 最初设想的全脸面具——因为半张人脸比全遮更恐怖，**你看到的那一半让你想象被遮住的那一半**。`,
+
+    designerBio_en: `Maria Björnson (1949–2002), British stage designer, born in Paris to a Romanian father and Norwegian mother.
+
+She studied at London's Central Saint Martins and early showed an ability to fuse painting, sculpture, and theater. After years working with the Royal Shakespeare Company and English National Opera, she met Andrew Lloyd Webber.
+
+**Björnson designed everything for The Phantom of the Opera** — sets, costumes, props, even that iconic half-face mask. She insisted the mask cover only half the face rather than the full face as Lloyd Webber initially envisioned — because half a human face is more terrifying than a fully covered one. **What you see makes you imagine what's hidden.**`,
+
+    story: `《歌剧魅影》的舞台设计史上最奢华、最精密，也最具戏剧性的之一。
+
+**吊灯。** 那盏重达一吨的水晶吊灯，在每场演出中从天花板坠落到舞台——在观众头顶上方仅一米处急停。这不是特效，是真实的物理运动。Björnson 和技术团队花了数月计算配重和制动系统，确保每次坠落都精确到毫秒。
+
+**地下湖。** 舞台下方真的建了一个水池，蜡烛从水面升起（实际是电动蜡烛在水下的升降台上），营造出巴黎歌剧院地下迷宫的幻觉。Björnson 用雾机和灯光让水面若隐若现。
+
+**230 套服装。** Björnson 为整部剧设计了超过 230 套服装，从19世纪巴黎歌剧院的华丽礼服到地下迷宫的暗黑斗篷。每一套都经过她亲手绘制的详细水彩效果图。
+
+**半脸面具。** 这个设计决定成为了百老汇最具辨识度的视觉符号——后来成为了整部音乐剧的 logo。一个半遮半露的白色面具，简洁到极致，却承载了整部剧关于美与丑、表面与内心的所有主题。`,
+
+    story_en: `The stage design of The Phantom of the Opera is among the most lavish, precise, and dramatic in theater history.
+
+**The chandelier.** That one-ton crystal chandelier crashes from the ceiling to the stage in every performance — stopping just one meter above the audience. This isn't a special effect; it's real physical movement. Björnson and the technical team spent months calculating counterweights and braking systems, ensuring each fall was precise to the millisecond.
+
+**The underground lake.** A real water pool was built beneath the stage, with candles rising from the water surface (actually electric candles on underwater lifts), creating the illusion of the Paris Opera House's underground labyrinth. Björnson used fog machines and lighting to make the water shimmer in and out of view.
+
+**230 costumes.** Björnson designed over 230 costumes for the production, from the opulent gowns of 19th-century Paris Opera to the dark cloaks of the underground labyrinth. Each was rendered in her detailed hand-painted watercolor sketches.
+
+**The half-mask.** This design decision became Broadway's most recognizable visual symbol — later becoming the logo for the entire musical. A half-covered white mask, minimalist to the extreme, yet carrying all of the show's themes about beauty and ugliness, surface and soul.`,
+
+    legacy: `《歌剧魅影》全球累计票房超过 $60 亿，在超过 35 个国家演出，观众超过 1.45 亿人次。Björnson 的半脸面具成为了全球最知名的舞台设计标志——你不需要看过这部剧，也认识这个面具。
+
+她在2002年去世，年仅53岁。Andrew Lloyd Webber 称她为"我合作过的最伟大的设计师"。`,
+
+    legacy_en: `The Phantom of the Opera has grossed over $6 billion worldwide, performed in over 35 countries to more than 145 million people. Björnson's half-mask became the world's most recognized stage design icon — you don't need to have seen the show to recognize the mask.
+
+She passed away in 2002 at just 53. Andrew Lloyd Webber called her "the greatest designer I have ever worked with."`,
+
+    significance: `Maria Björnson 证明了**舞台设计可以成为叙事的主角**。在《歌剧魅影》中，布景和服装不是背景——它们是故事本身。吊灯的坠落是高潮，地下湖是情感的隐喻，半脸面具是整部剧的灵魂。她让设计从"服务于表演"升级为"与表演平等对话"。`,
+
+    significance_en: `Maria Björnson proved that **stage design can be the protagonist of the narrative.** In The Phantom of the Opera, sets and costumes aren't background — they are the story itself. The chandelier crash is the climax, the underground lake a metaphor for emotion, the half-mask the soul of the entire production. She elevated design from "serving the performance" to "dialoguing with the performance as an equal."`,
+  },
+
+  {
+    id: '127',
+    date: '2026-01-27',
+    imageUrl: '/the-daily-object/images/mozart-salzburg.jpg',
+    fullImageUrl: '/the-daily-object/images/full/mozart-salzburg.jpg',
+    title: '莫扎特与音乐设计',
+    title_en: 'Mozart & The Design of Sound',
+    subtitle: 'Wolfgang Amadeus Mozart, 1756',
+    subtitle_en: 'Wolfgang Amadeus Mozart, 1756',
+    category: 'music',
+    designer: 'Wolfgang Amadeus Mozart',
+    year: '1756',
+
+    dateConnection: '1756年1月27日，Wolfgang Amadeus Mozart 出生于奥地利萨尔茨堡。他在短短35年的生命中创作了超过600部作品，重新定义了音乐的形式与可能性。如果"设计"是"有意识地组织元素以达成目的"，那么 Mozart 是人类历史上最伟大的设计师之一。',
+    dateConnection_en: 'Wolfgang Amadeus Mozart was born on January 27, 1756 in Salzburg, Austria. In just 35 years of life, he composed over 600 works, redefining the form and possibilities of music. If "design" is "the conscious organization of elements toward a purpose," then Mozart was one of the greatest designers in human history.',
+
+    designerBio: `Wolfgang Amadeus Mozart (1756–1791)，奥地利作曲家，古典主义音乐的巅峰人物。
+
+3岁开始弹琴，5岁作曲，6岁在欧洲宫廷巡演。他的父亲 Leopold Mozart 既是他的老师，也是他的经纪人——带着他穿梭于维也纳、巴黎、伦敦的皇室之间。
+
+但 Mozart 不只是神童。他成年后的作品展现了对人性的深刻理解——从《费加罗的婚礼》中对阶级的讽刺，到《唐·乔瓦尼》中对欲望与惩罚的探索，再到《安魂曲》中对死亡的直视。
+
+**他是一个用音符思考的建筑师。**`,
+
+    designerBio_en: `Wolfgang Amadeus Mozart (1756–1791), Austrian composer and the pinnacle of Classical music.
+
+He began playing at 3, composing at 5, and touring European courts at 6. His father Leopold Mozart was both his teacher and manager, parading him through the courts of Vienna, Paris, and London.
+
+But Mozart was more than a prodigy. His adult works revealed a profound understanding of human nature — from the class satire of The Marriage of Figaro to the exploration of desire and punishment in Don Giovanni, to the unflinching gaze at death in the Requiem.
+
+**He was an architect who thought in notes.**`,
+
+    story: `为什么一个18世纪的作曲家出现在设计日历上？
+
+因为 Mozart 做的事情，和最好的设计师做的事情完全一样：**在限制中创造自由**。
+
+古典奏鸣曲式有严格的结构——呈示部、展开部、再现部。就像网格系统之于平面设计，这些是"规则"。但 Mozart 在这些规则内做到了令人难以置信的事情：他让每个音符都"不可替代"。
+
+听他的G小调第40交响曲的开头——那个焦虑的、不安的主题，每个音都恰好在那个位置。换掉任何一个音，整个结构就会坍塌。这就是"设计"的定义：**每个元素都在它该在的地方，移除任何一个，整体就不完整。**
+
+Mozart 还是"用户体验"的先驱。他写信给父亲说："我的音乐不会让行家不满，但外行也能享受——虽然他们不知道为什么。"这和 Steve Jobs 说的"it just works"是同一种设计哲学：**复杂的结构，简单的体验。**
+
+他的歌剧更是多维度的设计杰作。《费加罗的婚礼》第二幕终场，六个角色同时在台上唱不同的旋律，每个人都有自己的情感线——愤怒、困惑、恐惧、算计——但合在一起却是完美的和声。这不是音乐，这是**信息架构**。`,
+
+    story_en: `Why does an 18th-century composer appear in a design calendar?
+
+Because what Mozart did is exactly what the best designers do: **create freedom within constraints.**
+
+Classical sonata form has a rigid structure — exposition, development, recapitulation. Like the grid system in graphic design, these are the "rules." But within these rules, Mozart achieved something incredible: he made every note irreplaceable.
+
+Listen to the opening of his Symphony No. 40 in G minor — that anxious, restless theme where every note sits in exactly the right place. Change any single note, and the entire structure collapses. This is the definition of "design": **every element is where it should be; remove any one, and the whole is incomplete.**
+
+Mozart was also a pioneer of "user experience." He wrote to his father: "My music won't dissatisfy connoisseurs, but amateurs will enjoy it too — without knowing why." This is the same design philosophy as Steve Jobs' "it just works": **complex structure, simple experience.**
+
+His operas were multidimensional design masterpieces. In the Act II finale of The Marriage of Figaro, six characters sing different melodies simultaneously on stage, each with their own emotional arc — anger, confusion, fear, scheming — yet together they form perfect harmony. This isn't music; it's **information architecture.**`,
+
+    legacy: `Mozart 对后世的影响无法估量。贝多芬、柴可夫斯基、马勒都视他为最高标准。他的音乐至今是全球演出最多的古典曲目。
+
+萨尔茨堡因他成为全球音乐朝圣地，每年的萨尔茨堡音乐节吸引25万观众。他的形象出现在从巧克力包装到城市品牌的一切设计中——Mozart 本身成为了一个设计符号。`,
+
+    legacy_en: `Mozart's influence on posterity is immeasurable. Beethoven, Tchaikovsky, and Mahler all regarded him as the highest standard. His music remains the most performed classical repertoire worldwide.
+
+Salzburg became a global music pilgrimage site because of him, with the annual Salzburg Festival attracting 250,000 visitors. His image appears on everything from chocolate packaging to city branding — Mozart himself became a design symbol.`,
+
+    significance: `Mozart 给所有设计师上了一课：**真正的精湛不是炫技，而是让复杂看起来简单。** 他最好的作品听起来毫不费力——但这种"毫不费力"背后是惊人的结构精密度。这和 Dieter Rams 的"好设计是尽可能少的设计"、Mies van der Rohe 的"少即是多"，说的是同一件事。`,
+
+    significance_en: `Mozart taught every designer a lesson: **true mastery isn't showing off technique — it's making complexity look simple.** His best works sound effortless — but behind that effortlessness lies astonishing structural precision. This is the same thing as Dieter Rams' "good design is as little design as possible" and Mies van der Rohe's "less is more."`,
+  },
+
 ]
 
 
