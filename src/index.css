@@ -48,49 +48,68 @@
   background-color: transparent !important;
 }
 
+/* Base tile: 25% opacity text (无内容，未选中) */
 .luxury-calendar .react-calendar__tile {
-  @apply aspect-square flex items-center justify-center p-0 text-neutral-700 dark:text-neutral-400 rounded-lg transition-all font-light text-sm;
+  @apply aspect-square flex items-center justify-center p-0 rounded-lg transition-all font-light text-sm;
   min-height: 48px;
   background-color: transparent !important;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.dark .luxury-calendar .react-calendar__tile {
+  color: rgba(255, 255, 255, 0.25);
 }
 
 .luxury-calendar .react-calendar__tile:enabled:hover {
-  @apply bg-neutral-100 dark:bg-neutral-800;
+  background-color: transparent !important;
 }
 
 .luxury-calendar .react-calendar__tile:disabled {
-  @apply text-neutral-300 dark:text-neutral-800 cursor-default;
+  color: rgba(0, 0, 0, 0.15);
   background-color: transparent !important;
+  cursor: default;
+}
+
+.dark .luxury-calendar .react-calendar__tile:disabled {
+  color: rgba(255, 255, 255, 0.15);
 }
 
 .luxury-calendar .react-calendar__tile--now {
-  @apply bg-neutral-100 dark:bg-neutral-800 font-normal;
+  background-color: transparent !important;
 }
 
+/* 无内容，选中: 纯黑/纯白文字，无背景 */
 .luxury-calendar .react-calendar__tile--active {
-  background-color: rgb(23 23 23) !important;
-  @apply text-white dark:text-white;
+  background-color: transparent !important;
+  color: rgb(0, 0, 0);
 }
 
 .dark .luxury-calendar .react-calendar__tile--active {
-  background-color: rgb(64 64 64) !important;
+  color: rgb(255, 255, 255);
 }
 
 .luxury-calendar .react-calendar__tile--active:enabled:hover {
-  background-color: rgb(38 38 38) !important;
+  background-color: transparent !important;
 }
 
-.dark .luxury-calendar .react-calendar__tile--active:enabled:hover {
-  background-color: rgb(82 82 82) !important;
-}
-
+/* 有内容，未选中: 黑/白文字 */
 .luxury-calendar .react-calendar__tile.wallpaper-date {
-  @apply relative font-normal text-neutral-900 dark:text-neutral-100;
+  @apply relative font-normal;
+  color: rgb(0, 0, 0);
 }
 
+.dark .luxury-calendar .react-calendar__tile.wallpaper-date {
+  color: rgb(255, 255, 255);
+}
+
+/* 有内容，选中: 黑/白文字，无背景 (dot handled by tileContent) */
 .luxury-calendar .react-calendar__tile--active.wallpaper-date {
   background-color: transparent !important;
-  @apply text-neutral-900 dark:text-neutral-100;
+  color: rgb(0, 0, 0);
+}
+
+.dark .luxury-calendar .react-calendar__tile--active.wallpaper-date {
+  color: rgb(255, 255, 255);
 }
 
 /* Smooth transitions */
