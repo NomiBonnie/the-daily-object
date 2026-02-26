@@ -244,8 +244,8 @@ function App() {
     const legacy = lang === 'en' && design.legacy_en ? design.legacy_en : design.legacy
     const significance = lang === 'en' && design.significance_en ? design.significance_en : design.significance
     const dateConnection = lang === 'en' && design.dateConnection_en ? design.dateConnection_en : design.dateConnection
-    const title = lang === 'en' && design.title_en ? design.title_en : design.title
-    const subtitle = lang === 'en' && design.subtitle_en ? design.subtitle_en : design.subtitle
+    const title = design.title_en || design.title
+    const subtitle = design.subtitle_en || design.subtitle
     
     return (
     <div className="space-y-6">
@@ -292,7 +292,7 @@ function App() {
       {/* 1. The Story of Design - no top border after image */}
       <div>
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-          'The Story Behind'
+          {lang === 'en' ? 'The Story Behind' : '作品故事'}
         </p>
         <RenderText text={story} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
@@ -300,7 +300,7 @@ function App() {
       {/* 2. The Designer */}
       <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-          'About The Designer'
+          {lang === 'en' ? 'About The Designer' : '关于创作者'}
         </p>
         <RenderText text={designerBio} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
@@ -309,7 +309,7 @@ function App() {
       {legacy && (
         <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
           <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-            'Legacy & Influence'
+            {lang === 'en' ? 'Legacy & Influence' : '影响与传承'}
           </p>
           <RenderText text={legacy} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
         </div>
@@ -319,7 +319,7 @@ function App() {
       {significance && (
         <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
           <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-            'What It Means'
+            {lang === 'en' ? 'What It Means' : '设计的意义'}
           </p>
           <RenderText text={significance} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
         </div>
@@ -328,7 +328,7 @@ function App() {
       {/* 5. Why Today */}
       <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
         <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
-          'Why Today'
+          {lang === 'en' ? 'Why Today' : '今天的理由'}
         </p>
         <RenderText text={dateConnection} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
@@ -342,7 +342,7 @@ function App() {
               className="flex items-center gap-2 text-sm font-light text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 transition-colors"
             >
               <ChevronLeft className="w-4 h-4" />
-              <span className="hidden sm:inline">{lang === 'en' && prev.title_en ? prev.title_en : prev.title}</span>
+              <span className="hidden sm:inline">{prev.title_en || prev.title}</span>
               <span className="sm:hidden">Prev</span>
             </button>
           ) : (
@@ -353,7 +353,7 @@ function App() {
               onClick={() => navigateToDesign(next)}
               className="flex items-center gap-2 text-sm font-light text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 transition-colors"
             >
-              <span className="hidden sm:inline">{lang === 'en' && next.title_en ? next.title_en : next.title}</span>
+              <span className="hidden sm:inline">{next.title_en || next.title}</span>
               <span className="sm:hidden">Next</span>
               <ChevronRight className="w-4 h-4" />
             </button>
