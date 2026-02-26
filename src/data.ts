@@ -1,6 +1,6 @@
-﻿// Bump this when any image file is replaced (same filename, new content)
+// Bump this when any image file is replaced (same filename, new content)
 // This busts CDN cache without renaming files
-export const IMAGE_VERSION = '20260226i'
+export const IMAGE_VERSION = '20260226j'
 
 export interface DesignObject {
   id: string
