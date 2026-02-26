@@ -100,6 +100,13 @@ function App() {
       touchStartX.current = e.touches[0].clientX
       touchStartY.current = e.touches[0].clientY
     }
+    const onTouchMove = (e: TouchEvent) => {
+      const dx = Math.abs(e.touches[0].clientX - touchStartX.current)
+      const dy = Math.abs(e.touches[0].clientY - touchStartY.current)
+      if (dx > 10 && dx > dy * 1.5) {
+        e.preventDefault() // claim horizontal swipe
+      }
+    }
     const onTouchEnd = (e: TouchEvent) => {
       const dx = e.changedTouches[0].clientX - touchStartX.current
       const dy = e.changedTouches[0].clientY - touchStartY.current
@@ -108,9 +115,11 @@ function App() {
       }
     }
     el.addEventListener('touchstart', onTouchStart, { passive: true, capture: true })
+    el.addEventListener('touchmove', onTouchMove, { passive: false, capture: true })
     el.addEventListener('touchend', onTouchEnd, { passive: true, capture: true })
     return () => {
       el.removeEventListener('touchstart', onTouchStart, { capture: true } as EventListenerOptions)
+      el.removeEventListener('touchmove', onTouchMove, { capture: true } as EventListenerOptions)
       el.removeEventListener('touchend', onTouchEnd, { capture: true } as EventListenerOptions)
     }
   }, [changeMonth])
