@@ -1,4 +1,4 @@
-﻿export interface DesignObject {
+export interface DesignObject {
   id: string
   date: string
   imageUrl: string
@@ -1859,8 +1859,8 @@ When you stand at the edge of the SkyPark's infinity pool, 200 meters up, the en
   {
     id: '28',
     date: '2026-01-31',
-    imageUrl: '/the-daily-object/images/muji-cd-player.jpg',
-    fullImageUrl: '/the-daily-object/images/full/muji-cd-player.jpg',
+    imageUrl: '/the-daily-object/images/muji-cd-player-v2.jpg',
+    fullImageUrl: '/the-daily-object/images/full/muji-cd-player-v2.jpg',
     title: 'MUJI 壁挂式 CD 播放器',
     title_en: 'MUJI Wall-Mounted CD Player',
     subtitle: '深澤直人, 1999',
