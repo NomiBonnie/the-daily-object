@@ -3653,6 +3653,108 @@ From a design perspective, the *Michelin Guide* is **a masterclass in informatio
     legacy_en: '• Pioneered the "meta-film" genre, influencing Woody Allen, Charlie Kaufman, and countless others\n• Its visual design methodology became a textbook for film production design\n• Piero Gherardi\'s costumes remain a fashion inspiration\n• The opening dream sequence is a milestone in cinematic visual language',
     significance_en: '8½ is the **supreme proof of cinema as a design medium.** Fellini and Gherardi demonstrated that visual design is narrative itself — sets are psychological spaces, costumes are character, light and shadow are emotional rhythm.',
   },
+
+  // 01-21: New Look (Christian Dior)
+  {
+    id: '48',
+    date: '2026-01-21',
+    imageUrl: '/the-daily-object/images/dior-new-look.jpg',
+    fullImageUrl: '/the-daily-object/images/full/dior-new-look.jpg',
+    title: 'New Look',
+    title_en: 'New Look',
+    subtitle: 'Christian Dior, 1947',
+    subtitle_en: 'Christian Dior, 1947',
+    category: 'fashion',
+    designer: 'Christian Dior',
+    year: '1947',
+
+    dateConnection: '1905年1月21日，Christian Dior 出生于法国诺曼底格兰维尔。1947年，他推出了震惊世界的"New Look"系列，彻底改变了战后时尚的面貌，重新定义了女性优雅的标准。',
+    designerBio: `Christian Dior（1905-1957）是20世纪最具影响力的时装设计师之一。他出身于富裕家庭，年轻时热爱艺术，曾经营画廊。大萧条摧毁了家族财富后，他转向时装设计，在 Robert Piguet 和 Lucien Lelong 麾下学习技艺。
+
+1946年，在纺织业巨头 Marcel Boussac 的资助下，Dior 在巴黎蒙田大道30号创立了自己的时装屋。仅仅一年后，他的首个系列就让整个时尚界为之倾倒。
+
+Dior 对设计有着近乎偏执的完美主义。他相信时装不仅是衣服，更是**建筑**——每一件作品都需要精确的结构、完美的比例和戏剧性的轮廓。他曾说："我以花瓣的形态设计衣服。"`,
+    story: `1947年2月12日，Christian Dior 在巴黎蒙田大道30号发布了他的首个高级定制系列"Corolle"（花冠）。当模特走出来的那一刻，在场的记者和买手们集体倒吸一口气——这与战时简朴、节省布料的时装完全是两个世界。
+
+**圆润的肩线、紧束的腰身、及小腿的丰盈长裙**——一件"Bar"套装就需要用掉近15米布料，而战时一件裙子可能只用3米。《Harper's Bazaar》主编 Carmel Snow 当场脱口而出："It's quite a revolution, dear Christian. Your dresses have such a new look!" ——"New Look"之名由此诞生。
+
+这个系列引发了巨大争议。布料配给制还未完全取消，如此奢侈的用料被视为"道德上的冒犯"。巴黎街头甚至出现了愤怒的抗议者试图撕扯穿着 New Look 的女性的衣服。
+
+但 Dior 的设计天才在于：**New Look 不只是一种风格，它是一种情感的释放。** 经历了六年战争的压抑后，人们需要美、需要奢侈、需要被重新赋予对未来的想象。那条丰盈的裙摆承载的是整个时代对自由与美好生活的渴望。
+
+从设计角度看，New Look 的核心创新在于**结构**。Dior 在衣服内部使用了精密的衬垫、鲸骨和衬里，创造出理想化的女性身体轮廓。他不是在为身体做衣服，而是**用衣服重新雕塑身体**。这种"时装即建筑"的理念至今仍是高级定制的核心哲学。`,
+    legacy: '• 彻底终结了战时实用主义时装美学，重新确立巴黎作为全球时尚之都的地位\n• "New Look"成为时装史上最著名的革命性时刻\n• 创立的 Dior 品牌至今仍是全球最具价值的奢侈品牌之一\n• 开创了时装设计师作为"品牌帝国"的商业模式\n• "时装即建筑"的设计哲学影响了 Balenciaga、Givenchy 等后来的大师',
+    significance: 'New Look 是**时装设计史上最重要的单一时刻**。它证明了设计不仅能改变穿着方式，更能改变一个时代的精神面貌。在物质匮乏的年代，Dior 用15米布料的奢侈告诉世界：**美不是多余的，美是必需品。**',
+
+    dateConnection_en: 'On January 21, 1905, Christian Dior was born in Granville, Normandy, France. In 1947, he unveiled his revolutionary "New Look" collection that transformed postwar fashion and redefined the standards of feminine elegance.',
+    designerBio_en: `Christian Dior (1905-1957) was one of the most influential fashion designers of the 20th century. Born into a wealthy family, he loved art in his youth and once ran a gallery. After the Great Depression destroyed the family fortune, he turned to fashion design under Robert Piguet and Lucien Lelong.
+
+In 1946, backed by textile magnate Marcel Boussac, Dior founded his fashion house at 30 Avenue Montaigne in Paris. Just one year later, his debut collection captivated the entire fashion world.
+
+Dior brought an almost obsessive perfectionism to design. He believed fashion was not just clothing but **architecture** — every piece required precise structure, perfect proportions, and dramatic silhouette. He once said: "I design clothes in the shape of flower petals."`,
+    story_en: `On February 12, 1947, Christian Dior presented his debut haute couture collection "Corolle" at 30 Avenue Montaigne in Paris. The moment the models appeared, the assembled journalists and buyers collectively gasped — this was a world apart from wartime's austere, fabric-rationed fashions.
+
+**Rounded shoulders, cinched waists, and full calf-length skirts** — a single "Bar" suit required nearly 15 meters of fabric, while a wartime dress might use only 3. *Harper's Bazaar* editor Carmel Snow exclaimed: "It's quite a revolution, dear Christian. Your dresses have such a new look!" — and the name was born.
+
+The collection sparked enormous controversy. Fabric rationing hadn't fully ended, and such extravagance was seen as "a moral affront." Angry protesters even tried to tear clothes off women wearing the New Look in the streets of Paris.
+
+But Dior's genius lay in this: **the New Look was not just a style — it was an emotional release.** After six years of wartime suppression, people needed beauty, needed luxury, needed to reimagine the future. Those voluminous skirts carried an entire era's longing for freedom and the good life.
+
+From a design perspective, the core innovation was **structural.** Dior used elaborate internal padding, boning, and linings to create an idealized feminine silhouette. He wasn't making clothes for the body — he was **using clothes to resculpt the body.** This "fashion as architecture" philosophy remains the core ethos of haute couture today.`,
+    legacy_en: '• Decisively ended wartime utilitarian fashion aesthetics and re-established Paris as the global fashion capital\n• "New Look" became the most famous revolutionary moment in fashion history\n• The Dior brand remains one of the world\'s most valuable luxury brands\n• Pioneered the business model of fashion designers as "brand empires"\n• His "fashion as architecture" philosophy influenced Balenciaga, Givenchy, and other masters',
+    significance_en: 'The New Look is **the single most important moment in fashion design history.** It proved that design can change not just how people dress, but the spiritual character of an era. In a time of scarcity, Dior used 15 meters of extravagant fabric to tell the world: **beauty is not a luxury — beauty is a necessity.**',
+  },
+
+  // 01-22: A Change Is Gonna Come (Sam Cooke)
+  {
+    id: '49',
+    date: '2026-01-22',
+    imageUrl: '/the-daily-object/images/a-change-is-gonna-come.jpg',
+    fullImageUrl: '/the-daily-object/images/full/a-change-is-gonna-come.jpg',
+    title: 'A Change Is Gonna Come',
+    title_en: 'A Change Is Gonna Come',
+    subtitle: 'Sam Cooke, 1964',
+    subtitle_en: 'Sam Cooke, 1964',
+    category: 'music',
+    designer: 'Sam Cooke',
+    year: '1964',
+
+    dateConnection: '1931年1月22日，Sam Cooke 出生于密西西比州克拉克斯代尔。他不仅是灵魂乐的先驱，更是第一位将音乐视为"设计产品"的非裔美国艺术家——从词曲创作、录音制作到唱片公司运营，他重新设计了流行音乐的整个产业链。',
+    designerBio: `Sam Cooke（1931-1964）被誉为"灵魂乐之王"，是流行音乐史上最重要的创新者之一。他生于密西西比，成长于芝加哥，从小在教堂唱诗班展露天赋，19岁便成为传奇福音组合 Soul Stirrers 的主唱。
+
+Cooke 的革命性不仅在于他的声音——那种丝绒般柔滑、充满磁性的嗓音——更在于他的**商业设计思维**。1959年，他创立了自己的唱片公司 SAR Records 和音乐出版公司 Kags Music，成为当时极少数拥有自己音乐版权和厂牌的非裔艺术家。
+
+他深刻理解：**音乐不只是艺术，音乐是一个需要被设计的系统。**`,
+    story: `1963年10月，Sam Cooke 在路易斯安那州什里夫波特巡演。尽管他已经是全美最红的歌手之一，当他试图入住一家白人旅馆时，仍然被拒之门外。这次屈辱经历成为了一首伟大歌曲的催化剂。
+
+同年，Bob Dylan 的《Blowin' in the Wind》引发了巨大反响。Cooke 听到后深受触动，但也感到一种刺痛——**为什么关于黑人民权的最有力歌曲，是一个白人写的？** 他决定用自己的方式回应。
+
+《A Change Is Gonna Come》的创作过程异常艰难。最终的编曲是一个**音乐设计的杰作**：弦乐的宏大叙事从低沉的独白逐渐升腾为壮阔的交响；法国号赋予了歌曲一种庄严的仪式感；而 Cooke 的声音在控制与释放之间的精确游走，创造了流行音乐史上最动人的声乐表演之一。
+
+歌曲于1964年12月作为单曲发行——悲剧性的是，Cooke 在发行前三周遭枪击身亡，年仅33岁。这首歌因此获得了超越音乐本身的象征意义：它成为了整个民权运动的圣歌。
+
+从**音乐设计**的角度看，这首歌的编曲结构堪称教科书：三段式叙事（过去的痛苦→现在的挣扎→未来的希望），每一段都通过配器的递进来强化情感。结尾处弦乐突然转为不安的小调——暗示变革之路并非坦途——这种反转设计让整首歌的情感层次远超一般的抗议歌曲。`,
+    legacy: '• 被《滚石》杂志评为"史上最伟大的500首歌曲"第12名\n• 成为美国民权运动的标志性音乐作品\n• 开创了灵魂乐的编曲范式：管弦乐 + 福音元素 + 流行结构的完美融合\n• Sam Cooke 创立自有厂牌的商业模式，影响了整个黑人音乐产业\n• 歌曲的叙事结构成为后世抗议音乐的模板\n• 影响了 Otis Redding、Aretha Franklin、Marvin Gaye 等灵魂乐大师',
+    significance: '《A Change Is Gonna Come》是**音乐作为社会设计工具的极致案例。** Sam Cooke 用精密的编曲结构、克制而深情的演唱，将个人的屈辱经历升华为整个时代的心声。这首歌证明了设计的最高境界：**不是改变物质世界的形态，而是改变人们内心的风景。**',
+
+    dateConnection_en: 'On January 22, 1931, Sam Cooke was born in Clarksdale, Mississippi. He was not only a pioneer of soul music but also the first African American artist to treat music as a "designed product" — from songwriting and production to running his own record label, he redesigned the entire popular music industry chain.',
+    designerBio_en: `Sam Cooke (1931-1964), known as the "King of Soul," was one of the most important innovators in popular music history. Born in Mississippi and raised in Chicago, he showed his talent early in church choirs and became the lead singer of the legendary gospel group the Soul Stirrers at just 19.
+
+Cooke's revolutionary impact went beyond his voice — that velvety smooth, magnetically warm tone — to his **business design thinking.** In 1959, he founded his own record label SAR Records and publishing company Kags Music, becoming one of the very few African American artists of his era to own his music rights and label.
+
+He understood profoundly: **music is not just art — music is a system that needs to be designed.**`,
+    story_en: `In October 1963, Sam Cooke was touring in Shreveport, Louisiana. Despite being one of the biggest stars in America, when he tried to check into a whites-only motel, he was turned away. This humiliating experience became the catalyst for one of the greatest songs ever written.
+
+That same year, Bob Dylan's "Blowin' in the Wind" had generated enormous impact. Cooke was deeply moved but also felt a sting — **why was the most powerful song about Black civil rights written by a white man?** He decided to respond in his own way.
+
+The creation of "A Change Is Gonna Come" was agonizing. The final arrangement is a **masterpiece of musical design**: the orchestral narrative rises from hushed monologue to sweeping symphony; French horns give the song ceremonial gravitas; and Cooke's voice, navigating precisely between restraint and release, creates one of the most moving vocal performances in pop music history.
+
+The song was released as a single in December 1964 — tragically, Cooke had been shot and killed three weeks before its release, at just 33. The song thus became an anthem for the entire civil rights movement.
+
+From a **musical design** perspective, the arrangement structure is textbook: a three-act narrative (past pain → present struggle → future hope), each section intensified through instrumental progression. At the ending, the strings suddenly shift to an uneasy minor key — suggesting the road to change is far from smooth — a reversal that gives the song emotional depth far beyond typical protest songs.`,
+    legacy_en: '• Ranked #12 on Rolling Stone\'s "500 Greatest Songs of All Time"\n• Became the iconic musical work of the American civil rights movement\n• Pioneered the soul music arrangement paradigm: orchestral + gospel + pop structure\n• Cooke\'s business model of owning his label influenced the entire Black music industry\n• The song\'s narrative structure became a template for protest music\n• Influenced Otis Redding, Aretha Franklin, Marvin Gaye, and other soul masters',
+    significance_en: '"A Change Is Gonna Come" is **the ultimate case of music as a tool of social design.** Sam Cooke used precise arrangement and restrained yet deeply emotional vocals to elevate personal humiliation into the voice of an entire era. This song proves design\'s highest calling: **not to change the shape of the material world, but to change the landscape within people\'s hearts.**',
+  },
 ]
 
 
