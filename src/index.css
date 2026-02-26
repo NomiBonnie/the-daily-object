@@ -8,15 +8,15 @@
 }
 
 /* Force transparent backgrounds for calendar in dark mode */
-.dark .luxury-calendar.react-calendar {
+.luxury-calendar.react-calendar:is(.dark *) {
   background-color: transparent !important;
 }
 
-.dark .luxury-calendar .react-calendar__viewContainer {
+.luxury-calendar .react-calendar__viewContainer:is(.dark *) {
   background-color: transparent !important;
 }
 
-.dark .luxury-calendar .react-calendar__month-view {
+.luxury-calendar .react-calendar__month-view:is(.dark *) {
   background-color: transparent !important;
 }
 
@@ -48,22 +48,22 @@
   background-color: transparent !important;
 }
 
-/* Base tile: 75% opacity text (无内容，未选中) */
+/* Base tile */
 .luxury-calendar .react-calendar__tile {
   @apply aspect-square flex items-center justify-center p-0 rounded-lg transition-all font-light text-sm;
   min-height: 48px;
   background-color: transparent !important;
 }
 
+/* 无内容，未选中: 75% opacity */
 .luxury-calendar .react-calendar__month-view__days__day {
   color: rgba(0, 0, 0, 0.75) !important;
 }
-
-.dark .luxury-calendar .react-calendar__month-view__days__day {
+.luxury-calendar .react-calendar__month-view__days__day:is(.dark *) {
   color: rgba(255, 255, 255, 0.75) !important;
 }
 
-/* 上/下月日期: 整体 50% 透明度，更灰 */
+/* 上/下月日期: 整体 50% 透明度 */
 .luxury-calendar .react-calendar__month-view__days__day--neighboringMonth {
   opacity: 0.5 !important;
 }
@@ -73,13 +73,12 @@
 }
 
 .luxury-calendar .react-calendar__tile:disabled {
-  color: rgba(0, 0, 0, 0.15);
+  color: rgba(0, 0, 0, 0.15) !important;
   background-color: transparent !important;
   cursor: default;
 }
-
-.dark .luxury-calendar .react-calendar__tile:disabled {
-  color: rgba(255, 255, 255, 0.15);
+.luxury-calendar .react-calendar__tile:disabled:is(.dark *) {
+  color: rgba(255, 255, 255, 0.15) !important;
 }
 
 .luxury-calendar .react-calendar__tile--now {
@@ -89,35 +88,32 @@
 /* 无内容，选中: 纯黑/纯白文字，无背景 */
 .luxury-calendar .react-calendar__tile--active {
   background-color: transparent !important;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0) !important;
 }
-
-.dark .luxury-calendar .react-calendar__tile--active {
-  color: rgb(255, 255, 255);
+.luxury-calendar .react-calendar__tile--active:is(.dark *) {
+  color: rgb(255, 255, 255) !important;
 }
 
 .luxury-calendar .react-calendar__tile--active:enabled:hover {
   background-color: transparent !important;
 }
 
-/* 有内容，未选中: 黑/白文字 */
+/* 有内容，未选中: 纯黑/白文字 */
 .luxury-calendar .react-calendar__tile.wallpaper-date {
   @apply relative font-normal;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0) !important;
+}
+.luxury-calendar .react-calendar__tile.wallpaper-date:is(.dark *) {
+  color: rgb(255, 255, 255) !important;
 }
 
-.dark .luxury-calendar .react-calendar__tile.wallpaper-date {
-  color: rgb(255, 255, 255);
-}
-
-/* 有内容，选中: 黑/白文字，无背景 (dot handled by tileContent) */
+/* 有内容，选中: 纯黑/白文字，无背景 */
 .luxury-calendar .react-calendar__tile--active.wallpaper-date {
   background-color: transparent !important;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0) !important;
 }
-
-.dark .luxury-calendar .react-calendar__tile--active.wallpaper-date {
-  color: rgb(255, 255, 255);
+.luxury-calendar .react-calendar__tile--active.wallpaper-date:is(.dark *) {
+  color: rgb(255, 255, 255) !important;
 }
 
 /* Smooth transitions */
@@ -151,4 +147,3 @@
 .animate-fadeIn {
   animation: fadeIn 0.3s ease-in-out;
 }
-
