@@ -3366,6 +3366,194 @@ It was during Red House's construction that Morris discovered he couldn't buy fu
     significance_en: 'Red House is **one of the wellsprings of modern design thinking.** It proved that architecture could be honest, unaffected, and let function rather than style dictate form. From Red House through the Arts and Crafts Movement, Art Nouveau, to the Bauhaus and Modernism — the thread is clear. Every designer who argues that "good design should be honest" echoes the choice Webb and Morris made in this red-brick house over 160 years ago.',
   },
 
+  // 01-13: National Geographic Magazine
+  {
+    id: '13',
+    date: '2026-01-13',
+    imageUrl: '/the-daily-object/images/national-geographic-magazine.jpg',
+    fullImageUrl: '/the-daily-object/images/full/national-geographic-magazine.jpg',
+    title: '《国家地理》杂志',
+    title_en: 'National Geographic Magazine',
+    subtitle: 'National Geographic Society, 1888',
+    subtitle_en: 'National Geographic Society, 1888',
+    category: 'graphic',
+    designer: 'National Geographic Society',
+    year: '1888',
+
+    dateConnection: '1888年1月13日，国家地理学会在华盛顿特区成立，33位创始人齐聚宇宙俱乐部，立下"增进和传播地理知识"的使命。九个月后，第一期《国家地理》杂志面世。',
+    designerBio: `国家地理学会由探险家、地理学家、军事战略家等33人联合创立，首任会长是电话发明者亚历山大·格雷厄姆·贝尔的岳父加迪纳·格林·哈伯德。贝尔本人后来接任会长，将杂志从干涩的学术刊物转型为面向大众的视觉读物——这一决定彻底改变了杂志的命运。
+
+1905年，编辑吉尔伯特·H·格罗夫纳大胆刊登了一组西藏拉萨的全页照片，董事会认为这是"不成体统"的做法。但读者的热烈反响证明，**照片比文字更能激发人们对世界的好奇心**。这一理念成为国家地理的核心设计哲学。`,
+    story: `《国家地理》最标志性的设计元素是那道**黄色边框**——1910年首次出现在封面上，从此成为全球最具辨识度的杂志视觉符号之一。这抹鲜明的黄色简洁有力，在报摊上一眼便能认出，被读者亲切地称为"那本黄框杂志"。
+
+杂志的设计革命不仅在于封面。国家地理率先在印刷媒体中大规模使用**彩色摄影**：1914年刊登了首批天然彩色照片，1930年代开始系统使用柯达彩色胶片。每一张照片都经过严苛的筛选和编排——编辑部常常从数万张底片中只挑选几十张刊用。
+
+**地图设计**是另一个被低估的贡献。国家地理制图部门创造了大量精美的地图增刊，其制图风格——清晰的层次、优雅的配色、精确的标注——影响了整个现代制图学的审美标准。1922年发布的亚洲地图甚至被白宫用作参考资料。
+
+从版式设计角度看，国家地理确立了"沉浸式图文叙事"的范式：全页跨版照片、精心排布的图片序列、照片与文字的节奏感——这套视觉语言后来被无数杂志效仿，成为现代杂志编辑设计的基石。`,
+    legacy: '• 黄色边框：全球最具辨识度的杂志品牌标识之一，100多年未曾改变\n• 开创了"影像驱动叙事"的杂志设计范式，影响了 LIFE、Time、Monocle 等后来者\n• 推动了彩色摄影和摄影报道在主流媒体中的普及\n• 制图设计标准至今影响着 Google Maps 等数字地图的视觉语言\n• 累计发行超过140个国家，40种语言，封面照片成为摄影史的重要档案',
+    significance: '《国家地理》不仅是一本杂志，更是**视觉传播设计的里程碑**。它证明了一个深刻的设计真理：当信息设计（排版、摄影、地图）与人类天生的好奇心结合时，知识可以像故事一样传播。那道黄色边框是极简品牌设计的典范——一个色块，一百年不变，全世界都认识。',
+
+    dateConnection_en: 'On January 13, 1888, the National Geographic Society was founded in Washington, D.C. Thirty-three explorers, geographers, and scholars gathered at the Cosmos Club with a mission to "increase and diffuse geographic knowledge." Nine months later, the first issue of National Geographic Magazine was published.',
+    designerBio_en: `The National Geographic Society was co-founded by 33 individuals including explorers, geographers, and military strategists. Its first president was Gardiner Greene Hubbard, father-in-law of telephone inventor Alexander Graham Bell. Bell himself later became president and transformed the magazine from a dry academic journal into a visually driven publication for the general public — a decision that forever changed its destiny.
+
+In 1905, editor Gilbert H. Grosvenor boldly published a series of full-page photographs of Lhasa, Tibet. The board considered this "undignified," but the overwhelming reader response proved that **photographs could inspire curiosity about the world far more powerfully than words alone.** This insight became National Geographic's core design philosophy.`,
+    story_en: `National Geographic's most iconic design element is its **yellow border** — first appearing on the cover in 1910, it became one of the most recognizable visual identities in magazine history. Bold and minimal, it made the magazine instantly identifiable on any newsstand, earning it the affectionate nickname "that yellow-bordered magazine."
+
+The design revolution went beyond the cover. National Geographic pioneered large-scale use of **color photography** in print media: it published its first natural-color photographs in 1914 and began systematic use of Kodak color film in the 1930s. Every image underwent rigorous selection — editors routinely chose just dozens of frames from tens of thousands of negatives.
+
+**Cartographic design** is another underappreciated contribution. National Geographic's cartography department produced exquisite map supplements whose style — clear hierarchy, elegant color palettes, precise labeling — influenced the aesthetic standards of modern cartography. Their 1922 map of Asia was even used as a reference by the White House.
+
+From a layout perspective, National Geographic established the paradigm of "immersive visual storytelling": full-bleed photographs, carefully sequenced image narratives, rhythmic interplay between image and text — a visual language later emulated by countless magazines and now foundational to modern editorial design.`,
+    legacy_en: '• The yellow border: one of the world\'s most recognizable magazine brand identities, unchanged for over a century\n• Pioneered "image-driven storytelling" in magazine design, influencing LIFE, Time, Monocle, and many others\n• Accelerated the adoption of color photography and photojournalism in mainstream media\n• Cartographic design standards that continue to influence digital maps like Google Maps\n• Published in over 140 countries and 40 languages; its cover photographs form an important archive in the history of photography',
+    significance_en: 'National Geographic is not just a magazine — it is **a milestone in visual communication design.** It proved a profound design truth: when information design (typography, photography, cartography) meets innate human curiosity, knowledge can spread like a story. That yellow border is a masterclass in minimal brand design — one color, one century, universally recognized.',
+  },
+
+  // 01-14: The Cradle by Berthe Morisot
+  {
+    id: '14',
+    date: '2026-01-14',
+    imageUrl: '/the-daily-object/images/the-cradle-morisot.jpg',
+    fullImageUrl: '/the-daily-object/images/full/the-cradle-morisot.jpg',
+    title: '摇篮',
+    title_en: 'The Cradle',
+    subtitle: 'Berthe Morisot, 1872',
+    subtitle_en: 'Berthe Morisot, 1872',
+    category: 'art',
+    designer: 'Berthe Morisot',
+    year: '1872',
+
+    dateConnection: '1841年1月14日，贝尔特·莫里索出生于法国布尔日。她是印象派运动的核心成员之一，也是19世纪最重要的女性画家——在一个女性甚至不被允许进入美术学院的时代。',
+    designerBio: `贝尔特·莫里索出身于一个开明的法国中产家庭。她的父亲是省长，母亲是弗拉戈纳尔的后裔。莫里索和姐姐从小接受绘画教育，但她很快超越了"闺秀消遣"的范畴，成为一位真正的职业艺术家。
+
+莫里索师从柯罗，后与马奈家族结缘——她既是马奈最钟爱的模特，也嫁给了马奈的弟弟欧仁。但她从不是任何人的附属。在1874年第一届印象派画展上，莫里索是唯一受邀参展的女性画家，此后她参加了除一届以外的所有印象派展览。
+
+她的绘画风格以**流动的笔触和透明的光感**著称。评论家常常惊讶于她作品中"未完成"的自由感——那些看似随意的笔触实际上经过深思熟虑，创造出一种介于写实与抽象之间的诗意空间。`,
+    story: `《摇篮》创作于1872年，画中人物是莫里索的姐姐艾德玛，她正透过薄纱帷幔注视着摇篮中沉睡的婴儿。这幅画是**西方美术史上第一幅以母性为主题的印象派作品**，也是莫里索最广为人知的代表作。
+
+画面的构图精妙而亲密：母亲的身体形成一个保护性的弧线，右手轻拉帷幔，左手支撑着脸颊。那层半透明的白色薄纱——用极其轻盈的笔触画成——同时是物理屏障和情感纽带，将母亲与婴儿既分隔又连接。
+
+莫里索在色彩上展现了惊人的克制力。整幅画以**黑、白、灰蓝**为主调，母亲深色的衣裙与婴儿的白色襁褓形成对比，帷幔则用近乎水彩般的透明笔触处理，让光线穿透织物。这种"少即是多"的色彩策略，让画面散发出一种安静的力量。
+
+《摇篮》在1874年首届印象派展览上展出时，几乎无人问津。当时的评论界对整个印象派运动充满敌意，而一幅描绘"日常家庭场景"的画作更被视为不登大雅之堂。但正是这种对私密日常的关注，让莫里索的作品在一个多世纪后获得了重新评价。`,
+    legacy: '• 西方美术史上首幅以母性为主题的印象派作品\n• 将"私密空间"和"日常生活"确立为严肃的艺术主题\n• 莫里索的笔触技法影响了后来的纳比派和野兽派画家\n• 现藏于巴黎奥赛博物馆，是该馆最受欢迎的藏品之一\n• 为女性艺术家在专业艺术圈的地位开辟了道路',
+    significance: '《摇篮》的伟大之处在于它**将亲密感转化为艺术力量**。在一个崇尚宏大历史叙事的时代，莫里索选择画一位母亲看着孩子入睡——这个最平凡的瞬间。她用印象派的光影语言赋予了这个日常场景以永恒的诗意，证明了**亲密与宏大、私密与公共之间不存在高低之分**。',
+
+    dateConnection_en: 'On January 14, 1841, Berthe Morisot was born in Bourges, France. She became one of the core members of the Impressionist movement and the most important female painter of the 19th century — in an era when women were not even permitted to enroll in fine art academies.',
+    designerBio_en: `Berthe Morisot was born into an enlightened French bourgeois family. Her father was a prefect, and her mother was a descendant of Fragonard. Morisot and her sister received painting lessons from childhood, but she quickly transcended the realm of "genteel pastime" to become a truly professional artist.
+
+Morisot studied under Corot and later became connected to the Manet family — she was Édouard Manet's favorite model and married his brother Eugène. Yet she was never anyone's appendage. At the first Impressionist exhibition in 1874, Morisot was the only female painter invited, and she participated in all but one subsequent Impressionist show.
+
+Her painting style is renowned for its **fluid brushwork and luminous transparency.** Critics were often astonished by the "unfinished" freedom in her work — those seemingly spontaneous strokes were in fact deeply considered, creating a poetic space between realism and abstraction.`,
+    story_en: `*The Cradle* was painted in 1872. It depicts Morisot's sister Edma gazing through a sheer curtain at her sleeping infant in a cradle. This painting is **the first Impressionist work to take motherhood as its subject** in Western art history, and remains Morisot's best-known masterpiece.
+
+The composition is exquisitely intimate: the mother's body forms a protective arc, her right hand gently drawing back the veil, her left hand cradling her cheek. The translucent white curtain — rendered in feather-light brushstrokes — serves simultaneously as physical barrier and emotional bond, both separating and connecting mother and child.
+
+Morisot demonstrated remarkable restraint in her palette. The entire painting is built on **blacks, whites, and blue-grays**. The mother's dark dress contrasts with the baby's white swaddling, while the curtain is handled with near-watercolor transparency, allowing light to penetrate the fabric. This "less is more" color strategy gives the painting a quiet, profound power.
+
+When *The Cradle* was exhibited at the first Impressionist exhibition in 1874, it was largely ignored. Critics were hostile to the entire Impressionist movement, and a painting depicting a "mundane domestic scene" was considered beneath serious art. Yet it was precisely this attention to intimate everyday life that led to Morisot's radical reappraisal more than a century later.`,
+    legacy_en: '• The first Impressionist painting to take motherhood as its subject in Western art\n• Established "intimate space" and "everyday life" as legitimate subjects for serious art\n• Morisot\'s brushwork technique influenced the Nabis and Fauvist painters\n• Now in the Musée d\'Orsay, Paris — one of the museum\'s most beloved works\n• Paved the way for women artists in professional art circles',
+    significance_en: 'The greatness of *The Cradle* lies in its **transformation of intimacy into artistic power.** In an era that worshipped grand historical narratives, Morisot chose to paint a mother watching her child fall asleep — the most ordinary of moments. With the Impressionist language of light and shadow, she gave this everyday scene an eternal poetry, proving that **there is no hierarchy between the intimate and the monumental, the private and the public.**',
+  },
+
+  // 01-15: Wikipedia
+  {
+    id: '15',
+    date: '2026-01-15',
+    imageUrl: '/the-daily-object/images/wikipedia-logo.png',
+    fullImageUrl: '/the-daily-object/images/full/wikipedia-logo.png',
+    title: '维基百科',
+    title_en: 'Wikipedia',
+    subtitle: 'Jimmy Wales & Larry Sanger, 2001',
+    subtitle_en: 'Jimmy Wales & Larry Sanger, 2001',
+    category: 'software',
+    designer: 'Jimmy Wales & Larry Sanger',
+    year: '2001',
+
+    dateConnection: '2001年1月15日，维基百科正式上线。这个由用户协作编辑的免费百科全书，如今拥有超过6000万篇文章，覆盖300多种语言，是人类历史上最大的知识汇编工程。',
+    designerBio: `维基百科的诞生源于一个失败的实验。吉米·威尔士最初创建的是 Nupedia——一个由专家撰写、经过严格同行评审的在线百科全书。但 Nupedia 进展极其缓慢，三年只产出了24篇完成的文章。
+
+拉里·桑格提议使用"wiki"技术（一种任何人都可以编辑的网页系统）来加速内容生产。威尔士同意将其作为 Nupedia 的"喂料项目"。但这个副产品很快超越了本体：维基百科上线仅一个月就有了600篇文章，一年内超过20,000篇。
+
+维基百科的成功本质上是一次**信息架构设计的胜利**。它证明了：当你设计出正确的规则系统（开放编辑 + 版本历史 + 社区治理），普通人的集体智慧可以产出堪比专家的知识体系。`,
+    story: `从设计角度看，维基百科最引人注目的不是它的内容，而是它的**信息架构和交互设计哲学**。
+
+维基百科的页面设计遵循极端的**内容优先原则**：没有广告、没有推荐算法、没有个性化推送。纯粹的文字、链接和偶尔的图片——这在注意力经济时代几乎是一种激进的设计宣言。它的界面20多年来几乎没有本质变化，不是因为落后，而是因为**功能已经足够完善**。
+
+**维基球标志（Wikipedia Globe）** 是另一个设计杰作。2003年定稿的拼图地球仪由不同文字系统的字符拼成——每块拼图代表一种语言和文化。球体顶部故意留有缺口，象征着知识永远是未完成的、等待补充的。这个标志完美传达了维基百科的核心理念：**知识是全人类协作的、永远进行中的工程**。
+
+维基百科的**超链接系统**重新定义了知识的组织方式。每篇文章中密集的蓝色链接构成了一张巨大的知识图谱，读者可以沿着自己的好奇心自由探索——这种"兔子洞"式的学习体验，是传统百科全书无法提供的。维基百科本质上设计了一种**非线性的知识导航系统**。
+
+从用户体验的角度看，维基百科的编辑系统是**最早的大规模协作平台之一**，比 Google Docs 早了整整六年。它的版本控制、讨论页、编辑历史等功能，为后来所有在线协作工具奠定了范式。`,
+    legacy: '• 信息架构设计的里程碑：证明了开放协作可以产出可靠的知识体系\n• 维基球标志成为"开放知识"的全球符号\n• 内容优先的极简界面影响了后来的阅读类产品（Medium、Notion 等）\n• 超链接知识图谱重新定义了人们获取知识的方式\n• 编辑协作系统是现代在线协作工具（Google Docs、Notion）的思想先驱\n• 覆盖300+语言、6000万+文章，是人类最大的集体智慧工程',
+    significance: '维基百科的设计意义远超一个网站。它是**信息民主化设计的最伟大实验**——证明了当你把正确的工具交给所有人时，集体智慧可以创造出超越任何个体或机构的知识体系。那个未完成的拼图地球仪，不仅是一个标志，更是一种设计哲学：**最好的设计是邀请每个人参与的设计。**',
+
+    dateConnection_en: 'On January 15, 2001, Wikipedia went live. This collaboratively edited free encyclopedia now contains over 60 million articles across 300+ languages — the largest knowledge compilation project in human history.',
+    designerBio_en: `Wikipedia was born from a failed experiment. Jimmy Wales originally created Nupedia — an expert-written, peer-reviewed online encyclopedia. But Nupedia was painfully slow, producing only 24 completed articles in three years.
+
+Larry Sanger proposed using "wiki" technology — a web system anyone could edit — to accelerate content creation. Wales agreed to try it as a "feeder project" for Nupedia. But the side project quickly surpassed the original: Wikipedia had 600 articles within its first month and over 20,000 within a year.
+
+Wikipedia's success was fundamentally **a triumph of information architecture design.** It proved that when you design the right system of rules (open editing + version history + community governance), the collective intelligence of ordinary people can produce a knowledge system rivaling that of experts.`,
+    story_en: `From a design perspective, the most remarkable thing about Wikipedia is not its content but its **information architecture and interaction design philosophy.**
+
+Wikipedia's page design follows an extreme **content-first principle**: no ads, no recommendation algorithms, no personalized feeds. Pure text, links, and occasional images — in the attention economy era, this is almost a radical design manifesto. Its interface has barely changed in over 20 years, not because it's outdated, but because **the functionality is already sufficient.**
+
+**The Wikipedia Globe** is another design masterpiece. Finalized in 2003, the puzzle globe is composed of characters from different writing systems — each puzzle piece representing a language and culture. The top of the globe is deliberately incomplete, symbolizing that knowledge is forever unfinished, always awaiting contribution. This logo perfectly conveys Wikipedia's core idea: **knowledge is a collaborative, perpetually ongoing project of all humanity.**
+
+Wikipedia's **hyperlink system** redefined how knowledge is organized. The dense blue links in every article form a vast knowledge graph, allowing readers to follow their curiosity freely — this "rabbit hole" learning experience is something traditional encyclopedias could never provide. Wikipedia essentially designed a **non-linear knowledge navigation system.**
+
+From a UX perspective, Wikipedia's editing system was **one of the earliest large-scale collaboration platforms**, predating Google Docs by a full six years. Its version control, discussion pages, and edit history features established the paradigm for all subsequent online collaboration tools.`,
+    legacy_en: '• A milestone in information architecture design: proved open collaboration can produce reliable knowledge systems\n• The Wikipedia Globe became a global symbol of "open knowledge"\n• Its content-first minimalist interface influenced later reading products (Medium, Notion, etc.)\n• Hyperlinked knowledge graphs redefined how people access knowledge\n• Its editing collaboration system was an intellectual precursor to modern tools (Google Docs, Notion)\n• Spanning 300+ languages with 60M+ articles, it is humanity\'s largest collective intelligence project',
+    significance_en: 'Wikipedia\'s design significance extends far beyond a website. It is **the greatest experiment in democratizing information design** — proving that when you put the right tools in everyone\'s hands, collective intelligence can create a knowledge system surpassing any individual or institution. That unfinished puzzle globe is not just a logo but a design philosophy: **the best design is design that invites everyone to participate.**',
+  },
+
+  // 01-16: Michelin Guide
+  {
+    id: '16',
+    date: '2026-01-16',
+    imageUrl: '/the-daily-object/images/michelin-guide.jpg',
+    fullImageUrl: '/the-daily-object/images/full/michelin-guide.jpg',
+    title: '米其林指南',
+    title_en: 'Michelin Guide',
+    subtitle: 'André Michelin, 1900',
+    subtitle_en: 'André Michelin, 1900',
+    category: 'industrial',
+    designer: 'André Michelin',
+    year: '1900',
+
+    dateConnection: '1853年1月16日，安德烈·米其林出生于巴黎。他与弟弟爱德华共同创建了米其林轮胎公司，并在1900年发明了一本小红书——《米其林指南》，这本免费赠送给驾车者的手册，意外地成为了全球最权威的餐厅评级体系。',
+    designerBio: `安德烈·米其林是一个**跨界思维**的先驱。他毕业于巴黎中央理工学院，最初从事地图制作工作。1889年，他与弟弟爱德华接管了家族的橡胶工厂，将其转型为轮胎公司。
+
+米其林兄弟的商业天才在于：他们意识到**轮胎销量取决于人们开车的里程数**。要卖更多轮胎，就要让人们多开车。要让人们多开车，就要给他们理由——于是他们开始制作驾车出行指南。
+
+安德烈负责《米其林指南》的内容策划和设计方向。他坚持指南必须**实用、精确、独立**——不接受餐厅付费上榜，评审员匿名就餐，所有评价基于统一标准。这些原则在100多年后依然是米其林指南的核心。`,
+    story: `1900年巴黎世博会期间，米其林兄弟免费发放了35,000本红色小册子。最初的《米其林指南》是一本纯粹的**驾车实用手册**：加油站位置、换轮胎的方法、沿途旅馆推荐。封面采用鲜明的红色——这个颜色选择几乎是随意的，但后来成为了全球餐饮界最令人敬畏的色彩。
+
+1920年代的转折点至关重要。安德烈·米其林注意到有些修车厂把免费指南垫在工作台下面，他说了一句著名的话："**人们只会尊重自己付钱买的东西。**"从1920年起，指南开始收费，同时删除了所有广告——这个决定赋予了它独立评价的公信力。
+
+1926年，米其林开始为优质餐厅颁发星级。**一星**表示"值得停下来"，**二星**表示"值得绕路前往"，**三星**表示"值得专程旅行"。这套极简的评级系统——仅用三个层级——成为了人类历史上最有影响力的品质评价体系之一。
+
+从设计角度看，《米其林指南》是**信息设计的典范**。它的排版紧凑而清晰，用最少的符号系统（星星、叉勺、人头标志）传递最丰富的信息。每一个图标都经过深思熟虑：叉勺代表餐具舒适度，黑色必比登代表物美价廉。这套视觉语言系统100多年来基本未变，却依然高效运作——这是信息设计最高境界的证明。`,
+    legacy: '• 开创了独立、匿名的餐厅评价体系，成为全球餐饮业的最高标准\n• 三星评级系统是极简信息设计的教科书案例\n• 红色封面成为品质与权威的全球符号\n• 从轮胎营销手册到文化权威的转变，是品牌跨界设计的经典案例\n• 米其林指南的信息设计体系（图标、符号、排版）影响了现代评级系统（Yelp、TripAdvisor 等）\n• "值得专程旅行"的理念改变了人们对美食和旅行关系的理解',
+    significance: '《米其林指南》是**内容设计改变世界的终极案例**。一家轮胎公司的营销小册子，通过严谨的信息架构和坚定的设计原则（独立、匿名、统一标准），演变成了全球餐饮文化的最高权威。它证明了一个设计真理：**最强大的设计系统是那些规则简单、执行严格、时间越长越有价值的系统。** 三颗星——仅仅三颗——就足以改变一位厨师的命运、一座城市的美食版图。',
+
+    dateConnection_en: 'On January 16, 1853, André Michelin was born in Paris. Together with his brother Édouard, he founded the Michelin tire company and in 1900 created a small red book — the *Michelin Guide*. Originally a free handbook for motorists, it unexpectedly became the world\'s most authoritative restaurant rating system.',
+    designerBio_en: `André Michelin was a pioneer of **cross-disciplinary thinking.** He graduated from the École Centrale Paris and initially worked in cartography. In 1889, he and his brother Édouard took over the family rubber factory and transformed it into a tire company.
+
+The Michelin brothers' commercial genius lay in a key insight: **tire sales depended on how many miles people drove.** To sell more tires, you had to get people driving more. To get people driving more, you had to give them reasons — so they began producing travel guides.
+
+André oversaw the content strategy and design direction of the Michelin Guide. He insisted that the guide must be **practical, precise, and independent** — restaurants could not pay for inclusion, inspectors dined anonymously, and all evaluations followed unified standards. These principles remain the guide's core over a century later.`,
+    story_en: `During the 1900 Paris World's Fair, the Michelin brothers distributed 35,000 free red booklets. The original *Michelin Guide* was a purely **practical motoring handbook**: gas station locations, tire-changing instructions, roadside hotel recommendations. The cover was a vivid red — a color choice that was almost arbitrary, but would become the most revered hue in the global dining world.
+
+The turning point came in the 1920s. André Michelin noticed that some garages were using the free guides to prop up workbenches. He famously declared: **"People only respect what they pay for."** Starting in 1920, the guide began charging a cover price and simultaneously removed all advertising — a decision that gave it the credibility of independent evaluation.
+
+In 1926, Michelin began awarding stars to outstanding restaurants. **One star** meant "worth a stop," **two stars** meant "worth a detour," and **three stars** meant "worth a special journey." This minimalist rating system — using only three tiers — became one of the most influential quality assessment systems in human history.
+
+From a design perspective, the *Michelin Guide* is **a masterclass in information design.** Its typography is compact yet clear, conveying maximum information through a minimal symbol system (stars, crossed cutlery, Bib Gourmand icons). Every icon was carefully considered: crossed utensils indicate dining comfort levels; the black Bibendum marks outstanding value. This visual language system has remained essentially unchanged for over a century while still functioning perfectly — proof of information design at its highest level.`,
+    legacy_en: '• Created the independent, anonymous restaurant evaluation system that became the global standard for fine dining\n• The three-star rating system is a textbook case of minimalist information design\n• The red cover became a global symbol of quality and authority\n• The transformation from tire marketing booklet to cultural authority is a classic case of brand cross-domain design\n• The guide\'s information design system (icons, symbols, typography) influenced modern rating platforms (Yelp, TripAdvisor, etc.)\n• The concept of "worth a special journey" changed how people understand the relationship between food and travel',
+    significance_en: 'The *Michelin Guide* is **the ultimate case of content design changing the world.** A tire company\'s marketing booklet, through rigorous information architecture and unwavering design principles (independence, anonymity, unified standards), evolved into the supreme authority of global dining culture. It proves a design truth: **the most powerful design systems are those with simple rules, strict execution, and value that compounds over time.** Three stars — just three — are enough to change a chef\'s destiny and reshape a city\'s culinary landscape.',
+  },
+
 ]
 
 
