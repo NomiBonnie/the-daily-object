@@ -3150,6 +3150,222 @@ This was the boldest "brand termination" in design history — suicidally ending
     significance_en: 'Ziggy Stardust was pop culture design\'s watershed moment. Before Bowie, a musician\'s image was "an extension of their true self." After Bowie, a musician\'s image became **a creative product that could be designed, constructed, and deconstructed.** Every artist with a visual strategy today — from Beyoncé to BTS — walks the path Bowie carved in 1972.',
   },
 
+  // 01-09: iPhone
+  {
+    id: '40',
+    date: '2026-01-09',
+    imageUrl: '/the-daily-object/images/iphone-2007.jpg',
+    fullImageUrl: '/the-daily-object/images/full/iphone-2007.jpg',
+    title: 'iPhone',
+    title_en: 'iPhone',
+    subtitle: 'Apple, 2007',
+    subtitle_en: 'Apple, 2007',
+    category: 'software',
+    designer: 'Apple',
+    year: '2007',
+
+    dateConnection: '2007年1月9日，Steve Jobs 在 Macworld 大会上发布了初代 iPhone——"一个 iPod，一个手机，一个突破性的互联网通信设备"。这三句话改变了整个消费电子行业。',
+    designerBio: `Apple 工业设计团队在 Jony Ive 的带领下，将硬件、软件、交互三者融为一体。
+
+iPhone 的设计哲学不是"做一个更好的手机"，而是**重新定义手机应该是什么**。在一个满是物理键盘和触控笔的时代，iPhone 用一块 3.5 英寸多点触控屏幕取代了一切。Steve Jobs 在台上滑动解锁的那一刻，整个行业的范式被改写了。`,
+    story: `iPhone 的诞生源于一个内部项目——"Project Purple"。团队在苹果总部的一间上锁的房间里工作了两年多，门上的标牌写着"Fight Club"。
+
+**"我们想要一个不需要说明书的产品。"** 这是 Jobs 给团队定下的核心设计原则。为此，iPhone 做了大量"减法"——没有物理键盘、没有触控笔、没有可拆卸电池。每一个删减都在当时被视为疯狂。
+
+最革命性的设计决策是**多点触控**。之前的触控屏都是电阻式的，需要用力按压，只能识别单点。iPhone 的电容式多点触控让"捏合缩放"成为可能——这个手势如今已融入人类的肌肉记忆。
+
+发布会上最经典的一幕：Jobs 展示了一张照片，然后用两根手指轻轻一捏，照片缩小了。台下安静了一秒，然后爆发出欢呼。那一秒的安静，是人们的大脑在重新理解"人机交互"的含义。
+
+初代 iPhone 没有 App Store（那是一年后的事），没有 3G，没有复制粘贴。但它用**极致的交互设计**和**前所未有的界面美学**证明了一件事：好的设计不是功能的堆叠，而是体验的重塑。`,
+    legacy: '• 消灭了物理键盘手机，开创了全触控智能手机时代\n• "滑动解锁"成为史上最具辨识度的交互手势之一\n• 催生了整个移动应用生态系统（App Store，2008）\n• 让"用户体验设计"从边缘学科变成核心竞争力\n• 重新定义了产品发布会的形式——科技界的"One more thing"',
+    significance: 'iPhone 是21世纪最具影响力的设计作品，没有之一。它不只是一个产品，而是一个**设计范式的转折点**——证明了好的设计可以重新定义一个品类，甚至改变人类的日常行为方式。从此以后，每一个消费电子产品都在追问同一个问题："用户体验够好吗？"',
+
+    dateConnection_en: 'On January 9, 2007, Steve Jobs unveiled the original iPhone at Macworld — "an iPod, a phone, and a breakthrough internet communications device." Those three phrases changed the entire consumer electronics industry.',
+    designerBio_en: `Apple's industrial design team, led by Jony Ive, fused hardware, software, and interaction into a single unified experience.
+
+The iPhone's design philosophy wasn't "make a better phone" — it was **redefine what a phone should be.** In an era of physical keyboards and styluses, iPhone replaced everything with a 3.5-inch multi-touch display. The moment Steve Jobs performed "slide to unlock" on stage, the industry's paradigm was rewritten.`,
+    story_en: `The iPhone was born from an internal initiative called "Project Purple." The team worked for over two years in a locked room at Apple headquarters, with a sign on the door reading "Fight Club."
+
+**"We want a product that doesn't need a manual."** That was Jobs' core design principle. To achieve it, iPhone practiced radical subtraction — no physical keyboard, no stylus, no removable battery. Every elimination was considered insane at the time.
+
+The most revolutionary design decision was **multi-touch.** Previous touchscreens were resistive, requiring firm pressure and recognizing only single points. iPhone's capacitive multi-touch made "pinch to zoom" possible — a gesture now embedded in humanity's muscle memory.
+
+The keynote's most iconic moment: Jobs displayed a photo, then gently pinched with two fingers. The photo shrank. The audience went silent for one second, then erupted in cheers. That one second of silence was people's brains recalibrating their understanding of human-computer interaction.
+
+The original iPhone had no App Store (that came a year later), no 3G, no copy-paste. But through **impeccable interaction design** and **unprecedented interface aesthetics**, it proved one thing: great design isn't about stacking features — it's about reimagining the experience.`,
+    legacy_en: '• Killed the physical keyboard phone, inaugurating the all-touch smartphone era\n• "Slide to unlock" became one of the most recognizable interaction gestures in history\n• Spawned the entire mobile app ecosystem (App Store, 2008)\n• Elevated "user experience design" from a niche discipline to a core competitive advantage\n• Redefined the product launch format — tech\'s "One more thing"',
+    significance_en: 'The iPhone is the most influential design artifact of the 21st century, bar none. It wasn\'t just a product but a **paradigm shift in design** — proving that great design can redefine an entire category and even change how humans behave daily. Ever since, every consumer electronics product asks the same question: "Is the user experience good enough?"',
+  },
+
+  // 01-10: Single Form
+  {
+    id: '41',
+    date: '2026-01-10',
+    imageUrl: '/the-daily-object/images/single-form-hepworth.jpg',
+    fullImageUrl: '/the-daily-object/images/full/single-form-hepworth.jpg',
+    title: 'Single Form',
+    title_en: 'Single Form',
+    subtitle: 'Barbara Hepworth, 1961–64',
+    subtitle_en: 'Barbara Hepworth, 1961–64',
+    category: 'art',
+    designer: 'Barbara Hepworth',
+    year: '1964',
+
+    dateConnection: 'Barbara Hepworth 于1903年1月10日出生在英国约克郡韦克菲尔德。她是20世纪最重要的雕塑家之一，与 Henry Moore 并列为英国现代雕塑的奠基人。',
+    designerBio: `Barbara Hepworth（1903–1975），英国雕塑家，抽象雕塑运动的核心人物。
+
+她的作品以**有机形态与负空间**的对话著称——在坚实的材料中开凿出空洞，让光线和空气穿透雕塑。这不是简单的"挖洞"，而是一种关于**内与外、实与虚、存在与缺席**的哲学探索。
+
+Hepworth 在男性主导的雕塑界开辟了独特的道路。她不追随当时流行的几何抽象，而是从约克郡的山丘和康沃尔的海岸线中汲取灵感，创造出既现代又永恒的形式语言。`,
+    story: `1961年，联合国秘书长 Dag Hammarskjöld 在非洲因空难去世。他生前一直梦想在联合国总部放置一件 Hepworth 的作品。为纪念这位和平使者，联合国委托 Hepworth 创作一件纪念雕塑。
+
+**Single Form** 就此诞生——一块高达 6.4 米的青铜巨作，矗立在联合国总部广场的水池中。
+
+这件作品的力量在于它的**极致简洁**。一个垂直的椭圆形体，表面有一个圆形的凹陷，仿佛一只凝视世界的眼睛。没有任何具象元素，没有人物，没有符号——只有纯粹的形式在传递一种庄严的平静。
+
+Hepworth 说："我希望这件作品能传达一种**人类精神的坚定与宁静**。" 她花了三年时间完善这个形式——调整曲线的弧度、凹陷的深度、表面的纹理。每一个决定都是为了让这件巨大的雕塑既有纪念碑的庄严，又有人性的温度。
+
+1964年6月11日，Single Form 在联合国总部揭幕。阳光穿过青铜表面的圆孔，在水面投下变幻的光影——这正是 Hepworth 设计的一部分：**让自然光成为雕塑的共同创作者**。`,
+    legacy: '• 成为联合国总部最标志性的艺术品，象征着国际和平与人类尊严\n• 证明了抽象雕塑可以承载深厚的情感和公共意义\n• 开创了"负空间"作为雕塑核心语言的传统，影响了 Anish Kapoor 等后来者\n• 在公共艺术领域树立了标杆——雕塑不是建筑的附属品，而是空间的定义者',
+    significance: 'Single Form 代表了雕塑与建筑、公共空间的理想融合。它证明了**纯粹的抽象形式可以与每一个人对话**——不需要文字，不需要叙事，一个形状就足以传递和平、尊严和人类精神的力量。这种"少即是多"的设计哲学，至今影响着公共艺术和空间设计。',
+
+    dateConnection_en: 'Barbara Hepworth was born on January 10, 1903 in Wakefield, Yorkshire. She was one of the most important sculptors of the 20th century, standing alongside Henry Moore as a founder of British modern sculpture.',
+    designerBio_en: `Barbara Hepworth (1903–1975), British sculptor and a central figure in the abstract sculpture movement.
+
+Her work is celebrated for the dialogue between **organic form and negative space** — carving voids into solid materials, allowing light and air to penetrate the sculpture. This wasn't simply "making holes" but a philosophical exploration of **interior and exterior, solid and void, presence and absence.**
+
+Hepworth forged a distinctive path in the male-dominated sculpture world. Rather than following the prevailing geometric abstraction, she drew inspiration from the hills of Yorkshire and the coastline of Cornwall, creating a formal language that was both modern and timeless.`,
+    story_en: `In 1961, UN Secretary-General Dag Hammarskjöld died in a plane crash in Africa. He had long dreamed of placing a Hepworth work at UN headquarters. To honor this peace advocate, the United Nations commissioned Hepworth to create a memorial sculpture.
+
+**Single Form** was born — a towering 6.4-meter bronze monolith standing in the reflecting pool at UN Plaza.
+
+The work's power lies in its **radical simplicity.** A vertical oval form with a circular concavity on its surface, like an eye gazing upon the world. No figurative elements, no characters, no symbols — only pure form conveying a solemn tranquility.
+
+Hepworth said: "I wanted the work to convey a sense of **steadfastness and serenity of the human spirit.**" She spent three years perfecting the form — adjusting the curvature, the depth of the concavity, the surface texture. Every decision aimed to give this monumental sculpture both the gravity of a memorial and the warmth of humanity.
+
+On June 11, 1964, Single Form was unveiled at UN headquarters. Sunlight passed through the circular aperture in the bronze surface, casting shifting patterns on the water below — exactly as Hepworth had designed: **making natural light a co-creator of the sculpture.**`,
+    legacy_en: '• Became the most iconic artwork at UN headquarters, symbolizing international peace and human dignity\n• Proved that abstract sculpture can carry profound emotion and public meaning\n• Pioneered "negative space" as a core sculptural language, influencing later artists like Anish Kapoor\n• Set a benchmark in public art — sculpture as a definer of space, not an accessory to architecture',
+    significance_en: 'Single Form represents the ideal fusion of sculpture, architecture, and public space. It proved that **pure abstract form can speak to everyone** — no words needed, no narrative required, a single shape sufficient to convey peace, dignity, and the power of the human spirit. This "less is more" design philosophy continues to influence public art and spatial design today.',
+  },
+
+  // 01-11: Oscar Statuette
+  {
+    id: '42',
+    date: '2026-01-11',
+    imageUrl: '/the-daily-object/images/oscar-statuette.jpg',
+    fullImageUrl: '/the-daily-object/images/full/oscar-statuette.jpg',
+    title: 'Oscar Statuette',
+    title_en: 'Oscar Statuette',
+    subtitle: 'George Stanley, 1929',
+    subtitle_en: 'George Stanley, 1929',
+    category: 'film',
+    designer: 'George Stanley',
+    year: '1929',
+
+    dateConnection: '1927年1月11日，美国电影艺术与科学学院（AMPAS）正式成立。两年后，学院创造了奥斯卡金像奖——影史上最著名的设计物件之一。',
+    designerBio: `奥斯卡小金人的设计出自 Cedric Gibbons 之手——他是米高梅的首席艺术总监，也是好莱坞布景设计的教父级人物。
+
+Gibbons 在一次学院晚宴的餐巾纸上画下了最初的草图：一个骑士站在一卷胶片上，手持一把十字军宝剑。这个草图后来由雕塑家 George Stanley 塑造成三维形态。
+
+**Gibbons 本人后来赢了11座奥斯卡**——比任何人都了解这个小金人的分量。`,
+    story: `Oscar 小金人的设计堪称**工业设计史上最持久的品牌形象之一**。
+
+1929年的初版设计至今几乎没有改变——34厘米高，3.9公斤重，一个 Art Deco 风格的骑士形象。这种设计的持久性本身就是一种成就：在一个每年都在追求新鲜感的行业里，Oscar 用**不变**赢得了永恒。
+
+小金人的 Art Deco 美学绝非偶然。1920年代末正是 Art Deco 运动的巅峰——几何化的人体、流线型的轮廓、简洁有力的形式。Oscar 完美捕捉了那个时代的设计精神，又因为足够抽象而超越了时代。
+
+**制造工艺的演变**也是一部材料设计史：最初是青铜镀金，二战期间因金属短缺改用石膏（战后可以换回金属版），如今是锡锑铜合金电镀24K金。每一座 Oscar 都要经过数十道工序的手工打磨。
+
+一个有趣的细节：Oscar 脚下的胶片卷轴有五个齿槽，分别代表学院的五个原始分支——演员、导演、制片人、技术人员和编剧。这种**将象征意义编织进形式细节**的做法，正是优秀设计的标志。
+
+为什么叫"Oscar"至今众说纷纭。最流行的说法是学院图书馆员 Margaret Herrick 看到小金人后说"他看起来像我的叔叔 Oscar"。无论真假，这个昵称比官方名称"Academy Award of Merit"亲切一万倍——**好的设计总会获得一个好的名字**。`,
+    legacy: '• 全球辨识度最高的奖杯设计，超越了电影行业本身\n• Art Deco 设计在当代文化中最持久的活化石\n• 定义了"颁奖典礼"的视觉语言——此后所有奖项都在某种程度上模仿它\n• 证明了极简形式的力量：近百年不变的设计，依然现代',
+    significance: 'Oscar 小金人是**设计持久力的终极证明**。在一个不断追新的世界里，它用近百年的不变证明了一个道理：真正伟大的设计不需要跟随潮流，因为它本身就是潮流无法超越的标准。每一个拿起小金人的人——从第一届的 Emil Jannings 到最新一届的获奖者——手中握着的是同一个设计。这种穿越时间的一致性，本身就是最优雅的设计宣言。',
+
+    dateConnection_en: 'On January 11, 1927, the Academy of Motion Picture Arts and Sciences (AMPAS) was officially founded. Two years later, the Academy created the Oscar statuette — one of the most recognizable design objects in cinema history.',
+    designerBio_en: `The Oscar statuette was designed by Cedric Gibbons — MGM's chief art director and the godfather of Hollywood production design.
+
+Gibbons sketched the original concept on a napkin during an Academy dinner: a knight standing on a reel of film, holding a crusader's sword. Sculptor George Stanley then translated this sketch into three-dimensional form.
+
+**Gibbons himself went on to win 11 Oscars** — no one understood the weight of that statuette better.`,
+    story_en: `The Oscar statuette is **one of the most enduring brand identities in design history.**
+
+The 1929 original design has remained virtually unchanged — 34 centimeters tall, 3.9 kilograms, an Art Deco knight figure. This design longevity is itself an achievement: in an industry that craves novelty every year, Oscar won eternity through **staying the same.**
+
+The Art Deco aesthetic was no accident. The late 1920s were the peak of the Art Deco movement — geometrized human forms, streamlined silhouettes, clean and powerful shapes. Oscar perfectly captured that era's design spirit, yet was abstract enough to transcend its time.
+
+**The evolution of its manufacture** reads like a material design history: originally bronze with gold plating, switched to plaster during WWII due to metal shortages (recipients could exchange them for metal versions after the war), and today cast in a tin-antimony-copper alloy electroplated with 24-karat gold. Each Oscar undergoes dozens of hand-polishing steps.
+
+A fascinating detail: the film reel beneath Oscar's feet has five spokes, representing the Academy's five original branches — actors, directors, producers, technicians, and writers. This practice of **weaving symbolism into formal details** is the hallmark of excellent design.
+
+Why "Oscar"? The origin remains debated. The most popular story is that Academy librarian Margaret Herrick saw the statuette and remarked, "He reminds me of my Uncle Oscar." True or not, the nickname is infinitely warmer than the official "Academy Award of Merit" — **great design always earns a great name.**`,
+    legacy_en: '• The most globally recognized trophy design, transcending the film industry itself\n• The most enduring living fossil of Art Deco design in contemporary culture\n• Defined the visual language of "awards ceremonies" — every award since has imitated it to some degree\n• Proved the power of minimal form: a nearly century-old design that still feels modern',
+    significance_en: 'The Oscar statuette is **the ultimate proof of design longevity.** In a world obsessed with the new, it has spent nearly a century proving that truly great design doesn\'t need to follow trends — because it is the standard that trends cannot surpass. Every person who lifts an Oscar — from the first recipient Emil Jannings to the latest winner — holds the same design in their hands. That consistency across time is itself the most elegant design statement.',
+  },
+
+  // 01-12: Red House
+  {
+    id: '43',
+    date: '2026-01-12',
+    imageUrl: '/the-daily-object/images/red-house-webb.jpg',
+    fullImageUrl: '/the-daily-object/images/full/red-house-webb.jpg',
+    title: 'Red House',
+    title_en: 'Red House',
+    subtitle: 'Philip Webb, 1860',
+    subtitle_en: 'Philip Webb, 1860',
+    category: 'architecture',
+    designer: 'Philip Webb',
+    year: '1860',
+
+    dateConnection: 'Philip Webb 于1831年1月12日出生在英国牛津。他是英国工艺美术运动最重要的建筑师，而 Red House 是他最著名的作品——也是整个运动的宣言建筑。',
+    designerBio: `Philip Webb（1831–1915），英国建筑师，工艺美术运动（Arts and Crafts Movement）的建筑核心人物。
+
+Webb 在建筑师 G.E. Street 的事务所里遇到了 William Morris——这段友谊改变了设计史。两人共同反对维多利亚时代工业化大生产对美学的摧残，主张**回归手工艺、诚实用材、形式追随功能**。
+
+Webb 的建筑哲学极其超前：他拒绝当时流行的历史主义风格的矫饰，坚持**让建筑诚实地表达它的结构和材料**。这种理念比现代主义早了半个多世纪。`,
+    story: `1859年，William Morris 结婚，他需要一栋房子。他找到了好友 Philip Webb，两人一起设计了 Red House——一栋红砖砌筑的乡间住宅，位于伦敦东南的 Bexleyheath。
+
+**Red House 是建筑史上的一次宣言。**
+
+在维多利亚时代，体面的房子应该是什么样？古典柱廊、对称立面、粉刷成白色或灰色的灰泥外墙。Red House 拒绝了这一切。
+
+Webb 用**裸露的红砖**代替灰泥——不加修饰，让材料以本来面目示人。这在当时是惊世骇俗的：红砖被视为"穷人的材料"，不配出现在绅士的宅邸上。
+
+建筑的平面布局不是对称的——它**追随功能**。房间根据实际需要来安排，走廊根据动线来弯曲，窗户根据采光需求来开设。这种"形式追随功能"的理念，比 Louis Sullivan 的名言早了近40年。
+
+室内设计同样革命性。Morris 和他的朋友们（包括 Edward Burne-Jones 和 Dante Gabriel Rossetti）亲手绘制壁画、设计家具、编织挂毯。**每一件物品都是手工制作的**，每一面墙都讲述一个故事。
+
+正是在 Red House 的建造过程中，Morris 发现市面上买不到他满意的家具和装饰品——这直接促使他创办了 Morris, Marshall, Faulkner & Co.（后来的 Morris & Co.），开启了工艺美术运动的商业实践。
+
+**一栋房子催生了一场运动。** 从 Red House 到 Morris & Co.，从工艺美术运动到包豪斯，一条清晰的设计思想谱系延伸至今。`,
+    legacy: '• 工艺美术运动的起源建筑，直接催生了 Morris & Co. 的成立\n• "形式追随功能"的早期实践者——比 Sullivan 和现代主义早了几十年\n• 诚实用材的先驱：裸露红砖、不加修饰，影响了后来的 Brutalism 和当代建筑\n• 总体艺术品（Gesamtkunstwerk）理念的建筑实践——建筑、家具、装饰、景观浑然一体\n• 从 Red House 到 Bauhaus 的思想谱系：手工艺精神、整合设计、反工业化粗制滥造',
+    significance: 'Red House 是**现代设计思想的源头之一**。它证明了建筑可以诚实、可以不矫饰、可以让功能而非风格来决定形式。从 Red House 出发，经由工艺美术运动、新艺术运动，到包豪斯和现代主义——这条线索清晰可循。每一个主张"好设计应该诚实"的设计师，都在呼应160多年前 Webb 和 Morris 在这栋红砖房子里做出的选择。',
+
+    dateConnection_en: 'Philip Webb was born on January 12, 1831 in Oxford, England. He was the most important architect of the British Arts and Crafts Movement, and Red House is his most celebrated work — the manifesto building of the entire movement.',
+    designerBio_en: `Philip Webb (1831–1915), British architect and the architectural cornerstone of the Arts and Crafts Movement.
+
+Webb met William Morris at the office of architect G.E. Street — a friendship that changed design history. Together they opposed the Victorian industrial mass-production's destruction of aesthetics, advocating for a **return to craftsmanship, honest materials, and form following function.**
+
+Webb's architectural philosophy was remarkably ahead of its time: he rejected the popular historicist style's affectations, insisting that **a building should honestly express its structure and materials.** This conviction preceded Modernism by more than half a century.`,
+    story_en: `In 1859, William Morris married and needed a house. He turned to his friend Philip Webb, and together they designed Red House — a red-brick country home in Bexleyheath, southeast London.
+
+**Red House was an architectural manifesto.**
+
+In Victorian England, what should a respectable house look like? Classical porticos, symmetrical facades, walls rendered in white or grey stucco. Red House rejected all of it.
+
+Webb used **exposed red brick** instead of stucco — unadorned, letting the material show its true face. This was shocking: red brick was considered a "poor man's material," unfit for a gentleman's residence.
+
+The floor plan was asymmetrical — it **followed function.** Rooms were arranged according to actual needs, corridors curved to follow circulation patterns, windows were placed for optimal lighting. This "form follows function" approach predated Louis Sullivan's famous dictum by nearly 40 years.
+
+The interior was equally revolutionary. Morris and his friends — including Edward Burne-Jones and Dante Gabriel Rossetti — hand-painted murals, designed furniture, and wove tapestries. **Every object was handmade,** every wall told a story.
+
+It was during Red House's construction that Morris discovered he couldn't buy furniture and decorations that met his standards — directly prompting him to found Morris, Marshall, Faulkner & Co. (later Morris & Co.), launching the commercial practice of the Arts and Crafts Movement.
+
+**One house gave birth to a movement.** From Red House to Morris & Co., from the Arts and Crafts Movement to the Bauhaus, a clear genealogy of design thought extends to the present day.`,
+    legacy_en: '• The origin building of the Arts and Crafts Movement, directly catalyzing the founding of Morris & Co.\n• An early practitioner of "form follows function" — decades before Sullivan and Modernism\n• Pioneer of material honesty: exposed red brick, no ornamentation, influencing later Brutalism and contemporary architecture\n• Architectural practice of the Gesamtkunstwerk concept — architecture, furniture, decoration, and landscape as a unified whole\n• The intellectual lineage from Red House to the Bauhaus: craft spirit, integrated design, resistance to industrial mediocrity',
+    significance_en: 'Red House is **one of the wellsprings of modern design thinking.** It proved that architecture could be honest, unaffected, and let function rather than style dictate form. From Red House through the Arts and Crafts Movement, Art Nouveau, to the Bauhaus and Modernism — the thread is clear. Every designer who argues that "good design should be honest" echoes the choice Webb and Morris made in this red-brick house over 160 years ago.',
+  },
+
 ]
 
 
