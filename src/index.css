@@ -88,6 +88,11 @@
   @apply relative font-normal text-neutral-900 dark:text-neutral-100;
 }
 
+.luxury-calendar .react-calendar__tile--active.wallpaper-date {
+  background-color: transparent !important;
+  @apply text-neutral-900 dark:text-neutral-100;
+}
+
 /* Smooth transitions */
 * {
   @apply transition-colors duration-200;
