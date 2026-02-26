@@ -2,7 +2,10 @@ import { useState, useEffect } from 'react'
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css'
 import { format } from 'date-fns'
-import { designs, type DesignObject } from './data'
+import { designs, IMAGE_VERSION, type DesignObject } from './data'
+
+// Append version query to bust CDN cache when images are replaced
+const v = (url: string) => `${url}?v=${IMAGE_VERSION}`
 import { Moon, Sun, ChevronLeft, ChevronRight } from 'lucide-react'
 
 type View = 'today' | 'archive'
@@ -144,8 +147,8 @@ function App() {
     const current = view === 'today' ? todayDesign : selectedDesign
     if (current) {
       const { prev, next } = getAdjacentDesigns(current)
-      if (prev) { const img = new Image(); img.src = prev.imageUrl }
-      if (next) { const img = new Image(); img.src = next.imageUrl }
+      if (prev) { const img = new Image(); img.src = v(prev.imageUrl) }
+      if (next) { const img = new Image(); img.src = v(next.imageUrl) }
     }
   }, [selectedDate, view])
 
@@ -230,7 +233,7 @@ function App() {
             <div className="aspect-[4/5]" />
           )}
           <img
-            src={design.imageUrl}
+            src={v(design.imageUrl)}
             alt={title}
             onLoad={() => setImageLoaded(true)}
             onError={() => setImageLoaded(true)}
@@ -475,7 +478,7 @@ function App() {
             >
               <img
                 key={lightboxDesign.id}
-                src={lightboxDesign.fullImageUrl || lightboxDesign.imageUrl}
+                src={v(lightboxDesign.fullImageUrl || lightboxDesign.imageUrl)}
                 alt={lightboxDesign.title}
                 className="max-w-full max-h-full object-contain animate-fadeIn"
                 onClick={() => setLightboxOpen(false)}

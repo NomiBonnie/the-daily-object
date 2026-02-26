@@ -1,3 +1,7 @@
+// Bump this when any image file is replaced (same filename, new content)
+// This busts CDN cache without renaming files
+export const IMAGE_VERSION = '20260226'
+
 export interface DesignObject {
   id: string
   date: string
@@ -1859,8 +1863,8 @@ When you stand at the edge of the SkyPark's infinity pool, 200 meters up, the en
   {
     id: '28',
     date: '2026-01-31',
-    imageUrl: '/the-daily-object/images/muji-cd-player-v2.jpg',
-    fullImageUrl: '/the-daily-object/images/full/muji-cd-player-v2.jpg',
+    imageUrl: '/the-daily-object/images/muji-cd-player.jpg',
+    fullImageUrl: '/the-daily-object/images/full/muji-cd-player.jpg',
     title: 'MUJI 壁挂式 CD 播放器',
     title_en: 'MUJI Wall-Mounted CD Player',
     subtitle: '深澤直人, 1999',
