@@ -1,6 +1,6 @@
 ﻿// Bump this when any image file is replaced (same filename, new content)
 // This busts CDN cache without renaming files
-export const IMAGE_VERSION = '20260226c'
+export const IMAGE_VERSION = '20260226d'
 
 export interface DesignObject {
   id: string
@@ -2984,111 +2984,119 @@ The film earned ¥31.6 billion at the Japanese box office (still unbroken), the 
   // 01-06: Prometheus of Fire (Scriabin)
   {
     id: '37',
-    date: '2026-01-06',
-    imageUrl: '/the-daily-object/images/prometheus-poem-of-fire.jpg',
-    fullImageUrl: '/the-daily-object/images/full/prometheus-poem-of-fire.jpg',
-    title: '普罗米修斯：火之诗',
-    title_en: 'Prometheus: The Poem of Fire',
-    subtitle: 'Alexander Scriabin, 1910',
-    subtitle_en: 'Alexander Scriabin, 1910',
-    category: 'music',
-    designer: 'Alexander Scriabin',
-    year: '1910',
+        date: '2026-01-06',
+    imageUrl: '/the-daily-object/images/dore-divine-comedy.jpg',
+    fullImageUrl: '/the-daily-object/images/full/dore-divine-comedy.jpg',
+    title: '神曲插图',
+    title_en: 'Divine Comedy Illustrations',
+    subtitle: 'Gustave Doré, 1861-1868',
+    subtitle_en: 'Gustave Doré, 1861-1868',
+    category: 'art',
+    designer: 'Gustave Doré',
+    year: '1861',
 
-    dateConnection: 'Alexander Scriabin 1872年1月6日出生于莫斯科。这位俄罗斯作曲家是音乐与视觉艺术融合的先驱，他的《普罗米修斯：火之诗》是人类历史上第一部要求"色彩键盘"（Clavier à lumières）参与演奏的交响作品。',
-    designerBio: `Alexander Scriabin (1872-1915)，俄罗斯作曲家、钢琴家，音乐-视觉联觉设计的先驱。
+    dateConnection: '1832年1月6日，Gustave Doré 出生于法国斯特拉斯堡。这个15岁就开始为巴黎报纸画漫画的天才少年，后来成为19世纪最伟大的插画家——他为但丁《神曲》创作的版画插图，至今仍是西方文学视觉化的最高标准。',
+    designerBio: `Gustave Doré (1832-1883)，法国版画家、插画家、画家、雕塑家。
 
-他拥有一种罕见的天赋——联觉（synesthesia）：听到音符就能看到颜色。C大调是红色，D大调是黄色，升F大调是蓝紫色。这不是比喻，是他真实的感知体验。
+他是艺术史上产量最惊人的创作者之一——一生创作超过10,000幅插图。他的木刻版画以极其精细的明暗对比和戏剧性构图著称，将文学想象力转化为视觉现实的能力无人能及。
 
-他将这种感知转化为一套完整的"音色-色彩对应系统"，并试图将其融入音乐演出中。他是第一个认真思考"如何让音乐可见"的作曲家。`,
-    story: `1910年，Scriabin 完成了他最大胆的作品——《普罗米修斯：火之诗》，Op. 60。
+**他不是在"画书"，他是在重新发明阅读体验。**
 
-这部交响诗的编制前所未有：管弦乐队、钢琴独奏、合唱团，以及一个从未有过的乐器——**色光钢琴（Clavier à lumières）**。这是一架特殊的键盘，不发出声音，而是向音乐厅投射彩色光线。
+在 Doré 之前，书籍插图是文字的附庸。Doré 之后，插图成为与文字平等甚至超越文字的叙事力量。`,
+    story: `1861年，29岁的 Doré 开始了他最伟大的项目——为但丁的《神曲》创作整套版画插图。
 
-Scriabin 为每个音高指定了颜色：C 是红色，G 是橙色，D 是黄色，A 是绿色，E 是浅蓝……他设计了一套完整的对应系统，让整个音乐厅随着和声变化而变换色彩。
+这是一个疯狂的决定。《神曲》描绘的是人类想象力的极限——地狱的九层深渊、炼狱的七重山丘、天堂的九重天球。如何将这些纯粹的文学意象变成可见的画面？
 
-**这是多媒体艺术的起点。** 1915年纽约卡内基音乐厅的演出首次使用了色光投射装置——比 VJ（视觉骑师）文化早了整整80年，比沉浸式灯光秀早了一个世纪。
+**Doré 的答案是：不要画你读到的，画你感受到的。**
 
-但 Scriabin 的野心远不止于此。他梦想创作一部"Mysterium"——一部在喜马拉雅山演出的跨感官总体艺术作品，融合音乐、舞蹈、光影、香气，持续七天七夜，将全人类带入一种超越性的体验。他在43岁时英年早逝，Mysterium 未能完成。`,
-    legacy: '• 多媒体艺术先驱：色光钢琴是人类历史上第一个将视觉与音乐实时同步的设计\n• 影响链条：Scriabin → 1960s 迷幻灯光秀 → Pink Floyd 舞台设计 → 当代沉浸式体验\n• "神秘和弦"（Mystic Chord）影响了20世纪和声语言的发展\n• 他的音色-色彩系统启发了后来的 Kandinsky 的抽象绘画理论',
-    significance: 'Scriabin 证明了**设计可以跨越感官边界**。他不是在"装饰"音乐，而是在创造一种全新的感知维度。今天我们习以为常的演唱会灯光、VJ 文化、沉浸式展览，都可以追溯到这位俄罗斯作曲家在1910年的疯狂构想。',
+他的地狱不是中世纪手抄本里那种符号化的烈火。他画的是压迫感——巨大的岩壁挤压着渺小的人影，无尽的黑暗中只有微弱的光线勾勒出痛苦的轮廓。他的天堂也不是金光闪闪的宝座，而是无数光点汇聚成的漩涡——比任何宗教画家都更接近"崇高"的本质。
 
-    dateConnection_en: 'Alexander Scriabin was born on January 6, 1872 in Moscow. This Russian composer was a pioneer in fusing music and visual art — his Prometheus: The Poem of Fire was the first symphonic work in history to require a "color keyboard" (Clavier Ã  lumières) as part of the performance.',
-    designerBio_en: `Alexander Scriabin (1872–1915), Russian composer, pianist, and pioneer of music-visual synesthetic design.
+出版商最初拒绝了这个项目——成本太高。Doré 自掏腰包资助出版。结果，这套插图在全欧洲引起轰动，被翻译成几十种语言，印刷数百万册。
 
-He possessed a rare gift — synesthesia: hearing notes triggered color perception. C major was red, D major yellow, F-sharp major blue-violet. This was not metaphor but his actual sensory experience.
+他随后又为弥尔顿的《失乐园》、塞万提斯的《堂吉诃德》、拉封丹的《寓言》等经典文学创作插图，每一套都成为后世无法超越的视觉标杆。在他最繁忙的时期，多达40名版画工匠同时为他工作，将他的画稿刻制成木版。`,
+    legacy: '• 文学视觉化标准：至今，"但丁的地狱长什么样"的答案仍然是 Doré 画的那样\n• 影响链条：Doré → 早期电影布景设计 → 好莱坞奇幻视觉 → 当代概念艺术\n• 出版革命：电铸版技术让他的版画可以大量印刷，开创了大众图书市场\n• 他证明了插画师可以与作家平起平坐——甚至更有名',
+    significance: 'Doré 证明了**视觉叙事可以超越文字**。他的《神曲》插图之所以经久不衰，不是因为它们"忠实"于文本，而是因为它们创造了文本之外的全新想象空间。150多年后，任何试图视觉化地狱、天堂、或史诗场景的艺术家，都仍然绕不开 Doré 的影子。',
 
-He translated this perception into a complete "timbre-color correspondence system" and sought to integrate it into musical performance. He was the first composer to seriously explore "how to make music visible."`,
-    story_en: `In 1910, Scriabin completed his most audacious work — Prometheus: The Poem of Fire, Op. 60.
+    dateConnection_en: 'Gustave Doré was born on January 6, 1832 in Strasbourg, France. This prodigy who began drawing caricatures for Parisian newspapers at age 15 would become the greatest illustrator of the 19th century — his engravings for Dante\'s Divine Comedy remain the gold standard for visualizing Western literature to this day.',
+    designerBio_en: `Gustave Doré (1832–1883), French printmaker, illustrator, painter, and sculptor.
 
-The scoring was unprecedented: orchestra, piano soloist, choir, and an instrument that had never existed — the **Clavier Ã  lumières (color-light keyboard)**. This special keyboard produced no sound; instead, it projected colored light throughout the concert hall.
+He was one of the most prolific creators in art history — producing over 10,000 illustrations in his lifetime. His wood engravings are renowned for their extraordinary chiaroscuro and dramatic compositions, with an unmatched ability to transform literary imagination into visual reality.
 
-Scriabin assigned a color to each pitch: C was red, G was orange, D was yellow, A was green, E was pale blueâ€¦ He designed a complete correspondence system so the entire hall would shift colors with the changing harmonies.
+**He wasn't "illustrating books" — he was reinventing the reading experience.**
 
-**This was the birth of multimedia art.** The 1915 performance at Carnegie Hall in New York was the first to use a color projection device — predating VJ culture by 80 years and immersive light shows by a full century.
+Before Doré, book illustrations were subordinate to text. After Doré, illustrations became a narrative force equal to — or even surpassing — the written word.`,
+    story_en: `In 1861, the 29-year-old Doré embarked on his greatest project — creating a complete set of engravings for Dante's Divine Comedy.
 
-But Scriabin's ambition went far beyond this. He dreamed of creating a "Mysterium" — a cross-sensory Gesamtkunstwerk to be performed in the Himalayas, fusing music, dance, light, fragrance, lasting seven days and seven nights, elevating all humanity into a transcendent experience. He died at 43, and the Mysterium was never completed.`,
-    legacy_en: 'â€¢ Multimedia art pioneer: the Clavier Ã  lumières was the first device in history to synchronize visuals with music in real time\nâ€¢ Influence chain: Scriabin â†’ 1960s psychedelic light shows â†’ Pink Floyd stage design â†’ contemporary immersive experiences\nâ€¢ The "Mystic Chord" influenced the development of 20th-century harmonic language\nâ€¢ His timbre-color system inspired Kandinsky\'s abstract painting theories',
-    significance_en: 'Scriabin proved that **design can transcend sensory boundaries.** He was not "decorating" music — he was creating an entirely new perceptual dimension. The concert lighting, VJ culture, and immersive exhibitions we take for granted today can all be traced back to this Russian composer\'s wild vision in 1910.',
+It was an audacious undertaking. The Divine Comedy depicts the extremes of human imagination — the nine circles of Hell, the seven terraces of Purgatory, the nine celestial spheres of Paradise. How could these purely literary visions be made visible?
+
+**Doré's answer: Don't draw what you read. Draw what you feel.**
+
+His Hell is not the symbolic flames of medieval manuscripts. He rendered oppression itself — colossal rock walls crushing tiny human figures, endless darkness with only faint light tracing the contours of suffering. His Paradise is not a gilded throne but a vortex of countless points of light — closer to the essence of the "sublime" than any religious painter before him.
+
+Publishers initially rejected the project — too expensive. Doré funded the publication himself. The result was a sensation across Europe, translated into dozens of languages and printed in millions of copies.
+
+He went on to illustrate Milton's Paradise Lost, Cervantes' Don Quixote, La Fontaine's Fables, and other literary classics — each set becoming a visual benchmark that posterity has never surpassed. At the height of his career, up to 40 engravers worked simultaneously to transfer his drawings onto woodblocks.`,
+    legacy_en: '• Standard for literary visualization: to this day, "what does Dante\'s Inferno look like?" is still answered by Doré\'s images\n• Influence chain: Doré → early film set design → Hollywood fantasy visuals → contemporary concept art\n• Publishing revolution: electrotype technology allowed mass printing of his engravings, pioneering the popular book market\n• He proved that an illustrator could stand equal to — or even outshine — an author',
+    significance_en: 'Doré proved that **visual storytelling can transcend the written word.** His Divine Comedy illustrations endure not because they are "faithful" to the text, but because they create entirely new imaginative spaces beyond it. More than 150 years later, any artist attempting to visualize Hell, Paradise, or epic scenes still works in the shadow of Doré.',
   },
 
   // 01-07: Tesla Coil
   {
     id: '38',
-    date: '2026-01-07',
-    imageUrl: '/the-daily-object/images/tesla-coil.jpg',
-    fullImageUrl: '/the-daily-object/images/full/tesla-coil.jpg',
-    title: '特斯拉线圈',
-    title_en: 'Tesla Coil',
-    subtitle: 'Nikola Tesla, 1891',
-    subtitle_en: 'Nikola Tesla, 1891',
-    category: 'industrial',
-    designer: 'Nikola Tesla',
-    year: '1891',
+        date: '2026-01-07',
+    imageUrl: '/the-daily-object/images/addams-family.jpg',
+    fullImageUrl: '/the-daily-object/images/full/addams-family.jpg',
+    title: '亚当斯一家',
+    title_en: 'The Addams Family',
+    subtitle: 'Charles Addams, 1938',
+    subtitle_en: 'Charles Addams, 1938',
+    category: 'graphic',
+    designer: 'Charles Addams',
+    year: '1938',
 
-    dateConnection: 'Nikola Tesla 于1943年1月7日在纽约客酒店孤独离世，享年86岁。这位塞尔维亚裔美国发明家一生持有300多项专利，而特斯拉线圈是他最具视觉冲击力的发明——将不可见的电力变成了可见的、令人敬畏的光之雕塑。',
-    designerBio: `Nikola Tesla (1856-1943)，塞尔维亚裔美国发明家、电气工程师，交流电系统的奠基人。
+    dateConnection: '1912年1月7日，Charles Addams 出生于美国新泽西州韦斯特菲尔德。这个从小就喜欢在墓地闲逛的男孩，后来创造了美国流行文化中最著名的哥特家庭——亚当斯一家。从《纽约客》漫画到电视剧、电影、音乐剧，这个黑色幽默的家族形象影响了整整一个世纪的视觉文化。',
+    designerBio: `Charles Addams (1912-1988)，美国漫画家，以黑色幽默和哥特风格著称。
 
-他与 Edison 的"电流之战"是工业设计史上最著名的对决之一。Edison 坚持直流电，Tesla 则证明了交流电在远距离输电上的绝对优势。最终，Tesla 的交流电系统成为全世界电力基础设施的标准——你此刻使用的每一度电，都源自他的设计。
+他为《纽约客》杂志创作了近50年，发表了约1,300幅漫画。他的作品以精致的线条和阴郁的幽默感著称——他画的不是恐怖，而是对"正常"的温柔颠覆。
 
-**"如果你想发现宇宙的秘密，就从能量、频率和振动的角度思考。"**
+**"正常的家庭千篇一律，古怪的家庭各有各的可爱。"**
 
-他是少有的同时具备工程天才和审美直觉的发明家。特斯拉线圈不仅是一个技术装置，更是他对电力之美的视觉宣言。`,
-    story: `1891年，Tesla 发明了以他名字命名的谐振变压器——特斯拉线圈。
+他与美国总统 John Adams 和 John Quincy Adams 有远亲关系，也是社会改革家 Jane Addams 的远房表亲。`,
+    story: `1938年，26岁的 Charles Addams 在《纽约客》杂志上发表了一幅漫画：一栋阴森的维多利亚式豪宅里，一群面色苍白的古怪家庭成员正在做一件平常得不能再平常的事——但画面的诡异氛围让这种"平常"变得令人不安而又莫名好笑。
 
-它的工作原理看似简单：两组线圈通过谐振耦合，将普通电压升高到数百万伏特，在尖端产生壮观的电弧放电。但这个"简单"的原理背后，是 Tesla 对电磁共振的深刻理解。
+这就是亚当斯一家的诞生。
 
-**特斯拉线圈的设计之美在于：它让不可见的力变得可见。** 电——这个驱动现代文明的基本力量——在线圈顶端化为紫蓝色的闪电，在空气中跳舞、分叉、消散。它既是科学仪器，也是光之雕塑。
+最初，这些角色甚至没有名字。Addams 只是不断画这个古怪家庭的日常：他们在屋顶上往路人头上倒滚烫的油，他们热情招待客人然后把客人关进地牢，他们把毒药当调味品——而这一切都以一种令人不安的温馨方式呈现。
 
-Tesla 曾在他的纽约实验室里，站在特斯拉线圈旁，让人造闪电环绕全身——这些照片成为科学史上最具标志性的影像。他用这些壮观的演示来宣传无线输电的可能性。
+**Addams 的天才在于：他没有画怪物，他画的是一个充满爱的家庭——只不过他们的爱的表达方式碰巧与整个世界相反。**
 
-在科罗拉多泉实验室（1899年），他建造了直径达16米的巨型线圈，产生了长达40米的人造闪电——附近的蝴蝶翅膀上产生了圣埃尔摩之火，周围6英里内的灯泡自动亮起。
+1964年，ABC 将亚当斯一家改编为电视剧，角色终于有了名字：Gomez、Morticia、Wednesday、Pugsley、Uncle Fester、Lurch、Thing……每一个都成为流行文化的永恒图标。Addams 对角色设计的要求极为严格，他亲自审核每一个造型细节。
 
-虽然他的无线输电梦想未能实现，但特斯拉线圈后来在无线电通信、医疗设备、粒子加速器等领域找到了广泛应用。而它最持久的遗产，或许是作为一件"功能性雕塑"——在科学博物馆、音乐节和艺术装置中，持续激发着人们对电力之美的敬畏。`,
-    legacy: '• 无线通信基础：特斯拉线圈的谐振原理是无线电技术的关键基础\n• 科学可视化先驱：第一次让电力成为可以"观看"的现象，开创了科学展示的新范式\n• 文化符号：成为"疯狂科学家"和"天才发明家"的视觉代名词\n• 当代应用：从粒子加速器到音乐特斯拉线圈（能"演奏"音乐的放电装置），持续启发新的创造',
-    significance: 'Tesla Coil 是工业设计中罕见的案例：一个纯技术装置，仅凭其工作时的视觉效果，就成为了一件永恒的设计经典。它证明了**技术本身可以是美的**——不需要外壳、不需要装饰，电力在空气中跳跃的瞬间就是最纯粹的形式美。',
+从新泽西小镇墓地里获得的灵感，最终长成了一棵覆盖全球的文化之树。`,
+    legacy: '• 哥特美学主流化：亚当斯一家让黑色幽默和哥特审美走入千家万户\n• 角色设计典范：Morticia 的黑色长裙、Wednesday 的辫子和面无表情，成为最具辨识度的视觉符号\n• 跨媒体经典：从漫画到电视剧 (1964)、动画 (1973)、电影 (1991, 2019)、Netflix 剧集《Wednesday》(2022)\n• 文化影响：Tim Burton、Wednesday 系列、万圣节文化、哥特时尚——都活在 Addams 的影子里',
+    significance: 'Charles Addams 证明了**设计可以颠覆价值观**。亚当斯一家的革命性不在于它的"怪"，而在于它迫使观众重新思考什么是"正常"。当 Gomez 和 Morticia 用匕首切结婚蛋糕时，谁说这不是爱？当 Wednesday 面无表情地拥抱世界的荒诞时，谁说这不是智慧？',
 
-    dateConnection_en: 'Nikola Tesla passed away alone at the New Yorker Hotel on January 7, 1943, at the age of 86. This Serbian-American inventor held over 300 patents, and the Tesla Coil remains his most visually spectacular invention — transforming invisible electricity into awe-inspiring sculptures of light.',
-    designerBio_en: `Nikola Tesla (1856–1943), Serbian-American inventor and electrical engineer, the architect of the alternating current power system.
+    dateConnection_en: 'Charles Addams was born on January 7, 1912 in Westfield, New Jersey. This boy who loved wandering through cemeteries as a child went on to create the most famous Gothic family in American pop culture — The Addams Family. From New Yorker cartoons to TV shows, films, and musicals, this darkly humorous clan has shaped visual culture for nearly a century.',
+    designerBio_en: `Charles Addams (1912–1988), American cartoonist renowned for his dark humor and Gothic style.
 
-His "War of Currents" with Edison is one of the most famous rivalries in industrial design history. Edison championed direct current; Tesla proved alternating current's absolute superiority for long-distance transmission. Tesla's AC system became the global standard for electrical infrastructure — every watt you use right now traces back to his design.
+He contributed to The New Yorker magazine for nearly 50 years, publishing approximately 1,300 cartoons. His work was distinguished by refined linework and mordant wit — he didn't draw horror, but a gentle subversion of "normalcy."
 
-**"If you want to find the secrets of the universe, think in terms of energy, frequency and vibration."**
+**"Normal families are all alike; every weird family is lovable in its own way."**
 
-He was a rare inventor who possessed both engineering genius and aesthetic intuition. The Tesla Coil is not merely a technical apparatus — it is his visual manifesto on the beauty of electricity.`,
-    story_en: `In 1891, Tesla invented the resonant transformer that bears his name — the Tesla Coil.
+He was distantly related to U.S. Presidents John Adams and John Quincy Adams, and a distant cousin of social reformer Jane Addams.`,
+    story_en: `In 1938, 26-year-old Charles Addams published a cartoon in The New Yorker: inside a gloomy Victorian mansion, a group of pale, eccentric family members were doing something perfectly ordinary — but the eerie atmosphere made this "ordinary" feel both unsettling and inexplicably funny.
 
-Its principle seems straightforward: two coil sets coupled through resonance step up ordinary voltage to millions of volts, producing spectacular arc discharges at the terminal. But behind this "simple" principle lies Tesla's profound understanding of electromagnetic resonance.
+This was the birth of The Addams Family.
 
-**The design beauty of the Tesla Coil is this: it makes the invisible visible.** Electricity — the fundamental force driving modern civilization — transforms into violet-blue lightning at the coil's terminal, dancing, branching, and dissipating through the air. It is both scientific instrument and light sculpture.
+Initially, these characters didn't even have names. Addams simply kept drawing this peculiar family's daily life: pouring boiling oil on passersby from the roof, warmly welcoming guests before locking them in the dungeon, using poison as seasoning — all presented with a disturbingly wholesome warmth.
 
-Tesla once stood beside his coil in his New York laboratory, letting artificial lightning cascade around his body — those photographs became some of the most iconic images in the history of science. He used these spectacular demonstrations to promote the possibility of wireless power transmission.
+**Addams' genius was this: he didn't draw monsters. He drew a loving family — whose expressions of love just happened to be the inverse of the entire world's.**
 
-At his Colorado Springs laboratory (1899), he built a colossal coil 16 meters in diameter, generating artificial lightning bolts up to 40 meters long — St. Elmo's fire appeared on butterfly wings nearby, and light bulbs within 6 miles lit up spontaneously.
+In 1964, ABC adapted The Addams Family into a television series, and the characters finally received names: Gomez, Morticia, Wednesday, Pugsley, Uncle Fester, Lurch, Thing… Each became an eternal icon of popular culture. Addams was extremely particular about character design, personally reviewing every styling detail.
 
-Though his wireless power dream was never fully realized, the Tesla Coil found broad applications in radio communication, medical devices, and particle accelerators. And its most enduring legacy may be as a "functional sculpture" — continuing to inspire awe at the beauty of electricity in science museums, music festivals, and art installations around the world.`,
-    legacy_en: 'â€¢ Wireless communication foundation: the Tesla Coil\'s resonance principle is fundamental to radio technology\nâ€¢ Science visualization pioneer: the first device to make electricity something you could "watch," creating a new paradigm for science demonstration\nâ€¢ Cultural icon: became the visual synonym for "mad scientist" and "genius inventor"\nâ€¢ Contemporary applications: from particle accelerators to musical Tesla Coils (discharge devices that can "play" music), it continues to inspire new creations',
-    significance_en: 'The Tesla Coil is a rare case in industrial design: a purely technical device that became an enduring design classic solely through its visual spectacle during operation. It proves that **technology itself can be beautiful** — no housing needed, no decoration required. The moment electricity leaps through air is the purest form of aesthetic beauty.',
+The inspiration drawn from a small-town New Jersey cemetery ultimately grew into a cultural tree spanning the globe.`,
+    legacy_en: '• Gothic aesthetic mainstreaming: The Addams Family brought dark humor and Gothic aesthetics into living rooms worldwide\n• Character design exemplar: Morticia\'s black gown, Wednesday\'s braids and deadpan expression became instantly recognizable visual icons\n• Cross-media classic: from cartoons to TV (1964), animation (1973), films (1991, 2019), Netflix\'s Wednesday (2022)\n• Cultural impact: Tim Burton, the Wednesday series, Halloween culture, Gothic fashion — all live in Addams\' shadow',
+    significance_en: 'Charles Addams proved that **design can subvert values.** The Addams Family\'s revolution isn\'t in being "weird" — it\'s in forcing audiences to reconsider what "normal" means. When Gomez and Morticia cut their wedding cake with a dagger, who says that isn\'t love? When Wednesday embraces the world\'s absurdity with a deadpan face, who says that isn\'t wisdom?',
   },
 
   // 01-08: Ziggy Stardust
@@ -3258,7 +3266,7 @@ On June 11, 1964, Single Form was unveiled at UN headquarters. Sunlight passed t
     title_en: 'Oscar Statuette',
     subtitle: 'George Stanley, 1929',
     subtitle_en: 'George Stanley, 1929',
-    category: 'film',
+    category: 'industrial',
     designer: 'George Stanley',
     year: '1929',
 
