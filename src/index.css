@@ -48,15 +48,18 @@
   background-color: transparent !important;
 }
 
-/* Base tile: 25% opacity text (无内容，未选中) */
+/* Base tile: 75% opacity text (无内容，未选中) */
 .luxury-calendar .react-calendar__tile {
   @apply aspect-square flex items-center justify-center p-0 rounded-lg transition-all font-light text-sm;
   min-height: 48px;
   background-color: transparent !important;
+}
+
+.luxury-calendar .react-calendar__month-view__days__day {
   color: rgba(0, 0, 0, 0.75) !important;
 }
 
-.dark .luxury-calendar .react-calendar__tile {
+.dark .luxury-calendar .react-calendar__month-view__days__day {
   color: rgba(255, 255, 255, 0.75) !important;
 }
 
