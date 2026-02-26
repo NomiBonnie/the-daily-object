@@ -1,6 +1,6 @@
 ﻿// Bump this when any image file is replaced (same filename, new content)
 // This busts CDN cache without renaming files
-export const IMAGE_VERSION = '20260226d'
+export const IMAGE_VERSION = '20260226e'
 
 export interface DesignObject {
   id: string
@@ -3650,16 +3650,36 @@ From a design perspective, the *Michelin Guide* is **a masterclass in informatio
     category: 'film',
     designer: 'Federico Fellini',
     year: '1963',
-    dateConnection: 'Federico Fellini 于 1920 年 1 月 20 日出生于意大利里米尼。这位电影大师的第八部半作品，至今仍是电影视觉设计的最高峰之一。',
+    dateConnection: '1920年1月20日，Federico Fellini 出生在意大利亚得里亚海边的小城里米尼。没人会想到，这个在马戏团和电影院里泡大的男孩，四十年后会拍出一部关于"拍不出电影"的电影——而这部电影，成了影史上最伟大的作品之一。',
     designerBio: `Federico Fellini（1920–1993）出生于意大利里米尼。年少时逃离小镇前往罗马，从漫画家和记者起步，逐渐进入电影界。\n\nFellini 是电影史上最具视觉想象力的导演之一。他的电影不追求线性叙事，而是创造完整的**视觉宇宙**——梦境、记忆、幻想与现实交织成视觉交响诗。他与美术指导 Piero Gherardi 的合作，使每一帧都如同精心设计的舞台。`,
-    story: `1962 年，Fellini 在筹备新片时陷入严重的创作危机。于是他做了一个天才的决定：**把拍不出电影这件事本身拍成一部电影。**\n\n**8½**（1963）的片名来自 Fellini 的作品数量：六部长片、两部短片各算半部，加上这一部 = 八又二分之一。\n\n美术指导 Piero Gherardi 创造了亦真亦幻的世界：巨大的火箭发射台布景象征膨胀的野心，温泉浴场的超现实空间暗示记忆与欲望的交融。开场梦境——Guido 在交通堵塞中飘浮升空——至今仍是电影史上最具标志性的视觉段落。\n\nGherardi 的服装设计同样惊艳：Guido 标志性的黑色礼帽是"导演面具"的具象化，Claudia Cardinale 全白的形象象征不可及的理想。\n\n8½ 赢得了 1963 年奥斯卡最佳外语片和最佳服装设计两项大奖。`,
-    legacy: '• 开创了"元电影"类型，影响了伍迪·艾伦、查理·考夫曼等后来者\n• 视觉设计方法论——用布景、服装和空间叙事——成为电影美术设计教科书\n• Piero Gherardi 的服装设计至今仍是时尚界灵感源泉\n• 开场梦境序列被无数导演致敬',
-    significance: '8½ 是**电影作为设计媒介的巅峰证明。** Fellini 和 Gherardi 展示了视觉设计不仅是"好看的背景"，而是叙事本身——布景就是心理空间，服装就是人物性格，光影就是情绪节奏。',
-    dateConnection_en: 'Federico Fellini was born on January 20, 1920, in Rimini, Italy. This master filmmaker\'s eighth-and-a-half work remains one of the supreme achievements in cinematic visual design.',
+    story: `1962年，Fellini 遇到了每个创作者最恐惧的时刻：他什么都拍不出来了。
+
+制片人在催，预算在烧，Cinecittà 片场的布景已经搭好，Marcello Mastroianni 和整个演员阵容已经就位——但导演本人完全不知道自己要拍什么。没有剧本，没有故事，只有一个越来越深的黑洞。
+
+**然后 Fellini 做了影史上最疯狂的决定：他把"不知道拍什么"这件事本身，拍成了电影。**
+
+他让 Mastroianni 饰演一个叫 Guido 的导演——一个正在筹备新片却陷入创作危机的导演。现实、回忆、幻想、梦境在银幕上不断交织、碎裂、重组。观众看到的不是一个故事，而是一个创作者大脑内部的混乱风暴。
+
+开场那个著名的梦境——Guido 被困在交通堵塞中，然后飘浮升空，像风筝一样飞过城市上空——至今仍是电影史上最具标志性的视觉段落。美术指导 Piero Gherardi 创造了亦真亦幻的空间：巨大的火箭发射台象征膨胀到荒诞的野心，温泉浴场变成记忆与欲望的超现实迷宫。
+
+**8½ 的片名本身就是一个设计杰作：**它是 Fellini 第八部半作品——此前他拍了6部长片、2部短片（各算半部）、1部合拍片（算半部），加上这部正好是八又二分之一。连片名都在告诉你：这是一部关于创作本身的电影。`,
+    legacy: '• 开创"元电影"类型：从 Woody Allen 的《星尘往事》到 Charlie Kaufman 的《改编剧本》，从 Bob Fosse 的《爵士乐的一切》到 Paolo Sorrentino 的《绝美之城》，所有关于"创作者拍创作者"的电影都活在 8½ 的影子里\n• "费里尼式"美学成为意大利电影的视觉符号：马戏团、梦境、荒诞、女性崇拜的混合体，一种介于狂欢与忧郁之间的独特视觉语言\n• 视觉设计方法论革命——布景即心理空间、服装即性格、光影即情绪——成为电影美术设计的教科书\n• Piero Gherardi 的服装设计至今影响时尚界，Guido 的黑色礼帽和墨镜成为"导演"这一身份的视觉符号',
+    significance: '8½ 是影史上最伟大的"失败"——**一个导演把自己的创作危机变成了人类对创造力本质最深刻的思考。** Fellini 证明了：当你不知道该说什么的时候，"不知道该说什么"本身就可以成为最深刻的表达。这不仅是电影美学的巅峰，更是对所有创作者的终极安慰——你的困惑、焦虑和混乱，可能就是你最好的作品。',
+    dateConnection_en: 'On January 20, 1920, Federico Fellini was born in the small Adriatic coastal town of Rimini, Italy. No one could have imagined that this boy — raised on circuses and cinema — would, forty years later, make a film about being unable to make a film, and that this film would become one of the greatest works in cinema history.',
     designerBio_en: `Federico Fellini (1920–1993) was born in Rimini, Italy. He escaped to Rome as a young man, starting as a cartoonist and journalist before entering film.\n\nFellini is one of cinema's most visually imaginative directors. His films create complete **visual universes** — dreams, memories, fantasies, and reality woven into symphonic poems. His collaboration with production designer Piero Gherardi ensured every frame was a meticulously designed stage.`,
-    story_en: `In 1962, Fellini fell into a severe creative crisis. So he made a genius decision: **turn the inability to make a film into a film itself.**\n\n**8½** (1963) takes its title from Fellini's filmography: six features plus two shorts (each counting as half) plus this one = eight and a half.\n\nProduction designer Piero Gherardi created a world between real and surreal: a massive rocket launchpad symbolizing inflated ambitions, surreal thermal baths suggesting the fusion of memory and desire. The opening dream — Guido floating from a traffic jam — remains one of cinema's most iconic visual sequences.\n\nGherardi's costumes were equally stunning: Guido's signature black hat materializes his "director's mask"; Claudia Cardinale's all-white look symbolizes the unattainable ideal.\n\n8½ won two Academy Awards — Best Foreign Language Film and Best Costume Design.`,
-    legacy_en: '• Pioneered the "meta-film" genre, influencing Woody Allen, Charlie Kaufman, and countless others\n• Its visual design methodology became a textbook for film production design\n• Piero Gherardi\'s costumes remain a fashion inspiration\n• The opening dream sequence is a milestone in cinematic visual language',
-    significance_en: '8½ is the **supreme proof of cinema as a design medium.** Fellini and Gherardi demonstrated that visual design is narrative itself — sets are psychological spaces, costumes are character, light and shadow are emotional rhythm.',
+    story_en: `In 1962, Fellini hit every creator's worst nightmare: he couldn't make anything.
+
+The producer was pressing, the budget was burning, the sets at Cinecittà were already built, Marcello Mastroianni and the entire cast were in place — but the director himself had absolutely no idea what he wanted to shoot. No script, no story, just an ever-deepening void.
+
+**Then Fellini made the most audacious decision in film history: he turned "not knowing what to make" into the film itself.**
+
+He cast Mastroianni as Guido, a director preparing a new film while drowning in creative paralysis. Reality, memory, fantasy, and dream shatter and reassemble on screen. The audience doesn't watch a story — they witness the chaotic storm inside a creator's mind.
+
+The famous opening dream — Guido trapped in a traffic jam, then floating skyward like a kite over the city — remains one of cinema's most iconic visual sequences. Production designer Piero Gherardi built spaces between real and surreal: a massive rocket launchpad symbolizing ambitions inflated to absurdity, thermal baths morphing into surreal labyrinths of memory and desire.
+
+**The title itself is a design masterpiece:** 8½ is Fellini's eighth-and-a-half work — six features, two shorts (each counting as half), one co-directed film (half), plus this one equals exactly eight and a half. Even the title declares: this is a film about filmmaking itself.`,
+    legacy_en: '• Pioneered the "meta-film" genre: from Woody Allen\'s Stardust Memories to Charlie Kaufman\'s Adaptation, from Bob Fosse\'s All That Jazz to Paolo Sorrentino\'s The Great Beauty — every film about "creators creating" lives in 8½\'s shadow\n• "Felliniesque" became a visual vocabulary for Italian cinema: a fusion of circus, dream, absurdity, and feminine mystique — a unique visual language suspended between carnival and melancholy\n• Revolutionized visual design methodology — sets as psychological spaces, costumes as character, light as emotional rhythm — becoming the textbook for film production design\n• Piero Gherardi\'s costumes continue to influence fashion; Guido\'s black hat and sunglasses became the visual symbol of "the director" as identity',
+    significance_en: '8½ is cinema history\'s greatest "failure" — **a director who turned his creative crisis into humanity\'s most profound meditation on the nature of creativity.** Fellini proved that when you don\'t know what to say, "not knowing what to say" can itself become the most profound expression. This is not just the pinnacle of cinematic aesthetics — it is the ultimate consolation for every creator: your confusion, anxiety, and chaos might just be your greatest work.',
   },
 
   // 01-21: New Look (Christian Dior)
