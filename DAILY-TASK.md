@@ -118,6 +118,11 @@ export interface DesignObject {
 | 内容字段 | `description` 一个字段 | 拆分为 `designerBio` / `story` / `legacy` / `significance` |
 | 副标题 | 无 | `subtitle` / `subtitle_en`（格式：设计师, 年份） |
 
+### 选图标准（⚠️ 重要！）
+- **专业摄影级别**：必须看起来像专业摄影师拍的，不要游客随手拍的照片
+- **版权图片可以用**：网站非商业化，不受版权限制，优先选最好的图
+- 优先级：官方产品照 > 专业设计媒体 > 高质量博客 > Unsplash
+
 ### 图片文件（⚠️ 双份规则！）
 
 1. **原图**永远放 `public/images/full/filename.jpg`（lightbox 放大用，不压缩）
@@ -125,6 +130,11 @@ export interface DesignObject {
    - 原图 **≤ 600KB** → 直接复制原图，不压缩
    - 原图 **> 600KB** → 用 ffmpeg 压缩到 ~400-500KB（q:v 3，max 1200px 宽）
 3. 文件名规则：小写、连字符，如 `panton-chair.jpg`
+
+### CDN 缓存（⚠️ 换图后必做）
+- 如果替换了已有图片（同文件名），**必须更新** `src/data.ts` 顶部的 `IMAGE_VERSION`
+- 格式：`YYYYMMDD`，例如 `'20260226'`
+- 所有图片 URL 会自动拼接 `?v=IMAGE_VERSION`，绕过 CDN 缓存
 
 ---
 
