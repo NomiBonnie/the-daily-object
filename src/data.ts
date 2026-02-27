@@ -3900,6 +3900,54 @@ From a **musical design** perspective, the arrangement structure is textbook: a 
     significance_en: '"A Change Is Gonna Come" is **the ultimate case of music as a tool of social design.** Sam Cooke used precise arrangement and restrained yet deeply emotional vocals to elevate personal humiliation into the voice of an entire era. This song proves design\'s highest calling: **not to change the shape of the material world, but to change the landscape within people\'s hearts.**',
   },
 
+  {
+    id: '27',
+    date: '2026-02-27',
+    imageUrl: '/the-daily-object/images/imac-g3.jpg',
+    fullImageUrl: '/the-daily-object/images/full/imac-g3.jpg',
+    title: 'iMac G3',
+    title_en: 'iMac G3',
+    subtitle: 'Jony Ive, 1998',
+    subtitle_en: 'Jony Ive, 1998',
+    category: 'industrial',
+    designer: 'Jony Ive',
+    year: '1998',
+    tags: ['拯救了苹果公司', '终结了米色电脑时代', '工业设计教科书'],
+    tags_en: ['Saved Apple from Bankruptcy', 'Ended the Beige Box Era', 'Industrial Design Textbook'],
+
+    dateConnection: '1967年2月27日，Jonathan Ive 出生于伦敦 Chingford。这位后来被封为爵士的工业设计师，在苹果公司创造了一系列改变世界的产品——而 iMac G3 正是一切的起点。',
+    designerBio: `Jony Ive 的父亲是一位银匠，在 Middlesex 理工学院教书。从小在工坊中长大的 Ive，对材料和形态有着天生的敏感。他在纽卡斯尔理工学院学习工业设计，毕业后加入伦敦设计事务所 Tangerine。
+
+1992年，年仅25岁的 Ive 被苹果招入麾下，但在 Gil Amelio 时代几乎毫无发挥空间。直到1997年 Steve Jobs 回归，一眼看中了这个安静的英国人——"他和我想的一样。"Jobs 给了 Ive 一个简单而疯狂的任务：**设计一台能拯救苹果的电脑。**`,
+    story: `1997年的苹果正站在悬崖边上。公司已连续亏损两年，距离破产只有90天。Jobs 回归后砍掉了70%的产品线，把所有赌注压在一台消费级台式机上。
+
+Ive 的团队做了一个当时所有人都觉得疯狂的决定：**用半透明的彩色塑料做电脑外壳。** 在那个所有电脑都是米色塑料盒子的年代，这等于公开宣战。
+
+为了实现这种"冰一样的透明感"，Ive 研究了糖果工厂的制造工艺。他说服韩国供应商开发全新的注塑模具，每个模具成本是普通产品的三倍。外壳的蓝绿色被命名为"Bondi Blue"——取自澳大利亚悉尼最著名的海滩。
+
+**但 iMac G3 的革命不只是颜色。** 它是第一台砍掉软驱的主流电脑，也是第一台把 USB 作为唯一接口的消费产品。更关键的是，它重新定义了"电脑应该长什么样"这个根本问题——从一个工具变成了一件你愿意放在客厅里的物品。
+
+1998年8月15日上市后，iMac G3 在头五个月卖出了80万台，其中32%是第一次买电脑的用户。苹果不仅活了下来，还走上了此后20年持续改变世界的道路。`,
+    legacy: `• 上市首年销售额超过 18 亿美元，直接将苹果从破产边缘拉回\n• 开创了"半透明设计"潮流，从台灯到订书机全被模仿\n• 推动 USB 成为行业标准接口\n• 建立了苹果"设计驱动"的品牌基因，奠定了 iPod → iPhone → iPad 的设计语言基础\n• 证明了工业设计可以是商业战略的核心，而不只是"外壳好看"`,
+    significance: 'iMac G3 是工业设计史上最重要的"转折点"之一。在它之前，个人电脑的设计哲学是"隐形"——越不起眼越好，因为人们只关心性能。Ive 用一台半透明的蓝绿色电脑证明：**设计不是装饰，设计是产品存在的理由。** 这个理念后来定义了整个21世纪的消费电子行业。',
+
+    dateConnection_en: 'February 27, 1967 — Jonathan Ive was born in Chingford, London. The designer who would later be knighted for his contributions to design created a series of world-changing products at Apple — and the iMac G3 was where it all began.',
+    designerBio_en: `Jony Ive's father was a silversmith who taught at Middlesex Polytechnic. Growing up surrounded by craftsmanship gave Ive an innate sensitivity to materials and form. He studied industrial design at Newcastle Polytechnic, then joined London design firm Tangerine.
+
+In 1992, a 25-year-old Ive was recruited by Apple, but had almost no creative freedom under CEO Gil Amelio. Everything changed when Steve Jobs returned in 1997 and immediately recognized a kindred spirit — "He thinks the same way I do." Jobs gave Ive a simple yet audacious brief: **design a computer that can save Apple.**`,
+    story_en: `In 1997, Apple was standing on the edge of a cliff. The company had posted losses for two consecutive years and was reportedly 90 days from bankruptcy. Upon his return, Jobs killed 70% of the product line and bet everything on a single consumer desktop.
+
+Ive's team made a decision that everyone thought was insane: **encase the computer in translucent, colored plastic.** In an era when every computer was a beige plastic box, this was a declaration of war.
+
+To achieve that "ice-like transparency," Ive studied manufacturing processes at candy factories. He convinced Korean suppliers to develop entirely new injection molds, each costing three times the industry standard. The blue-green shell was named "Bondi Blue" — after Sydney, Australia's most famous beach.
+
+**But the iMac G3's revolution went far beyond color.** It was the first mainstream computer to drop the floppy drive, the first consumer product to use USB as its sole connectivity standard. Most fundamentally, it redefined the question of "what should a computer look like" — transforming it from a tool into an object you'd proudly display in your living room.
+
+After launching on August 15, 1998, the iMac G3 sold 800,000 units in its first five months, with 32% of buyers purchasing a computer for the first time. Apple didn't just survive — it began a two-decade journey of changing the world.`,
+    legacy_en: `• First-year sales exceeded $1.8 billion, pulling Apple back from the brink of bankruptcy\n• Sparked the "translucent design" trend — everything from desk lamps to staplers was imitated\n• Drove USB adoption as the industry standard interface\n• Established Apple's "design-driven" brand DNA, laying the design language foundation for iPod → iPhone → iPad\n• Proved that industrial design could be the core of business strategy, not just "a pretty shell"`,
+    significance_en: 'The iMac G3 is one of the most important "turning points" in industrial design history. Before it, the design philosophy for personal computers was "invisibility" — the less noticeable, the better, because all people cared about was specs. Ive used a translucent blue-green computer to prove that **design is not decoration — design is the reason a product exists.** This idea went on to define the entire consumer electronics industry of the 21st century.',
+  },
+
 
 ]
 
