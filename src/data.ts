@@ -3948,6 +3948,50 @@ After launching on August 15, 1998, the iMac G3 sold 800,000 units in its first 
     significance_en: 'The iMac G3 is one of the most important "turning points" in industrial design history. Before it, the design philosophy for personal computers was "invisibility" — the less noticeable, the better, because all people cared about was specs. Ive used a translucent blue-green computer to prove that **design is not decoration — design is the reason a product exists.** This idea went on to define the entire consumer electronics industry of the 21st century.',
   },
 
+  {
+    id: '28',
+    date: '2026-02-28',
+    imageUrl: '/the-daily-object/images/guggenheim-bilbao.jpg',
+    fullImageUrl: '/the-daily-object/images/full/guggenheim-bilbao.jpg',
+    title: 'Guggenheim Museum Bilbao',
+    title_en: 'Guggenheim Museum Bilbao',
+    subtitle: 'Frank Gehry, 1997',
+    subtitle_en: 'Frank Gehry, 1997',
+    category: 'architecture',
+    designer: 'Frank Gehry',
+    year: '1997',
+    tags: ['解构主义建筑先驱', '重新定义城市复兴', '钛金属美学革命'],
+    tags_en: ['Deconstructivist Architecture Pioneer', 'Redefined Urban Regeneration', 'Titanium Aesthetic Revolution'],
+
+    dateConnection: '1929年2月28日，Frank Gehry 出生于加拿大多伦多。这位后来获得普利兹克奖的建筑师，用毕尔巴鄂古根海姆博物馆彻底改写了建筑的可能性——也改变了一座城市的命运。',
+    designerBio: `Frank Gehry 原名 Frank Owen Goldberg，在多伦多长大。童年时，他在祖父的五金店里用木头碎片搭建想象中的城市——这个画面几乎预言了他日后的一切。1947年全家搬到洛杉矶后，Gehry 进入南加州大学学习建筑。
+
+早年的 Gehry 在主流国际风格中工作，但他越来越被洛杉矶海滩社区的前卫艺术圈所吸引——Ed Kienholz、Bob Irwin、Ed Ruscha 这些艺术家用工业废料创作，深深影响了他。1978年，Gehry 对自家圣莫尼卡平房的改造成为建筑史上的经典叛逆之作：他用波纹铁皮和铁丝网包裹住一座普通的木屋，宣告了一种全新的建筑语言。`,
+    story: `1991年，西班牙巴斯克地区首府毕尔巴鄂正处于最灰暗的时刻。这座曾经繁荣的工业港口城市因钢铁和造船业衰退而陷入严重的经济危机，失业率超过25%。市政府做出了一个大胆到近乎疯狂的决定：斥资8900万美元，请一位美国建筑师在废弃的河畔船坞上建一座博物馆。
+
+**Gehry 交出的方案震惊了所有人。** 那不是一座建筑，那是一艘搁浅在内尔维翁河畔的钛金属巨舰。33,000块钛板如鱼鳞般层叠覆盖在自由扭转的曲面上，在阳光下流动变幻，没有一个重复的角度。为了实现这种前所未有的复杂几何，Gehry 的团队首次将航空工业的 CATIA 软件引入建筑设计——这是建筑数字化革命的起点。
+
+1997年10月开馆时，建筑评论家们找不到词汇来描述它。Philip Johnson 称之为"我们时代最伟大的建筑"。但更惊人的是它对城市的改变：开馆第一年就吸引了130万游客（预期40万），三年内为毕尔巴鄂带来了5亿美元的经济收入。**"毕尔巴鄂效应"** 从此成为一个专有名词，指一座标志性建筑拯救一座城市的现象。
+
+这座博物馆证明了一件事：**建筑不只是容纳艺术的容器，建筑本身就可以是最伟大的艺术品。**`,
+    legacy: `• 开创了"毕尔巴鄂效应"——证明一座建筑可以拯救一座城市的经济\n• 首次将航空业 CATIA 软件应用于建筑设计，开启了参数化建筑的时代\n• 33,000块独一无二的钛金属面板，每一块都由计算机单独设计\n• 开馆三年内为毕尔巴鄂带来超过5亿美元经济收入\n• 被《卫报》评为"21世纪最具影响力的建筑"之一`,
+    significance: 'Guggenheim Bilbao 是解构主义建筑的巅峰之作，也是建筑史上从"设计图纸"到"数字设计"的分水岭。Gehry 用这座博物馆证明了三件事：建筑可以像雕塑一样自由；计算机可以让不可能的形态变为现实；而一座足够伟大的建筑，可以改变一座城市乃至一个国家的命运。',
+
+    dateConnection_en: 'February 28, 1929 — Frank Gehry was born in Toronto, Canada. The Pritzker Prize-winning architect who would later rewrite the rules of what buildings could look like created his masterpiece in Bilbao — a museum that changed not just architecture, but an entire city\'s destiny.',
+    designerBio_en: `Frank Gehry was born Frank Owen Goldberg in Toronto. As a child, he built imaginary cities from scraps in his grandfather's hardware store — a scene that now reads like prophecy. After the family moved to Los Angeles in 1947, Gehry studied architecture at USC.
+
+Early in his career, Gehry worked within the mainstream International Style, but he was increasingly drawn to LA's avant-garde beach art scene — artists like Ed Kienholz, Bob Irwin, and Ed Ruscha who created from industrial cast-offs deeply influenced him. His 1978 renovation of his own Santa Monica bungalow became a landmark act of architectural rebellion: he wrapped a conventional wood-frame house in corrugated metal and chain-link fencing, announcing a radically new architectural language.`,
+    story_en: `In 1991, Bilbao — the capital of Spain's Basque Country — was at its lowest point. The once-prosperous industrial port city had been devastated by the collapse of its steel and shipbuilding industries, with unemployment exceeding 25%. The city government made a decision so bold it bordered on reckless: spend $89 million to commission an American architect to build a museum on an abandoned riverside shipyard.
+
+**Gehry's proposal stunned everyone.** It wasn't a building — it was a titanium leviathan beached on the banks of the Nervión River. 33,000 titanium panels layered like fish scales across freely twisting surfaces, shimmering and shifting in the sunlight, no two angles alike. To realize this unprecedented geometric complexity, Gehry's team became the first to bring aerospace CATIA software into architecture — marking the birth of digital design in building.
+
+When it opened in October 1997, architecture critics struggled to find words. Philip Johnson called it "the greatest building of our time." But the truly astonishing impact was on the city itself: 1.3 million visitors came in the first year alone (versus a projected 400,000), generating over $500 million in economic revenue within three years. **"The Bilbao Effect"** became a proper noun — describing the phenomenon of a single iconic building saving an entire city.
+
+This museum proved something profound: **architecture isn't just a container for art — architecture itself can be the greatest artwork.**`,
+    legacy_en: `• Created "The Bilbao Effect" — proving a single building can rescue a city's economy\n• First application of aerospace CATIA software to architecture, launching the parametric design era\n• 33,000 unique titanium panels, each individually computer-designed\n• Generated over $500 million in economic revenue for Bilbao within three years of opening\n• Named by The Guardian as one of the most influential buildings of the 21st century`,
+    significance_en: 'Guggenheim Bilbao is the pinnacle of Deconstructivist architecture and a watershed moment in the shift from drafting tables to digital design. With this museum, Gehry proved three things: buildings can be as free as sculpture; computers can make impossible forms real; and a building great enough can change the fate of a city — even a nation.',
+  },
+
 
 ]
 

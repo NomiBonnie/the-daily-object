@@ -471,6 +471,7 @@ browser action=open → 用 → browser action=close
 | 02-24 | Nike Air Force 1 | Bruce Kilgore | industrial |
 | 02-25 | Royal Crescent | John Wood the Younger | architecture |
 | 02-26 | Levi's 501 牛仔裤 | Levi Strauss | fashion |
+| 02-27 | iMac G3 | Jony Ive | industrial |
 
 > 添加新内容后，请更新此索引。
 
