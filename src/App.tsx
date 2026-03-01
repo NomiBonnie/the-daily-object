@@ -470,7 +470,7 @@ function App() {
             <div className="space-y-10">
               {/* Calendar */}
               <div>
-                <div ref={calendarRef} style={{ touchAction: 'pan-y' }} className="bg-white dark:bg-neutral-900 rounded-2xl p-8 shadow-xl border border-neutral-200 dark:border-neutral-800">
+                <div ref={calendarRef} style={{ touchAction: 'pan-y' }} className="bg-white dark:bg-neutral-900 rounded-2xl p-8 shadow-xl border border-neutral-200 dark:border-neutral-800 max-w-md mx-auto">
                   <Calendar
                     onChange={handleDateClick}
                     value={selectedDate}
