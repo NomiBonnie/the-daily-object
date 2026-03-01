@@ -466,11 +466,11 @@ function App() {
             {renderDesignDetail(todayDesign)}
           </div>
         ) : (
-          <div className="max-w-screen-xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+          <div className="max-w-3xl mx-auto">
+            <div className="space-y-10">
               {/* Calendar */}
-              <div className="lg:col-span-5">
-                <div ref={calendarRef} style={{ touchAction: 'pan-y' }} className="bg-white dark:bg-neutral-900 rounded-2xl p-8 shadow-xl border border-neutral-200 dark:border-neutral-800 lg:sticky lg:top-24">
+              <div>
+                <div ref={calendarRef} style={{ touchAction: 'pan-y' }} className="bg-white dark:bg-neutral-900 rounded-2xl p-8 shadow-xl border border-neutral-200 dark:border-neutral-800">
                   <Calendar
                     onChange={handleDateClick}
                     value={selectedDate}
@@ -499,7 +499,7 @@ function App() {
               </div>
 
               {/* Selected Design Preview */}
-              <div className="lg:col-span-7" id="design-content">
+              <div id="design-content">
                 {selectedDesign ? (
                   <div>
                     {renderDesignDetail(selectedDesign)}
