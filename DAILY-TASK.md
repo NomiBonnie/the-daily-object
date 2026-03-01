@@ -473,6 +473,7 @@ browser action=open → 用 → browser action=close
 | 02-26 | Levi's 501 牛仔裤 | Levi Strauss | fashion |
 | 02-27 | iMac G3 | Jony Ive | industrial |
 | 02-28 | Guggenheim Museum Bilbao | Frank Gehry | architecture |
+| 03-01 | Palace of Westminster | Augustus Pugin | architecture |
 
 > 添加新内容后，请更新此索引。
 
