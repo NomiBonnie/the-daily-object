@@ -3992,6 +3992,54 @@ This museum proved something profound: **architecture isn't just a container for
     significance_en: 'Guggenheim Bilbao is the pinnacle of Deconstructivist architecture and a watershed moment in the shift from drafting tables to digital design. With this museum, Gehry proved three things: buildings can be as free as sculpture; computers can make impossible forms real; and a building great enough can change the fate of a city — even a nation.',
   },
 
+  {
+    id: '29',
+    date: '2026-03-01',
+    imageUrl: '/the-daily-object/images/palace-of-westminster-interior.jpg',
+    fullImageUrl: '/the-daily-object/images/full/palace-of-westminster-interior.jpg',
+    title: 'Palace of Westminster',
+    title_en: 'Palace of Westminster',
+    subtitle: 'Augustus Pugin, 1840–1870',
+    subtitle_en: 'Augustus Pugin, 1840–1870',
+    category: 'architecture',
+    designer: 'Augustus Pugin',
+    year: '1840',
+    tags: ['哥特复兴运动之父', '定义了英国国家美学', '设计殉道者'],
+    tags_en: ['Father of Gothic Revival', 'Defined British National Aesthetic', 'Design Martyr'],
+
+    dateConnection: '1812年3月1日，Augustus Welby Northmore Pugin 出生于伦敦。这位天才建筑师与设计师仅活了40年，却凭借威斯敏斯特宫的室内设计，永远改变了英国的视觉语言——从壁纸纹样到国会大厦的每一寸细节，都出自他之手。',
+    designerBio: `Augustus Pugin 是建筑史上最具悲剧色彩的天才之一。他的父亲 Auguste Charles Pugin 是法国移民建筑师，从小让他临摹哥特式建筑细节，15岁时他已经在为温莎城堡设计家具。
+
+Pugin 坚信哥特式建筑不只是一种风格，而是一种道德宣言。在他的代表著作《对比》(Contrasts, 1836) 中，他将中世纪城市与工业革命后的城市并列对比，认为古典主义的衰落反映了社会道德的堕落。这种"设计即信仰"的理念让他成为维多利亚时代最具争议也最具影响力的设计思想家。他在26岁时皈依天主教，此后将全部创作视为对上帝的奉献。
+
+他的工作强度令人震惊——同时推进数十个项目，涵盖教堂、住宅、家具、金属器皿、瓷砖、织物、壁纸、珠宝。他几乎以一己之力复兴了中世纪工艺传统，并为后来的工艺美术运动奠定了思想基础。`,
+    story: `1834年10月16日深夜，威斯敏斯特宫在一场大火中几乎化为灰烬。英国议会随即宣布重建竞赛，要求新建筑必须采用"哥特式或伊丽莎白式"风格——这本身就是 Pugin 思想胜利的标志。建筑师 Charles Barry 赢得了竞赛，但他深知自己在哥特式细节上的不足，于是秘密邀请了年仅23岁的 Pugin 担任室内设计。
+
+**接下来发生的事，堪称设计史上最伟大的"隐形壮举"。** Pugin 不只是设计了几件家具——他设计了这座建筑的一切：上议院的金色王座、下议院的绿色皮椅、走廊的瓷砖花纹、墙壁的壁纸图案、天花板的彩绘木雕、门把手的黄铜铸件、墨水瓶的形状、甚至衣帽架的样式。据统计，他在短短几年内绘制了超过2000张设计图纸。
+
+**最令人心碎的是结局。** 威斯敏斯特宫的工作量彻底摧毁了 Pugin 的健康。1851年，他在巡视工地时精神崩溃，被送入精神病院。1852年9月14日，年仅40岁的 Pugin 去世。他没有看到自己许多设计的最终完成。而 Charles Barry 在很长时间里独享了建筑师的荣誉，Pugin 的贡献直到20世纪才被学术界充分认可。
+
+那座钟楼——后来被称为大本钟——的哥特式外观细节，也是 Pugin 的最后遗作之一。`,
+    legacy: `• 设计了威斯敏斯特宫超过2000件室内元素，从王座到门把手无所不包\n• 著作《对比》和《尖拱建筑的真正原则》奠定了哥特复兴运动的理论基础\n• 直接影响了 John Ruskin 和 William Morris，催生了工艺美术运动\n• 确立了"诚实材料、诚实结构"的设计原则，至今仍是现代设计的核心理念\n• 大本钟钟楼的哥特式外观细节出自他的最后设计`,
+    significance: 'Pugin 是第一个将"设计"从装饰提升为道德与文化宣言的人。他坚持每一个细节都必须有结构上的理由，反对无意义的装饰——这一原则穿越了工艺美术运动、新艺术运动，最终成为现代主义"形式追随功能"的先声。威斯敏斯特宫是他的纪念碑：一座由一个人的想象力定义了每一寸空间的建筑。',
+
+    dateConnection_en: 'March 1, 1812 — Augustus Welby Northmore Pugin was born in London. This prodigious architect and designer lived only 40 years, yet his interior design for the Palace of Westminster permanently transformed Britain\'s visual language — from wallpaper patterns to every last detail of the Houses of Parliament.',
+    designerBio_en: `Augustus Pugin was one of architecture's most tragic geniuses. His father, Auguste Charles Pugin, was a French émigré architect who had the boy drawing Gothic details from childhood. By 15, he was designing furniture for Windsor Castle.
+
+Pugin believed Gothic architecture was not merely a style but a moral declaration. In his landmark book *Contrasts* (1836), he placed medieval towns alongside their industrial-age counterparts, arguing that the decline of Gothic reflected a collapse in social morality. This "design as faith" philosophy made him the most controversial — and most influential — design thinker of the Victorian era. He converted to Catholicism at 26 and thereafter viewed all his work as an offering to God.
+
+His workload was staggering — dozens of simultaneous projects encompassing churches, houses, furniture, metalwork, tiles, textiles, wallpaper, and jewelry. He almost single-handedly revived medieval craft traditions and laid the intellectual groundwork for the Arts and Crafts Movement.`,
+    story_en: `On the night of October 16, 1834, the Palace of Westminster was consumed by fire. Parliament announced a rebuilding competition requiring the new structure to be in "Gothic or Elizabethan style" — itself a testament to Pugin's ideological victory. Architect Charles Barry won the competition, but knowing his own limitations in Gothic detail, he secretly enlisted the 23-year-old Pugin as interior designer.
+
+**What followed was perhaps the greatest "invisible feat" in design history.** Pugin didn't just design a few pieces of furniture — he designed *everything*: the gilded throne in the House of Lords, the green leather benches of the Commons, the encaustic tile patterns in the corridors, the wallpaper throughout, the painted wooden ceilings, the brass door handles, the shape of the inkwells, even the coat hooks. He produced over 2,000 design drawings in just a few years.
+
+**The ending is heartbreaking.** The Palace project destroyed Pugin's health completely. In 1851, he suffered a mental breakdown while inspecting the site and was committed to an asylum. On September 14, 1852, Pugin died at just 40. He never saw many of his designs completed. Charles Barry took sole credit as architect for decades — Pugin's contribution wasn't fully recognized by scholars until the 20th century.
+
+The clock tower — later known as Big Ben — with its Gothic detailing, was among Pugin's final works.`,
+    legacy_en: `• Designed over 2,000 interior elements for the Palace of Westminster, from the throne to door handles\n• His books *Contrasts* and *True Principles of Pointed Architecture* established the theoretical foundation of the Gothic Revival\n• Directly influenced John Ruskin and William Morris, catalyzing the Arts and Crafts Movement\n• Established the principle of "honest materials, honest construction" — still a core tenet of modern design\n• The Gothic detailing of the Big Ben clock tower was among his final designs`,
+    significance_en: 'Pugin was the first to elevate "design" from decoration to a moral and cultural manifesto. He insisted every detail must have structural justification, rejecting meaningless ornament — a principle that traveled through the Arts and Crafts Movement, Art Nouveau, and ultimately became the precursor to modernism\'s "form follows function." The Palace of Westminster stands as his monument: a building where every inch of space was defined by one man\'s imagination.',
+  },
+
 
 ]
 
