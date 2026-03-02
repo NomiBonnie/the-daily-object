@@ -4101,6 +4101,248 @@ The book sold 200,000 copies within nine months, directly destroying the reign o
     significance_en: 'Dr. Seuss proved one thing: the strictest constraints can produce the freest creativity. The 225-word limitation didn\'t make him compromise — it forced the invention of an entirely new visual narrative language where text, illustration, and rhythm become one. He didn\'t just make beautiful children\'s books; he redefined the standard for designing for children.',
   },
 
+  {
+    id: '31',
+    date: '2026-03-03',
+    imageUrl: '/the-daily-object/images/adrian-ruby-slippers.jpg',
+    fullImageUrl: '/the-daily-object/images/full/adrian-ruby-slippers.jpg',
+    thumbnailUrl: '/the-daily-object/images/thumbnails/adrian-ruby-slippers.jpg',
+    title: '红宝石鞋',
+    title_en: 'The Ruby Slippers',
+    subtitle: 'Gilbert Adrian, 1939',
+    subtitle_en: 'Gilbert Adrian, 1939',
+    category: 'film',
+    designer: 'Gilbert Adrian',
+    year: '1939',
+    tags: ['改写电影服装设计史', '流行文化永恒符号', '从银幕到博物馆殿堂'],
+    tags_en: ['Rewrote Film Costume Design', 'Eternal Pop Culture Symbol', 'From Silver Screen to Museum'],
+
+    dateConnection: '1903年3月3日——Adrian Adolph Greenburg（艺名 Gilbert Adrian）出生于美国康涅狄格州。他成为好莱坞黄金时代最具影响力的服装设计师，为超过250部电影设计戏服，其中《绿野仙踪》的红宝石鞋成为影史最具标志性的道具之一。',
+    designerBio: `Gilbert Adrian 是好莱坞黄金时代的服装设计之王。1928年加入米高梅（MGM）后，他为葛丽泰·嘉宝、琼·克劳馥、凯瑟琳·赫本等巨星设计戏服，一手塑造了那个时代的银幕美学。
+
+他最大的天才在于理解"服装即叙事"——每一件戏服都不仅仅是美丽的衣裳，而是角色性格和故事情感的视觉延伸。《绿野仙踪》中，他做出了一个关键决定：将原著中桃乐丝的银色鞋子改为红宝石色，充分利用当时崭新的 Technicolor 彩色摄影技术，让这双鞋在黄色砖路上爆发出令人难以忘怀的视觉冲击。
+
+Adrian 在1942年离开MGM后创立了自己的时装品牌，将好莱坞的戏剧性美学带入高级成衣领域，影响了战后美国时尚的走向。`,
+    story: `**一个颜色的改变，创造了一个永恒的文化符号。**
+
+L. Frank Baum 的原著《绿野仙踪》中，桃乐丝穿的是银色鞋子——这在政治寓言的解读中代表着银本位制。但 Adrian 看到了不同的东西：1939年，Technicolor 彩色电影技术刚刚成熟，他意识到银色在彩色胶片上会显得黯淡，而深红色的亮片则会在镜头前熠熠生辉。
+
+**这双鞋的制作本身就是一个设计奇迹。** 每只鞋上缝缀了超过2,300颗红色亮片，采用手工逐片缝制的方式附着在丝绸缎面上。蝴蝶结上镶嵌了红色玻璃珠和莱茵石，在摄影棚灯光下产生宝石般的闪烁效果。MGM 为拍摄制作了多双红宝石鞋——目前已知存世的有四双，每双都价值连城。
+
+**红宝石鞋的文化影响远超电影本身：**
+- 1979年，一双红宝石鞋被捐赠给史密森尼国家历史博物馆，成为该馆最受欢迎的藏品之一
+- 2000年，另一双从朱迪·嘉兰博物馆被盗，FBI 历经13年才于2018年找回
+- 2023年拍卖会上，一双红宝石鞋以3,200万美元成交，创下影视道具的世界拍卖纪录
+
+**"There's no place like home"（没有比家更好的地方了）**——桃乐丝敲击红宝石鞋跟三次说出这句话的场景，已成为美国文化中最深刻的集体记忆之一。Adrian 的设计天赋在于，他让一个道具承载了整部电影的情感核心：归家的渴望。`,
+    legacy: `• 红宝石鞋是影史上最具标志性的服装道具，被美国电影学会列为"影史50大标志性物件"之一\n• 2023年以3,200万美元拍卖成交，创下影视道具世界纪录\n• 史密森尼博物馆最受欢迎的永久藏品之一，每年吸引数百万游客\n• Adrian 开创了"服装即叙事"的电影设计哲学，影响了此后所有好莱坞服装设计师\n• 直接推动了 Technicolor 彩色电影的视觉表现力探索`,
+    significance: '红宝石鞋是电影服装设计从"给演员穿衣服"到"用服装讲故事"的转折点。Adrian 证明了一个道具可以承载一整部电影的情感——它不仅是桃乐丝脚上的鞋，更是"回家"这个人类最基本渴望的视觉化身。这种"设计即情感"的理念，深刻影响了此后所有视觉叙事领域。',
+
+    dateConnection_en: 'March 3, 1903 — Adrian Adolph Greenburg (known as Gilbert Adrian) was born in Naugatuck, Connecticut. He became the most influential costume designer of Hollywood\'s Golden Age, designing for over 250 films. His Ruby Slippers from *The Wizard of Oz* became one of the most iconic props in cinema history.',
+    designerBio_en: `Gilbert Adrian was the king of Hollywood costume design in its Golden Age. After joining MGM in 1928, he designed for Greta Garbo, Joan Crawford, and Katharine Hepburn, single-handedly shaping the visual aesthetics of that era.
+
+His greatest genius lay in understanding that "costume is narrative" — every garment was not merely beautiful clothing but a visual extension of character and story. For *The Wizard of Oz*, he made a pivotal decision: changing Dorothy's silver shoes from the original novel to ruby red, leveraging the then-new Technicolor process to create an unforgettable visual impact against the Yellow Brick Road.
+
+After leaving MGM in 1942, Adrian founded his own fashion label, bringing Hollywood's dramatic aesthetics into ready-to-wear and influencing the direction of postwar American fashion.`,
+    story_en: `**One color change created an eternal cultural symbol.**
+
+In L. Frank Baum's original novel, Dorothy wore silver shoes — interpreted in political allegory as representing the silver standard. But Adrian saw something different: in 1939, Technicolor had just matured, and he realized silver would look dull on color film, while deep red sequins would shimmer brilliantly on camera.
+
+**The construction of these shoes was itself a design marvel.** Each shoe was adorned with over 2,300 hand-sewn red sequins attached to silk satin. The bows featured red glass beads and rhinestones that produced a gem-like sparkle under studio lights. MGM produced multiple pairs for filming — four are known to survive today, each worth a fortune.
+
+**The cultural impact of the Ruby Slippers extends far beyond the film:**
+- In 1979, a pair was donated to the Smithsonian National Museum of American History, becoming one of its most popular exhibits
+- In 2000, another pair was stolen from the Judy Garland Museum; the FBI recovered them 13 years later in 2018
+- In 2023, a pair sold at auction for $32 million, setting the world record for film memorabilia
+
+**"There's no place like home"** — Dorothy clicking her ruby heels three times while saying these words has become one of the most deeply embedded moments in American cultural memory. Adrian's design genius was making a single prop carry the emotional core of an entire film: the longing for home.`,
+    legacy_en: `• The Ruby Slippers are the most iconic costume prop in cinema history, listed among AFI's "50 Greatest Movie Props"\n• Sold at auction for $32 million in 2023, setting the world record for film memorabilia\n• One of the Smithsonian Museum's most visited permanent exhibits, attracting millions of visitors annually\n• Adrian pioneered the "costume as narrative" philosophy that influenced every Hollywood costume designer since\n• Directly advanced the exploration of Technicolor's visual storytelling potential`,
+    significance_en: 'The Ruby Slippers mark the turning point when film costume design evolved from "dressing actors" to "telling stories through clothing." Adrian proved that a single prop could carry the emotional weight of an entire film — the slippers are not just shoes on Dorothy\'s feet, but the visual embodiment of humanity\'s most basic longing: going home. This "design as emotion" philosophy profoundly influenced all visual storytelling that followed.',
+  },
+
+  {
+    id: '32',
+    date: '2026-03-04',
+    imageUrl: '/the-daily-object/images/instagram-app-design.jpg',
+    fullImageUrl: '/the-daily-object/images/full/instagram-app-design.jpg',
+    thumbnailUrl: '/the-daily-object/images/thumbnails/instagram-app-design.jpg',
+    title: 'Instagram',
+    title_en: 'Instagram',
+    subtitle: 'Kevin Systrom & Mike Krieger, 2010',
+    subtitle_en: 'Kevin Systrom & Mike Krieger, 2010',
+    category: 'software',
+    designer: 'Kevin Systrom & Mike Krieger',
+    year: '2010',
+    tags: ['重新定义手机摄影', '开创滤镜美学时代', '十亿用户的视觉语言'],
+    tags_en: ['Redefined Mobile Photography', 'Pioneered the Filter Aesthetic', 'Visual Language for a Billion Users'],
+
+    dateConnection: '1986年3月4日——Mike Krieger（Instagram 联合创始人兼首席技术官）出生于巴西圣保罗。他与 Kevin Systrom 共同创造了 Instagram，这个改变了全人类记录和分享视觉体验方式的应用程序，让"用照片说话"成为21世纪的默认社交语言。',
+    designerBio: `Kevin Systrom 和 Mike Krieger 是硅谷最成功的设计驱动型创业搭档之一。Systrom 在斯坦福大学学习管理科学与工程，但对摄影和设计充满热情；Krieger 同样毕业于斯坦福，主修符号系统（Symbolic Systems）——一个融合计算机科学、心理学和语言学的跨学科专业。
+
+两人最初开发的产品叫 Burbn——一个功能臃肿的签到应用。但他们发现用户最喜欢的功能只有一个：分享照片。于是他们做了一个大胆的决定：砍掉所有其他功能，只留下照片分享和滤镜。
+
+**这个"做减法"的设计哲学成就了 Instagram。** 仅两个月的开发时间，一个只做一件事的应用就此诞生。Krieger 负责技术架构和性能优化，确保照片上传在任何网络条件下都快速流畅；Systrom 则痴迷于滤镜效果，每一个预设滤镜都经过数百次微调。`,
+    story: `**8周开发，24小时25,000用户，改变了一个时代。**
+
+2010年10月6日，Instagram 在 App Store 上线。24小时内，25,000人下载了这个应用。没有广告预算，没有媒体推广——纯粹的口碑传播。两个月后，用户突破100万。
+
+**Instagram 的设计革命体现在三个层面：**
+
+**第一，滤镜民主化了摄影美学。** 在 Instagram 之前，让一张手机照片看起来"有感觉"需要 Photoshop 技能。Instagram 的预设滤镜——X-Pro II 的戏剧性交叉处理、Nashville 的温暖怀旧、Earlybird 的褪色记忆——让每个人都能一键获得专业级的视觉效果。这不仅仅是技术民主化，更是**审美民主化**。
+
+**第二，正方形构图重新定义了手机摄影的视觉语言。** 最初的 Instagram 强制使用 1:1 正方形比例——这个看似限制的设计决定，实际上创造了一种全新的视觉节奏：整齐的网格布局、统一的视觉重量、无需裁剪的即时分享体验。
+
+**第三，界面设计的极简哲学。** 打开应用只看到照片流。没有侧边栏，没有弹窗，没有复杂的导航。拍照、选滤镜、分享——三步完成。这种"路径最短"的交互设计，让照片分享从"操作"变成了"本能"。
+
+**2012年，Facebook 以10亿美元收购 Instagram——当时它只有13名员工。** 这成为科技史上最被低估的交易之一。到2025年，Instagram 拥有超过20亿月活用户，重新定义了从时尚到新闻、从美食到旅行的几乎所有视觉文化领域。`,
+    legacy: `• 超过20亿月活用户，是全球最大的视觉社交平台\n• 滤镜文化催生了"Instagram 美学"——一种影响了摄影、设计、时尚和建筑的视觉风格\n• 创造了"网红经济"（Influencer Economy），彻底改变了品牌营销和个人表达方式\n• 正方形照片格式成为2010年代最具标志性的视觉语言\n• 证明了"做减法"的设计哲学——砍掉90%的功能，只做好一件事`,
+    significance: 'Instagram 证明了最伟大的设计往往不是添加什么，而是移除什么。从 Burbn 的功能臃肿到 Instagram 的极致简洁，Systrom 和 Krieger 展示了"限制即自由"的设计真理。滤镜不仅仅是修图工具——它们降低了视觉表达的门槛，让"每个人都是摄影师"从口号变成了现实。Instagram 是21世纪"少即是多"最有力的证明。',
+
+    dateConnection_en: 'March 4, 1986 — Mike Krieger, co-founder and CTO of Instagram, was born in São Paulo, Brazil. Together with Kevin Systrom, he created the app that fundamentally changed how humanity records and shares visual experiences, making "speaking through photos" the default social language of the 21st century.',
+    designerBio_en: `Kevin Systrom and Mike Krieger were one of Silicon Valley's most successful design-driven founding teams. Systrom studied Management Science and Engineering at Stanford but was passionate about photography and design; Krieger, also a Stanford graduate, majored in Symbolic Systems — an interdisciplinary program combining computer science, psychology, and linguistics.
+
+Their first product was Burbn — a feature-bloated check-in app. But they discovered users loved only one thing: sharing photos. So they made a bold decision: strip away everything else and keep only photo sharing and filters.
+
+**This "design by subtraction" philosophy gave birth to Instagram.** Built in just eight weeks, an app that did only one thing extraordinarily well was born. Krieger handled the technical architecture and performance optimization, ensuring photo uploads were fast and smooth under any network conditions; Systrom obsessed over filter effects, fine-tuning each preset through hundreds of iterations.`,
+    story_en: `**Eight weeks of development. 25,000 users in 24 hours. Changed an era.**
+
+On October 6, 2010, Instagram launched on the App Store. Within 24 hours, 25,000 people downloaded it. No advertising budget, no media push — pure word of mouth. Two months later, it passed one million users.
+
+**Instagram's design revolution operated on three levels:**
+
+**First, filters democratized photographic aesthetics.** Before Instagram, making a phone photo "look good" required Photoshop skills. Instagram's preset filters — X-Pro II's dramatic cross-processing, Nashville's warm nostalgia, Earlybird's faded memories — gave everyone one-tap access to professional-grade visual effects. This wasn't just technological democratization; it was **aesthetic democratization**.
+
+**Second, the square format redefined mobile photography's visual language.** Early Instagram enforced a 1:1 square ratio — a seemingly restrictive design decision that actually created a new visual rhythm: neat grid layouts, uniform visual weight, and an instant sharing experience with no cropping needed.
+
+**Third, the interface embodied minimalist philosophy.** Open the app and you see only a photo feed. No sidebars, no pop-ups, no complex navigation. Capture, filter, share — three steps. This "shortest path" interaction design turned photo sharing from an "operation" into an "instinct."
+
+**In 2012, Facebook acquired Instagram for $1 billion — when it had just 13 employees.** It became one of the most undervalued deals in tech history. By 2025, Instagram had over 2 billion monthly active users, redefining visual culture across fashion, journalism, food, travel, and virtually every other domain.`,
+    legacy_en: `• Over 2 billion monthly active users, the world's largest visual social platform\n• Filter culture spawned the "Instagram aesthetic" — a visual style that influenced photography, design, fashion, and architecture\n• Created the Influencer Economy, fundamentally changing brand marketing and personal expression\n• The square photo format became the most iconic visual language of the 2010s\n• Proved the "design by subtraction" philosophy — cut 90% of features and do one thing brilliantly`,
+    significance_en: 'Instagram proved that the greatest design often isn\'t about what you add, but what you remove. From Burbn\'s feature bloat to Instagram\'s radical simplicity, Systrom and Krieger demonstrated the design truth that "constraint is freedom." Filters weren\'t just editing tools — they lowered the barrier to visual expression, turning "everyone is a photographer" from slogan to reality. Instagram is the 21st century\'s most powerful proof that less is more.',
+  },
+
+  {
+    id: '33',
+    date: '2026-03-05',
+    imageUrl: '/the-daily-object/images/nelson-ball-clock.jpg',
+    fullImageUrl: '/the-daily-object/images/full/nelson-ball-clock.jpg',
+    thumbnailUrl: '/the-daily-object/images/thumbnails/nelson-ball-clock.jpg',
+    title: 'Ball Clock',
+    title_en: 'Ball Clock',
+    subtitle: 'George Nelson, 1948',
+    subtitle_en: 'George Nelson, 1948',
+    category: 'industrial',
+    designer: 'George Nelson',
+    year: '1948',
+    tags: ['中世纪现代设计图腾', '重新定义时钟设计', '让功能成为装饰本身'],
+    tags_en: ['Mid-Century Modern Totem', 'Redefined Clock Design', 'Function Becomes Decoration'],
+
+    dateConnection: '1986年3月5日——George Nelson 在纽约去世，享年77岁。作为 Herman Miller 长达25年的设计总监，他不仅创造了 Ball Clock、Marshmallow Sofa、Coconut Chair 等经典作品，更以策展人和理论家的身份定义了"美国现代主义设计"的内涵。',
+    designerBio: `George Nelson 是美国现代主义设计的核心推动者之一。1945年，他在《建筑论坛》（Architectural Forum）杂志发表了"Storagewall"概念——第一个模块化存储系统——引起了 Herman Miller 创始人 D.J. De Pree 的注意，随即被任命为公司设计总监。
+
+这个任命改变了美国设计史。Nelson 不仅自己设计产品，更重要的是他有识人之明：他招募了 Charles 和 Ray Eames、Isamu Noguchi、Alexander Girard 等天才设计师加入 Herman Miller，将一家密歇根的小家具公司打造成了现代设计的殿堂。
+
+Nelson 是一个真正的"设计思想家"。他写作、演讲、策展，用文字和理论推动设计的边界。他著名的观点"设计是对问题的回应"（Design is a response to a problem），至今仍是设计教育的基石。`,
+    story: `**一个喝酒喝到深夜的故事，诞生了世纪最著名的时钟。**
+
+Ball Clock 的诞生传说有多个版本，但最被广泛接受的是：1947年的某个夜晚，Nelson 和包括 Isamu Noguchi、Buckminster Fuller 在内的一群朋友在他的公寓里喝酒聊天。话题转到了时钟设计——他们觉得现有的时钟都太无聊了。
+
+于是这群设计天才开始在餐巾纸上画草图。到深夜，桌上已经堆满了各种疯狂的时钟概念。第二天早上，宿醉中的 Nelson 看着这些草图，从中挑选和提炼出了 Ball Clock 的最终设计——12根金属杆从中心圆盘向外辐射，末端各顶着一个彩色木球，取代了传统的数字刻度。
+
+**这个设计的天才在于它对"时钟"这个概念的根本性重新定义：**
+- **去除数字**：谁真的需要在墙上的钟看到精确的分钟？彩色球体标记的12个位置已经足够定位时间
+- **让结构成为装饰**：传统时钟的指针和刻度是功能元素，外壳是装饰元素。Ball Clock 消除了这个二元对立——功能结构本身就是全部的视觉表现
+- **色彩作为时间标记**：12个不同颜色的球体不仅标记位置，还赋予了"时间"以色彩——3点钟是蓝色的，6点钟是绿色的，时间不再是抽象的数字
+
+**Ball Clock 从1948年投产至今，从未停产。** 它是 Herman Miller/Vitra 目录中生产时间最长的单品之一，横跨近80年的持续生产证明了真正好的设计没有"过时"这回事。今天，它依然是全球设计爱好者家中最常见的"入门级经典"。`,
+    legacy: `• 持续生产近80年（1948至今），是工业设计史上生产时间最长的产品之一\n• 与 Eames Lounge Chair 并列为中世纪现代设计最具标志性的符号\n• Nelson 为 Herman Miller 招募的设计师团队（Eames、Noguchi、Girard）定义了一个时代的美国设计\n• "Storagewall"概念开创了模块化家具设计的先河\n• 他的设计理论和写作至今仍是全球设计院校的核心教材`,
+    significance: 'Ball Clock 证明了设计的最高境界是"消除多余"。当你把时钟的数字、外壳、装饰全部拿走，只留下最纯粹的结构——12个点围绕一个中心——时间的本质反而被看见了。George Nelson 的遗产不仅在于他创造的物品，更在于他为设计建立的思想框架：设计不是装饰现有的东西，而是重新定义事物本身。',
+
+    dateConnection_en: 'March 5, 1986 — George Nelson passed away in New York City at age 77. As Design Director of Herman Miller for 25 years, he not only created iconic works like the Ball Clock, Marshmallow Sofa, and Coconut Chair, but also defined "American Modernist Design" through his roles as curator, writer, and theorist.',
+    designerBio_en: `George Nelson was one of the central driving forces of American modernist design. In 1945, he published the "Storagewall" concept in *Architectural Forum* magazine — the first modular storage system — which caught the attention of Herman Miller founder D.J. De Pree, who promptly appointed him Design Director.
+
+This appointment changed American design history. Nelson didn't just design products himself; more importantly, he had an eye for talent: he recruited Charles and Ray Eames, Isamu Noguchi, and Alexander Girard to Herman Miller, transforming a small Michigan furniture company into a temple of modern design.
+
+Nelson was a true "design thinker." He wrote, lectured, and curated, pushing the boundaries of design through words and theory. His famous dictum — "Design is a response to a problem" — remains a cornerstone of design education today.`,
+    story_en: `**A late-night drinking session birthed the century's most famous clock.**
+
+The origin story of the Ball Clock has multiple versions, but the most widely accepted one goes: one evening in 1947, Nelson and a group of friends including Isamu Noguchi and Buckminster Fuller were drinking and talking in his apartment. The conversation turned to clock design — they felt all existing clocks were boring.
+
+So this group of design geniuses started sketching on napkins. By late night, the table was covered with wild clock concepts. The next morning, hungover, Nelson looked through the sketches, selecting and refining them into the final Ball Clock design — 12 metal rods radiating from a central disk, each tipped with a colored wooden ball, replacing traditional numerical markers.
+
+**The genius of this design lies in its fundamental redefinition of "clock":**
+- **Eliminating numbers**: Who really needs to see exact minutes on a wall clock? Twelve colored spheres provide sufficient time orientation
+- **Making structure the decoration**: Traditional clocks separate functional elements (hands, markers) from decorative elements (the case). The Ball Clock eliminates this duality — the functional structure IS the entire visual expression
+- **Color as time markers**: Twelve differently colored balls don't just mark positions; they give "time" color — 3 o'clock is blue, 6 o'clock is green, time is no longer abstract numbers
+
+**The Ball Clock has been in continuous production since 1948.** It's one of the longest-running items in the Herman Miller/Vitra catalog, with nearly 80 years of continuous manufacture proving that truly good design never "goes out of style." Today, it remains the most common "entry-level classic" in design enthusiasts' homes worldwide.`,
+    legacy_en: `• In continuous production for nearly 80 years (1948–present), one of the longest-produced products in industrial design history\n• Alongside the Eames Lounge Chair, the most iconic symbol of mid-century modern design\n• The designer team Nelson recruited for Herman Miller (Eames, Noguchi, Girard) defined an era of American design\n• The "Storagewall" concept pioneered modular furniture design\n• His design theory and writings remain core curriculum at design schools worldwide`,
+    significance_en: 'The Ball Clock proves that design\'s highest achievement is "eliminating the unnecessary." When you strip away a clock\'s numbers, case, and ornamentation, leaving only the purest structure — 12 points around a center — the essence of time itself becomes visible. George Nelson\'s legacy lies not just in the objects he created, but in the intellectual framework he built for design: design isn\'t about decorating what exists, but redefining the thing itself.',
+  },
+
+  {
+    id: '34',
+    date: '2026-03-06',
+    imageUrl: '/the-daily-object/images/michelangelo-david.jpg',
+    fullImageUrl: '/the-daily-object/images/full/michelangelo-david.jpg',
+    thumbnailUrl: '/the-daily-object/images/thumbnails/michelangelo-david.jpg',
+    title: '大卫',
+    title_en: 'David',
+    subtitle: 'Michelangelo, 1504',
+    subtitle_en: 'Michelangelo, 1504',
+    category: 'art',
+    designer: 'Michelangelo di Lodovico Buonarroti Simoni',
+    year: '1504',
+    tags: ['文艺复兴巅峰之作', '重新定义人体雕塑', '从废石到永恒经典'],
+    tags_en: ['Pinnacle of the Renaissance', 'Redefined Human Sculpture', 'From Rejected Stone to Eternity'],
+
+    dateConnection: '1475年3月6日——米开朗基罗（Michelangelo di Lodovico Buonarroti Simoni）出生于意大利卡普雷塞。他成为文艺复兴时期最伟大的艺术家之一，而《大卫》是他26岁时完成的旷世杰作——一座从被废弃的大理石中诞生的奇迹。',
+    designerBio: `米开朗基罗是人类历史上最全面的艺术天才之一——雕塑家、画家、建筑师、诗人。13岁成为吉兰达约的学徒，15岁进入洛伦佐·德·美第奇的雕塑学校，在那里他可以直接研究古罗马雕塑的原作。
+
+他对人体解剖学的执着近乎疯狂。为了理解肌肉和骨骼的结构，他在佛罗伦萨的圣灵修道院停尸房解剖尸体——在那个年代，这既是禁忌，也是危险的行为。但正是这种对人体结构的深刻理解，使他的雕塑拥有了前所未有的生命力。
+
+米开朗基罗相信雕塑不是"创造"形状，而是"释放"已经存在于石头中的形象。他曾说："每块石头里都有一座雕像，雕塑家的任务就是去发现它。"这不仅是一种技法理念，更是一种深刻的哲学观点——真正的创造力是发现，而非发明。`,
+    story: `**一块被两位雕塑家放弃的废石，成就了人类艺术史上最伟大的雕塑。**
+
+这块卡拉拉大理石的命运可以追溯到1464年。佛罗伦萨大教堂工程委员会委托雕塑家 Agostino di Duccio 为教堂屋顶雕刻一座大型先知像。Agostino 开始了粗凿，但很快放弃了——他觉得这块石头有裂缝，无法使用。1476年，另一位雕塑家 Antonio Rossellino 接手，同样知难而退。
+
+**这块"有缺陷的"大理石在露天堆场风吹日晒了25年。**
+
+1501年，26岁的米开朗基罗接下了这个委托。与前辈不同，他没有抱怨石头的问题，而是花了数月时间研究这块石材的纹理、裂缝和结构，然后设计了一个完美适配这块特定石头的姿态——微微扭转的身体、右手垂下握着石头、左手抬起搭在肩上的弹弓带。
+
+**他花了两年零四个月完成这件作品。** 在长达6米的大理石上，他一刀一刀凿出了：
+- 右手上暴起的血管——比真实人体还要夸张，但在仰视视角下看起来完美合理
+- 微微转动的头部和紧锁的眉头——捕捉的不是胜利后的英雄，而是战斗前的一瞬间的专注与决心
+- 不合比例的大手和大头——米开朗基罗知道这座雕像将被放置在高处，从下方仰望时，较大的上半身能矫正透视变形
+
+**1504年，《大卫》完成后，佛罗伦萨人决定不把它放在教堂屋顶（原计划），而是放在市政厅广场入口——因为他们意识到这件作品的意义已经超越了宗教装饰。** 大卫的面部表情——专注、警觉、无畏——成为佛罗伦萨共和国精神的化身：一座小城市在强大敌人面前的勇气与自信。`,
+    legacy: `• 被普遍认为是西方雕塑艺术的巅峰之作\n• 佛罗伦萨学院美术馆最珍贵的藏品，每年吸引超过800万游客\n• 开创了"选择战斗之前而非胜利之后的瞬间"的叙事手法，影响了此后数百年的艺术创作\n• 证明了材料的"缺陷"可以被转化为设计的优势\n• 米开朗基罗从此确立了"最伟大雕塑家"的地位，获得了西斯廷教堂天顶画等一系列重大委托`,
+    significance: '《大卫》不仅是人体雕塑的技术巅峰，更是"设计思维"的早期范例。米开朗基罗没有强迫石头变成自己想要的形状——他研究石头本身的特性，然后设计了最适合这块特定石头的方案。这种"与材料对话"的设计方法论，和他那句"每块石头里都有一座雕像"的哲学，至今仍是所有设计学科最深刻的灵感来源之一。',
+
+    dateConnection_en: 'March 6, 1475 — Michelangelo di Lodovico Buonarroti Simoni was born in Caprese, Italy. He became one of the greatest artists of the Renaissance, and *David* was his masterpiece completed at age 26 — a miracle born from a rejected block of marble.',
+    designerBio_en: `Michelangelo was one of the most complete artistic geniuses in human history — sculptor, painter, architect, poet. Apprenticed to Ghirlandaio at 13, he entered Lorenzo de' Medici's sculpture school at 15, where he could study original Roman sculptures firsthand.
+
+His obsession with human anatomy bordered on the extreme. To understand muscle and bone structure, he dissected cadavers at the mortuary of Santo Spirito monastery in Florence — an act that was both taboo and dangerous in that era. But it was this profound understanding of human anatomy that gave his sculptures an unprecedented sense of life.
+
+Michelangelo believed sculpture was not about "creating" a form but "liberating" the figure already trapped within the stone. He famously said: "Every block of stone has a statue inside it, and it is the task of the sculptor to discover it." This was not merely a technical philosophy but a profound insight — true creativity is discovery, not invention.`,
+    story_en: `**A block of marble abandoned by two sculptors became the greatest sculpture in human history.**
+
+The story of this Carrara marble block traces back to 1464. The Florence Cathedral works committee commissioned sculptor Agostino di Duccio to carve a large prophet figure for the cathedral rooftop. Agostino began rough-cutting but soon gave up — he deemed the stone flawed and unusable. In 1476, another sculptor, Antonio Rossellino, took over and likewise retreated.
+
+**This "defective" marble sat in an open-air yard, exposed to the elements, for 25 years.**
+
+In 1501, the 26-year-old Michelangelo accepted the commission. Unlike his predecessors, he didn't complain about the stone's problems. Instead, he spent months studying its grain, cracks, and structure, then designed a pose perfectly suited to this specific block — a slightly twisted body, the right hand hanging down gripping a stone, the left hand raised to the sling strap over the shoulder.
+
+**He spent two years and four months completing the work.** From over 6 meters of marble, he carved chisel by chisel:
+- Bulging veins on the right hand — more exaggerated than a real human body, but looking perfectly natural from the intended upward viewing angle
+- A slightly turned head with furrowed brow — capturing not a victorious hero, but the moment of focus and determination *before* battle
+- Disproportionately large hands and head — Michelangelo knew the statue would be viewed from below, and the larger upper body would correct for perspective distortion
+
+**When David was completed in 1504, the Florentines decided not to place it on the cathedral roof (the original plan), but at the entrance to the Palazzo della Signoria — because they realized the work's significance transcended religious decoration.** David's expression — focused, alert, fearless — became the embodiment of the Florentine Republic's spirit: a small city's courage and confidence in the face of powerful enemies.`,
+    legacy_en: `• Universally considered the pinnacle of Western sculpture\n• The most prized treasure of the Galleria dell'Accademia in Florence, attracting over 8 million visitors annually\n• Pioneered the narrative approach of capturing the moment "before battle rather than after victory," influencing centuries of art\n• Proved that a material's "flaws" can be transformed into design advantages\n• Established Michelangelo's status as the greatest sculptor, leading to major commissions including the Sistine Chapel ceiling`,
+    significance_en: 'David is not only the technical pinnacle of figurative sculpture but an early example of "design thinking." Michelangelo didn\'t force the stone into a predetermined shape — he studied the stone\'s own characteristics, then designed the optimal solution for that specific block. This methodology of "dialogue with materials," along with his philosophy that "every block of stone has a statue inside it," remains one of the most profound sources of inspiration across all design disciplines.',
+  },
+
 
 ]
 
