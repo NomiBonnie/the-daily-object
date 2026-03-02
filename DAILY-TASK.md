@@ -556,6 +556,10 @@ browser action=open → 用 → browser action=close
 | 02-28 | Guggenheim Museum Bilbao | Frank Gehry | architecture |
 | 03-01 | Palace of Westminster | Augustus Pugin | architecture |
 | 03-02 | The Curtain Dress | Bob Mackie | fashion |
+| 03-03 | Ruby Slippers | Gilbert Adrian | film |
+| 03-04 | Instagram | Kevin Systrom & Mike Krieger | software |
+| 03-05 | Ball Clock | George Nelson | industrial |
+| 03-06 | David | Michelangelo | art |
 
 > 添加新内容后，请更新此索引。
 
