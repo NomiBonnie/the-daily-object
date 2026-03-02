@@ -292,18 +292,36 @@ $todayShort = (Get-Date).ToString("MM-dd")  # 用于 commit message
 ### 2. 检查是否已有内容
 读取 `src/data.ts`，搜索该日期是否已存在。如果有，报告"已存在"并结束。
 
-### 3. 研究当天设计事件
-用浏览器搜索：
-- `"February 20" designer born`
-- `"February 20" product launched`
-- `"02-20" design history`
-- `famous designer birthday February 20`
+### 3. 研究当天设计事件（广撒网，多搜几轮！）
+
+**⚠️ 不要只搜生日！** 设计史上的重要日期有很多种类型。必须覆盖以下所有维度：
+
+**搜索维度（全部搜一遍）：**
+- 🎂 设计师生日/逝世：`"March 2" designer born OR died`
+- 🚀 产品发布/上市：`"March 2" product launch OR release design`
+- 🏆 里程碑事件：`"March 2" design milestone OR award OR first`
+- 🏛️ 展览/收藏：`"March 2" museum exhibition design opened`
+- 🏢 品牌/公司：`"March 2" brand founded OR company established design`
+- 📅 通用设计历史：`"on this day" March 2 design history`
+
+**搜索工具优先级：** Tavily API > web_search > 浏览器（最后手段）
+
+**目标：搜出至少 3-5 个候选**，然后进入筛选步骤。不要搜到第一个就停。
 
 ### 3.5 候选筛选（⚠️ 必做！不能跳过！）
 
-搜到候选后，**不要直接选第一个**，必须过以下筛选：
+**把所有候选列出来，逐个评估，选最好的那个。**
 
-**知名度测试（三选二才合格）：**
+评估维度（每项 1-5 分）：
+| 维度 | 说明 |
+|------|------|
+| 知名度 | 普通设计爱好者听说过吗？中文互联网有报道吗？ |
+| 图片可得性 | 能找到作品本身的高质量原图吗？ |
+| 故事性 | 背后有好故事吗？能打动人吗？ |
+| 视觉美感 | 作品本身好看吗？放在网站上有吸引力吗？ |
+| 分类多样性 | 和最近几天的 category 不重复？ |
+
+**知名度硬门槛（三选二才合格）：**
 1. 中文维基百科有词条（或中文设计媒体有报道）
 2. 作品出现在设计史教科书、博物馆永久收藏、或主流设计媒体的"经典"榜单中
 3. 普通设计爱好者（非专业人士）大概率听说过
