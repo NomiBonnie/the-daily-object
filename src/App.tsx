@@ -1,4 +1,5 @@
-﻿import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
+import { useLocation, useNavigate, Link } from 'react-router-dom'
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css'
 import { format } from 'date-fns'
@@ -60,10 +61,11 @@ const categoryColors: Record<DesignObject['category'], string> = {
 }
 
 function App() {
-  // Initialize from hash: #/2026-02-14 -> archive view with that date
-  const initFromHash = () => {
-    const hash = window.location.hash
-    const match = hash.match(/^#\/(\d{4}-\d{2}-\d{2})$/)
+  // Initialize from URL path
+  const location = useLocation()
+  const navigate = useNavigate()
+  const initFromPath = () => {
+    const match = location.pathname.match(/^\/(\d{4}-\d{2}-\d{2})$/)
     if (match) {
       const dateStr = match[1]
       const found = designs.some(d => d.date === dateStr)
@@ -73,7 +75,7 @@ function App() {
     }
     return { view: 'today' as View, date: new Date() }
   }
-  const init = initFromHash()
+  const init = initFromPath()
   const [view, setView] = useState<View>(init.view)
   const [selectedDate, setSelectedDate] = useState(init.date)
   const [calendarDate, setCalendarDate] = useState(init.date)
@@ -169,7 +171,7 @@ function App() {
     if (value instanceof Date) {
       setSelectedDate(value)
       const dateStr = format(value, 'yyyy-MM-dd')
-      window.location.hash = `/${dateStr}`
+      navigate(`/${dateStr}`)
     }
   }
 
@@ -223,7 +225,7 @@ function App() {
     if (view === 'today') {
       setView('archive')
     }
-    window.location.hash = `/${design.date}`
+    navigate(`/${design.date}`)
     // Scroll to content area with offset for fixed header
     setTimeout(() => {
       const contentArea = document.getElementById('design-content')
@@ -386,8 +388,7 @@ function App() {
             <button
               onClick={() => {
                 setView('today')
-                window.location.hash = ''
-                history.replaceState(null, '', window.location.pathname)
+                navigate('/')
                 window.scrollTo({ top: 0, behavior: 'smooth' })
               }}
               className="text-base sm:text-xl font-light tracking-wide text-neutral-900 dark:text-neutral-100 whitespace-nowrap hover:opacity-70 transition-opacity"
@@ -423,8 +424,7 @@ function App() {
                 <button
                   onClick={() => {
                     setView('today')
-                    window.location.hash = ''
-                    history.replaceState(null, '', window.location.pathname)
+                    navigate('/')
                     window.scrollTo({ top: 0, behavior: 'smooth' })
                   }}
                   className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-light tracking-wide transition-all ${
@@ -592,6 +592,12 @@ function App() {
           <p className="text-xs font-light tracking-wide text-neutral-400 dark:text-neutral-600">
             Sanono Studio • World-class design, one object at a time
           </p>
+          <Link
+            to="/design-principles"
+            className="inline-block mt-3 text-xs font-light tracking-[0.15em] uppercase text-neutral-300 dark:text-neutral-700 hover:text-neutral-500 dark:hover:text-neutral-500 transition-colors"
+          >
+            Design Principles
+          </Link>
         </div>
       </footer>
     </div>
