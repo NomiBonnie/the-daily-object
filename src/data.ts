@@ -4040,6 +4040,54 @@ The clock tower — later known as Big Ben — with its Gothic detailing, was am
     significance_en: 'Pugin was the first to elevate "design" from decoration to a moral and cultural manifesto. He insisted every detail must have structural justification, rejecting meaningless ornament — a principle that traveled through the Arts and Crafts Movement, Art Nouveau, and ultimately became the precursor to modernism\'s "form follows function." The Palace of Westminster stands as his monument: a building where every inch of space was defined by one man\'s imagination.',
   },
 
+  {
+    id: '30',
+    date: '2026-03-02',
+    imageUrl: '/the-daily-object/images/bob-mackie-curtain-dress.jpg',
+    fullImageUrl: '/the-daily-object/images/full/bob-mackie-curtain-dress.jpg',
+    title: 'The Curtain Dress',
+    title_en: 'The Curtain Dress',
+    subtitle: 'Bob Mackie, 1976',
+    subtitle_en: 'Bob Mackie, 1976',
+    category: 'fashion',
+    designer: 'Bob Mackie',
+    year: '1976',
+    tags: ['电视服装设计革命者', '重新定义好莱坞华服', '喜剧与时尚的融合'],
+    tags_en: ['Revolutionized TV Costume Design', 'Redefined Hollywood Glamour', 'Comedy Meets Couture'],
+
+    dateConnection: '1939年3月2日，Bob Mackie 出生于加利福尼亚州蒙特利帕克。这位传奇服装设计师在超过半个世纪的职业生涯中，为 Cher、Carol Burnett、Diana Ross 等巨星创造了数以万计的标志性造型，彻底改写了美国电视与舞台服装设计的规则。',
+    designerBio: `Bob Mackie 是美国服装设计史上最具传奇色彩的名字之一。他从小痴迷于好莱坞电影中的华丽服装，在 Chouinard 艺术学院（后并入加州艺术学院 CalArts）学习期间，凭借一张手绘稿打动了传奇服装设计师 Jean Louis，获得了进入行业的入场券。
+
+他的第一份重要工作就载入了史册——为 Jean Louis 绘制了玛丽莲·梦露那件著名的"Happy Birthday, Mr. President"肌色透视裙的设计草图。这件裙子后来成为20世纪最具标志性的时装之一。
+
+1967年，Mackie 开始担任《Carol Burnett Show》的服装设计师，开启了为期11年、设计超过17,000件服装的惊人创作历程。他同时为 Cher 的各种电视节目和演唱会设计造型，创造了一系列突破电视审查尺度、重新定义舞台华服的经典之作。他曾九次获得艾美奖提名，三次获奖；并获得三次奥斯卡提名。`,
+    story: `1976年，《Carol Burnett Show》第十季播出了一集名为"Went with the Wind"的经典恶搞片段——戏仿《乱世佳人》。Carol Burnett 饰演的"Starlett O'Hara"需要一件用窗帘做成的裙子，正如电影中费雯丽用窗帘缝制礼服的经典桥段。
+
+**但 Bob Mackie 的天才在于：他没有简单地做一件"窗帘布裙子"。** 他设计了一件完整保留窗帘杆和流苏的礼服——模特穿着这条裙子走出来时，肩上横着一根金色窗帘杆，两侧垂下窗帘流苏，墨绿色天鹅绒窗帘布如斗篷般垂落身后。这个"过于字面"的幽默瞬间引发了电视史上最经典的笑声之一。
+
+**这件裙子为什么重要？** 因为它完美展示了 Mackie 的核心设计哲学：服装不只是穿在身上的布料——它是叙事工具、喜剧道具、角色本身的一部分。在 Mackie 手中，每一件服装都在"讲故事"。这种理念深刻影响了后来的舞台服装、红毯造型乃至 Lady Gaga 和 Billy Porter 等当代艺人的表演着装。
+
+如今，这件窗帘裙被收藏在华盛顿特区的史密森尼美国历史博物馆，与玛丽莲·梦露的白色飞裙和多萝西的红宝石鞋并列——作为美国流行文化中最具辨识度的服装之一永久展出。`,
+    legacy: `• 为《Carol Burnett Show》设计超过17,000件服装，堪称电视服装设计的巅峰\n• 参与设计了梦露"Happy Birthday, Mr. President"透视裙的草图\n• 为 Cher 创造了1974年Met Gala"裸体幻觉礼服"等一系列突破禁忌的经典造型\n• "窗帘裙"被史密森尼博物馆永久收藏，成为美国文化符号\n• 三座艾美奖、三次奥斯卡提名，被誉为"好莱坞最后的华服大师"`,
+    significance: 'Bob Mackie 证明了"服装设计"可以同时是高级时装、喜剧表演和文化评论。他在电视黄金时代的工作，让数百万美国观众第一次在家中见识到了堪比巴黎高定的华服——并且笑着看完。他是将"娱乐"与"设计"彻底融合的先驱。',
+
+    dateConnection_en: 'March 2, 1939 — Bob Mackie was born in Monterey Park, California. Over a career spanning more than half a century, this legendary costume designer created tens of thousands of iconic looks for stars like Cher, Carol Burnett, and Diana Ross, completely rewriting the rules of American television and stage costume design.',
+    designerBio_en: `Bob Mackie is one of the most legendary names in American costume design history. Obsessed with Hollywood glamour from childhood, he attended the Chouinard Art Institute (later absorbed into CalArts), where a single sketch impressed legendary designer Jean Louis enough to give him his start.
+
+His first major assignment made history — he drew the design sketches for Jean Louis's famous "Happy Birthday, Mr. President" sheer gown worn by Marilyn Monroe. That dress became one of the 20th century's most iconic garments.
+
+In 1967, Mackie became the costume designer for *The Carol Burnett Show*, beginning an astonishing 11-year creative run producing over 17,000 costumes. Simultaneously designing for Cher's TV specials and concert tours, he created a series of boundary-pushing, censor-defying masterpieces that redefined stage glamour. He earned nine Emmy nominations (winning three) and three Academy Award nominations.`,
+    story_en: `In 1976, Season 10 of *The Carol Burnett Show* aired its legendary "Went with the Wind" sketch — a parody of *Gone with the Wind*. Carol Burnett's "Starlett O'Hara" needed a dress made from curtains, echoing the iconic scene where Vivien Leigh's Scarlett fashions a gown from window drapes.
+
+**But Mackie's genius lay in his literal interpretation.** Rather than simply making a dress from curtain fabric, he designed a gown that retained the entire curtain rod and tassels. When Burnett appeared wearing a gold curtain rod across her shoulders, with tassels hanging from each side and green velvet drapes cascading behind her like a cape, it triggered one of the greatest laughs in television history.
+
+**Why does this dress matter?** Because it perfectly encapsulates Mackie's core design philosophy: clothing isn't just fabric on a body — it's a narrative device, a comedic prop, an extension of character itself. In Mackie's hands, every costume tells a story. This philosophy profoundly influenced later stage costuming, red carpet styling, and the performance fashion of contemporary artists from Lady Gaga to Billy Porter.
+
+Today, the Curtain Dress resides in the Smithsonian's National Museum of American History in Washington, D.C., displayed alongside Marilyn Monroe's white subway-grate dress and Dorothy's ruby slippers — recognized as one of the most iconic costumes in American popular culture.`,
+    legacy_en: `• Designed over 17,000 costumes for *The Carol Burnett Show*, the pinnacle of TV costume design\n• Sketched Marilyn Monroe's legendary "Happy Birthday, Mr. President" sheer gown\n• Created Cher's 1974 Met Gala "nude illusion gown" and countless other boundary-breaking looks\n• The Curtain Dress is permanently housed at the Smithsonian, an American cultural icon\n• Three Emmy Awards, three Oscar nominations — hailed as "Hollywood's last great costumier"`,
+    significance_en: 'Bob Mackie proved that costume design can simultaneously be haute couture, comedy performance, and cultural commentary. His work during television\'s golden age brought Paris-level glamour into millions of American living rooms — and made them laugh while watching. He is the pioneer who fused entertainment and design into a single, dazzling art form.',
+  },
+
 
 ]
 
