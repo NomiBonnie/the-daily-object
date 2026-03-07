@@ -4343,6 +4343,66 @@ In 1501, the 26-year-old Michelangelo accepted the commission. Unlike his predec
     significance_en: 'David is not only the technical pinnacle of figurative sculpture but an early example of "design thinking." Michelangelo didn\'t force the stone into a predetermined shape — he studied the stone\'s own characteristics, then designed the optimal solution for that specific block. This methodology of "dialogue with materials," along with his philosophy that "every block of stone has a statue inside it," remains one of the most profound sources of inspiration across all design disciplines.',
   },
 
+  {
+    id: '37',
+    date: '2026-03-07',
+    imageUrl: '/the-daily-object/images/mondrian-composition.jpg',
+    fullImageUrl: '/the-daily-object/images/full/mondrian-composition.jpg',
+    title: 'Composition with Red, Blue, and Yellow',
+    title_en: 'Composition with Red, Blue, and Yellow',
+    subtitle: 'Piet Mondrian, 1930',
+    subtitle_en: 'Piet Mondrian, 1930',
+    category: 'art',
+    designer: 'Piet Mondrian',
+    year: '1930',
+    tags: ['现代设计语言奠基者', '定义了网格美学', '从绘画到万物的视觉革命'],
+    tags_en: ['Father of Modern Design Language', 'Defined Grid Aesthetics', 'A Visual Revolution Beyond Canvas'],
+
+    dateConnection: '1872年3月7日——皮特·蒙德里安（Piet Mondrian）出生于荷兰阿默斯福特。他用水平线、垂直线和三原色创造了一种全新的视觉语言，深刻影响了从建筑到时装、从平面设计到数字界面的几乎所有现代设计领域。',
+    designerBio: `蒙德里安最初是一位传统风景画家，师从海牙画派，画过大量荷兰乡村的风车和河流。1911年，他在阿姆斯特丹看到了立体派展览，深受震动，随即搬到巴黎。
+
+在巴黎的几年里，蒙德里安经历了一次惊人的视觉简化过程：从立体派的碎片化形体，到越来越抽象的树和建筑立面，最终在1920年代彻底抛弃了一切具象元素。他只留下了最纯粹的视觉要素——水平线、垂直线、红黄蓝三原色加上黑白灰。
+
+他把这种美学哲学命名为"新造型主义"（Neoplasticism），并与 Theo van Doesburg 共同创立了"风格派"（De Stijl）运动。蒙德里安相信，通过将形式简化到最基本的元素，艺术可以表达一种超越个人情感的"宇宙和谐"。`,
+    story: `**一幅看似简单到任何人都能画的画，为什么能改变整个现代设计的面貌？**
+
+《红、蓝、黄的构成》完成于1930年，是蒙德里安最具代表性的作品之一。画面极其简洁：白色底色上，黑色线条将画布分割成大小不一的矩形，其中三个分别填上了红、蓝、黄三原色。
+
+**但这种"简单"背后是极其严苛的设计推敲。** 蒙德里安会花数周甚至数月调整每条线的位置、每个色块的大小比例。他的工作室墙上贴满了可移动的彩色纸片，不断重新排列，直到达到一种他所说的"动态平衡"——画面中没有一个元素是多余的，也没有一个元素可以被移动而不破坏整体和谐。
+
+**蒙德里安的工作室本身就是一件作品。** 巴黎蒙帕纳斯的工作室里，墙上贴满了红、蓝、黄的色块，家具被涂成白色，连他放颜料的箱子都经过精心安排。来访者描述那种体验如同"走进了一幅画"。
+
+这种对纯粹形式关系的探索产生了惊人的设计连锁反应：
+- **建筑**：里特维尔德（Gerrit Rietveld）直接将蒙德里安的画面语言翻译成了建筑——1924年的施罗德住宅是立体的蒙德里安
+- **时装**：1965年，伊夫·圣罗兰推出了著名的"蒙德里安裙"，将画作直接变成了可穿戴的艺术
+- **平面设计**：网格系统（grid system）——现代平面设计和网页设计的基础——直接继承了蒙德里安对空间分割的理念
+- **数字界面**：从 Windows 的磁贴设计到现代 dashboard 布局，蒙德里安的网格无处不在`,
+    legacy: `• 与马列维奇、康定斯基并列为抽象艺术三大先驱\n• De Stijl 运动直接影响了包豪斯，进而影响了整个现代设计教育体系\n• 他的网格构图法则成为现代平面设计、网页设计、UI设计的视觉基础\n• YSL 1965年蒙德里安裙成为时尚史上最著名的"艺术跨界"案例\n• 作品被 MoMA、古根海姆、泰特等全球顶级美术馆永久收藏`,
+    significance: '蒙德里安证明了一个深刻的设计真理：真正的简约不是"少做"，而是将每一个元素都推敲到不可删减的地步。他用最少的视觉元素——直线、直角、三原色——创造出了一种可以无限延展的设计语言。今天，每一个使用网格系统排版的设计师，每一个在 CSS Grid 中定义行列的前端开发者，都在不知不觉中延续着蒙德里安的遗产。',
+
+    dateConnection_en: 'March 7, 1872 — Piet Mondrian was born in Amersfoort, the Netherlands. With nothing but horizontal lines, vertical lines, and three primary colors, he created an entirely new visual language that profoundly influenced virtually every domain of modern design — from architecture to fashion, from graphic design to digital interfaces.',
+    designerBio_en: `Mondrian began as a traditional landscape painter, trained in the Hague School tradition, painting Dutch windmills and rivers. In 1911, he saw a Cubist exhibition in Amsterdam that shook him profoundly, prompting an immediate move to Paris.
+
+During his years in Paris, Mondrian underwent an astonishing process of visual simplification: from Cubist fragmented forms, to increasingly abstract trees and building facades, until by the 1920s he had entirely abandoned all representational elements. He retained only the purest visual ingredients — horizontal lines, vertical lines, the three primary colors of red, yellow, and blue, plus black, white, and gray.
+
+He named this aesthetic philosophy "Neoplasticism" and co-founded the De Stijl movement with Theo van Doesburg. Mondrian believed that by reducing form to its most fundamental elements, art could express a "universal harmony" transcending individual emotion.`,
+    story_en: `**A painting so seemingly simple anyone could make it — so why did it change the entire face of modern design?**
+
+*Composition with Red, Blue, and Yellow*, completed in 1930, is one of Mondrian's most iconic works. The image is strikingly minimal: on a white ground, black lines divide the canvas into rectangles of varying sizes, three of which are filled with the primary colors red, blue, and yellow.
+
+**But behind this "simplicity" lies extraordinarily rigorous design refinement.** Mondrian would spend weeks or even months adjusting each line's position and each color block's proportional size. His studio walls were covered with movable colored paper pieces, constantly rearranged until he achieved what he called "dynamic equilibrium" — a composition where no element is superfluous, and no element can be moved without destroying the overall harmony.
+
+**Mondrian's studio itself was a work of art.** In his Montparnasse studio in Paris, walls were covered with red, blue, and yellow color blocks, furniture was painted white, and even his paint storage boxes were meticulously arranged. Visitors described the experience as "walking into a painting."
+
+This exploration of pure formal relationships triggered an extraordinary chain reaction across design:
+- **Architecture**: Gerrit Rietveld directly translated Mondrian's visual language into built form — the 1924 Rietveld Schröder House is Mondrian in three dimensions
+- **Fashion**: In 1965, Yves Saint Laurent introduced the famous "Mondrian Dress," turning the paintings directly into wearable art
+- **Graphic Design**: The grid system — the foundation of modern graphic and web design — directly descends from Mondrian's approach to spatial division
+- **Digital Interfaces**: From Windows tile design to modern dashboard layouts, Mondrian's grid is everywhere`,
+    legacy_en: `• Regarded alongside Malevich and Kandinsky as one of the three pioneers of abstract art\n• The De Stijl movement directly influenced the Bauhaus, which in turn shaped the entire modern design education system\n• His grid composition principles became the visual foundation of modern graphic design, web design, and UI design\n• YSL's 1965 Mondrian Dress became fashion history's most celebrated art-design crossover\n• Works permanently held by MoMA, Guggenheim, Tate, and other world-leading museums`,
+    significance_en: 'Mondrian demonstrated a profound design truth: true minimalism is not about "doing less" but about refining every element until nothing can be removed. With the fewest possible visual elements — straight lines, right angles, three primary colors — he created a design language capable of infinite extension. Today, every designer working with grid systems, every front-end developer defining rows and columns in CSS Grid, is unknowingly carrying forward Mondrian\'s legacy.',
+  },
+
 
 ]
 
