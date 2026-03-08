@@ -1,0 +1,764 @@
+# The Daily Object — 每日更新任务指南
+
+> **这是 cron job 的完整背景文档，每次运行前必读。**
+
+## 项目概述
+
+**网站**：https://nomibonnie.github.io/the-daily-object/  
+**仓库**：https://github.com/NomiBonnie/the-daily-object  
+**本地路径**：`C:\Users\kaixin_yy\.openclaw\workspace\the-daily-object\`
+
+**定位**：每天推荐一个世界级小众设计作品，必须与当天日期有关联。
+
+### ⚠️ 更新后必做：验证 + 报告（Sam 要求 2026-02-23）
+
+每次内容更新 push 后，必须：
+1. 确认 `git push` 成功
+2. 等 GitHub Actions 部署完成（约 1-2 分钟）
+3. 用浏览器打开线上网站，确认新内容正确渲染
+4. 给 Sam 发一份简报：今天的主题 + 线上状态 + 是否有问题
+
+---
+
+## 目录结构
+
+```
+the-daily-object/
+├── src/
+│   └── data.ts          # 所有内容数据（designs 数组）
+├── public/
+│   ├── images/          # 展示用图片（≤600KB 原图 / >600KB 压缩版）
+│   └── images/full/     # 原图（lightbox 放大用，永远保留原图不压缩）
+├── DAILY-TASK.md        # 本文档
+└── ...
+```
+
+---
+
+## 数据格式（⚠️ 2026-02-25 架构更新，必须严格遵守！）
+
+在 `src/data.ts` 的 `designs` 数组中添加条目。
+
+### TypeScript Interface
+
+```typescript
+export interface DesignObject {
+  id: string                    // 字符串！日期数字如 '26'
+  date: string                  // 'YYYY-MM-DD' 完整日期格式（不是 MM-DD！）
+  imageUrl: string              // '/the-daily-object/images/filename.jpg'
+  fullImageUrl?: string         // '/the-daily-object/images/full/filename.jpg'（原图，用于 lightbox）
+  thumbnailUrl?: string         // '/the-daily-object/thumbnails/filename.jpg'（暂未使用）
+  title: string                 // 中文标题
+  title_en?: string             // 英文标题
+  subtitle?: string             // 中文副标题：'设计师, 年份'
+  subtitle_en?: string          // 英文副标题：'Designer, Year'
+  category: 'industrial' | 'music' | 'art' | 'architecture' | 'graphic' | 'software' | 'fashion' | 'film'
+  designer: string              // 设计师名（中文）
+  year?: string                 // 年份字符串
+
+  // Tags（必填！3个，每个5-8字）
+  tags: string[]                // 中文 tags，体现设计对社会/历史的影响力
+  tags_en: string[]             // 英文 tags，与中文对应
+
+  // 中文内容（必填）
+  dateConnection: string        // 为什么是今天
+  designerBio: string           // 设计师背景（支持 markdown，可多段）
+  story: string                 // 作品故事（支持 markdown，可多段）
+  legacy?: string               // 设计遗产/影响
+  significance?: string         // 设计圈意义
+
+  // 英文内容（必填！中英双语）
+  dateConnection_en?: string
+  designerBio_en?: string
+  story_en?: string
+  legacy_en?: string
+  significance_en?: string
+}
+```
+
+### 完整示例
+
+```typescript
+{
+  id: '26',
+  date: '2026-02-26',
+  imageUrl: '/the-daily-object/images/example.jpg',
+  fullImageUrl: '/the-daily-object/images/full/example.jpg',
+  title: '中文作品名',
+  title_en: 'English Title',
+  subtitle: '设计师名, 1969',
+  subtitle_en: 'Designer Name, 1969',
+  category: 'industrial',
+  designer: '设计师名',
+  year: '1969',
+  tags: ['改变了XX行业', '开创了XX设计', 'XX运动先驱'],
+  tags_en: ['Transformed XX Industry', 'Pioneered XX Design', 'XX Movement Pioneer'],
+
+  dateConnection: '为什么是今天...',
+  designerBio: `设计师背景介绍...
+
+支持多段落，用模板字符串。`,
+  story: `作品故事...
+
+**支持 markdown 加粗**`,
+  legacy: '设计遗产...',
+  significance: '设计圈意义...',
+
+  dateConnection_en: 'Why this date...',
+  designerBio_en: `Designer bio in English...`,
+  story_en: `Story in English...`,
+  legacy_en: 'Legacy...',
+  significance_en: 'Significance...',
+},
+```
+
+### ⚠️ 新架构关键差异（不要用旧格式！）
+
+| 项目 | ❌ 旧格式 | ✅ 新格式 |
+|------|----------|----------|
+| id | 数字 `11` | 字符串 `'26'` |
+| date | `"02-20"` (MM-DD) | `"2026-02-26"` (YYYY-MM-DD) |
+| 数组名 | `designObjects` | `designs` |
+| imageUrl | `"/images/file.jpg"` | `"/the-daily-object/images/file.jpg"` |
+| title/description | `{ en: "...", zh: "..." }` 对象 | 扁平字段：`title`(中文) + `title_en`(英文) |
+| 内容字段 | `description` 一个字段 | 拆分为 `designerBio` / `story` / `legacy` / `significance` |
+| 副标题 | 无 | `subtitle` / `subtitle_en`（格式：设计师, 年份） |
+
+### 选图标准（⚠️ 铁规！违反任何一条就重选！）
+- **专业摄影级别**：必须看起来像专业摄影师拍的，或者是作品本身的官方图
+- **❌ 绝对禁止**：游客照、展览现场随手拍、带人影/手指/玻璃反光的照片、Unsplash/Pexels 上的「氛围照」
+- **✅ 优先选**：作品本身的原图（书的内页插画、海报原图、产品官方照、建筑专业摄影）
+- **版权不考虑**：网站非商业化，不受版权限制，永远选质量最好的图，不要因为版权而选差图
+- **优先级**：作品原图/官方图 > 博物馆高清馆藏照 > 专业设计媒体 > Tavily 搜索找最佳 > Unsplash（最后手段）
+- **自检**：下载后看一眼——如果像是「某人拍了一张关于这个东西的照片」而不是「这个东西本身」，就不合格
+
+### 图片文件（⚠️ 双份规则！）
+
+1. **原图**永远放 `public/images/full/filename.jpg`（lightbox 放大用，不压缩）
+2. **展示版**放 `public/images/filename.jpg`（页面卡片用）：
+   - 原图 **≤ 600KB** → 直接复制原图，不压缩
+   - 原图 **> 600KB** → 用 ffmpeg 压缩到 ~400-500KB（q:v 3，max 1200px 宽）
+3. 文件名规则：小写、连字符，如 `panton-chair.jpg`
+
+### CDN 缓存（⚠️ 换图后必做）
+- 如果替换了已有图片（同文件名），**必须更新** `src/data.ts` 顶部的 `IMAGE_VERSION`
+- 格式：`YYYYMMDD`，例如 `'20260226'`
+- 所有图片 URL 会自动拼接 `?v=IMAGE_VERSION`，绕过 CDN 缓存
+
+---
+
+## 分类（轮换使用）
+
+| category | 领域 | 示例 |
+|----------|------|------|
+| `industrial` | 工业设计 | 椅子、灯具、汽车、电子产品、日用品 |
+| `architecture` | 建筑 | 建筑作品、室内设计 |
+| `graphic` | 平面设计 | 海报、书籍、品牌、字体、Logo |
+| `art` | 艺术 | 绘画、雕塑、装置 |
+| `music` | 音乐 | 专辑封面、音乐人视觉、演出设计 |
+| `software` | 软件/UI | 经典界面、交互设计 |
+| `fashion` | 时尚设计 | 服装、配饰、珠宝、秀场设计 |
+| `film` | 电影/舞台设计 | 电影美术、布景、视觉特效、舞台设计 |
+
+**注意**：只有这 8 个 category 值，TypeScript 会校验。
+
+**核心选题原则**：只要是**从设计美学角度出发**、**对人类/社会产生真正变化**的设计，都可以选。不限于传统工业设计——时尚、电影、字体、任何有足够影响力的设计领域都行。关键是：影响力大 + 故事有共鸣 + 从设计角度出发。
+
+---
+
+## ⚠️ 选题原则（非常重要！）
+
+### 偏好
+- ✅ **设计向** — 偏美学、形式、视觉的作品
+- ✅ **设计圈影响大** — 在设计史上有地位的
+- ✅ **美丽** — 好看的、有形式美的
+- ✅ **设计与艺术的交汇** — 艺术品、装置、时尚都可以
+
+### 避免
+- ❌ **纯技术向** — 比如纯软件工程、纯算法的东西
+- ❌ **功能优先、形式普通** — 功能厉害但不好看的
+- ❌ **太冷门没有美学价值** — 除非有很强的设计意义
+- ❌ **太小众** — 普通设计爱好者不会知道的人/作品。测试：搜一下这个名字，如果中文互联网几乎没有提及，就太小众了
+- ❌ **综艺/娱乐道具** — 必须是严肃的设计作品，综艺节目里的戏服、舞台道具不算
+
+### 举例
+- ✅ Panton Chair（工业设计经典，形式美）
+- ✅ Alexander McQueen（时尚艺术融合）
+- ✅ Paul Rand IBM Logo（平面设计里程碑）
+- ✅ Arco Lamp（设计经典，形式突破）
+- ⚠️ Deep Blue（技术向，设计意义较弱）— 这种可以有，但不要太多
+
+**核心**：这是一个**设计日历**，不是科技史日历。选的东西要让设计师看了有共鸣。
+
+---
+
+## 日期关联类型（重要！）
+
+**不只是生日！** 可以是：
+
+- 🎂 设计师生日
+- ⚰️ 设计师逝世纪念日
+- 🚀 产品发布/上市日
+- 🏆 获奖日期
+- 🎨 首次展出日
+- 🏛️ 博物馆收藏日
+- 🏢 品牌/公司成立日
+- 📅 相关历史事件日
+
+**必须有明确、可验证的日期关联**，不能编造。
+
+---
+
+## 图片来源（优先级）
+
+1. **博物馆官网**：MoMA、Tate、V&A、Met、Design Museum、Vitra
+2. **Wikimedia Commons**：CC 授权，免费使用
+3. **品牌官网**：官方产品图
+4. **设计奖项网站**：iF、Red Dot、D&AD
+
+**下载注意**：
+- 添加 User-Agent：`-Headers @{"User-Agent"="Mozilla/5.0"}`
+- 保存到 `public/images/`
+- 文件名用小写、连字符：`panton-chair.jpg`
+- 如果一个来源失败，换另一个
+
+**禁止**：
+- ❌ AI 生成图片
+- ❌ 来源不明的图片
+- ❌ 有水印的图片
+
+---
+
+## 内容质量标准
+
+### 标题
+- 简洁有力
+- **作品大标题（title）统一用英文**，中英文版都显示英文标题
+- `title_en` 字段**必填**，这是实际显示的标题
+- `title` 字段可以放中文（作为数据保留），但页面不会显示
+- 段落标题（The Story Behind / 作品故事 等）保持中英切换
+
+### 描述（重要！）
+不是流水账，要讲**设计背后的故事**：
+
+✅ 好的描述：
+> "The chair that defined a decade. Verner Panton spent 8 years perfecting the manufacturing process, working through over 100 prototypes before achieving the world's first single-form injection-molded plastic chair."
+
+❌ 差的描述：
+> "This is a famous chair designed by Verner Panton. It is made of plastic and comes in many colors."
+
+**要包含**：
+- 设计背景/动机
+- 独特之处
+- 对设计史的影响
+- 有趣的细节/故事
+
+### 日期关联
+解释为什么选在这一天，让读者有"原来如此"的感觉。
+
+### Tags（必填！）
+每条 **3 个** tags，中英文各一组，纯文本 + `·` 分隔显示。
+
+**写作原则：**
+- 每个 tag **5-8 个字**（中文），不要太长
+- 体现**设计对社会/历史的影响力**，不是简单分类
+- 回答"这个设计凭什么值得被记住？"
+
+**好 tag 的模式：**
+- `XX的先驱` / `开创了XX` — 历史地位
+- `改变了XX` / `颠覆了XX` — 社会影响
+- `定义了XX美学` — 美学贡献
+- `第一个XX` — 突破性
+- 具体运动/流派名也可以（包豪斯、Art Deco）
+
+**❌ 差 tag（简单分类，没信息量）：**
+`工业设计`、`字体设计`、`童话文学`、`家具设计`、`音乐设计`
+
+**✅ 好 tag（体现影响力）：**
+`工业设计先驱`、`改变了印刷业`、`定义了极简美学`、`第一把塑料椅`、`视觉民主化`
+
+---
+
+## 执行流程
+
+### 1. 确定日期
+```powershell
+# ⚠️ 是"今天"，不是"明天"！用 YYYY-MM-DD 完整格式！
+$today = (Get-Date).ToString("yyyy-MM-dd")
+$todayShort = (Get-Date).ToString("MM-dd")  # 用于 commit message
+```
+**⚠️ 只添加今天的条目，绝对不要添加明天或未来日期的内容！**
+
+### 2. 检查是否已有内容
+读取 `src/data.ts`，搜索该日期是否已存在。如果有，报告"已存在"并结束。
+
+### 3. 研究当天设计事件（广撒网，多搜几轮！）
+
+**⚠️ 不要只搜生日！** 设计史上的重要日期有很多种类型。必须覆盖以下所有维度：
+
+**搜索维度（全部搜一遍）：**
+- 🎂 设计师生日/逝世：`"March 2" designer born OR died`
+- 🚀 产品发布/上市：`"March 2" product launch OR release design`
+- 🏆 里程碑事件：`"March 2" design milestone OR award OR first`
+- 🏛️ 展览/收藏：`"March 2" museum exhibition design opened`
+- 🏢 品牌/公司：`"March 2" brand founded OR company established design`
+- 📅 通用设计历史：`"on this day" March 2 design history`
+
+**搜索工具优先级：** Tavily API > web_search > 浏览器（最后手段）
+
+**目标：搜出至少 3-5 个候选**，然后进入筛选步骤。不要搜到第一个就停。
+
+**⚠️ 日期关联多样性（铁规！）：**
+- 连续 3 天不能都是同一种关联类型（比如连续 3 天都是"设计师生日"）
+- 批量准备多天内容时，至少要有 2 种不同的日期关联类型
+- 如果搜到的最佳候选又是"生日"，但最近 2 天也是"生日"，**必须优先选其他关联类型的候选**，即使分数略低
+- 日期关联类型包括：🎂生日、⚰️逝世、🚀产品发布、🏆获奖、🎨首展、🏛️博物馆收藏、🏢品牌成立、📅历史事件
+- **如果 6 个搜索维度只搜到生日/逝世，说明搜索不够广泛，继续搜！**
+
+### 3.5 候选筛选（⚠️ 必做！不能跳过！）
+
+**把所有候选列出来，逐个评估，选最好的那个。**
+
+**⚠️ 必须输出评分表！** 不能只在脑子里想。格式如下：
+```
+候选1: [作品名] — [关联类型: 生日/逝世/发布/获奖/...]
+  知名度: X/5 | 图片: X/5 | 故事: X/5 | 视觉: X/5 | 分类多样性: X/5 | 总分: XX/25
+候选2: [作品名] — [关联类型: ...]
+  知名度: X/5 | 图片: X/5 | 故事: X/5 | 视觉: X/5 | 分类多样性: X/5 | 总分: XX/25
+→ 选择: 候选X（原因：...）
+```
+**没有输出评分表 = 违规。** 这不是可选步骤。
+
+评估维度（每项 1-5 分，具体标准如下）：
+
+**① 知名度（硬门槛 ≥ 3 分，低于 3 直接淘汰）**
+| 分数 | 标准 |
+|------|------|
+| 5 | 大众都知道（iPhone、Chanel No.5、埃菲尔铁塔级别）|
+| 4 | 设计爱好者基本都知道，中文维基有详细词条 |
+| 3 | 设计圈内知名，中文互联网能搜到报道 |
+| 2 | 只有专业人士知道，中文几乎没提及 |
+| 1 | 极度小众，英文资料都很少 |
+
+**② 图片可得性（硬门槛 ≥ 3 分）**
+| 分数 | 标准 |
+|------|------|
+| 5 | 有官方高清产品照/作品原图，随手就能下 |
+| 4 | 博物馆馆藏高清照或专业摄影，需要找一下 |
+| 3 | 能找到合格图片，但质量一般或需要多试几个源 |
+| 2 | 只有展览现场照、游客照、低分辨率图 |
+| 1 | 几乎找不到图 |
+
+**③ 故事性**
+| 分数 | 标准 |
+|------|------|
+| 5 | 背后有传奇故事（被拒100次、改变行业、意外诞生）|
+| 4 | 有明确的设计理念突破或有趣背景 |
+| 3 | 有基本的设计故事可讲 |
+| 2 | 故事平淡，只能写"某人设计了某物" |
+| 1 | 没什么可讲的 |
+
+**④ 视觉美感**
+| 分数 | 标准 |
+|------|------|
+| 5 | 一眼惊艳，放网站首页能让人停下来看 |
+| 4 | 好看，有明显的形式美 |
+| 3 | 中规中矩，不丑但也不惊艳 |
+| 2 | 偏功能性，形式上没什么亮点 |
+| 1 | 不适合视觉展示 |
+
+**⑤ 分类多样性**
+| 分数 | 标准 |
+|------|------|
+| 5 | 和最近 3 天的 category 都不同 |
+| 3 | 和昨天不同，但和前天或大前天重复 |
+| 1 | 和昨天同 category |
+
+**总分计算：** ① + ② + ③ + ④ + ⑤，满分 25。
+- **≥ 18 分**：直接选
+- **15-17 分**：可以选，但如果有更好的候选就换
+- **< 15 分**：不选，继续找其他候选
+- **知名度或图片 < 3 分**：无论总分多高，直接淘汰
+
+**知名度硬门槛（三选二才合格）：**
+1. 中文维基百科有词条（或中文设计媒体有报道）
+2. 作品出现在设计史教科书、博物馆永久收藏、或主流设计媒体的"经典"榜单中
+3. 普通设计爱好者（非专业人士）大概率听说过
+
+**如果一个日期只搜到冷门候选：**
+- 放宽日期关联类型（不只看生日，看发布日、获奖日、品牌成立日等）
+- 放宽到"该日期前后 1-2 天"的重大设计事件
+- 实在没有 → 选该月份的经典作品，日期关联写弱一点也行
+
+**选题优先级：知名经典 > 冷门但有好图 > 强日期关联但太小众**
+
+### 4. 选择作品
+考虑因素：
+- **图片质量是第一优先级** — 找不到好图就换作品，别死磕
+- 日期关联是否明确可验证
+- 是否足够"世界级"
+- 领域是否与最近几天不同
+
+**⚠️ 图片找不到时的策略：**
+- ❌ 错误：反复搜索同一个作品的不同图片来源
+- ✅ 正确：换一个有高质量图片的设计作品，哪怕日期关联弱一点
+- **有好图的弱关联作品 > 没好图的强关联作品**
+
+**⚠️ 图文一致性检查（发布前必做！最高优先级！）：**
+
+图片必须与以下三项**全部匹配**，任何一项不符就不能发布：
+1. **标题匹配** — 图片展示的必须是标题所说的那个作品
+2. **故事匹配** — 文字讲的是什么，图片就得是什么。讲插画→配插画图；讲建筑→配建筑照片；讲雕塑→配雕塑照片
+3. **类别匹配** — 工业设计配实物照，绘画配画作图，建筑配建筑照片
+
+**不匹配怎么办？**
+- 先尝试换图（找到匹配的图片）
+- 找不到匹配的图 → **直接换主题**，不要死磕
+- ❌ 绝不允许图文不一致的内容上线
+
+### 5. 下载图片
+
+**⚠️ 使用自动化脚本（推荐）：**
+```powershell
+# 一条命令搞定：下载原图到 full/ → 检查大小 → 自动决定是否压缩 → 复制到 images/
+.\scripts\download-image.ps1 -Url "https://example.com/photo.jpg" -Name "designer-work.jpg"
+```
+
+脚本自动处理：
+- 下载原图到 `public/images/full/`（lightbox 用）
+- 检查尺寸比例（超宽会警告）
+- ≤600KB 直接复制到 `public/images/`，>600KB 用 q:v 3 压缩到 ~500KB
+
+**手动操作（备用）：**
+```powershell
+# Step 1: 下载原图
+Invoke-WebRequest -Uri "URL" -OutFile "public/images/full/filename.jpg" -Headers @{"User-Agent"="Mozilla/5.0"}
+# Step 2: 检查大小，>600KB 则压缩
+$size = (Get-Item "public/images/full/filename.jpg").Length / 1KB
+if ($size -gt 600) {
+    ffmpeg -i "public/images/full/filename.jpg" -vf "scale='min(1200,iw)':-1" -q:v 3 "public/images/filename.jpg" -y
+} else {
+    Copy-Item "public/images/full/filename.jpg" "public/images/filename.jpg"
+}
+```
+
+**规则：**
+- `public/images/full/` → 永远是原图（lightbox 放大用）
+- `public/images/` → 页面展示用（≤600KB 直接用原图，>600KB 压缩到 ~500KB）
+- **不要用 q5 以上的压缩**——Sam 确认 q5 画质损失太大，最多用 q3
+
+### 6. 写内容并更新代码
+编辑 `src/data.ts`，在 `designs` 数组末尾添加新条目。
+
+### 7. 部署
+
+**⚠️ 使用自动化脚本（推荐）：**
+```powershell
+cd C:\Users\kaixin_yy\.openclaw\workspace\the-daily-object
+.\scripts\publish.ps1 -Message "Add MM-DD: Title"
+```
+
+脚本自动执行：变更图片验证（大小/比例/双份检查）→ TypeScript 检查 → Vite 构建 → git commit + push → 等 90s → 验证线上。
+
+**手动操作（备用）：**
+```powershell
+cd C:\Users\kaixin_yy\.openclaw\workspace\the-daily-object
+npx vite build   # 先构建确认无报错
+git add .
+git commit -m "Add MM-DD: Title"
+git push origin main
+```
+**⚠️ 必须 `git push origin main`！** 这个项目用 GitHub Actions 部署（不是 gh-pages 分支），push main 会自动触发 build + deploy。`npx gh-pages` 无效！
+
+### 8. 验证
+等 2 分钟，检查：
+- 网站是否显示新内容
+- 图片是否加载正常
+
+---
+
+## 常见问题
+
+### 图片下载失败
+- 检查 URL 是否正确
+- 添加 User-Agent header
+- 换一个来源
+
+### Git push 失败
+- 检查是否有未提交的更改
+- 检查网络连接
+
+### 找不到当天的设计事件
+- 扩大搜索范围（不只是生日）
+- 查看该日期的产品发布、展览开幕等
+- 如果实在找不到，报告并建议跳过
+
+---
+
+## PowerShell 注意事项
+
+- 用 `;` 连接命令，不是 `&&`
+- 路径用反斜杠 `\` 或正斜杠 `/` 都可以
+- 字符串用双引号 `""`
+
+---
+
+## 浏览器使用规则
+
+⚠️ **每次操作完必须关闭标签页！**
+
+```
+browser action=open → 用 → browser action=close
+```
+
+不关闭会导致 Chrome 堆积卡死。
+
+---
+
+## 完成后报告模板
+
+```
+## The Daily Object 更新完成
+
+**日期**：MM-DD
+**作品**：[标题]
+**设计师**：[姓名]
+**年份**：[年份]
+**日期关联**：[为什么是今天]
+**分类**：[category]
+
+**状态**：
+- [x] 图片下载
+- [x] 内容编写
+- [x] 代码更新
+- [x] 部署成功
+- [x] 验证通过
+
+**遇到的问题**：无 / [描述问题]
+```
+
+---
+
+## 已有内容索引
+
+| 日期 | 作品 | 设计师 | 分类 |
+|------|------|--------|------|
+| 02-01 | Rolleiflex 双反相机 | Vivian Maier | art |
+| 02-02 | Grand Central Terminal | Reed & Stem, Warren & Wetmore | architecture |
+| 02-03 | Stool 60 | Alvar Aalto | industrial |
+| 02-04 | 机械元素 (Léger) | Fernand Léger | art |
+| 02-05 | Bakelite | Leo Baekeland | industrial |
+| 02-06 | Marina Bay Sands | Moshe Safdie | architecture |
+| 02-07 | Pinocchio | Walt Disney Studios | art |
+| 02-08 | 威尼斯之石 (Ruskin) | John Ruskin | architecture |
+| 02-09 | Mercedes 35 HP | Wilhelm Maybach | industrial |
+| 02-10 | UP5 & UP6 | Gaetano Pesce | industrial |
+| 02-11 | The Horn of Plenty | Alexander McQueen | art |
+| 02-12 | 牛顿纪念堂 (Boullée) | Étienne-Louis Boullée | architecture |
+| 02-13 | Panton Chair | Verner Panton | industrial |
+| 02-14 | I ♥ NY | Milton Glaser | art |
+| 02-15 | HOPE Poster | Shepard Fairey | art |
+| 02-16 | Arco Lamp | Achille Castiglioni | industrial |
+| 02-17 | Vessel | Thomas Heatherwick | architecture |
+| 02-18 | Wisteria Lamp | Louis Comfort Tiffany | art |
+| 02-19 | Bird in Space | Constantin Brâncuși | art |
+| 02-20 | Salk Institute | Louis Kahn | architecture |
+| 02-21 | Polaroid Land Camera Model 95 | Edwin Land | industrial |
+| 02-22 | Gill Sans 字体 | Eric Gill | graphic |
+| 02-23 | Gutenberg Bible | Johannes Gutenberg | graphic |
+| 02-24 | Nike Air Force 1 | Bruce Kilgore | industrial |
+| 02-25 | Royal Crescent | John Wood the Younger | architecture |
+| 02-26 | Levi's 501 牛仔裤 | Levi Strauss | fashion |
+| 02-27 | iMac G3 | Jony Ive | industrial |
+| 02-28 | Guggenheim Museum Bilbao | Frank Gehry | architecture |
+| 03-01 | Palace of Westminster | Augustus Pugin | architecture |
+| 03-02 | The Curtain Dress | Bob Mackie | fashion |
+| 03-03 | Ruby Slippers | Gilbert Adrian | film |
+| 03-04 | Instagram | Kevin Systrom & Mike Krieger | software |
+| 03-05 | Ball Clock | George Nelson | industrial |
+| 03-06 | David | Michelangelo | art |
+
+> 添加新内容后，请更新此索引。
+
+---
+
+## ⚠️ 关键规则（血泪教训）
+
+1. **只添加今天的条目**，绝不提前添加明天的。cron 每天 08:00 跑，添加当天内容。
+2. **只用真实照片**，不用 DALL-E/AI 生成。图源优先级：
+   - **Unsplash API**（首选）：config 在 `~/.config/unsplash/config.json`，用法：`Invoke-RestMethod -Uri "https://api.unsplash.com/search/photos?query=xxx&per_page=5&client_id=$($config.access_key)"`，下载用 `urls.regular`（1080px）
+   - **Pexels API**（备用）：config 在 `~/.config/pexels/config.json`，用法：`Invoke-RestMethod -Uri "https://api.pexels.com/v1/search?query=xxx&per_page=5" -Headers @{Authorization=$config.api_key}`，下载用 `src.large`
+   - **Wikimedia Commons API**（第三选择）：免费无需 key，但下载时必须用 User-Agent `DailyObjectBot/1.0 (NomiBonnie@hotmail.com)` 否则会 429 限流
+3. **部署用 `git push origin main`**，不用 `npx gh-pages`（项目用 GitHub Actions 部署）。
+4. **图文一致性 > 一切**：图片必须和标题、故事内容、类别全部匹配。找不到匹配的图就换主题，绝不允许图文不一致上线。
+5. **找不到好图就换主题**：尝试 3 次找图失败 → 立即换一个有好图的设计作品，别死磕。
+6. **必须跟设计有关**：选的人/作品必须是设计师或设计作品（工业设计/建筑/UI/产品设计/平面设计），纯文学、纯艺术、纯插画不算。
+7. **category 必须准确**：industrial / architecture / art / music / graphic / software，选错 = 不专业。
+
+---
+
+## ✅ Sub-Agent 发布前强制自检清单
+
+**每次发布前必须逐项确认，任何一项不通过就不能发布：**
+
+| # | 检查项 | 说明 |
+|---|--------|------|
+| 1 | 设计相关性 | 这个人/作品跟"设计"有直接关系吗？不是纯文学/纯艺术？ |
+| 2 | 图文一致性 | 图片展示的内容 = 标题 = 故事讲的 = category？ |
+| 3 | 图片质量 | 图片清晰、好看、能代表这件作品？不是人物肖像照？ |
+| 4 | 内容深度 | 故事有设计洞察，不是维基百科搬运？ |
+| 5 | 只加今天 | 确认只添加了今天的 entry，没有多加或少加 |
+| 6 | 构建成功 | git push 后确认 GitHub Actions 构建通过（conclusion: success） |
+| 7 | 网站验证 | fetch 网站确认页面可访问、标题正确 |
+
+| 8 | 图片视觉冲击力 | 图片是否好看、有冲击力？在手机上看效果如何？（详见下方图片审美标准） |
+| 9 | 选题经典性 | 设计师/作品是否足够经典？设计师看了是否有共鸣？（详见下方选题审美标准） |
+| 10 | 故事性 | 作品背后有好故事吗？读完会想分享给别人吗？平平无奇的不要选。产品故事 > 人物故事 |
+| 11 | Tags 质量 | 有 3 个 tags（中英文）？每个 5-8 字？体现影响力而非简单分类？（❌ "工业设计" → ✅ "工业设计先驱"） |
+
+**如果第 1-3 项不通过 → 换主题重做，不要硬上。**
+**如果第 8-9 项不通过 → 也要换图/换主题，"能用"≠"好用"。**
+
+---
+
+## 🎨 图片审美标准（2026-02-25 Sam 审查总结）
+
+> 这些是 Sam 亲自审查后指出的问题，代表他的审美标准。**每次选图必须对照检查。**
+
+### ❌ 常见图片问题（必须避免）
+
+| 问题类型 | 案例 | 为什么不行 |
+|----------|------|-----------|
+| **图文不一致** | OED 配了圣经内页；Stool 60 配了布艺扶手椅 | 最基本的错误，图片必须是文字讲的那个东西 |
+| **颜色/特征不对** | 汝窑"天青釉"配了深橄榄绿瓶子 | 作品最核心的视觉特征（天青色）都没体现 |
+| **太暗/看不清** | Grand Central 纯黑白剪影 | 冲击力为零，看不到建筑的宏伟细节 |
+| **角度不典型** | Vessel 内部仰拍楼梯 | 没展示 Vessel 最标志性的蜂巢外形，换谁都不认识 |
+| **比例不适合手机** | Royal Crescent 超宽全景（约 3:1） | 手机上显示很小，看不清细节 |
+| **不够美/无冲击力** | Stool 60 黑白现代椅子 | 即使图是对的，不好看也不行 |
+
+### ✅ 好图片的标准
+
+1. **一眼认出** — 图片必须展示作品最标志性的特征/角度，让认识它的人一眼就能认出
+2. **视觉冲击力** — 构图、色彩、光线要有美感，不是随便一张照片
+3. **手机友好** — 比例最好是 **3:4、4:5 或 1:1**，避免超宽横幅（>2:1）。竖版优于横版
+4. **清晰明亮** — 避免过暗、过灰、模糊的照片
+5. **展示整体** — 建筑要看到全貌，产品要看到完整形态，不要只拍局部/内部
+6. **有氛围** — 最好的图片不只是"拍到了"，还能传递作品的精神（温暖/庄严/前卫等）
+
+### 📐 图片比例检查
+
+下载图片后，检查比例：
+- ✅ **竖版**（3:4, 4:5, 2:3）— 手机最佳
+- ✅ **方形**（1:1）— 手机友好
+- ⚠️ **标准横版**（3:2, 16:9）— 可以接受
+- ❌ **超宽横幅**（>2:1 的全景）— 手机上太小，必须换
+
+---
+
+## 🎯 选题审美标准（2026-02-25 Sam 审查总结）
+
+### ❌ 不该选的（已踩坑）
+
+| 问题 | 案例 | 为什么不行 |
+|------|------|-----------|
+| **与设计关联太弱** | 牛津英语词典 — 是排版/信息设计，但太"学术"了 | 设计师看了没共鸣，不觉得"这跟我有关" |
+| **太小众不经典** | Frank Frazetta Death Dealer — 幻想插画 | 太 niche，不是设计圈公认的经典。只有特定圈子认识 |
+
+### ✅ 好选题的标准
+
+1. **设计圈公认** — 选的人/作品在设计史上有公认地位，不是只有某个亚文化才知道
+2. **设计师共鸣** — 产品设计师、建筑师、平面设计师看到会觉得"这个我知道"或"这个我应该知道"
+3. **美学价值高** — 作品本身好看、有形式美感，让人想点进去看
+4. **跨领域影响** — 最好的选题不只影响了自己的领域，还影响了整个设计文化
+5. **有故事性** ⭐ — 作品背后要有好故事，便于传播、也让文章更有可读性。故事性分两层：
+   - **作品/产品的故事**（更重要）：诞生过程有戏剧性？解决了什么问题？颠覆了什么常规？有什么意想不到的细节？
+   - **设计师的故事**（加分项）：人生经历有故事感？跟作品的关系有趣？
+   - ❌ 没故事性 = 平平无奇、说完"这是谁在哪年做的"就没了
+   - ✅ 有故事性 = 读完会觉得"原来还有这回事"，想分享给别人
+
+### 经典性判断标准（从高到低）
+
+- ⭐⭐⭐⭐⭐ **设计史教科书级**：Eames、Aalto、Dieter Rams、Le Corbusier、Apple
+- ⭐⭐⭐⭐ **设计圈公认**：Panton Chair、Arco Lamp、Bauhaus、Zaha Hadid
+- ⭐⭐⭐ **行业知名**：某领域内的重要人物/作品，非设计师可能不知道但设计师都知道
+- ⭐⭐ **小众但有趣**：有故事性，但知名度有限 — 可以偶尔出现，不要太多
+- ⭐ **太小众** — 避免。Frank Frazetta、纯插画师、纯艺术家（除非对设计有直接影响）
+
+**底线：每个选题至少要 ⭐⭐⭐ 级别。**
+
+---
+
+## 🔍 图文一致性标准（2026-02-26 Sam 强调，最高优先级！）
+
+> **图文一致性是所有标准中最基本、最不可妥协的。图再好看，跟内容对不上就是零分。**
+
+### 核心原则
+
+**图片必须直接展示故事讲的那个东西。** 不是"相关的"就行，必须"就是那个"。
+
+### 三层检查（全部通过才能发布）
+
+| 层级 | 检查内容 | ✅ 正确 | ❌ 错误 |
+|------|----------|---------|---------|
+| **1. 标题匹配** | 图片是不是标题说的那个作品？ | Stool 60 → 三腿弯木凳 | Stool 60 → 随便一把现代椅子 |
+| **2. 故事匹配** | 故事讲什么，图就得是什么 | 讲中洲地图 → 配地图图片 | 讲中洲地图 → 配电影海报 |
+| **3. 精确匹配** | 具体系列/版本/年代对不对？ | Ziggy Stardust → Ziggy 封面或该角色造型 | Ziggy Stardust → Aladdin Sane 封面（不同专辑） |
+
+### ❌ 踩坑案例（2026-02-26 全量审查发现）
+
+| 日期 | 标题 | 错误图片 | 问题 | 正确做法 |
+|------|------|----------|------|----------|
+| 01-27 | 莫扎特与音乐设计 | 萨尔茨堡喷泉照片 | 喷泉跟莫扎特关联极弱 | 用经典莫扎特肖像画 |
+| 02-04 | 机械元素 (Léger) | 旧图片不是该画作 | 图文完全不对应 | 用 Léger 的机械元素画作 |
+| 02-08 | 威尼斯之石 | 旧图片不是该书/建筑 | 图文完全不对应 | 用 Ruskin 的威尼斯建筑绘图或威尼斯实景 |
+| 01-31 | MUJI CD Player | 配了 Bakelite 收音机图 | 产品完全不同 | 用 MUJI CD Player 实物照 |
+| 01-08 | Ziggy Stardust | Aladdin Sane 封面 | 同一歌手但不同专辑 | 能接受（边界情况）但不理想 |
+
+### 根因分析
+
+**最常见的错误原因：批量更新时改了标题/故事但没改 imageUrl。**
+
+当多个条目同时修改时，特别容易出现：
+1. 改了 A 条目的 title/story 到新主题
+2. 但 imageUrl 还指向旧主题的图片
+3. 上线后图文完全对不上
+
+### 防范措施
+
+**Sub-agent / Cron job 必须执行：**
+
+1. **写完每个条目后立即检查**：title ↔ imageUrl 文件名是否语义对应
+2. **改主题 = 必须换图**：如果修改了一个条目的 title/story，imageUrl 也必须同步更新
+3. **发布前全量扫描**：用 node 脚本提取所有 date → title → imageUrl，人眼审一遍
+4. **图片文件实际内容检查**：不只看文件名，要确认图片文件里的内容确实是那个作品
+
+```javascript
+// 快速检查脚本（发布前跑一下）
+const data = require('./src/data.ts'); // 或直接 grep
+// 检查每个 entry 的 title 和 imageUrl 文件名是否语义匹配
+```
+
+### 边界情况（可接受但要标注）
+
+有些情况不算严格匹配但可以接受：
+- 用**设计师肖像**代替**作品图**（如找不到好的作品照片）— 可以，但优先找作品图
+- 用**同系列不同款**代替**指定款**（如同品牌不同型号）— 勉强可以
+- 用**展览/博物馆中的照片**代替**原始产品照**— 完全可以
+
+**不可接受：**
+- 用**完全不同的作品**代替（哪怕是同一设计师的）
+- 用**相关概念图**代替**具体作品图**（如用"喷泉"代替"莫扎特"）
+- 用**AI 生成图**代替**真实照片**
+
+*最后更新：2026-02-26*
+
+---
+
+## 📚 必读参考文档
+
+每次做 Daily Object 之前，除了本文档，还要读：
+
+1. **`memory/daily-object-lessons-0225.md`** — 2026-02-25 大修日的完整经验总结（踩坑案例、选图铁律、技术经验、Sam 的审美哲学）
+2. **`memory/design-checklist.md`** — 六大设计检查维度（间距/对齐/一致性/颜色/文案/响应式）
+
+这两份文档是从实战中总结的，比任何规则都具体。

@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Calendar Styling - Luxury Brand Aesthetic with Dark Mode */
+.luxury-calendar {
+  @apply w-full border-none font-light;
+}
+
+/* Force transparent backgrounds for calendar in dark mode */
+.luxury-calendar.react-calendar:is(.dark *) {
+  background-color: transparent !important;
+}
+
+.luxury-calendar .react-calendar__viewContainer:is(.dark *) {
+  background-color: transparent !important;
+}
+
+.luxury-calendar .react-calendar__month-view:is(.dark *) {
+  background-color: transparent !important;
+}
+
+.luxury-calendar .react-calendar__navigation {
+  @apply mb-6;
+}
+
+.luxury-calendar .react-calendar__navigation button {
+  @apply text-neutral-900 dark:text-neutral-100 min-w-[44px] bg-transparent hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-lg transition-colors font-light text-sm;
+}
+
+.luxury-calendar .react-calendar__navigation button:disabled {
+  @apply bg-transparent text-neutral-300 dark:text-neutral-700;
+}
+
+.luxury-calendar .react-calendar__month-view__weekdays {
+  @apply text-xs tracking-widest uppercase text-neutral-400 dark:text-neutral-600 font-light mb-4;
+}
+
+.luxury-calendar .react-calendar__month-view__weekdays__weekday {
+  @apply text-center py-2;
+}
+
+.luxury-calendar .react-calendar__month-view__weekdays__weekday abbr {
+  @apply no-underline;
+}
+
+.luxury-calendar .react-calendar__month-view__days {
+  background-color: transparent !important;
+}
+
+/* Base tile */
+.luxury-calendar .react-calendar__tile {
+  @apply aspect-square flex items-center justify-center p-0 rounded-lg transition-all font-light text-sm;
+  min-height: 48px;
+  background-color: transparent !important;
+}
+
+/* 无内容，未选中: 60% opacity */
+.luxury-calendar .react-calendar__month-view__days__day {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+.luxury-calendar .react-calendar__month-view__days__day:is(.dark *) {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* 上/下月日期: 整体 50% 透明度 */
+.luxury-calendar .react-calendar__month-view__days__day--neighboringMonth {
+  opacity: 0.5 !important;
+}
+
+.luxury-calendar .react-calendar__tile:enabled:hover {
+  background-color: transparent !important;
+}
+
+.luxury-calendar .react-calendar__tile:disabled {
+  color: rgba(0, 0, 0, 0.15) !important;
+  background-color: transparent !important;
+  cursor: default;
+}
+.luxury-calendar .react-calendar__tile:disabled:is(.dark *) {
+  color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.luxury-calendar .react-calendar__tile--now {
+  background-color: transparent !important;
+}
+
+/* 无内容，选中: 纯黑/纯白文字，无背景 */
+.luxury-calendar .react-calendar__tile--active {
+  background-color: transparent !important;
+  color: rgb(0, 0, 0) !important;
+}
+.luxury-calendar .react-calendar__tile--active:is(.dark *) {
+  color: rgb(255, 255, 255) !important;
+}
+
+.luxury-calendar .react-calendar__tile--active:enabled:hover {
+  background-color: transparent !important;
+}
+
+/* 有内容，未选中: 纯黑/白文字 */
+.luxury-calendar .react-calendar__tile.wallpaper-date {
+  @apply relative font-normal;
+  color: rgb(0, 0, 0) !important;
+}
+.luxury-calendar .react-calendar__tile.wallpaper-date:is(.dark *) {
+  color: rgb(255, 255, 255) !important;
+}
+
+/* 有内容，选中: 纯黑/白文字，无背景 */
+.luxury-calendar .react-calendar__tile--active.wallpaper-date {
+  background-color: transparent !important;
+  color: rgb(0, 0, 0) !important;
+}
+.luxury-calendar .react-calendar__tile--active.wallpaper-date:is(.dark *) {
+  color: rgb(255, 255, 255) !important;
+}
+
+/* Smooth transitions */
+* {
+  @apply transition-colors duration-200;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-neutral-100 dark:bg-neutral-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-neutral-300 dark:bg-neutral-700 rounded-full hover:bg-neutral-400 dark:hover:bg-neutral-600;
+}
+
+/* Selection color */
+::selection {
+  @apply bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900;
+}
+
+/* Lightbox fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
