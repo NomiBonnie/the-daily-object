@@ -6,7 +6,16 @@
 
 **网站**：https://nomibonnie.github.io/the-daily-object/  
 **仓库**：https://github.com/NomiBonnie/the-daily-object  
-**本地路径**：`C:\Users\kaixin_yy\.openclaw\workspace\the-daily-object\`
+**本地路径**：`/Users/samyuan/.openclaw/workspace/the-daily-object/`
+
+### ⚠️ macOS 部署流程（2026-03-09 更新）
+dist 在 .gitignore 里，不会被 git push 推送。部署必须用 gh-pages：
+```bash
+cd /Users/samyuan/.openclaw/workspace/the-daily-object
+npm run build
+git add -A && git commit -m "Add MM-DD: Title" && git push origin main
+npx gh-pages -d dist   # 推送构建产物到 gh-pages 分支
+```
 
 **定位**：每天推荐一个世界级小众设计作品，必须与当天日期有关联。
 
@@ -282,10 +291,10 @@ export interface DesignObject {
 ## 执行流程
 
 ### 1. 确定日期
-```powershell
+```bash
 # ⚠️ 是"今天"，不是"明天"！用 YYYY-MM-DD 完整格式！
-$today = (Get-Date).ToString("yyyy-MM-dd")
-$todayShort = (Get-Date).ToString("MM-dd")  # 用于 commit message
+today=$(date +%Y-%m-%d)
+todayShort=$(date +%m-%d)  # 用于 commit message
 ```
 **⚠️ 只添加今天的条目，绝对不要添加明天或未来日期的内容！**
 
@@ -418,28 +427,17 @@ $todayShort = (Get-Date).ToString("MM-dd")  # 用于 commit message
 
 ### 5. 下载图片
 
-**⚠️ 使用自动化脚本（推荐）：**
-```powershell
-# 一条命令搞定：下载原图到 full/ → 检查大小 → 自动决定是否压缩 → 复制到 images/
-.\scripts\download-image.ps1 -Url "https://example.com/photo.jpg" -Name "designer-work.jpg"
-```
-
-脚本自动处理：
-- 下载原图到 `public/images/full/`（lightbox 用）
-- 检查尺寸比例（超宽会警告）
-- ≤600KB 直接复制到 `public/images/`，>600KB 用 q:v 3 压缩到 ~500KB
-
-**手动操作（备用）：**
-```powershell
+**手动操作：**
+```bash
 # Step 1: 下载原图
-Invoke-WebRequest -Uri "URL" -OutFile "public/images/full/filename.jpg" -Headers @{"User-Agent"="Mozilla/5.0"}
+curl -L -o "public/images/full/filename.jpg" -H "User-Agent: Mozilla/5.0" "URL"
 # Step 2: 检查大小，>600KB 则压缩
-$size = (Get-Item "public/images/full/filename.jpg").Length / 1KB
-if ($size -gt 600) {
+size=$(stat -f%z "public/images/full/filename.jpg" 2>/dev/null || stat -c%s "public/images/full/filename.jpg")
+if [ "$size" -gt 614400 ]; then
     ffmpeg -i "public/images/full/filename.jpg" -vf "scale='min(1200,iw)':-1" -q:v 3 "public/images/filename.jpg" -y
-} else {
-    Copy-Item "public/images/full/filename.jpg" "public/images/filename.jpg"
-}
+else
+    cp "public/images/full/filename.jpg" "public/images/filename.jpg"
+fi
 ```
 
 **规则：**
@@ -452,23 +450,14 @@ if ($size -gt 600) {
 
 ### 7. 部署
 
-**⚠️ 使用自动化脚本（推荐）：**
-```powershell
-cd C:\Users\kaixin_yy\.openclaw\workspace\the-daily-object
-.\scripts\publish.ps1 -Message "Add MM-DD: Title"
-```
-
-脚本自动执行：变更图片验证（大小/比例/双份检查）→ TypeScript 检查 → Vite 构建 → git commit + push → 等 90s → 验证线上。
-
-**手动操作（备用）：**
-```powershell
-cd C:\Users\kaixin_yy\.openclaw\workspace\the-daily-object
-npx vite build   # 先构建确认无报错
-git add .
+```bash
+cd /Users/samyuan/.openclaw/workspace/the-daily-object
+npm run build                    # 先构建确认无报错
+git add -A
 git commit -m "Add MM-DD: Title"
 git push origin main
+npx gh-pages -d dist             # 推送构建产物到 gh-pages 分支部署
 ```
-**⚠️ 必须 `git push origin main`！** 这个项目用 GitHub Actions 部署（不是 gh-pages 分支），push main 会自动触发 build + deploy。`npx gh-pages` 无效！
 
 ### 8. 验证
 等 2 分钟，检查：
@@ -492,14 +481,6 @@ git push origin main
 - 扩大搜索范围（不只是生日）
 - 查看该日期的产品发布、展览开幕等
 - 如果实在找不到，报告并建议跳过
-
----
-
-## PowerShell 注意事项
-
-- 用 `;` 连接命令，不是 `&&`
-- 路径用反斜杠 `\` 或正斜杠 `/` 都可以
-- 字符串用双引号 `""`
 
 ---
 
