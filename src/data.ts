@@ -4467,6 +4467,76 @@ The hippie generation discovered this vehicle was naturally suited to their life
     significance_en: 'The Volkswagen Type 2 is a rare case of "meaning overflow" in design history — conceived as a purely functional transport vehicle, it unexpectedly achieved profound emotional resonance through its distinctive form language (the smiling V-shaped face, approachable rounded proportions, house-like sense of interior space). It teaches us that truly great design doesn\'t just solve problems — it creates vessels for people\'s desire to project emotion and meaning. A van became a symbol of freedom — and that itself is the greatest proof of design\'s power.',
   },
 
+  {
+    id: '39',
+    date: '2026-03-09',
+    imageUrl: '/the-daily-object/images/courreges-space-age.jpg',
+    fullImageUrl: '/the-daily-object/images/full/courreges-space-age.jpg',
+    title: 'Courrèges "Space Age" Collection',
+    title_en: 'Courrèges "Space Age" Collection',
+    subtitle: 'André Courrèges, 1964',
+    subtitle_en: 'André Courrèges, 1964',
+    category: 'fashion',
+    designer: 'André Courrèges',
+    year: '1964',
+    tags: ['太空时代时尚先驱', '解放了女性身体', '定义了未来主义美学'],
+    tags_en: ['Space Age Fashion Pioneer', 'Liberated the Female Body', 'Defined Futuristic Aesthetics'],
+
+    dateConnection: '1923年3月9日，André Courrèges 出生于法国波城（Pau）。这位从工程学校走出的设计师，用建筑师的思维重新定义了时装——他的1964年"太空时代"系列不仅改变了女性穿衣的方式，更预言了一个尚未到来的未来。',
+    designerBio: `André Courrèges 的人生轨迹本身就是一个跨界传奇。他出生于法国西南部巴斯克地区，年轻时是一名狂热的运动爱好者，最初在法国顶级工程学校——国立桥梁与道路学院（École des Ponts et Chaussées）学习土木工程。
+
+**工程师的训练给了他完全不同于传统时装设计师的视角。** 他不从面料的柔软垂坠出发，而是从结构、几何和功能出发。1950年，他进入 Cristóbal Balenciaga 的工作室，在这位被誉为"设计师中的设计师"的大师门下学习了整整十年。Balenciaga 教会了他对剪裁的极致追求和建筑般的结构感。
+
+1961年，Courrèges 与妻子 Coqueline 共同创立了自己的品牌。他将工程学的精确性与 Balenciaga 的建筑感融为一体，创造出了前所未有的时装语言——干净的几何线条、大胆的留白、以及对人体运动自由的执着追求。`,
+    story: `**1964年春夏系列——时尚界的"登月时刻"。**
+
+在太空竞赛如火如荼的1960年代，当整个世界都在仰望星空时，Courrèges 将这种对未来的狂热直接转化为了衣服。他的1964年春夏系列像一枚炸弹投入了巴黎时装界：
+
+**全白的世界。** 白色迷你裙、白色中筒靴（后来被称为"go-go boots"）、白色手套、银色护目镜式太阳眼镜、以及那个标志性的太空头盔帽。模特们看起来不像是走在T台上，而像是从未来的太空站走出来的女宇航员。
+
+**但这不仅仅是视觉上的震撼。** Courrèges 真正革命性的地方在于：他解放了女性的身体。在一个女人还被束胸衣、紧身胸衣和高跟鞋禁锢的时代，他让女性穿上平底靴、短裙和简洁的A字廓形——**女性的身体应该是自由的、能动的、属于自己的。**
+
+他说过一句著名的话："女人的身体必须是结实而自由的，不是柔软而被束缚的。束缚——紧身胸衣、塑身衣——都必须消失。"
+
+**"Moon Girl"——月球女孩。** 这个形象成为了整个1960年代最具标志性的时尚轮廓：几何剪裁的白色迷你裙、高至膝盖的白色平底靴、银色太阳镜。Catherine Deneuve、Jacqueline Kennedy、法国流行歌手 Françoise Hardy 都成为了 Courrèges 的忠实拥趸。
+
+**从设计方法论看，Courrèges 做了三件颠覆性的事：**
+- **材料革命**：大量使用工业化面料——乙烯基、PVC、金属质感织物——而非传统的丝绸和羊毛
+- **色彩简化**：将时装的色彩体系压缩到白色、银色和少量糖果色，创造出"未来主义"的视觉纯净感
+- **廓形解构**：抛弃了收腰、垫肩等传统剪裁手法，用几何化的A字形和梯形取代了身体的自然曲线
+
+他不是在做衣服，他是在用服装构建一个关于未来的完整世界观。`,
+    legacy: `• 与 Pierre Cardin、Paco Rabanne 并称"太空时代时尚三巨头"\n• "Go-go boots"成为1960年代最具标志性的时尚单品，影响至今\n• 直接启发了 YSL 的 Mondrian 系列和此后所有"未来主义时装"\n• 开创了时装中使用工业材料的先河，影响了 Hussein Chalayan、Iris van Herpen 等当代设计师\n• 2021年 Nicolas Di Felice 接任创意总监后，Courrèges 品牌经历了强势复兴，证明其设计语言的持久生命力\n• 作品被 MoMA、Met Costume Institute、V&A 等全球顶级博物馆永久收藏`,
+    significance: 'Courrèges 证明了一个深刻的设计真理：伟大的时装设计不是装饰身体，而是解放身体。他的"太空时代"系列不仅仅是一组好看的衣服——它是一份关于未来女性形象的宣言。在他之前，高级时装是关于优雅、精致和束缚的；在他之后，时装可以是关于自由、运动和可能性的。他用工程师的理性和艺术家的直觉，将时装从"穿在身上的雕塑"变成了"穿在身上的自由"。',
+
+    dateConnection_en: 'On March 9, 1923, André Courrèges was born in Pau, France. This designer who emerged from engineering school redefined fashion with an architect\'s mindset — his 1964 "Space Age" collection not only changed how women dressed but prophesied a future that had not yet arrived.',
+    designerBio_en: `André Courrèges's life trajectory was itself a cross-disciplinary legend. Born in the Basque region of southwestern France, he was an avid sportsman in his youth and initially studied civil engineering at the prestigious École des Ponts et Chaussées.
+
+**His engineering training gave him a perspective entirely different from traditional fashion designers.** He didn't start from the softness and drape of fabric, but from structure, geometry, and function. In 1950, he entered the atelier of Cristóbal Balenciaga, studying for a full decade under the master known as "the designer's designer." Balenciaga taught him an obsessive pursuit of tailoring precision and architectural structure.
+
+In 1961, Courrèges co-founded his own house with his wife Coqueline. He fused engineering precision with Balenciaga's architectural sensibility to create an unprecedented fashion language — clean geometric lines, bold use of white space, and an unwavering commitment to freedom of bodily movement.`,
+    story_en: `**The Spring/Summer 1964 collection — fashion's "moon landing" moment.**
+
+In the 1960s, as the Space Race reached fever pitch and the entire world gazed skyward, Courrèges translated that fervor for the future directly into clothing. His Spring/Summer 1964 collection detonated like a bomb in Paris fashion:
+
+**A world of white.** White mini-skirts, white mid-calf boots (later dubbed "go-go boots"), white gloves, silver goggle-style sunglasses, and that iconic space-helmet hat. The models looked less like they were walking a runway and more like female astronauts emerging from a future space station.
+
+**But this was far more than visual shock.** Courrèges's true revolution was this: he liberated the female body. In an era when women were still confined by corsets, girdles, and high heels, he put them in flat boots, short skirts, and clean A-line silhouettes — **a woman's body should be free, mobile, and her own.**
+
+He famously declared: "A woman's body must be hard and free, not soft and harnessed. The harness — the girdle, the corset — must go."
+
+**The "Moon Girl."** This image became the most iconic fashion silhouette of the entire 1960s: geometrically cut white mini-dress, knee-high white flat boots, silver sunglasses. Catherine Deneuve, Jacqueline Kennedy, and French pop singer Françoise Hardy all became devoted Courrèges followers.
+
+**From a design methodology perspective, Courrèges did three subversive things:**
+- **Material revolution**: Extensive use of industrial fabrics — vinyl, PVC, metallic textiles — instead of traditional silk and wool
+- **Color reduction**: Compressed fashion's color palette to white, silver, and occasional candy colors, creating a "futuristic" visual purity
+- **Silhouette deconstruction**: Abandoned traditional tailoring techniques like waist cinching and shoulder padding, replacing the body's natural curves with geometric A-lines and trapezoids
+
+He wasn't making clothes — he was using garments to construct an entire worldview about the future.`,
+    legacy_en: `• Alongside Pierre Cardin and Paco Rabanne, one of the "three giants of Space Age fashion"\n• Go-go boots became the most iconic fashion item of the 1960s, their influence enduring to this day\n• Directly inspired YSL's Mondrian collection and all subsequent "futurist fashion"\n• Pioneered the use of industrial materials in fashion, influencing contemporary designers like Hussein Chalayan and Iris van Herpen\n• Under creative director Nicolas Di Felice (2021–), the Courrèges brand has experienced a powerful revival, proving the lasting vitality of its design language\n• Works permanently held by MoMA, Met Costume Institute, V&A, and other world-leading museums`,
+    significance_en: 'Courrèges proved a profound design truth: great fashion design is not about decorating the body but liberating it. His "Space Age" collection was not merely a set of beautiful clothes — it was a manifesto about the future image of women. Before him, haute couture was about elegance, refinement, and constraint; after him, fashion could be about freedom, movement, and possibility. With an engineer\'s rationality and an artist\'s intuition, he transformed fashion from "sculpture worn on the body" to "freedom worn on the body."',
+  },
+
 
 ]
 
