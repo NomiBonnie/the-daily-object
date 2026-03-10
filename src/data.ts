@@ -4537,6 +4537,62 @@ He wasn't making clothes — he was using garments to construct an entire worldv
     significance_en: 'Courrèges proved a profound design truth: great fashion design is not about decorating the body but liberating it. His "Space Age" collection was not merely a set of beautiful clothes — it was a manifesto about the future image of women. Before him, haute couture was about elegance, refinement, and constraint; after him, fashion could be about freedom, movement, and possibility. With an engineer\'s rationality and an artist\'s intuition, he transformed fashion from "sculpture worn on the body" to "freedom worn on the body."',
   },
 
+  {
+    id: '39',
+    date: '2026-03-10',
+    imageUrl: '/the-daily-object/images/guimard-metro-entrance.jpg',
+    fullImageUrl: '/the-daily-object/images/full/guimard-metro-entrance.jpg',
+    title: 'Paris Métro Entrances',
+    title_en: 'Paris Métro Entrances',
+    subtitle: 'Hector Guimard, 1900',
+    subtitle_en: 'Hector Guimard, 1900',
+    category: 'architecture',
+    designer: 'Hector Guimard',
+    year: '1900',
+    tags: ['新艺术运动标志', '公共设计先驱', '巴黎城市符号'],
+    tags_en: ['Art Nouveau Icon', 'Public Design Pioneer', 'Symbol of Paris'],
+
+    dateConnection: '1867年3月10日，Hector Guimard 出生于法国里昂。这位新艺术运动（Art Nouveau）最重要的法国代表，用铸铁与玻璃的有机线条为巴黎地铁打造了一套前所未有的视觉系统——让一个地下交通入口成为了城市的艺术品。',
+    designerBio: `Hector Guimard（1867–1942）是法国建筑师与设计师，新艺术运动在建筑领域最具影响力的实践者之一。
+
+他早年就读于巴黎国立装饰艺术学院和巴黎美术学院，1894年前往布鲁塞尔参观 Victor Horta 的作品后深受震撼，彻底转向有机形态的建筑语言。1898年，他凭借巴黎第16区的 **Castel Béranger** 公寓一举成名——这座建筑的每一扇门、每一个栏杆、每一块瓷砖都充满了流动的植物形态，被称为"疯狂的房子"。
+
+Guimard 相信建筑应该是"总体艺术"（Gesamtkunstwerk）：从建筑结构到门把手、壁纸、家具，所有细节必须由同一位设计师统一完成。这种偏执的完美主义让他成为少数真正实现"从城市到螺丝钉"全面设计的建筑师。`,
+    story: `1899年，巴黎地铁公司（CMP）委托 Guimard 为即将于1900年世博会开通的地铁系统设计入口。这是现代设计史上第一次将"公共交通"视为需要统一视觉设计的对象。
+
+**Guimard 做了一件当时几乎无人理解的事：他把地铁入口变成了雕塑。**
+
+他设计了一套模块化的铸铁构件系统——所有部件都可以在工厂预制、现场组装，既保证了 Art Nouveau 标志性的有机曲线，又实现了工业化的批量生产。这在当时是革命性的：人们第一次看到，工业产品也可以如此美丽。
+
+那些蜿蜒的铸铁枝条、琥珀色的玻璃灯罩、以及用他自己设计的字体书写的"MÉTROPOLITAIN"标牌，共同创造了一个完整的视觉世界。每一个入口都像从地下生长出来的植物，仿佛地铁不是人类的工程，而是城市自然的一部分。
+
+**最讽刺的是，这些入口在当时遭到了猛烈批评。** 保守派嘲笑它们像"巨型昆虫"，报纸讽刺它们是"铸铁意大利面"。1904年，由于公众争议，巴黎地铁公司终止了与 Guimard 的合作。
+
+然而历史给出了最好的回答：一个多世纪后，仅存的86座 Guimard 地铁入口被列为法国历史文物保护对象。MoMA 收藏了一座完整的入口复制品。它们成为了巴黎最被拍摄的标志之一——一个当年被嘲笑的设计，最终定义了一座城市的视觉身份。`,
+    legacy: `• 设计了约141座巴黎地铁入口（1900–1913），现存86座，全部列为法国历史文物\n• 开创了"公共交通视觉系统设计"的先河，直接影响了后世所有地铁系统的视觉设计\n• 模块化铸铁构件系统是工业设计与手工艺结合的里程碑\n• MoMA 永久收藏了一座完整的地铁入口\n• 成为巴黎最具辨识度的城市符号之一，与埃菲尔铁塔并列\n• 他自创的 Art Nouveau 字体至今仍被用于巴黎地铁标识系统`,
+    significance: 'Guimard 的地铁入口证明了一个深刻的设计真理：公共基础设施不只是功能问题，更是文化问题。他把一个纯粹的工程节点——地铁出入口——变成了城市级别的艺术品，让每个市民每天都在与美接触。这是"设计民主化"最早、最有力的实践：好的设计不应该只属于沙龙和豪宅，它应该属于街道、属于每一个行色匆匆的普通人。',
+
+    dateConnection_en: 'March 10, 1867 — Hector Guimard was born in Lyon, France. The most important French representative of Art Nouveau used organic lines of cast iron and glass to create an unprecedented visual system for the Paris Métro — transforming underground transit entrances into works of urban art.',
+    designerBio_en: `Hector Guimard (1867–1942) was a French architect and designer, one of the most influential practitioners of Art Nouveau in architecture.
+
+He studied at the École Nationale des Arts Décoratifs and the École des Beaux-Arts in Paris. A visit to Victor Horta's works in Brussels in 1894 profoundly changed his direction, leading him to embrace organic architectural forms. In 1898, he rose to fame with **Castel Béranger**, an apartment building in Paris's 16th arrondissement — every door, railing, and tile flowed with vegetal forms, earning it the nickname "the madhouse."
+
+Guimard believed architecture should be a "total work of art" (Gesamtkunstwerk): from structural elements down to doorknobs, wallpaper, and furniture, every detail had to be unified by a single designer. This obsessive perfectionism made him one of the rare architects to truly achieve design "from the city down to the screw."`,
+    story_en: `In 1899, the Paris Métro company (CMP) commissioned Guimard to design entrances for the subway system opening for the 1900 Exposition Universelle. This was the first time in modern design history that "public transit" was treated as an object requiring unified visual design.
+
+**Guimard did something almost no one understood at the time: he turned subway entrances into sculpture.**
+
+He designed a modular system of cast-iron components — all parts could be prefabricated and assembled on-site, achieving both Art Nouveau's signature organic curves and industrial mass production. This was revolutionary: for the first time, people saw that industrial products could be this beautiful.
+
+The sinuous cast-iron branches, amber glass lampshades, and "MÉTROPOLITAIN" signs lettered in his own typeface together created a complete visual world. Each entrance appeared to grow from underground like a plant, as if the Métro were not human engineering but a natural part of the urban landscape.
+
+**The great irony: these entrances were fiercely criticized at the time.** Conservatives mocked them as "giant insects"; newspapers ridiculed them as "cast-iron spaghetti." In 1904, due to public controversy, the Métro company terminated its contract with Guimard.
+
+But history delivered the ultimate verdict: over a century later, the surviving 86 Guimard Métro entrances are protected as French historical monuments. MoMA holds a complete entrance replica in its collection. They have become one of the most photographed landmarks of Paris — a design once mocked that ultimately defined a city's visual identity.`,
+    legacy_en: `• Designed approximately 141 Paris Métro entrances (1900–1913); 86 survive today, all listed as French historical monuments\n• Pioneered "public transit visual system design," directly influencing the visual design of every subsequent metro system\n• The modular cast-iron component system stands as a milestone in the fusion of industrial design and craftsmanship\n• A complete Métro entrance is permanently held by MoMA\n• Became one of Paris's most recognizable urban symbols, alongside the Eiffel Tower\n• His custom Art Nouveau typeface remains in use within the Paris Métro signage system to this day`,
+    significance_en: 'Guimard\'s Métro entrances proved a profound design truth: public infrastructure is not merely a functional issue but a cultural one. He transformed a purely engineering node — a subway entrance — into city-scale art, ensuring every citizen encountered beauty in their daily routine. This was the earliest and most powerful practice of "design democratization": good design should not belong only to salons and mansions; it should belong to the streets, to every ordinary person rushing by.',
+  },
+
 
 ]
 
