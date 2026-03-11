@@ -4593,6 +4593,62 @@ But history delivered the ultimate verdict: over a century later, the surviving 
     significance_en: 'Guimard\'s Métro entrances proved a profound design truth: public infrastructure is not merely a functional issue but a cultural one. He transformed a purely engineering node — a subway entrance — into city-scale art, ensuring every citizen encountered beauty in their daily routine. This was the earliest and most powerful practice of "design democratization": good design should not belong only to salons and mansions; it should belong to the streets, to every ordinary person rushing by.',
   },
 
+  {
+    id: '40',
+    date: '2026-03-11',
+    imageUrl: '/the-daily-object/images/hitchhikers-guide-galaxy-cover.jpg',
+    fullImageUrl: '/the-daily-object/images/full/hitchhikers-guide-galaxy-cover.jpg',
+    title: '《银河系漫游指南》初版封面',
+    title_en: "The Hitchhiker's Guide to the Galaxy — First Edition Cover",
+    subtitle: 'Hipgnosis / Ian Wright, 1979',
+    subtitle_en: 'Hipgnosis / Ian Wright, 1979',
+    category: 'graphic',
+    designer: 'Hipgnosis / Ian Wright',
+    year: '1979',
+    tags: ['唱片封面设计传奇', '迷幻视觉先驱', '科幻平面设计经典'],
+    tags_en: ['Legendary Album Cover Designers', 'Psychedelic Visual Pioneers', 'Sci-Fi Graphic Design Icon'],
+
+    dateConnection: '1952年3月11日，Douglas Adams 出生于英国剑桥。27年后，他创作的《银河系漫游指南》由 Pan Books 出版——封面由传奇设计组合 Hipgnosis 和插画师 Ian Wright 操刀，成为科幻平面设计史上最具辨识度的视觉符号之一。',
+    designerBio: `**Hipgnosis** 是英国平面设计史上最传奇的名字之一。由 Storm Thorgerson 和 Aubrey Powell 于1968年创立，他们为 Pink Floyd、Led Zeppelin、Genesis、Peter Gabriel 等摇滚巨星设计了超过400张专辑封面，彻底改变了唱片视觉的地位——从附属品变成了独立的艺术形式。
+
+**Ian Wright** 是英国插画师，以大胆的色彩实验和拼贴技法著称。他的作品横跨平面设计、插画和艺术装置，风格极富视觉冲击力。
+
+这两股力量的合作，为 Douglas Adams 这本从 BBC 广播剧改编的小说赋予了一个完美的视觉外壳：既有 Hipgnosis 标志性的迷幻超现实氛围，又有 Wright 大胆的色彩爆破——一个让你拿起来就放不下的封面。`,
+    story: `1979年，Pan Books 出版了 Douglas Adams 的《银河系漫游指南》小说版。这本书改编自 Adams 为 BBC Radio 4 创作的同名广播剧，而广播剧本身已经在英国积累了一大批狂热粉丝。
+
+**出版商做了一个大胆的决定：请 Hipgnosis 来设计封面。**
+
+这在当时是非同寻常的。Hipgnosis 是摇滚乐的御用设计师，他们的名字和 Pink Floyd 的《Dark Side of the Moon》《Wish You Were Here》《Animals》绑定在一起。请他们来做一本科幻喜剧小说的封面，等于把唱片工业的视觉标准带入了出版业。
+
+封面本身是一场视觉爆炸：**半透明的彩虹色竖条纹覆盖了整个画面，巨大的深红色立体字母"THE HITCHHIKER'S GUIDE TO THE GALAXY"几乎占满封面**，字体带有明显的三维立体效果和阴影，仿佛从迷幻的光柱中浮现。底部简洁地标注"DOUGLAS ADAMS"和"Based on the famous Radio series"。
+
+这个设计精准捕捉了这本书的灵魂：**它不像任何"正经"的科幻小说封面**——没有飞船、没有外星人、没有星球。它选择了纯粹的视觉体验——迷幻、大胆、带着一丝荒诞感——就像书的内容本身一样。这个封面说："这不是你以为的那种科幻小说。"
+
+**结果是出版史上最成功的封面设计之一。** 这本书仅在英国就卖出了超过25万册平装本，封面的视觉冲击力功不可没。它让无数不读科幻的读者伸手拿起了这本书——这正是一个伟大封面设计应该做到的事。`,
+    legacy: `• Hipgnosis 为超过400张专辑和书籍设计了封面，被公认为改变了唱片封面地位的设计传奇\n• 这个封面帮助《银河系漫游指南》从广播剧粉丝的小众读物跃升为全球文化现象\n• 开创了"用摇滚唱片的视觉语言做书籍封面"的跨界先例\n• Pan Books 初版封面至今仍是收藏市场上最受追捧的科幻小说版本之一\n• Douglas Adams 的"42"、"Don't Panic"等概念成为设计师和程序员群体的文化密码\n• 这本书启发了无数后来的科幻视觉设计——从1984年 Infocom 的文字冒险游戏到2005年的电影版`,
+    significance: '这个封面的真正意义在于一次大胆的跨界：Hipgnosis 把摇滚唱片封面的视觉能量带入了出版设计。在1979年，大多数科幻小说的封面还停留在写实插画阶段——飞船、星球、英雄人物。而 Hipgnosis 选择了纯粹的抽象视觉冲击，用迷幻的色彩和字体的雕塑感来传达一种氛围而非叙事。这个决定证明了：**书的封面不需要"说明"内容，它需要"传达"内容的灵魂。** 这一理念深刻影响了此后几十年的书籍封面设计。',
+
+    dateConnection_en: "March 11, 1952 — Douglas Adams was born in Cambridge, England. Twenty-seven years later, his novel *The Hitchhiker's Guide to the Galaxy* was published by Pan Books — with a cover designed by the legendary Hipgnosis and illustrator Ian Wright, creating one of the most recognizable visual icons in sci-fi graphic design history.",
+    designerBio_en: `**Hipgnosis** is one of the most legendary names in British graphic design history. Founded by Storm Thorgerson and Aubrey Powell in 1968, they designed over 400 album covers for rock giants including Pink Floyd, Led Zeppelin, Genesis, and Peter Gabriel — fundamentally elevating album art from an afterthought to an independent art form.
+
+**Ian Wright** is a British illustrator known for his bold color experiments and collage techniques. His work spans graphic design, illustration, and art installations, all marked by extraordinary visual impact.
+
+The collaboration of these two forces gave Douglas Adams's novel — adapted from a BBC radio series — a perfect visual shell: Hipgnosis's signature psychedelic surrealism merged with Wright's explosive color language, producing a cover you simply couldn't walk past.`,
+    story_en: `In 1979, Pan Books published Douglas Adams's *The Hitchhiker's Guide to the Galaxy* in paperback. The novel was adapted from Adams's radio series for BBC Radio 4, which had already built a devoted following in Britain.
+
+**The publisher made a bold decision: they commissioned Hipgnosis to design the cover.**
+
+This was extraordinary at the time. Hipgnosis were the house designers of rock and roll — their name was synonymous with Pink Floyd's *Dark Side of the Moon*, *Wish You Were Here*, and *Animals*. Hiring them for a sci-fi comedy novel meant importing the visual standards of the record industry into publishing.
+
+The cover itself is a visual explosion: **translucent rainbow-colored vertical stripes wash across the entire surface, while massive deep-red three-dimensional letters spelling "THE HITCHHIKER'S GUIDE TO THE GALAXY" dominate the frame**. The typography carries a pronounced 3D effect with dramatic shadows, as if emerging from psychedelic columns of light. The bottom simply reads "DOUGLAS ADAMS" and "Based on the famous Radio series."
+
+This design precisely captured the book's soul: **it looked nothing like a "proper" sci-fi novel cover** — no spaceships, no aliens, no planets. Instead, it offered a pure visual experience — psychedelic, bold, tinged with absurdity — just like the book itself. The cover declared: "This is not the kind of sci-fi you're expecting."
+
+**The result was one of the most successful cover designs in publishing history.** The book sold over 250,000 paperback copies in the UK alone, with the cover's visual impact playing no small part. It made countless non-sci-fi readers reach for the book — which is exactly what a great cover design should accomplish.`,
+    legacy_en: `• Hipgnosis designed covers for over 400 albums and books, widely recognized as the design legends who elevated album art to an independent art form\n• This cover helped transform *The Hitchhiker's Guide* from a radio series fan favorite into a global cultural phenomenon\n• Pioneered the cross-pollination of rock album visual language into book cover design\n• The Pan Books first edition remains one of the most sought-after sci-fi paperbacks among collectors\n• Douglas Adams's concepts — "42," "Don't Panic" — became cultural codes among designers and programmers worldwide\n• The book inspired countless subsequent sci-fi visual designs, from Infocom's 1984 text adventure game to the 2005 film adaptation`,
+    significance_en: "The true significance of this cover lies in a bold act of cross-pollination: Hipgnosis brought the visual energy of rock album covers into publishing design. In 1979, most sci-fi novel covers were still stuck in the realist illustration tradition — spaceships, planets, heroic figures. Hipgnosis chose pure abstract visual impact instead, using psychedelic color and sculptural typography to convey an atmosphere rather than a narrative. This decision proved that **a book cover doesn't need to 'illustrate' the content — it needs to transmit the content's soul.** This idea profoundly influenced book cover design for decades to come.",
+  },
+
 
 ]
 
