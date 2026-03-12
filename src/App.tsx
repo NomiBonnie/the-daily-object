@@ -257,17 +257,17 @@ function App() {
           {title}
         </h2>
         {subtitle && (
-          <p className="text-lg font-light text-neutral-600 dark:text-neutral-400">
+          <p className="text-xl font-light text-neutral-600 dark:text-neutral-400">
             {subtitle}
           </p>
         )}
         {/* Category + Date inline with title group */}
         <div className="flex items-center gap-3 pt-2">
-          <p className="text-xs font-medium tracking-[0.2em] uppercase" style={{ color: categoryColors[design.category] }}>
+          <p className="text-sm font-medium tracking-[0.2em] uppercase" style={{ color: categoryColors[design.category] }}>
             {categoryLabels[design.category]}
           </p>
           <span className="text-neutral-300 dark:text-neutral-600">·</span>
-          <p className="text-xs font-light tracking-[0.15em] uppercase text-neutral-400 dark:text-neutral-500">
+          <p className="text-sm font-light tracking-[0.15em] uppercase text-neutral-400 dark:text-neutral-500">
             {format(new Date(design.date), 'MMMM dd, yyyy')}
           </p>
         </div>
@@ -275,7 +275,7 @@ function App() {
 
       {/* Tags */}
       {((lang === 'en' && design.tags_en?.length) || (lang !== 'en' && design.tags?.length)) && (
-        <p className="text-xs font-light text-neutral-400 dark:text-neutral-500 !mt-3">
+        <p className="text-sm font-light text-neutral-400 dark:text-neutral-500 !mt-3">
           {(lang === 'en' ? design.tags_en! : design.tags!).map((tag, i, arr) => (
             <span key={i}>
               {tag}{i < arr.length - 1 && <span className="mx-1.5">·</span>}
@@ -304,46 +304,46 @@ function App() {
 
       {/* 1. The Story of Design - no top border after image */}
       <div>
-        <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
+        <p className="text-sm font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
           {lang === 'en' ? 'The Story Behind' : '作品故事'}
         </p>
-        <RenderText text={story} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
+        <RenderText text={story} className="text-base font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
 
       {/* 2. The Designer */}
       <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
-        <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
+        <p className="text-sm font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
           {lang === 'en' ? 'About The Designer' : '关于创作者'}
         </p>
-        <RenderText text={designerBio} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
+        <RenderText text={designerBio} className="text-base font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
 
       {/* 3. Legacy */}
       {legacy && (
         <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
-          <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
+          <p className="text-sm font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
             {lang === 'en' ? 'Legacy & Influence' : '影响与传承'}
           </p>
-          <RenderText text={legacy} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
+          <RenderText text={legacy} className="text-base font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
         </div>
       )}
 
       {/* 4. Significance */}
       {significance && (
         <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
-          <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
+          <p className="text-sm font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
             {lang === 'en' ? 'What It Means' : '设计的意义'}
           </p>
-          <RenderText text={significance} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
+          <RenderText text={significance} className="text-base font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
         </div>
       )}
 
       {/* 5. Why Today */}
       <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800">
-        <p className="text-xs font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
+        <p className="text-sm font-medium tracking-[0.2em] uppercase text-neutral-500 dark:text-neutral-500 mb-4">
           {lang === 'en' ? 'Why Today' : '今天的理由'}
         </p>
-        <RenderText text={dateConnection} className="text-sm font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
+        <RenderText text={dateConnection} className="text-base font-light leading-relaxed text-neutral-700 dark:text-neutral-300" />
       </div>
 
       {/* Prev / Next Navigation */}
@@ -352,7 +352,7 @@ function App() {
           {prev ? (
             <button
               onClick={() => navigateToDesign(prev)}
-              className="flex items-center gap-2 text-sm font-light text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 transition-colors"
+              className="flex items-center gap-2 text-base font-light text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 transition-colors"
             >
               <ChevronLeft className="w-4 h-4" />
               <span className="hidden sm:inline">{prev.title_en || prev.title}</span>
@@ -364,7 +364,7 @@ function App() {
           {next ? (
             <button
               onClick={() => navigateToDesign(next)}
-              className="flex items-center gap-2 text-sm font-light text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 transition-colors"
+              className="flex items-center gap-2 text-base font-light text-neutral-500 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 transition-colors"
             >
               <span className="hidden sm:inline">{next.title_en || next.title}</span>
               <span className="sm:hidden">Next</span>
@@ -391,7 +391,7 @@ function App() {
                 navigate('/')
                 window.scrollTo({ top: 0, behavior: 'smooth' })
               }}
-              className="text-base sm:text-xl font-light tracking-wide text-neutral-900 dark:text-neutral-100 whitespace-nowrap hover:opacity-70 transition-opacity"
+              className="text-lg sm:text-2xl font-light tracking-wide text-neutral-900 dark:text-neutral-100 whitespace-nowrap hover:opacity-70 transition-opacity"
             >
               THE DAILY OBJECT
             </button>
@@ -403,7 +403,7 @@ function App() {
                 className="w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
                 aria-label="Toggle language"
               >
-                <span className="text-xs sm:text-sm font-light text-neutral-600 dark:text-neutral-400">
+                <span className="text-sm sm:text-base font-light text-neutral-600 dark:text-neutral-400">
                   {lang === 'zh' ? 'EN' : 'CN'}
                 </span>
               </button>
@@ -427,7 +427,7 @@ function App() {
                     navigate('/')
                     window.scrollTo({ top: 0, behavior: 'smooth' })
                   }}
-                  className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-light tracking-wide transition-all ${
+                  className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-sm sm:text-base font-light tracking-wide transition-all ${
                     view === 'today'
                       ? 'bg-white dark:bg-neutral-700 text-neutral-900 dark:text-neutral-100 shadow-sm'
                       : 'text-neutral-500 dark:text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-300'
@@ -445,7 +445,7 @@ function App() {
                       setSelectedDate(new Date(todayDesign.date))
                     }
                   }}
-                  className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-light tracking-wide transition-all ${
+                  className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-sm sm:text-base font-light tracking-wide transition-all ${
                     view === 'archive'
                       ? 'bg-white dark:bg-neutral-700 text-neutral-900 dark:text-neutral-100 shadow-sm'
                       : 'text-neutral-500 dark:text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-300'
@@ -542,10 +542,10 @@ function App() {
                     const quote = quotes[Math.abs(seed) % quotes.length]
                     return (
                       <div className="flex flex-col items-center justify-center h-64 text-center px-8">
-                        <p className="italic text-neutral-300 dark:text-neutral-700 font-light text-sm leading-relaxed max-w-md">
+                        <p className="italic text-neutral-300 dark:text-neutral-700 font-light text-base leading-relaxed max-w-md">
                           "{quote.text}"
                         </p>
-                        <p className="text-neutral-300 dark:text-neutral-700 font-light text-xs mt-3">
+                        <p className="text-neutral-300 dark:text-neutral-700 font-light text-sm mt-3">
                           — {quote.author}
                         </p>
                       </div>
@@ -565,7 +565,7 @@ function App() {
             onClick={() => setLightboxOpen(false)}
           >
             <button
-              className="absolute top-4 right-4 z-10 w-14 h-14 flex items-center justify-center text-white/80 hover:text-white text-3xl transition-colors rounded-full"
+              className="absolute top-4 right-4 z-10 w-14 h-14 flex items-center justify-center text-white/80 hover:text-white text-4xl transition-colors rounded-full"
               style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8)' }}
               onClick={() => setLightboxOpen(false)}
             >
@@ -589,12 +589,12 @@ function App() {
       {/* Footer */}
       <footer className="border-t border-neutral-200 dark:border-neutral-800 py-8 px-6 sm:px-8">
         <div className="max-w-screen-xl mx-auto text-center">
-          <p className="text-xs font-light tracking-wide text-neutral-400 dark:text-neutral-600">
+          <p className="text-sm font-light tracking-wide text-neutral-400 dark:text-neutral-600">
             Sanono Studio • World-class design, one object at a time
           </p>
           <Link
             to="/design-principles"
-            className="inline-block mt-3 text-xs font-light tracking-[0.15em] uppercase text-neutral-300 dark:text-neutral-700 hover:text-neutral-500 dark:hover:text-neutral-500 transition-colors"
+            className="inline-block mt-3 text-sm font-light tracking-[0.15em] uppercase text-neutral-300 dark:text-neutral-700 hover:text-neutral-500 dark:hover:text-neutral-500 transition-colors"
           >
             Design Principles
           </Link>

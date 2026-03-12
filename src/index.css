@@ -25,7 +25,7 @@
 }
 
 .luxury-calendar .react-calendar__navigation button {
-  @apply text-neutral-900 dark:text-neutral-100 min-w-[44px] bg-transparent hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-lg transition-colors font-light text-sm;
+  @apply text-neutral-900 dark:text-neutral-100 min-w-[44px] bg-transparent hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-lg transition-colors font-light text-base;
 }
 
 .luxury-calendar .react-calendar__navigation button:disabled {
@@ -33,7 +33,7 @@
 }
 
 .luxury-calendar .react-calendar__month-view__weekdays {
-  @apply text-xs tracking-widest uppercase text-neutral-400 dark:text-neutral-600 font-light mb-4;
+  @apply text-sm tracking-widest uppercase text-neutral-400 dark:text-neutral-600 font-light mb-4;
 }
 
 .luxury-calendar .react-calendar__month-view__weekdays__weekday {
@@ -50,7 +50,7 @@
 
 /* Base tile */
 .luxury-calendar .react-calendar__tile {
-  @apply aspect-square flex items-center justify-center p-0 rounded-lg transition-all font-light text-sm;
+  @apply aspect-square flex items-center justify-center p-0 rounded-lg transition-all font-light text-base;
   min-height: 48px;
   background-color: transparent !important;
 }
