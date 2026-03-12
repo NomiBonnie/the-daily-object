@@ -391,7 +391,7 @@ function App() {
                 navigate('/')
                 window.scrollTo({ top: 0, behavior: 'smooth' })
               }}
-              className="text-lg sm:text-2xl font-light tracking-wide text-neutral-900 dark:text-neutral-100 whitespace-nowrap hover:opacity-70 transition-opacity"
+              className="text-base sm:text-xl font-light tracking-wide text-neutral-900 dark:text-neutral-100 whitespace-nowrap hover:opacity-70 transition-opacity"
             >
               THE DAILY OBJECT
             </button>
@@ -403,7 +403,7 @@ function App() {
                 className="w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
                 aria-label="Toggle language"
               >
-                <span className="text-sm sm:text-base font-light text-neutral-600 dark:text-neutral-400">
+                <span className="text-xs sm:text-sm font-light text-neutral-600 dark:text-neutral-400">
                   {lang === 'zh' ? 'EN' : 'CN'}
                 </span>
               </button>
@@ -427,7 +427,7 @@ function App() {
                     navigate('/')
                     window.scrollTo({ top: 0, behavior: 'smooth' })
                   }}
-                  className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-sm sm:text-base font-light tracking-wide transition-all ${
+                  className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-light tracking-wide transition-all ${
                     view === 'today'
                       ? 'bg-white dark:bg-neutral-700 text-neutral-900 dark:text-neutral-100 shadow-sm'
                       : 'text-neutral-500 dark:text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-300'
@@ -445,7 +445,7 @@ function App() {
                       setSelectedDate(new Date(todayDesign.date))
                     }
                   }}
-                  className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-sm sm:text-base font-light tracking-wide transition-all ${
+                  className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-light tracking-wide transition-all ${
                     view === 'archive'
                       ? 'bg-white dark:bg-neutral-700 text-neutral-900 dark:text-neutral-100 shadow-sm'
                       : 'text-neutral-500 dark:text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-300'
