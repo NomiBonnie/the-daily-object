@@ -4785,6 +4785,62 @@ The museum opened on August 3, 1830. It became the seed of Berlin's Museum Islan
     significance_en: "The Altes Museum's revolution was architectural democracy. For the first time, a building declared through its very form that knowledge belongs to everyone. Before Schinkel, museums were appendages of palaces; after him, they became the spiritual centers of cities. Those 18 columns aren't just structure — they're an invitation, welcoming every citizen to stand as equals before humanity's cultural treasures. This idea of 'architecture as democratic statement' defined the DNA of modern public cultural buildings.",
   },
 
+  {
+    id: '43',
+    date: '2026-03-14',
+    imageUrl: '/the-daily-object/images/strandbeest.jpg',
+    fullImageUrl: '/the-daily-object/images/full/strandbeest.jpg',
+    title: '仿生海滩兽',
+    title_en: 'Strandbeest',
+    subtitle: 'Theo Jansen, 1990–present',
+    subtitle_en: 'Theo Jansen, 1990–present',
+    category: 'art',
+    designer: 'Theo Jansen',
+    year: '1990',
+    tags: ['动力学雕塑之父', '艺术与工程的融合', '人造生命先驱'],
+    tags_en: ['Father of Kinetic Sculpture', 'Art-Engineering Fusion', 'Artificial Life Pioneer'],
+
+    dateConnection: '1948年3月14日，Theo Jansen 出生于荷兰海牙的海滨区斯海弗宁恩（Scheveningen）。这个在海滩边长大的男孩，后来创造了世界上最令人惊叹的"海滩生物"。',
+    designerBio: `Theo Jansen（1948– ）是荷兰艺术家和动力学雕塑家，被称为"现代的达芬奇"。他在代尔夫特理工大学学习物理，但1974年未完成学位便离开——因为他的兴趣在科学与艺术的交汇处，而非单一学科之内。
+
+离开大学后，Jansen 做过许多惊人的"跨界实验"。1979年，他用PVC管和氦气造了一个4米宽的飞碟，在代尔夫特上空放飞。天色朦胧时，飞碟会发光发声，甚至有警察声称它有30米宽。这个飞碟从未被找到，Jansen 怀疑它"大概降落在了比利时某处"。
+
+他还发明了一台"绘画机器"——用光电管感知人的轮廓，自动喷漆创作剪影画。但真正让他名垂青史的，是1990年开始的那个疯狂项目。`,
+    story: `**1990年，Theo Jansen 做了一个决定：用黄色PVC水管创造一种全新的生命形式。**
+
+他称它们为"Strandbeest"——荷兰语里的"海滩兽"。这些巨大的、骨骼般的结构完全由塑料管和塑料瓶组成，没有马达，没有电池，**只靠风力就能在海滩上行走**。
+
+这个项目的起点是一篇关于海平面上升的文章。Jansen 想：如果能制造一种动物，在海滩上不断推沙，或许可以加固海岸线。这个"实用"的初衷很快演变成了一场持续三十多年的造物狂想。
+
+**Jansen 发现了一组神奇的数字——被后人称为"Jansen 连杆"（Jansen Linkage）。** 这13个精确比例的数值，让PVC管组成的"腿"能模拟出令人毛骨悚然的自然步态。看Strandbeest行走，你会忘记它是塑料管——它就像一个活物，笨拙而优雅地踏过沙滩。
+
+**最惊人的是进化。** Jansen 把生物学的概念引入创作：每一代Strandbeest都有名字和"生命周期"。早期的"物种"只能被风推着走；后来的"物种"能储存风能（用塑料瓶压缩空气），在无风时自主行走；更先进的一代甚至能感知海水和障碍物，自动改变方向。**它们真的在"进化"。**
+
+Jansen 自己说过一句被广泛引用的话：**"艺术与工程之间的墙，只存在于我们的脑海中。"**`,
+    legacy: `• Strandbeest 是21世纪最具标志性的动力学艺术作品，在全球数十个国家展出\n• "Jansen 连杆"被写入工程教科书，成为机械运动学的经典案例\n• TED演讲、BMW广告、纪录片使 Strandbeest 突破艺术圈进入大众文化\n• 直接启发了一代设计师和工程师重新思考"设计是什么"\n• Strandbeest 被 MoMA、旧金山探索馆等顶级机构收藏或展出\n• 证明了最好的设计不需要高科技——PVC管和风就够了`,
+    significance: 'Strandbeest 的颠覆性在于：它让"设计"和"生命"的边界变得模糊。传统设计创造物品，Jansen 创造了一种存在方式。没有电路、没有代码、没有智能芯片——只有塑料管、风和一组完美的数学比例。当你看到这些巨大的骨架在海风中缓缓迈步，你会问自己一个深刻的问题：**如果它能行走、能感知、能"进化"——它算不算活着？** 这不仅是设计史上最浪漫的项目，也是对"何为生命"最优美的追问。',
+
+    dateConnection_en: 'On March 14, 1948, Theo Jansen was born in Scheveningen, a seaside district of The Hague, Netherlands. The boy who grew up by the beach would one day create the world\'s most astonishing "beach creatures."',
+    designerBio_en: `Theo Jansen (1948– ) is a Dutch artist and kinetic sculptor often called "a modern-day Leonardo da Vinci." He studied physics at Delft University of Technology but left in 1974 without a degree — his interests lay at the intersection of science and art, not within a single discipline.
+
+After leaving university, Jansen pursued extraordinary cross-disciplinary experiments. In 1979, he built a 4-meter-wide flying saucer from PVC tubes and helium, launching it over Delft. On a hazy day, the glowing, humming saucer caused such a stir that police claimed it was 30 meters wide. It was never recovered — Jansen suspects "it probably landed somewhere in Belgium."
+
+He also invented a "painting machine" that used photosensors to detect human silhouettes and automatically spray-paint portraits. But what truly secured his place in history was a mad project that began in 1990.`,
+    story_en: `**In 1990, Theo Jansen made a decision: to create an entirely new form of life out of yellow PVC tubing.**
+
+He called them "Strandbeest" — Dutch for "beach beast." These enormous, skeletal structures are built entirely from plastic tubes and bottles, with no motors, no batteries — **they walk on beaches powered by nothing but wind.**
+
+The project began with an article about rising sea levels. Jansen imagined creating creatures that could continuously push sand to reinforce coastlines. This "practical" origin quickly evolved into a three-decade odyssey of creation.
+
+**Jansen discovered a magical set of numbers — now known as the "Jansen Linkage."** These 13 precisely calibrated ratios allow PVC tube "legs" to produce an eerily natural walking gait. Watching a Strandbeest walk, you forget it's made of plastic — it moves like a living thing, lumbering yet graceful across the sand.
+
+**The most astonishing part is evolution.** Jansen applies biological concepts to his creations: each generation of Strandbeest has a name and "life cycle." Early "species" could only be pushed by wind; later ones store wind energy (using compressed air in plastic bottles) to walk autonomously in calm weather; the most advanced can even sense water and obstacles, automatically changing direction. **They are genuinely evolving.**
+
+Jansen once said something widely quoted: **"The walls between art and engineering exist only in our minds."**`,
+    legacy_en: `• Strandbeest is the most iconic kinetic art of the 21st century, exhibited in dozens of countries worldwide\n• The "Jansen Linkage" is now a textbook case in mechanical kinematics\n• TED talks, BMW commercials, and documentaries brought Strandbeest from the art world into popular culture\n• Directly inspired a generation of designers and engineers to rethink what "design" means\n• Collected or exhibited by MoMA, San Francisco Exploratorium, and other leading institutions\n• Proved that the best design doesn't need high technology — PVC tubes and wind are enough`,
+    significance_en: "Strandbeest's disruption lies in blurring the boundary between design and life. Traditional design creates objects; Jansen created a mode of existence. No circuits, no code, no smart chips — just plastic tubes, wind, and a perfect set of mathematical ratios. When you watch these massive skeletons slowly stride through the sea breeze, you find yourself asking a profound question: **if it can walk, sense its environment, and 'evolve' — is it alive?** This is not only the most romantic project in design history, but also the most elegant inquiry into the nature of life itself.",
+  },
+
 
 ]
 
