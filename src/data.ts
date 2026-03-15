@@ -4841,6 +4841,66 @@ Jansen once said something widely quoted: **"The walls between art and engineeri
     significance_en: "Strandbeest's disruption lies in blurring the boundary between design and life. Traditional design creates objects; Jansen created a mode of existence. No circuits, no code, no smart chips — just plastic tubes, wind, and a perfect set of mathematical ratios. When you watch these massive skeletons slowly stride through the sea breeze, you find yourself asking a profound question: **if it can walk, sense its environment, and 'evolve' — is it alive?** This is not only the most romantic project in design history, but also the most elegant inquiry into the nature of life itself.",
   },
 
+  {
+    id: '44',
+    date: '2026-03-15',
+    imageUrl: '/the-daily-object/images/priester-matches.jpg',
+    fullImageUrl: '/the-daily-object/images/full/priester-matches.jpg',
+    title: 'Priester 火柴海报',
+    title_en: 'Priester Match Poster',
+    subtitle: 'Lucian Bernhard, 1906',
+    subtitle_en: 'Lucian Bernhard, 1906',
+    category: 'graphic',
+    designer: 'Lucian Bernhard',
+    year: '1906',
+    tags: ['现代海报设计鼻祖', '极简广告先驱', '改变了视觉传达'],
+    tags_en: ['Father of Modern Poster', 'Minimalist Advertising Pioneer', 'Transformed Visual Communication'],
+
+    dateConnection: `1883年3月15日，Lucian Bernhard 出生于德国斯图加特。这位后来彻底改变广告设计语言的人，在23岁时凭一张火柴海报震惊了整个柏林设计界。`,
+    designerBio: `Lucian Bernhard（1883–1972）是20世纪最具影响力的平面设计师之一。他不仅创造了 Sachplakat（物品海报）这一全新设计流派，还设计了超过35款经典字体（包括 Bernhard Gothic 和 Lucian），以及无数商标、包装和室内设计作品。
+
+少年时代的 Bernhard 在慕尼黑玻璃宫看到了 Chéret、Toulouse-Lautrec 和 Mucha 的海报展，据他回忆，自己"醉在色彩中走出了展厅"。但他没有追随Art Nouveau的繁复，而是走向了相反的方向——**极致的简洁**。
+
+1922年移居纽约后，他为 Cat's Paw、Ex-Lax 等美国品牌设计了大量广告和商标，将欧洲现代主义的简洁理念带入了美国商业设计。`,
+    story: `**1906年，23岁的 Bernhard 参加了柏林 Priester 火柴公司的海报设计竞赛。这次比赛改写了设计史。**
+
+当时的广告海报充斥着繁复的装饰、冗长的文字和复杂的构图。Bernhard 的初稿也不例外——他画了一张桌子，上面摆着烟灰缸、雪茄、台布，旁边是一盒火柴。但他越看越不满意，开始一层层地剥离元素：去掉了桌子，去掉了烟灰缸，去掉了雪茄……
+
+**最后只剩下两根火柴和一个词：Priester。**
+
+深棕色背景上，两根火柴头部燃烧着橘红色的火焰，底部是粗体的品牌名。没有装饰，没有故事，没有说教——只有产品本身。
+
+评委 Ernst Growald 一眼看中了这张海报，据说他激动地喊道："这就是未来的海报！"
+
+这张海报开创了 **Sachplakat**（物品海报/Object Poster）运动：广告只需要展示产品本身和品牌名，其余全部删掉。这个理念在一百年后的今天看来理所当然，但在1906年，它是一场革命。
+
+**Bernhard 不是在做减法，他是在发明一种新的视觉语言。**`,
+    legacy: `• 开创了 Sachplakat（物品海报）运动，被誉为"现代平面设计的分水岭"\n• 直接影响了后来的包豪斯、瑞士国际主义风格等设计运动\n• 设计了超过35款字体，Bernhard Gothic 至今仍在使用\n• 从海报到字体、商标、包装、家具、室内设计，是真正的全能设计师\n• AIGA（美国平面设计协会）授予他 Medal 终身成就奖\n• 证明了"少即是多"不是口号，而是一种可操作的设计方法`,
+    significance: `Priester 火柴海报的革命性在于：它第一次证明了**广告不需要说服，只需要展示**。在一个信息过载的时代——无论是1906年还是2026年——这个洞察都无比珍贵。Bernhard 用两根火柴和一个单词，定义了现代广告设计的核心原则：去掉一切不必要的东西，直到剩下的每一个元素都不可或缺。从 Apple 的白色背景产品照到 Nike 的 Swoosh，今天所有极简广告的基因都可以追溯到1906年柏林的那张火柴海报。`,
+
+    dateConnection_en: `On March 15, 1883, Lucian Bernhard was born in Stuttgart, Germany. At age 23, he would create a single match poster that shook the entire Berlin design world and invented a new visual language.`,
+    designerBio_en: `Lucian Bernhard (1883–1972) was one of the most influential graphic designers of the 20th century. He created the Sachplakat (object poster) movement, designed over 35 typefaces (including Bernhard Gothic and Lucian), and produced countless trademarks, packaging, and interior designs.
+
+As a teenager, Bernhard visited Munich's Glaspalast, where he saw posters by Chéret, Toulouse-Lautrec, and Mucha. He later recalled "walking drunk with color" through the exhibition. But instead of following Art Nouveau's ornamental excess, he turned in the opposite direction — **toward radical simplicity.**
+
+After moving to New York in 1922, he designed advertising and trademarks for American brands like Cat's Paw and Ex-Lax, bringing European modernist clarity to American commercial design.`,
+    story_en: `**In 1906, 23-year-old Bernhard entered a poster competition sponsored by the Priester Match Company in Berlin. That competition rewrote design history.**
+
+Advertising posters of the era were stuffed with ornamental details, lengthy copy, and complex compositions. Bernhard's first draft was no different — a table with an ashtray, cigars, a tablecloth, and a box of matches. But the more he looked at it, the more dissatisfied he became. He started stripping away elements one by one: the table, the ashtray, the cigars...
+
+**Until only two matches and one word remained: Priester.**
+
+Against a deep brown background, two matchsticks burn with orange-red flames. Below them, the brand name in bold type. No decoration, no narrative, no persuasion — just the product itself.
+
+Judge Ernst Growald spotted it immediately and reportedly exclaimed: "This is the poster of the future!"
+
+The poster launched the **Sachplakat** (Object Poster) movement: advertising needs only to show the product and the brand name — everything else should be removed. This idea seems obvious a century later, but in 1906, it was a revolution.
+
+**Bernhard wasn't just subtracting. He was inventing a new visual language.**`,
+    legacy_en: `• Launched the Sachplakat (Object Poster) movement, called "the watershed of modern graphic design"\n• Directly influenced Bauhaus, Swiss International Style, and subsequent design movements\n• Designed over 35 typefaces; Bernhard Gothic remains in use today\n• A true polymath — posters, type, trademarks, packaging, furniture, interior design\n• Awarded AIGA Medal for lifetime achievement\n• Proved that "less is more" isn't a slogan but an actionable design method`,
+    significance_en: "The Priester Match poster's revolution was proving that **advertising doesn't need to persuade — it just needs to show.** In an age of information overload — whether 1906 or 2026 — this insight is invaluable. With two matches and one word, Bernhard defined the core principle of modern advertising design: remove everything unnecessary until every remaining element is indispensable. From Apple's white-background product shots to Nike's Swoosh, the DNA of every minimalist ad today traces back to that match poster from 1906 Berlin.",
+  },
+
 
 ]
 
