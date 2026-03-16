@@ -4901,6 +4901,62 @@ The poster launched the **Sachplakat** (Object Poster) movement: advertising nee
     significance_en: "The Priester Match poster's revolution was proving that **advertising doesn't need to persuade — it just needs to show.** In an age of information overload — whether 1906 or 2026 — this insight is invaluable. With two matches and one word, Bernhard defined the core principle of modern advertising design: remove everything unnecessary until every remaining element is indispensable. From Apple's white-background product shots to Nike's Swoosh, the DNA of every minimalist ad today traces back to that match poster from 1906 Berlin.",
   },
 
+  {
+    id: '45',
+    date: '2026-03-16',
+    imageUrl: '/the-daily-object/images/beardsley-salome-climax.jpg',
+    fullImageUrl: '/the-daily-object/images/full/beardsley-salome-climax.jpg',
+    title: 'The Climax',
+    title_en: 'The Climax',
+    subtitle: 'Aubrey Beardsley, 1894',
+    subtitle_en: 'Aubrey Beardsley, 1894',
+    category: 'graphic' as const,
+    designer: 'Aubrey Beardsley',
+    year: '1894',
+    tags: ['Art Nouveau 视觉先驱', '颠覆了插画语言', '黑白美学巅峰'],
+    tags_en: ['Art Nouveau Visual Pioneer', 'Revolutionized Illustration', 'Peak of Black & White Aesthetics'],
+
+    dateConnection: `1898年3月16日，Aubrey Beardsley 在法国芒通（Menton）病逝，年仅25岁。这位"维多利亚时代最危险的艺术家"在不到七年的创作生涯里，彻底改写了西方插画和平面设计的视觉语言。`,
+    designerBio: `Aubrey Beardsley（1872–1898）是英国插画家和作家，Art Nouveau 运动最具标志性的视觉创造者之一。他18岁开始学画，19岁拜访了自己的偶像 Edward Burne-Jones，对方看完作品后震惊地说："我很少或从未给出这样的建议——你绝对应该以此为业。"
+
+Beardsley 深受日本浮世绘版画影响，尤其是歌麿和广重的作品。他将东方线条的精妙与西方唯美主义的颓废融合，创造出一种前所未有的黑白视觉风格：**极端对比、流动的曲线、大面积留白与密集装饰的戏剧性并置。**
+
+他的风格在维多利亚时代的英国引起了巨大争议——太过大胆、太过情色、太过现代。但正是这种激进的美学，让他成为从 Art Nouveau 到现代平面设计之间最关键的桥梁人物。`,
+    story: `**1894年，22岁的 Beardsley 为奥斯卡·王尔德（Oscar Wilde）的戏剧《莎乐美》（Salomé）创作了一组插画，震惊了整个欧洲艺术界。**
+
+《莎乐美》本身已经够惊世骇俗——王尔德用法语写了这部独幕剧，讲述了莎乐美爱上施洗者约翰、最终吻了他被砍下的头颅的故事。Beardsley 的插画不仅匹配了文本的黑暗与情色，甚至超越了它。
+
+**《The Climax》是这组插画中最著名的一幅。** 莎乐美悬浮在空中，双手捧起约翰的头颅，即将亲吻。她的长发如黑色瀑布向下流淌，与从断颈涌出的血液融为一体。整个画面只用黑白两色，却充满了令人窒息的张力。
+
+Beardsley 的革命性在于他的**减法**：没有透视、没有阴影、没有中间灰度——只有纯黑与纯白的极端对立。线条既精确又流动，装饰既繁复又克制。这种风格来自日本浮世绘，但被 Beardsley 转化为一种完全现代的视觉语言。
+
+**出版商 John Lane 看到插画后大为震惊，几度想撤掉最露骨的几幅。** 但 Beardsley 拒绝修改。最终这些插画与王尔德的文本一起出版，立即成为世纪末欧洲最具争议也最受追捧的艺术品之一。
+
+仅仅四年后，1898年3月16日，25岁的 Beardsley 死于肺结核。他在临终前给出版商写信，恳求"销毁所有淫秽的画作"。万幸的是，这个请求被忽略了。`,
+    legacy: `• 定义了 Art Nouveau 运动的视觉语言，被誉为"线条的莫扎特"\n• 直接影响了维也纳分离派（Klimt）、装饰艺术运动、以及整个20世纪平面设计\n• 革新了书籍插画的地位——从文字附庸变成独立的艺术形式\n• 对日本浮世绘的创造性转化，开创了东西方视觉融合的先河\n• 1960年代摇滚海报设计（迷幻艺术）直接致敬 Beardsley 风格\n• 仅25年的生命，却在设计史上留下了永久的印记`,
+    significance: `Beardsley 的《莎乐美》插画代表了一个激进的美学主张：**黑白两色足以创造一个完整的情感宇宙。** 在一个沉迷于学院派油画和照相写实的时代，他证明了最简单的工具——笔与墨——可以产生最强烈的视觉冲击。他的极端对比、流动线条和东方美学影响，从 Art Nouveau 一路延伸到包豪斯、国际主义风格、直至今天的黑白极简设计。每一个使用大面积留白和精确线条的设计师，都在某种程度上继承着 Beardsley 的遗产。`,
+
+    dateConnection_en: `On March 16, 1898, Aubrey Beardsley died in Menton, France, at just 25 years old. In a career spanning barely seven years, this "most dangerous artist of the Victorian era" completely rewrote the visual language of Western illustration and graphic design.`,
+    designerBio_en: `Aubrey Beardsley (1872–1898) was an English illustrator and author, one of the most iconic visual creators of the Art Nouveau movement. He began drawing at 18, and at 19 visited his idol Edward Burne-Jones, who was so stunned by his portfolio that he said: "I seldom or never advise anyone to take up art as a profession — but in your case I can do nothing else."
+
+Deeply influenced by Japanese ukiyo-e prints, especially the works of Utamaro and Hiroshige, Beardsley fused Eastern linear elegance with Western Aestheticism's decadence, creating an unprecedented black-and-white visual style: **extreme contrast, flowing curves, and a dramatic juxtaposition of vast white space against dense ornamentation.**
+
+His style was hugely controversial in Victorian England — too bold, too erotic, too modern. But it was precisely this radical aesthetic that made him the most critical bridge figure between Art Nouveau and modern graphic design.`,
+    story_en: `**In 1894, 22-year-old Beardsley created a series of illustrations for Oscar Wilde's play Salomé that shocked the entire European art world.**
+
+Salomé was already scandalous enough — Wilde wrote this one-act play in French, telling the story of Salome's obsessive love for John the Baptist and her final kiss on his severed head. Beardsley's illustrations didn't just match the text's darkness and eroticism — they exceeded it.
+
+**"The Climax" is the most famous illustration in the series.** Salome floats in midair, holding John's severed head in both hands, about to kiss it. Her hair cascades downward like a black waterfall, merging with the blood flowing from the severed neck. Using only black and white, the image creates a suffocating tension.
+
+Beardsley's revolution was one of **subtraction**: no perspective, no shadows, no gray tones — only the extreme opposition of pure black and pure white. Lines are both precise and fluid; ornamentation is both elaborate and restrained. This style drew from Japanese woodblock prints but was transformed by Beardsley into a completely modern visual language.
+
+**Publisher John Lane was so shocked by the illustrations that he repeatedly considered pulling the most explicit ones.** But Beardsley refused to modify them. The illustrations were ultimately published alongside Wilde's text and immediately became one of the most controversial and sought-after artworks of fin-de-siècle Europe.
+
+Just four years later, on March 16, 1898, Beardsley died of tuberculosis at 25. In his final letter to his publisher, he begged: "Destroy all copies of Lysistrata and all obscene drawings." Fortunately, that request was ignored.`,
+    legacy_en: `• Defined the visual language of Art Nouveau, earning the title "the Mozart of the line"\n• Directly influenced the Vienna Secession (Klimt), Art Deco, and 20th-century graphic design as a whole\n• Elevated book illustration from textual supplement to independent art form\n• Pioneered the creative fusion of Eastern and Western visual aesthetics through his transformation of ukiyo-e\n• 1960s psychedelic rock poster design directly paid homage to Beardsley's style\n• Left a permanent mark on design history in just 25 years of life`,
+    significance_en: `Beardsley's Salomé illustrations represent a radical aesthetic proposition: **black and white alone can create an entire emotional universe.** In an era obsessed with academic oil painting and photorealism, he proved that the simplest tools — pen and ink — could produce the most powerful visual impact. His extreme contrast, flowing lines, and Eastern aesthetic influence extend from Art Nouveau through Bauhaus, International Style, to today's black-and-white minimalist design. Every designer who uses generous white space and precise linework is, in some way, inheriting Beardsley's legacy.`,
+  },
+
 
 ]
 
