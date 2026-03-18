@@ -5014,6 +5014,54 @@ Pope endured relentless attacks during his lifetime. Modernists considered build
     significance_en: `The National Gallery's West Building is one of the highest achievements of 20th-century neoclassical architecture. In the 1930s, when modernism already dominated architectural discourse, Pope used pure classical language — perfect proportion, noble materials, solemn space — to prove that "traditional" does not mean "outdated." This building poses a design proposition that remains valid today: **great architecture doesn't need to chase trends. It needs a deep understanding of space, materials, and human nature.**`,
   },
 
+  {
+    id: '47',
+    date: '2026-03-18',
+    imageUrl: '/the-daily-object/images/tamara-green-bugatti.jpg',
+    fullImageUrl: '/the-daily-object/images/full/tamara-green-bugatti.jpg',
+    title: 'Autoportrait (Tamara in the Green Bugatti)',
+    title_en: 'Autoportrait (Tamara in the Green Bugatti)',
+    subtitle: 'Tamara de Lempicka, 1929',
+    subtitle_en: 'Tamara de Lempicka, 1929',
+    category: 'art' as const,
+    designer: 'Tamara de Lempicka',
+    year: '1929',
+    tags: ['Art Deco 美学巅峰', '定义了时代女性形象', '绘画与设计的交汇'],
+    tags_en: ['Peak of Art Deco Aesthetics', 'Defined the Modern Woman', 'Where Painting Meets Design'],
+
+    dateConnection: '1980年3月18日，Tamara de Lempicka 在墨西哥库埃纳瓦卡去世。遵照遗愿，她的骨灰被撒在波波卡特佩特火山口——连死亡都要戏剧性到极致，一如她笔下那些棱角分明的画面。',
+    designerBio: `Tamara de Lempicka（1898–1980）生于华沙一个富裕的波兰家庭，少女时代游历意大利，在佛罗伦萨和罗马的美术馆里完成了最初的视觉教育。1917年嫁给波兰律师 Tadeusz Łempicki，俄国革命后两人逃往巴黎。
+
+在巴黎，她师从立体派画家 André Lhote 和学院派画家 Maurice Denis，将文艺复兴的体量感、立体主义的几何切割与 Art Deco 的装饰光泽熔于一炉，创造出一种前所未有的绘画语言。她的客户名单就是一部 1920 年代欧洲上流社会名录：贵族、实业家、时尚杂志编辑。
+
+她不只是画家，更是自己最好的品牌设计师——精心经营公众形象，出入上流社交场，活成了自己画中那个冷峻、自信、不可征服的现代女性。`,
+    story: `1929年，德国时尚杂志《Die Dame》委托 Lempicka 为封面画一幅自画像。她选择把自己画在一辆绿色 Bugatti 跑车的驾驶座上——头戴皮帽，手套紧握方向盘，目光冰冷地直视观者。
+
+**这不是一幅普通的自画像，这是一份宣言。** 1929 年，女性独自驾驶跑车仍然是一件带有挑衅性的事。Lempicka 把自己画成速度、权力和欲望的化身。画面中没有背景、没有乘客、没有目的地——只有她和机器。
+
+技法上，这幅画集中了 Art Deco 绘画的全部精华：金属般的光泽、雕塑感的体积、锐利的几何轮廓、冷灰与翠绿的对比。每一寸皮肤都像被抛光的铬合金，每一条围巾的褶皱都像精密切割的钻石。
+
+讽刺的是，Lempicka 现实中并不拥有一辆 Bugatti。她开的是一辆黄色 Renault。**但这无关紧要——她画的不是现实，是一个她认为自己应该属于的世界。**`,
+    legacy: `• 这幅自画像成为 Art Deco 运动最广为人知的单幅图像之一，复制品遍布全球的海报、明信片和商品\n• 1970 年代 Art Deco 复兴运动中，Lempicka 从被遗忘中重新被发现，这幅画成为复兴的视觉符号\n• Madonna、Barbra Streisand、Jack Nicholson 等名人成为她作品的狂热收藏者\n• 她对女性力量感的视觉表达——冷峻、自主、不取悦——直接影响了后来的时尚摄影和平面设计\n• 2020年《Portrait de Marjorie Ferry》以 2130 万美元成交，刷新女性艺术家拍卖纪录`,
+    significance: `Tamara de Lempicka 证明了 Art Deco 不只是建筑和家具的风格——它是一种完整的视觉世界观。她的绘画把立体主义的结构逻辑与工业时代的材质美学结合，创造出一种既古典又未来的视觉语言。"绿色 Bugatti"自画像是这种语言的极致：它同时是肖像画、时尚图像、品牌宣言和女性主义声明。在设计史的语境中，它提出了一个至今有效的命题——**最好的视觉设计，永远是在塑造一种身份，而不只是描绘一个物体。**`,
+
+    dateConnection_en: 'On March 18, 1980, Tamara de Lempicka died in Cuernavaca, Mexico. Per her wishes, her ashes were scattered over the crater of the Popocatépetl volcano — even in death, she demanded drama worthy of her razor-sharp canvases.',
+    designerBio_en: `Tamara de Lempicka (1898–1980) was born into a wealthy Polish family in Warsaw. As a teenager, she traveled through Italy, receiving her earliest visual education in the museums of Florence and Rome. In 1917 she married Polish lawyer Tadeusz Łempicki; after the Russian Revolution, they fled to Paris.
+
+In Paris, she studied under Cubist painter André Lhote and Académie painter Maurice Denis, fusing Renaissance volumetric form, Cubist geometric fragmentation, and Art Deco decorative sheen into an unprecedented visual language. Her client list read like a directory of 1920s European high society: aristocrats, industrialists, fashion editors.
+
+She was not merely a painter but her own best brand designer — meticulously curating her public image, moving through elite social circles, and living as the very embodiment of the cool, confident, unconquerable modern woman she painted.`,
+    story_en: `In 1929, the German fashion magazine *Die Dame* commissioned Lempicka to paint a self-portrait for its cover. She chose to depict herself in the driver's seat of a green Bugatti — leather helmet on, gloved hands gripping the wheel, eyes ice-cold and locked on the viewer.
+
+**This was not an ordinary self-portrait. It was a manifesto.** In 1929, a woman driving a sports car alone was still a provocative act. Lempicka painted herself as the embodiment of speed, power, and desire. No background, no passenger, no destination — just her and the machine.
+
+Technically, the painting is a masterclass in Art Deco aesthetics: metallic sheen, sculptural volume, razor-sharp geometric contours, the interplay of cool grays and emerald greens. Every inch of skin gleams like polished chrome; every fold of the scarf is cut like a precision-faceted diamond.
+
+The irony: Lempicka never actually owned a Bugatti. She drove a yellow Renault. **But that was beside the point — she painted not reality, but the world she believed she belonged to.**`,
+    legacy_en: `• This self-portrait became one of the single most recognizable images of the Art Deco movement, reproduced on posters, postcards, and merchandise worldwide\n• During the 1970s Art Deco revival, Lempicka was rediscovered from obscurity, with this painting serving as the visual icon of the movement's return\n• Madonna, Barbra Streisand, and Jack Nicholson became avid collectors of her work\n• Her visual articulation of female power — cool, autonomous, unapologetic — directly influenced fashion photography and graphic design for decades\n• In 2020, her Portrait de Marjorie Ferry sold for $21.3 million, setting a then-record for a female artist at auction`,
+    significance_en: `Tamara de Lempicka proved that Art Deco was not merely a style for buildings and furniture — it was a complete visual worldview. Her paintings merged Cubism's structural logic with the material aesthetics of the machine age, creating a visual language that was simultaneously classical and futuristic. The "Green Bugatti" self-portrait is this language at its apex: at once a portrait, a fashion image, a brand statement, and a feminist declaration. In the context of design history, it poses a proposition that remains valid today — **the best visual design is always about shaping an identity, not merely depicting an object.**`,
+  },
+
 
 ]
 

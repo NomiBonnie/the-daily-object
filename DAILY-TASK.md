@@ -558,6 +558,7 @@ browser action=open → 用 → browser action=close
 | 03-04 | Instagram | Kevin Systrom & Mike Krieger | software |
 | 03-05 | Ball Clock | George Nelson | industrial |
 | 03-06 | David | Michelangelo | art |
+| 03-17 | National Gallery of Art, West Building | John Russell Pope | architecture |
 
 > 添加新内容后，请更新此索引。
 
