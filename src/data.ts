@@ -5062,6 +5062,46 @@ The irony: Lempicka never actually owned a Bugatti. She drove a yellow Renault. 
     significance_en: `Tamara de Lempicka proved that Art Deco was not merely a style for buildings and furniture — it was a complete visual worldview. Her paintings merged Cubism's structural logic with the material aesthetics of the machine age, creating a visual language that was simultaneously classical and futuristic. The "Green Bugatti" self-portrait is this language at its apex: at once a portrait, a fashion image, a brand statement, and a feminist declaration. In the context of design history, it poses a proposition that remains valid today — **the best visual design is always about shaping an identity, not merely depicting an object.**`,
   },
 
+  {
+    id: '48',
+    date: '2026-03-19',
+    imageUrl: '/the-daily-object/images/acdc-logo-let-there-be-rock.jpg',
+    fullImageUrl: '/the-daily-object/images/full/acdc-logo-let-there-be-rock.jpg',
+    title: 'AC/DC Logo',
+    title_en: 'AC/DC Logo',
+    subtitle: 'Gerard Huerta, 1977',
+    subtitle_en: 'Gerard Huerta, 1977',
+    category: 'music' as const,
+    designer: 'Gerard Huerta',
+    year: '1977',
+    tags: ['摇滚视觉符号', '字体设计经典', '流行文化图腾'],
+    tags_en: ['Iconic Rock Visual', 'Typographic Classic', 'Pop Culture Totem'],
+
+    dateConnection: '1952年3月19日，美国平面设计师 Gerard Huerta 出生于南加州。他为 AC/DC 设计的闪电 Logo 成为摇滚乐史上最具辨识度的视觉符号之一。',
+    designerBio: `Gerard Huerta 毕业于洛杉矶的 Art Center College of Design，随后进入纽约 CBS Records 担任唱片封面设计师。在那个摇滚乐封面即品牌的年代，他为 Boston、Ted Nugent、Blue Öyster Cult、AC/DC 等乐队创作了大量标志性字体和 Logo。
+
+离开 CBS 后，Huerta 成立了自己的工作室，客户名单横跨 HBO、TIME 杂志、AT&T、Pepsi 等顶级品牌。他的作品核心始终是手绘字体——每一个字母都经过精确的手工绘制，而非简单的字体排版。在数字化席卷一切的时代，他依然坚持手绘的精确与温度。`,
+    story: `1977年，Atlantic Records 委托 Huerta 为 AC/DC 的国际版专辑 *Let There Be Rock* 设计封面字体。当时 AC/DC 已经有了一个简陋的手写 Logo，但唱片公司想要更具冲击力的视觉标识。
+
+Huerta 从哥特式字体和闪电意象中汲取灵感，手绘出那组锐利、粗犷、带有电流感的字母。中间那道闪电——将"AC"与"DC"劈开又连接——成了整个设计的神来之笔。它不只是一个分隔符，而是交流电（AC）与直流电（DC）碰撞的视觉隐喻。
+
+**最令人惊讶的是，这个 Logo 只花了大约一天时间完成。** Huerta 后来回忆说，设计过程非常直觉化——他听了乐队的音乐，感受到那股原始的能量，然后让笔尖自然地把那种力量转化为线条。没有反复修改，没有委员会审批。一次成型，沿用至今将近半个世纪。`,
+    legacy: `• 这个 Logo 从1977年沿用至今，几乎未做任何修改，成为流行文化中辨识度最高的视觉符号之一\n• 全球累计印刷在超过2亿张专辑封面上，更不计其数地出现在T恤、海报、纹身上\n• 证明了一个伟大的 Logo 不需要复杂的设计流程——直觉、功力和对音乐的理解可以在一天内创造永恒\n• Huerta 的手绘字体风格影响了整整一代摇滚和金属乐队的视觉设计\n• 被 Rolling Stone、Billboard 等多家媒体评为"史上最伟大的摇滚 Logo"之一`,
+    significance: `AC/DC 的 Logo 是字体设计如何定义品牌的教科书案例。在摇滚乐的世界里，视觉标识往往和音乐本身同样重要——它是乐队精神的凝缩，是歌迷认同的图腾。Huerta 的设计精准地捕捉了 AC/DC 音乐的本质：粗犷、直接、充满电力感。那道闪电不是装饰，而是乐队名字本身含义的视觉翻译。这个案例提醒我们，最好的平面设计往往不是"设计"出来的，而是从对内容的深刻理解中自然生长出来的。`,
+
+    dateConnection_en: 'On March 19, 1952, American graphic designer Gerard Huerta was born in Southern California. His lightning-bolt logo for AC/DC became one of the most recognizable visual symbols in rock history.',
+    designerBio_en: `Gerard Huerta graduated from Art Center College of Design in Los Angeles and joined CBS Records in New York as an album cover designer. In an era when album art was brand identity, he created iconic lettering and logos for Boston, Ted Nugent, Blue Öyster Cult, AC/DC, and many more.
+
+After CBS, Huerta established his own studio, with clients spanning HBO, TIME magazine, AT&T, and Pepsi. His work has always centered on hand-drawn lettering — every character meticulously crafted by hand rather than set in a typeface. In an age of digital everything, he remains a master of the hand-drawn line.`,
+    story_en: `In 1977, Atlantic Records commissioned Huerta to design the cover typography for AC/DC's international edition of *Let There Be Rock*. The band already had a crude hand-lettered logo, but the label wanted something with more visual punch.
+
+Huerta drew inspiration from Gothic letterforms and lightning imagery, hand-drawing those sharp, brutal, electrically charged characters. The lightning bolt between "AC" and "DC" — simultaneously splitting and connecting — became the stroke of genius. It wasn't just a separator; it was a visual metaphor for the collision of alternating and direct current.
+
+**The most astonishing part: the logo took roughly one day to complete.** Huerta later recalled that the process was entirely intuitive — he listened to the band's music, felt its raw energy, and let his pen translate that force into form. No rounds of revisions, no committee approvals. One take, and it has endured for nearly half a century.`,
+    legacy_en: `• The logo has remained virtually unchanged since 1977, becoming one of the most recognizable visual symbols in popular culture\n• Printed on over 200 million album covers worldwide, and countless more T-shirts, posters, and tattoos\n• Proved that a great logo doesn't require an elaborate design process — instinct, craft, and understanding of the subject can create something eternal in a single day\n• Huerta's hand-drawn lettering style influenced an entire generation of rock and metal band visual identities\n• Named one of the "greatest rock logos of all time" by Rolling Stone, Billboard, and other major publications`,
+    significance_en: `The AC/DC logo is a textbook case of how typography defines a brand. In rock music, visual identity is often as important as the music itself — it is the condensed spirit of the band, the totem of fan identity. Huerta's design captured the essence of AC/DC's sound with precision: raw, direct, electrically charged. The lightning bolt isn't decoration — it is the literal visual translation of the band's name. This case reminds us that the best graphic design often isn't "designed" at all, but grows naturally from a deep understanding of the content it serves.`,
+  },
+
 
 ]
 
