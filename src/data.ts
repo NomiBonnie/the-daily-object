@@ -5102,6 +5102,50 @@ Huerta drew inspiration from Gothic letterforms and lightning imagery, hand-draw
     significance_en: `The AC/DC logo is a textbook case of how typography defines a brand. In rock music, visual identity is often as important as the music itself — it is the condensed spirit of the band, the totem of fan identity. Huerta's design captured the essence of AC/DC's sound with precision: raw, direct, electrically charged. The lightning bolt isn't decoration — it is the literal visual translation of the band's name. This case reminds us that the best graphic design often isn't "designed" at all, but grows naturally from a deep understanding of the content it serves.`,
   },
 
+  {
+    id: '49',
+    date: '2026-03-20',
+    imageUrl: '/the-daily-object/images/animal-crossing-new-horizons.jpg',
+    fullImageUrl: '/the-daily-object/images/full/animal-crossing-new-horizons.jpg',
+    title: 'Animal Crossing: New Horizons',
+    title_en: 'Animal Crossing: New Horizons',
+    subtitle: '任天堂, 2020',
+    subtitle_en: 'Nintendo EPD, 2020',
+    category: 'software' as const,
+    designer: '任天堂企划制作本部',
+    year: '2020',
+    tags: ['游戏设计革命', '全民设计启蒙', '疫情时代文化符号'],
+    tags_en: ['Game Design Revolution', 'Design for Everyone', 'Pandemic-Era Icon'],
+
+    dateConnection: '2020年3月20日，任天堂在全球同步发售 Animal Crossing: New Horizons。这款游戏恰逢新冠疫情爆发初期，成为数百万人居家隔离期间的精神避风港，也让"人人都是设计师"从口号变成了现实。',
+    designerBio: `Animal Crossing 系列由任天堂企划制作本部（EPD）开发，总监野上恒负责整体方向，程序设计和美术团队数百人参与。系列从2001年的 N64 版本起步，核心设计哲学始终未变：没有输赢、没有终点、没有压力——只有一个温柔的小世界等你去经营。
+
+这种"反游戏"的设计思路在游戏行业中极为罕见。当所有3A大作都在追求更激烈的战斗、更刺激的剧情时，Animal Crossing 团队选择了相反的方向：慢节奏、日常感、温暖的社交互动。这不是偷懒，而是一种设计上的克制和勇气。`,
+    story: `New Horizons 的核心突破在于它把"设计"变成了游戏玩法本身。玩家不再只是装饰房间——你可以设计整座岛屿的地形、河流、悬崖、道路，每一棵树、每一朵花、每一件家具都可以精确放置和旋转。
+
+**真正的魔法是自定义设计系统。** 游戏内置的像素画编辑器让玩家可以创作自己的图案，然后把它应用到衣服、地板、墙壁、旗帜上。全球玩家在这个简单的工具中爆发了惊人的创造力：有人复刻了梵高的《星夜》做地毯，有人重建了整个京都鸭川的街景，还有建筑师在游戏里搭建了真实的建筑方案。
+
+疫情期间，这款游戏的意义远超娱乐。博物馆闭馆后，盖蒂博物馆推出了"动物森友会艺术生成器"，让玩家把馆藏名画导入游戏。时装品牌 Marc Jacobs 和 Valentino 在游戏中发布了虚拟时装系列。婚礼、毕业典礼、生日派对——现实中无法举办的仪式，在小岛上一一重现。
+
+**这不只是一款游戏的成功，而是"设计工具民主化"的里程碑。** 任天堂证明了：当你给普通人足够简单又足够灵活的设计工具时，每个人都有成为设计师的潜力。`,
+    legacy: `• 全球销量超过4400万份，成为 Switch 平台最畅销游戏之一\n• 疫情初期成为全球性的文化现象，"无人岛"成为社交隔离时代最温暖的隐喻\n• 博物馆（盖蒂、大都会）、时尚品牌（Marc Jacobs、Valentino）、政治竞选（拜登团队）纷纷在游戏中建立存在\n• 推动了"用户生成内容（UGC）"设计工具的普及，影响了后续的 Roblox、Fortnite Creative 等平台\n• 重新定义了"非竞技性游戏"的商业和文化价值，证明温柔也可以是一种力量`,
+    significance: `Animal Crossing: New Horizons 的设计意义在于它模糊了"使用者"和"设计者"的边界。传统设计工具——Photoshop、CAD、Figma——都有陡峭的学习曲线，只有受过训练的人才能使用。而任天堂用极其直觉化的交互设计，让一个8岁的孩子也能完成一座花园的景观设计、一件衣服的图案设计、一个房间的室内设计。这是设计工具史上的重要时刻：不是降低了设计的标准，而是降低了参与设计的门槛。在一个全球停摆的年份，它给了数百万人一个继续"创造美"的出口。`,
+
+    dateConnection_en: 'On March 20, 2020, Nintendo released Animal Crossing: New Horizons worldwide. Arriving at the onset of the COVID-19 pandemic, the game became a spiritual sanctuary for millions in lockdown — and turned "everyone is a designer" from slogan into reality.',
+    designerBio_en: `Animal Crossing is developed by Nintendo's Entertainment Planning & Development (EPD) division, directed by Aya Kyogoku and produced by Hisashi Nogami. Since the series debuted on N64 in 2001, its core design philosophy has remained unchanged: no winning, no losing, no endpoint, no pressure — just a gentle little world waiting to be shaped.
+
+This "anti-game" design ethos is exceptionally rare in the industry. While every AAA title chases more intense combat and more gripping narrative, the Animal Crossing team chose the opposite direction: slow pace, daily rhythms, warm social interaction. This isn't laziness — it's design restraint and courage.`,
+    story_en: `The core breakthrough of New Horizons was turning "design" itself into gameplay. Players no longer just decorated rooms — you could terraform entire islands, sculpting cliffs, rivers, paths, and placing every tree, flower, and piece of furniture with precision.
+
+**The real magic was the custom design system.** The in-game pixel art editor let players create their own patterns and apply them to clothing, flooring, wallpaper, and flags. The creativity that erupted from this simple tool was staggering: players recreated Van Gogh's *Starry Night* as rugs, rebuilt Kyoto's Kamogawa riverfront, and architects drafted real building proposals inside the game.
+
+During the pandemic, the game's significance transcended entertainment. After museums closed, the Getty launched an "Animal Crossing Art Generator" letting players import masterpieces into the game. Fashion houses Marc Jacobs and Valentino released virtual clothing lines. Weddings, graduation ceremonies, birthday parties — real-life rituals that couldn't happen were recreated on tiny islands.
+
+**This wasn't just a game's success — it was a milestone in the democratization of design tools.** Nintendo proved that when you give ordinary people tools that are simple enough yet flexible enough, everyone has the potential to be a designer.`,
+    legacy_en: `• Sold over 44 million copies worldwide, becoming one of the best-selling Switch titles\n• Became a global cultural phenomenon during early pandemic lockdowns — the "deserted island" became the warmest metaphor of social isolation\n• Museums (Getty, Met), fashion brands (Marc Jacobs, Valentino), and political campaigns (Biden team) all established presences in-game\n• Accelerated the mainstream adoption of user-generated content (UGC) design tools, influencing platforms like Roblox and Fortnite Creative\n• Redefined the commercial and cultural value of non-competitive games, proving that gentleness can be a form of power`,
+    significance_en: `The design significance of Animal Crossing: New Horizons lies in how it blurred the boundary between "user" and "designer." Traditional design tools — Photoshop, CAD, Figma — all have steep learning curves accessible only to trained professionals. Nintendo, through supremely intuitive interaction design, enabled an 8-year-old to complete landscape design for a garden, pattern design for clothing, and interior design for a room. This was a landmark moment in design tool history: not lowering the standard of design, but lowering the barrier to participation. In a year when the world stopped, it gave millions of people an outlet to keep creating beauty.`,
+  },
+
 
 ]
 
