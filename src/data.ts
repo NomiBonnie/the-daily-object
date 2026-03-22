@@ -5190,6 +5190,50 @@ Remarkably, Hofmann didn't close his school and commit fully to painting until 1
     significance_en: `Hofmann's core contribution to design and art lies in his systematic thinking about the relationship between color and space. "Push and Pull" theory influenced not only painting but permeated graphic design, interior design, and architectural color theory — any field that uses color to create spatial hierarchy can trace its foundations to Hofmann. He was that rare figure: someone who could both produce top-tier work and transmit his methodology to others. In a field that worships genius, Hofmann proved that great art can also be taught, learned, and passed on.`,
   },
 
+  {
+    id: '55',
+    date: '2026-03-22',
+    imageUrl: '/the-daily-object/images/greiman-sci-arc.jpg',
+    fullImageUrl: '/the-daily-object/images/full/greiman-sci-arc.jpg',
+    title: 'SCI-Arc 海报',
+    title_en: 'SCI-Arc Poster',
+    subtitle: 'April Greiman, 1986',
+    subtitle_en: 'April Greiman, 1986',
+    category: 'graphic' as const,
+    designer: 'April Greiman',
+    year: '1986',
+    tags: ['数字设计革命先驱', '加州新浪潮旗手', '打破平面设计边界'],
+    tags_en: ['Digital Design Revolution Pioneer', 'California New Wave Leader', 'Broke Graphic Design Boundaries'],
+
+    dateConnection: '1948年3月22日，April Greiman 出生于纽约。她后来成为第一批将 Macintosh 电脑引入专业设计领域的设计师，用像素和数字图层彻底改变了平面设计的制作方式与视觉语言。',
+    designerBio: `April Greiman 的设计生涯横跨模拟与数字两个时代，而她几乎是独自站在分水岭上的那个人。1970年代初她在瑞士巴塞尔学习，师从 Wolfgang Weingart——后现代排版的奠基人。Weingart 教会她打破瑞士国际风格的严格网格，但 Greiman 走得更远：她把这种解构精神带到了加州，然后又带进了电脑。
+
+1982年，第一台 Macintosh 还未正式发布时，Greiman 已经开始探索数字工具的设计可能性。当大多数设计师把电脑视为打字机的升级版时，她把像素本身变成了美学元素——故意暴露的锯齿边缘、叠加的数字图层、Quantel Paintbox 生成的渐变色彩，这些在今天看来理所当然的视觉手法，在1980年代中期是惊世骇俗的。`,
+    story: `这张 SCI-Arc（南加州建筑学院）海报创作于1986年，是 Greiman 数字设计美学的集大成之作。海报以"Changing Concepts of Space in Architecture and Art"为主题，为一系列建筑讲座做宣传。
+
+Greiman 在这张海报中展示了一种全新的视觉空间——传统的排版层级被完全解构，文字、图像、数字纹理和手绘元素在画面中自由漂浮。橙色、品红、蓝色、黄色层层叠加，航天飞机的图像与建筑平面图并置，像素化的点阵纹理与流畅的渐变色共存。整张海报看起来既像一个打开的窗口，又像一面被信息轰炸的屏幕。
+
+**这不是装饰，而是宣言。** 海报的主题是"空间概念的变化"，而 Greiman 用设计本身回应了这个命题：数字技术正在改变我们感知空间的方式，平面设计不再是二维的信息排列，而是一个多层次的数字景观。她把 Quantel Paintbox 生成的数字图像与传统印刷工艺融合，创造出一种前所未有的视觉深度。
+
+同年，她为《Design Quarterly》第133期设计的"Does It Make Sense?"更是石破天惊——她把整本杂志变成一张六英尺长的折叠海报，用 Macintosh 生成的自身裸体像素扫描图作为主视觉，宣告了数字时代平面设计的到来。`,
+    legacy: `• 被 V&A 博物馆永久收藏，是数字时代平面设计的标志性作品\n• Greiman 是 AIGA 金奖得主（1998），被公认为将数字技术引入平面设计的第一人\n• 她的"加州新浪潮"风格影响了整个1990年代的设计美学，从杂志版式到网页设计\n• 同年的"Does It Make Sense?"被《Eye》杂志列为20世纪最重要的平面设计作品之一\n• 证明了技术革新不只是工具升级，更是美学范式的根本转变`,
+    significance: `April Greiman 在设计史上的地位，等同于印象派之于绘画：她不是简单地用新工具做旧事，而是让新工具催生了全新的视觉语言。在她之前，电脑是设计的辅助工具；在她之后，数字成为设计的本体。SCI-Arc 海报和同期作品标志着一个时代的开端——平面设计从此进入了图层、透明度、像素美学的数字纪元，而这一切始于一个从瑞士来到阳光加州的女性设计师。`,
+
+    dateConnection_en: 'On March 22, 1948, April Greiman was born in New York. She would become one of the first designers to bring the Macintosh computer into professional design practice, fundamentally transforming how graphic design was made and what it could look like.',
+    designerBio_en: `April Greiman's career straddles the analog and digital eras, and she practically stood alone at the watershed. In the early 1970s she studied in Basel, Switzerland under Wolfgang Weingart — the godfather of postmodern typography. Weingart taught her to break the rigid grids of the Swiss International Style, but Greiman went further: she carried that deconstructive spirit to California, then into the computer.
+
+By 1982, before the first Macintosh had even shipped, Greiman was already exploring the design possibilities of digital tools. While most designers saw computers as glorified typewriters, she turned the pixel itself into an aesthetic element — deliberately exposed jagged edges, layered digital planes, Quantel Paintbox-generated color gradients. These visual techniques seem obvious today; in mid-1980s design, they were revolutionary.`,
+    story_en: `This SCI-Arc (Southern California Institute of Architecture) poster was created in 1986 and represents the culmination of Greiman's digital design aesthetic. Promoting a lecture series titled "Changing Concepts of Space in Architecture and Art," it became a manifesto in printed form.
+
+Greiman dismantled traditional typographic hierarchy entirely. Text, images, digital textures, and hand-drawn elements float freely across the composition. Orange, magenta, blue, and yellow layer upon one another; a space shuttle image sits alongside architectural plans; pixelated dot-matrix patterns coexist with smooth gradients. The poster reads simultaneously as an opened window and an information-bombarded screen.
+
+**This wasn't decoration — it was a declaration.** The lecture theme was "changing concepts of space," and Greiman answered with the design itself: digital technology was transforming how we perceive space, and graphic design was no longer a two-dimensional arrangement of information but a multi-layered digital landscape. She merged Quantel Paintbox-generated digital imagery with traditional print production, creating an unprecedented sense of visual depth.
+
+That same year, her "Does It Make Sense?" issue of *Design Quarterly* #133 went even further — she transformed an entire magazine into a single six-foot foldout poster featuring a pixelated full-body self-scan generated on a Macintosh, announcing the arrival of digital-age graphic design.`,
+    legacy_en: `• Permanently held in the V&A Museum's collection as a landmark of digital-era graphic design\n• Greiman received the AIGA Medal in 1998, widely recognized as the first designer to bring digital technology into professional graphic design\n• Her "California New Wave" style shaped 1990s design aesthetics from magazine layouts to early web design\n• The concurrent "Does It Make Sense?" was named by *Eye* magazine as one of the most important graphic design works of the 20th century\n• Proved that technological innovation isn't merely a tool upgrade — it's a fundamental paradigm shift in aesthetics`,
+    significance_en: `April Greiman's place in design history is analogous to the Impressionists' role in painting: she didn't simply use new tools to do old work, she let new tools generate an entirely new visual language. Before her, the computer was an auxiliary design tool; after her, digital became design's native medium. The SCI-Arc poster and its contemporaries mark the beginning of an era — graphic design entered the digital age of layers, transparency, and pixel aesthetics, all initiated by a woman designer who brought Swiss rigor to the California sun.`,
+  },
+
 
 ]
 
