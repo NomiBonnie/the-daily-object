@@ -4904,8 +4904,8 @@ The poster launched the **Sachplakat** (Object Poster) movement: advertising nee
 {
     id: '45',
     date: '2026-03-16',
-    imageUrl: '/the-daily-object/images/ipad-retina-display-2012.png',
-    fullImageUrl: '/the-daily-object/images/full/ipad-retina-display-2012.png',
+    imageUrl: '/the-daily-object/images/ipad-retina-display-2012.jpg',
+    fullImageUrl: '/the-daily-object/images/full/ipad-retina-display-2012.jpg',
     title: 'iPad with Retina Display',
     title_en: 'iPad with Retina Display',
     subtitle: 'Apple / Jony Ive, 2012',
