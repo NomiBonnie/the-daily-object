@@ -5241,6 +5241,70 @@ The iPod's design breakthrough wasn't any single technology but system-level int
     significance_en: `The iPod's design revolution wasn't about being a better MP3 player — it was about redefining the boundaries of "product." Before iPod, hardware companies sold hardware, software companies sold software, content companies sold content. iPod + iTunes + iTunes Music Store fused all three into one seamless experience. This paradigm — "a product is not an object but a system" — became the 21st century's most important design framework. From iPhone to Kindle to Tesla, every great product echoes iPod's core insight: **don't design a device — design a way of life.**`,
   },
 
+  {
+    id: '52',
+    date: '2026-03-23',
+    imageUrl: '/the-daily-object/images/juan-gris-portrait-of-picasso.jpg',
+    fullImageUrl: '/the-daily-object/images/full/juan-gris-portrait-of-picasso.jpg',
+    title: 'Portrait of Pablo Picasso',
+    title_en: 'Portrait of Pablo Picasso',
+    subtitle: 'Juan Gris, 1912',
+    subtitle_en: 'Juan Gris, 1912',
+    category: 'art' as const,
+    designer: 'Juan Gris',
+    year: '1912',
+    tags: ['立体主义色彩革命', '几何解构先驱', '改变了现代绘画'],
+    tags_en: ['Cubist Color Revolution', 'Geometric Deconstruction Pioneer', 'Transformed Modern Painting'],
+
+    dateConnection: '1887年3月23日，José Victoriano González-Pérez 出生于马德里。他后来以 Juan Gris 之名闻世，成为与毕加索、布拉克三足鼎立的立体主义核心人物。这幅《毕加索肖像》是他27岁时向自己精神导师致敬的宣言——也是立体主义运动中最著名的肖像画之一。',
+
+    designerBio: `Juan Gris 1887年出生于马德里一个商人家庭，19岁时离开西班牙前往巴黎，搬进了蒙马特的"洗衣船"公寓——恰好住在毕加索楼下。这个地理上的巧合彻底改变了他的命运。
+
+在巴黎的头几年，Gris 靠给杂志画插画为生，同时如饥似渴地吸收周围的前卫艺术实验。他观察毕加索和布拉克如何将物体拆解成几何面，但并没有简单模仿——他在等待属于自己的语言成熟。
+
+1911年，Gris 正式投入绘画创作。与毕加索从具象走向抽象不同，Gris 选择了相反的路径：从抽象的几何结构出发，逐步"填入"具象元素。他称之为"综合立体主义"（Synthetic Cubism），这一方法论比毕加索和布拉克的"分析立体主义"更加理性、更具建筑感。`,
+
+    story: `1912年，25岁的 Gris 完成了这幅《毕加索肖像》——一件大胆到近乎挑衅的作品。为自己的精神导师画像，本身就是一种宣言：我已经准备好了，我要用你教给我的语言，画出你都没画过的东西。
+
+画面中的毕加索被解构成一系列冷峻的几何面——蓝色、灰色、赭色的色块如同建筑立面般层层叠加。毕加索的面部轮廓依稀可辨，但每一块几何面都有自己独立的光源和透视，创造出一种"多视角同时存在"的视觉体验。
+
+**这幅画的突破在于色彩。** 毕加索和布拉克在分析立体主义时期几乎抛弃了色彩，画面以灰褐色调为主。而 Gris 从一开始就把色彩当作与形状同等重要的结构元素。蓝色不只是"毕加索穿了蓝衣服"——它是一个独立的几何体，有自己的重量和方向。
+
+这幅画在1912年的独立沙龙（Salon des Indépendants）展出后引起轰动。评论家们意识到，立体主义不再是毕加索和布拉克的二人实验——一个新的声音已经加入。
+
+Gris 对立体主义的贡献在于"秩序"。如果说毕加索是直觉型的天才，Gris 则是理性的建筑师。他的画面有着数学般的精确——每一条线、每一块色彩都经过计算。这种严谨性后来深刻影响了荷兰风格派（De Stijl）和包豪斯的视觉语言。
+
+1927年，Gris 因肾衰竭在巴黎去世，年仅40岁。毕加索在葬礼上痛哭——他失去的不只是一个朋友，而是唯一一个真正理解立体主义"为什么"的人。`,
+
+    legacy: `Juan Gris 的"综合立体主义"为现代设计奠定了关键基础：将复杂事物分解为几何元素、再按新逻辑重新组合——这本质上就是所有现代平面设计和UI设计的底层方法论。Mondrian、Theo van Doesburg、包豪斯的视觉体系都直接受益于 Gris 的理性几何思维。他的静物画对拼贴艺术（collage）的发展尤其关键——将报纸、壁纸等真实材料粘贴到画布上，模糊了艺术与日常之间的边界，预示了波普艺术和当代混合媒体设计的到来。`,
+
+    significance: `在立体主义的叙事中，毕加索和布拉克是开创者，而 Gris 是完善者。他把一场激进的视觉实验变成了可以教授、可以复制的设计方法论——用几何结构组织视觉信息，用色彩创造层次和节奏。今天打开任何一个设计软件，用网格排列元素、用色块区分层级的那套思维，追根溯源都能找到 Gris 的影子。他证明了一件事：创造力不一定来自直觉爆发，也可以来自冷静的结构分析。`,
+
+    dateConnection_en: 'On March 23, 1887, José Victoriano González-Pérez was born in Madrid. He would later become known as Juan Gris, forming the triumvirate of Cubism alongside Picasso and Braque. This Portrait of Pablo Picasso, painted when Gris was 25, was both a tribute to his mentor and a declaration of artistic independence — one of the most celebrated portraits in Cubist history.',
+
+    designerBio_en: `Juan Gris was born in 1887 to a merchant family in Madrid. At 19, he left Spain for Paris, moving into the famous "Bateau-Lavoir" studios in Montmartre — directly below Picasso's apartment. This geographical coincidence would alter the course of his life.
+
+During his first years in Paris, Gris earned a living illustrating for magazines while absorbing the avant-garde experiments happening around him. He watched Picasso and Braque disassemble objects into geometric planes, but rather than imitate, he waited for his own visual language to mature.
+
+In 1911, Gris committed fully to painting. Unlike Picasso, who moved from representation toward abstraction, Gris chose the reverse path: starting from abstract geometric structures and gradually "filling in" representational elements. He called this approach "Synthetic Cubism" — more rational, more architectural than Picasso and Braque's "Analytic Cubism."`,
+
+    story_en: `In 1912, the 25-year-old Gris completed this Portrait of Pablo Picasso — a work audacious to the point of provocation. Painting a portrait of one's own mentor was itself a statement: I'm ready. I'm going to use the language you taught me to paint something you haven't.
+
+Picasso is deconstructed into a series of austere geometric planes — blue, grey, and ochre color blocks layered like architectural facades. Picasso's features are faintly discernible, but each geometric face possesses its own independent light source and perspective, creating a visual experience of "multiple viewpoints existing simultaneously."
+
+**The breakthrough was color.** During their Analytic Cubism phase, Picasso and Braque had virtually abandoned color, working almost exclusively in grey-brown palettes. Gris treated color as a structural element equal in importance to form from the very beginning. The blue isn't simply "Picasso wearing a blue jacket" — it's an independent geometric body with its own weight and direction.
+
+When exhibited at the 1912 Salon des Indépendants, the painting caused a sensation. Critics realized that Cubism was no longer a two-person experiment — a new voice had arrived.
+
+Gris's contribution to Cubism was "order." If Picasso was the intuitive genius, Gris was the rational architect. His compositions possess mathematical precision — every line, every color block calculated. This rigor profoundly influenced the visual language of De Stijl and the Bauhaus.
+
+In 1927, Gris died of kidney failure in Paris at just 40. Picasso wept at the funeral — he had lost not merely a friend, but the only person who truly understood *why* Cubism mattered.`,
+
+    legacy_en: `Juan Gris's "Synthetic Cubism" laid essential groundwork for modern design: decomposing complex subjects into geometric elements and reassembling them according to new logic — which is fundamentally the methodology underlying all modern graphic and UI design. Mondrian, Theo van Doesburg, and the Bauhaus visual system all directly benefited from Gris's rational geometric thinking. His still lifes were especially pivotal for collage art — pasting real newspapers and wallpaper onto canvas, blurring the boundary between art and everyday life, presaging Pop Art and contemporary mixed-media design.`,
+
+    significance_en: `In the Cubism narrative, Picasso and Braque were the innovators, but Gris was the systematizer. He transformed a radical visual experiment into a teachable, reproducible design methodology — using geometric structure to organize visual information, using color to create hierarchy and rhythm. Open any design tool today, and the thinking behind arranging elements on grids and distinguishing layers through color blocks can be traced back to Gris. He proved something important: creativity doesn't have to spring from intuitive bursts — it can emerge from disciplined structural analysis.`,
+  },
+
 
 
 ]
