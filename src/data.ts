@@ -5308,65 +5308,61 @@ In 1927, Gris died of kidney failure in Paris at just 40. Picasso wept at the fu
   {
     id: '56',
     date: '2026-03-24',
-    imageUrl: '/the-daily-object/images/strawberry-thief.jpg',
-    fullImageUrl: '/the-daily-object/images/full/strawberry-thief.jpg',
-    title: 'Strawberry Thief',
-    title_en: 'Strawberry Thief',
-    subtitle: 'William Morris, 1883',
-    subtitle_en: 'William Morris, 1883',
-    category: 'graphic' as const,
-    designer: 'William Morris',
-    year: '1883',
-    tags: ['工艺美术运动奠基人', '改变了装饰设计', '自然纹样永恒典范'],
-    tags_en: ['Arts & Crafts Founder', 'Transformed Decorative Design', 'Timeless Natural Pattern'],
+    imageUrl: '/the-daily-object/images/macos-x-aqua.jpg',
+    fullImageUrl: '/the-daily-object/images/full/macos-x-aqua.jpg',
+    title: 'Mac OS X Aqua',
+    title_en: 'Mac OS X Aqua',
+    subtitle: 'Apple / Cordell Ratzlaff, 2001',
+    subtitle_en: 'Apple / Cordell Ratzlaff, 2001',
+    category: 'software' as const,
+    designer: 'Apple / Cordell Ratzlaff',
+    year: '2001',
+    tags: ['重新定义 GUI', 'Steve Jobs 回归之作', '现代界面设计起点'],
+    tags_en: ['Redefined GUI Design', 'Steve Jobs Return Masterpiece', 'Modern Interface Origin'],
 
-    dateConnection: '1834年3月24日，William Morris 出生于英国沃尔瑟姆斯托。他后来成为工艺美术运动（Arts and Crafts Movement）的灵魂人物，用一生对抗工业化对美的摧毁。Strawberry Thief 是他最具代表性的纺织图案——至今仍是世界上最畅销的装饰纹样之一。',
+    dateConnection: '2001年3月24日，Apple 正式发售 Mac OS X 10.0（代号 Cheetah）。这是 Steve Jobs 1997 年回归后最重要的产品之一——他从 NeXT 带回了 Unix 内核，然后在上面搭建了一个前所未有的图形界面：Aqua。这一天，个人电脑的界面设计从像素时代跨入了一个新纪元。',
 
-    designerBio: `William Morris 出生于一个富裕的中产家庭，少年时代沉迷于中世纪骑士传奇和哥特建筑。他在牛津大学结识了终生挚友、画家 Edward Burne-Jones，两人原本打算成为牧师，却在参观法国哥特教堂后彻底转向了艺术。
+    designerBio: `Aqua 界面的首席设计师是 Cordell Ratzlaff，他在 Apple 的人机界面组（Human Interface Group）工作了十多年。但 Aqua 的诞生离不开一个更宏大的背景：Steve Jobs 的回归。
 
-Morris 是一个无法被单一标签定义的人：诗人、小说家、翻译家、社会主义活动家、纺织设计师、印刷商、染色师、家具制造商。他亲手学会了编织、印染、木刻、排版等几十种手工艺，因为他坚信一个原则——**设计师必须懂得制作。** 在维多利亚时代的英国，工业革命正以粗制滥造的廉价商品淹没市场，Morris 选择了逆流而上：用手工艺的精细对抗机器的粗暴，用自然的美感对抗工厂的丑陋。
+1997 年，Apple 收购 NeXT，Jobs 重新执掌公司。他带回了 NeXTSTEP 操作系统的 Unix 内核和面向对象的开发框架，但 NeXTSTEP 的界面灰暗、学术气重，完全不符合 Apple 的消费者定位。Jobs 需要一个全新的视觉语言——既要展示底层技术的强大，又要让普通人一眼爱上。
 
-1861年，他创办了 Morris, Marshall, Faulkner & Co.（后来的 Morris & Co.），生产壁纸、纺织品、彩色玻璃、家具和地毯。这家公司不只是一间工坊——它是一个关于"美应该属于所有人"的宣言。`,
+Ratzlaff 的团队接到了这个几乎不可能的任务。Jobs 对每一个像素都有意见，设计方案被推翻了无数次。传说中 Jobs 看到第一版 Aqua 原型时说了一句话："I want it to look so good you'd want to lick it."（我要它好看到你想舔一口。）这句话定义了 Aqua 的设计方向——不是简洁，不是克制，而是感官上的诱惑。`,
 
-    story: `**Strawberry Thief 的诞生源于 Morris 花园里的一幕日常。**
+    story: `**2000年1月的 Macworld 大会上，Jobs 亲自揭幕 Aqua 界面。台下的观众第一次看到那些果冻般的按钮、水波纹的滚动条、带有真实阴影和透明度的窗口时，发出了惊叹声。**
 
-1883年的一个早晨，Morris 在他位于科茨沃尔德的 Kelmscott Manor 庄园里，看到画眉鸟（thrush）溜进草莓园偷吃果实。这个场景让他着迷——鸟的身姿、草莓的红、藤蔓的缠绕，自然界最寻常的一幕构成了最完美的构图。
+在此之前，所有操作系统的界面都是"平"的——Windows 的灰色方块、经典 Mac OS 的黑白像素、Linux 的素色窗口。Aqua 第一次在 GUI 中引入了拟物化（skeuomorphism）的极致表达：按钮看起来像真正的水晶球，会反射光线；最小化窗口时，窗口会像被吸入瓶子一样缩入 Dock（这个动画叫"Genie Effect"）；Dock 本身是一条有倒影的玻璃架。
 
-但把这个灵感变成织物，是一场技术革命。Morris 坚持使用一种古老的印染技术——靛蓝排染法（indigo discharge printing）。这种工艺在工业时代几乎已经失传：先将整块织物浸入靛蓝染缸，再用漂白剂"减去"颜色，在深蓝底色上留出图案的空间，最后逐层叠印其他颜色。整个过程需要反复浸染、漂洗、晾晒数十次。
+这些视觉效果不只是装饰。它们背后是一个叫做 Quartz 的全新图形引擎——基于 PDF 渲染模型，支持硬件加速的透明度合成、实时阴影和亚像素抗锯齿文字渲染。在2001年，没有任何其他操作系统能做到这些。Windows XP 要到同年10月才发布，而它的 Luna 界面虽然也引入了颜色和圆角，但在技术深度上完全无法相提并论。
 
-**为什么要这么麻烦？** 因为只有靛蓝排染法才能产生那种深邃、沉稳的靛蓝底色——这是化学染料无法复制的深度。Morris 在 Merton Abbey 的作坊里花了数月时间试验，才掌握了这项技术的每一个细节。他亲手调配每一种颜色，亲自监督每一次浸染，手指被靛蓝染得洗不掉。
+Aqua 的 Dock 是另一项革命。它取代了传统的任务栏和开始菜单，用图标的弹跳动画告诉你程序正在启动，用红点标记未读消息。这套交互范式在25年后的 macOS 上基本没变——今天你打开 Mac，Dock 还在屏幕底部，图标还会弹跳。
 
-**图案本身是对称的——但不是机械的对称。** 两只画眉鸟面对面站立，周围环绕着草莓、花朵和卷须藤蔓。如果你仔细看，每一片叶子的弯曲角度都略有不同，每一朵花的花瓣排列都不完全相同。这是 Morris 图案设计的核心哲学：**自然从不重复自己，所以好的装饰也不应该。**
+但 Aqua 发布时也引发了巨大争议。专业用户抱怨它太慢（10.0 确实性能糟糕），太"玩具化"，资源占用太高。设计界则分成两派：一派认为这是 GUI 的文艺复兴，另一派认为这是对"少即是多"原则的背叛。Jobs 的回应很简单——他不在乎。他相信普通用户会用感官而非逻辑来选择操作系统，而 Aqua 的目标就是让人在打开电脑的一瞬间感到愉悦。`,
 
-Strawberry Thief 一经推出便成为 Morris & Co. 最昂贵的产品——靛蓝排染法的复杂工序意味着成本是普通印花织物的数倍。但它也成为最受欢迎的产品，订单排到了几年以后。`,
+    legacy: `• Aqua 开创了 GUI 拟物化设计的黄金时代，直接影响了 Windows Vista/7 的 Aero 界面和无数软件产品的视觉风格\n• Dock 的交互范式被 macOS 沿用至今，也启发了 Windows 7 的超级任务栏和各种 Linux 桌面的面板设计\n• Quartz 图形引擎奠定了 Core Animation 和后来 iOS 界面动画系统的技术基础\n• 2013年 iOS 7 的扁平化设计是对 Aqua 拟物化路线的一次"逆反"，但没有 Aqua 的极致拟物就不会有后来的极致扁平——设计史上的钟摆需要先摆到一端\n• Aqua 证明了操作系统界面可以是一件"作品"而不只是功能容器，这个观念改变了整个科技行业对设计的重视程度`,
 
-    legacy: `• William Morris 被公认为现代设计运动的奠基人，工艺美术运动直接催生了新艺术运动（Art Nouveau）和后来的包豪斯\n• Strawberry Thief 至今仍由 Morris & Co. 生产销售，是世界上持续生产时间最长的装饰纹样之一\n• V&A 博物馆、大都会博物馆均藏有 Strawberry Thief 原版印花织物\n• Morris 的"设计师必须懂制作"理念，成为包豪斯教育体系的核心原则\n• 他对"美应该属于日常生活"的坚持，奠定了现代设计民主化的思想基础——从宜家到无印良品，都能追溯到 Morris 的精神遗产`,
+    significance: `Mac OS X Aqua 对 UI 设计的意义，相当于 iPhone 对手机行业的意义——它重新定义了"好的界面应该是什么样"。在 Aqua 之前，界面设计的核心问题是"能不能用"；在 Aqua 之后，问题变成了"想不想用"。Jobs 用 Aqua 证明了一个观点：技术的终极形态不是功能的堆砌，而是感官的愉悦。这个理念后来贯穿了 iPod、iPhone、iPad 的每一个产品决策，也让"设计驱动"从 Apple 的企业信条变成了整个科技行业的共识。`,
 
-    significance: `William Morris 对设计史的影响怎么强调都不为过。在他之前，"设计"和"制造"是分离的——画家画草图，工厂机械执行。Morris 第一个喊出：设计师必须理解材料、工艺和制作过程，否则设计就是空谈。这个理念穿越了140年，至今仍是设计教育的核心。而 Strawberry Thief 作为他最著名的作品，完美体现了他的信条：最好的设计不是凭空发明的，而是对自然的深刻观察和对手工艺的极致尊重之间的结晶。`,
+    dateConnection_en: 'On March 24, 2001, Apple officially released Mac OS X 10.0 (codenamed Cheetah). It was one of the most important products after Steve Jobs\'s 1997 return — he brought back Unix underpinnings from NeXT, then built an unprecedented graphical interface on top: Aqua. On this day, personal computer interface design leaped from the pixel age into a new era.',
 
-    dateConnection_en: 'On March 24, 1834, William Morris was born in Walthamstow, England. He would become the soul of the Arts and Crafts Movement, dedicating his life to fighting the destruction of beauty by industrialization. Strawberry Thief is his most iconic textile pattern — and remains one of the best-selling decorative designs in the world to this day.',
+    designerBio_en: `The lead designer of the Aqua interface was Cordell Ratzlaff, who had worked in Apple's Human Interface Group for over a decade. But Aqua's birth was inseparable from a larger story: Steve Jobs's return.
 
-    designerBio_en: `William Morris was born into a wealthy middle-class family. As a boy, he was captivated by medieval romance and Gothic architecture. At Oxford, he befriended the painter Edward Burne-Jones; both had intended to become clergymen but pivoted irrevocably to art after visiting French Gothic cathedrals.
+In 1997, Apple acquired NeXT and Jobs retook the helm. He brought back NeXTSTEP's Unix kernel and object-oriented development frameworks, but NeXTSTEP's interface was dark, academic, and completely wrong for Apple's consumer positioning. Jobs needed an entirely new visual language — one that showcased the power underneath while making ordinary people fall in love at first sight.
 
-Morris defied any single label: poet, novelist, translator, socialist activist, textile designer, printer, dyer, furniture maker. He personally learned dozens of crafts — weaving, dyeing, woodcutting, typesetting — because he held one unshakeable principle: **a designer must understand making.** In Victorian England, the Industrial Revolution was flooding markets with shoddy mass-produced goods. Morris chose to swim against the current: handcraft's refinement against the machine's brutality, nature's beauty against the factory's ugliness.
+Ratzlaff's team received this near-impossible brief. Jobs had opinions about every pixel, and design proposals were rejected countless times. Legend has it that when Jobs first saw the Aqua prototype, he said: "I want it to look so good you'd want to lick it." That sentence defined Aqua's design direction — not minimalism, not restraint, but sensory seduction.`,
 
-In 1861, he founded Morris, Marshall, Faulkner & Co. (later Morris & Co.), producing wallpapers, textiles, stained glass, furniture, and carpets. The firm was more than a workshop — it was a manifesto that beauty should belong to everyone.`,
+    story_en: `**At Macworld in January 2000, Jobs personally unveiled the Aqua interface. The audience gasped when they first saw those gel-like buttons, rippling scroll bars, and windows with real shadows and transparency.**
 
-    story_en: `**Strawberry Thief was born from an ordinary morning in Morris's garden.**
+Before this, every operating system interface was "flat" — Windows' gray rectangles, classic Mac OS's black-and-white pixels, Linux's plain windows. Aqua introduced the ultimate expression of skeuomorphism in GUI design for the first time: buttons looked like actual crystal orbs that reflected light; minimizing a window made it shrink into the Dock like being sucked into a bottle (the "Genie Effect"); the Dock itself was a glass shelf with reflections.
 
-In 1883, at his Kelmscott Manor estate in the Cotswolds, Morris watched thrushes sneak into the strawberry beds to steal fruit. The scene captivated him — the birds' postures, the red of the berries, the tangling vines. Nature's most commonplace moment composed the most perfect design.
+These visual effects weren't just decoration. Behind them was a brand-new graphics engine called Quartz — based on a PDF rendering model, supporting hardware-accelerated transparency compositing, real-time shadows, and sub-pixel antialiased text rendering. In 2001, no other operating system could do this. Windows XP wouldn't ship until October of the same year, and while its Luna interface also introduced color and rounded corners, it couldn't compare in technical depth.
 
-But turning that inspiration into fabric required a technical revolution. Morris insisted on using an ancient printing technique — indigo discharge printing. This process had nearly vanished in the industrial age: the entire cloth was first submerged in an indigo vat, then bleaching agents "subtracted" color to create space for the pattern on the deep blue ground, and finally other colors were overprinted layer by layer. The whole process demanded dozens of cycles of dyeing, rinsing, and drying.
+The Dock was another revolution. It replaced the traditional taskbar and Start menu, using bouncing icon animations to signal an app was launching, and red badges to mark unread messages. This interaction paradigm is essentially unchanged on macOS 25 years later — open a Mac today and the Dock is still at the bottom, icons still bounce.
 
-**Why go to such trouble?** Because only indigo discharge could produce that deep, steady indigo ground — a depth chemical dyes could not replicate. Morris spent months experimenting at his Merton Abbey workshops, mastering every detail. He mixed every color himself, supervised every dip, his fingers stained an indelible blue.
+Yet Aqua also sparked fierce controversy at launch. Power users complained it was too slow (10.0 was indeed sluggish), too "toylike," too resource-hungry. The design community split: one camp called it a GUI renaissance, the other called it a betrayal of "less is more." Jobs's response was simple — he didn't care. He believed ordinary users would choose an operating system with their senses rather than logic, and Aqua's goal was to deliver delight the instant you opened your computer.`,
 
-**The pattern is symmetrical — but not mechanically so.** Two thrushes face each other, surrounded by strawberries, flowers, and curling tendrils. Look closely and every leaf curves at a slightly different angle, every flower's petals arrange themselves uniquely. This is the core philosophy of Morris's pattern design: **nature never repeats itself, so good ornament shouldn't either.**
+    legacy_en: `• Aqua inaugurated the golden age of skeuomorphic GUI design, directly influencing Windows Vista/7's Aero interface and the visual style of countless software products\n• The Dock interaction paradigm has been used in macOS ever since, and inspired Windows 7's Superbar and various Linux desktop panels\n• The Quartz graphics engine laid the technical foundation for Core Animation and later the iOS animation system\n• iOS 7's flat design in 2013 was a "rebellion" against Aqua's skeuomorphic path — but without Aqua's extreme skeuomorphism there would have been no extreme flatness. Design history's pendulum needs to swing to one side first\n• Aqua proved that an OS interface could be a "work of art" rather than merely a functional container, an idea that transformed the entire tech industry's respect for design`,
 
-Upon release, Strawberry Thief became Morris & Co.'s most expensive product — the complex indigo discharge process cost several times more than ordinary printed fabric. Yet it also became the most popular, with orders backed up for years.`,
-
-    legacy_en: `• William Morris is widely recognized as the founder of the modern design movement; the Arts and Crafts Movement directly gave rise to Art Nouveau and later the Bauhaus\n• Strawberry Thief is still produced and sold by Morris & Co. today, one of the longest-running decorative patterns in the world\n• Original Strawberry Thief printed textiles are held by the V&A, the Met, and other major museums\n• Morris's principle that "designers must understand making" became a core tenet of Bauhaus education\n• His insistence that "beauty belongs in everyday life" laid the intellectual foundation for the democratization of modern design — from IKEA to MUJI, all trace spiritual lineage to Morris`,
-
-    significance_en: `William Morris's impact on design history cannot be overstated. Before him, "design" and "manufacture" were separate — artists drew sketches, factory machines executed. Morris was the first to declare: designers must understand materials, craft, and process, or design is empty talk. That principle has traveled 140 years and remains central to design education today. Strawberry Thief, as his most famous work, perfectly embodies his creed: the best design isn't invented from nothing — it's the crystallization of deep observation of nature and profound respect for craft.`,
+    significance_en: `Mac OS X Aqua's significance to UI design is comparable to the iPhone's significance to the mobile industry — it redefined what "a good interface should look like." Before Aqua, the core question of interface design was "can you use it?"; after Aqua, it became "do you want to use it?" Jobs used Aqua to prove a point: technology's ultimate form isn't a pile of features but sensory delight. That philosophy later permeated every product decision behind the iPod, iPhone, and iPad, and turned "design-driven" from an Apple creed into an industry-wide consensus.`,
   },
 
 
