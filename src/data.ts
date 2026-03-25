@@ -5365,6 +5365,70 @@ Yet Aqua also sparked fierce controversy at launch. Power users complained it wa
     significance_en: `Mac OS X Aqua's significance to UI design is comparable to the iPhone's significance to the mobile industry — it redefined what "a good interface should look like." Before Aqua, the core question of interface design was "can you use it?"; after Aqua, it became "do you want to use it?" Jobs used Aqua to prove a point: technology's ultimate form isn't a pile of features but sensory delight. That philosophy later permeated every product decision behind the iPod, iPhone, and iPad, and turned "design-driven" from an Apple creed into an industry-wide consensus.`,
   },
 
+  {
+    id: '55',
+    date: '2026-03-25',
+    imageUrl: '/the-daily-object/images/homage-to-the-square-albers.jpg',
+    fullImageUrl: '/the-daily-object/images/full/homage-to-the-square-albers.jpg',
+    title: 'Homage to the Square',
+    title_en: 'Homage to the Square',
+    subtitle: 'Josef Albers, 1950–1976',
+    subtitle_en: 'Josef Albers, 1950–1976',
+    category: 'art' as const,
+    designer: 'Josef Albers',
+    year: '1950',
+    tags: ['色彩理论教父', '包豪斯到耶鲁', '极简中的无穷变化'],
+    tags_en: ['Father of Color Theory', 'Bauhaus to Yale', 'Infinite Variation in Minimalism'],
+
+    dateConnection: '1976年3月25日，Josef Albers 在美国康涅狄格州纽黑文去世，享年88岁。他用生命最后26年（1950–1976）几乎只画一个主题：嵌套的正方形。超过两千幅《向方形致敬》，每一幅都是对"颜色如何欺骗眼睛"的一次实验。这个系列至今仍是每一本色彩理论教材的必引案例。',
+
+    designerBio: `Josef Albers 1888年出生于德国鲁尔区的小城博特罗普，父亲是油漆工。这个出身在后来看充满了象征意味——油漆工的儿子最终成了世界上最懂颜色的人。
+
+他32岁才进入包豪斯（Bauhaus），是班上年纪最大的学生。但他的才华让他迅速从学生变成了教师。1923年起他主持包豪斯的预备课程（Vorkurs），用一套完全颠覆传统的教学法：不教技法，教"看"。他让学生用废纸和碎布做实验，理解材料的本质，而不是急着画画。
+
+1933年纳粹关闭包豪斯，Albers 和妻子 Anni（同为包豪斯出身的纺织艺术家）移民美国，在北卡罗来纳州的黑山学院（Black Mountain College）任教。他的学生名单读起来像一份20世纪美国艺术名人录：Robert Rauschenberg、Ruth Asawa、Cy Twombly。1950年他转至耶鲁大学，建立了影响至今的设计教育体系。`,
+
+    story: `**1950年的某一天，62岁的 Albers 拿起画板，画了几个嵌套的正方形。他不知道这个动作将会重复两千多次，持续到他生命的最后一天。**
+
+《向方形致敬》（Homage to the Square）的规则极其简单：在一块正方形画板上（通常是 Masonite 硬纤维板），用调色刀直接从颜料管挤出油彩，涂满三到四个从大到小嵌套的正方形。没有笔触，没有混色，没有肌理。每一块颜色都是直接从管子里出来的纯色。
+
+但简单的结构制造了惊人的视觉欺骗。一块灰色的正方形，放在暖黄色旁边时看起来偏蓝，放在冷蓝色旁边时看起来偏黄。同一种颜色在不同邻居的包围下会完全变样。Albers 用这个系列证明了一个违反直觉的事实：**颜色没有真相，只有关系。**
+
+他为每一幅画都详细记录了使用的颜料品牌和编号，精确到管子上的标签。这不是艺术家的浪漫，是科学家的严谨——他要确保任何人都能复现这些实验，验证颜色之间的相互作用。
+
+1963年，他把几十年的色彩研究浓缩成一本书：《色彩的相互作用》（Interaction of Color）。这本书出版时用了昂贵的丝网印刷来确保色彩准确，原版只印了2000套，每套售价200美元（相当于今天的2000多美元）。它后来成为全球设计院校最常用的色彩教材，至今仍在印刷。
+
+Albers 一直画到1976年去世。他最后一幅《向方形致敬》和第一幅之间隔了26年，但你几乎看不出"进步"——因为每一幅都不是在追求完美，而是在问一个新的问题。`,
+
+    legacy: `• 《向方形致敬》系列（超过2000幅）是20世纪最具系统性的色彩研究，永久收藏于 MoMA、Tate、古根海姆等全球顶级美术馆\n• 《色彩的相互作用》至今仍是全球设计教育最核心的色彩理论教材\n• Albers 在包豪斯和耶鲁的教学体系直接塑造了现代设计教育的方法论——"少即是多"不是口号，是从他的课堂里长出来的实践\n• 他的学生 Robert Rauschenberg、Ruth Asawa、Richard Anuszkiewicz 等人继承并发展了他的色彩理念，影响了波普艺术和欧普艺术（Op Art）运动\n• Apple、Google 等科技公司的色彩系统设计，追根溯源都绕不开 Albers 建立的"色彩是相对的"这一核心认知`,
+
+    significance: `Albers 做了一件看似矛盾的事：用最极简的形式探索最复杂的问题。两千多幅画只有一个构图，但每一幅都不一样。这个系列告诉所有设计师一个核心真理——约束不是限制，约束是创造力的放大器。一个正方形就够了，重要的是你选择什么颜色，以及你理不理解颜色之间在发生什么。`,
+
+    dateConnection_en: 'On March 25, 1976, Josef Albers passed away in New Haven, Connecticut, at the age of 88. He spent the last 26 years of his life (1950–1976) painting almost exclusively one subject: nested squares. Over two thousand Homage to the Square paintings, each an experiment in how color deceives the eye. The series remains a required reference in every color theory textbook to this day.',
+
+    designerBio_en: `Josef Albers was born in 1888 in Bottrop, a small town in Germany's Ruhr Valley. His father was a house painter — an origin that would later seem deeply symbolic, as the painter's son became the world's foremost authority on color.
+
+He entered the Bauhaus at 32, the oldest student in his class. But his talent quickly elevated him from student to teacher. From 1923, he led the Bauhaus preliminary course (Vorkurs) with a completely revolutionary pedagogy: he didn't teach technique, he taught "seeing." He had students experiment with scrap paper and fabric scraps to understand the nature of materials, rather than rushing to paint.
+
+When the Nazis shut down the Bauhaus in 1933, Albers and his wife Anni (also Bauhaus-trained, a textile artist) emigrated to America, teaching at Black Mountain College in North Carolina. His student roster reads like a who's who of 20th-century American art: Robert Rauschenberg, Ruth Asawa, Cy Twombly. In 1950 he moved to Yale University, building a design education system whose influence endures today.`,
+
+    story_en: `**One day in 1950, the 62-year-old Albers picked up a panel and painted several nested squares. He didn't know this gesture would repeat over two thousand times, continuing until the last day of his life.**
+
+The rules of Homage to the Square are extraordinarily simple: on a square panel (usually Masonite hardboard), apply oil paint directly from the tube with a palette knife, filling three to four nested squares from large to small. No brushstrokes, no mixing, no texture. Every block of color is pure pigment straight from the tube.
+
+But this simple structure produces astonishing optical illusions. A gray square appears bluish next to warm yellow, yellowish next to cool blue. The same color transforms completely depending on its neighbors. With this series, Albers proved a counterintuitive truth: **color has no absolute reality, only relationships.**
+
+He meticulously recorded the paint brand and number for every painting, down to the label on the tube. This wasn't an artist's romance — it was a scientist's rigor. He wanted anyone to be able to reproduce these experiments and verify the interactions between colors.
+
+In 1963, he distilled decades of color research into a book: Interaction of Color. The original edition used expensive silk-screen printing to ensure color accuracy, with only 2,000 copies at $200 each (over $2,000 in today's money). It became the most widely used color textbook in design schools worldwide and remains in print.
+
+Albers kept painting until his death in 1976. His last Homage to the Square was 26 years after the first, yet you can hardly detect "progress" — because each painting wasn't pursuing perfection, but asking a new question.`,
+
+    legacy_en: `• The Homage to the Square series (over 2,000 works) is the most systematic color study of the 20th century, permanently housed at MoMA, Tate, the Guggenheim, and other world-class museums\n• Interaction of Color remains the most essential color theory textbook in global design education\n• Albers's teaching systems at Bauhaus and Yale directly shaped modern design education methodology — "less is more" isn't just a slogan, it's a practice that grew from his classroom\n• His students — Robert Rauschenberg, Ruth Asawa, Richard Anuszkiewicz — inherited and expanded his color philosophy, influencing Pop Art and Op Art movements\n• The color systems at Apple, Google, and other tech companies trace their intellectual roots to Albers's core insight that "color is relative"`,
+
+    significance_en: `Albers did something seemingly contradictory: he explored the most complex questions through the most minimal form. Over two thousand paintings with a single composition, yet each one is different. This series teaches every designer a core truth — constraint is not limitation, constraint is a creativity amplifier. One square is enough. What matters is what colors you choose, and whether you understand what's happening between them.`,
+  },
+
 
 
 ]
