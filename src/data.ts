@@ -5368,65 +5368,73 @@ Yet Aqua also sparked fierce controversy at launch. Power users complained it wa
   {
     id: '55',
     date: '2026-03-25',
-    imageUrl: '/the-daily-object/images/homage-to-the-square-albers.jpg',
-    fullImageUrl: '/the-daily-object/images/full/homage-to-the-square-albers.jpg',
-    title: 'Homage to the Square',
-    title_en: 'Homage to the Square',
-    subtitle: 'Josef Albers, 1950–1976',
-    subtitle_en: 'Josef Albers, 1950–1976',
-    category: 'art' as const,
-    designer: 'Josef Albers',
-    year: '1950',
-    tags: ['色彩理论教父', '包豪斯到耶鲁', '极简中的无穷变化'],
-    tags_en: ['Father of Color Theory', 'Bauhaus to Yale', 'Infinite Variation in Minimalism'],
+    imageUrl: '/the-daily-object/images/mount-rushmore.jpg',
+    fullImageUrl: '/the-daily-object/images/full/mount-rushmore.jpg',
+    title: 'Mount Rushmore',
+    title_en: 'Mount Rushmore',
+    subtitle: 'Gutzon Borglum, 1927–1941',
+    subtitle_en: 'Gutzon Borglum, 1927–1941',
+    category: 'architecture' as const,
+    designer: 'Gutzon Borglum',
+    year: '1927',
+    tags: ['凿山为碑', '14年工程壮举', '美国最具辨识度的纪念碑'],
+    tags_en: ['Carved into a Mountain', '14-Year Engineering Feat', 'America\'s Most Iconic Monument'],
 
-    dateConnection: '1976年3月25日，Josef Albers 在美国康涅狄格州纽黑文去世，享年88岁。他用生命最后26年（1950–1976）几乎只画一个主题：嵌套的正方形。超过两千幅《向方形致敬》，每一幅都是对"颜色如何欺骗眼睛"的一次实验。这个系列至今仍是每一本色彩理论教材的必引案例。',
+    dateConnection: '1867年3月25日，Gutzon Borglum 出生于爱达荷州。他后来设计并主持了 Mount Rushmore 的雕刻——在花岗岩山体上凿出四位总统的面孔，每张脸高18米。他在工程完工前7个月去世，由儿子 Lincoln 接手完成。这座山至今是全球辨识度最高的纪念碑之一。',
 
-    designerBio: `Josef Albers 1888年出生于德国鲁尔区的小城博特罗普，父亲是油漆工。这个出身在后来看充满了象征意味——油漆工的儿子最终成了世界上最懂颜色的人。
+    designerBio: `Gutzon Borglum（1867–1941），美国雕塑家，丹麦移民后裔，出生于爱达荷领地（Idaho Territory）。
 
-他32岁才进入包豪斯（Bauhaus），是班上年纪最大的学生。但他的才华让他迅速从学生变成了教师。1923年起他主持包豪斯的预备课程（Vorkurs），用一套完全颠覆传统的教学法：不教技法，教"看"。他让学生用废纸和碎布做实验，理解材料的本质，而不是急着画画。
+他早年在旧金山和巴黎学习艺术，曾在巴黎美术学院跟随 Auguste Rodin 学习。Rodin 对大尺度雕塑的追求深刻影响了 Borglum——但 Borglum 把"大"推向了 Rodin 无法想象的极端。
 
-1933年纳粹关闭包豪斯，Albers 和妻子 Anni（同为包豪斯出身的纺织艺术家）移民美国，在北卡罗来纳州的黑山学院（Black Mountain College）任教。他的学生名单读起来像一份20世纪美国艺术名人录：Robert Rauschenberg、Ruth Asawa、Cy Twombly。1950年他转至耶鲁大学，建立了影响至今的设计教育体系。`,
+1915年他接手佐治亚州石山（Stone Mountain）的邦联纪念碑项目，首次尝试在山体上雕刻巨像。项目因资金和政治纠纷中断，但 Borglum 从中积累了关键的山体雕刻经验。1924年，历史学家 Doane Robinson 邀请他为南达科他州创作一座能吸引游客的纪念碑。Robinson 原本想雕刻西部英雄，Borglum 坚持要雕总统——他要做的不是地方景点，是国家图腾。`,
 
-    story: `**1950年的某一天，62岁的 Albers 拿起画板，画了几个嵌套的正方形。他不知道这个动作将会重复两千多次，持续到他生命的最后一天。**
+    story: `**1927年10月4日，60岁的 Borglum 在南达科他州黑山（Black Hills）的一面花岗岩崖壁前点燃了第一支炸药。接下来14年，400名工人将从这座山里炸出、凿出、磨出四张巨脸。**
 
-《向方形致敬》（Homage to the Square）的规则极其简单：在一块正方形画板上（通常是 Masonite 硬纤维板），用调色刀直接从颜料管挤出油彩，涂满三到四个从大到小嵌套的正方形。没有笔触，没有混色，没有肌理。每一块颜色都是直接从管子里出来的纯色。
+这个项目从一开始就充满了看似不可能的挑战。Borglum 选中的这面崖壁朝东南，每天能接受最长时间的日照——这是一个雕塑家的直觉：光线决定了面孔的表情。但花岗岩的硬度意味着传统的凿子根本不够用。
 
-但简单的结构制造了惊人的视觉欺骗。一块灰色的正方形，放在暖黄色旁边时看起来偏蓝，放在冷蓝色旁边时看起来偏黄。同一种颜色在不同邻居的包围下会完全变样。Albers 用这个系列证明了一个违反直觉的事实：**颜色没有真相，只有关系。**
+Borglum 发明了一套独特的"精确爆破"工艺：先用炸药炸掉大块岩石（精确到距最终表面几英寸），然后用气动钻头一点点磨出细节。工人们每天早上坐在绞车吊下的座椅上，悬在离地面超过150米的崖壁上工作。没有安全网，没有现代安全装备。
 
-他为每一幅画都详细记录了使用的颜料品牌和编号，精确到管子上的标签。这不是艺术家的浪漫，是科学家的严谨——他要确保任何人都能复现这些实验，验证颜色之间的相互作用。
+整个工程期间没有一名工人因工死亡。这个记录在那个年代几乎是奇迹。
 
-1963年，他把几十年的色彩研究浓缩成一本书：《色彩的相互作用》（Interaction of Color）。这本书出版时用了昂贵的丝网印刷来确保色彩准确，原版只印了2000套，每套售价200美元（相当于今天的2000多美元）。它后来成为全球设计院校最常用的色彩教材，至今仍在印刷。
+每张面孔高约18米（60英尺），鼻子长6米，眼睛宽3.4米，嘴巴宽5.5米。华盛顿的面孔最先完成（1934年），接着是杰斐逊（1936年，原本在华盛顿左边，因岩石质量问题炸掉重来，移到右边）、林肯（1937年）、罗斯福（1939年）。
 
-Albers 一直画到1976年去世。他最后一幅《向方形致敬》和第一幅之间隔了26年，但你几乎看不出"进步"——因为每一幅都不是在追求完美，而是在问一个新的问题。`,
+Borglum 的原始设计远比今天看到的宏大——他计划雕刻四位总统的半身像（到腰部），并在山体背面开凿一个"记录厅"（Hall of Records），存放美国重要历史文件。资金不足和他的去世让这些计划永远停留在了图纸上。
 
-    legacy: `• 《向方形致敬》系列（超过2000幅）是20世纪最具系统性的色彩研究，永久收藏于 MoMA、Tate、古根海姆等全球顶级美术馆\n• 《色彩的相互作用》至今仍是全球设计教育最核心的色彩理论教材\n• Albers 在包豪斯和耶鲁的教学体系直接塑造了现代设计教育的方法论——"少即是多"不是口号，是从他的课堂里长出来的实践\n• 他的学生 Robert Rauschenberg、Ruth Asawa、Richard Anuszkiewicz 等人继承并发展了他的色彩理念，影响了波普艺术和欧普艺术（Op Art）运动\n• Apple、Google 等科技公司的色彩系统设计，追根溯源都绕不开 Albers 建立的"色彩是相对的"这一核心认知`,
+**1941年3月6日，Borglum 在手术中去世，距他74岁生日还有19天。七个月后，他的儿子 Lincoln Borglum 宣布工程完工。**
 
-    significance: `Albers 做了一件看似矛盾的事：用最极简的形式探索最复杂的问题。两千多幅画只有一个构图，但每一幅都不一样。这个系列告诉所有设计师一个核心真理——约束不是限制，约束是创造力的放大器。一个正方形就够了，重要的是你选择什么颜色，以及你理不理解颜色之间在发生什么。`,
+最终的 Mount Rushmore 花费了99万美元（相当于今天约2000万美元）——对于这个尺度的工程来说，便宜得不可思议。`,
 
-    dateConnection_en: 'On March 25, 1976, Josef Albers passed away in New Haven, Connecticut, at the age of 88. He spent the last 26 years of his life (1950–1976) painting almost exclusively one subject: nested squares. Over two thousand Homage to the Square paintings, each an experiment in how color deceives the eye. The series remains a required reference in every color theory textbook to this day.',
+    legacy: `• Mount Rushmore 每年吸引约300万游客，是美国最具辨识度的地标之一，与自由女神像并列为美国的视觉符号\n• 开创了"山体雕刻"这一纪念碑形式，直接启发了后来的 Crazy Horse Memorial（至今仍在建造中，完工后将是世界最大雕塑）\n• 精确爆破技术为后来的大型岩石工程（隧道、水坝、矿山）提供了工艺参考\n• 成为美国流行文化的永恒符号——从希区柯克的《西北偏北》（1959）到无数电影、广告、漫画的引用\n• 同时也是持续争议的对象：这座山是 Lakota Sioux 人的圣地"六祖父山"（Six Grandfathers），雕刻被原住民视为对神圣土地的亵渎，这场关于纪念与殖民的辩论至今未止`,
 
-    designerBio_en: `Josef Albers was born in 1888 in Bottrop, a small town in Germany's Ruhr Valley. His father was a house painter — an origin that would later seem deeply symbolic, as the painter's son became the world's foremost authority on color.
+    significance: `Mount Rushmore 是20世纪最极端的"设计决策"之一：在一座山上雕刻人脸，本身就是对尺度、永恒和权力的宣言。Borglum 做了一个今天没有人敢做的事——他把自然改造成了信息载体。这个项目告诉我们，设计不只是发生在纸面或屏幕上的事：最大胆的设计是改变地貌本身。同时它也提醒我们，任何纪念碑都不可能脱离其政治语境——谁被纪念、在谁的土地上、以什么代价，这些问题和雕刻技术一样重要。`,
 
-He entered the Bauhaus at 32, the oldest student in his class. But his talent quickly elevated him from student to teacher. From 1923, he led the Bauhaus preliminary course (Vorkurs) with a completely revolutionary pedagogy: he didn't teach technique, he taught "seeing." He had students experiment with scrap paper and fabric scraps to understand the nature of materials, rather than rushing to paint.
+    dateConnection_en: 'On March 25, 1867, Gutzon Borglum was born in Idaho Territory. He would go on to design and oversee the carving of Mount Rushmore — four presidential faces sculpted into granite, each 18 meters tall. He died seven months before the project\'s completion, and his son Lincoln finished the work. The mountain remains one of the most recognizable monuments on Earth.',
 
-When the Nazis shut down the Bauhaus in 1933, Albers and his wife Anni (also Bauhaus-trained, a textile artist) emigrated to America, teaching at Black Mountain College in North Carolina. His student roster reads like a who's who of 20th-century American art: Robert Rauschenberg, Ruth Asawa, Cy Twombly. In 1950 he moved to Yale University, building a design education system whose influence endures today.`,
+    designerBio_en: `Gutzon Borglum (1867–1941) was an American sculptor of Danish descent, born in Idaho Territory.
 
-    story_en: `**One day in 1950, the 62-year-old Albers picked up a panel and painted several nested squares. He didn't know this gesture would repeat over two thousand times, continuing until the last day of his life.**
+He studied art in San Francisco and Paris, training under Auguste Rodin at the Académie des Beaux-Arts. Rodin's pursuit of monumental sculpture profoundly influenced Borglum — but Borglum pushed "monumental" to extremes Rodin could never have imagined.
 
-The rules of Homage to the Square are extraordinarily simple: on a square panel (usually Masonite hardboard), apply oil paint directly from the tube with a palette knife, filling three to four nested squares from large to small. No brushstrokes, no mixing, no texture. Every block of color is pure pigment straight from the tube.
+In 1915, he took on the Confederate Memorial at Stone Mountain, Georgia, his first attempt at carving into a mountainside. The project collapsed due to funding and political disputes, but Borglum gained critical mountain-carving experience. In 1924, historian Doane Robinson invited him to create a tourist attraction for South Dakota. Robinson envisioned Western heroes; Borglum insisted on presidents — he wasn't making a roadside attraction, he was creating a national totem.`,
 
-But this simple structure produces astonishing optical illusions. A gray square appears bluish next to warm yellow, yellowish next to cool blue. The same color transforms completely depending on its neighbors. With this series, Albers proved a counterintuitive truth: **color has no absolute reality, only relationships.**
+    story_en: `**On October 4, 1927, the 60-year-old Borglum detonated the first charge of dynamite on a granite cliff in South Dakota's Black Hills. Over the next 14 years, 400 workers would blast, drill, and polish four colossal faces from this mountain.**
 
-He meticulously recorded the paint brand and number for every painting, down to the label on the tube. This wasn't an artist's romance — it was a scientist's rigor. He wanted anyone to be able to reproduce these experiments and verify the interactions between colors.
+The project was riddled with seemingly impossible challenges from the start. Borglum chose this cliff face because it faced southeast, receiving the longest daily sun exposure — a sculptor's instinct: light determines a face's expression. But granite's hardness meant traditional chisels were useless.
 
-In 1963, he distilled decades of color research into a book: Interaction of Color. The original edition used expensive silk-screen printing to ensure color accuracy, with only 2,000 copies at $200 each (over $2,000 in today's money). It became the most widely used color textbook in design schools worldwide and remains in print.
+Borglum invented a unique "precision blasting" technique: dynamite removed large masses of rock (precise to within inches of the final surface), then pneumatic drills refined the details. Workers rode cable-suspended chairs down the cliff face each morning, dangling over 150 meters above the ground. No safety nets, no modern protective equipment.
 
-Albers kept painting until his death in 1976. His last Homage to the Square was 26 years after the first, yet you can hardly detect "progress" — because each painting wasn't pursuing perfection, but asking a new question.`,
+Not a single worker died from the work during the entire project. In that era, this record was virtually miraculous.
 
-    legacy_en: `• The Homage to the Square series (over 2,000 works) is the most systematic color study of the 20th century, permanently housed at MoMA, Tate, the Guggenheim, and other world-class museums\n• Interaction of Color remains the most essential color theory textbook in global design education\n• Albers's teaching systems at Bauhaus and Yale directly shaped modern design education methodology — "less is more" isn't just a slogan, it's a practice that grew from his classroom\n• His students — Robert Rauschenberg, Ruth Asawa, Richard Anuszkiewicz — inherited and expanded his color philosophy, influencing Pop Art and Op Art movements\n• The color systems at Apple, Google, and other tech companies trace their intellectual roots to Albers's core insight that "color is relative"`,
+Each face measures about 18 meters (60 feet) tall, with 6-meter noses, 3.4-meter-wide eyes, and 5.5-meter-wide mouths. Washington was completed first (1934), followed by Jefferson (1936 — originally placed to Washington's left, blasted away and recarved on the right due to poor rock quality), Lincoln (1937), and Roosevelt (1939).
 
-    significance_en: `Albers did something seemingly contradictory: he explored the most complex questions through the most minimal form. Over two thousand paintings with a single composition, yet each one is different. This series teaches every designer a core truth — constraint is not limitation, constraint is a creativity amplifier. One square is enough. What matters is what colors you choose, and whether you understand what's happening between them.`,
+Borglum's original design was far more ambitious than what exists today — he planned half-body busts (down to the waist) and a "Hall of Records" carved into the mountain's rear to house important American documents. Insufficient funding and his death left these plans forever on paper.
+
+**On March 6, 1941, Borglum died during surgery, 19 days before his 74th birthday. Seven months later, his son Lincoln Borglum declared the project complete.**
+
+The final cost was $989,992 (roughly $20 million today) — astonishingly cheap for an engineering project of this scale.`,
+
+    legacy_en: `• Mount Rushmore attracts approximately 3 million visitors annually and ranks alongside the Statue of Liberty as America's most recognizable visual symbol\n• Pioneered "mountain carving" as a monumental form, directly inspiring the Crazy Horse Memorial (still under construction, projected to be the world's largest sculpture upon completion)\n• The precision blasting techniques informed later large-scale rock engineering projects including tunnels, dams, and mines\n• Became a permanent fixture of American popular culture — from Hitchcock's North by Northwest (1959) to countless films, advertisements, and comics\n• Remains a subject of ongoing controversy: the mountain is the sacred Lakota Sioux site "Six Grandfathers" (Tȟuŋkášila Šákpe), and the carving is viewed by Indigenous peoples as a desecration of holy land — the debate over memorialization and colonialism continues to this day`,
+
+    significance_en: `Mount Rushmore is one of the 20th century's most extreme "design decisions": carving human faces into a mountain is itself a statement about scale, permanence, and power. Borglum did something no one would dare attempt today — he transformed nature into an information medium. This project demonstrates that design doesn't only happen on paper or screens: the boldest design reshapes the landscape itself. It also reminds us that no monument exists outside its political context — who is memorialized, on whose land, and at what cost are questions as important as the carving technique.`,
   },
 
 
