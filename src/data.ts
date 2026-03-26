@@ -5437,6 +5437,66 @@ The final cost was $989,992 (roughly $20 million today) — astonishingly cheap 
     significance_en: `Mount Rushmore is one of the 20th century's most extreme "design decisions": carving human faces into a mountain is itself a statement about scale, permanence, and power. Borglum did something no one would dare attempt today — he transformed nature into an information medium. This project demonstrates that design doesn't only happen on paper or screens: the boldest design reshapes the landscape itself. It also reminds us that no monument exists outside its political context — who is memorialized, on whose land, and at what cost are questions as important as the carving technique.`,
   },
 
+  {
+    id: '47',
+    date: '2026-03-26',
+    imageUrl: '/the-daily-object/images/gucci-bamboo-bag.jpg',
+    fullImageUrl: '/the-daily-object/images/full/gucci-bamboo-bag.jpg',
+    title: 'Gucci Bamboo Bag',
+    title_en: 'Gucci Bamboo Bag',
+    subtitle: 'Gucci, 1947',
+    subtitle_en: 'Gucci, 1947',
+    category: 'fashion' as const,
+    designer: 'Guccio Gucci',
+    year: '1947',
+    tags: ['战后材料革新', '奢侈手袋鼻祖', '东西方美学融合'],
+    tags_en: ['Post-War Material Innovation', 'Luxury Handbag Pioneer', 'East-West Aesthetic Fusion'],
+
+    dateConnection: `1881年3月26日，Guccio Gucci 出生于佛罗伦萨。这位皮具匠人之子后来创立了以自己姓氏命名的品牌，而 Bamboo Bag 是 Gucci 最具开创性的设计——一只用竹子取代皮革的手袋，诞生于物资匮乏的战后意大利，却意外成为跨越近八十年的经典。`,
+
+    designerBio: `Guccio Gucci 年轻时在伦敦 Savoy Hotel 当行李员，每天看着英国贵族提着精致皮具进出。这段经历让他意识到：手工皮具不只是实用品，更是身份的延伸。1921年他回到佛罗伦萨开了第一家店，专做马具和皮件。
+
+真正的转折发生在二战期间。盟军对意大利实施贸易制裁，皮革被列为战略物资，几乎无法用于民用。Gucci 的工匠们被迫寻找替代材料——他们试过亚麻、黄麻、甚至回收的船帆布。但最天才的发现来自一种意想不到的东西：竹子。`,
+
+    story: `1947年，Gucci 的工匠在佛罗伦萨的作坊里完成了一个看似不可能的任务：把坚硬的竹节变成柔韧的手袋提手。
+
+工艺的关键在于火烤。工匠先将竹节在明火上加热，趁竹子变软的瞬间弯折成弧形，固定冷却后再涂上清漆保护。这个过程全靠手感——加热过度竹子会碎裂，不够则弯不动。每一根竹柄都是独一无二的，因为天然竹节的位置和间距各不相同。
+
+这种"被迫的创新"带来了意想不到的美学效果。竹子的暖色调和天然纹理与皮革形成微妙对比，弧形提手赋予手袋一种东方式的优雅。1947年的第一批 Bamboo Bag 采用猪皮包身，竹制提手和搭扣——在满目疮痍的战后欧洲，这只手袋像一个小小的宣言：匮乏不是创造力的敌人，而是催化剂。
+
+Ingrid Bergman、Elizabeth Taylor、Diana Spencer——半个世纪里，Bamboo Bag 出现在无数名人手中。但它真正的魅力不在于名人加持，而在于一个简单的事实：七十多年过去，Gucci 的工匠仍然在佛罗伦萨的同一间作坊里，用同样的火烤工艺，一根一根地弯折竹子。没有任何机器能替代这道工序。
+
+2021年，Gucci 在品牌百年之际将这只包重新命名为 "Gucci Bamboo 1947"，致敬它的诞生年份。`,
+
+    legacy: `Bamboo Bag 开创了奢侈品行业"用非传统材料制造高端产品"的先例。在它之前，奢侈手袋几乎等于皮革；在它之后，设计师们开始大胆尝试各种材料——从 Prada 的尼龙到 Bottega Veneta 的编织皮革。它证明了一个道理：定义奢侈的不是材料本身，而是工艺和设计意图。
+
+竹柄的火烤弯曲工艺至今仍是 Gucci 最核心的手工技艺之一，每位新学徒都要从这道工序开始学起。这只手袋也是时尚界最早的"可持续设计"案例之一——竹子是地球上生长最快的植物，比皮革友好得多。`,
+
+    significance: `Bamboo Bag 的故事是设计史上最经典的"限制催生创新"案例之一。战争切断了皮革供应，工匠们被迫在竹子和明火之间寻找答案——结果创造出了一件比任何皮革手袋都更有辨识度的作品。这提醒每一位设计师：最好的设计往往不是在资源充裕时诞生的，而是在你被逼到墙角、不得不重新思考"这个东西到底可以用什么做"的时候。`,
+
+    dateConnection_en: `On March 26, 1881, Guccio Gucci was born in Florence. The leather craftsman's son would go on to found the house bearing his name, and the Bamboo Bag remains Gucci's most pioneering design — a handbag that replaced leather with bamboo, born from post-war material scarcity yet enduring as an icon for nearly eight decades.`,
+
+    designerBio_en: `As a young man, Guccio Gucci worked as a bellhop at London's Savoy Hotel, watching British aristocrats stride through with exquisite leather goods. That experience planted a conviction: fine leather craft was not merely functional — it was an extension of identity. In 1921, he returned to Florence and opened his first shop, specializing in equestrian gear and leather goods.
+
+The real turning point came during World War II. Allied trade sanctions listed leather as a strategic material, making it virtually unavailable for civilian use. Gucci's artisans were forced to experiment with alternatives — linen, jute, even recycled sail canvas. But the most ingenious discovery came from an unexpected source: bamboo.`,
+
+    story_en: `In 1947, Gucci's craftsmen in their Florence workshop accomplished something seemingly impossible: turning rigid bamboo into supple handbag handles.
+
+The key was fire. Artisans heated bamboo segments over an open flame, bending them into arcs during the brief window of pliability, then fixing the shape as the bamboo cooled before applying protective lacquer. The process was entirely guided by touch — too much heat and the bamboo shatters; too little and it won't bend. Every handle is unique because natural bamboo nodes fall at different intervals.
+
+This "forced innovation" produced an unexpected aesthetic. The warm tone and organic grain of bamboo created a subtle contrast with leather, while the curved handle lent the bag an Eastern elegance. The first Bamboo Bags of 1947 featured pigskin bodies with bamboo handles and clasps — in war-scarred Europe, this small handbag was a quiet manifesto: scarcity is not the enemy of creativity, but its catalyst.
+
+Ingrid Bergman, Elizabeth Taylor, Diana Spencer — across half a century, the Bamboo Bag appeared in countless celebrity hands. But its true allure lies not in star power but in a simple fact: over seventy years later, Gucci artisans still work in the same Florence workshop, bending bamboo over flame one piece at a time. No machine has ever replicated this step.
+
+In 2021, for the brand's centennial, Gucci renamed the bag "Gucci Bamboo 1947" — a tribute to the year it was born.`,
+
+    legacy_en: `The Bamboo Bag pioneered the luxury industry's embrace of unconventional materials. Before it, luxury handbags meant leather, full stop. After it, designers dared to experiment — from Prada's nylon to Bottega Veneta's intrecciato weave. It proved that luxury is defined not by material but by craft and design intent.
+
+The fire-bending technique for bamboo handles remains one of Gucci's most closely guarded artisanal skills; every new apprentice begins by learning this process. The bag is also one of fashion's earliest examples of "sustainable design" — bamboo is the fastest-growing plant on Earth, far more renewable than leather.`,
+
+    significance_en: `The Bamboo Bag is one of design history's most compelling cases of constraint breeding innovation. War severed leather supplies, forcing artisans to find answers between bamboo and open flame — and the result was more distinctive than any leather handbag could have been. It reminds every designer that the best work often emerges not from abundance but from being backed into a corner, forced to rethink what something can be made of.`,
+  },
+
 
 
 ]
