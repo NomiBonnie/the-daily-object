@@ -6,7 +6,12 @@ import { format } from 'date-fns'
 import { designs, IMAGE_VERSION, type DesignObject } from './data'
 
 // Append version query to bust CDN cache when images are replaced
-const v = (url: string) => `${url}?v=${IMAGE_VERSION}`
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, '')
+const v = (url: string) => {
+  const cleaned = url.replace(/^\/the-daily-object/, '')
+  const resolved = cleaned.startsWith('/') ? `${BASE}${cleaned}` : cleaned
+  return `${resolved}?v=${IMAGE_VERSION}`
+}
 import { Moon, Sun, ChevronLeft, ChevronRight } from 'lucide-react'
 
 type View = 'today' | 'archive'
