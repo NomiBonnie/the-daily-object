@@ -5497,6 +5497,70 @@ The fire-bending technique for bamboo handles remains one of Gucci's most closel
     significance_en: `The Bamboo Bag is one of design history's most compelling cases of constraint breeding innovation. War severed leather supplies, forcing artisans to find answers between bamboo and open flame — and the result was more distinctive than any leather handbag could have been. It reminds every designer that the best work often emerges not from abundance but from being backed into a corner, forced to rethink what something can be made of.`,
   },
 
+  {
+    id: '67',
+    date: '2026-03-27',
+    imageUrl: '/the-daily-object/images/barcelona-chair.jpg',
+    fullImageUrl: '/the-daily-object/images/full/barcelona-chair.jpg',
+    title: 'Barcelona Chair',
+    title_en: 'Barcelona Chair',
+    subtitle: 'Ludwig Mies van der Rohe & Lilly Reich, 1929',
+    subtitle_en: 'Ludwig Mies van der Rohe & Lilly Reich, 1929',
+    category: 'industrial' as const,
+    designer: 'Ludwig Mies van der Rohe',
+    year: '1929',
+    tags: ['现代主义家具基石', '少即是多的极致', '为国王设计的椅子'],
+    tags_en: ['Modernist Furniture Cornerstone', 'The Ultimate Less Is More', 'A Chair Designed for Royalty'],
+
+    dateConnection: `1886年3月27日，Ludwig Mies van der Rohe 出生于德国亚琛。这位后来提出"少即是多"的建筑巨匠，在1929年为巴塞罗那世博会德国馆设计了一把椅子——它原本只是西班牙国王的临时座位，却成为整个现代主义运动最持久的符号之一。`,
+
+    designerBio: `Mies van der Rohe 没上过建筑学校。他在父亲的石匠作坊里学会了对材料的尊重，十几岁时在亚琛的建筑事务所当学徒，靠画灰泥装饰起步。1908年他进入 Peter Behrens 的柏林工作室，和 Walter Gropius、Le Corbusier 做了同事——二十世纪三位最重要的建筑师曾在同一间办公室画图。
+
+1929年，德国政府委托他设计巴塞罗那世博会德国馆。这不只是一个展览项目，更是魏玛共和国向世界展示"新德国"形象的政治任务。Mies 的搭档和伴侣 Lilly Reich 负责了展馆的室内设计和家具，Barcelona Chair 正是两人合作的产物。`,
+
+    story: `1929年5月，巴塞罗那世博会开幕前夕，Mies 面临一个具体问题：西班牙国王阿方索十三世将出席德国馆的开幕式，但展馆里没有一把足够庄重的椅子给国王坐。
+
+Mies 的灵感来自一个古老的形式：古罗马的 curule seat（折叠椅），那是执政官权力的象征。他把这个X形交叉腿的结构用现代材料重新演绎——扁平的镀铬钢条弯成优美的弧线交叉，上面搁着手工缝制的皮革垫。整把椅子没有一处多余，但每一处都经过精密计算。
+
+钢框架看起来简洁，制造却极其复杂。每根钢条需要手工打磨、弯折、焊接、再抛光到镜面效果。皮革坐垫由40块独立的方形皮片手工缝合，每一片的拉力都要均匀，否则坐下去会变形。1929年的第一批椅子只生产了两把，全部手工完成。
+
+开幕当天，阿方索十三世坐在这把椅子上，身后是 Mies 标志性的绿色大理石墙和流动的空间。国王可能没有意识到自己正坐在一件即将定义整个世纪的设计上。
+
+展览结束后，德国馆被拆除，那两把原版椅子也下落不明。直到1950年代，Mies 移居美国后，Knoll 家具公司说服他重新投产。这一次，他用不锈钢取代了镀铬钢，改进了皮革处理工艺，但核心设计分毫未动。从那以后，Barcelona Chair 一直在生产——近百年来设计从未改变。`,
+
+    legacy: `Barcelona Chair 是现代主义"形式服从功能"理念最纯粹的物质化身。它出现在全球几乎每一栋重要建筑的大堂里——从 Philip Johnson 的 Glass House 到无数跨国公司的总部。建筑师 Philip Johnson 曾说："这是二十世纪最美的椅子。"
+
+它也是设计教育的必修案例。每一届工业设计学生都会分析它的结构逻辑：为什么X形框架既是承重结构又是视觉焦点？为什么皮革垫面不用扣子而用缝线？这些选择背后的克制和精确，定义了什么叫"少即是多"。
+
+Knoll 至今仍在授权生产 Barcelona Chair，零售价约七千美元。它可能是世界上被仿制最多的椅子——但原版的工艺精度是仿品永远无法复制的。`,
+
+    significance: `Barcelona Chair 证明了一个看似矛盾的命题：最极简的设计需要最极致的工艺。Mies 去掉了所有装饰，意味着每一根钢条的弧度、每一块皮革的张力都暴露在观者眼前，没有任何东西可以藏拙。这把椅子教会了几代设计师一个残酷的道理——简单不是偷懒，简单是最难的事。`,
+
+    dateConnection_en: `On March 27, 1886, Ludwig Mies van der Rohe was born in Aachen, Germany. The architect who coined "less is more" designed a chair in 1929 for the German Pavilion at the Barcelona International Exposition — originally a temporary seat for the King of Spain, it became one of the most enduring symbols of the entire Modernist movement.`,
+
+    designerBio_en: `Mies van der Rohe never attended architecture school. He learned respect for materials in his father's stone-carving workshop and apprenticed at an Aachen architecture firm as a teenager, starting out drawing stucco ornaments. In 1908, he joined Peter Behrens's Berlin studio alongside Walter Gropius and Le Corbusier — three of the twentieth century's most important architects once shared the same drafting room.
+
+In 1929, the German government commissioned him to design the national pavilion for the Barcelona International Exposition. It was not merely an exhibition project but a political mission: the Weimar Republic's statement to the world of a "new Germany." His partner and collaborator Lilly Reich was responsible for the interior design and furnishings; the Barcelona Chair was the product of their joint effort.`,
+
+    story_en: `In May 1929, on the eve of the Barcelona Exposition's opening, Mies faced a concrete problem: King Alfonso XIII of Spain would attend the German Pavilion's inauguration, and there was no chair dignified enough for a monarch.
+
+Mies drew inspiration from an ancient form: the Roman curule seat, a folding chair symbolizing magisterial authority. He reinterpreted its X-shaped crossed legs in modern materials — flat chrome-plated steel bars bent into elegant intersecting arcs, topped with hand-stitched leather cushions. Nothing in the chair is superfluous, yet every element is precisely calculated.
+
+The steel frame looks simple; manufacturing it was anything but. Each bar had to be hand-ground, bent, welded, and polished to a mirror finish. The leather cushion was hand-sewn from 40 individual square panels, each requiring uniform tension to prevent deformation under weight. Only two chairs were produced for the 1929 debut, both entirely handmade.
+
+On opening day, Alfonso XIII sat in that chair against Mies's signature green marble wall and flowing space. The king likely had no idea he was sitting on a design that would define an entire century.
+
+After the exhibition, the pavilion was dismantled and the two original chairs disappeared. It wasn't until the 1950s, after Mies had emigrated to America, that Knoll persuaded him to put it back into production. This time he substituted stainless steel for chrome-plated steel and refined the leather treatment, but the core design remained unchanged. The Barcelona Chair has been in continuous production ever since — nearly a century without a single design alteration.`,
+
+    legacy_en: `The Barcelona Chair is the purest material embodiment of Modernism's "form follows function" credo. It appears in the lobby of virtually every significant building worldwide — from Philip Johnson's Glass House to countless corporate headquarters. Johnson himself declared it "the most beautiful chair of the twentieth century."
+
+It is also a required case study in design education. Every generation of industrial design students analyzes its structural logic: why does the X-frame serve as both load-bearing structure and visual focus? Why are the cushion panels sewn rather than buttoned? The restraint and precision behind these choices define what "less is more" truly means.
+
+Knoll still produces the Barcelona Chair under license, retailing at roughly seven thousand dollars. It may be the world's most copied chair — yet the manufacturing precision of the original is something no imitation can replicate.`,
+
+    significance_en: `The Barcelona Chair proves a seemingly paradoxical proposition: the most minimal design demands the most exacting craft. By stripping away all ornament, Mies ensured that every curve of steel, every tension in the leather, is exposed to the viewer with nowhere to hide. This chair taught generations of designers a demanding truth — simplicity is not laziness; simplicity is the hardest thing of all.`,
+  },
+
 
 
 ]
