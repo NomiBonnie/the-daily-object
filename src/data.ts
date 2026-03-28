@@ -5561,6 +5561,70 @@ Knoll still produces the Barcelona Chair under license, retailing at roughly sev
     significance_en: `The Barcelona Chair proves a seemingly paradoxical proposition: the most minimal design demands the most exacting craft. By stripping away all ornament, Mies ensured that every curve of steel, every tension in the leather, is exposed to the viewer with nowhere to hide. This chair taught generations of designers a demanding truth — simplicity is not laziness; simplicity is the hardest thing of all.`,
   },
 
+  {
+    id: '68',
+    date: '2026-03-28',
+    imageUrl: '/the-daily-object/images/chagall-i-and-the-village.jpg',
+    fullImageUrl: '/the-daily-object/images/full/chagall-i-and-the-village.jpg',
+    title: '我和村庄',
+    title_en: 'I and the Village',
+    subtitle: 'Marc Chagall, 1911',
+    subtitle_en: 'Marc Chagall, 1911',
+    category: 'art' as const,
+    designer: 'Marc Chagall',
+    year: '1911',
+    tags: ['定义了梦幻视觉语言', '现代艺术色彩革命', '跨媒介设计先驱'],
+    tags_en: ['Defined Dreamlike Visual Language', 'Modern Art Color Revolution', 'Cross-Medium Design Pioneer'],
+
+    dateConnection: `1985年3月28日，Marc Chagall 在法国南部的圣保罗德旺斯去世，享年97岁。他是20世纪活得最长的艺术巨匠之一，也是极少数真正跨越纯艺术与应用设计边界的创作者——从油画到彩色玻璃窗，从歌剧院穹顶到挂毯，他用同一套梦幻视觉语言重塑了建筑空间与公共艺术设计。`,
+
+    designerBio: `Chagall 1887年出生在俄罗斯帝国的一个犹太小镇维捷布斯克。那个小镇后来成为他毕生创作的原点——飞翔的恋人、倒置的房屋、会拉琴的山羊，这些意象全部来自童年的维捷布斯克。
+
+1910年，23岁的 Chagall 到巴黎，住进蒙帕纳斯的"蜂巢"艺术家公寓。他一头撞进立体主义和野兽派的漩涡，但没有被任何流派吞没。他从立体主义学到了空间的分割与叠加，从野兽派学到了色彩可以脱离现实，然后把这些技法注入自己的犹太民间叙事——创造出一种前所未有的视觉语言：同时是现代的、民间的、梦幻的。
+
+毕加索说过："从马蒂斯以后，Chagall 是唯一真正理解色彩的人。"这不是客套话。Chagall 对色彩的直觉——那种蓝、那种红、那种在同一画面里让冷暖色彼此呼吸的能力——影响了整个20世纪的视觉设计。`,
+
+    story: `1911年，Chagall 刚到巴黎一年，画了这幅《我和村庄》。它是他对家乡维捷布斯克的一封情书，也是他独特视觉语言的宣言。
+
+画面上，一张绿色的人脸和一头白色的牛面对面，彼此对视。在牛的面颊里嵌套着一个农妇在挤奶的场景；人脸的手中举着一棵开花的树枝。背景里，维捷布斯克的教堂和小屋颠倒飞舞，一个扛锄头的农民和一个倒挂的女人共享天际线。
+
+这不是写实，也不是纯粹的抽象。Chagall 用立体主义的空间分割把多个时空叠加在同一画面：记忆、梦境、现实混合在一起，就像人回忆家乡时大脑实际运作的方式——片段、重叠、不合逻辑但情感上完全真实。
+
+这幅画对后来的视觉设计影响深远。超现实主义者把它视为先驱，但 Chagall 本人拒绝这个标签。他说他画的不是"超现实"，而是"超自然的现实"——是情感本身的形状。这种将主观情感直接转化为视觉形式的方法，后来渗透到插画、动画、平面设计的各个角落。宫崎骏的飞行意象、绘本插画中的梦幻构图，都能追溯到 Chagall 开创的这套语法。
+
+更令人惊叹的是 Chagall 后半生向应用设计的跨越。他为纽约大都会歌剧院设计了两幅巨型壁画，为巴黎歌剧院加尼叶宫绘制了穹顶天花板，为联合国总部创作了"和平之窗"彩色玻璃，为耶路撒冷的哈达萨医疗中心设计了12扇彩色玻璃窗，为兰斯大教堂设计了彩色玻璃……他把油画中的梦幻色彩转化为光穿透玻璃时的真实体验，让建筑空间本身成为画布。`,
+
+    legacy: `Chagall 对设计界的影响远超出画框。他的彩色玻璃窗设计重新定义了这一中世纪工艺在现代建筑中的可能性——不再是宗教叙事的工具，而是用色彩和光线塑造空间情绪的设计手段。芝加哥艺术博物馆的"美国之窗"至今是该馆最受欢迎的藏品之一。
+
+他证明了一件事：伟大的视觉语言不受媒介限制。同一套色彩逻辑和构图直觉，可以从油画延伸到玻璃、壁画、挂毯、陶瓷、舞台设计。这种跨媒介的设计思维，在今天看来反而更前卫——当设计师被要求同时思考屏幕、空间、材料时，Chagall 早在一个世纪前就在实践这件事。`,
+
+    significance: `《我和村庄》展示了一种激进的可能性：视觉设计不必服从物理现实的逻辑，可以服从情感和记忆的逻辑。这个观念深刻影响了后来的插画设计、动画设计和用户体验设计中的情感化表达。Chagall 创造的不只是画面，是一整套用视觉讲述主观体验的方法论。`,
+
+    dateConnection_en: `On March 28, 1985, Marc Chagall died in Saint-Paul-de-Vence, France, at the age of 97. He was one of the longest-lived giants of 20th-century art, and one of the rare creators who genuinely crossed the boundary between fine art and applied design — from oil paintings to stained glass windows, opera house ceilings to tapestries, he used a single dreamlike visual language to reshape architectural spaces and public art design.`,
+
+    designerBio_en: `Chagall was born in 1887 in Vitebsk, a small Jewish town in the Russian Empire. That town became the wellspring of his life's work — flying lovers, upside-down houses, violin-playing goats — all rooted in his Vitebsk childhood.
+
+In 1910, the 23-year-old arrived in Paris and moved into La Ruche, the famed artists' residence in Montparnasse. He plunged into the maelstrom of Cubism and Fauvism but was swallowed by neither. From Cubism he took the fragmentation and layering of space; from Fauvism, the liberation of color from reality. He then infused these techniques with his own Jewish folk narratives — inventing an unprecedented visual language that was simultaneously modern, folkloric, and dreamlike.
+
+Picasso once said: "After Matisse, Chagall is the only one who truly understands color." This was not flattery. Chagall's chromatic intuition — those particular blues, those reds, his ability to let warm and cool tones breathe together in a single composition — influenced the entire century's visual design.`,
+
+    story_en: `In 1911, just a year after arriving in Paris, Chagall painted *I and the Village*. It was a love letter to his hometown Vitebsk and a manifesto for his unique visual language.
+
+In the painting, a green human face and a white cow confront each other eye to eye. Nested within the cow's cheek is a scene of a peasant woman milking; the human holds a flowering branch. In the background, Vitebsk's churches and cottages tumble and fly, a farmer with a scythe and an upside-down woman share the skyline.
+
+This is neither realism nor pure abstraction. Chagall used Cubist spatial fragmentation to layer multiple times and places onto a single plane: memory, dream, and reality merged — much like how the brain actually works when recalling home — fragmentary, overlapping, illogical yet emotionally true.
+
+The painting profoundly influenced later visual design. The Surrealists claimed it as a precursor, but Chagall rejected the label. He said he was not painting "surreality" but "supernatural reality" — the literal shape of emotion. This method of translating subjective feeling directly into visual form later permeated illustration, animation, and graphic design. Miyazaki's imagery of flight, the dreamlike compositions in picture books — all trace back to the grammar Chagall pioneered.
+
+Even more remarkable was Chagall's later leap into applied design. He created two monumental murals for the Metropolitan Opera at Lincoln Center, painted the ceiling of the Palais Garnier in Paris, designed the "Peace" stained glass window for the United Nations, created twelve stained glass windows for Hadassah Medical Center in Jerusalem, and designed windows for Reims Cathedral. He translated the dreamlike color of his oil paintings into the lived experience of light passing through glass, turning architectural space itself into canvas.`,
+
+    legacy_en: `Chagall's impact on design extends far beyond the picture frame. His stained glass designs redefined the possibilities of this medieval craft in modern architecture — no longer merely a vehicle for religious narrative, but a design medium for sculpting spatial mood through color and light. The "America Windows" at the Art Institute of Chicago remains one of the museum's most beloved works.
+
+He proved that a great visual language transcends medium. The same chromatic logic and compositional instinct could extend from oil painting to glass, mural, tapestry, ceramics, and stage design. This cross-medium design thinking feels even more radical today — when designers are asked to think simultaneously about screens, spaces, and materials, Chagall was already practicing exactly this a century ago.`,
+
+    significance_en: `*I and the Village* demonstrated a radical possibility: visual design need not obey the logic of physical reality — it can obey the logic of emotion and memory. This idea profoundly shaped the emotional expression found in later illustration design, animation design, and experience design. Chagall created not just images, but an entire methodology for visually narrating subjective experience.`,
+  },
+
 
 
 ]
