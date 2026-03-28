@@ -396,7 +396,7 @@ function App() {
                 navigate('/')
                 window.scrollTo({ top: 0, behavior: 'smooth' })
               }}
-              className="text-lg sm:text-2xl font-serif font-normal tracking-wide text-neutral-900 dark:text-neutral-100 whitespace-nowrap hover:opacity-70 transition-opacity"
+              className="text-lg sm:text-2xl font-serif font-normal tracking-wide uppercase text-neutral-900 dark:text-neutral-100 whitespace-nowrap hover:opacity-70 transition-opacity"
             >
               The Daily Object
             </button>
