@@ -396,9 +396,9 @@ function App() {
                 navigate('/')
                 window.scrollTo({ top: 0, behavior: 'smooth' })
               }}
-              className="text-base sm:text-xl font-light tracking-wide text-neutral-900 dark:text-neutral-100 whitespace-nowrap hover:opacity-70 transition-opacity"
+              className="text-base sm:text-xl font-serif font-light tracking-wide text-neutral-900 dark:text-neutral-100 whitespace-nowrap hover:opacity-70 transition-opacity"
             >
-              THE DAILY OBJECT
+              The Daily Object
             </button>
             
             <div className="flex items-center gap-1 sm:gap-3">
