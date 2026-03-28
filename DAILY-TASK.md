@@ -12,9 +12,7 @@
 dist 在 .gitignore 里，不会被 git push 推送。部署必须用 gh-pages：
 ```bash
 cd /Users/samyuan/.openclaw/workspace/the-daily-object
-npm run build
-git add -A && git commit -m "Add MM-DD: Title" && git push origin main
-npx gh-pages -d dist   # 推送构建产物到 gh-pages 分支
+bash scripts/deploy.sh "Add MM-DD: Title"
 ```
 
 **定位**：每天推荐一个世界级小众设计作品，必须与当天日期有关联。
@@ -328,15 +326,30 @@ todayShort=$(date +%m-%d)  # 用于 commit message
 
 **把所有候选列出来，逐个评估，选最好的那个。**
 
-**⚠️ 必须输出评分表！** 不能只在脑子里想。格式如下：
+**⚠️ 必须输出评分表并写入文件！** 不能只在脑子里想。
+
+**评分表必须写入 `tmp/daily-candidates.md`，格式如下：**
 ```
+# Daily Object 候选 MM-DD
+
 候选1: [作品名] — [关联类型: 生日/逝世/发布/获奖/...]
   知名度: X/5 | 图片: X/5 | 故事: X/5 | 视觉: X/5 | 分类多样性: X/5 | 总分: XX/25
 候选2: [作品名] — [关联类型: ...]
   知名度: X/5 | 图片: X/5 | 故事: X/5 | 视觉: X/5 | 分类多样性: X/5 | 总分: XX/25
+候选3: [作品名] — [关联类型: ...]
+  知名度: X/5 | 图片: X/5 | 故事: X/5 | 视觉: X/5 | 分类多样性: X/5 | 总分: XX/25
 → 选择: 候选X（原因：...）
 ```
-**没有输出评分表 = 违规。** 这不是可选步骤。
+
+**写完后必须运行验证脚本：**
+```bash
+bash scripts/validate-selection.sh
+```
+- exit 0 → 通过，继续下一步
+- exit 1 → 不通过，根据错误信息修正后重新运行验证（最多重试 2 次）
+- 2 次都不通过 → 直接选得分最高的候选发布，在 Telegram 报告中标注"⚠️ 未达 18 分门槛，已选最优候选"
+
+**没有输出评分表 = 违规。没有运行验证脚本 = 违规。** 这不是可选步骤。
 
 评估维度（每项 1-5 分，具体标准如下）：
 
@@ -452,12 +465,10 @@ fi
 
 ```bash
 cd /Users/samyuan/.openclaw/workspace/the-daily-object
-npm run build                    # 先构建确认无报错
-git add -A
-git commit -m "Add MM-DD: Title"
-git push origin main
-npx gh-pages -d dist             # 推送构建产物到 gh-pages 分支部署
+bash scripts/deploy.sh "Add MM-DD: Title"
 ```
+
+⚠️ 不要手动跑 git push / wrangler / gh-pages。脚本会自动完成 GitHub Pages + Cloudflare Pages 双端部署。
 
 ### 8. 验证
 等 2 分钟，检查：
@@ -574,7 +585,7 @@ browser action=open → 用 → browser action=close
    - **Unsplash API**（首选）：config 在 `~/.config/unsplash/config.json`，用法：`Invoke-RestMethod -Uri "https://api.unsplash.com/search/photos?query=xxx&per_page=5&client_id=$($config.access_key)"`，下载用 `urls.regular`（1080px）
    - **Pexels API**（备用）：config 在 `~/.config/pexels/config.json`，用法：`Invoke-RestMethod -Uri "https://api.pexels.com/v1/search?query=xxx&per_page=5" -Headers @{Authorization=$config.api_key}`，下载用 `src.large`
    - **Wikimedia Commons API**（第三选择）：免费无需 key，但下载时必须用 User-Agent `DailyObjectBot/1.0 (NomiBonnie@hotmail.com)` 否则会 429 限流
-3. **部署用 `git push origin main`**，不用 `npx gh-pages`（项目用 GitHub Actions 部署）。
+3. **部署用 `bash scripts/deploy.sh`**，一条命令完成 GitHub Pages + Cloudflare Pages 双端部署。
 4. **图文一致性 > 一切**：图片必须和标题、故事内容、类别全部匹配。找不到匹配的图就换主题，绝不允许图文不一致上线。
 5. **找不到好图就换主题**：尝试 3 次找图失败 → 立即换一个有好图的设计作品，别死磕。
 6. **必须跟设计有关**：选的人/作品必须是设计师或设计作品（工业设计/建筑/UI/产品设计/平面设计），纯文学、纯艺术、纯插画不算。
@@ -735,7 +746,30 @@ const data = require('./src/data.ts'); // 或直接 grep
 - 用**相关概念图**代替**具体作品图**（如用"喷泉"代替"莫扎特"）
 - 用**AI 生成图**代替**真实照片**
 
-*最后更新：2026-02-26*
+*最后更新：2026-03-28*
+
+---
+
+## 🚀 双端部署（铁规！不可跳过）
+
+**每次更新必须同时部署 GitHub Pages + Cloudflare Pages。**
+
+**只需运行一条命令：**
+```bash
+bash scripts/deploy.sh "Add MM-DD: Title"
+```
+
+这个脚本会自动完成：
+1. 验证 Cloudflare token 有效
+2. git commit + push（→ GitHub Pages 自动部署）
+3. CF_PAGES=1 构建 + wrangler 部署（→ Cloudflare Pages）
+
+⚠️ **不要手动跑 git push 或 wrangler 命令。** 用脚本，保证双端都部署。
+⚠️ 脚本任何一步失败会立即停止并报错，不会部署半成品。
+
+线上地址：
+- GitHub Pages: https://nomibonnie.github.io/the-daily-object/
+- Cloudflare: https://daily.sanono.xyz
 
 ---
 

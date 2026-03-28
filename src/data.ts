@@ -5564,65 +5564,65 @@ Knoll still produces the Barcelona Chair under license, retailing at roughly sev
   {
     id: '68',
     date: '2026-03-28',
-    imageUrl: '/the-daily-object/images/chagall-i-and-the-village.jpg',
-    fullImageUrl: '/the-daily-object/images/full/chagall-i-and-the-village.jpg',
-    title: '我和村庄',
-    title_en: 'I and the Village',
-    subtitle: 'Marc Chagall, 1911',
-    subtitle_en: 'Marc Chagall, 1911',
-    category: 'art' as const,
-    designer: 'Marc Chagall',
-    year: '1911',
-    tags: ['定义了梦幻视觉语言', '现代艺术色彩革命', '跨媒介设计先驱'],
-    tags_en: ['Defined Dreamlike Visual Language', 'Modern Art Color Revolution', 'Cross-Medium Design Pioneer'],
+    imageUrl: '/the-daily-object/images/2026-03-28.jpg',
+    fullImageUrl: '/the-daily-object/images/full/2026-03-28.jpg',
+    title: '卡塔尔国家博物馆',
+    title_en: 'National Museum of Qatar',
+    subtitle: 'Jean Nouvel, 2019',
+    subtitle_en: 'Jean Nouvel, 2019',
+    category: 'architecture' as const,
+    designer: 'Jean Nouvel',
+    year: '2019',
+    tags: ['沙漠玫瑰建筑哲学', '普利兹克奖得主代表作', '国家叙事空间设计'],
+    tags_en: ['Desert Rose Architecture', 'Pritzker Laureate Masterwork', 'National Narrative Space Design'],
 
-    dateConnection: `1985年3月28日，Marc Chagall 在法国南部的圣保罗德旺斯去世，享年97岁。他是20世纪活得最长的艺术巨匠之一，也是极少数真正跨越纯艺术与应用设计边界的创作者——从油画到彩色玻璃窗，从歌剧院穹顶到挂毯，他用同一套梦幻视觉语言重塑了建筑空间与公共艺术设计。`,
+    dateConnection: `2019年3月28日，卡塔尔国家博物馆在多哈正式开馆。这座由法国建筑师 Jean Nouvel 设计的建筑，以卡塔尔沙漠中自然形成的"沙漠玫瑰"结晶为灵感，用316个相互交错的圆盘组成了一座看起来像是从地面生长出来的建筑。它不是把文物放进盒子里的传统博物馆，而是让建筑本身成为关于这片土地的第一件展品。`,
 
-    designerBio: `Chagall 1887年出生在俄罗斯帝国的一个犹太小镇维捷布斯克。那个小镇后来成为他毕生创作的原点——飞翔的恋人、倒置的房屋、会拉琴的山羊，这些意象全部来自童年的维捷布斯克。
+    designerBio: `Jean Nouvel 1945年出生在法国西南部的菲梅勒，父母都是教师。他在波尔多的美术学院学建筑，1970年在巴黎开设事务所时只有25岁。
 
-1910年，23岁的 Chagall 到巴黎，住进蒙帕纳斯的"蜂巢"艺术家公寓。他一头撞进立体主义和野兽派的漩涡，但没有被任何流派吞没。他从立体主义学到了空间的分割与叠加，从野兽派学到了色彩可以脱离现实，然后把这些技法注入自己的犹太民间叙事——创造出一种前所未有的视觉语言：同时是现代的、民间的、梦幻的。
+Nouvel 的建筑有一个一以贯之的执念：每栋建筑必须回应它所在的具体场所。不是抽象的"在地性"口号，而是真的从场地的光线、气候、文化、甚至地质条件中提取设计逻辑。阿布扎比卢浮宫的穹顶模拟棕榈叶的光影，巴塞罗那阿格巴塔的表皮颜色从地面的赭红渐变到天空的蓝，巴黎阿拉伯世界研究所的立面用机械光圈模拟伊斯兰几何纹样……每个项目都是一次对"这里是哪里"的追问。
 
-毕加索说过："从马蒂斯以后，Chagall 是唯一真正理解色彩的人。"这不是客套话。Chagall 对色彩的直觉——那种蓝、那种红、那种在同一画面里让冷暖色彼此呼吸的能力——影响了整个20世纪的视觉设计。`,
+2008年，他获得普利兹克建筑奖。评委的措辞是："他追求的不是风格的统一，而是理念的统一——每栋建筑都是对特定情境的独特回应。"`,
 
-    story: `1911年，Chagall 刚到巴黎一年，画了这幅《我和村庄》。它是他对家乡维捷布斯克的一封情书，也是他独特视觉语言的宣言。
+    story: `卡塔尔想要一座能讲述自己故事的博物馆。不是又一个白盒子里摆满文物的展厅，而是一座建筑本身就在讲述从沙漠到海洋、从珍珠到石油、从贝都因帐篷到摩天大楼的变迁。
 
-画面上，一张绿色的人脸和一头白色的牛面对面，彼此对视。在牛的面颊里嵌套着一个农妇在挤奶的场景；人脸的手中举着一棵开花的树枝。背景里，维捷布斯克的教堂和小屋颠倒飞舞，一个扛锄头的农民和一个倒挂的女人共享天际线。
+Nouvel 在卡塔尔的沙漠里找到了答案。沙漠玫瑰是一种在含水砂层中自然结晶的矿物，扁平的圆盘互相穿插叠加，像是从沙中绽放的花朵。它不是人造的，是这片土地自己生长出来的形态。
 
-这不是写实，也不是纯粹的抽象。Chagall 用立体主义的空间分割把多个时空叠加在同一画面：记忆、梦境、现实混合在一起，就像人回忆家乡时大脑实际运作的方式——片段、重叠、不合逻辑但情感上完全真实。
+Nouvel 把这个自然形态放大到建筑尺度：316个直径从14米到87米不等的钢质圆盘，以各种角度相互穿插，形成了一座总面积4万平方米的建筑群。没有两个圆盘是平行的，每个交叉点都创造出不同的空间——有的成为展厅的天花板，有的成为遮阳的檐口，有的成为连接两个展区的桥梁。
 
-这幅画对后来的视觉设计影响深远。超现实主义者把它视为先驱，但 Chagall 本人拒绝这个标签。他说他画的不是"超现实"，而是"超自然的现实"——是情感本身的形状。这种将主观情感直接转化为视觉形式的方法，后来渗透到插画、动画、平面设计的各个角落。宫崎骏的飞行意象、绘本插画中的梦幻构图，都能追溯到 Chagall 开创的这套语法。
+这不是隐喻，是直译。Nouvel 没有"设计一座像沙漠玫瑰的建筑"，他是把沙漠玫瑰的生成逻辑直接变成了建筑的结构逻辑——圆盘的大小、角度、间距都遵循结晶体的数学规律。建筑因此获得了一种奇特的"自然感"：它看起来不像被设计出来的，像是从多哈的海边自己长出来的。
 
-更令人惊叹的是 Chagall 后半生向应用设计的跨越。他为纽约大都会歌剧院设计了两幅巨型壁画，为巴黎歌剧院加尼叶宫绘制了穹顶天花板，为联合国总部创作了"和平之窗"彩色玻璃，为耶路撒冷的哈达萨医疗中心设计了12扇彩色玻璃窗，为兰斯大教堂设计了彩色玻璃……他把油画中的梦幻色彩转化为光穿透玻璃时的真实体验，让建筑空间本身成为画布。`,
+施工难度几乎无法想象。传统建筑的几何是正交的——墙垂直于地面，梁平行于墙。但这座建筑没有一条直线，没有一个直角。每个圆盘的弧形边缘在三维空间中以不同角度相交，结构工程师必须为每一个交叉节点单独计算。整个项目用了超过7.6万个独立的钢构件，每一个都是唯一的。`,
 
-    legacy: `Chagall 对设计界的影响远超出画框。他的彩色玻璃窗设计重新定义了这一中世纪工艺在现代建筑中的可能性——不再是宗教叙事的工具，而是用色彩和光线塑造空间情绪的设计手段。芝加哥艺术博物馆的"美国之窗"至今是该馆最受欢迎的藏品之一。
+    legacy: `卡塔尔国家博物馆之后，"建筑作为叙事"成了博物馆设计中一个无法绕开的议题。它证明了建筑可以不只是展品的容器，而是展览体验的第一层——你还没走进任何展厅，建筑本身的空间序列、光影变化、材料触感就已经在向你讲述这个国家的故事。
 
-他证明了一件事：伟大的视觉语言不受媒介限制。同一套色彩逻辑和构图直觉，可以从油画延伸到玻璃、壁画、挂毯、陶瓷、舞台设计。这种跨媒介的设计思维，在今天看来反而更前卫——当设计师被要求同时思考屏幕、空间、材料时，Chagall 早在一个世纪前就在实践这件事。`,
+从建筑工程的角度，这座博物馆推动了异形钢结构在大型公共建筑中的工业化应用。7.6万个独特构件的精确制造和组装，考验的是从参数化设计到数控加工再到现场拼装的全链条数字化能力。它是 computational design 从概念走向大规模实践的标志性案例之一。`,
 
-    significance: `《我和村庄》展示了一种激进的可能性：视觉设计不必服从物理现实的逻辑，可以服从情感和记忆的逻辑。这个观念深刻影响了后来的插画设计、动画设计和用户体验设计中的情感化表达。Chagall 创造的不只是画面，是一整套用视觉讲述主观体验的方法论。`,
+    significance: `沙漠玫瑰不是装饰主题，是结构原理。Nouvel 的设计方法论——从场地的自然现象中提取几何逻辑，然后用工程手段将其放大到建筑尺度——为"在地性设计"提供了一种远比贴瓷砖或画纹样更深刻的路径。当我们谈论设计如何回应场所时，这座建筑给出了一个极端而优雅的答案。`,
 
-    dateConnection_en: `On March 28, 1985, Marc Chagall died in Saint-Paul-de-Vence, France, at the age of 97. He was one of the longest-lived giants of 20th-century art, and one of the rare creators who genuinely crossed the boundary between fine art and applied design — from oil paintings to stained glass windows, opera house ceilings to tapestries, he used a single dreamlike visual language to reshape architectural spaces and public art design.`,
+    dateConnection_en: `On March 28, 2019, the National Museum of Qatar officially opened in Doha. Designed by French architect Jean Nouvel, the building draws inspiration from the "desert rose" — a natural crystal formation found in Qatar's desert sands. Composed of 316 interlocking discs, the structure appears to grow from the earth itself. Rather than a conventional museum that places artifacts inside a box, the building itself becomes the first exhibit about this land.`,
 
-    designerBio_en: `Chagall was born in 1887 in Vitebsk, a small Jewish town in the Russian Empire. That town became the wellspring of his life's work — flying lovers, upside-down houses, violin-playing goats — all rooted in his Vitebsk childhood.
+    designerBio_en: `Jean Nouvel was born in 1945 in Fumel, southwestern France, to a family of teachers. He studied architecture at the École des Beaux-Arts in Bordeaux and opened his Paris practice in 1970 at just 25.
 
-In 1910, the 23-year-old arrived in Paris and moved into La Ruche, the famed artists' residence in Montparnasse. He plunged into the maelstrom of Cubism and Fauvism but was swallowed by neither. From Cubism he took the fragmentation and layering of space; from Fauvism, the liberation of color from reality. He then infused these techniques with his own Jewish folk narratives — inventing an unprecedented visual language that was simultaneously modern, folkloric, and dreamlike.
+Nouvel's architecture is driven by a singular obsession: every building must respond to its specific site. Not as an abstract "contextualism" slogan, but by genuinely extracting design logic from a site's light, climate, culture, even geology. The Louvre Abu Dhabi's dome simulates palm-leaf dappled light; Barcelona's Torre Agbar graduates from earthen red at the base to sky blue at the crown; the Arab World Institute in Paris uses mechanical apertures mimicking Islamic geometric patterns. Each project is a fresh interrogation of "where is this?"
 
-Picasso once said: "After Matisse, Chagall is the only one who truly understands color." This was not flattery. Chagall's chromatic intuition — those particular blues, those reds, his ability to let warm and cool tones breathe together in a single composition — influenced the entire century's visual design.`,
+In 2008, he received the Pritzker Architecture Prize. The jury noted: "He pursues not a unity of style, but a unity of idea — each building a unique response to a specific situation."`,
 
-    story_en: `In 1911, just a year after arriving in Paris, Chagall painted *I and the Village*. It was a love letter to his hometown Vitebsk and a manifesto for his unique visual language.
+    story_en: `Qatar wanted a museum that could tell its own story. Not another white box lined with artifacts, but a building that itself narrates the journey from desert to ocean, from pearls to petroleum, from Bedouin tents to skyscrapers.
 
-In the painting, a green human face and a white cow confront each other eye to eye. Nested within the cow's cheek is a scene of a peasant woman milking; the human holds a flowering branch. In the background, Vitebsk's churches and cottages tumble and fly, a farmer with a scythe and an upside-down woman share the skyline.
+Nouvel found his answer in the Qatari desert. The desert rose is a mineral crystal that forms naturally in water-bearing sand layers — flat discs interlocking and overlapping, like a flower blooming from the sand. It is not man-made; it is a form this land grows on its own.
 
-This is neither realism nor pure abstraction. Chagall used Cubist spatial fragmentation to layer multiple times and places onto a single plane: memory, dream, and reality merged — much like how the brain actually works when recalling home — fragmentary, overlapping, illogical yet emotionally true.
+Nouvel scaled this natural phenomenon to architectural dimensions: 316 steel discs ranging from 14 to 87 meters in diameter, intersecting at various angles to form a 40,000-square-meter complex. No two discs are parallel; each intersection creates a different space — some become gallery ceilings, others sun-shading canopies, others bridges connecting exhibition zones.
 
-The painting profoundly influenced later visual design. The Surrealists claimed it as a precursor, but Chagall rejected the label. He said he was not painting "surreality" but "supernatural reality" — the literal shape of emotion. This method of translating subjective feeling directly into visual form later permeated illustration, animation, and graphic design. Miyazaki's imagery of flight, the dreamlike compositions in picture books — all trace back to the grammar Chagall pioneered.
+This is not metaphor; it is literal translation. Nouvel did not "design a building that looks like a desert rose" — he converted the generative logic of the desert rose directly into the building's structural logic. The discs' sizes, angles, and spacing follow the mathematics of crystal formation. The result possesses an uncanny "naturalness": it does not look designed so much as grown from Doha's coastline.
 
-Even more remarkable was Chagall's later leap into applied design. He created two monumental murals for the Metropolitan Opera at Lincoln Center, painted the ceiling of the Palais Garnier in Paris, designed the "Peace" stained glass window for the United Nations, created twelve stained glass windows for Hadassah Medical Center in Jerusalem, and designed windows for Reims Cathedral. He translated the dreamlike color of his oil paintings into the lived experience of light passing through glass, turning architectural space itself into canvas.`,
+The construction complexity was staggering. Conventional architecture is orthogonal — walls perpendicular to floors, beams parallel to walls. This building has no straight lines, no right angles. Each disc's curved edge intersects others at unique three-dimensional angles, requiring structural engineers to calculate every junction individually. The project used over 76,000 unique steel components — each one-of-a-kind.`,
 
-    legacy_en: `Chagall's impact on design extends far beyond the picture frame. His stained glass designs redefined the possibilities of this medieval craft in modern architecture — no longer merely a vehicle for religious narrative, but a design medium for sculpting spatial mood through color and light. The "America Windows" at the Art Institute of Chicago remains one of the museum's most beloved works.
+    legacy_en: `After the National Museum of Qatar, "architecture as narrative" became an unavoidable topic in museum design. It proved that a building can be more than a container for exhibits — it can be the first layer of the exhibition experience. Before you enter any gallery, the building's spatial sequence, play of light, and material textures are already telling you the nation's story.
 
-He proved that a great visual language transcends medium. The same chromatic logic and compositional instinct could extend from oil painting to glass, mural, tapestry, ceramics, and stage design. This cross-medium design thinking feels even more radical today — when designers are asked to think simultaneously about screens, spaces, and materials, Chagall was already practicing exactly this a century ago.`,
+From an engineering perspective, the museum advanced the industrialized application of freeform steel structures in large-scale public buildings. The precision fabrication and assembly of 76,000 unique components tested the entire digital chain from parametric design through CNC manufacturing to on-site assembly — making it a landmark case of computational design moving from concept to mass practice.`,
 
-    significance_en: `*I and the Village* demonstrated a radical possibility: visual design need not obey the logic of physical reality — it can obey the logic of emotion and memory. This idea profoundly shaped the emotional expression found in later illustration design, animation design, and experience design. Chagall created not just images, but an entire methodology for visually narrating subjective experience.`,
+    significance_en: `The desert rose is not a decorative motif; it is a structural principle. Nouvel's design methodology — extracting geometric logic from a site's natural phenomena, then engineering it to architectural scale — offers a path to "contextual design" far more profound than applied ornament. When we discuss how design responds to place, this building provides an extreme yet elegant answer.`,
   },
 
 
