@@ -5625,6 +5625,50 @@ From an engineering perspective, the museum advanced the industrialized applicat
     significance_en: `The desert rose is not a decorative motif; it is a structural principle. Nouvel's design methodology — extracting geometric logic from a site's natural phenomena, then engineering it to architectural scale — offers a path to "contextual design" far more profound than applied ornament. When we discuss how design responds to place, this building provides an extreme yet elegant answer.`,
   },
 
+  {
+    id: '29',
+    date: '2026-03-29',
+    imageUrl: '/the-daily-object/images/wizard-of-oz-denslow.jpg',
+    fullImageUrl: '/the-daily-object/images/full/wizard-of-oz-denslow.jpg',
+    title: '绿野仙踪',
+    title_en: 'The Wonderful Wizard of Oz',
+    subtitle: 'W.W. Denslow, 1900',
+    subtitle_en: 'W.W. Denslow, 1900',
+    category: 'graphic' as const,
+    designer: 'W.W. Denslow',
+    year: '1900',
+    tags: ['定义童书插画美学', '美国平面设计先驱', '跨媒介视觉原型'],
+    tags_en: ['Defined Children\'s Book Aesthetics', 'American Graphic Design Pioneer', 'Cross-Media Visual Archetype'],
+
+    dateConnection: `1915年3月29日，W.W. Denslow 在纽约病逝，享年58岁。他为《绿野仙踪》创作的插画——那条黄砖路、翡翠城、稻草人与铁皮人——早已超越书页，成为全球流行文化中最持久的视觉符号之一。`,
+    designerBio: `William Wallace Denslow（1856-1915）是一位几乎完全自学成才的美国插画家。他在费城出生，曾短暂就读于纽约国家设计学院和库柏联盟，但很快就离开课堂，以画家和报社记者的身份游历美国。1893年他来到芝加哥参加世博会，决定留下。
+
+Denslow 最初以海报艺术家的身份建立声誉——他是受邀在 Roycroft Press 工作的第一位艺术家，也参与了大量书籍和藏书票设计。他在芝加哥新闻俱乐部结识了 L. Frank Baum，两人的合作改变了美国儿童出版物的面貌。`,
+    story: `1900年出版的《绿野仙踪》是一次罕见的文字与图像的完美共生。Denslow 不是在"配图"，而是在共同创作——他和 Baum 共同持有版权，这在当时几乎闻所未闻，说明出版商承认插画的价值等同于文字本身。
+
+Denslow 的画风融合了新艺术运动的装饰线条与美国海报艺术的大胆色块。他为每一章设计了独立的色彩方案：堪萨斯是灰色的，翡翠城是绿色的，这种"色彩叙事"手法在1900年的童书中是革命性的。他笔下的角色造型——圆滚滚的稻草人、方头方脑的铁皮人——简洁到几乎可以直接做成玩具，事实上它们后来也确实成了最早的授权周边商品之一。
+
+**讽刺的是，正是商业成功毁了这对搭档。** 1902年《绿野仙踪》舞台剧大获成功后，Denslow 作为版权共同持有人，要求与 Baum 和作曲家 Tietjens 平分版税。Baum 愤怒之下决定再也不和他合作。Denslow 用版税收入买下了百慕大的一座小岛，自封"Denslow 一世国王"。他用自己的版权继续创作稻草人和铁皮人的报纸连环画，但再也没有达到《绿野仙踪》的高度。`,
+    legacy: `Denslow 为《绿野仙踪》创造的视觉语言影响深远：1939年米高梅电影的美术设计，虽然在风格上已经完全不同，但 Dorothy 的蓝白方格裙、翡翠城的绿色调、黄砖路这些核心视觉元素，都可以追溯到 Denslow 1900年的原始设定。
+
+更重要的是，Denslow 证明了插画家不只是作家的附庸。他与 Baum 的共同版权模式，为后来童书领域"图文作者"（author-illustrator）概念的确立铺平了道路。今天我们认为理所当然的"绘本"——图与文同等重要——这个观念的源头之一，就在 Denslow 的黄砖路上。`,
+    significance: `从设计角度看，Denslow 的贡献在于他将海报设计的视觉冲击力引入了童书插画。他的用色大胆扁平，线条简洁有力，角色造型高度图形化——这些特质让他的作品在缩小到邮票大小时依然可辨认，这正是优秀平面设计的核心标准。《绿野仙踪》是美国第一本真正意义上的"设计师之书"：从封面到内页，从字体到装饰边框，每一个视觉元素都经过统一设计。`,
+
+    dateConnection_en: `On March 29, 1915, W.W. Denslow died in New York City at age 58. The visual world he created for The Wonderful Wizard of Oz — the Yellow Brick Road, the Emerald City, the Scarecrow and Tin Woodman — had long since transcended the printed page to become some of the most enduring icons in global popular culture.`,
+    designerBio_en: `William Wallace Denslow (1856–1915) was a largely self-taught American illustrator. Born in Philadelphia, he briefly attended the National Academy of Design and Cooper Union in New York before striking out on his own as an artist and newspaper reporter, traveling across the United States. He arrived in Chicago for the 1893 World's Columbian Exposition and decided to stay.
+
+Denslow first built his reputation as a poster artist — he was the first artist invited to work at the Roycroft Press and was prolific in book and bookplate design. He met L. Frank Baum at the Chicago Press Club, and their collaboration would transform American children's publishing.`,
+    story_en: `The Wonderful Wizard of Oz, published in 1900, represented a rare symbiosis of text and image. Denslow was not merely "illustrating" — he and Baum held the copyright jointly, virtually unheard of at the time, a recognition that the illustrations held equal value to the words themselves.
+
+Denslow's style fused Art Nouveau decorative linework with the bold flat color of American poster art. He designed a distinct color scheme for each chapter: Kansas was rendered in gray, the Emerald City in green — a "color narrative" technique that was revolutionary for children's books in 1900. His character designs — the rotund Scarecrow, the boxy Tin Woodman — were so simplified they could practically be turned into toys, which in fact they soon were, becoming some of the earliest licensed merchandise.
+
+**Ironically, commercial success destroyed the partnership.** After the 1902 stage adaptation became a smash hit, Denslow, as co-copyright holder, demanded an equal share of royalties with Baum and composer Tietjens. Baum, furious, vowed never to work with him again. Denslow used his royalties to purchase an island in Bermuda and crowned himself "King Denslow I." He continued producing newspaper comic strips featuring the Scarecrow and Tin Woodman using his copyright, but never reached the heights of Oz again.`,
+    legacy_en: `The visual language Denslow created for Oz proved remarkably durable. The 1939 MGM film, though stylistically entirely different, retained core visual elements — Dorothy's blue-and-white gingham dress, the Emerald City's green palette, the Yellow Brick Road — all traceable to Denslow's 1900 originals.
+
+More fundamentally, Denslow demonstrated that an illustrator need not be subordinate to the author. His joint-copyright arrangement with Baum helped pave the way for the "author-illustrator" concept in children's publishing. The modern picture book — where image and text carry equal weight — owes part of its intellectual foundation to what Denslow established on the Yellow Brick Road.`,
+    significance_en: `From a design perspective, Denslow's contribution was importing the visual impact of poster design into children's book illustration. His colors were bold and flat, his lines clean and forceful, his character designs highly graphic — qualities that made his work recognizable even at postage-stamp scale, the very hallmark of effective graphic design. The Wonderful Wizard of Oz was America's first true "designer's book": from cover to interior pages, from typography to decorative borders, every visual element was unified under a single design vision.`,
+  },
+
 
 
 ]
