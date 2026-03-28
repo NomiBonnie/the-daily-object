@@ -23,20 +23,26 @@ if [ "$CF_CHECK" != "200" ]; then
 fi
 echo "✅ Cloudflare token 有效"
 
-echo "=== Step 2: Git commit + push (→ GitHub Pages) ==="
+echo "=== Step 2: Git commit + push ==="
 git add -A
 git commit -m "$COMMIT_MSG" || echo "⚠️ Nothing to commit"
 git push origin main
-echo "✅ GitHub Pages 部署触发"
+echo "✅ Git push 完成"
 
-echo "=== Step 3: Build for Cloudflare ==="
+echo "=== Step 3: Build for GitHub Pages (base=/the-daily-object/) ==="
+unset CF_PAGES
+npm run build
+npx gh-pages -d dist
+echo "✅ GitHub Pages 部署完成"
+
+echo "=== Step 4: Build for Cloudflare (base=/) ==="
 export CLOUDFLARE_API_TOKEN="$CF_TOKEN"
 export CLOUDFLARE_ACCOUNT_ID="abd70cd0575e6ebe933999645e6fddd2"
 export CF_PAGES=1
 npm run build
-echo "✅ Build 完成"
+echo "✅ Cloudflare Build 完成"
 
-echo "=== Step 4: Deploy to Cloudflare Pages ==="
+echo "=== Step 5: Deploy to Cloudflare Pages ==="
 npx wrangler pages deploy dist --project-name the-daily-object --commit-dirty=true
 echo "✅ Cloudflare Pages 部署完成"
 
