@@ -1,6 +1,6 @@
 // Bump this when any image file is replaced (same filename, new content)
 // This busts CDN cache without renaming files
-export const IMAGE_VERSION = '20260226p'
+export const IMAGE_VERSION = '20260328'
 
 export interface DesignObject {
   id: string
@@ -5628,45 +5628,45 @@ From an engineering perspective, the museum advanced the industrialized applicat
   {
     id: '29',
     date: '2026-03-29',
-    imageUrl: '/the-daily-object/images/wizard-of-oz-denslow.jpg',
-    fullImageUrl: '/the-daily-object/images/full/wizard-of-oz-denslow.jpg',
-    title: '绿野仙踪',
-    title_en: 'The Wonderful Wizard of Oz',
-    subtitle: 'W.W. Denslow, 1900',
-    subtitle_en: 'W.W. Denslow, 1900',
-    category: 'graphic' as const,
-    designer: 'W.W. Denslow',
-    year: '1900',
-    tags: ['定义童书插画美学', '美国平面设计先驱', '跨媒介视觉原型'],
-    tags_en: ['Defined Children\'s Book Aesthetics', 'American Graphic Design Pioneer', 'Cross-Media Visual Archetype'],
+    imageUrl: '/the-daily-object/images/bardis-bowl-chair.jpg',
+    fullImageUrl: '/the-daily-object/images/full/bardis-bowl-chair.jpg',
+    title: 'Bowl Chair',
+    title_en: 'Bardi\'s Bowl Chair',
+    subtitle: 'Lina Bo Bardi, 1951',
+    subtitle_en: 'Lina Bo Bardi, 1951',
+    category: 'industrial' as const,
+    designer: 'Lina Bo Bardi',
+    year: '1951',
+    tags: ['颠覆座椅形态', '女性设计先驱', 'MoMA永久收藏'],
+    tags_en: ['Reinvented Seating Form', 'Pioneering Woman Designer', 'MoMA Permanent Collection'],
 
-    dateConnection: `1915年3月29日，W.W. Denslow 在纽约病逝，享年58岁。他为《绿野仙踪》创作的插画——那条黄砖路、翡翠城、稻草人与铁皮人——早已超越书页，成为全球流行文化中最持久的视觉符号之一。`,
-    designerBio: `William Wallace Denslow（1856-1915）是一位几乎完全自学成才的美国插画家。他在费城出生，曾短暂就读于纽约国家设计学院和库柏联盟，但很快就离开课堂，以画家和报社记者的身份游历美国。1893年他来到芝加哥参加世博会，决定留下。
+    dateConnection: `1992年3月29日，Lina Bo Bardi 在圣保罗病逝，享年77岁。这位意大利裔巴西建筑师和设计师留下的作品中，1951年设计的 Bowl Chair 是最具辨识度的一件——一个半球形碗状座椅安放在纤细的金属支架上，彻底打破了人们对"椅子该是什么样"的想象。`,
+    designerBio: `Achillina Bo（1914-1992），婚后冠夫姓成为 Lina Bo Bardi，出生于罗马，在米兰理工大学学习建筑。二战结束后，她与艺术评论家丈夫 Pietro Maria Bardi 移居巴西，这个决定改变了她的一生。
 
-Denslow 最初以海报艺术家的身份建立声誉——他是受邀在 Roycroft Press 工作的第一位艺术家，也参与了大量书籍和藏书票设计。他在芝加哥新闻俱乐部结识了 L. Frank Baum，两人的合作改变了美国儿童出版物的面貌。`,
-    story: `1900年出版的《绿野仙踪》是一次罕见的文字与图像的完美共生。Denslow 不是在"配图"，而是在共同创作——他和 Baum 共同持有版权，这在当时几乎闻所未闻，说明出版商承认插画的价值等同于文字本身。
+在巴西，Lina 找到了欧洲现代主义无法给她的东西：自由。她不满足于做一个"建筑师"，而是同时涉足家具设计、策展、舞台设计、甚至珠宝设计。她对巴西民间工艺的深厚兴趣，让她的现代主义设计带有一种独特的温度和人情味，既理性又感性，既精英又平民。她设计的圣保罗艺术博物馆（MASP）至今是巴西最重要的文化地标之一。`,
+    story: `1951年，Lina 在自己设计的"玻璃屋"（Casa de Vidro）中构思了 Bowl Chair。灵感来源令人意外：不是什么高深的设计理论，而是她观察到巴西人喜欢蜷缩在各种容器里坐着的习惯。
 
-Denslow 的画风融合了新艺术运动的装饰线条与美国海报艺术的大胆色块。他为每一章设计了独立的色彩方案：堪萨斯是灰色的，翡翠城是绿色的，这种"色彩叙事"手法在1900年的童书中是革命性的。他笔下的角色造型——圆滚滚的稻草人、方头方脑的铁皮人——简洁到几乎可以直接做成玩具，事实上它们后来也确实成了最早的授权周边商品之一。
+她画出的草图极其简洁：一个半球形的碗，内置圆形坐垫，整体安放在一个环形钢架底座上。坐在里面的人可以自由转动身体，找到任何舒适的姿势——正襟危坐、侧躺、盘腿，全凭心情。这种"无姿态"的设计哲学在当时是激进的：大多数椅子都在规定你应该怎么坐，而 Bowl Chair 说"随你便"。
 
-**讽刺的是，正是商业成功毁了这对搭档。** 1902年《绿野仙踪》舞台剧大获成功后，Denslow 作为版权共同持有人，要求与 Baum 和作曲家 Tietjens 平分版税。Baum 愤怒之下决定再也不和他合作。Denslow 用版税收入买下了百慕大的一座小岛，自封"Denslow 一世国王"。他用自己的版权继续创作稻草人和铁皮人的报纸连环画，但再也没有达到《绿野仙踪》的高度。`,
-    legacy: `Denslow 为《绿野仙踪》创造的视觉语言影响深远：1939年米高梅电影的美术设计，虽然在风格上已经完全不同，但 Dorothy 的蓝白方格裙、翡翠城的绿色调、黄砖路这些核心视觉元素，都可以追溯到 Denslow 1900年的原始设定。
+第一把原型椅用黑色皮革制作，只生产了极少数量。Lina 本人对量产并不热衷——她更关心设计的社会意义而非商业价值。直到2014年，意大利家具品牌 Arper 在 Lina Bo Bardi 基金会的授权下，才正式将 Bowl Chair 量产上市，推出了多种鲜艳配色。原始版本被纽约现代艺术博物馆（MoMA）永久收藏。`,
+    legacy: `Bowl Chair 的影响远超一把椅子。它代表了一种设计态度：家具不应该是权威的、规训的，而应该是解放的、包容的。这种理念在1951年远超时代，却在21世纪的开放式办公空间和共享空间中找到了完美的回响。
 
-更重要的是，Denslow 证明了插画家不只是作家的附庸。他与 Baum 的共同版权模式，为后来童书领域"图文作者"（author-illustrator）概念的确立铺平了道路。今天我们认为理所当然的"绘本"——图与文同等重要——这个观念的源头之一，就在 Denslow 的黄砖路上。`,
-    significance: `从设计角度看，Denslow 的贡献在于他将海报设计的视觉冲击力引入了童书插画。他的用色大胆扁平，线条简洁有力，角色造型高度图形化——这些特质让他的作品在缩小到邮票大小时依然可辨认，这正是优秀平面设计的核心标准。《绿野仙踪》是美国第一本真正意义上的"设计师之书"：从封面到内页，从字体到装饰边框，每一个视觉元素都经过统一设计。`,
+Lina Bo Bardi 本人也在去世后获得了迟来的全球认可。2021年，她成为第一位获得英国皇家建筑师协会（RIBA）金奖的女性建筑师——尽管是追授的。她的设计思想——将现代主义与地方文化融合、关注普通人的日常需求——如今被视为当代设计的核心议题。`,
+    significance: `从设计角度看，Bowl Chair 的突破在于它重新定义了"坐"这个动作。传统椅子设计从靠背、扶手、坐面三个要素出发，Bowl Chair 把这一切统合成一个几何形态：半球。这种极端的形式简化没有牺牲舒适度，反而创造了前所未有的坐姿自由度。它证明了好设计不需要复杂的结构，一个清晰的概念就够了。`,
 
-    dateConnection_en: `On March 29, 1915, W.W. Denslow died in New York City at age 58. The visual world he created for The Wonderful Wizard of Oz — the Yellow Brick Road, the Emerald City, the Scarecrow and Tin Woodman — had long since transcended the printed page to become some of the most enduring icons in global popular culture.`,
-    designerBio_en: `William Wallace Denslow (1856–1915) was a largely self-taught American illustrator. Born in Philadelphia, he briefly attended the National Academy of Design and Cooper Union in New York before striking out on his own as an artist and newspaper reporter, traveling across the United States. He arrived in Chicago for the 1893 World's Columbian Exposition and decided to stay.
+    dateConnection_en: `On March 29, 1992, Lina Bo Bardi passed away in São Paulo at the age of 77. Among the works left behind by this Italian-born Brazilian architect and designer, the Bowl Chair she designed in 1951 remains the most instantly recognizable — a hemispherical bowl seat resting on a slender metal frame, completely shattering conventional ideas of what a chair should look like.`,
+    designerBio_en: `Achillina Bo (1914–1992), known after marriage as Lina Bo Bardi, was born in Rome and studied architecture at the Politecnico di Milano. After World War II, she emigrated to Brazil with her husband, art critic Pietro Maria Bardi — a decision that transformed her life.
 
-Denslow first built his reputation as a poster artist — he was the first artist invited to work at the Roycroft Press and was prolific in book and bookplate design. He met L. Frank Baum at the Chicago Press Club, and their collaboration would transform American children's publishing.`,
-    story_en: `The Wonderful Wizard of Oz, published in 1900, represented a rare symbiosis of text and image. Denslow was not merely "illustrating" — he and Baum held the copyright jointly, virtually unheard of at the time, a recognition that the illustrations held equal value to the words themselves.
+In Brazil, Lina found what European modernism could never offer her: freedom. She refused to be confined to "architecture" alone, simultaneously engaging in furniture design, curating, stage design, and even jewelry. Her deep interest in Brazilian folk craft gave her modernist work a distinctive warmth — rational yet emotional, elite yet populist. Her São Paulo Museum of Art (MASP) remains one of Brazil's most important cultural landmarks.`,
+    story_en: `In 1951, Lina conceived the Bowl Chair while living in her self-designed Glass House (Casa de Vidro) in São Paulo. The inspiration was disarmingly simple: not from any grand design theory, but from observing how Brazilians loved to curl up in various vessel-like seats.
 
-Denslow's style fused Art Nouveau decorative linework with the bold flat color of American poster art. He designed a distinct color scheme for each chapter: Kansas was rendered in gray, the Emerald City in green — a "color narrative" technique that was revolutionary for children's books in 1900. His character designs — the rotund Scarecrow, the boxy Tin Woodman — were so simplified they could practically be turned into toys, which in fact they soon were, becoming some of the earliest licensed merchandise.
+Her sketches were radically minimal: a hemispherical bowl with a round cushion inside, the whole thing resting on a ring-shaped steel frame. The sitter could freely rotate their body into any comfortable position — upright, sideways, cross-legged, whatever felt right. This "posture-free" design philosophy was radical for its time: most chairs dictated how you should sit, while the Bowl Chair said "suit yourself."
 
-**Ironically, commercial success destroyed the partnership.** After the 1902 stage adaptation became a smash hit, Denslow, as co-copyright holder, demanded an equal share of royalties with Baum and composer Tietjens. Baum, furious, vowed never to work with him again. Denslow used his royalties to purchase an island in Bermuda and crowned himself "King Denslow I." He continued producing newspaper comic strips featuring the Scarecrow and Tin Woodman using his copyright, but never reached the heights of Oz again.`,
-    legacy_en: `The visual language Denslow created for Oz proved remarkably durable. The 1939 MGM film, though stylistically entirely different, retained core visual elements — Dorothy's blue-and-white gingham dress, the Emerald City's green palette, the Yellow Brick Road — all traceable to Denslow's 1900 originals.
+The first prototype was made in black leather, produced in extremely limited quantities. Lina herself had little interest in mass production — she cared more about design's social meaning than its commercial value. It wasn't until 2014 that Italian furniture brand Arper, authorized by the Lina Bo Bardi Foundation, officially put the Bowl Chair into production in a range of vibrant colors. The original version entered the permanent collection of the Museum of Modern Art (MoMA) in New York.`,
+    legacy_en: `The Bowl Chair's influence extends far beyond a single piece of furniture. It embodies a design attitude: furniture should not be authoritarian or disciplinary, but liberating and inclusive. This philosophy was far ahead of its time in 1951, yet found a perfect echo in the open-plan offices and co-working spaces of the 21st century.
 
-More fundamentally, Denslow demonstrated that an illustrator need not be subordinate to the author. His joint-copyright arrangement with Baum helped pave the way for the "author-illustrator" concept in children's publishing. The modern picture book — where image and text carry equal weight — owes part of its intellectual foundation to what Denslow established on the Yellow Brick Road.`,
-    significance_en: `From a design perspective, Denslow's contribution was importing the visual impact of poster design into children's book illustration. His colors were bold and flat, his lines clean and forceful, his character designs highly graphic — qualities that made his work recognizable even at postage-stamp scale, the very hallmark of effective graphic design. The Wonderful Wizard of Oz was America's first true "designer's book": from cover to interior pages, from typography to decorative borders, every visual element was unified under a single design vision.`,
+Lina Bo Bardi herself received long-overdue global recognition after her death. In 2021, she became the first woman to receive the RIBA Royal Gold Medal for architecture — albeit posthumously. Her design thinking — fusing modernism with local culture, centering the everyday needs of ordinary people — is now seen as a core concern of contemporary design.`,
+    significance_en: `From a design perspective, the Bowl Chair's breakthrough lies in redefining the act of sitting itself. Traditional chair design works from three elements — backrest, armrest, seat — while the Bowl Chair unified everything into a single geometric form: the hemisphere. This extreme formal simplification sacrificed nothing in comfort; instead, it created unprecedented freedom of posture. It proved that great design needs no complex structure — just one clear concept.`,
   },
 
 
