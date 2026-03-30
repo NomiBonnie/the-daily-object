@@ -5669,6 +5669,54 @@ Lina Bo Bardi herself received long-overdue global recognition after her death. 
     significance_en: `From a design perspective, the Bowl Chair's breakthrough lies in redefining the act of sitting itself. Traditional chair design works from three elements — backrest, armrest, seat — while the Bowl Chair unified everything into a single geometric form: the hemisphere. This extreme formal simplification sacrificed nothing in comfort; instead, it created unprecedented freedom of posture. It proved that great design needs no complex structure — just one clear concept.`,
   },
 
+  {
+    id: '49',
+    date: '2026-03-30',
+    imageUrl: '/the-daily-object/images/starry-night.jpg',
+    fullImageUrl: '/the-daily-object/images/full/starry-night.jpg',
+    title: '星月夜',
+    title_en: 'The Starry Night',
+    subtitle: 'Vincent van Gogh, 1889',
+    subtitle_en: 'Vincent van Gogh, 1889',
+    category: 'art' as const,
+    designer: 'Vincent van Gogh',
+    year: '1889',
+    tags: ['重新定义色彩语言', '后印象派巅峰', '史上最多复刻画作'],
+    tags_en: ['Redefined Color Language', 'Post-Impressionism Pinnacle', 'Most Reproduced Painting Ever'],
+
+    dateConnection: `1853年3月30日，Vincent van Gogh 出生于荷兰北布拉邦省的津德尔特。这位在世时几乎无人问津的画家，在生命最后两年间创作了他最具影响力的作品。1889年6月，在法国圣雷米精神病院的窗前，他画下了《星月夜》——一幅用旋涡状笔触重新定义了"天空该如何被描绘"的画作，此后成为全人类最广泛传播的视觉图像之一。`,
+    designerBio: `Vincent Willem van Gogh（1853-1890）是一个"失败"了大半生的人。做过画商、教师、传教士，27岁才决定成为画家。在短短十年的创作生涯中，他完成了超过2100件作品——包括约860幅油画——却在生前只卖出过一幅。
+
+Van Gogh 不是凭空出现的天才。他系统地研究过德拉克洛瓦的色彩理论、日本浮世绘的构图方式、米勒的农民题材。他的"天赋"其实是一种近乎疯狂的勤奋：在阿尔勒的15个月里，他平均每36小时完成一幅油画。精神疾病的困扰让他数次住院，但也在某种程度上打开了他对色彩和形式的极端感知力。`,
+    story: `1889年5月，Van Gogh 自愿住进圣雷米的圣保罗精神病院。他的房间朝东，窗外是一片围墙和橄榄园，远处是阿尔皮勒山脉。《星月夜》并非写生——他在白天观察夜空，然后在工作室凭记忆和想象完成。
+
+画面中最震撼的是那些旋涡。天空不再是静止的背景，而是一个充满能量的涡流场。11颗星星各自散发着光晕，一弯新月亮得不合常理，一条巨大的螺旋星云横贯画面中央。村庄安静地躺在下方，教堂尖顶像一根针刺向翻滚的天空。左侧一棵柏树如同黑色火焰，从地面直冲画面顶端，连接着大地与天空。
+
+Van Gogh 在给弟弟 Theo 的信中写道："观看星星总让我产生遐想……我们为什么不能像坐火车一样到达星星那里？"他把这幅画描述为一次"失败"——在他看来，它不够真实。讽刺的是，正是这种"不真实"让《星月夜》成为了史上最具辨识度的画作之一。
+
+这幅画被 Van Gogh 寄给 Theo 后几经辗转。1941年，纽约现代艺术博物馆（MoMA）以一笔当时并不起眼的价格购入。如今它是 MoMA 最受欢迎的藏品，每天有数千人在它前面驻足。`,
+    legacy: `《星月夜》的影响力已经远远溢出了美术史。它的旋涡笔触成为一种视觉符号，被印在咖啡杯、手机壳、T恤、乐高积木上——它可能是人类历史上被复制次数最多的图像之一。2012年，NASA 发布的一张哈勃望远镜照片显示，某个遥远星云的气体涡流与《星月夜》的构图惊人地相似，科学家甚至用流体力学分析了 Van Gogh 笔触中的湍流模式，发现它符合柯尔莫哥洛夫的湍流理论——一个 Van Gogh 不可能知道的物理定律。
+
+在平面设计和视觉传达领域，《星月夜》证明了一件事：最强大的视觉语言不来自对现实的忠实复制，而来自对情感的极端表达。Van Gogh 用扭曲的线条和不合常理的色彩做到了摄影永远做不到的事——让你感受到夜空的能量。`,
+    significance: `从视觉设计的角度看，《星月夜》的突破在于它用笔触本身作为设计元素。在 Van Gogh 之前，笔触是"看不见的"——好画家的目标是让笔触消失，让观者只看到最终的图像。Van Gogh 反过来做：笔触即信息，笔触即情绪，笔触即能量。这个理念直接影响了后来的表现主义、抽象表现主义，乃至当代数据可视化中的流场图——用线条的方向和密度来传递信息，而不只是描绘轮廓。`,
+
+    dateConnection_en: `On March 30, 1853, Vincent van Gogh was born in Zundert, North Brabant, Netherlands. This painter, virtually ignored during his lifetime, created his most influential works in his final two years. In June 1889, from a window of the Saint-Rémy asylum in southern France, he painted The Starry Night — a work that redefined how the sky could be depicted through swirling brushstrokes, becoming one of the most widely reproduced visual images in human history.`,
+    designerBio_en: `Vincent Willem van Gogh (1853–1890) was a man who "failed" for most of his life. He worked as an art dealer, teacher, and missionary before deciding at 27 to become a painter. In just ten years, he produced over 2,100 works — including some 860 oil paintings — yet sold only one during his lifetime.
+
+Van Gogh was no accidental genius. He systematically studied Delacroix's color theory, Japanese ukiyo-e composition, and Millet's peasant subjects. His "talent" was really a near-obsessive diligence: during his 15 months in Arles, he completed an oil painting roughly every 36 hours. Mental illness led to repeated hospitalizations, but it also unlocked an extreme sensitivity to color and form.`,
+    story_en: `In May 1889, Van Gogh voluntarily checked into the Saint-Paul asylum at Saint-Rémy. His east-facing room looked out over a walled garden, olive groves, and the distant Alpilles mountains. The Starry Night was not painted en plein air — he observed the night sky during the day, then completed it from memory and imagination in his studio.
+
+The most striking element is the swirling sky. The heavens are no longer a static backdrop but a turbulent field of energy. Eleven stars each radiate their own halos, an impossibly bright crescent moon glows, and a massive spiral nebula sweeps across the center. The village sits quietly below, its church steeple piercing upward into the churning sky like a needle. On the left, a cypress tree rises like a dark flame from the ground to the top of the canvas, linking earth and sky.
+
+Van Gogh wrote to his brother Theo: "Looking at the stars always makes me dream… Why, I say to myself, should the shining dots of the sky not be as accessible as the black dots on the map of France?" He described this painting as a "failure" — in his view, it wasn't realistic enough. Ironically, this very "unreality" is what made The Starry Night one of the most recognizable paintings ever created.
+
+After Van Gogh sent it to Theo, the painting changed hands several times. In 1941, the Museum of Modern Art (MoMA) in New York acquired it for a then-unremarkable sum. Today it is MoMA's most popular work, with thousands of visitors pausing before it each day.`,
+    legacy_en: `The Starry Night's influence has far outgrown art history. Its swirling brushstrokes have become a universal visual symbol, printed on coffee mugs, phone cases, T-shirts, and LEGO sets — it may be the most reproduced image in human history. In 2012, NASA released a Hubble telescope photograph of a distant nebula whose gas vortices bore a striking resemblance to the painting's composition. Scientists even analyzed the turbulence patterns in Van Gogh's brushstrokes using fluid dynamics, finding they matched Kolmogorov's theory of turbulence — a physics law Van Gogh could not possibly have known.
+
+In graphic design and visual communication, The Starry Night proved that the most powerful visual language comes not from faithful reproduction of reality, but from extreme expression of emotion. Van Gogh used distorted lines and irrational colors to achieve what photography never could — making you feel the energy of the night sky.`,
+    significance_en: `From a visual design perspective, The Starry Night's breakthrough was using the brushstroke itself as a design element. Before Van Gogh, brushstrokes were meant to be "invisible" — a good painter's goal was to make them disappear so the viewer saw only the final image. Van Gogh reversed this: the brushstroke is the information, the emotion, the energy. This concept directly influenced Expressionism, Abstract Expressionism, and even contemporary data visualization flow fields — using the direction and density of lines to convey information, not merely outline shapes.`,
+  },
+
 
 
 ]
