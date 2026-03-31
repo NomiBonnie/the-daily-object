@@ -5717,6 +5717,74 @@ In graphic design and visual communication, The Starry Night proved that the mos
     significance_en: `From a visual design perspective, The Starry Night's breakthrough was using the brushstroke itself as a design element. Before Van Gogh, brushstrokes were meant to be "invisible" — a good painter's goal was to make them disappear so the viewer saw only the final image. Van Gogh reversed this: the brushstroke is the information, the emotion, the energy. This concept directly influenced Expressionism, Abstract Expressionism, and even contemporary data visualization flow fields — using the direction and density of lines to convey information, not merely outline shapes.`,
   },
 
+  {
+    id: '70',
+    date: '2026-03-31',
+    imageUrl: '/the-daily-object/images/eiffel-tower.jpg',
+    fullImageUrl: '/the-daily-object/images/full/eiffel-tower.jpg',
+    title: '埃菲尔铁塔',
+    title_en: 'Eiffel Tower',
+    subtitle: 'Gustave Eiffel, 1889',
+    subtitle_en: 'Gustave Eiffel, 1889',
+    category: 'architecture' as const,
+    designer: 'Gustave Eiffel',
+    year: '1889',
+    tags: ['重新定义城市天际线', '铁构建筑的终极宣言', '全球最具辨识度地标'],
+    tags_en: ['Redefined the Urban Skyline', 'Ultimate Iron Architecture Manifesto', 'World\'s Most Recognizable Landmark'],
+
+    dateConnection: `1889年3月31日，埃菲尔铁塔竣工。从破土动工到最后一颗铆钉钉入，只用了2年2个月零5天。Gustave Eiffel 亲自登上324米的塔顶，在塔尖升起一面法国国旗。当时巴黎几乎没有人相信这根"铁柱子"会成为任何美的象征——47位艺术家联名抗议，称它是"巴黎的耻辱"。137年后，它是地球上被拍照次数最多的建筑。`,
+
+    designerBio: `Gustave Eiffel（1832-1923）不是建筑师，是工程师。这个身份差异决定了一切。
+
+他在巴黎中央工艺学院学化学，后转入国立高等矿业学校。毕业后投身铁路桥梁建设，在波尔多、里斯本、布达佩斯设计了一系列铁结构桥梁和车站。他的专长是用数学精确计算风荷载——在那个年代，大多数建筑师还在凭经验估算。
+
+到1880年代，Eiffel 已经是欧洲最顶尖的铁结构工程师。他的事务所完成了自由女神像的内部铁骨架——没有那个骨架，铜皮女神像根本站不起来。但铁塔之前，他从未做过一件"纯粹为了展示"的结构。`,
+
+    story: `1886年，法国政府为1889年世界博览会征集一座"300米高塔"的方案。107个方案投标，Eiffel 的团队胜出。真正的设计工作主要由他事务所的两位工程师 Maurice Koechlin 和 Émile Nouguier 完成，建筑师 Stephen Sauvestre 负责外观装饰。
+
+方案公布后，巴黎文化界炸了。作家莫泊桑、作曲家古诺、建筑师加尼耶（巴黎歌剧院设计者）等47位名人联名发表公开信，称铁塔是"一根巨大的黑色工厂烟囱"，将"以其野蛮的体量压垮巴黎的一切建筑"。他们无法接受一个工程师用铁和铆钉造出的东西跟圣母院、卢浮宫并列在同一条天际线上。
+
+Eiffel 的回应冷静而精确。他说："难道我们要认为，因为一个人是工程师，他就不关心美吗？难道工程师在计算力和耐久性的同时，不也在追求优雅？"
+
+施工过程本身就是一个设计奇迹。18,038块锻铁构件，250万颗铆钉，由300名工人在26个月内完成。没有一个工人死于施工事故——在19世纪的大型工程中几乎是不可能的成绩。Eiffel 为工人设计了移动式安全围栏和蒸汽动力升降机，这在当时史无前例。
+
+铁塔的曲线不是随意画出来的。四条支腿的轮廓线遵循一个精确的数学公式，确保风力在结构中均匀传递。Eiffel 后来解释说，这条曲线不是他"设计"的，而是风"画"出来的——它是抵抗风力的最优形态。这种"让力决定形式"的理念，比 Louis Sullivan 的"形式追随功能"早了好几年。`,
+
+    legacy: `埃菲尔铁塔原计划在世博会结束20年后拆除。它之所以保留下来，是因为它成了无线电天线——1904年开始用于军事通信，一战中截获了关键的德军情报。一座差点被拆的"丑陋建筑"因为技术价值意外存活，最终成了全人类的视觉共识。
+
+它对建筑和设计的影响远超一座地标。铁塔证明了结构可以是美的——不需要石头、大理石或古典柱式，裸露的铁骨架本身就能震撼人心。这个理念直接催生了20世纪的钢结构高层建筑，从芝加哥学派到密斯·凡·德·罗的玻璃盒子，都能追溯到铁塔确立的那个前提：结构即美学。
+
+如今，埃菲尔铁塔每年接待近700万游客，是全球收费景点中访问量最高的。它被印在无数商品上，出现在每一部关于巴黎的电影中，成为"巴黎"乃至"欧洲"最通用的视觉符号。`,
+
+    significance: `从设计角度看，埃菲尔铁塔最深刻的贡献在于它终结了"工程"和"美"之间的虚假对立。在它之前，美是石头的、装饰的、古典的；工程是功能的、粗糙的、临时的。铁塔用一个无法辩驳的事实颠覆了这套等级制度——当你凝视那些铁格架的曲线时，你感受到的不只是力量，还有优雅。结构的诚实可以是一种美学。这个简单的发现改变了此后整个现代设计的走向。`,
+
+    dateConnection_en: `On March 31, 1889, the Eiffel Tower was completed. From groundbreaking to the last rivet, it took just 2 years, 2 months, and 5 days. Gustave Eiffel personally climbed to the 324-meter summit and raised a French flag at the top. At the time, almost no one in Paris believed this "iron column" would become any symbol of beauty — 47 prominent artists signed a petition calling it "a disgrace to Paris." 137 years later, it is the most photographed building on Earth.`,
+
+    designerBio_en: `Gustave Eiffel (1832–1923) was not an architect — he was an engineer. That distinction defined everything.
+
+He studied chemistry at the École Centrale des Arts et Manufactures in Paris, then transferred to the École des Mines. After graduation, he devoted himself to railway bridge construction, designing iron structures in Bordeaux, Lisbon, and Budapest. His specialty was mathematically calculating wind loads — at a time when most architects still relied on intuition.
+
+By the 1880s, Eiffel was Europe's preeminent iron-structure engineer. His firm designed the internal iron skeleton of the Statue of Liberty — without that framework, the copper-skinned statue could never have stood. But before the tower, he had never created a structure built purely for display.`,
+
+    story_en: `In 1886, the French government solicited proposals for a "300-meter tower" for the 1889 World's Fair. Of 107 submissions, Eiffel's team won. The actual design work was primarily done by two engineers in his firm, Maurice Koechlin and Émile Nouguier, with architect Stephen Sauvestre handling the decorative elements.
+
+When the plans went public, the Parisian cultural establishment erupted. Writer Guy de Maupassant, composer Charles Gounod, architect Charles Garnier (designer of the Paris Opera), and 44 other celebrities published an open letter calling the tower "a giant black factory chimney" that would "crush all of Paris's architecture beneath its barbarous mass." They could not accept that an engineer's creation of iron and rivets would share a skyline with Notre-Dame and the Louvre.
+
+Eiffel's response was calm and precise: "Is it not true that the very conditions which give strength also conform to the hidden rules of harmony? The first principle of architectural aesthetics is that the essential lines of a construction be determined by a perfect appropriateness to its use."
+
+The construction itself was a design marvel. 18,038 wrought-iron parts, 2.5 million rivets, assembled by 300 workers in 26 months. Not a single worker died during construction — nearly unheard of for a 19th-century megaproject. Eiffel designed movable safety barriers and steam-powered cranes for his workers, unprecedented at the time.
+
+The tower's curves were not drawn arbitrarily. The profile of each leg follows a precise mathematical formula ensuring wind forces distribute evenly through the structure. Eiffel later explained that he did not "design" the curve — the wind "drew" it. It is the optimal form for resisting wind loads. This idea of "letting forces determine form" predated Louis Sullivan's "form follows function" by several years.`,
+
+    legacy_en: `The Eiffel Tower was originally scheduled for demolition 20 years after the World's Fair. It survived because it became a radio antenna — used for military communications from 1904, it intercepted critical German intelligence during World War I. A "ugly building" nearly torn down was accidentally preserved by technological utility, eventually becoming a universal visual consensus for all humanity.
+
+Its impact on architecture and design extends far beyond a single landmark. The tower proved that structure itself could be beautiful — no stone, marble, or classical columns required. The bare iron skeleton alone could move people. This idea directly gave rise to 20th-century steel-frame high-rises: from the Chicago School to Mies van der Rohe's glass boxes, all trace back to the premise the Eiffel Tower established: structure is aesthetics.
+
+Today, the Eiffel Tower welcomes nearly 7 million visitors annually, the highest attendance of any paid monument worldwide. Printed on countless products and featured in every film set in Paris, it has become the most universal visual symbol of "Paris" — and perhaps of "Europe" itself.`,
+
+    significance_en: `From a design perspective, the Eiffel Tower's most profound contribution was ending the false opposition between "engineering" and "beauty." Before it, beauty was stone, ornamental, classical; engineering was functional, crude, temporary. The tower overturned this hierarchy with an irrefutable fact — when you gaze at the curves of its iron lattice, you feel not only power but elegance. Structural honesty can be an aesthetic. This simple discovery redirected the entire trajectory of modern design.`,
+  },
+
 
 
 ]
