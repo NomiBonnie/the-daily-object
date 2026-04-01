@@ -5785,6 +5785,58 @@ Today, the Eiffel Tower welcomes nearly 7 million visitors annually, the highest
     significance_en: `From a design perspective, the Eiffel Tower's most profound contribution was ending the false opposition between "engineering" and "beauty." Before it, beauty was stone, ornamental, classical; engineering was functional, crude, temporary. The tower overturned this hierarchy with an irrefutable fact — when you gaze at the curves of its iron lattice, you feel not only power but elegance. Structural honesty can be an aesthetic. This simple discovery redirected the entire trajectory of modern design.`,
   },
 
+  {
+    id: '71',
+    date: '2026-04-01',
+    imageUrl: '/the-daily-object/images/apple-rainbow-logo.png',
+    fullImageUrl: '/the-daily-object/images/full/apple-rainbow-logo.png',
+    title: '苹果彩虹 Logo',
+    title_en: 'Apple Rainbow Logo',
+    subtitle: 'Rob Janoff, 1977',
+    subtitle_en: 'Rob Janoff, 1977',
+    category: 'graphic' as const,
+    designer: 'Rob Janoff',
+    year: '1977',
+    tags: ['史上最具辨识度标志', '定义科技品牌美学', '彩虹色的商业先驱'],
+    tags_en: ['Most Recognizable Logo Ever', 'Defined Tech Brand Aesthetics', 'Pioneer of Rainbow Branding'],
+
+    dateConnection: `1976年4月1日，Steve Jobs 和 Steve Wozniak 在加州库比蒂诺一间车库里创立了 Apple Computer, Inc.。一年后，年轻的平面设计师 Rob Janoff 为这家初创公司设计了那枚改变商业标志史的彩虹苹果——一个被咬了一口的苹果轮廓，填满六条彩虹色带。`,
+    designerBio: `Rob Janoff 在接到苹果的委托时，只是 Regis McKenna 广告公司的一名年轻设计师。他此前从未做过任何载入史册的作品。Steve Jobs 找到 McKenna 公司时只有一个要求：别太可爱。
+
+Janoff 花了大约两周时间完成了整个设计。他买了一袋苹果，把它们切开，研究截面和轮廓，然后在纸上画出那个简洁的剪影。咬痕（bite）的加入纯粹是为了让人一眼认出这是苹果而非樱桃——没有任何关于"byte"的双关意图，尽管这个巧合后来成了科技圈最著名的都市传说之一。`,
+    story: `Jobs 最初收到的是单色版本。Janoff 准备了几个纯色方案，Jobs 立刻喜欢上了这个造型，但他坚持要加上颜色。不是某一种颜色，而是彩虹。
+
+原因很实际：Apple II 是当时市面上第一台能显示彩色图形的个人电脑，彩虹色带直接传达了这个卖点。Jobs 要求绿色放在最上面——因为那是叶子的位置。六条色带从上到下依次是：绿、黄、橙、红、紫、蓝，没有遵循自然彩虹的顺序，而是以视觉节奏为优先。
+
+**这个 logo 从 1977 年一直用到 1998 年，横跨了苹果从车库创业到险些倒闭再到 Jobs 回归的整段历史。** 1997 年 Jobs 重返苹果后，Jonathan Ive 主导的设计语言革命将彩虹 logo 替换为半透明的单色版本——先是 Aqua 蓝，后来变成今天的纯黑或纯白。
+
+但彩虹版从未真正消失。它成了一个文化符号，代表着个人电脑革命最浪漫的年代。2022 年，苹果在其总部 Apple Park 的访客中心重新使用了彩虹配色，向这个初代标志致敬。`,
+    legacy: `Rob Janoff 的苹果 logo 是商业标志设计史上被研究最多的案例之一。它证明了一个看似简单的图形——一个被咬了一口的苹果——可以承载无限的品牌联想。没有文字、没有说明，全世界的人都能认出它。
+
+这个 logo 还开创了"科技公司也可以有温度"的品牌美学。在它之前，IBM、HP、DEC 的标志都是冷硬的字母组合。苹果的彩虹标志第一次让人觉得，电脑可以是亲切的、有趣的、属于每个人的。这种理念后来影响了 Google、Airbnb、Spotify 等一代科技品牌的视觉策略。`,
+    significance: `从平面设计角度看，苹果彩虹 logo 的伟大之处在于它的克制。Janoff 没有堆砌任何多余的细节——没有阴影、没有渐变、没有 3D 效果，只有一个干净的轮廓和六条平涂色带。这种极简主义让它在任何尺寸、任何介质上都清晰可辨，从名片到广告牌。
+
+它同时证明了标志设计最核心的法则：最好的 logo 不是画出来的，是减出来的。`,
+
+    dateConnection_en: `On April 1, 1976, Steve Jobs and Steve Wozniak founded Apple Computer, Inc. in a garage in Cupertino, California. One year later, young graphic designer Rob Janoff created the rainbow apple that would become the most recognized corporate logo in history — a bitten apple silhouette filled with six rainbow-colored stripes.`,
+    designerBio_en: `Rob Janoff was a young designer at the Regis McKenna advertising agency when he received the Apple commission. He had never created anything historically significant before. Steve Jobs came to McKenna with one request: don't make it cute.
+
+Janoff spent about two weeks on the entire design. He bought a bag of apples, sliced them open, studied their cross-sections and profiles, then drew the clean silhouette on paper. The bite was added purely so people wouldn't mistake it for a cherry — there was never any intended pun on "byte," though that coincidence became one of tech's most famous urban legends.`,
+    story_en: `Jobs initially received monochromatic versions. Janoff had prepared several single-color options, and Jobs immediately loved the shape but insisted on adding color. Not just any color — a rainbow.
+
+The reasoning was practical: the Apple II was the first personal computer capable of displaying color graphics, and the rainbow stripes directly communicated that selling point. Jobs wanted green at the top — because that's where the leaf sits. The six stripes ran green, yellow, orange, red, purple, and blue from top to bottom, not following the natural rainbow sequence but prioritizing visual rhythm.
+
+**This logo served Apple from 1977 to 1998, spanning the company's entire arc from garage startup to near-bankruptcy to Jobs' return.** After Jobs came back in 1997, Jonathan Ive's design revolution replaced the rainbow logo with a translucent monochrome version — first Aqua blue, then the pure black or white we know today.
+
+But the rainbow version never truly disappeared. It became a cultural symbol representing the most romantic era of the personal computer revolution. In 2022, Apple reintroduced rainbow coloring at the Apple Park visitor center, paying homage to its original mark.`,
+    legacy_en: `Rob Janoff's Apple logo is one of the most studied cases in commercial logo design history. It proved that a seemingly simple graphic — an apple with a bite taken out — could carry infinite brand associations. No text, no explanation needed; people worldwide recognize it instantly.
+
+The logo also pioneered the idea that tech companies could have warmth. Before it, IBM, HP, and DEC all used cold, rigid letter combinations. Apple's rainbow mark was the first to suggest that computers could be friendly, fun, and for everyone. This philosophy later influenced the visual strategies of Google, Airbnb, Spotify, and an entire generation of tech brands.`,
+    significance_en: `From a graphic design perspective, the Apple rainbow logo's greatness lies in its restraint. Janoff added no superfluous detail — no shadows, no gradients, no 3D effects, just a clean silhouette and six flat color bands. This minimalism made it legible at any size and on any medium, from business cards to billboards.
+
+It also proved the most fundamental law of logo design: the best logos aren't drawn — they're reduced.`,
+  },
+
 
 
 ]
