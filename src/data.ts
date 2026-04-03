@@ -1,6 +1,6 @@
 // Bump this when any image file is replaced (same filename, new content)
 // This busts CDN cache without renaming files
-export const IMAGE_VERSION = '20260328'
+export const IMAGE_VERSION = '20260403'
 
 export interface DesignObject {
   id: string
@@ -5897,9 +5897,61 @@ The Museum of Modern Art (MoMA) in New York includes the Airflow in its permanen
 It is also a textbook case of the "ahead-of-its-time design" dilemma. Every design decision in the Airflow was engineered correctly, but the market wasn't ready to accept it. This paradox has recurred throughout design history: from the NeXT Computer to Google Glass, from Concorde to Segway — the best designs don't always win, but they define the direction for everything that follows.`,
   },
 
+  {
+    id: '73',
+    date: '2026-04-03',
+    imageUrl: '/the-daily-object/images/ipad-2010.jpg',
+    fullImageUrl: '/the-daily-object/images/full/ipad-2010.jpg',
+    title: 'Apple iPad',
+    title_en: 'Apple iPad',
+    subtitle: 'Apple / Jonathan Ive, 2010',
+    subtitle_en: 'Apple / Jonathan Ive, 2010',
+    category: 'industrial',
+    designer: 'Jonathan Ive / Apple',
+    year: '2010',
+    tags: ['重新定义个人计算', '开创平板电脑时代', '触屏交互革命'],
+    tags_en: ['Redefined Personal Computing', 'Created the Tablet Era', 'Touch Interaction Revolution'],
+
+    dateConnection: '2010年4月3日，初代 iPad 在美国正式发售。一个月内销量突破100万台，彻底开创了平板电脑这个品类。',
+    designerBio: `Jonathan Ive 是苹果公司前首席设计官，从 1996 年起主导了几乎所有苹果标志性产品的工业设计——iMac G3、iPod、iPhone、MacBook Air，以及 iPad。他出生于英国伦敦，毕业于纽卡斯尔理工学院（现诺森比亚大学），深受 Dieter Rams 极简主义设计哲学的影响。
+
+Ive 的设计理念核心是"让技术消失"：去除一切多余的元素，让用户只关注内容本身。这种理念在 iPad 上达到了极致——没有键盘、没有鼠标、没有风扇，整个设备就是一块屏幕。Steve Jobs 称 iPad 是"我做过的最重要的产品"。`,
+    story: `iPad 的故事其实比 iPhone 更早开始。2003年前后，苹果内部就开始探索多点触控平板的可能性。当时的原型机是一块可以用手指直接操作的屏幕，没有物理键盘。Steve Jobs 看到后说："这可以做成手机。"于是 iPhone 先行一步，iPad 反而成了"第二个孩子"。
+
+2010年1月27日，Jobs 在旧金山芳草地艺术中心发布了 iPad。他坐在沙发上，像翻杂志一样演示这台设备——这个发布方式本身就是一种设计宣言：这不是工作工具，这是生活的一部分。
+
+**发售当天的场景堪称壮观。** 全美 Apple Store 门前排起长队，首日即售出30万台。一个月后突破100万，比初代 iPhone 同期快了一倍。怀疑论者曾嘲笑它是"放大版 iPod Touch"，但市场给出了答案。
+
+从工业设计角度看，初代 iPad 是一个极其克制的产品。9.7英寸屏幕，680克重量，铝合金一体成型背壳，圆润的弧线从边缘自然过渡到背面。它没有摄像头、没有多任务，甚至没有 Flash 支持——每一个"没有"都是有意为之的设计决策。Jobs 和 Ive 的逻辑是：与其做一个什么都能做但什么都做不好的设备，不如做一个在核心体验上无可挑剔的产品。`,
+    legacy: `iPad 创造了一个全新的产品品类，也改变了人类与数字内容的关系。在它之前，"电脑"意味着坐在桌前、面对键盘和鼠标。iPad 让计算变成了一种可以靠在沙发上、躺在床上、带去任何地方的体验。
+
+它对整个科技行业的冲击是深远的。发布后两年内，几乎所有主要科技公司都推出了平板产品——三星 Galaxy Tab、亚马逊 Kindle Fire、微软 Surface——但没有一个真正动摇过 iPad 的统治地位。到2026年，iPad 累计销量已超过6.5亿台。
+
+更深层的影响在于交互范式的转变。iPad 证明了触屏可以成为主要输入方式，"直接操作"（direct manipulation）从学术概念变成了数亿人的日常。这种理念随后渗透到自助点餐机、车载系统、智能家居控制面板——触屏已经无处不在。`,
+    significance: `iPad 在设计史上的意义超越了单一产品。它是"后PC时代"的开端宣言，证明了一种新的设计范式：用减法做设计。去掉键盘、去掉鼠标、去掉一切硬件按钮，只留下一块屏幕和人的手指——这种极端的简化不是偷懒，而是对"什么才是本质"的深刻思考。
+
+它也是苹果设计哲学的集大成者。铝合金一体成型工艺、精确到0.01mm的公差控制、对重量和握持手感的执念——这些在 iPhone 上初步建立的工业设计标准，在 iPad 更大的尺度上得到了淋漓尽致的展现。`,
+
+    dateConnection_en: 'On April 3, 2010, the first-generation iPad went on sale in the United States. Within a month, it had sold over one million units, single-handedly creating the tablet computer category.',
+    designerBio_en: `Jonathan Ive served as Apple's Chief Design Officer and led the industrial design of nearly every iconic Apple product since 1996 — the iMac G3, iPod, iPhone, MacBook Air, and iPad. Born in London and educated at Newcastle Polytechnic (now Northumbria University), Ive was deeply influenced by Dieter Rams' minimalist design philosophy.
+
+Ive's core design principle was "making technology disappear": stripping away every unnecessary element so users focus solely on content. This philosophy reached its purest expression in the iPad — no keyboard, no mouse, no fan, just a screen. Steve Jobs called it "the most important thing I've ever done."`,
+    story_en: `The iPad's story actually predates the iPhone. Around 2003, Apple began exploring multi-touch tablet prototypes — screens you could operate directly with your fingers, no physical keyboard needed. When Steve Jobs saw the prototype, he said: "This could be a phone." The iPhone shipped first; the iPad became the "second child."
+
+On January 27, 2010, Jobs unveiled the iPad at San Francisco's Yerba Buena Center for the Arts. He sat on a couch, flipping through content like a magazine — the presentation itself was a design statement: this isn't a work tool, it's part of your life.
+
+**Launch day was spectacular.** Lines formed at Apple Stores nationwide; 300,000 units sold on day one. Within a month, sales crossed one million — twice as fast as the original iPhone. Skeptics had mocked it as an "oversized iPod Touch," but the market delivered its verdict.
+
+From an industrial design perspective, the first iPad was a masterclass in restraint. A 9.7-inch screen, 680 grams, a unibody aluminum shell with edges that curved gracefully into the back. No camera, no multitasking, no Flash support — every omission was a deliberate design decision. Jobs and Ive's logic: rather than making a device that does everything poorly, make one that's flawless at its core experience.`,
+    legacy_en: `The iPad created an entirely new product category and transformed humanity's relationship with digital content. Before it, "computer" meant sitting at a desk with a keyboard and mouse. The iPad made computing something you could do on a couch, in bed, or anywhere.
+
+Its impact on the tech industry was profound. Within two years, virtually every major tech company launched a tablet — Samsung Galaxy Tab, Amazon Kindle Fire, Microsoft Surface — yet none truly challenged iPad's dominance. By 2026, cumulative iPad sales exceeded 650 million units.
+
+The deeper impact was a paradigm shift in interaction. The iPad proved that touchscreens could be a primary input method, turning "direct manipulation" from an academic concept into daily reality for hundreds of millions. This philosophy subsequently permeated self-service kiosks, car infotainment systems, and smart home panels — touchscreens are now everywhere.`,
+    significance_en: `The iPad's significance in design history transcends a single product. It was the opening manifesto of the "post-PC era," demonstrating a new design paradigm: design by subtraction. Remove the keyboard, remove the mouse, remove every hardware button — leave only a screen and human fingers. This radical simplification wasn't laziness but a profound meditation on what's truly essential.
+
+It was also the culmination of Apple's design philosophy. Unibody aluminum construction, tolerances precise to 0.01mm, an obsession with weight and hand-feel — the industrial design standards first established with the iPhone were fully realized at the iPad's larger scale.`,
+  },
 
 
 ]
-
-
-
