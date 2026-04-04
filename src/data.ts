@@ -5954,4 +5954,67 @@ It was also the culmination of Apple's design philosophy. Unibody aluminum const
   },
 
 
+
+
+  // 04-04: World Trade Center
+  {
+    id: '59',
+    date: '2026-04-04',
+    imageUrl: '/the-daily-object/images/world-trade-center.jpg',
+    fullImageUrl: '/the-daily-object/images/full/world-trade-center.jpg',
+    title: '世界贸易中心双子塔',
+    title_en: 'World Trade Center Twin Towers',
+    subtitle: 'Minoru Yamasaki, 1973',
+    subtitle_en: 'Minoru Yamasaki, 1973',
+    category: 'architecture' as const,
+    designer: 'Minoru Yamasaki',
+    year: '1973',
+    tags: ['改变了城市天际线', '结构工程里程碑', '建筑与记忆的交汇'],
+    tags_en: ['Redefined City Skylines', 'Structural Engineering Milestone', 'Architecture Meets Memory'],
+
+    dateConnection: `1973年4月4日，世界贸易中心在纽约曼哈顿下城举行了盛大的剪彩仪式，正式向公众开放。两座110层的双子塔以417米和415米的高度，成为当时世界上最高的建筑，从此改写了纽约的天际线。`,
+    designerBio: `Minoru Yamasaki（1912-1986），日裔美国建筑师，20世纪最具影响力的建筑师之一。出生于西雅图的日裔移民家庭，在大萧条和二战期间经历了严重的种族歧视。他在纽约大学和华盛顿大学接受建筑教育后，逐步建立了自己的设计事务所。
+
+Yamasaki 的设计哲学强调"人性化的现代主义"——他反对粗野主义的冷漠感，追求一种兼具纪念性和亲密感的建筑语言。他的早期作品如底特律的 McGregor Memorial Conference Center（1958）已经展现了标志性的哥特式拱形和精致的柱列。`,
+    story: `世贸中心的诞生源于一个宏大的愿景：纽约港务局希望在曼哈顿下城建造一个国际贸易枢纽，重振这片逐渐衰落的区域。1962年，Yamasaki 从众多竞争者中脱颖而出。
+
+他最初的设计方案是80层的双塔——但港务局要求必须包含1000万平方英尺的办公空间。Yamasaki 花了数月研究各种塔楼配置，最终决定：**两座方形平面的超高层塔楼，用管状结构体系支撑。**
+
+这个结构创新是革命性的。传统摩天大楼依靠内部钢柱森林承重，而 Yamasaki 和结构工程师 Leslie Robertson 将承重转移到外墙——每面墙上密集排列着59根钢柱，间距仅56厘米。这种"管中管"结构不仅提供了前所未有的无柱开放楼层，还大幅降低了用钢量。
+
+**双子塔最标志性的设计元素是底部的哥特式拱形入口。** Yamasaki 在地面层设计了三个巨大的尖拱门洞，每个高21米。这是他对现代主义的独特诠释：用中世纪大教堂的仪式感，赋予现代摩天楼一种超越功能的精神维度。当你仰望那些直插天际的铝合金外墙柱列时，你看到的不只是一座办公楼——而是一座世俗的大教堂。
+
+建造工程同样史诗级。超过1万名建筑工人参与施工，从哈德逊河底挖出的120万立方码泥土被用来填海造地——这就是今天曼哈顿的 Battery Park City。`,
+    legacy: `世贸双子塔存在了28年。2001年9月11日的恐怖袭击让它们从纽约天际线上消失，留下一个永远的伤口。
+
+但双子塔的建筑遗产是持久的。管状结构体系成为此后超高层建筑的标准做法。它们的规模和工程勇气激励了整整一代建筑师思考城市天际线的可能性。从吉隆坡双子塔到迪拜哈利法塔，后来的每一座超级高层都站在 Yamasaki 开辟的道路上。
+
+在原址上，Daniel Libeskind 和 Michael Arad 设计的9/11纪念广场用两个巨大的水池——精确对应双塔的足印——将缺席转化为一种永恒的在场。建筑最深刻的力量或许就在于此：即使消失了，它仍然在定义那个空间。`,
+    significance: `世贸双子塔在建筑史上占据独特地位：它既是结构工程的巅峰之作，也是20世纪下半叶最具辩论性的建筑。批评者（包括某些时候的 Yamasaki 本人）质疑如此巨大的体量对城市肌理的影响；支持者则认为它重新定义了"标志性建筑"的含义。
+
+它的设计决策——管状结构、哥特式底座、铝合金外墙——每一个都是功能与诗意的融合。Yamasaki 证明了超高层建筑不必是冰冷的钢铁盒子，它可以拥有仪式感、节奏感和人文温度。`,
+
+    dateConnection_en: `On April 4, 1973, the World Trade Center held its grand ribbon-cutting ceremony in Lower Manhattan, officially opening to the public. The two 110-story Twin Towers, standing at 417 and 415 meters, became the tallest buildings in the world, forever reshaping New York's skyline.`,
+    designerBio_en: `Minoru Yamasaki (1912-1986) was a Japanese-American architect and one of the most influential architects of the 20th century. Born to a Japanese immigrant family in Seattle, he faced severe racial discrimination during the Great Depression and World War II. After studying architecture at NYU and the University of Washington, he gradually established his own design practice.
+
+Yamasaki's design philosophy emphasized "humanistic modernism" — he rejected Brutalism's coldness, pursuing an architectural language that combined monumentality with intimacy. His early works like Detroit's McGregor Memorial Conference Center (1958) already showcased his signature Gothic arches and refined colonnades.`,
+    story_en: `The World Trade Center was born from a grand vision: the Port Authority of New York and New Jersey wanted to build an international trade hub in Lower Manhattan to revitalize the declining area. In 1962, Yamasaki emerged from numerous competitors.
+
+His initial design proposed 80-story twin towers — but the Port Authority demanded 10 million square feet of office space. Yamasaki spent months studying various tower configurations before deciding: **two square-plan supertall towers supported by a tubular structural system.**
+
+This structural innovation was revolutionary. Traditional skyscrapers relied on forests of internal steel columns, but Yamasaki and structural engineer Leslie Robertson transferred the load to the exterior walls — 59 steel columns on each face, spaced just 56 centimeters apart. This "tube-within-tube" system not only created unprecedented column-free open floors but dramatically reduced steel usage.
+
+**The Twin Towers' most iconic design element was the Gothic-arched entrance at the base.** Yamasaki designed three enormous pointed arches at ground level, each 21 meters high. This was his unique interpretation of modernism: using the ceremonial grandeur of medieval cathedrals to give modern skyscrapers a spiritual dimension beyond function. Looking up at those aluminum-clad exterior columns soaring skyward, you saw not just an office building — but a secular cathedral.
+
+Construction was equally epic. Over 10,000 workers participated, and 1.2 million cubic yards of earth excavated from the Hudson riverbed was used for landfill — creating what is now Manhattan's Battery Park City.`,
+    legacy_en: `The Twin Towers stood for 28 years. The terrorist attacks of September 11, 2001 erased them from New York's skyline, leaving a wound that will never fully heal.
+
+Yet their architectural legacy endures. The tubular structural system became standard practice for subsequent supertall buildings. Their scale and engineering courage inspired an entire generation of architects to reimagine what city skylines could be. From the Petronas Towers in Kuala Lumpur to the Burj Khalifa in Dubai, every subsequent supertall stands on the path Yamasaki pioneered.
+
+At the original site, Daniel Libeskind and Michael Arad's 9/11 Memorial uses two vast reflecting pools — precisely matching the towers' footprints — to transform absence into eternal presence. Perhaps architecture's most profound power lies here: even after disappearing, it continues to define the space.`,
+    significance_en: `The Twin Towers occupy a unique position in architectural history: they were both a pinnacle of structural engineering and the most debated buildings of the late 20th century. Critics (including, at times, Yamasaki himself) questioned the impact of such massive volume on urban fabric; supporters argued they redefined what "iconic architecture" means.
+
+Every design decision — tubular structure, Gothic base, aluminum cladding — fused function with poetry. Yamasaki proved that supertall buildings need not be cold steel boxes; they could possess ceremony, rhythm, and human warmth.`,
+  },
+
 ]
