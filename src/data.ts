@@ -6016,7 +6016,6 @@ At the original site, Daniel Libeskind and Michael Arad's 9/11 Memorial uses two
 
 Every design decision — tubular structure, Gothic base, aluminum cladding — fused function with poetry. Yamasaki proved that supertall buildings need not be cold steel boxes; they could possess ceremony, rhythm, and human warmth.`,
   },
-  },
   {
     id: '60',
     date: '2026-04-05',
