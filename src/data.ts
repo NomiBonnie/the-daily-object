@@ -6042,5 +6042,42 @@ Every design decision — tubular structure, Gothic base, aluminum cladding — 
     story_en: `The Nevermind cover is more than just a photograph; it's a visual statement combining Nirvana's music, Kurt Cobain's thoughts, and the burgeoning counter-culture of the 1990s. The infant in water reaching for a dollar bill tied to a fishing line symbolizes not only the debut of grunge aesthetics in mainstream media but also a broader critique of societal values.`,
     legacy_en: `The Nevermind cover set a benchmark for modern album design and remains a classic example of graphic design meeting pop culture. Its inclusion in MoMA's permanent collection solidified its status as a piece of art history.`,
     significance_en: `The Nevermind cover defined the visual identity of the 1990s music scene and remains a striking symbol of cultural diversity decades later, inspiring countless artists, musicians, and visual designers.`,
+    },
+  {
+    id: '132',
+    date: '2026-04-06',
+    imageUrl: '/the-daily-object/images/school-of-athens.jpg',
+    fullImageUrl: '/the-daily-object/images/full/school-of-athens.jpg',
+    title: 'The School of Athens',
+    title_en: 'The School of Athens',
+    subtitle: '拉斐尔, 1509–1511',
+    subtitle_en: 'Raphael, 1509–1511',
+    category: 'art',
+    designer: '拉斐尔·桑西',
+    year: '1509',
+    tags: ['文艺复兴巅峰之作', '透视法教科书', '西方艺术史基石'],
+    tags_en: ['Peak of the Renaissance', 'Textbook of Perspective', 'Cornerstone of Western Art'],
+    dateConnection: '1483年4月6日，拉斐尔出生于意大利乌尔比诺；1520年4月6日，他在罗马去世——同月同日，生与死精确重合。37年的短暂一生，他留下了人类美术史上最伟大的壁画之一。',
+    designerBio: `拉斐尔·桑西（Raffaello Sanzio da Urbino, 1483–1520），与达·芬奇、米开朗基罗并称"文艺复兴三杰"。他11岁丧父，少年时在佩鲁吉诺画室学艺，21岁已声名远播。1508年，25岁的拉斐尔受教皇尤利乌斯二世之邀前往罗马，负责梵蒂冈宫殿的壁画装饰——这个任务将催生他最伟大的杰作。
+
+拉斐尔以温柔和谐的画风著称，他不像达·芬奇那样神秘，也不像米开朗基罗那样狂暴，而是将一切都化为优雅与秩序。瓦萨里称他为"画家中的王子"，认为他的作品达到了前人未能企及的完美。`,
+    story: `《雅典学院》（La Scuola di Atene）绘制于梵蒂冈宗座宫"签字厅"的墙壁上，是拉斐尔最宏大的构图实验。这幅7.7米宽的壁画将古希腊50多位哲学家、数学家和科学家汇聚在一座虚构的古典建筑中——柏拉图手指天空，亚里士多德手掌朝地，两人分别代表理想主义与经验主义的永恒对话。
+
+拉斐尔在画中埋藏了大量彩蛋：柏拉图的面容取自达·芬奇，赫拉克利特的忧郁姿态来自米开朗基罗，而画面右侧角落那个探头望向观者的年轻人，正是拉斐尔自己。这幅画不仅是对古典智慧的致敬，更是文艺复兴精神的视觉宣言——人类的理性可以建构出与神殿媲美的秩序。
+
+**从设计角度看，《雅典学院》是透视法的巅峰演绎。** 整幅画以一个精确的消失点统摄，拱廊的建筑线条将目光自然引向中心的柏拉图与亚里士多德。几十个人物被编排在严格的几何结构中，却毫无僵硬感——这种"看起来毫不费力的秩序"，正是设计领域追求的最高境界。`,
+    legacy: '《雅典学院》自完成之日起就被视为西方绘画的最高成就之一。它定义了"理想构图"的标准——对称而不死板，复杂而不混乱。500年来，从古典学院到现代建筑，无数创作者从中汲取关于空间、比例与叙事的灵感。它被收入全球每一本艺术史教科书，是理解西方视觉文化绕不过去的起点。',
+    significance: '拉斐尔证明了绘画可以同时是哲学论文、建筑设计图和人物群像。《雅典学院》打破了绘画与建筑、艺术与科学的边界，开创了一种"全学科融合"的视觉思维方式——这正是今天设计界所推崇的跨学科精神的源头。',
+    dateConnection_en: `On April 6, 1483, Raphael was born in Urbino, Italy; on April 6, 1520, he died in Rome — his birth and death fell on the exact same day. In just 37 years, he created one of the greatest murals in the history of art.`,
+    designerBio_en: `Raffaello Sanzio da Urbino (1483–1520), alongside Leonardo da Vinci and Michelangelo, forms the "Holy Trinity" of the High Renaissance. Orphaned at 11, he trained under Perugino and gained renown by 21. In 1508, Pope Julius II summoned the 25-year-old to Rome to decorate the Vatican Palace — a commission that would produce his greatest masterpiece.
+
+Raphael was celebrated for his harmonious style: neither as enigmatic as Leonardo nor as turbulent as Michelangelo, he transformed everything into elegance and order. Vasari called him "the Prince of Painters," believing his work achieved a perfection that surpassed all predecessors.`,
+    story_en: `*The School of Athens* (La Scuola di Atene) was painted on the wall of the Stanza della Segnatura in the Vatican Palace, and remains Raphael's most ambitious composition. This 7.7-meter-wide fresco gathers over 50 ancient Greek philosophers, mathematicians, and scientists within a grand fictitious classical building — Plato points skyward while Aristotle gestures toward the earth, the two figures embodying the eternal dialogue between idealism and empiricism.
+
+Raphael embedded countless Easter eggs: Plato bears the face of Leonardo da Vinci; the brooding Heraclitus is modeled on Michelangelo; and the young man peering out from the right edge is Raphael himself. The painting is not merely a tribute to classical wisdom but a visual manifesto of the Renaissance — declaring that human reason can construct an order rivaling the divine.
+
+**From a design perspective, The School of Athens is the pinnacle of linear perspective.** A single precise vanishing point governs the entire composition; the receding arcades draw the viewer's eye naturally toward Plato and Aristotle at center. Dozens of figures are arranged within a rigorous geometric framework, yet the result feels effortless — that quality of "order that doesn't look like it's trying" is the highest ideal in design.`,
+    legacy_en: `Since its completion, The School of Athens has been regarded as one of the supreme achievements of Western painting. It established the standard for "ideal composition" — symmetrical yet dynamic, complex yet clear. For 500 years, from classical academies to modern architecture, creators have drawn from it lessons in space, proportion, and narrative. It appears in every art history textbook worldwide and remains an essential starting point for understanding Western visual culture.`,
+    significance_en: `Raphael proved that a painting could simultaneously serve as a philosophical treatise, an architectural drawing, and a group portrait. The School of Athens dissolved the boundaries between painting and architecture, art and science, pioneering a mode of "total-discipline" visual thinking — the very interdisciplinary spirit that the design world champions today.`,
   }
 ]
