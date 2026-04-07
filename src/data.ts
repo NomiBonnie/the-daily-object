@@ -1,6 +1,6 @@
 // Bump this when any image file is replaced (same filename, new content)
 // This busts CDN cache without renaming files
-export const IMAGE_VERSION = '20260403'
+export const IMAGE_VERSION = '20260407'
 
 export interface DesignObject {
   id: string
@@ -6079,5 +6079,51 @@ Raphael embedded countless Easter eggs: Plato bears the face of Leonardo da Vinc
 **From a design perspective, The School of Athens is the pinnacle of linear perspective.** A single precise vanishing point governs the entire composition; the receding arcades draw the viewer's eye naturally toward Plato and Aristotle at center. Dozens of figures are arranged within a rigorous geometric framework, yet the result feels effortless — that quality of "order that doesn't look like it's trying" is the highest ideal in design.`,
     legacy_en: `Since its completion, The School of Athens has been regarded as one of the supreme achievements of Western painting. It established the standard for "ideal composition" — symmetrical yet dynamic, complex yet clear. For 500 years, from classical academies to modern architecture, creators have drawn from it lessons in space, proportion, and narrative. It appears in every art history textbook worldwide and remains an essential starting point for understanding Western visual culture.`,
     significance_en: `Raphael proved that a painting could simultaneously serve as a philosophical treatise, an architectural drawing, and a group portrait. The School of Athens dissolved the boundaries between painting and architecture, art and science, pioneering a mode of "total-discipline" visual thinking — the very interdisciplinary spirit that the design world champions today.`,
+  },
+  {
+    id: '98',
+    date: '2026-04-07',
+    imageUrl: '/the-daily-object/images/lego-brick.jpg',
+    fullImageUrl: '/the-daily-object/images/full/lego-brick.jpg',
+    title: 'LEGO Brick',
+    title_en: 'LEGO Brick',
+    subtitle: 'Ole Kirk Christiansen / Godtfred Kirk Christiansen, 1958',
+    subtitle_en: 'Ole Kirk Christiansen / Godtfred Kirk Christiansen, 1958',
+    category: 'industrial',
+    designer: 'Ole Kirk Christiansen / Godtfred Kirk Christiansen',
+    year: '1958',
+    tags: ['重新定义了玩具', '模块化设计先驱', '全球最伟大的设计系统'],
+    tags_en: ['Redefined What a Toy Can Be', 'Modular Design Pioneer', 'Greatest Design System Ever'],
+    dateConnection: `1891年4月7日，Ole Kirk Kristiansen 出生于丹麦日德兰半岛中部的菲尔斯科夫。这位木匠的第十三个孩子，后来创办了地球上最成功的玩具公司。1932年，在大萧条最黑暗的日子里，他在比隆的木工作坊开始制作木制玩具，给公司取名"LEGO"——来自丹麦语"leg godt"（好好玩）。1949年，公司推出了第一批塑料积木；1958年1月28日，他的儿子 Godtfred 为改进后的管状咬合系统申请了专利（专利号DK92683C），赋予了积木那种令人上瘾的"咔嗒"锁紧力。Ole Kirk 在同年3月11日去世，没能看到这项专利如何改变了整个玩具行业。`,
+    designerBio: `Ole Kirk Kristiansen 的人生是一部关于韧性的故事。他14岁开始学木匠手艺，1916年买下了比隆的一家木工作坊。1924年，两个儿子不小心点燃了木屑，作坊烧成灰烬。他重建了。1929年，大萧条让订单蒸发。他开始做木制玩具——不是因为热爱玩具，而是因为小件木制品比家具便宜，更好卖。1932年公司正式成立时，只有他和几个工人。
+
+他的儿子 Godtfred Kirk Christiansen 从12岁起就在工厂帮忙，后来成为公司真正的战略家。1947年，LEGO 成为丹麦第一家购买塑料注塑机的玩具公司。1954年，Godtfred 在渡轮上遇到一位外国买家，对方抱怨"玩具行业缺乏一个系统"，这句话点燃了他脑中的火花——他开始构想一套万能的积木系统，任何两块积木之间都能完美咬合。1958年的专利砖块实现了这个愿景。`,
+    story: `LEGO 积木的伟大之处不在于单块砖的设计——那只是一个简单的矩形，顶部有圆柱凸起。它的伟大在于**系统**。
+
+1958年专利的核心创新是砖块底部的三根空心管（tubes），它们与顶部的凸粒（studs）形成精确的摩擦配合。这个看似微不足道的工程细节解决了之前积木最大的问题：搭好的东西一碰就散。新的咬合系统让两块 2×4 的积木有 24 种不同的组合方式；六块同样的积木理论上有超过 9.15 亿种组合。
+
+**这就是设计的力量：一个极其简单的模块，通过精确的尺寸关系，创造出无限的可能性。**
+
+材料同样关键。1963年，LEGO 从醋酸纤维素（容易褪色、变形）转向 ABS 塑料——这种材料至今仍是积木的标准材质。ABS 让积木拥有了精确到 0.002 毫米的公差、鲜亮不褪的色彩、以及几乎不会磨损的耐久性。一块1963年生产的积木和今天买的新积木，可以完美拼合——这种跨越60年的向后兼容性，在整个工业设计史上都极为罕见。`,
+    legacy: `LEGO 积木已经成为"模块化设计"这个概念最直观的隐喻。从乐高认真的游戏（Serious Play）方法论被引入企业管理和教育领域，到建筑师用乐高原型推敲方案，到程序员用"像搭乐高一样"来形容组件化编程——这块小砖已经超越了玩具的范畴，成为一种思维方式的象征。
+
+截至2024年，全球已生产超过6000亿块 LEGO 积木，平均每个地球人拥有75块。LEGO 连续多年被评为全球最受尊敬的品牌。MoMA 永久收藏了 LEGO 积木作为设计经典。`,
+    significance: `LEGO 积木证明了设计中最强大的力量不是复杂性，而是系统性。一个尺寸精确的简单模块，加上一套严格的连接规则，就能创造出从微型雕塑到真人大小的房屋的一切。这是"少即是多"在工业设计领域最纯粹的实践——不是减少装饰，而是用最少的元素种类创造最大的表达空间。`,
+    dateConnection_en: `On April 7, 1891, Ole Kirk Kristiansen was born in Filskov, a small parish in central Jutland, Denmark. The thirteenth child of a carpenter would go on to found the most successful toy company on Earth. In 1932, during the darkest days of the Great Depression, he began making wooden toys in his Billund workshop, naming the company "LEGO" from the Danish phrase "leg godt" (play well). In 1949, the company introduced its first plastic bricks; on January 28, 1958, his son Godtfred filed a patent for the improved tube-and-stud coupling system (patent DK92683C), giving the brick its addictive "click." Ole Kirk died on March 11 that same year, never seeing how this patent would transform the entire toy industry.`,
+    designerBio_en: `Ole Kirk Kristiansen's life was a story of resilience. He began learning carpentry at 14 and bought a woodworking shop in Billund in 1916. In 1924, two of his sons accidentally set fire to wood shavings, burning the workshop to the ground. He rebuilt. In 1929, the Great Depression wiped out his orders. He pivoted to wooden toys — not out of passion for playthings, but because small wooden items were cheaper and easier to sell than furniture. When the company was formally established in 1932, it was just him and a handful of workers.
+
+His son Godtfred Kirk Christiansen had been helping in the factory since age 12 and became the company's true strategist. In 1947, LEGO became the first toy company in Denmark to purchase a plastic injection molding machine. In 1954, Godtfred met a foreign buyer on a ferry who complained that "the toy industry lacks a system" — that remark ignited a spark. Godtfred began envisioning a universal building system where any two bricks could interlock perfectly. The 1958 patent brick realized that vision.`,
+    story_en: `The greatness of the LEGO brick lies not in the design of a single piece — it's just a simple rectangle with cylindrical studs on top. Its greatness lies in the **system**.
+
+The core innovation of the 1958 patent was three hollow tubes on the underside of the brick that create a precise friction fit with the studs on top. This seemingly trivial engineering detail solved the biggest problem with earlier bricks: builds fell apart at the slightest touch. The new coupling system gives two 2x4 bricks 24 different ways to combine; six identical bricks yield over 915 million theoretical combinations.
+
+**This is the power of design: an extremely simple module that creates infinite possibilities through precise dimensional relationships.**
+
+Material was equally critical. In 1963, LEGO switched from cellulose acetate (prone to fading and warping) to ABS plastic — still the standard today. ABS gave the bricks tolerances of 0.002 mm, vivid non-fading colors, and near-indestructible durability. A brick made in 1963 clicks perfectly with one bought today — this kind of 60-year backward compatibility is extraordinarily rare in the entire history of industrial design.`,
+    legacy_en: `The LEGO brick has become the most intuitive metaphor for "modular design." From the LEGO Serious Play methodology adopted in corporate management and education, to architects prototyping with LEGO, to programmers describing component-based coding as "building with LEGO" — this small brick has transcended the toy category to become a symbol of a way of thinking.
+
+As of 2024, over 600 billion LEGO bricks have been produced worldwide, averaging 75 per person on Earth. LEGO has been named the world's most respected brand for multiple consecutive years. MoMA has the LEGO brick in its permanent collection as a design classic.`,
+    significance_en: `The LEGO brick proved that the most powerful force in design is not complexity but systematicity. One precisely dimensioned simple module, plus a strict set of connection rules, can create everything from micro-sculptures to life-sized houses. This is the purest practice of "less is more" in industrial design — not reducing ornamentation, but using the fewest possible element types to create the greatest expressive space.`,
   }
+
 ]
