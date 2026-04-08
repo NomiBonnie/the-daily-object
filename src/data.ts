@@ -1,6 +1,6 @@
 // Bump this when any image file is replaced (same filename, new content)
 // This busts CDN cache without renaming files
-export const IMAGE_VERSION = '20260407'
+export const IMAGE_VERSION = '20260408'
 
 export interface DesignObject {
   id: string
@@ -6124,6 +6124,56 @@ Material was equally critical. In 1963, LEGO switched from cellulose acetate (pr
 
 As of 2024, over 600 billion LEGO bricks have been produced worldwide, averaging 75 per person on Earth. LEGO has been named the world's most respected brand for multiple consecutive years. MoMA has the LEGO brick in its permanent collection as a design classic.`,
     significance_en: `The LEGO brick proved that the most powerful force in design is not complexity but systematicity. One precisely dimensioned simple module, plus a strict set of connection rules, can create everything from micro-sculptures to life-sized houses. This is the purest practice of "less is more" in industrial design — not reducing ornamentation, but using the fewest possible element types to create the greatest expressive space.`,
+  },
+  {
+    id: '99',
+    date: '2026-04-08',
+    imageUrl: '/the-daily-object/images/mini-crini.jpg',
+    fullImageUrl: '/the-daily-object/images/full/mini-crini.jpg',
+    title: 'Mini-Crini',
+    title_en: 'Mini-Crini',
+    subtitle: 'Vivienne Westwood, 1985',
+    subtitle_en: 'Vivienne Westwood, 1985',
+    category: 'fashion',
+    designer: 'Vivienne Westwood',
+    year: '1985',
+    tags: ['朋克时尚教母', '解构与重建的衣橱革命', '历史主义的叛逆回响'],
+    tags_en: ['Godmother of Punk Fashion', 'Deconstructive Wardrobe Revolution', 'Rebellious Echo of Historicism'],
+    dateConnection: `1941年4月8日，Vivienne Isabel Swire 出生于英格兰德比郡的格洛索普，一个纺织工厂遍布的小镇。没有人预料到这个工人阶级女孩会成为20世纪最具颠覆性的时装设计师。从70年代国王路430号那间名为"SEX"的小店开始，她和 Malcolm McLaren 一起点燃了朋克运动的视觉引信——撕裂的T恤、安全别针、挑衅性口号。但 Westwood 真正的天才不止于破坏：1985年的 Mini-Crini 系列标志着她从街头叛逆转向历史主义的深度探索，用维多利亚时代的裙撑结构重新定义了当代女性轮廓。`,
+    designerBio: `Vivienne Westwood 的职业生涯是一部关于持续自我革新的史诗。她最初是一名小学教师，1971年与 Malcolm McLaren 在国王路开设了第一家店铺（先后更名为 Let It Rock、Too Fast to Live Too Young to Die、SEX、Seditionaries、World's End）。每次更名都代表一次美学立场的彻底转变。
+
+1981年，她的第一场正式时装秀"Pirate"在伦敦奥林匹亚举行，宣告了"新浪漫主义"的到来。此后每个系列都是一次对西方服装史的深度考古：从18世纪的束腰到都铎王朝的剪裁，从塔坦格纹到古典油画的印花。她不是简单地"复古"，而是将历史元素解构后重组，创造出既陌生又似曾相识的全新语汇。
+
+2022年12月29日，Westwood 在伦敦去世，享年81岁。她一生获得了大英帝国女爵士勋章（DBE），三次获得年度英国设计师奖，V&A 博物馆为她举办了大型回顾展。晚年她将大量精力投入环保和政治活动，用同样的叛逆精神对抗气候危机。`,
+    story: `Mini-Crini 是 Westwood 1985年春夏系列的核心单品，灵感直接来自维多利亚时代的 crinoline（裙撑）——那种用鲸骨或钢丝撑起的巨型裙摆结构。但她没有照搬历史，而是做了一次精确的缩放手术：将裙撑的体积缩小到膝盖以上，长度截短为迷你裙，保留了膨胀的轮廓但赋予了全新的比例。
+
+**这是一次优雅的悖论：用最古老的女性服装结构，创造出最现代的廓形。**
+
+Mini-Crini 系列同时诞生了另一件传奇单品——Rocking Horse Ballerina 鞋。这双鞋有着弧形的木质厚底，穿着者走路时会像摇椅一样轻微摇摆。鞋面是芭蕾舞鞋式的皮革绑带，高耸的平台底与纤细的绑带形成戏剧性对比。它至今仍是 Vivienne Westwood 品牌最具标志性的产品之一，每季都会复刻。
+
+这个系列标志着 Westwood 创作生涯的重要转折点。在此之前，她主要以朋克美学闻名——撕裂、安全别针、挑衅。Mini-Crini 之后，她进入了更深层的领域：用历史的碎片重建未来的时尚。她后来说："我不认为时尚需要创造全新的东西。时尚需要的是用新的眼光看旧的东西。"`,
+    legacy: `Mini-Crini 系列确立了 Westwood 作为"历史主义时装"最重要实践者的地位，也深刻影响了后来 John Galliano、Alexander McQueen 等设计师对历史剪裁的探索方式。Rocking Horse 鞋成为日本原宿文化的标志性单品，在90年代被 Lolita 时尚亚文化奉为圣物。
+
+V&A 博物馆、纽约大都会艺术博物馆、京都服饰文化研究财团等全球主要时装收藏机构都收藏了 Mini-Crini 系列的作品。2004年 V&A 的大型回顾展将这个系列定义为"Westwood 从街头走向殿堂的转折点"。`,
+    significance: `Mini-Crini 证明了时尚设计中最激进的创新往往不是凭空创造，而是对历史的重新阅读。Westwood 用维多利亚裙撑这个被女性主义者视为"束缚"象征的结构，创造出一种充满力量感和自由感的新轮廓——这种辩证法比任何宣言都更有说服力。她让我们看到：真正的叛逆不是拒绝传统，而是比任何人都更深入地理解传统，然后从内部将其炸开。`,
+    dateConnection_en: `On April 8, 1941, Vivienne Isabel Swire was born in Glossop, Derbyshire — a small English town dotted with textile mills. No one expected this working-class girl to become one of the 20th century's most subversive fashion designers. From the tiny shop at 430 King's Road called "SEX," she and Malcolm McLaren lit the visual fuse of the punk movement — torn T-shirts, safety pins, provocative slogans. But Westwood's true genius went beyond destruction: the 1985 Mini-Crini collection marked her turn from street rebellion to a deep exploration of historicism, using Victorian crinoline structures to redefine the contemporary female silhouette.`,
+    designerBio_en: `Vivienne Westwood's career was an epic of continuous self-reinvention. Originally a primary school teacher, she opened her first shop on King's Road with Malcolm McLaren in 1971 — renaming it successively Let It Rock, Too Fast to Live Too Young to Die, SEX, Seditionaries, and World's End. Each name change represented a complete aesthetic pivot.
+
+Her first formal runway show, "Pirate," at London's Olympia in 1981, heralded the arrival of New Romanticism. Every subsequent collection was an archaeological dig through Western fashion history: from 18th-century corsetry to Tudor tailoring, from tartan to oil-painting prints. She wasn't simply "going vintage" — she deconstructed historical elements and reassembled them into a vocabulary that felt simultaneously alien and familiar.
+
+Westwood died in London on December 29, 2022, at 81. She held a Dame Commander of the Order of the British Empire (DBE), won British Designer of the Year three times, and was honored with a major V&A retrospective. In her later years she channeled the same rebellious energy into environmental activism and political protest.`,
+    story_en: `The Mini-Crini was the centerpiece of Westwood's Spring-Summer 1985 collection, inspired directly by the Victorian crinoline — those massive skirt structures held up by whalebone or steel wire. But she didn't copy history; she performed a precise scaling operation: shrinking the crinoline's volume to above the knee, cutting the length to a mini-skirt, preserving the inflated silhouette while granting it entirely new proportions.
+
+**This was an elegant paradox: using the oldest structure of women's dress to create the most modern silhouette.**
+
+The collection also gave birth to another legendary piece — the Rocking Horse Ballerina shoe. With its curved wooden platform sole, the wearer sways gently like a rocking chair while walking. The upper features ballet-slipper leather ribbons, creating a dramatic contrast between the towering platform and delicate ties. It remains one of Vivienne Westwood's most iconic products, reissued every season.
+
+This collection marked a crucial turning point in Westwood's career. Before it, she was known primarily for punk aesthetics — tears, safety pins, provocation. After Mini-Crini, she entered deeper territory: rebuilding the future of fashion from historical fragments. As she later said: "I don't think fashion needs to create something entirely new. Fashion needs to see old things with new eyes."`,
+    legacy_en: `The Mini-Crini collection established Westwood as the most important practitioner of "historicist fashion" and profoundly influenced how designers like John Galliano and Alexander McQueen later explored historical tailoring. The Rocking Horse shoe became an icon of Harajuku culture in Tokyo, revered as a sacred object by the 1990s Lolita fashion subculture.
+
+Major fashion collections worldwide — the V&A, the Metropolitan Museum of Art, the Kyoto Costume Institute — all hold pieces from the Mini-Crini collection. The V&A's major 2004 retrospective defined this series as "the turning point where Westwood moved from the street to the temple."`,
+    significance_en: `Mini-Crini proved that the most radical innovation in fashion often comes not from creating out of thin air, but from re-reading history. Westwood took the Victorian crinoline — a structure feminists had long seen as a symbol of constraint — and created a silhouette full of power and freedom. This dialectic was more persuasive than any manifesto. She showed us that true rebellion isn't rejecting tradition; it's understanding tradition more deeply than anyone else, then detonating it from the inside.`,
   }
+
 
 ]
