@@ -6173,7 +6173,51 @@ This collection marked a crucial turning point in Westwood's career. Before it, 
 
 Major fashion collections worldwide — the V&A, the Metropolitan Museum of Art, the Kyoto Costume Institute — all hold pieces from the Mini-Crini collection. The V&A's major 2004 retrospective defined this series as "the turning point where Westwood moved from the street to the temple."`,
     significance_en: `Mini-Crini proved that the most radical innovation in fashion often comes not from creating out of thin air, but from re-reading history. Westwood took the Victorian crinoline — a structure feminists had long seen as a symbol of constraint — and created a silhouette full of power and freedom. This dialectic was more persuasive than any manifesto. She showed us that true rebellion isn't rejecting tradition; it's understanding tradition more deeply than anyone else, then detonating it from the inside.`,
+  },
+  {
+    id: '100',
+    date: '2026-04-09',
+    imageUrl: '/the-daily-object/images/cappiello-contratto.jpg',
+    fullImageUrl: '/the-daily-object/images/full/cappiello-contratto.jpg',
+    title: 'Contratto',
+    title_en: 'Contratto',
+    subtitle: 'Leonetto Cappiello, 1922',
+    subtitle_en: 'Leonetto Cappiello, 1922',
+    category: 'graphic',
+    designer: 'Leonetto Cappiello',
+    year: '1922',
+    tags: ['现代广告之父', '海报艺术先驱', '颠覆了商业视觉'],
+    tags_en: ['Father of Modern Advertising', 'Poster Art Pioneer', 'Revolutionized Commercial Visual'],
+
+    dateConnection: '1875年4月9日，Leonetto Cappiello 出生于意大利利沃诺。这位后来移居巴黎的意大利人，用三十年时间彻底改写了商业海报的视觉语言——从 Art Nouveau 的繁复装饰中挣脱出来，开创了以单一鲜明形象击中观者记忆的现代广告美学。',
+    designerBio: `Leonetto Cappiello 1875年出生于意大利托斯卡纳的港口城市利沃诺，18岁时已经是当地小有名气的漫画家。1898年，23岁的他带着一本速写簿和对巴黎的向往，搬到了当时世界海报艺术的中心。
+
+初到巴黎，Cappiello 靠为《Le Rire》《Le Sourire》等幽默杂志画讽刺漫画维生。他的漫画线条流畅、捕捉人物神韵的能力惊人——Sarah Bernhardt 看了他画的自己，说这是除 Toulouse-Lautrec 之外最好的画像。1900年，印刷商 Pierre Vercasson 注意到这个意大利年轻人，签下了一份改变海报史的合同。`,
+    story: `1922年的 Contratto 海报是 Cappiello 视觉方法论的巅峰之作。画面极度简洁：漆黑背景上，一个穿橙红色长裙的女人从一杯起泡酒的气泡中升起，双臂张开，头微微后仰，整个姿态充满了欢愉和奢华感。
+
+这张海报完美展示了 Cappiello 的革命性方法——他称之为「l'arabesque」（阿拉伯花纹）。与同时代的 Alphonse Mucha 用复杂装饰包裹主体不同，Cappiello 把所有注意力集中在一个鲜明的视觉符号上：深色背景、单一人物、极少的文字。他相信好的广告海报应该像一记视觉闪电——在街头匆匆走过的行人只需一瞥就能记住。
+
+这种方法在当时是颠覆性的。19世纪末的巴黎海报（Chéret、Mucha 的风格）充满了装饰性细节、复杂的花边和大量文字。Cappiello 把这一切都砍掉了，只留下最本质的视觉冲击。他在职业生涯中创作了超过 530 幅商业海报，服务的品牌从 Cinzano 到 Thermogène，从 Bouillon Kub 到 Le Journal，每一幅都遵循同样的原则：让形象自己说话。`,
+    legacy: `Cappiello 被广告史学界称为「现代广告之父」（le père de la publicité moderne）。他的方法——用一个强烈的视觉符号取代冗长的文字说明——直接预示了20世纪中叶的品牌标识革命。从 Paul Rand 的企业标识到 Andy Warhol 的波普艺术，从 Milton Glaser 的 I ♥ NY 到当代 Nike 的 Swoosh，所有伟大的品牌视觉都在延续 Cappiello 开创的逻辑：一个形象，一个记忆。
+
+Contratto 海报至今仍是意大利 Contratto 酒庄的官方视觉标识，一个世纪后依然在使用——这本身就是对其设计力量最好的证明。`,
+    significance: `在 Art Nouveau 的装饰浪潮退去后、现代主义设计运动兴起前，Cappiello 独自站在一个历史缝隙中，完成了商业视觉从「装饰」到「传播」的范式转换。他证明了一件事：伟大的商业设计不需要复杂——它需要的是一个让人无法忘记的形象。这个洞察在一个世纪后依然是所有品牌设计的第一原则。`,
+
+    dateConnection_en: `On April 9, 1875, Leonetto Cappiello was born in Livorno, Italy. This Italian expatriate who settled in Paris spent three decades completely rewriting the visual language of commercial posters — breaking free from Art Nouveau's ornamental excess to pioneer a modern advertising aesthetic built on single, striking images that sear themselves into the viewer's memory.`,
+    designerBio_en: `Leonetto Cappiello was born in 1875 in the Tuscan port city of Livorno, already a locally noted caricaturist by age 18. In 1898, the 23-year-old moved to Paris — then the world capital of poster art — armed with a sketchbook and ambition.
+
+In Paris, Cappiello initially earned his living drawing satirical cartoons for humor magazines like Le Rire and Le Sourire. His fluid linework and uncanny ability to capture a subject's essence were remarkable — Sarah Bernhardt reportedly said his portrait of her was the best she'd seen since Toulouse-Lautrec. In 1900, the printer Pierre Vercasson noticed this young Italian and signed a contract that would change poster history.`,
+    story_en: `The 1922 Contratto poster represents the apex of Cappiello's visual methodology. The composition is radically simple: against a pitch-black background, a woman in an orange-red gown rises from the bubbles of a sparkling wine glass, arms spread wide, head tilted back slightly, her entire posture radiating joy and luxury.
+
+This poster perfectly demonstrates Cappiello's revolutionary approach — what he called "l'arabesque." Unlike his contemporary Alphonse Mucha, who wrapped subjects in elaborate ornamentation, Cappiello concentrated all attention on a single vivid visual symbol: dark background, solitary figure, minimal text. He believed a good advertising poster should strike like visual lightning — a pedestrian hurrying past on the street should need only a single glance to remember it.
+
+This approach was subversive for its time. Late 19th-century Parisian posters (in the style of Chéret and Mucha) overflowed with decorative details, intricate borders, and heavy text. Cappiello stripped all of that away, leaving only the essential visual punch. Over his career he created more than 530 commercial posters for brands from Cinzano to Thermogène, from Bouillon Kub to Le Journal — every one following the same principle: let the image speak for itself.`,
+    legacy_en: `Advertising historians call Cappiello "le père de la publicité moderne" — the father of modern advertising. His method — replacing verbose copy with a single powerful visual symbol — directly anticipated the mid-20th century brand identity revolution. From Paul Rand's corporate logos to Andy Warhol's Pop Art, from Milton Glaser's I ♥ NY to Nike's Swoosh, every great brand visual extends the logic Cappiello pioneered: one image, one memory.
+
+The Contratto poster remains the official visual identity of Italy's Contratto winery to this day, still in active use a full century later — itself the finest proof of its design power.`,
+    significance_en: `In the gap between Art Nouveau's decorative tide receding and the Modern design movement rising, Cappiello stood alone, completing a paradigm shift in commercial visuals — from "decoration" to "communication." He proved one thing: great commercial design doesn't need complexity — it needs an image people cannot forget. A century later, that insight remains the first principle of all brand design.`,
   }
+
 
 
 ]
