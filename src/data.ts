@@ -6216,7 +6216,129 @@ This approach was subversive for its time. Late 19th-century Parisian posters (i
 
 The Contratto poster remains the official visual identity of Italy's Contratto winery to this day, still in active use a full century later — itself the finest proof of its design power.`,
     significance_en: `In the gap between Art Nouveau's decorative tide receding and the Modern design movement rising, Cappiello stood alone, completing a paradigm shift in commercial visuals — from "decoration" to "communication." He proved one thing: great commercial design doesn't need complexity — it needs an image people cannot forget. A century later, that insight remains the first principle of all brand design.`,
+  },
+  {
+    id: '132',
+    date: '2026-04-06',
+    imageUrl: '/the-daily-object/images/school-of-athens.jpg',
+    fullImageUrl: '/the-daily-object/images/full/school-of-athens.jpg',
+    title: 'The School of Athens',
+    title_en: 'The School of Athens',
+    subtitle: '拉斐尔, 1509–1511',
+    subtitle_en: 'Raphael, 1509–1511',
+    category: 'art',
+    designer: '拉斐尔·桑西',
+    year: '1509',
+    tags: ['文艺复兴巅峰之作', '透视法教科书', '西方艺术史基石'],
+    tags_en: ['Peak of the Renaissance', 'Textbook of Perspective', 'Cornerstone of Western Art'],
+    dateConnection: '1483年4月6日，拉斐尔出生于意大利乌尔比诺；1520年4月6日，他在罗马去世——同月同日，生与死精确重合。37年的短暂一生，他留下了人类美术史上最伟大的壁画之一。',
+    designerBio: `拉斐尔·桑西（Raffaello Sanzio da Urbino, 1483–1520），与达·芬奇、米开朗基罗并称"文艺复兴三杰"。他11岁丧父，少年时在佩鲁吉诺画室学艺，21岁已声名远播。1508年，25岁的拉斐尔受教皇尤利乌斯二世之邀前往罗马，负责梵蒂冈宫殿的壁画装饰——这个任务将催生他最伟大的杰作。
+
+拉斐尔以温柔和谐的画风著称，他不像达·芬奇那样神秘，也不像米开朗基罗那样狂暴，而是将一切都化为优雅与秩序。瓦萨里称他为"画家中的王子"，认为他的作品达到了前人未能企及的完美。`,
+    story: `《雅典学院》（La Scuola di Atene）绘制于梵蒂冈宗座宫"签字厅"的墙壁上，是拉斐尔最宏大的构图实验。这幅7.7米宽的壁画将古希腊50多位哲学家、数学家和科学家汇聚在一座虚构的古典建筑中——柏拉图手指天空，亚里士多德手掌朝地，两人分别代表理想主义与经验主义的永恒对话。
+
+拉斐尔在画中埋藏了大量彩蛋：柏拉图的面容取自达·芬奇，赫拉克利特的忧郁姿态来自米开朗基罗，而画面右侧角落那个探头望向观者的年轻人，正是拉斐尔自己。这幅画不仅是对古典智慧的致敬，更是文艺复兴精神的视觉宣言——人类的理性可以建构出与神殿媲美的秩序。
+
+**从设计角度看，《雅典学院》是透视法的巅峰演绎。** 整幅画以一个精确的消失点统摄，拱廊的建筑线条将目光自然引向中心的柏拉图与亚里士多德。几十个人物被编排在严格的几何结构中，却毫无僵硬感——这种"看起来毫不费力的秩序"，正是设计领域追求的最高境界。`,
+    legacy: '《雅典学院》自完成之日起就被视为西方绘画的最高成就之一。它定义了"理想构图"的标准——对称而不死板，复杂而不混乱。500年来，从古典学院到现代建筑，无数创作者从中汲取关于空间、比例与叙事的灵感。它被收入全球每一本艺术史教科书，是理解西方视觉文化绕不过去的起点。',
+    significance: '拉斐尔证明了绘画可以同时是哲学论文、建筑设计图和人物群像。《雅典学院》打破了绘画与建筑、艺术与科学的边界，开创了一种"全学科融合"的视觉思维方式——这正是今天设计界所推崇的跨学科精神的源头。',
+    dateConnection_en: `On April 6, 1483, Raphael was born in Urbino, Italy; on April 6, 1520, he died in Rome — his birth and death fell on the exact same day. In just 37 years, he created one of the greatest murals in the history of art.`,
+    designerBio_en: `Raffaello Sanzio da Urbino (1483–1520), alongside Leonardo da Vinci and Michelangelo, forms the "Holy Trinity" of the High Renaissance. Orphaned at 11, he trained under Perugino and gained renown by 21. In 1508, Pope Julius II summoned the 25-year-old to Rome to decorate the Vatican Palace — a commission that would produce his greatest masterpiece.
+
+Raphael was celebrated for his harmonious style: neither as enigmatic as Leonardo nor as turbulent as Michelangelo, he transformed everything into elegance and order. Vasari called him "the Prince of Painters," believing his work achieved a perfection that surpassed all predecessors.`,
+    story_en: `*The School of Athens* (La Scuola di Atene) was painted on the wall of the Stanza della Segnatura in the Vatican Palace, and remains Raphael's most ambitious composition. This 7.7-meter-wide fresco gathers over 50 ancient Greek philosophers, mathematicians, and scientists within a grand fictitious classical building — Plato points skyward while Aristotle gestures toward the earth, the two figures embodying the eternal dialogue between idealism and empiricism.
+
+Raphael embedded countless Easter eggs: Plato bears the face of Leonardo da Vinci; the brooding Heraclitus is modeled on Michelangelo; and the young man peering out from the right edge is Raphael himself. The painting is not merely a tribute to classical wisdom but a visual manifesto of the Renaissance — declaring that human reason can construct an order rivaling the divine.
+
+**From a design perspective, The School of Athens is the pinnacle of linear perspective.** A single precise vanishing point governs the entire composition; the receding arcades draw the viewer's eye naturally toward Plato and Aristotle at center. Dozens of figures are arranged within a rigorous geometric framework, yet the result feels effortless — that quality of "order that doesn't look like it's trying" is the highest ideal in design.`,
+    legacy_en: `Since its completion, The School of Athens has been regarded as one of the supreme achievements of Western painting. It established the standard for "ideal composition" — symmetrical yet dynamic, complex yet clear. For 500 years, from classical academies to modern architecture, creators have drawn from it lessons in space, proportion, and narrative. It appears in every art history textbook worldwide and remains an essential starting point for understanding Western visual culture.`,
+    significance_en: `Raphael proved that a painting could simultaneously serve as a philosophical treatise, an architectural drawing, and a group portrait. The School of Athens dissolved the boundaries between painting and architecture, art and science, pioneering a mode of "total-discipline" visual thinking — the very interdisciplinary spirit that the design world champions today.`,
+  },
+
+  {
+    id: '100',
+    date: '2026-04-09',
+    imageUrl: '/the-daily-object/images/cappiello-contratto.jpg',
+    fullImageUrl: '/the-daily-object/images/full/cappiello-contratto.jpg',
+    title: 'Contratto',
+    title_en: 'Contratto',
+    subtitle: 'Leonetto Cappiello, 1922',
+    subtitle_en: 'Leonetto Cappiello, 1922',
+    category: 'graphic',
+    designer: 'Leonetto Cappiello',
+    year: '1922',
+    tags: ['现代广告之父', '海报艺术先驱', '颠覆了商业视觉'],
+    tags_en: ['Father of Modern Advertising', 'Poster Art Pioneer', 'Revolutionized Commercial Visual'],
+
+    dateConnection: '1875年4月9日，Leonetto Cappiello 出生于意大利利沃诺。这位后来移居巴黎的意大利人，用三十年时间彻底改写了商业海报的视觉语言——从 Art Nouveau 的繁复装饰中挣脱出来，开创了以单一鲜明形象击中观者记忆的现代广告美学。',
+    designerBio: `Leonetto Cappiello 1875年出生于意大利托斯卡纳的港口城市利沃诺，18岁时已经是当地小有名气的漫画家。1898年，23岁的他带着一本速写簿和对巴黎的向往，搬到了当时世界海报艺术的中心。
+
+初到巴黎，Cappiello 靠为《Le Rire》《Le Sourire》等幽默杂志画讽刺漫画维生。他的漫画线条流畅、捕捉人物神韵的能力惊人——Sarah Bernhardt 看了他画的自己，说这是除 Toulouse-Lautrec 之外最好的画像。1900年，印刷商 Pierre Vercasson 注意到这个意大利年轻人，签下了一份改变海报史的合同。`,
+    story: `1922年的 Contratto 海报是 Cappiello 视觉方法论的巅峰之作。画面极度简洁：漆黑背景上，一个穿橙红色长裙的女人从一杯起泡酒的气泡中升起，双臂张开，头微微后仰，整个姿态充满了欢愉和奢华感。
+
+这张海报完美展示了 Cappiello 的革命性方法——他称之为「l'arabesque」（阿拉伯花纹）。与同时代的 Alphonse Mucha 用复杂装饰包裹主体不同，Cappiello 把所有注意力集中在一个鲜明的视觉符号上：深色背景、单一人物、极少的文字。他相信好的广告海报应该像一记视觉闪电——在街头匆匆走过的行人只需一瞥就能记住。
+
+这种方法在当时是颠覆性的。19世纪末的巴黎海报（Chéret、Mucha 的风格）充满了装饰性细节、复杂的花边和大量文字。Cappiello 把这一切都砍掉了，只留下最本质的视觉冲击。他在职业生涯中创作了超过 530 幅商业海报，服务的品牌从 Cinzano 到 Thermogène，从 Bouillon Kub 到 Le Journal，每一幅都遵循同样的原则：让形象自己说话。`,
+    legacy: `Cappiello 被广告史学界称为「现代广告之父」（le père de la publicité moderne）。他的方法——用一个强烈的视觉符号取代冗长的文字说明——直接预示了20世纪中叶的品牌标识革命。从 Paul Rand 的企业标识到 Andy Warhol 的波普艺术，从 Milton Glaser 的 I ♥ NY 到当代 Nike 的 Swoosh，所有伟大的品牌视觉都在延续 Cappiello 开创的逻辑：一个形象，一个记忆。
+
+Contratto 海报至今仍是意大利 Contratto 酒庄的官方视觉标识，一个世纪后依然在使用——这本身就是对其设计力量最好的证明。`,
+    significance: `在 Art Nouveau 的装饰浪潮退去后、现代主义设计运动兴起前，Cappiello 独自站在一个历史缝隙中，完成了商业视觉从「装饰」到「传播」的范式转换。他证明了一件事：伟大的商业设计不需要复杂——它需要的是一个让人无法忘记的形象。这个洞察在一个世纪后依然是所有品牌设计的第一原则。`,
+
+    dateConnection_en: `On April 9, 1875, Leonetto Cappiello was born in Livorno, Italy. This Italian expatriate who settled in Paris spent three decades completely rewriting the visual language of commercial posters — breaking free from Art Nouveau's ornamental excess to pioneer a modern advertising aesthetic built on single, striking images that sear themselves into the viewer's memory.`,
+    designerBio_en: `Leonetto Cappiello was born in 1875 in the Tuscan port city of Livorno, already a locally noted caricaturist by age 18. In 1898, the 23-year-old moved to Paris — then the world capital of poster art — armed with a sketchbook and ambition.
+
+In Paris, Cappiello initially earned his living drawing satirical cartoons for humor magazines like Le Rire and Le Sourire. His fluid linework and uncanny ability to capture a subject's essence were remarkable — Sarah Bernhardt reportedly said his portrait of her was the best she'd seen since Toulouse-Lautrec. In 1900, the printer Pierre Vercasson noticed this young Italian and signed a contract that would change poster history.`,
+    story_en: `The 1922 Contratto poster represents the apex of Cappiello's visual methodology. The composition is radically simple: against a pitch-black background, a woman in an orange-red gown rises from the bubbles of a sparkling wine glass, arms spread wide, head tilted back slightly, her entire posture radiating joy and luxury.
+
+This poster perfectly demonstrates Cappiello's revolutionary approach — what he called "l'arabesque." Unlike his contemporary Alphonse Mucha, who wrapped subjects in elaborate ornamentation, Cappiello concentrated all attention on a single vivid visual symbol: dark background, solitary figure, minimal text. He believed a good advertising poster should strike like visual lightning — a pedestrian hurrying past on the street should need only a single glance to remember it.
+
+This approach was subversive for its time. Late 19th-century Parisian posters (in the style of Chéret and Mucha) overflowed with decorative details, intricate borders, and heavy text. Cappiello stripped all of that away, leaving only the essential visual punch. Over his career he created more than 530 commercial posters for brands from Cinzano to Thermogène, from Bouillon Kub to Le Journal — every one following the same principle: let the image speak for itself.`,
+    legacy_en: `Advertising historians call Cappiello "le père de la publicité moderne" — the father of modern advertising. His method — replacing verbose copy with a single powerful visual symbol — directly anticipated the mid-20th century brand identity revolution. From Paul Rand's corporate logos to Andy Warhol's Pop Art, from Milton Glaser's I ♥ NY to Nike's Swoosh, every great brand visual extends the logic Cappiello pioneered: one image, one memory.
+
+The Contratto poster remains the official visual identity of Italy's Contratto winery to this day, still in active use a full century later — itself the finest proof of its design power.`,
+    significance_en: `In the gap between Art Nouveau's decorative tide receding and the Modern design movement rising, Cappiello stood alone, completing a paradigm shift in commercial visuals — from "decoration" to "communication." He proved one thing: great commercial design doesn't need complexity — it needs an image people cannot forget. A century later, that insight remains the first principle of all brand design.`,
+  },
+
+  {
+    id: '101',
+    date: '2026-04-11',
+    imageUrl: '/the-daily-object/images/tel-aviv-white-city.jpg',
+    fullImageUrl: '/the-daily-object/images/full/tel-aviv-white-city.jpg',
+    title: '特拉维夫白城',
+    title_en: 'The White City of Tel Aviv',
+    subtitle: '多位包豪斯建筑师, 1930s–1940s',
+    subtitle_en: 'Multiple Bauhaus Architects, 1930s–1940s',
+    category: 'architecture' as const,
+    designer: '多位包豪斯建筑师',
+    year: '1930s',
+    tags: ['包豪斯现代主义圣地', 'UNESCO世界遗产', '流亡中诞生的城市'],
+    tags_en: ['Bauhaus Modernism Sanctuary', 'UNESCO World Heritage', 'A City Born in Exile'],
+
+    dateConnection: `1909年4月11日，66个犹太家庭聚集在雅法城外的沙丘上，用贝壳抽签分配土地——这一天，特拉维夫诞生了。二十多年后，从纳粹德国逃离的包豪斯建筑师们带着现代主义的全部理想抵达这座年轻的城市。他们在地中海的阳光下建造了超过4000栋白色建筑，将德绍和魏玛课堂上的几何信条变成了活生生的城市肌理。2003年，这片白色建筑群被列入UNESCO世界遗产名录。`,
+    designerBio: `特拉维夫白城不是一个人的作品，而是一代流亡建筑师的集体创造。Arieh Sharon 在包豪斯跟随 Hannes Meyer 学习，1931年回到巴勒斯坦；Zeev Rechter 设计了恩格尔大楼（Engel House），那栋建在柱子上的住宅成为国际风格在特拉维夫的宣言；Dov Karmi 的作品遍布罗斯柴尔德大道。他们中的许多人曾在包豪斯、勒·柯布西耶的事务所或门德尔松身边学习，带来了平屋顶、条形窗、自由立面和底层架空的全套现代主义语汇。
+
+但他们不是简单地复制欧洲。地中海的酷热迫使他们调整：阳台变深以遮阳，窗户缩小以隔热，建筑之间留出通风廊道。结果是一种独特的"地中海包豪斯"——既忠于现代主义的功能逻辑，又深深扎根于本地气候。`,
+    story: `1930年代的特拉维夫是一张白纸。英国托管当局的总规划师 Patrick Geddes 在1925年绘制了城市规划图：宽阔的林荫大道、街区花园、从海滨向内陆延伸的通风走廊。当那些从德国、奥地利和波兰流亡而来的年轻建筑师抵达时，他们发现了一个梦想中的实验场——没有历史负担，没有既有建筑法规的束缚，只有沙丘和蓝图。
+
+在不到十五年的时间里，4000多栋国际风格建筑拔地而起。罗斯柴尔德大道（Rothschild Boulevard）两侧排列着最纯粹的包豪斯住宅：白色抹灰墙面、几何体量的交叠、标志性的"温度计"竖窗——楼梯间的垂直窗带像一支温度计插在建筑正立面上。迪岑戈夫广场（Dizengoff Square）周围的弧形建筑群构成了这座白城最具辨识度的城市景观。
+
+**二战结束后，这些建筑逐渐老化、褪色，一度面临大规模拆除的威胁。** 1984年，特拉维夫市政府启动保护计划；2003年，UNESCO将白城列入世界遗产名录，理由是它"作为20世纪初现代主义城市规划与建筑的杰出范例"。今天走在罗斯柴尔德大道上，那些修复后的白色建筑在地中海阳光下发出温润的光泽，仿佛九十年前的包豪斯理想从未褪色。`,
+    legacy: `特拉维夫白城是全球密度最高的国际风格建筑群——4000多栋建筑集中在不到4平方公里的区域内，超过了德绍、魏玛和任何其他包豪斯相关城市。它证明了现代主义建筑不只是一种风格，而是一套可以跨越文化和气候移植的设计方法论。流亡建筑师们在异国他乡的实践，意外地创造了包豪斯运动最完整、最大规模的城市级实现。今天，白城既是建筑保护的标杆案例，也是特拉维夫最核心的文化身份。`,
+    significance: `白城的意义超越了建筑本身。它是20世纪最重要的文化迁徙故事之一：当纳粹关闭了包豪斯学校，现代主义的火种并没有熄灭，而是被带到了地中海东岸，在沙丘上重新燃烧。这些建筑不只是风格的展示，更是一种信念的物证——相信理性、功能和简洁可以创造更好的人类居住环境。2003年的世界遗产认定，让全世界重新认识了现代主义建筑遗产保护的价值。`,
+
+    dateConnection_en: `On April 11, 1909, sixty-six Jewish families gathered on sand dunes outside Jaffa and drew lots using seashells to divide parcels of land — the city of Tel Aviv was born. Two decades later, Bauhaus-trained architects fleeing Nazi Germany arrived in this young city carrying the full manifesto of modernism. Under the Mediterranean sun, they erected over 4,000 white buildings, transforming the geometric principles taught in Dessau and Weimar classrooms into a living urban fabric. In 2003, this white architectural ensemble was inscribed as a UNESCO World Heritage Site.`,
+    designerBio_en: `The White City is not the work of a single architect but the collective creation of an entire generation of exiled designers. Arieh Sharon studied under Hannes Meyer at the Bauhaus and returned to Palestine in 1931. Zeev Rechter designed the Engel House — a residence raised on pilotis that became the International Style's manifesto in Tel Aviv. Dov Karmi's buildings line Rothschild Boulevard. Many of these architects had trained at the Bauhaus, in Le Corbusier's atelier, or alongside Erich Mendelsohn, bringing with them the complete modernist vocabulary: flat roofs, ribbon windows, free façades, and pilotis.
+
+But they were not simply copying Europe. The Mediterranean heat forced adaptations: balconies deepened for shade, windows shrank for insulation, ventilation corridors were carved between buildings. The result was a distinctive "Mediterranean Bauhaus" — faithful to modernism's functional logic yet deeply rooted in local climate.`,
+    story_en: `Tel Aviv in the 1930s was a blank canvas. British Mandate town planner Patrick Geddes had drawn up the city plan in 1925: wide tree-lined boulevards, neighborhood gardens, ventilation corridors running from the seafront inland. When young architects fleeing Germany, Austria, and Poland arrived, they found a dream laboratory — no historical burden, no restrictive building codes, just sand dunes and blueprints.
+
+In less than fifteen years, over 4,000 International Style buildings rose from the sand. Rothschild Boulevard is lined with the purest Bauhaus residences: white-plastered walls, interlocking geometric volumes, and the signature "thermometer" windows — vertical stairwell window strips that slice up the front façade like a thermometer. The curved building ensemble around Dizengoff Square forms the White City's most recognizable urban landscape.
+
+**After World War II, these buildings gradually aged and faded, facing the threat of mass demolition at one point.** In 1984, the Tel Aviv municipality launched a conservation program; in 2003, UNESCO inscribed the White City as a World Heritage Site, citing it as "an outstanding example of new town planning and architecture in the early 20th century." Walking along Rothschild Boulevard today, the restored white buildings glow softly in the Mediterranean sun, as though the Bauhaus ideals of ninety years ago have never faded.`,
+    legacy_en: `The White City of Tel Aviv is the world's densest concentration of International Style architecture — over 4,000 buildings packed into less than 4 square kilometers, surpassing Dessau, Weimar, and every other Bauhaus-associated city. It proved that modernist architecture is not merely a style but a transferable design methodology that can cross cultures and climates. The exiled architects' practice in a foreign land accidentally produced the most complete, largest-scale urban realization of the Bauhaus movement. Today, the White City stands as both a landmark case in architectural conservation and Tel Aviv's core cultural identity.`,
+    significance_en: `The White City's significance transcends architecture itself. It is one of the 20th century's most important cultural migration stories: when the Nazis shuttered the Bauhaus school, the flame of modernism did not die — it was carried to the eastern Mediterranean coast and reignited on sand dunes. These buildings are not just stylistic displays but physical evidence of a conviction — the belief that rationality, function, and simplicity can create a better human habitat. The 2003 World Heritage inscription made the world rediscover the value of preserving modernist architectural heritage.`,
   }
+
 
 
 

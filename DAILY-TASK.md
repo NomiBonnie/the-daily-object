@@ -162,7 +162,7 @@ export interface DesignObject {
 | `architecture` | 建筑 | 建筑作品、室内设计 |
 | `graphic` | 平面设计 | 海报、书籍、品牌、字体、Logo |
 | `art` | 艺术 | 绘画、雕塑、装置 |
-| `music` | 音乐 | 专辑封面、音乐人视觉、演出设计 |
+| `music` | 音乐 | 在音乐时空里真正有影响力的经典——古典里程碑（贝九、春之祭）、流行/摇滚经典专辑（Thriller、Sgt. Pepper's）、爵士/电子开创性作品（Kind of Blue、Kraftwerk）。展示专辑封面/乐谱/演出海报，讲音乐背后的故事与文化影响 |
 | `software` | 软件/UI | 经典界面、交互设计 |
 | `fashion` | 时尚设计 | 服装、配饰、珠宝、秀场设计 |
 | `film` | 电影/舞台设计 | 电影美术、布景、视觉特效、舞台设计 |
