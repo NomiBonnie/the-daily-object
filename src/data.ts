@@ -6337,9 +6337,44 @@ In less than fifteen years, over 4,000 International Style buildings rose from t
 **After World War II, these buildings gradually aged and faded, facing the threat of mass demolition at one point.** In 1984, the Tel Aviv municipality launched a conservation program; in 2003, UNESCO inscribed the White City as a World Heritage Site, citing it as "an outstanding example of new town planning and architecture in the early 20th century." Walking along Rothschild Boulevard today, the restored white buildings glow softly in the Mediterranean sun, as though the Bauhaus ideals of ninety years ago have never faded.`,
     legacy_en: `The White City of Tel Aviv is the world's densest concentration of International Style architecture — over 4,000 buildings packed into less than 4 square kilometers, surpassing Dessau, Weimar, and every other Bauhaus-associated city. It proved that modernist architecture is not merely a style but a transferable design methodology that can cross cultures and climates. The exiled architects' practice in a foreign land accidentally produced the most complete, largest-scale urban realization of the Bauhaus movement. Today, the White City stands as both a landmark case in architectural conservation and Tel Aviv's core cultural identity.`,
     significance_en: `The White City's significance transcends architecture itself. It is one of the 20th century's most important cultural migration stories: when the Nazis shuttered the Bauhaus school, the flame of modernism did not die — it was carried to the eastern Mediterranean coast and reignited on sand dunes. These buildings are not just stylistic displays but physical evidence of a conviction — the belief that rationality, function, and simplicity can create a better human habitat. The 2003 World Heritage inscription made the world rediscover the value of preserving modernist architectural heritage.`,
+  },
+  {
+    id: '102',
+    date: '2026-04-12',
+    imageUrl: '/the-daily-object/images/head-hunters.jpg',
+    fullImageUrl: '/the-daily-object/images/full/head-hunters.jpg',
+    title: 'Head Hunters',
+    title_en: 'Head Hunters',
+    subtitle: 'Victor Moscoso / Herbie Hancock, 1973',
+    subtitle_en: 'Victor Moscoso / Herbie Hancock, 1973',
+    category: 'music' as const,
+    designer: 'Victor Moscoso',
+    year: '1973',
+    tags: ['Jazz-Funk 开山之作', '迷幻视觉先驱', '非洲与科技的碰撞'],
+    tags_en: ['Jazz-Funk Pioneer', 'Psychedelic Visual Pioneer', 'Africa Meets Technology'],
+
+    dateConnection: `1940年4月12日，Herbie Hancock 出生于芝加哥。33年后，他发行了改变爵士乐走向的专辑《Head Hunters》——第一张销量突破百万的爵士唱片。`,
+    designerBio: `封面由旧金山迷幻海报运动的核心人物 Victor Moscoso 操刀。Moscoso 是少数受过正统学院训练的迷幻艺术家——他在耶鲁跟随 Josef Albers 学习色彩理论，然后把那些严谨的互补色理论拿来制造视觉震颤。60年代末他为 Avalon Ballroom 和 Family Dog 设计的演出海报，是迷幻平面设计的巅峰之作。
+
+到了 1973 年，Moscoso 已经从海报转向唱片封面设计。他与摄影师 Waldo Bascom 合作，为 Head Hunters 创造了这张音乐史上最具辨识度的封面之一。`,
+    story: `封面的核心图像是一个面具——原型来自科特迪瓦 Baoulé 族的 kple kple 仪式面具。但 Moscoso 做了一件天才的事：他把面具的眼睛换成了收音机旋钮，嘴巴变成了 VU 表（音频电平表）。传统与科技，非洲根源与电子未来，在一张脸上完成了融合。
+
+**这正是音乐本身在做的事。** Head Hunters 把非洲节奏、放克律动和爵士即兴编织在一起，开场曲 Chameleon 那个长达 15 分钟的律动，让爵士乐从音乐厅走进了街头。专辑发行后，爵士乐界炸了——纯粹主义者骂 Hancock 背叛了艺术，年轻听众却疯狂涌入。它成为了第一张销量过百万的爵士唱片。
+
+封面上的文字排列同样讲究："HEAD HUNTERS" 的字母沿弧线排布，使用了 Wedge Gothic 字体的变体，粗壮有力，和面具的原始力量感相呼应。整个画面的色调——棕色、赭色、黑色——让它看起来既像一件非洲文物，又像一块电路板。`,
+    legacy: `Head Hunters 不只是一张专辑——它重新定义了爵士乐的边界，催生了 Jazz-Funk 这个全新流派，并直接影响了后来的 Hip-Hop 采样文化（Chameleon 的 bassline 被采样无数次）。封面的"面具"意象成为了融合音乐的视觉符号。Moscoso 的设计证明了一件事：最好的唱片封面不是插图，是宣言——它用视觉语言说出了音乐想说的话。`,
+    significance: `在 1973 年的语境里，一个爵士音乐家戴上非洲面具、把旋钮当眼睛——这是一种文化立场的宣示。它说：爵士乐的未来不在模仿白人古典传统，而在回到非洲根源并拥抱电子技术。Victor Moscoso 用一张封面完成了这个宣言。今天回看，Head Hunters 的封面是 70 年代视觉文化的缩影：迷幻运动的余晖、Afrofuturism 的萌芽、以及平面设计从「装饰」走向「表态」的转折点。`,
+
+    dateConnection_en: `On April 12, 1940, Herbie Hancock was born in Chicago. Thirty-three years later, he released the album that changed the course of jazz — Head Hunters became the first jazz record to sell over one million copies.`,
+    designerBio_en: `The cover was designed by Victor Moscoso, a central figure of San Francisco's psychedelic poster movement. Moscoso was one of the few formally trained psychedelic artists — he studied color theory under Josef Albers at Yale, then weaponized those rigorous complementary color principles to create visual vibrations. His late-1960s concert posters for the Avalon Ballroom and Family Dog remain the pinnacle of psychedelic graphic design.
+
+By 1973, Moscoso had transitioned from posters to album cover design. Working with photographer Waldo Bascom, he created one of the most recognizable covers in music history for Head Hunters.`,
+    story_en: `The cover's central image is a mask — based on the kple kple ceremonial mask of the Baoulé people from Côte d'Ivoire. But Moscoso did something brilliant: he replaced the mask's eyes with radio dials and its mouth with a VU meter. Tradition and technology, African roots and electronic futures, fused in a single face.
+
+**This is exactly what the music was doing.** Head Hunters wove African rhythms, funk grooves, and jazz improvisation into a seamless whole. The opening track Chameleon, with its 15-minute groove, took jazz from concert halls to the streets. After release, the jazz world erupted — purists accused Hancock of betraying the art form, while young listeners flooded in. It became the first jazz album to sell over a million copies.
+
+The typography is equally deliberate: "HEAD HUNTERS" arcs across the top in a modified Wedge Gothic, bold and primal, echoing the mask's raw energy. The entire palette — browns, ochres, blacks — makes it look simultaneously like an African artifact and a circuit board.`,
+    legacy_en: `Head Hunters didn't just produce an album — it redefined the boundaries of jazz, birthed the Jazz-Funk genre, and directly influenced Hip-Hop sampling culture (Chameleon's bassline has been sampled countless times). The cover's mask imagery became a visual symbol for fusion music. Moscoso's design proved that the best album covers aren't illustrations — they're manifestos, saying visually what the music says sonically.`,
+    significance_en: `In the context of 1973, a jazz musician wearing an African mask with radio dials for eyes was a cultural statement. It declared: the future of jazz lies not in imitating Western classical traditions but in returning to African roots while embracing electronic technology. Victor Moscoso delivered that manifesto in a single cover. Looking back today, the Head Hunters cover encapsulates 1970s visual culture: the afterglow of psychedelia, the emergence of Afrofuturism, and the turning point when graphic design moved from decoration to declaration.`,
   }
-
-
-
-
 ]
