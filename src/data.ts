@@ -6376,5 +6376,27 @@ By 1973, Moscoso had transitioned from posters to album cover design. Working wi
 The typography is equally deliberate: "HEAD HUNTERS" arcs across the top in a modified Wedge Gothic, bold and primal, echoing the mask's raw energy. The entire palette — browns, ochres, blacks — makes it look simultaneously like an African artifact and a circuit board.`,
     legacy_en: `Head Hunters didn't just produce an album — it redefined the boundaries of jazz, birthed the Jazz-Funk genre, and directly influenced Hip-Hop sampling culture (Chameleon's bassline has been sampled countless times). The cover's mask imagery became a visual symbol for fusion music. Moscoso's design proved that the best album covers aren't illustrations — they're manifestos, saying visually what the music says sonically.`,
     significance_en: `In the context of 1973, a jazz musician wearing an African mask with radio dials for eyes was a cultural statement. It declared: the future of jazz lies not in imitating Western classical traditions but in returning to African roots while embracing electronic technology. Victor Moscoso delivered that manifesto in a single cover. Looking back today, the Head Hunters cover encapsulates 1970s visual culture: the afterglow of psychedelia, the emergence of Afrofuturism, and the turning point when graphic design moved from decoration to declaration.`,
+  },
+  {
+    date: '2026-04-13',
+    imageUrl: '/the-daily-object/images/mary-quant-miniskirt.jpg',
+    fullImageUrl: '/the-daily-object/images/full/mary-quant-miniskirt.jpg',
+    title: 'Miniskirt',
+    title_en: 'Miniskirt',
+    subtitle: 'Mary Quant, 1964–1966',
+    subtitle_en: 'Mary Quant, 1964–1966',
+    category: 'fashion' as const,
+    designer: 'Mary Quant',
+    year: '1966',
+    tags: ['60年代时尚革命', '女性解放符号', '街头文化登堂入室'],
+    tags_en: ['60s Fashion Revolution', 'Symbol of Female Liberation', 'Street Culture Goes Mainstream'],
+
+    dateConnection: `2023年4月13日，Mary Quant 在萨里的家中安详离世，享年93岁。她用一条裙子改变了整个时代——迷你裙不只是短了几英寸的面料，它是战后一代年轻女性夺回自己身体主权的宣言。`,
+    designerBio: `Mary Quant 1930 年生于伦敦 Blackheath，在 Goldsmiths 学院学了艺术教育，但她无意当老师。1955年，25岁的她和丈夫 Alexander Plunket Greene 在切尔西国王路开了一家小店叫 Bazaar，开始卖自己设计的衣服。\n\n当时伦敦时尚被巴黎高定垄断，年轻女孩穿得和妈妈一样。Quant 觉得这荒唐透顶。她把裙子剪短到膝盖以上，用鲜艳的色块和几何图案做面料，定价让普通女孩买得起。Bazaar 很快变成了切尔西青年文化的地标——门口排长队，橱窗成为街景的一部分。`,
+    story: `迷你裙的诞生不是某个灵感迸发的瞬间，而是一场街头和设计师之间的共谋。50年代末，伦敦年轻女孩已经开始偷偷把裙摆往上卷，好让跳摇滚舞时腿脚利落。Quant 看到了这个信号，然后把它变成了正式设计。\n\n1964年，她推出了膝上裙系列。1966年，裙摆升到大腿中部——搭配她同时推出的彩色连裤袜和 PVC 雨衣，一整套年轻、便宜、大胆的穿着系统成型了。同年她受邀为 J.C. Penney 设计美国市场系列，迷你裙从伦敦席卷全球。\n\n**重要的不是短了多少厘米。** 迷你裙打破的是整个时尚产业的权力结构——以前是巴黎高定屋自上而下地规定女人该穿什么，Quant 证明了风格可以从街头自下而上地生长。她让时尚民主化了。模特 Twiggy 穿着 Quant 的迷你裙登上全球杂志封面，成为60年代最具辨识度的视觉符号。`,
+    legacy: `迷你裙之后，时尚产业再也回不去了。年轻人不再模仿上流社会的穿着，"青年文化"成为一个独立的商业和美学范畴。Quant 还是最早做品牌授权的设计师之一——她的雏菊 logo 出现在化妆品、家居用品甚至内衣上，开创了"生活方式品牌"的模式，比 Ralph Lauren 和 Calvin Klein 早了整整十年。\n\nV&A 博物馆 2019 年为她做了大型回顾展，向公众征集了超过 1000 件 Quant 设计的衣物。这说明了一件事：半个世纪过去，那些裙子还被好好保存着——不是作为古董，而是作为回忆的一部分。`,
+    significance: `放在1966年的语境下，一条短裙是一份政治声明。它说的是：我的身体我做主，我的青春不需要巴黎老男人来定义。Mary Quant 抓住了战后婴儿潮一代的渴望——自由、平价、不装——然后用剪刀和缝纫机把它变成了现实。\n\n今天回看，迷你裙是整个60年代文化革命的缩影：避孕药、摇滚乐、反越战运动、青年反叛——所有这些在一条裙子上汇聚。它提醒我们：最好的设计从来不是发明出来的，而是从街头长出来的，设计师只是第一个低头看到它的人。`,
+    legacy_en: `After the miniskirt, the fashion industry could never go back. Young people stopped mimicking upper-class dress codes, and "youth culture" became an independent commercial and aesthetic category. Quant was also one of the first designers to pursue brand licensing — her daisy logo appeared on cosmetics, homeware, and even underwear, pioneering the "lifestyle brand" model a full decade before Ralph Lauren and Calvin Klein.\n\nThe V&A mounted a major retrospective in 2019, collecting over 1,000 Quant-designed garments from the public. The fact that those dresses were still being carefully preserved — not as antiques, but as pieces of personal memory — says everything about her lasting impact.`,
+    significance_en: `In the context of 1966, a short skirt was a political statement. It declared: my body, my rules — my youth doesn't need Parisian old men to define it. Mary Quant captured what the postwar baby boom generation craved — freedom, affordability, authenticity — and turned it into reality with scissors and a sewing machine.\n\nLooking back today, the miniskirt encapsulates the entire cultural revolution of the 1960s: the Pill, rock and roll, anti-Vietnam protests, youth rebellion — all converging on a single garment. It reminds us that the best design is never invented from nothing; it grows from the street, and the designer is simply the first person to look down and see it.`,
   }
 ]
