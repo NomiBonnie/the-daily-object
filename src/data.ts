@@ -6400,6 +6400,74 @@ The typography is equally deliberate: "HEAD HUNTERS" arcs across the top in a mo
     significance_en: `In the context of 1966, a short skirt was a political statement. It declared: my body, my rules — my youth doesn't need Parisian old men to define it. Mary Quant captured what the postwar baby boom generation craved — freedom, affordability, authenticity — and turned it into reality with scissors and a sewing machine.\n\nLooking back today, the miniskirt encapsulates the entire cultural revolution of the 1960s: the Pill, rock and roll, anti-Vietnam protests, youth rebellion — all converging on a single garment. It reminds us that the best design is never invented from nothing; it grows from the street, and the designer is simply the first person to look down and see it.`,
   },
   {
+    id: '134',
+    date: '2026-04-15',
+    imageUrl: '/the-daily-object/images/vitruvian-man.jpg',
+    fullImageUrl: '/the-daily-object/images/full/vitruvian-man.jpg',
+    title: '维特鲁威人',
+    title_en: 'Vitruvian Man',
+    subtitle: '列奥纳多·达·芬奇, c.1490',
+    subtitle_en: 'Leonardo da Vinci, c.1490',
+    category: 'art',
+    designer: '列奥纳多·达·芬奇',
+    year: 'c.1490',
+    tags: ['比例理论的源头', '人体即宇宙', '设计思维原型'],
+    tags_en: ['Origin of Proportion Theory', 'Body as Universe', 'Prototype of Design Thinking'],
+
+    dateConnection: `1452年4月15日，列奥纳多·达·芬奇出生于意大利托斯卡纳的芬奇镇。联合国教科文组织将这一天定为"世界艺术日"，纪念这位人类历史上最全面的创造者。约1490年，达芬奇画下了这幅改变人类理解自身比例方式的素描——维特鲁威人。`,
+    designerBio: `列奥纳多·达·芬奇（1452–1519）是一个农家女的私生子，在芬奇镇长大。14岁进入佛罗伦萨的韦罗基奥工作室当学徒，学绘画、雕塑、工程。
+
+他留下了7200多页手稿，涵盖解剖学、光学、水力学、飞行器、城市规划、武器设计。他左手书写，字迹需要镜子才能读。完成的画作不超过20幅，但每一幅都改变了绘画的可能性。
+
+达芬奇不属于任何一个领域。他同时是画家、工程师、解剖学家、建筑师、音乐家、数学家。"文艺复兴人"这个词就是为他发明的——一个人可以在多个领域同时达到最高水平。`,
+    story: `约1490年，达芬奇在米兰读到了古罗马建筑师维特鲁威的《建筑十书》。维特鲁威在书中写道：人体是建筑比例的源头——一个伸展四肢的人可以同时被嵌入正方形和圆形之中。
+
+在达芬奇之前，至少有十几位文艺复兴时期的画家和建筑师尝试过画出这个构想，但没有人成功解决一个根本问题：**正方形和圆形的中心不在同一个点上。** 如果把两者的中心对齐，人体比例就会变形。
+
+达芬奇的天才解法：他让正方形以脚底为基线，圆形的中心则位于肚脐。人体在两种姿态之间微妙切换——站立时嵌入方形，张开时嵌入圆形。一幅画里包含两个动作、两个几何体、一个完美的人。
+
+这不只是一道几何题的答案。达芬奇在画的上下方用镜像文字写满了精确的比例标注：脚底到膝盖=身高的1/4，肩宽=身高的1/4，从发际线到下巴=身高的1/10。他用解剖学验证了古典理论，又用数学证明了身体的和谐。
+
+**维特鲁威人真正说的是：人体本身就是一个设计系统。** 它的比例不是随机的，而是遵循可以被发现、测量、转化为建筑和设计原则的内在秩序。`,
+    legacy: `• 直接启发了勒·柯布西耶的"模度"（Modulor）人体比例系统，影响了整个现代建筑的尺度标准
+• 成为人体工程学的思想源头——从办公椅到手机屏幕尺寸，"以人为中心的设计"始于这张素描
+• Apple 的人机界面设计指南、Material Design 的触控区域规范，都是维特鲁威思想的当代回声
+• 意大利1欧元硬币的正面图案，全球流通量最大的设计作品之一
+• 现藏于威尼斯学院美术馆，因纸张极度脆弱，每年仅公开展示数周`,
+    significance: `维特鲁威人不是一幅画——它是一个宣言。
+
+在达芬奇的时代，建筑比例来自神学（教堂的十字平面象征基督的身体），人体服从于神圣几何。达芬奇翻转了这个等式：**不是上帝定义了比例，而是人体本身就包含宇宙的秩序。** 圆形（天）和方形（地），同时存在于一个站立的人身上。
+
+这是文艺复兴最核心的宣言——人是万物的尺度。而对于设计而言，这张素描定义了一个至今未被超越的原则：**最好的设计不是强加一个外部标准，而是发现事物本身的内在秩序。**`,
+
+    dateConnection_en: `On April 15, 1452, Leonardo da Vinci was born in the Tuscan town of Vinci. UNESCO designated this day as "World Art Day" to honor the most complete creative mind in human history. Around 1490, Leonardo drew this sketch that would forever change how humanity understands its own proportions — the Vitruvian Man.`,
+    designerBio_en: `Leonardo da Vinci (1452–1519) was the illegitimate son of a peasant woman, raised in the town of Vinci. At 14, he entered Andrea del Verrocchio's workshop in Florence as an apprentice, studying painting, sculpture, and engineering.
+
+He left over 7,200 pages of manuscripts covering anatomy, optics, hydraulics, flying machines, urban planning, and weapon design. He wrote left-handed in mirror script. He completed fewer than 20 paintings, yet each one redefined the possibilities of the medium.
+
+Leonardo belonged to no single discipline. He was simultaneously painter, engineer, anatomist, architect, musician, and mathematician. The term "Renaissance man" was coined for him — proof that one person could reach the highest level in multiple fields at once.`,
+    story_en: `Around 1490, while in Milan, Leonardo read the ancient Roman architect Vitruvius's *De Architectura*. Vitruvius had written that the human body was the source of architectural proportion — a man with arms and legs extended could be inscribed simultaneously within both a square and a circle.
+
+Before Leonardo, at least a dozen Renaissance painters and architects had attempted to draw this vision. None solved the fundamental problem: **the centers of the square and the circle don't coincide.** Aligning them distorted the human proportions.
+
+Leonardo's genius solution: he placed the square's base at the feet and the circle's center at the navel. The body subtly shifts between two poses — standing upright within the square, spread-eagled within the circle. One drawing contains two movements, two geometries, one perfect human.
+
+But this was more than the answer to a geometry problem. Leonardo covered the margins above and below with mirror-script annotations of precise measurements: soles to knees = 1/4 of height, shoulder width = 1/4 of height, hairline to chin = 1/10 of height. He verified classical theory with anatomical observation, then proved the body's harmony with mathematics.
+
+**What the Vitruvian Man truly declares is that the human body is itself a design system.** Its proportions are not random but follow an intrinsic order that can be discovered, measured, and translated into principles of architecture and design.`,
+    legacy_en: `• Directly inspired Le Corbusier's Modulor proportional system, influencing the dimensional standards of all modern architecture
+• Became the intellectual origin of ergonomics — from office chairs to smartphone screen sizes, "human-centered design" began with this sketch
+• Apple's Human Interface Guidelines and Google's Material Design touch-target specs are contemporary echoes of Vitruvian thinking
+• Featured on the Italian €1 coin — one of the most widely circulated design works on Earth
+• Housed at the Gallerie dell'Accademia in Venice; due to the paper's extreme fragility, it is publicly displayed only a few weeks each year`,
+    significance_en: `The Vitruvian Man is not a drawing — it is a manifesto.
+
+In Leonardo's era, architectural proportion derived from theology (the cruciform church plan symbolized Christ's body), and the human form served divine geometry. Leonardo inverted this equation: **God did not define proportion; the human body itself contains the order of the universe.** The circle (heaven) and the square (earth) coexist within a single standing figure.
+
+This is the Renaissance's most essential declaration — man is the measure of all things. And for design, this sketch established a principle that remains unsurpassed: **the best design does not impose an external standard but discovers the intrinsic order within things themselves.**`,
+  },
+
+  {
     id: '133',
     date: '2026-04-14',
     imageUrl: '/the-daily-object/images/aeg-electric-kettle.jpg',
