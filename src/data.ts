@@ -6522,7 +6522,7 @@ This wasn't decoration — it was systems design. In an era when craft tradition
 
 The kettle itself may not be dazzling — its beauty is restrained, structural, rational. But it was precisely this courage to forgo ornament that defined the foundation of modern industrial design. Whenever you see a brand's product line maintaining a unified design language today, you're looking at Behrens's legacy.`,
   },
-]
+
   {
     id: '134',
     date: '2026-04-16',
