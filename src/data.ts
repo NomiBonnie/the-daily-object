@@ -6523,3 +6523,69 @@ This wasn't decoration — it was systems design. In an era when craft tradition
 The kettle itself may not be dazzling — its beauty is restrained, structural, rational. But it was precisely this courage to forgo ornament that defined the foundation of modern industrial design. Whenever you see a brand's product line maintaining a unified design language today, you're looking at Behrens's legacy.`,
   },
 ]
+  {
+    id: '134',
+    date: '2026-04-16',
+    imageUrl: '/the-daily-object/images/thumbs/kaufmann-desert-house.jpg',
+    fullImageUrl: '/the-daily-object/images/full/kaufmann-desert-house.jpg',
+    title: 'Kaufmann Desert House',
+    title_en: 'Kaufmann Desert House',
+    subtitle: 'Richard Neutra, 1946',
+    subtitle_en: 'Richard Neutra, 1946',
+    category: 'architecture',
+    designer: 'Richard Neutra',
+    year: '1946',
+    tags: ['沙漠现代主义', '摄影建筑经典', '室内外融合'],
+    tags_en: ['Desert Modernism', 'Architectural Photography Icon', 'Indoor-Outdoor Living'],
+
+    dateConnection: `1970年4月16日，建筑师 Richard Neutra 在德国逝世，享年78岁。他留下的最著名作品之一——Kaufmann Desert House（1946）——不仅是沙漠现代主义的巅峰，也是二十世纪被拍摄最多的建筑之一。摄影师 Julius Shulman 的镜头让这栋房子成为"加州梦"的视觉代名词。`,
+    designerBio: `Richard Neutra 1892年生于维也纳，在Adolf Loos门下学习建筑。1923年移居美国后，他先在芝加哥跟随Louis Sullivan工作，后来搬到洛杉矶，与Rudolph Schindler合租工作室。两位欧洲来的现代主义建筑师在南加州的阳光下找到了理想的实验场——这里的气候、地形和新兴的好莱坞文化，为他们提供了旧世界建筑师无法想象的自由。
+
+Neutra 的建筑哲学可以用一个词概括：**Biorealism（生物现实主义）**。他相信建筑必须回应人类的生理和心理需求——通风、采光、视野、动线，一切都要服从人的舒适感。他阅读神经科学和心理学文献，把建筑当作"改善人类神经系统的工具"。这种科学理性的态度，让他的作品既有欧洲现代主义的纯粹几何，又有美国式的实用主义。
+
+他最重要的客户是 Edgar J. Kaufmann，这位匹兹堡百货公司大亨曾委托 Frank Lloyd Wright 设计了著名的流水别墅（Fallingwater, 1935）。十年后，Kaufmann 又找到 Neutra，要求在加州 Palm Springs 设计一座冬季度假屋。`,
+    story: `Kaufmann Desert House 坐落在 Palm Springs 的圣哈辛托山（San Jacinto Mountains）脚下，四周是荒芜的沙漠景观。Neutra 的设计策略是**让建筑消失在风景中，同时又完全框定风景**。
+
+房子是一个扁平的十字形平面，四个翼伸向不同方向——卧室翼、起居翼、客房翼、服务翼。所有空间都围绕一个中央庭院展开，庭院里有一个悬臂式的圆形泳池，像一面镜子倒映着远山。房子的每一面都是落地玻璃墙，视线可以穿透整个建筑，从一侧的沙漠看到另一侧的山峰。
+
+**材料语言极其克制**：白色石膏墙面、钢柱、玻璃幕墙、石板地面。唯一的装饰是自然本身——阳光在石板上投下的阴影、风吹过棕榈叶的声音、远处山脉的轮廓。Neutra 设计了可调节的铝制遮阳板（aluminum louvers），根据太阳角度控制室内光线，既遮挡炎热的午后阳光,又保留清晨的柔和光线。
+
+**这是室内外生活的完美实验。** 在1946年的美国，这种"把沙漠请进起居室"的设计是激进的。但 Neutra 证明了现代建筑不是排斥自然，而是重新定义人与自然的关系——不是征服,而是共生。`,
+    legacy: `• 被建筑史学家 Esther McCoy 称为"美国最优雅的现代住宅"
+• Julius Shulman 1947年拍摄的黑白照片成为建筑摄影史上最著名的作品之一——泳池、玻璃墙、远山的构图被无数次模仿
+• 定义了"Palm Springs 沙漠现代主义"（Desert Modernism）风格——今天 Palm Springs 仍是全球最大的现代主义建筑保护区
+• 影响了后来的加州Case Study Houses项目（Pierre Koenig、Richard Neutra等人的实验住宅）
+• 2008年被列入美国国家史迹名录（National Register of Historic Places）
+• 室内外无缝衔接的设计理念成为当代豪宅的标配——从 John Lautner 到 Tadao Ando 都在延续这条线索`,
+    significance: `Kaufmann Desert House 的意义不在于它有多大或多豪华——它只是一栋单层度假屋。它的意义在于**它重新定义了"住在沙漠里"的方式**。
+
+在 Neutra 之前，沙漠建筑要么模仿西班牙殖民地风格（厚墙、小窗、封闭庭院），要么干脆无视气候（硬装空调）。Neutra 的方案是第三种路径：**用现代技术（玻璃、钢铁、通风系统）去拥抱极端环境，而不是对抗它。**
+
+这栋房子也是建筑摄影的分水岭。Julius Shulman 的照片不只是"记录建筑"，而是把建筑变成一种生活方式的视觉宣言。照片里的 Kaufmann Desert House 永远是黄昏时分、泳池波光粼粼、远山沐浴在金色光线中——这不是建筑，这是梦境。而这个梦境塑造了全世界对"加州式生活"的想象。`,
+
+    dateConnection_en: `On April 16, 1970, architect Richard Neutra passed away in Germany at age 78. One of his most famous works — the Kaufmann Desert House (1946) — remains not only the pinnacle of Desert Modernism but also one of the most photographed buildings of the twentieth century. Photographer Julius Shulman's lens turned this house into the visual embodiment of the "California Dream."`,
+    designerBio_en: `Richard Neutra was born in Vienna in 1892 and studied architecture under Adolf Loos. After immigrating to the United States in 1923, he first worked with Louis Sullivan in Chicago, then moved to Los Angeles, sharing a studio with Rudolph Schindler. Two European Modernist architects found their ideal laboratory under Southern California's sun — the climate, topography, and emerging Hollywood culture offered freedoms unimaginable to Old World architects.
+
+Neutra's architectural philosophy can be summed up in one term: **Biorealism**. He believed architecture must respond to human physiological and psychological needs — ventilation, light, views, circulation, everything serving human comfort. He read neuroscience and psychology literature, treating architecture as "a tool for improving the human nervous system." This scientifically rational approach gave his work both the pure geometry of European Modernism and American pragmatism.
+
+His most important client was Edgar J. Kaufmann, the Pittsburgh department store magnate who had commissioned Frank Lloyd Wright to design the famous Fallingwater (1935). A decade later, Kaufmann approached Neutra to design a winter retreat in Palm Springs, California.`,
+    story_en: `The Kaufmann Desert House sits at the foot of the San Jacinto Mountains in Palm Springs, surrounded by barren desert landscape. Neutra's design strategy was to **make the architecture disappear into the landscape while simultaneously framing it entirely**.
+
+The house is a flat cruciform plan with four wings extending in different directions — bedroom wing, living wing, guest wing, service wing. All spaces revolve around a central courtyard with a cantilevered circular pool that mirrors the distant mountains like a liquid mirror. Every facade is floor-to-ceiling glass; sightlines pierce through the entire building, from desert on one side to mountain peaks on the other.
+
+**The material palette is extremely restrained**: white stucco walls, steel columns, glass curtain walls, flagstone floors. The only decoration is nature itself — sunlight casting shadows on stone, wind rustling through palm fronds, the silhouette of distant peaks. Neutra designed adjustable aluminum louvers to control interior light based on sun angle, blocking harsh afternoon heat while preserving soft morning glow.
+
+**This is the perfect experiment in indoor-outdoor living.** In 1946 America, this "invite the desert into your living room" approach was radical. But Neutra proved that modern architecture doesn't reject nature — it redefines the relationship between human and environment. Not conquest, but symbiosis.`,
+    legacy_en: `• Called "the most elegant modern residence in America" by architectural historian Esther McCoy
+• Julius Shulman's 1947 black-and-white photographs became some of the most iconic images in architectural photography history — the composition of pool, glass walls, and distant mountains has been imitated countless times
+• Defined the "Palm Springs Desert Modernism" style — today Palm Springs remains the world's largest modernist architecture preservation district
+• Influenced the later California Case Study Houses program (experimental homes by Pierre Koenig, Richard Neutra, and others)
+• Listed on the U.S. National Register of Historic Places in 2008
+• The seamless indoor-outdoor design concept became standard for contemporary luxury homes — from John Lautner to Tadao Ando, all continue this lineage`,
+    significance_en: `The significance of the Kaufmann Desert House isn't its size or luxury — it's just a single-story vacation home. Its significance lies in **redefining how to "live in the desert."**
+
+Before Neutra, desert architecture either imitated Spanish Colonial style (thick walls, small windows, enclosed courtyards) or simply ignored climate (forcing air conditioning). Neutra's solution was a third path: **use modern technology (glass, steel, ventilation systems) to embrace extreme environments rather than fight them.**
+
+This house also marks a watershed in architectural photography. Julius Shulman's images don't just "document architecture" — they transform architecture into a visual manifesto of a lifestyle. The Kaufmann Desert House in his photos is always at dusk, pool shimmering, distant mountains bathed in golden light — this isn't architecture, it's a dream. And this dream shaped the world's imagination of "California living."`,
+  },
+]
