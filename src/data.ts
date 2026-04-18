@@ -1,5 +1,5 @@
   {
-    id = '136',
+    id: '136',
     date: '2026-04-18',
     imageUrl: '/the-daily-object/images/dark-side-of-the-moon.jpg',
     fullImageUrl: '/the-daily-object/images/full/dark-side-of-the-moon.jpg',
