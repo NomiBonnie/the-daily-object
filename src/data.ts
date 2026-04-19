@@ -1,6 +1,6 @@
   {
-    id: '136',
-    date: '2026-04-18',
+    id: "136",
+    date: "2026-04-18",
     imageUrl: '/the-daily-object/images/dark-side-of-the-moon.jpg',
     fullImageUrl: '/the-daily-object/images/full/dark-side-of-the-moon.jpg',
     title: 'The Dark Side of the Moon',
@@ -29,8 +29,8 @@
 设计师去世后，这封面被重新记忆和传颂，成为21世纪所有设计媒介中最好的如无声般落幕者。`
   },
   {
-    id: '137',
-    date: '2026-04-19',
+    id: "137",
+    date: "2026-04-19",
     imageUrl: '/the-daily-object/images/tate-modern-exterior.jpg',
     fullImageUrl: '/the-daily-object/images/full/tate-modern-exterior.jpg',
     title: 'Tate Modern',
