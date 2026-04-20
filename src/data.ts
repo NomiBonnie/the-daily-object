@@ -3213,7 +3213,7 @@ The hippie generation discovered this vehicle was naturally suited to their life
 • 白色作为时尚主色调的使用，直接影响了后来从 Helmut Lang 到 Jil Sander 的极简主义浪潮
 • 2021年 Nicolas Di Felice 接掌 Courrèges 品牌创意总监，品牌重新焕发活力
 • 他的"建筑式裁剪"理念深刻影响了 Rei Kawakubo、Hussein Chalayan 等后来的解构主义设计师`,
-    significance: `Courrèges 的 Moon Girl 系列证明了时尚可以是一种时代精神的物质化表达。1960年代的核心情绪是：打破旧世界、拥抱未来、相信科技能解放人类。Courrèges 用白色、几何线条和功能性面料把这种集体情绪变成了可以穿在身上的东西。他不是在设计衣服——他是在设计一种关于"未来女性应该是什么样子"的提案。这比任何面料创新或剪裁技巧都重要：伟大的时装设计首先是一个关于"人应该如何存在"的立场声明。',
+    significance: `Courrèges 的 Moon Girl 系列证明了时尚可以是一种时代精神的物质化表达。1960年代的核心情绪是：打破旧世界、拥抱未来、相信科技能解放人类。Courrèges 用白色、几何线条和功能性面料把这种集体情绪变成了可以穿在身上的东西。他不是在设计衣服——他是在设计一种关于"未来女性应该是什么样子"的提案。这比任何面料创新或剪裁技巧都重要：伟大的时装设计首先是一个关于"人应该如何存在"的立场声明。`,
     dateConnection_en: `March 9, 1923 - André Courrèges was born in Pau, a small city in the Basque region of southwestern France. This designer, trained as a civil engineer, used an architect's geometric thinking and an engineer's precision tailoring to ignite fashion's "Space Revolution" in 1964 - ending Dior's seventeen-year reign over the female silhouette.`,
     designerBio_en: `André Courrèges (1923-2016) was a French fashion designer and the creator of "Space Age Fashion." He initially studied civil engineering in Pau - an experience that deeply shaped his design language: geometric, precise, structure above all.
 
@@ -3959,7 +3959,7 @@ During the pandemic, this game took on social functions far beyond gaming itself
 • 证明了"去文字化"品牌标识在数字时代的可行性——小尺寸 favicon 和 app 图标时代的必然选择
 • 2023年 Elon Musk 将 Twitter 更名为 X 并替换蓝鸟 logo，引发全球范围的文化哀悼，反证了这只鸟的情感份量
 • Simon Oxley 那张15美元插画的故事成为设计界关于"价值与定价脱节"的经典案例`,
-    significance: `Twitter 蓝鸟的演变史是一部浓缩的品牌设计教科书。它告诉我们三件事：第一，伟大的品牌符号不一定从伟大的起点出发——15美元的库存图片也能长成文化图腾；第二，"少即是多"在数字时代获得了新的紧迫性——当你的 logo 要在16×16像素的 favicon 中存活，每一笔都是奢侈品；第三，一个品牌符号的真正力量不在于设计本身的精美程度，而在于它与数十亿用户共享记忆的深度。2023年蓝鸟被替换时全球用户的情感反应，是对这只鸟最有力的设计评价。',
+    significance: `Twitter 蓝鸟的演变史是一部浓缩的品牌设计教科书。它告诉我们三件事：第一，伟大的品牌符号不一定从伟大的起点出发——15美元的库存图片也能长成文化图腾；第二，"少即是多"在数字时代获得了新的紧迫性——当你的 logo 要在16×16像素的 favicon 中存活，每一笔都是奢侈品；第三，一个品牌符号的真正力量不在于设计本身的精美程度，而在于它与数十亿用户共享记忆的深度。2023年蓝鸟被替换时全球用户的情感反应，是对这只鸟最有力的设计评价。`,
     dateConnection_en: `March 21, 2006 - Jack Dorsey sent Twitter's first-ever tweet: "just setting up my twttr." This date marks the birth of an entirely new communication platform, and the little blue bird that grew alongside it evolved from a $15 stock illustration into one of the 21st century's most recognizable brand symbols.`,
     designerBio_en: `The Twitter bird was not born from a single design master's hand but emerged through a collective creative history spanning six years and three metamorphoses.
 
@@ -4022,7 +4022,7 @@ The 2012 bird's construction was precise to the point of obsession: the entire s
 • 直接推动了高端瓶装水市场的"设计军备竞赛"——Voss、S.Pellegrino 等品牌纷纷投入瓶身设计
 • Lovegrove 因此被《Time》杂志评为"21世纪最具影响力的设计师之一"
 • 成为设计院校"日用品再设计"课题中最常被引用的案例`,
-    significance: `Ty Nant 水瓶回答了一个工业设计的根本问题：设计的尊严是否有品类门槛？Lovegrove 的答案是没有。一只水瓶和一辆汽车、一座建筑在设计层面享有同等的尊严——因为它们都是人与物质世界交互的界面。他用生物形态学的语言重新书写了"容器"这个最古老的人造物类型，证明了当设计师真正尊重材料的物理特性和内容物的本质属性时，即使是最卑微的日用品也能抵达艺术的边界。这不是"把日用品变成奢侈品"，而是"让日用品回到它本应有的尊严"。',
+    significance: `Ty Nant 水瓶回答了一个工业设计的根本问题：设计的尊严是否有品类门槛？Lovegrove 的答案是没有。一只水瓶和一辆汽车、一座建筑在设计层面享有同等的尊严——因为它们都是人与物质世界交互的界面。他用生物形态学的语言重新书写了"容器"这个最古老的人造物类型，证明了当设计师真正尊重材料的物理特性和内容物的本质属性时，即使是最卑微的日用品也能抵达艺术的边界。这不是"把日用品变成奢侈品"，而是"让日用品回到它本应有的尊严"。`,
     dateConnection_en: `March 22, 1958 (some sources say July - the date is disputed) - Ross Lovegrove was born in Cardiff, Wales. This self-proclaimed "Captain Organic" used biomorphic principles to overturn industrial design's geometric tradition - and a water bottle designed for Welsh spring water brand Ty Nant became the purest manifesto of his "organic essentialism."`,
     designerBio_en: `Ross Lovegrove (1958- ) is a Welsh industrial designer and the most important contemporary figure in the "Organic Design" movement. He graduated from Manchester Polytechnic and the Royal College of Art (RCA) in London, and early in his career worked at Frog Design, contributing to early Sony Walkman designs.
 
