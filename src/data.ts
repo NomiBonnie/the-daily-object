@@ -4826,33 +4826,21 @@ After Thorgerson's death in 2013, Roger Waters wrote: "Storm set the standard fo
     year: '2000',
     tags: ["工业遗产改造的全球范本","每年600万人的艺术朝圣地","让发电厂变成大教堂"],
     tags_en: ["Global Paradigm for Industrial Reuse","6 Million Annual Visitors","Turning a Power Station into a Cathedral"],
-    dateConnection: `1950年4月19日,Jacques Herzog 出生于瑞士巴塞尔。同年同城出生的还有他未来的终身合伙人 Pierre de Meuron。两个在同一条街上长大的男孩,后来创建了 Herzog & de Meuron(HdM),21世纪最具影响力的建筑事务所之一。他们最广为人知的作品,是将伦敦泰晤士河南岸一座废弃了近20年的 Bankside 发电厂,改造成了全世界参观人数最多的现代艺术博物馆。这个项目的成功不仅让 HdM 从一个瑞士地区性事务所一跃成为全球顶级建筑实践,也从根本上改变了全世界对"旧建筑"的态度:废墟不是等待被拆除的垃圾,而是等待被重新理解的资产。`,
+    dateConnection: `1950年4月19日,Jacques Herzog 出生于瑞士巴塞尔,同年同城出生的还有未来的终身合伙人 Pierre de Meuron。他们创建的 HdM 将伦敦一座废弃发电厂改造成了全球参观人数最多的现代艺术博物馆,从根本上改变了世界对"旧建筑"的态度。`,
     dateConnection_en: `On April 19, 1950, Jacques Herzog was born in Basel, Switzerland. Born the same year in the same city was his future lifelong partner Pierre de Meuron. Two boys who grew up on the same street went on to found Herzog & de Meuron - one of the 21st century's most influential architecture firms. Their best-known work transformed a power station on London's South Bank, derelict for nearly two decades, into the world's most visited museum of modern art.`,
-    designerBio: `Jacques Herzog 和 Pierre de Meuron 1950年同年出生于瑞士巴塞尔,在同一所学校从小学读到大学。1978年,两人在巴塞尔创立了 Herzog & de Meuron(HdM),开始了一段持续至今超过四十年的合作--建筑史上最长久、最成功的合伙关系之一。
+    designerBio: `Jacques Herzog 和 Pierre de Meuron 1950年同年出生于巴塞尔,1978年创立 HdM——建筑史上最长久的合伙关系之一。早期作品以材料敏感性著称:不追求标志性形态,而是让材料本身成为建筑主角。
 
-HdM 的早期作品以极端的材料敏感性著称。他们不追求标志性的形态语言(不像 Gehry 的曲面或 Hadid 的流线),而是让每个项目的材料本身成为建筑的主角。巴塞尔的 Ricola 仓库(1987)用预制混凝土板的重复排列创造出近乎催眠的节奏感;慕尼黑 Goetz 画廊(1992)的磨砂玻璃和桦木胶合板让建筑在不同光线下呈现完全不同的性格。
-
-2001年,他们获得了普利兹克建筑奖--评委会称赞他们"将建筑的智识严谨与感官愉悦结合得天衣无缝"。此后的作品更加多元:北京国家体育场"鸟巢"(2008)、汉堡易北爱乐音乐厅(2017)、香港 M+ 博物馆(2021)......但 Tate Modern 始终是他们最具影响力的作品--不是因为它最壮观,而是因为它改变了全世界对建筑改造的理解。`,
+2001年获普利兹克奖,此后作品更加多元:北京鸟巢(2008)、汉堡易北爱乐(2017)、香港 M+(2021)。但 Tate Modern 始终是最具影响力的作品——不因为最壮观,而因为它改变了全世界对建筑改造的理解。`,
     designerBio_en: `Jacques Herzog and Pierre de Meuron were both born in 1950 in Basel, Switzerland, attending the same school from primary through university. In 1978 they founded Herzog & de Meuron (HdM) in Basel, beginning a partnership now spanning over four decades - one of architecture's longest and most successful collaborations.
 
 HdM's early work was defined by extreme material sensitivity. Rather than pursuing a signature formal language (unlike Gehry's curves or Hadid's streamlines), they let each project's materials become the building's protagonist. The Ricola Warehouse in Basel (1987) used repetitive precast concrete panels to create an almost hypnotic rhythm; Munich's Goetz Gallery (1992) employed frosted glass and birch plywood to give the building entirely different characters under varying light.
 
 In 2001 they received the Pritzker Prize - the jury praised them for "seamlessly combining architectural intellectual rigor with sensory pleasure." Subsequent works grew more diverse: Beijing's National Stadium "Bird's Nest" (2008), Hamburg's Elbphilharmonie (2017), Hong Kong's M+ Museum (2021)... But Tate Modern remains their most influential work - not because it's the most spectacular, but because it changed the world's understanding of architectural transformation.`,
-    story: `1947年,英国战后百废待兴,电力严重短缺。建筑师 Giles Gilbert Scott--已经因设计利物浦大教堂和伦敦红色电话亭而闻名--受命在泰晤士河南岸设计一座巨型发电厂。Bankside Power Station 于1952年建成:一座砖砌的巨型长方体,中央耸立着一根99米高的烟囱(故意比对岸圣保罗大教堂的穹顶矮一米,以示"尊重")。它是二战后伦敦工业力量的纪念碑。
+    story: `1952年建成的 Bankside 发电厂是一座砖砌巨型长方体,99米高的烟囱故意比对岸圣保罗大教堂矮一米。1981年关闭后,它在河畔沉睡了近二十年。1994年 Tate Gallery 看中了这里,国际竞赛吸引148个方案,HdM 胜出。
 
-但石油危机和环保法规让这座发电厂在1981年永久关闭。此后近二十年,它像一头沉睡的钢铁巨兽蹲踞在泰晤士河畔,内部只有鸽子和涂鸦。
+**HdM 赢在一个反直觉的决定:尽可能少地改变原建筑。** 大多数方案试图加玻璃顶、砍烟囱、包金属幕墙。HdM 认为这些都错了——Bankside 本身就是杰作,改造目标应该是"让原有建筑成为最好的自己"。
 
-1994年,Tate Gallery 决定将其现代艺术收藏从特拉法加广场的老馆分离出来,需要一个新的空间。他们看中了 Bankside--地段绝佳(正对圣保罗大教堂),空间巨大(总面积34000平方米),而且工业建筑的粗犷气质和现代艺术气质天然契合。国际竞赛吸引了148个方案,最终 Herzog & de Meuron 胜出。
-
-HdM 的方案之所以赢,是因为他们做了一个反直觉的决定:**尽可能少地改变原建筑。**
-
-大多数参赛方案都试图用新结构覆盖或替代旧建筑--加一个玻璃顶、砍掉烟囱、用金属幕墙包裹外立面。HdM 认为这些都是错误的。Bankside 发电厂本身就是一件杰作--Scott 的砖墙比例完美,涡轮机大厅的钢结构气势磅礴,99米烟囱是伦敦天际线不可替代的标点符号。改造的目标不应该是"变成另一栋建筑",而是"让原有建筑成为最好的自己"。
-
-他们的核心设计动作只有两个:
-
-第一,保留涡轮机大厅(Turbine Hall)作为一个巨大的公共空间。这个长152米、宽23米、高35米的钢铁峡谷曾经容纳发电机组,HdM 把它清空后变成了世界上最大的室内公共艺术空间。参观者从西侧的缓坡步行下降到大厅底部,这个仪式感十足的入口序列--从城市的水平面逐渐沉入建筑的腹地--是 HdM 的神来之笔。
-
-第二,在原有屋顶上方增加了一个两层的玻璃光箱(lightbeam)。白天,它让自然光从高处洒入展厅;夜晚,它从内部发出柔和的光芒,像一条悬浮在砖墙之上的光带,让整座建筑从沉重的工业纪念碑变成了一盏巨大的灯笼。这个介入极其克制--从外部看,90%仍然是 Scott 的原始砖墙,只有顶部那道光线暗示着内部发生了改变。`,
+核心设计动作只有两个:**保留涡轮机大厅**——152米长、35米高的钢铁峡谷变成世界最大室内公共艺术空间,参观者从缓坡步行沉入建筑腹地;**增加屋顶玻璃光箱**——白天引入自然光,夜晚发出柔光,让工业纪念碑变成一盏巨大的灯笼。从外部看,90%仍是原始砖墙。`,
     story_en: `In 1947, postwar Britain was rebuilding amid severe electricity shortages. Architect Giles Gilbert Scott - already famous for Liverpool Cathedral and London's red telephone boxes - was commissioned to design a massive power station on the Thames South Bank. Bankside Power Station opened in 1952: an enormous brick cuboid with a 99-meter chimney at its center (deliberately one meter shorter than St Paul's dome across the river, as a gesture of "respect"). It was a monument to London's postwar industrial might.
 
 But oil crises and environmental regulations permanently shuttered the station in 1981. For nearly two decades it crouched on the Thames bank like a sleeping steel beast, its interior home only to pigeons and graffiti.
@@ -4868,23 +4856,17 @@ Their core design moves numbered just two:
 First, preserve the Turbine Hall as a vast public space. This steel canyon - 152 meters long, 23 meters wide, 35 meters high - once housed generator sets. HdM emptied it and turned it into the world's largest indoor public art space. Visitors enter from the west along a gentle ramp descending to the hall floor - a processional entry sequence, sinking from the city's datum into the building's belly, that was HdM's stroke of genius.
 
 Second, add a two-story glass lightbeam atop the existing roof. By day it floods galleries with natural light from above; by night it glows softly from within, a luminous band hovering above the brick walls, transforming the heavy industrial monument into an enormous lantern. The intervention is supremely restrained - viewed from outside, 90% remains Scott's original brickwork; only the rooftop light strip hints at what has changed within.`,
-    legacy: `2000年5月11日开馆第一年,Tate Modern 迎来了 520 万参观者--远超预期的 200 万,一举成为全球参观人数最多的现代艺术博物馆。到2024年,累计访客已超过 1 亿人次。更重要的是,它彻底改变了伦敦南岸的城市面貌:Bankside 从一个被遗忘的工业区变成了伦敦最活跃的文化目的地,周边的房价、餐厅、画廊像涟漪一样扩散。千禧桥(Millennium Bridge)--Norman Foster 设计的那座连接圣保罗和 Tate Modern 的步行桥--让泰晤士河不再是一道屏障,而成了一条纽带。
-
-Tate Modern 的成功催生了一波全球性的工业遗产改造运动。纽约的 High Line(2009,废弃铁路变空中公园)、鲁尔区的关税同盟煤矿(Zollverein,2001,UNESCO 遗产+设计中心)、上海的西岸艺术区(龙华机场跑道+煤炭码头变画廊群)......所有这些项目都在某种程度上回应着 Tate Modern 的核心命题:旧建筑不是负担,而是资产。
-
-2016年,HdM 完成了 Tate Modern 的扩建--Switch House(后更名为 Blavatnik Building)。这座扭曲的砖砌塔楼从原建筑南侧升起,用与 Scott 相同的砖(但以不同角度排列)建造,既致敬了原始建筑,又宣示了自己的独立性格。扩建后的 Tate Modern 总面积增加了 60%,但最重要的改变是顶层的360度观景平台--伦敦最好的免费城市全景,让建筑重新成为城市的一部分。`,
+    legacy: `• 开馆第一年520万参观者(预期200万),累计访客超1亿,全球最受欢迎的现代艺术博物馆
+• 彻底改变伦敦南岸:Bankside 从被遗忘的工业区变为最活跃的文化目的地
+• 催生全球工业遗产改造浪潮:纽约 High Line、鲁尔区 Zollverein、上海西岸艺术区都在回应它的核心命题
+• 2016年扩建 Blavatnik Building,面积增加60%,顶层360度观景平台成为伦敦最好的免费全景
+• 证明了"旧建筑不是负担,而是资产"这一命题的商业和文化可行性`,
     legacy_en: `In its first year after opening on May 11, 2000, Tate Modern welcomed 5.2 million visitors - far exceeding the projected 2 million - instantly becoming the world's most visited museum of modern art. By 2024, cumulative visitors surpassed 100 million. More importantly, it utterly transformed London's South Bank: Bankside evolved from a forgotten industrial zone into London's most vibrant cultural destination, with property values, restaurants, and galleries rippling outward. The Millennium Bridge - Norman Foster's pedestrian bridge connecting St Paul's to Tate Modern - turned the Thames from barrier into bond.
 
 Tate Modern's success sparked a global wave of industrial heritage transformation. New York's High Line (2009, abandoned railway to aerial park), the Ruhr's Zollverein Coal Mine (2001, UNESCO site + design center), Shanghai's West Bund art district (Longhua airport runway + coal wharf to gallery cluster)... all these projects respond in some way to Tate Modern's core proposition: old buildings are not liabilities but assets.
 
 In 2016, HdM completed Tate Modern's extension - the Switch House (later renamed Blavatnik Building). This twisted brick tower rises from the original building's south side, constructed with the same brick as Scott's walls (but laid at different angles), simultaneously honoring the original and declaring its own independent character. The extension increased total area by 60%, but the most significant addition is the top-floor 360-degree viewing platform - London's best free panorama, reintegrating the building into the city.`,
-    significance: `Tate Modern 的意义在于它重新定义了"改造"这个词。在 HdM 之前,建筑改造通常意味着两种极端:要么把旧建筑拆得面目全非只留一面立面(业内戏称"面具式保护",facadism),要么小心翼翼地原样修复不敢越雷池半步("博物馆式保护")。HdM 走了第三条路:承认旧建筑的伟大,然后用最少的介入让它获得新生。
-
-这种方法的哲学根基是尊重。尊重前任建筑师的智慧(Scott 的砖墙比例和涡轮机大厅的空间尺度是天才之作),尊重材料的年龄和质感(那些被烟灰熏黑的砖头记录着半个世纪的伦敦工业史),尊重一栋建筑在城市记忆中的位置(南岸的居民虽然不喜欢发电厂的噪音,但它的烟囱已经成了他们心理地图的一部分)。涡轮机大厅之所以震撼,不是因为 HdM 加了什么,而是因为他们敢于什么都不加,让那个35米高的空间以它本来的面目呈现。这需要建筑师拥有罕见的自信和谦逊:自信到敢于做出"不做设计"的设计,谦逊到承认最好的答案已经存在于场地本身。
-
-对中国读者来说,Tate Modern 的启示格外切身。过去二十年中国经历了人类历史上规模最大的城市化进程,大量工业遗产在这个过程中被拆除。但也有一些令人振奋的反例:上海的西岸艺术区(龙华机场跑道和煤炭码头变身画廊群)、北京的798艺术区(国营电子工厂变成当代艺术中心)、景德镇的陶溪川(老瓷厂变为文创园区)。这些项目在不同程度上都回应着 Tate Modern 的核心命题:旧建筑不是负担,而是无法复制的资产,因为你永远无法从零建造出真正的历史感。
-
-二十五年后,Tate Modern 仍然是全球工业遗产改造项目的第一参考案例,也是"建筑不一定要从零开始"这一理念最有说服力的证据。每一个面对着老厂房犹豫要不要拆掉的开发商、政府官员或建筑师,都应该先去 Bankside 走一趟,站在涡轮机大厅里抬头看看那个35米高的天花板,然后问自己:你确定要炸掉它?`,
+    significance: `Tate Modern 重新定义了"改造"。HdM 走了第三条路:承认旧建筑的伟大,用最少的介入让它获得新生。涡轮机大厅之所以震撼,不是因为 HdM 加了什么,而是因为他们敢于什么都不加。这需要罕见的自信和谦逊:自信到做出"不做设计"的设计,谦逊到承认最好的答案已经存在于场地本身。二十五年后,它仍是全球工业遗产改造的第一参考案例,也是"建筑不一定要从零开始"最有说服力的证据。`,
     significance_en: `Tate Modern's significance lies in redefining the word "transformation." Before HdM, architectural conversion typically meant two extremes: either gutting the old building beyond recognition while keeping a single facade ("mask preservation"), or timidly restoring every detail without daring to deviate ("museum preservation"). HdM took a third path: acknowledge the old building's greatness, then give it new life with minimal intervention.
 
 The philosophical foundation of this approach is respect - respect for the predecessor architect's intelligence, for the age and texture of materials, for a building's place in urban memory. The Turbine Hall is breathtaking not because of what HdM added but because they dared to add nothing - letting that 35-meter space present itself as it is. This requires rare confidence and humility from an architect: confidence enough to make a design decision of "no design," humility enough to acknowledge that the best answer already exists in the site itself.
