@@ -2129,7 +2129,7 @@ Twice a year — at the spring and autumn equinoxes — the sun sets precisely a
     year: '1948',
     tags: ["即时影像革命","大众摄影民主化","美国创新经典"],
     tags_en: ["Instant Photography Revolution","Democratization of Photography","American Innovation Classic"],
-    dateConnection: '1909年2月21日，Edwin Land 出生于美国康涅狄格州。这位光学天才在39岁时推出了人类第一台即时成像相机——Polaroid Land Camera Model 95，让"拍完立刻看到照片"从科幻变成了现实，彻底改变了人类记录生活的方式。',
+    dateConnection: '1947年2月21日，Edwin Land 在美国光学学会年会上首次公开演示即时成像技术。60秒内，一张照片从相机中缓缓滑出——在场的科学家们目瞪口呆。一年后，Polaroid Land Camera Model 95 正式上市，"拍完立刻看"从科幻变成了现实。',
     designerBio: `Edwin Land(1909-1991)是美国物理学家、发明家和企业家，拥有超过535项美国专利，仅次于爱迪生。他17岁进入哈佛大学，但很快辍学，因为他对偏振光的研究比课堂更让他着迷。1932年，年仅23岁的 Land 发明了合成偏振片，解决了困扰科学界近一个世纪的光学难题。
 
 1937年，他创立了 Polaroid Corporation。最初公司主要生产偏光太阳镜和军用光学器材。**传说中改变一切的时刻发生在1943年**：他三岁的女儿 Jennifer 在圣诞假期问他为什么不能马上看到刚拍的照片。这个天真的问题像一颗种子，在 Land 的脑海中生根发芽——他在一个小时的散步中就构思出了即时摄影的完整光化学原理。
