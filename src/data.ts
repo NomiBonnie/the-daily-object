@@ -1664,7 +1664,7 @@ It turned a senator into an icon, a campaign into a movement. After this, every 
     year: '1962',
     tags: ["将街灯搬进客厅","意大利设计黄金期","功能主义设计典范"],
     tags_en: ["Street Lamp Indoors","Italian Design Golden Age","Functionalist Design Icon"],
-    dateConnection: '2月16日是 Achille Castiglioni 的生日(1918年)。他是意大利设计黄金时代最具代表性的设计师,三次获得 Compasso d\'Oro é‡'ç1⁄2-ç› ̃å¥-ã€'',
+    dateConnection: `2月16日是 Achille Castiglioni 的生日(1918年)。他是意大利设计黄金时代最具代表性的设计师,三次获得 Compasso d'Oro 金罗盘奖。`,
     designerBio: `Achille Castiglioni (1918-2002),意大利工业设计大师,与哥哥 Pier Giacomo 合作创造了无数经典设计。
 
 他从日常物品中寻找灵感。拖拉机座椅变成酒吧凳(Mezzadro),汽车大灯变成台灯(Toio)。他相信好设计来自于**重新观看熟悉的事物**。
