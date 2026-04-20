@@ -3977,8 +3977,8 @@ It is also a textbook case of the "ahead-of-its-time design" dilemma. Every desi
   {
     id: '73',
     date: '2026-04-03',
-    imageUrl: '/the-daily-object/images/ipad-2010.jpg',
-    fullImageUrl: '/the-daily-object/images/full/ipad-2010.jpg',
+    imageUrl: '/the-daily-object/images/ipad-steve-jobs-2010.jpg',
+    fullImageUrl: '/the-daily-object/images/full/ipad-steve-jobs-2010.jpg',
     title: 'Apple iPad',
     title_en: 'Apple iPad',
     subtitle: 'Apple / Jonathan Ive, 2010',
