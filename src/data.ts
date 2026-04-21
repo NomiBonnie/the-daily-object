@@ -5841,4 +5841,59 @@ The Harlequin's Carnival itself is an early manifesto of this cross-disciplinary
 
 When Miró died at 93, he had left behind three foundations and museums bearing his name in Barcelona, Mallorca, and Paris. But his greatest legacy isn't on any wall - it lives in the toolkit of every designer who tries to convey complex meaning through simple shapes.`,
   },
+  {
+    id: '85',
+    date: '2026-04-21',
+    imageUrl: '/the-daily-object/images/erte-harpers-bazaar-1933.jpg',
+    fullImageUrl: '/the-daily-object/images/full/erte-harpers-bazaar-1933.jpg',
+    title: 'Harper\'s Bazaar Covers',
+    title_en: 'Harper\'s Bazaar Covers',
+    subtitle: 'Erté (Romain de Tirtoff), 1915–1937',
+    subtitle_en: 'Erté (Romain de Tirtoff), 1915–1937',
+    category: 'fashion' as const,
+    designer: 'Erté',
+    year: '1933',
+    tags: ['定义了Art Deco美学', '时尚插画先驱', '跨越七十年的创作'],
+    tags_en: ['Defined Art Deco Aesthetics', 'Fashion Illustration Pioneer', 'Seven Decades of Creation'],
+
+    dateConnection: `1990年4月21日，Erté（本名 Romain de Tirtoff）在巴黎去世，享年97岁。这位俄裔法国艺术家几乎以一己之力定义了 Art Deco 的视觉语言——从1915年到1937年，他为 Harper's Bazaar 绘制了超过240幅封面，将时尚插画从商业附庸提升为独立的艺术形式。`,
+    designerBio: `Erté 1892年出生于圣彼得堡的贵族家庭，父亲是海军上将。五岁时为母亲设计了一件晚礼服——这个细节他后来反复提起，仿佛天赋是一种与生俱来的确定性。1912年，20岁的他违背家族意愿搬到巴黎，用姓名首字母 R.T. 的法语发音"Erté"作为艺名，与过去的自己彻底切割。
+
+到巴黎后，他短暂跟随 Paul Poiret 工作——当时最前卫的时装设计师。但 Erté 很快意识到自己的兴趣不在剪裁，而在**图像**。1915年，Harper's Bazaar 的编辑在巴黎看到他的水粉画，立刻签下独家合同。这份合同一签就是22年，240多幅封面——这个数字至今无人超越。`,
+    story: `这幅1933年11月的 Harper's Bazaar 封面是 Erté 最具代表性的作品之一。画面构图极其大胆：右侧一位红衣女子占据三分之一画面，珍珠项链层层叠叠，发型呈现出建筑般的螺旋结构；左侧五个穿白色礼服的男性剪影从大到小排列，像音符一样精确；背景是曼哈顿天际线的几何化表达——黑色方块与白色窗户构成的网格。
+
+**红与黑的极致对比，几何与曲线的精密张力，这就是 Art Deco 的精髓。**
+
+Erté 的工作方式极度精确：每幅封面都是水粉画原稿，他亲手调配颜色，精确到每根线条的粗细。在没有电脑的年代，他用肉眼实现了像素级的精度。Harper's Bazaar 的艺术总监曾说："Erté 的原稿到了印刷厂，没有人敢改动一个细节——因为每个元素都是计算过的。"
+
+但 Erté 不只是杂志封面画家。他同时为 Folies-Bergère 设计舞台布景和服装长达11年（1919-1930），为好莱坞默片设计过场景，为歌剧院设计过全套视觉系统。他是最早的"全栈设计师"——从二维插画到三维舞台，从时尚到建筑装饰，他的 Art Deco 美学体系可以无缝迁移到任何媒介。`,
+    legacy: `• 240+幅 Harper's Bazaar 封面，单人记录至今无人打破——他几乎独自定义了1920-30年代"时尚杂志应该长什么样"
+• 证明时尚插画可以是独立艺术：他的原稿现在在世界各大博物馆展出，包括 MoMA、V&A、大都会艺术博物馆
+• 1960年代复兴：在被遗忘30年后，他的作品被重新发现，开始创作限量版丝网印刷和金属雕塑，以97岁高龄仍在创作
+• 他的字母表系列（Alphabet Series）——用人体姿态构成26个字母——至今是平面设计教科书中的经典案例
+• "Symphony in Black"成为 Art Deco 运动最广为人知的单幅图像之一，被无数次致敬和引用`,
+    significance: `Erté 最深远的贡献，是在"时尚"和"艺术"之间架起了一座至今仍在通行的桥。在他之前，时尚插画是服务于销售的商业工具；在他之后，时尚插画成了可以挂在博物馆里的艺术品。这个转变的意义超越了时尚界——它重新定义了"什么是设计"的边界。
+
+他的 Art Deco 美学体系——几何化的人体、建筑感的构图、极致的色彩对比——不只影响了同时代的装饰艺术，更深远地塑造了后来的视觉文化：从1960年代的 Pop Art 到今天奢侈品牌的视觉语言，Erté 的影子无处不在。97岁仍在创作这件事本身，就是对"设计师的生命力"最好的注脚。`,
+
+    dateConnection_en: `On April 21, 1990, Erté (born Romain de Tirtoff) died in Paris at the age of 97. This Russian-born French artist single-handedly defined the visual language of Art Deco — from 1915 to 1937, he created over 240 covers for Harper's Bazaar, elevating fashion illustration from commercial service to an independent art form.`,
+    designerBio_en: `Erté was born in 1892 into an aristocratic St. Petersburg family; his father was an admiral in the Russian Imperial Fleet. At five, he designed an evening gown for his mother — a detail he would repeatedly cite, as if talent were a certainty one is born with. In 1912, the 20-year-old defied his family's wishes and moved to Paris, adopting the pseudonym "Erté" from the French pronunciation of his initials R.T., severing all ties with his former life.
+
+In Paris, he briefly worked under Paul Poiret — then the most avant-garde couturier in the world. But Erté quickly realized his passion lay not in tailoring but in **image-making**. In 1915, a Harper's Bazaar editor spotted his gouache paintings in Paris and immediately offered an exclusive contract. That contract lasted 22 years and produced over 240 covers — a record that still stands unbroken.`,
+    story_en: `This November 1933 Harper's Bazaar cover is one of Erté's most iconic compositions. The layout is audaciously bold: on the right, a woman in red occupies a full third of the frame, draped in layers of pearls, her hair sculpted into an architectural spiral; on the left, five men in white evening dress descend in size like precisely placed musical notes; behind them, the Manhattan skyline is abstracted into a grid of black squares and white windows.
+
+**The extreme contrast of red and black, the precise tension between geometry and curve — this is the essence of Art Deco.**
+
+Erté's working method was obsessively precise: every cover was an original gouache painting, with colors hand-mixed and every line calibrated to exact thickness. In an era before computers, he achieved pixel-level precision with the naked eye. Harper's Bazaar art director once remarked: "When Erté's originals arrived at the printer, no one dared alter a single detail — because every element had been calculated."
+
+But Erté was far more than a magazine cover artist. He simultaneously designed sets and costumes for the Folies-Bergère for 11 years (1919–1930), created scenes for Hollywood silent films, and designed complete visual systems for opera houses. He was perhaps the first "full-stack designer" — his Art Deco aesthetic system transferred seamlessly from two-dimensional illustration to three-dimensional stage, from fashion to architectural decoration.`,
+    legacy_en: `• Over 240 Harper's Bazaar covers — an individual record that remains unbroken, essentially defining what a fashion magazine should look like in the 1920s–30s
+• Proved that fashion illustration could stand as independent art: his original gouaches now hang in the world's major museums, including MoMA, V&A, and the Metropolitan Museum of Art
+• 1960s renaissance: after 30 years of relative obscurity, his work was rediscovered; he began creating limited-edition serigraphs and metal sculptures, still actively creating at age 97
+• His Alphabet Series — human bodies contorted into the shapes of 26 letters — remains a classic case study in graphic design textbooks
+• "Symphony in Black" became one of the most widely recognized single images of the Art Deco movement, endlessly referenced and homaged`,
+    significance_en: `Erté's most enduring contribution was building a bridge between "fashion" and "art" that remains in use today. Before him, fashion illustration was a commercial tool in service of sales; after him, it became art worthy of museum walls. This transformation transcended the fashion world — it redefined the boundaries of what "design" could mean.
+
+His Art Deco aesthetic system — geometricized human forms, architecturally structured compositions, extreme chromatic contrasts — influenced not only the decorative arts of his era but profoundly shaped subsequent visual culture: from 1960s Pop Art to the visual language of today's luxury brands, Erté's shadow is everywhere. The fact that he was still creating at 97 is itself the ultimate footnote on the vitality of a designer's creative life.`,
+  },
 ]
