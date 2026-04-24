@@ -1,6 +1,6 @@
 import { DesignObject } from './types';
 
-export const IMAGE_VERSION = '20260420';
+export const IMAGE_VERSION = '20260424';
 
 export const designs: DesignObject[] = [
   {
@@ -6005,5 +6005,74 @@ But the zipper created enormous production headaches: it frequently scratched re
     significance_en: `The Sticky Fingers cover's significance in design history extends far beyond an album sleeve. It was the perfect realization of Warhol's lifelong thesis: when art appears on a supermarket shelf, when a commodity is infused with museum-level creativity, the boundary between the two dissolves.
 
 This cover pushed the concept of "packaging design" to its absolute limit. A real zipper turned flat into three-dimensional, visual into tactile, passive viewing into active interaction. Fifty-five years later, when we talk about "unboxing experiences" and "immersive packaging," Sticky Fingers already gave us the ultimate answer back in 1971.`,
+  },
+  {
+    id: '88',
+    date: '2026-04-24',
+    imageUrl: '/the-daily-object/images/hubble-space-telescope.jpg',
+    fullImageUrl: '/the-daily-object/images/full/hubble-space-telescope.jpg',
+    title: '哈勃太空望远镜',
+    title_en: 'Hubble Space Telescope',
+    subtitle: 'NASA / Lockheed, 1990',
+    subtitle_en: 'NASA / Lockheed, 1990',
+    category: 'industrial' as const,
+    designer: 'NASA / Lockheed',
+    year: '1990',
+    tags: ['改变人类观看宇宙的方式', '工程美学巅峰之作', '从缺陷中涅槃重生'],
+    tags_en: ['Changed How Humanity Sees the Universe', 'Pinnacle of Engineering Aesthetics', 'Reborn from a Fatal Flaw'],
+
+    dateConnection: `1990年4月24日，哈勃太空望远镜搭乘发现号航天飞机从肯尼迪航天中心发射升空，被释放到距地球约547公里的低地轨道上。这是人类第一次将一台大型光学望远镜送入太空——从此，我们不再隔着大气层的模糊滤镜观察宇宙，而是直接凝视深空本身。`,
+    designerBio: `哈勃望远镜是 NASA 和欧洲航天局（ESA）的联合项目，由 Lockheed Missiles & Space Company（现洛克希德·马丁）承担主体制造。它绝不只是一台科学仪器，而是一件精密到极致的工业设计作品。
+
+望远镜外壳由轻质铝合金打造，覆盖多层隔热毯（MLI），表面那层标志性的银色聚酰亚胺薄膜既要反射太阳辐射、又要保持内部恒温在21°C。两块太阳能电池板展开后翼展达12米，如同一对优雅的翅膀。整个结构重11吨，长13.2米，直径4.2米，大约相当于一辆校车的尺寸，却要在真空环境中保持纳米级的光学精度。
+
+主镜由康宁公司（Corning）制造，直径2.4米，用超低膨胀玻璃打磨而成，镜面精度达到可见光波长的1/20。如果把这面镜子放大到大西洋的尺寸，最大的凸起不超过一枚硬币的厚度。`,
+    story: `哈勃的诞生故事充满戏剧性。构想可追溯到1946年，天文学家 Lyman Spitzer 在一篇论文中提出将望远镜送入大气层之上的设想。从提案到发射，项目整整酝酿了44年，经历了多次预算危机、技术难题和政治博弈。
+
+1990年4月24日，当哈勃终于升空，全世界都在等待它传回的第一批图像。然而噩梦降临了——**图像是模糊的。**
+
+主镜存在2.2微米的球差（spherical aberration），比设计规格偏差了大约人类头发丝直径的1/50。这个微小到几乎不可能被察觉的制造缺陷，来自珀金·埃尔默公司（Perkin-Elmer）一台校准仪器上一颗1.3毫米的错位间隔片。耗资15亿美元的"太空之眼"成了笑柄，登上了全球报纸头条。
+
+**但接下来发生的事情，才是真正的传奇。** 1993年12月，奋进号航天飞机执行 STS-61 维修任务。七名宇航员在太空中进行了五次舱外活动，为哈勃安装了一套名为 COSTAR 的矫正光学系统——本质上就是给一台在轨道上以每小时27000公里速度飞行的望远镜"戴上了眼镜"。
+
+修复后的哈勃传回了第一批清晰图像。全世界屏住了呼吸：那些照片不仅仅是"清晰的"，它们彻底改写了人类对宇宙的认知。`,
+    legacy: `• 哈勃深场（Hubble Deep Field, 1995）对准天空中一小块看似空无一物的区域长曝光10天，揭示出3000多个星系，改变了人类的宇宙观
+• 帮助确定宇宙年龄为约138亿年，精度达到1%以内
+• 提供了暗能量存在的关键证据，证明宇宙正在加速膨胀（2011年诺贝尔物理学奖的核心观测数据来自哈勃）
+• 传回超过150万张图像，产生超过20000篇经同行评审的科学论文
+• 五次太空维修任务（1993–2009）本身就是航天工程史上的奇迹
+• "哈勃风格"的深空图像成为大众文化中"宇宙"的视觉定义，影响了从科幻电影到专辑封面的无数视觉设计`,
+    significance: `哈勃的设计意义远超天文学。它证明了一个深刻的道理：伟大的设计可以从失败中诞生。
+
+主镜缺陷本可以宣判整个项目的死刑，但 NASA 选择了一条更难的路——不是放弃，不是重做，而是在太空中修复它。COSTAR 矫正系统是工程美学的极致体现：在几乎零容错的环境中，用一套精密光学组件弥补了一个2.2微米的误差。
+
+而哈勃传回的那些图像——创世之柱、鹰状星云、哈勃深场——已经远远超越了科学数据的范畴，成为人类有史以来拍摄过的最美丽的照片。这些图像重新定义了"宇宙长什么样"这个问题的答案，让每一个普通人都能亲眼看到130亿光年外的星系。`,
+
+    dateConnection_en: `On April 24, 1990, the Hubble Space Telescope was launched aboard the Space Shuttle Discovery from Kennedy Space Center, deployed into low Earth orbit approximately 547 kilometers above the surface. It was the first time a large optical telescope had been placed in space — from that moment, humanity no longer viewed the universe through the blurry filter of Earth's atmosphere, but gazed directly into deep space itself.`,
+    designerBio_en: `The Hubble is a joint project of NASA and the European Space Agency (ESA), with primary construction by Lockheed Missiles & Space Company (now Lockheed Martin). It is far more than a scientific instrument — it is an industrial design object refined to the point of obsession.
+
+The telescope's shell is crafted from lightweight aluminum alloy, covered in multi-layer insulation (MLI), with its iconic silver polyimide film reflecting solar radiation while maintaining an internal temperature of 21°C. Two solar arrays extend to a wingspan of 12 meters, like a pair of elegant wings. The entire structure weighs 11 tons, measures 13.2 meters long and 4.2 meters in diameter — roughly the size of a school bus, yet required to maintain nanometer-level optical precision in the vacuum of space.
+
+The primary mirror, manufactured by Corning, is 2.4 meters in diameter, ground from ultra-low expansion glass to a surface accuracy of 1/20 of the wavelength of visible light — if scaled to the size of the Atlantic Ocean, the largest bump would be no thicker than a coin.`,
+    story_en: `Hubble's origin story is pure drama. Its conception dates to 1946, when astronomer Lyman Spitzer proposed placing a telescope above Earth's atmosphere. From proposal to launch, the project gestated for 44 years, surviving multiple budget crises, technical challenges, and political battles.
+
+On April 24, 1990, when Hubble finally reached orbit, the world waited for its first images. Then came the nightmare — **the images were blurry.**
+
+The primary mirror had a 2.2-micrometer spherical aberration, deviating from specifications by roughly 1/50th the width of a human hair. This nearly imperceptible manufacturing flaw was caused by a 1.3mm misplaced spacer on a calibration instrument at Perkin-Elmer. The $1.5 billion "eye in the sky" became a punchline, making headlines worldwide.
+
+**But what happened next is the real legend.** In December 1993, the Space Shuttle Endeavour carried out the STS-61 servicing mission. Seven astronauts performed five spacewalks to install COSTAR (Corrective Optics Space Telescope Axial Replacement) — essentially fitting "glasses" on a telescope orbiting at 27,000 kilometers per hour.
+
+The first clear images came back. The world held its breath: those photographs weren't just "sharp" — they fundamentally rewrote humanity's understanding of the cosmos.`,
+    legacy_en: `• The Hubble Deep Field (1995) — a 10-day exposure of a seemingly empty patch of sky revealed over 3,000 galaxies, changing humanity's worldview
+• Helped determine the age of the universe at approximately 13.8 billion years, with precision within 1%
+• Provided critical evidence for dark energy, proving the universe's expansion is accelerating (core data for the 2011 Nobel Prize in Physics)
+• Has returned over 1.5 million images and generated more than 20,000 peer-reviewed scientific papers
+• Five servicing missions (1993–2009) were themselves miracles of aerospace engineering
+• "Hubble-style" deep space imagery became the visual definition of "the universe" in popular culture, influencing countless designs from science fiction films to album covers`,
+    significance_en: `Hubble's design significance extends far beyond astronomy. It proved a profound truth: great design can be born from failure.
+
+The primary mirror flaw could have been a death sentence for the entire project. But NASA chose the harder path — not abandoning it, not rebuilding it, but repairing it in space. The COSTAR correction system represents the ultimate expression of engineering aesthetics: compensating for a 2.2-micrometer error with precision optical components in a near-zero-tolerance environment.
+
+And the images Hubble returned — the Pillars of Creation, the Eagle Nebula, the Hubble Deep Field — have transcended scientific data entirely. They are among the most beautiful photographs ever taken. These images redefined the answer to "what does the universe look like," allowing every ordinary person to see galaxies 13 billion light-years away. This is not a technical achievement — it is a triumph of human imagination.`,
   },
 ]
