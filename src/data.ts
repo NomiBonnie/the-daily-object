@@ -6075,4 +6075,51 @@ The primary mirror flaw could have been a death sentence for the entire project.
 
 And the images Hubble returned — the Pillars of Creation, the Eagle Nebula, the Hubble Deep Field — have transcended scientific data entirely. They are among the most beautiful photographs ever taken. These images redefined the answer to "what does the universe look like," allowing every ordinary person to see galaxies 13 billion light-years away. This is not a technical achievement — it is a triumph of human imagination.`,
   },
+  {
+    id: '89',
+    date: '2026-04-25',
+    imageUrl: '/the-daily-object/images/transamerica-pyramid.jpg',
+    fullImageUrl: '/the-daily-object/images/full/transamerica-pyramid.jpg',
+    title: '泛美金字塔',
+    title_en: 'Transamerica Pyramid',
+    subtitle: 'William Pereira, 1972',
+    subtitle_en: 'William Pereira, 1972',
+    category: 'architecture' as const,
+    designer: 'William Pereira',
+    year: '1972',
+    tags: ['重新定义天际线', '争议变为经典', '抗震工程美学'],
+    tags_en: ['Redefined a Skyline', 'Controversy Turned Icon', 'Seismic Engineering as Art'],
+
+    dateConnection: `1909年4月25日，建筑师 William Pereira 出生于芝加哥。他后来设计了旧金山最具辨识度的建筑——泛美金字塔。这座48层的尖锥形摩天大楼于1972年建成，以260米的高度统治旧金山天际线长达45年，直到2017年才被 Salesforce Tower 超越。`,
+    designerBio: `William Pereira 的职业生涯横跨电影与建筑两个世界。他在南加州大学攻读建筑时就展露天赋，毕业后先进入好莱坞——他为派拉蒙影业设计的特效曾获奥斯卡奖。二战后他转向建筑实践，在加州留下了大量作品：加州大学尔湾分校的整体规划、洛杉矶国际机场主题建筑（Theme Building）的早期概念，以及散布在南加州各处的现代主义地标。
+
+但真正让他名留建筑史的，是旧金山金融区蒙哥马利街600号的这座白色尖塔。`,
+    story: `泛美金字塔的诞生充满戏剧性。1960年代末，泛美公司CEO Jack Beckett 委托 Pereira 设计新总部时，提出了一个不寻常的要求：建筑不能遮挡街道的阳光。Pereira 的回答是一个金字塔——底部宽阔容纳办公空间，向上逐渐收窄，让光线能够穿透到地面。
+
+最初方案高达350米，被城市规划委员会否决——理由是会遮挡从 Nob Hill 眺望海湾的视线。Pereira 将高度削减到260米，但金字塔的形态保留了下来。
+
+施工期间和建成初期，旧金山市民的反应几乎是一边倒的厌恶。批评者嘲讽它为"Pereira's Prick"，认为这座尖锐的白色异形体破坏了城市的维多利亚式优雅。报纸漫画、市民请愿、建筑评论家的口诛笔伐铺天盖地。
+
+然而时间站在了 Pereira 这边。建筑外立面覆盖着碎石英，在不同光线下呈现从冷白到暖金的微妙色变。两侧的"翼"——东侧容纳电梯井，西侧是楼梯和排烟塔——赋予了这座几何体一种有机的生命感。顶部65米的纯白尖顶在旧金山标志性的雾气中若隐若现，成为整座城市最容易辨认的剪影。
+
+到2009年，《旧金山纪事报》的建筑评论家 John King 写道："这是最好的那种建筑图标——契合它的位置，随时间变得更好。"从争议到经典，泛美金字塔用了不到四十年。`,
+    legacy: `泛美金字塔证明了一个建筑真理：伟大的地标往往诞生于争议之中。它与巴黎埃菲尔铁塔、悉尼歌剧院、贝聿铭的卢浮宫金字塔一样，属于那些最初被公众强烈反对、最终却成为城市灵魂的建筑。2022年，新业主聘请 Norman Foster 主持2.5亿美元的翻新，这座50岁的金字塔开启了新的篇章。`,
+    significance: `在建筑史上，泛美金字塔是少数成功将古老的金字塔形态转化为现代摩天大楼的案例。它的锥形结构不只是视觉游戏，更是功能性的创新——底宽顶窄的形态让更多阳光照到街道，同时提供了卓越的抗震性能。1989年洛马普列塔地震中，这座建筑安然无恙。形式与功能的统一，正是现代建筑最核心的追求。`,
+
+    dateConnection_en: `On April 25, 1909, architect William Pereira was born in Chicago. He would go on to design San Francisco's most recognizable building — the Transamerica Pyramid. This 48-story, pyramid-shaped skyscraper was completed in 1972 and dominated the San Francisco skyline at 853 feet for 45 years, until the Salesforce Tower surpassed it in 2017.`,
+    designerBio_en: `William Pereira's career straddled two worlds: film and architecture. After studying architecture at the University of Southern California, he first entered Hollywood — his special effects work for Paramount Pictures earned an Academy Award. After World War II he turned to architectural practice, leaving an enormous mark across California: the master plan for UC Irvine, early concepts for the LAX Theme Building, and modernist landmarks scattered throughout Southern California.
+
+But what truly secured his place in architectural history was the white spire at 600 Montgomery Street in San Francisco's Financial District.`,
+    story_en: `The Transamerica Pyramid's origin is pure drama. In the late 1960s, when Transamerica CEO Jack Beckett commissioned Pereira to design a new headquarters, he made an unusual request: the building must not block sunlight from the streets below. Pereira's answer was a pyramid — wide at the base to accommodate office space, tapering upward to let light reach the ground.
+
+The original proposal stood at 1,150 feet, which would have briefly made it the second-tallest completed building in the world. The city planning commission rejected it, arguing it would obstruct views of San Francisco Bay from Nob Hill. Pereira reduced the height to 853 feet, but the pyramidal form survived.
+
+During construction and in the years immediately after completion, San Franciscans were nearly unanimous in their disdain. Critics mocked it as "Pereira's Prick," arguing that the sharp white alien form violated the city's Victorian elegance. Newspaper cartoons, citizen petitions, and architectural critics piled on mercilessly.
+
+Time, however, sided with Pereira. The facade, clad in crushed quartz, shifts from cool white to warm gold depending on the light. The two lateral "wings" — housing an elevator shaft on the east and a stairwell and smoke tower on the west — give the geometric form an organic vitality. The 212-foot pure white spire at the top appears and vanishes in San Francisco's signature fog, creating the most instantly recognizable silhouette in the entire city.
+
+By 2009, San Francisco Chronicle architecture critic John King wrote: "an architectural icon of the best sort — one that fits its location and gets better with age." From controversy to classic in under forty years.`,
+    legacy_en: `The Transamerica Pyramid confirms an architectural truth: great landmarks are often born from controversy. Like the Eiffel Tower in Paris, the Sydney Opera House, and I.M. Pei's Louvre Pyramid, it belongs to that rare class of buildings initially met with fierce public opposition that ultimately became the soul of a city. In 2022, new owner Michael Shvo hired Norman Foster to lead a $250 million renovation — at fifty years old, the pyramid began its next chapter.`,
+    significance_en: `In architectural history, the Transamerica Pyramid is one of the rare successful translations of the ancient pyramid form into a modern skyscraper. Its tapered structure is not merely a visual statement but a functional innovation — the wide-base, narrow-top profile allows more sunlight to reach street level while providing exceptional seismic resilience. During the 1989 Loma Prieta earthquake, the building emerged unscathed. The unity of form and function is the very core of what modern architecture aspires to.`,
+  },
 ]
