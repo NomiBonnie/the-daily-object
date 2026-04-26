@@ -6122,4 +6122,47 @@ By 2009, San Francisco Chronicle architecture critic John King wrote: "an archit
     legacy_en: `The Transamerica Pyramid confirms an architectural truth: great landmarks are often born from controversy. Like the Eiffel Tower in Paris, the Sydney Opera House, and I.M. Pei's Louvre Pyramid, it belongs to that rare class of buildings initially met with fierce public opposition that ultimately became the soul of a city. In 2022, new owner Michael Shvo hired Norman Foster to lead a $250 million renovation — at fifty years old, the pyramid began its next chapter.`,
     significance_en: `In architectural history, the Transamerica Pyramid is one of the rare successful translations of the ancient pyramid form into a modern skyscraper. Its tapered structure is not merely a visual statement but a functional innovation — the wide-base, narrow-top profile allows more sunlight to reach street level while providing exceptional seismic resilience. During the 1989 Loma Prieta earthquake, the building emerged unscathed. The unity of form and function is the very core of what modern architecture aspires to.`,
   },
+  {
+    id: '86',
+    date: '2026-04-26',
+    imageUrl: '/the-daily-object/images/dior-bar-suit.jpg',
+    fullImageUrl: '/the-daily-object/images/full/dior-bar-suit.jpg',
+    title: 'Bar Suit',
+    title_en: 'Bar Suit',
+    subtitle: 'Christian Dior, 1947',
+    subtitle_en: 'Christian Dior, 1947',
+    category: 'fashion' as const,
+    designer: 'Christian Dior',
+    year: '1947',
+    tags: ['重新定义女性轮廓', '战后时尚革命', '高定黄金时代'],
+    tags_en: ['Redefined the Female Silhouette', 'Postwar Fashion Revolution', 'Golden Age of Haute Couture'],
+
+    dateConnection: `1957年4月26日，Christian Dior 在伦敦法国大使馆向伊丽莎白王太后和玛格丽特公主展示了他的高定系列。这场皇室私人展示标志着 Dior 品牌在英国的最高荣耀——就在同年10月，Dior 在蒙特卡洛因心脏病突发去世，这也成为他生前最后一次重要的国际展示之一。`,
+    designerBio: `Christian Dior（1905-1957）是20世纪最具影响力的时装设计师之一。他出生于法国诺曼底的格兰维尔，童年在海边别墅 Les Rhumbs 度过。1920年代，他在巴黎文化圈结识了 Jean Cocteau、Salvador Dalí 等艺术家，开过画廊，卖过时装插画。
+
+1946年，在纺织业巨头 Marcel Boussac 的资助下，41岁的 Dior 在蒙田大道30号创立了自己的时装屋。他的首个系列"Corolle"在1947年2月12日亮相，立刻引发轰动。《Harper's Bazaar》主编 Carmel Snow 惊呼："这是全新的面貌！"——"New Look"由此得名。`,
+    story: `Bar Suit 是 Dior 1947年春夏"Corolle"系列中最具代表性的作品。它由一件象牙色丝绸夏装上衣和一条黑色百褶羊毛裙组成——上衣紧身束腰，肩线圆润下垂，臀部微微外扩；裙子使用了大量面料，裙摆在小腿中部优雅展开。
+
+这套服装的制作工艺极其考究。上衣内部有紧身胸衣般的结构支撑，臀部经过填充塑形。裙子用了精心褶裥的羊毛绉纱，内衬硬挺的塔夫绑裙撑，重量惊人。据 V&A 博物馆记录，上衣需要3.7米丝绸山东绸，由五颗手工缝制的包扣固定，出自后来成为设计大师的 Pierre Cardin 之手——当时他还只是 Dior 工坊的裁缝主管。
+
+**Bar Suit 的诞生有着深刻的时代背景。** 二战期间，欧洲女性穿着实用的方肩军装风格，面料受到严格配给。Dior 用奢侈的面料用量和极致的女性曲线，对战时的节俭美学做出了最戏剧化的反叛。这在当时引发了巨大争议——英国贸易委员会公开谴责这种"浪费"，巴黎街头甚至有人试图撕扯穿着 New Look 的女性的裙子。但时尚的力量不可阻挡，一年之内，全世界的女性都在模仿这个轮廓。`,
+    legacy: `Bar Suit 不只是一件衣服，它重新定义了战后女性的形象。Dior 用设计宣告：战争结束了，优雅和美重新回来了。这个轮廓——柔软的肩线、纤细的腰身、丰满的裙摆——统治了整个1950年代的时尚，直到1960年代 Yves Saint Laurent 和 André Courrèges 带来的迷你裙革命。
+
+如今，Bar Suit 收藏于伦敦 V&A 博物馆和巴黎 Dior 档案馆，是时装史上被引用最多的作品之一。从 Maria Grazia Chiuri 到最新接任的 Jonathan Anderson，历任 Dior 创意总监都会在系列中向 Bar Suit 致敬——它已成为 Dior 品牌 DNA 的核心符号。`,
+    significance: `在时装设计史上，Bar Suit 是少数能以一件单品改变整个行业走向的作品。它证明了时装不只是穿着，更是一种文化宣言。Dior 的 New Look 确立了巴黎作为世界时装之都的地位，开启了高级定制的黄金时代，也让"时装设计师"这个职业第一次拥有了明星般的社会影响力。`,
+
+    dateConnection_en: `On April 26, 1957, Christian Dior presented his haute couture collection to Queen Elizabeth The Queen Mother and Princess Margaret at the French Embassy in London. This royal private showing marked the pinnacle of Dior's prestige in Britain. Just months later, in October 1957, Dior died suddenly of a heart attack in Montecatini Terme, Italy — making this one of his last major international presentations.`,
+    designerBio_en: `Christian Dior (1905–1957) was one of the most influential fashion designers of the twentieth century. Born in Granville, Normandy, he spent his childhood at the seaside villa Les Rhumbs. In the 1920s, he moved in Parisian artistic circles alongside Jean Cocteau and Salvador Dalí, ran an art gallery, and sold fashion illustrations.
+
+In 1946, backed by textile magnate Marcel Boussac, the 41-year-old Dior founded his own fashion house at 30 Avenue Montaigne. His debut "Corolle" collection premiered on February 12, 1947, to instant sensation. Harper's Bazaar editor Carmel Snow famously declared: "It's quite a revolution, dear Christian! Your dresses have such a new look!" — and the name stuck.`,
+    story_en: `The Bar Suit is the most iconic piece from Dior's Spring/Summer 1947 "Corolle" collection. It consists of an ivory shantung silk jacket and a black pleated wool crêpe skirt — the jacket is corseted at the waist with softly rounded shoulders and gently padded hips; the skirt uses lavish amounts of fabric, its pleats falling to an elegant mid-calf hemline.
+
+The craftsmanship is extraordinary. The jacket is internally structured like a corset, with padded hips for shaping. The skirt is made of finely pleated wool crêpe mounted on a stiffened taffeta petticoat, making it remarkably heavy. According to V&A records, the jacket required 3.7 meters of silk shantung and was fastened with five hand-stitched covered buttons — constructed under the supervision of Pierre Cardin, then merely the head of Dior's tailoring atelier, years before becoming a design legend himself.
+
+**The Bar Suit emerged from a specific historical moment.** During the war, European women wore utilitarian, square-shouldered military-inspired clothing under strict fabric rationing. Dior's extravagant use of material and his celebration of feminine curves represented the most dramatic rebellion against wartime austerity. The reaction was polarizing — the British Board of Trade publicly condemned the "waste," and women wearing the New Look were reportedly accosted on Parisian streets. Yet fashion's momentum proved unstoppable: within a year, women worldwide were emulating the silhouette.`,
+    legacy_en: `The Bar Suit is more than a garment — it redefined the postwar feminine ideal. Dior declared through design that the war was over, that elegance and beauty had returned. The silhouette — soft shoulders, cinched waist, full skirt — dominated 1950s fashion until the miniskirt revolution led by Yves Saint Laurent and André Courrèges in the 1960s.
+
+Today, the Bar Suit resides in the V&A Museum in London and the Dior Archives in Paris, and remains one of the most referenced works in fashion history. From Maria Grazia Chiuri to newly appointed Jonathan Anderson, every Dior creative director pays homage to the Bar Suit — it has become the core symbol of the house's DNA.`,
+    significance_en: `In the history of fashion design, the Bar Suit is one of the rare single garments that changed the entire direction of an industry. It proved that fashion is not merely clothing but a cultural statement. Dior's New Look cemented Paris as the world's fashion capital, inaugurated the golden age of haute couture, and gave the profession of "fashion designer" celebrity-level cultural influence for the first time.`,
+  },
 ]
