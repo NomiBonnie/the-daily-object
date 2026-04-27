@@ -1,22 +1,19 @@
-# Daily Object 候选 04-26
+# Daily Object 候选 04-27
 
-最近3天分类: music(04-23), industrial(04-24), architecture(04-25)
-最近3天日期关联类型: 需检查
+候选1: 16 Animali / Enzo Mari (1957) — 关联类型: 生日 (April 27, 1932)
+  知名度: 4/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 3/5 | 时代加权: 0 | 总分: 22/25
+  备注: 意大利设计巨匠，MoMA永久收藏，Compasso d'Oro 终身成就奖。16 Animali 是设计教科书经典——一刀连续切割从一块木板中切出16只动物，同时是玩具、拼图和雕塑。Danese Milano 官方高清产品照，视觉冲击力极佳。分类 industrial 与 04-24 重复（3天前），扣分但仍远超门槛。
 
-候选1: Louvre Pyramid (1989) — 关联类型: 生日 (I.M. Pei born April 26, 1917)
-  知名度: 5/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 1/5 | 时代加权: 0 | 总分: 21/25
-  备注: 世界级地标，故事极佳（华人建筑师、争议→经典），但 architecture 与昨天重复
+候选2: Futurama / Norman Bel Geddes (1939) — 关联类型: 生日 (April 27, 1893)
+  知名度: 4/5 | 图片: 3/5 | 故事: 5/5 | 视觉: 4/5 | 分类多样性: 3/5 | 时代加权: -3 | 总分: 16/25
+  备注: 流线型设计之父，1939世博会Futurama展馆是设计史传奇。但 pre-1950 扣3分，且图片难获取（Wikimedia被网络封锁，只找到展览海报而非展品原图）。
 
-候选2: Dior Bar Suit / New Look (1947) — 关联类型: 历史事件 (April 26, 1957 Dior presented collection to Queen Mother in London)
-  知名度: 5/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 25/25
-  备注: 时尚史上最具革命性的设计之一，April 26 为 Dior 1957 伦敦皇室展示日。fashion 类别与近期完全不重复
+候选3: Icograda / International Design Day (1963) — 关联类型: 品牌成立 (April 27, 1963)
+  知名度: 2/5 | 图片: 2/5 | 故事: 3/5 | 视觉: 2/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 14/25
+  备注: April 27 就是 International Design Day。但 Icograda 是组织而非作品，知名度 < 3，淘汰。
 
-候选3: Frederick Law Olmsted / Central Park (1858) — 关联类型: 生日 (born April 26, 1822)
-  知名度: 4/5 | 图片: 4/5 | 故事: 4/5 | 视觉: 4/5 | 分类多样性: 1/5 | 时代加权: -3 | 总分: 14/25
-  备注: 景观建筑之父，但 pre-1950 惩罚 + architecture 重复
-
-候选4: Arianne Phillips (costume designer) — 关联类型: 生日 (born April 26, 1963)
+候选4: Vito Acconci (逝世 April 27, 2017) — 关联类型: 逝世
   知名度: 2/5 | 图片: 3/5 | 故事: 3/5 | 视觉: 3/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 16/25
-  备注: 知名度不足，硬门槛淘汰 (知名度 < 3)
+  备注: 行为艺术/景观建筑先驱。但知名度 < 3，设计师看了不太有共鸣，淘汰。
 
-→ 选择: 候选2 — Dior Bar Suit / New Look（原因：满分25分，fashion类别多样性最佳，Dior New Look是时尚设计史的分水岭，April 26日期关联来自Dior官方历史页面）
+→ 选择: 候选1 16 Animali / Enzo Mari（原因：总分最高 22 分，设计教科书级经典，官方高清产品照完美，故事极强（一刀连续切割的天才构思），Enzo Mari 是意大利设计界的道德灯塔）

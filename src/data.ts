@@ -6165,4 +6165,59 @@ The craftsmanship is extraordinary. The jacket is internally structured like a c
 Today, the Bar Suit resides in the V&A Museum in London and the Dior Archives in Paris, and remains one of the most referenced works in fashion history. From Maria Grazia Chiuri to newly appointed Jonathan Anderson, every Dior creative director pays homage to the Bar Suit — it has become the core symbol of the house's DNA.`,
     significance_en: `In the history of fashion design, the Bar Suit is one of the rare single garments that changed the entire direction of an industry. It proved that fashion is not merely clothing but a cultural statement. Dior's New Look cemented Paris as the world's fashion capital, inaugurated the golden age of haute couture, and gave the profession of "fashion designer" celebrity-level cultural influence for the first time.`,
   },
+  {
+    id: '90',
+    date: '2026-04-27',
+    imageUrl: '/the-daily-object/images/16-animali.jpg',
+    fullImageUrl: '/the-daily-object/images/full/16-animali.jpg',
+    title: '16 Animali',
+    title_en: '16 Animali',
+    subtitle: 'Enzo Mari / Danese Milano, 1957',
+    subtitle_en: 'Enzo Mari / Danese Milano, 1957',
+    category: 'industrial' as const,
+    designer: 'Enzo Mari',
+    year: '1957',
+    tags: ['一刀切出十六只动物', '玩具即雕塑', '意大利设计黄金时代'],
+    tags_en: ['Sixteen Animals from One Cut', 'Toy as Sculpture', 'Golden Age of Italian Design'],
+
+    dateConnection: `1932年4月27日，Enzo Mari 出生于意大利诺瓦拉。他后来成为意大利设计史上最具影响力也最不妥协的设计师之一——一个终身坚持"设计是为所有人服务"的理想主义者。16 Animali 是他为 Danese Milano 设计的第一件作品，从此开启了长达半个多世纪的设计生涯。2020年10月19日，Mari 在米兰去世，享年88岁。`,
+    designerBio: `Enzo Mari（1932-2020）是意大利设计界的道德灯塔。他在米兰布雷拉美术学院学习艺术，1950年代开始与 Danese Milano 合作，设计了一系列经典作品——16 Animali 拼图、Formosa 万年历、Putrella 花瓶。
+
+他是 Compasso d'Oro 终身成就奖得主，作品被 MoMA、V&A、蓬皮杜中心等永久收藏。但 Mari 最为人知的，是他对设计商业化的尖锐批判。1974年，他发表了《Autoprogettazione》——一本教普通人用木板和钉子自己做家具的手册，免费发放。他相信好的设计不应该是特权，而应该是每个人都能触及的东西。
+
+2020年去世前，他将自己毕生1600多件作品的知识产权全部捐赠给米兰市政府，条件是"永远向公众开放"。`,
+    story: `16 Animali 的设计原理令人叹为观止：一块矩形木板，通过一条连续的切割线，被分成16个互相咬合的动物形状——大象、犀牛、骆驼、长颈鹿、猪、鸟、蛇、鱼……每一只都高度抽象却一眼可辨。
+
+这不是简单的拼图。Mari 用数学般的精确性解决了一个看似不可能的问题：如何让16个不同形状的动物严丝合缝地填满一个矩形，中间没有任何浪费的空间？答案是一条蜿蜒曲折但从不交叉的连续切割线——它是拓扑学和动物学的优雅交汇。
+
+当所有动物拼在一起时，它是一块完整的木板——一件极简主义雕塑。当它们被取出来时，每一只都是独立的积木，可以站立、排列、讲故事。收纳的过程本身就是一个空间推理的游戏：孩子必须找到唯一正确的排列方式，才能让所有动物回到木板中。
+
+这件作品最初于1957年为 Danese Milano 设计，材料是纸板。后来改用橡木制作，成为至今仍在生产的经典。它的售价并不便宜，但 Mari 的设计理念始终是：即使是一件玩具，也应该像对待艺术品一样认真对待。`,
+    legacy: `16 Animali 是20世纪最重要的玩具设计之一，被 MoMA 永久收藏，是设计教育中讲解"形式与功能统一"的经典案例。它证明了一个深刻的道理：最好的设计往往看起来毫不费力，但背后是无数次的计算和取舍。
+
+Mari 通过这件作品开创了"设计师玩具"的理念——玩具不只是消遣，更是认知工具。它训练空间思维、形状识别和耐心，同时给予审美愉悦。这一思路深刻影响了后来的教育玩具设计，从 Naef 到 LEGO 的设计哲学中都能看到它的影子。
+
+Danese Milano 至今仍在生产这件作品，材料从最初的纸板升级为橡木，但设计没有改变一丝一毫——67年后，它依然是那条完美的切割线。`,
+    significance: `在工业设计史上，16 Animali 代表了意大利设计黄金时代最纯粹的精神：用最少的材料、最简洁的形式，创造最丰富的体验。它是玩具，是拼图，是雕塑，是数学，是诗——而它只是一块被聪明地切开的木板。Enzo Mari 用这件作品告诉世界：设计的力量不在于添加，而在于发现那条早已存在于材料中的线。`,
+
+    dateConnection_en: `On April 27, 1932, Enzo Mari was born in Novara, Italy. He would become one of the most influential and uncompromising designers in Italian history — a lifelong idealist who insisted that design must serve everyone. 16 Animali was his first work for Danese Milano, launching a design career that spanned over half a century. Mari passed away in Milan on October 19, 2020, at the age of 88.`,
+    designerBio_en: `Enzo Mari (1932–2020) was the moral compass of Italian design. He studied art at Milan's Brera Academy and began collaborating with Danese Milano in the 1950s, producing a series of iconic works: the 16 Animali puzzle, the Formosa perpetual calendar, and the Putrella vase.
+
+He received the Compasso d'Oro Lifetime Achievement Award, and his works are in the permanent collections of MoMA, the V&A, and the Centre Pompidou. But Mari was best known for his sharp critique of design's commercialization. In 1974, he published Autoprogettazione — a free manual teaching ordinary people to build their own furniture from planks and nails. He believed good design should not be a privilege.
+
+Before his death in 2020, he donated the intellectual property of his entire life's work — over 1,600 pieces — to the City of Milan, on one condition: that it remain forever open to the public.`,
+    story_en: `The design principle behind 16 Animali is breathtaking: a single rectangular wooden board is divided by one continuous cutting line into 16 interlocking animal shapes — elephant, rhinoceros, camel, giraffe, pig, bird, snake, fish… each highly abstracted yet instantly recognizable.
+
+This is no ordinary puzzle. With mathematical precision, Mari solved a seemingly impossible problem: how to make 16 different animal shapes fit perfectly into a rectangle with zero wasted space. The answer is a sinuous, never-crossing continuous cut line — an elegant intersection of topology and zoology.
+
+When all animals are assembled, it is a complete wooden board — a minimalist sculpture. When taken apart, each piece becomes an independent building block that can stand, be arranged, and tell stories. The act of putting them back is itself a spatial reasoning game: the child must find the one correct arrangement to return all animals to the board.
+
+Originally designed in 1957 for Danese Milano in cardboard, it was later produced in oak and remains in production today. The price is not trivial, but Mari's design philosophy was unwavering: even a toy deserves to be treated with the seriousness of art.`,
+    legacy_en: `16 Animali is one of the most important toy designs of the twentieth century. It is in MoMA's permanent collection and serves as a textbook example of "unity of form and function" in design education. It demonstrates a profound truth: the best designs appear effortless, yet behind them lie countless calculations and trade-offs.
+
+Through this work, Mari pioneered the concept of the "designer toy" — a toy that is not mere amusement but a cognitive tool. It trains spatial thinking, shape recognition, and patience while providing aesthetic pleasure. This approach profoundly influenced subsequent educational toy design, from Naef to the design philosophy behind LEGO.
+
+Danese Milano still produces this piece today. The material has been upgraded from the original cardboard to oak, but the design has not changed one bit — 67 years later, it remains that same perfect cutting line.`,
+    significance_en: `In the history of industrial design, 16 Animali embodies the purest spirit of Italy's golden age of design: creating the richest possible experience with the fewest materials and the simplest forms. It is a toy, a puzzle, a sculpture, a mathematical proposition, and a poem — yet it is nothing more than a cleverly cut piece of wood. With this work, Enzo Mari told the world that the power of design lies not in addition, but in discovering the line that already exists within the material.`,
+  },
 ]
