@@ -6220,4 +6220,63 @@ Through this work, Mari pioneered the concept of the "designer toy" — a toy th
 Danese Milano still produces this piece today. The material has been upgraded from the original cardboard to oak, but the design has not changed one bit — 67 years later, it remains that same perfect cutting line.`,
     significance_en: `In the history of industrial design, 16 Animali embodies the purest spirit of Italy's golden age of design: creating the richest possible experience with the fewest materials and the simplest forms. It is a toy, a puzzle, a sculpture, a mathematical proposition, and a poem — yet it is nothing more than a cleverly cut piece of wood. With this work, Enzo Mari told the world that the power of design lies not in addition, but in discovering the line that already exists within the material.`,
   },
+  {
+    id: '91',
+    date: '2026-04-28',
+    imageUrl: '/the-daily-object/images/ikb-191-yves-klein.jpg',
+    fullImageUrl: '/the-daily-object/images/full/ikb-191-yves-klein.jpg',
+    title: 'IKB 191',
+    title_en: 'IKB 191',
+    subtitle: 'Yves Klein, 1962',
+    subtitle_en: 'Yves Klein, 1962',
+    category: 'art' as const,
+    designer: 'Yves Klein',
+    year: '1962',
+    tags: ['发明了一种颜色', '单色画运动先驱', '重新定义艺术边界'],
+    tags_en: ['Invented a Color', 'Monochrome Pioneer', 'Redefined Art Boundaries'],
+
+    dateConnection: `1928年4月28日，Yves Klein 出生于法国尼斯。这个后来"发明"了一种蓝色的人，童年时就对天空和大海的蓝色深深着迷。他曾说自己最早的作品是"在尼斯海滩上用手指在天空签下了名字"——从那一刻起，蓝色就属于他了。`,
+    designerBio: `Yves Klein（1928-1962）是20世纪最具颠覆性的艺术家之一，也是新现实主义运动的核心人物。他出生于一个艺术家庭——父亲 Fred Klein 是具象画家，母亲 Marie Raymond 是抽象艺术家——但他选择了一条完全不同的路。
+
+1940年代末，年仅19岁的 Klein 和朋友 Arman、Claude Pascal 坐在尼斯海滩上，三人决定"瓜分世界"：Arman 选择了大地，Claude 选择了空气，Klein 毫不犹豫地选择了天空——那片无边无际的蓝。
+
+他是柔道黑带四段，曾在日本东京讲道馆修行，后回到巴黎将东方哲学融入艺术实践。1955年，他向巴黎沙龙提交了一幅纯橙色单色画，被拒绝——评委说"一种颜色不算绘画"。这次拒绝反而坚定了他的方向。`,
+    story: `IKB——International Klein Blue——不只是一种颜色，而是一场关于"纯粹"的革命。
+
+1956年，Klein 开始与巴黎颜料商 Edouard Adam 合作，寻找一种能保持纯色颜料粉末原始光泽的方法。传统颜料一旦与油或调和剂混合，色彩就会变暗变浊。Klein 无法接受这种妥协。经过反复实验，他们发现一种名为 Rhodopas M60A 的合成树脂（聚醋酸乙烯酯）能完美地固定超细群青蓝颜料粉末，同时保持其如天鹅绒般的哑光质感和夺目的色彩饱和度。
+
+1960年5月19日，Klein 正式为这个配方申请了专利——不是为了商业利益，而是为了将它确立为一件艺术作品。International Klein Blue，编号 IKB，就此诞生。
+
+IKB 191 是 Klein 用这种颜料创作的近200幅单色画之一。画面上没有任何图像、线条或构图——只有纯粹的、绝对的、令人窒息的蓝。站在这幅画前，你的视觉会失去参照系，蓝色似乎向画面之外无限延伸，产生一种 Klein 所说的"无限的感知"。
+
+这不是偷懒，不是极简主义的形式游戏。Klein 认为颜色本身就是完整的艺术体验——它不需要用形状来"表达"什么，就像天空不需要云来证明自己的存在。`,
+    legacy: `Klein 的影响远超艺术圈。IKB 直接启发了后来的色彩设计理论——从 Pantone 色彩系统的文化影响力到当代品牌设计中"拥有一种颜色"的概念（蒂芙尼蓝、爱马仕橙、可口可乐红），Klein 是第一个证明"一种颜色可以成为身份"的人。
+
+他的单色画被 MoMA、蓬皮杜中心、Tate Modern、古根海姆等全球顶级博物馆永久收藏。2012年，一幅 IKB 单色画在佳士得以3680万美元成交，刷新了当时的拍卖纪录。
+
+Klein 在1962年6月6日因心脏病突发去世，年仅34岁。他的艺术生涯只有短短七年，却永久改变了人们对"什么是艺术"的理解。他留下的不仅是近200幅蓝色画布，还有一个大胆的命题：艺术的本质不在于描绘什么，而在于让人感受到什么。`,
+    significance: `在设计史上，Yves Klein 和 IKB 的意义在于：他第一次让世界相信"颜色本身就是设计"。在他之前，颜色是工具、是手段、是服务于形式的元素；在他之后，颜色可以是主角、是品牌、是情感的直接载体。从建筑师安藤忠雄对混凝土灰的执念，到苹果早期 iMac 的糖果色革命，再到今天每一个品牌为自己的"品牌色"注册商标——Klein 开启的这条路，至今没有人走到尽头。`,
+
+    dateConnection_en: `On April 28, 1928, Yves Klein was born in Nice, France. The man who would one day "invent" a shade of blue was fascinated by the color of the sky and sea from childhood. He once said his earliest work of art was "signing my name across the sky with my finger on the beach in Nice" — from that moment, blue belonged to him.`,
+    designerBio_en: `Yves Klein (1928–1962) was one of the most subversive artists of the twentieth century and a central figure of the Nouveau Réalisme movement. Born into an artistic family — his father Fred Klein was a figurative painter, his mother Marie Raymond an abstract artist — he chose an entirely different path.
+
+In the late 1940s, the nineteen-year-old Klein sat on a Nice beach with friends Arman and Claude Pascal, and the three decided to "divide up the world": Arman chose the earth, Claude chose the air, and Klein unhesitatingly chose the sky — that boundless blue.
+
+He held a fourth-dan black belt in judo, having trained at the Kodokan in Tokyo, and later fused Eastern philosophy with his art practice. In 1955, he submitted a pure orange monochrome painting to the Salon des Réalités Nouvelles in Paris; it was rejected — the jury said "one color is not a painting." The rejection only strengthened his resolve.`,
+    story_en: `IKB — International Klein Blue — was not merely a color but a revolution in pursuit of purity.
+
+In 1956, Klein began working with Parisian paint supplier Edouard Adam to find a way to preserve the raw luminosity of pure pigment powder. Traditional pigments lost their brilliance when mixed with oil or binding agents — they turned darker, muddier. Klein refused to accept the compromise. After extensive experimentation, they discovered that a synthetic resin called Rhodopas M60A (polyvinyl acetate) could perfectly fix ultramarine blue pigment powder while maintaining its velvety matte texture and stunning color saturation.
+
+On May 19, 1960, Klein officially filed a patent for the formula — not for commercial gain, but to establish it as a work of art. International Klein Blue, designated IKB, was born.
+
+IKB 191 is one of nearly 200 monochrome paintings Klein created with this pigment. The canvas contains no image, no line, no composition — only pure, absolute, breathtaking blue. Standing before it, your vision loses its frame of reference; the blue seems to extend infinitely beyond the canvas, producing what Klein called "the perception of the infinite."
+
+This was not laziness, nor a formalist game of minimalism. Klein believed color itself was a complete artistic experience — it needed no shapes to "express" anything, just as the sky needs no clouds to prove its existence.`,
+    legacy_en: `Klein's influence extends far beyond the art world. IKB directly inspired subsequent color design theory — from the cultural power of the Pantone system to the contemporary branding concept of "owning a color" (Tiffany Blue, Hermès Orange, Coca-Cola Red). Klein was the first to prove that a single color could become an identity.
+
+His monochromes are in the permanent collections of MoMA, Centre Pompidou, Tate Modern, the Guggenheim, and other top global museums. In 2012, an IKB monochrome sold at Christie's for $36.8 million, setting a then-record at auction.
+
+Klein died of a heart attack on June 6, 1962, at just 34. His artistic career spanned a mere seven years, yet it permanently changed what people understood art to be. He left behind not only nearly 200 blue canvases but a bold proposition: the essence of art lies not in what it depicts, but in what it makes you feel.`,
+    significance_en: `In design history, Yves Klein and IKB matter because he was the first to convince the world that "color itself is design." Before him, color was a tool, a means, an element in service of form. After him, color could be the protagonist, the brand, the direct carrier of emotion. From Tadao Ando's obsession with concrete gray, to Apple's early candy-colored iMacs, to every brand today trademarking its signature hue — the path Klein opened has yet to reach its end.`,
+  },
 ]
