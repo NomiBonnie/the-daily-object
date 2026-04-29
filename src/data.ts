@@ -6279,4 +6279,63 @@ His monochromes are in the permanent collections of MoMA, Centre Pompidou, Tate 
 Klein died of a heart attack on June 6, 1962, at just 34. His artistic career spanned a mere seven years, yet it permanently changed what people understood art to be. He left behind not only nearly 200 blue canvases but a bold proposition: the essence of art lies not in what it depicts, but in what it makes you feel.`,
     significance_en: `In design history, Yves Klein and IKB matter because he was the first to convince the world that "color itself is design." Before him, color was a tool, a means, an element in service of form. After him, color could be the protagonist, the brand, the direct carrier of emotion. From Tadao Ando's obsession with concrete gray, to Apple's early candy-colored iMacs, to every brand today trademarking its signature hue — the path Klein opened has yet to reach its end.`,
   },
+  {
+    id: '92',
+    date: '2026-04-29',
+    imageUrl: '/the-daily-object/images/lever-house.jpg',
+    fullImageUrl: '/the-daily-object/images/full/lever-house.jpg',
+    title: 'Lever House',
+    title_en: 'Lever House',
+    subtitle: 'Gordon Bunshaft / SOM, 1952',
+    subtitle_en: 'Gordon Bunshaft / SOM, 1952',
+    category: 'architecture' as const,
+    designer: 'Gordon Bunshaft',
+    year: '1952',
+    tags: ['玻璃幕墙革命', '国际风格先驱', '重塑城市天际线'],
+    tags_en: ['Glass Curtain Wall Revolution', 'International Style Pioneer', 'Reshaped City Skylines'],
+
+    dateConnection: `1952年4月29日，Lever House 在纽约公园大道390号正式开放。在一个由砖石和石灰岩统治的城市里，这栋蓝绿色玻璃和不锈钢构成的21层建筑宛如来自未来。它是美国最早的玻璃幕墙摩天楼之一，开放当天就成为纽约最受瞩目的建筑事件。`,
+    designerBio: `Gordon Bunshaft（1909-1990）是美国现代主义建筑的关键推手，1988年普利兹克奖得主。他在纽约水牛城长大，先后在麻省理工学院获得建筑学士和硕士学位，1937年加入 Skidmore, Owings & Merrill（SOM），此后终身效力于这家事务所。
+
+Bunshaft 的设计理念极其简洁：建筑应该诚实地展示自己的结构和材料，拒绝一切装饰性伪装。这种信念在 Lever House 上得到了最纯粹的表达。他后来继续设计了纽约的 Chase Manhattan Bank 总部（1961）、耶鲁大学 Beinecke 珍本图书馆（1963）和华盛顿的赫希洪博物馆（1974），每一栋都成为现代主义建筑的教科书案例。
+
+值得一提的是，Lever House 的结构设计中有一位常被忽略的关键人物——Natalie de Blois。她是 SOM 当时极少数的女性建筑师之一，深度参与了 Lever House 的设计工作，但在那个年代，她的贡献长期未被正式认可。`,
+    story: `1950年代初的纽约公园大道，是一条由厚重石灰岩立面统治的峡谷。当 Lever Brothers（联合利华前身）的总裁 Charles Luckman 决定建造新总部时，他做了一个在当时看来近乎疯狂的决定：请 SOM 设计一栋完全用玻璃和钢铁包裹的大楼。
+
+**Bunshaft 的方案彻底颠覆了纽约摩天楼的游戏规则。**
+
+首先是体量：他没有像周围的建筑那样把整个地块填满，而是将大楼分为两个相互垂直的体量——一个两层高的水平基座，和一个22层的垂直塔楼。塔楼只占地块面积的25%，剩下的空间全部让给了公共广场和一个架空的底层空间。在寸土寸金的曼哈顿，这种"浪费"简直是异端。
+
+然后是立面：整栋建筑被蓝绿色隔热玻璃和不锈钢框架包裹，没有一块传统意义上的"墙"。白天，玻璃幕墙反射着天空和周围建筑的倒影，整栋大楼仿佛在呼吸；夜晚，灯光透出，它变成一盏巨大的灯笼，让路人能看到里面明亮的办公空间。
+
+还有一个被津津乐道的细节：Lever Brothers 是肥皂公司，他们要求大楼必须始终保持干净。于是 Bunshaft 设计了一套当时前所未有的外墙自动清洗系统——一个悬挂在屋顶的吊篮，可以沿着建筑外立面移动，让工人清洗每一块玻璃。这也是世界上最早的建筑外墙清洗系统之一。`,
+    legacy: `Lever House 的影响是地震级的。它开放后不到十年，公园大道上的石灰岩立面就几乎全部被玻璃幕墙取代。1958年，密斯·凡德罗的 Seagram Building 在斜对面落成，两栋建筑共同定义了纽约——乃至全世界——现代办公建筑的面貌。
+
+它开创的设计语言至今仍是全球商业建筑的主流：玻璃幕墙、开放式底层、公共广场、简洁的几何体量。从伦敦金融城到上海陆家嘴，从迪拜到圣保罗，今天世界上几乎每一栋现代办公楼都带着 Lever House 的基因。
+
+1982年，Lever House 被纽约市指定为地标建筑。2023年，SOM 完成了对它的全面修复，将外立面的1,400多块玻璃面板逐一更换为与原始设计规格一致的新玻璃——72年后，这栋大楼依然闪耀如新。`,
+    significance: `Lever House 在建筑设计史上的地位无可争议：它是将国际风格从欧洲带到美国的决定性作品之一，也是"玻璃盒子"办公楼这一建筑类型的原型。Bunshaft 通过它证明了一件事——建筑可以用透明和轻盈取代厚重和封闭，用开放的姿态面对城市，而不是用石墙把自己围起来。这不仅是材料和技术的革新，更是一种关于建筑与城市关系的全新哲学。`,
+
+    dateConnection_en: `On April 29, 1952, Lever House officially opened at 390 Park Avenue in New York City. In a city dominated by masonry and limestone, this 21-story tower of blue-green glass and stainless steel looked like it had arrived from the future. It was one of the earliest glass curtain-wall skyscrapers in America, and on its opening day it became the most talked-about building in New York.`,
+    designerBio_en: `Gordon Bunshaft (1909–1990) was a driving force behind American modernist architecture and the 1988 Pritzker Prize laureate. Raised in Buffalo, New York, he earned both his bachelor's and master's degrees in architecture from MIT before joining Skidmore, Owings & Merrill (SOM) in 1937, where he would spend his entire career.
+
+Bunshaft's design philosophy was ruthlessly simple: a building should honestly reveal its structure and materials, rejecting all decorative pretense. This conviction found its purest expression in Lever House. He went on to design the Chase Manhattan Bank headquarters in New York (1961), Yale's Beinecke Rare Book Library (1963), and the Hirshhorn Museum in Washington, D.C. (1974) — each a textbook case of modernist architecture.
+
+Notably, a key but often overlooked figure in Lever House's design was Natalie de Blois, one of the very few women architects at SOM at the time. She was deeply involved in the project, though her contributions went formally unrecognized for decades.`,
+    story_en: `In the early 1950s, Park Avenue was a canyon of heavy limestone facades. When Charles Luckman, president of Lever Brothers (a predecessor of Unilever), decided to build a new headquarters, he made what seemed like a near-lunatic decision: commission SOM to design a tower wrapped entirely in glass and steel.
+
+**Bunshaft's scheme broke every rule of the New York skyscraper.**
+
+First, the massing: instead of filling the entire lot like neighboring buildings, he split the structure into two perpendicular volumes — a two-story horizontal base and a 22-floor vertical slab. The tower occupied just 25 percent of the site; the rest was given over to a public plaza and a piloti-raised ground floor. In land-starved Manhattan, such "waste" bordered on heresy.
+
+Then the skin: the entire building was clad in blue-green heat-absorbing glass and stainless-steel mullions, without a single conventional "wall." By day the curtain wall mirrored the sky and surrounding buildings, making the tower seem to breathe; by night it glowed like a giant lantern, giving passersby a view of the lit offices within.
+
+One oft-told detail: Lever Brothers was a soap company, and they demanded the building stay perpetually clean. Bunshaft responded with a then-unprecedented automated facade-washing system — a rooftop-suspended gondola that traveled along the exterior, allowing workers to clean every pane of glass. It was one of the world's earliest building facade-washing systems.`,
+    legacy_en: `Lever House's impact was seismic. Within a decade of its opening, the limestone facades along Park Avenue had been almost entirely replaced by glass curtain walls. In 1958, Mies van der Rohe's Seagram Building rose diagonally across the street, and together the two towers defined the look of modern office architecture in New York — and around the world.
+
+The design language Lever House pioneered remains the global mainstream for commercial buildings: glass curtain walls, open ground floors, public plazas, clean geometric volumes. From London's financial district to Shanghai's Lujiazui, from Dubai to São Paulo, virtually every modern office tower on earth carries Lever House's DNA.
+
+In 1982, Lever House was designated a New York City landmark. In 2023, SOM completed a comprehensive restoration, replacing each of the more than 1,400 glass panels with new panes matching the original specifications — 72 years on, the building gleams as if brand new.`,
+    significance_en: `Lever House's place in architectural history is beyond dispute: it was one of the decisive works that brought the International Style from Europe to America, and the prototype for the "glass box" office building as a building type. Through it, Bunshaft proved that architecture could replace heaviness and enclosure with transparency and lightness, facing the city with openness rather than walling itself off with stone. This was not merely an innovation in materials and technology, but an entirely new philosophy about the relationship between building and city.`,
+  },
 ]
