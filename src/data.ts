@@ -6338,4 +6338,83 @@ The design language Lever House pioneered remains the global mainstream for comm
 In 1982, Lever House was designated a New York City landmark. In 2023, SOM completed a comprehensive restoration, replacing each of the more than 1,400 glass panels with new panes matching the original specifications — 72 years on, the building gleams as if brand new.`,
     significance_en: `Lever House's place in architectural history is beyond dispute: it was one of the decisive works that brought the International Style from Europe to America, and the prototype for the "glass box" office building as a building type. Through it, Bunshaft proved that architecture could replace heaviness and enclosure with transparency and lightness, facing the city with openness rather than walling itself off with stone. This was not merely an innovation in materials and technology, but an entirely new philosophy about the relationship between building and city.`,
   },
+  {
+    id: '93',
+    date: '2026-04-30',
+    imageUrl: '/the-daily-object/images/air-jordan-3.jpg',
+    fullImageUrl: '/the-daily-object/images/full/air-jordan-3.jpg',
+    title: 'Air Jordan 3',
+    title_en: 'Air Jordan 3',
+    subtitle: 'Tinker Hatfield, 1988',
+    subtitle_en: 'Tinker Hatfield, 1988',
+    category: 'industrial' as const,
+    designer: 'Tinker Hatfield',
+    year: '1988',
+    tags: ['运动鞋设计革命', '挽救了乔丹品牌', '街头文化符号'],
+    tags_en: ['Sneaker Design Revolution', 'Saved the Jordan Brand', 'Streetwear Cultural Icon'],
+
+    dateConnection: `1952年4月30日，Tinker Hatfield 出生于俄勒冈州波特兰郊外的小镇。这个后来被称为"运动鞋设计之神"的人，最初的梦想其实是当建筑师。从俄勒冈大学建筑系毕业后，他在1981年加入Nike——不是做鞋，而是做零售店面设计。直到1985年，他在巴黎参观蓬皮杜艺术中心时被那种"把内部结构外露"的建筑理念深深震撼，这个瞬间彻底改变了他对鞋类设计的理解，也为三年后 Air Jordan 3 的诞生埋下了种子。`,
+    designerBio: `Tinker Hatfield（1952—）是Nike历史上最重要的设计师，没有之一。他设计了Air Jordan 3到Air Jordan 15，以及Air Max 1、Air Max 90等无数经典鞋款，被公认为现代运动鞋设计的奠基人。
+
+他的独特之处在于他的建筑学背景。大学时代他是俄勒冈大学田径队的撑杆跳运动员（教练正是Nike联合创始人Bill Bowerman），同时主修建筑设计。这种运动员+建筑师的双重身份让他对鞋的理解与众不同：他不只看脚，而是看整个人的运动方式和生活方式。
+
+加入Nike后，他最初五年都在做建筑和空间设计。1985年巴黎之行后，他开始将建筑设计的思维注入运动鞋——结构外露、形式追随功能、大胆使用新材料。从Air Max 1的可视气垫到Air Jordan 3的大象纹，每一次设计都在挑战运动鞋行业的惯例。`,
+    story: `1987年，Jordan品牌正处于生死存亡的关键时刻。Air Jordan 1和2虽然开创性地将篮球鞋变成了时尚单品，但到了第二代，Michael Jordan对鞋的设计越来越不满意。他甚至认真考虑过跳槽到adidas。
+
+**Nike把这个几乎不可能完成的任务交给了一个从未设计过篮球鞋的人——Tinker Hatfield。**
+
+第一次见面，Hatfield没有带鞋的草图。他带了一堆问题。他问Jordan平时穿什么、喜欢什么车、听什么音乐、在球场上最自豪的是什么动作。这种"先理解人，再设计物"的方法来自他的建筑学训练——好的建筑从不是先画图纸，而是先理解住在里面的人。
+
+Jordan告诉他两件事：一，他讨厌Air Jordan 2看起来像"一双意大利皮鞋"而不是球鞋；二，他想让每个人都能从球场看台上一眼认出他穿的是什么鞋。
+
+Hatfield回到工作室，做了三个颠覆性的决定。
+
+第一，**把Nike Air气垫做成可见的**。受蓬皮杜中心"结构外露"理念的启发，他在鞋跟开了一个窗口，让消费者能直接看到内部的气垫技术。这个设计他已经在Air Max 1上实现了，现在他把它移植到了篮球鞋上。
+
+第二，**引入大象纹（elephant print）**。这种斑驳的灰色纹理覆盖在鞋头和鞋跟，灵感来自他在一本旧书里看到的大象皮肤纹理。纯粹的美学直觉——没有任何功能理由，就是觉得它会让这双鞋在视觉上独一无二。事实证明他是对的：大象纹后来成了Air Jordan 3最标志性的设计元素。
+
+第三，**创造了Jumpman标志**。前两代Air Jordan用的都是Nike的Swoosh和翅膀Logo。Hatfield说服Nike让Jordan拥有自己的标志——那个经典的飞人剪影，源自Michael Jordan一张扣篮时的照片。这个决定让Air Jordan从一条产品线变成了一个独立品牌。
+
+1988年2月6日，Michael Jordan穿着Air Jordan 3参加NBA全明星扣篮大赛，从罚球线起跳完成了那记传奇的罚球线扣篮。那个瞬间，Jumpman标志、大象纹和可见气垫通过全球转播进入了亿万观众的视野。
+
+Jordan再也没有提过离开Nike。`,
+    legacy: `Air Jordan 3 不仅挽救了Jordan品牌，更从根本上改变了运动鞋设计的规则。在它之前，运动鞋设计主要由工程师主导，关注的是功能和性能。Hatfield证明了运动鞋可以同时是功能产品、时尚单品和文化符号。
+
+大象纹成为了运动鞋设计史上最被致敬和模仿的纹理之一。Jumpman标志成为了全球辨识度最高的品牌符号之一，其价值远超一个运动鞋Logo——它代表了一种追求卓越的精神。
+
+从更宏观的视角看，Air Jordan 3开启了"球鞋文化"（sneaker culture）的时代。在此之前，运动鞋就是运动鞋；在此之后，运动鞋成了身份认同、审美态度和文化归属的载体。今天全球价值数十亿美元的球鞋转售市场、球鞋收藏文化、以及运动鞋与高级时装的跨界合作，都可以追溯到1988年这双鞋所引发的那场革命。`,
+    significance: `Tinker Hatfield 用 Air Jordan 3 证明了一件设计界常常忘记的事：最好的设计不是从画板上诞生的，而是从对人的深刻理解中诞生的。他问Jordan的不是"你想要什么鞋"，而是"你是谁"。这种以人为本的设计方法论，加上他从建筑学带来的跨学科思维，使得Air Jordan 3超越了一双运动鞋的范畴，成为了设计史上"功能、美学与文化意义完美融合"的经典案例。`,
+
+    dateConnection_en: `On April 30, 1952, Tinker Hatfield was born in a small town outside Portland, Oregon. The man who would come to be called the "god of sneaker design" originally dreamed of becoming an architect. After graduating from the University of Oregon's architecture program, he joined Nike in 1981 — not to design shoes, but to work on retail store interiors. It wasn't until 1985, when he visited the Centre Pompidou in Paris and was struck by its radical "structure-on-the-outside" philosophy, that his entire understanding of footwear design was transformed. That moment planted the seed for what would become the Air Jordan 3 three years later.`,
+    designerBio_en: `Tinker Hatfield (1952–) is the single most important designer in Nike's history. He designed Air Jordan 3 through Air Jordan 15, along with countless other icons including the Air Max 1 and Air Max 90, and is universally recognized as the founding figure of modern sneaker design.
+
+What sets him apart is his architectural background. As a student at the University of Oregon, he was a pole vaulter on the track team (coached by none other than Nike co-founder Bill Bowerman) while majoring in architecture. This dual identity as athlete and architect gave him a fundamentally different way of thinking about shoes: he didn't just look at feet — he looked at how entire bodies moved and how people lived.
+
+For his first five years at Nike, he worked exclusively on architecture and spatial design. After his 1985 trip to Paris, he began injecting architectural thinking into sneaker design — exposing structure, letting form follow function, and fearlessly deploying new materials. From the visible Air unit in the Air Max 1 to the elephant print on the Air Jordan 3, every design challenged the conventions of the footwear industry.`,
+    story_en: `By 1987, the Jordan brand was at a critical crossroads. The Air Jordan 1 and 2 had been groundbreaking in turning basketball shoes into fashion objects, but by the second generation, Michael Jordan was growing increasingly dissatisfied with the designs. He was seriously considering a move to adidas.
+
+**Nike handed this seemingly impossible assignment to a man who had never designed a basketball shoe — Tinker Hatfield.**
+
+At their first meeting, Hatfield brought no sketches of shoes. He brought questions. He asked Jordan what he wore off the court, what cars he drove, what music he listened to, what move on the court made him proudest. This "understand the person before designing the product" approach came straight from his architectural training — good buildings never start with blueprints; they start with understanding the people who will inhabit them.
+
+Jordan told him two things: first, he hated that the Air Jordan 2 looked like "an Italian dress shoe" rather than an athletic shoe; second, he wanted fans in the upper deck to be able to instantly recognize what he was wearing.
+
+Hatfield returned to his studio and made three revolutionary decisions.
+
+First, **he made the Nike Air cushioning visible**. Inspired by the Pompidou Center's "structure-exposed" philosophy, he cut a window into the heel to let consumers see the air unit technology inside. He had already pioneered this on the Air Max 1; now he brought it to basketball.
+
+Second, **he introduced the elephant print**. This mottled gray texture on the toe and heel was inspired by elephant skin patterns he spotted in an old book. It was pure aesthetic intuition — no functional rationale whatsoever, just a conviction that it would make the shoe visually unforgettable. He was right: elephant print became the Air Jordan 3's most iconic design element.
+
+Third, **he created the Jumpman logo**. The first two Air Jordans had used Nike's Swoosh and a wings logo. Hatfield persuaded Nike to give Jordan his own mark — the classic silhouette of Jordan mid-dunk, derived from an actual photograph. This decision transformed Air Jordan from a product line into an independent brand.
+
+On February 6, 1988, Michael Jordan wore the Air Jordan 3 in the NBA All-Star Slam Dunk Contest and launched from the free-throw line for what became one of the most legendary dunks in basketball history. In that instant, the Jumpman logo, the elephant print, and the visible Air unit were broadcast into the consciousness of hundreds of millions of viewers worldwide.
+
+Jordan never mentioned leaving Nike again.`,
+    legacy_en: `The Air Jordan 3 didn't just save the Jordan brand — it fundamentally rewrote the rules of sneaker design. Before it, athletic footwear was primarily engineer-driven, focused on function and performance. Hatfield proved that a sneaker could simultaneously be a functional product, a fashion statement, and a cultural symbol.
+
+The elephant print became one of the most referenced and imitated textures in sneaker design history. The Jumpman logo became one of the most recognizable brand marks in the world, its significance far exceeding that of a shoe logo — it came to represent a spirit of relentless excellence.
+
+From a broader perspective, the Air Jordan 3 inaugurated the era of "sneaker culture." Before it, athletic shoes were just athletic shoes. After it, sneakers became vehicles for identity, aesthetic expression, and cultural belonging. Today's multibillion-dollar sneaker resale market, sneaker collecting culture, and the crossover between athletic footwear and high fashion can all be traced back to the revolution this shoe ignited in 1988.`,
+    significance_en: `With the Air Jordan 3, Tinker Hatfield demonstrated something the design world too often forgets: the best design doesn't emerge from the drawing board — it emerges from a deep understanding of people. He didn't ask Jordan "what shoe do you want"; he asked "who are you." This human-centered design methodology, combined with the cross-disciplinary thinking he brought from architecture, elevated the Air Jordan 3 beyond the realm of athletic footwear into a definitive case study in the perfect fusion of function, aesthetics, and cultural meaning.`,
+  },
 ]
