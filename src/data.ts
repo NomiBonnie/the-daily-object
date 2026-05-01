@@ -6417,4 +6417,71 @@ The elephant print became one of the most referenced and imitated textures in sn
 From a broader perspective, the Air Jordan 3 inaugurated the era of "sneaker culture." Before it, athletic shoes were just athletic shoes. After it, sneakers became vehicles for identity, aesthetic expression, and cultural belonging. Today's multibillion-dollar sneaker resale market, sneaker collecting culture, and the crossover between athletic footwear and high fashion can all be traced back to the revolution this shoe ignited in 1988.`,
     significance_en: `With the Air Jordan 3, Tinker Hatfield demonstrated something the design world too often forgets: the best design doesn't emerge from the drawing board — it emerges from a deep understanding of people. He didn't ask Jordan "what shoe do you want"; he asked "who are you." This human-centered design methodology, combined with the cross-disciplinary thinking he brought from architecture, elevated the Air Jordan 3 beyond the realm of athletic footwear into a definitive case study in the perfect fusion of function, aesthetics, and cultural meaning.`,
   },
+  {
+    id: '66',
+    date: '2026-05-01',
+    imageUrl: '/the-daily-object/images/royal-oak.jpg',
+    fullImageUrl: '/the-daily-object/images/full/royal-oak.jpg',
+    title: 'Royal Oak',
+    title_en: 'Royal Oak',
+    subtitle: 'Gérald Genta / Audemars Piguet, 1972',
+    subtitle_en: 'Gérald Genta / Audemars Piguet, 1972',
+    category: 'industrial' as const,
+    designer: 'Gérald Genta',
+    year: '1972',
+    tags: ['奢华运动表鼻祖', '一夜诞生的传奇', '颠覆了制表业'],
+    tags_en: ['Pioneer of Luxury Sports Watches', 'A Legend Born Overnight', 'Disrupted the Watch Industry'],
+
+    dateConnection: `1931年5月1日，Gérald Genta在日内瓦出生。这位后来被称为"钟表界毕加索"的设计师，凭借一个通宵的灵感，创造了改变整个制表业的Royal Oak。今天是他的95岁冥诞。`,
+    designerBio: `Gérald Genta（1931–2011）出生于日内瓦一个瑞意混血家庭，最初接受的是珠宝匠和金匠训练。1960年代起，他开始为各大钟表品牌设计表壳，逐渐建立起业界最响亮的个人品牌。
+
+他的作品清单令人目眩：Audemars Piguet Royal Oak、Patek Philippe Nautilus、IWC Ingenieur、Bulgari Bulgari……几乎每一款都成为了品牌的核心系列，延续至今。他后来创立了自己的同名品牌Gérald Genta，以复杂功能和大胆设计著称。
+
+Genta的设计哲学是"手表是微型建筑"——他将建筑的比例感和雕塑的立体感注入每一块表壳，让手表从精密仪器变成了可佩戴的艺术品。`,
+    story: `1970年代初，瑞士制表业正面临石英危机。日本精工的石英表以低廉的价格和精准的走时横扫市场，传统机械表似乎已经过时。就在这个至暗时刻，Audemars Piguet的总经理Georges Golay找到了Genta，提出了一个大胆的想法：设计一款用不锈钢制作的高端运动表。
+
+这在当时听起来简直疯狂——奢侈表只用贵金属，不锈钢是廉价的代名词。但Genta只用了一个晚上就画出了设计草图。
+
+灵感来源至今仍有争议。最广为流传的说法是，他从老式潜水头盔上的八角形窗口获得灵感，设计出了那个标志性的八角形表圈，配以八颗外露的六角螺丝。表盘采用精致的"Tapisserie"格纹装饰（后来成为品牌DNA），表壳与金属链带一体成型——这是前所未有的设计。
+
+**39mm的尺寸在当年被认为太大了。** 不锈钢材质被认为太低端。一体式链带被认为太激进。1972年在巴塞尔钟表展上发布时，几乎所有经销商都拒绝了它。
+
+但Genta知道自己做了什么。Royal Oak的售价被定在3300瑞士法郎——比同期大多数金表还贵。这是一个宣言：价值不在材料，在设计。
+
+事实证明他是对的。Royal Oak不仅存活了下来，还开创了一个全新的品类——"奢华运动表"。四年后，Genta为Patek Philippe设计的Nautilus进一步巩固了这个品类。今天，这两款表的二手市场价格动辄数十万甚至上百万，远超原价。`,
+    legacy: `Royal Oak的遗产是多维度的。它创造了"奢华运动表"这个品类，直接催生了后来的Nautilus、Vacheron Constantin Overseas等经典系列。它证明了设计本身可以是价值的来源——用最普通的材料做出最昂贵的产品。
+
+在工业设计层面，Royal Oak的一体式表壳链带设计影响了无数后来者。八角形表圈成为了AP的品牌图腾，一眼就能辨认。Tapisserie格纹表盘也成为了钟表设计的经典元素。
+
+更深远的影响是理念层面的：Genta证明了一个天才设计师可以凭借设计改变整个行业的价值体系。在Royal Oak之前，手表的价值主要由材料和机芯决定；在它之后，设计成为了第三根支柱。`,
+    significance: `Royal Oak是20世纪最重要的工业设计作品之一。它证明了一个看似简单的道理：好的设计可以重新定义价值。一块不锈钢手表，凭借Genta的设计天赋，可以比黄金手表更贵、更受追捧。
+
+这和Dieter Rams的"少即是多"、乔布斯的"设计就是产品"一脉相承——都在说同一件事：设计不是装饰，设计就是价值本身。`,
+
+    dateConnection_en: `On May 1, 1931, Gérald Genta was born in Geneva. The man who would become known as the "Picasso of watchmaking" created the Royal Oak in a single overnight sketching session, forever changing the watch industry. Today marks his 95th birthday.`,
+    designerBio_en: `Gérald Genta (1931–2011) was born in Geneva to a Swiss-Italian family and trained as a jeweler and goldsmith. From the 1960s, he began designing cases for major watch brands, eventually building the most celebrated personal brand in horological history.
+
+His portfolio reads like a greatest hits of modern watchmaking: the Audemars Piguet Royal Oak, Patek Philippe Nautilus, IWC Ingenieur, Bulgari Bulgari — nearly every one became a cornerstone collection for its brand, continuing to this day. He later founded his eponymous brand, Gérald Genta, renowned for complicated timepieces and bold aesthetics.
+
+Genta's design philosophy was that "a watch is miniature architecture" — he infused each case with an architect's sense of proportion and a sculptor's three-dimensionality, transforming watches from precision instruments into wearable works of art.`,
+    story_en: `In the early 1970s, the Swiss watch industry was in existential crisis. Japan's Seiko quartz watches were sweeping the market with affordable precision, making traditional mechanical watches seem obsolete. At this darkest hour, Audemars Piguet's managing director Georges Golay approached Genta with an audacious idea: design a high-end sports watch made of stainless steel.
+
+It sounded insane — luxury watches were made of precious metals; stainless steel was for cheap timepieces. But Genta sketched the design in a single night.
+
+The source of inspiration remains debated. The most widely told story is that he drew from the octagonal portholes of old diving helmets, designing that iconic octagonal bezel secured by eight exposed hexagonal screws. The dial featured an exquisite "Tapisserie" checkered pattern (which would become brand DNA), and the case merged seamlessly with an integrated metal bracelet — a design never seen before.
+
+**The 39mm diameter was considered too large.** Stainless steel was considered too lowly. The integrated bracelet was considered too radical. When it debuted at the 1972 Basel watch fair, nearly every dealer rejected it.
+
+But Genta knew what he had created. The Royal Oak was priced at 3,300 Swiss francs — more than most gold watches of the era. It was a manifesto: value lies not in materials, but in design.
+
+History proved him right. The Royal Oak didn't just survive — it created an entirely new category: the luxury sports watch. Four years later, Genta's Nautilus for Patek Philippe further cemented the category. Today, both watches command six- and seven-figure prices on the secondary market, far exceeding their original retail.`,
+    legacy_en: `The Royal Oak's legacy is multidimensional. It created the "luxury sports watch" category, directly inspiring the Nautilus, Vacheron Constantin Overseas, and countless other icons. It proved that design itself can be the source of value — making the most expensive product from the most common material.
+
+In industrial design terms, the Royal Oak's integrated case-bracelet construction influenced generations of designers. The octagonal bezel became AP's brand totem, instantly recognizable. The Tapisserie dial pattern became a classic element in watchmaking vocabulary.
+
+The deeper impact is philosophical: Genta demonstrated that a brilliant designer can single-handedly reshape an entire industry's value system. Before the Royal Oak, a watch's worth was determined primarily by its materials and movement; after it, design became the third pillar.`,
+    significance_en: `The Royal Oak stands as one of the 20th century's most important industrial design achievements. It proved a seemingly simple truth: great design can redefine value. A stainless steel watch, through Genta's design genius, can be more coveted and more expensive than one made of gold.
+
+This echoes Dieter Rams' "less but better," Steve Jobs' "design is not how it looks, it's how it works" — all variations of the same insight: design is not decoration. Design is value itself.`,
+  },
 ]
