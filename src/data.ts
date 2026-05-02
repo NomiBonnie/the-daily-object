@@ -6484,4 +6484,75 @@ The deeper impact is philosophical: Genta demonstrated that a brilliant designer
 
 This echoes Dieter Rams' "less but better," Steve Jobs' "design is not how it looks, it's how it works" — all variations of the same insight: design is not decoration. Design is value itself.`,
   },
+  {
+    id: '94',
+    date: '2026-05-02',
+    imageUrl: '/the-daily-object/images/colors-magazine-race.jpg',
+    fullImageUrl: '/the-daily-object/images/full/colors-magazine-race.jpg',
+    title: 'Colors Magazine',
+    title_en: 'Colors Magazine',
+    subtitle: 'Tibor Kalman, 1991',
+    subtitle_en: 'Tibor Kalman, 1991',
+    category: 'graphic' as const,
+    designer: 'Tibor Kalman',
+    year: '1991',
+    tags: ['平面设计的良心', '挑战视觉偏见', '编辑设计革命'],
+    tags_en: ['Conscience of Graphic Design', 'Challenged Visual Bias', 'Editorial Design Revolution'],
+
+    dateConnection: `1999年5月2日，Tibor Kalman因非霍奇金淋巴瘤在波多黎各去世，年仅49岁。这位被Steven Heller称为"平面设计界的良心"的匈裔美国设计师，用不到二十年的职业生涯彻底改变了人们对平面设计的理解——设计不只是让东西好看，更是一种社会行动。他最著名的遗产，是为Benetton创办并编辑的Colors杂志，一本用设计语言讨论种族、艾滋病、生态和不平等的出版物，至今仍是编辑设计的标杆。`,
+    designerBio: `Tibor Kalman（1949–1999）出生于匈牙利布达佩斯，7岁随家人移民美国。他在纽约大学学习新闻学但未毕业，1979年创立了设计工作室M&Co，很快以不循常规的设计方法引起关注。
+
+M&Co的客户名单令人印象深刻——Restaurant Florent、David Byrne的唱片封面、Interview杂志的重新设计——但真正让Kalman与众不同的，是他对设计伦理的执着。他公开批评设计行业为大公司服务的惯性，在AIGA年会上发表著名演讲，呼吁设计师拒绝"美化垃圾"。1990年，他获得AIGA奖章，成为当时最年轻的获奖者之一。
+
+1991年，意大利服装品牌Benetton邀请他担任Colors杂志主编。他把家搬到罗马，全力投入这本"关于世界其他地方的杂志"。在他编辑的13期Colors中，每一期都围绕一个全球性议题——种族、艾滋病、生态、购物、战争——用大胆的视觉语言打破读者的舒适区。`,
+    story: `Colors杂志的诞生本身就是一个不可思议的故事。1991年，Benetton的创意总监Oliviero Toscani找到Tibor Kalman，提出一个疯狂的想法：做一本不卖衣服的品牌杂志。Kalman的条件只有一个——**完全的编辑自由**。Benetton答应了。
+
+第一期Colors的封面是一张刚出生的婴儿照片，脐带尚未剪断。没有标题，没有副标题，没有任何文字解释。这本杂志从第一天起就拒绝遵守任何出版规则。
+
+但真正让Colors名震天下的是第4期——**"Race"（种族）**。Kalman和他的团队用数字技术修改了世界领导人的肤色：伊丽莎白女王变成了黑人，教皇约翰·保罗二世变成了亚洲人，阿诺德·施瓦辛格变成了非裔。这些图像在英国各大报纸头版刊出，引发了关于种族身份的全球讨论。
+
+**这正是Kalman的设计哲学的精髓：设计是提出问题的工具，不是提供答案的工具。** 他不要读者觉得"这个设计真好看"，他要读者觉得"我从来没这样想过"。
+
+Colors的版式设计同样具有革命性。双语排版（意大利语+英语），大量全出血照片，极简的文字，无广告——它更像一本视觉论文集而非杂志。每一页的设计决策都服务于内容的力量，而非设计师的自我表达。
+
+1995年，Kalman被诊断出癌症。他离开Colors回到纽约，但对设计的信念从未动摇。在生命的最后几年，他整理了自己的设计思想，由Peter Hall和Michael Bierut编辑成册《Tibor Kalman: Perverse Optimist》，这本书成为设计教育的必读经典。`,
+    legacy: `Tibor Kalman最深远的遗产，是证明了平面设计可以是一种社会力量。在他之前，"设计伦理"是一个边缘话题；在他之后，越来越多的设计师开始思考自己的工作对社会的影响。
+
+Colors杂志在他离开后继续出版至今，虽然风格有所变化，但Kalman确立的核心理念——用设计语言讨论全球议题——依然贯穿每一期。这本杂志直接影响了后来的Monocle、Good Magazine等编辑设计项目。
+
+"Black Queen Elizabeth"那张图至今仍是设计史上被引用最多的图像之一，出现在无数设计教科书和展览中。它提出的问题在三十年后依然尖锐：如果我们对一个人的肤色感到不适，问题出在谁身上？`,
+    significance: `Kalman代表了平面设计中一条始终稀缺的路线：设计作为社会批判工具。他和Jan van Toorn、Ken Garland等人构成了设计史上的"激进传统"，但Kalman的独特之处在于他不是学院派——他在商业世界中实践自己的理想，证明了伦理与商业并非不可调和。
+
+Colors杂志第4期"Race"的设计方法——用视觉操控来揭示文化偏见——开创了一种后来被广泛采用的设计策略。从当代的数据可视化到社会设计运动，都能看到Kalman的影子。
+
+他49岁的早逝让设计界失去了最响亮的良心之声。但他留下的问题——"作为设计师，你站在谁的一边？"——至今仍在每一间设计学院的课堂上回响。`,
+
+    dateConnection_en: `On May 2, 1999, Tibor Kalman died of non-Hodgkin lymphoma in Puerto Rico at just 49. Called "the conscience of graphic design" by Steven Heller, this Hungarian-American designer used fewer than twenty years in the profession to fundamentally redefine what graphic design could be — not just making things look good, but a form of social action. His most famous legacy is Colors magazine, created and edited for Benetton, a publication that used design language to discuss race, AIDS, ecology, and inequality. It remains a benchmark in editorial design to this day.`,
+    designerBio_en: `Tibor Kalman (1949–1999) was born in Budapest, Hungary, and emigrated to the United States with his family at age seven. He studied journalism at NYU but never graduated, founding design studio M&Co in 1979, which quickly gained attention for its unconventional approach.
+
+M&Co's client list was impressive — Restaurant Florent, David Byrne's album covers, the redesign of Interview magazine — but what truly set Kalman apart was his obsession with design ethics. He publicly criticized the industry's habit of serving corporate interests, delivering a famous speech at the AIGA annual conference calling on designers to refuse to "make garbage look prettier." In 1990, he received the AIGA Medal, becoming one of the youngest recipients.
+
+In 1991, Italian clothing brand Benetton invited him to become editor-in-chief of Colors magazine. He moved his family to Rome and threw himself into "a magazine about the rest of the world." Across the 13 issues he edited, each one tackled a global theme — race, AIDS, ecology, shopping, war — using bold visual language to shatter readers' comfort zones.`,
+    story_en: `The birth of Colors magazine is itself an extraordinary story. In 1991, Benetton's creative director Oliviero Toscani approached Tibor Kalman with a radical idea: create a brand magazine that doesn't sell clothes. Kalman had one condition — **complete editorial freedom**. Benetton agreed.
+
+The first issue's cover featured a photograph of a newborn baby, umbilical cord still attached. No headline, no subtitle, no text. From day one, this magazine refused to follow any publishing rules.
+
+But what truly made Colors legendary was Issue #4 — **"Race."** Kalman and his team digitally altered the skin color of world leaders: Queen Elizabeth II became Black, Pope John Paul II became Asian, Arnold Schwarzenegger became African. The images ran on the front pages of major British newspapers, igniting a global conversation about racial identity.
+
+**This was the essence of Kalman's design philosophy: design is a tool for asking questions, not providing answers.** He didn't want readers to think "what beautiful design" — he wanted them to think "I've never considered that before."
+
+Colors' layout design was equally revolutionary. Bilingual typography (Italian + English), abundant full-bleed photographs, minimal text, no advertising — it read more like a visual essay collection than a magazine. Every design decision served the power of the content, not the designer's self-expression.
+
+In 1995, Kalman was diagnosed with cancer. He left Colors and returned to New York, but his conviction about design never wavered. In his final years, he organized his design thinking into what became, edited by Peter Hall and Michael Bierut, *Tibor Kalman: Perverse Optimist* — now an essential text in design education.`,
+    legacy_en: `Tibor Kalman's most enduring legacy is proving that graphic design can be a social force. Before him, "design ethics" was a fringe topic; after him, more and more designers began questioning their work's impact on society.
+
+Colors magazine continued publishing after his departure and still exists today. While its style has evolved, the core philosophy Kalman established — using design language to address global issues — runs through every issue. The magazine directly influenced later editorial projects like Monocle and Good Magazine.
+
+The "Black Queen Elizabeth" image remains one of the most cited images in design history, appearing in countless textbooks and exhibitions. The question it posed is still sharp three decades later: if we feel uncomfortable about a person's skin color, whose problem is that?`,
+    significance_en: `Kalman represents an always-scarce tradition in graphic design: design as social critique. He joins Jan van Toorn, Ken Garland, and others in design history's "radical tradition," but Kalman's uniqueness lies in his refusal to be academic — he practiced his ideals within the commercial world, proving that ethics and commerce need not be irreconcilable.
+
+The design methodology of Colors Issue #4 "Race" — using visual manipulation to expose cultural bias — pioneered a strategy that has since been widely adopted. From contemporary data visualization to social design movements, Kalman's influence is visible.
+
+His death at 49 robbed the design world of its loudest moral voice. But the question he left behind — "As a designer, whose side are you on?" — still echoes in every design classroom today.`,
+  },
 ]
