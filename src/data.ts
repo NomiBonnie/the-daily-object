@@ -6555,4 +6555,49 @@ The design methodology of Colors Issue #4 "Race" — using visual manipulation t
 
 His death at 49 robbed the design world of its loudest moral voice. But the question he left behind — "As a designer, whose side are you on?" — still echoes in every design classroom today.`,
   },
+  {
+    id: '95',
+    date: '2026-05-03',
+    imageUrl: '/the-daily-object/images/karel-appel-saut-dans-lespace.jpg',
+    fullImageUrl: '/the-daily-object/images/full/karel-appel-saut-dans-lespace.jpg',
+    title: 'Saut dans l\'espace',
+    title_en: 'Saut dans l\'espace',
+    subtitle: 'Karel Appel, 1953',
+    subtitle_en: 'Karel Appel, 1953',
+    category: 'art' as const,
+    designer: 'Karel Appel',
+    year: '1953',
+    tags: ['CoBrA运动创始人', '颠覆战后欧洲艺术', '原始表现主义先驱'],
+    tags_en: ['CoBrA Movement Founder', 'Transformed Postwar European Art', 'Primitive Expressionism Pioneer'],
+    dateConnection: `2006年5月3日，Karel Appel在苏黎世去世，享年85岁。2026年的今天是他逝世20周年。这位荷兰艺术家用儿童般的狂野笔触和爆裂色彩，在战后欧洲的废墟上重建了一种全新的视觉语言。`,
+    designerBio: `Karel Appel 1921年出生于阿姆斯特丹，14岁开始画画，随后进入荷兰皇家艺术学院学习。二战期间德军占领荷兰，他不得不躲避征兵，在暗处继续创作。这段被压抑的经历成为他后来爆发式创作的情感燃料。
+
+1948年，27岁的Appel与Corneille、Constant等人共同创立了CoBrA运动——名字取自哥本哈根、布鲁塞尔、阿姆斯特丹三座城市的首字母。这群年轻艺术家拒绝一切学院派规则，主张用儿童和原始艺术的直觉力量来创作。Appel后来移居巴黎，又辗转纽约和佛罗伦萨，成为战后欧洲最具国际影响力的艺术家之一。`,
+    story: `1949年，Appel为阿姆斯特丹市政厅创作了壁画《Questioning Children》（追问的孩子们）。画面上是一群用粗犷线条和原色画成的儿童面孔——天真、扭曲、带着战后世界的不安。市政厅官员被吓坏了，壁画被用壁纸遮盖，整整十年不见天日。
+
+这恰恰证明了Appel的力量：他的艺术不是用来装饰的，是用来刺痛的。
+
+《Saut dans l'espace》（跃入太空，1953）是他巴黎时期的代表作。画面中一个巨大的头颅占据整个空间，粗粝的笔触像是直接从颜料管挤到画布上。红、蓝、黄、黑——他只用最基本的颜色，却制造出令人窒息的视觉张力。这不是优雅的抽象，这是原始力量的直接释放。
+
+**"我不画，我撞击。"**（I don't paint, I hit.）Appel的这句名言完美概括了他的创作方式。他把绘画变成了一种身体行为，每一笔都像是拳头砸在画布上。`,
+    legacy: `CoBrA运动虽然只持续了三年（1948-1951），但它改变了战后欧洲艺术的走向。在抽象表现主义统治美国的同时，CoBrA在欧洲开辟了另一条道路——不是走向纯粹抽象，而是回到人类最原始的视觉冲动。
+
+Appel的作品被MoMA、泰特现代美术馆、蓬皮杜中心等全球顶级博物馆收藏。2016年，他逝世十周年之际，海牙市立博物馆和华盛顿Phillips Collection同时举办回顾展。阿姆斯特丹近郊专门设有CoBrA现代艺术博物馆，Appel是最核心的馆藏艺术家。`,
+    significance: `Appel证明了"粗糙"可以是一种美学选择，而不是技术缺陷。在一个追求精致和理性的时代，他用看似儿童涂鸦的方式揭示了更深层的真实。他对Jean-Michel Basquiat等后来的新表现主义艺术家产生了直接影响。`,
+    dateConnection_en: `On May 3, 2006, Karel Appel passed away in Zurich at the age of 85. Today marks the 20th anniversary of his death. This Dutch artist rebuilt an entirely new visual language from the rubble of postwar Europe, armed with childlike ferocity and explosive color.`,
+    designerBio_en: `Karel Appel was born in Amsterdam in 1921. He began painting at fourteen and studied at the Rijksakademie during the German occupation, hiding from conscription while continuing to create in secret. That suppressed energy became the emotional fuel for his later explosive work.
+
+In 1948, the 27-year-old Appel co-founded the CoBrA movement with Corneille, Constant, and others — named after the initials of Copenhagen, Brussels, and Amsterdam. These young artists rejected all academic rules, embracing the instinctive power of children's art and primitive expression. Appel later moved to Paris, then New York and Florence, becoming one of postwar Europe's most internationally influential artists.`,
+    story_en: `In 1949, Appel created a mural called *Questioning Children* for Amsterdam City Hall. It depicted children's faces rendered in crude lines and primary colors — innocent, distorted, carrying the unease of the postwar world. City officials were horrified. The mural was covered with wallpaper and hidden for ten years.
+
+This proved exactly Appel's power: his art wasn't made to decorate. It was made to sting.
+
+*Saut dans l'espace* (Leap into Space, 1953) is a defining work from his Paris period. A massive head dominates the canvas, painted with strokes so raw they seem squeezed directly from the tube. Red, blue, yellow, black — using only the most basic colors, he creates suffocating visual tension. This isn't elegant abstraction. This is the direct release of primal force.
+
+**"I don't paint, I hit."** Appel's famous declaration perfectly captures his method. He turned painting into a physical act, every brushstroke like a fist striking canvas.`,
+    legacy_en: `Though CoBrA lasted only three years (1948-1951), it altered the trajectory of postwar European art. While Abstract Expressionism dominated America, CoBrA carved a different path in Europe — not toward pure abstraction, but back to humanity's most primitive visual impulses.
+
+Appel's works are held by MoMA, Tate Modern, Centre Pompidou, and other world-class museums. In 2016, the tenth anniversary of his death, the Kunstmuseum Den Haag and Washington's Phillips Collection mounted simultaneous retrospectives. The CoBrA Museum of Modern Art near Amsterdam holds his work as its centerpiece collection.`,
+    significance_en: `Appel proved that "roughness" could be an aesthetic choice, not a technical flaw. In an era obsessed with refinement and rationality, he used what appeared to be children's scrawl to reveal deeper truths. His direct influence can be traced to later Neo-Expressionists like Jean-Michel Basquiat.`,
+  },
 ]
