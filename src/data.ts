@@ -6600,4 +6600,45 @@ This proved exactly Appel's power: his art wasn't made to decorate. It was made 
 Appel's works are held by MoMA, Tate Modern, Centre Pompidou, and other world-class museums. In 2016, the tenth anniversary of his death, the Kunstmuseum Den Haag and Washington's Phillips Collection mounted simultaneous retrospectives. The CoBrA Museum of Modern Art near Amsterdam holds his work as its centerpiece collection.`,
     significance_en: `Appel proved that "roughness" could be an aesthetic choice, not a technical flaw. In an era obsessed with refinement and rationality, he used what appeared to be children's scrawl to reveal deeper truths. His direct influence can be traced to later Neo-Expressionists like Jean-Michel Basquiat.`,
   },
+  {
+    id: '96',
+    date: '2026-05-04',
+    imageUrl: '/the-daily-object/images/keith-haring-tuttomondo.jpg',
+    fullImageUrl: '/the-daily-object/images/full/keith-haring-tuttomondo.jpg',
+    title: 'Tuttomondo',
+    title_en: 'Tuttomondo',
+    subtitle: 'Keith Haring, 1989',
+    subtitle_en: 'Keith Haring, 1989',
+    category: 'graphic' as const,
+    designer: 'Keith Haring',
+    year: '1989',
+    tags: ['街头艺术先驱', '艺术民主化运动', '用线条对抗时代'],
+    tags_en: ['Street Art Pioneer', 'Art Democratization', 'Lines Against the Times'],
+    dateConnection: `1958年5月4日，Keith Haring 出生于宾夕法尼亚州雷丁市。从纽约地铁站的粉笔涂鸦到全球美术馆的永久收藏，他用不到十年时间重新定义了公共艺术的边界。`,
+    dateConnection_en: `Keith Haring was born on May 4, 1958 in Reading, Pennsylvania. From chalk drawings in New York subway stations to permanent collections in museums worldwide, he redefined the boundaries of public art in less than a decade.`,
+    designerBio: `Keith Haring 在宾州小镇长大，父亲是业余漫画家，从小教他用简单线条画卡通。1978年他来到纽约，进入视觉艺术学院（School of Visual Arts），很快被城市的涂鸦文化吸引。他开始在地铁站空白的黑色广告板上用白色粉笔作画——跳舞的小人、吠叫的狗、爬行的婴儿，每天创作数十幅。
+
+这些地铁画让他成为纽约最受欢迎的"匿名艺术家"。通勤者停下脚步观看他作画，有人甚至会把画板从墙上取下带回家。Haring 不在乎——他认为艺术应该属于所有人，而不是被画廊的白墙囚禁。`,
+    designerBio_en: `Keith Haring grew up in a small Pennsylvania town where his father, an amateur cartoonist, taught him to draw simple cartoon figures. In 1978 he moved to New York and enrolled at the School of Visual Arts, quickly falling under the spell of the city\'s graffiti culture. He began drawing on blank black advertising panels in subway stations with white chalk — dancing figures, barking dogs, radiant babies — producing dozens of drawings daily.
+
+These subway drawings made him New York\'s most beloved "anonymous artist." Commuters stopped to watch him work; some even pried the panels off the walls to take home. Haring didn\'t mind — he believed art should belong to everyone, not be imprisoned behind gallery walls.`,
+    story: `1989年，已经被诊断出艾滋病的 Haring 受邀前往意大利比萨，在圣安东尼奥教堂外墙创作一幅巨型壁画。他知道时间不多了。
+
+在六月的酷暑中，Haring 花了整整一周，用鲜艳的丙烯颜料完成了这幅180平方米的壁画 *Tuttomondo*（"全世界"）。画面上30个交织的人形——有的举起剪刀形的手臂，有的骑在海豚上，有的头顶婴儿——用 Haring 标志性的粗黑轮廓线连成一个有机整体。每个人形都代表世界的一个面向：和平、科技、母性、自然。
+
+这是 Haring 最后一件大型公共作品。八个月后，他在纽约去世，年仅31岁。但 *Tuttomondo* 至今完好保存在比萨街头，成为这座以斜塔闻名的城市的另一个地标。
+
+比壁画更重要的是 Haring 对"设计"这个词的重新诠释。1986年他在纽约苏荷区开设 **Pop Shop**，出售印有自己图案的T恤、徽章、冰箱贴——价格从1美元起。艺术界指责他"出卖灵魂"，但 Haring 的回应很简单：如果人们买不起画，就让他们买得起一件T恤。Pop Shop 开创了艺术家品牌化的先河，从村上隆到 KAWS，今天所有用图形语言做商品的艺术家都欠 Haring 一个致敬。`,
+    story_en: `In 1989, already diagnosed with AIDS, Haring was invited to Pisa, Italy, to paint a massive mural on the exterior wall of the Church of Sant\'Antonio. He knew time was running out.
+
+Through the June heat, Haring spent an entire week completing the 180-square-meter mural *Tuttomondo* ("All World") in vivid acrylic. Thirty interlocking figures — one raising scissor-like arms, another riding a dolphin, another balancing a baby overhead — are bound together by Haring\'s signature bold black outlines into a single organic whole. Each figure represents a facet of the world: peace, technology, motherhood, nature.
+
+This was Haring\'s last major public work. Eight months later, he died in New York at just 31. But *Tuttomondo* remains perfectly preserved on that Pisa street, a second landmark for the city famous for its leaning tower.
+
+More significant than any single mural was Haring\'s redefinition of the word "design." In 1986, he opened the **Pop Shop** in New York\'s SoHo, selling T-shirts, pins, and fridge magnets bearing his imagery — prices starting at one dollar. The art world accused him of selling out, but Haring\'s response was simple: if people can\'t afford a painting, let them afford a T-shirt. The Pop Shop pioneered artist branding. From Takashi Murakami to KAWS, every artist who turns graphic language into merchandise today owes Haring a nod.`,
+    legacy: `Haring 的视觉语言已经成为20世纪最可辨识的图形系统之一。他的"辐射婴儿"（Radiant Baby）、三眼笑脸和吠叫的狗不需要任何文字解释就能被全球观众理解。这种极简而有力的图形风格直接影响了后来的街头艺术运动、潮牌设计和社交媒体时代的视觉传播方式。Keith Haring Foundation 持续资助艾滋病研究和儿童艺术教育项目，延续着他"艺术属于所有人"的信念。`,
+    legacy_en: `Haring\'s visual language has become one of the most recognizable graphic systems of the twentieth century. His Radiant Baby, three-eyed smiley faces, and barking dogs communicate instantly to global audiences without a single word. This minimal yet powerful graphic style directly influenced later street art movements, streetwear design, and visual communication in the social-media age. The Keith Haring Foundation continues to fund AIDS research and children\'s art education, carrying forward his belief that art belongs to everyone.`,
+    significance: `在 Haring 之前，"高级艺术"和"街头涂鸦"之间有一道不可逾越的鸿沟。他用粉笔和喷漆证明了一幅地铁站的即兴画可以和画廊里的油画一样有力量。Pop Shop 的商业模式更是打破了"艺术不能量产"的禁忌，为后来的艺术家品牌化——从 Banksy 到 Virgil Abloh——铺平了道路。`,
+    significance_en: `Before Haring, an impassable chasm separated "high art" from "street graffiti." With chalk and spray paint, he proved that an improvised subway drawing could carry the same power as a gallery oil painting. The Pop Shop\'s commercial model further shattered the taboo that art cannot be mass-produced, paving the way for later artist-branding — from Banksy to Virgil Abloh.`,
+  },
 ]
