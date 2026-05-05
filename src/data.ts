@@ -6641,4 +6641,51 @@ More significant than any single mural was Haring\'s redefinition of the word "d
     significance: `在 Haring 之前，"高级艺术"和"街头涂鸦"之间有一道不可逾越的鸿沟。他用粉笔和喷漆证明了一幅地铁站的即兴画可以和画廊里的油画一样有力量。Pop Shop 的商业模式更是打破了"艺术不能量产"的禁忌，为后来的艺术家品牌化——从 Banksy 到 Virgil Abloh——铺平了道路。`,
     significance_en: `Before Haring, an impassable chasm separated "high art" from "street graffiti." With chalk and spray paint, he proved that an improvised subway drawing could carry the same power as a gallery oil painting. The Pop Shop\'s commercial model further shattered the taboo that art cannot be mass-produced, paving the way for later artist-branding — from Banksy to Virgil Abloh.`,
   },
+  {
+    id: '97',
+    date: '2026-05-05',
+    imageUrl: '/the-daily-object/images/chanel-no-5.jpg',
+    fullImageUrl: '/the-daily-object/images/full/chanel-no-5.jpg',
+    title: 'Chanel N°5',
+    title_en: 'Chanel N°5',
+    subtitle: 'Coco Chanel & Ernest Beaux, 1921',
+    subtitle_en: 'Coco Chanel & Ernest Beaux, 1921',
+    category: 'fashion' as const,
+    designer: 'Coco Chanel',
+    year: '1921',
+    tags: ['重新定义奢侈品', '现代香水的起点', '瓶身设计革命'],
+    tags_en: ['Redefined Luxury', 'Birth of Modern Perfumery', 'Bottle Design Revolution'],
+
+    dateConnection: `1921年5月5日，Coco Chanel在法国格拉斯的调香师Ernest Beaux的实验室里，从编号1到5的五组样品中选中了第五号。她决定就叫它"N°5"——因为5是她的幸运数字，而这一天恰好是5月5日。这款香水随后在5月5日正式推出，开启了一个跨越百年的传奇。`,
+    designerBio: `Gabrielle "Coco" Chanel（1883–1971）出生于法国索米尔一个贫困家庭，12岁丧母后被送进修道院。修道院里简洁的黑白世界深深影响了她后来的美学——去除一切多余装饰，只留本质。
+
+1910年，她在巴黎康朋街31号开设了第一家帽子店，随后逐步扩展到时装。在一个女性被紧身胸衣和繁复蕾丝束缚的时代，Chanel用针织面料、水手衫和小黑裙解放了女性的身体。到1920年代，她已经是巴黎最有影响力的设计师之一。
+
+但她最大胆的一步，是跨入香水领域。当时的香水要么是单一花香（玫瑰、茉莉、紫罗兰），要么是妓女使用的浓烈麝香。Chanel想要一种"闻起来像女人，而不是像花"的香水——一种抽象的、现代的、前所未有的气味。`,
+    story: `1920年夏天，Chanel在法国里维埃拉度假时，通过朋友认识了俄裔调香师Ernest Beaux。Beaux曾在沙皇御用香水公司Rallet工作，是当时最顶尖的调香师之一。Chanel向他提出了一个在当时几乎不可理解的要求："我要一款人工的香水，不是花香，而是一种被构造出来的气味。"
+
+Beaux呈上了两组样品，编号从1到5和20到24。Chanel闻到5号的瞬间，说："这就是我要的。"这款香水的革命性在于它大量使用了醛类——一种合成分子，能让香味产生一种闪烁的、金属般的光泽感。在此之前，从没有人在高级香水中如此大胆地使用合成原料。
+
+**瓶身设计同样是一次革命。** 当时的香水瓶都是洛可可风格的繁复玻璃艺术品。Chanel反其道而行之，设计了一个近乎药瓶般朴素的方形玻璃瓶：直线条、圆角矩形、极简标签。据说灵感来自她在男友Arthur "Boy" Capel的旅行洗漱包里看到的威士忌酒瓶。这种"反装饰"的设计理念，比包豪斯运动还要早两年。
+
+Andy Warhol在1962年将N°5瓶身作为丝网印刷的主题，把它从一件商品提升为一个文化符号。Marilyn Monroe那句"我只穿着Chanel N°5入睡"更让它成为性感与优雅的代名词。百年来，这个方瓶的设计几乎没有改变——它不需要改变。`,
+    legacy: `Chanel N°5是历史上最畅销的香水，每30秒卖出一瓶。它的瓶身被纽约大都会艺术博物馆和MoMA永久收藏，作为20世纪最重要的设计品之一。更深远的影响在于它彻底改变了香水行业的逻辑：在N°5之前，香水是手工作坊的产物；在它之后，香水成为时装品牌的核心商品线，成为奢侈品帝国的利润引擎。从Dior到Tom Ford，每一个时装屋推出香水的商业模式，都可以追溯到1921年Chanel迈出的这一步。`,
+    significance: `N°5的设计哲学——用最简洁的形式承载最复杂的内涵——与同时代的现代主义运动遥相呼应。方瓶、黑白标签、无装饰的线条，这些设计语言比密斯·凡·德·罗的"少即是多"更早地进入了大众消费品领域。它证明了一件事：极简不是简陋，而是一种更高级的复杂。`,
+
+    dateConnection_en: `On May 5, 1921, Coco Chanel selected sample number five from a series presented by perfumer Ernest Beaux at his laboratory in Grasse. She named it simply "N°5" — five was her lucky number, and this day was the fifth of the fifth month. The fragrance launched that same day, beginning a legend that has endured for over a century.`,
+    designerBio_en: `Gabrielle "Coco" Chanel (1883–1971) was born into poverty in Saumur, France. Orphaned at twelve, she was raised in a convent whose austere black-and-white world profoundly shaped her aesthetic — strip away all unnecessary ornamentation and keep only what is essential.
+
+In 1910, she opened her first hat shop at 31 Rue Cambon in Paris, gradually expanding into fashion. In an era when women were confined by corsets and elaborate lace, Chanel liberated the female body with jersey fabrics, sailor shirts, and the little black dress. By the 1920s, she was one of the most influential designers in Paris.
+
+Her boldest move, however, was entering the perfume world. At the time, fragrances were either single-note florals (rose, jasmine, violet) or the heavy musks worn by courtesans. Chanel wanted something that "smelled like a woman, not like a flower" — an abstract, modern, unprecedented scent.`,
+    story_en: `In the summer of 1920, while vacationing on the French Riviera, Chanel met Ernest Beaux, a Russian-born perfumer who had worked for Rallet, the Tsar's official fragrance house. She made a request that was almost incomprehensible at the time: "I want an artificial perfume — not a floral scent, but a constructed smell."
+
+Beaux presented two series of samples, numbered 1 through 5 and 20 through 24. The moment Chanel smelled number five, she declared: "This is what I want." The fragrance was revolutionary for its bold use of aldehydes — synthetic molecules that gave the scent a shimmering, metallic luminosity. No one had ever used synthetics so audaciously in fine perfumery.
+
+**The bottle design was equally revolutionary.** At the time, perfume bottles were ornate Rococo glass objets d'art. Chanel took the opposite approach, designing a near-pharmaceutical square glass bottle: clean lines, rounded rectangle, minimal label. The inspiration reportedly came from the whiskey decanters in her lover Arthur "Boy" Capel's travel kit. This "anti-decorative" design philosophy predated the Bauhaus movement by two years.
+
+Andy Warhol's 1962 silkscreen prints elevated the N°5 bottle from commercial product to cultural icon. Marilyn Monroe's famous declaration — "I wear nothing to bed but Chanel N°5" — cemented its status as the ultimate symbol of sensuality and elegance. In a century, the bottle's design has barely changed — because it never needed to.`,
+    legacy_en: `Chanel N°5 is the best-selling perfume in history, with one bottle sold every thirty seconds. Its bottle is in the permanent collections of the Metropolitan Museum of Art and MoMA, recognized as one of the most important design objects of the twentieth century. Its deeper impact lies in how it transformed the perfume industry: before N°5, fragrance was a cottage craft; after it, perfume became the core product line and profit engine of luxury fashion empires. From Dior to Tom Ford, every fashion house's fragrance business model traces back to the step Chanel took in 1921.`,
+    significance_en: `N°5's design philosophy — the simplest possible form carrying the most complex content — resonated with the concurrent Modernist movement. The square bottle, black-and-white label, and unadorned lines brought design language into mass consumer goods earlier than Mies van der Rohe's "less is more." It proved one thing: minimalism is not austerity — it is a higher order of complexity.`,
+  },
 ]
