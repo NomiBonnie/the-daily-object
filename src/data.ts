@@ -6747,4 +6747,58 @@ More importantly, the Arabesco heralded an emerging design philosophy: furniture
 Italian furniture brand Zanotta received authorization to reproduce the Arabesco in the 1980s and continues production today. But the handcraft traces of the originals — subtle grain variations, the oxidized patina of the brass fittings — can never be replicated.`,
     significance_en: `In the narrative of design history, the mid-twentieth century is typically defined by the rational geometry of Bauhaus and the International Style. Mollino's Arabesco stands as the most powerful rebellion against that orthodoxy: it proved that modern design need not be cold straight lines — curved organic forms could be equally rigorous, structurally sound, and functionally complete. This was not a rejection of Modernism but an expansion of it — modernity has more than one face.`,
   },
+  {
+    id: '97',
+    date: '2026-05-07',
+    imageUrl: '/the-daily-object/images/sony-walkman-tps-l2.jpg',
+    fullImageUrl: '/the-daily-object/images/full/sony-walkman-tps-l2.jpg',
+    title: 'Sony Walkman TPS-L2',
+    title_en: 'Sony Walkman TPS-L2',
+    subtitle: '盛田昭夫 & Sony 设计团队, 1979',
+    subtitle_en: 'Akio Morita & Sony Design Team, 1979',
+    category: 'industrial' as const,
+    designer: '盛田昭夫',
+    year: '1979',
+    tags: ['改变了人类听音乐的方式', '便携电子产品鼻祖', '创造了一个全新品类'],
+    tags_en: ['Changed How Humans Listen', 'Portable Electronics Pioneer', 'Created an Entire Category'],
+
+    dateConnection: `1946年5月7日，井深大和盛田昭夫在东京日本桥白木屋百货三楼成立了「东京通信工业株式会社」——这就是 Sony 的前身。33年后的1979年，这家公司推出了一款彻底改变人类日常生活的产品：Walkman TPS-L2。没有任何市场调研说人们想要一个「不能录音的录音机」，但盛田昭夫坚信，人们一定会爱上随时随地听音乐的自由。`,
+    dateConnection_en: `On May 7, 1946, Masaru Ibuka and Akio Morita founded Tokyo Tsushin Kogyo (Tokyo Telecommunications Engineering Corporation) on the third floor of a department store in Nihonbashi, Tokyo — the company that would become Sony. Thirty-three years later in 1979, this company released a product that fundamentally changed daily life: the Walkman TPS-L2. No market research suggested people wanted a "tape player that can't record," but Morita was convinced people would love the freedom to listen to music anywhere.`,
+    designerBio: `盛田昭夫（1921–1999）是20世纪最具远见的企业家之一。他出生于名古屋一个有400年历史的酿酒世家，本应继承家业，却在大学时迷上了物理学和电子技术。二战结束后，他与工程师井深大在一片废墟中创建了 Sony 的前身。
+
+盛田昭夫最过人之处不是技术，而是对消费者需求的直觉。他坚信好产品不需要市场调研——「我们的计划是用新产品引领公众，而不是问他们想要什么。公众不知道什么是可能的，我们知道。」这种哲学后来被乔布斯几乎原封不动地继承。`,
+    designerBio_en: `Akio Morita (1921–1999) was one of the most visionary entrepreneurs of the twentieth century. Born in Nagoya into a sake-brewing family with a 400-year history, he was expected to inherit the business but became captivated by physics and electronics in university. After World War II, he and engineer Masaru Ibuka founded Sony's predecessor amid the ruins of Tokyo.
+
+Morita's greatest talent was not technology but an intuition for consumer desire. He famously declared: "Our plan is to lead the public with new products rather than ask them what they want. The public does not know what is possible — we do." This philosophy was later adopted almost verbatim by Steve Jobs.`,
+    story: `Walkman 的诞生源于一个私人需求。Sony 联合创始人井深大喜欢在跨太平洋航班上听歌剧，但当时的便携式录放机 TC-D5 又大又重。他请工程师把它改小、去掉录音功能、只保留播放——纯粹为了自己用。
+
+盛田昭夫看到原型机后，立刻意识到这不只是一个个人玩具。**如果每个人都能随身携带自己的音乐呢？** 当时所有 Sony 高管都反对这个产品——一个不能录音的录音机谁会买？但盛田昭夫力排众议，甚至赌上了自己的职位。
+
+1979年7月1日，TPS-L2 以33,000日元（约150美元）的价格上市。蓝银配色的金属机身、标志性的橙色耳机泡棉、小巧到可以别在腰带上的体积——这些设计细节共同构成了一种全新的产品美学。Sony 原本担心卖不出去，但第一批3万台在两个月内售罄。到1980年代末，Walkman 全球销量超过1亿台。
+
+**Walkman 改变的不只是听音乐的方式，而是城市生活本身。** 它创造了「个人音乐空间」的概念——你可以在拥挤的地铁里、嘈杂的街头拥有完全属于自己的声音世界。社会学家称之为「便携式隐私」。在 Walkman 之前，音乐是共享的；在 Walkman 之后，音乐变成了私人的。这种转变一直延续到今天的 AirPods 时代。`,
+    story_en: `The Walkman was born from a personal need. Sony co-founder Masaru Ibuka loved listening to opera on trans-Pacific flights, but the portable recorder TC-D5 was bulky and heavy. He asked engineers to make it smaller, remove the recording function, keep only playback — purely for his own use.
+
+When Akio Morita saw the prototype, he immediately recognized it as more than a personal gadget. **What if everyone could carry their own music?** Every Sony executive opposed the product — who would buy a tape player that can't record? But Morita overruled them all, reportedly staking his position on the bet.
+
+On July 1, 1979, the TPS-L2 launched at ¥33,000 (about $150). The blue-and-silver metal body, the iconic orange foam headphone pads, the compact size that clipped to a belt — these design details together formed an entirely new product aesthetic. Sony initially worried about selling the first batch of 30,000 units, but they sold out within two months. By the late 1980s, Walkman sales exceeded 100 million worldwide.
+
+**The Walkman changed not just how people listened to music, but urban life itself.** It created the concept of a "personal sound space" — you could inhabit your own sonic world in a crowded subway or noisy street. Sociologists called it "portable privacy." Before the Walkman, music was shared; after the Walkman, music became personal. That shift continues through today's AirPods era.`,
+    legacy: `Walkman 开创了「便携个人电子设备」这个至今仍在持续的超级品类。从 Discman 到 iPod，从 iPod 到 iPhone，从 iPhone 到 AirPods——这条产品进化线的起点就是1979年的 TPS-L2。
+
+「Walkman」一词甚至进入了多国词典，成为便携音乐播放器的通用名词。它的蓝银配色和圆角矩形造型影响了整整一代工业设计，那种「科技产品可以是时尚配饰」的理念在40多年后依然是消费电子设计的核心信条。
+
+MoMA、V&A、伦敦设计博物馆均将 TPS-L2 列入永久收藏。2019年，Sony 推出了40周年纪念版 NW-A100TPS，完美复刻了初代 Walkman 的外观——致敬这台改变世界的小蓝盒子。`,
+    legacy_en: `The Walkman created the "portable personal electronics" super-category that continues to this day. From the Discman to the iPod, from the iPod to the iPhone, from the iPhone to AirPods — this product evolution traces directly back to the 1979 TPS-L2.
+
+The word "Walkman" entered dictionaries in multiple languages as a generic term for portable music players. Its blue-silver color scheme and rounded-rectangle form influenced an entire generation of industrial design; the idea that "tech products can be fashion accessories" remains a core tenet of consumer electronics design four decades later.
+
+MoMA, the V&A, and the Design Museum in London all include the TPS-L2 in their permanent collections. In 2019, Sony released a 40th anniversary edition NW-A100TPS that faithfully recreated the original Walkman's appearance — a tribute to the little blue box that changed the world.`,
+    significance: `在设计史的叙事中，Walkman TPS-L2 的意义远超一台音乐播放器。它证明了一个激进的设计命题：**减法可以创造全新品类。** 去掉录音功能不是妥协，而是对「这个产品到底是什么」的重新定义。当所有人都在做加法——更多功能、更多按钮——Sony 做了减法，结果创造了一个价值数十亿美元的全新市场。
+
+这种设计哲学——通过精准的功能删减来定义产品身份——后来成为苹果设计的核心方法论。从这个意义上说，没有 Walkman，就没有 iPod；没有 iPod 的设计基因，就没有 iPhone。`,
+    significance_en: `In design history, the Walkman TPS-L2 transcends its identity as a music player. It proved a radical design proposition: **subtraction can create entirely new categories.** Removing the recording function was not a compromise but a redefinition of what the product fundamentally was. While everyone else was adding more features and buttons, Sony subtracted — and created a multi-billion-dollar market.
+
+This design philosophy — defining a product's identity through precise functional reduction — later became the core methodology of Apple design. In this sense, without the Walkman there would be no iPod; without the iPod's design DNA, there would be no iPhone.`,
+  },
 ]
