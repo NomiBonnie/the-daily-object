@@ -6801,4 +6801,67 @@ MoMA, the V&A, and the Design Museum in London all include the TPS-L2 in their p
 
 This design philosophy — defining a product's identity through precise functional reduction — later became the core methodology of Apple design. In this sense, without the Walkman there would be no iPod; without the iPod's design DNA, there would be no iPhone.`,
   },
+  {
+    id: '98',
+    date: '2026-05-08',
+    imageUrl: '/the-daily-object/images/saul-bass-anatomy-of-murder.jpg',
+    fullImageUrl: '/the-daily-object/images/full/saul-bass-anatomy-of-murder.jpg',
+    title: 'Anatomy of a Murder 电影海报',
+    title_en: 'Anatomy of a Murder Film Poster',
+    subtitle: 'Saul Bass, 1959',
+    subtitle_en: 'Saul Bass, 1959',
+    category: 'graphic' as const,
+    designer: 'Saul Bass',
+    year: '1959',
+    tags: ['电影海报设计革命', '平面设计史丰碑', '改变了视觉传播'],
+    tags_en: ['Revolutionized Film Posters', 'Graphic Design Milestone', 'Transformed Visual Communication'],
+
+    dateConnection: `1920年5月8日，Saul Bass 出生于纽约布朗克斯区一个东欧犹太移民家庭。这个在贫民区长大的孩子，后来彻底改变了好莱坞——不是用摄影机，而是用平面设计。在他之前，电影海报只是明星大头照加片名；在他之后，海报本身成了艺术品。《Anatomy of a Murder》的海报是他最大胆的一张：一具被拆解成七块碎片的人形剪影，没有明星脸，没有枪，没有血——只有一个被肢解的黑色轮廓，却比任何暴力画面都更令人不安。`,
+    designerBio: `Saul Bass（1920-1996）是20世纪最具影响力的平面设计师之一。他在布鲁克林学院学习，师从匈牙利包豪斯设计师 Gyorgy Kepes，后者将欧洲现代主义的精髓传授给了这个纽约穷小子。
+
+1946年，Bass 搬到洛杉矶开设了自己的设计工作室。最初做商业广告和包装设计，直到1954年 Otto Preminger 邀请他为《Carmen Jones》设计海报，他的人生轨迹彻底改变。Preminger 看中的不只是一张海报——他要 Bass 重新定义电影的视觉语言。
+
+此后四十年，Bass 为超过40部电影设计了片头序列，与 Hitchcock、Preminger、Scorsese 等大导演深度合作。同时，他也是企业标识设计的巨匠：AT&T 的地球标志、United Airlines 的郁金香、Minolta 的标识，都出自他手。他用一种理念贯穿所有作品：**用最少的元素传递最强的信息。**`,
+    story: `1959年，Otto Preminger 再次找到 Bass，为法庭悬疑片《Anatomy of a Murder》设计视觉系统。这部电影改编自真实谋杀案，内容涉及强奸和谋杀——在当时极具争议。
+
+Bass 的解决方案堪称天才：一个被分解成七块不规则碎片的人体剪影。没有写实的暴力，没有惊悚的画面，只有一个被「解剖」的抽象人形——既是对片名的字面回应（anatomy = 解剖），也是对案件核心的隐喻：真相被拆解、被审视、被重新拼凑。
+
+这张海报的革命性在于它的**极端简化**。1950年代的好莱坞海报充斥着手绘明星肖像、戏剧性场景和夸张字体。Bass 把这一切都扔掉了——没有 Jimmy Stewart 的脸，没有法庭场景，没有任何具象元素。只有黑色碎片、黄色背景和冷静的 Helvetica 字体。
+
+这种设计语言在当时是极端前卫的。制片方一度担心观众看不懂，但 Preminger 力挺 Bass。事实证明这张海报不仅没有吓跑观众，反而因其神秘感激发了巨大的好奇心。它成为电影史上被模仿最多的海报设计之一。
+
+Bass 还为这部电影设计了完整的片头序列——同样使用碎片化的人体部件，在 Duke Ellington 的爵士乐中缓缓组合又分离。这个片头本身就是一件独立的艺术品，被 MoMA 永久收藏。`,
+    legacy: `Saul Bass 的影响力远超电影海报领域。他开创了「设计师可以定义一部电影的视觉身份」这一概念——在他之前，海报只是宣传物料；在他之后，视觉设计成为电影叙事的一部分。
+
+他为 Hitchcock 设计的《Vertigo》螺旋、《Psycho》的碎裂字体、《North by Northwest》的倾斜线条，每一个都成了设计史上的经典符号。他的企业标识设计同样影响深远——AT&T 的条纹地球标志从1984年沿用至今。
+
+当代几乎所有电影片头设计师都将 Bass 视为精神导师。Kyle Cooper（《Se7en》片头设计者）直言：「没有 Saul Bass，就没有现代电影片头设计这个行业。」他的作品被 MoMA、库珀·休伊特设计博物馆、国会图书馆永久收藏。`,
+    significance: `《Anatomy of a Murder》海报代表了平面设计史上的一个关键转折：**设计从装饰变成了叙事。** Bass 证明了一张海报可以不依赖明星面孔、不依赖场景再现，仅靠抽象的图形语言就能传递一部电影的核心张力。
+
+这种「少即是多」的极端信念——用一个简单的视觉符号替代千言万语——深刻影响了此后半个世纪的平面设计。从 Milton Glaser 的 I ♥ NY 到苹果的产品海报，这条从 Bass 延伸出来的设计脉络清晰可见。他不只是设计了海报，他重新定义了「海报能做什么」。`,
+
+    dateConnection_en: `On May 8, 1920, Saul Bass was born in the Bronx, New York, to a family of Eastern European Jewish immigrants. This kid from a working-class neighborhood would go on to revolutionize Hollywood — not with a camera, but with graphic design. Before Bass, movie posters were star headshots plus titles; after him, posters became art. The Anatomy of a Murder poster is his boldest: a human silhouette broken into seven irregular fragments — no star faces, no guns, no blood — just a dismembered black outline that disturbs more deeply than any graphic violence could.`,
+    designerBio_en: `Saul Bass (1920–1996) was one of the most influential graphic designers of the 20th century. He studied at Brooklyn College under Hungarian Bauhaus designer Gyorgy Kepes, who transmitted the essence of European modernism to this New York kid from the wrong side of the tracks.
+
+In 1946, Bass moved to Los Angeles and opened his own design studio. He initially worked on commercial advertising and packaging until 1954, when Otto Preminger invited him to design the poster for Carmen Jones — a commission that changed his life trajectory entirely. Preminger wanted more than a poster; he wanted Bass to reinvent cinema's visual language.
+
+Over the next four decades, Bass designed title sequences for over 40 films, collaborating deeply with directors including Hitchcock, Preminger, and Scorsese. Simultaneously, he became a master of corporate identity: the AT&T globe, United Airlines' tulip, and Minolta's logo all came from his studio. One principle unified all his work: **convey the strongest message with the fewest elements.**`,
+    story_en: `In 1959, Otto Preminger turned to Bass again for the courtroom thriller Anatomy of a Murder. Based on a real murder case and dealing with rape and homicide, the film was deeply controversial for its time.
+
+Bass's solution was genius: a human silhouette broken into seven irregular fragments. No realistic violence, no shocking imagery — just an abstract figure that had been "anatomized." It was simultaneously a literal response to the title (anatomy = dissection) and a metaphor for the case itself: truth being broken apart, examined, and reassembled.
+
+The poster's revolutionary quality lay in its **extreme reduction**. 1950s Hollywood posters overflowed with painted star portraits, dramatic scenes, and exaggerated lettering. Bass threw all of that away — no Jimmy Stewart's face, no courtroom scene, no figurative elements whatsoever. Just black fragments, a yellow background, and cool Helvetica typography.
+
+This design language was radically avant-garde for its time. The studio initially worried audiences wouldn't understand it, but Preminger backed Bass completely. The poster not only didn't scare audiences away — its mystery generated enormous curiosity. It became one of the most imitated poster designs in cinema history.
+
+Bass also designed the complete title sequence for the film — using the same fragmented body parts, slowly assembling and separating against Duke Ellington's jazz score. The sequence itself is an independent work of art, permanently collected by MoMA.`,
+    legacy_en: `Saul Bass's influence extends far beyond film posters. He established the concept that a designer could define a film's entire visual identity — before him, posters were just promotional materials; after him, visual design became part of cinematic storytelling.
+
+His work for Hitchcock — the Vertigo spiral, Psycho's shattered typography, North by Northwest's tilted lines — each became iconic symbols in design history. His corporate identity work proved equally enduring: AT&T's striped globe logo, designed in 1984, remains in use today.
+
+Virtually every contemporary film title designer regards Bass as a spiritual mentor. Kyle Cooper, designer of the Se7en titles, stated plainly: "Without Saul Bass, the modern film title design industry wouldn't exist." His work is permanently held by MoMA, the Cooper Hewitt Design Museum, and the Library of Congress.`,
+    significance_en: `The Anatomy of a Murder poster represents a pivotal moment in graphic design history: **design transformed from decoration into narrative.** Bass proved that a poster could convey a film's core tension without relying on star faces or scene recreation — through abstract graphic language alone.
+
+This extreme conviction in "less is more" — replacing a thousand words with a single visual symbol — profoundly influenced the next half-century of graphic design. From Milton Glaser's I ♥ NY to Apple's product posters, the design lineage extending from Bass is unmistakable. He didn't just design posters; he redefined what posters could do.`,
+  },
 ]
