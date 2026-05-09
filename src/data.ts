@@ -6864,4 +6864,59 @@ Virtually every contemporary film title designer regards Bass as a spiritual men
 
 This extreme conviction in "less is more" — replacing a thousand words with a single visual symbol — profoundly influenced the next half-century of graphic design. From Milton Glaser's I ♥ NY to Apple's product posters, the design lineage extending from Bass is unmistakable. He didn't just design posters; he redefined what posters could do.`,
   },
+  {
+    id: '101',
+    date: '2026-05-09',
+    imageUrl: '/the-daily-object/images/missoni-barbados-1973.jpg',
+    fullImageUrl: '/the-daily-object/images/full/missoni-barbados-1973.jpg',
+    title: 'Missoni "Barbados" 连衣裙',
+    title_en: 'Missoni "Barbados" Dress',
+    subtitle: 'Ottavio & Rosita Missoni, 1973',
+    subtitle_en: 'Ottavio & Rosita Missoni, 1973',
+    category: 'fashion' as const,
+    designer: 'Ottavio & Rosita Missoni',
+    year: '1973',
+    tags: ['针织革命先驱', '色彩即身份', '运动员的时尚帝国'],
+    tags_en: ['Knitwear Revolution Pioneer', 'Color as Identity', "An Athlete's Fashion Empire"],
+
+    dateConnection: `2013年5月9日，Missoni 品牌创始人 Ottavio Missoni 在意大利苏米拉戈的家中去世，享年92岁。这位曾代表意大利参加1948年伦敦奥运会400米栏比赛的运动员，用色彩和针织重新定义了意大利时尚的面貌。`,
+    designerBio: `Ottavio Missoni 1921年出生在达尔马提亚海岸的杜布罗夫尼克，母亲是达尔马提亚贵族，父亲是弗留利的船长。他16岁就入选意大利国家田径队，1948年代表意大利参加伦敦奥运会，跑400米栏——决赛中以0.4秒之差与奖牌擦肩而过。
+
+运动员生涯结束后，Ottavio 开始为意大利国家队制作针织运动服。1953年，他与妻子 Rosita——一位来自针织世家的女性——在加拉拉泰创办了自己的针织工坊。Rosita 带来了家族四代人的针织技术积淀，Ottavio 带来了运动员对面料性能的本能理解和对色彩近乎偏执的热爱。
+
+两人的合作堪称完美互补：Rosita 负责廓形和结构，Ottavio 负责色彩和图案。他曾说："我的色彩感来自达尔马提亚海岸的阳光和亚得里亚海的蓝。"`,
+    story: `1967年4月，Missoni 夫妇受邀在佛罗伦萨碧提宫走秀。Rosita 让模特们脱掉胸衣——据说是因为颜色不对——结果在舞台灯光下，薄薄的金属丝衬衫变得半透明。这场"事故"引发了轩然大波，Missoni 被禁止第二年再来。
+
+但正是这场丑闻让他们一举成名。《Vogue》美国版主编 Diana Vreeland 成了他们最坚定的支持者，Bloomingdale's 为他们开设了专柜。
+
+Missoni 的设计语言在1970年代初达到巅峰。他们的标志性元素——锯齿纹（zigzag）、条纹、波浪纹、菱形格——用多达20种颜色在同一件衣服上编织，创造出类似印象派绘画的视觉效果。这件1973年的"Barbados"连衣裙就是典型：黑底上散落着色彩斑斓的几何方块，像夜空中的烟花，又像一幅蒙德里安式的抽象画穿在了身上。
+
+Ottavio 对色彩的理解是直觉性的。他不用色卡，不做色彩理论分析——他把纱线铺在桌上，像调色板一样排列，靠眼睛和感觉决定搭配。"色彩不需要解释，"他说，"你要么感受到了，要么没有。"`,
+    legacy: `Missoni 改变了时尚界对针织的认知。在他们之前，针织意味着运动服和内衣——廉价、实用、登不了大雅之堂。Missoni 证明了针织可以是高级时装，可以承载最复杂的色彩和最精密的图案。
+
+他们的影响远超服装本身。Missoni Home 将同样的色彩哲学延伸到家居领域——地毯、靠垫、浴巾都成了色彩艺术。Hotel Missoni 甚至把这种美学带进了酒店空间。一个针织品牌能发展成一种完整的生活方式美学，这在时尚史上几乎没有先例。
+
+Ottavio 的作品被纽约大都会艺术博物馆、伦敦 V&A 博物馆、米兰三年展设计博物馆永久收藏。`,
+    significance: `Missoni 的贡献可以用一句话概括：他们让色彩成为了一种身份。在一个以黑色为高级、以克制为品味的时尚世界里，Missoni 用爆炸般的色彩组合宣告——穿得鲜艳不是俗气，是勇气。他们的锯齿纹成为20世纪最具辨识度的时尚图案之一，只需一眼就能认出。Ottavio 从400米栏跑道走向了时尚殿堂，用针织和色彩跨越了运动与艺术之间看似不可逾越的鸿沟。`,
+
+    dateConnection_en: `On May 9, 2013, Missoni founder Ottavio Missoni passed away at his home in Sumirago, Italy, at the age of 92. This former Olympic hurdler who represented Italy at the 1948 London Games redefined Italian fashion through color and knitwear.`,
+    designerBio_en: `Ottavio Missoni was born in 1921 in Dubrovnik, on the Dalmatian coast. His mother was a Dalmatian countess; his father, a Friulian sea captain. He joined the Italian national track team at 16 and competed in the 400-meter hurdles at the 1948 London Olympics — missing a medal by just 0.4 seconds in the final.
+
+After his athletic career, Ottavio began making knitted tracksuits for the Italian national team. In 1953, he and his wife Rosita — from a family with four generations of textile expertise — founded a small knitwear workshop in Gallarate. Rosita brought technical mastery of knitting; Ottavio brought an athlete's instinct for fabric performance and an obsessive love of color.
+
+Their partnership was a perfect complement: Rosita handled silhouette and structure, Ottavio handled color and pattern. "My sense of color comes from the sunlight on the Dalmatian coast and the blue of the Adriatic," he once said.`,
+    story_en: `In April 1967, the Missonis were invited to show at the Pitti Palace in Florence. Rosita told the models to remove their bras — supposedly because the color was wrong — and the thin lamé blouses became transparent under the stage lights. The resulting scandal got them banned from the following year's show.
+
+But it was precisely this scandal that made them famous overnight. Diana Vreeland, editor of American Vogue, became their most devoted champion, and Bloomingdale's opened a dedicated Missoni boutique.
+
+Missoni's design language peaked in the early 1970s. Their signature elements — zigzag, stripes, waves, diamonds — wove up to 20 colors into a single garment, creating visual effects resembling Impressionist paintings. This 1973 "Barbados" dress is a perfect example: vivid geometric blocks scattered across a black ground, like fireworks against a night sky, or a wearable Mondrian abstraction.
+
+Ottavio's understanding of color was purely intuitive. He didn't use color cards or color theory — he spread yarns across a table like a painter's palette and decided combinations by eye and feeling. "Color needs no explanation," he said. "You either feel it or you don't."`,
+    legacy_en: `Missoni transformed fashion's perception of knitwear. Before them, knitting meant sportswear and underwear — cheap, functional, unfit for high fashion. Missoni proved that knitwear could be haute couture, capable of carrying the most complex colors and precise patterns.
+
+Their influence extends far beyond clothing. Missoni Home brought the same color philosophy into interiors — rugs, cushions, and towels became color art. Hotel Missoni even carried this aesthetic into hospitality. A knitwear brand evolving into a complete lifestyle aesthetic was virtually unprecedented in fashion history.
+
+Ottavio's work is permanently held by the Metropolitan Museum of Art in New York, the V&A in London, and the Triennale Design Museum in Milan.`,
+    significance_en: `Missoni's contribution can be summed up in one line: they made color an identity. In a fashion world where black signified sophistication and restraint equaled taste, Missoni's explosive color combinations declared that dressing boldly wasn't vulgarity — it was courage. Their zigzag pattern became one of the 20th century's most recognizable fashion motifs, identifiable at a single glance. Ottavio's journey from the 400-meter hurdles to fashion's highest temple bridged the seemingly uncrossable gap between sport and art through nothing more than knitwear and color.`,
+  },
 ]
