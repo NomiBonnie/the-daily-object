@@ -6864,4 +6864,59 @@ Virtually every contemporary film title designer regards Bass as a spiritual men
 
 This extreme conviction in "less is more" — replacing a thousand words with a single visual symbol — profoundly influenced the next half-century of graphic design. From Milton Glaser's I ♥ NY to Apple's product posters, the design lineage extending from Bass is unmistakable. He didn't just design posters; he redefined what posters could do.`,
   },
+  {
+    id: '100',
+    date: '2026-05-09',
+    imageUrl: '/the-daily-object/images/lever-house.jpg',
+    fullImageUrl: '/the-daily-object/images/full/lever-house.jpg',
+    title: 'Lever House',
+    title_en: 'Lever House',
+    subtitle: 'Gordon Bunshaft / SOM, 1952',
+    subtitle_en: 'Gordon Bunshaft / SOM, 1952',
+    category: 'architecture' as const,
+    designer: 'Gordon Bunshaft',
+    year: '1952',
+    tags: ['玻璃幕墙先驱', '重塑了摩天楼美学', '国际主义风格典范'],
+    tags_en: ['Glass Curtain Wall Pioneer', 'Redefined Skyscraper Aesthetics', 'International Style Icon'],
+
+    dateConnection: `1909年5月9日，Gordon Bunshaft 出生于纽约州布法罗市一个俄裔犹太移民家庭。这位日后的普利兹克建筑奖得主，用一栋建筑彻底改变了全世界办公楼的面貌。`,
+    designerBio: `Gordon Bunshaft 是个病弱的孩子，卧床时总在画房子。一位医生看了他的画，对他母亲说："你的儿子应该去当建筑师。"这句话决定了他的一生。
+
+从麻省理工学院建筑系毕业后，Bunshaft 获得了罗坦奖学金（Rotch Travelling Scholarship），在欧洲游历两年，亲眼见到了勒·柯布西耶和密斯·凡·德·罗的作品。1937年加入 SOM（Skidmore, Owings & Merrill）后，他在这家事务所待了超过40年，成为美国现代主义建筑最重要的推手之一。
+
+他的设计哲学极其纯粹：建筑应该诚实地表达自己的结构和材料，不需要任何装饰性的伪装。这种信念在 Lever House 上达到了极致。`,
+    story: `1950年代初的纽约公园大道，挤满了厚重的砖石建筑。联合利华（Lever Brothers）请 SOM 设计新总部时，Bunshaft 提出了一个激进方案：整栋楼用蓝绿色玻璃包裹，底层架空形成公共广场，塔楼不占满地块而是留出大量空间给城市。
+
+这在当时几乎是疯狂的。开发商们习惯把每一寸地面都盖满——地价那么贵，为什么要"浪费"？但 Bunshaft 坚持认为，建筑对城市的贡献不只是面积，还有空间。
+
+1952年建成的 Lever House 只有24层，在公园大道上并不高。但它的冲击力是核弹级的。蓝绿色玻璃幕墙在阳光下闪烁，底层的开放广场让行人第一次可以穿过一栋摩天楼的基座——这在纽约是从未有过的体验。
+
+建筑评论家 Lewis Mumford 在《纽约客》上写道，Lever House 是"纽约最新鲜、最令人愉悦的建筑事件"。它证明了一件事：**一栋商业建筑可以同时是一件艺术品和一份城市礼物。**
+
+此后十年，公园大道上几乎所有新建筑都变成了玻璃幕墙——从密斯的西格拉姆大厦到无数模仿者。整个现代城市天际线的面貌，从此被改写。`,
+    legacy: `Lever House 在1982年被纽约市列为地标建筑——它只有30岁，是当时最年轻的受保护建筑之一。2012年完成了一次精心的修复，恢复了最初的蓝绿色玻璃色调。
+
+Bunshaft 在 SOM 的四十年里还设计了耶鲁大学贝内克善本图书馆（用半透明大理石板过滤光线保护珍本）、华盛顿赫希洪博物馆（一个悬浮的圆柱体）、以及曼哈顿制造商汉诺威信托银行（东海岸第一家"透明银行"）。1988年，他获得了建筑界最高荣誉——普利兹克奖。`,
+    significance: `Lever House 不只是一栋漂亮的办公楼，它开创了"玻璃盒子"时代——从纽约到东京，全世界的商业区在此后几十年里都在追随它的美学语言。它证明了企业建筑可以成为城市空间的积极贡献者，而不仅仅是租金机器。今天我们习以为常的玻璃幕墙摩天楼，源头就在公园大道390号。`,
+
+    dateConnection_en: `On May 9, 1909, Gordon Bunshaft was born in Buffalo, New York, to a family of Russian Jewish immigrants. This future Pritzker Prize laureate would design a single building that forever changed the face of office towers worldwide.`,
+    designerBio_en: `Bunshaft was a sickly child who spent his bedridden hours drawing houses. A doctor, admiring his sketches, told his mother: "Your son should become an architect." That remark charted his entire life.
+
+After graduating from MIT's architecture program, Bunshaft won the Rotch Travelling Scholarship and spent two years in Europe, encountering the works of Le Corbusier and Mies van der Rohe firsthand. He joined SOM (Skidmore, Owings & Merrill) in 1937 and stayed for over 40 years, becoming one of the most influential figures in American modernist architecture.
+
+His design philosophy was uncompromising: a building should honestly express its structure and materials, with no decorative disguise. That conviction reached its purest form in Lever House.`,
+    story_en: `In the early 1950s, New York's Park Avenue was lined with heavy masonry buildings. When Lever Brothers commissioned SOM for their new headquarters, Bunshaft proposed something radical: wrap the entire building in blue-green glass, raise the ground floor to create a public plaza, and set the tower back from the lot line to give space back to the city.
+
+It was nearly unthinkable. Developers maximized every square foot of ground coverage — with land this expensive, why "waste" it? But Bunshaft insisted that a building's contribution to its city went beyond square footage.
+
+Completed in 1952, Lever House stands only 24 stories — modest by Park Avenue standards. But its impact was seismic. The blue-green glass curtain wall shimmered in sunlight, and the open ground-level plaza allowed pedestrians to walk through a skyscraper's base for the first time — an experience New York had never offered.
+
+Architecture critic Lewis Mumford wrote in The New Yorker that Lever House was "the most refreshing and delightful architectural event in New York." It proved one thing: **a commercial building could be both a work of art and a gift to the city.**
+
+Within a decade, nearly every new building on Park Avenue adopted the glass curtain wall — from Mies's Seagram Building to countless imitators. The modern urban skyline, as we know it, was rewritten from this address.`,
+    legacy_en: `Lever House was designated a New York City landmark in 1982 — at just 30 years old, making it one of the youngest protected buildings at the time. A meticulous restoration in 2012 returned its glass to the original blue-green tint.
+
+Across his four decades at SOM, Bunshaft also designed Yale's Beinecke Rare Book Library (filtering light through translucent marble panels to protect precious volumes), the Hirshhorn Museum in Washington (a levitating cylinder), and the Manufacturers Hanover Trust building in Manhattan (the East Coast's first "transparent" bank). In 1988, he received architecture's highest honor — the Pritzker Prize.`,
+    significance_en: `Lever House didn't just create a beautiful office building — it launched the "glass box" era. From New York to Tokyo, commercial districts worldwide spent the following decades chasing its aesthetic language. It proved that corporate architecture could actively contribute to urban space rather than merely extracting rent. The glass curtain wall skyscrapers we take for granted today all trace their lineage to 390 Park Avenue.`,
+  },
 ]
