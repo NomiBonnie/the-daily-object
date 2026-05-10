@@ -1,55 +1,55 @@
   {
-    id: '87',
-    date: '2026-04-23',
-    imageUrl: '/the-daily-object/images/sticky-fingers.jpg',
-    fullImageUrl: '/the-daily-object/images/full/sticky-fingers.jpg',
-    title: 'Sticky Fingers',
-    title_en: 'Sticky Fingers',
-    subtitle: 'Andy Warhol, 1971',
-    subtitle_en: 'Andy Warhol, 1971',
-    category: 'music' as const,
-    designer: 'Andy Warhol',
-    year: '1971',
-    tags: ['颠覆唱片封面设计', '波普艺术跨界经典', '触觉包装设计先驱'],
-    tags_en: ['Revolutionized Album Cover Design', 'Pop Art Crossover Icon', 'Tactile Packaging Pioneer'],
+    id: '100',
+    date: '2026-05-10',
+    imageUrl: '/the-daily-object/images/great-wave-kanagawa.jpg',
+    fullImageUrl: '/the-daily-object/images/full/great-wave-kanagawa.jpg',
+    title: '神奈川冲浪里',
+    title_en: 'The Great Wave off Kanagawa',
+    subtitle: '葛饰北斋, 约1831',
+    subtitle_en: 'Katsushika Hokusai, c. 1831',
+    category: 'art' as const,
+    designer: '葛饰北斋',
+    year: '1831',
+    tags: ['浮世绘巅峰之作', '改变了西方艺术', '史上最多复制的图像'],
+    tags_en: ['Pinnacle of Ukiyo-e', 'Transformed Western Art', 'Most Reproduced Image in History'],
 
-    dateConnection: `1971年4月23日，滚石乐队发行了他们的第九张录音室专辑 *Sticky Fingers*。这张专辑不仅收录了 Brown Sugar、Wild Horses 等经典曲目，更因其由 Andy Warhol 设计的封面——一条真实的金属拉链缝在牛仔裤特写照片上——成为音乐与设计史上最具话题性的包装作品之一。`,
-    designerBio: `Andy Warhol（1928–1987）是20世纪最具影响力的艺术家之一，波普艺术运动的核心人物。在成为"波普之王"之前，他是一位极其成功的商业插画师，为 Glamour、Vogue 等杂志绘制鞋子广告，获得过多项美国平面设计大奖。这段商业设计背景深刻塑造了他后来的艺术实践——模糊艺术与商业、高雅与流行之间的边界。
+    dateConnection: `1849年5月10日，葛饰北斋在江户（今东京）去世，享年88岁。临终前他说了一句令人心碎的话："再给我十年……不，哪怕五年，我就能成为一个真正的画家。"这位在生命最后三十年才创作出毕生杰作的老人，至死都觉得自己还不够好。他留下的这幅《神奈川冲浪里》，成为了人类历史上被复制、引用、致敬最多的单幅图像之一。`,
+    designerBio: `葛饰北斋1760年出生在江户本所割下水——今天的东京墨田区。他六岁开始画画，十四岁当木版雕刻学徒，十八岁拜入浮世绘名师�的门下。但他天生不安分：一生用了超过30个画号，搬家超过90次（传说中93次），仿佛每一次更名和迁居都是对自我的一次重新发明。
 
-Warhol 设计了多张传奇唱片封面：地下丝绒乐队的香蕉封面（1967）、Sticky Fingers 的拉链封面（1971）、John Lennon 的 *Menlove Ave.* 等。他将唱片封面视为可以承载艺术观念的现成物——一个12英寸见方的画布，每张桌上都有，每个人都会拿起来看。`,
-    story: `1969年的一次派对上，Warhol 用他一贯漫不经心的语气对 Mick Jagger 说："在唱片封面上放一条真拉链，可能会很有趣。" Jagger 从不回避任何关于性暗示的创意，立刻表示赞成。一年后，当 Sticky Fingers 进入制作阶段，这个想法变成了现实。
+北斋的职业生涯横跨七十年。他画过美人画、役者绘、风景画、花鸟画、春画、漫画教本……几乎穷尽了浮世绘的所有题材。他最著名的《北斋漫画》——15卷近四千幅速写——本质上是一部视觉百科全书，从人物动态到建筑结构到自然现象，无所不包。
 
-封面照片是一张黑白牛仔裤特写，拍摄者的身份至今仍有争议——Billy Name、Fred McDarrah 和 Warhol 本人都被认为可能是摄影师。照片中的模特身份同样是个谜：演员 Joe Dallesandro 是最常被提及的人选，但 Warhol 对此始终保持沉默。
+但真正让他名垂千古的，是他七十岁以后的作品。他曾在《富岳百景》序言中写道："我六岁起就有描绘事物形状的癖好。五十岁时发表了不少画作，但七十岁之前画的东西都不值一提。七十三岁时，我才稍稍领悟了动植物的骨骼结构和自然的生命力。到了八十岁我会更进步，九十岁能洞察万物本质，一百岁或许能达到神妙之境，一百一十岁时，我画的每一点每一线都将拥有生命。"`,
+    story: `《神奈川冲浪里》创作于约1831年，是北斋系列版画《富岳三十六景》中的第一幅。画面描绘的是神奈川（今横滨附近）海域的一个瞬间：一道巨浪翻卷而起，浪尖的泡沫像无数只爪子伸向天空，三艘运送鲜鱼到江户市场的快速船在波涛中挣扎。而在这一切混乱的正中央，富士山安静地矗立在远方——渺小、三角形、不可撼动。
 
-**真正的设计突破在于那条拉链。** 初版黑胶唱片的封面上嵌入了一条可以拉开的真实金属拉链，拉开后露出印着白色内裤的内封面——这是 Warhol 的宝丽来快照。这个设计让每一张唱片都变成了一件可触摸的互动艺术品，打破了"看但不碰"的传统包装逻辑。
+这幅画的构图是革命性的。西方传统风景画通常把最重要的主体放在中心，但北斋把主角——富士山——缩到了画面右下角的远景处，让一道不可能的巨浪占据了三分之二的画面。这不是写实，这是设计：通过比例的极端反差，他创造了一种前所未有的视觉张力。
 
-但这条拉链带来了巨大的生产麻烦：它经常在运输中刮花堆叠在上方的唱片，压坏内部的黑胶。唱片工厂不得不在拉链和唱片之间加入额外的纸板保护层。尽管如此，大西洋唱片公司坚持保留了这个设计——因为它太完美地呼应了专辑名字的双关含义。`,
-    legacy: `• 被《滚石》杂志评为史上最伟大的500张专辑之一，封面设计本身多次入选"最伟大的唱片封面"榜单
-• 2015年 MoMA 将这张封面纳入永久馆藏（编号185437），确认了它作为设计作品（而非仅仅是商品包装）的艺术地位
-• 开创了"触觉包装"的先河——在 Warhol 之前，唱片封面只是用来看的；他让人们第一次可以"摸"到设计
-• 首张印有后来成为滚石乐队标志的"舌唇"logo 的专辑——由 John Pasche 设计，这个 logo 后来成为摇滚史上最著名的视觉符号
-• 证明了艺术家跨界做商业设计不会"降格"——相反，它可以同时提升商业产品和艺术家自身的文化价值`,
-    significance: `Sticky Fingers 封面在设计史上的意义远超一张唱片包装。它是 Warhol 毕生追求的那个命题的完美实现：当艺术出现在超市货架上，当商品被赋予博物馆级的创意，二者之间的界限就消失了。
+技术上同样令人惊叹。北斋使用了当时刚从欧洲传入日本的普鲁士蓝（Prussian blue）颜料——这种人工合成的深蓝色比传统植物靛蓝更稳定、更鲜艳。正是这种蓝色，赋予了巨浪那种近乎超自然的力量感。画面中至少使用了四种不同深浅的蓝色，从近乎黑色的深靛到淡如薄雾的水蓝，层次分明。
 
-这张封面把"包装设计"这个概念推到了极限。一条真实的拉链让平面变成了立体，让视觉变成了触觉，让被动的欣赏变成了主动的互动。55年后的今天，当我们谈论"开箱体验"和"沉浸式包装"时，Sticky Fingers 早就在1971年给出了终极答案。`,
+1853年，美国佩里准将的"黑船"打开了日本国门。此后大量浮世绘版画作为瓷器的包装纸流入欧洲——在日本人眼中不过是废纸。但欧洲艺术家看到后震惊了：莫奈在吉维尼的家中挂满了浮世绘，梵高临摹了多幅北斋和歌川广重的作品，德彪西的管弦乐曲《大海》的封面直接使用了《神奈川冲浪里》的构图。这股"日本主义"（Japonisme）风潮深刻影响了印象派、后印象派和新艺术运动的发展方向。`,
+    legacy: `《神奈川冲浪里》的影响力已经远远超出了艺术史的范畴。它是全世界被复制、引用、改编次数最多的单幅图像之一——出现在T恤、手机壳、emoji（🌊）、NASA的出版物、甚至日本的护照上。2024年，这幅画被印在了新版日本一千元纸币的背面。
 
-    dateConnection_en: `On April 23, 1971, The Rolling Stones released their ninth studio album *Sticky Fingers*. Beyond classic tracks like Brown Sugar and Wild Horses, the album became one of the most talked-about packaging designs in music and design history — thanks to Andy Warhol's cover featuring a real working metal zipper sewn onto a close-up photograph of a man's jeans.`,
-    designerBio_en: `Andy Warhol (1928–1987) was one of the most influential artists of the 20th century and a central figure of the Pop Art movement. Before becoming the "Pope of Pop," he was a hugely successful commercial illustrator, drawing shoe advertisements for Glamour, Vogue, and other magazines, winning multiple American graphic design awards. This commercial design background profoundly shaped his later artistic practice — blurring the boundaries between art and commerce, high culture and popular culture.
+在设计领域，这幅画的影响同样深远。它的构图原则——利用不对称、负空间和比例反差创造戏剧性——成为了现代平面设计的基本语法之一。它证明了一幅图像可以同时是叙事的、装饰的和情感的，而这正是所有伟大设计所追求的。
 
-Warhol designed several legendary album covers: The Velvet Underground's banana cover (1967), Sticky Fingers' zipper cover (1971), and John Lennon's *Menlove Ave.* among others. He treated album covers as readymades capable of carrying artistic ideas — a 12-inch square canvas that sat on every table and everyone picked up to examine.`,
-    story_en: `At a party in 1969, Warhol told Mick Jagger in his characteristic offhand manner: "It might be fun to have a real zipper on a record sleeve." Jagger, never one to shy away from sexual innuendo, immediately agreed. A year later, as Sticky Fingers entered production, the idea became reality.
+北斋本人被收入MoMA、大都会艺术博物馆、大英博物馆、东京国立博物馆等世界主要博物馆的永久收藏。《生活》杂志将他列为"千年来最重要的100位人物"之一——唯一入选的日本人。`,
+    significance: `北斋用一幅版画证明了一件事：伟大的视觉设计可以跨越语言、文化和时代。《神奈川冲浪里》没有文字、没有叙事上下文、没有文化门槛——任何人在任何时代看到它，都会在一瞬间感受到那种自然力量与人类渺小之间的张力。这种"一眼即懂"的视觉传达力，正是每个设计师终极追求的东西。而北斋在88岁去世时仍觉得自己不够好，这或许是对所有创作者最深的启示：好的作品不来自天才的自满，而来自永不停歇的不满足。`,
 
-The cover photograph is a black-and-white close-up of a man's jeans, and the photographer's identity remains disputed — Billy Name, Fred McDarrah, and Warhol himself have all been credited. The model's identity is equally mysterious: actor Joe Dallesandro is the most frequently cited candidate, but Warhol maintained his silence on the matter.
+    dateConnection_en: `On May 10, 1849, Katsushika Hokusai died in Edo (present-day Tokyo) at the age of 88. His final words were heartbreaking: "If only heaven would give me ten more years... or even five, I could become a true painter." This man who produced his life's masterwork in his seventies died believing he wasn't yet good enough. The image he left behind — The Great Wave off Kanagawa — became one of the most reproduced, referenced, and reimagined single images in human history.`,
+    designerBio_en: `Katsushika Hokusai was born in 1760 in the Honjo Warigesui district of Edo — today's Sumida ward in Tokyo. He started drawing at six, apprenticed as a woodblock engraver at fourteen, and entered a ukiyo-e master's studio at eighteen. But restlessness was in his nature: he used over 30 different pen names throughout his life and moved house more than 90 times (legend says 93), as if each renaming and relocation were a reinvention of self.
 
-**The real design breakthrough was the zipper.** The original vinyl pressing featured a real, functional metal zipper embedded in the cover. Pulling it down revealed an inner sleeve printed with a Warhol Polaroid of white briefs. This design transformed every copy of the album into a touchable, interactive art object, shattering the conventional logic of "look but don't touch" packaging.
+Hokusai's career spanned seventy years. He painted beauties, actors, landscapes, birds and flowers, erotica, and instructional sketchbooks — virtually exhausting every genre of ukiyo-e. His most famous work, the fifteen-volume Hokusai Manga containing nearly four thousand sketches, is essentially a visual encyclopedia covering everything from human motion to architectural structure to natural phenomena.
 
-But the zipper created enormous production headaches: it frequently scratched records stacked above it during shipping and damaged the vinyl inside. The pressing plant had to insert additional cardboard protection between the zipper and the record. Despite this, Atlantic Records kept the design — because it was too perfect a match for the album title's double entendre.`,
-    legacy_en: `• Ranked among Rolling Stone magazine's 500 Greatest Albums of All Time; the cover design itself has appeared on countless "greatest album covers" lists
-• In 2015, MoMA acquired the cover for its permanent collection (object #185437), confirming its status as a design work — not merely commercial packaging
-• Pioneered "tactile packaging" — before Warhol, album covers were only for looking at; he made people "touch" design for the first time
-• The first album to feature what would become the Rolling Stones' iconic "tongue and lips" logo — designed by John Pasche, it went on to become the most famous visual symbol in rock history
-• Proved that an artist crossing into commercial design doesn't "diminish" their work — on the contrary, it can simultaneously elevate both the commercial product and the artist's cultural value`,
-    significance_en: `The Sticky Fingers cover's significance in design history extends far beyond an album sleeve. It was the perfect realization of Warhol's lifelong thesis: when art appears on a supermarket shelf, when a commodity is infused with museum-level creativity, the boundary between the two dissolves.
+But what truly immortalized him was the work he produced after seventy. In the preface to One Hundred Views of Mount Fuji, he wrote: "From the age of six I had a mania for drawing. By fifty I had published an infinity of designs, but all I produced before seventy is not worth taking into account. At seventy-three I learned a little about the real structure of nature. At eighty I shall have made still more progress; at ninety I shall penetrate the mystery of things; at a hundred I shall have reached a marvelous stage; and at a hundred and ten, every dot and stroke shall be as though alive."`,
+    story_en: `The Great Wave off Kanagawa was created around 1831 as the first print in Hokusai's series Thirty-six Views of Mount Fuji. It captures a single moment off the coast of Kanagawa (near present-day Yokohama): a towering wave curls upward, its foaming crest fragmenting into claw-like fingers reaching toward the sky, while three fast boats carrying fresh fish to Edo's markets struggle in the churning water. And at the very center of all this chaos, Mount Fuji stands quietly in the distance — small, triangular, immovable.
 
-This cover pushed the concept of "packaging design" to its absolute limit. A real zipper turned flat into three-dimensional, visual into tactile, passive viewing into active interaction. Fifty-five years later, when we talk about "unboxing experiences" and "immersive packaging," Sticky Fingers already gave us the ultimate answer back in 1971.`,
+The composition was revolutionary. Traditional Western landscape painting typically placed the most important subject at center, but Hokusai shrank his protagonist — Mount Fuji — to a tiny form in the distant lower right, letting an impossibly massive wave dominate two-thirds of the frame. This isn't realism; it's design: through extreme contrasts of scale, he created a visual tension never seen before.
+
+The technical execution is equally astonishing. Hokusai used Prussian blue, a synthetic pigment recently imported from Europe — deeper, more stable, and more vivid than traditional plant-based indigo. It is this blue that gives the great wave its almost supernatural force. At least four different shades of blue appear in the image, from near-black deep indigo to mist-pale azure, each precisely layered.
+
+In 1853, Commodore Perry's "Black Ships" forced open Japan's ports. Afterward, vast quantities of ukiyo-e prints entered Europe as packing material for porcelain — mere waste paper to Japanese eyes. But European artists were stunned: Monet hung ukiyo-e throughout his home in Giverny, Van Gogh copied multiple works by Hokusai and Hiroshige, and Debussy's orchestral work La Mer used the Great Wave's composition on its cover. This wave of "Japonisme" profoundly influenced the trajectories of Impressionism, Post-Impressionism, and Art Nouveau.`,
+    legacy_en: `The Great Wave's influence has long transcended art history. It is one of the most reproduced, referenced, and adapted single images in the world — appearing on T-shirts, phone cases, the wave emoji (🌊), NASA publications, and even Japanese passports. In 2024, the image was printed on the reverse of the new Japanese ¥1,000 banknote.
+
+In the design world, its impact is equally profound. Its compositional principles — using asymmetry, negative space, and dramatic scale contrast — became part of the basic grammar of modern graphic design. It proved that a single image can be simultaneously narrative, decorative, and emotional — precisely what all great design aspires to.
+
+Hokusai's work is held in the permanent collections of MoMA, the Metropolitan Museum of Art, the British Museum, and the Tokyo National Museum. Life magazine named him one of the "100 Most Important People of the Last Millennium" — the only Japanese person on the list.`,
+    significance_en: `Hokusai proved with a single print that great visual design can transcend language, culture, and time. The Great Wave off Kanagawa has no text, no narrative context, no cultural prerequisites — anyone in any era who sees it instantly feels the tension between nature's raw power and human fragility. This ability to communicate "at a glance" is the ultimate pursuit of every designer. And the fact that Hokusai died at 88 still believing he wasn't good enough may be the deepest lesson for all creators: great work doesn't come from genius satisfied with itself, but from a restlessness that never stops.`,
   },
