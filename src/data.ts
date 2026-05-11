@@ -6974,4 +6974,55 @@ In the design world, its impact is equally profound. Its compositional principle
 Hokusai's work is held in the permanent collections of MoMA, the Metropolitan Museum of Art, the British Museum, and the Tokyo National Museum. Life magazine named him one of the "100 Most Important People of the Last Millennium" — the only Japanese person on the list.`,
     significance_en: `Hokusai proved with a single print that great visual design can transcend language, culture, and time. The Great Wave off Kanagawa has no text, no narrative context, no cultural prerequisites — anyone in any era who sees it instantly feels the tension between nature's raw power and human fragility. This ability to communicate "at a glance" is the ultimate pursuit of every designer. And the fact that Hokusai died at 88 still believing he wasn't good enough may be the deepest lesson for all creators: great work doesn't come from genius satisfied with itself, but from a restlessness that never stops.`,
   },
+  {
+    id: '131',
+    date: '2026-05-11',
+    imageUrl: '/the-daily-object/images/mae-west-lips-sofa.jpg',
+    fullImageUrl: '/the-daily-object/images/full/mae-west-lips-sofa.jpg',
+    title: 'Mae West 唇形沙发',
+    title_en: 'Mae West Lips Sofa',
+    subtitle: 'Salvador Dalí & Edward James, 1937',
+    subtitle_en: 'Salvador Dalí & Edward James, 1937',
+    category: 'industrial' as const,
+    designer: 'Salvador Dalí',
+    year: '1937',
+    tags: ['超现实主义家具', '艺术与设计交融', '改变了功能定义'],
+    tags_en: ['Surrealist Furniture Icon', 'Art Meets Design', 'Redefined Function'],
+
+    dateConnection: `1904年5月11日，Salvador Dalí 出生于西班牙加泰罗尼亚菲格雷斯。这位超现实主义大师不仅改变了绘画，更将艺术的触角延伸到家具设计领域——Mae West Lips Sofa 是他最广为人知的跨界设计作品，至今仍在全球博物馆展出。`,
+
+    designerBio: `Salvador Dalí（1904-1989）是20世纪最具辨识度的艺术家之一。他以融化时钟和荒诞梦境闻名，但他的创作远不止绘画。他涉足电影（与布努埃尔合作《一条安达鲁狗》、为希区柯克《爱德华大夫》设计梦境场景）、珠宝设计、舞台布景、时装（与 Elsa Schiaparelli 合作）和家具设计。
+
+Dalí 坚信艺术不应被困在画框里。他说过："一个真正的艺术家应该能设计从信封到房子的一切。" 这种跨界精神在他与英国收藏家 Edward James 的合作中达到顶峰——两人共同创造了一系列将超现实主义带入日常生活的功能性物件。`,
+
+    story: `1936年，Dalí 被好莱坞女星 Mae West 的面容深深吸引。他画了一幅名为《Mae West 的脸，可作为超现实主义公寓使用》的水彩画——画中 Mae West 的嘴唇变成了沙发，鼻子是壁炉，眼睛是画框，头发成了窗帘。
+
+英国超现实主义收藏家 Edward James 看到这幅画后提出了一个大胆的想法：把其中的嘴唇真的做成一张可以坐的沙发。1937年，这件作品诞生了——一张覆盖着鲜红色毡布的木框沙发，形状完美复刻了 Mae West 丰满性感的双唇。底部饰以黑色流苏，仿佛唇边的阴影。
+
+这张沙发打破了家具设计的所有常规。它不是从"如何坐得舒服"出发，而是从"如何让一个身体部位变成一件家具"出发。它让"功能"这个词有了新的含义——沙发的功能不只是承托身体，还可以是挑衅、幽默和欲望的载体。
+
+原版沙发现存约五件，分别收藏于伦敦 V&A 博物馆、布莱顿博物馆和 Edward James 的 West Dean 庄园等地。1970年代，意大利品牌 Studio 65 推出了受其启发的 Bocca Sofa（又名 Marilyn Sofa），将这一设计推向大众市场，成为波普文化的标志性符号。`,
+
+    legacy: `Mae West Lips Sofa 开创了"雕塑家具"这一设计类型——家具不再只是功能物件，而可以是艺术宣言。它直接影响了1960-70年代的激进设计运动（Radical Design），从 Studio 65 的 Bocca Sofa 到 Gaetano Pesce 的 UP5 Chair，都能看到 Dalí 那种"身体即家具"的思维。在当代设计中，从 Marc Newson 到 the Campana Brothers，"家具作为雕塑"的概念已成为设计思维的基本元素之一。`,
+
+    significance: `这张沙发证明了一件事：设计的起点不一定是问题（"怎么坐更舒服"），也可以是想象力（"嘴唇能不能坐"）。它模糊了艺术与设计、功能与形式、严肃与荒诞之间的界限。对任何设计师来说，Mae West Lips Sofa 都是一个提醒——当你把所有预设条件都扔掉，只问"如果……会怎样？"的时候，才是真正有趣的设计开始的地方。`,
+
+    dateConnection_en: `On May 11, 1904, Salvador Dalí was born in Figueres, Catalonia, Spain. This Surrealist master didn't just transform painting — he extended art's reach into furniture design. The Mae West Lips Sofa remains his most celebrated crossover design piece, still exhibited in museums worldwide.`,
+
+    designerBio_en: `Salvador Dalí (1904–1989) was one of the most recognizable artists of the 20th century. Known for melting clocks and dreamlike landscapes, his creative output went far beyond painting. He worked in film (collaborating with Buñuel on Un Chien Andalou, designing dream sequences for Hitchcock's Spellbound), jewelry, stage design, fashion (partnering with Elsa Schiaparelli), and furniture.
+
+Dalí firmly believed art shouldn't be confined to the canvas. "A true artist should be able to design everything from an envelope to a house," he declared. This cross-disciplinary spirit reached its peak in his collaboration with British collector Edward James, together creating a series of functional objects that brought Surrealism into everyday life.`,
+
+    story_en: `In 1936, Dalí became fascinated by Hollywood actress Mae West's features. He painted a watercolor titled "Face of Mae West Which May Be Used as a Surrealist Apartment" — in it, West's lips became a sofa, her nose a fireplace, her eyes picture frames, and her hair curtains.
+
+British Surrealist collector Edward James saw the painting and proposed a bold idea: actually manufacture the lips as a functional sofa. In 1937, the piece was born — a wooden-framed sofa upholstered in vivid red felt, its shape perfectly replicating Mae West's full, sensuous lips. Black fringe trimmed the base like shadows beneath the mouth.
+
+The sofa broke every convention in furniture design. It didn't start from "how to sit comfortably" but from "how to turn a body part into furniture." It gave the word "function" new meaning — a sofa's purpose could extend beyond supporting the body to become a vehicle for provocation, humor, and desire.
+
+Approximately five original sofas survive, held at the V&A Museum in London, Brighton Museum, and Edward James's West Dean estate, among others. In the 1970s, Italian firm Studio 65 released the Bocca Sofa (also known as the Marilyn Sofa), inspired by Dalí's design, bringing it to the mass market and turning it into a pop culture icon.`,
+
+    legacy_en: `The Mae West Lips Sofa pioneered "sculptural furniture" — the idea that furniture could be an artistic statement rather than merely a functional object. It directly influenced the Radical Design movement of the 1960s–70s, from Studio 65's Bocca Sofa to Gaetano Pesce's UP5 Chair, all carrying Dalí's "body as furniture" thinking. In contemporary design, from Marc Newson to the Campana Brothers, the concept of "furniture as sculpture" has become a fundamental element of design thinking.`,
+
+    significance_en: `This sofa proved something essential: design's starting point doesn't have to be a problem ("how to sit more comfortably") — it can be pure imagination ("can lips become a seat?"). It blurred the boundaries between art and design, function and form, the serious and the absurd. For any designer, the Mae West Lips Sofa is a reminder that the most interesting design begins when you discard all assumptions and simply ask: "What if...?"`,
+  },
 ]
