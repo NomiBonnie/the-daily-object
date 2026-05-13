@@ -7084,4 +7084,47 @@ His "biomechanical" aesthetic permeated all of popular culture: from the visual 
 
     significance_en: `H.R. Giger accomplished something few artists ever have: he created an entirely new visual vocabulary. Before him, no one had imagined intertwining flesh and machine so intimately. The Xenomorph remains disturbing today because it touches a fear deeper than "the monster will eat you" — the alienation of the body, the dissolution of boundaries between organic and inorganic, the possibility that life itself might be just another form of machinery. For designers, Giger's lesson is clear: the most powerful design doesn't make people think "that's cool" — it makes them feel "that thing has always existed."`,
   },
+  {
+    id: '133',
+    date: '2026-05-13',
+    imageUrl: '/the-daily-object/images/munich-1972-pictogram.jpg',
+    fullImageUrl: '/the-daily-object/images/full/munich-1972-pictogram.jpg',
+    title: '慕尼黑1972奥运视觉系统',
+    title_en: 'Munich 1972 Olympics Visual Identity',
+    subtitle: 'Otl Aicher, 1972',
+    subtitle_en: 'Otl Aicher, 1972',
+    category: 'graphic' as const,
+    designer: 'Otl Aicher',
+    year: '1972',
+    tags: ['重新定义信息设计', '奥运视觉先驱', '现代图标之父'],
+    tags_en: ['Redefined Information Design', 'Olympic Visual Pioneer', 'Father of Modern Pictograms'],
+
+    dateConnection: `1922年5月13日，Otl Aicher 出生在德国乌尔姆。这位后来彻底改变了视觉传达方式的平面设计师，为1972年慕尼黑奥运会创造了一套前所未有的视觉系统——21个运动项目的标准化图标、统一的色彩体系、从指示牌到门票的全套视觉语言。这套系统如此成功，以至于此后每一届奥运会都沿用了他开创的图标化方法，他的设计语言至今仍在全球每一座机场、每一个公共空间里延续。`,
+    designerBio: `Otl Aicher（1922-1991）是20世纪最具影响力的平面设计师之一，乌尔姆设计学院（HfG Ulm）的联合创始人。他的人生从一开始就注定不平凡：少年时代因拒绝加入希特勒青年团而被学校开除，二战期间两次逃离德军征召，他最好的朋友——汉斯和苏菲·朔尔（白玫瑰运动的核心成员）——被纳粹处决。战后的 Aicher 将全部精力投入设计，他相信好的设计可以让世界更理性、更人道。
+
+1953年，他与妻子 Inge Scholl（朔尔兄妹的姐姐）和 Max Bill 一起创办了乌尔姆设计学院——这所学校被视为包豪斯的精神继承者。Aicher 在那里发展出他标志性的系统化设计方法：每个视觉元素都不是孤立存在的，而是整套系统的一部分。`,
+    story: `1967年，慕尼黑奥组委找到 Aicher，委托他设计整届奥运会的视觉形象。西德政府希望这届奥运会传递一个信息：这是一个全新的、民主的、开放的德国，彻底告别1936年柏林奥运会的纳粹阴影。
+
+Aicher 的回应是一场视觉革命。他首先确定了标志性的「彩虹色谱」配色方案——明亮的蓝、绿、橙、黄，刻意避开德国国旗的黑红金三色，也避开任何可能唤起民族主义联想的元素。然后，他设计了那组改变历史的运动图标：21个几何化的人体图形，每一个都用严格的20°角网格构建，身体由标准化的线条和圆形组成。
+
+这套图标的革命性在于：它们不需要文字就能被任何语言、任何文化背景的人理解。一个从未看过棒球的非洲观众，一个不懂德语的日本游客，都能通过图标找到正确的场馆。这正是 Aicher 的核心信念——**设计应该是民主的**，不应该因为语言或文化而产生障碍。
+
+但 Aicher 的野心远不止图标。他设计了一个覆盖一切的视觉系统：场馆导视、门票、节目单、纪念品、制服、餐具、甚至垃圾桶的标识。整个奥运会就像一件完整的设计作品——无论你站在哪个角落，视觉语言都是统一的、清晰的、友好的。他还设计了那个标志性的「光芒螺旋」（Strahlenkranz）标志，一个由放射线条组成的太阳图案，象征着光明与欢乐。`,
+    legacy: `Aicher 的慕尼黑系统是现代信息设计的奠基之作。此后每一届奥运会——从蒙特利尔到东京——都采用了他开创的「为每个运动项目设计专属图标」的方法。他的影响远远超出体育领域：如今全球机场的导视系统、地铁站的指示牌、手机上的 App 图标，都在延续 Aicher 的设计哲学。那个你在任何国家的机场都能看懂的洗手间标志？那种用简化人形传达含义的方式？全都可以追溯到1972年慕尼黑的赛场边。`,
+    significance: `Otl Aicher 证明了平面设计不只是「让东西好看」——它可以消除语言障碍，可以让陌生人在异国他乡找到方向，可以用视觉代替文字实现真正的普世沟通。他为乌尔姆设计学院、Braun 电器、汉莎航空、慕尼黑奥运会所做的设计，构建了一整套现代生活的视觉基础设施。他的遗产是隐形的——你每天都在使用 Aicher 发明的视觉语言，只是从未注意到。`,
+
+    dateConnection_en: `On May 13, 1922, Otl Aicher was born in Ulm, Germany. This graphic designer, who would fundamentally transform visual communication, created an unprecedented visual system for the 1972 Munich Olympics — 21 standardized sport pictograms, a unified color system, and a complete visual language spanning everything from signage to tickets. The system was so successful that every subsequent Olympics adopted his pictographic approach, and his design language continues to live in every airport and public space around the world today.`,
+    designerBio_en: `Otl Aicher (1922–1991) was one of the most influential graphic designers of the 20th century and co-founder of the Ulm School of Design (HfG Ulm). His life was extraordinary from the start: expelled from school as a teenager for refusing to join the Hitler Youth, he twice escaped German military conscription during World War II. His closest friends — Hans and Sophie Scholl, core members of the White Rose resistance — were executed by the Nazis. After the war, Aicher channeled everything into design, believing it could make the world more rational and humane.
+
+In 1953, he co-founded the Ulm School of Design with his wife Inge Scholl (the Scholls' elder sister) and Max Bill — a school considered the spiritual successor to the Bauhaus. There, Aicher developed his signature systematic design methodology: no visual element exists in isolation; each is part of a comprehensive system.`,
+    story_en: `In 1967, the Munich Olympic Committee approached Aicher to design the entire visual identity for the Games. The West German government wanted these Olympics to send a clear message: this was a new, democratic, open Germany, completely distancing itself from the shadow of the 1936 Berlin Olympics under the Nazis.
+
+Aicher's response was a visual revolution. He first established his signature "rainbow spectrum" color palette — bright blues, greens, oranges, and yellows — deliberately avoiding the black, red, and gold of the German flag and any elements that might evoke nationalist associations. Then he designed the set of pictograms that changed history: 21 geometric human figures, each constructed on a strict 20-degree angular grid, bodies composed of standardized lines and circles.
+
+The revolutionary nature of these pictograms lay in their universality: they could be understood by anyone of any language or cultural background without a single word of text. An African spectator who had never seen baseball, a Japanese tourist who spoke no German — all could find the right venue through pictograms alone. This was Aicher's core belief — **design should be democratic**, creating no barriers based on language or culture.
+
+But Aicher's ambition extended far beyond pictograms. He designed an all-encompassing visual system: venue wayfinding, tickets, programs, souvenirs, uniforms, tableware, even trash can labels. The entire Olympics functioned as one unified design work — no matter where you stood, the visual language was consistent, clear, and welcoming. He also created the iconic "Strahlenkranz" (radiant sun) emblem, a spiral pattern of radiating lines symbolizing brightness and joy.`,
+    legacy_en: `Aicher's Munich system is the foundation of modern information design. Every subsequent Olympics — from Montreal to Tokyo — adopted his pioneering approach of creating dedicated pictograms for each sport. His influence extends far beyond athletics: today's airport wayfinding systems, subway station signage, and smartphone app icons all continue Aicher's design philosophy. That restroom sign you can understand in any country? That simplified human figure conveying meaning? It all traces back to the sidelines of Munich 1972.`,
+    significance_en: `Otl Aicher proved that graphic design isn't just about "making things look good" — it can eliminate language barriers, help strangers navigate foreign lands, and achieve truly universal communication through visuals instead of words. His work for the Ulm School of Design, Braun electronics, Lufthansa, and the Munich Olympics built an entire visual infrastructure for modern life. His legacy is invisible — you use the visual language Aicher invented every single day without ever noticing.`,
+  },
 ]
