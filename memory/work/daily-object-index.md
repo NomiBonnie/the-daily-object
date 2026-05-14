@@ -12,3 +12,9 @@ Last updated: 2026-05-07
 | 05-05 | Chanel N°5 | Coco Chanel | fashion |
 | 05-06 | Arabesco Table | Carlo Mollino | industrial |
 | 05-07 | Sony Walkman TPS-L2 | 盛田昭夫 / Sony | industrial |
+| 05-08 | Anatomy of a Murder Poster | Saul Bass | graphic |
+| 05-09 | Missoni Zigzag Knit | Ottavio Missoni | fashion |
+| 05-10 | The Great Wave off Kanagawa | 葛饰北斋 | art |
+| 05-11 | Mae West Lips Sofa | Salvador Dalí | industrial |
+| 05-12 | Alien Xenomorph | H.R. Giger | film |
+| 05-13 | Munich 1972 Olympics Visual Identity | Otl Aicher | graphic |

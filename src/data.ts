@@ -7127,4 +7127,47 @@ But Aicher's ambition extended far beyond pictograms. He designed an all-encompa
     legacy_en: `Aicher's Munich system is the foundation of modern information design. Every subsequent Olympics — from Montreal to Tokyo — adopted his pioneering approach of creating dedicated pictograms for each sport. His influence extends far beyond athletics: today's airport wayfinding systems, subway station signage, and smartphone app icons all continue Aicher's design philosophy. That restroom sign you can understand in any country? That simplified human figure conveying meaning? It all traces back to the sidelines of Munich 1972.`,
     significance_en: `Otl Aicher proved that graphic design isn't just about "making things look good" — it can eliminate language barriers, help strangers navigate foreign lands, and achieve truly universal communication through visuals instead of words. His work for the Ulm School of Design, Braun electronics, Lufthansa, and the Munich Olympics built an entire visual infrastructure for modern life. His legacy is invisible — you use the visual language Aicher invented every single day without ever noticing.`,
   },
+  {
+    id: '2004',
+    date: '2026-05-14',
+    imageUrl: '/the-daily-object/images/grillo-telephone.jpg',
+    fullImageUrl: '/the-daily-object/images/full/grillo-telephone.jpg',
+    title: 'Grillo 电话',
+    title_en: 'Grillo Telephone',
+    subtitle: 'Marco Zanuso & Richard Sapper, 1965',
+    subtitle_en: 'Marco Zanuso & Richard Sapper, 1965',
+    category: 'industrial' as const,
+    designer: 'Marco Zanuso & Richard Sapper',
+    year: '1965',
+    tags: ['翻盖手机的鼻祖', '意大利设计黄金年代', 'MoMA永久收藏'],
+    tags_en: ['Ancestor of the Flip Phone', 'Italian Design Golden Age', 'MoMA Permanent Collection'],
+
+    dateConnection: `1916年5月14日，Marco Zanuso 出生于米兰。这位意大利设计黄金年代的核心人物，与 Richard Sapper 搭档创造了一部彻底颠覆电话形态的作品——Grillo。在所有电话都是笨重方盒子的年代，他们用一个蛤壳式翻盖，预言了三十年后翻盖手机的诞生。`,
+    designerBio: `Marco Zanuso（1916-2001）毕业于米兰理工大学建筑系，是战后意大利设计运动的关键人物。他在1940年代末开始与 Arflex 合作，用橡胶发泡材料革新了家具制造——他的 Lady Chair（1951）是第一把用泡沫橡胶填充的扶手椅，赢得了第九届米兰三年展金奖。
+
+1958年，Zanuso 开始与德国出生的设计师 Richard Sapper 合作，这对搭档在接下来二十年里创造了一系列改变工业设计史的作品：Doney 14 电视机（1962，第一台全晶体管电视）、Lambda 椅（1963）、Grillo 电话（1965），以及为 Brionvega 设计的一系列革命性电子产品。Sapper 负责技术创新和工程精度，Zanuso 把控整体形式和建筑感——两人的互补让每件作品都兼具美学突破和技术革新。`,
+    story: `1960年代中期，意大利电信公司 Italtel 委托 Zanuso 和 Sapper 设计一款新电话。当时市场上所有电话的形态都差不多：一个方方正正的底座，上面架着听筒，占据整张桌子的空间。两人决定从根本上重新思考电话应该是什么样子。
+
+他们的答案是一个激进的蛤壳式设计：听筒和拨号盘折叠在一起，合上时只有手掌大小。打开时，翻盖的角度刚好让听筒对准耳朵，拨号盘朝向手指。"Grillo"在意大利语中意为"蟋蟀"——因为它的铃声不是传统电话刺耳的金属声，而是一种清脆的电子啁啾，像昆虫的鸣叫。
+
+为了实现这种前所未有的紧凑，两人做了几个关键创新：用按钮式机械止动器替代传统的旋转拨号指环，大幅缩小了拨号盘直径；把铃声机构从话机移到了墙壁插头里，进一步减小体积；外壳采用一体成型 ABS 塑料，让整机轻到可以单手操作。
+
+Grillo 在1967年赢得了 Compasso d'Oro 金奖，被 MoMA、蓬皮杜中心、Cooper Hewitt 等全球顶级博物馆永久收藏。它甚至出现在1960年代原版《碟中谍》电视剧和2021年 Lady Gaga 主演的电影《House of Gucci》中。但 Grillo 真正的遗产远超一部电话：1990年代摩托罗拉设计 StarTAC 和 RAZR 翻盖手机时，设计团队承认直接参考了 Grillo 的蛤壳结构。一部1965年的固定电话，定义了三十年后移动通信的形态语言。`,
+    legacy: `Grillo 是工业设计史上"形态跟随功能"最优雅的诠释之一。在所有人都认为电话就该是方盒子的时代，Zanuso 和 Sapper 证明了：如果你愿意从零开始思考一个物件的使用方式，形式可以变得多么自由。从 Motorola StarTAC 到 RAZR，从翻盖手机到折叠屏手机，Grillo 的蛤壳 DNA 延续至今。`,
+    significance: `Grillo 代表了1960年代意大利设计的精髓：不只是让东西好看，而是用设计思维重新定义一个品类。Zanuso 和 Sapper 的合作模式——建筑师的空间感 + 工程师的技术精度——成为后来无数设计搭档的范本。这部电话证明了一个道理：真正革命性的设计不是渐进式改良，而是敢于问"为什么不能完全不一样？"`,
+
+    dateConnection_en: `On May 14, 1916, Marco Zanuso was born in Milan. This central figure of Italy's golden age of design partnered with Richard Sapper to create the Grillo — a telephone that fundamentally reimagined what a phone could look like. In an era when every telephone was a bulky box, their clamshell flip design prophesied the birth of flip phones three decades later.`,
+    designerBio_en: `Marco Zanuso (1916–2001) graduated from the Milan Polytechnic School of Architecture and became a pivotal figure in postwar Italian design. In the late 1940s, he began collaborating with Arflex, revolutionizing furniture manufacturing with foam rubber — his Lady Chair (1951) was the first armchair using foam rubber upholstery, winning the Gold Medal at the 9th Milan Triennale.
+
+In 1958, Zanuso began his legendary partnership with German-born designer Richard Sapper. Over the next two decades, the duo created a series of objects that changed industrial design history: the Doney 14 television (1962, the first all-transistor TV), the Lambda chair (1963), the Grillo telephone (1965), and revolutionary electronics for Brionvega. Sapper brought technical innovation and engineering precision; Zanuso contributed architectural sensibility and formal vision — their complementary skills ensured each work achieved both aesthetic breakthrough and technical innovation.`,
+    story_en: `In the mid-1960s, Italian telecommunications company Italtel commissioned Zanuso and Sapper to design a new telephone. At the time, every phone on the market looked essentially the same: a boxy base with a handset perched on top, occupying an entire desk corner. The two designers decided to rethink the telephone from scratch.
+
+Their answer was a radical clamshell design: the handset and rotary dial folded together, closing to a palm-sized package. When opened, the flip lid angled the earpiece perfectly toward the ear while the dial faced the fingers. "Grillo" means "cricket" in Italian — because its ring replaced the harsh metallic clang of traditional phones with a crisp electronic chirp, like an insect's song.
+
+To achieve this unprecedented compactness, they made several key innovations: button-actuated mechanical stops replaced the traditional rotary finger ring, dramatically shrinking the dial diameter; the ringer mechanism was moved from the handset to the wall plug, further reducing volume; and the one-piece molded ABS plastic shell made the entire unit light enough for single-hand operation.
+
+The Grillo won the Compasso d'Oro in 1967 and entered the permanent collections of MoMA, the Pompidou Centre, Cooper Hewitt, and other world-class museums. It even appeared in the original 1960s Mission: Impossible TV series and the 2021 film House of Gucci starring Lady Gaga. But Grillo's true legacy extends far beyond a single telephone: when Motorola designed the StarTAC and RAZR flip phones in the 1990s, the design team acknowledged drawing direct inspiration from the Grillo's clamshell structure. A 1965 landline telephone defined the form language of mobile communication three decades later.`,
+    legacy_en: `The Grillo is one of industrial design history's most elegant interpretations of "form follows function." In an era when everyone assumed phones had to be boxes, Zanuso and Sapper proved that if you're willing to rethink how an object is used from the ground up, form can become remarkably free. From the Motorola StarTAC to the RAZR, from flip phones to foldable smartphones, the Grillo's clamshell DNA persists to this day.`,
+    significance_en: `The Grillo embodies the essence of 1960s Italian design: not merely making things beautiful, but using design thinking to redefine an entire category. The Zanuso-Sapper collaboration model — an architect's spatial sensibility plus an engineer's technical precision — became the template for countless design partnerships that followed. This telephone proved a fundamental truth: truly revolutionary design isn't incremental improvement — it's the courage to ask "why can't it be completely different?"`,
+  },
 ]
