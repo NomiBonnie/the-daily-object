@@ -7170,4 +7170,51 @@ The Grillo won the Compasso d'Oro in 1967 and entered the permanent collections 
     legacy_en: `The Grillo is one of industrial design history's most elegant interpretations of "form follows function." In an era when everyone assumed phones had to be boxes, Zanuso and Sapper proved that if you're willing to rethink how an object is used from the ground up, form can become remarkably free. From the Motorola StarTAC to the RAZR, from flip phones to foldable smartphones, the Grillo's clamshell DNA persists to this day.`,
     significance_en: `The Grillo embodies the essence of 1960s Italian design: not merely making things beautiful, but using design thinking to redefine an entire category. The Zanuso-Sapper collaboration model — an architect's spatial sensibility plus an engineer's technical precision — became the template for countless design partnerships that followed. This telephone proved a fundamental truth: truly revolutionary design isn't incremental improvement — it's the courage to ask "why can't it be completely different?"`,
   },
+  {
+    id: '105',
+    date: '2026-05-15',
+    imageUrl: '/the-daily-object/images/nighthawks-hopper.jpg',
+    fullImageUrl: '/the-daily-object/images/full/nighthawks-hopper.jpg',
+    title: 'Nighthawks',
+    title_en: 'Nighthawks',
+    subtitle: 'Edward Hopper, 1942',
+    subtitle_en: 'Edward Hopper, 1942',
+    category: 'art' as const,
+    designer: 'Edward Hopper',
+    year: '1942',
+    tags: ['定义了美国视觉语言', '孤独美学的原型', '电影构图的教科书'],
+    tags_en: ['Defined American Visual Language', 'Archetype of Loneliness Aesthetics', 'Textbook of Cinematic Composition'],
+
+    dateConnection: `1967年5月15日，Edward Hopper 在纽约华盛顿广场的画室里去世，享年84岁。这位用光影和沉默重新定义了"美国"视觉的画家，留下了一幅几乎所有人都见过、却叫不出名字的画——Nighthawks。它不是挂在博物馆里的名画，它是一种感觉：深夜、城市、荧光灯下无处可去的人。从电影到广告到流行文化，Nighthawks 的构图和情绪被引用了无数次，成为现代孤独最精准的视觉定义。`,
+    designerBio: `Edward Hopper（1882-1967）出生于纽约州小镇 Nyack，从小就表现出对光线的痴迷。他在纽约艺术学生联盟师从 Robert Henri，1906-1910年间三次赴巴黎，深受印象派对光线的处理方式影响——但他没有学到巴黎的热闹，反而带回了一种冷静的观察距离。
+
+回到纽约后，Hopper 度过了漫长的沉寂期。他靠商业插画谋生，直到1924年（42岁）才凭水彩画获得认可。但正是这段默默无闻的岁月塑造了他的视角：一个旁观者的视角，隔着窗户、隔着街道、隔着沉默看世界。他的妻子 Josephine Nivison（Jo）是他唯一的模特——Nighthawks 里那个红发女人就是她。两人的婚姻复杂而封闭，几乎与世隔绝，这种关系本身就像一幅 Hopper 的画。`,
+    story: `1942年1月，珍珠港事件后不到两个月，Hopper 在纽约格林威治村的画室里开始了 Nighthawks。他后来说灵感来自"格林威治大道上两条街交汇处的一家餐厅"，但没人找到过这家店——它可能是多个真实场所的融合，也可能根本只存在于他的感受中。
+
+画面的构图是一个精心设计的矛盾：餐厅内部被荧光灯照得通亮，像一个舞台，但四个人物之间没有任何交流。调酒师低头忙碌，一对男女坐在一起却各自沉默，一个独坐的男人背对观众。最关键的细节是——**餐厅没有可见的门**。Hopper 把观众永远锁在了外面，透过巨大的弧形玻璃窗看里面的人，却永远无法走进去。
+
+这不是偶然。Hopper 的 preparatory sketch 显示他反复调整了窗户的比例和人物的位置，确保那种"看得见但够不着"的疏离感。Jo 在她的日记中记录了创作过程：Hopper 在1月21日开始，3月完成。整幅画的色调被严格控制在翡翠绿、深褐和荧光黄之间，街道上没有一个行人，对面的商店漆黑一片。战时灯火管制让纽约的夜晚比平时更暗，这种氛围渗透进了画布。
+
+Nighthawks 完成后几乎立刻被芝加哥艺术学院以3000美元购入——在当时这是一笔可观的价格。此后它再也没有离开过那里。`,
+    legacy: `Nighthawks 的影响力远超艺术圈。Ridley Scott 说他拍《银翼杀手》时反复研究这幅画的光线和构图；Wim Wenders 的《德州巴黎》用了几乎相同的色调和孤独感；Tom Waits 的专辑 Nighthawks at the Diner 直接致敬。它被恶搞、被引用、被印在无数海报和T恤上——James Dean 版、Star Wars 版、Simpsons 版，每一次致敬都证明了这幅画已经超越了"名画"的范畴，成为一种视觉语言。
+
+对设计界而言，Nighthawks 是构图和色彩运用的永恒教材。它证明了一件事：最强烈的情绪不需要任何戏剧化的动作，只需要光线、空间和沉默。这种"少即是多"的叙事方式直接影响了后来的电影摄影、广告视觉和平面设计。`,
+    significance: `Hopper 画的不是人，是空间里的孤独。他把美国城市的日常——加油站、汽车旅馆、办公室、深夜餐厅——变成了一种美学。在他之前，没有人觉得这些场景值得画；在他之后，每个导演和摄影师都在不自觉地引用他。Nighthawks 是这种美学的巅峰：它让"孤独"变成了一种可以被看见、被设计、被传播的东西。`,
+
+    dateConnection_en: `On May 15, 1967, Edward Hopper died in his Washington Square studio in New York, aged 84. The painter who redefined the visual language of "America" through light and silence left behind a painting that virtually everyone has seen but few can name — Nighthawks. It's not just a masterpiece hanging in a museum; it's a feeling: late night, the city, people with nowhere to go under fluorescent light. From cinema to advertising to pop culture, Nighthawks' composition and mood have been referenced countless times, becoming the most precise visual definition of modern loneliness.`,
+    designerBio_en: `Edward Hopper (1882–1967) was born in Nyack, a small town in New York State, and showed an early obsession with light. He studied under Robert Henri at the New York School of Art and made three trips to Paris between 1906 and 1910, deeply influenced by the Impressionists' treatment of light — yet instead of Parisian exuberance, he brought home a cool, observational distance.
+
+Back in New York, Hopper endured a long period of obscurity. He survived on commercial illustration until 1924, when at age 42 he finally gained recognition through watercolors. But those anonymous years shaped his perspective: the viewpoint of an observer, watching the world through windows, across streets, through silence. His wife Josephine Nivison (Jo) was his only model — the red-haired woman in Nighthawks is her. Their marriage was complex and insular, almost hermetically sealed from the world — itself like a Hopper painting.`,
+    story_en: `In January 1942, less than two months after Pearl Harbor, Hopper began Nighthawks in his Greenwich Village studio. He later said the inspiration was "a restaurant on Greenwich Avenue where two streets meet," but no one has ever identified it — it may have been a composite of several real places, or perhaps existed only in his imagination.
+
+The composition is a carefully designed paradox: the diner interior blazes under fluorescent light like a stage, yet the four figures share no connection. The counterman works with his head down, a couple sits together in separate silences, a solitary man faces away from the viewer. The crucial detail — **the diner has no visible door.** Hopper permanently locks the viewer outside, peering through the enormous curved plate-glass window at the people inside, forever unable to enter.
+
+This was deliberate. Hopper's preparatory sketches show him repeatedly adjusting the window proportions and figure positions to perfect that sense of "visible but unreachable" alienation. Jo recorded the process in her diary: Hopper began on January 21 and finished in March. The palette is tightly controlled between emerald green, deep brown, and fluorescent yellow. Not a single pedestrian walks the street; the shops across the road are pitch dark. Wartime blackout regulations made New York's nights darker than usual — that atmosphere seeped into the canvas.
+
+Nighthawks was purchased almost immediately by the Art Institute of Chicago for $3,000 — a considerable sum at the time. It has never left.`,
+    legacy_en: `Nighthawks' influence extends far beyond the art world. Ridley Scott studied its lighting and composition extensively while making Blade Runner; Wim Wenders' Paris, Texas channels nearly identical tones and solitude; Tom Waits' album Nighthawks at the Diner pays direct tribute. It has been parodied, referenced, and printed on countless posters and T-shirts — James Dean versions, Star Wars versions, Simpsons versions — each homage proving the painting has transcended "masterpiece" to become a visual language.
+
+For the design world, Nighthawks is an eternal textbook of composition and color. It proves one thing: the most powerful emotions require no dramatic action — only light, space, and silence. This "less is more" narrative approach directly influenced cinema photography, advertising visuals, and graphic design for decades to come.`,
+    significance_en: `Hopper didn't paint people; he painted loneliness within space. He transformed the American urban everyday — gas stations, motels, offices, late-night diners — into an aesthetic. Before him, no one considered these scenes worth painting; after him, every filmmaker and photographer unconsciously quotes him. Nighthawks is the pinnacle of this aesthetic: it made "loneliness" something that could be seen, designed, and disseminated.`,
+  },
 ]
