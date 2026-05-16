@@ -7217,4 +7217,59 @@ Nighthawks was purchased almost immediately by the Art Institute of Chicago for 
 For the design world, Nighthawks is an eternal textbook of composition and color. It proves one thing: the most powerful emotions require no dramatic action — only light, space, and silence. This "less is more" narrative approach directly influenced cinema photography, advertising visuals, and graphic design for decades to come.`,
     significance_en: `Hopper didn't paint people; he painted loneliness within space. He transformed the American urban everyday — gas stations, motels, offices, late-night diners — into an aesthetic. Before him, no one considered these scenes worth painting; after him, every filmmaker and photographer unconsciously quotes him. Nighthawks is the pinnacle of this aesthetic: it made "loneliness" something that could be seen, designed, and disseminated.`,
   },
+  {
+    id: '118',
+    date: '2026-05-16',
+    imageUrl: '/the-daily-object/images/louvre-pyramid.jpg',
+    fullImageUrl: '/the-daily-object/images/full/louvre-pyramid.jpg',
+    title: '卢浮宫金字塔',
+    title_en: 'Louvre Pyramid',
+    subtitle: '贝聿铭, 1989',
+    subtitle_en: 'I. M. Pei, 1989',
+    category: 'architecture' as const,
+    designer: '贝聿铭',
+    year: '1989',
+    tags: ['改变了博物馆建筑', '东西方美学融合', '争议变经典'],
+    tags_en: ['Transformed Museum Architecture', 'East-West Aesthetic Fusion', 'From Controversy to Icon'],
+
+    dateConnection: `2019年5月16日，贝聿铭在纽约曼哈顿家中去世，享年102岁。这位华裔美国建筑师留下了一份让整个巴黎从愤怒到热爱的礼物——卢浮宫金字塔。1984年密特朗总统宣布这个方案时，90%的巴黎人表示反对，媒体称之为"对法国文化的侮辱"。三十多年后，金字塔每年迎接超过一千万访客，成为巴黎最被热爱的地标之一。`,
+    designerBio: `贝聿铭（1917-2019），出生于广州，成长于苏州和上海，18岁赴美求学，先后就读于麻省理工和哈佛。他的建筑语言独一无二：用现代主义的几何纯粹，承载东方园林对光影和空间的理解。
+
+从华盛顿国家美术馆东馆到香港中银大厦，从日本美秀美术馆到卡塔尔伊斯兰艺术博物馆，贝聿铭的作品遍布四大洲。但定义他一生的，是卢浮宫金字塔——一个让他承受了巴黎两年怒火、最终赢得整座城市尊敬的项目。`,
+    story: `1983年，法国总统密特朗亲自选定贝聿铭来改造卢浮宫。没有竞标，没有评审，直接指定——这在法国建筑界史无前例，也激起了史无前例的愤怒。
+
+贝聿铭提出在拿破仑庭院中央建一座玻璃金字塔作为新入口。方案一公布，巴黎炸了。"一颗巨大的钻石赝品"、"埃及死亡之屋"、"对卢浮宫的亵渎"——抗议信雪片般飞来。《费加罗报》发起民调，90%的受访者反对。
+
+贝聿铭没有退缩。他在庭院里搭建了一个1:1的钢缆模型，邀请6万巴黎市民来现场体验。他花了几个月研究玻璃的透明度，最终找到一种特殊的超白玻璃——比普通玻璃清透十倍，让金字塔在不同光线下呈现不同的表情：清晨像一块冰，正午消失在阳光中，夜晚则成为一盏温暖的灯。
+
+**金字塔的数学同样精确**：高度21.6米，底边34米，倾斜角51度——与吉萨大金字塔完全相同。673块菱形玻璃和三角形玻璃拼合而成，结构上没有一根多余的支撑。
+
+1989年3月30日，金字塔正式开放。曾经最激烈的反对者们沉默了。光线从金字塔倾泻而下，照亮了地下大厅，将一个阴暗拥挤的入口变成了充满仪式感的空间。卢浮宫的年访客量从此翻了一番。`,
+    legacy: `卢浮宫金字塔证明了一件事：伟大的设计不需要群众投票，但需要时间来赢得群众的心。它开创了"历史建筑+现代介入"的范式——此后全世界的博物馆扩建都在回应这个先例，从大英博物馆的中庭到柏林国会大厦的玻璃穹顶。
+
+贝聿铭用一个纯粹的几何形体，同时解决了功能问题（入口太小）和美学问题（新旧如何共存）。金字塔不模仿卢浮宫，也不对抗它，而是用透明和光线与之对话。这种"谦逊的大胆"成为后来无数建筑师处理历史语境时的参照。`,
+    significance: `贝聿铭是二十世纪少数能真正跨越东西方的建筑师。苏州园林教会他用框景和借景控制视线，现代主义教会他用几何和光线塑造空间，而卢浮宫金字塔是这两种智慧的最高合成。
+
+在一个建筑越来越追求表演性的时代，金字塔提醒我们：最持久的设计不是最张扬的，而是最精确的——精确到让人忘记它是"被设计的"，只觉得它理应在那里。`,
+
+    dateConnection_en: `On May 16, 2019, I. M. Pei passed away at his Manhattan home at the age of 102. The Chinese-American architect left behind a gift that transformed an entire city's fury into love — the Louvre Pyramid. When President Mitterrand announced the project in 1984, 90% of Parisians opposed it and the press called it "an insult to French culture." More than three decades later, the Pyramid welcomes over ten million visitors annually and stands as one of Paris's most beloved landmarks.`,
+    designerBio_en: `I. M. Pei (1917–2019) was born in Guangzhou, grew up in Suzhou and Shanghai, and left for America at 18, studying at MIT and Harvard. His architectural language was singular: modern geometric purity infused with an Eastern sensibility for light, shadow, and spatial sequence.
+
+From the National Gallery East Building in Washington to the Bank of China Tower in Hong Kong, from the Miho Museum in Japan to the Museum of Islamic Art in Qatar, Pei's works span four continents. But the project that defined his life was the Louvre Pyramid — one that subjected him to two years of Parisian rage before earning the city's enduring respect.`,
+    story_en: `In 1983, French President François Mitterrand personally selected Pei to redesign the Louvre. No competition, no jury, a direct appointment — unprecedented in French architecture and met with unprecedented fury.
+
+Pei proposed a glass pyramid at the center of the Cour Napoléon as the museum's new entrance. When the plan went public, Paris erupted. "A gigantic fake diamond," "an Egyptian house of death," "a desecration of the Louvre" — protest letters poured in. Le Figaro ran a poll: 90% of respondents opposed it.
+
+Pei didn't flinch. He erected a full-scale cable model in the courtyard and invited 60,000 Parisians to experience it firsthand. He spent months perfecting the glass, eventually sourcing a special ultra-clear variety — ten times more transparent than standard glass — that gives the pyramid shifting expressions throughout the day: an ice crystal at dawn, nearly invisible at noon, a warm lantern at night.
+
+**The mathematics are equally precise**: 21.6 meters tall, 34 meters at the base, inclined at 51 degrees — identical to the Great Pyramid of Giza. Its 673 diamond-shaped and triangular glass panes are assembled with zero redundant supports.
+
+On March 30, 1989, the Pyramid opened. The fiercest critics fell silent. Light cascaded through the structure into the underground lobby, transforming a cramped, gloomy entrance into a space of ceremony and wonder. The Louvre's annual attendance doubled.`,
+    legacy_en: `The Louvre Pyramid proved something fundamental: great design doesn't need a popular vote, but it needs time to win the public's heart. It pioneered the "historic building + modern intervention" paradigm — every major museum expansion since has responded to this precedent, from the British Museum's Great Court to the Reichstag's glass dome.
+
+With a single, pure geometric form, Pei solved both a functional problem (the entrance was too small) and an aesthetic one (how old and new coexist). The Pyramid doesn't imitate the Louvre, nor does it compete — it converses through transparency and light. This "humble boldness" became the reference point for architects navigating historic contexts worldwide.`,
+    significance_en: `Pei was one of the rare twentieth-century architects who truly bridged East and West. Suzhou's gardens taught him to frame and borrow views; Modernism taught him to sculpt space with geometry and light; the Louvre Pyramid is the supreme synthesis of both wisdoms.
+
+In an era where architecture increasingly chases spectacle, the Pyramid reminds us that the most enduring design is not the loudest but the most precise — so precise that people forget it was "designed" and simply feel it belongs.`,
+  },
 ]
