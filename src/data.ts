@@ -7272,4 +7272,56 @@ With a single, pure geometric form, Pei solved both a functional problem (the en
 
 In an era where architecture increasingly chases spectacle, the Pyramid reminds us that the most enduring design is not the loudest but the most precise — so precise that people forget it was "designed" and simply feel it belongs.`,
   },
+  {
+    id: '119',
+    date: '2026-05-17',
+    imageUrl: '/the-daily-object/images/lisa-fonssagrives.jpg',
+    fullImageUrl: '/the-daily-object/images/full/lisa-fonssagrives.jpg',
+    title: 'Lisa Fonssagrives',
+    title_en: 'Lisa Fonssagrives',
+    subtitle: 'Toni Frissell 摄, 1951',
+    subtitle_en: 'Photographed by Toni Frissell, 1951',
+    category: 'fashion' as const,
+    designer: 'Lisa Fonssagrives',
+    year: '1951',
+    tags: ['世界第一超模', '定义了高级时尚', '摄影与时装的融合'],
+    tags_en: ['The First Supermodel', 'Defined High Fashion', 'Photography Meets Couture'],
+
+    dateConnection: `1911年5月17日，Lisa Fonssagrives 出生于瑞典乌德瓦拉（Uddevalla）。在"超模"这个词被发明之前，她就已经是了——从1936年到1950年代，她统治了时尚摄影长达二十年，登上 Vogue 封面超过200次。她不只是被拍摄的对象，她理解光线、理解构图、理解身体在空间中的表达。她说过："模特就是跳舞。"——因为她本来就是一个舞者。`,
+    designerBio: `Lisa Fonssagrives（1911-1992），原名 Lisa Birgitta Bernstone，出生于瑞典西海岸小城乌德瓦拉。从小学习绘画和雕塑，后赴柏林在 Mary Wigman 门下学习现代舞，又去巴黎训练芭蕾。她在巴黎开了舞蹈学校，遇到了摄影师 Fernand Fonssagrives——两人结婚后，她的人生轨迹发生了意想不到的转弯。
+
+1936年，摄影师 Willy Maywald 在电梯里看到她，邀请她试拍帽子照片。那组照片被寄给了 Vogue，时尚史上最传奇的职业生涯就此开始。接下来的二十年里，她与那个时代最伟大的摄影师逐一合作：Horst P. Horst、Man Ray、George Hoyningen-Huene、Erwin Blumenfeld、Richard Avedon。每一位都说同样的话——Lisa 不需要被指导，她自己就懂镜头。
+
+1950年，她嫁给了 Irving Penn，成为他终身的缪斯。退出模特界后，她为 Lord & Taylor 设计休闲服装线，又转型成为雕塑家，在曼哈顿的 Marlborough Gallery 展出作品。从舞者到超模到设计师到雕塑家——她从未停止用身体和双手创造美。`,
+    story: `这张照片由 Toni Frissell 于1951年在伦敦帕丁顿车站拍摄，是时尚摄影史上最具辨识度的影像之一。Fonssagrives 身穿大衣，站在蒸汽弥漫的月台上，周围是匆忙的旅客和维多利亚时代的铁架穹顶——整个画面像一帧电影定格。
+
+但这张照片的价值远不止"好看"。它标志着时尚摄影从棚拍走向街头的关键转折。在此之前，时装照意味着白色背景和僵硬的站姿；Frissell 和 Fonssagrives 一起证明了：时尚可以发生在真实的世界里，模特可以是一个有故事的人，而不只是一个衣架。
+
+Fonssagrives 被称为"世界第一超模"——不是因为她最漂亮（虽然她确实美得惊人），而是因为她第一个让这个职业拥有了尊严和深度。她曾谦虚地说自己只是"一个好衣架"，但所有与她合作过的摄影师都知道：她理解光影、理解动态、理解一件衣服在空间中应该如何存在。她让模特从道具变成了共创者。
+
+Erwin Blumenfeld 那张著名的埃菲尔铁塔照片——Fonssagrives 站在铁塔高处的横梁上，身体倾斜在巴黎上空——至今仍是时尚摄影勇气和美学的最高象征。那不是 PS，不是安全绳，就是一个舞者对自己身体的绝对信任。`,
+    legacy: `Lisa Fonssagrives 定义了"超模"这个概念。在她之前，模特是匿名的、可替换的；在她之后，模特可以有名字、有个性、有自己的艺术判断。从 Naomi Campbell 到 Kate Moss，每一代超模的根源都可以追溯到她。
+
+她与 Irving Penn 的合作留下了20世纪最经典的时尚影像，这些照片现在收藏在 MoMA、Met、Smithsonian 等全球顶级博物馆。她证明了时尚摄影不是商业废品，而是严肃的视觉艺术。`,
+    significance: `Fonssagrives 的意义在于：她模糊了模特、舞者、设计师、艺术家之间的界限。她不是一个等待被拍的身体，而是一个用身体思考的创作者。她的职业生涯证明了一件事——时尚设计不只发生在工作台上，也发生在镜头前。穿衣服的人，和设计衣服的人一样重要。`,
+
+    dateConnection_en: `On May 17, 1911, Lisa Fonssagrives was born in Uddevalla, Sweden. Before the word "supermodel" was even coined, she already was one — dominating fashion photography for two decades from the 1930s through the 1950s, gracing over 200 Vogue covers. She was not merely a subject to be photographed; she understood light, composition, and how the body speaks in space. "Modeling is still dancing," she once said — because she had always been a dancer first.`,
+    designerBio_en: `Lisa Fonssagrives (1911–1992), born Lisa Birgitta Bernstone in the small Swedish coastal town of Uddevalla, studied painting, sculpture, and modern dance under Mary Wigman in Berlin before training in ballet in Paris. There she opened a dance school and married photographer Fernand Fonssagrives — a union that would redirect her life.
+
+In 1936, photographer Willy Maywald spotted her in an elevator and asked her to model hats. Those images were sent to Vogue, launching fashion history's most legendary career. Over the next two decades, she collaborated with every great photographer of the era: Horst, Man Ray, Hoyningen-Huene, Blumenfeld, Avedon. Each said the same thing — Lisa needed no direction; she understood the camera instinctively.
+
+In 1950, she married Irving Penn and became his lifelong muse. After retiring from modeling, she designed a leisurewear line for Lord & Taylor, then became a sculptor exhibiting at Manhattan's Marlborough Gallery. From dancer to supermodel to designer to sculptor — she never stopped creating beauty with her body and hands.`,
+    story_en: `This photograph, taken by Toni Frissell at London's Paddington Station in 1951, is one of the most recognizable images in fashion photography history. Fonssagrives stands in a coat on a steam-filled platform, surrounded by hurrying travelers beneath the Victorian iron-and-glass canopy — the entire frame frozen like a film still.
+
+But the image's significance goes far beyond beauty. It marks a pivotal shift in fashion photography: from studio to street. Before this, fashion photographs meant white backdrops and rigid poses; Frissell and Fonssagrives together proved that fashion could happen in the real world, that a model could be a person with a story rather than merely a clothes hanger.
+
+Fonssagrives was called "the first supermodel" — not because she was the most beautiful (though she was strikingly so), but because she was the first to give the profession dignity and depth. She once described herself modestly as "a good clothes hanger," but every photographer who worked with her knew the truth: she understood light, movement, and how a garment should exist in space. She transformed the model from prop to co-creator.
+
+Erwin Blumenfeld's famous Eiffel Tower photograph — Fonssagrives leaning from a high beam above Paris — remains the ultimate symbol of courage and aesthetics in fashion photography. No Photoshop, no safety harness — just a dancer's absolute trust in her own body.`,
+    legacy_en: `Lisa Fonssagrives defined the very concept of the "supermodel." Before her, models were anonymous and interchangeable; after her, they could have names, personalities, and their own artistic judgment. Every generation of supermodels, from Naomi Campbell to Kate Moss, traces its lineage back to her.
+
+Her collaboration with Irving Penn produced some of the twentieth century's most iconic fashion images, now held in the collections of MoMA, the Met, and the Smithsonian. She proved that fashion photography was not commercial ephemera but serious visual art.`,
+    significance_en: `Fonssagrives's legacy lies in blurring the boundaries between model, dancer, designer, and artist. She was not a passive body awaiting the camera but a creator who thought through her body. Her career proved that fashion design happens not only at the worktable but also in front of the lens — that the person wearing the clothes matters as much as the person who designed them.`,
+  },
+
 ]
