@@ -7324,4 +7324,57 @@ Her collaboration with Irving Penn produced some of the twentieth century's most
     significance_en: `Fonssagrives's legacy lies in blurring the boundaries between model, dancer, designer, and artist. She was not a passive body awaiting the camera but a creator who thought through her body. Her career proved that fashion design happens not only at the worktable but also in front of the lens — that the person wearing the clothes matters as much as the person who designed them.`,
   },
 
+  {
+    id: '120',
+    date: '2026-05-18',
+    imageUrl: '/the-daily-object/images/bauhaus-dessau.jpg',
+    fullImageUrl: '/the-daily-object/images/full/bauhaus-dessau.jpg',
+    title: '包豪斯德绍校舍',
+    title_en: 'Bauhaus Dessau',
+    subtitle: 'Walter Gropius, 1925–1926',
+    subtitle_en: 'Walter Gropius, 1925–1926',
+    category: 'architecture' as const,
+    designer: 'Walter Gropius',
+    year: '1926',
+    tags: ['现代设计教育起点', '玻璃幕墙先驱', '改变了整个设计行业'],
+    tags_en: ['Birthplace of Modern Design Education', 'Glass Curtain Wall Pioneer', 'Transformed the Entire Design Industry'],
+
+    dateConnection: `1883年5月18日，Walter Gropius 出生于柏林。36年后，他在魏玛创办了一所学校，名叫包豪斯——一个让艺术与工业握手言和的地方。再过6年，他在德绍亲手设计了这所学校的新校舍：一座用玻璃、钢铁和混凝土写成的宣言。这栋建筑本身就是包豪斯理念的实体化——没有多余的装饰，每一面墙、每一扇窗都在回答同一个问题：建筑能不能像机器一样诚实？`,
+    designerBio: `Walter Gropius（1883–1969），柏林人，建筑师之子。在 Peter Behrens 的工作室当学徒时，他的同事包括 Mies van der Rohe 和 Le Corbusier——二十世纪最重要的三位建筑师曾挤在同一间办公室画图。
+
+1919年，一战刚结束，德国百废待兴。Gropius 接手魏玛的萨克森大公艺术学校，将它改造成一个前所未有的实验：让画家、雕塑家、建筑师和工匠坐在同一张桌子旁学习。他给这所学校取名"Bauhaus"——德语"建造之家"。这个名字后来成了整个现代设计运动的代名词。
+
+1925年，因为魏玛政治环境恶化，包豪斯迁往德绍。Gropius 亲自操刀设计了新校舍，将学校的教育理念变成了一栋可以住进去的建筑。1933年纳粹关闭包豪斯后，他流亡英国，后赴美国，在哈佛大学建筑系任教，将包豪斯的火种撒向全世界。`,
+    story: `1926年12月4日，德绍包豪斯校舍正式启用。这栋建筑看起来不像任何人见过的学校——没有对称的正立面，没有柱子，没有装饰线脚。取而代之的是一面巨大的玻璃幕墙，从地面一直延伸到屋顶，把整个车间暴露在阳光下。
+
+这不是偶然的。Gropius 刻意让车间透明——他要让路人看到里面的人在工作，看到艺术和手工艺不是藏在象牙塔里的秘密，而是光天化日下的劳动。玻璃幕墙在当时是一种宣言：我们没有什么需要隐藏的。
+
+建筑由三个功能翼组成，用连廊连接，形成一个不对称的风车形平面。教学楼、车间、学生宿舍各自独立又相互贯通，空间的流动感取代了传统学院的封闭走廊。学生宿舍的每个房间都有一个小阳台，朝向不同方向——Gropius 相信阳光和新鲜空气是教育的一部分。
+
+**最激进的是那面玻璃幕墙。** 在1926年，把一整面外墙做成玻璃是技术上的冒险——没有先例，没有标准，连怎么清洁都没人想过。但 Gropius 坚持：建筑的外皮应该是轻盈的、透明的，不再是承重的厚墙。这个理念后来成为整个现代建筑的基本语法——从密斯的西格拉姆大厦到 Foster 的苹果总部，每一栋玻璃大楼都欠包豪斯德绍一个致敬。`,
+    legacy: `包豪斯德绍校舍是20世纪最有影响力的建筑之一。它不只是一栋房子，它是一个教育理念的物理形态——艺术与技术的统一、形式追随功能、设计为所有人服务。1996年，它被列入联合国教科文组织世界遗产名录。
+
+从这栋建筑里走出的学生和教师——Kandinsky、Klee、Moholy-Nagy、Breuer、Albers——后来散布到全球各地，将包豪斯的方法论带入了平面设计、工业设计、摄影、纺织、家具设计的每一个角落。今天你用的每一款简洁的手机界面、坐的每一把现代椅子、读的每一本网格排版的杂志，都或多或少继承了这栋建筑里诞生的设计哲学。`,
+    significance: `包豪斯德绍的意义不在于它的建筑形式本身，而在于它证明了一件事：一所学校可以改变整个行业。在包豪斯之前，"设计"这个职业几乎不存在——有的是画家、有的是工匠、有的是建筑师，但没有人把它们看作同一件事。Gropius 在德绍做的，是用一栋建筑把这些人拉到一起，然后告诉世界：这叫设计。`,
+
+    dateConnection_en: `On May 18, 1883, Walter Gropius was born in Berlin. Thirty-six years later, he founded a school in Weimar called Bauhaus — a place where art and industry could shake hands. Six years after that, he designed its new home in Dessau: a manifesto written in glass, steel, and concrete. The building itself was the Bauhaus philosophy made physical — no superfluous ornament, every wall and window answering one question: can architecture be as honest as a machine?`,
+    designerBio_en: `Walter Gropius (1883–1969), born in Berlin to an architect father. While apprenticing in Peter Behrens's studio, his colleagues included Mies van der Rohe and Le Corbusier — three of the twentieth century's most important architects once shared the same drafting room.
+
+In 1919, with the Great War just ended and Germany in ruins, Gropius took over the Saxon Grand Ducal School of Art in Weimar and transformed it into an unprecedented experiment: painters, sculptors, architects, and craftsmen learning side by side at the same table. He named it "Bauhaus" — German for "house of building." That name would become synonymous with the entire modern design movement.
+
+In 1925, worsening political conditions in Weimar forced the Bauhaus to relocate to Dessau. Gropius designed the new campus himself, translating the school's educational philosophy into a building you could walk through and inhabit. After the Nazis shuttered the Bauhaus in 1933, he fled to England and then to the United States, where he chaired Harvard's architecture department and spread the Bauhaus flame across the globe.`,
+    story_en: `On December 4, 1926, the Bauhaus Dessau building officially opened. It looked like no school anyone had ever seen — no symmetrical facade, no columns, no decorative moldings. Instead, an enormous glass curtain wall stretched from ground to roof, exposing the entire workshop to sunlight.
+
+This was deliberate. Gropius made the workshop transparent so that passersby could see people working inside — art and craft were not secrets locked in an ivory tower but labor performed in broad daylight. The glass curtain wall was a statement: we have nothing to hide.
+
+The building consists of three functional wings connected by walkways, forming an asymmetrical pinwheel plan. Teaching block, workshop, and student dormitory each stand independently yet flow into one another, replacing the closed corridors of traditional academies with a sense of spatial fluidity. Every dormitory room has a small balcony facing a different direction — Gropius believed sunlight and fresh air were part of education.
+
+**The most radical element was that glass curtain wall.** In 1926, turning an entire exterior wall into glass was a technical gamble — no precedent, no standards, no one had even considered how to clean it. But Gropius insisted: a building's skin should be light and transparent, no longer a load-bearing thick wall. That idea became the foundational grammar of modern architecture — from Mies's Seagram Building to Foster's Apple Park, every glass tower owes the Bauhaus Dessau a nod.`,
+    legacy_en: `The Bauhaus Dessau building is one of the most influential buildings of the twentieth century. It is not merely a structure but the physical form of an educational philosophy — the unity of art and technology, form follows function, design in service of all. In 1996, it was inscribed on the UNESCO World Heritage List.
+
+The students and teachers who walked its halls — Kandinsky, Klee, Moholy-Nagy, Breuer, Albers — later scattered across the globe, carrying the Bauhaus methodology into every corner of graphic design, industrial design, photography, textiles, and furniture. Every clean phone interface you use today, every modern chair you sit in, every grid-laid magazine you read inherits, to some degree, the design philosophy born inside this building.`,
+    significance_en: `The significance of Bauhaus Dessau lies not in its architectural form alone but in what it proved: a single school can transform an entire industry. Before the Bauhaus, the profession of "design" barely existed — there were painters, craftsmen, and architects, but no one saw them as doing the same thing. What Gropius did in Dessau was use one building to bring all of them together, then tell the world: this is called design.`,
+  },
+
+
 ]
