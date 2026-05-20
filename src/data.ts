@@ -7438,4 +7438,60 @@ Chapman's lightweight philosophy proved even more far-reaching. Today's carbon-f
     significance_en: `The Esprit S1 proved that design is not decoration but the unity of engineering, aesthetics, and philosophy. Chapman's "simplify, then add lightness" was more than a slogan — it was an attitude toward the world: the best solution is not to add more but to strip away everything unnecessary. That idea expanded far beyond automobiles into product design, software design, even lifestyle — traces of Chapman's thinking appear in the philosophies of Steve Jobs, Dieter Rams, and the broader maker culture.`,
   },
 
+  {
+    id: '115',
+    date: '2026-05-20',
+    imageUrl: '/the-daily-object/images/hepworth-single-form.jpg',
+    fullImageUrl: '/the-daily-object/images/full/hepworth-single-form.jpg',
+    title: 'Single Form',
+    title_en: 'Single Form',
+    subtitle: 'Barbara Hepworth, 1961-1964',
+    subtitle_en: 'Barbara Hepworth, 1961-1964',
+    category: 'art' as const,
+    designer: 'Barbara Hepworth',
+    year: '1964',
+    tags: ['现代雕塑先驱', '穿孔形态开创者', '公共艺术里程碑'],
+    tags_en: ['Modern Sculpture Pioneer', 'Pierced Form Originator', 'Public Art Milestone'],
+
+    dateConnection: '1975年5月20日，Barbara Hepworth 在她位于康沃尔郡圣艾夫斯的工作室中因火灾不幸离世，享年72岁。这位20世纪最伟大的雕塑家之一，用"穿孔"重新定义了雕塑的内与外，让虚空成为与实体同等重要的造型语言。',
+    designerBio: `Barbara Hepworth（1903-1975）是英国雕塑家，现代主义雕塑的核心人物。她出生于约克郡韦克菲尔德，先后就读于利兹艺术学院和伦敦皇家艺术学院，与同学 Henry Moore 一起开启了英国现代雕塑的新纪元。
+
+1931年，Hepworth 创作了第一件穿孔雕塑——比 Henry Moore 的同类尝试更早。这个看似简单的动作——在实体中凿出一个洞——彻底改变了雕塑的定义：空间不再是围绕雕塑的"背景"，而是雕塑本身的一部分。虚与实获得了平等的地位。
+
+二战期间，她迁居康沃尔郡圣艾夫斯，在那里度过了余生的35年。她的花园工作室如今已成为 Tate 美术馆的分馆，是英国最重要的艺术朝圣地之一。`,
+    story: `1961年，联合国秘书长达格·哈马舍尔德（Dag Hammarskjöld）委托 Hepworth 为纽约联合国总部创作一件纪念雕塑。他们之间有过多次关于艺术与和平的深入对话——Hammarskjöld 相信抽象艺术能超越语言和文化的隔阂，传达人类共通的情感。
+
+**1961年9月，Hammarskjöld 在前往刚果调停冲突的途中坠机遇难。** Hepworth 决定将这件作品献给他的记忆。
+
+最终完成的 *Single Form* 高6.4米，是一块巨大的青铜薄片，近乎椭圆，顶部凿有一个圆形穿孔。它立于联合国总部广场的水池中央，倒影在水面上形成完整的圆。
+
+**这个穿孔是 Hepworth 的签名式语言。** 她曾写道："我认为雕塑中的洞可以拥有和实体同样的形态意义——洞让你看穿雕塑，看到另一侧的世界，这本身就是一种联结。"
+
+*Single Form* 不是一座纪念碑式的作品，它没有英雄姿态，没有叙事浮雕。它只是一个沉默的、优美的形体，站在那里，像一个人站在世界面前——独立、完整、开放。`,
+    legacy: `Hepworth 是20世纪最具影响力的雕塑家之一。她证明了抽象雕塑不需要放弃情感——相反，通过去除具象的干扰，纯粹的形态反而能触发更深层的感受。她的穿孔手法成为现代雕塑最重要的形式语言之一，影响了从 Isamu Noguchi 到 Anish Kapoor 的几代雕塑家。
+
+她在圣艾夫斯的工作室花园（The Barbara Hepworth Museum and Sculpture Garden）至今保持着她离世时的原貌，每年吸引超过10万名访客。Tate 美术馆、MoMA、古根海姆等全球顶级机构均永久收藏她的作品。`,
+    significance: `Hepworth 的 *Single Form* 是公共艺术史上最有力的证明之一：一件抽象雕塑可以承载深刻的人文意义，而不需要任何文字说明。她将雕塑从画廊的白盒子中解放出来，放入城市空间、花园和公共广场，让每一个路过的人都能与之对话。在一个崇尚"更大、更多、更复杂"的时代，Hepworth 坚持用减法创作——去掉材料，留下空间；去掉叙事，留下形态；去掉装饰，留下本质。这种克制的美学影响了整个现代设计的思维方式。`,
+
+    dateConnection_en: `On May 20, 1975, Barbara Hepworth died in a fire at her studio in St Ives, Cornwall, at the age of 72. One of the greatest sculptors of the 20th century, she redefined the relationship between solid and void in sculpture, making emptiness a formal language as powerful as mass itself.`,
+    designerBio_en: `Barbara Hepworth (1903-1975) was an English sculptor and a central figure in Modernist sculpture. Born in Wakefield, Yorkshire, she studied at Leeds School of Art and the Royal College of Art, where alongside fellow student Henry Moore she helped launch a new era in British modern sculpture.
+
+In 1931, Hepworth created her first pierced sculpture — predating Henry Moore's similar explorations. This seemingly simple act — carving a hole through solid form — fundamentally redefined sculpture: space was no longer mere "background" surrounding the object but an integral part of the work itself. Void and mass achieved equal status.
+
+During World War II she relocated to St Ives, Cornwall, where she lived and worked for the remaining 35 years of her life. Her studio garden is now a branch of the Tate and one of Britain's most important artistic pilgrimage sites.`,
+    story_en: `In 1961, United Nations Secretary-General Dag Hammarskjöld commissioned Hepworth to create a memorial sculpture for the UN headquarters in New York. The two had engaged in deep conversations about art and peace — Hammarskjöld believed abstract art could transcend barriers of language and culture to convey universal human emotions.
+
+**In September 1961, Hammarskjöld was killed in a plane crash en route to mediate a conflict in the Congo.** Hepworth resolved to dedicate the work to his memory.
+
+The completed *Single Form* stands 6.4 meters tall — a massive bronze slab, nearly oval, with a circular perforation near its apex. It rises from a reflecting pool at the UN Plaza, its reflection completing a perfect circle on the water's surface.
+
+**The piercing is Hepworth's signature formal device.** She once wrote: "I think that the hole in sculpture can have as much shape-meaning as the solid mass — the hole lets you see through the sculpture to the world beyond, and that itself is a form of connection."
+
+*Single Form* is not a monument in any conventional sense. It has no heroic gesture, no narrative relief. It is simply a silent, graceful form standing before the world — independent, complete, and open.`,
+    legacy_en: `Hepworth ranks among the most influential sculptors of the 20th century. She proved that abstract sculpture need not abandon emotion — on the contrary, by stripping away figuration, pure form can trigger even deeper feeling. Her piercing technique became one of modern sculpture's most important formal vocabularies, influencing generations of sculptors from Isamu Noguchi to Anish Kapoor.
+
+Her studio garden in St Ives (The Barbara Hepworth Museum and Sculpture Garden) remains as it was on the day she died, attracting over 100,000 visitors annually. The Tate, MoMA, Guggenheim, and other leading institutions hold her work in permanent collections.`,
+    significance_en: `Hepworth's *Single Form* stands as one of public art's most compelling demonstrations that an abstract sculpture can carry profound humanistic meaning without a single word of explanation. She liberated sculpture from the gallery's white cube, placing it in urban spaces, gardens, and public plazas where anyone passing by could enter into dialogue with it. In an era that worshipped "bigger, more, more complex," Hepworth insisted on creation through subtraction — removing material to reveal space, stripping narrative to expose form, eliminating decoration to uncover essence. This restrained aesthetic shaped the entire trajectory of modern design thinking.`,
+  },
+
 ]
