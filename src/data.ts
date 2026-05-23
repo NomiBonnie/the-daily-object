@@ -7598,4 +7598,50 @@ In design, its impact runs even deeper: Pac-Man proved that character design cou
     significance_en: `Pac-Man redefined the concept of a "game character." Before it, video game "protagonists" were spaceships, dots of light, paddles — no personality, no expression, no identity to relate to. Iwatani used a yellow circle with an open mouth to create the first electronic character players could form an emotional bond with. It proved that character design doesn't need complex detail — just a clear, distinctive, instinctively recognizable form. This minimalist character philosophy remains a core text in game design and brand design to this day.`,
   },
 
+
+  // 05-23: The Shining
+  {
+    id: '143',
+    date: '2026-05-23',
+    imageUrl: '/the-daily-object/images/the-shining.jpg',
+    fullImageUrl: '/the-daily-object/images/full/the-shining.jpg',
+    title: 'The Shining',
+    title_en: 'The Shining',
+    subtitle: 'Stanley Kubrick / Roy Walker, 1980',
+    subtitle_en: 'Stanley Kubrick / Roy Walker, 1980',
+    category: 'film' as const,
+    designer: 'Stanley Kubrick / Roy Walker',
+    year: '1980',
+    tags: ['重新定义恐怖美学', '空间即叙事', '电影设计教科书'],
+    tags_en: ['Redefined Horror Aesthetics', 'Space as Narrative', 'Film Design Textbook'],
+
+    dateConnection: `1980年5月23日，《闪灵》在纽约和洛杉矶的10块银幕上首映。这部电影没有依靠跳吓和血浆，而是用一座酒店的空间设计本身制造了影史上最持久的恐惧——对称的走廊、六边形的地毯、无限后退的透视线，每一个画面都像一座精心设计的陷阱。`,
+    designerBio: `Roy Walker 是库布里克的御用美术指导，为《闪灵》设计了 Overlook 酒店的每一个细节。库布里克对空间的偏执是出了名的：他让 Walker 花了整整一年搭建片场，在 Elstree 摄影棚里 1:1 还原了一座完整的酒店，面积超过一万平方英尺。每一面墙的颜色、每一块地毯的图案、每一盏灯的位置都经过反复推敲。
+
+库布里克本人有建筑和摄影的双重背景。他十几岁就成为 Look 杂志最年轻的摄影师，对构图和空间有近乎病态的敏感。这种敏感在《闪灵》中达到了极致——他把建筑空间本身变成了叙事工具，而不仅仅是故事发生的背景。`,
+    story: `Overlook 酒店是影史上最著名的虚构建筑。它的设计充满了刻意的"不可能"：如果你试图根据电影画面画出酒店的平面图，你会发现窗户开在不该有窗户的地方，走廊通向逻辑上不存在的房间，大堂的空间比外观所能容纳的要大得多。这不是失误——库布里克故意让建筑在空间上自相矛盾，制造一种观众无法言说却能感知的不安。
+
+那条标志性的六边形地毯走廊是影史最经典的空间设计之一。橙、棕、红三色的几何图案在视觉上制造出一种催眠般的韵律，Danny 骑着三轮车碾过地毯时发出的声音变化——地毯、木地板、地毯——成为电影最令人不安的声音设计。
+
+库布里克的对称构图（单点透视）让每一个走廊镜头都像一幅精心构图的摄影作品。摄影师 John Alcott 使用当时刚问世的 Steadicam 跟拍 Danny 穿越酒店，创造了电影史上第一批真正流畅的空间漫游镜头。这种"建筑漫游"的拍摄手法后来影响了从大卫·芬奇到韦斯·安德森的整整一代导演。`,
+    legacy: `《闪灵》从票房失利到被奉为影史最伟大恐怖片的翻转过程本身就是一个传奇。它在 1980 年上映时收到的评价褒贬不一，甚至获得了当年金酸梅奖最差导演提名。但四十多年后，它的视觉语言已经渗透到整个流行文化——从 Diane Arbus 式的双胞胎构图，到"REDRUM"的镜像文字，到 237 号房间的意象，都成了视觉文化的通用符号。
+
+在设计领域，Overlook 酒店的地毯图案被 Mondo 等品牌复刻成产品，成为设计师们膜拜的经典图案。酒店的室内设计风格——大量使用暖色调、几何图案和对称构图——至今仍是"设计恐怖感"的教科书范例。`,
+    significance: `《闪灵》证明了一件事：空间设计可以是电影最强大的叙事工具。在库布里克之前，恐怖片的美术设计大多服务于"吓人"这个单一目的。库布里克把美术设计提升为叙事本身——你不需要怪物，不需要鬼魂，一条足够令人不安的走廊就够了。这种"空间即恐惧"的设计哲学影响了此后四十年的恐怖电影、游戏和建筑空间设计。`,
+
+    dateConnection_en: `On May 23, 1980, The Shining premiered on 10 screens across New York and Los Angeles. The film did not rely on jump scares or gore. Instead, it weaponized the design of a hotel itself to create cinema\'s most enduring sense of dread — symmetrical corridors, hexagonal carpets, infinitely receding perspective lines, each frame a meticulously designed trap.`,
+    designerBio_en: `Roy Walker served as Kubrick\'s production designer, crafting every detail of the Overlook Hotel. Kubrick\'s obsession with space was legendary: he had Walker spend an entire year constructing the sets at Elstree Studios, building a full-scale hotel interior exceeding 10,000 square feet. Every wall color, carpet pattern, and light fixture placement underwent exhaustive iteration.
+
+Kubrick himself brought a dual background in architecture and photography. He became Look magazine\'s youngest staff photographer as a teenager, developing an almost pathological sensitivity to composition and space. In The Shining, this sensitivity reached its apex — he transformed architectural space from mere backdrop into a primary narrative instrument.`,
+    story_en: `The Overlook Hotel is cinema\'s most famous fictional building. Its design is full of deliberate "impossibilities": if you try to draw a floor plan from the film\'s shots, you\'ll find windows where walls should be, corridors leading to rooms that can\'t logically exist, and a lobby far larger than the exterior could contain. This wasn\'t carelessness — Kubrick intentionally made the architecture spatially contradictory, generating an unease viewers can feel but cannot articulate.
+
+The iconic hexagonal-carpet corridor is one of film history\'s most celebrated spatial designs. The orange, brown, and red geometric patterns create a hypnotic visual rhythm, and the sound of Danny\'s tricycle rolling across the surface — carpet, hardwood, carpet — became one of cinema\'s most unsettling pieces of sound design.
+
+Kubrick\'s symmetrical framing (one-point perspective) makes every corridor shot look like a carefully composed photograph. Cinematographer John Alcott used the then-new Steadicam to follow Danny through the hotel, creating cinema\'s first truly fluid architectural tracking shots. This "architectural drift" technique went on to influence an entire generation of filmmakers, from David Fincher to Wes Anderson.`,
+    legacy_en: `The Shining\'s journey from box-office disappointment to greatest horror film ever made is itself a legend. Upon release in 1980, reviews were mixed — it even received a Razzie nomination for Worst Director. But four decades later, its visual language has permeated all of popular culture: the Diane Arbus-inspired twin composition, the mirror-text "REDRUM," the imagery of Room 237 have all become universal symbols in visual culture.
+
+In design, the Overlook Hotel\'s carpet pattern has been reproduced by brands like Mondo as collectible products, becoming an icon of pilgrimage for designers. The hotel\'s interior design language — warm color palettes, geometric patterns, symmetrical composition — remains the textbook example of designing dread.`,
+    significance_en: `The Shining proved that spatial design can be cinema\'s most powerful narrative tool. Before Kubrick, horror film art direction mostly served a single purpose: to frighten. Kubrick elevated production design into narrative itself — you don\'t need monsters or ghosts; a sufficiently unsettling corridor will do. This "space as fear" design philosophy has influenced four decades of horror films, video games, and architectural space design.`,
+  },
+
 ]
