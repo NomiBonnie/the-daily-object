@@ -7689,4 +7689,73 @@ His workshop is now run by his daughter Mira Nakashima, using virtually the same
     significance_en: `Nakashima proved something fundamental: in an age when machines can perfectly replicate everything, the value of handcraft lies not in "handmade" itself, but in the unrepeatable dialogue between designer and material. Every wood grain is unique, every knot tells a singular story, and the designer's job is to read those stories and respond. This philosophy has influenced half a century of craft revival movements, from Japan's wabi-sabi aesthetic to Scandinavia's hygge culture — Nakashima's shadow is everywhere.`,
   },
 
+  // 05-25: Sonia Rykiel
+  {
+    id: '146',
+    date: '2026-05-25',
+    imageUrl: '/the-daily-object/images/sonia-rykiel-knit.jpg',
+    fullImageUrl: '/the-daily-object/images/full/sonia-rykiel-knit.jpg',
+    title: 'Sonia Rykiel 彩条针织套装',
+    title_en: 'Sonia Rykiel Striped Knit Set',
+    subtitle: 'Sonia Rykiel, 1986',
+    subtitle_en: 'Sonia Rykiel, 1986',
+    category: 'fashion' as const,
+    designer: 'Sonia Rykiel',
+    year: '1986',
+    tags: ['针织时装先驱', '颠覆高级定制', '左岸美学化身'],
+    tags_en: ['Pioneer of Knit Fashion', 'Disrupted Haute Couture', 'Icon of Left Bank Style'],
+
+    dateConnection: `1930年5月25日，Sonia Rykiel 出生在巴黎。这个在塞纳河左岸长大的女孩，没受过一天正式的时装教育，却在三十多岁时凭一件自己设计的条纹孕妇毛衣登上了《ELLE》封面，从此把针织从"内衣面料"变成了高级时装的主角。`,
+
+    designerBio: `Sonia Rykiel 的时装生涯始于一个非常私人的原因：1962年怀孕时，她在市面上找不到一件好看的孕妇装。于是她拿起毛线，给自己织了一件贴身的条纹毛衣。这件毛衣被《ELLE》杂志看中，直接登上封面。
+
+她没有上过时装学校，没有在任何设计工作室做过学徒。丈夫经营一家名叫 Laura 的精品店，她从为这家店设计针织衫开始，一步步走向了自己的品牌。1968年，她在巴黎圣日耳曼区开了第一家 Sonia Rykiel 专卖店。这个地址不是偶然的选择——她一生都属于左岸，属于那个知识分子、艺术家和波希米亚人出没的世界。
+
+《Women's Wear Daily》称她为"针织女王"（Queen of Knits），这个头衔她保持了半个世纪。`,
+
+    story: `Sonia Rykiel 做的事情，用今天的话说就是"颠覆"。
+
+1960年代的巴黎时装界被高级定制统治。Chanel、Dior、Givenchy 的工坊里，裁缝师们用精密的剪裁和昂贵的面料制作衣服。针织？那是内衣的材料，登不了大雅之堂。
+
+Rykiel 不管这些。她把针织面料做成外穿的套装、连衣裙、大衣，而且故意把缝线露在外面、把标签缝在衣服正面、把下摆留成毛边。她说："我要把衣服里面翻到外面来。" 这种"反缝"（inside-out seams）成了她最标志性的设计语言。
+
+她的彩色条纹同样具有革命性。在一个以黑色和米色为主调的时代，她用大胆的红、蓝、黄、粉的横条纹宣告：时尚可以是快乐的、明亮的、不需要假装优雅的。这件1986年春夏系列的彩条针织套装是她风格的典型——上衣与半裙用同一组色彩编织，蝙蝠袖的剪裁让穿着者看起来既随意又精致。
+
+更重要的是，她的衣服是为"真正的女人"设计的——能走路、能工作、能坐地铁的女人，而不是只能站在秀场上被人看的模特。她曾说过一句名言："丑陋不存在。我从来没见过一个丑女人。"`,
+
+    legacy: `Sonia Rykiel 对时尚界的影响远超针织本身。她是第一批真正意义上的"设计师品牌"先驱——不依附于高级定制工坊体系，用一种面料、一种态度建立起完整的品牌宇宙。她证明了时装不需要昂贵的面料和复杂的工艺，也可以有灵魂。
+
+她的条纹成为法式风格的符号之一，和 Breton 条纹衫一起，定义了巴黎女人"不费力的时髦"（effortless chic）。今天你在 & Other Stories、COS、Uniqlo 里看到的那些好看的针织衫，每一件都欠 Rykiel 一个致敬。
+
+2016年8月25日，Rykiel 在巴黎去世，享年86岁。她的品牌在2019年宣布清算，但她留下的遗产不需要一个品牌来承载——它已经织进了现代时装的基因。`,
+
+    significance: `Rykiel 用针织面料证明了一个道理：伟大的设计不需要昂贵的材料，需要的是一种对"人如何穿衣"的重新理解。她把时装从展示权力和地位的工具，变成了表达个性和自由的媒介。`,
+
+    dateConnection_en: `On May 25, 1930, Sonia Rykiel was born in Paris. This girl who grew up on the Left Bank of the Seine never received a single day of formal fashion education, yet in her thirties, a striped maternity sweater she designed for herself landed on the cover of ELLE magazine, transforming knitwear from "underwear fabric" into high fashion's leading act.`,
+
+    designerBio_en: `Sonia Rykiel's fashion career began for a deeply personal reason: in 1962, while pregnant, she couldn't find a single attractive maternity outfit. So she picked up yarn and knitted herself a body-conscious striped sweater. ELLE magazine spotted it and put it on their cover.
+
+She never attended fashion school, never apprenticed in any design atelier. Her husband ran a boutique called Laura, and she started by designing knitwear for his shop, gradually building toward her own label. In 1968, she opened the first Sonia Rykiel boutique in Paris's Saint-Germain-des-Prés. The location was no accident — she belonged to the Left Bank her entire life, to that world of intellectuals, artists, and bohemians.
+
+Women's Wear Daily crowned her the "Queen of Knits," a title she held for half a century.`,
+
+    story_en: `What Sonia Rykiel did was, in today's parlance, "disruptive."
+
+The 1960s Paris fashion world was dominated by haute couture. In the ateliers of Chanel, Dior, and Givenchy, skilled tailors crafted garments from precision cuts and luxurious fabrics. Knitwear? That was underwear material, unfit for serious fashion.
+
+Rykiel ignored all of this. She turned knitted fabric into outerwear suits, dresses, and coats, deliberately exposing seams on the outside, sewing labels onto the front of garments, and leaving hems raw. "I want to turn clothes inside out," she declared. These "inside-out seams" became her most iconic design signature.
+
+Her colorful stripes were equally revolutionary. In an era dominated by black and beige, she announced with bold horizontal bands of red, blue, yellow, and pink that fashion could be joyful, bright, and free from pretense. This 1986 Spring-Summer striped knit set is quintessential Rykiel — top and skirt woven in the same color palette, with batwing sleeves creating a silhouette that feels both effortless and refined.
+
+More importantly, her clothes were designed for "real women" — women who walk, work, and ride the metro, not mannequins who exist only to be looked at on runways. She once said: "Ugliness doesn't exist. I have never seen an ugly woman."`,
+
+    legacy_en: `Sonia Rykiel's influence on fashion extends far beyond knitwear. She was one of the first true "designer brand" pioneers — independent of the haute couture atelier system, building an entire brand universe from a single fabric and a singular attitude. She proved that fashion doesn't need expensive materials or complex construction to have soul.
+
+Her stripes became one of the defining symbols of French style, alongside the Breton stripe shirt, defining the Parisian woman's "effortless chic." Every beautiful knit piece you see today at & Other Stories, COS, or Uniqlo owes Rykiel a nod of gratitude.
+
+Rykiel passed away in Paris on August 25, 2016, at age 86. Her brand announced liquidation in 2019, but her legacy needs no label to carry it — it's already woven into modern fashion's DNA.`,
+
+    significance_en: `Rykiel used knitted fabric to prove a fundamental truth: great design doesn't require expensive materials — it requires a reimagining of how people actually wear clothes. She transformed fashion from a tool for displaying power and status into a medium for expressing personality and freedom.`,
+  },
+
 ]
