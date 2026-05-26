@@ -7758,4 +7758,64 @@ Rykiel passed away in Paris on August 25, 2016, at age 86. Her brand announced l
     significance_en: `Rykiel used knitted fabric to prove a fundamental truth: great design doesn't require expensive materials — it requires a reimagining of how people actually wear clothes. She transformed fashion from a tool for displaying power and status into a medium for expressing personality and freedom.`,
   },
 
+  {
+    id: '147',
+    date: '2026-05-26',
+    imageUrl: '/the-daily-object/images/sgt-peppers-album-cover.jpg',
+    fullImageUrl: '/the-daily-object/images/full/sgt-peppers-album-cover.jpg',
+    title: 'Sgt. Pepper\'s Lonely Hearts Club Band 专辑封面',
+    title_en: 'Sgt. Pepper\'s Lonely Hearts Club Band',
+    subtitle: 'Peter Blake & Jann Haworth, 1967',
+    subtitle_en: 'Peter Blake & Jann Haworth, 1967',
+    category: 'music' as const,
+    designer: 'Peter Blake & Jann Haworth',
+    year: '1967',
+    tags: ['改变了唱片封面设计', '波普艺术里程碑', '视觉文化符号'],
+    tags_en: ['Redefined Album Art', 'Pop Art Milestone', 'Visual Culture Icon'],
+
+    dateConnection: `1967年5月26日，The Beatles 的第八张录音室专辑《Sgt. Pepper's Lonely Hearts Club Band》正式发行。这张专辑不仅在音乐上被视为摇滚乐史上最重要的作品之一，它的封面更彻底改变了人们对唱片封套设计的认知——从一张「包装纸」变成了一件独立的艺术品。`,
+
+    designerBio: `Peter Blake，1932年生于英格兰达特福德，是英国波普艺术运动最重要的代表人物之一。他在皇家艺术学院接受训练，从五十年代起就开始把流行文化的图像——摔跤手、电影明星、漫画——拼贴进严肃艺术的画布。
+
+Jann Haworth，1942年生于好莱坞，是一位美籍英裔艺术家和雕塑家。她以织物和软雕塑闻名，擅长用日常材料创造超现实的人物形象。两人当时是夫妻，这张封面是他们共同创作的结果——但长期以来 Haworth 的贡献被严重低估，直到近年才得到应有的认可。`,
+
+    story: `这张封面的诞生本身就是一个关于「如果没有任何限制，唱片封面可以是什么」的实验。
+
+The Beatles 给 Peter Blake 和 Jann Haworth 的要求只有一个：这支乐队要变成另一个乐队——Sgt. Pepper's Lonely Hearts Club Band——站在一群他们最崇拜的人中间。于是 Blake 和 Haworth 让四位成员各自列出了一份「最想邀请的人」名单，从 Bob Dylan 到卡尔·马克思，从玛丽莲·梦露到印度大师 Sri Yukteswar。
+
+最终，七十多个真人大小的纸板剪影和蜡像被安排在一个精心设计的舞台上。四位穿着 Day-Glo 色军装的 Beatles 站在中央，面前是一个用鲜花拼出乐队名字的花圃。整个画面像一张维多利亚时代的集体合影——但里面站着的人横跨了从 Edgar Allan Poe 到 Shirley Temple 的一个半世纪。
+
+Haworth 负责制作了大量的软雕塑和布偶道具，包括封面上那个穿着毛衣的布娃娃。Blake 负责整体构图和人物的编排。拍摄在 Chelsea 的 Michael Cooper 摄影棚里完成，光是布景就花了两周时间。
+
+**这是历史上第一张在封面上印上完整歌词的流行音乐唱片。** 内页的歌词印刷也是 Blake 的主意——他认为既然这张专辑的音乐已经把流行歌曲提升到了诗歌的高度，歌词就应该像诗集一样被阅读。`,
+
+    legacy: `这张封面从根本上改变了唱片工业对封套设计的态度。在它之前，绝大多数唱片封面只是乐队的宣传照加上文字排版。在它之后，封面成为了一个独立的创意战场——Pink Floyd 的三棱镜、Andy Warhol 为 Velvet Underground 设计的香蕉、Joy Division 的脉冲星波形图，这些伟大的封面设计都站在 Sgt. Pepper's 开创的传统之上。
+
+2012年，这张封面被《滚石》杂志评为史上最伟大的专辑封面第一名。它现在收藏于伦敦国家肖像馆和多个当代艺术博物馆中。Peter Blake 在2002年因其对艺术的贡献被授予爵位。`,
+
+    significance: `这张封面证明了一件事：设计不是内容的附属品，设计本身就是内容。当 Blake 和 Haworth 把七十多个文化偶像拼贴在一起时，他们创造的不只是一张好看的图——他们创造了一个关于「谁塑造了我们」的视觉论文。这种把封面当作独立艺术作品的理念，深远地影响了平面设计、唱片工业和流行文化。`,
+
+    dateConnection_en: `On May 26, 1967, The Beatles released their eighth studio album, *Sgt. Pepper's Lonely Hearts Club Band*. Beyond being one of the most important albums in rock history, its cover fundamentally changed how people thought about record sleeve design — transforming it from mere packaging into an independent work of art.`,
+
+    designerBio_en: `Peter Blake, born in 1932 in Dartford, England, is one of the most important figures in the British Pop Art movement. Trained at the Royal College of Art, he began incorporating popular culture imagery — wrestlers, movie stars, comics — into fine art canvases from the 1950s onward.
+
+Jann Haworth, born in 1942 in Hollywood, is an American-British artist and sculptor known for her fabric and soft sculpture work. She specialized in creating surreal figures from everyday materials. The two were married at the time, and the cover was their joint creation — though Haworth's contribution was severely underappreciated for decades, only receiving proper recognition in recent years.`,
+
+    story_en: `The birth of this cover was itself an experiment in "what could an album cover be if there were no limits?"
+
+The Beatles gave Peter Blake and Jann Haworth only one brief: the band would become another band — Sgt. Pepper's Lonely Hearts Club Band — standing among a crowd of their greatest heroes. Blake and Haworth asked each Beatle to compile a list of people they most wanted to invite, from Bob Dylan to Karl Marx, from Marilyn Monroe to Indian guru Sri Yukteswar.
+
+Ultimately, over seventy life-sized cardboard cutouts and wax figures were arranged on an elaborately designed set. The four Beatles, wearing Day-Glo colored military uniforms, stood at center, with a flower bed spelling out the band name in front of them. The whole image resembled a Victorian group photograph — except the people in it spanned a century and a half, from Edgar Allan Poe to Shirley Temple.
+
+Haworth created many of the soft sculptures and fabric props, including the knitted doll on the cover. Blake handled the overall composition and arrangement of figures. The shoot took place at Michael Cooper's studio in Chelsea, with set construction alone taking two weeks.
+
+**This was the first popular music album in history to print complete lyrics on its cover.** The lyric insert was Blake's idea — he believed that since this album elevated pop songs to the level of poetry, the words deserved to be read like a poetry collection.`,
+
+    legacy_en: `This cover fundamentally changed the record industry's attitude toward sleeve design. Before it, most album covers were simply promotional band photos with typography. After it, the cover became an independent creative battleground — Pink Floyd's prism, Andy Warhol's banana for the Velvet Underground, Joy Division's pulsar waveform — all these great cover designs stand on the tradition that Sgt. Pepper's pioneered.
+
+In 2012, *Rolling Stone* magazine ranked it the greatest album cover of all time. It is now held in the National Portrait Gallery in London and several contemporary art museums. Peter Blake was knighted in 2002 for his contributions to art.`,
+
+    significance_en: `This cover proved something essential: design is not subordinate to content — design itself is content. When Blake and Haworth assembled over seventy cultural icons into a single composition, they created more than a beautiful image — they created a visual essay on "who shaped us." This idea of treating a cover as an independent work of art profoundly influenced graphic design, the music industry, and popular culture at large.`,
+  },
+
 ]
