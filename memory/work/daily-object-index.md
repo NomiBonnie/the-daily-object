@@ -1,6 +1,6 @@
 # Daily Object Index
 
-Last updated: 2026-05-07
+Last updated: 2026-05-26
 
 | 日期 | 作品 | 设计师 | 分类 |
 |------|------|--------|------|
@@ -18,3 +18,5 @@ Last updated: 2026-05-07
 | 05-11 | Mae West Lips Sofa | Salvador Dalí | industrial |
 | 05-12 | Alien Xenomorph | H.R. Giger | film |
 | 05-13 | Munich 1972 Olympics Visual Identity | Otl Aicher | graphic |
+| 05-14 — 05-25 | (see data.ts) | — | — |
+| 05-26 | Sgt. Pepper's Lonely Hearts Club Band | Peter Blake & Jann Haworth | music |
