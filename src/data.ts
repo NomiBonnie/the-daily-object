@@ -7951,4 +7951,64 @@ The Beetle also proved a design truth: the best design doesn't need annual redes
     significance_en: `The Volkswagen Beetle is one of the most important automobiles in industrial design history. It proved that a car can simultaneously be an engineering masterpiece, a cultural icon, and an emotional vessel. Its curved silhouette influenced automotive design language for decades, its marketing redefined the advertising industry, and its cultural significance far transcends transportation. When you see a Beetle, you see more than a car — you see the entire 20th century in miniature: from war to peace, authority to rebellion, mass production to personal expression.`,
   },
 
+
+  {
+    id: '150',
+    date: '2026-05-29',
+    imageUrl: '/the-daily-object/images/rolex-explorer.jpg',
+    fullImageUrl: '/the-daily-object/images/full/rolex-explorer.jpg',
+    title: 'Rolex Explorer',
+    title_en: 'Rolex Explorer',
+    subtitle: 'Rolex, 1953',
+    subtitle_en: 'Rolex, 1953',
+    category: 'industrial' as const,
+    designer: 'Rolex',
+    year: '1953',
+    tags: ['征服珠峰的腕表', '探险精神图腾', '极简功能美学'],
+    tags_en: ['The Watch That Conquered Everest', 'Icon of Exploration', 'Minimalist Functional Aesthetics'],
+
+    dateConnection: `1953年5月29日，新西兰登山家Edmund Hillary与夏尔巴向导Tenzing Norgay站在了珠穆朗玛峰之巅——人类历史上第一次。Hillary手腕上戴着的那块Rolex Oyster Perpetual，在零下40度的极端环境中运转如常。这次登顶不仅改写了人类探险史，也直接催生了一个传奇：Rolex Explorer。`,
+    dateConnection_en: `On May 29, 1953, New Zealand mountaineer Edmund Hillary and Sherpa guide Tenzing Norgay stood on the summit of Mount Everest — the first humans ever to do so. The Rolex Oyster Perpetual on Hillary's wrist functioned flawlessly in temperatures plunging to -40°C. This historic ascent not only rewrote the history of human exploration but directly gave birth to a legend: the Rolex Explorer.`,
+
+    designerBio: `Rolex的故事始于1905年，当年仅24岁的Hans Wilsdorf在伦敦创办了一家钟表公司。他有一个在当时近乎疯狂的信念：腕表可以像怀表一样精准。1926年，Rolex推出了世界上第一款防水腕表Oyster，1931年又发明了Perpetual自动上链机芯。这两项技术奠定了Rolex作为工具型腕表之王的地位。
+
+到了1950年代，Rolex开始系统性地将腕表送往地球上最极端的环境——深海、高空、极地——不是为了做广告（虽然确实是绝佳的广告），而是为了在真实场景中测试和改进设计。珠峰探险队就是这个策略的巅峰之作。`,
+    designerBio_en: `The Rolex story began in 1905, when 24-year-old Hans Wilsdorf founded a watch company in London. He held a conviction that seemed almost mad at the time: that a wristwatch could be as precise as a pocket watch. In 1926, Rolex introduced the Oyster, the world's first waterproof wristwatch. In 1931, they invented the Perpetual self-winding movement. These two innovations cemented Rolex's position as the king of tool watches.
+
+By the 1950s, Rolex began systematically sending watches to the most extreme environments on Earth — deep oceans, high altitudes, polar regions — not for advertising (though it was brilliant advertising), but to test and refine their designs in real-world conditions. The Everest expedition was the crowning achievement of this strategy.`,
+
+    story: `1953年的珠峰远征是一场与时间和死亡的赛跑。英国探险队的John Hunt上校选择了Rolex作为官方计时器，队员们佩戴Oyster Perpetual腕表。在长达数月的攀登中，这些手表承受了冰雪、剧烈温差和稀薄空气的严酷考验。
+
+5月29日，当Hillary和Tenzing终于站在8,848米的峰顶时，Hillary手腕上的Rolex依然在精确地走着。这个时刻被永远定格在探险史和制表史的交汇点上。
+
+消息传回日内瓦后，Rolex迅速推出了Explorer——一款专为极端环境设计的腕表。它的设计理念极其纯粹：**黑色表盘、3-6-9阿拉伯数字时标、Mercedes指针、Oyster表壳、Perpetual机芯**。没有日历窗，没有计时功能，没有任何多余的装饰。每一个元素都只为一个目的服务——在最恶劣的条件下清晰读时。
+
+Explorer的表盘设计成为了腕表设计史上最具辨识度的面孔之一。3、6、9三个阿拉伯数字比普通时标更大、更醒目，涂覆夜光材料后在黑暗中依然可读。这种"369"布局后来成为运动腕表的经典范式，被无数品牌致敬和模仿。
+
+36毫米的表径在今天看来偏小，但这恰恰是Explorer设计哲学的体现：一块工具表不需要张扬，它只需要可靠。这种克制的尺寸让它既能随探险家深入荒野，也能配得上任何正式场合——这种百搭性让Explorer成为了Rolex产品线中最被低估、也最经得起时间考验的作品。`,
+    story_en: `The 1953 Everest expedition was a race against time and death. Colonel John Hunt of the British expedition chose Rolex as the official timekeeper, with team members wearing Oyster Perpetual watches. Through months of climbing, these watches endured ice, extreme temperature swings, and thin air.
+
+On May 29, when Hillary and Tenzing finally stood atop the 8,848-meter summit, the Rolex on Hillary's wrist was still running precisely. That moment was forever fixed at the intersection of exploration history and watchmaking history.
+
+When news reached Geneva, Rolex swiftly launched the Explorer — a watch designed specifically for extreme environments. Its design philosophy was radically pure: **black dial, 3-6-9 Arabic numeral hour markers, Mercedes hands, Oyster case, Perpetual movement**. No date window, no chronograph, no superfluous decoration. Every element served a single purpose — legible timekeeping in the harshest conditions.
+
+The Explorer's dial became one of the most recognizable faces in watch design history. The three Arabic numerals at 3, 6, and 9 are larger and bolder than standard markers, coated with luminous material for readability in darkness. This "369" layout became the classic paradigm for sport watches, honored and imitated by countless brands.
+
+The 36mm case diameter may seem modest by today's standards, but this is precisely the Explorer's design philosophy in action: a tool watch doesn't need to be loud; it just needs to be reliable. This restrained sizing allows it to accompany explorers into the wilderness and complement any formal occasion — a versatility that makes the Explorer the most underrated and time-tested piece in the Rolex lineup.`,
+
+    legacy: `Explorer从1953年至今从未停产，是Rolex历史最悠久的运动系列之一。它的设计在70多年间只经历了最细微的调整——表径从36mm到39mm再回到36mm，机芯不断升级，但3-6-9表盘、Mercedes指针、黑色调的核心设计语言从未改变。这种设计的稳定性本身就是一种宣言：真正好的设计不需要追随潮流。
+
+在手表收藏圈，Explorer被视为"入门级Rolex中最有品味的选择"。它没有Submariner的运动霸气，没有Daytona的竞速激情，没有Day-Date的权力象征——它只是安静地、精确地、优雅地存在着。这种内敛恰恰是最高级的设计。`,
+    legacy_en: `The Explorer has been in continuous production since 1953, making it one of Rolex's longest-running sport lines. Its design has undergone only the most subtle refinements over seven decades — case diameter shifting from 36mm to 39mm and back to 36mm, movements continuously upgraded, but the core design language of the 3-6-9 dial, Mercedes hands, and black palette has never changed. This design stability is itself a statement: truly great design doesn't need to chase trends.
+
+In watch collecting circles, the Explorer is regarded as "the most tasteful entry-level Rolex." It lacks the Submariner's athletic aggression, the Daytona's racing passion, the Day-Date's power symbolism — it simply exists quietly, precisely, elegantly. This restraint is the highest form of design.`,
+
+    significance: `Rolex Explorer在工业设计史上的意义远超手表行业。它证明了一个深刻的设计原则：最好的工具是你忘记它存在的那一刻——它如此可靠、如此直觉化，以至于你完全信任它，然后把注意力放在真正重要的事情上。Hillary登顶时没有想过他的手表，正因为他不需要想。这就是工具设计的最高境界。
+
+从更宏观的角度看，Explorer开创了"探险装备作为日常奢侈品"的市场类别。在Explorer之前，探险用品和日常消费品是两个完全不同的世界。Explorer说：你不需要登珠峰也可以拥有登珠峰的装备——重要的不是你去了哪里，而是你有能力去任何地方。这种心理定位影响了从Land Rover到Canada Goose的整个户外奢侈品产业。`,
+    significance_en: `The Rolex Explorer's significance in industrial design history extends far beyond the watch industry. It demonstrated a profound design principle: the best tool is one you forget exists — so reliable, so intuitive that you trust it completely and focus on what truly matters. Hillary didn't think about his watch at the summit because he didn't need to. That is the highest achievement of tool design.
+
+From a broader perspective, the Explorer pioneered the market category of "expedition equipment as everyday luxury." Before the Explorer, adventure gear and consumer goods were entirely separate worlds. The Explorer said: you don't need to climb Everest to own Everest-grade equipment — what matters isn't where you've been, but that you could go anywhere. This psychological positioning influenced the entire outdoor luxury industry, from Land Rover to Canada Goose.`,
+  },
+
 ]
