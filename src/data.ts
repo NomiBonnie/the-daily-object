@@ -8011,4 +8011,67 @@ In watch collecting circles, the Explorer is regarded as "the most tasteful entr
 From a broader perspective, the Explorer pioneered the market category of "expedition equipment as everyday luxury." Before the Explorer, adventure gear and consumer goods were entirely separate worlds. The Explorer said: you don't need to climb Everest to own Everest-grade equipment — what matters isn't where you've been, but that you could go anywhere. This psychological positioning influenced the entire outdoor luxury industry, from Land Rover to Canada Goose.`,
   },
 
+
+
+  {
+    id: '151',
+    date: '2026-05-30',
+    imageUrl: '/the-daily-object/images/faberge-egg.jpg',
+    fullImageUrl: '/the-daily-object/images/full/faberge-egg.jpg',
+    title: '法贝热彩蛋',
+    title_en: 'Fabergé Imperial Easter Eggs',
+    subtitle: 'Peter Carl Fabergé, 1885–1917',
+    subtitle_en: 'Peter Carl Fabergé, 1885–1917',
+    category: 'art' as const,
+    designer: 'Peter Carl Fabergé',
+    year: '1885',
+    tags: ['珠宝工艺巅峰', '皇室定制设计先驱', '奢侈品美学原型'],
+    tags_en: ['Pinnacle of Jeweled Craftsmanship', 'Pioneer of Royal Bespoke Design', 'Archetype of Luxury Aesthetics'],
+
+    dateConnection: `1846年5月30日，Peter Carl Fabergé出生于俄国圣彼得堡。这位金匠之子后来创造了人类珠宝工艺史上最华丽的艺术品——为俄国沙皇定制的帝国复活节彩蛋，每一枚都是微缩世界的奇迹。`,
+    dateConnection_en: `On May 30, 1846, Peter Carl Fabergé was born in Saint Petersburg, Russia. The son of a goldsmith would go on to create the most magnificent objects in the history of jeweled craftsmanship — the Imperial Easter Eggs commissioned by the Russian Tsars, each one a miracle of miniature worlds.`,
+
+    designerBio: `Peter Carl Fabergé出生在一个珠宝世家。父亲Gustav Fabergé是一位来自法国胡格诺教徒后裔的金匠，1842年在圣彼得堡开设了自己的珠宝店。年轻的Carl在欧洲各地游历学习——德累斯顿、法兰克福、佛罗伦萨、巴黎——研究各大博物馆的古董珠宝藏品，尤其着迷于18世纪法国珐琅工艺。
+
+1882年，Carl在莫斯科泛俄工业艺术展览上崭露头角，他修复冬宫收藏的18世纪珠宝引起了沙皇亚历山大三世的注意。三年后，沙皇给了他一个改变一切的委托：为皇后Maria Feodorovna制作一枚复活节彩蛋。这不是普通的订单——这是整个Fabergé帝国的起点。`,
+    designerBio_en: `Peter Carl Fabergé was born into a family of jewelers. His father Gustav Fabergé was a goldsmith of French Huguenot descent who opened his own jewelry shop in Saint Petersburg in 1842. Young Carl traveled across Europe — Dresden, Frankfurt, Florence, Paris — studying antique jewelry collections in major museums, becoming especially fascinated by 18th-century French enamel techniques.
+
+In 1882, Carl gained prominence at the Pan-Russian Industrial Art Exhibition in Moscow, and his restoration of 18th-century jewelry in the Winter Palace collection caught the attention of Tsar Alexander III. Three years later, the Tsar gave him a commission that would change everything: create an Easter egg for Empress Maria Feodorovna. This was no ordinary order — it was the genesis of the entire Fabergé empire.`,
+
+    story: `1885年的第一枚帝国彩蛋看起来朴素得出人意料：白色珐琅外壳，像一枚真正的母鸡蛋。但打开外壳，里面是一只金色的母鸡；再打开母鸡，里面藏着一顶微型钻石皇冠和一枚红宝石吊坠。**这种"惊喜套娃"的设计哲学定义了之后所有帝国彩蛋的基因。**
+
+皇后对这份礼物的狂喜让沙皇下了一道持续32年的命令：每年复活节都要制作一枚新彩蛋。唯一的要求是每枚都必须包含一个"惊喜"，而且Fabergé拥有完全的创作自由——沙皇本人事先也不知道成品的样子。
+
+在1885年到1917年间，Fabergé工坊为亚历山大三世和尼古拉二世共制作了约50枚帝国彩蛋。每一枚都耗费一年以上的工时，动用Fabergé旗下最顶尖的工匠——珐琅师、金匠、宝石切割师、微缩画家、机械师——协同完成。
+
+**1900年的"跨西伯利亚铁路彩蛋"**是工艺巅峰的代表：银色和绿色珐琅外壳上镶嵌着西伯利亚铁路的路线图，内部惊喜是一列可以上发条运行的微缩黄金火车，车厢窗户是真正的水晶，车头灯是一颗钻石。整列火车折叠起来只有15厘米长，却精确再现了五节车厢的每一个细节。
+
+**"铃兰彩蛋"（1898年）**则展现了Fabergé对新艺术运动的回应：粉色珐琅蛋身上镶嵌珍珠和钻石组成的铃兰花枝，转动顶部的旋钮，三幅微缩肖像画像花朵一样缓缓升起——沙皇尼古拉二世和两位年幼公主的面容，每幅只有指甲盖大小，却精细到能辨认五官。`,
+    story_en: `The first Imperial Egg of 1885 was deceptively simple in appearance: a white enamel shell resembling a real hen's egg. But open the shell, and inside sat a golden hen; open the hen, and it concealed a miniature diamond crown and a ruby pendant. **This "surprise matryoshka" design philosophy defined the DNA of every Imperial Egg that followed.**
+
+The Empress's delight with this gift prompted the Tsar to issue a standing order that would last 32 years: a new egg every Easter. The only requirement was that each must contain a "surprise," and Fabergé was given complete creative freedom — even the Tsar himself wouldn't see the finished piece in advance.
+
+Between 1885 and 1917, the Fabergé workshop created approximately 50 Imperial Eggs for Alexander III and Nicholas II. Each required over a year of labor, marshaling the finest craftsmen under Fabergé's command — enamelers, goldsmiths, gem cutters, miniature painters, and mechanics — working in concert.
+
+**The 1900 "Trans-Siberian Railway Egg"** represents the apex of craftsmanship: a silver and green enamel shell inlaid with a map of the Siberian railway route, hiding a wind-up miniature gold train as its surprise. The carriage windows were real crystal, the headlamp a diamond. The entire train folded to just 15 centimeters yet faithfully reproduced every detail of five carriages.
+
+**The "Lily of the Valley Egg" (1898)** showcased Fabergé's response to Art Nouveau: a pink enamel body adorned with pearl-and-diamond lily of the valley sprays. Turn the knob at the top, and three miniature portraits rise slowly like blooming flowers — the faces of Tsar Nicholas II and his two young daughters, each no larger than a fingernail yet detailed enough to recognize their features.`,
+
+    legacy: `• 50枚帝国彩蛋中，已知存世43枚，分散在全球博物馆和私人收藏中，每一枚都价值连城——2007年罗斯柴尔德彩蛋以1,850万美元成交
+• 2004年，俄罗斯富豪Viktor Vekselberg以超过1亿美元买下9枚帝国彩蛋，后捐赠成立圣彼得堡Fabergé博物馆
+• "惊喜"设计理念直接影响了现代奢侈品的拆箱体验——从Tiffany的蓝色盒子到Apple的产品包装，都在追求那种打开瞬间的仪式感
+• Fabergé将珠宝从"佩戴品"提升为"叙事性艺术品"，每枚彩蛋都在讲一个故事——这种设计思维深刻影响了当代珠宝和高端手工艺
+• 帝国彩蛋的制作体系——由不同专业工匠协作、一年以上的工期、完全的创作自由——成为后来高级定制行业的范本
+• 1917年革命后Fabergé流亡瑞士，彩蛋散落各处，但它们的传奇反而因此更加深入人心`,
+    legacy_en: `• Of the approximately 50 Imperial Eggs, 43 are known to survive, scattered across museums and private collections worldwide — the Rothschild Egg sold for $18.5 million in 2007
+• In 2004, Russian oligarch Viktor Vekselberg purchased nine Imperial Eggs for over $100 million, later donating them to establish the Fabergé Museum in Saint Petersburg
+• The "surprise" design concept directly influenced modern luxury unboxing experiences — from Tiffany's blue box to Apple's product packaging, all pursue that moment of ceremonial revelation
+• Fabergé elevated jewelry from "wearable accessory" to "narrative art object" — each egg tells a story, a design philosophy that profoundly shaped contemporary jewelry and haute craftsmanship
+• The Imperial Egg production system — collaboration among specialist craftsmen, year-plus timelines, complete creative freedom — became the template for haute couture and bespoke luxury
+• After the 1917 Revolution, Fabergé fled to Switzerland and the eggs scattered, but their legend only grew stronger in diaspora`,
+
+    significance: `Fabergé彩蛋在设计史上的地位独一无二：它们是人类手工艺从"技术"升华为"艺术"的极致证明。在一个鸡蛋大小的空间里，Fabergé的工匠们融合了珐琅、金工、宝石镶嵌、微缩机械、微缩绘画等至少五种不同的工艺门类，达到了每一种工艺各自领域的最高水平。这种跨学科的工艺整合，本质上就是我们今天所说的"设计"——将不同的技术、材料和创意统一在一个清晰的愿景之下。更重要的是，Fabergé证明了一件作品的价值不仅在于材料的贵重，更在于构思的精妙和执行的完美。一枚彩蛋里的钻石和黄金或许值几万美元，但那个让你屏住呼吸的"惊喜"时刻——那才是无价的设计。`,
+    significance_en: `The Fabergé Eggs occupy a unique position in design history: they are the ultimate proof that human craftsmanship can transcend technique to become art. Within an egg-sized space, Fabergé's artisans synthesized at least five distinct craft disciplines — enameling, goldsmithing, gem setting, miniature mechanics, and miniature painting — each executed at the highest level of its respective field. This interdisciplinary craft integration is essentially what we call "design" today: unifying diverse technologies, materials, and creative ideas under a single clear vision. More importantly, Fabergé proved that an object's value lies not merely in precious materials but in the brilliance of conception and perfection of execution. The diamonds and gold in an egg might be worth tens of thousands of dollars, but that breathtaking moment of "surprise" — that is priceless design.`,
+  },
+
 ]

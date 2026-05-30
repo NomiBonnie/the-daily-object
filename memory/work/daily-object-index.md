@@ -20,3 +20,6 @@ Last updated: 2026-05-26
 | 05-13 | Munich 1972 Olympics Visual Identity | Otl Aicher | graphic |
 | 05-14 — 05-25 | (see data.ts) | — | — |
 | 05-26 | Sgt. Pepper's Lonely Hearts Club Band | Peter Blake & Jann Haworth | music |
+| 05-27 | Chrysler Building | William Van Alen | architecture |
+| 05-28 | Volkswagen Beetle | Ferdinand Porsche | industrial |
+| 05-29 | Rolex Explorer | Rolex | industrial |
