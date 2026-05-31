@@ -8071,7 +8071,74 @@ Between 1885 and 1917, the Fabergé workshop created approximately 50 Imperial E
 • After the 1917 Revolution, Fabergé fled to Switzerland and the eggs scattered, but their legend only grew stronger in diaspora`,
 
     significance: `Fabergé彩蛋在设计史上的地位独一无二：它们是人类手工艺从"技术"升华为"艺术"的极致证明。在一个鸡蛋大小的空间里，Fabergé的工匠们融合了珐琅、金工、宝石镶嵌、微缩机械、微缩绘画等至少五种不同的工艺门类，达到了每一种工艺各自领域的最高水平。这种跨学科的工艺整合，本质上就是我们今天所说的"设计"——将不同的技术、材料和创意统一在一个清晰的愿景之下。更重要的是，Fabergé证明了一件作品的价值不仅在于材料的贵重，更在于构思的精妙和执行的完美。一枚彩蛋里的钻石和黄金或许值几万美元，但那个让你屏住呼吸的"惊喜"时刻——那才是无价的设计。`,
-    significance_en: `The Fabergé Eggs occupy a unique position in design history: they are the ultimate proof that human craftsmanship can transcend technique to become art. Within an egg-sized space, Fabergé's artisans synthesized at least five distinct craft disciplines — enameling, goldsmithing, gem setting, miniature mechanics, and miniature painting — each executed at the highest level of its respective field. This interdisciplinary craft integration is essentially what we call "design" today: unifying diverse technologies, materials, and creative ideas under a single clear vision. More importantly, Fabergé proved that an object's value lies not merely in precious materials but in the brilliance of conception and perfection of execution. The diamonds and gold in an egg might be worth tens of thousands of dollars, but that breathtaking moment of "surprise" — that is priceless design.`,
+    significance_en: `The Fabergé Eggs occupy a unique position in design history: they are the ultimate proof that human craftsmanship can transcend technique to become art. Within an egg-sized space, Fabergé's artisans synthesized at least five distinct craft disciplines — enameling, goldsmithing, gem setting, miniature mechanics, and miniature painting — each executed at the highest level of its respective field. This interdisciplinary craft integration is essentially what we call "design" today: unifying diverse technologies, materials, and creative ideas under a single clear vision. More importantly, Fabergé proved that an object's value lies not merely in precious materials but in the brilliance of conception and perfection of execution. The diamonds and gold in an egg might be worth tens of thousands of dollars, but that breathtaking moment of \"surprise\" — that is priceless design.`,
+  },
+
+
+
+  {
+    id: '152',
+    date: '2026-05-31',
+    imageUrl: '/the-daily-object/images/maman-bourgeois.jpg',
+    fullImageUrl: '/the-daily-object/images/full/maman-bourgeois.jpg',
+    title: 'Maman',
+    title_en: 'Maman',
+    subtitle: 'Louise Bourgeois, 1999',
+    subtitle_en: 'Louise Bourgeois, 1999',
+    category: 'art' as const,
+    designer: 'Louise Bourgeois',
+    year: '1999',
+    tags: ['公共雕塑新纪元', '母性与恐惧的交织', '改变当代艺术边界'],
+    tags_en: ['New Era of Public Sculpture', 'Motherhood Meets Fear', 'Redefined Contemporary Art'],
+
+    dateConnection: `2010年5月31日，法裔美国艺术家Louise Bourgeois在纽约逝世，享年98岁。她在生命最后十年创作的巨型蜘蛛雕塑Maman，成为21世纪辨识度最高的公共艺术作品——一只高达9米的青铜蜘蛛，腹部悬挂着32枚大理石卵，矗立在全球六座城市的广场上。`,
+    dateConnection_en: `On May 31, 2010, French-American artist Louise Bourgeois passed away in New York City at the age of 98. The giant spider sculpture Maman, created in the final decade of her life, became the most recognizable public artwork of the 21st century — a 9-meter bronze spider carrying 32 marble eggs in its sac, standing in plazas across six cities worldwide.`,
+
+    designerBio: `Louise Bourgeois 1911年圣诞节出生于巴黎，家里经营古董挂毯修复作坊。童年的核心创伤塑造了她整个艺术生涯：父亲长期与家庭教师保持婚外情，母亲默默忍受，年幼的Louise被迫目睹这一切却无力改变。
+
+她在巴黎学习数学和几何后转向艺术，1938年嫁给美国艺术史学家Robert Goldwater，移居纽约。此后半个多世纪，她始终在纽约创作，但直到70多岁才获得真正的国际认可——1982年，MoMA为她举办大型回顾展，这是该馆首次为在世女性艺术家举办个展。
+
+Bourgeois的创作横跨绘画、版画、装置和雕塑，但让她成为传奇的是晚年的大型雕塑。她将童年记忆、性别政治、身体焦虑转化为具有强烈情感冲击力的物理形态，每件作品都像一次心理治疗的外化。`,
+    designerBio_en: `Louise Bourgeois was born on Christmas Day 1911 in Paris, where her family ran an antique tapestry restoration workshop. The core trauma of her childhood shaped her entire artistic career: her father maintained a long-term affair with her governess, her mother silently endured it, and young Louise was forced to witness everything without power to change it.
+
+She studied mathematics and geometry in Paris before turning to art, married American art historian Robert Goldwater in 1938, and moved to New York. For over half a century she worked in New York, but didn't receive true international recognition until her seventies — in 1982, MoMA staged a major retrospective, the museum's first solo show for a living female artist.
+
+Bourgeois's practice spanned painting, printmaking, installation, and sculpture, but it was her late-career large-scale sculptures that made her a legend. She transformed childhood memories, gender politics, and bodily anxiety into physically overwhelming forms — each work an externalization of psychotherapy.`,
+
+    story: `蜘蛛在Bourgeois的作品中反复出现了几十年，但Maman是这一母题的终极表达。她曾写道："蜘蛛是对我母亲的颂歌。她是我最好的朋友。像蜘蛛一样，我的母亲是织工。"在Bourgeois的记忆里，母亲在挂毯作坊中修复织物的形象与蜘蛛织网完美重叠——**耐心、保护、沉默、不可或缺。**
+
+1999年，88岁的Bourgeois接受了泰特现代美术馆涡轮大厅首届委托创作。她的回应是一只前所未有的巨型蜘蛛：高9.27米，宽8.91米，八条细长的青铜腿支撑着硕大的躯体，腹部下方悬挂一个网状卵囊，里面装着32枚白色大理石蛋。
+
+**这件作品的天才之处在于它同时触发两种截然相反的情感。** 蜘蛛的体型令人本能地恐惧——那些尖锐的关节、那种居高临下的姿态、那种随时可能移动的错觉。但当你走到雕塑下方，抬头看到卵囊里柔和的大理石蛋，恐惧转化为一种被庇护的感觉。你站在母亲的身体下方，被她的腿所包围，你是安全的。
+
+这种"恐惧即保护"的悖论，精确地还原了Bourgeois对母亲的复杂情感——母亲的存在既让她感到安全，又因为母亲对父亲背叛的隐忍而让她愤怒和心碎。Maman不是一个简单的"母爱颂歌"，它是一部关于母性的完整心理地图：温柔与恐怖、保护与控制、爱与痛苦全部纠缠在一起。
+
+原始钢版于2000年在泰特现代美术馆展出后，Bourgeois授权铸造了六件青铜版本，分别永久安装在毕尔巴鄂古根海姆博物馆、渥太华加拿大国家美术馆、东京六本木之丘、首尔三星美术馆、多哈卡塔尔国家会议中心和圣彼得堡。每一座城市的Maman都与周围建筑形成独特的对话关系——在毕尔巴鄂，蜘蛛与Gehry的钛合金曲面互相映衬；在东京，它矗立在摩天楼群中，像一个来自另一个维度的守护者。`,
+    story_en: `Spiders appeared in Bourgeois's work for decades, but Maman was the ultimate expression of this motif. She once wrote: "The spider is an ode to my mother. She was my best friend. Like a spider, my mother was a weaver." In Bourgeois's memory, the image of her mother restoring fabrics in the tapestry workshop perfectly overlapped with a spider spinning its web — **patient, protective, silent, indispensable.**
+
+In 1999, the 88-year-old Bourgeois accepted the inaugural commission for the Turbine Hall at Tate Modern. Her response was a spider of unprecedented scale: 9.27 meters tall, 8.91 meters wide, eight slender bronze legs supporting a massive body, with a mesh egg sac hanging beneath its abdomen containing 32 white marble eggs.
+
+**The genius of this work is that it simultaneously triggers two diametrically opposite emotions.** The spider's sheer size provokes instinctive fear — those sharp joints, that looming posture, the illusion that it might move at any moment. But when you walk beneath the sculpture and look up at the soft marble eggs in the sac, fear transforms into a feeling of shelter. You stand beneath your mother's body, surrounded by her legs, and you are safe.
+
+This paradox of "fear as protection" precisely captures Bourgeois's complex feelings toward her mother — her mother's presence made her feel safe, yet her mother's silent endurance of her father's betrayal filled her with anger and heartbreak. Maman is not a simple "ode to maternal love"; it is a complete psychological map of motherhood: tenderness and terror, protection and control, love and pain — all entangled together.
+
+After the original steel version was exhibited at Tate Modern in 2000, Bourgeois authorized six bronze casts, permanently installed at the Guggenheim Museum Bilbao, the National Gallery of Canada in Ottawa, Roppongi Hills in Tokyo, the Leeum Museum of Art in Seoul, the Qatar National Convention Centre in Doha, and Saint Petersburg. Each city's Maman creates a unique dialogue with its surrounding architecture — in Bilbao, the spider and Gehry's titanium curves mirror each other; in Tokyo, it stands among skyscrapers like a guardian from another dimension.`,
+
+    legacy: `• Maman是21世纪被拍照最多的雕塑作品之一，每年有数百万人在六座城市的蜘蛛下打卡，它已成为这些城市的地标符号
+• 2015年，Bourgeois的一件较小蜘蛛雕塑以2,810万美元成交，创下女性艺术家作品拍卖纪录
+• Maman重新定义了"公共艺术"的尺度和野心——它证明公共雕塑不必讨好观众，可以同时制造不安和感动
+• Bourgeois在70岁后才获得国际认可的经历，打破了"艺术家必须年轻成名"的神话，鼓舞了无数晚成大器的创作者
+• 蜘蛛系列将"个人创伤"转化为"普世情感"的方法论，深刻影响了当代艺术中自传体创作的方向
+• MoMA、泰特、蓬皮杜、古根海姆等全球顶级美术馆均永久收藏Bourgeois的作品`,
+    legacy_en: `• Maman is one of the most photographed sculptures of the 21st century — millions visit the spiders across six cities annually, and it has become an iconic landmark for each
+• In 2015, a smaller Bourgeois spider sculpture sold for $28.1 million, setting the auction record for a work by a female artist
+• Maman redefined the scale and ambition of public art — proving that public sculpture need not please its audience, but can simultaneously unsettle and move
+• Bourgeois's trajectory of achieving international recognition only after age 70 shattered the myth that artists must achieve fame young, inspiring countless late-blooming creators
+• The spider series' methodology of transforming personal trauma into universal emotion profoundly influenced the direction of autobiographical practice in contemporary art
+• MoMA, Tate, Centre Pompidou, Guggenheim, and other world-leading museums all hold Bourgeois's works in their permanent collections`,
+
+    significance: `Maman在设计和艺术史上的地位在于它完成了一次几乎不可能的转化：把最私密的个人情感——一个女儿对母亲的爱、恐惧和愧疚——放大到9米高的物理尺度，让每一个走过它的陌生人都能被触动。这不是通过解释和文字实现的，而是通过纯粹的形态：那些细长得不合理的腿、那个沉重得令人窒息的躯体、那些脆弱得让人心疼的蛋。Bourgeois证明了伟大的雕塑不需要抽象到让人看不懂，也不需要具象到成为插图——它只需要在身体层面击中你，让你在理解之前就已经感受到了什么。`,
+    significance_en: `Maman's place in the history of design and art lies in achieving a near-impossible transformation: amplifying the most intimate personal emotions — a daughter's love, fear, and guilt toward her mother — to a physical scale of 9 meters, touching every stranger who walks past it. This is accomplished not through explanation or text, but through pure form: those impossibly slender legs, that suffocatingly heavy body, those fragile, heartbreaking eggs. Bourgeois proved that great sculpture need not be so abstract as to be incomprehensible, nor so figurative as to become illustration — it need only strike you at a bodily level, making you feel something before you understand anything.`,
   },
 
 ]
