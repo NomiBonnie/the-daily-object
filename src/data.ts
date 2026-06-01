@@ -8141,4 +8141,48 @@ After the original steel version was exhibited at Tate Modern in 2000, Bourgeois
     significance_en: `Maman's place in the history of design and art lies in achieving a near-impossible transformation: amplifying the most intimate personal emotions — a daughter's love, fear, and guilt toward her mother — to a physical scale of 9 meters, touching every stranger who walks past it. This is accomplished not through explanation or text, but through pure form: those impossibly slender legs, that suffocatingly heavy body, those fragile, heartbreaking eggs. Bourgeois proved that great sculpture need not be so abstract as to be incomprehensible, nor so figurative as to become illustration — it need only strike you at a bodily level, making you feel something before you understand anything.`,
   },
 
+  {
+    id: '117',
+    date: '2026-06-01',
+    imageUrl: '/the-daily-object/images/30-st-mary-axe-gherkin.jpg',
+    fullImageUrl: '/the-daily-object/images/full/30-st-mary-axe-gherkin.jpg',
+    title: '30 St Mary Axe',
+    title_en: '30 St Mary Axe (The Gherkin)',
+    subtitle: 'Norman Foster, 2003',
+    subtitle_en: 'Norman Foster, 2003',
+    category: 'architecture' as const,
+    designer: 'Norman Foster',
+    year: '2003',
+    tags: ['重新定义伦敦天际线', '绿色摩天楼先驱', '高技派建筑标杆'],
+    tags_en: ['Redefined London Skyline', 'Green Skyscraper Pioneer', 'High-Tech Architecture Icon'],
+
+    dateConnection: `1935年6月1日，Norman Foster出生于英国曼彻斯特的一个工薪家庭。这位日后将获得普利兹克奖、被封为男爵的建筑师，在青年时代从未想过自己会成为改变世界天际线的人——他最初的梦想只是离开曼彻斯特的贫困街区。30 St Mary Axe是Foster漫长职业生涯中最能代表他"高技派人文主义"理念的作品：用最先进的技术去创造最具人性关怀的空间。`,
+    designerBio: `Norman Foster是当代最具影响力的建筑师之一。1935年出生于曼彻斯特一个工人阶级家庭，他的童年在战后英国的灰暗工业城市中度过。21岁才进入曼彻斯特大学建筑系，随后获得耶鲁大学奖学金赴美深造，在那里遇到了日后的合作伙伴Richard Rogers，以及对他影响深远的导师Paul Rudolph。
+
+1967年，Foster创立了自己的事务所Foster + Partners，如今已成为全球最大的建筑事务所之一。从香港汇丰银行大厦到北京首都机场T3航站楼，从伦敦千禧桥到Apple Park，他的作品遍布全球，但始终保持着一个核心信念：**技术不是目的，而是让建筑更好地服务于人的手段**。1999年获得普利兹克奖，被封为泰晤士河畔的Foster男爵。`,
+    story: `30 St Mary Axe的故事始于一场灾难。1992年，爱尔兰共和军的一枚卡车炸弹炸毁了这个地块上的波罗的海交易所。伦敦金融城面临一个选择：重建旧楼，还是拥抱一个全新的未来。他们选择了后者。
+
+Foster接手这个项目时，提出了一个在当时看来近乎疯狂的方案：一座41层、180米高的子弹形玻璃塔楼。在保守的伦敦金融城核心区建一座如此激进的建筑，阻力可想而知。但Foster团队用严谨的工程分析说服了所有人——这座建筑的锥形外观不是为了标新立异，而是经过精密的空气动力学计算，能够将底部的风压减少到传统方盒子摩天楼的一半。
+
+建筑的菱形玻璃幕墙网格不仅是视觉符号，更是结构本身——外骨骼式的钢结构网让整座建筑不需要一根内部柱子，每一层都是无柱的开放空间。六条螺旋形的光井从底部旋转到顶部，引入自然光和通风，使这座摩天楼的能耗比同等规模的写字楼**低50%**。
+
+2003年建成后，伦敦人立刻给它起了一个亲昵的绰号——"小黄瓜"（The Gherkin）。这个名字本身就说明了一切：一座如此前卫的建筑，却被整座城市毫不犹豫地接纳为自家人。2004年，它获得了RIBA斯特林奖。如今，The Gherkin已经成为伦敦的标志性建筑之一，与大本钟、伦敦眼并列出现在每一张伦敦明信片上。`,
+    legacy: `The Gherkin的遗产远远超越了一座办公楼。它证明了摩天楼可以是绿色的——不需要牺牲经济性或美感，就能实现激进的节能目标。它的自然通风系统和能源策略成为此后全球绿色高层建筑的参考范本。它也改变了伦敦对现代建筑的态度：在The Gherkin之前，伦敦金融城对高层建筑充满抵触；在它之后，碎片大厦、对讲机大楼、奶酪刨丝器等一系列标志性高楼相继崛起，伦敦的天际线被彻底改写。Foster用一座建筑完成了一次城市心理的转变。`,
+    significance: `30 St Mary Axe在建筑设计史上的意义在于它打破了一个持续了半个世纪的僵局：现代摩天楼如何同时做到节能、美观、和让人喜欢。战后的国际风格玻璃盒子解决了效率问题但毫无个性；后现代主义尝试过装饰但往往流于表面。Foster找到了第三条路——让形式直接从性能中生长出来。The Gherkin的锥形不是雕塑造型，是空气动力学；菱形网格不是装饰图案，是结构受力；螺旋光井不是设计噱头，是自然通风系统。每一个让人惊叹的视觉元素，背后都有一个可以用数据验证的功能理由。这就是Foster所说的"技术浪漫主义"——当技术被推到极致，它自然会产生美。`,
+
+    dateConnection_en: `On June 1, 1935, Norman Foster was born into a working-class family in Manchester, England. The architect who would go on to win the Pritzker Prize and be made a baron never imagined as a young man that he would reshape skylines around the world — his earliest dream was simply to escape Manchester's impoverished streets. 30 St Mary Axe is the work that best embodies Foster's lifelong philosophy of "high-tech humanism": using the most advanced technology to create the most humane spaces.`,
+    designerBio_en: `Norman Foster is one of the most influential architects of our time. Born in 1935 to a working-class family in Manchester, he grew up in the gray industrial landscape of postwar Britain. He didn't enter Manchester University's architecture program until age 21, then won a scholarship to Yale, where he met future collaborator Richard Rogers and encountered his transformative mentor Paul Rudolph.
+
+In 1967, Foster founded his own practice, Foster + Partners, now one of the world's largest architecture firms. From the HSBC Building in Hong Kong to Beijing Capital Airport Terminal 3, from London's Millennium Bridge to Apple Park, his work spans the globe but maintains one core belief: **technology is not the end, but the means to make buildings better serve people**. He received the Pritzker Prize in 1999 and was created Baron Foster of Thames Bank.`,
+    story_en: `The story of 30 St Mary Axe begins with a disaster. In 1992, an IRA truck bomb destroyed the Baltic Exchange that had stood on this site. The City of London faced a choice: rebuild the old structure or embrace an entirely new future. They chose the latter.
+
+When Foster took on the project, he proposed what seemed almost reckless at the time: a 41-story, 180-meter bullet-shaped glass tower. Building something so radical in the heart of London's conservative financial district met predictable resistance. But Foster's team won everyone over with rigorous engineering analysis — the building's tapered form wasn't novelty for its own sake but was calculated through precise aerodynamic modeling to reduce wind pressure at ground level by half compared to a conventional box tower.
+
+The diamond-patterned glass curtain wall is not merely a visual motif but the structure itself — the exoskeletal steel diagrid eliminates the need for any internal columns, creating completely open floor plates on every level. Six spiraling light wells rotate from bottom to top, bringing in natural light and ventilation, reducing the building's energy consumption by **50% compared to equivalent office towers**.
+
+When it was completed in 2003, Londoners immediately gave it an affectionate nickname — "The Gherkin." That name says everything: a building this radical was embraced without hesitation as one of their own. It won the RIBA Stirling Prize in 2004. Today, The Gherkin stands alongside Big Ben and the London Eye on every London postcard.`,
+    legacy_en: `The Gherkin's legacy extends far beyond a single office building. It proved that skyscrapers can be green — achieving radical energy efficiency without sacrificing economics or beauty. Its natural ventilation system and energy strategy became the reference model for green high-rise buildings worldwide. It also transformed London's attitude toward modern architecture: before The Gherkin, the City of London resisted tall buildings; after it, The Shard, the Walkie-Talkie, the Cheesegrater, and a series of iconic towers followed in quick succession, fundamentally rewriting London's skyline. Foster used one building to shift an entire city's psychology.`,
+    significance_en: `30 St Mary Axe's significance in architectural design history lies in breaking a half-century deadlock: how a modern skyscraper can simultaneously be energy-efficient, beautiful, and beloved. Postwar International Style glass boxes solved the efficiency problem but lacked character; postmodernism attempted ornamentation but often remained superficial. Foster found a third way — letting form grow directly from performance. The Gherkin's taper is not sculptural posturing but aerodynamics; the diamond grid is not decorative pattern but structural diagrid; the spiral light wells are not design gimmicks but natural ventilation systems. Every visually stunning element has a data-verifiable functional rationale behind it. This is what Foster calls "technological romanticism" — when technology is pushed to its limits, beauty emerges naturally.`,
+  },
+
 ]
