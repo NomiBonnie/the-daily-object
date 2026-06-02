@@ -8185,4 +8185,49 @@ When it was completed in 2003, Londoners immediately gave it an affectionate nic
     significance_en: `30 St Mary Axe's significance in architectural design history lies in breaking a half-century deadlock: how a modern skyscraper can simultaneously be energy-efficient, beautiful, and beloved. Postwar International Style glass boxes solved the efficiency problem but lacked character; postmodernism attempted ornamentation but often remained superficial. Foster found a third way — letting form grow directly from performance. The Gherkin's taper is not sculptural posturing but aerodynamics; the diamond grid is not decorative pattern but structural diagrid; the spiral light wells are not design gimmicks but natural ventilation systems. Every visually stunning element has a data-verifiable functional rationale behind it. This is what Foster calls "technological romanticism" — when technology is pushed to its limits, beauty emerges naturally.`,
   },
 
+
+  {
+    id: '153',
+    date: '2026-06-02',
+    imageUrl: '/the-daily-object/images/rainbow-flag.jpg',
+    fullImageUrl: '/the-daily-object/images/full/rainbow-flag.jpg',
+    title: '彩虹旗',
+    title_en: 'The Rainbow Flag',
+    subtitle: 'Gilbert Baker, 1978',
+    subtitle_en: 'Gilbert Baker, 1978',
+    category: 'graphic' as const,
+    designer: 'Gilbert Baker',
+    year: '1978',
+    tags: ['视觉民主化先驱', '改变了社会运动', '最具辨识度的旗帜'],
+    tags_en: ['Pioneered Visual Democracy', 'Transformed Social Movements', "World's Most Recognizable Flag"],
+
+    dateConnection: `1951年6月2日，Gilbert Baker 出生在堪萨斯州帕森斯城。27年后，他在旧金山亲手缝制了世界上第一面彩虹旗——一件改变了整个社会运动视觉语言的设计作品。`,
+    designerBio: `Gilbert Baker 的人生轨迹本身就是一个关于设计力量的故事。他在保守的堪萨斯长大，1970年应征入伍，被派驻旧金山。退伍后，他留在了这座城市，自学缝纫，为反战游行和同性恋权利运动制作横幅和旗帜。
+
+在旧金山的 Castro 街区，Baker 遇到了改变他命运的人——Harvey Milk，美国第一位公开同性恋身份当选公职的政治家。Milk 鼓励 Baker 为社区创造一个属于自己的符号，一个积极的、充满生命力的视觉标识，取代当时常用的粉色三角形（那是纳粹集中营标记同性恋囚犯的符号）。`,
+    story: `1978年初，Baker 和一群志愿者在旧金山的一个阁楼里开始了这个项目。他们用大桶手工染色，将白色棉布浸入天然染料中。最初的旗帜有八个色条，每一种颜色都被赋予了具体含义：粉红代表性，红色代表生命，橙色代表治愈，黄色代表阳光，绿色代表自然，青色代表艺术/魔法，靛蓝代表宁静/和谐，紫色代表精神。
+
+**1978年6月25日**，两面长达12米的手染彩虹旗在旧金山同性恋自由日游行上首次亮相。几个月后，Harvey Milk 遇刺身亡。Baker 后来回忆说，Milk 的死反而让彩虹旗的需求激增——人们需要一个符号来表达悲伤和团结。
+
+出于量产的实际考虑，旗帜从八色简化为六色（去掉了粉红和靛蓝）。这个简化反而成就了设计的力量——六个纯净的色条，不需要任何文字或图案，就能被全世界即刻识别。Baker 曾说："旗帜是属于所有人的。你不需要购买版权，你不需要申请商标。你只需要一块布和一些染料。"
+
+他刻意**没有为旗帜注册任何知识产权**，让它成为真正的公共符号。这个决定本身就是一次激进的设计行为——它让彩虹旗在几十年间从旧金山的街头传播到了全球每一个大洲。`,
+    legacy: `彩虹旗是20世纪下半叶最成功的平面设计作品之一。它被MoMA永久收藏，被联合国和各国政府机构采用，成为了全球辨识度最高的非国家旗帜。Baker 在2003年为旧金山骄傲游行制作了一面长达1.6公里的巨型彩虹旗，创下吉尼斯世界纪录。2017年Baker去世后，MoMA将他的原始设计正式纳入永久馆藏。`,
+    significance: `从设计的角度看，彩虹旗的伟大在于它的「去设计感」。没有logo，没有文字，没有复杂的图形系统——只有颜色本身。这种极致的简洁让它跨越了语言、文化和国界的障碍，成为了一个真正全球化的符号。Baker 证明了一件事：最有力量的设计，不是那些需要品牌手册来解释的东西，而是那些一看就懂、一用就属于你的东西。彩虹旗的开源本质也预见了21世纪的设计趋势——设计不一定属于设计师，它可以属于所有需要它的人。`,
+
+    dateConnection_en: `On June 2, 1951, Gilbert Baker was born in Parsons, Kansas. Twenty-seven years later, he would hand-sew the world's first rainbow flag in San Francisco — a design that transformed the visual language of social movements forever.`,
+    designerBio_en: `Gilbert Baker's life trajectory is itself a story about the power of design. Raised in conservative Kansas, he was drafted into the US Army in 1970 and stationed in San Francisco. After his discharge, he stayed in the city, taught himself to sew, and began making banners and flags for anti-war protests and gay rights demonstrations.
+
+In San Francisco's Castro district, Baker met the person who would change his destiny — Harvey Milk, the first openly gay man elected to public office in the United States. Milk encouraged Baker to create a symbol that belonged to the community: something positive, full of vitality, to replace the commonly used pink triangle (a symbol the Nazis had used to mark gay prisoners in concentration camps).`,
+    story_en: `In early 1978, Baker and a group of volunteers began work in a San Francisco attic. They hand-dyed white cotton fabric in large vats of natural dyes. The original flag had eight color stripes, each assigned a specific meaning: hot pink for sex, red for life, orange for healing, yellow for sunlight, green for nature, turquoise for art/magic, indigo for serenity/harmony, and violet for spirit.
+
+**On June 25, 1978**, two hand-dyed rainbow flags, each over 12 meters long, made their debut at the San Francisco Gay Freedom Day Parade. Months later, Harvey Milk was assassinated. Baker later recalled that Milk's death actually drove demand for the flag skyward — people needed a symbol to express both grief and solidarity.
+
+For practical mass-production reasons, the flag was simplified from eight to six stripes (removing hot pink and indigo). This reduction paradoxically strengthened the design — six pure color bands, requiring no text or emblem, instantly recognizable anywhere on earth. Baker once said: "The flag belongs to everyone. You don't need to buy a copyright. You don't need to apply for a trademark. All you need is a piece of fabric and some dye."
+
+He deliberately **never registered any intellectual property** for the flag, making it a truly public symbol. That decision was itself a radical act of design — it allowed the rainbow flag to spread from San Francisco's streets to every continent on the planet within decades.`,
+    legacy_en: `The rainbow flag is one of the most successful graphic design works of the late twentieth century. It has been acquired by MoMA for its permanent collection, adopted by the United Nations and government institutions worldwide, and become the most recognizable non-national flag on earth. In 2003, Baker created a 1.6-kilometer rainbow flag for San Francisco Pride, setting a Guinness World Record. After Baker's death in 2017, MoMA formally added his original design to its permanent collection.`,
+    significance_en: `From a design perspective, the rainbow flag's greatness lies in its "anti-design" quality. No logo, no text, no complex graphic system — just color itself. This radical simplicity lets it transcend barriers of language, culture, and borders to become a truly global symbol. Baker proved something essential: the most powerful design is not something that needs a brand manual to explain — it's something you understand at a glance and claim as your own the moment you use it. The flag's open-source nature also anticipated a key 21st-century design trend: design doesn't have to belong to the designer — it can belong to everyone who needs it.`,
+  },
+
 ]
