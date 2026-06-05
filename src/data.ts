@@ -8332,4 +8332,57 @@ The deeper legacy lies in a design truth it revealed: the "meaning" of an image 
 
 It also redefined the visual language of "Americanness." The combination of flag, jeans, and baseball cap became a permanent cultural image after this cover — one that can be read as patriotism or as critique. That ambiguity is the hallmark of great design.`,
   },
+  {
+    id: '156',
+    date: '2026-06-05',
+    imageUrl: '/the-daily-object/images/ferragamo-rainbow-sandal.jpg',
+    fullImageUrl: '/the-daily-object/images/full/ferragamo-rainbow-sandal.jpg',
+    title: 'Rainbow Platform Sandal',
+    title_en: 'Rainbow Platform Sandal',
+    subtitle: 'Salvatore Ferragamo, 1938',
+    subtitle_en: 'Salvatore Ferragamo, 1938',
+    category: 'industrial' as const,
+    designer: 'Salvatore Ferragamo',
+    year: '1938',
+    tags: ['发明了楔形鞋跟', '好莱坞明星鞋匠', '用制鞋改写工业设计'],
+    tags_en: ['Invented the Wedge Heel', 'Shoemaker to the Stars', 'Shoemaking as Industrial Design'],
+
+    dateConnection: `1898年6月5日，Salvatore Ferragamo出生在意大利那不勒斯附近的小村庄Bonito。他后来成为20世纪最具影响力的鞋履设计师，拥有超过350项专利，被称为"好莱坞的鞋匠"。他的作品不是时尚配饰，而是严谨的产品设计：每一双鞋都建立在人体解剖学研究和材料工程的基础上。`,
+    designerBio: `Ferragamo九岁时为两个姐姐做了她们的第一圣餐礼鞋——那是他的第一件"作品"。十一岁时他已经在那不勒斯的鞋店当学徒，十四岁远渡美国，先在波士顿的一家鞋厂工作，随后前往加利福尼亚。
+
+在好莱坞，他开始为电影工业制作道具鞋。从Cecil B. DeMille的史诗片到日常明星定制，Ferragamo的客户名单读起来就是一部黄金时代好莱坞名录：Gloria Swanson、Greta Garbo、Marilyn Monroe、Audrey Hepburn、Judy Garland。但让他与普通裁缝师不同的是，他在南加州大学选修了人体解剖学课程，研究足部的骨骼结构和重量分布。这种"工程师思维"贯穿了他此后所有的设计。`,
+    story: `1927年Ferragamo回到意大利，在佛罗伦萨建立了自己的工坊。然而1929年大萧条重创了他的生意，他一度破产。重新站起来后，他面对的是二战期间意大利的物资短缺：传统的皮革和钢材几乎不可能获得。
+
+**正是这种限制激发了他最伟大的发明。** 没有钢材做鞋跟支撑？他用层叠的软木替代，由此发明了楔形鞋跟(wedge heel)——1936年获得专利，至今仍是鞋履设计的基础结构之一。没有优质皮革？他尝试用糖果包装纸、纤维素、鱼皮、甚至编织的尼龙线来制作鞋面。
+
+1938年的Rainbow Platform Sandal是这一时期的集大成之作。这双为Judy Garland定制的凉鞋拥有由多层彩色麂皮包裹软木制成的彩虹色厚底鞋跟——红、橙、黄、绿、蓝、靛、紫依次排列。金色小山羊皮的鞋面编织成笼状结构，脚踝处一根皮带固定。
+
+**它不只是好看——它是一项结构工程成就。** 多层软木的堆叠方式经过精密计算，确保鞋底的弧度与人体足弓完美匹配。每一层彩色麂皮不仅是装饰，还起到固定软木层、防止滑动的功能性作用。Ferragamo把战时匮乏变成了设计语言：既然没有传统材料，那就用色彩本身作为结构元素。`,
+    legacy: `• 楔形鞋跟至今是全球鞋履设计的基础结构，每年数亿双鞋使用这一技术
+• 1947年发明的"Invisible Sandal"(透明尼龙线凉鞋)被纽约大都会艺术博物馆永久收藏
+• 获得超过350项设计专利，涵盖鞋跟结构、鞋底工程、材料创新
+• 1947年获Neiman Marcus时尚界"奥斯卡"——史上第一位获此殊荣的鞋履设计师
+• 佛罗伦萨的Museo Salvatore Ferragamo保存了他超过10,000双鞋履原型和手稿
+• 他的"以解剖学为基础的舒适设计"理念直接影响了现代运动鞋和人体工学鞋的发展方向`,
+    significance: `Ferragamo从根本上改变了"鞋"在设计谱系中的位置。在他之前，制鞋被视为裁缝业的一个分支——手艺精湛但缺乏设计自觉。Ferragamo把制鞋变成了一门融合人体工程学、材料科学和雕塑美学的综合设计学科。他在南加大学习解剖学的举动放在今天看来就是"用户研究"的原型，他的350多项专利则是将手工艺推向工业设计的明证。Rainbow Sandal代表了他设计哲学的精髓：限制不是敌人，而是发明之母。`,
+
+    dateConnection_en: `On June 5, 1898, Salvatore Ferragamo was born in the small village of Bonito near Naples, Italy. He would become the 20th century's most influential footwear designer, holding over 350 patents and earning the title "Shoemaker to the Stars." His shoes were not fashion accessories but rigorous product design, each pair built on a foundation of human anatomy research and materials engineering.`,
+    designerBio_en: `At nine years old, Ferragamo made his first pair of shoes for his two sisters' First Communion. By eleven, he was apprenticing at a Naples shoe shop. At fourteen, he emigrated to America, working first at a shoe factory in Boston before heading to California.
+
+In Hollywood, he began making prop shoes for the film industry. From Cecil B. DeMille's epics to custom orders for everyday stars, Ferragamo's client list reads like a Golden Age Hollywood directory: Gloria Swanson, Greta Garbo, Marilyn Monroe, Audrey Hepburn, Judy Garland. What set him apart from ordinary craftsmen was his decision to audit anatomy courses at the University of Southern California, studying bone structure and weight distribution in the human foot. That "engineer's mindset" informed every design he created thereafter.`,
+    story_en: `In 1927, Ferragamo returned to Italy and established his workshop in Florence. The Great Depression of 1929 devastated his business, and he went bankrupt. After rebuilding, he faced wartime Italy's severe material shortages: traditional leather and steel were nearly impossible to obtain.
+
+**It was precisely these constraints that sparked his greatest inventions.** No steel for heel supports? He substituted layered cork, inventing the wedge heel — patented in 1936 and still one of the fundamental structures in footwear design today. No quality leather? He experimented with candy wrappers, cellulose, fish skin, and even woven nylon thread for uppers.
+
+The 1938 Rainbow Platform Sandal was the masterwork of this period. Custom-made for Judy Garland, the sandal featured a rainbow-colored platform heel made from layered cork wrapped in multicolored suede — red, orange, yellow, green, blue, indigo, and violet, stacked in sequence. The upper was woven from gold kidskin in a cage-like structure, secured with an ankle strap.
+
+**It wasn't just beautiful — it was a structural engineering achievement.** The multi-layered cork construction was precisely calculated to ensure the sole's curvature matched the natural arch of the human foot. Each colored suede layer wasn't merely decorative — it served the functional purpose of securing the cork layers and preventing slippage. Ferragamo turned wartime scarcity into a design language: without traditional materials, he made color itself a structural element.`,
+    legacy_en: `• The wedge heel remains a fundamental structure in global footwear design, used in hundreds of millions of shoes annually
+• The 1947 "Invisible Sandal" (transparent nylon thread sandal) is in the Metropolitan Museum of Art's permanent collection
+• Over 350 design patents covering heel structures, sole engineering, and material innovations
+• Won the 1947 Neiman Marcus Award — the first shoe designer ever to receive the fashion industry's "Oscar"
+• The Museo Salvatore Ferragamo in Florence preserves over 10,000 of his shoe prototypes and manuscripts
+• His philosophy of "comfort through anatomy" directly influenced the development of modern athletic shoes and ergonomic footwear`,
+    significance_en: `Ferragamo fundamentally changed where "shoes" sit in the design hierarchy. Before him, shoemaking was viewed as a branch of tailoring — skilled craftsmanship lacking design intentionality. Ferragamo transformed shoemaking into a comprehensive design discipline that fused human ergonomics, materials science, and sculptural aesthetics. His decision to study anatomy at USC looks, in hindsight, like a prototype for modern "user research," while his 350-plus patents stand as proof of pushing craft toward industrial design. The Rainbow Sandal embodies the essence of his design philosophy: constraint is not the enemy — it is the mother of invention.`,
+  },
 ]

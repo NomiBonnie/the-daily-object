@@ -1,15 +1,9 @@
-# Daily Object 候选 06-04
+# Daily Object 候选 06-05
 
-候选1: Born in the U.S.A. (1984) — [关联类型: 专辑发布日]
+候选1: Salvatore Ferragamo "Invisible Sandal" (1947) — 关联类型: 🎂 设计师生日(1898)
   知名度: 5/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 25/25
-
-候选2: Hovercraft / SR.N1 (1959) — [关联类型: 发明者Christopher Cockerell生日]
-  知名度: 3/5 | 图片: 3/5 | 故事: 3/5 | 视觉: 2/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 16/25
-
-候选3: Nine West (1977) — [关联类型: 创始人Vince Camuto生日]
-  知名度: 3/5 | 图片: 3/5 | 故事: 3/5 | 视觉: 3/5 | 分类多样性: 1/5 | 时代加权: 0 | 总分: 13/25
-
-候选4: Robert Jacobsen铁雕塑 (1912-1993) — [关联类型: 艺术家生日]
-  知名度: 2/5 | 图片: 3/5 | 故事: 2/5 | 视觉: 3/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 15/25
-
-→ 选择: 候选1（原因：满分25分，Bruce Springsteen的Born in the U.S.A.是音乐史上最具标志性的专辑之一，Annie Leibovitz拍摄的封面是设计史经典，知名度极高，图片易得，故事丰富（反战歌曲被误读为爱国颂歌），与近3天分类完全不同）
+候选2: Thomas Chippendale Furniture (1754) — 关联类型: 🎂 设计师生日(1718)
+  知名度: 4/5 | 图片: 4/5 | 故事: 3/5 | 视觉: 4/5 | 分类多样性: 5/5 | 时代加权: -3 | 总分: 17/25
+候选3: The Umbrellas of Cherbourg (1964) — 关联类型: 🎂 导演Jacques Demy生日(1931)
+  知名度: 4/5 | 图片: 4/5 | 故事: 4/5 | 视觉: 5/5 | 分类多样性: 3/5 | 时代加权: 0 | 总分: 20/25
+→ 选择: 候选1（原因：满分25分。Ferragamo是20世纪最具影响力的鞋履设计师，"Shoemaker to the Stars"。他的Invisible Sandal在Met永久收藏，发明了楔形鞋跟、笼式鞋跟等多项突破。分类用industrial（聚焦产品设计创新而非时尚品牌），与近3天category(architecture/graphic/fashion/music)都不同。图片可从Museo Ferragamo和Met获取高清作品原图。故事极强：11岁做第一双鞋、去好莱坞给明星做鞋、研究人体解剖学、350+专利。）
