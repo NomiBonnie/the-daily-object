@@ -1,15 +1,21 @@
-# Daily Object 候选 06-06
+# Daily Object 候选 06-07
 
-候选1: Ivan Chermayeff — Chase Bank / NBC / Smithsonian Logos (1960s-2000s) — 关联类型: 🎂 设计师生日(1932)
-  知名度: 5/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 25/25
-  备注: 现代平面设计宗师，Chase Bank 八角星 logo(1960)至今仍在使用，是有史以来第一个抽象企业标志。NBC 孔雀、Smithsonian 太阳、MoMA、PBS、Pan Am、National Geographic 等 600+ 标志。9 West 57th Street 红色数字"9"雕塑是纽约地标。category=graphic，与最近3天(fashion/music/industrial)完全不同。
+候选1: Casa Batlló (1906) — [关联类型: ⚰️ 逝世100周年（高铁被撞日）]
+  设计师: Antoni Gaudí
+  日期关联: 1926年6月7日，Gaudí在巴塞罗那被电车撞伤（3天后去世）。2026年恰好是逝世100周年，全球纪念活动密集，Sagrada Família将举行百年纪念庆典
+  知名度: 5/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 3/5 | 时代加权: 0 | 总分: 23/25
+  备注: 大众都认识Gaudí，Casa Batlló是他最视觉化的住宅作品。2026正值百年忌辰，时效性极强。最近3天无architecture。分类多样性3是因为跟06-01 Norman Foster同为architecture，但间隔6天够远
 
-候选2: Diego Velázquez — Las Meninas (1656) — 关联类型: 🎂 画家生日(1599)
-  知名度: 5/5 | 图片: 5/5 | 故事: 4/5 | 视觉: 5/5 | 分类多样性: 5/5 | 时代加权: -3 | 总分: 21/25
-  备注: 西方绘画史上最伟大的作品之一，但1599年出生，-3分惩罚。且更偏纯艺术而非设计。
+候选2: Glasgow School of Art (1909) — [关联类型: 🎂 设计师生日]
+  设计师: Charles Rennie Mackintosh
+  日期关联: 1868年6月7日，Mackintosh出生于格拉斯哥
+  知名度: 4/5 | 图片: 4/5 | 故事: 4/5 | 视觉: 4/5 | 分类多样性: 3/5 | 时代加权: -3 | 总分: 16/25
+  备注: Mackintosh是Art Nouveau重要人物，但作品在1868-1928年间，时代加权-3。且连续3天都是生日关联
 
-候选3: Crystal Bridges Museum Expansion — Safdie Architects (2025) — 关联类型: 🏛️ 开放日
-  知名度: 3/5 | 图片: 3/5 | 故事: 2/5 | 视觉: 3/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 16/25
-  备注: 2025年开放，太新，没有成为经典的时间沉淀。故事性不够。
+候选3: Prince Love Symbol / Purple Rain Visual Identity (1984) — [关联类型: 🎂 设计师生日]
+  设计师: Prince (Prince Rogers Nelson)
+  日期关联: 1958年6月7日，Prince出生于明尼阿波利斯
+  知名度: 5/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 3/5 | 时代加权: 0 | 总分: 23/25
+  备注: 但06-04已经是music分类(Born in the USA)，仅隔3天再来音乐不理想。且连续第4天生日关联
 
-→ 选择: 候选1 Ivan Chermayeff（原因：满分25分，现代平面设计教父级人物，Chase Bank logo 是设计史教科书级作品，图片丰富，与近3天分类完全不重复，完美选题）
+→ 选择: 候选1 Casa Batlló（原因：2026年恰逢Gaudí逝世100周年，6月7日是他被电车撞伤的日期，时效性无与伦比。设计史教科书级人物，Casa Batlló视觉冲击力极强，高分好图易得。architecture分类与最近3天(music/industrial/graphic)完全不重复。关联类型⚰️逝世打破了连续🎂生日的单调。总分23/25）

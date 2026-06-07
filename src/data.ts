@@ -8438,4 +8438,61 @@ The Chase octagon has remained essentially unchanged since 1960 and is still in 
 • His 1974 red steel "9" sculpture at 9 West 57th Street became a midtown Manhattan landmark`,
     significance_en: `Chermayeff & Geismar fundamentally answered a design-philosophy question: what should a logo actually do? Their answer overturned the entire industry's assumptions. Before them, logos tried to "illustrate" the company — banks used columns to suggest stability, airlines used wings to suggest flight. Chermayeff & Geismar argued this had it completely backwards: a logo's job is not to explain the company but to be given meaning by the company's actions. An abstract octagon carries no inherent "banking" connotation, but after Chase used it for over sixty years, it became synonymous with banking. This "empty vessel" theory — a mark is inherently meaningless; meaning is injected by the user — stands as one of the 20th century's most important breakthroughs in graphic design thinking. It liberated corporate identity design, freeing designers worldwide from the trap of asking "does this logo look like what we sell?"`,
   },
+  {
+    id: '158',
+    date: '2026-06-07',
+    imageUrl: '/the-daily-object/images/casa-batllo.jpg',
+    fullImageUrl: '/the-daily-object/images/full/casa-batllo.jpg',
+    title: 'Casa Batlló',
+    title_en: 'Casa Batlló',
+    subtitle: 'Antoni Gaudí, 1906',
+    subtitle_en: 'Antoni Gaudí, 1906',
+    category: 'architecture' as const,
+    designer: 'Antoni Gaudí',
+    year: '1906',
+    tags: ['把建筑变成活的生物', '自然即结构的先驱', '巴塞罗那的灵魂'],
+    tags_en: ['Architecture as Living Organism', 'Nature-as-Structure Pioneer', 'The Soul of Barcelona'],
+
+    dateConnection: `1926年6月7日傍晚，73岁的Antoni Gaudí从圣家堂工地出发，像往常一样步行去圣费利佩·内里教堂做祈祷。在Gran Via大街穿过十字路口时，他被一辆30路有轨电车撞倒，当场昏迷。衣衫褴褛的他被路人当作流浪汉，无人相认。三天后，这位巴塞罗那最伟大的建筑师在圣十字医院去世。2026年恰逢Gaudí逝世一百周年。`,
+    designerBio: `Antoni Gaudí(1852-1926)出生在加泰罗尼亚雷乌斯附近一个铜匠家庭。童年的风湿病让他无法和同龄人一起奔跑，却给了他大量独处观察自然的时间。他后来说："那棵树就是我的老师。"这不是文艺修辞——他的整个建筑体系确实建立在对自然结构的数学研究之上。
+
+1878年从巴塞罗那建筑学院毕业时，院长说了一句著名的话："我不知道我们把文凭颁给了一个天才还是一个疯子。"此后四十年的作品证明答案是：两者皆是。从早期的东方主义风格(Casa Vicens)到成熟期的有机建筑(Casa Batlló、Casa Milà)，再到毕生未竟的圣家堂，Gaudí走出了一条完全属于自己的路——他不属于任何流派，所有流派都从他这里汲取灵感。`,
+    story: `1904年，纺织业巨头Josep Batlló买下格拉西亚大道43号一栋平淡无奇的公寓楼，请Gaudí来改造。Batlló本想拆了重建，Gaudí说不必——他要让这栋楼"活过来"。
+
+**Gaudí做的第一件事是撕掉所有直线。** 他重新设计了整个立面，用Montjuïc山的砂岩雕出骨骼般的柱子支撑一楼的大窗，让建筑看起来像一具呼吸着的骨架。巴塞罗那人很快给它取了绰号："骨头屋"(Casa dels Ossos)。
+
+立面的处理是整座建筑最让人目眩的部分。Gaudí用回收的马略卡陶瓷碎片和彩色玻璃拼贴出一面从蓝到金渐变的"鳞片墙"——底部是深海蓝，向上逐渐过渡到金色和橙色，仿佛一条巨龙从水中升起。这不是纯粹的装饰：不同颜色的瓷片反射不同角度的光线，使建筑在一天之中呈现不断变化的色彩。
+
+**屋顶是整个叙事的高潮。** 覆盖着鳞片状陶瓷瓦片的弧形屋脊就是龙的脊背，塔楼顶端的四臂十字架是圣乔治刺入龙身的剑——这是加泰罗尼亚守护圣人屠龙传说的建筑化演绎。阳台的铸铁栏杆像是龙的受害者留下的头骨面具。整栋建筑就是一个凝固的神话。
+
+但Gaudí不只是在讲故事。Casa Batlló的内部隐藏着超前一个世纪的工程智慧：中央天井的瓷砖从顶层的深蓝色渐变到底层的白色，配合窗户尺寸从上到下逐渐增大——这是一套精密的自然采光系统，确保每一层都获得均匀的光线。通风系统利用天井的烟囱效应实现自然对流。在没有空调和电灯的年代，Gaudí用纯粹的建筑手段解决了舒适性问题。`,
+    legacy: `• 1969年被西班牙政府列为国家历史地标，1984年跻身"Gaudí作品群"成为联合国教科文组织世界遗产
+• 每年接待超过100万访客，是巴塞罗那最受欢迎的建筑景点之一
+• 立面的碎片拼贴技法(trencadís)影响了从Hundertwasser到当代参数化建筑的广泛领域
+• 其自然采光天井系统被视为可持续建筑设计的百年前先驱
+• 2026年Gaudí逝世百年纪念，圣家堂将举行耶稣塔落成仪式，全球瞩目
+• 在建筑教育中，Casa Batlló是"有机建筑"和"建筑叙事"的经典教学案例`,
+    significance: `Casa Batlló回答了一个建筑学的根本问题：建筑可以不是几何体吗？在一个被直线、直角和网格统治的行业里，Gaudí证明了建筑可以像骨骼一样生长、像皮肤一样呼吸、像故事一样被阅读。他没有用计算机，没有参数化软件，只凭肉眼观察自然、用悬链线模型和镜子反转重力来推导结构——这些方法在一百年后被数字工具重新发现时，建筑界才意识到Gaudí走得有多远。他不是Art Nouveau的一员，他是Art Nouveau的终点和之后一切有机建筑的起点。`,
+
+    dateConnection_en: `On the evening of June 7, 1926, 73-year-old Antoni Gaudí left his workshop at the Sagrada Família construction site and walked, as he did every day, toward the Sant Felip Neri church for prayer. While crossing an intersection on Gran Via, he was struck by a number 30 tram and knocked unconscious. Shabby and carrying no identification, he was mistaken for a beggar and went unrecognized. Three days later, Barcelona's greatest architect died at the Santa Creu Hospital. 2026 marks the centenary of Gaudí's death.`,
+    designerBio_en: `Antoni Gaudí (1852–1926) was born near Reus, Catalonia, into a coppersmith's family. Childhood rheumatism kept him from running with other children but gave him endless hours to observe nature alone. He later said: "That tree is my teacher." This was not poetic license — his entire architectural system was genuinely built on mathematical studies of natural structures.
+
+When he graduated from the Barcelona School of Architecture in 1878, the school's president famously remarked: "I don't know whether we've awarded this diploma to a genius or a madman." The next four decades of work proved the answer was: both. From early Orientalist experiments (Casa Vicens) through his mature organic period (Casa Batlló, Casa Milà) to the lifelong, unfinished Sagrada Família, Gaudí carved a path entirely his own — he belonged to no movement, yet every movement drew from him.`,
+    story_en: `In 1904, textile magnate Josep Batlló purchased an unremarkable apartment building at 43 Passeig de Gràcia and commissioned Gaudí to renovate it. Batlló initially wanted to demolish and rebuild; Gaudí said there was no need — he would make the building "come alive."
+
+**Gaudí's first move was to abolish every straight line.** He redesigned the entire facade, carving bone-like sandstone columns from Montjuïc quarry to support the first-floor gallery windows, giving the building the appearance of a breathing skeleton. Barcelonans quickly nicknamed it the "House of Bones" (Casa dels Ossos).
+
+The facade treatment is the building's most mesmerizing feature. Gaudí used recycled Majorcan ceramic fragments and colored glass to create a "scale wall" that gradates from deep sea blue at the base to gold and orange at the top — as if a great dragon were rising from the water. This wasn't purely decorative: different colored tiles reflect light at different angles, causing the building to shift color throughout the day.
+
+**The rooftop is the narrative's climax.** The arched ridge covered in scale-like ceramic tiles is the dragon's spine; the four-armed cross atop the tower is Saint George's sword thrust into the beast — an architectural retelling of the Catalan patron saint's dragon-slaying legend. The balcony railings of cast iron resemble skull masks left by the dragon's victims. The entire building is a myth made solid.
+
+But Gaudí wasn't only telling stories. Inside Casa Batlló hides engineering wisdom a century ahead of its time: the central light well's tiles grade from deep blue at the top floor to white at the bottom, while windows progressively increase in size from top to bottom — a precision natural-lighting system ensuring uniform illumination on every floor. The ventilation system uses the chimney effect of the light well for natural convection. In an era without air conditioning or electric lighting, Gaudí solved comfort problems through pure architectural means.`,
+    legacy_en: `• Designated a Spanish National Historic Landmark in 1969; became a UNESCO World Heritage Site in 1984 as part of the "Works of Antoni Gaudí" group
+• Receives over one million visitors annually, one of Barcelona's most popular architectural attractions
+• The broken-tile mosaic technique (trencadís) on its facade influenced architects from Hundertwasser to contemporary parametric designers
+• Its natural-lighting light well system is considered a century-old precursor to sustainable architectural design
+• In the 2026 centenary of Gaudí's death, the Sagrada Família will inaugurate the Tower of Jesus Christ in a globally anticipated ceremony
+• In architectural education, Casa Batlló remains a canonical case study in "organic architecture" and "architectural narrative"`,
+    significance_en: `Casa Batlló answered a fundamental question in architecture: can a building be something other than a geometric solid? In a profession ruled by straight lines, right angles, and grids, Gaudí proved that architecture could grow like bone, breathe like skin, and be read like a story. He had no computers, no parametric software — only naked-eye observation of nature, catenary chain models, and mirrors to invert gravity for structural derivation. When these methods were rediscovered by digital tools a century later, the architecture world realized just how far ahead Gaudí had been. He was not a member of Art Nouveau; he was its endpoint and the starting point for every organic architecture that followed.`,
+  },
 ]
