@@ -1,21 +1,15 @@
-# Daily Object 候选 06-07
+# Daily Object 候选 06-08
 
-候选1: Casa Batlló (1906) — [关联类型: ⚰️ 逝世100周年（高铁被撞日）]
-  设计师: Antoni Gaudí
-  日期关联: 1926年6月7日，Gaudí在巴塞罗那被电车撞伤（3天后去世）。2026年恰好是逝世100周年，全球纪念活动密集，Sagrada Família将举行百年纪念庆典
-  知名度: 5/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 3/5 | 时代加权: 0 | 总分: 23/25
-  备注: 大众都认识Gaudí，Casa Batlló是他最视觉化的住宅作品。2026正值百年忌辰，时效性极强。最近3天无architecture。分类多样性3是因为跟06-01 Norman Foster同为architecture，但间隔6天够远
+候选1: Frank Lloyd Wright Tree of Life Window (1904) — 关联类型: 🎂 设计师生日
+  知名度: 4/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 24/25
+  备注: FLW 最著名的彩色玻璃设计，Darwin D. Martin House 的 Tree of Life 窗。归类 art 而非 architecture，与昨天 Casa Batlló 不同分类。FLW 6/8 生日关联极强。MoMA/Corning Museum 等均有收藏。图片极佳——几何抽象彩色玻璃，视觉冲击力强。已用过 FLW 的 Fallingwater (04-09)，但这是完全不同的作品领域。
 
-候选2: Glasgow School of Art (1909) — [关联类型: 🎂 设计师生日]
-  设计师: Charles Rennie Mackintosh
-  日期关联: 1868年6月7日，Mackintosh出生于格拉斯哥
-  知名度: 4/5 | 图片: 4/5 | 故事: 4/5 | 视觉: 4/5 | 分类多样性: 3/5 | 时代加权: -3 | 总分: 16/25
-  备注: Mackintosh是Art Nouveau重要人物，但作品在1868-1928年间，时代加权-3。且连续3天都是生日关联
+候选2: Yeezy Boost 350 (2015) — 关联类型: 🎂 Kanye West 生日
+  知名度: 5/5 | 图片: 5/5 | 故事: 4/5 | 视觉: 4/5 | 分类多样性: 3/5 | 时代加权: 0 | 总分: 21/25
+  备注: Kanye West 6/8 生日。Yeezy 改变了球鞋设计和时尚产业。但 06-03 已有 fashion (Zoot Suit)，3天内重复扣分。且 Kanye 争议较大，不太适合设计日历的调性。归为 industrial 可避免 fashion 重复但勉强。
 
-候选3: Prince Love Symbol / Purple Rain Visual Identity (1984) — [关联类型: 🎂 设计师生日]
-  设计师: Prince (Prince Rogers Nelson)
-  日期关联: 1958年6月7日，Prince出生于明尼阿波利斯
-  知名度: 5/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 3/5 | 时代加权: 0 | 总分: 23/25
-  备注: 但06-04已经是music分类(Born in the USA)，仅隔3天再来音乐不理想。且连续第4天生日关联
+候选3: Robie House (1910) — 关联类型: 🎂 FLW 设计师生日
+  知名度: 4/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 1/5 | 时代加权: 0 | 总分: 20/25
+  备注: FLW Prairie Style 巅峰之作，建筑史教科书级。但昨天 06-07 就是 architecture (Casa Batlló)，连续 2 天 architecture，分类多样性 1 分。
 
-→ 选择: 候选1 Casa Batlló（原因：2026年恰逢Gaudí逝世100周年，6月7日是他被电车撞伤的日期，时效性无与伦比。设计史教科书级人物，Casa Batlló视觉冲击力极强，高分好图易得。architecture分类与最近3天(music/industrial/graphic)完全不重复。关联类型⚰️逝世打破了连续🎂生日的单调。总分23/25）
+→ 选择: 候选1 Frank Lloyd Wright Tree of Life Window（原因：总分最高 24/25，FLW 生日关联极强，art 分类避免与昨天 architecture 重复，彩色玻璃视觉冲击力极强，故事性极佳——FLW 将自然几何化的装饰艺术哲学。且已用过的 FLW 是 Fallingwater/建筑，这次是装饰艺术/玻璃设计，完全不同维度）

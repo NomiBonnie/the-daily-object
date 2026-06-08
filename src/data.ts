@@ -8495,4 +8495,60 @@ But Gaudí wasn't only telling stories. Inside Casa Batlló hides engineering wi
 • In architectural education, Casa Batlló remains a canonical case study in "organic architecture" and "architectural narrative"`,
     significance_en: `Casa Batlló answered a fundamental question in architecture: can a building be something other than a geometric solid? In a profession ruled by straight lines, right angles, and grids, Gaudí proved that architecture could grow like bone, breathe like skin, and be read like a story. He had no computers, no parametric software — only naked-eye observation of nature, catenary chain models, and mirrors to invert gravity for structural derivation. When these methods were rediscovered by digital tools a century later, the architecture world realized just how far ahead Gaudí had been. He was not a member of Art Nouveau; he was its endpoint and the starting point for every organic architecture that followed.`,
   },
+  {
+    id: '159',
+    date: '2026-06-08',
+    imageUrl: '/the-daily-object/images/flw-tree-of-life.jpg',
+    fullImageUrl: '/the-daily-object/images/full/flw-tree-of-life.jpg',
+    title: '生命之树彩色玻璃窗',
+    title_en: 'Tree of Life Window',
+    subtitle: 'Frank Lloyd Wright, 1904',
+    subtitle_en: 'Frank Lloyd Wright, 1904',
+    category: 'art' as const,
+    designer: 'Frank Lloyd Wright',
+    year: '1904',
+    tags: ['将自然几何化的先驱', '装饰即建筑的宣言', '改写了光与空间的关系'],
+    tags_en: ['Pioneered Geometry of Nature', 'Ornament-as-Architecture Manifesto', 'Redefined Light and Space'],
+
+    dateConnection: `1867年6月8日，Frank Lloyd Wright出生在威斯康星州里奇兰中心。他一生设计了超过一千座建筑，但最被忽视的杰作或许不是任何一栋房子，而是嵌在房子里的光——超过四千件彩色玻璃窗。其中最广为人知的"生命之树"窗，为布法罗Darwin D. Martin House设计于1904年，每扇包含七百多片玻璃，是Wright将自然抽象为几何的极致表达。`,
+    designerBio: `Frank Lloyd Wright(1867-1959)是美国建筑史上最具影响力的建筑师。他的母亲在他出生前就决定这个孩子将成为建筑师，在他的婴儿房挂满了大教堂的版画。童年时玩的Froebel积木——那些简单的几何方块、圆柱和球体——成为他终身设计语言的原点。
+
+1887年Wright来到芝加哥，进入Louis Sullivan的事务所。Sullivan是"形式追随功能"的倡导者，但Wright从一开始就在思考更激进的命题：形式、功能和自然可以是同一件事吗？1893年独立开业后，他用二十年时间在中西部草原上回答了这个问题——Prairie Style由此诞生。
+
+但Wright对"有机建筑"的理解从来不止于建筑本身。他认为墙壁、天花板、家具、灯具、地毯乃至窗户上的玻璃图案都应该是一个整体——建筑不是容器，而是一个完整的有机体。这种执念让他成为艺术玻璃设计领域最多产也最具突破性的建筑师。`,
+    story: `1903年，布法罗肥皂业巨头Darwin D. Martin委托Wright设计一座住宅。Wright交付的不只是一栋房子，而是一整个建筑综合体——主宅、附属建筑、花房、马厩通过有顶连廊串联，共包含394件Wright亲自设计的艺术玻璃，涵盖16种不同图案。这是Wright职业生涯中规模最大的住宅项目，也是他艺术玻璃设计的巅峰。
+
+**"生命之树"是其中最精妙的一扇。** 对角线"枝干"从底部的方形"花盆"向上延伸，终止于V形的彩色"叶片"——绿色、金色、橙色的虹彩玻璃在日光中闪烁。整个构图严格对称，却在透光时呈现出有机的呼吸感。七百多片主要是透明的玻璃被黄铜条框架(cames)连接，让窗户在过滤光线的同时保持对室外景观的通透视野。
+
+Wright对这些窗户有一个精确的定义：**"光幕"(light screens)**。他拒绝使用"彩色玻璃窗"这个传统术语，因为那暗示了教堂式的不透明叙事画面。Wright的窗户不讲故事，它们做的事更根本——重新定义光线进入空间的方式。每片玻璃的角度、颜色和透明度都经过计算，让阳光在一天的不同时刻在室内投射出不断变化的光影图案。
+
+**这背后有一个激进的设计哲学。** Wright认为传统窗帘和百叶窗是对建筑的背叛——它们用布料遮挡了建筑师精心设计的开口。艺术玻璃是他的解决方案：既提供隐私，又不阻断光线和视野，同时将装饰直接融入建筑结构。窗户不再是墙上的洞，而是光的乐器。`,
+    legacy: `• Martin House的394件艺术玻璃是Wright作品中数量最多、图案最丰富的单一项目，被建筑界视为Prairie Style装饰艺术的百科全书
+• "生命之树"窗被Princeton大学艺术博物馆、Corning玻璃博物馆、Chazen艺术博物馆等多家顶级机构收藏
+• Wright一生设计了超过4000件艺术玻璃，跨越Prairie Style到Usonian时期，影响了从Art Deco到Mid-Century Modern的装饰艺术发展
+• Martin House在2007年经历了1.5亿美元的修复工程，其中艺术玻璃的复原是核心工程之一
+• "生命之树"图案至今仍是Frank Lloyd Wright基金会最畅销的授权设计，被应用于家居、饰品和纺织品`,
+    significance: `Wright的艺术玻璃回答了一个被忽视了几百年的设计问题：窗户可以既是结构的一部分，又是艺术作品吗？在他之前，彩色玻璃属于教堂，平板玻璃属于住宅，两者泾渭分明。Wright发明了第三条路——用抽象几何图案创造"光幕"，让窗户同时承担采光、装饰、隐私和建筑表达四重功能。他证明了装饰不是加在建筑表面的东西，而是建筑本身不可分割的器官。这个理念在一个世纪后的参数化立面设计和智能玻璃技术中找到了回响。`,
+
+    dateConnection_en: `On June 8, 1867, Frank Lloyd Wright was born in Richland Center, Wisconsin. Over his career he designed more than a thousand buildings, but his most overlooked masterpieces may not be any single structure — they are the light embedded within them: over four thousand pieces of art glass. The most celebrated of these, the "Tree of Life" window designed in 1904 for the Darwin D. Martin House in Buffalo, contains more than seven hundred glass pieces in each panel — Wright's ultimate expression of abstracting nature into geometry.`,
+    designerBio_en: `Frank Lloyd Wright (1867–1959) was the most influential architect in American history. His mother decided before his birth that the child would become an architect, hanging prints of cathedrals in his nursery. The Froebel blocks he played with as a child — simple geometric cubes, cylinders, and spheres — became the origin point of his lifelong design language.
+
+In 1887 Wright arrived in Chicago and joined Louis Sullivan's firm. Sullivan championed "form follows function," but Wright was already thinking about a more radical proposition: could form, function, and nature be the same thing? After opening his own practice in 1893, he spent two decades answering that question across the Midwestern prairie — and the Prairie Style was born.
+
+But Wright's understanding of "organic architecture" never stopped at the building itself. He believed that walls, ceilings, furniture, lighting fixtures, carpets, and even the glass patterns in windows should form a unified whole — a building was not a container but a complete organism. This obsession made him the most prolific and groundbreaking architect-designer of art glass in history.`,
+    story_en: `In 1903, Buffalo soap magnate Darwin D. Martin commissioned Wright to design a residence. What Wright delivered was not just a house but an entire architectural complex — the main residence, auxiliary buildings, conservatory, and stable connected by covered walkways, containing 394 pieces of Wright-designed art glass in 16 distinct patterns. It was the largest residential project of Wright's career and the summit of his art glass design.
+
+**The "Tree of Life" is the most exquisite of them all.** Diagonal "branches" extend upward from a square "planter" at the base, terminating in V-shaped colored "leaves" — iridescent glass in green, gold, and orange shimmering in daylight. The composition is rigorously symmetrical, yet when backlit it breathes with organic life. More than seven hundred pieces of predominantly clear glass are joined by brass cames, allowing the window to filter light while maintaining transparency to the landscape beyond.
+
+Wright had a precise term for these windows: **"light screens."** He refused to use the traditional phrase "stained glass window" because it implied the opaque narrative imagery of churches. Wright's windows don't tell stories; what they do is more fundamental — they redefine how light enters a space. The angle, color, and opacity of each glass piece was calculated so that sunlight would cast continuously shifting patterns of light and shadow throughout the day.
+
+**Behind this lay a radical design philosophy.** Wright believed that traditional curtains and blinds betrayed architecture — they used fabric to block openings the architect had carefully designed. Art glass was his solution: providing privacy without blocking light or views, while integrating ornament directly into architectural structure. The window was no longer a hole in the wall; it became an instrument of light.`,
+    legacy_en: `• The Martin House's 394 art glass pieces — the largest and most pattern-rich single project in Wright's oeuvre — are regarded by the architectural community as an encyclopedia of Prairie Style decorative art
+• "Tree of Life" windows are held in the collections of Princeton University Art Museum, Corning Museum of Glass, Chazen Museum of Art, and other leading institutions
+• Over his lifetime Wright designed more than 4,000 pieces of art glass, spanning from Prairie Style through the Usonian period, influencing decorative art development from Art Deco to Mid-Century Modern
+• The Martin House underwent a $150 million restoration beginning in 2007, with art glass conservation as one of its core undertakings
+• The "Tree of Life" pattern remains the Frank Lloyd Wright Foundation's best-selling licensed design, applied to home goods, accessories, and textiles`,
+    significance_en: `Wright's art glass answered a design question overlooked for centuries: can a window be both a structural element and a work of art? Before him, stained glass belonged to churches and plate glass to houses — the two worlds never met. Wright invented a third path: using abstract geometric patterns to create "light screens" that simultaneously served four functions — illumination, decoration, privacy, and architectural expression. He proved that ornament was not something applied to a building's surface but an inseparable organ of the building itself. This idea found its echo a century later in parametric facade design and smart glass technology.`,
+  },
+
 ]
