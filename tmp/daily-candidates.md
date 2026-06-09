@@ -1,15 +1,18 @@
-# Daily Object 候选 06-08
+# Daily Object 候选 06-09
 
-候选1: Frank Lloyd Wright Tree of Life Window (1904) — 关联类型: 🎂 设计师生日
-  知名度: 4/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 24/25
-  备注: FLW 最著名的彩色玻璃设计，Darwin D. Martin House 的 Tree of Life 窗。归类 art 而非 architecture，与昨天 Casa Batlló 不同分类。FLW 6/8 生日关联极强。MoMA/Corning Museum 等均有收藏。图片极佳——几何抽象彩色玻璃，视觉冲击力强。已用过 FLW 的 Fallingwater (04-09)，但这是完全不同的作品领域。
+近3天分类: 06-08 art | 06-07 architecture | 06-06 graphic
+需避免: art, architecture, graphic → 优先 industrial, music, fashion, film, software
 
-候选2: Yeezy Boost 350 (2015) — 关联类型: 🎂 Kanye West 生日
-  知名度: 5/5 | 图片: 5/5 | 故事: 4/5 | 视觉: 4/5 | 分类多样性: 3/5 | 时代加权: 0 | 总分: 21/25
-  备注: Kanye West 6/8 生日。Yeezy 改变了球鞋设计和时尚产业。但 06-03 已有 fashion (Zoot Suit)，3天内重复扣分。且 Kanye 争议较大，不太适合设计日历的调性。归为 industrial 可避免 fashion 重复但勉强。
+候选1: Gibson Les Paul (1952) — [关联类型: 🎂 设计师/发明者 Les Paul 生日 (1915-06-09)]
+  知名度: 5/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 25/25
+  说明: 世界上最具标志性的电吉他，摇滚史上的核心乐器。Les Paul 1915年6月9日出生。Gibson Les Paul 1952年面世，Jimmy Page、Slash、Eric Clapton 等传奇吉他手标志性乐器。知名度无可匹敌，官方产品照丰富，故事极其传奇（从"The Log"到改变音乐史），视觉冲击力强（金色琴身经典造型）。可归类 industrial（乐器工业设计）或 music。
 
-候选3: Robie House (1910) — 关联类型: 🎂 FLW 设计师生日
-  知名度: 4/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 1/5 | 时代加权: 0 | 总分: 20/25
-  备注: FLW Prairie Style 巅峰之作，建筑史教科书级。但昨天 06-07 就是 architecture (Casa Batlló)，连续 2 天 architecture，分类多样性 1 分。
+候选2: Ossie Clark Crepe Dress (1960s-70s) — [关联类型: 🎂 设计师生日 (1942-06-09)]
+  知名度: 3/5 | 图片: 4/5 | 故事: 4/5 | 视觉: 4/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 20/25
+  说明: 英国 Swinging Sixties 标志性时装设计师，与 Celia Birtwell 合作的印花连衣裙是60年代伦敦时尚的代名词。Mick Jagger、Kate Moss 都穿过。知名度在设计圈内不错但非大众级别，中文资料有限。fashion 分类与近期不重复。
 
-→ 选择: 候选1 Frank Lloyd Wright Tree of Life Window（原因：总分最高 24/25，FLW 生日关联极强，art 分类避免与昨天 architecture 重复，彩色玻璃视觉冲击力极强，故事性极佳——FLW 将自然几何化的装饰艺术哲学。且已用过的 FLW 是 Fallingwater/建筑，这次是装饰艺术/玻璃设计，完全不同维度）
+候选3: Cole Porter (音乐) — [关联类型: 🎂 作曲家生日 (1891-06-09)]
+  知名度: 4/5 | 图片: 3/5 | 故事: 4/5 | 视觉: 3/5 | 分类多样性: 5/5 | 时代加权: -3 | 总分: 16/25
+  说明: 伟大的美国作曲家，但1891年出生，属于1950年前作品，-3分惩罚。且与"设计"关联偏弱。
+
+→ 选择: 候选1 Gibson Les Paul（原因：满分25分，知名度+故事性+视觉全满分，Les Paul 1915年6月9日出生，Gibson Les Paul 是1952年后的产品，不触发时代惩罚。分类 industrial 与近3天完全不重复。这是设计日历里最完美的工业设计候选之一——一把改变了音乐史的乐器。）
