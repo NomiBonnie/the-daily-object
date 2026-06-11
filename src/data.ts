@@ -8613,4 +8613,55 @@ The 1957 revision introduced humbucker pickups — co-designed by Les Paul — w
 • The Rock and Roll Hall of Fame calls him "the man who made rock and roll possible"`,
     significance_en: `The Gibson Les Paul answered a question so simple that nobody had seriously asked it: why does a guitar have to be hollow? That seemingly foolish question triggered the most important materials revolution in instrument design history. The solid body eliminated feedback, increased sustain, and expanded tonal possibilities — from Clapton's blues wail to Page's wall of distortion to Slash's hard rock roar, one guitar carried half a century of rock sound. Les Paul proved that the best design often comes from the user — a musician with an obsessive pursuit of sound made a more consequential design decision than every guitar factory engineer combined.`,
   },
+  {
+    id: '161',
+    date: '2026-06-11',
+    imageUrl: '/the-daily-object/images/et-extra-terrestrial.jpg',
+    fullImageUrl: '/the-daily-object/images/full/et-extra-terrestrial.jpg',
+    title: 'E.T.',
+    title_en: 'E.T. the Extra-Terrestrial',
+    subtitle: 'Carlo Rambaldi, 1982',
+    subtitle_en: 'Carlo Rambaldi, 1982',
+    category: 'film' as const,
+    designer: 'Carlo Rambaldi',
+    year: '1982',
+    tags: ['改写了电影角色设计', '机械特效的巅峰', '让全世界为一个木偶流泪'],
+    tags_en: ['Redefined Character Design in Film', 'Pinnacle of Animatronic Art', 'Made the World Cry for a Puppet'],
+
+    dateConnection: `1982年6月11日，Steven Spielberg执导的《E.T. the Extra-Terrestrial》在北美上映。这部电影登顶全球票房冠军长达十一年，但它最深远的遗产不是数字——而是一个由意大利特效大师Carlo Rambaldi从黏土中捏出来的外星人。Rambaldi用四个全尺寸机械模型、超过一百个独立可动部件，让这个「不是怪物」的生物成为影史上最令人心碎的角色。`,
+    designerBio: `Carlo Rambaldi 1925年出生于意大利艾米利亚-罗马涅的维加拉诺，在博洛尼亚美术学院学习绘画时迷上了电机工程和人体骨骼肌肉结构。这种艺术与机械的双重训练成就了他独特的创作方式：每个角色都从解剖学草图开始，然后像文艺复兴工匠一样亲手制造每一个关节和肌腱。
+
+他职业生涯横跨意大利和好莱坞，为Mario Bava、Federico Fellini到Dario Argento等导演创造过无数生物。1976年他因《金刚》获得奥斯卡特别成就奖，1979年为Ridley Scott的《异形》设计了那颗令人窒息的异形头部——又一座奥斯卡。但真正让他名留影史的，是1981年那个从棕色纸袋里掏出来递给Spielberg的小绿色生物。三座奥斯卡，三个截然不同的角色，三次证明最好的特效不是让你害怕，而是让你相信。`,
+    story: `Spielberg心中的E.T.源自童年。父母离婚后，年幼的他创造了一个想象中的朋友——一个来自外太空的访客。当他决定把这份孤独拍成电影时，面临一个几乎不可能的设计挑战：创造一个外星人，它不能像怪物，不能太可爱以至于像迪士尼，不能太古怪以至于吓到孩子。它必须让一个十岁男孩愿意把它藏在自己的衣橱里。
+
+Spielberg最初找了Stan Winston，Winston做了一个有趣的设计，但Spielberg觉得在「购物」。他同时找了Rambaldi。Spielberg递给Rambaldi几张草图和三个人的照片——爱因斯坦、海明威和卡尔·桑德堡——说：「我想让它的眼睛像这三个老人一样睿智而悲伤。」
+
+Rambaldi在黏土上工作了数周。Spielberg站在旁边反复指导：「太吓人了」「太可爱了」「太迪士尼了」「太甜了」。经过无数次推倒重来，一个生物终于从黏土中浮现——桶状胸腔、矮胖短腿、不成比例的大脑袋、嵌着深邃蓝眼睛的厚重褶皱眉弓、以及一根会发光的手指。
+
+**Rambaldi制造了四个全尺寸工作模型。** 最复杂的一个内含八十五个独立运动点，需要十二名操作员同时控制——三人负责面部表情，两人操控手臂，其余人管理躯干和眼球运动。E.T.的每一次眨眼、每一个微笑、每一滴眼泪都不是后期特效，而是真实的机械运动，在摄像机前与童演员实时互动。
+
+制作团队遵守一条铁律：**「E.T.不是怪物。」** 这句话决定了一切设计决策。Rambaldi赋予E.T.的每一条皱纹都有目的——不是为了制造恐怖谷效应，而是为了传达年龄与智慧。那些深陷的眼窝让E.T.看起来古老而善良。那根发光的手指成为影史上最具辨识度的视觉符号之一，是设计师对「触摸即连接」这一人类本能最精妙的具象化。`,
+    legacy: `E.T.的角色设计彻底重新定义了好莱坞对非人类角色的理解。在它之前，电影中的外星生物要么是恐怖的怪物（《异形》），要么是穿着橡胶服的人类替身。Rambaldi证明，一个由聚氨酯泡沫、钢骨架和液压管组成的机械木偶可以比真人演员更令人动容。
+
+E.T.对后来的角色设计产生了直接影响：WALL-E的大眼睛、Baby Yoda（Grogu）的笨拙体态和睿智眼神，都能追溯到Rambaldi那个「不是怪物」的设计原则。E.T.还证明了一个设计真理——最好的角色设计不是让观众说「做得真逼真」，而是让他们忘记面前是一堆机械零件，直接开始流泪。`,
+    significance: `Rambaldi的E.T.处在电影特效史的关键转折点上。它是实体特效（practical effects）黄金时代的巅峰之作，用纯粹的机械工程和手工艺术创造了一个有灵魂的角色。十一年后，同样在6月11日上映的Spielberg另一部电影《侏罗纪公园》将开启CGI时代，数字恐龙逐渐取代机械木偶。但即便在AI生成角色的今天，E.T.仍然让人们相信：有些东西只有人的双手才能创造——不是精度，而是温度。`,
+
+    dateConnection_en: `On June 11, 1982, Steven Spielberg's E.T. the Extra-Terrestrial opened in American theaters. The film held the worldwide box office record for eleven years, but its most enduring legacy isn't a number — it's an alien that Italian special effects master Carlo Rambaldi sculpted from clay. Using four full-scale mechanical models with over a hundred independently movable parts, Rambaldi made this "not a monster" creature the most emotionally devastating character in film history.`,
+    designerBio_en: `Carlo Rambaldi was born in 1925 in Vigarano Mainarda, in Italy's Emilia-Romagna region. While studying painting at the Bologna Academy of Fine Arts, he became fascinated with electromechanics and the skeletal-muscular structure of the human body. This dual training in art and engineering defined his unique creative method: every character began with anatomical sketches, then was built by hand like a Renaissance artisan crafting joints and tendons.
+
+His career spanned Italian auteur cinema and Hollywood, creating creatures for directors from Mario Bava and Federico Fellini to Dario Argento. In 1976, his work on King Kong earned him a Special Achievement Academy Award. In 1979, he designed the suffocating alien head for Ridley Scott's Alien — another Oscar. But what truly cemented his place in film history was a small green creature he pulled from a brown paper bag for Spielberg in January 1981. Three Oscars, three radically different characters, three proofs that the best special effects don't frighten you — they make you believe.`,
+    story_en: `Spielberg's E.T. was born from childhood loneliness. After his parents' divorce, the young Spielberg invented an imaginary friend — a visitor from outer space. When he decided to turn that loneliness into a film, he faced a nearly impossible design challenge: create an alien that couldn't look like a monster, couldn't be so cute it felt like Disney, couldn't be so bizarre it frightened children. It had to be something a ten-year-old boy would willingly hide in his closet.
+
+Spielberg first approached Stan Winston, who produced an interesting design, but Spielberg felt he was still "shopping." He simultaneously went to Rambaldi. Spielberg handed Rambaldi several sketches and photographs of three men — Einstein, Hemingway, and Carl Sandburg — and said: "I want his eyes to be as wizened and as sad as those three icons."
+
+Rambaldi worked in clay for weeks. Spielberg stood beside him, offering constant feedback: "Too scary." "Too cute." "Too Disney." "Too sweet." After countless iterations, a creature finally emerged from the clay — barrel chest, stubby legs, an oversized head, deep-set blue eyes beneath heavy, wrinkled brows, and one finger that glowed.
+
+**Rambaldi built four full-scale working models.** The most complex contained eighty-five independent points of movement and required twelve operators working simultaneously — three controlling facial expressions, two handling arms, the rest managing torso and eye movements. Every blink, every smile, every tear from E.T. was real mechanical motion, performed in real time opposite child actors in front of the camera.
+
+The production team followed one iron rule: **"E.T. is not a monster."** That single sentence drove every design decision. Every wrinkle Rambaldi gave E.T. served a purpose — not to create uncanny valley horror, but to convey age and wisdom. Those deep eye sockets made E.T. look ancient and kind. The glowing finger became one of the most recognizable visual symbols in cinema history — the designer's most elegant embodiment of "touch as connection," a fundamental human instinct.`,
+    legacy_en: `E.T.'s character design fundamentally redefined Hollywood's understanding of non-human characters. Before it, cinematic aliens were either terrifying monsters (Alien) or humans in rubber suits. Rambaldi proved that a mechanical puppet made of polyurethane foam, steel armatures, and hydraulic tubing could be more emotionally moving than a human actor.
+
+E.T. directly influenced subsequent character design: WALL-E's oversized eyes, Baby Yoda's clumsy proportions and wise gaze can all be traced back to Rambaldi's "not a monster" design principle. E.T. also proved a fundamental design truth — the best character design doesn't make audiences say "that looks so real," it makes them forget they're looking at a pile of mechanical parts and start crying.`,
+    significance_en: `Rambaldi's E.T. stands at a pivotal turning point in visual effects history. It was the crowning achievement of the practical effects golden age, creating a character with a soul through pure mechanical engineering and handcraft. Eleven years later, also on June 11, Spielberg's Jurassic Park would usher in the CGI era, with digital dinosaurs gradually replacing mechanical puppets. Yet even in today's age of AI-generated characters, E.T. still makes people believe: some things can only be created by human hands — not precision, but warmth.`,
+  },
 ]
