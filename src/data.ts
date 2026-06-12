@@ -8664,4 +8664,57 @@ The production team followed one iron rule: **"E.T. is not a monster."** That si
 E.T. directly influenced subsequent character design: WALL-E's oversized eyes, Baby Yoda's clumsy proportions and wise gaze can all be traced back to Rambaldi's "not a monster" design principle. E.T. also proved a fundamental design truth — the best character design doesn't make audiences say "that looks so real," it makes them forget they're looking at a pile of mechanical parts and start crying.`,
     significance_en: `Rambaldi's E.T. stands at a pivotal turning point in visual effects history. It was the crowning achievement of the practical effects golden age, creating a character with a soul through pure mechanical engineering and handcraft. Eleven years later, also on June 11, Spielberg's Jurassic Park would usher in the CGI era, with digital dinosaurs gradually replacing mechanical puppets. Yet even in today's age of AI-generated characters, E.T. still makes people believe: some things can only be created by human hands — not precision, but warmth.`,
   },
+  {
+    id: '145',
+    date: '2026-06-12',
+    imageUrl: '/the-daily-object/images/brooklyn-bridge.jpg',
+    fullImageUrl: '/the-daily-object/images/full/brooklyn-bridge.jpg',
+    title: '布鲁克林大桥',
+    title_en: 'Brooklyn Bridge',
+    subtitle: 'John A. Roebling, 1883',
+    subtitle_en: 'John A. Roebling, 1883',
+    category: 'architecture' as const,
+    designer: 'John Augustus Roebling',
+    year: '1883',
+    tags: ['悬索桥工程先驱', '哥特复兴与钢铁融合', '三代人接力完成'],
+    tags_en: ['Suspension Bridge Pioneer', 'Gothic Revival Meets Steel', 'Three Generations, One Bridge'],
+
+    dateConnection: `1806年6月12日，Johann August Röbling出生于普鲁士米尔豪森。三十年后他移民美国，改名John Roebling，用钢丝绳和哥特式石塔重新定义了人类跨越河流的方式。布鲁克林大桥是他毕生工程理想的结晶，也成了他生命的终章。`,
+    designerBio: `Roebling在柏林皇家建筑学院受训，师从哲学家黑格尔，同时学习工程与桥梁设计。1831年移民宾夕法尼亚后，他发现美国运河系统使用的大麻绳经常断裂，于是发明了钢丝绳——这项技术后来成为所有现代悬索桥的基础。
+
+他在1844年建造了第一座钢丝绳悬索桥（横跨阿勒格尼河），此后一座比一座大胆。1855年完工的尼亚加拉大瀑布铁路悬索桥证明悬索结构可以承载火车，颠覆了当时工程界的共识。1866年完工的辛辛那提-科文顿桥成为当时世界最长悬索桥，也是布鲁克林大桥的直接预演。`,
+    story: `1867年，Roebling提出了一个疯狂的构想：在纽约东河上建一座跨度486米的大桥，比当时世界上任何桥梁都长50%以上。纽约和布鲁克林（当时还是独立城市）之间的东河冬天会结冰，渡轮经常停运，两岸居民深受其苦。
+
+**设计方案的核心是那两座哥特复兴风格的石灰岩塔楼。** 每座高84米，建成时是西半球最高的人造结构。Roebling没有选择当时流行的铸铁塔，而是坚持用石材——他相信石头的永恒感能让人们信任这座桥。尖拱门的造型直接借鉴了中世纪大教堂，让一座工程结构获得了纪念碑式的庄严。
+
+悲剧从一开始就笼罩着这个项目。**1869年，Roebling在勘测现场被渡轮撞伤脚趾，三周后死于破伤风。** 他的儿子Washington Roebling接手，但在监督水下地基施工时患上了严重的减压病（潜水病），从此瘫痪在床。此后十一年，Washington只能通过望远镜从布鲁克林高地公寓的窗口观察工地，由妻子**Emily Warren Roebling**每天往返于公寓和工地之间传递指令。
+
+Emily不仅是信使，她自学了高等数学、材料力学和索缆工程，实质上成为了现场总工程师。1883年5月24日大桥通车时，Emily是第一个驾马车过桥的人。一座桥，三个Roebling，父亲画了蓝图，儿子在病床上指挥，儿媳把它建成了现实。`,
+    legacy: `• 建成时是世界上跨度最长的悬索桥，保持纪录近二十年
+• 首次大规模使用钢丝缆索（而非铁链），奠定了所有现代悬索桥的技术范式
+• 哥特复兴石塔与钢缆的结合开创了「工程即建筑」的设计哲学
+• 直接促成了1898年纽约五区合并——桥连接了曼哈顿和布鲁克林，让统一成为必然
+• 成为美国工业时代最重要的视觉符号之一，与自由女神像齐名
+• Emily Warren Roebling的角色是工程史上女性突破专业壁垒的里程碑`,
+    significance: `布鲁克林大桥证明了一个事实：伟大的工程可以同时是伟大的建筑。Roebling没有把桥当成纯粹的功能结构来设计，他赋予它教堂般的尊严。那些哥特尖拱不是装饰，是宣言——它们告诉每一个走上桥面的人，你正在穿越的不只是一条河，而是一个时代的门槛。一百四十多年后，这座桥依然是纽约天际线上最令人屏息的存在。`,
+
+    dateConnection_en: `On June 12, 1806, Johann August Röbling was born in Mühlhausen, Prussia. Three decades later he emigrated to America, renamed himself John Roebling, and redefined how humanity crosses rivers — with steel wire rope and Gothic stone towers. The Brooklyn Bridge was the crystallization of his lifelong engineering ideals, and it became the final chapter of his life.`,
+    designerBio_en: `Roebling trained at the Royal Building Academy in Berlin, studying under philosopher Hegel while learning engineering and bridge design. After emigrating to Pennsylvania in 1831, he noticed that the hemp ropes used in America's canal system frequently snapped, so he invented wire rope — a technology that would become the foundation of every modern suspension bridge.
+
+He built his first wire-rope suspension bridge in 1844 (spanning the Allegheny River), and each subsequent bridge grew bolder. His 1855 Niagara Falls Railway Suspension Bridge proved that suspension structures could carry trains, overturning the engineering consensus of the era. His 1866 Cincinnati-Covington Bridge became the world's longest suspension bridge and served as a direct rehearsal for Brooklyn.`,
+    story_en: `In 1867, Roebling proposed an audacious vision: a bridge spanning 486 meters across New York's East River, more than 50% longer than any bridge in the world. The East River between New York and Brooklyn (then an independent city) froze in winter, frequently halting ferry service and stranding residents on both shores.
+
+**The design's centerpiece was the pair of Gothic Revival limestone towers.** Each stood 84 meters tall, making them the tallest man-made structures in the Western Hemisphere at the time of completion. Roebling rejected the fashionable cast-iron towers of the era, insisting on stone — he believed the permanence of masonry would earn public trust. The pointed arches drew directly from medieval cathedrals, giving an engineering structure the solemnity of a monument.
+
+Tragedy shadowed the project from the start. **In 1869, Roebling's foot was crushed by a ferry while surveying the site; he died of tetanus three weeks later.** His son Washington Roebling took over, but while supervising underwater foundation work he developed severe decompression sickness ("the bends"), leaving him bedridden. For the next eleven years, Washington could only observe the construction site through a telescope from his Brooklyn Heights apartment window, while his wife **Emily Warren Roebling** carried instructions back and forth between the apartment and the work site each day.
+
+Emily was far more than a messenger. She taught herself advanced mathematics, materials science, and cable engineering, effectively becoming the on-site chief engineer. When the bridge opened on May 24, 1883, Emily was the first person to cross it by carriage. One bridge, three Roeblings: the father drew the blueprint, the son directed from his sickbed, and the daughter-in-law built it into reality.`,
+    legacy_en: `• The world's longest-span suspension bridge upon completion, holding the record for nearly twenty years
+• First large-scale use of steel wire cables (rather than iron chains), establishing the technical paradigm for all modern suspension bridges
+• The fusion of Gothic Revival stone towers with steel cables pioneered the "engineering as architecture" design philosophy
+• Directly catalyzed the 1898 consolidation of New York City's five boroughs — the bridge connected Manhattan and Brooklyn, making unification inevitable
+• Became one of the most important visual symbols of America's industrial age, rivaling the Statue of Liberty
+• Emily Warren Roebling's role stands as a milestone for women breaking professional barriers in engineering history`,
+    significance_en: `The Brooklyn Bridge proved that great engineering can simultaneously be great architecture. Roebling didn't design the bridge as a purely functional structure — he gave it the dignity of a cathedral. Those Gothic pointed arches aren't decoration; they're a declaration — telling everyone who steps onto the bridge deck that they're crossing not just a river, but the threshold of an era. More than 140 years later, this bridge remains the most breathtaking presence on the New York skyline.`,
+  },
 ]
