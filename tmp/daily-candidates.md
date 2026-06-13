@@ -1,15 +1,18 @@
-# Daily Object 候选 06-12
+# Daily Object 候选 06-13
 
-候选1: Brooklyn Bridge (1883) — [关联类型: 🎂 设计师 John Roebling 生日 (June 12, 1806)]
+最近3天分类：industrial (06-09) → film (06-11) → architecture (06-12)
+最近3天关联类型：产品发布 → 电影上映 → 设计师生日
+
+候选1: Wrapped Reichstag (1995) — Christo & Jeanne-Claude — [关联类型: 设计师生日 (两人均生于1935年6月13日)]
   知名度: 5/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 25/25
-  备注: 世界级地标，所有人都认识。虽然 1883 完工（pre-1950），但 Brooklyn Bridge 是极少数"现代人一眼认得 + 设计史必修 + 影响力跨越时代至今"的作品，豁免 -3 惩罚。Roebling 的故事极其传奇（设计师本人因事故去世，儿子和儿媳接力完成）。最近 3 天 category 无 architecture。
+  说明: Christo和Jeanne-Claude是世界级艺术家，Wrapped Reichstag是当代最具标志性的大地艺术/装置作品之一。两人同年同月同日生（1935-06-13），故事极具传奇性。500万人现场观看。图片资源丰富——银色织物包裹德国国会大厦的画面极具视觉冲击力。category=art，与最近3天都不重复。
 
-候选2: Bill Blass 时装 (1970s-2000s) — [关联类型: ⚰️ 设计师逝世 (June 12, 2002)]
-  知名度: 3/5 | 图片: 3/5 | 故事: 3/5 | 视觉: 3/5 | 分类多样性: 4/5 | 时代加权: 0 | 总分: 16/25
-  备注: 美国时尚界重要人物，但国际知名度有限，中文互联网几乎不提。图片多为人物肖像或秀场照，作品本身视觉冲击力一般。
+候选2: Emilio Ambasz 绿色建筑 (ACROS Fukuoka) — [关联类型: 设计师生日 (1943年6月13日)]
+  知名度: 3/5 | 图片: 4/5 | 故事: 3/5 | 视觉: 4/5 | 分类多样性: 3/5 | 时代加权: 0 | 总分: 17/25
+  说明: MoMA设计策展人、绿色建筑先驱，ACROS福冈很有视觉冲击力，但知名度偏专业圈。category=architecture会与06-12重复。
 
-候选3: JFK Presidential Library (1979) — [关联类型: 🏛️ 奠基仪式 (June 12, 1977)]
-  知名度: 3/5 | 图片: 4/5 | 故事: 3/5 | 视觉: 3/5 | 分类多样性: 3/5 | 时代加权: 0 | 总分: 16/25
-  备注: I.M. Pei 设计，但贝聿铭已经在 05-16 用过（Louvre Pyramid）。建筑本身不如卢浮宫金字塔或 Brooklyn Bridge 那样一眼惊艳。architecture 在 06-07 出现过。
+候选3: Joseph Stella — Battle of Lights, Coney Island (1913) — [关联类型: 设计师生日 (1877年6月13日)]
+  知名度: 3/5 | 图片: 4/5 | 故事: 3/5 | 视觉: 4/5 | 分类多样性: 5/5 | 时代加权: -3 | 总分: 16/25
+  说明: 意大利裔美国未来主义画家，Brooklyn Bridge系列很美，但1877年出生属于1950前时代惩罚。在设计圈的知名度不如在纯艺术圈。
 
-→ 选择: 候选1 Brooklyn Bridge（原因：满分候选。世界最知名的桥梁之一，设计史教科书级别。Roebling 家族三代接力建桥的故事极富戏剧性。视觉上 Brooklyn Bridge 无论日景夜景都极其壮美。category=architecture 与最近 3 天（film/industrial/art）完全不同。日期关联确凿——John Roebling 1806年6月12日生于普鲁士。）
+→ 选择: 候选1 Wrapped Reichstag（原因：满分25分，全维度最优。Christo & Jeanne-Claude同年同日生本身就是传奇故事，Wrapped Reichstag是20世纪最具影响力的公共艺术/装置之一，视觉冲击力极强，图片资源丰富，category=art与近3天都不重复）

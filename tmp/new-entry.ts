@@ -1,59 +1,61 @@
   {
-    id: '132',
-    date: '2026-05-12',
-    imageUrl: '/the-daily-object/images/giger-alien-xenomorph.jpg',
-    fullImageUrl: '/the-daily-object/images/full/giger-alien-xenomorph.jpg',
-    title: 'Alien Xenomorph',
-    title_en: 'Alien Xenomorph',
-    subtitle: 'H.R. Giger, 1978',
-    subtitle_en: 'H.R. Giger, 1978',
-    category: 'film' as const,
-    designer: 'H.R. Giger',
-    year: '1978',
-    tags: ['改变了科幻美学', '生物机械设计先驱', '奥斯卡视觉特效'],
-    tags_en: ['Redefined Sci-Fi Aesthetics', 'Biomechanical Design Pioneer', 'Oscar-Winning Visual FX'],
+    id: '162',
+    date: '2026-06-13',
+    imageUrl: '/the-daily-object/images/wrapped-reichstag.jpg',
+    fullImageUrl: '/the-daily-object/images/full/wrapped-reichstag.jpg',
+    title: '包裹国会大厦',
+    title_en: 'Wrapped Reichstag',
+    subtitle: 'Christo & Jeanne-Claude, 1995',
+    subtitle_en: 'Christo & Jeanne-Claude, 1995',
+    category: 'art' as const,
+    designer: 'Christo & Jeanne-Claude',
+    year: '1995',
+    tags: ['大地艺术先驱', '用消失重新定义存在', '五百万人的集体凝视'],
+    tags_en: ['Land Art Pioneers', 'Redefining Presence Through Absence', 'Five Million Witnesses'],
 
-    dateConnection: `2014年5月12日，H.R. Giger 在瑞士苏黎世因跌倒受伤去世，享年74岁。这位将噩梦变成艺术、将艺术变成电影工业标准的瑞士超现实主义者，用一个生物彻底改写了人类对"恐怖"的视觉想象。他为雷德利·斯科特 1979 年电影《异形》设计的 Xenomorph，至今仍是银幕上最令人不安、最具辨识度的生物造型。`,
+    dateConnection: `1935年6月13日，Christo Vladimirov Javacheff出生在保加利亚加布罗沃，同一天，Jeanne-Claude Denat de Guillebon出生在摩洛哥卡萨布兰卡。同年同月同日，一个在巴尔干半岛，一个在北非海岸。二十三年后他们在巴黎相遇，从此合为一体——不是浪漫的修辞，而是字面意义上的：他们的每一件作品都署两个名字，每一个决定都需要两个人同意。`,
+    designerBio: `Christo在保加利亚社会主义体制下接受了严格的学院派美术训练。1956年他逃离保加利亚，先到布拉格，再辗转维也纳，最终在1958年抵达巴黎。在那里他开始用布料包裹日常物品——罐头、瓶子、椅子——仿佛要把世界重新打包一次。
 
-    designerBio: `Hans Ruedi Giger（1940-2014）出生于瑞士库尔，父亲是药剂师，希望儿子继承家业。但 Giger 从小就被黑暗吸引——他童年收到的一件礼物是一个真人头骨，他把它当成了最珍贵的玩具。
+同年他受委托为一位法国军官的妻子画肖像。那位妻子就是Jeanne-Claude。她是将军的女儿，红发、脾气火爆、极度有主见。他们很快坠入爱河，然后用了此后的五十年证明：艺术可以是两个人的事。
 
-他在苏黎世应用艺术学院学习工业设计和建筑，但很快转向了自由艺术创作。1960年代末，他开始用喷枪在大尺幅画布上创作，发展出一种前所未有的视觉语言——"生物机械"（Biomechanics）：有机的肉体与冰冷的机械零件无缝融合，管道像血管一样蜿蜒，骨骼与金属铰链交织。这不是科幻插画，而是从潜意识深处涌出的噩梦图景，带着弗洛伊德式的性暗示和存在主义的恐惧。
+Jeanne-Claude负责所有项目的组织、谈判和后勤——她曾开玩笑说自己的艺术媒介是"电话和人"。Christo负责视觉构想和制作。他们拒绝一切赞助、补贴和委托，所有项目完全自费，靠出售Christo的手稿和拼贴画筹资。这意味着每一件作品从构想到实现，都是一场漫长的赌注。`,
+    story: `1971年，美国记者Michael Cullen写信给Christo，建议他包裹柏林国会大厦。Christo立刻被这个想法击中——这栋建筑承载了太多历史重量：魏玛共和国、1933年国会大厦纵火案、二战废墟、冷战分裂。包裹它，就是让所有这些叙事暂时消失，让人们重新"看见"它。
 
-1977年，他出版了画集《Necronomicon》，这本书改变了一切。`,
+**接下来的二十四年，Christo和Jeanne-Claude为这个项目进行了人类艺术史上最漫长的政治游说。**
 
-    story: `1977年，正在筹备科幻恐怖片的编剧 Dan O'Bannon 偶然翻到 Giger 的《Necronomicon》画集，被其中一幅名为《Necronom IV》的画作击中——一个修长、光滑、没有眼睛的人形生物，头部向后延伸成管状，身体布满管道和骨骼般的纹理。O'Bannon 立刻意识到：这就是他剧本里那个完美杀手的模样。
+他们给每一位联邦议员写信、打电话、登门拜访。六任联邦议院议长轮番更替，项目一次次被否决又一次次重启。1994年2月25日，在联邦议院第211次全体会议上，经过70分钟的辩论和记名投票，议员们终于以292票对223票通过了这个项目。这可能是历史上唯一一件需要国家议会投票批准的艺术作品。
 
-他把画集带给了导演雷德利·斯科特。斯科特翻开书的那一刻说了一句后来被反复引用的话："这就是我们的怪物。"
+1995年6月17日至24日，90名专业攀岩者和120名安装工人开始包裹这栋建筑。他们没有使用任何起重机。100,000平方米的铝涂层聚丙烯织物（那种在阳光下会变成液态银色的材料）和15,600米蓝色聚丙烯绳索，顺着建筑的每一道轮廓垂落。织物紧贴着石头的形状，让你看见了一座你以为早已熟悉的建筑——但它变成了全新的东西。
 
-Giger 被请到了位于伦敦 Shepperton Studios 的片场。他没有只画设计图——他亲手用骨头、蛇皮、管道、树脂和金属零件雕塑了 Xenomorph 的全尺寸模型。他把一个真人的头骨嵌入了生物的透明穹顶状头部，让你隐约看到"这东西曾经可能是人"。Giger 还设计了异形卵、抱脸虫（Facehugger）和那艘弯月形的外星飞船，以及飞船内部那尊被称为"太空骑师"（Space Jockey）的巨大化石。
+**从6月24日展出到7月7日的14天里，超过500万人来到这里。** 他们在草坪上野餐、在织物的褶皱间寻找光影、在银色的映照中拍照。一栋承载了德国最沉重历史的建筑，突然变成了柏林最快乐的公共空间。统一后的德国人在这里聚集，好像这座被包裹的废墟给了他们一个重新开始的许可。`,
+    legacy: `• Wrapped Reichstag是Christo和Jeanne-Claude最广为人知的作品，被《卫报》称为他们"最伟大的杰作"
+• 14天内吸引超过500万访客，成为20世纪观看人数最多的单件艺术作品之一
+• 项目完全自费，估计成本1300万美元，全部来自Christo出售手稿和拼贴画的收入
+• 柏林墙倒塌后不久实现，成为德国统一的非官方文化象征
+• 证明了大地艺术/环境艺术可以与政治体制直接对话——需要国会投票的艺术史上只此一件
+• 他们的创作模式——完全自费、拒绝赞助、项目即过程——重新定义了当代公共艺术的可能性`,
+    significance: `Christo和Jeanne-Claude的核心理念是：艺术的本质不是物品，而是经历。Wrapped Reichstag只存在了14天，没有永久实体留下，但它改变了每一个见过它的人对空间和记忆的理解。他们用100,000平方米的布料证明了一个悖论——有时候你必须把一样东西藏起来，才能让人真正看见它。`,
 
-1979年《异形》上映，观众第一次在银幕上看到 Xenomorph 时，整个影院陷入了真正的恐慌。这不是过去那种橡胶怪兽——它太真实了，太有机了，看起来不像"被设计出来的"，而像"被发现的"，仿佛它一直存在于某个黑暗角落，只是现在才被灯光照到。`,
+    dateConnection_en: `On June 13, 1935, Christo Vladimirov Javacheff was born in Gabrovo, Bulgaria. On the very same day, Jeanne-Claude Denat de Guillebon was born in Casablanca, Morocco. Same year, same month, same day — one in the Balkans, one on the North African coast. Twenty-three years later they met in Paris and became inseparable, not as romantic metaphor but literally: every work bore both their names, every decision required both their voices.`,
+    designerBio_en: `Christo received rigorous academic art training under Bulgaria's socialist system. In 1956 he fled the country, passing through Prague and Vienna before arriving in Paris in 1958. There he began wrapping everyday objects — cans, bottles, chairs — as if trying to repackage the world from scratch.
 
-    legacy: `Giger 凭借《异形》获得1980年奥斯卡最佳视觉效果奖。但这个奖杯远远无法衡量他对视觉文化的影响。Xenomorph 重新定义了科幻电影中的生物设计——在它之前，银幕上的外星人要么是穿着橡胶套装的人类，要么是可爱的友善生物。Giger 证明了外星生物可以是一件严肃的艺术作品，可以触及人类最原始的恐惧。
+That same year he was commissioned to paint the portrait of a French military officer's wife. That wife was Jeanne-Claude. She was a general's daughter — red-haired, fiery-tempered, fiercely opinionated. They fell in love quickly, then spent the next fifty years proving that art can be a two-person endeavor.
 
-他的"生物机械"美学渗透到了整个流行文化：从《银翼杀手》到《黑客帝国》的视觉风格，从重金属乐队的专辑封面到电子游戏的怪物设计，从赛博朋克文学到当代数字艺术。每当你在任何媒介中看到有机体与机械融合的意象，你看到的都是 Giger 的遗产。`,
+Jeanne-Claude managed every project's organization, negotiation, and logistics — she once joked that her artistic medium was "the telephone and people." Christo handled visual conception and execution. They refused all sponsorship, subsidies, and commissions. Every project was entirely self-financed through sales of Christo's preparatory drawings and collages. Each work, from conception to completion, was a long-odds bet.`,
+    story_en: `In 1971, American journalist Michael Cullen wrote to Christo suggesting he wrap Berlin's Reichstag building. Christo was immediately struck by the idea — this building carried an almost unbearable weight of history: the Weimar Republic, the 1933 Reichstag fire, wartime ruins, Cold War division. Wrapping it would make all those narratives temporarily vanish, forcing people to truly "see" it again.
 
-    significance: `H.R. Giger 做了一件很少有艺术家能做到的事：他创造了一个全新的视觉词汇。在他之前，没有人想到把肉体和机械如此亲密地纠缠在一起。Xenomorph 之所以至今仍然令人不安，是因为它触及了一种比"怪物会吃掉你"更深层的恐惧——身体的异化、有机与无机之间边界的消融、生命本身可能只是另一种机械。对设计师而言，Giger 的启示在于：最强大的设计不是让人觉得"好酷"，而是让人觉得"这东西好像一直就存在"。`,
+**What followed was the longest political lobbying campaign in art history — twenty-four years.**
 
-    dateConnection_en: `On May 12, 2014, H.R. Giger passed away in Zurich, Switzerland, at age 74, after injuries from a fall. This Swiss Surrealist — who turned nightmares into art and art into an industry standard — fundamentally rewrote humanity's visual imagination of horror with a single creature. His Xenomorph, designed for Ridley Scott's 1979 film Alien, remains the most unsettling and instantly recognizable creature design in cinema history.`,
+They wrote letters, made phone calls, and knocked on doors of every member of the German parliament. Six successive Bundestag presidents came and went; the project was rejected and revived again and again. On February 25, 1994, during the Bundestag's 211th plenary session, after a 70-minute debate and a roll-call vote, parliament finally approved the project 292 to 223. This may be the only artwork in history that required a national legislature's vote.
 
-    designerBio_en: `Hans Ruedi Giger (1940–2014) was born in Chur, Switzerland. His father, a pharmacist, hoped his son would follow in his footsteps. But Giger was drawn to darkness from the start — as a child, he received a real human skull as a gift and treasured it as his most prized possession.
+From June 17 to 24, 1995, ninety professional climbers and 120 installation workers began wrapping the building. They used no cranes. One hundred thousand square meters of aluminum-coated polypropylene fabric — the kind that turns liquid silver in sunlight — and 15,600 meters of blue polypropylene rope cascaded along every contour of the building. The fabric hugged the stone's shape, revealing a building you thought you knew but had never actually seen.
 
-He studied industrial design and architecture at the Zurich School of Applied Arts, but soon pivoted to fine art. By the late 1960s, he was working with airbrush on large canvases, developing an unprecedented visual language he called "Biomechanics": organic flesh seamlessly fused with cold mechanical components, tubes winding like veins, bones intertwined with metal hinges. This wasn't science fiction illustration — it was nightmare imagery surfacing from the subconscious, charged with Freudian sexuality and existential dread.
-
-In 1977, he published his art book Necronomicon. It changed everything.`,
-
-    story_en: `In 1977, screenwriter Dan O'Bannon, developing a sci-fi horror film, stumbled upon Giger's Necronomicon. One painting stopped him cold: Necronom IV — an elongated, sleek, eyeless humanoid form, its skull extending backward into a tubular shape, its body covered in pipe-like textures and skeletal ridges. O'Bannon knew instantly: this was the perfect killer from his screenplay.
-
-He brought the book to director Ridley Scott. The moment Scott opened it, he uttered a line that would be endlessly quoted: "This is our monster."
-
-Giger was brought to Shepperton Studios in London. He didn't just draw concept art — he personally sculpted the full-scale Xenomorph using real bones, snakeskin, tubes, resin, and metal parts. He embedded a real human skull inside the creature's translucent domed head, so you could faintly sense that "this thing might once have been human." Giger also designed the alien egg, the Facehugger, the crescent-shaped spacecraft, and the enormous fossilized figure known as the Space Jockey.
-
-When Alien premiered in 1979 and audiences first saw the Xenomorph on screen, theaters erupted in genuine panic. This wasn't the old rubber-suit monster — it was too real, too organic. It didn't look "designed." It looked "discovered," as if it had always existed in some dark corner, only now caught in the light.`,
-
-    legacy_en: `Giger won the 1980 Academy Award for Best Visual Effects for Alien. But that trophy barely measures his impact on visual culture. The Xenomorph redefined creature design in science fiction — before it, movie aliens were either humans in rubber suits or friendly beings. Giger proved that an alien creature could be a serious work of art, one that taps into humanity's most primal fears.
-
-His "biomechanical" aesthetic permeated all of popular culture: from the visual language of Blade Runner to The Matrix, from heavy metal album covers to video game creature design, from cyberpunk literature to contemporary digital art. Whenever you see imagery of organic matter fused with machinery in any medium, you're looking at Giger's legacy.`,
-
-    significance_en: `H.R. Giger accomplished something few artists ever have: he created an entirely new visual vocabulary. Before him, no one had imagined intertwining flesh and machine so intimately. The Xenomorph remains disturbing today because it touches a fear deeper than "the monster will eat you" — the alienation of the body, the dissolution of boundaries between organic and inorganic, the possibility that life itself might be just another form of machinery. For designers, Giger's lesson is clear: the most powerful design doesn't make people think "that's cool" — it makes them feel "that thing has always existed."`,
+**During the 14 days from June 24 to July 7, over five million people came.** They picnicked on the lawn, traced light and shadow through the fabric's folds, photographed themselves in the silver reflection. A building that embodied Germany's heaviest history suddenly became Berlin's most joyful public space. Citizens of a newly unified Germany gathered here as if the wrapped ruin had given them permission to start over.`,
+    legacy_en: `• Wrapped Reichstag is Christo and Jeanne-Claude's most widely recognized work, called their "greatest masterpiece" by The Guardian
+• Attracted over 5 million visitors in 14 days, making it one of the most-viewed single artworks of the 20th century
+• Entirely self-financed at an estimated cost of $13 million, funded solely by Christo's sales of preparatory drawings and collages
+• Realized shortly after the fall of the Berlin Wall, it became an unofficial cultural symbol of German reunification
+• Proved that Land Art / environmental art could engage directly with political institutions — the only artwork in history requiring a parliamentary vote
+• Their creative model — entirely self-funded, refusing sponsorship, process-as-art — redefined what contemporary public art could be`,
+    significance_en: `Christo and Jeanne-Claude's core idea was that art is not an object but an experience. Wrapped Reichstag existed for just 14 days, left no permanent physical trace, yet it transformed how every one of its five million visitors understood space and memory. With 100,000 square meters of fabric, they proved a paradox: sometimes you have to hide something before people can truly see it.`,
   },
