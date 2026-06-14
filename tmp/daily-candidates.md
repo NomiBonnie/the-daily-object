@@ -1,18 +1,19 @@
-# Daily Object 候选 06-13
+# Daily Object 候选 06-14
 
-最近3天分类：industrial (06-09) → film (06-11) → architecture (06-12)
-最近3天关联类型：产品发布 → 电影上映 → 设计师生日
-
-候选1: Wrapped Reichstag (1995) — Christo & Jeanne-Claude — [关联类型: 设计师生日 (两人均生于1935年6月13日)]
+候选1: Range Rover (1970) — [关联类型: 🎂 设计师生日(David Bache, 1925)]
   知名度: 5/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 25/25
-  说明: Christo和Jeanne-Claude是世界级艺术家，Wrapped Reichstag是当代最具标志性的大地艺术/装置作品之一。两人同年同月同日生（1935-06-13），故事极具传奇性。500万人现场观看。图片资源丰富——银色织物包裹德国国会大厦的画面极具视觉冲击力。category=art，与最近3天都不重复。
+  备注: Range Rover 是世界级工业设计经典，1974年被卢浮宫作为"杰出工业设计范例"展出。David Bache 还设计了 Rover SD1（1977欧洲年度车型）。视觉上极具辨识度，图片极易获取。分类 industrial 与近3天(art/architecture/film)都不同。
 
-候选2: Emilio Ambasz 绿色建筑 (ACROS Fukuoka) — [关联类型: 设计师生日 (1943年6月13日)]
-  知名度: 3/5 | 图片: 4/5 | 故事: 3/5 | 视觉: 4/5 | 分类多样性: 3/5 | 时代加权: 0 | 总分: 17/25
-  说明: MoMA设计策展人、绿色建筑先驱，ACROS福冈很有视觉冲击力，但知名度偏专业圈。category=architecture会与06-12重复。
+候选2: Ford Foundation Building (1967) — [关联类型: 🎂 建筑师生日(Kevin Roche, 1922)]
+  知名度: 4/5 | 图片: 5/5 | 故事: 4/5 | 视觉: 5/5 | 分类多样性: 1/5 | 时代加权: 0 | 总分: 19/25
+  备注: Kevin Roche 1982年普利兹克奖得主，Ford Foundation Building 的玻璃花园中庭是建筑史经典。但06-12刚做了 Brooklyn Bridge(architecture)，分类重复扣分严重。
 
-候选3: Joseph Stella — Battle of Lights, Coney Island (1913) — [关联类型: 设计师生日 (1877年6月13日)]
-  知名度: 3/5 | 图片: 4/5 | 故事: 3/5 | 视觉: 4/5 | 分类多样性: 5/5 | 时代加权: -3 | 总分: 16/25
-  说明: 意大利裔美国未来主义画家，Brooklyn Bridge系列很美，但1877年出生属于1950前时代惩罚。在设计圈的知名度不如在纯艺术圈。
+候选3: Großes Schauspielhaus (1919) — [关联类型: ⚰️ 逝世纪念(Hans Poelzig, 1936)]
+  知名度: 3/5 | 图片: 4/5 | 故事: 4/5 | 视觉: 5/5 | 分类多样性: 1/5 | 时代加权: -3 | 总分: 14/25
+  备注: Poelzig 的表现主义剧院内部极具视觉冲击力（钟乳石穹顶），但1919年作品 pre-1950 惩罚-3分，且分类 architecture 与昨天重复。IG Farben Building 同样壮观但历史关联复杂(IG Farben = 纳粹化工巨头)。
 
-→ 选择: 候选1 Wrapped Reichstag（原因：满分25分，全维度最优。Christo & Jeanne-Claude同年同日生本身就是传奇故事，Wrapped Reichstag是20世纪最具影响力的公共艺术/装置之一，视觉冲击力极强，图片资源丰富，category=art与近3天都不重复）
+候选4: Mary Cassatt 画作 (印象派) — [关联类型: ⚰️ 逝世纪念(1926)]
+  知名度: 4/5 | 图片: 5/5 | 故事: 3/5 | 视觉: 4/5 | 分类多样性: 3/5 | 时代加权: -3 | 总分: 16/25
+  备注: 印象派大师，母与子主题经典。但06-13刚做了art类(Christo)，且纯艺术与设计关联偏弱，pre-1950 惩罚。
+
+→ 选择: 候选1 Range Rover（原因：总分最高25/25，工业设计经典中的经典，卢浮宫展出殊荣，分类多样性完美，视觉冲击力强，故事性极佳）

@@ -8778,4 +8778,63 @@ From June 17 to 24, 1995, ninety professional climbers and 120 installation work
 • Their creative model — entirely self-funded, refusing sponsorship, process-as-art — redefined what contemporary public art could be`,
     significance_en: `Christo and Jeanne-Claude's core idea was that art is not an object but an experience. Wrapped Reichstag existed for just 14 days, left no permanent physical trace, yet it transformed how every one of its five million visitors understood space and memory. With 100,000 square meters of fabric, they proved a paradox: sometimes you have to hide something before people can truly see it.`,
   },
+  {
+    id: '163',
+    date: '2026-06-14',
+    imageUrl: '/the-daily-object/images/range-rover-classic.jpg',
+    fullImageUrl: '/the-daily-object/images/full/range-rover-classic.jpg',
+    title: '初代路虎揽胜',
+    title_en: 'Range Rover Classic',
+    subtitle: 'David Bache / Spen King / Gordon Bashford, 1970',
+    subtitle_en: 'David Bache / Spen King / Gordon Bashford, 1970',
+    category: 'industrial' as const,
+    designer: 'David Bache',
+    year: '1970',
+    tags: ['卢浮宫认证的工业设计', '定义了豪华越野品类', '从农场到王室的阶层跨越'],
+    tags_en: ['Louvre-Certified Industrial Design', 'Defined the Luxury SUV', 'From Farmyard to Royalty'],
+
+    dateConnection: `1925年6月14日，David Bache出生于德国曼海姆。他的父亲Joe Bache是英格兰国脚和阿斯顿维拉名将，当时正在德国执教。David继承的不是足球天赋，而是一种对形式和比例的本能直觉——这种直觉后来定义了英国汽车设计最辉煌的二十年。`,
+    designerBio: `David Bache二战末期进入奥斯汀汽车当学徒，1954年被Rover挖走，开启近三十年的合作。他有一种罕见的能力：既理解英国绅士对低调优雅的执念，又能将大胆现代语言注入传统框架。
+
+Rover P5成为英国首相标志性座驾（威尔逊和撒切尔都是忠实用户）。Rover P6用受雪铁龙DS启发的前卫线条赢得1964年欧洲年度车型。然后是Range Rover——一台重新定义"越野车可以是什么"的机器。1982年他因与新管理层不合离开英国利兰，创办David Bache Associates。1994年因癌症去世，享年69岁。`,
+    story: `1960年代中期，Rover工程师Spen King和Gordon Bashford构想一种全新车型：像Land Rover一样征服任何地形，但坐起来像公路轿车。这在当时近乎异端——越野车就该粗糙实用，谁会把真皮座椅塞进四驱车？
+
+King和Bashford负责工程布局，当原型车需要从"能用"进化到"值得被记住"时，他们找到了David Bache。**Bache接手的是一个功能性铁盒子，交出的是一件卢浮宫收藏级的工业设计杰作。**
+
+他的设计策略极其克制：让每条线服务于功能，在功能诚实中找美感。标志性的分体式车身——上半部光滑金属面板与下半部外露门槛的对比——既方便田间冲洗泥土，也创造了独特视觉张力。挡风玻璃角度、格栅水平线条、干脆的车顶线——每个细节都在说：我不需要装饰来证明自己。
+
+**1970年6月17日，Range Rover上市。** 只有一种颜色（Bahama Gold），两扇门，没有地毯（橡胶垫代替，方便冲洗），裸露金属仪表台——这些"简陋"细节后来反成了经典标志。
+
+1974年，巴黎卢浮宫将Range Rover作为"杰出工业设计范例"展出。越野车进入世界最高艺术殿堂，此前此后绝无仅有。评审给出的理由：它在功能与美学间达到完美平衡，证明实用主义本身可以是一种设计美学。`,
+    legacy: `• 1974年被巴黎卢浮宫作为"杰出工业设计范例"展出——唯一获此殊荣的量产汽车
+• 第一代车型从1970年生产到1996年，26年基本造型不变，证明了设计的永恒性
+• 发明了"豪华SUV"这个品类——在Range Rover之前，"豪华"和"越野"是不兼容的概念
+• 成为英国王室、中东王室和全球精英阶层的标志性座驾
+• David Bache设计的Rover SD1在1977年获评欧洲年度车型，采用了同样的"功能即美学"设计哲学
+• Range Rover的设计DNA延续至今，每一代新车都在向1970年的原始比例致敬`,
+    significance: `Range Rover证明了最持久的设计往往来自最诚实的态度。David Bache没有试图让一台越野车看起来像轿车，也没有用多余的装饰去"提升"它的档次。他只是让每一个功能性元素——进气格栅、轮拱、腰线——都以最精确的比例存在，然后信任观者能感受到这种精确中蕴含的美。卢浮宫的认可不是偶然：当形式完全服从功能，功能本身就成了形式——这是工业设计最纯粹的境界。`,
+
+    dateConnection_en: `On June 14, 1925, David Bache was born in Mannheim, Germany. His father Joe Bache was an England international footballer and Aston Villa legend who was coaching in Germany at the time. David inherited not a talent for football, but an instinctive sense of form and proportion that would define British automotive design's most celebrated two decades.`,
+    designerBio_en: `David Bache entered the Austin Motor Company as an apprentice during the final years of World War II, starting from the factory floor. In 1954 Rover recruited him, beginning a partnership that lasted nearly three decades. At Rover he demonstrated a rare ability: understanding the British gentleman's obsession with understated elegance while injecting bold modern design language into traditional frameworks.
+
+His design portfolio reads like a condensed history of postwar British automotive design. The Rover P5 gave British prime ministers their signature dignified ride (both Harold Wilson and Margaret Thatcher were devoted users). The Rover P6's avant-garde lines, inspired by the Citroën DS, won European Car of the Year in 1964. Then came the Range Rover — a machine that utterly redefined what an off-road vehicle could be.
+
+Bache left British Leyland in 1982 after disagreements with new management, subsequently founding his own consultancy, David Bache Associates. He died of cancer in 1994 at the age of 69.`,
+    story_en: `In the mid-1960s, Rover engineers Spen King and Gordon Bashford began imagining an entirely new type of vehicle: one that could conquer any terrain like a Land Rover but feel like a road car from inside. The concept was near-heretical at the time — off-roaders were supposed to be rough, utilitarian, and caked in mud. Who would dream of putting leather seats and wood trim inside a four-wheel-drive?
+
+King and Bashford handled engineering and basic layout, but when the prototype's appearance needed to evolve from "functional" to "unforgettable," they turned to David Bache. **Bache inherited a boxy, functional iron shell and delivered a piece of industrial design that would end up in the Louvre.**
+
+His design strategy was extraordinarily restrained: rather than pursuing dramatic curves, he made every line serve a function, then found beauty in that functional honesty. The iconic split waistline — the contrast between smooth upper body panels and the exposed sill below — was both a practical consideration for hosing off field mud and a source of unique visual tension. The windshield angle, the horizontal grille lines, the clean-cut roofline — every detail spoke the same message: I don't need decoration to prove my worth.
+
+**On June 17, 1970, the Range Rover launched.** It came in only one color (Bahama Gold), had just two doors, featured no carpets (rubber mats instead, for easy washdown), and had a bare metal dashboard — these "crude" details later became hallmarks of classic design.
+
+In 1974, the Musée du Louvre in Paris put a Range Rover on permanent display as an "exemplary work of industrial design." An off-road vehicle entering the world's most prestigious art institution — this had never happened before, and hasn't since. The jury's reasoning: it achieved perfect balance between functionality and aesthetics, proving that utilitarianism itself could be a design philosophy.`,
+    legacy_en: `• Exhibited at the Musée du Louvre in 1974 as an "exemplary work of industrial design" — the only production car ever to receive this honor
+• The first generation was produced from 1970 to 1996, its fundamental form unchanged for 26 years, testifying to the design's timelessness
+• Invented the "luxury SUV" category — before the Range Rover, "luxury" and "off-road" were incompatible concepts
+• Became the signature vehicle of British royalty, Middle Eastern royal families, and global elites
+• David Bache's Rover SD1 won European Car of the Year in 1977, embodying the same "function as aesthetic" philosophy
+• The Range Rover's design DNA persists today, with every new generation paying homage to the 1970 original's proportions`,
+    significance_en: `The Range Rover proves that the most enduring designs come from the most honest attitudes. David Bache didn't try to make an off-roader look like a sedan, nor did he use superfluous decoration to "elevate" its status. He simply let every functional element — grille, wheel arches, waistline — exist in the most precise proportions, then trusted viewers to sense the beauty inherent in that precision. The Louvre's recognition was no accident: when form fully serves function, function itself becomes form — that is industrial design at its purest.`,
+  },
 ]
