@@ -8837,4 +8837,53 @@ In 1974, the Musée du Louvre in Paris put a Range Rover on permanent display as
 • The Range Rover's design DNA persists today, with every new generation paying homage to the 1970 original's proportions`,
     significance_en: `The Range Rover proves that the most enduring designs come from the most honest attitudes. David Bache didn't try to make an off-roader look like a sedan, nor did he use superfluous decoration to "elevate" its status. He simply let every functional element — grille, wheel arches, waistline — exist in the most precise proportions, then trusted viewers to sense the beauty inherent in that precision. The Louvre's recognition was no accident: when form fully serves function, function itself becomes form — that is industrial design at its purest.`,
   },
+  {
+    id: '164',
+    date: '2026-06-15',
+    imageUrl: '/the-daily-object/images/view-of-the-world-from-9th-avenue.jpg',
+    fullImageUrl: '/the-daily-object/images/full/view-of-the-world-from-9th-avenue.jpg',
+    title: '从第九大道看世界',
+    title_en: 'View of the World from 9th Avenue',
+    subtitle: 'Saul Steinberg, 1976',
+    subtitle_en: 'Saul Steinberg, 1976',
+    category: 'graphic' as const,
+    designer: 'Saul Steinberg',
+    year: '1976',
+    tags: ['重新定义杂志封面', '跨越艺术与设计的边界', '视觉幽默的最高形式'],
+    tags_en: ['Redefined Magazine Covers', 'Bridged Art and Design', 'Visual Humor at Its Finest'],
+    dateConnection: '1914年6月15日，Saul Steinberg 出生于罗马尼亚勒姆尼库瑟拉特。他在布加勒斯特长大，父亲经营一间印刷作坊——纸张、油墨和字体从此成为他生命的底色。',
+    designerBio: `Steinberg 的人生本身就是一幅画。罗马尼亚犹太少年，在米兰学建筑，在意大利画漫画，二战中辗转逃离欧洲。1942年抵达纽约时，他的口袋里几乎只有一本速写本和一封来自《纽约客》编辑的邀请信。
+
+从此开始了长达57年的合作：85个封面、642幅内页插画。但称他为"插画家"是一种误读。MoMA 为他办个展，Whitney Museum 收藏他的作品，哈罗德·罗森伯格称他为"纸上的思考者"。Steinberg 模糊了艺术和漫画、高雅和通俗之间的一切界限——他画的是思想本身的形状。`,
+    story: `1976年3月29日出版的《纽约客》封面上，出现了一幅可能是20世纪被模仿最多的插画。
+
+**画面的构图本身就是一个概念的完美表达。** 前景是第九大道和第十大道之间三个街区的曼哈顿街景——行人、汽车、消防栓，每一个细节都被温柔地描绘。越过哈德逊河，新泽西变成一条窄窄的棕色带。然后整个美国——从芝加哥到拉斯维加斯到洛杉矶——被压缩成一块长着几块石头的绿色草地。太平洋之后，中国、日本、俄罗斯只是地平线上的三个标签。
+
+**这不是一幅地图，而是一种思维方式的肖像。** Steinberg 用比例的扭曲，精确地画出了每个大城市居民都心知肚明却不会承认的偏见：我的街区就是宇宙的中心，其余一切都是远方的抽象色块。
+
+这幅画在全球被模仿了无数次——从莫斯科到东京到上海，每个城市都诞生了自己的"从XX看世界"版本。1984年哥伦比亚影业的电影《莫斯科在哈德逊河上》未经授权使用了类似构图做海报，Steinberg 起诉并胜诉，确立了插画作品受版权保护的重要法律先例。`,
+    legacy: `• 被评为过去40年最伟大的杂志封面之一（2005年美国杂志编辑协会）
+• 在全球催生了数百个城市的"从XX看世界"模仿版本，成为一种视觉文化模因
+• 1984年 Steinberg 诉哥伦比亚影业案胜诉，确立了插画作品的版权保护先例
+• Steinberg 的作品被 MoMA、Whitney Museum、Smithsonian 等机构永久收藏
+• 打破了"高雅艺术"与"商业插画"之间的等级壁垒，证明杂志封面可以是严肃艺术`,
+    significance: '在 Steinberg 之前，插画是服务于文字的附属品；在他之后，一幅画可以比任何文章都更深刻地评论世界。"View of the World from 9th Avenue" 用最简洁的视觉语言完成了一件人类学家需要写一本书才能说清的事：我们如何被自己的视角所困。Steinberg 证明了一支笔、一张纸和一个足够锋利的想法，就能改变人们看世界的方式。',
+    dateConnection_en: 'On June 15, 1914, Saul Steinberg was born in Râmnicu Sărat, Romania. He grew up in Bucharest, where his father ran a small printing shop — paper, ink, and type became the fabric of his life from the very start.',
+    designerBio_en: `Steinberg's life reads like one of his own drawings. A Romanian Jewish youth who studied architecture in Milan, drew cartoons in Italy, and escaped wartime Europe through a circuitous route. When he arrived in New York in 1942, he carried little more than a sketchbook and a letter of invitation from The New Yorker's editors.
+
+Thus began a 57-year collaboration: 85 covers and 642 internal drawings. Yet calling him an "illustrator" misses the point entirely. MoMA gave him solo exhibitions, the Whitney Museum collected his work, and critic Harold Rosenberg called him "a writer who draws." Steinberg blurred every boundary between art and cartoon, high and low — what he drew was the shape of thinking itself.`,
+    story_en: `The March 29, 1976 cover of The New Yorker featured what may be the most imitated illustration of the 20th century.
+
+**The composition itself is a perfect expression of a concept.** The foreground presents three blocks of Manhattan streetscape between 9th and 10th Avenues — pedestrians, cars, fire hydrants, each detail rendered with tender precision. Across the Hudson River, New Jersey becomes a thin brown strip. Then the entire United States — from Chicago to Las Vegas to Los Angeles — is compressed into a green rectangle dotted with a few rocks. Beyond the Pacific, China, Japan, and Russia are mere labels on the horizon.
+
+**This is not a map but a portrait of a way of thinking.** Through the distortion of scale, Steinberg precisely captured the bias every big-city dweller secretly harbors but would never admit: my block is the center of the universe, and everything else is an abstract smudge in the distance.
+
+The image has been imitated countless times worldwide — from Moscow to Tokyo to Shanghai, every city has spawned its own "View of the World from..." version. In 1984, Columbia Pictures used a similar composition for the movie poster of Moscow on the Hudson without authorization. Steinberg sued and won, establishing an important legal precedent for copyright protection of illustrative works.`,
+    legacy_en: `• Named one of the greatest magazine covers of the past 40 years (American Society of Magazine Editors, 2005)
+• Spawned hundreds of city-specific "View of the World from..." imitations worldwide, becoming a visual culture meme
+• Steinberg's 1984 lawsuit against Columbia Pictures established legal precedent for illustrative copyright protection
+• Steinberg's works are permanently collected by MoMA, Whitney Museum, Smithsonian, and other major institutions
+• Shattered the hierarchy between "fine art" and "commercial illustration," proving magazine covers can be serious art`,
+    significance_en: `Before Steinberg, illustration was subordinate to text; after him, a single drawing could comment on the world more profoundly than any article. "View of the World from 9th Avenue" used the simplest visual language to accomplish what an anthropologist would need an entire book to articulate: how we are imprisoned by our own perspective. Steinberg proved that a pen, a sheet of paper, and a sharp enough idea can change the way people see the world.`,
+  },
 ]
