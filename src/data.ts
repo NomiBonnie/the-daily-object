@@ -8886,4 +8886,53 @@ The image has been imitated countless times worldwide — from Moscow to Tokyo t
 • Shattered the hierarchy between "fine art" and "commercial illustration," proving magazine covers can be serious art`,
     significance_en: `Before Steinberg, illustration was subordinate to text; after him, a single drawing could comment on the world more profoundly than any article. "View of the World from 9th Avenue" used the simplest visual language to accomplish what an anthropologist would need an entire book to articulate: how we are imprisoned by our own perspective. Steinberg proved that a pen, a sheet of paper, and a sharp enough idea can change the way people see the world.`,
   },
+  {
+    id: '169',
+    date: '2026-06-17',
+    imageUrl: '/the-daily-object/images/eames-lounge-chair.jpg',
+    fullImageUrl: '/the-daily-object/images/full/eames-lounge-chair.jpg',
+    title: 'Eames Lounge Chair',
+    title_en: 'Eames Lounge Chair',
+    subtitle: 'Charles & Ray Eames, 1956',
+    subtitle_en: 'Charles & Ray Eames, 1956',
+    category: 'industrial' as const,
+    designer: 'Charles & Ray Eames',
+    year: '1956',
+    tags: ['现代家具设计巅峰', '改变了人与椅子的关系', '工业美学与手工温度的融合'],
+    tags_en: ['Pinnacle of Modern Furniture', 'Redefined Human-Chair Relationship', 'Industrial Precision Meets Craft Warmth'],
+    dateConnection: '1907年6月17日，Charles Eames 出生于密苏里州圣路易斯。这位日后与妻子 Ray 共同重新定义现代设计的人，从小就在父亲的摄影暗房里学会了观察——光线如何落在物体表面，形状如何在阴影中显现。',
+    designerBio: `Charles 和 Ray Eames 是设计史上最传奇的夫妻搭档。Charles 在圣路易斯长大，14岁就在钢铁厂半工半读，对材料和结构的直觉从车间里来。他在华盛顿大学学建筑，因"过于现代"的理念被劝退。1940年，他和 Eero Saarinen 在 MoMA 的"有机设计"竞赛中获奖，同年遇见了在 Cranbrook Academy 学绘画的 Ray Kaiser。
+
+1941年两人结婚，搬到洛杉矶，在一间公寓里开始了改变设计史的实验。二战期间，他们用自制的"Kazam! Machine"——一台用自行车零件拼成的胶合板弯曲机——为美国海军开发木质腿夹板，替代了稀缺的金属材料。这项军用技术后来成为他们家具革命的技术基础。
+
+两人的分工从未泾渭分明：Charles 偏重结构和工程，Ray 把控色彩、图案和空间感。他们拒绝"谁是主导设计师"的提问，坚持所有作品署名"Eames Office"。`,
+    story: `1956年，Herman Miller 推出了编号 670/671 的躺椅和脚凳组合。Charles Eames 说他想做一把"像棒球手套一样温暖贴合"的椅子——用了70年来看，他做到了。
+
+**开发历程充满了对完美的偏执。** 从1940年代末开始构思，到1956年正式量产，跨越近十年。最大的技术挑战是三层弯曲胶合板壳体的制造：每一片巴西花梨木贴面都需要精确弯曲成三维曲面，任何一点应力不均都会导致开裂。Eames 团队与 Herman Miller 的工程师反复测验了上百种黏合剂配方和加压方案。
+
+**铝制连接件是被忽视的天才细节。** 三片胶合板壳体之间不用传统的螺栓连接，而是通过铸铝"脊柱"悬挂，让每个部件都能独立微动。这意味着椅子会随着坐者的体重和姿势自动调整角度——不需要任何机械装置，纯粹靠结构设计实现了"自适应"。
+
+1956年首次亮相是在 NBC 的电视节目"Home"上，由 Arlene Francis 主持。这可能是设计史上第一次通过电视直播发布一把椅子。Charles 亲自上节目演示，当他缓缓坐进去的那一刻，皮革发出轻微的吱声，椅背微微后仰——观众看到的不只是一件家具，而是一种全新的"坐"的哲学。
+
+第一版送给了导演 Billy Wilder 作为礼物。Wilder 曾抱怨好莱坞没有一把能让他舒服地思考剧本的椅子。Eames 的回应不是问他要什么，而是直接造了一把让他闭嘴的东西。`,
+    legacy: `• 70年来持续量产，从未停产，是现代家具设计史上最长寿的产品之一\n• 被 MoMA、Art Institute of Chicago、Vitra Design Museum 等全球主要设计博物馆永久收藏\n• 成为"中世纪现代"风格最具辨识度的符号，出现在无数电影、电视和杂志中\n• 开创了胶合板弯曲成型技术在高端家具中的应用，影响了整个行业的制造工艺\n• 证明了工业量产与手工品质可以共存——每把椅子至今仍需要大量手工装配工序`,
+    significance: 'Eames Lounge Chair 解决了现代主义设计最大的矛盾：如何让工业产品拥有手工制品的温度。在它之前，现代家具要么冰冷理性如包豪斯钢管椅，要么温暖但无法量产。Eames 夫妇找到了第三条路——用工业技术实现有机曲面，用天然材料赋予机器产品灵魂。七十年后，这把椅子依然是"坐下来，慢慢想"这个人类基本需求的最优解。',
+    dateConnection_en: 'On June 17, 1907, Charles Eames was born in St. Louis, Missouri. The man who would go on to redefine modern design with his wife Ray learned to observe from an early age — in his father\'s photography darkroom, watching how light fell on surfaces and how shapes emerged from shadow.',
+    designerBio_en: `Charles and Ray Eames were the most legendary husband-and-wife team in design history. Charles grew up in St. Louis, working part-time in a steel mill from age 14 — his intuition for materials and structure came from the factory floor. He studied architecture at Washington University but was encouraged to leave for ideas deemed "too modern." In 1940, he won MoMA's "Organic Design" competition with Eero Saarinen and met Ray Kaiser, who was studying painting at Cranbrook Academy.
+
+They married in 1941 and moved to Los Angeles, where they began history-altering experiments in a small apartment. During WWII, they built the "Kazam! Machine" — a plywood-bending device cobbled from bicycle parts — to develop wooden leg splints for the U.S. Navy, replacing scarce metal. This military technology became the technical foundation for their furniture revolution.
+
+Their division of labor was never rigid: Charles leaned toward structure and engineering, Ray controlled color, pattern, and spatial feel. They refused questions about "who was the lead designer," insisting all work be credited to "Eames Office."`,
+    story_en: `In 1956, Herman Miller introduced model 670/671 — a lounge chair and ottoman combination. Charles Eames said he wanted to create a chair that felt "like a well-used first baseman's mitt" — warm, broken-in, perfectly shaped to the body. Seventy years later, it's clear he succeeded.
+
+**The development was driven by an obsession with perfection.** Conceived in the late 1940s, the chair took nearly a decade to reach production. The greatest technical challenge was manufacturing the three-layer molded plywood shells: each Brazilian rosewood veneer had to be precisely bent into three-dimensional curves, and any uneven stress would cause cracking. The Eames team and Herman Miller engineers tested hundreds of adhesive formulas and pressure configurations.
+
+**The aluminum connectors are an overlooked stroke of genius.** The three plywood shells aren't bolted together conventionally but suspended on cast-aluminum "spines," allowing each component to move independently. This means the chair automatically adjusts to the sitter's weight and posture — no mechanical mechanism required, pure structural design achieving "adaptive" comfort.
+
+Its 1956 debut came on NBC's television show "Home," hosted by Arlene Francis — possibly the first time in design history a chair was launched via live television. Charles appeared on the program himself. As he slowly settled into the chair, the leather emitting a soft creak, the backrest gently reclining — viewers witnessed not just a piece of furniture but an entirely new philosophy of sitting.
+
+The first production model was gifted to director Billy Wilder, who had complained that Hollywood didn't have a single chair comfortable enough for thinking through screenplays. The Eames response wasn't to ask what he wanted — it was to build something that would shut him up.`,
+    legacy_en: `• Continuously produced for 70 years without interruption — one of the longest-lived products in modern furniture design\n• Permanently collected by MoMA, Art Institute of Chicago, Vitra Design Museum, and other major global design museums\n• Became the most recognizable icon of Mid-Century Modern style, appearing in countless films, TV shows, and magazines\n• Pioneered the application of molded plywood technology in high-end furniture, influencing manufacturing processes industry-wide\n• Proved that industrial mass production and handcraft quality can coexist — each chair still requires significant manual assembly`,
+    significance_en: 'The Eames Lounge Chair resolved modernist design\'s greatest contradiction: how to give an industrial product the warmth of a handmade object. Before it, modern furniture was either coldly rational like Bauhaus tubular steel chairs, or warm but impossible to mass-produce. Charles and Ray Eames found a third path — using industrial technology to achieve organic curves, using natural materials to give machine-made products a soul. Seventy years later, this chair remains the definitive answer to one of humanity\'s most basic needs: sit down and think slowly.',
+  },
 ]
