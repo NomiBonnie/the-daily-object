@@ -8935,4 +8935,55 @@ The first production model was gifted to director Billy Wilder, who had complain
     legacy_en: `• Continuously produced for 70 years without interruption — one of the longest-lived products in modern furniture design\n• Permanently collected by MoMA, Art Institute of Chicago, Vitra Design Museum, and other major global design museums\n• Became the most recognizable icon of Mid-Century Modern style, appearing in countless films, TV shows, and magazines\n• Pioneered the application of molded plywood technology in high-end furniture, influencing manufacturing processes industry-wide\n• Proved that industrial mass production and handcraft quality can coexist — each chair still requires significant manual assembly`,
     significance_en: 'The Eames Lounge Chair resolved modernist design\'s greatest contradiction: how to give an industrial product the warmth of a handmade object. Before it, modern furniture was either coldly rational like Bauhaus tubular steel chairs, or warm but impossible to mass-produce. Charles and Ray Eames found a third path — using industrial technology to achieve organic curves, using natural materials to give machine-made products a soul. Seventy years later, this chair remains the definitive answer to one of humanity\'s most basic needs: sit down and think slowly.',
   },
+  {
+    id: '139',
+    date: '2026-06-18',
+    imageUrl: '/the-daily-object/images/columbia-lp-record.jpg',
+    fullImageUrl: '/the-daily-object/images/full/columbia-lp-record.jpg',
+    title: 'Columbia LP 唱片',
+    title_en: 'The Columbia LP Record',
+    subtitle: 'Peter Goldmark / Columbia Records, 1948',
+    subtitle_en: 'Peter Goldmark / Columbia Records, 1948',
+    category: 'music' as const,
+    designer: 'Peter Goldmark',
+    year: '1948',
+    tags: ['催生了专辑封面设计', '重新定义音乐聆听方式', '模拟时代的不朽遗产'],
+    tags_en: ['Gave Birth to Album Cover Art', 'Redefined How We Listen to Music', 'Enduring Legacy of the Analog Age'],
+
+    dateConnection: `1948年6月18日，Columbia Records 在纽约华尔道夫酒店召开新闻发布会，向世界展示了一种全新的音乐载体：33⅓转、12英寸的 Microgroove 黑胶唱片。这张被命名为 ML 4001 的唱片——Nathan Milstein 演奏的门德尔松小提琴协奏曲——标志着音乐工业最深刻的一次形态革命。从这一天起，音乐不再是三分钟的碎片，而是可以被完整聆听的连续叙事。`,
+    designerBio: `Peter Goldmark 1906年出生于布达佩斯，在维也纳学物理和电气工程。1936年移民美国后加入 CBS 实验室，此后三十年间，他几乎是凭一己之力推动了多项改变世界的发明——彩色电视系统、电子视频录制技术，以及 LP 唱片。
+
+关于 LP 的灵感来源，Goldmark 自己讲过一个故事：1945年的一个晚上，他在家听霍洛维茨演奏勃拉姆斯第二钢琴协奏曲的 78 转唱片。四个乐章被切成了十二面六张唱片，每三分钟就得起身翻面换碟。音乐的连续性被粗暴打断，那种挫败感让他决定：必须找到一种方法，让一整个乐章不间断地播放。
+
+技术突破的核心是"微槽"（Microgroove）——将唱片沟槽的宽度从 78 转时代的 0.003 英寸缩小到 0.001 英寸，同时将转速降到 33⅓ 转。这意味着同样面积的唱片能容纳六倍的音乐。Goldmark 的团队花了三年时间解决材料问题：传统虫胶唱片太脆，微槽要求更精密的材质。最终答案是聚氯乙烯（vinyl）——更轻、更柔韧、噪音更低。
+
+"Vinyl"这个词后来成了黑胶唱片的代名词，但很少有人知道，这个称呼的来源纯粹是一个工程选择。`,
+    story: `1948年6月18日的那场发布会，Columbia Records 总裁 Goddard Lieberson 做了一个精心设计的戏剧性演示。他在桌上摆了两摞唱片：一摞是传统 78 转唱片，堆起来将近两米高，代表当时 Columbia 全部古典音乐目录；另一摞是 LP 唱片，只有 15 厘米高，却装下了完全相同的内容。视觉冲击力不需要任何解释。
+
+**但 LP 带来的最深远变革不在技术层面，而在设计层面。** 12英寸的正方形封套取代了 78 转时代简陋的纸袋包装，突然之间，唱片公司面前出现了一块 31×31 厘米的空白画布。Alex Steinweiss——Columbia Records 的第一位艺术总监——早在1939年就开始为 78 转唱片设计图形封面，但 LP 的大尺寸彻底释放了这个媒介的视觉潜力。
+
+从此，专辑封面成为独立的设计品类。Andy Warhol 为 Velvet Underground 设计的香蕉封面、Peter Saville 为 Joy Division 设计的脉冲星波形、Storm Thorgerson 为 Pink Floyd 设计的棱镜彩虹——这些图像的文化影响力早已超越了它们所包裹的音乐本身。没有 LP 的 12 英寸画布，这一切都不可能发生。
+
+**竞争对手的反应让故事更戏剧化。** RCA Victor 拒绝授权 LP 技术，转而在1949年推出了 45 转七英寸单曲唱片。一场"转速之战"（War of the Speeds）在整个唱片工业爆发，消费者被迫选边站。最终两种格式各自找到了生态位：LP 承载专辑，45 转承载单曲。这个分野定义了此后半个世纪的流行音乐产业结构——"专辑"作为一种艺术形式的概念，本质上是一个工程参数（每面20分钟的容量）的副产品。`,
+    legacy: `• 催生了"专辑"概念——音乐从三分钟的碎片变成了40-50分钟的完整叙事，从根本上改变了音乐的创作方式\n• 创造了专辑封面设计这个全新的视觉品类，诞生了 Storm Thorgerson、Peter Saville、Reid Miles 等一代平面设计巨匠\n• 黑胶唱片文化在数字时代逆势复兴，2023年全球黑胶销量超过 CD，成为实体音乐格式的主导\n• "Vinyl"一词从工程材料名变成了整个模拟音乐文化的代名词\n• 12英寸方形封套的尺寸比例至今仍是流媒体时代专辑封面设计的参考标准`,
+    significance: `LP 唱片是设计史上罕见的"基础设施级"发明——它不只是一个产品，而是一整个创作生态的容器。当 Peter Goldmark 把唱片沟槽缩小到千分之一英寸时，他无意中为 Andy Warhol、Peter Saville 和无数平面设计师创造了职业舞台。一个工程决策催生了一种艺术形式，这种因果关系在设计史上几乎独一无二。`,
+
+    dateConnection_en: `On June 18, 1948, Columbia Records held a press conference at the Waldorf Astoria in New York City to unveil a revolutionary new music format: the 33⅓ RPM, 12-inch Microgroove vinyl LP record. The disc catalogued as ML 4001 — Nathan Milstein performing Mendelssohn's Violin Concerto — marked the most profound format revolution in the music industry. From this day forward, music was no longer a three-minute fragment but a continuous narrative meant to be heard whole.`,
+    designerBio_en: `Peter Goldmark was born in Budapest in 1906 and studied physics and electrical engineering in Vienna. After emigrating to the United States in 1936 and joining CBS Laboratories, he spent the next three decades almost single-handedly driving multiple world-changing inventions — the color television system, electronic video recording, and the LP record.
+
+Goldmark told a story about the LP's inspiration: one evening in 1945, he was at home listening to Horowitz playing Brahms's Second Piano Concerto on 78 RPM records. Four movements were split across twelve sides of six discs, forcing him to get up and flip or change records every three minutes. The constant interruption of musical continuity frustrated him so deeply that he resolved to find a way to play an entire movement without stopping.
+
+The technical breakthrough centered on the "Microgroove" — shrinking the record groove width from 0.003 inches (the 78 RPM standard) to 0.001 inches while reducing the speed to 33⅓ RPM. This meant the same surface area could hold six times more music. Goldmark's team spent three years solving the materials problem: traditional shellac records were too brittle for microgrooves. The answer was polyvinyl chloride — lighter, more flexible, and quieter.
+
+The word "vinyl" later became synonymous with the LP record itself, though few realize the term originated purely from an engineering choice.`,
+    story_en: `At the June 18, 1948 press conference, Columbia Records president Goddard Lieberson staged a brilliantly theatrical demonstration. He placed two stacks of records on a table: one was a tower of conventional 78 RPM records, nearly two meters tall, representing Columbia's entire classical catalog; the other was a stack of LPs just 15 centimeters high — containing exactly the same content. The visual impact needed no explanation.
+
+**But the LP's most far-reaching revolution wasn't technical — it was design.** The 12-inch square sleeve replaced the flimsy paper bags of the 78 RPM era, and suddenly record labels had a blank canvas measuring 31×31 centimeters. Alex Steinweiss — Columbia Records' first art director — had been designing graphic covers for 78s since 1939, but the LP's larger format fully unleashed the visual potential of this medium.
+
+Album cover art became its own design discipline. Andy Warhol's banana for the Velvet Underground, Peter Saville's pulsar waveform for Joy Division, Storm Thorgerson's prism rainbow for Pink Floyd — these images achieved cultural impact far beyond the music they wrapped. None of it would have been possible without the LP's 12-inch canvas.
+
+**The competitive response made the story even more dramatic.** RCA Victor refused to license the LP technology and instead launched the 45 RPM seven-inch single in 1949. A "War of the Speeds" erupted across the record industry, forcing consumers to pick sides. Eventually both formats found their ecological niche: LPs carried albums, 45s carried singles. This division defined popular music's industrial structure for the next half-century — the very concept of the "album" as an art form was essentially a byproduct of an engineering parameter (roughly 20 minutes of capacity per side).`,
+    legacy_en: `• Gave birth to the "album" concept — music evolved from three-minute fragments into 40-50 minute continuous narratives, fundamentally changing how music was composed and conceived\n• Created album cover design as an entirely new visual discipline, producing a generation of graphic design masters including Storm Thorgerson, Peter Saville, and Reid Miles\n• Vinyl culture has staged a counter-digital revival — global vinyl sales surpassed CD sales in 2023, becoming the dominant physical music format\n• The word "vinyl" transformed from an engineering material name into a synonym for an entire analog music culture\n• The 12-inch square sleeve proportions remain the reference standard for album cover design even in the streaming era`,
+    significance_en: `The LP record is one of design history's rare "infrastructure-level" inventions — not merely a product but a container for an entire creative ecosystem. When Peter Goldmark shrank the record groove to one-thousandth of an inch, he inadvertently created a professional stage for Andy Warhol, Peter Saville, and countless graphic designers. An engineering decision giving rise to an art form — this kind of causal relationship is virtually unique in design history.`,
+  },
 ]
