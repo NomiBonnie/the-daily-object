@@ -1,68 +1,48 @@
 const fs = require('fs');
-const path = '/Users/samyuan/.openclaw/workspace/the-daily-object/src/data.ts';
+const path = 'src/data.ts';
 let content = fs.readFileSync(path, 'utf8');
 
-const newEntry = `  {
-    id: '96',
-    date: '2026-05-06',
-    imageUrl: '/the-daily-object/images/mollino-arabesco.jpg',
-    fullImageUrl: '/the-daily-object/images/full/mollino-arabesco.jpg',
-    title: 'Arabesco Table',
-    title_en: 'Arabesco Table',
-    subtitle: 'Carlo Mollino, 1950',
-    subtitle_en: 'Carlo Mollino, 1950',
-    category: 'industrial' as const,
-    designer: 'Carlo Mollino',
-    year: '1950',
-    tags: ['家具即雕塑', '有机形态先驱', '意大利设计传奇'],
-    tags_en: ['Furniture as Sculpture', 'Organic Form Pioneer', 'Italian Design Legend'],
+const entry = `  {
+    id: '171',
+    date: '2026-06-20',
+    imageUrl: '/the-daily-object/images/jaws-poster.jpg',
+    fullImageUrl: '/the-daily-object/images/full/jaws-poster.jpg',
+    title: 'Jaws 电影海报',
+    title_en: 'Jaws Movie Poster',
+    subtitle: 'Roger Kastel, 1975',
+    subtitle_en: 'Roger Kastel, 1975',
+    category: 'graphic' as const,
+    designer: 'Roger Kastel',
+    year: '1975',
+    tags: ['定义了恐惧美学', '史上最iconic海报', '开创大片视觉营销'],
+    tags_en: ['Defined the Aesthetics of Fear', 'Most Iconic Poster Ever', 'Pioneered Blockbuster Visual Marketing'],
 
-    dateConnection: \`1905年5月6日，Carlo Mollino出生于都灵。这座意大利工业之都——菲亚特的故乡——塑造了他对机械、速度和流线型的终身迷恋。Mollino后来成为20世纪最不可归类的设计天才：建筑师、家具设计师、赛车手、特技飞行员、摄影师、滑雪教练，所有身份汇聚成一种对曲线和运动的极致追求。\`,
-    designerBio: \`Carlo Mollino（1905–1973）是意大利设计史上最神秘、最不可复制的人物。他的父亲是都灵著名的土木工程师Eugenio Mollino，这让他从小就浸泡在结构力学的世界里。1931年从都灵理工大学建筑系毕业后，他没有走上传统建筑师的道路，而是开始了一场横跨所有创造性领域的冒险。
+    dateConnection: \`1975年6月20日，《大白鲨》在美国上映，成为电影史上第一部真正意义上的"暑期大片"。而那张海报——一条巨大的白鲨从深海直冲水面上游泳的女人——早在电影上映前就已经让整个美国不敢下水了。\`,
+    designerBio: \`Roger Kastel（1931-2023）是美国插画黄金时代的最后一批大师之一。他在纽约视觉艺术学院学习后，成为一名商业插画师，为数十部电影和书籍创作封面。但让他名垂青史的，是两张海报：《大白鲨》和《帝国反击战》。Kastel 的工作方式极度传统——他用油画颜料在画布上一笔一笔地画，在照片参考的基础上加入戏剧性的想象。为了画好那条鲨鱼，他多次前往纽约自然历史博物馆研究标本。\`,
+    story: \`这张海报的诞生本身就是一个传奇。最初，它是为 Peter Benchley 1974年小说的平装本封面而创作的。出版社给 Kastel 的要求很简单：一条鲨鱼和一个游泳者。但 Kastel 的处理方式让这个简单概念变成了永恒的恐惧图腾。
 
-他设计赛车并亲自驾驶参加比赛，他考取特技飞行执照在阿尔卑斯山上翻滚，他用宝丽来拍摄数千张超现实主义风格的女性肖像（死后才被发现），他还写了一本滑雪技术专著。但他最持久的遗产是家具——那些看起来不像是被"设计"出来、而像是从某种有机生命体中"生长"出来的桌椅。
+他选择了一个极端的垂直构图：画面底部是深不见底的黑暗海水，一条巨鲨张开血盆大口向上冲刺；画面顶部，一个毫不知情的女人在水面悠然游泳。两者之间巨大的空间制造了令人窒息的悬念——你知道即将发生什么，但你无法阻止。
 
-Mollino的设计方法极其独特：他从人体曲线、骨骼结构和航空工程中汲取灵感，用弯曲胶合板创造出前所未有的有机形态。他的每件家具都只生产极少数量，很多是为特定室内空间定制的孤品。\`,
-    story: \`1949年，Mollino为都灵的一间私人公寓设计了Arabesco桌。这不是一次普通的家具设计委托——它是Mollino试图证明一个极端命题的实验：**一张桌子可以成为一件雕塑，同时仍然是一张完美的桌子。**
+当 Steven Spielberg 和环球影业看到这张插画时，立即决定将它用作电影海报，几乎未做修改。这在电影史上极为罕见——一张书籍封面直接成为了电影的视觉标识。海报的成功不仅在于它的恐怖感，更在于它的极简：没有演员照片，没有复杂场景，只有一个原始的、本能的恐惧画面。
 
-Arabesco的底座由弯曲的枫木胶合板制成，两片有机形态的支撑结构像一对展开的翅膀或两具交缠的躯体，通过黄铜螺栓连接。桌面是两块不规则形状的玻璃，上下错落悬浮。整件作品没有一条直线。
+这张海报彻底改变了电影营销的方式。在此之前，电影海报通常是演员肖像或场景拼贴；在此之后，"一个强烈的视觉概念"成为了大片海报的黄金法则。从《异形》到《侏罗纪公园》，无数经典海报都沿袭了 Jaws 开创的路径。\`,
+    legacy: \`这张海报的影响远超电影行业。它证明了一个强大的视觉形象可以独立于作品本身产生文化影响力——很多从未看过《大白鲨》的人也能立刻认出这个画面。它开创了"高概念"视觉营销的先河，影响了此后50年的广告、海报和品牌设计。Roger Kastel 的原画如今被视为美国插画艺术的重要文物，曾在奥斯卡博物馆的"Jaws: The Exhibition"中展出。\`,
+    significance: \`在平面设计史上，Jaws 海报是"少即是多"的终极证明。一个画面、一个概念、零文字装饰——却传递了比任何复杂设计都强烈的情感冲击。它教会了整整一代设计师：最好的视觉传达不是告诉观众一切，而是让他们自己想象那个"即将发生"的瞬间。\`,
 
-这种形态的灵感来源复杂：部分来自超现实主义雕塑家Jean Arp的生物形态抽象，部分来自Mollino对人体解剖学的痴迷，部分来自他在飞行中观察到的气流动力学曲线。他曾说："一切都是情色的，如果一切都是有生命力的。"这句话解释了Arabesco那种令人不安的生命感——它看起来不像是静止的家具，而像是某个瞬间被凝固的运动。
+    dateConnection_en: \`On June 20, 1975, Jaws opened in theaters across America, becoming cinema's first true summer blockbuster. But the poster — a massive great white shark surging upward toward an oblivious swimmer — had already terrified the nation long before anyone set foot in a theater.\`,
+    designerBio_en: \`Roger Kastel (1931–2023) was one of the last masters of America's golden age of illustration. After studying at New York's School of Visual Arts, he became a prolific commercial illustrator creating covers for dozens of films and books. But two posters immortalized him: Jaws and The Empire Strikes Back. Kastel worked in the most traditional manner possible — oil paint on canvas, building upon photographic reference with dramatic imagination. To get the shark right, he made multiple visits to the American Museum of Natural History to study specimens up close.\`,
+    story_en: \`The poster's origin is itself legendary. It was initially created as the cover for Peter Benchley's 1974 paperback novel. The publisher's brief was simple: a shark and a swimmer. But Kastel's execution transformed this basic concept into an eternal totem of fear.
 
-制造过程同样激进。都灵的Apelli & Varesio工坊用手工将多层枫木板压制弯曲成Mollino要求的精确曲线，总共只生产了大约六件。每一件的曲线都有细微差异——这不是工业产品，而是手工艺品。
+He chose an extreme vertical composition: at the bottom, impenetrable dark water from which a massive shark lunges upward with jaws agape; at the top, an oblivious woman swimming serenely at the surface. The vast space between them creates suffocating suspense — you know what's about to happen, but you cannot stop it.
 
-2005年，一件原版Arabesco在佳士得拍卖会上以380万美元成交，创下当时意大利设计家具的世界纪录。这个价格说明了一件事：Mollino的作品已经超越了"家具"的范畴，进入了"艺术品"的市场。\`,
-    legacy: \`Arabesco桌被纽约现代艺术博物馆（MoMA）、伦敦维多利亚与阿尔伯特博物馆（V&A）和都灵的Museo Casa Mollino永久收藏。2005年的拍卖纪录让Mollino成为20世纪身价最高的家具设计师之一。
+When Steven Spielberg and Universal saw the illustration, they immediately decided to use it as the film's poster with virtually no modifications. This is extraordinarily rare in cinema history — a book cover becoming a film's entire visual identity. The poster's power lies not just in its horror, but in its minimalism: no actor headshots, no complex scenes, just one primal, instinctive image of fear.
 
-更重要的是，Arabesco预示了一种设计哲学的到来：家具不必是几何的、理性的、工业化的。在密斯·凡·德·罗的直线钢管和包豪斯的功能主义统治设计界的年代，Mollino用弯曲的木头和玻璃证明了另一条路——有机的、感性的、不可复制的。这条路后来影响了从Zaha Hadid到Ross Lovegrove的整整一代追求有机形态的设计师。
-
-意大利家具品牌Zanotta在1980年代获得授权复刻Arabesco，至今仍在生产。但原版的那种手工痕迹——木纹的微妙差异、黄铜连接件的氧化色泽——是复刻版永远无法复制的。\`,
-    significance: \`在设计史的叙事中，20世纪中期通常被包豪斯和国际主义风格的理性几何所定义。Mollino的Arabesco是对这一正统最有力的反叛：它证明现代设计不必是冰冷的直线条，弯曲的有机形态同样可以是严谨的、结构合理的、功能完善的。这不是对现代主义的否定，而是对它的扩展——现代性不只有一种面貌。\`,
-
-    dateConnection_en: \`On May 6, 1905, Carlo Mollino was born in Turin — Italy's industrial capital and home of Fiat — a city that shaped his lifelong obsession with mechanics, speed, and streamlined form. Mollino became one of the twentieth century's most unclassifiable creative geniuses: architect, furniture designer, racing driver, aerobatic pilot, photographer, and ski instructor, all converging into an extreme pursuit of curves and motion.\`,
-    designerBio_en: \`Carlo Mollino (1905–1973) remains the most enigmatic, irreplicable figure in Italian design history. His father, Eugenio Mollino, was a prominent Turin civil engineer, immersing Carlo in the world of structural mechanics from childhood. After graduating from Turin Polytechnic's architecture program in 1931, he eschewed the conventional architect's path and embarked on an adventure spanning every creative discipline.
-
-He designed racing cars and drove them in competition. He earned an aerobatic flying license and performed stunts over the Alps. He took thousands of Surrealist-inflected Polaroid portraits of women — discovered only after his death. He even authored a technical manual on skiing. But his most enduring legacy is furniture — pieces that appear not so much "designed" as grown from some organic life form.
-
-Mollino's design method was unique: he drew inspiration from human anatomy, skeletal structures, and aeronautical engineering, using bent plywood to create unprecedented organic forms. Each piece was produced in extremely limited quantities, many as one-off commissions for specific interiors.\`,
-    story_en: \`In 1949, Mollino designed the Arabesco table for a private apartment in Turin. This was no ordinary furniture commission — it was Mollino's experiment to prove an extreme proposition: **a table can be a sculpture while remaining a perfectly functional table.**
-
-The base is made of bent maple plywood, with two organic support structures spreading like unfurled wings or intertwined bodies, joined by brass bolts. The top consists of two irregularly shaped glass panels, staggered and seemingly suspended. The entire piece contains not a single straight line.
-
-The formal inspirations were complex: partly from Surrealist sculptor Jean Arp's biomorphic abstractions, partly from Mollino's obsession with human anatomy, and partly from the aerodynamic curves he observed while flying. He once said: "Everything is erotic, if everything is alive." This explains the Arabesco's unsettling sense of life — it looks not like static furniture but like motion frozen in a single instant.
-
-The manufacturing process was equally radical. Turin's Apelli & Varesio workshop hand-pressed multiple layers of maple veneer into Mollino's precisely specified curves, producing only about six pieces total. Each had slight variations in its curves — this was not an industrial product but a craft object.
-
-In 2005, an original Arabesco sold at Christie's for $3.8 million, setting a world record for Italian design furniture at the time. That price confirmed something: Mollino's work had transcended the category of "furniture" and entered the market of "fine art."\`,
-    legacy_en: \`The Arabesco table is in the permanent collections of MoMA in New York, the Victoria and Albert Museum in London, and the Museo Casa Mollino in Turin. The 2005 auction record made Mollino one of the highest-valued furniture designers of the twentieth century.
-
-More importantly, the Arabesco heralded an emerging design philosophy: furniture need not be geometric, rational, or industrialized. In an era dominated by Mies van der Rohe's steel tubes and Bauhaus functionalism, Mollino used bent wood and glass to prove another path — organic, sensual, irreplicable. That path would later influence an entire generation of designers pursuing organic forms, from Zaha Hadid to Ross Lovegrove.
-
-Italian furniture brand Zanotta received authorization to reproduce the Arabesco in the 1980s and continues production today. But the handcraft traces of the originals — subtle grain variations, the oxidized patina of the brass fittings — can never be replicated.\`,
-    significance_en: \`In the narrative of design history, the mid-twentieth century is typically defined by the rational geometry of Bauhaus and the International Style. Mollino's Arabesco stands as the most powerful rebellion against that orthodoxy: it proved that modern design need not be cold straight lines — curved organic forms could be equally rigorous, structurally sound, and functionally complete. This was not a rejection of Modernism but an expansion of it — modernity has more than one face.\`,
+This poster completely transformed film marketing. Before Jaws, movie posters typically featured actor portraits or scene collages; after Jaws, "one powerful visual concept" became the golden rule of blockbuster poster design. From Alien to Jurassic Park, countless iconic posters followed the path Jaws pioneered.\`,
+    legacy_en: \`The poster's influence extends far beyond cinema. It proved that a powerful visual image can generate cultural impact independent of the work itself — millions who have never seen the film instantly recognize this image. It pioneered "high-concept" visual marketing, influencing fifty years of advertising, poster, and brand design. Kastel's original painting is now considered a significant artifact of American illustration art, featured in the Academy Museum's "Jaws: The Exhibition."\`,
+    significance_en: \`In the history of graphic design, the Jaws poster is the ultimate proof that less is more. One image, one concept, zero decorative text — yet it delivers a more powerful emotional punch than any complex design could achieve. It taught an entire generation of designers that the best visual communication doesn't tell the audience everything — it makes them imagine the moment that's "about to happen."\`,
   },`;
 
-// Replace the closing ] with new entry + ]
-content = content.replace(/  },\n\]$/, `  },\n${newEntry}\n]`);
-fs.writeFileSync(path, content, 'utf8');
+// Replace the final ] with new entry + ]
+content = content.replace(/\n\]\s*$/, '\n' + entry + '\n]');
+fs.writeFileSync(path, content);
 console.log('Entry added successfully');
