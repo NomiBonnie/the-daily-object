@@ -9072,4 +9072,55 @@ This poster completely transformed film marketing. Before Jaws, movie posters ty
     legacy_en: `The poster's influence extends far beyond cinema. It proved that a powerful visual image can generate cultural impact independent of the work itself — millions who have never seen the film instantly recognize this image. It pioneered "high-concept" visual marketing, influencing fifty years of advertising, poster, and brand design. Kastel's original painting is now considered a significant artifact of American illustration art, featured in the Academy Museum's "Jaws: The Exhibition."`,
     significance_en: `In the history of graphic design, the Jaws poster is the ultimate proof that less is more. One image, one concept, zero decorative text — yet it delivers a more powerful emotional punch than any complex design could achieve. It taught an entire generation of designers that the best visual communication doesn't tell the audience everything — it makes them imagine the moment that's "about to happen."`,
   },
+  {
+    id: '172',
+    date: '2026-06-21',
+    imageUrl: '/the-daily-object/images/the-matrix.jpg',
+    fullImageUrl: '/the-daily-object/images/full/the-matrix.jpg',
+    title: 'The Matrix',
+    title_en: 'The Matrix',
+    subtitle: 'Lana & Lilly Wachowski, 1999',
+    subtitle_en: 'Lana & Lilly Wachowski, 1999',
+    category: 'film' as const,
+    designer: 'Wachowski 姐妹',
+    year: '1999',
+    tags: ['重新定义视觉语言', '改变了动作电影美学', '数字时代的设计图腾'],
+    tags_en: ['Redefined Visual Language', 'Transformed Action Cinema Aesthetics', 'Design Totem of the Digital Age'],
+
+    dateConnection: `1965年6月21日，Lana Wachowski 出生于芝加哥。34年后，她与妹妹 Lilly 共同创造了《黑客帝国》——一部彻底重写了电影视觉设计规则的作品。从绿色代码雨到子弹时间，从黑色皮革长风衣到镜面墨镜，这部电影构建了一整套前所未有的视觉系统，至今仍是「未来感」的设计原型。`,
+    designerBio: `Lana Wachowski（1965—）和 Lilly Wachowski（1967—）是美国电影导演、编剧和制片人。姐妹俩在芝加哥长大，深受漫画、动画、哲学和香港动作电影的影响。在进入电影行业前，她们从事过木工、油漆和建筑工作——这种对物质空间的理解深刻影响了她们后来对电影空间的构建方式。
+
+《黑客帝国》之前，她们执导了新黑色风格惊悚片《惊世乐团》（Bound, 1996），展现了对视觉叙事的天赋。但真正让她们名垂影史的是对「虚拟现实」这个概念的视觉化表达——她们不只是讲了一个关于模拟世界的故事，而是发明了一整套视觉语言来呈现它。`,
+    story: `《黑客帝国》的视觉设计是一个完整的世界观系统，每一个视觉元素都承载着叙事意义。
+
+**绿色代码雨（Digital Rain）**：由视觉特效总监 John Gaeta 和制作设计师 Owen Paterson 共同开发的标志性画面——从屏幕顶部瀑布般倾泻而下的绿色字符。这些字符实际上是日文片假名、数字和拉丁字母的混合体，由 Simon Whiteley 手工设计。这个画面成为了「数字世界」最持久的视觉隐喻。
+
+**子弹时间（Bullet Time）**：120台静态相机环绕排列，在极短时间内依次触发，再通过数字插值合成——这项由 John Gaeta 开发的技术创造了时间暂停、镜头飞旋的超现实效果。它不只是特效，而是一种全新的视觉叙事语法。
+
+**服装设计**：Kym Barrett 为 Neo 设计的黑色长风衣、Trinity 的乳胶紧身衣、Morpheus 的鳄鱼皮大衣，共同构成了一个「数字反叛者」的着装美学。这套服装语言直接影响了2000年代的时尚趋势，从 Dior 到 Balenciaga 的秀场上都能看到它的影子。
+
+**色彩编码**：矩阵世界是冷绿色调，真实世界是蓝灰色调，这种系统性的色彩叙事在当时极为前卫，如今已成为科幻电影的标准手法。`,
+    legacy: `《黑客帝国》对视觉文化的影响几乎无法计量。「子弹时间」被无数电影、广告、游戏和MV模仿；绿色代码雨成为了「黑客」「编程」「数字世界」的通用视觉符号；黑色长风衣+墨镜的造型至今仍是流行文化中「酷」的标志性形象。
+
+更深远的影响在于：它教会了一代电影人，视觉设计不只是「好看」，而是可以承载哲学意义。绿色代表人工、蓝色代表真实、红色代表选择——这种将色彩作为叙事工具的方法论，被此后的无数导演和设计师采用。`,
+    significance: `在电影设计史上，《黑客帝国》是一个分水岭。它证明了视觉设计可以像剧本一样讲故事——每一帧的色温、每一件服装的材质、每一个特效的节奏，都在传递信息。它模糊了电影制作设计、时装设计、平面设计和界面设计之间的边界，创造了一种真正的「全设计」（Total Design）电影体验。二十五年后的今天，任何涉及「数字世界」「虚拟现实」「AI」的视觉呈现，都仍然活在《黑客帝国》的设计遗产之中。`,
+
+    dateConnection_en: `On June 21, 1965, Lana Wachowski was born in Chicago. Thirty-four years later, she and her sister Lilly created The Matrix — a film that completely rewrote the rules of cinematic visual design. From the green digital rain to bullet time, from black leather trench coats to mirrored sunglasses, this film constructed an unprecedented visual system that remains the design prototype for "the future."`,
+    designerBio_en: `Lana Wachowski (1965–) and Lilly Wachowski (1967–) are American film directors, writers, and producers. The sisters grew up in Chicago, deeply influenced by comics, anime, philosophy, and Hong Kong action cinema. Before entering the film industry, they worked in carpentry, house painting, and construction — this understanding of physical space profoundly shaped their later approach to constructing cinematic space.
+
+Before The Matrix, they directed the neo-noir thriller Bound (1996), demonstrating their gift for visual storytelling. But what cemented their place in film history was their visualization of "virtual reality" — they didn't just tell a story about a simulated world, they invented an entire visual language to present it.`,
+    story_en: `The Matrix's visual design is a complete worldview system, where every visual element carries narrative meaning.
+
+**Digital Rain**: The iconic cascade of green characters falling from the top of the screen — developed by VFX supervisor John Gaeta and production designer Owen Paterson. The characters are actually a mix of Japanese katakana, numerals, and Latin letters, hand-designed by Simon Whiteley. This image became the most enduring visual metaphor for "the digital world."
+
+**Bullet Time**: 120 still cameras arranged in an arc, triggered in rapid succession, then digitally interpolated — this technique developed by John Gaeta created a surreal effect of frozen time with a flying camera. It wasn't just a special effect; it was an entirely new grammar of visual storytelling.
+
+**Costume Design**: Kym Barrett's designs — Neo's black trench coat, Trinity's latex catsuit, Morpheus's alligator-skin overcoat — collectively created an aesthetic vocabulary for "digital rebels." This sartorial language directly influenced 2000s fashion trends, echoing through Dior and Balenciaga runways.
+
+**Color Coding**: The Matrix world is rendered in cold green tones, the real world in blue-gray. This systematic color narrative was revolutionary at the time and has since become standard practice in science fiction cinema.`,
+    legacy_en: `The Matrix's impact on visual culture is nearly immeasurable. Bullet time has been replicated in countless films, commercials, games, and music videos. The green digital rain became the universal visual symbol for "hacking," "coding," and "the digital world." The black trench coat and sunglasses ensemble remains pop culture's iconic image of "cool."
+
+The deeper legacy lies in what it taught a generation of filmmakers: visual design isn't just about looking good — it can carry philosophical meaning. Green for artificial, blue for real, red for choice — this methodology of using color as a narrative tool has been adopted by countless directors and designers since.`,
+    significance_en: `In the history of film design, The Matrix is a watershed moment. It proved that visual design can tell stories as powerfully as a screenplay — every frame's color temperature, every costume's texture, every effect's rhythm communicates meaning. It blurred the boundaries between production design, fashion design, graphic design, and interface design, creating a truly "Total Design" cinematic experience. Twenty-five years later, any visual representation involving "digital worlds," "virtual reality," or "AI" still lives within The Matrix's design legacy.`,
+  },
 ]
