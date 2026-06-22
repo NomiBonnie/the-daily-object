@@ -9123,4 +9123,59 @@ Before The Matrix, they directed the neo-noir thriller Bound (1996), demonstrati
 The deeper legacy lies in what it taught a generation of filmmakers: visual design isn't just about looking good — it can carry philosophical meaning. Green for artificial, blue for real, red for choice — this methodology of using color as a narrative tool has been adopted by countless directors and designers since.`,
     significance_en: `In the history of film design, The Matrix is a watershed moment. It proved that visual design can tell stories as powerfully as a screenplay — every frame's color temperature, every costume's texture, every effect's rhythm communicates meaning. It blurred the boundaries between production design, fashion design, graphic design, and interface design, creating a truly "Total Design" cinematic experience. Twenty-five years later, any visual representation involving "digital worlds," "virtual reality," or "AI" still lives within The Matrix's design legacy.`,
   },
+  {
+    id: '173',
+    date: '2026-06-22',
+    imageUrl: '/the-daily-object/images/wangechi-mutu-the-newones.jpg',
+    fullImageUrl: '/the-daily-object/images/full/wangechi-mutu-the-newones.jpg',
+    title: 'The NewOnes, will free Us',
+    title_en: 'The NewOnes, will free Us',
+    subtitle: 'Wangechi Mutu, 2019',
+    subtitle_en: 'Wangechi Mutu, 2019',
+    category: 'art' as const,
+    designer: 'Wangechi Mutu',
+    year: '2019',
+    tags: ['重塑古典雕塑传统', '大都会首个外立面委托', '非洲未来主义先驱'],
+    tags_en: ['Reinvented Classical Sculpture', 'First Met Facade Commission', 'Afrofuturism Pioneer'],
+
+    dateConnection: `1972年6月22日，Wangechi Mutu 出生于肯尼亚内罗毕。47年后，她成为大都会艺术博物馆150年历史上第一位在其第五大道外立面壁龛中安置雕塑的艺术家——那四个自1902年博物馆正面建成以来就空着的壁龛，等了一百多年才迎来它们的守护者。`,
+    designerBio: `Wangechi Mutu（1972—）是肯尼亚裔美国艺术家，横跨雕塑、拼贴画、绘画、影像和装置等多种媒介。她在内罗毕长大，先后就读于联合世界书院（威尔士）、纽约帕森斯设计学院和耶鲁大学艺术学院。
+
+她的作品始终围绕一个核心命题：女性身体作为权力、文化与自然的交汇点。她拒绝将非洲艺术框定在「传统」或「部落」的标签下，而是用混合媒材——杂志碎片、树脂、青铜、珍珠、泥土——创造出既古老又未来的混血形象。MoMA、Whitney、Tate、新美术馆和大都会博物馆都有她的永久收藏。
+
+Mutu 的独特之处在于她对材料的理解：她把雕塑看作是身体的延伸，每一种材质都承载着历史——青铜连接着贝宁王国的铸造传统，树脂暗示着工业化的侵蚀，泥土则回到了最原始的造物隐喻。`,
+    story: `2019年9月，大都会博物馆外立面出现了四尊前所未有的雕像。
+
+The NewOnes, will free Us 由四尊青铜雕塑组成——The Seated I、II、III 和 IV——分别安放在博物馆第五大道正面的四个壁龛中。这些壁龛自1902年 Richard Morris Hunt 设计的新古典主义立面建成以来，从未被使用过。一百多年来，它们就那样空着，像四个悬而未决的问句。
+
+Mutu 给出的答案是四位「新型女像柱」（caryatid）。在古希腊建筑中，女像柱是以女性身体充当承重柱的雕塑形式——美丽的身体被建筑役使，沉默地承受着上方的重量。在非洲雕塑传统中，类似的坐姿女性形象则代表着神圣的女性力量——她们不是被迫承重，而是自愿坐镇。
+
+Mutu 的雕塑融合了两个传统，又颠覆了两个传统。她的女像柱由层层缠绕的青铜管状物构成，像是蛇、藤蔓、辫发和肠道的混合体。她们的头部嵌着光滑的圆盘或球体，既像面具又像另一个世界的面孔。她们端坐在壁龛中，姿态从容——不是被困在那里，而是选择在那里守护。
+
+制作过程同样充满意味：Mutu 先用纸浆、泥土和织物在工作室里塑造原型，再翻铸为青铜。这个从有机物到金属的转化过程，本身就是她想表达的主题——脆弱的、活的、女性的身体，被铸造成永恒的、不可摧毁的守护者。`,
+    legacy: `The NewOnes, will free Us 开创了大都会博物馆外立面委托的年度传统（The Met Facade Commission），此后每年邀请一位当代艺术家回应这座19世纪建筑。The Seated III 被沃斯堡现代艺术博物馆永久收藏。
+
+更深层的影响在于它重新定义了「纪念碑」的含义。当全球各地都在重新审视公共空间中的雕像——拆除殖民者铜像、质问谁有资格被纪念——Mutu 提供了一个不同的答案：不是替换旧英雄，而是创造全新的守护者形象。她的女像柱既不属于古希腊也不属于传统非洲，而是一种混血的、未来的、自由的女性形象。`,
+    significance: `在当代雕塑与公共艺术的交汇处，The NewOnes, will free Us 标志着一个转折点。它证明了当代艺术可以与古典建筑展开有意义的对话——不是对抗，不是装饰，而是完成。那四个空了一百多年的壁龛，终于等到了值得它们的作品。Mutu 用非洲未来主义的语言填补了西方古典建筑的空白，这个姿态本身就是一个关于文化对话、女性力量和时间的设计宣言。`,
+
+    dateConnection_en: `On June 22, 1972, Wangechi Mutu was born in Nairobi, Kenya. Forty-seven years later, she became the first artist in the Metropolitan Museum of Art's 150-year history to place sculptures in the facade niches on Fifth Avenue — four alcoves that had stood empty since the museum's Beaux-Arts front was completed in 1902, waiting over a century for their guardians.`,
+    designerBio_en: `Wangechi Mutu (1972–) is a Kenyan-American artist working across sculpture, collage, painting, video, and installation. She grew up in Nairobi and studied at United World College (Wales), Parsons School of Design in New York, and Yale University School of Art.
+
+Her work consistently revolves around a central proposition: the female body as an intersection of power, culture, and nature. She refuses to frame African art within labels of "traditional" or "tribal," instead using mixed media — magazine fragments, resin, bronze, pearls, earth — to create hybrid figures that are simultaneously ancient and futuristic. Her work is held in permanent collections at MoMA, Whitney, Tate, the New Museum, and the Metropolitan Museum of Art.
+
+What sets Mutu apart is her understanding of materials: she sees sculpture as an extension of the body, with every material carrying history — bronze connects to the casting traditions of the Benin Kingdom, resin suggests industrial erosion, and earth returns to the most primal metaphor of creation.`,
+    story_en: `In September 2019, four unprecedented figures appeared on the Metropolitan Museum's facade.
+
+The NewOnes, will free Us consists of four bronze sculptures — The Seated I, II, III, and IV — installed in the four niches of the museum's Fifth Avenue front. These niches had never been used since Richard Morris Hunt's Neoclassical facade was completed in 1902. For over a century, they simply stood empty, like four unanswered questions.
+
+Mutu's answer was four "new caryatids." In ancient Greek architecture, caryatids are sculptural forms where female bodies serve as load-bearing columns — beautiful bodies conscripted by architecture, silently bearing the weight above. In African sculptural traditions, similar seated female figures represent divine feminine power — they don't bear weight by force, but preside by choice.
+
+Mutu's sculptures merge both traditions while subverting both. Her caryatids are composed of layered, coiling bronze tubular forms, resembling a fusion of snakes, vines, braided hair, and viscera. Their heads feature smooth discs or spheres, reading simultaneously as masks and faces from another world. They sit in their niches with composed presence — not trapped there, but choosing to stand guard.
+
+The fabrication process itself carries meaning: Mutu first shaped prototypes in her studio using paper pulp, earth, and fabric, then cast them in bronze. This transformation from organic matter to metal embodies her central theme — vulnerable, living, female bodies cast into eternal, indestructible guardians.`,
+    legacy_en: `The NewOnes, will free Us inaugurated an annual tradition of facade commissions at the Metropolitan Museum (The Met Facade Commission), with a contemporary artist invited each year to respond to this 19th-century building. The Seated III was acquired for the permanent collection of the Modern Art Museum of Fort Worth.
+
+The deeper impact lies in redefining what "monument" means. As communities worldwide reexamine statues in public spaces — toppling colonial figures, questioning who deserves commemoration — Mutu offered a different answer: not replacing old heroes, but creating entirely new guardian figures. Her caryatids belong neither to ancient Greece nor to traditional Africa, but represent a hybrid, futuristic, liberated feminine form.`,
+    significance_en: `At the intersection of contemporary sculpture and public art, The NewOnes, will free Us marks a turning point. It proved that contemporary art can engage in meaningful dialogue with classical architecture — not in opposition, not as decoration, but as completion. Those four niches, empty for over a century, finally received works worthy of them. Mutu filled the gaps in Western classical architecture with the language of Afrofuturism — a gesture that is itself a design manifesto about cultural dialogue, feminine power, and time.`,
+  },
 ]
