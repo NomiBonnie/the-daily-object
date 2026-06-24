@@ -9229,4 +9229,54 @@ Its deeper impact was social. The typewriter's proliferation directly created mo
 The QWERTY layout itself became the most classic example of "path dependency" in design: a layout born to solve a 19th-century mechanical problem remains unshakably dominant in the digital age, long after the mechanical constraints have vanished.`,
     significance_en: `From a design perspective, the Sholes & Glidden Type-Writer represents the most extreme case of "design decision persistence" in industrial history. The QWERTY layout has survived mechanical typewriters, electric typewriters, personal computers, laptops, and smartphone touchscreens — every technological revolution has failed to dislodge it. This isn't mere inertia; it's a perfect example of how a design decision achieves self-reinforcement through its training ecosystem (typing education, muscle memory).`,
   },
+  {
+    id: '24',
+    date: '2026-06-24',
+    imageUrl: '/the-daily-object/images/iphone-4.jpg',
+    fullImageUrl: '/the-daily-object/images/full/iphone-4.jpg',
+    title: 'iPhone 4',
+    title_en: 'iPhone 4',
+    subtitle: 'Jony Ive / Apple, 2010',
+    subtitle_en: 'Jony Ive / Apple, 2010',
+    category: 'industrial' as const,
+    designer: 'Jony Ive',
+    year: '2010',
+    tags: ['重新定义手机美学', '玻璃三明治结构先驱', '改变了整个消费电子'],
+    tags_en: ['Redefined Phone Aesthetics', 'Glass Sandwich Pioneer', 'Transformed Consumer Electronics'],
+
+    dateConnection: `2010年6月24日，iPhone 4 正式发售。Steve Jobs 在三周前的 WWDC 上将它称为"我们做过的最美的东西"——这不是营销话术，而是对一次设计范式转移的准确描述。这一天，全球消费者第一次握住了一块精密切割的不锈钢与玻璃构成的"三明治"，智能手机从此不再只是工具，而是一件精密的工业设计品。`,
+    dateConnection_en: `On June 24, 2010, the iPhone 4 went on sale. Three weeks earlier at WWDC, Steve Jobs called it "the most beautiful thing we've ever made" — not marketing hyperbole, but an accurate description of a design paradigm shift. On this day, consumers worldwide first held a precision-machined "sandwich" of stainless steel and glass, and the smartphone ceased to be merely a tool — it became a piece of fine industrial design.`,
+
+    designerBio: `Jony Ive 在 Apple 的设计语言演化中，iPhone 4 是一个分水岭。此前的 iPhone 3G/3GS 延续了塑料曲面的设计语言——圆润、亲切、但缺乏精密感。Ive 的团队用 iPhone 4 完成了一次大胆的转向：从有机曲线走向几何精确，从塑料走向玻璃与金属。
+
+这种转变并非突然发生。Ive 长期痴迷于 Dieter Rams 的设计哲学——"少即是多"，材料诚实，结构即装饰。iPhone 4 是这种哲学在移动设备上的极致表达：外露的不锈钢边框既是天线又是结构件，没有多余的装饰线条，每一个可见元素都承担功能。`,
+    designerBio_en: `In the evolution of Apple's design language, the iPhone 4 marks a watershed moment. The preceding iPhone 3G/3GS followed a plastic, curved design vocabulary — friendly and approachable, but lacking precision. Ive's team executed a bold pivot: from organic curves to geometric exactitude, from plastic to glass and metal.
+
+This transformation didn't happen overnight. Ive had long been obsessed with Dieter Rams's design philosophy — "less but better," material honesty, structure as ornament. The iPhone 4 was the ultimate expression of this philosophy in a mobile device: the exposed stainless steel band served simultaneously as antenna and structural frame, with no superfluous decorative lines — every visible element carried function.`,
+
+    story: `iPhone 4 的设计故事始于一个工程上的"不可能"：把玻璃用作手机的前后面板。当时业界普遍认为玻璃太脆弱、太重、太贵，不适合做手机外壳。但 Ive 的团队与康宁合作，采用化学强化的铝硅酸盐玻璃（后来被命名为 Gorilla Glass），让这个"不可能"变成了现实。
+
+**不锈钢边框是整个设计最大胆的决策。** 这条仅 9.3mm 厚的精密加工金属带，既是手机的结构骨架，又是射频天线——天线被分割成几段，通过细小的缝隙分隔。这个设计后来引发了"天线门"争议（握住某个位置会影响信号），但从纯设计角度看，它实现了前所未有的结构统一性：你看到的就是全部，没有隐藏的塑料天线窗，没有装饰性的假缝。
+
+9.3mm 的厚度在当时是全球最薄的智能手机。前后双面玻璃让它在灯光下像一块精心切割的宝石，不锈钢边框的倒角在不同角度折射出细腻的光线变化。这种"精密珠宝感"此前只属于瑞士手表，从未出现在消费电子产品上。`,
+    story_en: `The iPhone 4's design story began with an engineering "impossibility": using glass as both front and back panels of a phone. The industry consensus was that glass was too fragile, too heavy, too expensive for a phone enclosure. But Ive's team partnered with Corning, employing chemically strengthened aluminosilicate glass (later branded Gorilla Glass), turning the "impossible" into reality.
+
+**The stainless steel band was the design's boldest decision.** This precision-machined metal strip, just 9.3mm thin, served simultaneously as structural skeleton and RF antenna — divided into segments by tiny gaps. This later triggered the "Antennagate" controversy (gripping certain spots attenuated signal), but from a pure design perspective, it achieved unprecedented structural unity: what you see is everything, no hidden plastic antenna windows, no decorative fake seams.
+
+At 9.3mm, it was the world's thinnest smartphone. The dual glass panels caught light like a precision-cut gemstone, while the chamfered stainless steel edges refracted subtle light variations at different angles. This "precision jewelry" quality had previously belonged only to Swiss watches — never before seen in consumer electronics.`,
+
+    legacy: `iPhone 4 对工业设计的影响是地震级的。它确立了"玻璃+金属三明治"作为高端智能手机的设计范式——这个范式统治了此后十五年的整个行业。三星、华为、小米，每一家厂商的旗舰机都在回应 iPhone 4 建立的审美标准。
+
+更深远的影响在于它改变了人们对"手机是什么"的认知。在 iPhone 4 之前，手机是塑料消费品；在它之后，手机是精密工业设计品。它让"工业设计"这个词第一次大规模进入普通消费者的意识——人们开始讨论手机的"手感"、"材质"、"工艺"，而不仅仅是功能参数。`,
+    legacy_en: `The iPhone 4's impact on industrial design was seismic. It established "glass + metal sandwich" as the design paradigm for premium smartphones — a paradigm that has dominated the entire industry for fifteen years since. Samsung, Huawei, Xiaomi — every manufacturer's flagship responds to the aesthetic standard iPhone 4 set.
+
+The deeper impact was transforming how people perceive "what a phone is." Before iPhone 4, phones were plastic consumer goods; after it, phones were precision industrial design objects. It brought "industrial design" into mainstream consumer consciousness for the first time — people began discussing a phone's "feel," "materials," and "craftsmanship," not just spec sheets.`,
+
+    significance: `从设计史的角度看，iPhone 4 是少数几个能与 Braun T3 收音机、Olivetti Valentine 打字机并列的消费电子设计里程碑。它证明了在大规模量产的约束下，极致的设计精度不仅可能，而且能成为产品最核心的竞争力。
+
+它也改写了设计师的角色定义。在 iPhone 4 之后，"首席设计官"成为科技公司的标配高管头衔，设计团队从边缘走向核心决策层。Jony Ive 凭借这款产品确立了"设计师即战略家"的行业共识。`,
+    significance_en: `From a design history perspective, the iPhone 4 stands alongside the Braun T3 radio and Olivetti Valentine typewriter as one of the few true consumer electronics design milestones. It proved that under mass-production constraints, extreme design precision is not only possible but can become a product's core competitive advantage.
+
+It also rewrote the definition of the designer's role. After iPhone 4, "Chief Design Officer" became standard C-suite vocabulary at tech companies, and design teams moved from periphery to core decision-making. With this product, Jony Ive established the industry consensus that "designer as strategist" was not aspiration but necessity.`,
+  },
 ]
