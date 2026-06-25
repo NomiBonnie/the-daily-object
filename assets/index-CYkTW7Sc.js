@@ -5253,7 +5253,31 @@ The deeper impact was transforming how people perceive "what a phone is." Before
 
 它也改写了设计师的角色定义。在 iPhone 4 之后，"首席设计官"成为科技公司的标配高管头衔，设计团队从边缘走向核心决策层。Jony Ive 凭借这款产品确立了"设计师即战略家"的行业共识。`,significance_en:`From a design history perspective, the iPhone 4 stands alongside the Braun T3 radio and Olivetti Valentine typewriter as one of the few true consumer electronics design milestones. It proved that under mass-production constraints, extreme design precision is not only possible but can become a product's core competitive advantage.
 
-It also rewrote the definition of the designer's role. After iPhone 4, "Chief Design Officer" became standard C-suite vocabulary at tech companies, and design teams moved from periphery to core decision-making. With this product, Jony Ive established the industry consensus that "designer as strategist" was not aspiration but necessity.`}];/**
+It also rewrote the definition of the designer's role. After iPhone 4, "Chief Design Officer" became standard C-suite vocabulary at tech companies, and design teams moved from periphery to core decision-making. With this product, Jony Ive established the industry consensus that "designer as strategist" was not aspiration but necessity.`},{id:"147",date:"2026-06-25",imageUrl:"/the-daily-object/images/casa-batllo.jpg",fullImageUrl:"/the-daily-object/images/full/casa-batllo.jpg",title:"Casa Batlló",title_en:"Casa Batlló",subtitle:"Antoni Gaudí, 1906",subtitle_en:"Antoni Gaudí, 1906",category:"architecture",designer:"Antoni Gaudí",year:"1906",tags:["有机建筑先驱","新艺术运动巅峰","改变了建筑想象力"],tags_en:["Organic Architecture Pioneer","Art Nouveau Pinnacle","Redefined Architectural Imagination"],dateConnection:'1852年6月25日，Antoni Gaudí 出生于西班牙加泰罗尼亚的雷乌斯。这位被后世称为"上帝的建筑师"的天才，用一生证明了建筑可以像自然一样生长——没有直线，没有直角，只有流动、呼吸、活着的形态。',dateConnection_en:`On June 25, 1852, Antoni Gaudí was born in Reus, Catalonia, Spain. This genius, later called "God's Architect," spent his lifetime proving that buildings could grow like nature — no straight lines, no right angles, only flowing, breathing, living forms.`,designerBio:`Gaudí 从小患有风湿病，无法像其他孩子一样奔跑玩耍，只能观察自然。这段被迫静止的童年反而成为他设计语言的源头——他比任何人都更仔细地看过树枝如何分叉、骨骼如何承重、贝壳如何螺旋。
+
+他一生几乎只在巴塞罗那工作，却创造了无法被归类的建筑语言。他不属于任何流派——新艺术运动无法完全容纳他，表现主义也不能定义他。他就是他自己：一个从自然中提取结构逻辑的孤独天才。`,designerBio_en:`Gaudí suffered from rheumatism as a child, unable to run and play like other children, forced instead to observe nature. This involuntary stillness became the source of his design language — he studied more carefully than anyone how branches fork, how bones bear weight, how shells spiral.
+
+He worked almost exclusively in Barcelona, yet created an architectural language that defies categorization. He belonged to no movement — Art Nouveau couldn't fully contain him, Expressionism couldn't define him. He was simply himself: a solitary genius who extracted structural logic from nature.`,story:`Casa Batlló 的改造始于1904年，纺织业巨头 Josep Batlló 买下这栋平庸的公寓楼，委托 Gaudí 将其"推倒重建"。Gaudí 说：不必推倒，我会让它活过来。
+
+**外立面是一场关于光与色的实验。** Gaudí 用回收的碎陶片和彩色玻璃覆盖整个墙面，从底部的深蓝渐变到顶部的浅绿，模拟地中海从深海到浅滩的色彩过渡。每一块碎片的角度都经过计算——随着日光移动，建筑表面会像水面一样闪烁变幻。
+
+**屋顶是一条龙的脊背。** 那条起伏的彩色陶瓷屋脊就是龙的嵴柱，十字架塔尖是圣乔治刺入龙身的长矛。整栋建筑讲述着加泰罗尼亚守护圣人屠龙的传说——但 Gaudí 没有用任何文字或符号，完全用建筑形态本身叙事。
+
+**内部的天井是另一个天才细节。** 为了让每层都获得均匀光线，Gaudí 从上到下渐变瓷砖颜色——顶层深蓝（反射多余光线），底层白色（最大化反射）。窗户也从上到下逐渐增大。这不是装饰，是用色彩和尺度精确控制光的分布。`,story_en:`The transformation of Casa Batlló began in 1904 when textile magnate Josep Batlló purchased this unremarkable apartment building and commissioned Gaudí to "tear it down and rebuild." Gaudí replied: no need to demolish — I'll bring it to life.
+
+**The facade is an experiment in light and color.** Gaudí covered the entire surface with recycled ceramic fragments and colored glass, graduating from deep blue at the bottom to pale green at the top, simulating the Mediterranean's color transition from deep sea to shallows. Every fragment's angle was calculated — as sunlight moves, the building's surface shimmers and shifts like water.
+
+**The roof is a dragon's spine.** That undulating ceramic ridge is the dragon's vertebral column, the cross-topped tower is Saint George's lance plunged into the beast. The entire building narrates Catalonia's patron saint slaying the dragon — but Gaudí used no words or symbols, telling the story purely through architectural form.
+
+**The interior light well is another stroke of genius.** To give every floor even illumination, Gaudí graduated tile colors from top to bottom — deep blue above (reflecting excess light), white below (maximizing reflection). Windows also progressively enlarge downward. This isn't decoration — it's precise light distribution controlled through color and scale.`,legacy:`Casa Batlló 在2005年被列为 UNESCO 世界文化遗产。它证明了一个激进的命题：建筑不必是几何体的堆叠，它可以是有机的、叙事的、活着的。
+
+它对后世的影响远超新艺术运动的范畴。从 Frank Gehry 的流动金属到 Zaha Hadid 的参数化曲面，从 Santiago Calatrava 的仿生结构到 MAD 的山水建筑——每一位试图打破直线霸权的建筑师，都在回应 Gaudí 一百多年前提出的那个问题：如果建筑像自然一样生长，会是什么样？`,legacy_en:`Casa Batlló was designated a UNESCO World Heritage Site in 2005. It proved a radical proposition: architecture need not be a stack of geometric volumes — it can be organic, narrative, alive.
+
+Its influence extends far beyond Art Nouveau. From Frank Gehry's flowing metals to Zaha Hadid's parametric surfaces, from Santiago Calatrava's biomorphic structures to MAD's landscape-architecture — every architect who has tried to break the tyranny of straight lines is responding to the question Gaudí posed over a century ago: what if buildings grew like nature?`,significance:`在设计史的语境中，Casa Batlló 是"形式追随自然"这一理念最极致的物质化身。它不是在建筑表面贴上自然纹样（那是 Art Nouveau 的普遍做法），而是让建筑的结构、空间、光线分布都遵循自然的逻辑。
+
+它也是"全设计"（Gesamtkunstwerk）理念的完美实践——从门把手到天花板、从通风口到楼梯扶手，每一个细节都由 Gaudí 亲自设计，没有一处是随意的。这种对整体性的偏执追求，在一百年后成为 Apple 设计哲学的核心。`,significance_en:`In design history, Casa Batlló is the most extreme materialization of "form follows nature." It doesn't merely apply natural patterns to a building's surface (the common Art Nouveau approach), but makes the building's structure, space, and light distribution all follow nature's logic.
+
+It's also a perfect realization of the Gesamtkunstwerk (total work of art) — from door handles to ceilings, from ventilation grates to staircase railings, every detail was personally designed by Gaudí, nothing arbitrary. This obsessive pursuit of holistic unity became, a century later, the core of Apple's design philosophy.`}];/**
  * @license lucide-react v0.563.0 - ISC
  *
  * This source code is licensed under the ISC license.
