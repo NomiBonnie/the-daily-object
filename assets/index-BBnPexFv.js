@@ -5277,7 +5277,41 @@ Its influence extends far beyond Art Nouveau. From Frank Gehry's flowing metals 
 
 它也是"全设计"（Gesamtkunstwerk）理念的完美实践——从门把手到天花板、从通风口到楼梯扶手，每一个细节都由 Gaudí 亲自设计，没有一处是随意的。这种对整体性的偏执追求，在一百年后成为 Apple 设计哲学的核心。`,significance_en:`In design history, Casa Batlló is the most extreme materialization of "form follows nature." It doesn't merely apply natural patterns to a building's surface (the common Art Nouveau approach), but makes the building's structure, space, and light distribution all follow nature's logic.
 
-It's also a perfect realization of the Gesamtkunstwerk (total work of art) — from door handles to ceilings, from ventilation grates to staircase railings, every detail was personally designed by Gaudí, nothing arbitrary. This obsessive pursuit of holistic unity became, a century later, the core of Apple's design philosophy.`}];/**
+It's also a perfect realization of the Gesamtkunstwerk (total work of art) — from door handles to ceilings, from ventilation grates to staircase railings, every detail was personally designed by Gaudí, nothing arbitrary. This obsessive pursuit of holistic unity became, a century later, the core of Apple's design philosophy.`},{id:"148",date:"2026-06-26",imageUrl:"/the-daily-object/images/upc-barcode.jpg",fullImageUrl:"/the-daily-object/images/full/upc-barcode.jpg",title:"UPC 条形码",title_en:"Universal Product Code (UPC)",subtitle:"George Laurer / IBM, 1974",subtitle_en:"George Laurer / IBM, 1974",category:"graphic",designer:"George Laurer",year:"1974",tags:["改变了全球零售业","信息设计里程碑","隐形的设计革命"],tags_en:["Transformed Global Retail","Information Design Milestone","The Invisible Design Revolution"],dateConnection:"1974年6月26日上午8点刚过，俄亥俄州特洛伊市 Marsh 超市收银员 Sharon Buchanan 扫描了一包箭牌黄箭口香糖——这是人类历史上第一次用 UPC 条形码完成商品销售。那包口香糖现藏于史密森尼博物馆。",dateConnection_en:"Just after 8 a.m. on June 26, 1974, cashier Sharon Buchanan at Marsh Supermarket in Troy, Ohio, scanned a pack of Wrigley's Juicy Fruit gum — the first retail item ever sold using a Universal Product Code barcode. That pack of gum now resides in the Smithsonian Institution.",designerBio:`George Laurer 是 IBM 的工程师，1971年被指派解决一个看似不可能的问题：设计一种能印在任何商品包装上、被激光扫描器从任何角度快速读取的编码系统。
+
+他面对的不是空白画布——此前已有十几家公司提交了方案。RCA 的圆形靶心码、Litton 的同心半圆、Singer 的方块矩阵……每种设计都有致命缺陷。Laurer 的天才在于选择了最"无聊"的形式：一组平行竖线。这个决定看似简单，背后是对印刷公差、扫描光学和数据容量的精确权衡。`,designerBio_en:`George Laurer was an IBM engineer assigned in 1971 to solve a seemingly impossible problem: design an encoding system that could be printed on any product packaging and rapidly read by laser scanners from any angle.
+
+He wasn't starting from scratch — over a dozen companies had already submitted proposals. RCA's circular bullseye, Litton's concentric semicircles, Singer's block matrix… each design had fatal flaws. Laurer's genius lay in choosing the most "boring" form: a set of parallel vertical lines. This seemingly simple decision reflected precise trade-offs between printing tolerances, scanning optics, and data capacity.`,story:`UPC 的诞生始于1948年的一个偶然。费城 Drexel 理工学院研究生 Bernard Silver 无意中听到一位食品连锁店老板恳求院长研究"自动捕获商品信息"的技术。Silver 和同学 Norman Woodland 开始探索，Woodland 在迈阿密海滩的沙地上用手指画出同心圆——灵感来自莫尔斯电码的点和划，只是把它们拉伸成了线条。
+
+**1949年两人申请了专利，但技术条件完全不成熟。** 没有廉价激光器、没有微型计算机、没有统一的商品编号系统。这个想法整整沉睡了20年。
+
+**1970年代初，超市行业的危机催生了变革。** 美国超市利润率跌到1%以下，收银错误和库存损耗是主要原因。行业协会成立了"统一杂货产品代码委员会"，向各公司征集方案。IBM 最初并不看好这个项目，Laurer 几乎是独自工作。
+
+**竞标日当天，七家公司展示了各自的设计。** RCA 的圆形码已经在一家超市测试了18个月，是最大热门。但 Laurer 用数据证明了矩形码的决定性优势：印刷容错率高5倍、扫描速度快3倍、同等面积能编码更多数据。IBM 的方案最终胜出。
+
+**那个决定"第一次扫描什么"的瞬间也经过精心设计。** Marsh 超市研发部的 Clyde Dawson 篮子里放了很多商品，但故意选了口香糖——为了证明即使是最小的商品也能印上条形码并被准确扫描。`,story_en:`The UPC's origin traces to a chance encounter in 1948. Bernard Silver, a graduate student at Philadelphia's Drexel Institute, overheard a food chain executive pleading with the dean to research "automatic product information capture." Silver and classmate Norman Woodland began exploring the idea. On a Miami beach, Woodland dragged his fingers through sand in concentric circles — inspired by Morse code's dots and dashes, stretched into lines.
+
+**They filed a patent in 1949, but the technology was nowhere near ready.** No affordable lasers, no microcomputers, no unified product numbering system. The idea lay dormant for two decades.
+
+**In the early 1970s, a supermarket industry crisis forced change.** U.S. grocery profit margins had fallen below 1%, with checkout errors and inventory shrinkage as primary culprits. The industry formed the "Uniform Grocery Product Code Council" and solicited proposals. IBM initially had little faith in the project; Laurer worked nearly alone.
+
+**On selection day, seven companies presented their designs.** RCA's circular bullseye had already been tested at a supermarket for 18 months and was the frontrunner. But Laurer demonstrated the rectangular code's decisive advantages: 5× greater printing tolerance, 3× faster scanning speed, and more data capacity per unit area. IBM's proposal won.
+
+**Even the "first scan" moment was carefully designed.** Clyde Dawson from Marsh Supermarket's R&D department had many items in his basket but deliberately chose chewing gum — to prove that even the smallest product could carry a barcode and be accurately scanned.`,legacy:`今天，全球每天发生超过60亿次条形码扫描。UPC 从杂货店扩展到了医疗、物流、图书馆、航空——几乎所有需要追踪物品的场景。它催生了整个供应链管理行业，让沃尔玛的库存周转模式成为可能，让亚马逊的仓储自动化有了基础。
+
+• 1974年：第一次商业扫描
+• 1980年代：美国85%的超市采用
+• 2004年：二维码（QR Code）继承并扩展了条形码的逻辑
+• 2024年：GS1 宣布向二维码过渡计划，但传统 UPC 仍是全球零售的骨架`,legacy_en:`Today, over 6 billion barcode scans occur worldwide every day. The UPC expanded from grocery stores to healthcare, logistics, libraries, aviation — virtually every scenario requiring item tracking. It enabled the entire supply chain management industry, made Walmart's inventory model possible, and laid the foundation for Amazon's warehouse automation.
+
+• 1974: First commercial scan
+• 1980s: Adopted by 85% of U.S. supermarkets
+• 2004: QR codes inherited and extended barcode logic
+• 2024: GS1 announced transition plans to 2D codes, yet the traditional UPC remains global retail's backbone`,significance:`UPC 是"隐形设计"的终极案例。没有人会称赞一个条形码"好看"，但它可能是20世纪影响最多人日常生活的单一设计决策。Laurer 的矩形竖线方案之所以胜出，恰恰因为它把"设计的自我表达"压缩到零——所有决定都服务于功能：印刷可靠性、扫描速度、数据密度。
+
+它也提醒我们：最伟大的设计往往是让人感觉不到"被设计过"的。当一个系统运行得如此顺畅，以至于50年来没人质疑它的存在，那就是设计的最高境界。`,significance_en:`The UPC is the ultimate case of "invisible design." No one praises a barcode for being beautiful, yet it may be the single design decision that most affected daily life in the 20th century. Laurer's rectangular line pattern won precisely because it compressed "design self-expression" to zero — every decision served function: print reliability, scan speed, data density.
+
+It also reminds us that the greatest designs are often those that feel "undesigned." When a system runs so seamlessly that no one questions its existence for 50 years, that is design at its highest.`}];/**
  * @license lucide-react v0.563.0 - ISC
  *
  * This source code is licensed under the ISC license.
