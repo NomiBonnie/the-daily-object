@@ -9397,4 +9397,31 @@ He wasn't starting from scratch — over a dozen companies had already submitted
 
 It also reminds us that the greatest designs are often those that feel "undesigned." When a system runs so seamlessly that no one questions its existence for 50 years, that is design at its highest.`,
   },
+  {
+    id: '149',
+    date: '2026-06-27',
+    imageUrl: '/the-daily-object/images/vera-wang-bridal.jpg',
+    fullImageUrl: '/the-daily-object/images/full/vera-wang-bridal.jpg',
+    title: 'Vera Wang 婚纱',
+    title_en: 'Vera Wang Bridal',
+    subtitle: 'Vera Wang, 1990',
+    subtitle_en: 'Vera Wang, 1990',
+    category: 'fashion' as const,
+    designer: 'Vera Wang (王薇薇)',
+    year: '1990',
+    tags: ['重新定义婚纱美学', '改变了新娘产业', '跨界设计先驱'],
+    tags_en: ['Redefined Bridal Aesthetics', 'Transformed Bridal Industry', 'Cross-Discipline Pioneer'],
+
+    dateConnection: '1949年6月27日，Vera Wang（王薇薇）出生于纽约。这位华裔设计师在40岁时创立了自己的婚纱品牌，彻底改写了现代婚纱的定义。',
+    designerBio: `王薇薇出生于纽约上东区一个富裕的华裔家庭，父亲是麻省理工毕业的化工企业家，母亲是联合国翻译官。她从小接受精英教育，7岁开始练习花样滑冰，曾入选美国花样滑冰锦标赛，与未来的奥运冠军同场竞技。\n\n1971年，22岁的王薇薇加入《Vogue》杂志，成为该杂志史上最年轻的时尚编辑。她在Vogue工作了16年，随后担任Ralph Lauren的设计总监两年。1989年，40岁的她为自己的婚礼寻找婚纱时，发现市场上没有任何一件能满足她对现代女性优雅的理解——这成为了改变整个行业的契机。`,
+    story: `1990年，王薇薇在纽约麦迪逊大道开设了第一家婚纱精品店。她带来的不只是新设计，而是对"婚纱应该是什么"的全新回答。\n\n**在她之前，婚纱意味着蓬松的裙摆、大量蕾丝和保守的剪裁。** 王薇薇将高级时装的建筑感、简洁线条和现代审美注入婚纱设计——斜裁丝缎、极简轮廓、建筑性褶皱、甚至大胆使用黑色和红色。她证明了婚纱可以是一件真正的时装作品，而不只是传统仪式的道具。\n\n**她的客户名单读起来像好莱坞年鉴：** Jennifer Lopez、Ivanka Trump、Victoria Beckham、Kim Kardashian、Ariana Grande。每一件定制婚纱都是独一无二的雕塑作品。\n\n2002年，她推出成衣线White by Vera Wang与David\'s Bridal合作，让更多女性能以可负担的价格拥有她的设计美学——一件售价从$800起的婚纱，保留了她标志性的简约优雅。这个决定被《时代》杂志称为"婚纱行业的民主化时刻"。`,
+    legacy: `• 创建了价值超过10亿美元的时尚帝国，涵盖婚纱、成衣、香水、家居、珠宝\n• 为花样滑冰运动员（包括关颖珊、Nathan Chen）设计比赛服装，将高级时装带入冰场\n• White by Vera Wang系列让"设计师婚纱"从奢侈品变为中产阶级可及的选择\n• 2024年获CFDA终身成就奖，被誉为"定义了现代新娘形象的设计师"\n• 75岁仍活跃于设计一线，在社交媒体上以惊人的身材和不老容颜获得新一代粉丝`,
+    significance: `王薇薇对婚纱行业的意义，如同Coco Chanel对女装的意义——她不是在已有框架内做得更好，而是改变了框架本身。在她之前，"婚纱设计师"不是一个令人尊敬的高级时装职业；在她之后，婚纱成为时尚产业最具创意表达空间的领域之一。\n\n她的故事也是一个关于"晚绽放"的设计寓言：40岁才开始自己的品牌，证明设计天赋不需要在20岁爆发。16年Vogue编辑的眼光训练+2年Ralph Lauren的商业历练，最终浓缩为一种独特的审美判断力——知道什么是好的，并且知道如何让它成为现实。`,
+
+    dateConnection_en: `On June 27, 1949, Vera Wang was born in New York City. This Chinese-American designer founded her bridal label at age 40, fundamentally redefining the modern wedding dress.`,
+    designerBio_en: `Born into an affluent Chinese-American family on Manhattan\'s Upper East Side, Wang\'s father was an MIT-educated chemical engineer and her mother a UN translator. She began figure skating at age 7, competing at the U.S. Championships alongside future Olympic medalists.\n\nIn 1971, the 22-year-old joined Vogue as its youngest-ever fashion editor, a position she held for 16 years before becoming design director at Ralph Lauren. In 1989, while searching for her own wedding dress at age 40, she found nothing that matched her vision of modern feminine elegance — a frustration that would transform an entire industry.`,
+    story_en: `In 1990, Wang opened her first bridal boutique on Madison Avenue. She brought not just new designs, but a fundamentally new answer to "what a wedding dress should be."\n\n**Before Wang, bridal meant poufy skirts, excessive lace, and conservative cuts.** She injected haute couture\'s architectural sensibility, clean lines, and modern aesthetics into bridal design — bias-cut satins, minimalist silhouettes, structural draping, even daring use of black and red. She proved that a wedding dress could be a genuine fashion statement, not merely a ceremonial costume.\n\n**Her client list reads like a Hollywood almanac:** Jennifer Lopez, Ivanka Trump, Victoria Beckham, Kim Kardashian, Ariana Grande. Each custom gown is a unique sculptural work.\n\nIn 2002, she launched White by Vera Wang with David\'s Bridal, making her design aesthetic accessible at prices starting from $800 — what Time magazine called "the democratization of bridal fashion."`,
+    legacy_en: `• Built a fashion empire valued at over $1 billion spanning bridal, ready-to-wear, fragrance, home, and jewelry\n• Designed competition costumes for figure skaters including Michelle Kwan and Nathan Chen, bringing haute couture to the ice\n• White by Vera Wang transformed "designer bridal" from luxury to middle-class accessible\n• Received the CFDA Lifetime Achievement Award in 2024\n• At 75, remains active in design and gained a new generation of fans through social media`,
+    significance_en: `Wang\'s significance to bridal is what Coco Chanel\'s was to womenswear — she didn\'t do better within the existing framework, she changed the framework itself. Before her, "bridal designer" wasn\'t a respected haute couture profession; after her, bridal became one of fashion\'s most creatively expressive domains.\n\nHer story is also a design parable about "late blooming": starting her own brand at 40 proved that design talent needn\'t explode at 20. Sixteen years of Vogue editorial training plus two years of Ralph Lauren business experience distilled into a unique aesthetic judgment — knowing what is good, and knowing how to make it real.`,
+  },
 ]
