@@ -9424,4 +9424,32 @@ It also reminds us that the greatest designs are often those that feel "undesign
     legacy_en: `• Built a fashion empire valued at over $1 billion spanning bridal, ready-to-wear, fragrance, home, and jewelry\n• Designed competition costumes for figure skaters including Michelle Kwan and Nathan Chen, bringing haute couture to the ice\n• White by Vera Wang transformed "designer bridal" from luxury to middle-class accessible\n• Received the CFDA Lifetime Achievement Award in 2024\n• At 75, remains active in design and gained a new generation of fans through social media`,
     significance_en: `Wang\'s significance to bridal is what Coco Chanel\'s was to womenswear — she didn\'t do better within the existing framework, she changed the framework itself. Before her, "bridal designer" wasn\'t a respected haute couture profession; after her, bridal became one of fashion\'s most creatively expressive domains.\n\nHer story is also a design parable about "late blooming": starting her own brand at 40 proved that design talent needn\'t explode at 20. Sixteen years of Vogue editorial training plus two years of Ralph Lauren business experience distilled into a unique aesthetic judgment — knowing what is good, and knowing how to make it real.`,
   },
+
+  {
+    id: '163',
+    date: '2026-06-30',
+    imageUrl: '/the-daily-object/images/corvette-c1-1953.jpg',
+    fullImageUrl: '/the-daily-object/images/full/corvette-c1-1953.jpg',
+    title: 'Chevrolet Corvette C1',
+    title_en: 'Chevrolet Corvette C1',
+    subtitle: 'Harley Earl / GM, 1953',
+    subtitle_en: 'Harley Earl / GM, 1953',
+    category: 'industrial' as const,
+    designer: 'Harley Earl',
+    year: '1953',
+    tags: ['美国汽车设计巅峰', '跑车民主化先驱', '玻璃纤维革命'],
+    tags_en: ['Peak American Auto Design', 'Democratized the Sports Car', 'Fiberglass Revolution'],
+
+    dateConnection: `1953年6月30日，第一台量产版 Chevrolet Corvette 在密歇根州弗林特工厂下线。这一天标志着美国第一款量产跑车的诞生，也开启了一个延续七十余年的设计传奇。`,
+    designerBio: `Harley Earl 是通用汽车设计副总裁，被誉为「汽车造型之父」。他在 1927 年创建了汽车行业第一个专门的设计部门——GM Art and Colour Section，将汽车从工程产品变成了欲望的载体。\n\n他引入了粘土模型工艺、概念车文化，以及每年换代的造型策略。Corvette 是他最私人的项目——一个证明美国也能做出纯粹驾驶机器的执念。`,
+    story: `1951年，Earl 在看到欧洲跑车（Jaguar XK120、MG TC）风靡美国后，决定打造一款属于美国人的运动双座车。他给项目取名 "Project Opel" 以保密。\n\n**关键决策是材料。** 传统钢板冲压模具需要数百万美元投资，对于一款销量未知的新品类风险太大。Earl 大胆选择了玻璃纤维增强塑料（FRP）——这在当时是航空和军工材料，从未用于量产汽车。这个选择不仅降低了模具成本，还让设计师获得了前所未有的造型自由度：那些流畅的曲面、鲨鱼嘴格栅、火箭尾灯，用钢板根本无法实现。\n\n1953年1月，Corvette 原型在纽约 Motorama 车展亮相，现场观众的狂热反应让通用立即批准量产。仅6个月后，第一台 Polo White 配红色内饰的 Corvette 下线。首批全部300台都是白色——因为只来得及准备一种颜色的涂装线。\n\n**早期 Corvette 险些夭折。** 搭载的直列六缸发动机和两速自动变速箱让性能爱好者失望，1954年销量惨淡。直到 Zora Arkus-Duntov 加入团队，为其换上 V8 发动机和手动变速箱，Corvette 才真正找到了灵魂。`,
+    legacy: `• 连续生产超过70年，是世界上最长寿的跑车车系\n• 玻璃纤维车身的成功推动了复合材料在汽车工业的广泛应用\n• 从 C1 到 C8，每一代都定义了当时的美国汽车设计语言\n• 证明了大批量制造商也能做出纯粹的驾驶者之车\n• C1 的设计元素（圆灯、长车头短车尾、双座敞篷）成为跑车的视觉原型`,
+    significance: `Corvette 的意义超越了汽车本身——它证明了设计可以改变一个品类的文化定位。在它之前，跑车是欧洲贵族的玩具；在它之后，跑车成为每个美国中产的可及之梦。Harley Earl 用 Corvette 完成了他的终极设计论证：形式不是功能的附庸，形式本身就是产品存在的理由。`,
+
+    dateConnection_en: `On June 30, 1953, the first production Chevrolet Corvette rolled off the assembly line in Flint, Michigan. This date marks the birth of America\'s first mass-produced sports car and the beginning of a design legacy spanning over seven decades.`,
+    designerBio_en: `Harley Earl served as Vice President of Design at General Motors and is widely regarded as the "father of automotive styling." In 1927, he established the auto industry\'s first dedicated design department — GM\'s Art and Colour Section — transforming cars from engineering products into objects of desire.\n\nHe pioneered clay modeling, concept car culture, and the annual model-year restyle strategy. The Corvette was his most personal project — an obsession to prove America could build a pure driving machine.`,
+    story_en: `In 1951, after watching European sports cars (Jaguar XK120, MG TC) captivate American buyers, Earl resolved to create an American two-seat sportster. He codenamed it "Project Opel" for secrecy.\n\n**The critical decision was materials.** Traditional steel stamping dies required millions in tooling investment — too risky for an unproven market segment. Earl made the bold choice of fiberglass-reinforced plastic (FRP), then an aerospace and military material never used in production automobiles. This choice not only reduced tooling costs but gave designers unprecedented sculptural freedom: those flowing curves, the shark-mouth grille, the rocket-inspired taillights would have been impossible in stamped steel.\n\nIn January 1953, the Corvette prototype debuted at the New York Motorama show. The audience\'s fevered response prompted GM to greenlight production immediately. Just six months later, the first Polo White with red interior Corvette rolled off the line. All 300 first-year cars were white — because there was only time to set up one paint line.\n\n**The early Corvette nearly died.** Its inline-six engine and two-speed automatic disappointed performance enthusiasts, and 1954 sales were dismal. Only when Zora Arkus-Duntov joined the team and fitted a V8 with manual transmission did the Corvette truly find its soul.`,
+    legacy_en: `• Over 70 years of continuous production — the world\'s longest-running sports car nameplate\n• Its fiberglass body\'s success accelerated composite materials adoption across the auto industry\n• Each generation from C1 through C8 has defined American automotive design language of its era\n• Proved that a mass-market manufacturer could produce a genuine driver\'s car\n• C1\'s design vocabulary (round headlights, long-hood/short-deck, two-seat roadster) became the visual archetype for sports cars`,
+    significance_en: `The Corvette\'s significance transcends automotive design — it proved that design can redefine an entire product category\'s cultural positioning. Before it, sports cars were toys for European aristocracy; after it, the sports car became an attainable dream for every American middle-class family. Harley Earl used the Corvette to make his ultimate design argument: form is not subservient to function — form itself is the reason a product exists.`,
+  },
 ]
