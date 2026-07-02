@@ -9479,4 +9479,51 @@ It also reminds us that the greatest designs are often those that feel "undesign
     legacy_en: '• Over 400 million Walkman units sold across all models\n• Created the "portable personal electronics" category, directly inspiring the iPod and iPhone\n• "Walkman" became a generic term for portable music players, entered dictionaries worldwide\n• Changed how urban public space is used — created the concept of the "personal sound bubble"\n• Proved the commercial value of "design by subtraction": removing features can create new categories',
     significance_en: 'The Walkman is one of the most important industrial designs of the 20th century. It proved that a product can change the world not by adding features, but by redefining the context of use. Morita\'s vision — that people needed not a better recorder, but music on the go — anticipated the entire personal electronics era. From Walkman to iPod to iPhone, the lineage is unmistakable.',
   },
+  {
+    id: '165',
+    date: '2026-07-02',
+    imageUrl: '/the-daily-object/images/pierre-cardin-space-age.jpg',
+    fullImageUrl: '/the-daily-object/images/full/pierre-cardin-space-age.jpg',
+    title: 'Cosmos 系列',
+    title_en: 'Cosmos Collection',
+    subtitle: 'Pierre Cardin, 1964',
+    subtitle_en: 'Pierre Cardin, 1964',
+    category: 'fashion' as const,
+    designer: 'Pierre Cardin',
+    year: '1964',
+    tags: ['开创太空时代时尚', '第一个用塑料做时装', '打破高定与成衣界限'],
+    tags_en: ['Pioneered Space Age Fashion', 'First to Use Plastic in Couture', 'Broke Haute Couture Boundaries'],
+
+    dateConnection: '1922年7月2日，Pierre Cardin 出生于意大利威尼斯附近的小镇 San Biagio di Callalta。这位未来将彻底改变时装业规则的设计师，从出生地的名字就带着某种命运暗示——他注定不属于任何一个地方，而属于未来。',
+    designerBio: `Pierre Cardin（1922-2020），意大利裔法国时装设计师，20世纪最具颠覆性的时尚力量之一。二战期间在维希学习裁剪，1945年来到巴黎，先后在 Paquin 和 Schiaparelli 工作，1947年加入刚成立的 Christian Dior 工作室，参与了震惊世界的 New Look 首秀。
+
+1950年创立同名品牌。但真正让他名垂青史的不是精湛的裁剪（虽然他确实精湛），而是他对时装产业本身的重新定义：他是第一个推出高级成衣线的高定设计师，第一个将设计师品牌授权到各品类的人，第一个进入日本和中国市场的西方设计师。`,
+    story: `**1964年，Cardin 发布 Cosmos 系列，时尚界集体失语。**
+
+当时的高定还在痴迷于腰线和裙摆的微妙变化，Cardin 却直接把模特套进了几何体里。乙烯基短裙、金属色紧身衣、透明头盔、圆形镂空——这些造型不是在致敬太空竞赛，而是在宣告：时装可以不再模仿人体，而是重新发明人体。
+
+**他是第一个在高级时装中使用塑料和乙烯基的设计师。** 当同行还在用丝绸和羊毛时，Cardin 从工业材料中看到了未来。他的逻辑很简单：如果人类即将生活在太空里，为什么衣服还要像18世纪一样？
+
+这不只是一个系列，而是一次宣言。Cardin 证明了时装可以是建筑、是雕塑、是对未来的预言。他把身体变成了画布，把衣服变成了结构体。André Courrèges 和 Paco Rabanne 紧随其后，但 Cardin 是第一个跳下悬崖的人。
+
+**更激进的是他对商业模式的颠覆。** 1959年他推出成衣线，被法国高定工会除名。他的回应是把名字授权给从家具到汽车的一切产品——在Gucci、LV做同样事情的40年前。时尚界嘲笑他「稀释品牌」，但他实际上发明了现代奢侈品帝国的商业模型。`,
+    legacy: '• 开创太空时代时尚（Space Age Fashion），影响了此后60年的未来主义设计\n• 第一位推出高级成衣线的高定设计师（1959），被高定工会除名后反而证明了成衣的价值\n• 品牌授权模式的发明者——将设计师品牌扩展到900多种产品类别\n• 第一位进入日本（1957）和中国（1979）市场的西方高定设计师\n• 在全球140个国家拥有授权产品，证明了时尚可以真正全球化\n• V&A、Met、MoMA 永久收藏其 Space Age 系列作品',
+    significance: 'Pierre Cardin 对时尚的贡献是双重的：美学上，他让时装从「装饰身体」进化为「重新想象身体」；商业上，他发明了我们今天习以为常的设计师品牌运营模式。没有 Cardin 的品牌授权先例，就不会有今天的 LVMH 帝国。他证明了一个设计师可以同时是艺术家和企业家，而这两个身份并不矛盾。',
+
+    dateConnection_en: 'On July 2, 1922, Pierre Cardin was born in San Biagio di Callalta, a small town near Venice, Italy. The designer who would completely rewrite the rules of fashion carried a certain destiny from birth — he belonged not to any one place, but to the future.',
+    designerBio_en: `Pierre Cardin (1922–2020), Italian-born French fashion designer and one of the most disruptive forces in 20th-century fashion. He studied tailoring in Vichy during WWII, arrived in Paris in 1945, worked at Paquin and Schiaparelli, then joined the newly founded Christian Dior atelier in 1947, participating in the world-shaking New Look debut.
+
+He founded his eponymous house in 1950. But what secured his place in history wasn't his impeccable tailoring (though it was impeccable) — it was his fundamental redefinition of the fashion industry itself: first couturier to launch a ready-to-wear line, first to license a designer name across product categories, first Western designer to enter Japan and China.`,
+    story_en: `**In 1964, Cardin unveiled the Cosmos collection, and the fashion world fell silent.**
+
+While haute couture was still obsessing over subtle shifts in waistlines and hemlines, Cardin put his models inside geometric forms. Vinyl miniskirts, metallic bodysuits, transparent helmets, circular cutouts — these looks weren't paying homage to the space race; they were declaring that fashion could stop imitating the human body and start reinventing it.
+
+**He was the first designer to use plastic and vinyl in haute couture.** While his peers worked with silk and wool, Cardin saw the future in industrial materials. His logic was simple: if humanity would soon live in space, why should clothes still look like the 18th century?
+
+This wasn't just a collection — it was a manifesto. Cardin proved that fashion could be architecture, sculpture, prophecy. He turned the body into a canvas and clothes into structures. André Courrèges and Paco Rabanne followed, but Cardin was the first to leap off the cliff.
+
+**Even more radical was his disruption of the business model.** In 1959, he launched ready-to-wear and was expelled from the Chambre Syndicale. His response was to license his name to everything from furniture to cars — 40 years before Gucci and LV did the same. Fashion mocked him for "diluting his brand," but he had actually invented the business model of the modern luxury empire.`,
+    legacy_en: '• Pioneered Space Age Fashion, influencing 60 years of futuristic design\n• First couturier to launch a ready-to-wear line (1959) — expelled from the Chambre Syndicale, yet proved RTW\'s value\n• Inventor of the brand licensing model — expanded to 900+ product categories\n• First Western couturier to enter Japan (1957) and China (1979)\n• Licensed products in 140 countries, proving fashion could truly go global\n• Space Age pieces permanently collected by the V&A, Met, and MoMA',
+    significance_en: 'Pierre Cardin\'s contribution to fashion is dual: aesthetically, he evolved clothing from "decorating the body" to "reimagining the body"; commercially, he invented the designer brand operating model we take for granted today. Without Cardin\'s licensing precedent, there would be no LVMH empire. He proved that a designer can simultaneously be an artist and an entrepreneur — and that these identities are not contradictory.',
+  },
 ]
