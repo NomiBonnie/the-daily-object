@@ -9526,4 +9526,66 @@ This wasn't just a collection — it was a manifesto. Cardin proved that fashion
     legacy_en: '• Pioneered Space Age Fashion, influencing 60 years of futuristic design\n• First couturier to launch a ready-to-wear line (1959) — expelled from the Chambre Syndicale, yet proved RTW\'s value\n• Inventor of the brand licensing model — expanded to 900+ product categories\n• First Western couturier to enter Japan (1957) and China (1979)\n• Licensed products in 140 countries, proving fashion could truly go global\n• Space Age pieces permanently collected by the V&A, Met, and MoMA',
     significance_en: 'Pierre Cardin\'s contribution to fashion is dual: aesthetically, he evolved clothing from "decorating the body" to "reimagining the body"; commercially, he invented the designer brand operating model we take for granted today. Without Cardin\'s licensing precedent, there would be no LVMH empire. He proved that a designer can simultaneously be an artist and an entrepreneur — and that these identities are not contradictory.',
   },
+
+  {
+    id: '166',
+    date: '2026-07-03',
+    imageUrl: '/the-daily-object/images/tracey-emin-my-bed.jpg',
+    fullImageUrl: '/the-daily-object/images/full/tracey-emin-my-bed.jpg',
+    title: 'My Bed',
+    title_en: 'My Bed',
+    subtitle: 'Tracey Emin, 1998',
+    subtitle_en: 'Tracey Emin, 1998',
+    category: 'art' as const,
+    designer: 'Tracey Emin',
+    year: '1998',
+    tags: ['重新定义艺术边界', '自传式装置先驱', '震撼了整个英国艺术界'],
+    tags_en: ['Redefined Art\'s Boundaries', 'Pioneered Autobiographical Installation', 'Shook the British Art World'],
+
+    dateConnection: '1963年7月3日，Tracey Emin 出生于伦敦南部的克罗伊登。这位日后用一张凌乱的床震撼整个英国艺术界的女性，从出生起就注定要挑战一切既定规则。',
+    designerBio: `Tracey Emin（1963— ），英国当代艺术家，YBA（Young British Artists）运动核心人物之一。她在肯特郡马盖特的海滨小镇长大，童年经历了贫困、种族歧视和性暴力。这些创伤成为她毕生创作的原材料。
+
+1987年从梅德斯通艺术学院毕业后，她进入皇家艺术学院攻读硕士，但因个人危机销毁了所有早期作品。1993年重新开始创作，从此走上了将私密经历转化为公共艺术的道路。2007年代表英国参加威尼斯双年展，2011年被任命为皇家艺术学院绘画教授——自1768年建院以来首位女性教授。`,
+    story: `**1998年的某天，Emin 在床上躺了整整四天没有起来。**
+
+那是一次毁灭性的分手之后。她停止进食，只喝酒和吃安眠药，房间里堆满了空酒瓶、烟蒂、避孕套、带血迹的内裤、拖鞋和各种生活垃圾。当她终于挣扎着起身去厨房喝水，回头看向那张床时，她看到的不是耻辱——而是一幅自画像。
+
+**她决定不改变任何东西，直接把它变成艺术。**
+
+这个决定的激进程度在当时难以想象。杜尚用现成品（小便池）挑战了「什么是艺术」，而 Emin 用自己最私密、最难堪的生活现场挑战了「什么可以被展示」。床单上的体液痕迹、地上的伏特加空瓶、验孕棒——每一件物品都在说：这是一个真实的人在最脆弱时刻的证据。
+
+1999年，*My Bed* 入围特纳奖时引发了英国媒体的集体疯狂。有人认为这是天才之作，有人认为这是对艺术的亵渎。两名行为艺术家甚至跳上床，一个在上面蹦跶，另一个进行了一场枕头大战——试图证明「任何人都能做这件事」。但他们恰恰错了：不是任何人的床都是艺术，是 Emin 将脆弱本身转化为力量的勇气使它成为艺术。
+
+2014年，收藏家 Charles Saatchi 以 254 万英镑将 *My Bed* 售出，买家将其长期借给泰特现代美术馆。它从丑闻变成了经典——证明了真正的前卫从来都需要时间。`,
+    legacy: `• 被泰特现代美术馆永久收藏，2014年拍出254万英镑
+• 开创了「自传式装置艺术」的新范式，影响了整整一代年轻艺术家
+• 证明了女性的私密经验可以成为严肃的艺术语言
+• 1999年特纳奖入围引发的论战，重塑了英国公众对当代艺术的认知
+• 与 Duchamp 的《泉》并列为20世纪最具颠覆性的现成品艺术
+• 2026年泰特现代美术馆为 Emin 举办大型回顾展「A Second Life」，My Bed 仍是核心展品`,
+    significance: `*My Bed* 的意义在于它彻底模糊了艺术与生活的界限。它不是「关于」脆弱的作品——它就是脆弱本身。在一个女性身体和经验仍被视为禁忌的艺术世界里，Emin 拒绝了任何形式的美化和距离感。她证明了最私密的东西可以是最普世的：每个经历过心碎和绝望的人，在这张床前都会认出自己。`,
+
+    dateConnection_en: 'On July 3, 1963, Tracey Emin was born in Croydon, south London. The woman who would one day shock the entire British art world with an unmade bed was destined from birth to challenge every established rule.',
+    designerBio_en: `Tracey Emin (1963– ) is a British contemporary artist and one of the core figures of the YBA (Young British Artists) movement. She grew up in the seaside town of Margate, Kent, enduring childhood poverty, racial discrimination, and sexual violence — traumas that became the raw material for her life's work.
+
+After graduating from Maidstone College of Art in 1987, she entered the Royal College of Art for her MA but destroyed all her early work during a personal crisis. She started afresh in 1993, embarking on a path of transforming intimate experience into public art. In 2007, she represented Britain at the Venice Biennale; in 2011, she was appointed Professor of Drawing at the Royal Academy — the first woman to hold the position since its founding in 1768.`,
+    story_en: `**One day in 1998, Emin lay in bed for four straight days without getting up.**
+
+It followed a devastating breakup. She stopped eating, surviving on alcohol and sleeping pills. The room filled with empty vodka bottles, cigarette butts, condoms, blood-stained underwear, slippers, and assorted detritus. When she finally dragged herself to the kitchen for water and looked back at the bed, she saw not shame — but a self-portrait.
+
+**She decided to change nothing and simply make it art.**
+
+The radicalism of this decision was almost unimaginable at the time. Duchamp used a readymade (a urinal) to challenge "what is art"; Emin used the most intimate, most humiliating scene of her actual life to challenge "what can be shown." The bodily fluid stains on the sheets, the empty vodka bottles on the floor, the pregnancy test — every object testified: this is evidence of a real person at their most vulnerable.
+
+When *My Bed* was shortlisted for the Turner Prize in 1999, it triggered collective media frenzy across Britain. Some called it genius; others called it desecration. Two performance artists even jumped onto the bed — one bouncing, the other staging a pillow fight — attempting to prove "anyone could do this." But they were precisely wrong: not anyone's bed is art. It was Emin's courage in transforming vulnerability itself into power that made it so.
+
+In 2014, collector Charles Saatchi sold *My Bed* for £2.54 million; the buyer loaned it long-term to Tate Modern. It had gone from scandal to classic — proving that true avant-garde always needs time.`,
+    legacy_en: `• Permanently collected by Tate Modern; sold for £2.54 million in 2014
+• Pioneered a new paradigm of autobiographical installation art, influencing an entire generation
+• Proved that women's intimate experience could constitute serious artistic language
+• The 1999 Turner Prize controversy reshaped British public perception of contemporary art
+• Ranked alongside Duchamp's *Fountain* as one of the 20th century's most subversive readymades
+• In 2026, Tate Modern staged Emin's major retrospective "A Second Life," with My Bed as the centrepiece`,
+    significance_en: `*My Bed* matters because it completely dissolved the boundary between art and life. It is not a work "about" vulnerability — it IS vulnerability. In an art world where women's bodies and experiences were still treated as taboo, Emin refused all beautification and distance. She proved that the most private thing can be the most universal: everyone who has experienced heartbreak and despair recognizes themselves before this bed.`,
+  },
 ]
