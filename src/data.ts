@@ -9721,4 +9721,45 @@ In 2014, collector Charles Saatchi sold *My Bed* for £2.54 million; the buyer l
     legacy_en: '• Completed in 1949, one of the most iconic residential buildings of the 20th century\n• Stands alongside Farnsworth House as one of two foundational works of "transparent architecture"\n• Johnson lived here for 58 years; designated a U.S. National Historic Landmark in 2007\n• The estate contains 14 buildings in different styles, forming a miniature history of architecture\n• Attracts tens of thousands of architecture students and enthusiasts annually\n• Directly influenced subsequent minimalist residential design, from Tadao Ando to SANAA',
     significance_en: `The Glass House's significance lies not in the gimmick of "no walls" but in the architectural question it poses that remains debated today: where is the boundary of architecture? When all four sides are glass, the relationship between interior and exterior shifts from "separation" to "fusion" — prefiguring decades of design thinking from Apple Park to the 21st Century Museum of Contemporary Art in Kanazawa. Johnson proved in the most radical way possible: great architecture doesn't fight nature — it makes nature part of the design.`,
   },
+  {
+    id: '287',
+    date: '2026-07-09',
+    imageUrl: '/the-daily-object/images/alessi-9093-kettle.jpg',
+    fullImageUrl: '/the-daily-object/images/full/alessi-9093-kettle.jpg',
+    title: 'Alessi 9093 水壶',
+    title_en: 'Alessi 9093 Kettle',
+    subtitle: 'Michael Graves, 1985',
+    subtitle_en: 'Michael Graves, 1985',
+    category: 'industrial' as const,
+    designer: 'Michael Graves',
+    year: '1985',
+    tags: ['后现代设计标志', '两百万只小鸟', '让厨房有了灵魂'],
+    tags_en: ['Postmodern Design Icon', 'Two Million Birds Sold', 'Gave Kitchens a Soul'],
+    dateConnection: '1934年7月9日，Michael Graves 出生于美国印第安纳波利斯。这位后现代主义建筑师后来成为将"高设计"带入普通家庭的先驱，而这把带小鸟哨子的水壶，是他最具标志性的作品。',
+    designerBio: `Michael Graves（1934–2015）是美国后现代主义运动最重要的建筑师与产品设计师之一。哈佛建筑硕士毕业后赴罗马留学，深受古典建筑的色彩和叙事性影响。1960年代他是"纽约五人组"成员，以纯粹的现代主义起步；到了1980年代，他转向后现代主义，用色彩、隐喻和历史符号挑战国际风格的冷漠。
+
+1985年为 Alessi 设计 9093 水壶后，Graves 证明了一个激进命题：严肃的建筑师完全可以设计日用品，而且可以设计得比"专业"产品设计师更有趣。此后他为 Target 设计了超过2000件平价家居产品，真正实现了"人人买得起好设计"。2003年一场感染导致他从腰部以下瘫痪，此后他将设计重心转向医疗与无障碍领域，直至2015年逝世。`,
+    story: `**一只小鸟改变了整个厨房用品行业——累计销量超过200万只，至今仍是 Alessi 最畅销的产品。**
+
+Alberto Alessi 在1980年代初邀请建筑师跨界设计厨房用品，这在当时闻所未闻。Graves 接到邀请后，没有从"如何烧水"出发，而是从"烧水这个行为能不能更愉悦"出发。
+
+他的回答是一只站在壶嘴上的小鸟。水烧开时，蒸汽推动小鸟发出鸣叫——这不是装饰，是功能：它用一种令人微笑的方式告诉你水开了。锥形壶身参考了原始篝火旁的三脚架，宽底窄顶的形态既稳定又高效。蓝色的手柄和红色的小鸟在不锈钢表面形成戏剧性的色彩对比。
+
+**这把壶为什么是里程碑？** 在它之前，水壶是纯功能物件；在它之后，厨房器具成为了可以传达情感、承载设计师个人表达的载体。哈佛商业评论将它作为"情感设计"的经典案例分析——人们为什么愿意为一只塑料小鸟多付三倍价格？因为它让你每天早上的第一杯茶，变成了一个值得期待的小仪式。`,
+    legacy: '• 自1985年上市以来累计售出超过200万只，是 Alessi 历史上最成功的产品\n• 开创了"建筑师跨界产品设计"的先河，此后 Zaha Hadid、Frank Gehry 等建筑大师纷纷效仿\n• 被 MoMA、大都会博物馆等永久收藏\n• 证明了后现代设计可以既有学术深度又有大众吸引力\n• 直接影响了 Alessi 后续40年的设计策略：邀请建筑师、艺术家跨界设计日用品',
+    significance: `9093 水壶的意义远超一把烧水工具。它回答了1980年代设计界最核心的争论：后现代主义是不是只能停留在建筑和学术层面？Graves 用200万的销量证明——不是。好设计不必冷冰冰、不必隐藏在"功能至上"的外壳下。一只壶嘴上的小鸟可以同时是功能（哨子）、装饰（色彩）和叙事（每天早上的小仪式）。这正是 Don Norman 后来在《设计心理学》中反复引用它的原因：**人与物品的情感连接，和功能一样重要。**`,
+    dateConnection_en: 'Michael Graves was born on July 9, 1934 in Indianapolis, Indiana. This postmodernist architect would become a pioneer in bringing "high design" to everyday households — and this bird-whistling kettle remains his most iconic creation.',
+    designerBio_en: `Michael Graves (1934–2015) was one of the most significant American architects and product designers of the postmodern movement. After earning his architecture master\'s at Harvard and studying in Rome — where classical architecture\'s color and narrative deeply influenced him — he began as a member of the "New York Five" in the 1960s, starting with pure modernism. By the 1980s, he pivoted to postmodernism, challenging the International Style\'s austerity with color, metaphor, and historical symbols.
+
+After designing the 9093 kettle for Alessi in 1985, Graves proved a radical proposition: serious architects could design household objects — and make them more delightful than anything from "professional" product designers. He went on to design over 2,000 affordable home products for Target, truly achieving "good design for everyone." A 2003 infection left him paralyzed from the waist down; he then shifted his design focus to healthcare and accessibility until his death in 2015.`,
+    story_en: `**A single bird changed the entire kitchenware industry — over 2 million units sold, still Alessi\'s all-time bestseller.**
+
+In the early 1980s, Alberto Alessi invited architects to cross over into kitchen product design — unheard of at the time. When Graves received the invitation, he didn\'t start from "how to boil water" but from "can the act of boiling water bring joy?"
+
+His answer was a small bird perched on the spout. When water boils, steam pushes the bird to sing — this isn\'t decoration, it\'s function: it tells you the water is ready in a way that makes you smile. The conical body references primitive tripods around campfires; the wide-bottom, narrow-top form is both stable and thermally efficient. The blue handle and red bird create dramatic color contrast against polished stainless steel.
+
+**Why is this kettle a milestone?** Before it, kettles were purely functional objects. After it, kitchen appliances became vehicles for emotion, personal expression, and designer identity. The Harvard Business Review analyzed it as a classic case of "emotional design" — why do people pay triple for a plastic bird? Because it transforms your first cup of tea each morning into a small ritual worth anticipating.`,
+    legacy_en: '• Over 2 million units sold since 1985 — Alessi\'s most successful product ever\n• Pioneered "architects crossing into product design" — Zaha Hadid, Frank Gehry, and others followed\n• Permanently collected by MoMA and the Metropolitan Museum of Art\n• Proved postmodern design could be both academically rigorous and commercially appealing\n• Directly shaped Alessi\'s strategy for the next 40 years: inviting architects and artists to design everyday objects',
+    significance_en: `The 9093 kettle\'s significance transcends a water-boiling tool. It answered the central design debate of the 1980s: could postmodernism exist beyond architecture and academia? Graves proved with 2 million sales — yes. Good design needn\'t be cold or hide behind "function first." A bird on a spout can simultaneously be function (whistle), decoration (color), and narrative (a daily morning ritual). This is precisely why Don Norman repeatedly cited it in "The Design of Everyday Things": **the emotional connection between people and objects matters as much as function.**`,
+  },
 ]
