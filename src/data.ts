@@ -9816,4 +9816,43 @@ His answer was a small bird perched on the spout. When water boils, steam pushes
     legacy_en: '• 1980\'s *American Gigolo* made the "deconstructed suit" a global phenomenon; menswear sales tripled during the 1980s\n• Armani was the first fashion designer to appear on the cover of *TIME* magazine (1982)\n• Pioneered the designer-Hollywood partnership model, dressing stars for over 300 films\n• The Power Suit became a visual symbol of women\'s workplace liberation in the 1980s\n• Today Giorgio Armani Group generates over €2.3 billion in annual revenue — one of the few independent fashion empires still fully controlled by its founder\n• Influenced the entire industry\'s pursuit of "light construction" — from Zegna to Uniqlo, every "comfortable formal" garment today carries Armani\'s DNA',
     significance_en: 'The Armani Power Suit\'s design significance extends far beyond fashion itself — it proved that subtraction can be more powerful than addition. In an era celebrating ornate decoration, Armani redefined "elegance" by removing structure, simplifying lines, and blurring gender boundaries. He transformed the suit from a symbol of class and gender into a vehicle for personal attitude. This "less is more" philosophy shares DNA with modernist architecture and minimalist design — Armani is fashion\'s Mies van der Rohe.',
   },
+  {
+    id: '143',
+    date: '2026-07-12',
+    imageUrl: '/the-daily-object/images/christinas-world.jpg',
+    fullImageUrl: '/the-daily-object/images/full/christinas-world.jpg',
+    title: 'Christina\'s World',
+    title_en: 'Christina\'s World',
+    subtitle: 'Andrew Wyeth, 1948',
+    subtitle_en: 'Andrew Wyeth, 1948',
+    category: 'art' as const,
+    designer: 'Andrew Wyeth',
+    year: '1948',
+    tags: ['美国画坛标志', '写实主义巅峰', '改变了艺术叙事'],
+    tags_en: ['American Art Icon', 'Realism at Its Peak', 'Transformed Visual Narrative'],
+
+    dateConnection: '1917年7月12日，Andrew Wyeth 出生于宾夕法尼亚州查兹福德。他是美国20世纪最重要的写实主义画家之一，一生创作了大量以缅因州和宾夕法尼亚乡村为背景的蛋彩画和水彩画。',
+    designerBio: `Andrew Wyeth 出生于一个艺术世家——他的父亲 N.C. Wyeth 是美国最著名的插画家之一。与大多数画家不同，Andrew 从未进入正规艺术学校，所有绘画技法均由父亲亲授。
+
+15岁那年，父亲对他说了一句影响一生的话："Andy，你必须用自己的方式去看世界。"从此，Wyeth 放弃了父亲的浪漫插画风格，转向对身边世界的精微观察——枯草的纹理、风化的木板、冬日田野的褐色调。
+
+在抽象表现主义统治画坛的年代，Wyeth 坚持写实。批评家们嘲笑他"过时"，但公众用脚投票——他的作品成为美国人心中乡村记忆与情感的寄托。`,
+    story: `**1948年夏天，Wyeth 在缅因州库欣镇的奥尔森农庄望向窗外，看到邻居 Christina Olson 正用手臂拖着身体穿过一片枯黄的草地，向山坡上的灰色农舍爬去。**
+
+Christina 患有退行性肌肉疾病（可能是 Charcot-Marie-Tooth 综合征），双腿无法行走，但她拒绝使用轮椅。她坚持用双臂在农庄的土地上移动，年复一年。
+
+Wyeth 被这个场景击中了。他没有画怜悯，没有画悲剧——他画的是一种倔强到近乎壮烈的生命力。画面中，Christina 背对观众，瘦削的身体倾斜在广袤的褐色草地上，远处灰色的奥尔森农舍静静伫立在天际线上。
+
+**技法上，这幅画堪称蛋彩画的极致。** Wyeth 用极细的画笔，一根一根地画出草地中每一株干草的纹理。整幅画的色调被严格控制在褐色、土黄和灰绿之间，没有任何鲜艳色彩，却传递出一种几乎令人窒息的辽阔与孤独。
+
+**画中的透视也极为独特。** 地平线被推到画面最上方，使得草地占据了将近四分之三的画面空间，给人一种无限延伸的压迫感。Christina 的身体是画面中唯一的人类存在，她与农舍之间的距离看似不远，却因为她的身体状况而变得遥不可及。`,
+    legacy: '• 1948年被纽约现代艺术博物馆（MoMA）收购，至今仍是该馆最受欢迎的藏品之一\n• 与 Grant Wood 的《American Gothic》并列为美国最具辨识度的两幅画作\n• 成为无数电影、音乐、文学作品的视觉参照——从《阿甘正传》到《行尸走肉》\n• 奥尔森农舍现已成为国家历史地标，每年吸引数万访客\n• 2014年，另一幅 Wyeth 作品在佳士得拍出 2310 万美元',
+    significance: 'Christina\'s World 的设计意义远超绘画本身。它证明了"写实"不等于"保守"——通过构图、色调和透视的精心设计，一幅看似简单的乡村场景可以传递出比任何抽象画更强烈的情感张力。Wyeth 对画面空间的极端处理（地平线上推、人物缩小、空间压缩）本质上是一种视觉设计思维。这幅画影响了后来的摄影构图、电影镜头语言，甚至平面设计中"留白"概念的运用。',
+
+    dateConnection_en: 'On July 12, 1917, Andrew Wyeth was born in Chadds Ford, Pennsylvania. He became one of America\'s most important realist painters, creating an extraordinary body of tempera and watercolor works set in the rural landscapes of Maine and Pennsylvania.',
+    designerBio_en: `Andrew Wyeth was born into an artistic dynasty — his father N.C. Wyeth was one of America\'s most celebrated illustrators. Unlike most painters, Andrew never attended formal art school; every technique was taught by his father at home.\n\nAt fifteen, his father told him something that would shape his entire career: "Andy, you must learn to see the world in your own way." From that moment, Wyeth abandoned his father\'s romantic illustration style and turned to meticulous observation of his immediate surroundings — the texture of dried grass, weathered wooden boards, the brown tones of winter fields.\n\nIn an era when Abstract Expressionism dominated the art world, Wyeth stubbornly persisted with realism. Critics dismissed him as "outdated," but the public voted with their feet — his work became a vessel for Americans\' deepest memories of rural life and quiet emotion.`,
+    story_en: `**In the summer of 1948, Wyeth looked out a window at the Olson farmstead in Cushing, Maine, and saw his neighbor Christina Olson dragging herself across a field of dry grass toward the gray farmhouse on the hill.**\n\nChristina suffered from a degenerative muscular disease (likely Charcot-Marie-Tooth syndrome) that left her unable to walk. Yet she refused to use a wheelchair. Year after year, she pulled herself across the farm\'s land using only her arms.\n\nWyeth was struck by the scene. He painted neither pity nor tragedy — he painted a tenacity so fierce it bordered on the heroic. In the painting, Christina faces away from the viewer, her thin body angled across a vast brown field, while the gray Olson farmhouse sits quietly on the horizon.\n\n**Technically, the painting represents the pinnacle of egg tempera.** Wyeth used extremely fine brushes to render every individual stalk of dried grass. The entire palette is rigorously confined to browns, ochres, and muted greens — no bright colors whatsoever — yet it conveys an almost suffocating sense of vastness and solitude.\n\n**The perspective is equally extraordinary.** The horizon line is pushed to the very top of the canvas, so the grassland occupies nearly three-quarters of the picture plane, creating an overwhelming sense of endless space. Christina\'s body is the sole human presence; the distance between her and the farmhouse appears short, yet given her condition, it is an unbridgeable gulf.`,
+    legacy_en: '• Acquired by MoMA in 1948; remains one of the museum\'s most visited works to this day\n• Alongside Grant Wood\'s *American Gothic*, considered one of the two most recognizable American paintings\n• Referenced in countless films, TV shows, and novels — from *Forrest Gump* to *The Walking Dead*\n• The Olson House is now a National Historic Landmark, attracting tens of thousands of visitors annually\n• In 2014, another Wyeth work sold at Christie\'s for $23.1 million',
+    significance_en: 'Christina\'s World\'s significance transcends painting. It proved that "realism" does not mean "conservative" — through deliberate compositional design, tonal control, and radical perspective, a seemingly simple rural scene can generate emotional tension more powerful than any abstract work. Wyeth\'s extreme manipulation of pictorial space (raised horizon, diminished figure, compressed depth) is fundamentally a visual design strategy. This painting went on to influence photographic composition, cinematic framing language, and even the use of negative space in graphic design.',
+  },
 ]

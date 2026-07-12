@@ -1,12 +1,9 @@
-# Daily Object 候选 07-11
+# Daily Object 候选 07-12
 
-候选1: Giorgio Armani Power Suit (1980s) — [关联类型: 🎂 设计师生日(1934)]
-  知名度: 5/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 4/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 24/25
-
-候选2: Charles Rennie Mackintosh Hill House Chair (1902) — [关联类型: 🎂 设计师生日(1868)]
-  知名度: 4/5 | 图片: 4/5 | 故事: 4/5 | 视觉: 5/5 | 分类多样性: 3/5 | 时代加权: -3 | 总分: 17/25
-
-候选3: Yul Brynner & The King and I Costume Design (1956) — [关联类型: 🎂 演员生日(1920)]
-  知名度: 3/5 | 图片: 3/5 | 故事: 3/5 | 视觉: 3/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 17/25
-
-→ 选择: 候选1 Giorgio Armani Power Suit（原因：知名度极高，Armani 是时尚设计史上最具影响力的设计师之一，Power Suit 改变了女性职业着装，故事性强，图片资源丰富）
+候选1: Christina's World by Andrew Wyeth (1948) — 关联类型: 设计师生日 (July 12, 1917)
+  知名度: 5/5 | 图片: 5/5 | 故事: 4/5 | 视觉: 5/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 24/25
+候选2: Elongated Portraits by Amedeo Modigliani (1910s) — 关联类型: 设计师生日 (July 12, 1884)
+  知名度: 4/5 | 图片: 5/5 | 故事: 4/5 | 视觉: 5/5 | 分类多样性: 5/5 | 时代加权: -3 | 总分: 20/25
+候选3: Oscar Hammerstein II (1895) — 关联类型: 生日 (July 12, 1895)
+  知名度: 3/5 | 图片: 2/5 | 故事: 3/5 | 视觉: 2/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 15/25
+→ 选择: 候选1（原因：Christina's World 是美国最具辨识度的画作之一，MoMA 永久馆藏，视觉冲击力极强，Andrew Wyeth 生日 7/12 关联明确，1948年作品无时代惩罚。最近3天分类为 fashion/software/industrial，art 多样性满分。）
