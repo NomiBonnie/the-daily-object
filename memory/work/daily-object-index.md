@@ -23,3 +23,4 @@ Last updated: 2026-05-26
 | 05-27 | Chrysler Building | William Van Alen | architecture |
 | 05-28 | Volkswagen Beetle | Ferdinand Porsche | industrial |
 | 05-29 | Rolex Explorer | Rolex | industrial |
+| 07-12 | Christina's World | Andrew Wyeth | art |
