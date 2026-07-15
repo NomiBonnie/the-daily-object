@@ -9934,4 +9934,32 @@ Studebaker was on the brink of bankruptcy, its market share crushed by Detroit's
     significance_en: 'The Studebaker Avanti represents an extraordinarily rare moment in industrial design history: a designer, in the final phase of his career, using a single work to reject an entire era\'s aesthetic consensus. Amid the "chrome carnival" of 1960s American automotive design, the Avanti\'s minimal surfaces and aerodynamic form predicted design trends that wouldn\'t arrive for another decade. It proved the limits of Loewy\'s MAYA principle — when "most advanced" gets too far ahead of consumer acceptability, commercial failure may result, but the design itself achieves immortality.',
   },
 
+
+  {
+    id: '137',
+    date: '2026-07-15',
+    imageUrl: '/the-daily-object/images/florence-knoll-sofa.jpg',
+    fullImageUrl: '/the-daily-object/images/full/florence-knoll-sofa.jpg',
+    title: 'Florence Knoll Sofa',
+    title_en: 'Florence Knoll Sofa',
+    subtitle: 'Florence Knoll, 1954',
+    subtitle_en: 'Florence Knoll, 1954',
+    category: 'industrial' as const,
+    designer: 'Florence Knoll',
+    year: '1954',
+    tags: ['定义企业现代主义', '空间规划先驱', '改变办公室美学'],
+    tags_en: ['Defined Corporate Modernism', 'Space Planning Pioneer', 'Transformed Office Aesthetics'],
+
+    dateConnection: '1917年7月15日，Florence Schust（后来的 Florence Knoll）出生于密歇根州萨吉诺。这个12岁丧父、被 Eliel Saarinen 收养并在 Cranbrook Academy 长大的女孩，日后将彻底改变美国企业空间的面貌——从沉闷的木质办公室转变为开放、明亮、充满现代家具的全新工作环境。',
+    designerBio: `Florence Knoll 的人生轨迹本身就是一部现代设计史的缩影。12岁进入 Cranbrook Academy，师从 Eliel Saarinen；后赴伊利诺伊理工学院跟随 Mies van der Rohe 学习建筑；1946年与丈夫 Hans Knoll 共同将一家小型家具公司改造为美国最具影响力的现代家具帝国。\n\n她拒绝被称为"装饰师"，坚持自己是建筑师。她的 Planning Unit 团队为 CBS、IBM、通用汽车等巨头设计总部空间——不是选几把椅子那么简单，而是从建筑结构到一只烟灰缸，全部重新思考。`,
+    story: `Florence Knoll Sofa 诞生于一个务实的需求：她在为客户规划空间时，需要一件"能填充建筑空间但不抢戏"的家具——她称之为"meat and potatoes"设计。不是明星单品，而是让整个空间成立的基础。\n\n这把沙发的设计哲学极为克制：方正的几何轮廓、纤细的钢管腿、精准的簇绒（button-tufting）、完美的比例。它不试图成为房间的焦点，而是为 Eero Saarinen 的郁金香椅、Harry Bertoia 的钻石椅这样的"明星"提供舞台。\n\n**这种"配角哲学"恰恰是它伟大的原因。** 在一个设计师都想做英雄单品的时代，Florence Knoll 选择设计"建筑性家具"——服务于空间，而非服务于自我。70年后，这把沙发仍在生产，仍是全球建筑师和室内设计师的首选。`,
+    legacy: '• 1961年获 AIA（美国建筑师协会）金奖——首位获此殊荣的女性\n• Knoll Planning Unit 为超过100家世界500强企业设计总部空间\n• Florence Knoll Sofa、Bench、Credenza 至今仍在 Knoll 产品线中，持续生产超过70年\n• 她发明的"paste-up"展示方法（用布料样品和家具剪影做空间拼贴）成为室内设计行业标准\n• 2003年获国家艺术勋章（National Medal of Arts），由小布什总统颁发\n• MoMA、费城艺术博物馆永久收藏其作品',
+    significance: 'Florence Knoll 证明了一件看似矛盾的事：最伟大的设计可以是最不显眼的设计。她的沙发不是为了被拍照、被崇拜，而是为了让空间"work"。这种建筑师思维——把家具视为空间的一部分而非独立物件——从根本上改变了现代办公空间设计。今天我们习以为常的开放式办公室、简洁现代的企业大堂、设计师家具进入日常工作空间，全部始于她。',
+
+    dateConnection_en: 'On July 15, 1917, Florence Schust (later Florence Knoll) was born in Saginaw, Michigan. Orphaned by age 12 and taken under the wing of Eliel Saarinen at Cranbrook Academy, she would grow up to completely transform the American corporate landscape — turning dreary wood-paneled offices into open, light-filled spaces furnished with modern design.',
+    designerBio_en: `Florence Knoll\'s life trajectory reads like a condensed history of modern design. She entered Cranbrook Academy at 12, studied under Eliel Saarinen; later trained at IIT under Mies van der Rohe; and in 1946, together with her husband Hans Knoll, transformed a small furniture company into America\'s most influential modern furniture empire.\n\nShe refused to be called a "decorator," insisting she was an architect. Her Planning Unit designed headquarters for CBS, IBM, General Motors — not just selecting chairs, but rethinking everything from building structure to ashtrays.`,
+    story_en: `The Florence Knoll Sofa was born from a practical need: while planning spaces for clients, she needed furniture that could "fill architectural space without competing for attention" — what she called "meat and potatoes" design. Not a star piece, but the foundation that makes an entire space work.\n\nThe design philosophy is supremely restrained: squared geometric silhouette, slender steel tube legs, precise button-tufting, perfect proportions. It doesn\'t try to be the room\'s focal point — instead, it provides the stage for "stars" like Eero Saarinen\'s Tulip Chair or Harry Bertoia\'s Diamond Chair.\n\n**This "supporting role philosophy" is precisely what makes it great.** In an era when every designer wanted to create hero pieces, Florence Knoll chose to design "architectural furniture" — serving the space, not the ego. Seventy years later, this sofa is still in production, still the first choice of architects and interior designers worldwide.`,
+    legacy_en: '• Won the AIA Gold Medal in 1961 — the first woman to receive this honor\n• The Knoll Planning Unit designed headquarters for over 100 Fortune 500 companies\n• Florence Knoll Sofa, Bench, and Credenza remain in the Knoll product line, continuously produced for over 70 years\n• Her "paste-up" presentation method (space collages using fabric swatches and furniture cutouts) became an industry standard in interior design\n• Received the National Medal of Arts in 2003, presented by President George W. Bush\n• Works in permanent collections at MoMA and the Philadelphia Museum of Art',
+    significance_en: 'Florence Knoll proved something seemingly paradoxical: the greatest design can be the least conspicuous design. Her sofa wasn\'t made to be photographed or worshipped — it was made to make spaces work. This architectural thinking — treating furniture as part of the space rather than independent objects — fundamentally changed modern office design. The open-plan offices, sleek corporate lobbies, and designer furniture in everyday workspaces we take for granted today all began with her.',
+  },
 ]
