@@ -9962,4 +9962,57 @@ Studebaker was on the brink of bankruptcy, its market share crushed by Detroit's
     legacy_en: '• Won the AIA Gold Medal in 1961 — the first woman to receive this honor\n• The Knoll Planning Unit designed headquarters for over 100 Fortune 500 companies\n• Florence Knoll Sofa, Bench, and Credenza remain in the Knoll product line, continuously produced for over 70 years\n• Her "paste-up" presentation method (space collages using fabric swatches and furniture cutouts) became an industry standard in interior design\n• Received the National Medal of Arts in 2003, presented by President George W. Bush\n• Works in permanent collections at MoMA and the Philadelphia Museum of Art',
     significance_en: 'Florence Knoll proved something seemingly paradoxical: the greatest design can be the least conspicuous design. Her sofa wasn\'t made to be photographed or worshipped — it was made to make spaces work. This architectural thinking — treating furniture as part of the space rather than independent objects — fundamentally changed modern office design. The open-plan offices, sleek corporate lobbies, and designer furniture in everyday workspaces we take for granted today all began with her.',
   },
+
+  {
+    id: '146',
+    date: '2026-07-16',
+    imageUrl: '/the-daily-object/images/versace-medusa.jpg',
+    fullImageUrl: '/the-daily-object/images/full/versace-medusa.jpg',
+    title: 'Versace Medusa 标识',
+    title_en: 'Versace Medusa Logo',
+    subtitle: 'Gianni Versace, 1993',
+    subtitle_en: 'Gianni Versace, 1993',
+    category: 'fashion' as const,
+    designer: 'Gianni Versace',
+    year: '1993',
+    tags: ['定义奢侈时尚美学', '神话与时装的融合', '改变了品牌视觉语言'],
+    tags_en: ['Defined Luxury Fashion Aesthetics', 'Fused Mythology with Fashion', 'Transformed Brand Visual Language'],
+
+    dateConnection: '1997年7月16日，Gianni Versace 在迈阿密南海滩自家宅邸门前遭枪杀，终年50岁。这位将古希腊神话融入高级时装的意大利设计师，用一颗美杜莎的头颅创造了时尚史上最具辨识度的品牌标识——一个关于权力、美丽与凝视的永恒符号。',
+    designerBio: `Gianni Versace 1946年出生于意大利南部卡拉布里亚大区的雷焦卡拉布里亚。母亲是裁缝，他从小在布料和缝纫机之间长大。1972年移居米兰，为多个品牌做自由设计师；1978年在米兰 Via della Spiga 发布了以自己名字命名的第一个女装系列。
+
+从一开始，Versace 就打破了意大利时尚的含蓄传统。他用大胆的色彩、裸露的肌肤、摇滚的态度和古典主义的装饰，创造了一种前所未有的时尚语言——既性感又强势，既古典又前卫。他是第一个把超模变成全球巨星的设计师，Naomi Campbell、Cindy Crawford、Linda Evangelista、Claudia Schiffer 组成的"超模帮"就是他一手打造的。`,
+    story: `**Medusa 美杜莎标识的故事始于 Versace 的童年记忆。**
+
+雷焦卡拉布里亚曾是古希腊殖民地大希腊（Magna Graecia）的一部分，遍布古罗马遗迹。年幼的 Gianni 在家乡废墟的地板马赛克上第一次看到了美杜莎的脸——那个让凝视者化为石头的女妖。这个形象从此留在了他的脑海里。
+
+1993年，Versace 正式将美杜莎头像确立为品牌核心标识。他选择美杜莎的理由出人意料地私密："她代表了致命的吸引力——你无法从她身上移开目光，一旦看到就再也无法忘记。我希望我的设计也能产生同样的效果。"
+
+**这个选择在设计层面极为精妙。** 美杜莎的头像天然具有正面对称性，非常适合作为标识使用；蛇发形成自然的装饰纹样；周围环绕的希腊回纹（Greek key/Meander）边框让整体呈现硬币/勋章的形态。金色与黑色的配色方案直接引用了古希腊陶器的视觉传统。
+
+**更深层的是品牌哲学与符号的完美统一。** Versace 的设计本身就是关于"被看见"的——大胆、张扬、让人无法忽视。美杜莎那"石化凝视"的神话寓意，恰好是 Versace 时装效果的隐喻：穿上它，你就是房间里所有目光的焦点。
+
+标识设计完成后，Versace 将美杜莎头像应用到了一切——从服装上的金属配件、丝巾印花到家居系列的瓷砖和餐具。它不仅是一个Logo，更成为了一套完整的视觉系统和生活方式符号。`,
+    legacy: '• Versace Medusa 是全球辨识度最高的时尚标识之一，与 Chanel 双C、LV Monogram 并列\n• 1991年"那条裙子"——超模们穿着金色美杜莎别针礼服的秀场，重新定义了时尚秀的文化影响力\n• 2000年 Jennifer Lopez 在格莱美颁奖典礼穿的那件绿色丛林印花裙直接促使 Google 发明了图片搜索\n• Versace 品牌 2018年被 Michael Kors（后更名 Capri Holdings）以21亿美元收购，美杜莎标识保持不变\n• 2021年 Fendi x Versace "Fendace" 联名系列引发全球抢购热潮\n• Versace 对 90 年代超模文化、名人红毯文化、时尚与流行音乐融合的影响至今无人超越',
+    significance: 'Versace Medusa 标识代表了品牌视觉设计中极为罕见的成就：一个符号同时承载了创始人的个人记忆、品牌的设计哲学、和一整套文化价值观。它不是设计公司画出来的抽象图形，而是设计师生命经历的结晶。在一个时尚品牌标识日益趋同化（无衬线大写字母）的时代，Medusa 以其古典装饰性和叙事深度，证明了品牌标识可以同时是商业工具和文化符号。',
+
+    dateConnection_en: 'On July 16, 1997, Gianni Versace was shot dead on the steps of his Miami Beach mansion, Casa Casuarina. He was 50 years old. The Italian designer who fused ancient Greek mythology with haute couture created one of fashion\'s most recognizable brand identities with a single Medusa head — an eternal symbol of power, beauty, and the gaze.',
+    designerBio_en: `Gianni Versace was born in 1946 in Reggio Calabria, southern Italy. His mother was a dressmaker, and he grew up surrounded by fabrics and sewing machines. He moved to Milan in 1972 as a freelance designer for several labels, and in 1978 launched his eponymous women's collection on Via della Spiga.
+
+From the start, Versace shattered Italian fashion's tradition of restraint. He used bold colors, exposed skin, rock-and-roll attitude, and classical ornamentation to create an unprecedented fashion language — simultaneously sexy and powerful, classical and avant-garde. He was the first designer to turn supermodels into global celebrities; the "supermodel gang" of Naomi Campbell, Cindy Crawford, Linda Evangelista, and Claudia Schiffer was his creation.`,
+    story_en: `**The story of the Medusa logo begins with Versace's childhood memories.**
+
+Reggio Calabria was part of ancient Magna Graecia, scattered with Greco-Roman ruins. Young Gianni first encountered Medusa's face on floor mosaics among his hometown's archaeological remains — the Gorgon whose gaze turned onlookers to stone. The image stayed with him forever.
+
+In 1993, Versace formally established the Medusa head as the brand's core identity. His reason for choosing Medusa was surprisingly intimate: "She represents fatal attraction — you cannot look away from her, and once you've seen her, you can never forget. I want my designs to have the same effect."
+
+**The choice is brilliantly calculated in design terms.** The Medusa head has natural frontal symmetry, making it ideal as a logo; the snake hair forms organic decorative patterns; the surrounding Greek key (Meander) border gives it a coin/medallion form. The gold-and-black color scheme directly references ancient Greek pottery traditions.
+
+**At a deeper level, it achieves perfect unity between brand philosophy and symbol.** Versace's design is fundamentally about being seen — bold, unapologetic, impossible to ignore. Medusa's mythological "petrifying gaze" is a perfect metaphor for the effect of Versace fashion: wear it, and you become the focal point of every gaze in the room.
+
+Once the logo was finalized, Versace applied the Medusa head to everything — from metal hardware on clothing to silk scarf prints to tiles and tableware in the home collection. It became not merely a logo but a complete visual system and lifestyle symbol.`,
+    legacy_en: '• One of the most recognizable fashion logos globally, alongside Chanel\'s interlocking Cs and LV\'s Monogram\n• The 1991 gold Medusa-pin gowns on supermodels redefined fashion show cultural impact\n• Jennifer Lopez\'s 2000 Grammy green jungle-print dress directly inspired Google to invent Image Search\n• Versace acquired by Michael Kors (later Capri Holdings) in 2018 for $2.1 billion; the Medusa logo remained unchanged\n• The 2021 Fendi x Versace "Fendace" collaboration triggered a global buying frenzy\n• Versace\'s influence on 1990s supermodel culture, celebrity red carpet culture, and fashion-music fusion remains unmatched',
+    significance_en: 'The Versace Medusa logo represents an extraordinarily rare achievement in brand visual design: a single symbol that simultaneously carries the founder\'s personal memories, the brand\'s design philosophy, and an entire set of cultural values. It wasn\'t an abstract graphic drawn by a design agency — it was the crystallization of a designer\'s lived experience. In an era when fashion brand logos increasingly converge toward sameness (sans-serif capitals), the Medusa\'s classical ornamentation and narrative depth prove that a brand identity can function simultaneously as a commercial tool and a cultural symbol.',
+  },
+
 ]
