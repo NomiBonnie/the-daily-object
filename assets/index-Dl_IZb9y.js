@@ -5847,7 +5847,37 @@ Once the logo was finalized, Versace applied the Medusa head to everything — f
 • Jennifer Lopez's 2000 Grammy green jungle-print dress directly inspired Google to invent Image Search
 • Versace acquired by Michael Kors (later Capri Holdings) in 2018 for $2.1 billion; the Medusa logo remained unchanged
 • The 2021 Fendi x Versace "Fendace" collaboration triggered a global buying frenzy
-• Versace's influence on 1990s supermodel culture, celebrity red carpet culture, and fashion-music fusion remains unmatched`,significance_en:"The Versace Medusa logo represents an extraordinarily rare achievement in brand visual design: a single symbol that simultaneously carries the founder's personal memories, the brand's design philosophy, and an entire set of cultural values. It wasn't an abstract graphic drawn by a design agency — it was the crystallization of a designer's lived experience. In an era when fashion brand logos increasingly converge toward sameness (sans-serif capitals), the Medusa's classical ornamentation and narrative depth prove that a brand identity can function simultaneously as a commercial tool and a cultural symbol."}];/**
+• Versace's influence on 1990s supermodel culture, celebrity red carpet culture, and fashion-music fusion remains unmatched`,significance_en:"The Versace Medusa logo represents an extraordinarily rare achievement in brand visual design: a single symbol that simultaneously carries the founder's personal memories, the brand's design philosophy, and an entire set of cultural values. It wasn't an abstract graphic drawn by a design agency — it was the crystallization of a designer's lived experience. In an era when fashion brand logos increasingly converge toward sameness (sans-serif capitals), the Medusa's classical ornamentation and narrative depth prove that a brand identity can function simultaneously as a commercial tool and a cultural symbol."},{id:"147",date:"2026-07-17",imageUrl:"/the-daily-object/images/marina-city.jpg",fullImageUrl:"/the-daily-object/images/full/marina-city.jpg",title:"Marina City",title_en:"Marina City",subtitle:"Bertrand Goldberg, 1964",subtitle_en:"Bertrand Goldberg, 1964",category:"architecture",designer:"Bertrand Goldberg",year:"1964",tags:["混合用途建筑先驱","重塑城市居住方式","包豪斯精神的美国实践"],tags_en:["Pioneered Mixed-Use Living","Reshaped Urban Habitation","Bauhaus Vision in America"],dateConnection:"1913年7月17日，Bertrand Goldberg 出生于芝加哥。这位曾在柏林包豪斯学习的建筑师，用两座形如玉米穗的混凝土圆塔彻底改变了美国人对城市居住的想象——Marina City 不只是建筑，它是一种宣言：城市中心值得被居住。",designerBio:`Bertrand Goldberg 1913年生于芝加哥，18岁时远赴柏林，成为包豪斯最后一批学生之一，师从密斯·凡·德·罗。1933年包豪斯被纳粹关闭后回到美国，在哈佛短暂学习，后转入芝加哥阿默理工学院（今伊利诺伊理工学院）完成学业。
+
+二战期间，他为军方设计预制住房，由此对工业化建造产生浓厚兴趣。战后他逐渐远离密斯的直线美学，转向有机曲线形态。他相信直角是工业时代的产物，而混凝土的可塑性可以创造更符合人体和社会需求的空间。`,story:`**Marina City 的诞生源于一个城市危机。**
+
+1950年代末的芝加哥正经历严重的"白人逃离"（white flight）——中产阶级大量搬往郊区，市中心沦为荒芜地带。建筑工会领袖 William McFetridge 找到 Goldberg，提出一个激进构想：能否设计一栋建筑，让人们心甘情愿地住回城市中心？
+
+Goldberg 的回答是一个前所未有的方案：两座65层、179米高的圆形混凝土塔楼，下方18层是螺旋上升的停车场，上方是896套公寓。但这不仅仅是住宅——整个综合体包含剧院、餐厅、商店、保龄球馆、游泳池、溜冰场、甚至一个小型码头。你可以在这里生活而永远不必离开。
+
+**结构上的突破同样惊人。** 每座塔楼的核心是一根直径35英尺的混凝土筒体，所有楼板像树枝一样从中心向外悬挑。没有一根内部承重柱，住户可以自由划分空间。扇形平面让每套公寓都拥有180度的城市全景。圆形的选择不仅是美学的——它比方形结构用更少的材料获得更大的居住面积，并且在芝加哥的强风中具有更优的空气动力学性能。
+
+**它也是美国第一座真正意义上的混合用途高层建筑。** 在此之前，住宅就是住宅，商业就是商业。Marina City 证明了"垂直城市"的可能性——把城市生活的所有功能叠加在一个建筑综合体中。`,legacy:`• 美国建筑师协会（AIA）评为"改变芝加哥天际线的十大建筑"之一
+• 直接影响了后来全球混合用途超高层的设计理念，从东京六本木之丘到迪拜
+• 2016年被列入国家史迹名录
+• 出现在无数电影、专辑封面和城市宣传中（Wilco 乐队《Yankee Hotel Foxtrot》封面即为此楼）
+• Art Institute of Chicago 设有 Bertrand Goldberg Archive，完整收藏其设计手稿
+• 建成60年后仍是芝加哥河畔最具辨识度的天际线元素`,significance:'Marina City 回答了一个20世纪下半叶最重要的城市问题：人们为什么要住在城市里？Goldberg 的答案不是说教，而是设计——创造一种比郊区独栋更丰富、更便利、更刺激的生活方式。他用包豪斯的理想主义和芝加哥的工程实用主义，证明了混凝土可以温暖，圆形可以亲切，城市中心可以是家。这座建筑不只改变了天际线，它改变了一代美国人对"住在哪里"的答案。',dateConnection_en:"On July 17, 1913, Bertrand Goldberg was born in Chicago. This Bauhaus-trained architect would transform American urban living with two corncob-shaped concrete towers that declared: the city center deserves to be lived in.",designerBio_en:`Bertrand Goldberg was born in Chicago in 1913 and at 18 traveled to Berlin to become one of the last students at the Bauhaus, studying under Mies van der Rohe. After the Nazis closed the school in 1933, he returned to America, briefly attended Harvard, then completed his studies at Armour Institute of Technology (now IIT) in Chicago.
+
+During World War II, he designed prefabricated military housing, sparking a deep interest in industrialized construction. Postwar, he gradually departed from Mies's rectilinear aesthetic toward organic curved forms. He believed the right angle was a product of the industrial age, and that concrete's plasticity could create spaces better suited to human and social needs.`,story_en:`**Marina City was born from an urban crisis.**
+
+Late 1950s Chicago was hemorrhaging residents to the suburbs — the phenomenon known as "white flight" was hollowing out the city center. Building trade union leader William McFetridge approached Goldberg with a radical question: could you design a building that makes people want to live downtown again?
+
+Goldberg's answer was unprecedented: two 65-story, 179-meter circular concrete towers with 18 levels of spiral parking below and 896 apartments above. But it wasn't merely housing — the complex included a theater, restaurants, shops, bowling alley, swimming pool, ice rink, and even a marina. You could live your entire life without leaving.
+
+**The structural innovation was equally stunning.** Each tower's core is a 35-foot-diameter concrete cylinder, with all floor slabs cantilevering outward like branches from a tree trunk. No interior columns — residents could freely configure their space. The pie-shaped floor plan gave every apartment 180-degree panoramic city views. The circular form wasn't just aesthetic — it achieved more living area with less material than a rectangular plan, and performed better aerodynamically in Chicago's fierce winds.
+
+**It was also America's first true mixed-use high-rise.** Before Marina City, residential was residential and commercial was commercial. This building proved the viability of the "vertical city" — stacking all functions of urban life into one complex.`,legacy_en:`• Named by the AIA as one of the "ten buildings that changed Chicago's skyline"
+• Directly influenced global mixed-use supertall design, from Tokyo's Roppongi Hills to Dubai
+• Listed on the National Register of Historic Places in 2016
+• Featured on countless album covers and in films (Wilco's Yankee Hotel Foxtrot cover is this building)
+• The Art Institute of Chicago houses the complete Bertrand Goldberg Archive
+• Sixty years after completion, remains the most recognizable element of Chicago's riverfront skyline`,significance_en:`Marina City answered the most important urban question of the late 20th century: why should people live in cities? Goldberg's answer wasn't rhetoric — it was design. He created a way of life richer, more convenient, and more stimulating than any suburban home. Using Bauhaus idealism and Chicago engineering pragmatism, he proved that concrete could feel warm, curves could feel intimate, and downtown could feel like home. This building didn't just change a skyline — it changed a generation's answer to "where do you want to live?"`}];/**
  * @license lucide-react v0.563.0 - ISC
  *
  * This source code is licensed under the ISC license.
