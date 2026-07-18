@@ -10064,4 +10064,49 @@ Goldberg\'s answer was unprecedented: two 65-story, 179-meter circular concrete 
     significance_en: 'Marina City answered the most important urban question of the late 20th century: why should people live in cities? Goldberg\'s answer wasn\'t rhetoric — it was design. He created a way of life richer, more convenient, and more stimulating than any suburban home. Using Bauhaus idealism and Chicago engineering pragmatism, he proved that concrete could feel warm, curves could feel intimate, and downtown could feel like home. This building didn\'t just change a skyline — it changed a generation\'s answer to "where do you want to live?"',
   },
 
+
+  {
+    id: '148',
+    date: '2026-07-18',
+    imageUrl: '/the-daily-object/images/joy-division-closer.jpg',
+    fullImageUrl: '/the-daily-object/images/full/joy-division-closer.jpg',
+    title: 'Closer',
+    title_en: 'Closer',
+    subtitle: 'Peter Saville, 1980',
+    subtitle_en: 'Peter Saville, 1980',
+    category: 'music' as const,
+    designer: 'Peter Saville',
+    year: '1980',
+    tags: ['唱片封面设计巅峰', '后朋克视觉语言', '死亡美学先驱'],
+    tags_en: ['Peak Album Cover Design', 'Post-Punk Visual Language', 'Death Aesthetics Pioneer'],
+
+    dateConnection: '1980年7月18日，Joy Division的第二张也是最后一张录音室专辑《Closer》由Factory Records发行。此时距离主唱Ian Curtis自缢身亡仅过去两个月。这张专辑和它的封面设计，从诞生之日就被死亡的阴影笼罩，却因此成为音乐与视觉设计史上最动人的作品之一。',
+    designerBio: `Peter Saville，1955年生于曼彻斯特，是Factory Records的联合创始人和视觉总监。他在曼彻斯特理工学院学习平面设计时深受Jan Tschichold新版式主义的影响，毕业后与Tony Wilson共同创建了Factory Records，从此开启了独立音乐视觉设计的全新范式。
+
+Saville为Factory Records设计的一系列封面——从Joy Division到New Order——彻底重新定义了唱片封面的可能性。他拒绝将封面视为营销工具，而是将其视为独立的艺术表达。他的设计极少出现乐队名字或专辑标题，这在当时的唱片工业中几乎是自杀式的做法，却成为了最具辨识度的视觉风格。`,
+    story: `《Closer》的封面使用了一张由Bernard Pierre Wolff拍摄的黑白照片：热那亚Staglieno纪念公墓中Appiani家族墓碑上的大理石雕塑。两个哀悼的人物跪在一具石棺旁，姿态庄严而悲恸。
+
+**Saville选择这张照片时，Ian Curtis尚未离世。** 这是最令人心碎的巧合——设计师纯粹从美学出发选择了一个关于死亡与哀悼的意象，而现实随即赋予了它无法承受的重量。当专辑最终发行时，封面上那两个跪在棺前的雕塑人物，变成了对Ian Curtis最沉默也最有力的悼词。
+
+Saville的设计手法极度克制。整个封面没有乐队名字，没有专辑标题——只有那张照片，以及大面积的留白。文字信息被放在封底和内页，以Futura字体排列，冷静得近乎残酷。这种"反设计"的设计语言，与专辑中那些关于隔离、崩溃和终结的音乐完美呼应。
+
+**封面的色调同样值得注意。** Saville将Wolff的原始照片处理成深灰褐色调，既不是纯黑白也不是暖色——一种介于记录与回忆之间的色温，像褪色的纪念照片，也像石头本身的颜色。`,
+    legacy: '《Closer》封面被无数设计杂志评为史上最伟大的唱片封面之一。它确立了Peter Saville作为音乐视觉设计教父的地位，也确立了Factory Records作为"设计比音乐更重要"的厂牌形象。Saville后来的设计生涯——从New Order的《Power, Corruption & Lies》到为Calvin Klein和Givenchy的时尚设计——都延续了《Closer》中那种将高雅艺术引入流行文化的理念。这张封面也直接影响了整个后朋克和独立音乐的视觉美学：沉默、留白、拒绝讨好。',
+    significance: '在1980年，唱片封面仍被视为纯粹的商业包装——要醒目、要易辨识、要在唱片店货架上抓住眼球。Saville用《Closer》证明了封面设计可以是一件独立的艺术作品，可以与音乐平行对话而非从属于它。他用一座19世纪意大利公墓的雕塑照片、一组不出现任何文字的版面，创造了比任何花哨视觉都更深刻的情感冲击。这不是设计服务音乐——这是设计成为音乐的一部分。',
+
+    dateConnection_en: 'On July 18, 1980, Joy Division\'s second and final studio album *Closer* was released on Factory Records. Lead singer Ian Curtis had hanged himself just two months earlier, on May 18. The album and its cover design were born under the shadow of death — and became one of the most haunting achievements in the history of music and visual design.',
+    designerBio_en: `Peter Saville, born 1955 in Manchester, was co-founder and visual director of Factory Records. Deeply influenced by Jan Tschichold's New Typography during his studies at Manchester Polytechnic, he co-founded Factory with Tony Wilson and proceeded to redefine the visual language of independent music.
+
+His sleeve designs for Factory — from Joy Division through New Order — established a radical new paradigm: the album cover as autonomous art object rather than marketing tool. His refusal to include band names or album titles on covers was near-suicidal commercially, yet became the most recognizable visual identity in music history.`,
+    story_en: `The cover of *Closer* features a black-and-white photograph by Bernard Pierre Wolff: a marble sculpture atop the Appiani family tomb in Genoa's Staglieno Monumental Cemetery. Two mourning figures kneel beside a stone sarcophagus, their posture solemn and grief-stricken.
+
+**Saville chose this image before Ian Curtis died.** This remains the most devastating coincidence in design history — the designer selected an image of death and mourning on purely aesthetic grounds, and reality immediately filled it with unbearable weight. By the time the album was released, those two kneeling figures had become the most silent and most powerful eulogy for Curtis.
+
+Saville's design approach was radically restrained. No band name. No album title. Just the photograph and vast negative space. All text was relegated to the back cover and inner sleeve, set in Futura with clinical precision. This "anti-design" language perfectly mirrored the music's themes of isolation, collapse, and ending.
+
+**The tonal treatment is equally deliberate.** Saville processed Wolff's original photograph into a deep grey-sepia tone — neither pure black-and-white nor warm — a color temperature hovering between document and memory, like a faded memorial photograph, like the stone itself.`,
+    legacy_en: '*Closer* is consistently ranked among the greatest album covers ever designed. It established Peter Saville as the godfather of music visual design and cemented Factory Records\' reputation as a label where design mattered as much as — or more than — the music. Saville\'s subsequent career, from New Order\'s *Power, Corruption & Lies* to fashion work for Calvin Klein and Givenchy, continued the *Closer* principle of bringing fine art into popular culture. The cover directly shaped the entire post-punk and indie visual aesthetic: silence, negative space, refusal to please.',
+    significance_en: 'In 1980, album covers were still viewed as pure commercial packaging — eye-catching, recognizable, designed to grab attention on record store shelves. Saville used *Closer* to prove that cover design could be an autonomous artwork, one that converses with the music rather than serving it. With a photograph of a 19th-century Italian cemetery sculpture and a layout bearing no text whatsoever, he created a deeper emotional impact than any flashy visual ever could. This wasn\'t design serving music — this was design becoming part of the music.',
+  },
+
 ]
