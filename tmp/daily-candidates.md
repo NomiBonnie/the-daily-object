@@ -1,18 +1,19 @@
-# Daily Object 候选 07-18
+# Daily Object 候选 07-19
 
-最近3天分类: industrial(07-15), fashion(07-16), architecture(07-17)
-最近3天关联类型: 需检查
+候选1: Entartete Kunst Exhibition Poster (1937) — [关联类型: 展览开幕日（July 19, 1937）]
+  知名度: 5/5 | 图片: 4/5 | 故事: 5/5 | 视觉: 4/5 | 分类多样性: 5/5 | 时代加权: -3 | 总分: 20/25
+  备注: 纳粹"堕落艺术"展，攻击了包豪斯、表现主义、抽象派等现代主义设计运动。展览海报/图录本身就是宣传设计的经典案例。category=graphic，与近3天（fashion/architecture/music）完全不同。虽1937年但影响力至今，设计史必修内容，-3后仍20分。
 
-候选1: Closer (Joy Division) (1980) — [关联类型: 专辑发布日]
-  知名度: 5/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 25/25
-  备注: Peter Saville设计的封面是平面设计史经典，Joy Division全球知名，Ian Curtis自杀后遗作，故事性极强。封面用Staglieno公墓雕塑照片，视觉冲击力强。category=music，与近3天都不同。
+候选2: Edgar Degas - Little Dancer of Fourteen Years (c.1881) — [关联类型: 设计师生日（July 19, 1834）]
+  知名度: 5/5 | 图片: 5/5 | 故事: 4/5 | 视觉: 5/5 | 分类多样性: 3/5 | 时代加权: -3 | 总分: 19/25
+  备注: 德加生日，小舞者雕塑极其经典。但category=art，07-12和07-13都是art（和昨天不同但和前几天重复）。-3后仍19分。
 
-候选2: Victor Gruen (Southdale Center) (1956) — [关联类型: 设计师生日]
-  知名度: 3/5 | 图片: 3/5 | 故事: 4/5 | 视觉: 3/5 | 分类多样性: 1/5 | 时代加权: 0 | 总分: 14/25
-  备注: 发明了现代购物中心概念，但category=architecture与昨天重复，且购物中心照片视觉冲击力一般。
+候选3: Edwin Schlossberg - Interactive Design Pioneer (b.1945) — [关联类型: 设计师生日（July 19, 1945）]
+  知名度: 2/5 | 图片: 2/5 | 故事: 3/5 | 视觉: 2/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 淘汰（知名度<3）
+  备注: 知名度硬门槛不过，中文互联网几乎无提及。淘汰。
 
-候选3: Charles James (The Clover Leaf Gown) (1953) — [关联类型: 设计师生日]
-  知名度: 3/5 | 图片: 4/5 | 故事: 4/5 | 视觉: 4/5 | 分类多样性: 3/5 | 时代加权: 0 | 总分: 18/25
-  备注: "America's first couturier"，Met有专展。但category=fashion与07-16重复(前天)，扣分。
+候选4: Samuel Colt - Colt Revolver (b.1814) — [关联类型: 设计师生日（July 19, 1814）]
+  知名度: 4/5 | 图片: 4/5 | 故事: 4/5 | 视觉: 3/5 | 分类多样性: 3/5 | 时代加权: -3 | 总分: 15/25
+  备注: 柯尔特左轮枪有设计影响但偏武器/功能性，视觉美感一般，不够"设计向"。
 
-→ 选择: 候选1 Joy Division - Closer（原因：满分25分，专辑封面是设计史经典，Peter Saville是Factory Records视觉系统缔造者，故事性极强(Ian Curtis自杀后遗作)，视觉冲击力强，category=music与近3天都不重复，日期关联=专辑发布日明确可验证）
+→ 选择: 候选1 Entartete Kunst Exhibition（原因：总分最高20分，graphic category多样性最好，故事性极强——纳粹如何试图摧毁现代设计运动，设计史必修话题。展览海报/图录封面是经典的宣传设计作品，兼具平面设计与历史价值。）
