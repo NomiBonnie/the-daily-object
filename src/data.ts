@@ -10137,4 +10137,32 @@ Saville's design approach was radically restrained. No band name. No album title
     significance_en: 'This exhibition exposed a question that remains relevant today: what happens when power attempts to dictate aesthetic standards? The Nazis attacked not just specific artists and works, but tried to establish a "correct" visual language — classical, realist, serving the state narrative. They failed, but the lesson hasn\'t expired. From censorship to algorithmic recommendation, the question of "who decides what good design is" has never gone away. The word "KUNST" in quotation marks on this guide\'s cover remains the most powerful reminder to every designer: artistic freedom is never guaranteed.',
   },
 
+  {
+    id: '151',
+    date: '2026-07-20',
+    imageUrl: '/the-daily-object/images/apollo-lunar-module.jpg',
+    fullImageUrl: '/the-daily-object/images/full/apollo-lunar-module.jpg',
+    title: 'Apollo Lunar Module',
+    title_en: 'Apollo Lunar Module',
+    subtitle: 'Grumman Aircraft / Thomas J. Kelly, 1969',
+    subtitle_en: 'Grumman Aircraft / Thomas J. Kelly, 1969',
+    category: 'industrial' as const,
+    designer: 'Thomas J. Kelly / Grumman',
+    year: '1969',
+    tags: ['人类工程学巅峰', '极限轻量化设计', '改变了人类文明'],
+    tags_en: ['Peak Human Engineering', 'Extreme Lightweight Design', 'Changed Human Civilization'],
+
+    dateConnection: '1969年7月20日，阿波罗11号登月舱「鹰」号在月球静海着陆。这是人类第一次踏上另一个天体——而承载这一刻的，是一台被工程师们称为「有史以来最精密的飞行器」的机器。它不漂亮，甚至有些丑陋，但它的每一寸表面都是功能与生存之间的极限博弈。',
+    designerBio: `Thomas J. Kelly，Grumman Aircraft 的首席工程师，被称为「登月舱之父」。1960年他带领团队赢得NASA合同时，没人知道如何建造一台能在月球上着陆的飞行器——因为从没有人做过。\n\nKelly 和他的团队面对的设计约束是人类工程史上最极端的：每多一克重量都意味着需要更多燃料，而更多燃料又意味着更多重量。最终，登月舱的外壳薄到可以用螺丝刀戳穿——仅0.012英寸，比三层铝箔厚不了多少。Kelly 后来说：「我们不是在设计一架飞机，我们是在设计一个能让人活着回来的信封。」`,
+    story: `**登月舱的设计哲学可以用一个词概括：减法。**\n\n最初的方案有窗户、座椅、甚至着陆缓冲气囊。一个个被砍掉。宇航员站着驾驶——因为站着的人比坐着的人占空间小，省掉座椅还能减重68公斤。三角形窗户向下倾斜——不是为了美观，而是为了让宇航员能看到着陆点。外表面那些皱巴巴的金色锡箔不是粗制滥造，而是精密的多层隔热材料，每一层都有不同功能。\n\n**它是反审美的，却创造了一种新审美。** 登月舱看起来像一只巨大的金色昆虫，与同时代流线型、光滑的航天器想象完全相反。它证明了一件事：当功能约束足够极端时，形式会自然生长为某种奇异而诚实的美。没有任何装饰性元素——每一个凸起、每一片箔纸、每一根天线都有明确的生存理由。\n\n**整个登月舱项目有超过7,000家供应商参与，包含数百万个零件。** 但最终产品重量仅14,700公斤（包括燃料），其中着陆级干重仅2,034公斤——比一辆现代SUV还轻，却要承载两个人在38万公里外的真空中生存。`,
+    legacy: '登月舱开创的极限轻量化设计哲学深刻影响了后来的工业设计思维。从笔记本电脑到碳纤维自行车，「每一克都要有理由存在」的理念可以追溯到Kelly团队。它也是「诚实设计」的终极案例——形式完全由功能决定，没有任何伪装或装饰，却因此获得了一种超越时代的视觉力量。登月舱的残骸至今仍留在月球表面，是人类在另一个天体上的第一件「设计作品」。',
+    significance: '在设计史上，登月舱代表着一个极端命题的回答：当失败意味着死亡、每一克重量都是生死攸关时，设计会变成什么样子？答案是：它会变得极度诚实。登月舱证明了功能主义的终极承诺——纯粹的功能约束可以产生纯粹的美。它不是被「设计」出来的美，而是从约束中「生长」出来的美。对每一位工业设计师来说，这都是最有力的提醒：约束不是创造力的敌人，而是它的催化剂。',
+
+    dateConnection_en: 'On July 20, 1969, the Apollo 11 Lunar Module "Eagle" landed on the Moon\'s Sea of Tranquility. It was the first time humans set foot on another celestial body — and the vessel that carried them there was what engineers called "the most complex flying machine ever built." It wasn\'t beautiful in any conventional sense, yet every square inch of its surface represented the ultimate negotiation between function and survival.',
+    designerBio_en: `Thomas J. Kelly, chief engineer at Grumman Aircraft, was known as the "Father of the Lunar Module." When his team won the NASA contract in 1962, no one knew how to build a spacecraft that could land on the Moon — because no one had ever done it.\n\nThe design constraints Kelly\'s team faced were the most extreme in engineering history: every additional gram of weight meant more fuel, and more fuel meant more weight. The final hull was thin enough to puncture with a screwdriver — just 0.012 inches, barely thicker than three layers of aluminum foil. Kelly later said: "We weren\'t designing an aircraft. We were designing an envelope that could bring people back alive."`,
+    story_en: `**The Lunar Module\'s design philosophy can be summed up in one word: subtraction.**\n\nEarly designs included windows, seats, even landing airbags. One by one, they were eliminated. Astronauts flew standing up — because a standing person takes less space than a seated one, and removing seats saved 150 pounds. The triangular windows tilted downward — not for aesthetics, but so pilots could see the landing site. The crinkled gold foil covering the exterior wasn\'t sloppy construction but precision-engineered multi-layer insulation, each layer serving a different function.\n\n**It was anti-aesthetic, yet it created a new aesthetic.** The Lunar Module looked like a giant golden insect, the complete opposite of the sleek, streamlined spacecraft of popular imagination. It proved something profound: when functional constraints are extreme enough, form grows naturally into something strange and honest. No decorative elements — every protrusion, every sheet of foil, every antenna existed for one reason: survival.\n\n**Over 7,000 suppliers contributed to the program, with millions of individual parts.** Yet the final product weighed only 32,000 pounds fully fueled, with the descent stage dry weight at just 4,484 pounds — lighter than a modern SUV, yet designed to keep two humans alive 240,000 miles from home in the vacuum of space.`,
+    legacy_en: 'The Lunar Module\'s extreme lightweight design philosophy profoundly influenced subsequent industrial design thinking. From laptops to carbon fiber bicycles, the principle that "every gram must justify its existence" traces back to Kelly\'s team. It remains the ultimate case study in honest design — form entirely determined by function, with no disguise or decoration, yet possessing a visual power that transcends its era. The LM descent stages remain on the lunar surface to this day — humanity\'s first "design objects" on another world.',
+    significance_en: 'In design history, the Lunar Module answers an extreme question: what does design become when failure means death and every gram is a matter of life or death? The answer: it becomes radically honest. The LM proved functionalism\'s ultimate promise — that pure functional constraints can produce pure beauty. Not beauty that was "designed," but beauty that "grew" from constraints. For every industrial designer, it remains the most powerful reminder: constraints are not the enemy of creativity — they are its catalyst.',
+  },
+
 ]
