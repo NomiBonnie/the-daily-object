@@ -10165,4 +10165,58 @@ Saville's design approach was radically restrained. No band name. No album title
     significance_en: 'In design history, the Lunar Module answers an extreme question: what does design become when failure means death and every gram is a matter of life or death? The answer: it becomes radically honest. The LM proved functionalism\'s ultimate promise — that pure functional constraints can produce pure beauty. Not beauty that was "designed," but beauty that "grew" from constraints. For every industrial designer, it remains the most powerful reminder: constraints are not the enemy of creativity — they are its catalyst.',
   },
 
+  {
+    id: '181',
+    date: '2026-07-21',
+    imageUrl: '/the-daily-object/images/ogilvy-rolls-royce-ad.jpg',
+    fullImageUrl: '/the-daily-object/images/full/ogilvy-rolls-royce-ad.jpg',
+    title: '劳斯莱斯广告',
+    title_en: '"At 60 miles an hour" Rolls-Royce Ad',
+    subtitle: 'David Ogilvy, 1959',
+    subtitle_en: 'David Ogilvy, 1959',
+    category: 'graphic' as const,
+    designer: 'David Ogilvy',
+    year: '1959',
+    tags: ['现代广告的奠基之作', '文案改变商业史', '视觉传达典范'],
+    tags_en: ['Foundation of Modern Advertising', 'Copy That Changed Business', 'Visual Communication Masterpiece'],
+
+    dateConnection: '1999年7月21日，被誉为"现代广告之父"的David Ogilvy在法国Touffou城堡去世，享年88岁。他一手创建了Ogilvy & Mather，将广告从粗暴的推销术提升为一门融合心理学、美学与叙事的传播艺术。',
+    designerBio: `David Ogilvy，1911年生于英国萨里，人生履历堪称传奇：牛津辍学、巴黎大厨、苏格兰挨家挨户卖炉灶、农夫、情报官员——直到38岁才写出人生第一条广告。
+
+1948年，他在纽约创办了后来的Ogilvy & Mather。没有广告从业经验的他，凭借对人性的洞察和对文字近乎偏执的雕琢，在十年内把这家小公司做成了全球顶尖广告集团。他坚信"消费者不是白痴，她是你的妻子"——这句话至今仍是广告行业的良心标尺。`,
+    story: `1958年，Ogilvy接下了劳斯莱斯的账户。他花了三周时间研读关于这辆车的所有技术资料，最终从中提炼出一句改变广告史的标题：
+
+**"At 60 miles an hour the loudest noise in this new Rolls-Royce comes from the electric clock."**
+
+这不是他的原创——这句话来自一位汽车工程师的技术报告。但Ogilvy的天才在于：他知道哪句话值得被世界听见。标题下方是密密麻麻的正文，列举了13条关于劳斯莱斯品质的具体事实。没有形容词的堆砌，没有空洞的吹嘘，只有一个又一个令人信服的细节。
+
+**这则广告于1959年3月刊出，劳斯莱斯的询价量暴涨了50%。** 更深远的影响是：它证明了长文案的力量——当你有真正值得说的东西时，人们愿意读每一个字。它也确立了Ogilvy的核心哲学："广告不是艺术，它是卖货；但最好的卖货，本身就是艺术。"`,
+    legacy: `• 确立了"事实型广告"(factual advertising)的范式——用具体细节而非空洞形容词说服消费者
+• 证明长文案在高端品牌传播中的有效性，影响了半个世纪的奢侈品营销策略
+• 这则广告被《广告时代》评为20世纪最伟大广告之一
+• Ogilvy & Mather如今仍是全球最大广告集团之一，服务于IBM、Dove、American Express等品牌
+• "The consumer isn't a moron, she's your wife" 至今仍是广告伦理的核心信条
+• 《一个广告人的自白》被翻译成14种语言，是每位广告人的入门必读`,
+    significance: '在平面设计史上，Ogilvy的劳斯莱斯广告代表了一个转折点：广告不再只是视觉冲击或口号重复，而是信息设计——如何用排版、留白、标题层级和正文节奏来引导读者完成一次完整的认知旅程。它告诉所有设计师：伟大的视觉传达不是让人"看到"，而是让人"读完"。',
+
+    dateConnection_en: 'On July 21, 1999, David Ogilvy — widely regarded as the "Father of Advertising" — passed away at his château in Touffou, France, aged 88. He founded Ogilvy & Mather and elevated advertising from crude salesmanship into a craft blending psychology, aesthetics, and storytelling.',
+    designerBio_en: `David Ogilvy was born in 1911 in Surrey, England. His pre-advertising career reads like a picaresque novel: Oxford dropout, Parisian chef, door-to-door stove salesman in Scotland, farmer, and intelligence officer — he didn't write his first advertisement until age 38.
+
+In 1948, with no advertising experience, he founded what would become Ogilvy & Mather in New York. Within a decade, his obsessive attention to research and craftsmanship transformed the small agency into a global powerhouse. His credo — "The consumer isn't a moron, she's your wife" — remains the industry's moral compass.`,
+    story_en: `In 1958, Ogilvy won the Rolls-Royce account. He spent three weeks reading every technical document about the car, finally distilling one sentence that would change advertising history:
+
+**"At 60 miles an hour the loudest noise in this new Rolls-Royce comes from the electric clock."**
+
+The line wasn't his invention — it came from an engineer's report. Ogilvy's genius lay in knowing which fact deserved to be heard by the world. Below the headline ran dense body copy listing 13 specific facts about Rolls-Royce quality. No adjective padding, no hollow boasts — just one convincing detail after another.
+
+**Published in March 1959, the ad increased Rolls-Royce inquiries by 50%.** Its deeper legacy: it proved the power of long copy — when you have something genuinely worth saying, people will read every word. It also crystallized Ogilvy's core philosophy: "Advertising isn't art, it's selling; but the best selling is itself art."`,
+    legacy_en: `• Established the paradigm of "factual advertising" — persuading consumers through specific details rather than empty adjectives
+• Proved long-copy effectiveness in luxury brand communication, influencing half a century of premium marketing
+• Ranked among the greatest ads of the 20th century by Advertising Age
+• Ogilvy & Mather remains one of the world's largest agency networks, serving IBM, Dove, and American Express
+• "The consumer isn't a moron, she's your wife" endures as advertising ethics' core tenet
+• Confessions of an Advertising Man, translated into 14 languages, remains required reading for every advertiser`,
+    significance_en: 'In graphic design history, Ogilvy\'s Rolls-Royce ad marks a turning point: advertising ceased to be mere visual shock or slogan repetition and became information design — how typography, white space, headline hierarchy, and body-copy rhythm guide a reader through a complete cognitive journey. It tells every designer: great visual communication isn\'t about making people "see" — it\'s about making them "read to the end."',
+  },
+
 ]
