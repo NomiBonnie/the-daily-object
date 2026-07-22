@@ -10219,4 +10219,58 @@ The line wasn't his invention — it came from an engineer's report. Ogilvy's ge
     significance_en: 'In graphic design history, Ogilvy\'s Rolls-Royce ad marks a turning point: advertising ceased to be mere visual shock or slogan repetition and became information design — how typography, white space, headline hierarchy, and body-copy rhythm guide a reader through a complete cognitive journey. It tells every designer: great visual communication isn\'t about making people "see" — it\'s about making them "read to the end."',
   },
 
+  {
+    id: '182',
+    date: '2026-07-22',
+    imageUrl: '/the-daily-object/images/calder-flamingo.jpg',
+    fullImageUrl: '/the-daily-object/images/full/calder-flamingo.jpg',
+    title: '火烈鸟',
+    title_en: 'Flamingo',
+    subtitle: 'Alexander Calder, 1974',
+    subtitle_en: 'Alexander Calder, 1974',
+    category: 'art' as const,
+    designer: 'Alexander Calder',
+    year: '1974',
+    tags: ['发明了动态雕塑', '公共艺术先驱', '重新定义空间体验'],
+    tags_en: ['Invented Kinetic Sculpture', 'Public Art Pioneer', 'Redefined Spatial Experience'],
+
+    dateConnection: '1898年7月22日，Alexander Calder出生于宾夕法尼亚州Lawnton。他是雕塑史上最具革命性的人物之一——发明了"mobile"这一全新艺术形式，让雕塑从静止走向运动，从底座走向天空。',
+    designerBio: `Alexander Calder出身艺术世家：祖父雕刻了费城市政厅顶上的William Penn铜像，父亲也是知名雕塑家。但Calder最初选择学的是机械工程——这个看似叛逆的决定，最终成就了他独一无二的艺术语言。
+
+1923年他进入纽约艺术学生联盟学习绘画，1926年搬到巴黎后创作了著名的微型铁丝马戏团。1930年参观蒙德里安工作室后，Calder受到强烈触动，决心"让蒙德里安的画动起来"——这个念头催生了mobile的诞生。Marcel Duchamp为这种悬挂式动态雕塑命名为"mobile"，Jean Arp则将其静态作品称为"stabile"。`,
+    story: `1974年，芝加哥联邦广场揭幕了Calder最壮观的公共作品之一：Flamingo。这座高达16米、重达50吨的红色钢铁雕塑，以令人难以置信的优雅姿态立于密斯·凡德罗设计的黑色玻璃幕墙联邦大楼群之间。
+
+**Flamingo的设计逻辑是一次精妙的对话。** 密斯的建筑是直角的、冷峻的、理性至极的国际主义风格——黑色钢铁和玻璃的绝对几何。Calder用一组弯曲的、有机的、鲜红色的弧线回应了这一切。曲与直、红与黑、动态感与静态感——这种对比不是冲突，而是让彼此都更加鲜明。
+
+**"我想做巨大的东西"**——Calder在晚年越来越执着于公共尺度的创作。他相信艺术不该被锁在画廊里，而应该在城市中与每一个路人相遇。Flamingo的拱形结构创造了一个人们可以穿行其下的空间，它不只是"被观看"的雕塑，而是"被体验"的建筑尺度装置。
+
+揭幕典礼上，芝加哥举办了盛大的游行，Calder本人乘坐马车穿越市中心。这是一位艺术家能获得的最高市民礼遇——而他确实配得上。`,
+    legacy: `• 发明了mobile——人类历史上第一次让雕塑真正"动"起来，用空气和重力作为创作媒介
+• 开创了monumental stabile传统，让抽象艺术以公共雕塑的形式进入城市日常
+• Flamingo至今仍是芝加哥最具标志性的公共艺术品，联邦广场因它而有了灵魂
+• 影响了几代公共艺术家和景观设计师对"艺术与建筑对话"的理解
+• 作品被全球所有主要博物馆收藏，从MoMA到蓬皮杜到国家美术馆
+• 证明了抽象艺术可以被大众真心喜爱——不需要"看懂"，只需要"感受"`,
+    significance: 'Calder重新定义了雕塑与空间的关系。在他之前，雕塑是放在底座上被仰望的；在他之后，雕塑可以悬挂在天花板上随风舞动，也可以跨越广场让人穿行其下。Flamingo证明了一个道理：当抽象艺术找到正确的尺度和正确的场所，它就不再是精英的游戏，而是所有人的礼物。',
+
+    dateConnection_en: 'On July 22, 1898, Alexander Calder was born in Lawnton, Pennsylvania. He would become one of the most revolutionary figures in sculpture history — the inventor of the "mobile," a new art form that freed sculpture from stillness and pedestals, sending it into the air.',
+    designerBio_en: `Alexander Calder came from an artistic dynasty: his grandfather carved the William Penn statue atop Philadelphia City Hall, and his father was a well-known sculptor. Yet Calder initially studied mechanical engineering — a seemingly rebellious choice that ultimately forged his unique artistic language.
+
+In 1923 he enrolled at New York's Art Students League; by 1926 he was in Paris creating his famous miniature wire circus. After visiting Mondrian's studio in 1930, Calder was struck with the desire to "make Mondrian's paintings move" — an impulse that birthed the mobile. Marcel Duchamp named these suspended kinetic works "mobiles," while Jean Arp dubbed the static pieces "stabiles."`,
+    story_en: `In 1974, Chicago's Federal Plaza unveiled one of Calder's most spectacular public works: Flamingo. Standing 53 feet tall and weighing 50 tons, this vermilion steel sculpture rises with impossible grace among Mies van der Rohe's black glass-and-steel federal buildings.
+
+**Flamingo's design logic is a masterful dialogue.** Mies's architecture is rectilinear, austere, rational to the extreme — absolute geometry in black steel and glass. Calder answered with curving, organic, blazing-red arcs. Curve against line, red against black, implied motion against stasis — the contrast doesn't clash but makes each element more vivid.
+
+**"I want to make things that are fun to look at"** — in his later years, Calder grew increasingly committed to public-scale work. He believed art shouldn't be locked in galleries but should encounter every passerby in the city. Flamingo's arching form creates a space people walk beneath; it's not merely sculpture to be "viewed" but an architectural-scale installation to be "experienced."
+
+At the dedication ceremony, Chicago threw a grand parade, with Calder riding through downtown in a horse-drawn carriage. It was the highest civic honor an artist could receive — and one he truly deserved.`,
+    legacy_en: `• Invented the mobile — for the first time in history, sculpture truly "moved," using air and gravity as creative media
+• Pioneered the monumental stabile tradition, bringing abstract art into everyday urban life as public sculpture
+• Flamingo remains Chicago's most iconic public artwork; Federal Plaza owes its soul to this piece
+• Influenced generations of public artists and landscape designers in understanding art-architecture dialogue
+• Works held by every major museum worldwide, from MoMA to the Pompidou to the National Gallery
+• Proved that abstract art can be genuinely loved by the public — requiring not "understanding" but simply "feeling"`,
+    significance_en: 'Calder redefined the relationship between sculpture and space. Before him, sculpture sat on pedestals to be looked up at; after him, it could hang from ceilings dancing in the wind, or span plazas for people to walk beneath. Flamingo proved that when abstract art finds the right scale and the right place, it ceases to be an elite game and becomes a gift for everyone.',
+  },
+
 ]
