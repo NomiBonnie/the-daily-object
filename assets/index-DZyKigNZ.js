@@ -5977,7 +5977,33 @@ At the dedication ceremony, Chicago threw a grand parade, with Calder riding thr
 • Flamingo remains Chicago's most iconic public artwork; Federal Plaza owes its soul to this piece
 • Influenced generations of public artists and landscape designers in understanding art-architecture dialogue
 • Works held by every major museum worldwide, from MoMA to the Pompidou to the National Gallery
-• Proved that abstract art can be genuinely loved by the public — requiring not "understanding" but simply "feeling"`,significance_en:"Calder redefined the relationship between sculpture and space. Before him, sculpture sat on pedestals to be looked up at; after him, it could hang from ceilings dancing in the wind, or span plazas for people to walk beneath. Flamingo proved that when abstract art finds the right scale and the right place, it ceases to be an elite game and becomes a gift for everyone."}];/**
+• Proved that abstract art can be genuinely loved by the public — requiring not "understanding" but simply "feeling"`,significance_en:"Calder redefined the relationship between sculpture and space. Before him, sculpture sat on pedestals to be looked up at; after him, it could hang from ceilings dancing in the wind, or span plazas for people to walk beneath. Flamingo proved that when abstract art finds the right scale and the right place, it ceases to be an elite game and becomes a gift for everyone."},{id:"183",date:"2026-07-23",imageUrl:"/the-daily-object/images/centre-pompidou.jpg",fullImageUrl:"/the-daily-object/images/full/centre-pompidou.jpg",title:"蓬皮杜中心",title_en:"Centre Pompidou",subtitle:"Richard Rogers & Renzo Piano, 1977",subtitle_en:"Richard Rogers & Renzo Piano, 1977",category:"architecture",designer:"Richard Rogers",year:"1977",tags:["高科技建筑开山之作","颠覆博物馆形态","把内脏变成外衣"],tags_en:["Pioneered High-Tech Architecture","Reinvented the Museum","Turned Inside Out"],dateConnection:"1933年7月23日，Richard Rogers出生于意大利佛罗伦萨。他与Renzo Piano合作设计的蓬皮杜中心，是20世纪最具争议也最具影响力的建筑之一——一座把所有管道、结构和机械系统暴露在外的文化殿堂。",designerBio:`Richard Rogers在佛罗伦萨出生，成长于伦敦。他患有阅读障碍，在传统学校里表现平平，直到进入伦敦建筑联盟学院（AA）才找到方向。之后他获得富布赖特奖学金赴耶鲁深造，在那里结识了Norman Foster，两人回到伦敦后创立了Team 4事务所。
+
+1971年，年仅38岁的Rogers与意大利建筑师Renzo Piano搭档，在681个竞标方案中赢得了巴黎蓬皮杜中心的国际设计竞赛。评委之一Jean Prouvé力排众议支持了这个最激进的方案——这个决定改变了建筑史。Rogers后来创立了Rogers Stirk Harbour + Partners，设计了伦敦劳埃德大厦、千禧穹顶、马德里巴拉哈斯机场T4等标志性建筑。`,story:`1977年蓬皮杜中心开幕时，巴黎人称它为"炼油厂"和"市中心的航母"。批评如潮水般涌来——这座色彩斑斓的钢铁巨兽怎么配得上玛黑区优雅的天际线？
+
+**但这正是Rogers和Piano想要的反应。** 他们的设计宣言极其明确：把建筑"翻个面"。所有通常藏在墙里的东西——空调管道（蓝色）、水管（绿色）、电气线路（黄色）、交通动线（红色）——全部暴露在建筑外立面上。这不是懒惰，是哲学：功能成为装饰，结构成为表达，建筑不再伪装成别的什么东西。
+
+**内部因此获得了前所未有的自由。** 每层楼都是7500平方米的无柱大空间，可以根据展览需求自由重组。Rogers和Piano把博物馆从"神庙"变成了"机器"——一台为艺术服务的灵活机器。这个理念在当时是异端，如今已成为全球当代艺术空间设计的基本范式。
+
+**色彩编码系统是另一个天才之举。** 不同颜色代表不同的建筑系统，让复杂的技术变得可读、可理解。建筑不再神秘，而是坦诚地向每个路人展示自己如何运作——这是一种建筑民主化的姿态。`,legacy:`• 开创了高科技建筑（High-Tech Architecture）运动，直接影响了Norman Foster、Zaha Hadid等一代建筑师
+• 每年吸引超过350万访客，是巴黎访客量最高的文化场所之一
+• 证明了"丑"可以变成"酷"——开幕时的全民嘲讽变成了全民骄傲
+• 彻底改变了博物馆建筑的思维方式：从固定的殿堂到灵活的平台
+• 色彩编码的外露管道系统成为建筑史上最具辨识度的立面语言之一
+• 2023年起闭馆进行大规模翻修，计划2030年重新开放——证明其结构理念经得起半世纪考验`,significance:"蓬皮杜中心是20世纪建筑史上最重要的分水岭之一。它证明了一座建筑可以同时是激进的和受欢迎的，是技术展示也是文化空间，是城市客厅也是美学宣言。Rogers和Piano用这座建筑告诉世界：诚实比优雅更有力量——当建筑不再隐藏自己的运作方式，它反而获得了一种前所未有的美。",dateConnection_en:"On July 23, 1933, Richard Rogers was born in Florence, Italy. His collaboration with Renzo Piano on the Centre Pompidou produced one of the 20th century's most controversial and influential buildings — a cultural palace that wears all its pipes, structure, and mechanical systems on the outside.",designerBio_en:`Richard Rogers was born in Florence and raised in London. Dyslexic and unremarkable in traditional schooling, he found his calling at the Architectural Association (AA). A Fulbright scholarship took him to Yale, where he met Norman Foster; together they returned to London and founded Team 4.
+
+In 1971, the 38-year-old Rogers partnered with Italian architect Renzo Piano to win the international competition for the Centre Pompidou in Paris — chosen from 681 entries. Juror Jean Prouvé championed their radical proposal against considerable opposition, a decision that altered architectural history. Rogers went on to found Rogers Stirk Harbour + Partners, designing the Lloyd's building in London, the Millennium Dome, and Madrid Barajas Airport Terminal 4.`,story_en:`When the Centre Pompidou opened in 1977, Parisians called it a "refinery" and an "aircraft carrier in the city center." Criticism was relentless — how could this colorful steel beast belong on the Marais skyline?
+
+**That reaction was exactly what Rogers and Piano intended.** Their design manifesto was radical and clear: turn the building inside out. Everything normally hidden within walls — air conditioning ducts (blue), water pipes (green), electrical conduits (yellow), circulation routes (red) — was exposed on the exterior. This wasn't laziness; it was philosophy: function becomes ornament, structure becomes expression, architecture stops pretending to be something it's not.
+
+**The interior gained unprecedented freedom as a result.** Each floor is a 7,500-square-meter column-free space that can be reconfigured at will for any exhibition. Rogers and Piano transformed the museum from "temple" into "machine" — a flexible machine in service of art. Heretical at the time, this concept is now the foundational paradigm for contemporary art spaces worldwide.
+
+**The color-coding system was another stroke of genius.** Different colors denote different building systems, making complex engineering legible and comprehensible to anyone. The building stops being mysterious and instead openly shows every passerby how it works — a gesture of architectural democratization.`,legacy_en:`• Launched the High-Tech Architecture movement, directly influencing Norman Foster, Zaha Hadid, and an entire generation
+• Attracts over 3.5 million visitors annually, one of Paris's most-visited cultural venues
+• Proved that "ugly" can become "cool" — universal mockery at opening transformed into universal pride
+• Fundamentally changed how museum architecture is conceived: from fixed temple to flexible platform
+• The color-coded exposed pipe system became one of the most recognizable facade languages in architectural history
+• Closed in 2023 for major renovation, scheduled to reopen in 2030 — proving its structural philosophy withstands half a century`,significance_en:"The Centre Pompidou is one of the most important watersheds in 20th-century architecture. It proved that a building can be simultaneously radical and beloved, a technological showcase and a cultural space, a civic living room and an aesthetic manifesto. Rogers and Piano told the world that honesty is more powerful than elegance — when architecture stops hiding how it works, it paradoxically achieves a beauty never seen before."}];/**
  * @license lucide-react v0.563.0 - ISC
  *
  * This source code is licensed under the ISC license.
