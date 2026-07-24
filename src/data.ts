@@ -10326,4 +10326,62 @@ In 1971, the 38-year-old Rogers partnered with Italian architect Renzo Piano to 
     significance_en: 'The Centre Pompidou is one of the most important watersheds in 20th-century architecture. It proved that a building can be simultaneously radical and beloved, a technological showcase and a cultural space, a civic living room and an aesthetic manifesto. Rogers and Piano told the world that honesty is more powerful than elegance — when architecture stops hiding how it works, it paradoxically achieves a beauty never seen before.',
   },
 
+  {
+    id: '184',
+    date: '2026-07-24',
+    imageUrl: '/the-daily-object/images/mucha-champenois.jpg',
+    fullImageUrl: '/the-daily-object/images/full/mucha-champenois.jpg',
+    title: 'F. Champenois 印刷商海报',
+    title_en: 'F. Champenois Imprimeur-Éditeur',
+    subtitle: 'Alphonse Mucha, 1897',
+    subtitle_en: 'Alphonse Mucha, 1897',
+    category: 'graphic' as const,
+    designer: 'Alphonse Mucha',
+    year: '1897',
+    tags: ['定义新艺术运动美学', '海报艺术之父', '改变商业视觉语言'],
+    tags_en: ['Defined Art Nouveau Aesthetics', 'Father of Poster Art', 'Transformed Commercial Visual Language'],
+
+    dateConnection: '1860年7月24日，Alphonse Mucha出生于奥地利帝国摩拉维亚省（今捷克）的小镇伊万契采。他后来成为新艺术运动（Art Nouveau）最具代表性的视觉艺术家，用海报设计将"美"从画廊带入了每一条街道。',
+    designerBio: `Alphonse Mucha出生于一个收入微薄的家庭，父亲是法院杂务员。他从小痴迷绘画，但家境无法支撑正规艺术教育。靠着教堂唱诗班的收入念完中学后，他申请布拉格美术学院被拒——回信说他"缺乏天赋"。
+
+27岁时，赞助人Khuen-Belasi伯爵资助他赴慕尼黑和巴黎求学。但1889年赞助突然中断，Mucha陷入赤贫，靠画杂志插图和教科书配图勉强糊口。这段底层经历让他深刻理解了"为大众创作"的意义——艺术不该只属于买得起油画的人。
+
+1894年圣诞夜，命运转折降临。Sarah Bernhardt的剧院急需一张《吉斯蒙达》的宣传海报，所有知名画家都在度假，印刷厂只找到了Mucha。他一夜之间完成的作品让Bernhardt本人惊叹不已，当场签下6年独家合约。Mucha从无名插画师一跃成为巴黎最抢手的设计师。`,
+    story: `这张为巴黎印刷商F. Champenois创作的广告海报，是"穆夏风格"(le style Mucha)最纯粹的体现——没有任何戏剧或产品的束缚，纯粹展现他对女性美与装饰艺术的终极想象。
+
+**Mucha的视觉语言有一套精密的"公式"：** 中心是理想化的女性形象，头发如瀑布般流淌成有机曲线；背景是几何化的光环或拱形装饰框；植物纹样（花卉、藤蔓、果实）编织出繁复但有序的边界。每一根线条都经过精确计算——他用圆规和直尺打底稿，再用自由曲线赋予生命感。这是工程师的精确与诗人的感性的完美结合。
+
+**色彩同样是设计系统的一部分。** Mucha偏爱柔和的粉彩色调——淡金、玫瑰粉、鼠尾草绿、薰衣草紫。这些颜色在石版印刷中特别稳定，能大量复制而不失真。他不是在"画画"，他在设计一个可复制的视觉系统。
+
+**最具革命性的是他对"商业"与"艺术"边界的消解。** 在Mucha之前，海报是粗糙的信息传递工具；在他之后，海报成为值得收藏的艺术品。巴黎人会在清晨守在街头，等着工人贴出新海报，然后趁浆糊未干就撕走收藏。这是人类历史上第一次，"广告"本身成为了人们主动追求的美学体验。`,
+    legacy: `• 直接定义了整个新艺术运动（Art Nouveau）的视觉语言，影响了建筑、家具、珠宝、玻璃器皿等所有装饰艺术领域
+• 开创了"艺术海报"这一全新媒介，让平面设计从匠人手艺升级为独立的艺术门类
+• 他的装饰系统（有机曲线+几何框架+自然母题）至今仍是平面设计教育的基础课程
+• 1960年代迷幻摇滚海报、日本少女漫画、当代塔罗牌设计都能追溯到Mucha的视觉DNA
+• 作品被MoMA、V&A、国家美术馆等全球顶级博物馆永久收藏
+• 捷克共和国将他视为国家文化英雄，布拉格穆夏博物馆是游客必到之地`,
+    significance: 'Alphonse Mucha证明了一个至今仍在设计界回响的真理：美不需要稀缺才有价值。他用可以无限复制的石版印刷海报，让艺术走出沙龙、走上街头、走进普通人的生活。在他之前，"为大众设计美"这个概念几乎不存在；在他之后，这成为了平面设计这个职业存在的根本理由。',
+
+    dateConnection_en: 'On July 24, 1860, Alphonse Mucha was born in the small town of Ivančice in Moravia, then part of the Austrian Empire (now Czech Republic). He would become the most iconic visual artist of the Art Nouveau movement, using poster design to bring beauty from the gallery onto every street.',
+    designerBio_en: `Alphonse Mucha was born into a modest family — his father was a court usher. Obsessed with drawing from childhood, he lacked the means for formal art education. After being rejected by the Prague Academy of Fine Arts (told he "lacked talent"), he scraped by on church choir income.
+
+At 27, Count Khuen-Belasi sponsored his studies in Munich and Paris. When funding abruptly ended in 1889, Mucha fell into poverty, surviving on magazine illustrations and textbook drawings. This period of hardship taught him the meaning of "creating for the people" — art shouldn't belong only to those who can afford oil paintings.
+
+On Christmas Eve 1894, fate intervened. Sarah Bernhardt's theatre urgently needed a poster for Gismonda, but every established artist was on holiday. The printer could only find Mucha. His overnight creation so astonished Bernhardt that she signed him to an exclusive six-year contract on the spot, catapulting him from obscure illustrator to Paris's most sought-after designer.`,
+    story_en: `This advertising poster for Parisian printer F. Champenois is the purest expression of "le style Mucha" — unburdened by any theatrical or product constraints, it is his ultimate vision of feminine beauty and decorative art.
+
+**Mucha's visual language followed a precise "formula":** at center, an idealized female figure with hair cascading in organic curves; behind, a geometricized halo or arched decorative frame; botanical motifs (flowers, vines, fruits) weaving elaborate yet orderly borders. Every line was precisely calculated — he drafted foundations with compass and ruler, then brought them to life with freehand curves. It was the perfect marriage of engineering precision and poetic sensibility.
+
+**Color was equally systematic.** Mucha favored soft pastels — pale gold, rose pink, sage green, lavender purple. These hues were particularly stable in lithographic reproduction, maintaining fidelity across large print runs. He wasn't "painting" — he was designing a reproducible visual system.
+
+**Most revolutionary was his dissolution of the boundary between "commerce" and "art."** Before Mucha, posters were crude information-delivery tools; after him, they became collectible artworks. Parisians would gather at dawn, waiting for workers to paste up new posters, then peel them off before the glue dried. For the first time in history, "advertising" itself became an aesthetic experience people actively sought out.`,
+    legacy_en: `• Directly defined the visual language of the entire Art Nouveau movement, influencing architecture, furniture, jewelry, glassware, and all decorative arts
+• Created "art poster" as an entirely new medium, elevating graphic design from craft to independent art form
+• His decorative system (organic curves + geometric frames + natural motifs) remains foundational in graphic design education today
+• 1960s psychedelic rock posters, Japanese shōjo manga, and contemporary tarot card design all trace their visual DNA to Mucha
+• Works held in permanent collections at MoMA, V&A, National Gallery, and major museums worldwide
+• Regarded as a national cultural hero in the Czech Republic; the Mucha Museum in Prague is a must-visit destination`,
+    significance_en: 'Alphonse Mucha proved a truth that still resonates in design: beauty does not need scarcity to have value. Using infinitely reproducible lithographic posters, he brought art out of the salon, onto the street, and into ordinary lives. Before him, the concept of "designing beauty for the masses" barely existed; after him, it became the fundamental reason the profession of graphic design exists at all.',
+  },
+
 ]
