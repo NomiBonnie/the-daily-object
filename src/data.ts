@@ -10384,4 +10384,60 @@ On Christmas Eve 1894, fate intervened. Sarah Bernhardt's theatre urgently neede
     significance_en: 'Alphonse Mucha proved a truth that still resonates in design: beauty does not need scarcity to have value. Using infinitely reproducible lithographic posters, he brought art out of the salon, onto the street, and into ordinary lives. Before him, the concept of "designing beauty for the masses" barely existed; after him, it became the fundamental reason the profession of graphic design exists at all.',
   },
 
+  {
+    id: '206',
+    date: '2026-07-25',
+    imageUrl: '/the-daily-object/images/concorde.jpg',
+    fullImageUrl: '/the-daily-object/images/full/concorde.jpg',
+    title: '协和式客机',
+    title_en: 'Concorde',
+    subtitle: 'Aérospatiale/BAC, 1969',
+    subtitle_en: 'Aérospatiale/BAC, 1969',
+    category: 'industrial' as const,
+    designer: 'Aérospatiale / British Aircraft Corporation',
+    year: '1969',
+    tags: ['超音速美学先驱', '改变了航空设计', '速度与优雅的极致'],
+    tags_en: ['Supersonic Aesthetics Pioneer', 'Transformed Aviation Design', 'Ultimate Speed & Elegance'],
+    dateConnection: '2000年7月25日，法国航空4590号班机从巴黎戴高乐机场起飞时坠毁，113人遇难。这场灾难直接加速了协和式客机的永久停飞，人类超音速民航时代在三年后正式落幕。',
+    designerBio: `协和式客机是英法两国联合研制的产物。1962年两国政府签署协议，将各自的超音速客机项目合并。法国南方航空公司（后来的Aérospatiale）和英国飞机公司（BAC）的工程师团队面临前所未有的设计挑战：如何让一架以两倍音速飞行的飞机既安全又优雅。
+
+首席设计师 Pierre Satre（法方）和 Archibald Russell（英方）带领的团队，用七年时间从草图走到首飞。他们必须解决超音速飞行带来的热膨胀、气动力学和噪音等一系列工程问题，同时创造出一个在视觉上令人屏息的形态。`,
+    story: `协和式客机的设计是20世纪航空工程与工业美学的巅峰之作。
+
+**那个标志性的三角翼（ogival delta wing）不是装饰，而是纯粹的功能之美。** 它的曲线经过精密计算，在亚音速和超音速两种状态下都能产生升力。机翼前缘的弯曲角度从翼根到翼尖渐变，这种"哥特式三角翼"设计让协和能在起飞时以低速安全爬升，又能在巡航时以2马赫的速度切割大气。
+
+**可下垂的机鼻是另一个天才设计。** 飞行时机鼻水平伸展以减少阻力，着陆时下垂12.5度让飞行员看到跑道。这个机械装置让协和在停机坪上就有一种"昂首挺胸"的姿态——像一只正在俯冲的猎隼。
+
+**速度带来了材料革命。** 2马赫巡航时机身表面温度达到127°C，铝合金会在高温下蠕变变形。工程师选择了特殊的RR58铝合金，并接受了一个惊人的事实：飞行中的协和比停在地面时长了15-25厘米，因为热膨胀。机身上专门留有膨胀缝来适应这种变化。
+
+从巴黎到纽约只需3小时20分钟——你到达的当地时间比出发时还早。这不只是交通工具，是人类用设计挑战时间本身。`,
+    legacy: `• 人类唯一成功运营的超音速民用客机，服役27年（1976-2003）
+• 三角翼设计直接影响了此后所有超音速飞行器的气动布局
+• 可下垂机鼻成为航空设计史上最具辨识度的特征之一
+• 全球多架退役协和在博物馆永久展出（伦敦、巴黎、纽约、巴巴多斯等）
+• 2020年代超音速复兴（Boom Supersonic 等）明确致敬协和的设计遗产
+• 至今仍是"速度与优雅"的终极视觉符号`,
+    significance: '协和式客机证明了工业设计可以同时满足极端性能需求和极致美学追求。它的每一条曲线都由空气动力学决定，却恰恰因此成为20世纪最优美的人造物之一。在一个追求效率和经济性的时代，协和代表了另一种价值观：人类可以不计代价地追求极致，而极致本身就是美。',
+    dateConnection_en: 'On July 25, 2000, Air France Flight 4590 crashed on takeoff from Paris Charles de Gaulle Airport, killing all 113 people on board. This disaster directly accelerated the permanent retirement of Concorde, bringing the era of supersonic civil aviation to a close three years later.',
+    designerBio_en: `Concorde was a joint Anglo-French creation. In 1962, the two governments signed a treaty merging their separate supersonic transport programs. Engineering teams from Sud Aviation (later Aérospatiale) and the British Aircraft Corporation faced an unprecedented design challenge: making an aircraft that flew at twice the speed of sound both safe and beautiful.
+
+Lead designers Pierre Satre (French side) and Archibald Russell (British side) guided their teams through seven years from sketch to first flight, solving thermal expansion, aerodynamics, and noise problems while creating a form that took the world's breath away.`,
+    story_en: `Concorde's design represents the pinnacle of 20th-century aerospace engineering and industrial aesthetics.
+
+**The iconic ogival delta wing was not decoration — it was pure functional beauty.** Its curves were precisely calculated to generate lift at both subsonic and supersonic speeds. The leading edge swept progressively from root to tip, allowing Concorde to climb safely at low speeds during takeoff while slicing through the atmosphere at Mach 2 during cruise.
+
+**The droop nose was another stroke of genius.** In flight, the nose extended horizontally to minimize drag; during landing, it drooped 12.5 degrees so pilots could see the runway. This mechanism gave Concorde a distinctive "head held high" posture on the tarmac — like a falcon in its dive.
+
+**Speed demanded a materials revolution.** At Mach 2 cruise, skin temperatures reached 127°C, causing conventional aluminum to creep and deform. Engineers selected special RR58 aluminum alloy and accepted an astonishing fact: Concorde in flight was 15-25 cm longer than on the ground due to thermal expansion. Expansion joints were built into the fuselage to accommodate this transformation.
+
+Paris to New York in just 3 hours 20 minutes — you arrived at a local time earlier than when you departed. This was not merely transport; it was humanity using design to challenge time itself.`,
+    legacy_en: `• The only supersonic civil aircraft to achieve successful commercial operation, serving 27 years (1976–2003)
+• Its delta wing design directly influenced all subsequent supersonic aircraft aerodynamics
+• The droop nose became one of the most recognizable features in aviation design history
+• Retired Concordes are permanently displayed in museums worldwide (London, Paris, New York, Barbados)
+• The 2020s supersonic revival (Boom Supersonic, etc.) explicitly pays homage to Concorde's design legacy
+• Remains the ultimate visual symbol of speed meeting elegance`,
+    significance_en: 'Concorde proved that industrial design can simultaneously satisfy extreme performance requirements and supreme aesthetic ambitions. Every curve was dictated by aerodynamics, yet precisely because of this, it became one of the most beautiful human-made objects of the 20th century. In an era obsessed with efficiency and economics, Concorde represented an alternative value system: humanity can pursue the ultimate without compromise, and the ultimate itself is beauty.',
+  },
+
 ]
