@@ -10472,5 +10472,39 @@ The most staggering detail is the fee: Pasche initially received just £50 (roug
     legacy_en: `This logo fundamentally changed how the music industry thinks about visual branding. Before it, band logos were either ornate lettering or simple geometric shapes. Pasche proved that a band could be represented by a graphic completely independent of text — like Nike's swoosh or Apple's apple. Every designer who has attempted a "band logo" since lives in the shadow of this mouth. The V&A Museum acquired the original artwork for its permanent collection, confirming it as one of the most important graphic design works of the 20th century.`,
     significance_en: `It is one of the rare brand marks that exists entirely independent of text, standing alongside the Coca-Cola bottle silhouette and the Nike Swoosh as the greatest commercial designs of the 20th century. More importantly, it proved that "attitude" can be designed — a single graphic can communicate rebellion, sexuality, danger, and freedom without a single word of explanation.`,
   },
+  {
+    id: '178',
+    date: '2026-07-27',
+    imageUrl: '/the-daily-object/images/bugs-bunny-wild-hare.jpg',
+    fullImageUrl: '/the-daily-object/images/full/bugs-bunny-wild-hare.jpg',
+    title: '兔八哥',
+    title_en: 'Bugs Bunny',
+    subtitle: 'Tex Avery / Chuck Jones, 1940',
+    subtitle_en: 'Tex Avery / Chuck Jones, 1940',
+    category: 'film' as const,
+    designer: 'Tex Avery / Chuck Jones',
+    year: '1940',
+    tags: ['定义了动画角色设计', '史上最具辨识度卡通形象', '改变了美国流行文化'],
+    tags_en: ['Defined Animation Character Design', 'Most Recognizable Cartoon Ever', 'Transformed American Pop Culture'],
 
+    dateConnection: `1940年7月27日，华纳兄弟发行了动画短片《A Wild Hare》。在这部由 Tex Avery 执导的7分钟短片中，一只灰色兔子第一次从洞里探出头，嚼着胡萝卜对猎人说出了那句永载史册的台词："What's up, Doc?" 这一天，Bugs Bunny 正式诞生。`,
+    designerBio: `Bugs Bunny 的视觉形象是集体创作的结晶。最初由 Ben "Bugs" Hardaway 在1938年画出草稿，经 Charlie Thorson 规范化设计，最终由 Tex Avery 在《A Wild Hare》中确立了性格基调，而后由 Chuck Jones、Friz Freleng、Robert McKimson 等动画大师在数十年间不断精炼。Chuck Jones 对角色设计的贡献尤为关键——他将 Bugs 的体态比例、面部表情系统和动作节奏提升到了前所未有的精密程度，建立了一套完整的"角色设计圣经"。`,
+    story: `在 Bugs Bunny 之前，动画角色的设计逻辑是"可爱"——米老鼠的圆耳朵、Betty Boop 的大眼睛，一切服务于讨好观众。Bugs Bunny 打破了这个范式：他不讨好任何人。他的设计语言传递的是自信、机智、从容——一只会在枪口下淡定啃胡萝卜的兔子。
+
+Chuck Jones 后来将 Bugs 的设计原则总结为一套严格的几何规则：头部是一个完美的梨形，耳朵的长度精确等于身体高度的三分之一，白色手套让手部动作在任何背景下都清晰可辨。每一根线条都经过数十年的迭代优化。这种对角色设计的工程化思维，直接影响了后来迪士尼、皮克斯、吉卜力的所有角色开发流程。
+
+更深远的影响在于性格与造型的统一。Bugs 那半闭的眼睛、微扬的嘴角、永远前倾的姿态——每一个视觉元素都在传递同一个信息："我比你聪明，而且我知道。" 这种"性格即设计"的理念，成为此后所有成功动画角色的基本方法论。`,
+    legacy: `Bugs Bunny 是动画史上第一个真正意义上的"设计系统"角色。Chuck Jones 为他建立的比例规则、表情库、动作语法，成为了整个行业的标准参照。从辛普森一家到瑞克和莫蒂，从皮克斯的角色开发文档到日本动画的角色设定集，所有后来者都在沿用 Jones 开创的方法论。2002年，TV Guide 将 Bugs Bunny 评为"史上最伟大的50个卡通角色"第一名。他的形象被史密森尼学会永久收藏。`,
+    significance: `Bugs Bunny 证明了一个角色的视觉设计可以承载完整的人格。在他之前，卡通角色的性格靠剧情展现；在他之后，最好的角色只需站在那里，观众就已经知道他是谁。这种"设计即叙事"的理念，是现代角色设计的基石。`,
+
+    dateConnection_en: `On July 27, 1940, Warner Bros. released the animated short "A Wild Hare." In this seven-minute film directed by Tex Avery, a gray rabbit popped out of his hole for the first time, munched a carrot, and uttered the immortal line: "What's up, Doc?" On this day, Bugs Bunny was officially born.`,
+    designerBio_en: `Bugs Bunny's visual identity was a collective masterwork. Initially sketched by Ben "Bugs" Hardaway in 1938, formalized by Charlie Thorson, given his personality by Tex Avery in "A Wild Hare," and then refined over decades by animation masters Chuck Jones, Friz Freleng, and Robert McKimson. Jones's contribution to the character design was paramount — he elevated Bugs's proportions, facial expression system, and movement rhythm to unprecedented precision, establishing a complete "character design bible."`,
+    story_en: `Before Bugs Bunny, the design logic of animated characters was "cute" — Mickey Mouse's round ears, Betty Boop's big eyes, everything designed to please the audience. Bugs shattered this paradigm: he doesn't try to please anyone. His design language communicates confidence, wit, and nonchalance — a rabbit who calmly munches a carrot while staring down the barrel of a gun.
+
+Chuck Jones later codified Bugs's design into strict geometric rules: the head is a perfect pear shape, ear length equals precisely one-third of body height, white gloves ensure hand gestures read clearly against any background. Every line was iteratively optimized over decades. This engineering approach to character design directly influenced all subsequent character development pipelines at Disney, Pixar, and Studio Ghibli.
+
+The deeper impact lies in the unity of personality and form. Bugs's half-lidded eyes, slightly upturned mouth, perpetually forward-leaning posture — every visual element communicates the same message: "I'm smarter than you, and I know it." This "personality as design" philosophy became the foundational methodology for every successful animated character that followed.`,
+    legacy_en: `Bugs Bunny was animation history's first true "design system" character. The proportion rules, expression library, and motion grammar Chuck Jones established for him became the industry's standard reference. From The Simpsons to Rick and Morty, from Pixar's character development documents to Japanese anime character sheets, all successors follow the methodology Jones pioneered. In 2002, TV Guide ranked Bugs Bunny #1 on its list of the "50 Greatest Cartoon Characters of All Time." His image is permanently preserved in the Smithsonian Institution.`,
+    significance_en: `Bugs Bunny proved that a character's visual design can carry a complete personality. Before him, cartoon characters revealed personality through plot; after him, the best characters need only stand there for audiences to already know who they are. This "design as narrative" philosophy is the cornerstone of modern character design.`,
+  },
 ]
