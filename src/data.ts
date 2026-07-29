@@ -10550,4 +10550,47 @@ Yet even critics concede: the City of Arts and Sciences utterly transformed Vale
     legacy_en: `Calatrava pioneered a unique architectural language: structure as ornament, engineering as aesthetics. He proved that bridges can be as graceful as harps (Alamillo Bridge), train stations can unfold like bird wings (Lisbon's Gare do Oriente, New York's Oculus). The City of Arts and Sciences is the magnum opus of this philosophy — an entire complex that functions as a city-scale sculpture.`,
     significance_en: `In an era dominated by "glass boxes" in modern architecture, Calatrava used a structural engineer's rigor and a sculptor's freedom to prove that buildings can simultaneously satisfy mechanical logic and organic beauty. Alongside Zaha Hadid and Frank Gehry, he forms the trio of contemporary curvilinear architecture's greatest practitioners — but Calatrava is the only one among them who calculates his own structures.`,
   },
+  {
+    id: '160',
+    date: '2026-07-29',
+    imageUrl: '/the-daily-object/images/the-starry-night.jpg',
+    fullImageUrl: '/the-daily-object/images/full/the-starry-night.jpg',
+    title: '星月夜',
+    title_en: 'The Starry Night',
+    subtitle: '文森特·梵高, 1889',
+    subtitle_en: 'Vincent van Gogh, 1889',
+    category: 'art' as const,
+    designer: '文森特·梵高',
+    year: '1889',
+    tags: ['改变了西方艺术史', '后印象派巅峰', '设计界永恒图腾'],
+    tags_en: ['Transformed Western Art', 'Post-Impressionism Pinnacle', 'Eternal Design Icon'],
+
+    dateConnection: `1890年7月29日，文森特·梵高在法国瓦兹河畔奥维尔逝世，年仅37岁。两天前他在麦田里开枪射击了自己，被人扶回旅馆后，弟弟提奥赶到他身边。他留下的最后一句话据说是："悲伤将永存。"但他不知道的是，他画下的那片旋转星空将永存得更久——成为人类视觉史上被引用最多的图像之一。`,
+    designerBio: `梵高1853年生于荷兰，27岁才决定成为画家。此前他做过画商、教师和传教士，每一段经历都以失败告终。他的绘画生涯只有短短十年（1880-1890），却创作了超过2100件作品，包括约860幅油画。生前他只卖出过一幅画《红色葡萄园》，售价400法郎。
+
+梵高没有受过系统的学院训练，他的画法来自对色彩理论的狂热研究和对日本浮世绘的痴迷。他在阿尔勒的黄房子里用纯色和粗犷笔触创造了一种前所未有的表现力——颜料不再是描绘现实的工具，而是情感的直接载体。`,
+    story: `1889年6月，梵高在法国南部圣雷米精神病院的窗前画下了《星月夜》。他当时正经历严重的精神崩溃，耳朵已经被自己割掉了一部分。但透过铁栏窗户，他看到的不是绝望的夜空——而是一片充满能量的宇宙。
+
+那些旋涡状的星云不是写实，而是梵高用肉眼"看到"的夜空的力量。2004年，哈勃望远镜拍摄到的一颗恒星周围的尘埃云与《星月夜》中的漩涡惊人相似，天体物理学家发现梵高的笔触精确地捕捉到了湍流的数学结构——这位精神崩溃的画家，竟然直觉性地描绘出了科学家直到半个世纪后才能用方程式表达的物理现象。
+
+**梵高本人不喜欢这幅画。**他在给弟弟提奥的信中轻描淡写地提到它，觉得这只是一幅"习作"，远不如他基于现实观察完成的作品。他甚至没有给它正式命名。但历史证明，正是这幅他最不看好的画，成为了他最伟大的杰作。`,
+    legacy: `《星月夜》对设计界的影响远超纯艺术范畴。那些旋涡状的笔触开创了一种全新的视觉语言——用线条的运动来传递情感和能量。从Art Nouveau的曲线装饰到当代平面设计中的流体动态图形，梵高的漩涡美学无处不在。
+
+这幅画现藏于纽约现代艺术博物馆（MoMA），是全世界被复制最多的画作之一。它出现在无数产品设计、服装面料、建筑装饰和数字界面中。2023年的沉浸式梵高展览在全球40多个城市巡展，将《星月夜》投射到整个空间，让观众置身于旋转的星空之中。`,
+    significance: `梵高证明了艺术不需要精确描绘现实也能触及真实。他用变形、夸张和纯粹的情感力量创造的视觉语言，直接影响了20世纪的表现主义，并为现代设计中"情感优先于功能"的理念奠定了基础。在他之后，设计师们开始理解：一条线不只是轮廓，一种颜色不只是填充——它们本身就是意义。`,
+
+    dateConnection_en: `On July 29, 1890, Vincent van Gogh died in Auvers-sur-Oise, France, at the age of 37. Two days earlier, he had shot himself in a wheat field. His brother Theo rushed to his side, and Vincent's reputed last words were: "The sadness will last forever." What he could not know was that the swirling night sky he had painted would last even longer — becoming one of the most reproduced images in human visual history.`,
+    designerBio_en: `Van Gogh was born in the Netherlands in 1853 and did not decide to become a painter until age 27. Before that, he had failed as an art dealer, a teacher, and a missionary. His painting career spanned just ten years (1880–1890), yet he produced over 2,100 works, including roughly 860 oil paintings. He sold only one painting during his lifetime — The Red Vineyard — for 400 francs.
+
+Largely self-taught, Van Gogh drew from obsessive study of color theory and Japanese ukiyo-e woodblock prints. In his Yellow House in Arles, he developed an unprecedented expressive power through pure colors and bold brushwork — paint was no longer a tool for depicting reality but a direct vessel for emotion.`,
+    story_en: `In June 1889, Van Gogh painted The Starry Night from his window at the Saint-Paul-de-Mausole asylum in southern France. He was recovering from a severe mental breakdown and had already mutilated his own ear. Yet through the barred window, he saw not a sky of despair but a cosmos pulsing with energy.
+
+Those swirling nebulae were not realistic — they were the night sky's force as Van Gogh's eyes perceived it. In 2004, a Hubble Space Telescope image of dust clouds around a distant star bore a striking resemblance to the painting's whorls. Astrophysicists discovered that Van Gogh's brushstrokes precisely captured the mathematical structure of turbulence — a phenomenon scientists could not express in equations until half a century after his death.
+
+**Van Gogh himself disliked the painting.** In letters to his brother Theo, he dismissed it as a mere "study," far inferior to works painted from direct observation. He never even gave it a proper title. History proved him spectacularly wrong: the painting he valued least became his greatest masterpiece.`,
+    legacy_en: `The Starry Night's influence on design extends far beyond fine art. Its swirling brushstrokes pioneered a new visual language — using the movement of line to convey emotion and energy. From Art Nouveau's curvilinear ornamentation to contemporary fluid motion graphics, Van Gogh's vortex aesthetic is everywhere.
+
+The painting hangs at the Museum of Modern Art (MoMA) in New York and is one of the most reproduced artworks in the world. It appears on countless products, textiles, architectural surfaces, and digital interfaces. Immersive Van Gogh exhibitions touring over 40 cities since 2023 project The Starry Night across entire rooms, placing viewers inside the spinning cosmos.`,
+    significance_en: `Van Gogh proved that art need not accurately depict reality to touch truth. The visual language he created through distortion, exaggeration, and raw emotional force directly influenced 20th-century Expressionism and laid the groundwork for modern design's principle that emotion can take precedence over function. After Van Gogh, designers began to understand: a line is not just a contour, a color is not just a fill — they are meaning itself.`,
+  },
 ]
