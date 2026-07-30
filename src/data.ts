@@ -10593,4 +10593,47 @@ Those swirling nebulae were not realistic — they were the night sky's force as
 The painting hangs at the Museum of Modern Art (MoMA) in New York and is one of the most reproduced artworks in the world. It appears on countless products, textiles, architectural surfaces, and digital interfaces. Immersive Van Gogh exhibitions touring over 40 cities since 2023 project The Starry Night across entire rooms, placing viewers inside the spinning cosmos.`,
     significance_en: `Van Gogh proved that art need not accurately depict reality to touch truth. The visual language he created through distortion, exaggeration, and raw emotional force directly influenced 20th-century Expressionism and laid the groundwork for modern design's principle that emotion can take precedence over function. After Van Gogh, designers began to understand: a line is not just a contour, a color is not just a fill — they are meaning itself.`,
   },
+{
+    id: '165',
+    date: '2026-07-30',
+    imageUrl: '/the-daily-object/images/volkswagen-beetle.jpg',
+    fullImageUrl: '/the-daily-object/images/full/volkswagen-beetle.jpg',
+    title: '大众甲壳虫',
+    title_en: 'Volkswagen Beetle',
+    subtitle: 'Ferdinand Porsche, 1938',
+    subtitle_en: 'Ferdinand Porsche, 1938',
+    category: 'industrial' as const,
+    designer: 'Ferdinand Porsche',
+    year: '1938',
+    tags: ['改变了大众出行方式', '最长寿的汽车设计', '反文化运动符号'],
+    tags_en: ['Democratized Personal Mobility', 'Longest-Running Car Design', 'Counterculture Icon'],
+
+    dateConnection: `2003年7月30日，最后一辆经典大众甲壳虫从墨西哥普埃布拉工厂缓缓驶出。这辆浅蓝色的"Última Edición"是第21,529,464辆甲壳虫——一个跨越65年、横贯五大洲的汽车设计传奇，在这一天正式画上句号。工人们在流水线旁鼓掌，墨西哥乐队演奏着《Cielito Lindo》，这辆车随后被送往沃尔夫斯堡的大众博物馆永久收藏。`,
+    designerBio: `甲壳虫的设计源头可以追溯到Ferdinand Porsche在1930年代的构想：一辆普通工薪家庭也买得起的汽车。后置风冷发动机、流线型车身、极简的机械结构——每一个设计决策都指向同一个目标：把成本压到最低，把可靠性拉到最高。
+
+Porsche并非从零开始。他借鉴了捷克Tatra T97的流线型设计理念和后置发动机布局，也受到了匈牙利工程师Béla Barényi早期概念的影响。但Porsche的天才在于工程整合——他把这些分散的想法融合成一个可以大规模量产的完整方案。那个圆润的甲壳虫造型不是为了好看，而是为了降低风阻系数、减少钣金模具数量、简化生产流程。`,
+    story: `甲壳虫的一生是一部20世纪的缩影。它诞生于1938年的纳粹德国，作为"人民之车"（Volkswagen）的政治工具；二战中工厂转产军用车辆；战后被英国军官Ivan Hirst从废墟中拯救，重新启动生产线；1950年代成为德国经济奇迹的象征；1960年代跨越大西洋，在DDB广告公司"Think Small"系列广告的加持下，成为美国反主流文化的图腾。
+
+"Think Small"是广告史上最伟大的campaign之一。在底特律车厂拼命把车造得更大更闪亮的年代，DDB用大量留白和自嘲式文案把这辆小得可笑的德国车变成了一种态度宣言。甲壳虫不再只是一辆车，它是对消费主义的温柔反叛。
+
+1972年2月17日，第15,007,034辆甲壳虫下线，超越福特Model T成为世界上产量最高的单一车型。但到了1970年代末，排放和安全法规让它退出了美国市场。生产线逐渐从欧洲撤到巴西，最后退守墨西哥。在墨西哥城，甲壳虫作为出租车"Vocho"服役到21世纪初，成为城市街景的一部分。`,
+    legacy: `甲壳虫对工业设计的影响远超汽车领域。它证明了好设计不需要奢华——简洁的形态、诚实的材料、为真实需求服务的功能主义，这些原则后来成为现代设计的核心信条。Dieter Rams的"少即是多"、无印良品的"这样就好"、甚至苹果早期的设计哲学，都能在甲壳虫身上找到精神源头。
+
+它的圆润造型成为汽车设计中最具辨识度的轮廓之一。1998年大众推出的New Beetle刻意致敬了这个经典造型，证明好的设计语言可以跨越半个世纪依然动人。超过2150万辆的总产量，至今仍是单一设计平台的世界纪录。`,
+    significance: `甲壳虫是20世纪"为所有人设计"理念最成功的实践。它从政治工具变成文化符号，从经济奇迹的载体变成反文化运动的旗帜，从实用交通工具变成情感寄托——这种多重身份的转变在设计史上绝无仅有。它告诉设计师：真正伟大的设计不是设计师赋予它意义，而是使用者在漫长的时间里为它注入了超越功能的灵魂。`,
+
+    dateConnection_en: `On July 30, 2003, the very last classic Volkswagen Beetle rolled off the production line at Volkswagen's plant in Puebla, Mexico. This baby-blue "Última Edición" was the 21,529,464th Beetle ever built — closing the chapter on a 65-year, five-continent automotive design legend. Workers applauded along the assembly line as a mariachi band played "Cielito Lindo," and the car was shipped to the Volkswagen museum in Wolfsburg for permanent display.`,
+    designerBio_en: `The Beetle's design traces back to Ferdinand Porsche's 1930s vision: a car that ordinary working families could afford. Rear-mounted air-cooled engine, streamlined body, minimal mechanical complexity — every design decision pointed toward one goal: minimize cost, maximize reliability.
+
+Porsche did not start from scratch. He drew on the streamlined design philosophy and rear-engine layout of the Czech Tatra T97, as well as early concepts by Hungarian engineer Béla Barényi. But Porsche's genius lay in engineering integration — fusing these scattered ideas into a complete, mass-producible package. The rounded beetle shape was not about aesthetics; it was about reducing drag coefficient, minimizing body panel tooling, and simplifying production.`,
+    story_en: `The Beetle's life story is a condensed history of the 20th century. Born in 1938 Nazi Germany as the political instrument of the "People's Car" (Volkswagen); repurposed for military vehicles during WWII; rescued from rubble by British Army officer Ivan Hirst, who restarted the production line; a symbol of Germany's Wirtschaftswunder in the 1950s; then, crossing the Atlantic in the 1960s, transformed into a totem of American counterculture — powered by DDB's legendary "Think Small" advertising campaign.
+
+"Think Small" remains one of the greatest ad campaigns in history. In an era when Detroit automakers competed to build bigger, flashier cars, DDB used vast white space and self-deprecating copy to turn this absurdly small German car into an attitude statement. The Beetle was no longer just a car — it was a gentle rebellion against consumerism.
+
+On February 17, 1972, the 15,007,034th Beetle rolled off the line, surpassing the Ford Model T as the world's most-produced single-model car. But by the late 1970s, emission and safety regulations forced it out of the American market. Production gradually retreated from Europe to Brazil, then to Mexico. In Mexico City, the Beetle served as the ubiquitous "Vocho" taxi well into the 21st century, becoming part of the urban landscape itself.`,
+    legacy_en: `The Beetle's influence on industrial design extends far beyond automobiles. It proved that good design needs no luxury — clean form, honest materials, and functionalism serving real needs became core tenets of modern design. Dieter Rams's "less but better," Muji's "this is enough," even Apple's early design philosophy — all find a spiritual ancestor in the Beetle.
+
+Its rounded silhouette became one of the most recognizable profiles in automotive design. Volkswagen's 1998 New Beetle deliberately paid homage to this classic form, proving that great design language can remain compelling across half a century. With over 21.5 million units produced, it still holds the world record for a single design platform.`,
+    significance_en: `The Beetle is the 20th century's most successful realization of "design for everyone." It transformed from political tool to cultural symbol, from economic miracle vehicle to counterculture banner, from practical transport to emotional vessel — a metamorphosis of identity unmatched in design history. It taught designers that truly great design is not defined by its creator's intent, but by the soul that users pour into it over the long arc of time.`,
+  },
 ]

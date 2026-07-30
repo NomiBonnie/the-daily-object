@@ -26,3 +26,4 @@ Last updated: 2026-07-14
 | 07-12 | Christina's World | Andrew Wyeth | art |
 | 07-13 | The Two Fridas | Frida Kahlo | art |
 | 07-14 | Studebaker Avanti | Raymond Loewy | industrial |
+| 07-29 | The Starry Night | Vincent van Gogh | art |
