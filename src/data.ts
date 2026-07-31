@@ -10635,5 +10635,54 @@ On February 17, 1972, the 15,007,034th Beetle rolled off the line, surpassing th
 
 Its rounded silhouette became one of the most recognizable profiles in automotive design. Volkswagen's 1998 New Beetle deliberately paid homage to this classic form, proving that great design language can remain compelling across half a century. With over 21.5 million units produced, it still holds the world record for a single design platform.`,
     significance_en: `The Beetle is the 20th century's most successful realization of "design for everyone." It transformed from political tool to cultural symbol, from economic miracle vehicle to counterculture banner, from practical transport to emotional vessel — a metamorphosis of identity unmatched in design history. It taught designers that truly great design is not defined by its creator's intent, but by the soul that users pour into it over the long arc of time.`,
+  },,
+
+{
+    id: '166',
+    date: '2026-07-31',
+    imageUrl: '/the-daily-object/images/harry-potter-cover.jpg',
+    fullImageUrl: '/the-daily-object/images/full/harry-potter-cover.jpg',
+    title: '哈利·波特初版封面',
+    title_en: "Harry Potter and the Philosopher's Stone — First Edition Cover",
+    subtitle: 'Thomas Taylor, 1997',
+    subtitle_en: 'Thomas Taylor, 1997',
+    category: 'graphic' as const,
+    designer: 'Thomas Taylor',
+    year: '1997',
+    tags: ['定义了一代人的视觉记忆', '书籍封面设计里程碑', '改变了出版业插画标准'],
+    tags_en: ["Defined a Generation's Visual Memory", 'Book Cover Design Milestone', 'Transformed Publishing Illustration'],
+
+    dateConnection: `7月31日是 J.K. Rowling 的生日（1965年），也是她笔下主角 Harry Potter 的生日。1997年6月26日，Bloomsbury 出版社发行了《Harry Potter and the Philosopher's Stone》初版，封面上那幅水彩画——一个戴圆框眼镜的男孩站在9¾站台前，身后是红色的霍格沃茨特快列车——出自一位23岁的书店店员之手。这幅画后来在2024年苏富比拍卖会上以192万美元成交，成为有史以来最昂贵的书籍封面插画。`,
+    designerBio: `Thomas Taylor 1973年出生于英格兰，在 Anglia Ruskin University 学习插画。毕业后，他在剑桥一家名为 Dobbins 的书店打工，同时接一些自由插画工作。1997年初，Bloomsbury 出版社的艺术总监通过 Taylor 的经纪人找到他，委托他为一本新人作家的儿童小说画封面。
+
+那时候没人知道这本书会变成什么。Taylor 拿到的是一份手稿和一笔几百英镑的标准稿费。他在自己狭小的公寓里用水彩完成了这幅画——霍格沃茨特快列车的大红色车头占据画面中心，Harry 裹着格兰芬多围巾站在一旁，9¾站台的路牌悬在蒸汽之上。整个构图有一种孩童般的温暖和好奇，和后来电影系列的黑暗美学形成鲜明对比。`,
+    story: `Taylor 画这幅封面时只有23岁，是他职业生涯中最早的商业委托之一。Bloomsbury 给了他很大的自由度——出版社自己也不确定这本书的市场定位，首印只有500册（其中300册给了图书馆）。
+
+封面上有一个有趣的细节：背景中那个穿红色斗篷的神秘人物，既不是书中的任何角色，Taylor 自己也说不清这个人是谁。这个"意外的陌生人"成了哈利·波特收藏界的经典谜题。另一个细节是，Taylor 画的 Harry 没有他标志性的闪电形伤疤——这个细节后来才被加到角色设定中。
+
+**这500本首版书如今每本价值超过10万美元。** 而那幅水彩原画在2024年6月26日——出版27周年纪念日——在苏富比纽约以192万美元落槌，创下书籍封面艺术的世界拍卖纪录。Taylor 当年拿到的稿费？据他回忆，大约在500英镑左右。
+
+有趣的是，Taylor 后来成为了一名成功的儿童文学作家，出版了多部自己写、自己画的小说。但每次被人认出，话题总会回到那幅改变了一切的水彩画上。`,
+    legacy: `这幅封面的影响力远超一本书的范畴。它确立了一种全新的儿童文学视觉语言——温暖、充满细节、邀请读者走进画面的叙事性插画风格。在它之前，英国儿童文学封面以简洁的图案设计为主；在它之后，出版社开始投入大量资源在封面插画上，因为 Harry Potter 证明了一幅好封面可以成为品牌本身。
+
+Bloomsbury 后来为 Harry Potter 系列推出了多个版本的封面——成人版、15周年纪念版、Jonny Duddle 的新插画版——但 Taylor 的原版始终是最具辨识度的那一个。它被复制在无数衍生品上，从T恤到马克杯到主题乐园的装饰墙。在全球卖出超过6亿册的 Harry Potter 系列中，这幅画是一切的视觉起点。`,
+    significance: `Thomas Taylor 的这幅封面插画证明了一件事：在正确的时刻，一幅看似普通的商业插画可以成为文化史上的标志性图像。它不是什么技法革命或风格突破，而是一种朴素的、恰到好处的叙事力量——让一个从未听说过霍格沃茨的孩子拿起这本书时，已经开始想象站台上的蒸汽和火车汽笛的声音。这就是好的封面设计应该做到的事。`,
+
+    dateConnection_en: `July 31 is J.K. Rowling's birthday (1965) — and the birthday she gave her protagonist Harry Potter. On June 26, 1997, Bloomsbury published the first edition of Harry Potter and the Philosopher's Stone, featuring a watercolor cover illustration — a boy in round glasses standing before Platform 9¾ with the scarlet Hogwarts Express behind him — painted by a 23-year-old bookshop clerk. That painting sold at Sotheby's in 2024 for $1.92 million, making it the most expensive book cover illustration ever auctioned.`,
+    designerBio_en: `Thomas Taylor was born in England in 1973 and studied illustration at Anglia Ruskin University. After graduating, he worked at a Cambridge bookshop called Dobbins while taking freelance illustration jobs. In early 1997, Bloomsbury's art director found him through his agent and commissioned him to create a cover for a debut children's novel by an unknown author.
+
+No one knew what the book would become. Taylor received a manuscript and a standard fee of a few hundred pounds. In his small apartment, he completed the watercolor painting — the great red front of the Hogwarts Express dominating the center, Harry in his Gryffindor scarf standing beside it, the Platform 9¾ sign hanging above the steam. The composition radiates a childlike warmth and curiosity that stands in stark contrast to the darker aesthetic of the later film franchise.`,
+    story_en: `Taylor was just 23 when he painted the cover — one of his earliest commercial commissions. Bloomsbury gave him considerable creative freedom; the publisher itself was uncertain of the book's market position, with a first print run of only 500 copies (300 of which went to libraries).
+
+The cover contains a fascinating detail: a mysterious figure in a red cloak in the background who is not any character from the book. Taylor himself has never been able to explain who this person is. This "accidental stranger" became a classic puzzle among Harry Potter collectors. Another detail: Taylor's Harry lacks the character's signature lightning-bolt scar — a detail that was added to the character design later.
+
+**Those 500 first-edition copies are now worth over $100,000 each.** And the original watercolor painting sold at Sotheby's New York on June 26, 2024 — the 27th anniversary of publication — for $1.92 million, setting a world auction record for book cover art. Taylor's fee at the time? He recalls it was around £500.
+
+Interestingly, Taylor went on to become a successful children's author, publishing several novels he both wrote and illustrated. But every time he is recognized, the conversation invariably returns to the watercolor that changed everything.`,
+    legacy_en: `This cover's influence extends far beyond a single book. It established a new visual language for children's literature — warm, richly detailed, narrative illustration that invites readers into the scene. Before it, British children's book covers favored clean graphic design; after it, publishers began investing heavily in cover illustration, because Harry Potter proved that a great cover can become a brand unto itself.
+
+Bloomsbury later released multiple cover versions for the Harry Potter series — adult editions, 15th anniversary editions, Jonny Duddle's re-illustrated versions — but Taylor's original remains the most recognizable of all. It has been reproduced on countless products, from T-shirts to mugs to theme park walls. Across the Harry Potter series' 600 million copies sold worldwide, this painting is where the entire visual legacy began.`,
+    significance_en: `Thomas Taylor's cover illustration proves that at the right moment, a seemingly ordinary commercial illustration can become an iconic image in cultural history. It was not a technical revolution or a stylistic breakthrough — it was a simple, perfectly calibrated narrative force that made a child who had never heard of Hogwarts pick up the book and already begin imagining the steam on the platform and the sound of the train whistle. That is exactly what great cover design should do.`,
   },
+
 ]
