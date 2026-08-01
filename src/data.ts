@@ -10685,4 +10685,49 @@ Bloomsbury later released multiple cover versions for the Harry Potter series �
     significance_en: `Thomas Taylor's cover illustration proves that at the right moment, a seemingly ordinary commercial illustration can become an iconic image in cultural history. It was not a technical revolution or a stylistic breakthrough — it was a simple, perfectly calibrated narrative force that made a child who had never heard of Hogwarts pick up the book and already begin imagining the steam on the platform and the sound of the train whistle. That is exactly what great cover design should do.`,
   },
 
+
+  {
+    id: '167',
+    date: '2026-08-01',
+    imageUrl: '/the-daily-object/images/ysl-le-smoking.jpg',
+    fullImageUrl: '/the-daily-object/images/full/ysl-le-smoking.jpg',
+    title: 'Le Smoking',
+    title_en: 'Le Smoking',
+    subtitle: 'Yves Saint Laurent, 1966',
+    subtitle_en: 'Yves Saint Laurent, 1966',
+    category: 'fashion' as const,
+    designer: 'Yves Saint Laurent',
+    year: '1966',
+    tags: ['打破性别着装壁垒', '定义女性权力美学', '时尚史永恒经典'],
+    tags_en: ['Shattered Gender Dress Codes', 'Defined Power Femininity', 'Timeless Fashion Icon'],
+
+    dateConnection: `1936年8月1日，Yves Saint Laurent 出生于法属阿尔及利亚的奥兰。这个瘦弱、敏感的男孩日后将成为20世纪最具革命性的时装设计师——不是因为他让女人更"美"，而是因为他让女人更"强"。1966年，他从男装衣橱中取出那套黑色吸烟装，重新剪裁，交到女人手中。从那一刻起，时尚的权力结构永远改变了。`,
+    designerBio: `Yves Saint Laurent 17岁离开阿尔及利亚前往巴黎，参加国际羊毛局设计比赛获奖后被 Christian Dior 相中，21岁时 Dior 猝逝，他被推上 Dior 首席设计师的位置——成为当时全球最年轻的高级定制时装屋掌门人。1960年他因被征召入伍导致精神崩溃，出院后发现自己已被 Dior 解雇。
+
+1961年，他与伴侣 Pierre Bergé 共同创立了以自己名字命名的品牌。如果说 Dior 时期的 Saint Laurent 是一个天才少年，那么独立后的他才真正成为革命者。他从街头文化、艺术运动和社会变革中汲取灵感，将高级时装从贵族沙龙带向真实世界。`,
+    story: `1966年秋冬系列，Saint Laurent 展示了一件看似简单的作品：一套黑色羊毛吸烟装（Le Smoking）。缎面翻领、修身剪裁、高腰长裤——每一个细节都借自男性晚礼服的语法，但经过重新比例调整后，它属于女性的身体。
+
+这不是第一次有女性穿裤装。Marlene Dietrich 在1930年代就这样做过，Coco Chanel 也推广过女性长裤。但 Le Smoking 的颠覆性在于它的场合：这是一套**正式晚装**。Saint Laurent 不是在说"女人可以穿得舒服"，他是在说"女人可以穿着男人的权力符号走进最庄重的场合"。
+
+现实给了他一记耳光。Le Smoking 发布后，穿着它的女性被高级餐厅拒之门外。纽约社交名媛 Nan Kempner 穿 Le Smoking 去 Le Côte Basque 餐厅，被告知"女士不能穿裤装用餐"。她当场脱掉裤子，只穿上衣当迷你裙走了进去。这个故事后来成为时尚史上最著名的反抗时刻之一。
+
+1975年，摄影师 Helmut Newton 在巴黎 Rue Aubriot 拍摄了那张改变一切的照片：一个短发女人站在昏暗的巷子里，穿着 Le Smoking，嘴里叼着烟，姿态慵懒而强势。这张照片为 Le Smoking 注入了一种新的性感——不是暴露的性感，而是隐藏的、暗示的、由权力感催生的性感。从此，Le Smoking 不再只是一件衣服，它成为一种态度。`,
+    legacy: `Le Smoking 此后几乎出现在 Saint Laurent 的每一季系列中，跨越40年不断演变。它被 MoMA、大都会艺术博物馆、维多利亚与阿尔伯特博物馆永久收藏。2002年 Saint Laurent 退休时，他选择穿着 Le Smoking 走完最后一场秀。Pierre Bergé 说过一句被反复引用的话："Chanel 给了女性自由，Saint Laurent 给了她们权力。"Le Smoking 正是这句话最精准的注脚。`,
+    significance: `Le Smoking 的意义远超时尚本身。它证明了设计可以是一种社会声明——不需要标语和游行，一件剪裁精准的黑色外套就够了。它改变了"女性正装"的定义，让裤装从"不得体"变成"有权力"。在 Saint Laurent 之后，每一位设计女性力量装的设计师——从 Giorgio Armani 的权力套装到 Phoebe Philo 的 Céline——都站在 Le Smoking 的肩膀上。`,
+
+    dateConnection_en: `On August 1, 1936, Yves Saint Laurent was born in Oran, French Algeria. This frail, sensitive boy would grow up to become the most revolutionary fashion designer of the 20th century — not because he made women more beautiful, but because he made them more powerful. In 1966, he took the black tuxedo from the men's wardrobe, recut it, and handed it to women. From that moment, the power structure of fashion was permanently altered.`,
+    designerBio_en: `Yves Saint Laurent left Algeria for Paris at 17, winning a prize at the International Wool Secretariat competition that caught the eye of Christian Dior. When Dior died suddenly in 1957, the 21-year-old was thrust into the role of head designer — making him the youngest person ever to lead a major couture house. In 1960, he was drafted into the French army during the Algerian War, suffered a nervous breakdown, and upon his release discovered he had been replaced at Dior.
+
+In 1961, he and his partner Pierre Bergé founded the house that bore his name. If the Dior years revealed a prodigy, independence forged a revolutionary. Drawing from street culture, art movements, and social upheaval, he pulled haute couture out of aristocratic salons and into the real world.`,
+    story_en: `In his Autumn/Winter 1966 collection, Saint Laurent presented a deceptively simple piece: a black wool tuxedo suit he called Le Smoking. Satin lapels, a tailored silhouette, high-waisted trousers — every detail was borrowed from the grammar of men's evening wear, but re-proportioned for a woman's body.
+
+This was not the first time a woman had worn trousers. Marlene Dietrich had done so in the 1930s, and Coco Chanel had championed women's pants. But Le Smoking's subversion lay in its context: this was **formal evening wear**. Saint Laurent was not saying "women can dress comfortably." He was saying "women can wear the symbols of male power into the most solemn occasions."
+
+Reality pushed back. Women wearing Le Smoking were turned away from upscale restaurants. New York socialite Nan Kempner arrived at Le Côte Basque in Le Smoking and was told "ladies may not dine in trousers." She promptly removed the pants and walked in wearing only the jacket as a mini-dress. The incident became one of fashion history's most celebrated acts of defiance.
+
+In 1975, photographer Helmut Newton shot the image that changed everything: a short-haired woman standing in a dim Parisian alley on Rue Aubriot, wearing Le Smoking, cigarette in mouth, posture languid yet commanding. The photograph injected Le Smoking with a new kind of sensuality — not the sensuality of exposure, but of concealment, suggestion, and power. From that moment, Le Smoking transcended clothing to become an attitude.`,
+    legacy_en: `Le Smoking appeared in nearly every Saint Laurent collection for over 40 years, continuously evolving. It has been acquired by MoMA, the Metropolitan Museum of Art, and the Victoria and Albert Museum. When Saint Laurent retired in 2002, he chose to wear Le Smoking for his final show. Pierre Bergé's often-quoted words capture its place in history: "Chanel gave women freedom; Saint Laurent gave them power." Le Smoking is the most precise embodiment of that statement.`,
+    significance_en: `Le Smoking's significance extends far beyond fashion. It proved that design can be a social declaration — no slogans or marches required, just one perfectly tailored black jacket. It redefined "women's formalwear," transforming trousers from "improper" to "empowering." Every designer who has since dressed women in power — from Giorgio Armani's power suits to Phoebe Philo's Céline — stands on the shoulders of Le Smoking.`,
+  },
+
 ]
