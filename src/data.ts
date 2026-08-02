@@ -10730,4 +10730,56 @@ In 1975, photographer Helmut Newton shot the image that changed everything: a sh
     significance_en: `Le Smoking's significance extends far beyond fashion. It proved that design can be a social declaration — no slogans or marches required, just one perfectly tailored black jacket. It redefined "women's formalwear," transforming trousers from "improper" to "empowering." Every designer who has since dressed women in power — from Giorgio Armani's power suits to Phoebe Philo's Céline — stands on the shoulders of Le Smoking.`,
   },
 
+  {
+    id: '215',
+    date: '2026-08-02',
+    imageUrl: '/the-daily-object/images/lenfant-plan-washington-dc.jpg',
+    fullImageUrl: '/the-daily-object/images/full/lenfant-plan-washington-dc.jpg',
+    title: "L'Enfant Plan",
+    title_en: "L'Enfant Plan",
+    subtitle: "Pierre Charles L'Enfant, 1791",
+    subtitle_en: "Pierre Charles L'Enfant, 1791",
+    category: 'architecture' as const,
+    designer: "Pierre Charles L'Enfant",
+    year: '1791',
+    tags: ['城市设计的圣经', '启发三座世界首都', '几何秩序与民主理想'],
+    tags_en: ['Bible of Urban Design', 'Inspired Three World Capitals', 'Geometry Meets Democracy'],
+
+    dateConnection: '1754年8月2日，Pierre Charles L\'Enfant 在巴黎出生。37年后，他为美国新生的联邦首都绘制了那张改变城市设计史的蓝图。',
+    designerBio: `Pierre Charles L'Enfant 出生于巴黎一个宫廷画家家庭，从小在凡尔赛宫的花园与轴线中长大。1777年，23岁的他随法国志愿军远渡大西洋参加美国独立战争，在战场上负伤后获得华盛顿将军的赏识。
+
+战后他留在美国，以建筑师和工程师身份活跃于纽约——改造联邦大厅（Federal Hall）使其成为美国第一座国会大厦。1789年华盛顿就任总统后，L'Enfant 主动请缨设计新联邦首都，这成为他一生最伟大也最悲剧性的项目。`,
+    story: `1791年春天，L'Enfant 骑马勘察波托马克河畔那片沼泽与丘陵交错的土地。他的脑中没有网格——那是殖民地城镇的思维。他想的是凡尔赛、罗马和巴黎，是放射状林荫大道将权力中心连成星座。
+
+**L'Enfant Plan 的天才在于双重系统的叠加。** 一层是实用的网格街道（南北用数字、东西用字母），另一层是斜切的对角大道（以各州命名），两者交汇处形成圆形广场和纪念性节点。国会山与总统府之间的 Pennsylvania Avenue 成为权力的可视化轴线——行政与立法的对话被建筑化为一条1.2英里的直线。
+
+**更激进的是他对尺度的野心。** 这座城市的规划面积是当时巴黎的两倍，街道宽达160英尺（约49米），而当时费城最宽的街道不过50英尺。批评者嘲笑这是"荒野中的妄想"，但 L'Enfant 坚持——一个民主共和国的首都必须在物理空间上宣示它的抱负。
+
+然而 L'Enfant 的完美主义和不妥协毁了他。他拒绝提交图纸、擅自拆除一位议员建在规划道路上的房屋、与三位城市专员全面冲突。1792年华盛顿不得不解除他的职务。L'Enfant 拒绝接受报酬，余生在贫困中度过，1825年去世时身无分文。`,
+    legacy: `• 1901年麦克米兰委员会（McMillan Commission）重新发现 L'Enfant Plan，以此为基础完成了国家广场（National Mall）的现代化改造
+• 直接启发了巴西利亚（1960）、新德里（1911）、堪培拉（1913）三座世界首都的城市规划
+• L'Enfant 的遗骸于1909年迁葬阿灵顿国家公墓，墓碑俯瞰他设计的那座城市
+• 华盛顿特区至今严格执行的建筑限高令（不得超过国会大厦穹顶）源于 L'Enfant 对天际线的原始设想
+• 2022年美国城市规划协会将 L'Enfant Plan 列为"美国最具影响力的城市设计文件"`,
+    significance: `L'Enfant Plan 证明了城市设计不只是街道的排列——它是政治理想的空间表达。放射状大道连接权力节点、超人尺度宣示共和国抱负、网格与对角的叠加创造层次——这些手法从1791年延续至今，定义了"首都应该长什么样"这个问题的标准答案。`,
+
+    dateConnection_en: `On August 2, 1754, Pierre Charles L'Enfant was born in Paris. Thirty-seven years later, he would draft the blueprint that defined how a democratic capital should look — and inspired world capitals for the next two centuries.`,
+    designerBio_en: `Pierre Charles L'Enfant was born into an artistic family — his father was a court painter at Versailles. Growing up among the palace's grand axes and formal gardens shaped his spatial imagination profoundly. In 1777, at age 23, he sailed to America as a French volunteer in the Revolutionary War, where he was wounded in battle and earned George Washington's lasting respect.
+
+After the war, he stayed in America and worked as an architect in New York, most notably redesigning Federal Hall as the nation's first Capitol. When Washington became president in 1789, L'Enfant volunteered to design the new federal capital — the commission that would become both his masterpiece and his tragedy.`,
+    story_en: `In the spring of 1791, L'Enfant rode on horseback across the marshy, hilly terrain along the Potomac River. He wasn't thinking in grids — that was colonial-town thinking. He was thinking of Versailles, Rome, and Paris: radiating boulevards connecting centers of power like constellations.
+
+**The genius of the L'Enfant Plan lies in its dual-system overlay.** One layer is a practical grid (numbered streets north-south, lettered streets east-west). The other is a network of diagonal avenues (named after states) slicing across the grid, creating circular plazas and monumental nodes at their intersections. Pennsylvania Avenue — the 1.2-mile straight line between the Capitol and the President's House — became the spatial visualization of the dialogue between legislative and executive power.
+
+**Even more radical was his ambition of scale.** The planned city was twice the size of contemporary Paris. Streets were 160 feet wide (49 meters) when Philadelphia's widest was barely 50 feet. Critics mocked it as "delusions in the wilderness," but L'Enfant insisted — a democratic republic's capital must physically declare its ambitions.
+
+Yet L'Enfant's perfectionism destroyed him. He refused to submit drawings, demolished a senator's house that stood in the path of a planned avenue, and clashed with all three city commissioners. Washington dismissed him in 1792. L'Enfant refused payment, spent his remaining years in poverty, and died penniless in 1825.`,
+    legacy_en: `• The 1901 McMillan Commission rediscovered the L'Enfant Plan and used it as the basis for modernizing the National Mall
+• Directly inspired the urban plans of Brasília (1960), New Delhi (1911), and Canberra (1913)
+• L'Enfant's remains were moved to Arlington National Cemetery in 1909, with his grave overlooking the city he designed
+• Washington D.C.'s building height restrictions (no structure may exceed the Capitol dome) trace back to L'Enfant's original vision for the skyline
+• In 2022, the American Planning Association named the L'Enfant Plan the most influential urban design document in American history`,
+    significance_en: `The L'Enfant Plan proved that urban design is not merely the arrangement of streets — it is the spatial expression of political ideals. Radiating avenues connecting nodes of power, superhuman scale declaring republican ambition, the overlay of grid and diagonal creating hierarchy — these techniques have defined what a national capital "should look like" from 1791 to this day.`,
+  },
+
 ]
