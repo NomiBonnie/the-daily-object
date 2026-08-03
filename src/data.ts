@@ -10782,4 +10782,60 @@ Yet L'Enfant's perfectionism destroyed him. He refused to submit drawings, demol
     significance_en: `The L'Enfant Plan proved that urban design is not merely the arrangement of streets — it is the spatial expression of political ideals. Radiating avenues connecting nodes of power, superhuman scale declaring republican ambition, the overlay of grid and diagonal creating hierarchy — these techniques have defined what a national capital "should look like" from 1791 to this day.`,
   },
 
+  {
+    id: '216',
+    date: '2026-08-03',
+    imageUrl: '/the-daily-object/images/hysteria-def-leppard.jpg',
+    fullImageUrl: '/the-daily-object/images/full/hysteria-def-leppard.jpg',
+    title: 'Hysteria',
+    title_en: 'Hysteria',
+    subtitle: 'Andie Airfix / Sator, 1987',
+    subtitle_en: 'Andie Airfix / Sator, 1987',
+    category: 'music' as const,
+    designer: 'Andie Airfix',
+    year: '1987',
+    tags: ['唱片封面设计经典', '视觉传达里程碑', '80年代美学符号'],
+    tags_en: ['Iconic Album Art', 'Visual Communication Landmark', '80s Aesthetic Icon'],
+
+    dateConnection: `1987年8月3日，Def Leppard 的第四张录音室专辑《Hysteria》正式发行。这张历时三年半制作的专辑最终全球销量超过2500万张，其封面设计成为80年代视觉文化最具辨识度的符号之一。`,
+    designerBio: `Andie Airfix（本名 Andie Earl）是80年代英国最活跃的唱片封面设计师之一，与设计工作室 Sator 合作完成了 Hysteria 的视觉系统。她的设计哲学强调"用最少的元素传达最强的情绪"——Hysteria 封面上没有乐队照片、没有复杂排版，只有一个三角棱镜将光线折射成彩虹光谱，在纯黑背景上创造出神秘而优雅的视觉张力。
+
+Airfix 后来为众多摇滚乐队设计封面，但 Hysteria 始终是她最具代表性的作品。这个设计的灵感部分来自 Pink Floyd 的 Dark Side of the Moon（1973），但 Airfix 将棱镜从"科学图解"提升为"情绪符号"——折射出的不是物理光谱，而是这张专辑从创伤到重生的情感光谱。`,
+    story: `Hysteria 的封面设计必须放在这张专辑的传奇制作背景下理解。
+
+1984年除夕，鼓手 Rick Allen 在谢菲尔德遭遇严重车祸，失去了左臂。对任何乐队来说这意味着终结——但 Allen 用一年时间学会了使用定制电子鼓组：左脚踩踏板替代左手，重新定义了鼓手的身体极限。
+
+**制作人 Mutt Lange 对完美的执着近乎疯狂。** 整张专辑录制了三年半，每首歌的人声层叠多达上百轨。录音预算从原本的100万美元飙升到450万（1987年的450万相当于今天的1200万），一度成为史上最贵的摇滚专辑。Mercury 唱片几乎放弃了这个项目。
+
+封面设计承担了一个微妙的任务：如何视觉化"浴火重生"？Airfix 选择了极简主义路径——三角形（乐队标志性的三角 logo 的变体）折射出的光谱，从黑暗中绽放。没有伤疤、没有戏剧化的叙事，只有纯粹的光与美。
+
+**这个设计决策是天才的。** 在80年代那个充斥着过度设计、霓虹色彩和性感女郎的金属乐封面潮流中，Hysteria 的极简黑底 + 光线折射显得异常优雅和克制。它让这张专辑在唱片店货架上"安静地闪光"——恰如专辑本身：在喧嚣的80年代摇滚中，Hysteria 是被精心雕琢的、每个音符都恰到好处的作品。`,
+    legacy: `• Hysteria 封面成为80年代唱片设计极简主义的代表作，证明"少即是多"在商业摇滚领域同样有效
+• 专辑全球销量超过2500万张，是史上最畅销的摇滚专辑之一
+• 棱镜+光谱的视觉语言被无数后续唱片、演唱会舞台和merchandise设计引用
+• Rick Allen 用定制电子鼓组继续演奏的故事，推动了辅助技术在音乐领域的发展
+• 2017年专辑30周年纪念版重新发行，封面设计未做任何改动——30年后依然现代`,
+    significance: `Hysteria 的封面设计证明了唱片美术不只是"给音乐配张好看的图"——它是音乐精神的视觉翻译。在一个鼓手失去手臂、制作耗时近四年、预算超支四倍的疯狂项目最终诞生出完美之作时，封面上那束从黑暗中折射出的光，成为了关于"从创伤中绽放"最优雅的视觉隐喻。`,
+
+    dateConnection_en: `On August 3, 1987, Def Leppard released their fourth studio album Hysteria — a record that took three and a half years to make, survived a drummer losing his arm, and went on to sell over 25 million copies worldwide. Its cover art became one of the most recognizable visual symbols of the 1980s.`,
+    designerBio_en: `Andie Airfix (born Andie Earl) was one of the most prolific album cover designers in 1980s Britain, collaborating with design studio Sator to create Hysteria's complete visual identity. Her design philosophy emphasized "maximum emotion from minimum elements" — the Hysteria cover features no band photos, no complex typography, just a triangular prism refracting light into a rainbow spectrum against pure black, creating a tension between mystery and elegance.
+
+Airfix went on to design covers for numerous rock acts, but Hysteria remains her defining work. The design drew partial inspiration from Pink Floyd's Dark Side of the Moon (1973), but Airfix elevated the prism from a "scientific diagram" into an "emotional symbol" — the refracted light representing not a physical spectrum, but the emotional journey from trauma to rebirth.`,
+    story_en: `The Hysteria cover design must be understood in the context of the album's legendary production.
+
+On New Year's Eve 1984, drummer Rick Allen was in a devastating car accident in Sheffield that cost him his left arm. For any band, this would mean the end — but Allen spent a year learning to play a custom-built electronic drum kit, using foot pedals to replace his left hand, redefining the physical limits of drumming.
+
+**Producer Mutt Lange's obsession with perfection bordered on madness.** The album took three and a half years to record, with vocal layers stacked over a hundred tracks deep per song. The budget ballooned from $1 million to $4.5 million (equivalent to $12 million today), briefly making it the most expensive rock album ever produced. Mercury Records nearly abandoned the project.
+
+The cover design carried a subtle brief: how do you visualize "rising from the ashes"? Airfix chose the minimalist path — a triangle (a variant of the band's iconic delta logo) refracting light from darkness. No scars, no dramatic narrative, just pure light and beauty.
+
+**This design decision was genius.** In the 1980s landscape of over-designed, neon-colored, pin-up-laden metal album covers, Hysteria's minimal black background with refracted light appeared remarkably elegant and restrained. It made the album "quietly glow" on record store shelves — much like the album itself: in the noisy world of 80s rock, Hysteria was a meticulously sculpted work where every note was precisely placed.`,
+    legacy_en: `• The Hysteria cover became the definitive example of minimalist album art in the 1980s, proving "less is more" works even in commercial rock
+• The album sold over 25 million copies worldwide, making it one of the best-selling rock albums in history
+• The prism-and-spectrum visual language has been referenced by countless subsequent album covers, concert stages, and merchandise designs
+• Rick Allen's continued performance with a custom electronic drum kit advanced assistive technology in music
+• The 2017 30th anniversary reissue kept the cover design completely unchanged — still modern after three decades`,
+    significance_en: `The Hysteria cover proves that album art is not merely "putting a nice picture on music" — it is the visual translation of musical spirit. When a project that saw a drummer lose his arm, took nearly four years to complete, and ran four times over budget finally produced a perfect record, the beam of light refracting from darkness on its cover became the most elegant visual metaphor for "beauty emerging from trauma."`,
+  },
+
 ]
