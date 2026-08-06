@@ -10635,7 +10635,7 @@ On February 17, 1972, the 15,007,034th Beetle rolled off the line, surpassing th
 
 Its rounded silhouette became one of the most recognizable profiles in automotive design. Volkswagen's 1998 New Beetle deliberately paid homage to this classic form, proving that great design language can remain compelling across half a century. With over 21.5 million units produced, it still holds the world record for a single design platform.`,
     significance_en: `The Beetle is the 20th century's most successful realization of "design for everyone." It transformed from political tool to cultural symbol, from economic miracle vehicle to counterculture banner, from practical transport to emotional vessel — a metamorphosis of identity unmatched in design history. It taught designers that truly great design is not defined by its creator's intent, but by the soul that users pour into it over the long arc of time.`,
-  },,
+  },
 
 {
     id: '166',
