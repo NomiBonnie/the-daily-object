@@ -10891,4 +10891,58 @@ His design methodology was equally revolutionary. Burle Marx insisted on using n
     significance_en: `Burle Marx proved that landscape design can simultaneously be art, ecology, and social action. Before him, the ground of public spaces was merely "where you walk"; after him, a beach promenade could become one of the world's most recognizable design symbols. He used stones underfoot to tell a story about identity — a tropical country need not imitate European gardens when its own plants and patterns are the most beautiful of all.`,
   },
 
+  {
+    id: '225',
+    date: '2026-08-06',
+    imageUrl: '/the-daily-object/images/aiga-detroit-poster.jpg',
+    fullImageUrl: '/the-daily-object/images/full/aiga-detroit-poster.jpg',
+    title: 'AIGA Detroit Poster',
+    title_en: 'AIGA Detroit Poster',
+    subtitle: 'Stefan Sagmeister, 1999',
+    subtitle_en: 'Stefan Sagmeister, 1999',
+    category: 'graphic' as const,
+    designer: 'Stefan Sagmeister',
+    year: '1999',
+    tags: ['让文字成为肉身', '反叛平面设计惯例', '定义九十年代视觉'],
+    tags_en: ['Made Type Physical', 'Defied Graphic Conventions', 'Defined Nineties Visuals'],
+
+    dateConnection: `1962年8月6日，Stefan Sagmeister 出生于奥地利布雷根茨。这位把平面设计从纸面推向身体、空间与行为现场的设计师，后来用一张海报改写了许多人对“文字可以做什么”的想象。`,
+    designerBio: `Stefan Sagmeister 是当代平面设计中最难被归类的人之一。1985年，他从维也纳应用艺术大学取得硕士学位，后以富布赖特奖学金赴纽约 Pratt Institute 深造；1993年在纽约成立个人工作室。起初，他为 Lou Reed、David Byrne、Rolling Stones 等音乐人设计唱片包装，随后把工作扩展到品牌、展览、公共项目与实验性出版。
+
+他的作品很少把排版当作中性的“信息容器”。Sagmeister 更关心文字怎样被看见、被感到，甚至被身体记住：字可以由香蕉腐烂、由金属铸造、由人群组成，也可以像这张海报一样，直接进入皮肤。他后来与 Jessica Walsh 共同成立 Sagmeister & Walsh，并于2013年获 AIGA Medal——这是美国平面设计界最重要的终身荣誉之一。`,
+    story: `1999年，Sagmeister 受邀到密歇根州 Cranbrook Academy of Art 附近的 AIGA Detroit 演讲。通常，一张讲座海报的任务很简单：放上姓名、时间、地点和赞助者。但他没有把这些信息排在网格里，而是让实习生用 X-Acto 刀把全部文案刻在自己的躯干上，再将伤痕与文字一同拍下、制成石版海报。
+
+**这不是为了耸动而耸动。** Sagmeister 想把设计项目中常被隐藏的痛感与投入变成视觉事实：每个字都像一次切割，信息不再漂浮在表面，而仿佛从身体里长出来。红色帷幕、裸露的上半身与密集的红色刻字构成直接到近乎残酷的画面；观者必须先感到不适，才开始阅读。
+
+它也精准击中了90年代末平面设计的转向。电脑让字体、滤镜和版式变得无比容易复制，Sagmeister 反而把“制作”拉回不可替代的肉身与风险。海报仍然完成了最基本的传播功能，却拒绝当一张乖巧的通知单；它把媒介、文案、摄影与行为压缩成一个无法忽略的瞬间。
+
+MoMA 将这件作品收入建筑与设计部门，并称它为 Sagmeister 最著名的海报。今天回看，真正留存下来的不只是那个大胆的动作，而是一条很难被忽视的原则：**当形式与内容来自同一个念头，信息本身就能成为体验。**`,
+    legacy: `• 被 MoMA 纳入馆藏，成为其1990—2000年平面设计叙事的重要作品
+• 让“文字即图像、图像即事件”的观念走进主流设计教育
+• 证明低技术、强概念的制作方式仍能压过任何装饰性视觉效果
+• 影响后来的实验海报、音乐视觉与设计师自我叙事
+• 把设计劳动中看不见的焦虑、痛感与投入带到画面正中央
+• 成为 Cranbrook 式实验传统在世纪之交最广为流传的图像之一`,
+    significance: `AIGA Detroit Poster 的厉害之处，在于它没有把“创意”理解成加一个视觉花招。Sagmeister 让表达方式本身承担意义：海报所说的，是设计并不轻松；海报怎样被做出来，也恰好让这句话成立。它提醒每个设计师，最有力量的形式往往不是最漂亮的形式，而是那个让内容无法被替换的形式。`,
+
+    dateConnection_en: `Stefan Sagmeister was born in Bregenz, Austria, on August 6, 1962. By taking graphic design off the page and into bodies, spaces, and actions, he would transform what many designers believed typography could do.`,
+    designerBio_en: `Stefan Sagmeister is one of contemporary graphic design's least classifiable figures. He earned his MFA from the University of Applied Arts Vienna in 1985, studied at Pratt Institute in New York on a Fulbright scholarship, and founded his New York studio in 1993. First known for record packaging for Lou Reed, David Byrne, and the Rolling Stones, he later expanded into identities, exhibitions, public projects, and experimental publishing.
+
+For Sagmeister, type is never merely a neutral vessel for information. He asks how words can be seen, felt, and remembered: they can be formed by rotting bananas, cast in metal, assembled by crowds, or, in this poster, inscribed directly on skin. He received the AIGA Medal in 2013, one of American graphic design's highest honours.`,
+    story_en: `In 1999, Sagmeister was invited to give an AIGA Detroit lecture at Cranbrook Academy of Art. A lecture poster normally needs only a name, date, venue, and sponsors. Instead of setting that information in a grid, he asked an intern to carve every word into his torso with an X-Acto knife, then photographed the result and printed it as a lithograph.
+
+**The provocation had a precise purpose.** Sagmeister wanted to make visible the pain and commitment usually hidden in design work. Every letter reads like a cut: information no longer sits on a surface, but seems to emerge from the body. A red curtain, bare torso, and dense red lettering force the viewer to feel first and read second.
+
+The poster also captured a late-1990s shift. As digital tools made type and layout endlessly reproducible, Sagmeister returned making to an irreplaceable body and a real risk. The poster still communicated its event, but refused to behave like a polite notice. It compressed typography, photography, performance, and message into one unforgettable image.
+
+MoMA acquired the work and calls it Sagmeister's most famous poster. Its lasting lesson is simple: **when form and content arise from the same idea, information itself becomes an experience.**`,
+    legacy_en: `• Acquired by MoMA as a key work in its 1990–2000 graphic-design story
+• Brought the idea of “type as image, image as event” into mainstream design education
+• Proved that low-tech, concept-led making can overpower decorative effects
+• Influenced experimental posters, music visuals, and designer self-authorship
+• Put the otherwise invisible anxiety, pain, and commitment of design labour at the centre of the image
+• Became one of the most widely circulated images of Cranbrook-style experimentation at the turn of the century`,
+    significance_en: `AIGA Detroit Poster is powerful because it does not treat creativity as a visual trick added at the end. Its method carries its meaning: the poster says that design is not painless, and the way it was made makes that statement true. Sagmeister shows that the strongest form is not always the prettiest one; it is the form that makes the content impossible to replace.`,
+  },
+
 ]
