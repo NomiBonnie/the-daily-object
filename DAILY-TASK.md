@@ -583,6 +583,7 @@ browser action=open → 用 → browser action=close
 | 03-18 | Autoportrait (Tamara in the Green Bugatti) | Tamara de Lempicka | art |
 | 03-19 | AC/DC Logo | Gerard Huerta | music |
 | 03-20 | Animal Crossing: New Horizons | Nintendo EPD | software |
+| 08-05 | The Seven Year Itch “Subway Dress” | William Travilla | fashion |
 
 > 添加新内容后，请更新此索引。
 
