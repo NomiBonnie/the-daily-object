@@ -11048,4 +11048,56 @@ The sleeve also made a daring brand decision: the Beatles no longer needed to sa
 • Made a simple, repeatable action into an early model of participatory cultural circulation`,
     significance_en: `Abbey Road is great not because it is elaborate, but because it removes almost everything. Macmillan found an action everyone can read; Kosh trusted that the photograph needed no explanation. Its lesson for designers is enduring: recognisability does not come from adding more elements, but from leaving the one image that cannot be replaced.`,
   },
+
+  {
+    id: '349',
+    date: '2026-08-08',
+    imageUrl: '/the-daily-object/images/rudi-gernreich-monokini.jpg',
+    fullImageUrl: '/the-daily-object/images/full/rudi-gernreich-monokini.jpg',
+    title: 'Monokini',
+    title_en: 'Monokini',
+    subtitle: 'Rudi Gernreich, 1964',
+    subtitle_en: 'Rudi Gernreich, 1964',
+    category: 'fashion' as const,
+    designer: 'Rudi Gernreich',
+    year: '1964',
+    tags: ['改写泳装设计边界', '身体自由的宣言', '六十年代文化符号'],
+    tags_en: ['Redefined Swimwear Boundaries', 'Declaration of Body Freedom', 'Sixties Cultural Icon'],
+
+    dateConnection: `1922年8月8日，Rudi Gernreich 出生于维也纳。42年后，他设计的 Monokini 让一件泳装成为全球新闻：它不只是删去布料，而是把女性身体、公共空间与选择权同时推到现代设计的讨论中心。`,
+    designerBio: `Rudi Gernreich（1922—1985）是奥地利出生、在洛杉矶成名的美国时装设计师。他少年时逃离纳粹统治下的维也纳，抵达美国后先以舞者和服装草图画家的身份工作；舞蹈训练让他始终从“身体如何移动”而不是“衣服应当如何端庄”出发思考服装。
+
+20世纪50至70年代，Gernreich 以针织服装为媒介不断挑战性别、裸露与日常穿着的边界。他反对僵硬的胸衣结构，推崇自由、可动、贴近身体的剪裁；他的无性别系列、透明材质与大胆的几何镂空，都把时装视为一种关于社会规范的实验。`,
+    story: `1964年，Gernreich 为加州品牌设计了一件黑色针织泳装：高腰下装，前部切高，两条交叉肩带向上延伸，却不遮蔽躯干上部。他给它起名 **Monokini**。名称听起来像“比基尼的下一步”，但它的目的并不是提供一种实用的新泳装款式，而是测试一条更尖锐的问题：当女性身体离开被规定的遮蔽方式，社会究竟在害怕什么？
+
+摄影师 William Claxton 为 Gernreich 的缪斯 Peggy Moffitt 拍下了这件作品最著名的形象。画面中的模特以夸张眼妆、利落短发和正面姿态站在镜头前；黑色针织、白皙肌肤与极简背景形成强烈的图形对比。它不是海滩抓拍，也没有风景替它解释——整张照片只让服装的结构与身体的主张直接相撞。
+
+媒体的反应近乎爆炸。报道把它称为丑闻，天主教会公开谴责，多个地区尝试限制其出现；但消费者也迅速订购。Gernreich 后来承认，他并不期待人们真的穿着它去游泳。Monokini 更像一枚精确投放的设计宣言：它用一件可被生产、拍摄和购买的物件，暴露了社会对女性身体的控制。
+
+本页采用 Getty Museum 收藏的 William Claxton 1964年专业摄影作品，直接呈现 Peggy Moffitt 所穿的 Gernreich Monokini；黑色针织下装、交叉肩带与该设计的标志性轮廓均清晰可辨。`,
+    legacy: `• 成为20世纪最具争议也最具辨识度的泳装设计之一
+• 让泳装从功能性服饰进入身体政治与大众媒体的公共辩论
+• 证明一件服装可以像海报或宣言一样，主动制造社会对话
+• 其佩戴方式与图像语言持续影响时尚摄影、表演、流行音乐与当代设计
+• 被 V&A、Getty 等重要文化机构持续研究和收藏，成为1960年代设计史的关键物证`,
+    significance: `Monokini 的厉害不在于“少穿一点”，而在于它把减法变成了设计语言。Gernreich 用极少的黑色针织线条，重新组织了身体、视线和公共规则之间的关系。它提醒我们：时装从不只是在装饰身体；当剪裁足够准确时，它也能暴露一整套社会习惯。`,
+
+    dateConnection_en: `Rudi Gernreich was born in Vienna on August 8, 1922. Forty-two years later, his Monokini turned a swimsuit into international news: not simply by removing fabric, but by placing the female body, public space, and the right to choose at the centre of modern design debate.`,
+    designerBio_en: `Rudi Gernreich (1922–1985) was an Austrian-born American fashion designer who made his name in Los Angeles. He fled Nazi-controlled Vienna as a teenager and, after arriving in America, worked first as a dancer and fashion sketch artist. His training in dance meant that he approached dress through the question of how a body moves, rather than how decorously it ought to be covered.
+
+From the 1950s through the 1970s, Gernreich used knitwear to challenge the boundaries of gender, exposure, and everyday dress. He rejected rigid corsetry in favour of freedom, movement, and body-conscious cutting. His unisex collections, transparent materials, and graphic cut-outs treated fashion as an experiment in social convention.`,
+    story_en: `In 1964, Gernreich designed a black knitted swimsuit for a California label: a high-waisted, high-cut bottom with two crossover straps extending upward, leaving the upper torso uncovered. He called it the **Monokini**. The name sounded like the next step after the bikini, but the point was not to establish a practical new swimwear category. It was to test a sharper question: what exactly does society fear when a woman's body leaves its prescribed modes of concealment?
+
+Photographer William Claxton made the Monokini's defining image with Gernreich's muse, Peggy Moffitt. In the photograph, Moffitt confronts the camera with dramatic eye makeup, cropped hair, and a frontal pose. Black knit, pale skin, and a minimal background create a forceful graphic contrast. There is no beach snapshot and no scenery to soften the proposition; the image lets the garment's structure collide directly with the body's claim.
+
+The response was explosive. Newspapers framed it as scandal, the Catholic Church condemned it, and several jurisdictions sought to restrict it. Consumers, meanwhile, placed orders. Gernreich later acknowledged that he did not expect people to swim in it. The Monokini was a precisely deployed design declaration: a producible, photographable, purchasable object that exposed society's control over women's bodies.
+
+The image used here is Getty Museum's collection photograph by William Claxton from 1964. It directly shows Peggy Moffitt wearing Gernreich's Monokini, with the black knitted bottom, crossover straps, and the work's defining silhouette clearly visible.`,
+    legacy_en: `• Became one of the 20th century's most controversial and recognisable swimwear designs
+• Moved swimwear from functional apparel into public debate on body politics and mass media
+• Demonstrated that a garment can create social dialogue as deliberately as a poster or manifesto
+• Its styling and image language continue to influence fashion photography, performance, pop music, and contemporary design
+• Continues to be researched and collected by institutions including the V&A and Getty, as key evidence of 1960s design history`,
+    significance_en: `Monokini matters not because it asked people to wear less, but because it made subtraction into a design language. With only a few lines of black knit, Gernreich reorganised the relationship between body, gaze, and public rules. It is a reminder that fashion never merely decorates the body; when a cut is precise enough, it can expose an entire set of social habits.`,
+  },
 ]
