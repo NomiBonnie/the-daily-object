@@ -11100,4 +11100,55 @@ The image used here is Getty Museum's collection photograph by William Claxton f
 • Continues to be researched and collected by institutions including the V&A and Getty, as key evidence of 1960s design history`,
     significance_en: `Monokini matters not because it asked people to wear less, but because it made subtraction into a design language. With only a few lines of black knit, Gernreich reorganised the relationship between body, gaze, and public rules. It is a reminder that fashion never merely decorates the body; when a cut is precise enough, it can expose an entire set of social habits.`,
   },
+  {
+    id: '350',
+    date: '2026-08-09',
+    imageUrl: '/the-daily-object/images/netscape-navigator-1-22.png',
+    fullImageUrl: '/the-daily-object/images/full/netscape-navigator-1-22.png',
+    title: 'Netscape Navigator',
+    title_en: 'Netscape Navigator',
+    subtitle: 'Netscape Communications, 1994',
+    subtitle_en: 'Netscape Communications, 1994',
+    category: 'software' as const,
+    designer: 'Netscape Communications',
+    year: '1994',
+    tags: ['让互联网变得可用', '定义浏览器交互原型', '点燃网络商业时代'],
+    tags_en: ['Made the Web Usable', 'Defined Browser Interaction', 'Ignited the Internet Economy'],
+
+    dateConnection: `1995年8月9日，Netscape Communications 在纳斯达克上市。开盘前发行价从14美元上调至28美元，首日一度冲到75美元、收于58.25美元。这场轰动的上市让世界意识到：浏览器不只是技术人员的工具，它正在成为一扇通往大众互联网的门。`,
+    designerBio: `Netscape Communications 由 Marc Andreessen 与 Jim Clark 于1994年共同创立。Andreessen 曾参与开发 NCSA Mosaic——第一批真正把图文、链接和鼠标点击带给普通用户的图形浏览器；Clark 则看见了它走出大学实验室、成为大众产品的可能。两人聚集了一支极小而极快的团队，把这个想法做成了 Netscape Navigator。
+
+Navigator 的设计并非由一位单独署名的设计师完成，而是产品、工程与交互共同塑造的结果。这恰好是软件设计的本质：工具栏、地址栏、状态提示、超链接和加载反馈，各自都很普通；组合起来，却首次让非技术用户能直觉地在万维网中移动。`,
+    story: `1994年的网页并不缺少信息，缺少的是一个让人愿意进入的界面。拨号网络缓慢，页面由文字、图片和链接构成；如果软件要求人们理解协议、命令和下载过程，互联网就很难离开校园。Navigator 的关键贡献，是把复杂的网络行为压缩成少数可学习的动作：输入地址、点蓝色链接、按 Back 返回、看右上角的流星动画确认页面仍在加载。
+
+**它最聪明的设计，是没有要求用户等待。** Navigator 可以在文件尚未全部到达时，先把文字与图像逐步显示出来。今天这像是理所当然的性能策略；在低速调制解调器时代，它改变了人对“网页正在工作”的感受。内容先出现，等待便不再只是等待。
+
+这张 Navigator 1.22 的原始界面截图保存了那套早期语法：灰色窗口、成排的导航按钮、地址输入框、状态栏和左上角的 N 标志。它并不精致，却已建立了后来浏览器的骨架。浏览并非“打开一个文件”，而是沿着链接前进、退回、再次定位——一套让信息空间像现实空间一样可探索的交互模型。
+
+1995年8月9日的上市，把这种界面体验推入更大的文化叙事。Netscape 上市仅16个月后，首日市值就达到约29亿美元；“Netscape moment”也成为新产业突然被资本与公众同时看见的代称。随后与 Internet Explorer 的浏览器战争让 Navigator 失去领先地位，但它留下的前台逻辑、JavaScript 的技术遗产与 Mozilla 的开源血脉，仍在今天的网页里继续运作。`,
+    legacy: `• 将网页浏览从专业活动变成普通用户可学习的日常行为
+• 固化了地址栏、前进后退、超链接与加载反馈等浏览器交互原型
+• 通过渐进式渲染，让低速网络中的等待变成可见、可理解的过程
+• 推动 JavaScript 走向标准化，影响此后几乎所有现代网页的交互方式
+• 其上市成为互联网商业化的标志事件，并促成 Mozilla 与 Firefox 的开源传承`,
+    significance: `Netscape Navigator 的价值，不在于它是第一个浏览器，而在于它把一项网络技术做成了人人都敢打开的界面。好的软件设计往往不靠“解释技术”，而靠把技术的复杂性藏在可预测的动作之后。Navigator 让人们第一次真正感觉到：网络不是远处的机器，而是可以自己走进去的空间。`,
+
+    dateConnection_en: `On August 9, 1995, Netscape Communications went public on NASDAQ. Its offering price was raised from $14 to $28 before trading; the stock briefly reached $75 and closed at $58.25. The spectacular IPO told the world that a browser was no longer a specialist’s tool—it was becoming the public doorway to the internet.`,
+    designerBio_en: `Netscape Communications was founded in 1994 by Marc Andreessen and Jim Clark. Andreessen had helped create NCSA Mosaic, one of the first graphical browsers to bring text, images, links, and mouse clicks to ordinary users; Clark saw the opportunity to move that experience beyond a university lab and into a mass-market product. Together they assembled a small, fast-moving team and turned that premise into Netscape Navigator.
+
+Navigator was not the work of one credited designer. Its product, engineering, and interaction choices formed a whole—precisely the nature of software design. A toolbar, address field, status message, hyperlink, and loading indicator are individually unremarkable. Together they gave nontechnical people an intuitive way to move through the World Wide Web.`,
+    story_en: `The web of 1994 did not lack information; it lacked an interface people wanted to enter. Dial-up connections were slow, pages were mixtures of text, images, and links, and software that demanded an understanding of protocols, commands, and downloads would keep the internet inside campuses. Navigator compressed that complexity into a small set of learnable actions: type an address, click a blue link, press Back, and watch the animated N to know that a page was still arriving.
+
+**Its smartest decision was not making people wait.** Navigator could display text and images progressively before the whole file had arrived. That now feels like an ordinary performance technique; over dial-up modems, it changed the emotional experience of loading. Content appeared first, so waiting became evidence of progress rather than a blank interruption.
+
+This original screenshot of Navigator 1.22 preserves that early grammar: grey window chrome, a row of navigation controls, an address field, status bar, and the N mark at the upper left. It is not polished, but its skeleton is recognisable. Browsing was no longer “opening a file”; it was moving forward through links, stepping back, and locating yourself again—a model that made an information space navigable like a physical one.
+
+The August 9, 1995 IPO placed that interface inside a much larger cultural story. Only sixteen months after the company’s founding, Netscape’s first-day valuation reached roughly $2.9 billion; “Netscape moment” became shorthand for the public and capital markets simultaneously recognising a new industry. Navigator later lost its lead in the browser wars with Internet Explorer, but its front-end logic, JavaScript legacy, and Mozilla open-source lineage remain active in today’s web.`,
+    legacy_en: `• Turned web browsing from a specialist activity into an everyday, learnable behavior
+• Established browser interaction patterns including the address bar, Back/Forward, hyperlinks, and loading feedback
+• Made slow networks feel legible through progressive rendering
+• Helped move JavaScript toward standardisation, shaping interaction on nearly every modern web page
+• Its IPO became a landmark of internet commercialisation and seeded the open-source lineage of Mozilla and Firefox`,
+    significance_en: `Netscape Navigator matters not because it was the first browser, but because it turned network technology into an interface people felt confident opening. Strong software design does not explain every technical detail; it places complexity behind predictable actions. Navigator made people feel, for the first time, that the network was not a distant machine but a space they could enter and explore themselves.`,
+  },
 ]
