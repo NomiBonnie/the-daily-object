@@ -11151,4 +11151,51 @@ The August 9, 1995 IPO placed that interface inside a much larger cultural story
 • Its IPO became a landmark of internet commercialisation and seeded the open-source lineage of Mozilla and Firefox`,
     significance_en: `Netscape Navigator matters not because it was the first browser, but because it turned network technology into an interface people felt confident opening. Strong software design does not explain every technical detail; it places complexity behind predictable actions. Navigator made people feel, for the first time, that the network was not a distant machine but a space they could enter and explore themselves.`,
   },
+  {
+    id: '351',
+    date: '2026-08-10',
+    imageUrl: '/the-daily-object/images/fender-stratocaster.jpg',
+    fullImageUrl: '/the-daily-object/images/full/fender-stratocaster.jpg',
+    title: 'Fender Stratocaster',
+    title_en: 'Fender Stratocaster',
+    subtitle: 'Leo Fender、Bill Carson、George Fullerton、Freddie Tavares, 1954',
+    subtitle_en: 'Leo Fender, Bill Carson, George Fullerton & Freddie Tavares, 1954',
+    category: 'industrial' as const,
+    designer: 'Leo Fender、Bill Carson、George Fullerton、Freddie Tavares',
+    year: '1954',
+    tags: ['定义电吉他轮廓', '摇滚乐的视觉符号', '为演奏者而设计'],
+    tags_en: ['Defined the Electric Guitar', 'Visual Icon of Rock', 'Designed for Players'],
+
+    dateConnection: `1909年8月10日，Leo Fender 出生于加州阿纳海姆。他不是吉他手，却与 Bill Carson、George Fullerton 和 Freddie Tavares 一起，在1954年把一把吉他重新设计成适合现代舞台、身体与声音的工具：Fender Stratocaster。`,
+    designerBio: `Leo Fender（1909—1991）原本学的是会计，靠修收音机、扩音器和乐器建立起自己的工作室。他很少亲自演奏，却愿意长时间听职业乐手抱怨：琴体硌住肋骨，琴颈难以抵达高音区，演出时想让音高轻轻晃动却没有可靠的装置。对 Fender 来说，这些抱怨不是缺点清单，而是一份产品简报。
+
+1950年代初，他以 Telecaster 证明实心电吉他能够被稳定地量产。随后，Fender 与西部摇摆乐手 Bill Carson、制琴师 George Fullerton、设计师 Freddie Tavares 继续迭代，目标不是装饰一件乐器，而是让它真正贴合正在变化的流行音乐现场。`,
+    story: `1954年推出的 Stratocaster 看起来像一件自然生长出来的经典，但它的每一道曲线都有明确用途。双缺角让左手更容易抵达高把位；琴体背部与前臂接触的两处凹切，首次把“人如何抱住它”写进实心电吉他的轮廓；三个单线圈拾音器提供比前代更宽的音色范围；同步颤音系统则让右手能够连续而可控地改变音高。
+
+**它最聪明的地方，是把性能、舒适与识别度变成同一件事。** 双角并非只是好看的剪影，弧形琴体也不只是雕塑感。每一次为了演奏而做的减法和切削，最后都变成了这把琴一眼可认的外观。照片中的1958年 Stratocaster 正面呈现了这套语法：日落色琴身、白色护板、长枫木琴颈、三个拾音器和两个向外伸展的琴角；没有舞台、没有演奏者，作品本身就是主角。
+
+早期销量并非立刻爆发。1957年，Buddy Holly 和 The Crickets 在《Ed Sullivan Show》上使用 Stratocaster 演出，电视把它的轮廓送进无数家庭。此后，Jimi Hendrix、Eric Clapton、Jeff Beck、Stevie Ray Vaughan 等人用它造出截然不同的声音。产品没有规定一种音乐风格，反而给了演奏者足够的操控空间；这正是它能跨越布鲁斯、冲浪摇滚、朋克、流行与金属的原因。`,
+    legacy: `• 用双缺角与人体工学凹切，定义了现代实心电吉他的身体语言
+• 将三拾音器与颤音系统组合成可量产的舞台工具
+• 证明功能性细节可以同时成为最强的视觉识别
+• 伴随 Buddy Holly、Hendrix、Clapton 等音乐人，成为摇滚文化的全球符号
+• 让“为使用者的动作而设计”成为乐器工业设计的持续标准`,
+    significance: `Stratocaster 的伟大不是某个零件的发明，而是系统的判断：一把琴既要好听，也要好抱、好够到、好控制，还要在远处一眼被认出。Fender 团队把乐手的身体和舞台的需求刻进了轮廓里。七十多年后，人们仍能从两个琴角认出它，因为那不是造型附加物，而是使用经验留下的形状。`,
+
+    dateConnection_en: `Leo Fender was born in Anaheim, California, on August 10, 1909. He was not a guitarist, yet with Bill Carson, George Fullerton, and Freddie Tavares he redesigned the guitar in 1954 as a tool for the modern stage, the player’s body, and a new range of sound: the Fender Stratocaster.`,
+    designerBio_en: `Leo Fender (1909–1991) studied accounting before building a repair business around radios, amplifiers, and instruments. He rarely played guitar himself, but he listened closely when working musicians complained: a body pressed into the ribs, high notes were difficult to reach, and there was no dependable way to make pitch move gracefully during a performance. To Fender, those complaints were not defects to excuse; they were a product brief.
+
+After proving with the Telecaster that a solid-body electric guitar could be manufactured consistently, Fender continued with Western-swing guitarist Bill Carson, builder George Fullerton, and designer Freddie Tavares. Their aim was not to decorate an instrument, but to make one that genuinely fit a changing popular-music stage.`,
+    story_en: `Introduced in 1954, the Stratocaster looks inevitable now, but every curve answered a practical question. Its double cutaway gives the fretting hand easier access to upper notes. The body’s back and forearm contours wrote the question of how a person holds a guitar into the solid-body silhouette. Three single-coil pickups expanded the tonal palette, while the synchronized tremolo let the picking hand bend pitch continuously and with control.
+
+**Its smartest achievement is making performance, comfort, and recognition into the same thing.** The twin horns are not merely a handsome outline, and the sculpted body is not merely decorative. Each cut made for playing became part of the guitar’s unmistakable appearance. The 1958 Stratocaster pictured here shows that language directly: sunburst body, white pickguard, long maple neck, three pickups, and two reaching horns—with no stage or performer competing with the object itself.
+
+Sales were not instantly explosive. In 1957, Buddy Holly and the Crickets played Stratocasters on The Ed Sullivan Show, sending the silhouette into living rooms across America. Jimi Hendrix, Eric Clapton, Jeff Beck, Stevie Ray Vaughan, and many others later made radically different sounds with it. The product did not prescribe a musical style; it offered players room to control one. That is why it could move through blues, surf rock, punk, pop, and metal.`,
+    legacy_en: `• Defined the bodily language of the modern solid-body electric guitar through double cutaways and ergonomic contours
+• Combined three pickups and a vibrato system into a mass-produced stage instrument
+• Proved functional details can also become the strongest visual identity
+• Became a global symbol of rock culture through players including Buddy Holly, Hendrix, and Clapton
+• Made design around a user’s movement an enduring standard for instrument design`,
+    significance_en: `The Stratocaster’s achievement is not a single component but a systems decision: a guitar should sound good, sit comfortably, reach the right notes, respond to control, and be recognisable from a distance. Fender’s team cut the player’s body and the stage’s demands into its outline. More than seventy years later, two horns are enough to identify it, because their shape is not an added style—it is use made visible.`,
+  },
 ]
