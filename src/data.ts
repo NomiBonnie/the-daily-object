@@ -11353,4 +11353,55 @@ The image used here is the original 1958 U.S. theatrical poster. It directly sho
 • Remains a reference for posters, motion titles, and brand narrative as a model of precise visual economy`,
     significance_en: `The Vertigo poster endures because it refuses to explain. Bass does not tell us who loves whom or who is chasing whom; he simply places us on a spinning edge. Strong visual identity often works this way: it does not pile on information, but finds one exact feeling and lets form, type, and colour pull us inside. This sheet of paper from 1958 proves that the most effective film advertising need not show a single frame of the film to make us enter it.`,
   },
+  {
+    id: '355',
+    date: '2026-08-14',
+    imageUrl: '/the-daily-object/images/whos-next.jpg',
+    fullImageUrl: '/the-daily-object/images/full/whos-next.jpg',
+    title: 'Who’s Next 专辑封面',
+    title_en: 'Who’s Next Album Cover',
+    subtitle: 'John Kosh、Ethan Russell, 1971',
+    subtitle_en: 'John Kosh & Ethan Russell, 1971',
+    category: 'music' as const,
+    designer: 'John Kosh、Ethan Russell',
+    year: '1971',
+    tags: ['重塑摇滚视觉符号', '让封套成为宣言', '反叛姿态的图腾'],
+    tags_en: ['Reshaped Rock Visual Codes', 'Made the Sleeve a Manifesto', 'Icon of Defiant Attitude'],
+
+    dateConnection: `1971年8月14日，The Who 的《Who’s Next》在美国发行。专辑收录了〈Baba O’Riley〉、〈Behind Blue Eyes〉与〈Won’t Get Fooled Again〉；但在唱针落下之前，John Kosh 和摄影师 Ethan Russell 已经用一座混凝土立柱、矿渣堆和四个刚转身离开的身影，替它写下了一句不肯服从的视觉宣言。`,
+    designerBio: `John Kosh（1937—2015）是英国出生的艺术总监与封套设计师，曾为 Apple Corps 工作，也参与过 The Beatles《Abbey Road》与《Let It Be》等唱片的视觉制作。他擅长把音乐人的气质压缩成一个清晰、可被远距离识别的画面：不必说明一切，却要先制造态度。
+
+Ethan Russell（1945—）则是摇滚摄影最重要的见证者之一。他拍过 The Beatles、The Rolling Stones 与 The Who；他的照片并非把乐队摆成肖像，而是让人物、地点与一个偶然撞见的时刻一起变成叙事。为《Who’s Next》拍摄时，Russell 与乐队在英格兰北部矿区路边发现了那根突兀的混凝土立柱，Kosh 随后为画面加入了更具末世感的天空。`,
+    story: `封面里，Roger Daltrey、Pete Townshend、John Entwistle 和 Keith Moon 背对镜头，站在一根从矿渣堆里伸出的巨大混凝土立柱旁。画面暗示他们刚对它撒过尿。这个近乎孩子气的动作，正好把唱片的气质说透：面对一个威严、冰冷、看似不可撼动的东西，The Who 选择的不是敬礼，而是嘲弄。
+
+**这不是一张“乐队合影”，而是一场对权威符号的重新编排。** 立柱让人想到《2001: A Space Odyssey》里的黑色方碑，像技术、秩序或未来主义神话的遗物；但这里它不是供人膜拜的神物。四个乐队成员转身离开，把神圣感拉回粗粝、荒凉又带点恶作剧的现实。Russell 后来回忆，实际只有 Townshend 成功完成了动作，其余的痕迹来自倒下去的雨水；这层“认真制作一场不认真”的荒诞，也正是封面的灵魂。
+
+Kosh 没有把原始阴天照直接交稿，而是以戏剧性的云层替换天空。于是矿渣堆不再只是工业边角料，变成接近科幻废墟的舞台；人物也从四位摇滚明星变成刚刚完成一场无声挑衅的剪影。专辑原本来自 Townshend 未完成的科幻多媒体项目 *Lifehouse*，这张封面恰好没有解释那个世界观，却保留了它的冷峻、未来感与反抗姿态。
+
+本页使用的是 Ethan Russell 的封面原始摄影作品：直接呈现《Who’s Next》的立柱、矿渣堆、乐队与合成后的天空，不是唱片实物、展览现场或致敬图。`,
+    legacy: `• 把专辑封套从“歌手宣传照”推进为独立、可被解读的视觉作品
+• 以工业废墟与科幻方碑并置，塑造70年代摇滚最具辨识度的反权威图像之一
+• 证明摄影、后期与封套设计可以共同建立一张唱片的叙事入口
+• 让粗粝、幽默与末世感并存，影响后来的另类摇滚与概念专辑视觉语言
+• 长期入选经典唱片封面榜单，成为音乐图像文化的共同记忆`,
+    significance: `《Who’s Next》封面的厉害，不在于它有多“酷”，而在于它知道怎样让酷变成结构。Kosh 和 Russell 没有把乐队放在中央、让观众看清每一张脸；他们让人先看见一件无法忽略的东西，再看见四个已经不把它当回事的人。好的封面从不只是替音乐加一张脸，它会在听到第一首歌以前，就让你进入这张唱片反对什么、嘲笑什么、又准备冲向什么。`,
+
+    dateConnection_en: `On August 14, 1971, The Who released Who’s Next in the United States. Before a needle reached “Baba O’Riley,” “Behind Blue Eyes,” or “Won’t Get Fooled Again,” John Kosh and photographer Ethan Russell had already written a visual declaration for the record: a concrete pillar, a slag heap, and four figures turning away from an act of defiance.`,
+    designerBio_en: `John Kosh (1937–2015) was a British-born art director and sleeve designer who worked for Apple Corps and contributed to record visuals including The Beatles’ Abbey Road and Let It Be. His gift was reducing a musician’s character to a clear image that could be recognised from a distance: it did not need to explain everything, but it had to establish an attitude first.
+
+Ethan Russell (born 1945) is one of rock photography’s essential witnesses. He photographed The Beatles, the Rolling Stones, and the Who, but his images are not merely posed portraits. He lets people, place, and an accidental encounter become a story. For Who’s Next, Russell and the band found a strange concrete piling beside a northern English mining landscape; Kosh later gave the image its more apocalyptic sky.`,
+    story_en: `On the cover, Roger Daltrey, Pete Townshend, John Entwistle, and Keith Moon stand with their backs to us beside a huge concrete pillar emerging from a slag heap. The image suggests they have just urinated on it. That near-childish gesture states the record’s temperament with precision: in front of something stern, cold, and apparently immovable, the Who do not salute. They mock it.
+
+**This is not a band portrait. It is a re-staging of an authority symbol.** The pillar recalls the monolith in *2001: A Space Odyssey*—a relic of technology, order, or a mythic future—but here it is not an object of worship. The band turn away, grounding its sacred gravity in a bleak, rough, slightly mischievous reality. Russell later recalled that only Townshend actually managed the gesture; rainwater supplied the evidence for the others. That absurdity—carefully making something that refuses to be solemn—is central to the cover.
+
+Kosh did not simply deliver the original grey-day photograph. He replaced the sky with dramatic cloud, turning a mining by-product into a near-science-fiction stage. The men stop being four rock stars and become silhouettes leaving a silent provocation behind. The album emerged from Townshend’s unrealised multimedia science-fiction project *Lifehouse*; the cover does not explain its world, but it preserves its chill, futurism, and resistance.
+
+The image used here is Ethan Russell’s original cover photograph. It directly depicts the Who’s Next pillar, slag heap, band, and composited sky—not a physical record, exhibition shot, or tribute image.`,
+    legacy_en: `• Moved the record sleeve beyond artist promotion into an independent visual work open to interpretation
+• Made the pairing of industrial ruin and sci-fi monolith one of 1970s rock’s most recognisable anti-authority images
+• Demonstrated how photography, post-production, and sleeve design can jointly create an album’s narrative entrance
+• Let grit, humour, and apocalyptic atmosphere coexist, influencing later alternative rock and concept-album visuals
+• Endures on classic album-cover lists as a shared image in music culture`,
+    significance_en: `The force of Who’s Next is not simply that it looks cool. Kosh and Russell knew how to give cool a structure. They did not centre the band and ask us to inspect every face; they made us first confront an unmissable object, then notice four people who have already stopped treating it as important. A strong cover is not a face added to music. Before the first song begins, it lets us enter what an album resists, ridicules, and is ready to run toward.`,
+  },
 ]
