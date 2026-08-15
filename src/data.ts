@@ -11403,5 +11403,57 @@ The image used here is Ethan Russell’s original cover photograph. It directly 
 • Let grit, humour, and apocalyptic atmosphere coexist, influencing later alternative rock and concept-album visuals
 • Endures on classic album-cover lists as a shared image in music culture`,
     significance_en: `The force of Who’s Next is not simply that it looks cool. Kosh and Russell knew how to give cool a structure. They did not centre the band and ask us to inspect every face; they made us first confront an unmissable object, then notice four people who have already stopped treating it as important. A strong cover is not a face added to music. Before the first song begins, it lets us enter what an album resists, ridicules, and is ready to run toward.`,
+  },,
+
+  {
+    id: '356',
+    date: '2026-08-15',
+    imageUrl: '/the-daily-object/images/woodstock-poster.jpg',
+    fullImageUrl: '/the-daily-object/images/full/woodstock-poster.jpg',
+    title: 'Woodstock Music & Art Fair 海报',
+    title_en: 'Woodstock Music & Art Fair Poster',
+    subtitle: 'Arnold Skolnick, 1969',
+    subtitle_en: 'Arnold Skolnick, 1969',
+    category: 'graphic' as const,
+    designer: '阿诺德·斯科尔尼克',
+    year: '1969',
+    tags: ['和平运动视觉图腾', '重写音乐节海报', '反文化共同符号'],
+    tags_en: ['Icon of Peace Movement', 'Rewrote Festival Posters', 'Shared Counterculture Symbol'],
+
+    dateConnection: `1969年8月15日，Woodstock Music & Art Fair 在纽约州贝瑟尔开幕。就在这场后来被视为反文化分水岭的三日音乐节之前，平面设计师 Arnold Skolnick 为迁址后的活动赶制了这张海报：一只小鸟停在吉他上，下面写着“3 Days of Peace & Music”。它原本只需要完成一次宣传任务，却意外成为一个时代最持久的视觉符号。`,
+    designerBio: `Arnold Skolnick（1937—2022）是纽约出生的平面设计师。他不是以个人风格占据舞台的“明星设计师”，而更像一位擅长在紧迫限制中找出核心图像的视觉问题解决者。1969年，Woodstock 的原定场地临时变更，活动需要一张能迅速说明新地点、日期和气氛的宣传海报；经由 David Edward Byrd 的引荐，Skolnick 接下了这项工作。
+
+他从 Henri Matisse 的剪纸得到启发，先用彩纸剪出形状。最初他想让一只鸟站在长笛上，但觉得长笛更像爵士，于是把它换成吉他。这个微小决定让图像同时拥有音乐、轻盈与和平的联想；他后来也解释过，鸟并非刻意画成和平鸽，而是来自他在长岛素描过的 catbird。`,
+    story: `Woodstock 的海报没有堆叠乐队肖像，也没有把信息做成吵闹的清单。Skolnick 把整张画面压缩成几个几乎像儿童剪纸般简单的元素：红色底、蓝色吉他、白色小鸟、黄绿色草地，以及直白但有节奏的手写字。它先让人看见一个温柔、向上的画面，再把时间、地点与“和平和音乐”递给你。
+
+**它的高明之处，是让一个活动的价值观和识别系统变成同一件事。** 鸟没有被画成写实的动物，吉他也不是精细的器物；两者通过极简轮廓叠在一起，像一个可以被远距离认出的标记。鲜红与亮蓝形成强烈对比，白色文字在色块间保持清晰，于是海报既能在街上抓住视线，也能在复制、缩小和被记住时维持力量。
+
+活动从8月15日持续至18日，实际到场人数远超预期。后来，人们常把 Woodstock 记作音乐史与青年文化的象征；但这种记忆很大一部分正是由这张纸的视觉语言固定下来的。它没有描绘泥泞、人群或舞台，却让“和平、音乐、共同体”变成了一个人人都能复述的图像。
+
+本页采用 Wikimedia Commons 提供的海报原图文件。画面直接呈现 Skolnick 设计的红底、吉他、鸟与完整文字本体，不是音乐节现场、海报实物的拍摄照片，或后来衍生的致敬版本。`,
+    legacy: `• 用极少的图形元素建立了可跨语言识别的 Woodstock 视觉身份
+• 证明音乐节海报不必依赖明星肖像，也能传达情绪、立场与集体想象
+• 让剪纸般的平面语言进入大众文化，成为1960年代反文化最常被复述的图像之一
+• 将活动信息、品牌识别与价值主张压缩进同一个符号系统
+• 持续影响音乐节视觉、社会运动图形与“少而准”的传播设计`,
+    significance: `这张海报最值得设计师反复看的地方，是它没有把“和平”当成一句口号，而是让画面本身先显得和平。小鸟、吉他、草地与高饱和色块之间没有任何多余的解释，却能同时容纳音乐、理想主义和临时聚集的能量。Skolnick 解决的不是“怎样画一张好看的海报”，而是“怎样让陌生人一眼明白自己正被邀请加入什么”。当一个视觉符号能把信息与感受同时送达，它就会比活动本身活得更久。`,
+
+    dateConnection_en: `On August 15, 1969, the Woodstock Music & Art Fair opened in Bethel, New York. Just before the three-day festival that would become a countercultural landmark, graphic designer Arnold Skolnick made this poster for the event’s relocated site: a small bird perched on a guitar above the words “3 Days of Peace & Music.” It began as a practical piece of promotion and became one of an era’s most durable visual symbols.`,
+    designerBio_en: `Arnold Skolnick (1937–2022) was a New York–born graphic designer. Rather than a celebrity designer performing a signature style, he was a sharp visual problem-solver who could find the central image under pressure. In 1969, Woodstock changed venue late in its planning and needed a poster that could quickly communicate its new location, dates, and spirit. Recommended by David Edward Byrd, Skolnick took on the assignment.
+
+Inspired by Henri Matisse’s paper cut-outs, he began by cutting shapes from coloured paper. He first imagined a bird on a flute, then decided a flute suggested jazz and changed it to a guitar. That small choice gave the image music, lightness, and peace at once. Skolnick later noted that the bird was not deliberately a dove; it came from catbirds he had sketched on Long Island.`,
+    story_en: `The Woodstock poster does not pile up band portraits or turn information into a noisy list. Skolnick reduces the composition to a few nearly childlike cut-paper elements: a red field, blue guitar, white bird, yellow-green ground, and direct hand-lettered words. It first offers a gentle, upward-looking image, then delivers the dates, place, and “peace and music.”
+
+**Its intelligence is making an event’s values and its identity system the same thing.** The bird is not a naturalistic animal, and the guitar is not a detailed instrument. Their spare silhouettes lock together into a mark recognisable at a distance. Saturated red and bright blue create immediate contrast; white lettering remains clear across the colour fields. The result catches a passerby’s eye and retains its force in reproduction, reduction, and memory.
+
+The festival ran from August 15 to 18 and drew far more people than expected. Woodstock is now remembered as a symbol of music history and youth culture, but the poster helped fix that memory. It shows neither mud, crowd, nor stage, yet turns “peace, music, community” into an image almost anyone can recall.
+
+The image used here is an original-poster file provided through Wikimedia Commons. It directly presents Skolnick’s red field, guitar, bird, and complete lettering—not an event scene, a photograph of a physical poster, or a later tribute version.`,
+    legacy_en: `• Built a cross-language Woodstock identity from only a few graphic elements
+• Proved a festival poster could communicate mood, position, and collective imagination without celebrity portraits
+• Carried a cut-paper graphic language into mass culture and became one of the most repeated images of 1960s counterculture
+• Compressed event information, visual identity, and values into one symbolic system
+• Continues to influence festival graphics, social-movement imagery, and precise visual communication`,
+    significance_en: `What designers can keep returning to in this poster is that it does not treat peace as a slogan; the image feels peaceful before it says the word. Bird, guitar, ground, and saturated colour blocks need no surplus explanation, yet together hold music, idealism, and the energy of a temporary gathering. Skolnick was not simply asking how to make an attractive poster. He was asking how a stranger could immediately understand what they were being invited to join. When a visual sign delivers information and feeling at the same time, it can outlive the event it advertised.`,
   },
 ]
