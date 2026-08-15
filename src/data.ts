@@ -11403,7 +11403,7 @@ The image used here is Ethan Russell’s original cover photograph. It directly 
 • Let grit, humour, and apocalyptic atmosphere coexist, influencing later alternative rock and concept-album visuals
 • Endures on classic album-cover lists as a shared image in music culture`,
     significance_en: `The force of Who’s Next is not simply that it looks cool. Kosh and Russell knew how to give cool a structure. They did not centre the band and ask us to inspect every face; they made us first confront an unmissable object, then notice four people who have already stopped treating it as important. A strong cover is not a face added to music. Before the first song begins, it lets us enter what an album resists, ridicules, and is ready to run toward.`,
-  },,
+  },
 
   {
     id: '356',
