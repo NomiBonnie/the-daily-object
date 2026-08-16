@@ -11456,4 +11456,56 @@ The image used here is an original-poster file provided through Wikimedia Common
 • Continues to influence festival graphics, social-movement imagery, and precise visual communication`,
     significance_en: `What designers can keep returning to in this poster is that it does not treat peace as a slogan; the image feels peaceful before it says the word. Bird, guitar, ground, and saturated colour blocks need no surplus explanation, yet together hold music, idealism, and the energy of a temporary gathering. Skolnick was not simply asking how to make an attractive poster. He was asking how a stranger could immediately understand what they were being invited to join. When a visual sign delivers information and feeling at the same time, it can outlive the event it advertised.`,
   },
+  {
+    id: '357',
+    date: '2026-08-16',
+    imageUrl: '/the-daily-object/images/cyprus-flag.png',
+    fullImageUrl: '/the-daily-object/images/full/cyprus-flag.png',
+    title: '塞浦路斯国旗',
+    title_en: 'Flag of Cyprus',
+    subtitle: 'İsmet Güney, 1960',
+    subtitle_en: 'İsmet Güney, 1960',
+    category: 'graphic' as const,
+    designer: 'İsmet Güney（伊斯梅特·居内伊）',
+    year: '1960',
+    tags: ['和平国家符号', '拒绝阵营色彩', '地图入旗先例'],
+    tags_en: ['A National Symbol of Peace', 'Rejected Bloc Colours', 'Pioneered Map-on-Flag Design'],
+
+    dateConnection: `1960年8月16日，塞浦路斯共和国国旗正式启用。新独立国家没有沿用殖民旗帜，也没有选择希腊的十字或土耳其的新月；土耳其裔塞浦路斯艺术家 İsmet Güney 的方案，把岛屿轮廓、铜色和两枝橄榄枝放在白底上，试图让一面旗先说出和平。`,
+    designerBio: `İsmet Güney（1923—2009）是出生于利马索尔的土耳其裔塞浦路斯艺术家与教师。1960年，塞浦路斯即将结束英国殖民统治，新共和国需要一套不属于任何一方阵营的国家标识。宪制语境本身就为设计设下极不寻常的限制：旗帜不能使用蓝色或红色，也不能出现十字或新月——这些都是希腊与土耳其最强烈的视觉符号。
+
+Güney 参加了国旗征集。他没有用抽象纹样绕开冲突，而是把“塞浦路斯本身”置于中心：岛的地图以铜橙色浮在白底上，下面是两枝橄榄枝。方案由总统马卡里奥斯三世与副总统法齐尔·屈楚克选定，1960年8月16日随共和国成立而启用。`,
+    story: `多数国旗依靠条纹、星形、徽章或历史武器建立身份；塞浦路斯旗却做了一个大胆而朴素的选择：**把整个岛直接画在旗面上。** 铜橙色来自当地著名的铜矿，也呼应“Cyprus”一名常被联系到的铜；两枝橄榄枝则指向希腊裔与土耳其裔社区之间的和平愿望。白底不承担阵营色彩，给这些符号留出安静而清晰的空间。
+
+它的现代感来自克制。地图、枝叶与留白没有被做成复杂的纹章，色彩也只有白、铜橙与橄榄绿。远看时，岛的轮廓先被读到；近看时，枝叶才补上“和平”这层意义。这个信息顺序很像一套有效的视觉识别：先确认“我们是谁”，再说明“我们希望如何共同存在”。
+
+当然，设计并不能解决政治现实。1963年后两大社群发生分离与冲突，岛屿至今仍处于分治状态。这反而让这面旗值得被认真看待：它不是一张已经兑现的和平证明，而是一个把和平写进公共图像的承诺。2006年，官方微调了地图、枝叶、颜色和比例；但铜色岛屿、两枝橄榄枝和白色背景的核心关系始终未变。
+
+本页使用的是 Wikimedia Commons 的国旗原始矢量图导出文件，直接展示 Güney 设计的旗面本体：铜色塞浦路斯地图与两枝橄榄枝。不是飘扬中的游客照、纪念品、展览装置或氛围图，因此与标题、故事和 graphic 分类完全一致。`,
+    legacy: `• 以“中立限制”推动视觉创新，避开十字、新月与两大阵营的主导色彩
+• 让地理轮廓成为主识别，成为最著名的地图入旗国家符号之一
+• 用铜、橄榄枝和白底把资源、土地与和平组织成清晰的三色系统
+• 证明公共视觉身份可以不靠武器与权力象征，也能表达国家归属
+• 长期成为讨论分裂、和解与设计伦理时的重要案例`,
+    significance: `塞浦路斯国旗提醒我们，设计有时不是替一个已经稳定的身份“包装”，而是在分歧最尖锐的地方，为共同体提出一种可见的想象。Güney 没有用一个更强势的符号盖过另一方，而是把所有人共享的土地放到中央。它的历史并不浪漫，甚至因为现实未能完成它的愿望而更显沉重；但也正因此，这个简洁的旗面证明了视觉设计可以把价值观说得很明确：先看见共同拥有的东西，再谈彼此的差异。`,
+
+    dateConnection_en: `On August 16, 1960, the flag of the Republic of Cyprus was formally adopted. The new independent state neither retained a colonial ensign nor chose Greece’s cross or Turkey’s crescent. Turkish Cypriot artist İsmet Güney placed the island’s outline, copper colour, and two olive branches on a white field in an attempt to make a flag speak peace first.`,
+    designerBio_en: `İsmet Güney (1923–2009) was a Turkish Cypriot artist and teacher born in Limassol. In 1960, as Cyprus approached the end of British colonial rule, the new republic needed a national identity that did not belong to either community’s political camp. The constitutional setting created unusually direct design constraints: the flag could not use blue or red, and could not contain a cross or crescent—the strongest visual signs of Greece and Turkey.
+
+Güney entered the flag competition. Rather than avoiding conflict with an abstract motif, he put Cyprus itself at the centre: a copper-orange island map on white, with two olive branches below. President Makarios III and Vice President Fazıl Küçük selected the proposal, and it came into use with the republic on August 16, 1960.`,
+    story_en: `Most national flags build identity through stripes, stars, heraldry, or historic weapons. Cyprus made a bold and unusually direct choice: **it placed the entire island on the flag.** The copper-orange map refers to Cyprus’s celebrated copper deposits and to the commonly proposed connection between the island’s name and copper; the olive branches express a hope of peace between Greek and Turkish Cypriot communities. The white field carries no bloc colour, leaving those elements calm and legible.
+
+Its modernity comes from restraint. Map, branches, and negative space are not turned into elaborate heraldry; the palette contains only white, copper orange, and olive green. From a distance, the island outline reads first. Up close, the branches add the proposition of peace. That sequence resembles an effective identity system: establish who we are, then say how we hope to exist together.
+
+Design could not settle political reality. The communities separated amid violence after 1963, and the island remains divided. That makes this flag more—not less—worthy of attention. It is not proof that peace has been achieved, but a public image that makes a promise of peace. In 2006, the official design refined the map, branches, colours, and proportion; its essential relationship of copper island, olive branches, and white ground remained intact.
+
+The image used here is a direct export of the original flag vector file from Wikimedia Commons. It shows Güney’s flag itself—the copper Cyprus map and two olive branches—not a tourist photograph, souvenir, exhibition installation, or atmosphere shot. It therefore precisely matches the title, story, and graphic category.`,
+    legacy_en: `• Turned neutral restrictions into visual invention by avoiding crosses, crescents, and the dominant colours of both political camps
+• Made geography the primary identifier, becoming one of the best-known national symbols to place a map on a flag
+• Organised land, resource, and peace into a precise system of copper, olive, and white
+• Demonstrated that public visual identity can express belonging without weapons or symbols of power
+• Remains an essential case for discussions of division, reconciliation, and design ethics`,
+    significance_en: `The flag of Cyprus reminds us that design does not always package an identity that is already stable. Sometimes, at the point of sharpest disagreement, it proposes a visible imagination of community. Güney did not place a more forceful sign over another; he put the land everyone shares at the centre. Its history is not romantic, and its unfulfilled promise makes it more moving. This spare flag argues clearly for a design principle: see what is shared before rehearsing what divides us.`,
+  },
+
 ]
