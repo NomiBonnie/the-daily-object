@@ -11507,5 +11507,56 @@ The image used here is a direct export of the original flag vector file from Wik
 • Remains an essential case for discussions of division, reconciliation, and design ethics`,
     significance_en: `The flag of Cyprus reminds us that design does not always package an identity that is already stable. Sometimes, at the point of sharpest disagreement, it proposes a visible imagination of community. Güney did not place a more forceful sign over another; he put the land everyone shares at the centre. Its history is not romantic, and its unfulfilled promise makes it more moving. This spare flag argues clearly for a design principle: see what is shared before rehearsing what divides us.`,
   },
+  {
+    id: '358',
+    date: '2026-08-17',
+    imageUrl: '/the-daily-object/images/barcelona-pavilion.jpg',
+    fullImageUrl: '/the-daily-object/images/full/barcelona-pavilion.jpg',
+    title: 'Barcelona Pavilion',
+    title_en: 'Barcelona Pavilion',
+    subtitle: 'Ludwig Mies van der Rohe、Lilly Reich, 1929',
+    subtitle_en: 'Ludwig Mies van der Rohe & Lilly Reich, 1929',
+    category: 'architecture' as const,
+    designer: '路德维希·密斯·凡·德·罗、莉莉·赖希',
+    year: '1929',
+    tags: ['重写现代空间语法', '材料成为空间主角', '自由平面的原型'],
+    tags_en: ['Rewrote Modern Spatial Grammar', 'Made Material the Protagonist', 'Prototype of the Free Plan'],
+
+    dateConnection: `1969年8月17日，路德维希·密斯·凡·德·罗在芝加哥逝世。为纪念他，也要记住与他共同完成这座建筑的莉莉·赖希：1929年，两人为巴塞罗那国际博览会设计德国馆。它只存在了不到一年，却让一组墙、一片屋顶、几种石材与水面，永久改变了人们想象现代空间的方式。`,
+    designerBio: `路德维希·密斯·凡·德·罗（1886—1969）是现代建筑最具决定性的人物之一，也是包豪斯最后一任校长。他的钢、玻璃与极简结构，建立了后来被称为国际主义风格的一条主线；“less is more”则成了现代主义最常被引用、也最常被误解的一句话。
+
+莉莉·赖希（1885—1947）是德国室内、家具与展览设计师。她与密斯在1920年代建立创作伙伴关系，先后合作了丝绒与丝绸咖啡馆、玻璃空间，以及巴塞罗那德国馆。长期以来，建筑史往往把她写成背景人物；今天更准确的理解是：这座建筑是两人共同构想和完成的作品。`,
+    story: `巴塞罗那德国馆没有展览陈列、没有办公程序，也没有要被“装进去”的房间。它原本是魏玛共和国在1929年博览会上接待西班牙国王与贵宾的一处临时空间。正因为功能如此少，密斯与赖希反而能把所有注意力集中在一个问题上：**当墙不再只是围合房间，空间会如何流动？**
+
+答案是一组彼此错开的平面。浅色洞石基座托起一片仿佛悬浮的屋顶；十字形镀铬钢柱把承重退到背景；绿纹大理石、金色缟玛瑙、玻璃和水池不再只是饰面，而是用反射、透明与阻隔不断改变行走时的视线。人并非从门口“进入一个房间”，而是在墙、庭院、倒影与转角之间被慢慢引导。
+
+这也是 Barcelona Chair 出现的地方。赖希与密斯为馆内设计的座椅没有把空间塞满，而像少量精确摆放的停顿；材料、家具与建筑因此不是三套语言，而是一场连续的编排。德国馆在博览会结束后于1930年拆除，但其影像、图纸与记忆不断被建筑师学习，1986年才在原址重建。
+
+本页使用 ArchDaily 收录的专业建筑摄影：画面直接呈现建筑本体的低平屋顶、洞石、水池、玻璃与开放平面，没有游客、展览现场或氛围替代物。它展示的是这座建筑最重要的内容——空间如何由墙、材料、光与倒影共同生成。`,
+    legacy: `• 把“自由平面”从平面图概念变成可被身体感知的空间体验
+• 以钢、玻璃、洞石、玛瑙与水面证明极简并不等于贫乏
+• 让家具、展陈和建筑成为同一套空间系统，成为跨学科协作范本
+• 与 Barcelona Chair 一起，定义20世纪现代主义最易辨认的视觉语言之一
+• 虽为短命临时建筑，却通过照片、重建与教学影响了几代建筑师`,
+    significance: `Barcelona Pavilion 最锋利的地方，不是“少”，而是每一件东西都承担了不止一种工作：一面墙既挡住视线又制造下一次看见；一块石材既是表面又像一幅抽象画；水既扩展边界又让建筑在倒影中重组。它提醒设计师，克制从来不是删掉细节，而是让留下的每个细节都足够有力。`,
+
+    dateConnection_en: `Ludwig Mies van der Rohe died in Chicago on August 17, 1969. Remembering him also means remembering Lilly Reich, his collaborator on this work. In 1929, they designed the German Pavilion for the Barcelona International Exposition. It stood for less than a year, yet a few walls, one roof plane, rich materials, and water permanently changed how modern space could be imagined.`,
+    designerBio_en: `Ludwig Mies van der Rohe (1886–1969) was one of modern architecture’s defining figures and the last director of the Bauhaus. His work in steel, glass, and radical structural clarity established a central line of the International Style; “less is more” became modernism’s most quoted—and often misunderstood—phrase.
+
+Lilly Reich (1885–1947) was a German interior, furniture, and exhibition designer. She and Mies built a creative partnership in the 1920s, collaborating on the Velvet and Silk Café, the Glass Room, and the German Pavilion in Barcelona. Architectural histories too often placed her in the background. The more accurate account is that the Pavilion was conceived and made by both designers.`,
+    story_en: `The German Pavilion in Barcelona had no collection to display, no office programme, and no rooms that needed to be packed with function. It was a temporary place for the Weimar Republic to receive the Spanish king and other guests at the 1929 exposition. That sparseness allowed Mies and Reich to focus on a single question: **what happens when walls no longer simply enclose rooms?**
+
+Their answer was a sequence of offset planes. A pale travertine plinth carries a roof that appears to float; cruciform chrome columns push structure into the background; green marble, golden onyx, glass, and pools use reflection, transparency, and obstruction to continually alter one’s view. You do not merely enter a room. You are slowly directed among walls, courts, reflections, and turns.
+
+This is also where the Barcelona Chair appeared. Designed by Reich and Mies for the Pavilion, the chairs do not fill the room; they act as a few precisely placed pauses. Furniture, material, and architecture become one continuous composition. The Pavilion was dismantled after the exposition in 1930, but its images, drawings, and ideas continued to educate architects until it was reconstructed on the original site in 1986.
+
+The image used here is professional architectural photography published by ArchDaily. It directly shows the Pavilion itself—its low roof, travertine, pool, glass, and open planes—with no tourists, exhibition installation, or atmospheric substitute. It shows the building’s central proposition: space made together by walls, material, light, and reflection.`,
+    legacy_en: `• Turned the “free plan” from a drawing concept into a spatial experience felt by the body
+• Used steel, glass, travertine, onyx, and water to prove that minimal form need not mean visual poverty
+• Joined furniture, exhibition design, and architecture into one spatial system—a model for interdisciplinary collaboration
+• With the Barcelona Chair, defined one of twentieth-century modernism’s most recognisable visual languages
+• Though temporary, it shaped generations of architects through photographs, reconstruction, and teaching`,
+    significance_en: `Barcelona Pavilion is sharp not because it has little, but because each element does more than one job: a wall blocks a view and produces the next one; a stone surface becomes an abstract picture; water extends a boundary and remakes the building in reflection. Its lesson for designers is that restraint is not deleting detail. It is making every remaining detail strong enough to matter.`,
+  },
 
 ]
