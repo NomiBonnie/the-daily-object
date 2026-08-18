@@ -11559,4 +11559,55 @@ The image used here is professional architectural photography published by ArchD
     significance_en: `Barcelona Pavilion is sharp not because it has little, but because each element does more than one job: a wall blocks a view and produces the next one; a stone surface becomes an abstract picture; water extends a boundary and remakes the building in reflection. Its lesson for designers is that restraint is not deleting detail. It is making every remaining detail strong enough to matter.`,
   },
 
+  {
+    id: '359',
+    date: '2026-08-18',
+    imageUrl: '/the-daily-object/images/adidas-three-stripes-1949.jpg',
+    fullImageUrl: '/the-daily-object/images/full/adidas-three-stripes-1949.jpg',
+    title: 'adidas Three Stripes',
+    title_en: 'adidas Three Stripes',
+    subtitle: '阿迪·达斯勒, 1949',
+    subtitle_en: 'Adi Dassler, 1949',
+    category: 'fashion' as const,
+    designer: '阿迪·达斯勒',
+    year: '1949',
+    tags: ['运动品牌识别原型', '功能变成视觉语言', '横跨街头与赛场'],
+    tags_en: ['Prototype of Sports Branding', 'Turned Function into Visual Language', 'Crossed Street and Stadium'],
+
+    dateConnection: `1949年8月18日，49岁的阿迪·达斯勒在德国黑措根奥拉赫注册“Adolf Dassler adidas Sportschuhfabrik”。同一年，他把三道缝制条纹放上鞋侧。这原本是为了让运动鞋在赛场上更容易被认出来的处理，后来却成为世界上最容易辨认的视觉识别之一。`,
+    designerBio: `阿迪·达斯勒（1900—1978）不是从平面设计工作室走出来的品牌创始人。他先是一个反复试鞋、试钉和试材料的制鞋人。战后，他与兄弟鲁道夫分开经营，带着47名员工重新开始；前者建立 adidas，后者建立 Puma。达斯勒相信鞋不该只是商品，而要帮助运动员发挥得更好，因此长期把制鞋、测试和运动员反馈放在同一张工作台上。
+
+1949年注册新公司时，他需要一个能让鞋在比赛里被迅速辨认的标记。三条平行线被缝到鞋面两侧：它们压住鞋面、加强结构，也让鞋从远处拥有清楚的轮廓。达斯勒不是先画一个标志、再把它贴到产品上；三条纹是从产品构造里长出来的。`,
+    story: `今天看三条纹，容易把它当成一个理所当然的 logo。但在它诞生时，运动鞋的品牌识别还很少能像这样直接进入产品本体。达斯勒把三条窄带安排在鞋侧，鞋在奔跑中会露出重复、稳定的节奏；无论是黑色皮鞋配白条，还是白鞋配深色条，识别都不依赖复杂文字。它不需要被读懂，先被看见就够了。
+
+**这是一种把功能、识别和运动感压缩到同一笔里的设计。** 条纹能固定鞋面，也能在转播、照片和人群中把运动员的脚从背景里挑出来。它比胸前徽章更靠近动作发生的位置：起跑、急停、摆腿时，三条线随脚移动。品牌因此不是静止在包装上的签名，而是参与了产品的动态形态。
+
+这套语言后来不断扩展。1950年的 Samba 仍把条纹留在最醒目的鞋侧；1972年，为了让服装上的品牌更容易识别，adidas 推出三叶草标志。鞋、运动服、足球、跑道边的广告板和街头穿着共同把“三条”训练成一种视觉捷径。它跨过了竞技与日常的边界：人们不必看见完整品牌名，也能知道那双鞋或那件外套属于谁。
+
+本页采用 adidas 官方历史档案中的原始照片：阿迪·达斯勒正查看一双带有三条纹的足球鞋。画面直接呈现创始人、产品与鞋侧条纹的关系，不是零售陈列、游客照、展览现场或泛泛的运动氛围图，因此与作品、故事和 fashion 分类完全对应。`,
+    legacy: `• 把鞋面结构转化为可在运动中辨认的品牌语言
+• 证明产品本体可以先于包装和广告承担视觉识别
+• 用极简重复线条建立跨鞋类、服装与器材的统一系统
+• 让运动装备进入街头文化时仍保留清晰来源与秩序
+• 成为研究功能性细节如何积累成全球品牌资产的经典案例`,
+    significance: `三条纹的价值，不在于它有三根线，而在于达斯勒没有把“功能”和“品牌”当成两件事处理。一道结构线被重复三次，就能同时解决固定、识别、节奏和记忆。今天很多品牌先做一个醒目的图形，再努力把它塞进产品；adidas 的起点恰好相反：先让产品在运动里成立，标识便有了不可替代的位置。对设计师而言，这是一个很朴素也很难的提醒：真正耐用的视觉系统，往往不是附加在物件表面的装饰，而是物件为何长成这个样子的答案。`,
+
+    dateConnection_en: `On August 18, 1949, 49-year-old Adi Dassler registered “Adolf Dassler adidas Sportschuhfabrik” in Herzogenaurach, Germany. That same year, he put three sewn stripes on the sides of his shoes. What began as a way to make footwear recognisable on the field became one of the world’s most immediate visual identities.`,
+    designerBio_en: `Adi Dassler (1900–1978) did not come to branding through a graphic-design studio. He was a shoemaker who kept testing lasts, studs, materials, and prototypes. After the war, he separated from his brother Rudolf and began again with 47 employees; Adi built adidas, while Rudolf founded Puma. Dassler believed a shoe was not merely merchandise: it had to help an athlete perform.
+
+When he registered the new company in 1949, he needed a mark visible in competition. Three parallel strips were sewn onto the shoe’s sides. They supported the upper, strengthened its structure, and made its outline distinct at a distance. Dassler did not draw a logo and then apply it to a product. The Three Stripes grew out of the product’s construction.`,
+    story_en: `It is easy now to treat the Three Stripes as an inevitable logo. At their birth, however, few sports-shoe identities entered the object so directly. Dassler placed three narrow bands on the shoe’s side, creating a steady repeated rhythm visible while running. Whether white stripes appeared on black leather or dark stripes on a pale shoe, recognition did not rely on elaborate lettering. It did not need to be read; it simply needed to be seen.
+
+**This is a design that compresses function, identity, and motion into one gesture.** The bands reinforce the upper, but they also pull an athlete’s foot out of a crowd, photograph, or broadcast. Rather than sitting like a static signature on packaging, the mark moves with starts, stops, and swings of the leg.
+
+The language later expanded. The 1950 Samba retained the stripes at the shoe’s most visible side; in 1972, adidas introduced the Trefoil to make its apparel more recognisable. Shoes, tracksuits, footballs, advertising boards, and streetwear trained “three” into a visual shortcut. You no longer needed the full wordmark to know where a shoe or jacket came from.
+
+The image used here is an original photograph from the adidas official history archive. It directly shows Adi Dassler inspecting a football boot carrying the Three Stripes—not a retail display, tourist image, exhibition scene, or generic sports atmosphere. It precisely matches the work, story, and fashion category.`,
+    legacy_en: `• Turned shoe construction into a brand language recognisable in motion
+• Proved the product itself can carry identity before packaging or advertising does
+• Built one coherent system across footwear, apparel, and equipment with minimal repeated lines
+• Kept a clear origin and visual order as sportswear entered street culture
+• Became a classic case of functional detail accumulating into global brand equity`,
+    significance_en: `The Three Stripes matter not because there are three lines, but because Dassler did not separate function from brand. Repeating one structural line three times solved reinforcement, recognition, rhythm, and memory together. Many brands begin with a striking graphic and later try to force it onto products. adidas began the other way round: make the object work in motion, and the mark earns an irreplaceable place. Durable visual systems are often not decoration added to a surface; they are an answer to why an object takes the shape it does.`,
+  },
 ]
