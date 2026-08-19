@@ -11609,7 +11609,7 @@ The image used here is an original photograph from the adidas official history a
 • Kept a clear origin and visual order as sportswear entered street culture
 • Became a classic case of functional detail accumulating into global brand equity`,
     significance_en: `The Three Stripes matter not because there are three lines, but because Dassler did not separate function from brand. Repeating one structural line three times solved reinforcement, recognition, rhythm, and memory together. Many brands begin with a striking graphic and later try to force it onto products. adidas began the other way round: make the object work in motion, and the mark earns an irreplaceable place. Durable visual systems are often not decoration added to a surface; they are an answer to why an object takes the shape it does.`,
-  },,
+  },
 
   {
     id: '360',
