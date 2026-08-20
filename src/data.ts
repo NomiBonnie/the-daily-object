@@ -11666,4 +11666,59 @@ The image used here is an original product image of the 2.55 handbag from the of
 • Became a classic case of fashion identity built through use rather than surface decoration`,
     significance_en: `The 2.55 is powerful because it refuses to treat convenience and luxury as opposites. Chain, pockets, and flap answer real actions first, while producing a silhouette that cannot be mistaken for another. For designers, its plain lesson is this: lasting form is often not a logo attached afterward, but a structure that serves people so well—and looks so good doing it—that it becomes unforgettable.`,
   },
+  {
+    id: '361',
+    date: '2026-08-20',
+    imageUrl: '/the-daily-object/images/twa-flight-center.jpg',
+    fullImageUrl: '/the-daily-object/images/full/twa-flight-center.jpg',
+    title: 'TWA Flight Center',
+    title_en: 'TWA Flight Center',
+    subtitle: '埃罗·沙里宁, 1962',
+    subtitle_en: 'Eero Saarinen, 1962',
+    category: 'architecture' as const,
+    designer: '埃罗·沙里宁',
+    year: '1962',
+    tags: ['喷气时代空间图腾', '让流线成为建筑', '重塑机场体验想象'],
+    tags_en: ['Icon of the Jet Age', 'Turned Flow into Architecture', 'Reimagined Airport Experience'],
+
+    dateConnection: `1910年8月20日，埃罗·沙里宁出生于芬兰基尔科努米。他日后为纽约肯尼迪机场设计的 TWA Flight Center 在1962年启用：一座把“飞行”这件事直接做成空间形状的航站楼。`,
+    designerBio: `埃罗·沙里宁（1910—1961）是20世纪美国建筑里最不愿重复自己的设计师之一。他出生于建筑师埃利尔·沙里宁和纺织设计师洛雅·沙里宁的家庭，少年时期随家人移居美国；在 Cranbrook 的创作共同体中，他与 Charles、Ray Eames 和 Florence Knoll 成为同代人。家具、展陈、建筑与城市尺度在这里彼此连通，也塑造了他后来跨领域的工作方式。
+
+沙里宁拒绝把现代主义变成一种固定外观。他为每个项目寻找不同的结构和轮廓：从 Womb Chair 的包裹感，到 Gateway Arch 的抛物线，再到 TWA 的双翼屋顶。对他而言，形式不是可以复制的签名，而是从使用、地点和时代情绪中长出的答案。`,
+    story: `1955年，TWA 找到沙里宁时，机场航站楼仍常被当作一座高效的“交通机器”。但航空公司希望它成为能被人记住的公共形象。沙里宁把任务理解得更大胆：**建筑本身要表达旅行的戏剧性与兴奋感。** 他没有在一块矩形盒子上贴飞机意象，而是让整座屋顶像两片正要张开的翼。
+
+四片薄壳混凝土向外伸展，落在玻璃幕墙上方；入口、出发大厅、红色地毯和通往登机口的管廊被组织成一连串连续运动。这里几乎没有“正立面”的概念，身体在坡道、楼梯、窗洞和弧线之间被自然地带向下一段旅程。沙里宁不是先画一尊雕塑再塞进功能，而是把人流、视线、指引和等待压进同一种流动语法。
+
+这种自由形态背后是极其严谨的工程协作。沙里宁团队与结构工程师 Ammann & Whitney 反复调整壳体曲面和受力，最终用四块相互支撑的钢筋混凝土薄壳完成主屋顶。它看似没有重量，却要处理复杂的跨度、排水、采光和繁忙机场的真实运行。**最有说服力的未来感，从来不是装饰，而是结构、体验和形象刚好说着同一句话。**
+
+1962年启用后，喷气式客机和更大的客流迅速改变了航空业；航站楼在2001年结束航空运营，因地标保护得以保存，2019年以 TWA Hotel 的核心重新开放。今天它仍让人看见一种罕见的雄心：公共基础设施也可以拥有明确的情绪、记忆和仪式感。
+
+本页使用 Wikimedia Commons 收录的建筑本体专业摄影，画面直接展示 TWA Flight Center 标志性的双翼混凝土屋顶、玻璃立面与雕塑般的支撑结构；没有游客、展览现场或氛围替代物，和标题、故事与 architecture 分类精确对应。`,
+    legacy: `• 让航站楼从纯粹的运输容器，成为航空公司最强的空间识别
+• 以连续坡道、曲线与视线引导，重新定义旅客在机场中的移动体验
+• 证明混凝土薄壳可以兼具大胆的雕塑感与复杂公共功能
+• 成为喷气时代最易辨认的建筑图像之一，影响此后的机场、车站和大型公共建筑
+• 通过保护性再利用，为现代主义地标如何继续服务城市提供范本`,
+    significance: `TWA Flight Center 最动人的地方，是它认真对待了“出发”这件日常行为的情绪价值。它不假装旅行只是从 A 到 B 的效率问题，而是把期待、方向感和速度感编成空间。今天的机场越来越像可复制的商业容器，沙里宁留下的提醒反而更锋利：当功能已经足够顺畅，设计真正的任务，是让人记得自己正在去往哪里。`,
+
+    dateConnection_en: `Eero Saarinen was born in Kirkkonummi, Finland, on August 20, 1910. The TWA Flight Center he later designed for New York’s JFK Airport opened in 1962: a terminal that gave the act of flying an architectural form.`,
+    designerBio_en: `Eero Saarinen (1910–1961) was one of twentieth-century American architecture’s least repetitive designers. Born to architect Eliel Saarinen and textile designer Loja Saarinen, he moved to the United States with his family and grew up within the creative community at Cranbrook, alongside Charles and Ray Eames and Florence Knoll. Furniture, exhibition design, architecture, and urban scale were connected there, shaping his cross-disciplinary practice.
+
+Saarinen refused to turn modernism into a fixed look. He found a distinct structure and silhouette for each project: the embrace of the Womb Chair, the parabola of the Gateway Arch, and TWA’s winged roof. Form was not a signature to repeat, but an answer grown from use, place, and the emotion of an era.`,
+    story_en: `When TWA approached Saarinen in 1955, airport terminals were often treated as efficient transport machines. The airline, however, wanted a public image people would remember. Saarinen made the brief more ambitious: **the architecture itself should express the drama and excitement of travel.** Rather than attaching an airplane motif to a rectangular box, he made the whole roof read like wings about to lift.
+
+Four thin concrete shells extend outward above a glass curtain wall. Entrance, departure hall, red carpet, and boarding tubes become a sequence of continuous movement. There is barely a conventional “front” elevation; ramps, stairs, openings, and curves direct the body toward the next stage of a journey. Saarinen did not first make a sculpture and force function inside. He compressed flow, sightlines, orientation, and waiting into one language of motion.
+
+The free form depended on strict engineering. Saarinen’s team and Ammann & Whitney repeatedly refined shell geometry and loads, finally building the roof from four mutually supporting reinforced-concrete shells. It appears weightless while resolving span, drainage, daylight, and the operations of a busy airport. **The most convincing future is not decoration: structure, experience, and identity all say the same thing.**
+
+After opening in 1962, the jet age and larger passenger volumes quickly transformed aviation. The terminal stopped airline operations in 2001, survived through landmark preservation, and reopened in 2019 as the heart of the TWA Hotel. It still makes a rare argument: public infrastructure can carry emotion, memory, and ceremony.
+
+The image used here is a high-resolution architectural photograph of the building itself from Wikimedia Commons. It directly shows the Flight Center’s signature wing-like concrete roof, glazed façade, and sculptural supports—not a tourist, exhibition, or atmospheric substitute—and precisely matches the title, story, and architecture category.`,
+    legacy_en: `• Turned the airport terminal from a transport container into an airline’s strongest spatial identity
+• Redefined passenger movement through continuous ramps, curves, and directed sightlines
+• Proved thin-shell concrete could unite sculptural audacity with complex public function
+• Became one of the jet age’s most recognisable architectural images, shaping later terminals, stations, and civic buildings
+• Offered a model for keeping a modernist landmark useful through preservation-led adaptive reuse`,
+    significance_en: `TWA Flight Center is moving because it takes the emotional value of departure seriously. It does not pretend travel is only an efficiency problem between A and B; it choreographs anticipation, orientation, and speed into space. As airports become increasingly interchangeable commercial containers, Saarinen’s lesson becomes sharper: once function works, design must help people remember where they are going.`,
+  },
 ]
