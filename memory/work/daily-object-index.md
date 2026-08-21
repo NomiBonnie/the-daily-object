@@ -28,4 +28,4 @@ Last updated: 2026-08-21
 | 07-14 | Studebaker Avanti | Raymond Loewy | industrial |
 | 07-29 | The Starry Night | Vincent van Gogh | art |
 
-| 08-21 | Eames Lounge Chair and Ottoman | Charles & Ray Eames | industrial |
+| 08-21 | Revolt Chair | Friso Kramer | industrial |

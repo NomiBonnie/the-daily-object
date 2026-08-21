@@ -1,12 +1,12 @@
 # Daily Object 候选 08-21
 
-候选1: Eames Lounge Chair and Ottoman (1956) — 关联类型: 逝世
+候选1: Revolt Chair (1953) — 关联类型: 生日（Friso Kramer）
   知名度: 5/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 25/25
-候选2: Revolt Chair (1953) — 关联类型: 生日（Friso Kramer）
+候选2: Eames Lounge Chair and Ottoman (1956) — 关联类型: 逝世
   知名度: 3/5 | 图片: 4/5 | 故事: 4/5 | 视觉: 4/5 | 分类多样性: 5/5 | 时代加权: 0 | 总分: 20/25
 候选3: Venetian Blind (1841 patent) — 关联类型: 专利/历史事件
   知名度: 3/5 | 图片: 3/5 | 故事: 3/5 | 视觉: 2/5 | 分类多样性: 5/5 | 时代加权: -3 | 总分: 13/25
 候选4: Mona Lisa (1911 Louvre theft) — 关联类型: 历史事件
   知名度: 5/5 | 图片: 5/5 | 故事: 5/5 | 视觉: 5/5 | 分类多样性: 3/5 | 时代加权: -3 | 总分: 20/25
 
-→ 选择: 候选1（Ray Eames 于1988年8月21日逝世；作品为20世纪设计史最具辨识度的家具之一，拥有官方产品级图片与完整的材料、制造、舒适性故事。并与近三日 fashion / fashion / architecture 分类不同。）
+→ 选择: 候选1（Friso Kramer 于1922年8月21日出生；Revolt 是荷兰战后工业设计经典，图片直接、清晰且适合竖屏。并与近三日 fashion / fashion / architecture 分类不同。）

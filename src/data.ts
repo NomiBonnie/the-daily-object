@@ -11724,55 +11724,51 @@ The image used here is a high-resolution architectural photograph of the buildin
   {
     id: '362',
     date: '2026-08-21',
-    imageUrl: '/the-daily-object/images/eames-lounge-chair.jpg',
-    fullImageUrl: '/the-daily-object/images/full/eames-lounge-chair.jpg',
-    title: 'Eames Lounge Chair and Ottoman',
-    title_en: 'Eames Lounge Chair and Ottoman',
-    subtitle: '查尔斯与蕾·伊姆斯, 1956',
-    subtitle_en: 'Charles & Ray Eames, 1956',
+    imageUrl: '/the-daily-object/images/revolt-chair.jpg',
+    fullImageUrl: '/the-daily-object/images/full/revolt-chair.jpg',
+    title: 'Revolt Chair',
+    title_en: 'Revolt Chair',
+    subtitle: '弗里索·克拉默, 1953',
+    subtitle_en: 'Friso Kramer, 1953',
     category: 'industrial' as const,
-    designer: '查尔斯与蕾·伊姆斯',
-    year: '1956',
-    tags: ['定义现代休闲座椅', '胶合板工艺典范', '把舒适做成经典'],
-    tags_en: ['Defined Modern Lounge Seating', 'Molded Plywood Benchmark', 'Made Comfort an Icon'],
-    dateConnection: `1988年8月21日，蕾·伊姆斯在加州去世，恰好是查尔斯去世十年后的同一天。纪念这位常被低估的共同作者，最合适的是回到他们在1956年共同推出的 Lounge Chair and Ottoman：一件把工业化、木材、皮革与身体感受拧成同一个轮廓的家具。`,
-    designerBio: `查尔斯·伊姆斯（1907—1978）与蕾·伊姆斯（1912—1988）是20世纪最具影响力的设计搭档之一。他们的工作横跨家具、建筑、展览、电影、摄影、玩具与教育，却始终追问同一个问题：怎样让复杂技术真正服务于日常生活。
+    designer: '弗里索·克拉默',
+    year: '1953',
+    tags: ['荷兰工业设计先驱', '轻量化量产家具', '定义战后工作空间'],
+    tags_en: ['Pioneer of Dutch Industrial Design', 'Lightweight Mass Furniture', 'Defined Postwar Workspaces'],
+    dateConnection: `1922年8月21日，弗里索·克拉默出生于阿姆斯特丹。31年后，他为 Ahrend de Cirkel 设计 Revolt Chair：一把用最少材料承担最大日常使用强度的椅子，也成为荷兰战后工业设计的标志。`,
+    designerBio: `弗里索·克拉默（1922—2019）是荷兰工业设计的关键人物。他既继承了父亲、表现主义建筑师彼得·克拉默对形式的敏感，也把战后时代对生产效率、公共教育和办公环境的需求带进设计。他1948年加入钢制家具制造商 De Cirkel，后来共同创建了具有影响力的 Total Design。
 
-1941年结婚后，两人在洛杉矶建立 Eames Office。二战期间，他们为美国海军开发模压胶合板夹板和部件，掌握了热压成型的技术语言。战后，这种原本为规模化制造而发展的工艺，被他们带回家庭家具：不是为了炫耀效率，而是为了让家具更轻、更舒适、更耐用。`,
-    story: `1956年，Herman Miller 推出 Eames Lounge Chair and Ottoman。伊姆斯夫妇想做一把接近“旧棒球手套”的休闲椅：柔软、包裹、越用越有人的痕迹，却不能显得笨重或怀旧。
+克拉默的原则近乎苛刻：如果形式没有帮助功能，它就没有存在的权利。但这并不等于枯燥。他的作品把结构、坐姿、材料和制造压缩得很干净，留下的线条因此格外有力量。`,
+    story: `1953年，Revolt Chair 出现时，学校、办公室和家庭都需要比传统木椅更轻、更坚固、更容易大量生产的座椅。克拉默没有用装饰去制造现代感，而是从一条折弯钢板骨架出发：细而有弹性的承力结构托住座面和靠背，像一笔连续的线，把椅子的力学直接画在外面。
 
-它看上去放松，结构却非常理性。椅背、座面和头枕由三片模压胶合板壳组成；皮革靠垫独立安装在壳体上；旋转铸铝底座把厚重感从地面抽走；脚凳与座椅共享同一种弯曲语言。它没有用巨大软垫伪造舒适，而是把承托、倾角、材料弹性和坐姿逐层分开，再重新合成一件物品。
+**Revolt 的革命不在于看起来像机器，而在于它让制造逻辑变得可见又可亲近。** 钢板冲压、折弯和标准化部件使它能被批量制造；木质或塑料的座背面保留触感；轻量结构让人可以轻易搬动它，却没有把椅子做成一次性的廉价物。它像是战后社会的一种承诺：好的公共用品也应该有清晰、体面且持久的形式。
 
-**它最聪明的地方，是把奢华做成可被生产和维修的系统。** 两个背部胶合板面板相同，椅座与脚凳的壳体也相同。有限部件反复使用，降低制造复杂度；高级木皮与皮革则保留触觉和温度。工业方法不必抹平个性，它也能精确地安排温暖。
+Ahrend 后来让它进入学校、办公空间与日常生活。它与克拉默1958年的 Result Chair 一起，建立了一种极简但不冷漠的荷兰办公家具语言。今天再看 Revolt，仍能看到一个极具当代性的答案：少用材料，不是为了把物件做得贫乏，而是为了让每一份材料都承担恰当的工作。
 
-作品1956年在 NBC 节目《Home》亮相，1960年进入 MoMA 永久收藏，并持续生产至今。七十年后，人们依然能从侧面认出三片木壳、深色皮革和五爪底座。大量仿制品恰好说明：它的轮廓已成为现代家庭关于“好设计”的共同记忆。
+本页采用 Wikimedia Commons 收录的作品本体摄影，直接展示1953年 Revolt Chair 的完整形态、折弯钢制框架与座背结构。画面没有人物、游客或泛泛的室内氛围替代物；它就是本文讨论的作品，和标题、故事与 industrial 分类精确一致。`,
+    legacy: `• 以折弯钢板结构推动荷兰战后家具的轻量化与量产化
+• 证明公共和办公家具能够同时具备耐用、舒适与明确的形式感
+• 让结构成为视觉语言，而非藏在外壳之后的工程细节
+• 与 Result Chair 共同塑造荷兰现代工作空间的日常图像
+• 成为研究“少即够用”如何落实到材料和制造的经典案例`,
+    significance: `Revolt Chair 的锋利之处，是它没有把简化当成风格口号。每一道折弯都同时回应受力、生产和人的动作；因此它看起来轻，却不单薄。它提醒设计师：真正耐看的极简，不是删到什么都没有，而是让任何一个多余部件都找不到存在的理由。`,
+    dateConnection_en: `Friso Kramer was born in Amsterdam on August 21, 1922. Thirty-one years later, he designed the Revolt Chair for Ahrend de Cirkel: a chair that used minimal material for maximal daily use, and became an emblem of postwar Dutch industrial design.`,
+    designerBio_en: `Friso Kramer (1922–2019) was a pivotal Dutch industrial designer. He inherited a sensitivity to form from his father, Expressionist architect Piet Kramer, while bringing postwar needs for efficient production, public education, and workplaces into his practice. He joined steel-furniture maker De Cirkel in 1948 and later co-founded the influential Total Design.
 
-本页采用 Wikimedia Commons 收录的作品本体摄影，直接呈现 Model 670 的侧面、模压木壳、皮革靠垫与铝制底座；没有人物、游客、展览现场或泛泛的室内氛围替代物，与标题、故事和 industrial 分类精确对应。`,
-    legacy: `• 把模压胶合板推进到现代休闲座椅的高端表达
-• 证明标准化部件可以保留材料质感与舒适
-• 建立三片木壳、皮革靠垫和旋转底座的现代家具视觉基准
-• 持续生产并进入 MoMA 收藏，经受制造、使用与时间的检验
-• 让舒适从“填满软垫”变成身体、结构与材料的精确编排`,
-    significance: `Eames Lounge Chair 的影响力不只在于昂贵或舒适。它把两种常被对立的想象放在一起：工业化可以有温度，奢华也可以有结构。它仍是一个难以超越的标准：先把使用、制造和维修想清楚，再让每一道曲线像是唯一合理的答案。`,
-    dateConnection_en: `Ray Eames died in California on August 21, 1988—exactly ten years after Charles Eames died on the same date. Remembering this often-undercredited co-author means returning to the Lounge Chair and Ottoman they introduced together in 1956: furniture that twists industry, wood, leather, and bodily comfort into one unmistakable silhouette.`,
-    designerBio_en: `Charles Eames (1907–1978) and Ray Eames (1912–1988) were among the twentieth century’s most influential design partners. Their work crossed furniture, architecture, exhibitions, film, photography, toys, and education, always asking how complex technology could serve ordinary life.
+Kramer’s principle was demanding: if form does not contribute to function, it has no right to exist. That did not make his work dry. Structure, posture, material, and manufacture are compressed so clearly that the remaining lines gain force.`,
+    story_en: `When the Revolt Chair appeared in 1953, schools, offices, and homes needed seating lighter, tougher, and more repeatable than the traditional wooden chair. Kramer did not add decoration to make it modern. He began with a folded sheet-steel frame: a thin, springy load-bearing structure supporting seat and back, like one continuous line drawing the chair’s mechanics in public.
 
-After marrying in 1941, they established the Eames Office in Los Angeles. During World War II, they developed molded-plywood splints and components for the U.S. Navy, learning a language of heat, pressure, and form. After the war, they brought that technology back to domestic furniture—not to celebrate efficiency for its own sake, but to make things lighter, more comfortable, and more durable.`,
-    story_en: `In 1956, Herman Miller introduced the Eames Lounge Chair and Ottoman. The Eameses wanted something like a well-worn baseball mitt: soft, embracing, and increasingly personal with use, without becoming bulky or nostalgic.
+**Revolt’s revolution is not that it looks machine-made, but that it makes manufacturing logic visible and humane.** Stamped and folded steel with standardized parts enabled volume production; wood or plastic seat and back retained tactility; its light structure made it easy to move without making it disposable. It offered a postwar promise: public objects could be clear, dignified, and durable.
 
-Its relaxed form rests on a rational structure. Back, seat, and headrest are three molded-plywood shells; leather cushions are separately mounted; a swiveling cast-aluminum base lifts visual weight away from the floor; and the ottoman repeats the chair’s curve. Rather than faking comfort with one enormous cushion, the design separates support, angle, material spring, and the sitting body—then recomposes them into one object.
+Ahrend brought it into schools, offices, and daily life. With Kramer’s 1958 Result Chair, it established a Dutch workplace language that was minimal without being cold. Revolt still offers a contemporary lesson: using less material does not impoverish an object; it makes every bit of material answer for its work.
 
-**Its sharpest achievement is making luxury into a system that can be produced and serviced.** The two back plywood panels are identical, as are the chair-seat and ottoman shells. A small set of repeated parts reduces manufacturing complexity; premium veneers and leather retain tactility and warmth. Industrial method does not have to erase character. It can precisely arrange it.
-
-The chair debuted on NBC’s *Home* in 1956, joined MoMA’s permanent collection in 1960, and remains in production. More than seventy years later, its three wood shells, dark leather, and five-star base remain legible from the side. Its many imitations tell the same story: the outline has become a shared image of modern domestic design.
-
-The image used here is a direct Wikimedia Commons photograph of the object. It shows the Model 670’s side profile, molded wood shells, leather cushions, and aluminum base—not people, tourists, an exhibition scene, or a generic interior substitute. It precisely matches the title, story, and industrial category.`,
-    legacy_en: `• Carried molded plywood into a high-end expression of modern lounge seating
-• Proved repeatable parts can preserve material richness and comfort
-• Set a visual benchmark of three wood shells, leather cushions, and a swivel base
-• Its continuous production and MoMA collection test the design through manufacture, use, and time
-• Recast comfort as a precise arrangement of body, structure, and material`,
-    significance_en: `The Eames Lounge Chair matters for more than looking expensive or feeling comfortable. It puts two supposedly opposing ideas into one object: industry can have warmth, and luxury can have structure. It remains a demanding benchmark: solve use, manufacture, and maintenance first, then make every curve feel inevitable.`,
+The image used here is a direct Wikimedia Commons photograph of the 1953 Revolt Chair. It shows its complete form, folded steel frame, and seat-back construction—not people, tourists, or a generic interior substitute. It is precisely the object discussed here and matches the title, story, and industrial category.`,
+    legacy_en: `• Advanced lightweight, mass-producible postwar Dutch furniture through a folded-steel structure
+• Proved public and office seating can unite durability, comfort, and clear form
+• Made structure a visual language instead of an engineering detail hidden under a shell
+• Helped define the everyday image of the modern Dutch workplace with the Result Chair
+• Became a classic lesson in translating “just enough” into material and manufacturing decisions`,
+    significance_en: `Revolt Chair is sharp because it never treats reduction as a style slogan. Each bend answers load, production, and human movement; it looks light without becoming thin. It reminds designers that convincing minimalism is not deleting everything, but leaving no extra part with a reason to exist.`,
   },
 
 ]
