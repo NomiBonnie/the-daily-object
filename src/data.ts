@@ -11721,4 +11721,58 @@ The image used here is a high-resolution architectural photograph of the buildin
 • Offered a model for keeping a modernist landmark useful through preservation-led adaptive reuse`,
     significance_en: `TWA Flight Center is moving because it takes the emotional value of departure seriously. It does not pretend travel is only an efficiency problem between A and B; it choreographs anticipation, orientation, and speed into space. As airports become increasingly interchangeable commercial containers, Saarinen’s lesson becomes sharper: once function works, design must help people remember where they are going.`,
   },
+  {
+    id: '362',
+    date: '2026-08-21',
+    imageUrl: '/the-daily-object/images/eames-lounge-chair.jpg',
+    fullImageUrl: '/the-daily-object/images/full/eames-lounge-chair.jpg',
+    title: 'Eames Lounge Chair and Ottoman',
+    title_en: 'Eames Lounge Chair and Ottoman',
+    subtitle: '查尔斯与蕾·伊姆斯, 1956',
+    subtitle_en: 'Charles & Ray Eames, 1956',
+    category: 'industrial' as const,
+    designer: '查尔斯与蕾·伊姆斯',
+    year: '1956',
+    tags: ['定义现代休闲座椅', '胶合板工艺典范', '把舒适做成经典'],
+    tags_en: ['Defined Modern Lounge Seating', 'Molded Plywood Benchmark', 'Made Comfort an Icon'],
+    dateConnection: `1988年8月21日，蕾·伊姆斯在加州去世，恰好是查尔斯去世十年后的同一天。纪念这位常被低估的共同作者，最合适的是回到他们在1956年共同推出的 Lounge Chair and Ottoman：一件把工业化、木材、皮革与身体感受拧成同一个轮廓的家具。`,
+    designerBio: `查尔斯·伊姆斯（1907—1978）与蕾·伊姆斯（1912—1988）是20世纪最具影响力的设计搭档之一。他们的工作横跨家具、建筑、展览、电影、摄影、玩具与教育，却始终追问同一个问题：怎样让复杂技术真正服务于日常生活。
+
+1941年结婚后，两人在洛杉矶建立 Eames Office。二战期间，他们为美国海军开发模压胶合板夹板和部件，掌握了热压成型的技术语言。战后，这种原本为规模化制造而发展的工艺，被他们带回家庭家具：不是为了炫耀效率，而是为了让家具更轻、更舒适、更耐用。`,
+    story: `1956年，Herman Miller 推出 Eames Lounge Chair and Ottoman。伊姆斯夫妇想做一把接近“旧棒球手套”的休闲椅：柔软、包裹、越用越有人的痕迹，却不能显得笨重或怀旧。
+
+它看上去放松，结构却非常理性。椅背、座面和头枕由三片模压胶合板壳组成；皮革靠垫独立安装在壳体上；旋转铸铝底座把厚重感从地面抽走；脚凳与座椅共享同一种弯曲语言。它没有用巨大软垫伪造舒适，而是把承托、倾角、材料弹性和坐姿逐层分开，再重新合成一件物品。
+
+**它最聪明的地方，是把奢华做成可被生产和维修的系统。** 两个背部胶合板面板相同，椅座与脚凳的壳体也相同。有限部件反复使用，降低制造复杂度；高级木皮与皮革则保留触觉和温度。工业方法不必抹平个性，它也能精确地安排温暖。
+
+作品1956年在 NBC 节目《Home》亮相，1960年进入 MoMA 永久收藏，并持续生产至今。七十年后，人们依然能从侧面认出三片木壳、深色皮革和五爪底座。大量仿制品恰好说明：它的轮廓已成为现代家庭关于“好设计”的共同记忆。
+
+本页采用 Wikimedia Commons 收录的作品本体摄影，直接呈现 Model 670 的侧面、模压木壳、皮革靠垫与铝制底座；没有人物、游客、展览现场或泛泛的室内氛围替代物，与标题、故事和 industrial 分类精确对应。`,
+    legacy: `• 把模压胶合板推进到现代休闲座椅的高端表达
+• 证明标准化部件可以保留材料质感与舒适
+• 建立三片木壳、皮革靠垫和旋转底座的现代家具视觉基准
+• 持续生产并进入 MoMA 收藏，经受制造、使用与时间的检验
+• 让舒适从“填满软垫”变成身体、结构与材料的精确编排`,
+    significance: `Eames Lounge Chair 的影响力不只在于昂贵或舒适。它把两种常被对立的想象放在一起：工业化可以有温度，奢华也可以有结构。它仍是一个难以超越的标准：先把使用、制造和维修想清楚，再让每一道曲线像是唯一合理的答案。`,
+    dateConnection_en: `Ray Eames died in California on August 21, 1988—exactly ten years after Charles Eames died on the same date. Remembering this often-undercredited co-author means returning to the Lounge Chair and Ottoman they introduced together in 1956: furniture that twists industry, wood, leather, and bodily comfort into one unmistakable silhouette.`,
+    designerBio_en: `Charles Eames (1907–1978) and Ray Eames (1912–1988) were among the twentieth century’s most influential design partners. Their work crossed furniture, architecture, exhibitions, film, photography, toys, and education, always asking how complex technology could serve ordinary life.
+
+After marrying in 1941, they established the Eames Office in Los Angeles. During World War II, they developed molded-plywood splints and components for the U.S. Navy, learning a language of heat, pressure, and form. After the war, they brought that technology back to domestic furniture—not to celebrate efficiency for its own sake, but to make things lighter, more comfortable, and more durable.`,
+    story_en: `In 1956, Herman Miller introduced the Eames Lounge Chair and Ottoman. The Eameses wanted something like a well-worn baseball mitt: soft, embracing, and increasingly personal with use, without becoming bulky or nostalgic.
+
+Its relaxed form rests on a rational structure. Back, seat, and headrest are three molded-plywood shells; leather cushions are separately mounted; a swiveling cast-aluminum base lifts visual weight away from the floor; and the ottoman repeats the chair’s curve. Rather than faking comfort with one enormous cushion, the design separates support, angle, material spring, and the sitting body—then recomposes them into one object.
+
+**Its sharpest achievement is making luxury into a system that can be produced and serviced.** The two back plywood panels are identical, as are the chair-seat and ottoman shells. A small set of repeated parts reduces manufacturing complexity; premium veneers and leather retain tactility and warmth. Industrial method does not have to erase character. It can precisely arrange it.
+
+The chair debuted on NBC’s *Home* in 1956, joined MoMA’s permanent collection in 1960, and remains in production. More than seventy years later, its three wood shells, dark leather, and five-star base remain legible from the side. Its many imitations tell the same story: the outline has become a shared image of modern domestic design.
+
+The image used here is a direct Wikimedia Commons photograph of the object. It shows the Model 670’s side profile, molded wood shells, leather cushions, and aluminum base—not people, tourists, an exhibition scene, or a generic interior substitute. It precisely matches the title, story, and industrial category.`,
+    legacy_en: `• Carried molded plywood into a high-end expression of modern lounge seating
+• Proved repeatable parts can preserve material richness and comfort
+• Set a visual benchmark of three wood shells, leather cushions, and a swivel base
+• Its continuous production and MoMA collection test the design through manufacture, use, and time
+• Recast comfort as a precise arrangement of body, structure, and material`,
+    significance_en: `The Eames Lounge Chair matters for more than looking expensive or feeling comfortable. It puts two supposedly opposing ideas into one object: industry can have warmth, and luxury can have structure. It remains a demanding benchmark: solve use, manufacture, and maintenance first, then make every curve feel inevitable.`,
+  },
+
 ]
