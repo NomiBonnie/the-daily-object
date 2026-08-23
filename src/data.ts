@@ -11822,4 +11822,56 @@ The image used here is a direct photograph of a 1959 Cadillac Eldorado Biarritz 
     significance_en: `The 1959 Eldorado Biarritz matters not because it added more chrome, but because it made an era’s state of mind tangible. It is bold almost to the point of absurdity, yet never ambiguous: every rising line says the future should be faster, brighter, and bigger. Car design today is more restrained and efficient, but this car still reminds us that form can do more than solve a problem. It can sketch a society’s dream before that society has fully named it.`,
   },
 
+
+  {
+    id: '364',
+    date: '2026-08-23',
+    imageUrl: '/the-daily-object/images/worldwideweb-browser.png',
+    fullImageUrl: '/the-daily-object/images/full/worldwideweb-browser.png',
+    title: 'WorldWideWeb 浏览器',
+    title_en: 'WorldWideWeb Browser',
+    subtitle: '蒂姆·伯纳斯-李, 1990',
+    subtitle_en: 'Tim Berners-Lee, 1990',
+    category: 'software' as const,
+    designer: '蒂姆·伯纳斯-李',
+    year: '1990',
+    tags: ['开启信息民主化', '定义超链接交互', '奠定网页界面原型'],
+    tags_en: ['Opened Information Access', 'Defined Hyperlink Interaction', 'Prototyped the Web Interface'],
+
+    dateConnection: `1991年8月23日，CERN 向公众开放 World Wide Web。这一天，人们第一次可以不属于 CERN、也不在同一台机器上，通过超链接进入同一个不断扩张的信息空间。WorldWideWeb 是蒂姆·伯纳斯-李此前在 NeXT 电脑上写出的第一款网页浏览器，也是第一款网页编辑器。`,
+    designerBio: `蒂姆·伯纳斯-李（1955—）在 CERN 工作时，面对的是一个典型的信息设计难题：来自不同机构、不同电脑系统的研究者，拥有大量文档，却很难知道彼此的资料在哪里，更别说顺着一条线索继续往下读。1989年，他提出以超文本连接分散信息的方案；随后定义 URL、HTTP 和 HTML，并在 NeXT 工作站上把这些标准做成可以实际使用的界面。
+
+他设计的不是一件孤立的软件产品，而是一套刻意保持开放的公共基础设施。任何人都能建立服务器、写页面、放链接；系统不要求用户先向某个平台申请入口。这个决定让 Web 的视觉语言、知识结构和参与方式，能被无数后来者共同塑造。`,
+    story: `WorldWideWeb 的界面今天看起来近乎朴素：一扇灰色窗口、文本、链接、菜单和可编辑的页面。但它已经把 Web 最重要的几件事放到了同一个工作台上。蓝色下划线不是装饰，而是一个可行动的承诺：点下去，眼前的文档会通往另一份文档。读者不再沿着作者预设的线性顺序翻页，而可以自己选择下一步。
+
+**最激进的部分，是它同时把“浏览”和“创作”交给了用户。** WorldWideWeb 不只是用来消费内容的 viewer；用户也能直接编辑页面、建立链接、发布自己的信息。后来浏览器和网页编辑器分成了不同工具，但这个最初的界面已经把 Web 的核心伦理写得很清楚：每个人既可以是读者，也可以成为节点。
+
+1991年8月23日，CERN 将 Web 向外部世界开放。开放的并不是某个精致完成的商品，而是一种信息架构：地址可以被引用，页面可以被连接，新的内容可以不经中心审批地出现。它随后长成搜索、博客、新闻站、社交网络、在线协作和今天几乎所有互联网服务共同的底层画布。
+
+本页采用 Wikimedia Commons 保存的 WorldWideWeb 原始界面截图。图中展示的正是 NeXTStep 上的浏览器窗口、文本链接与编辑命令，不是电脑实拍、复古设备摆拍或泛科技氛围图；它与标题、故事和 software 分类精确对应。`,
+    legacy: `• 以超链接把分散文档转化为可导航的信息网络
+• 将浏览与编辑并置，确立 Web 早期的参与式理想
+• 为 URL、HTTP、HTML 三项开放标准提供第一个完整的用户界面
+• 让信息架构从目录式检索转向可自由跳转的关联阅读
+• 奠定后续浏览器、网页、搜索与在线创作工具的交互原型`,
+    significance: `WorldWideWeb 最值得设计师重看的地方，是它没有用复杂外观来宣告创新。它把最强的能力藏在一条可点击的文字里：链接既是视觉元素，也是行动入口；界面既呈现内容，也改变内容的流向。好的交互设计常常如此——它不需要替用户解释世界，而是让用户获得一条自己走进去的路。`,
+
+    dateConnection_en: `On August 23, 1991, CERN opened the World Wide Web to the public. For the first time, people outside CERN—and outside a single computer—could enter one expanding information space through hyperlinks. WorldWideWeb was the first web browser, and also the first web editor, written by Tim Berners-Lee on a NeXT computer.`,
+    designerBio_en: `While working at CERN, Tim Berners-Lee (born 1955) faced a classic information-design problem: researchers across institutions and computer systems held abundant documents but struggled to find one another’s work, let alone follow a thread from one source to the next. In 1989, he proposed linking dispersed information through hypertext. He then defined URL, HTTP, and HTML, and made them usable through an interface on a NeXT workstation.
+
+He was not designing an isolated software product, but deliberately open public infrastructure. Anyone could run a server, write a page, and make a link; no central platform had to grant access first. That choice allowed the Web’s visual language, knowledge structures, and forms of participation to be shaped by countless later users.`,
+    story_en: `WorldWideWeb now looks almost austere: a grey window, text, links, menus, and editable pages. Yet it placed the Web’s most important ideas on one workbench. An underlined link was not decoration but a promise of action: click it, and the document in front of you leads to another. Readers no longer had to turn pages in an author’s fixed order; they could choose their own next step.
+
+**Its most radical feature was giving users both browsing and authorship.** WorldWideWeb was not merely a viewer for consuming content. Users could edit pages, create links, and publish information directly. Browsers and authoring tools later split apart, but this first interface made the Web’s founding ethic clear: everyone can be both reader and node.
+
+On August 23, 1991, CERN opened the Web to the outside world. What opened was not a polished consumer product but an information architecture: addresses could be cited, pages could connect, and new material could appear without central approval. It grew into the common substrate beneath search, blogs, news sites, social networks, online collaboration, and almost every internet service now familiar to us.
+
+The image used here is an original WorldWideWeb interface screenshot preserved on Wikimedia Commons. It shows the NeXTStep browser window, text links, and editing commands discussed here—not a computer photograph, retro-device staging, or generic technology mood image. It precisely matches the title, story, and software category.`,
+    legacy_en: `• Turned scattered documents into a navigable information network through hyperlinks
+• Placed browsing and editing together, establishing an early participatory ideal for the Web
+• Provided the first complete user interface for the open standards URL, HTTP, and HTML
+• Shifted information architecture from directory lookup toward associative, self-directed reading
+• Established an interaction prototype for later browsers, webpages, search, and online-creation tools`,
+    significance_en: `WorldWideWeb deserves a designer’s attention because it did not need visual complexity to announce a breakthrough. It placed its greatest power in one clickable line of text: a link is both a visual element and an entry to action; the interface not only presents content, it changes where content can go. Strong interaction design often works this way. It does not explain the world for users—it gives them a path to enter it themselves.`,
+  },
 ]
