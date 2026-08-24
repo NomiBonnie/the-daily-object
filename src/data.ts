@@ -11874,4 +11874,56 @@ The image used here is an original WorldWideWeb interface screenshot preserved o
 • Established an interaction prototype for later browsers, webpages, search, and online-creation tools`,
     significance_en: `WorldWideWeb deserves a designer’s attention because it did not need visual complexity to announce a breakthrough. It placed its greatest power in one clickable line of text: a link is both a visual element and an entry to action; the interface not only presents content, it changes where content can go. Strong interaction design often works this way. It does not explain the world for users—it gives them a path to enter it themselves.`,
   },
+
+  {
+    id: '365',
+    date: '2026-08-24',
+    imageUrl: '/the-daily-object/images/windows-95-first-run.png',
+    fullImageUrl: '/the-daily-object/images/full/windows-95-first-run.png',
+    title: 'Windows 95',
+    title_en: 'Windows 95',
+    subtitle: '微软设计团队, 1995',
+    subtitle_en: 'Microsoft Design Team, 1995',
+    category: 'software' as const,
+    designer: '微软设计团队',
+    year: '1995',
+    tags: ['定义桌面交互', '普及图形界面', '开启个人计算'],
+    tags_en: ['Defined Desktop Interaction', 'Popularised Graphical Interface', 'Opened Personal Computing'],
+
+    dateConnection: `1995年8月24日，Microsoft 正式发布 Windows 95。它不只是一次操作系统升级，更把 Start 菜单、任务栏和桌面图标组织成一套普通人每天都会使用的操作语言；此后近三十年，许多人第一次“用电脑”的动作，仍能在这里找到原型。`,
+    designerBio: `Windows 95 不是由一位作者完成的单件设计，而是 Microsoft 的软件工程、用户体验、视觉设计和市场团队在代号 “Chicago” 的项目中共同塑造的产品。当时个人电脑已经进入家庭和办公室，但 DOS 命令、程序管理器和彼此割裂的窗口仍让使用门槛很高。团队面对的挑战是：既要承接庞大的 Windows 用户基础，又要让一台电脑看起来像每个人都能直接上手的工具。
+
+这一代产品把许多分散的功能收束为一个稳定的视觉层级。程序、文件、网络、设置和关机不再要求用户记住不同入口；它们被安排在同一张桌面上，以图标、菜单、按钮和任务状态共同解释“现在能做什么”。这不是单纯把界面画得更漂亮，而是重新分配人和机器之间的注意力。`,
+    story: `Windows 95 最重要的设计决定，藏在屏幕左下角那个写着 **Start** 的按钮里。此前的图形界面常把功能散落在菜单栏、程序组和窗口之间；Windows 95 把“从哪里开始”明确地做成一个可见、固定、可点击的入口。点击它，程序、文档、控制面板与关闭电脑的动作都被放进同一套层级。用户不必先理解系统的内部结构，先知道自己想做什么就够了。
+
+任务栏同样改变了多任务的感受。它把正在运行的应用变成屏幕底部一排持续可见的对象：打开、切换、最小化不再像在窗口堆里寻找，而像在桌面上拿起或放下一件东西。配合桌面图标、回收站和资源管理器，Windows 95 用一整套空间隐喻把抽象的文件系统变得可见、可预测，也让软件界面拥有了更一致的公共语法。
+
+**它的影响不在于每一个细节都永远正确，而在于它把复杂性压缩成了人们愿意反复使用的习惯。** Start 菜单与任务栏后来被模仿、修改、争论，甚至一度被移除又带回；这恰好说明它们已不只是某个版本的功能，而是数字日常的一部分。Windows 95 让“点一下开始”成为一种全球共享的动作。
+
+本页采用 Windows 95 初次启动时的原始系统界面截图。画面直接呈现 Welcome to Windows 95 对话框、Start 按钮、任务栏和桌面图标，展示的正是本文讨论的软件本体，而非电脑实拍、展览照或泛复古氛围图；与标题、故事及 software 分类精确对应。`,
+    legacy: `• 用 Start 菜单建立清晰的“从这里开始”操作入口，成为桌面系统的长期范式
+• 通过任务栏把多任务状态持续外显，重塑打开、切换与管理窗口的日常动作
+• 将文件、程序、设置和网络收束到统一的信息层级，降低个人电脑的理解门槛
+• 推动 GUI 从专业办公工具走向家庭、学校与大众文化中的共同语言
+• 让界面设计证明：一个稳定的交互习惯，能比一次性的视觉潮流活得更久`,
+    significance: `Windows 95 最值得重看的，不是怀旧的灰色窗口，而是它对“入口”的执着。好的界面不该逼用户先学习系统如何组织自己；它要先给人一个可信的起点，再让复杂性在需要时逐层出现。Start 按钮看似小得近乎朴素，却是一个极强的设计承诺：无论你要做什么，先从这里开始。`,
+
+    dateConnection_en: `On August 24, 1995, Microsoft officially released Windows 95. It was more than an operating-system update: it organised the Start menu, taskbar, and desktop icons into an everyday language of use. Nearly three decades later, many people’s first gestures of “using a computer” still trace back to this interface.`,
+    designerBio_en: `Windows 95 was not a single-author object. Under the code name “Chicago,” Microsoft’s engineering, user-experience, visual-design, and marketing teams shaped it together. Personal computers were already reaching homes and offices, yet DOS commands, Program Manager, and disconnected windows still made them feel forbidding. The challenge was to support a huge Windows user base while making the machine feel immediately usable to ordinary people.
+
+This generation gathered previously scattered functions into a stable visual hierarchy. Programs, files, networks, settings, and shutdown no longer required users to remember unrelated entrances. Icons, menus, buttons, and status indicators placed them on one desktop and explained what could happen next. That was not merely cosmetic polish; it redistributed attention between person and machine.`,
+    story_en: `Windows 95’s most consequential design decision sat in the lower-left corner: the **Start** button. Earlier graphical interfaces often scattered functions across menu bars, program groups, and windows. Windows 95 made “where to begin” visible, fixed, and clickable. One click gathered programs, documents, Control Panel, and the act of turning the computer off into a single hierarchy. Users did not need to understand the system’s internal structure before they could act on an intention.
+
+The taskbar changed the feeling of multitasking too. It made running applications permanently visible along the bottom of the screen: opening, switching, and minimising became less like searching through a pile of windows and more like picking up or putting down objects on a desk. Alongside desktop icons, Recycle Bin, and Explorer, Windows 95 used a spatial metaphor to make an abstract file system visible and predictable, giving software interfaces a more coherent public grammar.
+
+**Its impact lies not in every detail being permanently right, but in compressing complexity into habits people wanted to repeat.** The Start menu and taskbar were copied, altered, argued over, even removed and restored. That is evidence that they became more than features of one release; they became part of digital daily life. Windows 95 made “click to start” a globally shared gesture.
+
+The image used here is an original Windows 95 first-run interface screenshot. It directly shows the Welcome to Windows 95 dialog, Start button, taskbar, and desktop icons: the software itself, not a computer photograph, exhibition view, or generic retro-tech mood image. It precisely matches the title, story, and software category.`,
+    legacy_en: `• Established the Start menu as a clear “begin here” entry point and a durable desktop-system pattern
+• Made multitasking persistently visible through the taskbar, reshaping everyday window management
+• Gathered files, programs, settings, and network access into one information hierarchy, lowering the learning barrier for personal computing
+• Helped move GUI from specialist office tooling into a shared language of homes, schools, and popular culture
+• Proved that a stable interaction habit can outlive a one-time visual trend`,
+    significance_en: `The part of Windows 95 worth revisiting is not its nostalgic grey chrome but its insistence on an entrance. A strong interface should not force people to learn how a system organises itself before they can act. It should offer a trustworthy beginning, then reveal complexity in layers when it is needed. The Start button looks almost modest, yet makes a powerful promise: whatever you want to do, begin here.`,
+  },
 ]
