@@ -11926,4 +11926,56 @@ The image used here is an original Windows 95 first-run interface screenshot. It
 • Proved that a stable interaction habit can outlive a one-time visual trend`,
     significance_en: `The part of Windows 95 worth revisiting is not its nostalgic grey chrome but its insistence on an entrance. A strong interface should not force people to learn how a system organises itself before they can act. It should offer a trustworthy beginning, then reveal complexity in layers when it is needed. The Start button looks almost modest, yet makes a powerful promise: whatever you want to do, begin here.`,
   },
+
+  {
+    id: '366',
+    date: '2026-08-25',
+    imageUrl: '/the-daily-object/images/tokyo-tower.jpg',
+    fullImageUrl: '/the-daily-object/images/full/tokyo-tower.jpg',
+    title: '东京塔',
+    title_en: 'Tokyo Tower',
+    subtitle: '内藤多仲, 1958',
+    subtitle_en: 'Tachū Naitō, 1958',
+    category: 'architecture' as const,
+    designer: '内藤多仲',
+    year: '1958',
+    tags: ['守护东京天际线', '战后复兴的图腾', '抗震高塔范式'],
+    tags_en: ['Shaped Tokyo’s Skyline', 'Symbol of Postwar Recovery', 'Pioneered Seismic Towers'],
+
+    dateConnection: `1970年8月25日，建筑师兼结构工程师内藤多仲逝世。他设计的东京塔在1958年落成，以国际橘与白色的桁架轮廓，把一座广播塔变成战后日本重新抬头时最醒目的城市符号。`,
+    designerBio: `内藤多仲（1886–1970）是日本现代结构工程与高层建筑的重要奠基者，被称为“耐震结构之父”。他早年在美国旅行时，从列车急刹后行李在车厢内散落的现象获得启发，发展出以耐震壁抵抗水平摇晃的结构思路。1923年关东大地震中，他参与工程的日本工业银行本店经受住考验，让这套理论获得了罕见而残酷的现实验证。
+
+此后，内藤把结构计算带进了日本城市向上的想象。他参与歌舞伎座、大隈讲堂等工程，并相继设计名古屋电视塔、通天阁、札幌电视塔和别府塔。东京塔是这串实践中最广为人知的一座：它不是把埃菲尔铁塔简单搬到东京，而是让轻量化钢结构、广播需求、地震与台风风险共同决定一座塔的样子。`,
+    story: `1950年代的东京正经历电视与民营广播迅速扩张。若每家机构各自竖塔，城市很快会被信号塔切碎；解决方案是一座足以覆盖关东地区的高塔，同时也要成为战后复兴的可见宣言。内藤多仲以巴黎埃菲尔铁塔为视觉参照，却以日本的环境条件重新推导结构：桁架要足够轻，仍要承受强震与每小时220公里的强风。
+
+**东京塔最迷人的地方，是功能与象征从同一副骨架里长出来。** 332.9米的钢铁网格没有用厚重体量制造纪念性，反而以细密、向上收束的线条把工程逻辑变成了城市剪影。国际橘与白色原本是航空安全的规定，最终也成为它无法替代的视觉身份。建造所用钢材中约三分之一来自朝鲜战争中受损的美军坦克废钢：一座战后地标，确实由战争遗留的金属重新组成。
+
+1958年12月23日向公众开放后，东京塔同时承担广播设施、观景台和集体想象的角色。它在电影、漫画、动画与怪兽片里反复出现，常常只需一个轮廓就能让观众知道故事发生在东京。即便后来更高的晴空塔接过主要数字电视传输任务，东京塔仍证明了基础设施也能拥有长久的情感价值：当工程结构足够清晰，功能建筑也能成为一座城市的肖像。
+
+本页使用东京塔本体的专业建筑摄影：画面完整呈现其国际橘白色桁架、向上收束的塔身与标志性轮廓，不是游客、展览或泛东京城市照；与标题、故事和 architecture 分类精确对应。`,
+    legacy: `• 把抗震与抗风的结构逻辑转化为一眼可辨的城市轮廓
+• 以一座共用广播塔回应战后传媒扩张，避免城市被分散设施占据
+• 将国际橘白的航空安全规范变成东京最持久的视觉识别之一
+• 证明基础设施可以同时承担工程、公共服务、观景与文化记忆
+• 为日本此后的电视塔与高层耐震设计提供了可见的范式`,
+    significance: `东京塔提醒设计师：标志性并不等于先做一个符号，再给它找用途。它的轮廓之所以经得起几十年凝视，是因为每一条向上收束的钢杆都同时回答了结构、气候、传播和城市欲望。最好的地标往往不是“做得像什么”，而是把必须解决的问题解决得足够漂亮，以至于人们再也无法把形式与意义分开。`,
+
+    dateConnection_en: `On August 25, 1970, architect and structural engineer Tachū Naitō died. Completed in 1958, his Tokyo Tower turned an international-orange-and-white lattice broadcast tower into the most visible symbol of a postwar Japan looking upward again.`,
+    designerBio_en: `Tachū Naitō (1886–1970) was a foundational figure in modern Japanese structural engineering and tall-building design, often called the father of earthquake-resistant construction. While travelling in the United States, he noticed luggage scattered through a railway carriage after a sudden stop; the observation helped him develop structural thinking around walls resisting lateral movement. When the Industrial Bank of Japan headquarters, an engineering project he worked on, survived the 1923 Great Kantō earthquake, that theory received an unusually severe real-world test.
+
+Naitō later brought rigorous structural calculation into Japan’s vertical urban imagination. His work included Kabuki-za, Okuma Auditorium, and a sequence of broadcasting towers in Nagoya, Osaka, Sapporo, and Beppu. Tokyo Tower is the most famous of them: not an Eiffel Tower copied into Tokyo, but a form determined together by lightweight steel, broadcasting needs, earthquakes, and typhoons.`,
+    story_en: `In the 1950s, Tokyo’s television and commercial-broadcasting boom created a practical problem. If every operator built its own mast, the city would soon be fragmented by transmission towers. The answer was one structure high enough to serve the Kantō region—and visible enough to declare postwar recovery. Naitō took the Eiffel Tower as a visual reference, then recalculated it for Japanese conditions: a lattice light enough to be efficient, yet able to withstand major earthquakes and winds of up to 220 kilometres per hour.
+
+**Tokyo Tower is compelling because function and symbol grow from the same skeleton.** Its 332.9-metre steel grid does not rely on massive bulk for monumentality. Fine, tapering lines turn engineering logic into a skyline silhouette. International orange and white began as aviation-safety requirements and became an inseparable visual identity. Around one third of its steel came from U.S. tanks damaged in the Korean War: a postwar landmark literally remade from the metal left by war.
+
+After opening to the public on December 23, 1958, the tower became broadcast infrastructure, observatory, and shared image at once. Films, manga, animation, and kaiju cinema repeatedly use its outline to say “Tokyo” in a single glance. Even after the taller Tokyo Skytree took over most digital television transmission, Tokyo Tower shows that infrastructure can retain deep emotional value. When a structure’s logic is clear enough, a functional building can become a city’s portrait.
+
+The image used here is a professional architectural photograph of Tokyo Tower itself. It clearly shows the complete international-orange-and-white lattice, tapering form, and recognisable silhouette—not tourists, an exhibition view, or a generic Tokyo mood image. It precisely matches the title, story, and architecture category.`,
+    legacy_en: `• Turned seismic and wind-resistance logic into an instantly recognisable city silhouette
+• Answered postwar media expansion with a shared broadcast tower instead of dispersed urban infrastructure
+• Made international orange and white—originally an aviation-safety rule—one of Tokyo’s most enduring visual identities
+• Demonstrated that infrastructure can combine engineering, public service, observation, and cultural memory
+• Offered a visible model for later Japanese television towers and earthquake-conscious tall structures`,
+    significance_en: `Tokyo Tower reminds designers that an icon is not made by inventing a symbol and finding a use for it afterward. Its silhouette has endured because every tapering steel member answers structure, climate, transmission, and civic aspiration at the same time. The strongest landmarks are often not designed to resemble something else; they solve their necessary problems so beautifully that form and meaning become impossible to separate.`,
+  },
 ]
