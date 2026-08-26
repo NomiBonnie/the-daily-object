@@ -11978,4 +11978,56 @@ The image used here is a professional architectural photograph of Tokyo Tower it
 • Offered a visible model for later Japanese television towers and earthquake-conscious tall structures`,
     significance_en: `Tokyo Tower reminds designers that an icon is not made by inventing a symbol and finding a use for it afterward. Its silhouette has endured because every tapering steel member answers structure, climate, transmission, and civic aspiration at the same time. The strongest landmarks are often not designed to resemble something else; they solve their necessary problems so beautifully that form and meaning become impossible to separate.`,
   },
+  {
+    id: '367',
+    date: '2026-08-26',
+    imageUrl: '/the-daily-object/images/aranya-low-cost-housing.jpg',
+    fullImageUrl: '/the-daily-object/images/full/aranya-low-cost-housing.jpg',
+    title: '阿兰亚低成本住宅',
+    title_en: 'Aranya Low Cost Housing',
+    subtitle: '巴克里希纳·多西, 1989',
+    subtitle_en: 'Balkrishna Doshi, 1989',
+    category: 'architecture' as const,
+    designer: '巴克里希纳·多西',
+    year: '1989',
+    tags: ['让住房生长起来', '重写社区营造', '普利兹克人本典范'],
+    tags_en: ['Let Housing Grow', 'Reframed Community Making', 'Pritzker Humanist Model'],
+
+    dateConnection: `1927年8月26日，巴克里希纳·多西出生于印度浦那。62年后，他在印多尔完成阿兰亚低成本住宅：一项为低收入家庭设计、却拒绝把“低成本”做成低尊严的住房实验。`,
+    designerBio: `巴克里希纳·多西（1927—2023）是印度最重要的现代建筑师、城市规划者与教育者之一。1947年，他进入孟买 Sir J. J. 建筑学院；数年后赴巴黎加入勒·柯布西耶事务所，1954年回到印度，协助完成昌迪加尔与艾哈迈达巴德的项目。1962年起，他又与路易·康合作建设印度管理学院艾哈迈达巴德。两位现代主义大师给了他方法，却没有替他回答印度的问题。
+
+多西在1956年创立 Vastushilpa，之后的百余个项目始终追问同一件事：建筑如何真正进入日常生活。他把庭院、阴影、巷道、地方材料与人与人之间偶遇的可能性，带回现代建筑的语法。2018年，他成为首位获得普利兹克建筑奖的印度建筑师；评审认可的并非一种可复制的风格，而是他持续数十年把建筑视为社会责任的实践。`,
+    story: `阿兰亚位于印多尔郊外，最初面对的并不是“怎样设计一组漂亮住宅”，而是一个更尖锐的问题：如何为大量低收入家庭提供可负担、可居住、也可继续改变的城市？多西没有把答案画成整齐划一的成品房。他先建立道路、供水、排污、公共空间与用地骨架，再把不同尺度的住宅单元嵌入其中，让居民按自己的收入与家庭变化逐步扩建。
+
+**这是一座被设计成可以生长的城市。** 约6,500套住宅从一间房的基本单元到更大的住家并置；小巷、台阶、院落和转角把门前的私人生活慢慢过渡到邻里交往与公共活动。住户并非被动接受一件完成的建筑产品，而拥有继续盖、继续改、继续把房子变成家的权利。多西把预算最有限的部分留给基础设施与空间秩序，把最有弹性的部分留给人。
+
+这种选择挑战了住房设计里常见的误解：标准化不等于把每个人装进同一个盒子。阿兰亚当然有清晰的尺度、结构与秩序，但它不把生活当作一张固定蓝图。斑驳的外墙、外挂楼梯、增建的阳台和门前的植物，恰好记录了家庭的迁移、工作和成长。形式不是在交付日达到完美，而是在居民持续使用中变得完整。
+
+普利兹克奖资料指出，阿兰亚如今容纳逾80,000人。它的重要性也正在这里：它不靠孤立的纪念性形体取胜，而是把尊严做进一条能遮阳的路、一处可以停下聊天的门槛、一套允许人往上盖的规则。本页使用普利兹克建筑奖官网的阿兰亚项目原始建筑摄影，画面直接呈现该社区的住宅、巷道和公共生活，不是展览、游客或泛印度氛围照；与标题、故事及 architecture 分类精确对应。`,
+    legacy: `• 用可扩建单元与公共基础设施证明，低成本住房也能保有选择与尊严
+• 将庭院、巷道、门槛等日常空间组织为社区关系的基础设施
+• 把“交付完成”的住宅改写为能随家庭与收入变化继续生长的框架
+• 为全球社会住房提供兼顾密度、气候、地方生活与居民参与的范式
+• 让建筑专业重新看见：最深的形式力量，常在于为他人留下行动余地`,
+    significance: `阿兰亚最动人的设计，不是一种可供杂志复制的造型，而是一种克制的信任：设计师不替居民把一生都决定好。多西先把水、电、道路、阴影与邻里关系这些难以被自拍记录的条件做好，再让每个家庭在其中写自己的版本。它提醒我们，真正以人为本的设计不只是“理解用户”，还要把改变世界的一部分权力交还给使用者。`,
+
+    dateConnection_en: `Balkrishna Doshi was born in Pune, India, on August 26, 1927. Sixty-two years later, he completed Aranya Low Cost Housing in Indore: a housing experiment for lower-income families that refused to mistake low cost for low dignity.`,
+    designerBio_en: `Balkrishna Doshi (1927–2023) was one of India’s most consequential modern architects, urban planners, and educators. He entered the Sir J. J. School of Architecture in Bombay in 1947, then travelled to Paris to work for Le Corbusier. Returning to India in 1954, he helped deliver projects in Chandigarh and Ahmedabad; from 1962 he also collaborated with Louis Kahn on the Indian Institute of Management Ahmedabad. Those modern masters gave him methods, but not answers to India’s own conditions.
+
+Doshi founded Vastushilpa in 1956. Across more than a hundred projects, he kept asking how architecture could enter everyday life: through courtyards, shade, lanes, local materials, and the chance encounters that make a community. In 2018 he became the first Indian recipient of the Pritzker Architecture Prize, recognised not for a repeatable style but for decades of treating architecture as a social responsibility.`,
+    story_en: `Aranya, on the outskirts of Indore, began with a problem more urgent than how to compose an attractive housing estate: how could a large number of lower-income families receive a city that was affordable, inhabitable, and able to change with them? Doshi did not answer with rows of identical finished houses. He first established roads, water, drainage, shared spaces, and a framework of plots, then set housing units of varied scales inside it, allowing residents to extend their homes as income and family needs evolved.
+
+**This is a city designed to grow.** Around 6,500 dwellings range from a one-room starter unit to larger houses. Lanes, steps, courts, and corners take private life gradually into neighbourly and public space. Residents are not passive recipients of a completed product; they retain the right to build, adapt, and turn a house into a home. Doshi placed scarce capital in infrastructure and spatial order, then left the most flexible part to people.
+
+That choice challenges a common misunderstanding in housing design: standardisation does not mean fitting everyone into the same box. Aranya has clear dimensions, structure, and order, but it does not treat life as a fixed blueprint. Weathered walls, external stairs, added balconies, and plants at the threshold record families, work, and growth. Form does not become perfect on handover day; it becomes complete through sustained use.
+
+Pritzker Prize materials note that Aranya now accommodates more than 80,000 people. Its importance lies exactly there. It does not depend on an isolated monumental gesture, but builds dignity into a shaded lane, a threshold for conversation, and a rule that lets a home expand. The image used here is an original architectural photograph of Aranya from the Pritzker Architecture Prize website. It directly shows the project’s homes, lanes, and shared life—not an exhibition view, tourist image, or generic Indian atmosphere—and precisely matches the title, story, and architecture category.`,
+    legacy_en: `• Proved that affordable housing can preserve choice and dignity through expandable units and shared infrastructure
+• Made courts, lanes, and thresholds into infrastructure for community relationships
+• Recast housing from a finished delivery into a framework that can grow with families and incomes
+• Offered global social housing a model that balances density, climate, local life, and resident participation
+• Reminded the profession that form is often most powerful when it leaves room for others to act`,
+    significance_en: `Aranya’s most moving design decision is not a form that can be copied into a magazine, but a restrained act of trust: the architect does not decide a resident’s whole life in advance. Doshi first made water, power, roads, shade, and neighbourly possibility work, then let each family write its own version inside that structure. It reminds us that human-centred design is not only about understanding users; it is about returning some power to change the world to those who use it.`,
+  },
+
 ]
