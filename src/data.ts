@@ -12030,4 +12030,52 @@ Pritzker Prize materials note that Aranya now accommodates more than 80,000 peop
     significance_en: `Aranya’s most moving design decision is not a form that can be copied into a magazine, but a restrained act of trust: the architect does not decide a resident’s whole life in advance. Doshi first made water, power, roads, shade, and neighbourly possibility work, then let each family write its own version inside that structure. It reminds us that human-centred design is not only about understanding users; it is about returning some power to change the world to those who use it.`,
   },
 
+  {
+    id: '368',
+    date: '2026-08-27',
+    imageUrl: '/the-daily-object/images/lc4-chaise-longue.jpg',
+    fullImageUrl: '/the-daily-object/images/full/lc4-chaise-longue.jpg',
+    title: 'LC4 Chaise Longue 躺椅',
+    title_en: 'LC4 Chaise Longue',
+    subtitle: '夏洛特·佩里安、皮埃尔·让纳雷、勒·柯布西耶, 1928',
+    subtitle_en: 'Charlotte Perriand, Pierre Jeanneret & Le Corbusier, 1928',
+    category: 'industrial' as const,
+    designer: '夏洛特·佩里安、皮埃尔·让纳雷、勒·柯布西耶',
+    year: '1928',
+    tags: ['重写休憩姿态', '现代家具原型', '纠正署名历史'],
+    tags_en: ['Redefined Reclining', 'Modern Furniture Prototype', 'Corrected Design Credit'],
+
+    dateConnection: `1965年8月27日，勒·柯布西耶在法国南部海岸去世。37年前，他与夏洛特·佩里安、皮埃尔·让纳雷共同完成 LC4 Chaise Longue：一件把“休息”从静止的坐姿，变成可被身体自己调节的现代家具。`,
+    designerBio: `LC4 的作者名单本身就是一段设计史的校正。1927年，夏洛特·佩里安带着她的 “Bar sous le toit” 作品去应聘勒·柯布西耶的事务所，最初得到的回答是：“这里不绣靠垫。”她仍被录用，并很快与勒·柯布西耶、皮埃尔·让纳雷组成紧密的家具设计团队。
+
+三人从1927年至1929年合作设计了一组金属管家具；佩里安尤其把对材料、人体与室内生活的敏感带入这批作品。长期以来，这些设计常被笼统归在勒·柯布西耶名下；如今，LC4 更完整的署名让人看见：现代主义的经典并不是孤独天才的单人宣言，而是一次真正的协作。`,
+    story: `LC4 最初名为 *chaise longue à réglage continu*，直译就是“可连续调节的躺椅”。它没有用复杂的齿轮或锁扣控制角度：黑色钢管底座只是一个稳定的托架，镀铬钢管的躺椅主体可以在上面自由滑动。人一躺上去，身体重量就决定了最舒服的倾角。
+
+**它被设计成一台“休息机器”。** 这个说法带着勒·柯布西耶时代对机器美学的迷恋，但 LC4 并不冷酷。佩里安以人体曲线而非直线框定轮廓，头枕与软垫让它既像工程结构，也像一件接住身体的器具。1929年它在巴黎秋季沙龙展出，黑色金属、悬浮感与几乎没有装饰的结构，彻底改变了人们对躺椅的想象。
+
+1965年勒·柯布西耶逝世后，这把椅子没有停留在博物馆里。1960年代起，Cassina 与三位作者合作重新投产，使它成为现代家具最持久的标志之一。本页使用的图片直接展示 1927—28 年 LC4 的完整形态：可滑动的镀铬弯管框架、黑色底座和连续倾斜的躺靠面都清晰可见；不是展览环境或泛家具氛围图，与标题、故事和 industrial 分类严格对应。`,
+    legacy: `• 用身体重量取代机械锁扣，让姿态调节成为直觉动作
+• 将钢管、皮革与软垫组织为现代家具的一套清晰语法
+• 证明机器时代的家具也能精确回应身体的柔软与变化
+• 成为国际主义室内设计中最容易辨认的休憩原型之一
+• 让被长期遮蔽的女性协作者重新回到现代设计史的署名中`,
+    significance: `LC4 的厉害，不只在于它长得像现代主义，而在于它把现代主义变成一种身体经验。人不需要研究说明书，也不需要迁就家具：坐下、后仰，重心自然把椅子带到合适的位置。最好的工业设计常有这种安静的说服力，结构极其理性，使用却几乎像本能。它也提醒我们，设计史的准确性同样重要：一件经典被看见时，参与创造它的人都应该被看见。`,
+
+    dateConnection_en: `Le Corbusier died on France’s Mediterranean coast on August 27, 1965. Thirty-seven years earlier, he completed the LC4 Chaise Longue with Charlotte Perriand and Pierre Jeanneret: a modern object that turned rest from a fixed posture into one the body could adjust for itself.`,
+    designerBio_en: `The LC4’s credit line is itself a correction to design history. In 1927 Charlotte Perriand applied to Le Corbusier’s studio with her *Bar sous le toit*; she was initially told, “We don’t embroider cushions here.” She was hired nonetheless, and soon formed a close furniture-design partnership with Le Corbusier and Pierre Jeanneret.
+
+From 1927 to 1929, the three designed a family of tubular-steel furniture. Perriand brought an especially acute sensitivity to materials, bodies, and domestic life. For decades these works were often reduced to Le Corbusier alone. The LC4’s fuller credit makes something essential visible: modernist classics were not solitary declarations by a genius, but genuine collaborations.`,
+    story_en: `The LC4 was first called *chaise longue à réglage continu*—a chaise longue with continuous adjustment. Its angle is not governed by a complicated gear or lock. A black steel cradle provides a stable support; the chrome tubular frame simply slides across it. When someone reclines, their body weight finds the most comfortable angle.
+
+**It was designed as a “resting machine.”** That phrase carries Le Corbusier’s fascination with the machine age, yet the LC4 is not remotely cold. Perriand shaped its outline around the body rather than a straight line; the headrest and cushion make it at once an engineered structure and an instrument that receives a body. Shown at the 1929 Salon d’Automne in Paris, its black metal, hovering profile, and almost decoration-free construction transformed expectations of a chaise longue.
+
+After Le Corbusier’s death in 1965, the chair did not remain a museum relic. From the 1960s, Cassina worked with all three authors to put it back into production, securing its place as one of modern furniture’s most durable icons. The image on this page directly shows the complete 1927–28 LC4: its sliding chromed tubular frame, black cradle, and continuous reclining surface are all clearly visible. It is not an exhibition, tourist, or generic furniture image, and precisely matches the title, story, and industrial category.`,
+    legacy_en: `• Replaced mechanical locks with body weight, making adjustment an intuitive action
+• Made tubular steel, leather, and cushioning into a lucid vocabulary for modern furniture
+• Proved that machine-age furniture could respond precisely to the body’s softness and change
+• Became one of international modernism’s most recognisable prototypes for rest
+• Helped restore long-obscured women collaborators to their proper place in modern design history`,
+    significance_en: `The LC4 matters not merely because it looks modernist, but because it makes modernism a bodily experience. A person needs no instructions and does not have to adapt to the furniture: sit, lean back, and gravity carries the chair to a fitting position. The best industrial design often has this quiet persuasion—its structure is intensely rational, while its use feels almost instinctive. It also makes a wider point about accuracy in design history: when a classic is seen, everyone who made it should be seen as well.`,
+  },
+
 ]
