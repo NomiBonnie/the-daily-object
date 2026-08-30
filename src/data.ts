@@ -12131,4 +12131,55 @@ It was mocked and misunderstood at first, yet became an unavoidable reference fo
     significance_en: `4′33″ endures because it changes not a musical style but the distribution of attention. Design is often understood as addition: more function, more image, more sound. Cage demonstrated the reverse. With a sufficiently precise frame, withholding intentional output can create an intense experience. Meaningful blank space is not neglected space; it trusts users and the surrounding world to bring content.`,
   },
 
+
+  {
+    id: '370',
+    date: '2026-08-30',
+    imageUrl: '/the-daily-object/images/counter-composition-v.jpg',
+    fullImageUrl: '/the-daily-object/images/full/counter-composition-v.jpg',
+    title: 'Counter-Composition V',
+    title_en: 'Counter-Composition V',
+    subtitle: '提奥·凡·杜斯堡, 1924',
+    subtitle_en: 'Theo van Doesburg, 1924',
+    category: 'graphic' as const,
+    designer: '提奥·凡·杜斯堡',
+    year: '1924',
+    tags: ['打破正交秩序', '激活现代空间', '风格派关键转向'],
+    tags_en: ['Broke Orthogonal Order', 'Activated Modern Space', 'De Stijl Turning Point'],
+
+    dateConnection: `1883年8月30日，提奥·凡·杜斯堡出生于荷兰乌得勒支。他后来创办并领导 De Stijl（风格派），把有限的色彩、线条与比例，变成20世纪视觉设计最有影响力的一套语法。《Counter-Composition V》正是他对这套语法的一次大胆“越界”。`,
+    designerBio: `提奥·凡·杜斯堡（1883—1931）既是画家、建筑师、诗人，也是一个罕见的组织者。他不满足于独自作画：1917年，他创办杂志 *De Stijl*，把蒙德里安、赫里特·里特费尔德、雅各布斯·奥德等不同领域的创作者拉进同一场讨论。这个名字后来不只指一种画风，而成为一场横跨平面、家具、建筑、字体和城市想象的现代主义运动。
+
+风格派相信艺术可以从自然的偶然细节中抽离出来，寻找更普遍的秩序：基本色、非色彩、直线、矩形、清晰比例。它看似冷静，甚至有点苛刻，却给了现代设计一套高度可复制的工具。海报、杂志版面、室内、建筑立面，都能在这套有限规则中获得强烈的结构感。凡·杜斯堡最重要的贡献，是不断追问：当规则已经足够明确时，能不能再把它推到意料之外？`,
+    story: `《Counter-Composition V》完成于1924年。画面仍然只使用风格派熟悉的红、黄、蓝、黑、灰白与矩形色块，但最决定性的变化发生在方向：它整体旋转了约45度。蒙德里安坚持垂直和水平，认为那是最纯粹、最平衡的视觉关系；凡·杜斯堡却开始觉得，斜线能让这种秩序获得时间感、速度与张力。
+
+**这不是一张“把方格转一下”的画，而是一次关于系统边界的设计实验。** 红色菱形占据中心，蓝、黄、黑色块从边缘切入；每个形状仍被严格控制，却不再像安静停在网格里。眼睛会沿着斜向关系不断移动，仿佛画面内部有一股无法完全静止的力。凡·杜斯堡把这套方法称为 *élémentarisme*（元素主义）：不是抛弃风格派的理性，而是在理性中加入不稳定。
+
+这场分歧也有代价。蒙德里安无法接受斜线，1924年后与凡·杜斯堡渐行渐远，最终退出 *De Stijl*。但从今天回看，凡·杜斯堡的“反构图”恰恰揭示了现代设计最迷人的能力：系统并非为了把一切压平，而是为了让有意义的偏离更清楚地发生。后来他与苏菲·陶伯-阿尔普、让·阿尔普共同改造斯特拉斯堡 Aubette 的公共空间，斜向色块从画布走上墙面、楼梯与舞厅，把这种动态秩序变成可以被身体穿行的环境。
+
+页面采用《Counter-Composition V》本身的正面高清馆藏图。画面完整呈现红色菱形、蓝黄黑色块和灰白背景，直接对应标题、故事及 graphic 分类；不是艺术家肖像、展览现场或与本作相似的另一件风格派作品。`,
+    legacy: `• 用斜向关系挑战了风格派仅限水平与垂直的正统
+• 将基本色与几何形转化为可迁移到平面、室内和建筑的视觉系统
+• 为编辑设计、环境图形与现代品牌识别提供了清晰的结构语言
+• 证明严格的设计规则并不排斥动感，反而能让张力更精确
+• 让 De Stijl 从静态构成走向可被空间和身体体验的现代主义`,
+    significance: `《Counter-Composition V》的价值，在于它把“破格”做得非常克制。凡·杜斯堡没有增加复杂图案，也没有用情绪化笔触反抗秩序；他只改变了一个基础变量：方向。于是原本稳定的系统立刻开始流动。这对设计师很有启发：真正有效的创新往往不是推翻全部规则，而是先理解规则的骨架，再准确地扭动其中一个关节。近一百年后，这张画仍像一张关于视觉节奏的练习题：颜色有限，元素很少，但每一块都在迫使我们重新感受平衡。`,
+
+    dateConnection_en: `Theo van Doesburg was born in Utrecht, the Netherlands, on August 30, 1883. He founded and led De Stijl, turning a disciplined vocabulary of colour, line, and proportion into one of the twentieth century’s most influential design languages. Counter-Composition V is his bold challenge to that language’s limits.`,
+    designerBio_en: `Theo van Doesburg (1883–1931) was a painter, architect, poet, and an unusually effective organiser. In 1917 he founded the journal *De Stijl*, bringing Piet Mondrian, Gerrit Rietveld, J.J.P. Oud, and other practitioners into a shared conversation. The name became more than a style: it named a modernist movement across graphics, furniture, architecture, typography, and ideas of the city.
+
+De Stijl sought an order abstracted from nature’s contingencies: primary colours, non-colours, straight lines, rectangles, and exact proportion. Its discipline supplied modern design with a portable, forceful set of tools. Van Doesburg’s distinctive contribution was to keep asking what might happen when those rules were pushed just beyond their accepted boundary.`,
+    story_en: `Counter-Composition V, made in 1924, still uses De Stijl’s familiar red, yellow, blue, black, grey, white, and rectangular fields. Its decisive change is directional: the entire composition turns roughly forty-five degrees. Mondrian defended horizontal and vertical as the purest visual equilibrium; van Doesburg found that the diagonal could bring time, speed, and tension into the system.
+
+**This is not simply a grid tilted on its side, but a design experiment about the edge of a system.** A red diamond occupies the centre while blue, yellow, and black enter from the edges. Every form remains tightly controlled, yet none feels fixed. The eye keeps travelling through diagonal relations, as if the image contains a force that cannot settle. Van Doesburg called this *élémentarisme*: not the abandonment of De Stijl’s reason, but instability introduced with precision.
+
+The disagreement split the movement. Mondrian could not accept the diagonal and eventually left *De Stijl*. Yet van Doesburg’s counter-compositions show something enduring about modern design: systems are not there to flatten every difference, but to make a meaningful deviation legible. His later Aubette interiors in Strasbourg carried these diagonals from canvas into walls, stairs, and dance halls. The image here is a high-resolution, frontal collection image of Counter-Composition V itself, directly matching the title, story, and graphic category.`,
+    legacy_en: `• Challenged De Stijl orthodoxy by introducing diagonal relationships
+• Turned primary colours and geometry into a visual system transferable across graphics, interiors, and architecture
+• Offered editorial design, environmental graphics, and modern identity systems a lucid structural language
+• Demonstrated that strict rules can make motion and tension more precise, not less
+• Moved De Stijl from static composition toward modernism experienced through space and the body`,
+    significance_en: `Counter-Composition V breaks the rule with remarkable restraint. Van Doesburg did not add ornamental complexity or oppose order with expressive brushwork; he changed one fundamental variable—direction. The stable system immediately begins to move. That is a useful lesson for designers: consequential innovation often comes not from discarding every rule, but from understanding a structure well enough to bend one joint exactly. Nearly a century later, this painting remains a compact lesson in visual rhythm: few colours, few elements, and a recalibrated sense of balance.`,
+  },
+
 ]
