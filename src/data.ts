@@ -12235,4 +12235,56 @@ This page uses a clean collection image of an 1894 Edison Kinetoscope from The H
     significance_en: `The Kinetoscope matters because it did not stop at making technology move. It compressed mechanics, optics, content, and commercial behaviour into one cabinet, then gave the user an unmistakable sequence: approach, pay, bend, watch. Phones, VR headsets, and short-form video still ask related questions: how close should a screen sit to a body? What is a unit of attention worth? What do individual and shared viewing each produce? The Kinetoscope’s answers are dated; the questions are not.`,
   },
 
+  {
+    id: '372',
+    date: '2026-09-01',
+    imageUrl: '/the-daily-object/images/gateway-arch.jpg',
+    fullImageUrl: '/the-daily-object/images/full/gateway-arch.jpg',
+    title: 'Gateway Arch',
+    title_en: 'Gateway Arch',
+    subtitle: '埃罗·沙里宁, 1965',
+    subtitle_en: 'Eero Saarinen, 1965',
+    category: 'architecture' as const,
+    designer: '埃罗·沙里宁',
+    year: '1965',
+    tags: ['重写城市天际线', '现代纪念碑典范', '工程美学合一'],
+    tags_en: ['Redefined City Skylines', 'Modern Monument Benchmark', 'United Engineering and Beauty'],
+
+    dateConnection: `1961年9月1日，芬兰裔美国建筑师埃罗·沙里宁在密歇根州安娜堡突然离世，年仅51岁。他赢得 Gateway Arch 竞赛的13年后，这座拱门才完工；他没有亲眼看见自己最著名的作品落成。`,
+    designerBio: `埃罗·沙里宁（1910—1961）不相信建筑师必须拥有一种固定的“签名”。他出生于芬兰，少年时随建筑师父亲埃利尔·沙里宁移居美国；先学雕塑，后在耶鲁学习建筑。雕塑训练让他始终从身体、轮廓与空间中的感受出发，而不是只从平面图思考。
+
+在短暂却密度惊人的职业生涯中，他设计过通用汽车技术中心、TWA Flight Center、Dulles Airport，也设计过 Tulip Chair 与 Womb Chair。它们看起来不像同一位作者的作品，却共享一种极其明确的野心：让形式直接说出建筑的用途、速度和情绪。对沙里宁而言，现代主义不是一套可重复的外观，而是一种为每一个问题重新寻找形状的方法。`,
+    story: `1947年，圣路易斯举办 Jefferson National Expansion Memorial 竞赛，希望用一座纪念碑标记美国向西扩张的历史。沙里宁提交的方案不是一根传统纪念柱，也不是带雕像的基座，而是一道从密西西比河边拔起的、不锈钢曲线。它像一扇门，也像一笔在天空中完成的单线勾勒。方案从172份匿名投稿中胜出时，评审甚至一度误把获奖者当成他的父亲埃利尔；父子同场参赛，名字造成了这个著名的乌龙。
+
+**Gateway Arch 的难题，是把一张极简草图变成630英尺高、还能抵抗风力的真实结构。** 沙里宁与结构工程师 Hannskarl Bandel 将它定为悬链线倒置后的加权曲线；两条弧形腿从地面向上收拢，顶端只相差约半英寸。外层是不锈钢，内部由碳钢与混凝土共同承担力量。它不是把装饰贴在工程上，而是让工程逻辑本身成为视觉语言。
+
+施工从1963年开始，1965年10月封顶。两条腿在高空相接的那一刻，公差容不得丝毫任性。最后一块楔形构件被精确置入，拱门才成为完整的连续曲线。沙里宁在1961年因脑瘤手术后的并发症去世，未能看见这个瞬间；也正因如此，这座建筑带着一种罕见的张力：它纪念一个国家的过去，也成为一位建筑师未完成的人生在城市尺度上的句号。
+
+Gateway Arch 最动人的地方，在于它不靠复杂细节取得庄严。白天，它接住天色和云影；傍晚，它把城市和河流框进曲线；从远处看，它几乎像一个没有重量的符号。页面使用的正是 Gateway Arch 本身的干净专业建筑摄影：完整拱形、无人物和旅游场景干扰，直接对应标题、故事与 architecture 分类。`,
+    legacy: `• 用单一连续曲线重写了现代纪念碑的视觉语言
+• 让结构计算与雕塑般的城市轮廓成为同一件事
+• 证明公共地标不必依赖古典装饰也能拥有庄严感
+• 成为圣路易斯最强的城市识别与美国现代主义象征
+• 启发后来的地标建筑以清晰轮廓进入大众记忆`,
+    significance: `Gateway Arch 提醒我们，最有力量的形式往往看似简单，却把复杂性藏在看不见的地方。一条曲线背后，是竞赛、计算、材料、施工和极高的容错要求；观众最终感受到的，却只是抬头时那种干净的震动。好设计不是把复杂展示出来，而是把复杂消化掉，留下一个任何人都能立刻读懂、又愿意反复凝视的答案。`,
+
+    dateConnection_en: `On September 1, 1961, Finnish-American architect Eero Saarinen died suddenly in Ann Arbor, Michigan, aged just 51. Thirteen years after he won the Gateway Arch competition, the Arch was completed—without him ever seeing his best-known work finished.`,
+    designerBio_en: `Eero Saarinen (1910–1961) rejected the idea that an architect needed one fixed signature. Born in Finland, he moved to the United States as a teenager with his architect father, Eliel Saarinen. He studied sculpture before architecture at Yale, and that training kept him attentive to contour, bodily experience, and the emotional force of space.
+
+In a brief but remarkably concentrated career, Saarinen designed the General Motors Technical Center, the TWA Flight Center, Dulles Airport, the Tulip Chair, and the Womb Chair. They do not look like the work of a single stylist. What joins them is a sharper ambition: each form should speak directly to a building’s purpose, speed, and feeling. For Saarinen, modernism was not a repeatable look but a method of finding a new shape for each problem.`,
+    story_en: `In 1947, St. Louis held a competition for the Jefferson National Expansion Memorial, seeking a monument to mark the nation’s westward expansion. Saarinen proposed neither a conventional column nor a statue on a pedestal, but a stainless-steel curve rising from the Mississippi riverfront. It read at once as a gateway and as a single line drawn through the sky. His entry won among 172 anonymous submissions, although the jury briefly thought his father Eliel had won too; both had entered, creating a famous mix-up.
+
+**The Gateway Arch’s challenge was turning an almost minimal sketch into a 630-foot structure that could resist wind.** Saarinen and structural engineer Hannskarl Bandel defined its weighted catenary curve. Its two tapering legs rise and meet at the crown within about half an inch; stainless steel wraps an inner structure of carbon steel and concrete. Engineering is not decorated here—it is the visual language.
+
+Construction began in 1963 and the Arch was topped out in October 1965. Its two legs could not meet through approximation: the final wedge-shaped piece had to be placed with extraordinary precision. Saarinen had died in 1961 after complications following surgery for a brain tumour, never seeing that moment. The result carries an unusual tension: a monument to a nation’s past also becomes, at urban scale, the full stop to an architect’s unfinished life.
+
+The Gateway Arch achieves gravity without ornamental complexity. By day it receives sky and cloud; at dusk it frames the city and river; from a distance it is almost weightless—a symbol reduced to one curve. The image here is a clean professional architectural photograph of the Gateway Arch itself: its complete form is clear, with no people or tourist-scene distraction, and it directly matches the title, story, and architecture category.`,
+    legacy_en: `• Rewrote the visual language of the modern monument with one continuous curve
+• Made structural calculation and a sculptural urban silhouette the same act
+• Proved that a civic landmark can be solemn without classical ornament
+• Became St. Louis’s defining visual identity and an icon of American modernism
+• Inspired later landmarks to enter public memory through a lucid silhouette`,
+    significance_en: `The Gateway Arch shows that the most forceful forms can look simple while hiding immense complexity. Behind one curve sit a competition, calculations, material science, construction, and almost no tolerance for error. What viewers receive is simply the clean shock of looking up. Good design does not display complexity; it absorbs it, leaving an answer anyone can read immediately and still want to contemplate again.`,
+  },
+
 ]
