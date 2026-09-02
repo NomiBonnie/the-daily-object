@@ -12287,4 +12287,53 @@ The Gateway Arch achieves gravity without ornamental complexity. By day it recei
     significance_en: `The Gateway Arch shows that the most forceful forms can look simple while hiding immense complexity. Behind one curve sit a competition, calculations, material science, construction, and almost no tolerance for error. What viewers receive is simply the clean shock of looking up. Good design does not display complexity; it absorbs it, leaving an answer anyone can read immediately and still want to contemplate again.`,
   },
 
+
+  {
+    id: '373',
+    date: '2026-09-02',
+    imageUrl: '/the-daily-object/images/god-of-war-2018.jpg',
+    fullImageUrl: '/the-daily-object/images/full/god-of-war-2018.webp',
+    title: 'God of War',
+    title_en: 'God of War',
+    subtitle: '圣莫尼卡工作室 / Cory Barlog, 2018',
+    subtitle_en: 'Santa Monica Studio / Cory Barlog, 2018',
+    category: 'software' as const,
+    designer: '圣莫尼卡工作室 / Cory Barlog',
+    year: '2018',
+    tags: ['重写动作叙事', '定义父子体验', '一镜到底革命'],
+    tags_en: ['Rewrote Action Storytelling', 'Defined Father-Son Play', 'One-Shot Camera Revolution'],
+
+    dateConnection: `1975年9月2日，《God of War》创意总监 Cory Barlog 出生。这位从初代战神的首席动画师一路走来的创作者，在2018年把一个以愤怒和复仇闻名的系列，重新设计成一段父子共行的旅程。`,
+    designerBio: `Cory Barlog 的职业轨迹几乎与《God of War》系列同步。加入圣莫尼卡工作室后，他先担任2005年初代的首席动画师，随后执导《God of War II》；2018年，他回到系列担任总监与联合编剧。对他而言，重启并不是把旧角色换上北欧盔甲，而是重新提问：当奎托斯不再只是一台愤怒机器，他的身体、镜头、战斗与玩家的情感距离该如何一起改变？
+
+这是一种很少被归入“设计”的创作工作：把剧本、动作、关卡、镜头、交互、音效与界面组织成同一个体验。Barlog 与圣莫尼卡团队没有把叙事放在过场动画里、把游戏放在另一边；他们让两者从同一条镜头和同一双手里发生。`,
+    story: `2018年的《God of War》最激进的决定，藏在一个表面上很安静的规则里：**从开场到片尾，镜头几乎从不切断。** 它跟随奎托斯和儿子阿特柔斯穿越九界，战斗时绕到肩后，划船时慢下来听他们交谈，开门、解谜、攀爬和过场之间也不“黑屏换场”。这不是炫技的长镜头，而是一项体验设计：玩家没有被剪辑送离这对父子，只能和他们一起走完尴尬、争执、沉默与靠近。
+
+视角也被彻底重做。旧作以固定机位、宽广场面和夸张连击制造神话级暴力；新作收紧为肩后近景。利维坦之斧掷出再召回的手感，把战斗变成一种可以反复学习的身体语言；阿特柔斯的箭、提示与成长则不只是“辅助角色”，而是系统和情感同时在场的第二条线。UI、关卡和对白都服务于同一个目标：让玩家感到自己不是观看奎托斯变成父亲，而是在操作中陪他学会成为父亲。
+
+页面使用的是 PlayStation 官方发布的《God of War》2018 原始封面艺术：奎托斯与阿特柔斯同乘小舟、面对北欧荒野，正是作品核心的双人关系与新世界观，而非无关的玩家照片或展览画面。`,
+    legacy: `• 把连续镜头从电影语法变成可操作的互动叙事
+• 证明成熟的角色关系能重塑动作游戏的核心体验
+• 以利维坦之斧的投掷与召回建立一套高辨识度操作语言
+• 推动3A游戏将镜头、关卡与对白视为一体化体验系统
+• 为“电影感游戏”提供了不牺牲交互的范本`,
+    significance: `《God of War》最值得设计师研究的，不是它画面有多贵，而是它如何让一个大胆限制变成统一语言。团队选择不切镜头，于是关卡要能自然衔接，UI要尽量退后，动作要保证可读，角色关系也必须在行进中慢慢显影。好的限制没有束缚作品，反而迫使每一个部门回答同一个问题：玩家此刻应该感到自己离这两个人有多近？`,
+
+    dateConnection_en: `Cory Barlog, creative director of God of War, was born on September 2, 1975. Having grown from lead animator on the original game into the 2018 director and co-writer, he helped redesign a series known for rage and revenge as a journey shared by a father and son.`,
+    designerBio_en: `Cory Barlog’s career has run almost in parallel with God of War. After joining Santa Monica Studio, he served as lead animator on the 2005 original and later directed God of War II. In 2018 he returned as director and co-writer. The task was not simply to put an old character in Norse armour, but to ask a deeper question: if Kratos was no longer only a machine for anger, how should his body, camera, combat, and emotional distance from the player change together?
+
+That is design work rarely labelled as such: arranging script, animation, levels, camera, interaction, sound, and interface into one experience. Barlog and the Santa Monica team did not put story in cutscenes and gameplay somewhere else. They made both unfold through the same continuous gaze and the same pair of hands.`,
+    story_en: `God of War’s most radical 2018 decision sits inside a seemingly quiet rule: **from the opening to the credits, the camera almost never cuts.** It follows Kratos and his son Atreus through the Nine Realms, moving over the shoulder in combat, slowing during boat conversations, and bridging doors, puzzles, climbs, and cinematic moments without a blackout. This was not a long-take stunt. It was experience design: the player is not edited away from the pair, but made to travel through their awkwardness, conflict, silence, and growing closeness.
+
+The viewpoint was rebuilt as well. Earlier games used fixed cameras, broad spectacle, and exaggerated combos to create mythic violence; the new game tightened into an intimate over-the-shoulder view. Throwing and recalling the Leviathan Axe turns combat into a learnable physical language. Atreus’s arrows, prompts, and growth are not merely support mechanics, but a second emotional and systemic line. UI, level design, and dialogue all serve one aim: the player does not watch Kratos become a father; they help him learn it through play.
+
+The image used here is PlayStation’s official 2018 God of War cover art: Kratos and Atreus share a boat before a Nordic wilderness, directly expressing the game’s central two-person relationship and its new world—not a player photograph or exhibition shot.`,
+    legacy_en: `• Turned the continuous shot from film grammar into playable interactive storytelling
+• Proved that a mature character relationship can reshape an action game’s core experience
+• Established the thrown-and-recalled Leviathan Axe as a distinctive interaction language
+• Encouraged AAA teams to treat camera, levels, and dialogue as one experience system
+• Offered a model for cinematic games that does not sacrifice player agency`,
+    significance_en: `God of War is valuable to designers not because it looks expensive, but because one bold constraint becomes a shared language. Once the team chose not to cut the camera, levels had to connect naturally, UI had to recede, action had to remain legible, and relationships had to emerge while moving. The constraint did not restrict the work; it made every discipline answer the same question: how close should the player feel to these two people right now?`,
+  },
+
 ]
