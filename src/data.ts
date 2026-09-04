@@ -12389,4 +12389,57 @@ This page uses Kenneth C.’s 1995 full-façade photograph of the Wainwright Bui
     significance_en: `The Wainwright Building matters not because it resembles today’s glass towers, but because it stopped dressing new technology in the costume of an older age. Sullivan neither replaced aesthetics with engineering nor concealed engineering with ornament. He identified the tall office building’s inner order, then made that order perceptible as rhythm. The lesson still holds for product, interface, and brand designers: when something new appears, do not rush to give it a familiar shell. Find its organising logic first, then let form speak it honestly.`,
   },
 
+
+  {
+    id: '375',
+    date: '2026-09-04',
+    imageUrl: '/the-daily-object/images/google-main-page-1998.png',
+    fullImageUrl: '/the-daily-object/images/full/google-main-page-1998.png',
+    title: 'Google 1998 年主页面',
+    title_en: 'Google Main Page, 1998',
+    subtitle: 'Google 设计团队, 1998',
+    subtitle_en: 'Google Design Team, 1998',
+    category: 'software' as const,
+    designer: 'Google 设计团队',
+    year: '1998',
+    tags: ['定义搜索极简主义', '重塑信息入口', '网页速度新标准'],
+    tags_en: ['Defined Search Minimalism', 'Reshaped Information Access', 'Set a New Speed Standard'],
+
+    dateConnection: `1998年9月4日，Larry Page 与 Sergey Brin 在加州正式注册 Google Inc.。那时它还不是今天无所不在的平台，而是一张几乎空白的网页：一个彩色标志、一条搜索框、两个按钮。`,
+    designerBio: `Google 最初的界面并非由某位明星设计师署名，而是由创始人和早期工程、产品团队在资源极少的情况下共同塑造。Larry Page 与 Sergey Brin 的核心突破是 PageRank：不只匹配关键词，也借由网页之间的链接关系判断结果的重要性。但让这套技术成为日常习惯的，是它被包装成一个几乎无需说明的产品。
+
+1998年的 Google 仍带着一种车库创业公司的直接感：页面没有门户网站常见的新闻栏、频道入口、广告横幅或密集导航。它把全部注意力留给一个动作——输入问题，然后按下搜索。这个选择后来成为产品设计史上最有影响力的“删除”之一。`,
+    story: `90年代末的网页，常把首页做成信息广场：链接、天气、股票、新闻、邮箱入口争相占据视野。早期 Google 反其道而行。页面中央只有彩色的 **Google!** 标志、一个长输入框、“Google Search”和“I'm Feeling Lucky”两个按钮，底部甚至还标注着索引页数量。它看起来朴素得近乎未经设计，却把复杂的排序技术隐藏在一个可立即理解的界面背后。
+
+**真正的设计决定，是把搜索从“浏览一个网站”改写为“直接提出一个问题”。** 留白让输入框成为绝对焦点；按钮的文案分别服务于确定性与偶然性；极少的视觉噪音也让速度变成可感知的品质。当其他门户试图让用户停留，Google 的界面反而努力让用户尽快离开，抵达答案。这种把产品价值放在下一步而非当前页面的思路，后来重塑了人们进入互联网的方式。
+
+这份页面也保留了早期网络的粗粝细节：感叹号、蓝色下划线链接、计数器和 “Stanford Search” 提示。它们提醒我们，极简不是把一切变成无菌的白；极简是只保留完成核心任务所必需的东西。Google 后来经历过无数功能、品牌与商业模式的扩张，但那条搜索框始终是它最强的产品承诺。
+
+页面采用 Wikimedia Commons 收录的 Google 1998 年主页面原始存档截图，来源指向 1998年12月2日的网页存档。它直接展示标题所述的搜索页面本体，包括当年的标志、搜索框、按钮和链接；并非人物照、办公室照或氛围图，与 software 分类和本文故事精确一致。`,
+    legacy: `• 以单一搜索框建立互联网最广泛使用的信息入口
+• 证明留白与克制能让复杂技术变得可立即理解
+• 将“更快抵达结果”确立为网页体验的重要价值
+• 让搜索框成为后来浏览器、手机与应用的通用交互原型
+• 推动产品界面从门户堆叠转向任务优先的设计逻辑`,
+    significance: `Google 1998 年主页面值得反复看，不是因为它“简陋”，而是因为它极其明确。团队没有把搜索引擎的复杂性展示出来，也没有用内容把用户困在自己的首页；它只把最重要的能力放在最容易开始的地方。对今天的产品设计而言，这仍是一个锋利的问题：当你的产品终于有能力做很多事时，能不能仍让用户第一眼知道，自己该做什么？`,
+
+    dateConnection_en: `On September 4, 1998, Larry Page and Sergey Brin formally incorporated Google Inc. in California. It was not yet the platform that would become ubiquitous, but an almost blank page: a colourful logo, one search field, and two buttons.`,
+    designerBio_en: `Google’s early interface was not credited to a celebrity designer. It emerged from founders and an early engineering and product team working with very little. Larry Page and Sergey Brin’s central breakthrough was PageRank: ranking pages not merely by matching words, but by the authority implied by links between them. What made that technical idea a daily habit, however, was a product that needed almost no explanation.
+
+The 1998 Google carried the directness of a garage start-up. It lacked the news rails, channel directories, ads, and crowded navigation that filled contemporary portals. Instead it reserved attention for one action: enter a question and search. That decision became one of the most consequential acts of deletion in product-design history.`,
+    story_en: `In the late 1990s, web homepages were information plazas: links, weather, stocks, news, and mail competed for attention. Early Google did the opposite. Its centre held only a colourful **Google!** logo, one long text field, the “Google Search” and “I’m Feeling Lucky” buttons, and even a count of indexed pages below. It looked almost undesigned, yet it put complicated ranking technology behind an interface anyone could grasp at once.
+
+**Its essential design move was to turn search from “browsing a website” into “asking a question directly.”** Whitespace made the field the absolute focal point. The two buttons offered certainty and serendipity. The lack of visual noise made speed feel like a product quality. While portals tried to keep visitors inside, Google’s interface was designed to let them leave quickly with an answer. That idea—placing product value in the user’s next step rather than on the current page—changed how people entered the web.
+
+The page also preserves the rough edges of the early internet: the exclamation point, underlined blue links, a counter, and a “Stanford Search” note. Minimalism does not mean sterile emptiness; it means keeping what the core task requires. Google later added innumerable features, brands, and business models, but its search field remained its clearest product promise.
+
+The page uses an original archived screenshot of Google’s 1998 main page, held on Wikimedia Commons and credited to a December 2, 1998 web archive. It directly shows the named object itself—the period logo, search field, buttons, and links—not a person, office, or mood image. It precisely matches the software category and the story.`,
+    legacy_en: `• Established a single search field as the web’s most widely used gateway to information
+• Proved that whitespace and restraint can make complex technology immediately understandable
+• Made rapid arrival at a result a central value of web experience
+• Turned the search box into a shared interaction prototype for browsers, phones, and apps
+• Helped move interface design from portal accumulation toward task-first logic`,
+    significance_en: `Google’s 1998 main page remains worth studying not because it was “bare,” but because it was unambiguous. The team did not display the complexity of a search engine or trap users with homepage content. It put the most important capability in the easiest possible place to begin. For product design now, that remains a sharp question: once a product can do many things, can a user still see at first glance what to do?`,
+  },
+
 ]
