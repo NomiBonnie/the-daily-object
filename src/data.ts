@@ -12442,4 +12442,56 @@ The page uses an original archived screenshot of Google’s 1998 main page, held
     significance_en: `Google’s 1998 main page remains worth studying not because it was “bare,” but because it was unambiguous. The team did not display the complexity of a search engine or trap users with homepage content. It put the most important capability in the easiest possible place to begin. For product design now, that remains a sharp question: once a product can do many things, can a user still see at first glance what to do?`,
   },
 
+  {
+    id: '376',
+    date: '2026-09-05',
+    imageUrl: '/the-daily-object/images/bob-dylan-greatest-hits.jpg',
+    fullImageUrl: '/the-daily-object/images/full/bob-dylan-greatest-hits.jpg',
+    title: 'Bob Dylan’s Greatest Hits 专辑封面',
+    title_en: 'Bob Dylan’s Greatest Hits',
+    subtitle: 'Bob Cato / John Berg / Roland Scherman, 1967',
+    subtitle_en: 'Bob Cato / John Berg / Roland Scherman, 1967',
+    category: 'graphic' as const,
+    designer: 'Bob Cato / John Berg / Roland Scherman',
+    year: '1967',
+    tags: ['重塑专辑封面', '流行文化图腾', '唱片包装革命'],
+    tags_en: ['Redefined Album Covers', 'Pop-Culture Icon', 'Revolutionized Record Packaging'],
+
+    dateConnection: `1923年9月5日，平面设计师兼摄影师 Bob Cato 出生于新奥尔良。RIT Cary Graphic Arts Collection 记录，他在 Columbia Records 的十年间帮助把唱片封面从包装，变成一种独立的当代艺术形式；《Bob Dylan’s Greatest Hits》正是其中最持久的一张。`,
+    designerBio: `Bob Cato（1923—1999）不是只会给唱片“配张照片”的美术总监。少年时他曾在墨西哥向 Pablo O’Higgins 与 José Clemente Orozco 学习绘画，18岁即入选 Carnegie International；进入 CBS/Columbia Records 后，他把摄影、排版、艺术指导与艺人形象放进同一个画面里思考。
+
+1960年代的 Columbia 是流行音乐视觉语言的实验室。Cato 在那里创作或监督了一批决定时代面貌的封面，并在 1971 年出任 United Artists Records and Films 创意服务副总裁。RIT 的档案特别指出，他让地下漫画家 R. Crumb 为 Big Brother and the Holding Company 的《Cheap Thrills》作画；这种把作者性鲜明的视觉创作带进主流唱片工业的做法，改变了封面能承担什么。`,
+    story: `1967 年，Bob Dylan 已经从民谣歌手变成一整个时代的声音；这张精选集要把十首歌装进一个方形的纸套。摄影师 Roland Scherman 在 1965 年华盛顿的一场演出中拍下 Dylan 的侧影，Bob Cato 与 Columbia 艺术总监 John Berg 则没有把它当成一张普通肖像：他们把黑色轮廓推到近乎海报般的强度，让头发边缘炸开明亮的蓝、黄、红与白，并把厚重、紧凑的白字压在脸部中央。
+
+**这张封面的厉害之处，是它把“看不清脸”变成了更强的识别。** Dylan 的个体肖像被处理成一个带噪点、带光晕的符号；彩色从轮廓向外喷射，像扩音器里的电流，也像 60 年代正在失控扩张的青年文化。黑色、白色和高饱和色之间的极端对比，令它在唱片架上远距离仍能被一眼认出。
+
+作品没有靠复杂的信息层级取胜。歌名列表、厂牌标识、主标题都被放进同一个剪影系统中：标题不是浮在照片上的说明，而是肖像本身的一部分。这个决定也让封面在缩小到手机屏幕、放大到海报时仍然成立。它后来赢得第 10 届格莱美“最佳专辑封面”奖，证明唱片包装可以和音乐本身一样，进入公共记忆。
+
+本页采用 Apple Music 数字发行所使用的《Bob Dylan’s Greatest Hits》官方专辑封面图：直接呈现1967年原始封面的 Dylan 黑色剪影、爆裂色彩和完整排版，不是唱片实拍、演出现场照或人物肖像替代图，与标题、故事及 graphic 分类完全一致。`,
+    legacy: `• 以高度抽象的肖像建立摇滚史最易辨识的封面之一
+• 让“艺术指导 + 摄影 + 排版”成为专辑视觉的完整创作团队
+• 推动唱片封面从商品包装进入当代平面设计与流行文化史
+• 证明极少的色彩、文字和轮廓也能制造极强的货架识别
+• 为音乐品牌的跨尺度视觉系统留下经典范本`,
+    significance: `好的唱片封面不替音乐做插图，而是替音乐先建立一个可被记住的入口。《Bob Dylan’s Greatest Hits》没有试图画出每首歌，也没有把 Dylan 拍得更“真实”；它抓住了一个更抽象、也更准确的感受：一个人被时代的声音与颜色包围。Cato、Berg 与 Scherman 用一个剪影完成了这种转译。对今天做品牌的人来说，这张封面依然锋利：当信息越来越多时，最强的识别往往来自敢于删掉细节，只留下不会被误认的核心形状。`,
+
+    dateConnection_en: `Bob Cato, the graphic designer and photographer, was born in New Orleans on September 5, 1923. The RIT Cary Graphic Arts Collection records that his decade at Columbia Records helped turn album covers from packaging into a distinct form of contemporary art; Bob Dylan’s Greatest Hits is one of its most enduring examples.`,
+    designerBio_en: `Bob Cato (1923–1999) was not an art director who merely “added a photograph” to a record. As a teenager in Mexico he studied painting with Pablo O’Higgins and José Clemente Orozco; at eighteen he exhibited in the Carnegie International. At CBS/Columbia Records, he brought photography, typography, art direction, and an artist’s public image into a single visual thought.
+
+Columbia in the 1960s was a laboratory for pop music’s visual language. Cato created or supervised a body of era-defining sleeves before becoming vice president of creative services at United Artists Records and Films in 1971. The RIT archive notes one especially consequential move: bringing underground illustrator R. Crumb to Big Brother and the Holding Company’s *Cheap Thrills*. It expanded what an album cover could carry inside the mainstream record industry.`,
+    story_en: `In 1967, Bob Dylan had become more than a folk singer: he was a voice of an era. This compilation had to hold ten songs in one square sleeve. Photographer Roland Scherman had captured Dylan’s profile at a 1965 Washington performance. Bob Cato and Columbia art director John Berg did not treat it as an ordinary portrait: they drove the silhouette almost to poster intensity, exploding bright blue, yellow, red, and white around the hair while pressing heavy, compact white type into the centre of the face.
+
+**The cover’s power lies in making an unreadable face more recognisable.** Dylan’s individual likeness becomes a grainy, haloed sign. Colour bursts from its edge like current from an amplifier, or like the youth culture of the 1960s expanding beyond containment. The extreme contrast between black, white, and saturated colour means it can be recognised from across a record store.
+
+It does not win through a complicated information hierarchy. Track list, Columbia mark, and title all belong to one silhouette system: the typography is not an explanation floating over a photograph but part of the portrait itself. That decision lets the image survive as a small phone thumbnail or a large poster. It later won the 10th Grammy Award for Best Album Cover, demonstrating that record packaging could enter public memory as forcefully as the music it carried.
+
+This page uses the official *Bob Dylan’s Greatest Hits* cover artwork supplied with its Apple Music digital release. It directly shows the original 1967 design—the black Dylan silhouette, explosive colour, and complete typography—not a photograph of a record, a performance shot, or substitute portrait. It precisely matches the title, story, and graphic category.`,
+    legacy_en: `• Built one of rock history’s most recognisable sleeves from an abstracted portrait
+• Established art direction, photography, and typography as one integrated album-visual team
+• Helped move record covers from product packaging into graphic-design and pop-culture history
+• Proved that a few colours, words, and contours can create extraordinary shelf recognition
+• Left a classic model for music branding that works at every scale`,
+    significance_en: `A great album cover does not illustrate the music; it gives the music a memorable first entrance. *Bob Dylan’s Greatest Hits* does not attempt to picture every song or make Dylan look more “real.” It catches a more abstract and truer sensation: a person surrounded by the sound and colour of an era. Cato, Berg, and Scherman translate that sensation with one silhouette. The lesson remains sharp for brand designers: as information grows, the strongest identity often comes from removing detail until only the form that cannot be mistaken remains.`,
+  },
+
 ]

@@ -1,6 +1,6 @@
 # Daily Object Index
 
-Last updated: 2026-08-21
+Last updated: 2026-09-05
 
 | 日期 | 作品 | 设计师 | 分类 |
 |------|------|--------|------|
@@ -29,3 +29,5 @@ Last updated: 2026-08-21
 | 07-29 | The Starry Night | Vincent van Gogh | art |
 
 | 08-21 | Revolt Chair | Friso Kramer | industrial |
+
+| 09-05 | Bob Dylan’s Greatest Hits | Bob Cato / John Berg / Roland Scherman | graphic |
