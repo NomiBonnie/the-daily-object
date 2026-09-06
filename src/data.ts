@@ -12494,4 +12494,56 @@ This page uses the official *Bob Dylan’s Greatest Hits* cover artwork supplied
     significance_en: `A great album cover does not illustrate the music; it gives the music a memorable first entrance. *Bob Dylan’s Greatest Hits* does not attempt to picture every song or make Dylan look more “real.” It catches a more abstract and truer sensation: a person surrounded by the sound and colour of an era. Cato, Berg, and Scherman translate that sensation with one silhouette. The lesson remains sharp for brand designers: as information grows, the strongest identity often comes from removing detail until only the form that cannot be mistaken remains.`,
   },
 
+
+  {
+    id: '377',
+    date: '2026-09-06',
+    imageUrl: '/the-daily-object/images/black-panther-costume-design.jpg',
+    fullImageUrl: '/the-daily-object/images/full/black-panther-costume-design.jpg',
+    title: '《Black Panther》服装设计',
+    title_en: 'Black Panther Costume Design',
+    subtitle: 'Ruth E. Carter, 2018',
+    subtitle_en: 'Ruth E. Carter, 2018',
+    category: 'film' as const,
+    designer: 'Ruth E. Carter',
+    year: '2018',
+    tags: ['重写超级英雄美学', '非洲未来主义范本', '奥斯卡服装突破'],
+    tags_en: ['Redefined Superhero Style', 'Afrofuturist Design Model', 'Oscar Costume Breakthrough'],
+
+    dateConnection: `2026年9月6日，费城非裔美国人博物馆（AAMP）的“Ruth E. Carter: Afrofuturism in Costume Design”展览在今日闭幕。展览回望 Carter 横跨数十年的创作，而《Black Panther》的服装正是她把非洲历史、当代时装与未来想象织进同一个银幕世界的代表作。`,
+    designerBio: `Ruth E. Carter 是美国电影史上最具影响力的服装设计师之一。她早年从剧场进入电影，长期与 Spike Lee、Steven Spielberg 和 Ryan Coogler 合作，作品包括《Malcolm X》《Amistad》《Selma》与《Black Panther》。她的工作从不把服装当成最后一道“造型工序”：人物的阶层、权力、迁徙经历和文化记忆，都先被她拆解成材质、色彩、轮廓与佩戴方式。
+
+2019年，Carter 凭《Black Panther》获得奥斯卡最佳服装设计，成为第一位获得该奖项的非裔美国人。这个历史性的奖项并不只是对一套华丽戏服的肯定；它认可的是一种世界构建能力：让观众相信 Wakanda 既拥有真实的文化根系，也从未被殖民历史规定它只能长成什么样子。`,
+    story: `《Black Panther》的难题，是为一个从未存在过的国家建立完整而可信的视觉文明。Wakanda 必须比现实世界更先进，却不能沦为“把银色金属贴到非洲纹样上”的科幻拼贴。Carter 从非洲大陆不同地区的服饰传统、珠饰、编织、身体装饰和仪式着装中研究出发，再把它们转译为有功能、有阶层、有地域差异的未来衣橱。
+
+**她没有设计一套“非洲风”服装，而是设计了一个拥有自身规则的社会。** Dora Milaje 的红色战甲将马赛传统、颈饰与铠甲逻辑结合，强烈却不暴露；Shuri 的实验室服装更轻、更明亮，带有年轻工程师的速度感；T’Challa 的黑色战衣则把豹的肌理、礼服的克制与纳米科技的想象压进同一条轮廓。每一种图案、金属和颜色，都帮助观众无需台词便读出角色属于哪个群体，以及他们如何理解力量。
+
+Carter 最聪明的地方，是拒绝把“未来”画成无色、光滑、去地方性的东西。Wakanda 的技术非常先进，但它仍然有布料的褶皱、手工的节奏、家族与仪式留下的痕迹。**未来不再等于抹掉文化，而是让文化拥有继续进化的权利。** 这使电影的视觉语言跳出了长期由欧美军事工业想象主导的超级英雄范式，也让 Afrofuturism 从概念标签成为可被观看、被穿着、被感受的设计系统。
+
+本页使用《Black Panther》2018年官方电影海报：画面直接呈现 T’Challa、Shuri、Nakia、Okoye 与 Dora Milaje 等核心角色的完整电影服装，并以 Wakanda 的几何建筑语言构成背景。它不是演员活动照、游客照或展览现场照，准确对应本页讨论的电影服装设计、角色关系与 film 分类。`,
+    legacy: `• 让超级英雄电影的服装从单一英雄造型扩展为完整文明的视觉系统
+• 证明历史研究、文化尊重与未来想象能够在商业大片中共存
+• 为 Afrofuturism 提供兼具大众传播力与细节深度的设计范本
+• 打开更多由黑人设计师主导的影视美术与服装叙事空间
+• 以奥斯卡历史性获奖确认服装设计是世界观构建的核心作者工作`,
+    significance: `《Black Panther》最值得设计师学习的，是 Carter 对“灵感”的处理方式。她没有把非洲当作可随手提取的纹样库，而是不断追问：这种材料属于谁？它为何这样佩戴？如果这个社会从未被切断发展，它会怎样继续变化？这些问题把引用变成了设计。真正有力量的未来感，也从来不是凭空出现的霓虹与金属；它来自对历史足够具体的理解，具体到能够让传统在新的世界里继续生长。`,
+
+    dateConnection_en: `On September 6, 2026, “Ruth E. Carter: Afrofuturism in Costume Design” closes at the African American Museum in Philadelphia. The exhibition surveys Carter’s decades of work; the costumes for Black Panther remain its defining example of weaving African history, contemporary fashion, and future imagination into one screen world.`,
+    designerBio_en: `Ruth E. Carter is one of the most influential costume designers in American film. Moving from theatre into cinema, she has worked extensively with Spike Lee, Steven Spielberg, and Ryan Coogler on films including Malcolm X, Amistad, Selma, and Black Panther. She does not treat costume as a finishing layer: a character’s class, power, migration, and cultural memory are first translated into material, colour, silhouette, and adornment.
+
+In 2019, Carter won the Academy Award for Best Costume Design for Black Panther, becoming the first African American winner in the category. The honour recognised more than spectacular garments. It acknowledged world-building: making Wakanda feel culturally rooted while refusing to let colonial history determine what its future could be.`,
+    story_en: `Black Panther faced a remarkable brief: build a complete, believable visual civilisation for a country that has never existed. Wakanda had to be more advanced than the contemporary world without becoming a sci-fi collage that simply pasted silver metal onto African motifs. Carter researched dress, beadwork, weaving, body adornment, and ceremonial clothing from across Africa, then translated them into a future wardrobe with function, hierarchy, and regional difference.
+
+**She did not make an “African look”; she designed a society with its own rules.** The Dora Milaje’s red armour brings together Maasai reference, neck-ring forms, and protective logic—powerful without sexualising its wearers. Shuri’s clothing is lighter and brighter, carrying the pace of a young engineer. T’Challa’s black suit compresses panther texture, formal restraint, and imagined nanotechnology into one silhouette. Pattern, metal, and colour let viewers read each group and its idea of power without exposition.
+
+Carter’s crucial move was refusing a future that is colourless, sleek, and placeless. Wakanda’s technology is advanced, yet its clothes retain folds of fabric, rhythms of handwork, and marks of family and ritual. **The future does not erase culture; it gives culture permission to keep evolving.** That shifted superhero imagery beyond a language long dominated by Euro-American military-industrial fantasy and made Afrofuturism a design system audiences could see and feel.
+
+This page uses the official 2018 Black Panther theatrical poster. It directly presents the period film costumes worn by T’Challa, Shuri, Nakia, Okoye, and the Dora Milaje, set within Wakanda’s geometric visual language. It is not an event, visitor, or exhibition photograph, and precisely matches the costume-design story and film category.`,
+    legacy_en: `• Expanded superhero costume from a single hero look into a visual system for an entire civilisation
+• Proved that historical research, cultural respect, and future imagination can coexist in a blockbuster
+• Offered Afrofuturism a model with both mass reach and extraordinary detail
+• Opened more space for Black-led costume and production-design storytelling
+• Confirmed through a historic Oscar that costume design is central authorship in world-building`,
+    significance_en: `Black Panther’s essential lesson is Carter’s treatment of “inspiration.” She did not use Africa as a pattern library to sample at will. She kept asking: who owns this material, why is it worn this way, and how might it evolve if this society had never been interrupted? Those questions turn reference into design. A powerful future is never just neon and metal invented from nothing; it grows from a history understood specifically enough to continue growing in a new world.`,
+  },
 ]
