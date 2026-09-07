@@ -12545,10 +12545,10 @@ This page uses the official 2018 Black Panther theatrical poster. It directly pr
 • Opened more space for Black-led costume and production-design storytelling
 • Confirmed through a historic Oscar that costume design is central authorship in world-building`,
     significance_en: `Black Panther’s essential lesson is Carter’s treatment of “inspiration.” She did not use Africa as a pattern library to sample at will. She kept asking: who owns this material, why is it worn this way, and how might it evolve if this society had never been interrupted? Those questions turn reference into design. A powerful future is never just neon and metal invented from nothing; it grows from a history understood specifically enough to continue growing in a new world.`,
-  },,
+  },
 
   {
-    id: '378',
+    id: '378'
     date: '2026-09-07',
     imageUrl: '/the-daily-object/images/ipod-nano-first-generation.jpg',
     fullImageUrl: '/the-daily-object/images/full/ipod-nano-first-generation.jpg',
