@@ -12548,7 +12548,7 @@ This page uses the official 2018 Black Panther theatrical poster. It directly pr
   },
 
   {
-    id: '378'
+    id: '378',
     date: '2026-09-07',
     imageUrl: '/the-daily-object/images/ipod-nano-first-generation.jpg',
     fullImageUrl: '/the-daily-object/images/full/ipod-nano-first-generation.jpg',
