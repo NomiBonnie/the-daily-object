@@ -12597,5 +12597,60 @@ This page uses a product image directly showing the complete front of a white fi
 • Made pocket-scale a central measure of digital product design
 • Set expectations for the thinness and reduced controls of later iPhone and iPod touch devices`,
     significance_en: `The first iPod nano matters less for how many songs it can hold today than for how clearly it translated a technical change into a bodily feeling. Flash storage was not the story by itself; the story began when it let an object nearly vanish into a pocket. Apple amplified that breakthrough not with ornament, but with very few elements: one screen, one wheel, one edge. For designers now, nano still makes the point that meaningful minimalism is not deleting detail—it is knowing exactly which details must remain.`,
+  },,
+  {
+    id: '379',
+    date: '2026-09-08',
+    imageUrl: '/the-daily-object/images/ray-gun-issue-22.jpg',
+    fullImageUrl: '/the-daily-object/images/full/ray-gun-issue-22.jpg',
+    title: 'Ray Gun Issue 22',
+    title_en: 'Ray Gun Issue 22',
+    subtitle: 'David Carson, 1995',
+    subtitle_en: 'David Carson, 1995',
+    category: 'graphic' as const,
+    designer: 'David Carson',
+    year: '1995',
+    tags: ['颠覆杂志排版', '定义九十年代视觉', '让字体成为情绪'],
+    tags_en: ['Disrupted Magazine Layout', 'Defined Nineties Visual Culture', 'Made Type Carry Emotion'],
+
+    dateConnection: `1955年9月8日，David Carson 出生于美国得州 Corpus Christi。今天选择他担任艺术总监的《Ray Gun》22期：这张以 Keith Richards 为主角的封面，浓缩了 Carson 在1990年代将版式、音乐与青年文化重新接线的方式。`,
+    designerBio: `David Carson 进入平面设计很晚。成为设计师之前，他是职业冲浪者、加州高中社会学教师；26岁才去上了一门两周的商业设计课。这个“不按正规路径进入行业”的起点，反而让他对既有的网格、层级和排版规矩保持了天然的不服从。此后他在《Transworld Skateboarding》《Beach Culture》等刊物工作，把冲浪文化里粗粝、偶发、贴近身体的感觉带进编辑设计。
+
+1992年至1995年，Carson 出任音乐与另类文化杂志《Ray Gun》的艺术总监。他不把文字当作透明的信息容器，而把字母的密度、残缺、重叠与失真当成图像来使用。Britannica 将他的实践概括为在1990年代革新视觉传播；而他后来获得 AIGA Medal，也说明这种曾被视为“破坏阅读”的做法，最终进入了平面设计的正典。`,
+    story: `《Ray Gun》不是一本把音乐新闻放进整齐版面的杂志。它本身就是1990年代另类音乐的视觉现场：噪声、犹疑、反商业的姿态，以及突然闯入的一记重音。1995年的第22期以 Keith Richards 的肖像为中心。Carson 没有把它处理成标准的明星封面：红色背景像被刮擦过，巨大而断开的 RAYGUN 字样压过头顶，人物的乱发和视线把版面中央搅成一团不稳定的张力。
+
+**这张封面最厉害的地方，是它并不追求“清楚”，却有极强的辨识度。** 杂志名被切到边缘，部分字母几乎出界；期号、条码和售价没有被藏起来，却也不再服从传统封面上规整的资讯层级。信息仍在，但每一项都像乐队演奏里的一个声部：有的刺耳，有的后退，有的故意不让你一次听明白。
+
+这不是任性地把秩序打碎。Carson 先抓住人物、音乐气质和读者注意力的核心，再让排版承担情绪。Keith Richards 的脸正面、冷静，周围却是红色、黑色与白色的碰撞；那种“控制中的失控”恰好贴合摇滚的魅力。字体不再只是讲述 Keith Richards 的标签，它和肖像一起塑造了他。
+
+《Ray Gun》最有争议的一次实验，是 Carson 曾把 Bryan Ferry 的采访全文排成 Zapf Dingbats，只因他觉得文章乏味。这个故事常被当作设计史轶闻，但真正留下来的不是“让文字不可读”的噱头，而是一个更严肃的问题：当所有媒介都在争抢注意力时，版式能否先让人感到，再让人阅读？第22期给出的答案很直接：可以，但每一处混乱都必须有自己的节奏。
+
+本页使用 David Carson 个人网站发布的《Ray Gun》22期原始封面图，直接呈现 Keith Richards 肖像、红色底色、RAYGUN 刊名、期号与条码。它不是杂志实拍、展览照或设计师肖像，准确对应本页讨论的特定刊物封面与 graphic 分类。`,
+    legacy: `• 把杂志封面从资讯容器推向具有作者性的视觉作品
+• 让破碎字体、非网格与重叠影像成为九十年代的重要视觉语汇
+• 证明“可读性”并非编辑设计唯一的价值尺度
+• 把独立音乐的声音、态度与不确定性转译为平面语言
+• 影响后来的音乐视觉、时尚编辑、数字媒体与实验排版`,
+    significance: `今天重看《Ray Gun》，最值得警惕的不是模仿它的“乱”，而是看清 Carson 对情绪与媒介的判断。他知道这本杂志面对的不是等待被教育的读者，而是一群先凭直觉决定是否靠近的人。因此他让封面先制造摩擦，再把信息留给愿意停下的人。好的平面设计不必永远温顺；但它必须清楚自己要打破什么、为什么打破，以及怎样让每一次破坏仍然指向同一个声音。`,
+
+    dateConnection_en: `David Carson was born in Corpus Christi, Texas, on September 8, 1955. Today’s object is Ray Gun issue 22, art-directed by Carson: its Keith Richards cover condenses the way he rewired layout, music, and youth culture in the 1990s.`,
+    designerBio_en: `David Carson came to graphic design late. Before becoming a designer, he was a competitive surfer and a California high-school sociology teacher; at twenty-six, he took a two-week commercial-design class. That unconventional beginning left him instinctively sceptical of inherited grids, hierarchies, and typographic rules. At Transworld Skateboarding and Beach Culture, he brought the roughness, contingency, and physical immediacy of surf culture into editorial design.
+
+From 1992 to 1995, Carson was art director of Ray Gun, a magazine of music and alternative culture. He treated letters not as transparent vessels for information but as images with density, damage, collision, and mood. Britannica describes his work as revolutionising visual communication in the 1990s; his later AIGA Medal confirms that what was once considered an attack on reading entered the graphic-design canon.`,
+    story_en: `Ray Gun was not a magazine that placed music news into obedient pages. It was a visual venue for 1990s alternative music: noise, doubt, anti-commercial attitude, and the sudden impact of a loud note. Issue 22 from 1995 centres on Keith Richards. Carson refuses the standard celebrity-cover treatment: a scraped-looking red ground, enormous broken RAYGUN lettering across the top, and the subject’s wild hair and direct gaze turn the centre into a deliberately unstable tension.
+
+**Its force lies in being less than fully “clear,” yet immediately recognisable.** The masthead is cut by the edge; letters almost leave the page. Issue number, barcode, and price remain visible, but no longer obey a conventional cover hierarchy. Information is still there, each element acting like a voice in a band: some harsh, some recessed, some intentionally not understood at first listen.
+
+This is not order broken for its own sake. Carson first locates the core of the subject, the music, and the reader’s attention, then makes typography carry the emotion. Richards’ face is frontal and calm; red, black, and white crash around it. That controlled loss of control is close to rock’s allure. Type does not merely label Keith Richards; it makes him with the portrait.
+
+Carson’s most notorious Ray Gun experiment set a Bryan Ferry interview entirely in Zapf Dingbats because he found the text dull. The anecdote is often reduced to a gimmick. Its enduring question is more serious: when every medium fights for attention, can layout make us feel before it asks us to read? Issue 22 answers yes—but only when every disturbance has its own rhythm.
+
+This page uses the original Ray Gun issue 22 cover image published on David Carson’s own website. It directly shows the Keith Richards portrait, red field, RAYGUN masthead, issue number, and barcode—not a photographed magazine, exhibition image, or designer portrait—and precisely matches this specific cover and its graphic category.`,
+    legacy_en: `• Pushed the magazine cover from information container to authored visual work
+• Made fractured type, anti-grid composition, and image overlap a defining 1990s visual language
+• Demonstrated that legibility is not editorial design’s only measure of value
+• Translated independent music’s sound, attitude, and uncertainty into graphic form
+• Influenced later music visuals, fashion editorials, digital media, and experimental typography`,
+    significance_en: `What matters in Ray Gun now is not copying its messiness, but recognising Carson’s judgment about emotion and medium. He understood that this magazine faced readers who would decide by instinct whether to come closer. The cover therefore creates friction first, then leaves information for those willing to pause. Graphic design need not always be polite. It must, however, know what it breaks, why it breaks it, and how every break still points toward one voice.`,
   },
 ]
