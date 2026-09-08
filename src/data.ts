@@ -12597,7 +12597,7 @@ This page uses a product image directly showing the complete front of a white fi
 • Made pocket-scale a central measure of digital product design
 • Set expectations for the thinness and reduced controls of later iPhone and iPod touch devices`,
     significance_en: `The first iPod nano matters less for how many songs it can hold today than for how clearly it translated a technical change into a bodily feeling. Flash storage was not the story by itself; the story began when it let an object nearly vanish into a pocket. Apple amplified that breakthrough not with ornament, but with very few elements: one screen, one wheel, one edge. For designers now, nano still makes the point that meaningful minimalism is not deleting detail—it is knowing exactly which details must remain.`,
-  },,
+  },
   {
     id: '379',
     date: '2026-09-08',
