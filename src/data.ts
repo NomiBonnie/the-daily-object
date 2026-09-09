@@ -12652,7 +12652,7 @@ This page uses the original Ray Gun issue 22 cover image published on David Cars
 • Translated independent music’s sound, attitude, and uncertainty into graphic form
 • Influenced later music visuals, fashion editorials, digital media, and experimental typography`,
     significance_en: `What matters in Ray Gun now is not copying its messiness, but recognising Carson’s judgment about emotion and medium. He understood that this magazine faced readers who would decide by instinct whether to come closer. The cover therefore creates friction first, then leaves information for those willing to pause. Graphic design need not always be polite. It must, however, know what it breaks, why it breaks it, and how every break still points toward one voice.`,
-  },,
+  },
 
   {
     id: '380',
