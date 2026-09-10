@@ -12682,4 +12682,57 @@ This page uses the original Ray Gun issue 22 cover image published on David Cars
     significance_en: `The original PlayStation matters for more than its sales. It shows the real challenge of platform design: not perfecting performance, buttons, and advertising separately, but making them speak one language. The circular lid tells you the medium, the grips tell you how long it can stay with you, and the coloured symbols give you bearings the moment you pick it up. Thirty years later, many devices still chase that kind of coherence.`,
   },
 
+  {
+    id: '381',
+    date: '2026-09-10',
+    imageUrl: '/the-daily-object/images/schiaparelli-shoe-hat.jpg',
+    fullImageUrl: '/the-daily-object/images/full/schiaparelli-shoe-hat.jpg',
+    title: '鞋帽',
+    title_en: 'Shoe Hat',
+    subtitle: 'Elsa Schiaparelli 与 Salvador Dalí, 1937–38',
+    subtitle_en: 'Elsa Schiaparelli with Salvador Dalí, 1937–38',
+    category: 'fashion' as const,
+    designer: 'Elsa Schiaparelli 与 Salvador Dalí',
+    year: '1937–38',
+    tags: ['让超现实主义上身', '颠覆时尚物件逻辑', '定义怪诞的优雅'],
+    tags_en: ['Put Surrealism on the Body', 'Disrupted Fashion Object Logic', 'Defined Elegant Absurdity'],
+
+    dateConnection: `1890年9月10日，Elsa Schiaparelli 出生于罗马。今天选她与 Salvador Dalí 在1937至1938年合作的 Shoe Hat：一只高跟鞋被翻到头顶，鞋跟直立，鞋尖越过额头。`,
+    designerBio: `Elsa Schiaparelli 并不把时装理解为对身体的温顺修饰。1920年代末在巴黎成名时，她先以针织衫上的错视蝴蝶结抓住注意力；随后把运动服、醒目的拉链、可见的扣件和她命名为“Shocking Pink”的强烈粉色带进高级定制。她让衣服既能被穿着，也能像一句带刺的视觉宣言被阅读。
+
+她与超现实主义者的关系，令这条路走得更远。Schiaparelli 与 Jean Cocteau、Alberto Giacometti、Salvador Dalí 等人合作，却从未只是把艺术品贴到裙子上：她懂得把画家的荒诞想法变成服装的结构、触感和社交场景。V&A 收藏的 Shoe Hat 正是这种转译最精确的例子。`,
+    story: `Shoe Hat 的起点是一张 Dalí 的私人玩笑照片：他把 Gala 的鞋顶在头上。Schiaparelli 看见的不是一个可以复制的恶作剧，而是一种可穿戴的错位。她把深蓝羊毛毡塑成高跟鞋，鞋尖像帽檐一样伸到额前，再以鲜艳的 fuchsia 丝绒竖起鞋跟。日常物件的功能没有被抹去，反而被完整保留；正因如此，位置一换，荒谬感才如此强烈。
+
+**它的厉害不在“像一只鞋”，而在于它让观者同时看见两套规则。** 你知道鞋应该在地上，也知道帽子应该顺着头部生长；这个物件偏偏同时满足鞋的轮廓与帽的佩戴方式。Schiaparelli 没有用复杂装饰掩盖矛盾，而是用极干净的侧影、有限的黑蓝与粉色，把矛盾变成一种近乎雕塑的优雅。
+
+1937至1938年，它出现在她的秋冬系列中，并由 Gala Dalí、Schiaparelli 本人与 Daisy Fellowes 等人佩戴。那是高级时装仍紧密服务于社交礼仪的年代；Shoe Hat 却把礼帽这个最讲究“得体”的配件，变成对得体本身的提问。它没有拒绝奢华的工艺，反而以羊毛毡和丝绒的质地证明：荒诞不是草率，幽默也可以被精确制作。
+
+它后来不断被展览、摄影和流行文化引用，原因并非猎奇。Schiaparelli 提前揭示了一件今天仍成立的事：时尚设计的力量，常常来自熟悉事物被重新安排的那一瞬。改变尺度、位置与语境，就足以让一个鞋跟从功能部件变成一记视觉标点。
+
+本页使用 V&A 收藏的 Shoe Hat 馆藏原图。画面直接呈现1937至1938年的深蓝鞋体、桃红丝绒鞋跟与侧面轮廓，是作品本身的专业馆藏摄影，不是模特、游客或展览现场照，严格对应标题、故事与 fashion 分类。`,
+    legacy: `• 将超现实主义从画布与展厅带入可被穿戴的日常物件
+• 证明高级时装能以结构而非图案制造观念冲击
+• 让“错位”成为后来先锋时装与造型设计的重要方法
+• 以 Shocking Pink 与深色毡材建立高度可辨识的视觉记忆
+• 提醒设计师：幽默、工艺与精确可以同时成立`,
+    significance: `Shoe Hat 看似轻巧，却是一件非常严肃的设计作品。它不靠新材料或复杂技术取胜，而是把每个人都认识的鞋重新放到一个不该出现的位置。Schiaparelli 由此证明，创新有时并非增加更多，而是精准地移动一个既有符号，让我们突然重新审视身体、礼仪与美。`,
+
+    dateConnection_en: `Elsa Schiaparelli was born in Rome on September 10, 1890. Today’s object is Shoe Hat, her 1937–38 collaboration with Salvador Dalí: a high-heeled shoe turned upside down for the head, its heel upright and toe crossing the forehead.`,
+    designerBio_en: `Elsa Schiaparelli did not see fashion as a polite embellishment of the body. Rising in Paris in the late 1920s with trompe-l’oeil knitwear, she brought sportswear, emphatic zips, visible fastenings, and her “Shocking Pink” into couture. Her clothes could be worn, but also read as pointed visual statements.
+
+Her alliances with Surrealists took that method further. With Jean Cocteau, Alberto Giacometti, and Salvador Dalí, she did not simply attach artworks to dresses: she translated imaginative provocation into structure, texture, and social encounter. The V&A’s Shoe Hat is among the clearest of those translations.`,
+    story_en: `Shoe Hat began with a private joke: a photograph of Dalí balancing Gala’s shoe on his head. Schiaparelli saw not a gag to copy but a wearable displacement. She shaped dark-blue wool felt into a high heel, extended its toe over the brow like a brim, and raised the heel in fuchsia silk velvet. The everyday object remains unmistakably a shoe; that is exactly why its change of place is so disorienting.
+
+**Its power is not simply that it resembles a shoe, but that it makes two systems of rules visible at once.** We know shoes belong on the ground and hats are meant to grow from the head. This object obeys both the shoe’s silhouette and the hat’s function. Rather than decorating away the contradiction, Schiaparelli uses a clean profile and a restrained blue-and-pink palette to turn it into elegant sculpture.
+
+Appearing in her 1937–38 winter collection, it was worn by Gala Dalí, Schiaparelli herself, and Daisy Fellowes. In an era when couture remained intertwined with social propriety, Shoe Hat turned the most decorous accessory into a question about propriety itself. Its felt and velvet insist that absurdity need not be careless, and humour can be made with precision.
+
+This page uses the V&A’s collection image of Shoe Hat. It directly presents the 1937–38 object—its deep-blue shoe form, fuchsia velvet heel, and side profile—in professional collection photography, not a model, visitor, or exhibition view; it precisely matches the title, story, and fashion category.`,
+    legacy_en: `• Brought Surrealism from canvas and gallery into an object worn in everyday life
+• Proved couture can make conceptual impact through structure, not just pattern
+• Made displacement a lasting method in avant-garde fashion and styling
+• Created a highly memorable visual identity through Shocking Pink and dark felt
+• Showed that humour, craft, and precision can coexist`,
+    significance_en: `Shoe Hat may look light-hearted, but it is a serious design object. It needs no new material or elaborate technology; it simply moves a familiar shoe to an impossible place. Schiaparelli shows that innovation can mean adding less: relocating a known sign with enough precision that we suddenly reconsider body, etiquette, and beauty.`,
+  },
 ]
