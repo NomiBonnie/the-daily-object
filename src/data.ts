@@ -12735,4 +12735,41 @@ This page uses the V&A’s collection image of Shoe Hat. It directly presents th
 • Showed that humour, craft, and precision can coexist`,
     significance_en: `Shoe Hat may look light-hearted, but it is a serious design object. It needs no new material or elaborate technology; it simply moves a familiar shoe to an impossible place. Schiaparelli shows that innovation can mean adding less: relocating a known sign with enough precision that we suddenly reconsider body, etiquette, and beauty.`,
   },
+
+
+  {
+    id: '382',
+    date: '2026-09-11',
+    imageUrl: '/the-daily-object/images/reflecting-absence.jpg',
+    fullImageUrl: '/the-daily-object/images/full/reflecting-absence.jpg',
+    title: '映照缺席',
+    title_en: 'Reflecting Absence',
+    subtitle: 'Michael Arad 与 Peter Walker, 2011',
+    subtitle_en: 'Michael Arad with Peter Walker, 2011',
+    category: 'architecture' as const,
+    designer: 'Michael Arad 与 Peter Walker',
+    year: '2011',
+    tags: ['重写纪念建筑语言', '让空无成为空间', '以名字抵抗遗忘'],
+    tags_en: ['Rewrote Memorial Architecture', 'Made Absence into Space', 'Used Names Against Forgetting'],
+
+    dateConnection: `2011年9月11日，纽约国家9·11纪念园在袭击十周年当天向遇难者家属正式开放；次日对公众开放。Michael Arad 与 Peter Walker 的 Reflecting Absence，把双子塔原址变成两座不断下落的水池。`,
+    designerBio: `Michael Arad 是以色列裔美国建筑师。2003年，他还是纽约市住房管理局的一名年轻建筑师时，报名参加世界贸易中心遗址纪念碑的国际竞赛。参赛作品最初叫 Reflecting the Absence：不是在天际线上补回两座塔，而是把失去本身做成可以被人走近的空间。来自五千多个方案中的这一稿最终胜出，景观建筑师 Peter Walker 随后加入团队，将广场、林荫与城市步行尺度整合起来。\n\nArad 的方案之所以罕见，在于它避开了纪念建筑常见的昂扬姿态。它没有抬高纪念物，也没有用一个英雄式的中心来代表事件；他把空间向下挖，让水、石材、树木与人的步行共同承担记忆。Walker 则以近四百棵沼泽白橡树为其建立一片有季节变化的城市树冠，使这处沉重场地仍然可以被日常生活穿过。`,
+    story: `Reflecting Absence 的核心非常简单：在原北塔和南塔各自的地基上，留下一座近一英亩的方形水池。水沿着四面深色花岗岩墙落下，再流入中央更深、更小、看不见底的空洞。**最重要的设计动作不是造出一个物体，而是拒绝填满一个缺口。** 你先看见塔基曾占据的尺度，随后才意识到水无法填平中央的“void”。\n\n这套构图把纪念从远眺的符号，变为身体能够感知的过程。人沿着池边走，瀑布的持续声响遮蔽了周围城市的噪音；手可以触到青铜栏板上近三千个名字；视线越过水面，又会回到正在生长的曼哈顿天际线。名字没有按字母顺序机械排列，而是依据亲友、同事、同班同学等关系进行“meaningful adjacencies”编排。抽象的数字因此被还原为彼此相连的人。\n\n材料也服务于这种克制。深色石材吸收光线，流水不断改变表面；青铜名字在热天能够因冷却系统而触感清凉；树阵在春夏提供遮荫，在秋冬露出更开阔的空间。没有一处装饰试图解释灾难。设计只持续提供停留、触摸、绕行与安静观看的条件。\n\n它也并非没有争议：如何在极其拥挤、政治与情感都高度复杂的遗址上，既容纳悼念又容纳日常，是一项近乎不可能的任务。Reflecting Absence 的回答是让两种状态并存。广场可以被人穿行，水池仍然保持不可跨越的边界；城市继续向上生长，原址仍在向下打开。\n\n本页使用 Wikimedia Commons 的专业建筑摄影原图。画面直接展示南池的完整方形瀑布、中央下沉空洞与一号世贸中心，是作品本体而非游客自拍、展览或氛围图；标题、故事和 architecture 分类完全对应。`,
+    legacy: `• 以“空缺”而非纪念物造型，重写当代纪念建筑的表达方式
+• 将双子塔原址的物理尺度保留为可被身体感知的公共空间
+• 用瀑布声、触觉、步行路径与季节树阵构成多感官的纪念体验
+• 以“有意义的相邻关系”排列名字，让个体关系抵抗数字化的抽象
+• 证明公共纪念地可以同时容纳哀悼、城市生活与时间的继续前行`,
+    significance: `Reflecting Absence 不是一座替历史下结论的建筑。它让人面对一个无法被修复的尺度，并把“记住”从一句口号变成脚步、声音、触摸和停顿。对于设计而言，它最深的启示也许是：面对不可言说的事，形式不必替情感说得更多；它只要足够准确地留下空间，让每个人在其中完成自己的理解。`,
+
+    dateConnection_en: `On September 11, 2011, the National September 11 Memorial opened to victims’ families on the attacks’ tenth anniversary; it opened to the public the following day. Michael Arad and Peter Walker’s Reflecting Absence turned the Twin Towers’ footprints into two continuously falling pools.`,
+    designerBio_en: `Michael Arad is an Israeli-American architect. In 2003, while a young architect at the New York City Housing Authority, he entered the international World Trade Center memorial competition. His proposal, first called Reflecting the Absence, did not replace the towers on the skyline; it made loss itself into a space people could approach. Selected from more than 5,000 submissions, the scheme was developed with landscape architect Peter Walker, who integrated plaza, tree canopy, and urban walking scale.\n\nArad’s proposal avoids memorial architecture’s usual upward gesture. Instead of raising a monument or making a heroic centre, it cuts down into the ground, allowing water, stone, trees, and walking bodies to carry memory. Walker’s nearly 400 swamp white oaks give the heavy site a seasonally changing civic canopy.`,
+    story_en: `Reflecting Absence has a remarkably simple core: each original tower footprint holds a square pool of nearly an acre. Water falls down four walls of dark granite, then disappears into a smaller, deeper void at the centre. **Its decisive gesture is not making an object, but refusing to fill a gap.** First, one reads the scale once occupied by the towers; then comes the recognition that the central void cannot be filled.\n\nThe composition turns commemoration from a distant symbol into a bodily sequence. Walking the edge, visitors hear falling water mask the city; they can touch nearly 3,000 names in bronze; across the pool, the growing Manhattan skyline returns to view. Rather than alphabetically listing the dead, the names are arranged through “meaningful adjacencies” among family, colleagues, and friends—restoring relation to what statistics can flatten.\n\nMaterials sustain that restraint. Dark stone absorbs light, water continuously changes the surface, and bronze names can feel cool in summer. No decoration attempts to explain catastrophe. The design offers conditions for pausing, touching, circling, and looking.\n\nThis page uses a professional architectural photograph from Wikimedia Commons. It directly shows the South Pool’s complete square waterfall, its central descending void, and One World Trade Center: the work itself, not a visitor selfie, exhibition view, or mood image, and an exact match for the title, story, and architecture category.`,
+    legacy_en: `• Reframed contemporary memorial architecture through absence rather than monumental form
+• Preserved the Twin Towers’ physical scale as public space felt by the body
+• Built a multisensory act of remembrance through water sound, touch, paths, and seasonal trees
+• Used “meaningful adjacencies” to make personal relationships resist statistical abstraction
+• Demonstrated that civic memorials can hold mourning, daily city life, and time moving forward`,
+    significance_en: `Reflecting Absence is not architecture that delivers a final conclusion about history. It asks us to confront a scale that cannot be repaired, and turns remembering from a slogan into walking, sound, touch, and pause. Its deepest design lesson may be that when something cannot be spoken, form need not say more than feeling: it need only leave a precise enough space for each person to make meaning.`,
+  },
 ]
