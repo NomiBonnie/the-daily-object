@@ -12771,7 +12771,7 @@ This page uses the V&A’s collection image of Shoe Hat. It directly presents th
 • Used “meaningful adjacencies” to make personal relationships resist statistical abstraction
 • Demonstrated that civic memorials can hold mourning, daily city life, and time moving forward`,
     significance_en: `Reflecting Absence is not architecture that delivers a final conclusion about history. It asks us to confront a scale that cannot be repaired, and turns remembering from a slogan into walking, sound, touch, and pause. Its deepest design lesson may be that when something cannot be spoken, form need not say more than feeling: it need only leave a precise enough space for each person to make meaning.`,
-  },,
+  },
 
   {
     id: '383',
