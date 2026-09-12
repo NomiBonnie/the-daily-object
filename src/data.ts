@@ -12771,5 +12771,65 @@ This page uses the V&A’s collection image of Shoe Hat. It directly presents th
 • Used “meaningful adjacencies” to make personal relationships resist statistical abstraction
 • Demonstrated that civic memorials can hold mourning, daily city life, and time moving forward`,
     significance_en: `Reflecting Absence is not architecture that delivers a final conclusion about history. It asks us to confront a scale that cannot be repaired, and turns remembering from a slogan into walking, sound, touch, and pause. Its deepest design lesson may be that when something cannot be spoken, form need not say more than feeling: it need only leave a precise enough space for each person to make meaning.`,
+  },,
+
+  {
+    id: '383',
+    date: '2026-09-12',
+    imageUrl: '/the-daily-object/images/almaty-museum-of-arts.jpg',
+    fullImageUrl: '/the-daily-object/images/full/almaty-museum-of-arts.jpg',
+    title: '阿拉木图艺术博物馆',
+    title_en: 'Almaty Museum of Arts',
+    subtitle: 'Chapman Taylor, 2025',
+    subtitle_en: 'Chapman Taylor, 2025',
+    category: 'architecture' as const,
+    designer: 'Chapman Taylor',
+    year: '2025',
+    tags: ['重塑中亚文化地标', '让山城进入建筑', '连接本土与全球艺术'],
+    tags_en: ['Reframed a Central Asian Landmark', 'Brought Mountains into Architecture', 'Connected Local and Global Art'],
+
+    dateConnection: `2025年9月12日，Almaty Museum of Arts 在哈萨克斯坦阿拉木图向公众开放。这座由英国建筑事务所 Chapman Taylor 设计的博物馆，以两组交错的 L 形体量，把天山山脉与快速生长的城市并置进同一座建筑。`,
+    designerBio: `Chapman Taylor 是一家成立于1959年的英国建筑与设计事务所，长期处理城市综合体、文化设施与公共空间。阿拉木图艺术博物馆并不是一件孤立的雕塑式建筑：团队面对的是一个同时拥有苏联现代主义遗产、草原文化记忆和迅速全球化都市景观的城市。他们先把问题收回到场地本身——前方是城市交通与街道，远处是天山山脉——再以两个材质、尺度和情绪不同的体量回应。
+
+这家事务所没有把“当地性”简化成装饰纹样，也没有以一座抢眼的奇观压过收藏。设计的起点是两种力量的相遇：山脉的地质感与都市生活的流动感。浅色石材的重量、金属表皮的反光，以及室内连续的公共动线，分别承担了这种关系的一部分。建筑因此拥有明确形象，却不依赖单一、夸张的轮廓来被记住。
+
+博物馆由企业家、慈善家兼收藏家 Nurlan Smagulov 发起。他历经三十余年收藏的七百多件作品，将最终赠予城市。建筑因此承担双重任务：既要让现代与当代艺术被妥善观看，也要成为市民可进入、可停留、可反复使用的公共目的地。对于一座新成立的艺术机构而言，这比制造一个开幕瞬间更难：它必须在多年之后仍能容纳不同尺度的展览、教育活动、表演和普通人的日常相遇。`,
+    story: `阿拉木图艺术博物馆最清楚的设计动作，是把一座文化建筑拆成两种彼此咬合的“地貌”。一侧是浅色 Jura 石灰岩，厚重、稳定，呼应背后的天山；另一侧覆以铝板，表面更轻、更冷，像阿拉木图不断变化的都市立面。两者都不是对山形的拙劣模仿，而是以材料和比例建立一组可读的对照：自然与城市、沉积与速度、地方性与当代性。
+
+**它没有用一个封闭的白盒子保存艺术，而是把“Art Street”做成贯穿建筑的明亮脊柱。** 这条玻璃中庭把入口、展厅、教育空间、演讲厅、商店、咖啡馆和花园串起来，同时把山景和日光带入内部。参观者不必立刻进入展厅；可以先穿过一段公共街道式的空间，感受建筑如何把看展、会面、休息和城市漫游重新编排。
+
+9月12日开馆时，馆内既有哈萨克斯坦现代艺术，也有 Almagul Menlibayeva、Richard Serra、Yayoi Kusama、Bill Viola 等艺术家的作品与长期展示。室外公共区域则放置 Alicja Kwade、Jaume Plensa、Yinka Shonibare 的委任雕塑。这个配置很有分寸：建筑没有抢走艺术的声音，却通过石、铝、玻璃、树木和连续的步行路径，为作品和人都提供了尺度。
+
+一座新博物馆很容易沦为城市营销的照片背景；这座建筑更值得注意的地方，是它将“地标”做成了可被使用的结构。石灰岩翼让人感到山的重量，铝板翼捕捉城市的光，中央走廊则留给人与日常。入口附近的户外雕塑并非附带装饰：它让街道上的人先遇见艺术，再决定是否进入馆内；而花园、咖啡馆和演讲厅又让参观结束后仍有停留的理由。
+
+**好的文化建筑不只是收藏作品，它也为一座城市练习如何相遇、如何观看、如何把自己的位置重新说出来。** 当山景、交通、收藏与普通脚步被组织到同一段旅程里，建筑的影响就不止发生在照片中。
+
+本页使用博物馆官方发布的建筑原图：画面直接呈现石灰岩与铝板两翼、入口及馆方委任的户外雕塑。它是作品本体的专业建筑摄影，不是游客照、展览现场照或氛围图；图片、标题、故事与 architecture 分类一致。`,
+    legacy: `• 以石灰岩与铝板的双体量，把山地地景转译为当代公共建筑语言
+• 为中亚现代与当代艺术建立面向公众的长期文化基础设施
+• 用贯通式 Art Street 把展览、教育、表演、花园与日常停留编织为一条体验路径
+• 让私人成熟收藏走向城市公共资源，扩大区域艺术的可见度
+• 证明新文化地标可以不靠夸张造型，而以材料、尺度和开放性建立身份`,
+    significance: `阿拉木图艺术博物馆的价值，不在于把“山”做成一个可消费的造型符号，而在于它认真处理了建筑如何属于一个具体的城市。石材、金属、光线和动线都在回答同一个问题：当一座城市想把自己的艺术放进世界对话时，应当以什么样的空间邀请人们进入？Chapman Taylor 给出的答案克制而清晰——先让建筑听见场地，再让场地成为文化的一部分。`,
+
+    dateConnection_en: `On September 12, 2025, the Almaty Museum of Arts opened to the public in Almaty, Kazakhstan. Designed by British practice Chapman Taylor, its two interlocking L-shaped volumes set the Tian Shan mountains and a fast-growing city into one architectural composition.`,
+    designerBio_en: `Founded in 1959, Chapman Taylor is a British architecture and design practice with longstanding work in urban, cultural, and public projects. For the Almaty Museum of Arts, the team faced a city shaped at once by Soviet-modern heritage, steppe memory, and rapid globalisation. Their response began with the site: city traffic and streets before it, the Tian Shan range beyond it.
+
+Entrepreneur, philanthropist, and collector Nurlan Smagulov founded the museum around a collection of more than 700 works that will ultimately be gifted to the city. The building therefore needed to protect art while also becoming a civic place to enter, pause, and return to.`,
+    story_en: `The Almaty Museum of Arts makes one clear move: it divides a cultural building into two interlocking landscapes. One is clad in pale Jura limestone—heavy and settled, answering the Tian Shan behind it. The other is clad in aluminium, lighter and cooler, like the changing face of the city. Neither crudely imitates a mountain; material and proportion instead establish a readable dialogue between nature and city, sediment and speed, locality and contemporaneity.
+
+**Rather than sealing art in a white box, it makes Art Street a luminous spine through the building.** This glazed corridor links entry, galleries, education rooms, auditorium, shop, café, and gardens, bringing daylight and mountain views inside. Visitors can first move through a civic, street-like space before entering an exhibition.
+
+At its September 12 opening, the museum brought together Kazakh modern and contemporary art with works and long-term rooms by Almagul Menlibayeva, Richard Serra, Yayoi Kusama, and Bill Viola. Outdoor commissions by Alicja Kwade, Jaume Plensa, and Yinka Shonibare extend the experience into the plaza. Architecture does not overpower the art; stone, aluminium, glass, trees, and walking routes give it—and its audiences—scale.
+
+A new museum can easily become a background image for civic marketing. This one is more interesting for making landmark status usable. The limestone wing registers mountain weight; the aluminium wing catches city light; the central corridor belongs to everyday people. **A good cultural building does not only collect works. It gives a city a way to meet, look, and restate its place in the world.**
+
+This page uses an official museum architectural image. It directly shows the limestone and aluminium wings, the entrance, and a commissioned outdoor sculpture: professional photography of the work itself, not a visitor, exhibition, or mood image, and an exact match for the title, story, and architecture category.`,
+    legacy_en: `• Translated mountain landscape into a contemporary public language through limestone and aluminium volumes
+• Established long-term public infrastructure for modern and contemporary art in Central Asia
+• Wove exhibition, education, performance, gardens, and everyday pause into one Art Street experience
+• Turned a mature private collection into a civic resource and expanded regional art’s visibility
+• Showed that a new cultural landmark can build identity through material, scale, and openness rather than spectacle`,
+    significance_en: `The museum’s value is not in making “mountain” a consumable formal symbol. It seriously asks how architecture can belong to a particular city. Stone, metal, light, and circulation all answer one question: when a city places its art into global conversation, what kind of space should invite people in? Chapman Taylor’s answer is restrained and clear—listen to the site first, then let the site become part of culture.`,
   },
 ]
