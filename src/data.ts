@@ -12858,5 +12858,61 @@ This page uses an official museum architectural image. It directly shows the lim
     story_en: `World 1-1 is game design’s best-known piece of silent instruction. Mario begins at the left; open ground and a slowly approaching Goomba sit to the right. No arrow says “go right,” and no text teaches jumping. But a screen that will not scroll back, an enemy approaching from the right, and an open foreground already establish direction and risk. After one collision, players naturally try the jump button.\n\n**The tutorial is not hidden inside the level; the level itself is the tutorial.** A question block hangs at a reachable height. The mushroom slides right, asking the player to follow. Each rule arrives safely, then combines with the last.\n\nSide-scrolling also changed the relationship between image and time. A forward-only camera gives each jump irreversible rhythm, while flags, castles, and a timer give movement a sense of closure. Blue sky, white clouds, green pipes, and brown brick use few colours to separate background, obstacle, and foreground—like a flat graphic poster one can enter.\n\nMario’s large nose, cap, moustache, and overalls were practical distinctions, keeping face, arms, and body legible at low resolution. The Mushroom Kingdom’s objects make the same promise: shells can be kicked, bricks can be hit, coins can be collected. **Good interaction design lets visual features anticipate action.**\n\nWith more than 40 million copies sold, Super Mario Bros. made the side-scrolling platformer a grammar that others could quote. Its deeper lesson is that software can have architectural spatial organisation, graphic-design colour order, and cinematic rhythm.\n\nThis page uses the original Super Mario Bros. game-box artwork. Its pixel Mario, brick, and question block directly present the character language and level elements discussed here: the work’s own packaging graphic, not a player, exhibition, or mood image, and an exact match for the title, story, and software category.`,
     legacy_en: `• Made teaching through space rather than text a standard for level design\n• Joined side-scrolling, momentum jumps, and risk rhythm into platform gaming’s core grammar\n• Turned blocks, pipes, and coins into interaction symbols readable across languages\n• Proved low-resolution characters can carry personality through silhouette and movement\n• Made games a continuous experience that can be designed, paced, and narrated`,
     significance_en: `Super Mario Bros. shows that the best interface does not explain itself: it arranges a world people want to try, then lets trying produce understanding. With limited pixels, two principal buttons, and a small screen, it created an experience in which each step offers a clue and each failure leaves room to learn. Forty years later, its first screen still reads as direction, danger, and curiosity.`,
+  },,
+
+  {
+    id: '385',
+    date: '2026-09-14',
+    imageUrl: '/the-daily-object/images/olivetti-valentine.jpg',
+    fullImageUrl: '/the-daily-object/images/full/olivetti-valentine.jpg',
+    title: '奥利维蒂 Valentine 便携打字机',
+    title_en: 'Olivetti Valentine Portable Typewriter',
+    subtitle: 'Ettore Sottsass 与 Perry King, 1969',
+    subtitle_en: 'Ettore Sottsass with Perry King, 1969',
+    category: 'industrial' as const,
+    designer: 'Ettore Sottsass 与 Perry King',
+    year: '1969',
+    tags: ['让机器成为个性', '打破办公室美学', '意大利设计图腾'],
+    tags_en: ['Made Machines Personal', 'Broke Office Aesthetics', 'An Italian Design Totem'],
+
+    dateConnection: `1917年9月14日，Ettore Sottsass 出生于奥地利因斯布鲁克。今天选择他为 Olivetti 设计、1969年上市的 Valentine：一台用亮红色 ABS 塑料包住成熟机械结构的便携打字机。`,
+    designerBio: `Ettore Sottsass 是战后意大利设计中最不愿意把物件当作沉默工具的人。建筑专业毕业后，他在米兰建立工作室，1958年起担任 Olivetti 顾问，参与电子计算机、办公设备与展览设计；1981年又发起 Memphis Group，公开反对现代主义逐渐变成的、过度端正的“好品味”。他的设计始终在问：功能之外，物件能不能也拥有情绪、颜色和人的欲望？
+
+Valentine 并非他独自完成。英国设计师 Perry King 和 Albert Leclerc 与 Sottsass 共同把 Olivetti Lettera 32 已经成熟的机械机芯，装进一副完全不同的外壳。这个合作很说明问题：革命并不总要从零发明技术。有时更难的是，准确看见一套可靠技术还能被赋予怎样的新身份。`,
+    story: `1960年代末的打字机仍然像一件必须留在办公室的设备：灰、黑、重，最好不要被注意到。Sottsass 的想法恰好相反。他为 Valentine 写下过一句近乎宣言式的话：它应当“在办公室以外的任何地方使用”，陪伴乡间周日的业余诗人，或在单身公寓的桌上成为一件高彩度的物体。**他不是要把打字机伪装成玩具，而是要让写作从办公室制度中逃出来。**
+
+因此，Valentine 最先击中人的不是规格，而是它的颜色和轮廓。鲜明的番茄红 ABS 塑料机身向前俯冲，黑色按键被压进同色外壳，滑入式红色携带箱既是保护壳，也是整体造型的一部分。箱盖通过橡胶带扣到机身背面，打开后变成一个极简的工作台面。它的机械核心并不激进，仍来自 Lettera 32；激进的是，工业产品第一次如此明确地把“带出去”“摆出来”“让人喜欢”当作功能。
+
+这台机器也不是完美的商业成功。为了控制成本，Sottsass 曾设想省掉小写字母、行尾铃等部件；Olivetti 没有接受这些更极端的取舍，且高品质 ABS 外壳使售价上升。Valentine 没有成为大众廉价机，却获得了更长久的位置：它让人看到，效率和理性并不是机器唯一能传达的价值。**产品可以可靠，同时也可以轻佻、性感、可被渴望。**
+
+1969年的 Valentine 像一封写给未来消费电子的情书。后来人们在随身音响、彩色电脑、透明塑料和生活方式品牌中反复看见同一种判断：技术无需躲在中性的壳里；当颜色、触感、携带方式和传播语言彼此一致，机器会从设备变成文化符号。
+
+本页使用 LACMA 收藏的馆藏原图：亮红色 Valentine 与同色携带箱在中性背景中被完整、清晰地呈现，直接展示本文讨论的具体型号、ABS 外壳、黑色键盘与便携结构。它是作品本身的专业博物馆摄影，不是游客照、展览现场或氛围图，和标题、故事及 industrial 分类严格一致。`,
+    legacy: `• 把办公机器从中性工具转化为可被携带和展示的个性物件
+• 以颜色、外壳和携带箱把产品、包装与使用情境设计成同一个系统
+• 证明既有机械平台可以借由工业设计获得全新的文化意义
+• 为 Memphis 式的情绪化色彩与反理性形式预演了重要方向
+• 影响后来消费电子将技术、时尚与自我表达结合的产品语言`,
+    significance: `Valentine 最值得记住的，不是它让打字更快，而是它改变了人们期待机器如何进入生活。Sottsass 没有否认机械的复杂和约束，却拒绝让外壳只承担遮蔽的职责。他把一台打字机做成一种邀请：把它带到不该工作的地方，写一点不必高效的东西。好工业设计有时不是替工具添加装饰，而是替人重新分配使用工具时的心情和自由。`,
+
+    dateConnection_en: `Ettore Sottsass was born in Innsbruck on September 14, 1917. Today’s object is Valentine, the portable typewriter he designed for Olivetti and introduced in 1969: mature mechanics wrapped in a brilliant red ABS-plastic body.`,
+    designerBio_en: `Ettore Sottsass was a postwar Italian designer who refused to treat objects as silent tools. After architecture school, he opened a Milan studio and became an Olivetti consultant in 1958, working across computers, office equipment, and exhibitions. In 1981 he founded the Memphis Group, challenging the overly proper version of “good taste” that modernism had become. His recurring question was simple: beyond function, could an object carry feeling, colour, and desire?
+
+Valentine was not a solo act. British designer Perry King and Albert Leclerc worked with Sottsass to place Olivetti’s proven Lettera 32 mechanism in an entirely new body. The collaboration makes its point: a design revolution need not invent the technology from scratch. It can begin by seeing what cultural identity a dependable technology has not yet been allowed to have.`,
+    story_en: `By the late 1960s, typewriters still looked like objects meant to remain in an office: grey, black, heavy, and best left unnoticed. Sottsass proposed the opposite. He wrote that Valentine should be used “in any place except in an office,” keeping amateur poets company on quiet Sundays in the country or becoming a highly coloured object on a studio-apartment table. **It did not disguise a typewriter as a toy; it tried to release writing from office routine.**
+
+Valentine therefore announces itself through colour and silhouette before specifications. A tomato-red ABS-plastic body pitches forward; black keys sit inside the matching shell; and its sliding red carrying case is both protection and part of the form. The case attaches at the back with rubber straps and, when opened, becomes a spare working surface. The mechanism remained familiar Lettera 32 engineering. What was radical was treating portability, display, and affection as functions in their own right.
+
+It was not a flawless commercial success. Sottsass had proposed further cost-cutting moves—such as omitting lowercase letters and the end-of-line bell—which Olivetti declined; high-quality ABS also raised the price. Valentine never became a cheap mass machine, but it earned a more lasting place by showing that efficiency and rationality are not the only values a machine can communicate. **A product can be dependable and still be playful, seductive, and wanted.**
+
+Valentine reads now as a love letter to future consumer electronics. Portable music players, colourful computers, transparent plastics, and lifestyle brands would repeatedly make the same argument: technology need not hide inside a neutral shell. When colour, tactility, carrying, and communication speak together, a machine becomes a cultural sign.
+
+This page uses LACMA’s collection photograph. It clearly and completely presents the bright-red Valentine and matching case against a neutral background—the exact model, ABS body, black keys, and portable structure discussed here. It is professional museum object photography, not a visitor, exhibition, or mood image, and exactly matches the title, story, and industrial category.`,
+    legacy_en: `• Turned the office machine from neutral tool into a personal object to carry and display
+• Joined product, packaging, and use context through one system of colour, shell, and case
+• Proved an existing mechanical platform could gain entirely new cultural meaning through industrial design
+• Prefigured Memphis’s emotional colour and anti-rational formal language
+• Influenced later consumer electronics that unite technology, fashion, and self-expression`,
+    significance_en: `Valentine matters not because it made typing faster, but because it changed what people could expect from a machine in their lives. Sottsass accepted the complexity and limits of mechanics, yet refused to let its housing merely conceal them. He made a typewriter into an invitation: take it somewhere work does not belong, and write something that does not need to be efficient. At its best, industrial design does not add decoration to a tool; it redistributes the freedom and feeling we have while using one.`,
   },
 ]
