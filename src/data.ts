@@ -12915,4 +12915,32 @@ This page uses LACMA’s collection photograph. It clearly and completely presen
 • Influenced later consumer electronics that unite technology, fashion, and self-expression`,
     significance_en: `Valentine matters not because it made typing faster, but because it changed what people could expect from a machine in their lives. Sottsass accepted the complexity and limits of mechanics, yet refused to let its housing merely conceal them. He made a typewriter into an invitation: take it somewhere work does not belong, and write something that does not need to be efficient. At its best, industrial design does not add decoration to a tool; it redistributes the freedom and feeling we have while using one.`,
   },
+
+  {
+    id: '386',
+    date: '2026-09-15',
+    imageUrl: '/the-daily-object/images/se7en-title-sequence.jpg',
+    fullImageUrl: '/the-daily-object/images/full/se7en-title-sequence.jpg',
+    title: '七宗罪片头序列',
+    title_en: 'Se7en Opening Title Sequence',
+    subtitle: 'Kyle Cooper / R. Greenberg Associates, 1995',
+    subtitle_en: 'Kyle Cooper / R. Greenberg Associates, 1995',
+    category: 'film' as const,
+    designer: 'Kyle Cooper 与 R. Greenberg Associates',
+    year: '1995',
+    tags: ['重启电影片头设计', '让字体制造不安', '定义九十年代暗黑感'],
+    tags_en: ['Restarted Title Design', 'Made Type Feel Uneasy', 'Defined Nineties Darkness'],
+
+    dateConnection: `1995年9月15日，大卫·芬奇的《七宗罪》在纽约举行首映。它真正改变电影设计史的，不只是结尾的震撼，而是 Kyle Cooper 在片头几分钟里完成的一次视觉突袭。`,
+    designerBio: `Kyle Cooper 是当代电影片头设计最具影响力的人物之一。1990年代中期，他在 R. Greenberg Associates 洛杉矶团队工作；《七宗罪》之后，他与制片人 Peter Frankfurt 创办 Imaginary Forces。此后，从《碟中谍》到《蜘蛛侠》，他的团队持续证明：片头不是电影开场前必须忍受的名单，而可以是影片叙事、情绪与品牌最锋利的第一幕。\n\nCooper 的方法带着平面设计师的敏感，也带着电影人的节奏感。他从不把字体当成中性信息，而把它当成会呼吸、会受伤、会留下痕迹的材料。对他而言，观众在读到第一个名字之前，就应当已经进入作品的精神世界。`,
+    story: `《七宗罪》的片头发生在两位侦探出场之后。画面突然切入一个无名男人的手：裁切指纹、装订笔记、冲洗照片、涂改文字、把宗教文本变成一册偏执的档案。镜头很短，信息不完整，手写字像被针划过胶片；Nine Inch Nails 的《Closer》被重新剪碎，音乐和画面一起让人失去稳定的节拍。**它没有解释反派是谁，却让观众先住进了他的脑袋。**\n\n这套序列并不是用电脑特效“做旧”。Cooper 与团队真的制作道具、拍摄桌面影像，并把名字手工划进刮板，再通过光学印片保留偶然的抖动、漏光与毛边。数字后期已经很普遍，他们却刻意保留物理材料的不受控。那种不完美让文字不再是覆盖在影像上的字幕，而像嫌犯亲手留下的证物。\n\n**最聪明的设计决定，是让排版服从人物而不是服从秩序。** 字母会跳动、错位、被切断，有时几乎来不及读完；这当然违反传统片头追求的清晰与端正，但它准确模拟了 John Doe 的强迫、暴力和编辑欲。观众的阅读被不断打断，于是“看见”本身也变成紧张的一部分。\n\n在此之前，主流电影片头常被视作剧情开始前的行政程序。《七宗罪》让制作名单成为叙事装置：字体、摄影、剪辑与声音共同承担角色塑造。首映后，它迅速被广告、音乐录像与惊悚片模仿，也催生了一代人重新注意 motion graphics 和 title design。它的影响并不在于让后来作品都变暗，而在于提醒行业：片头可以有自己的观点。\n\n本页使用 Art of the Title 收录的《七宗罪》片头原始画面组图：画面直接呈现片中手写字样、拼贴照片与档案式剪辑，不是电影海报、演员肖像或展览照；与本文讨论的具体片头、电影设计类别完全一致。`,
+    legacy: `• 将片头从名单展示推回电影叙事的前线\n• 以手作字体、桌面摄影与光学误差建立可感知的心理空间\n• 证明不稳定的排版也能成为精确的角色语言\n• 促使广告、MV 与影视行业重新重视动态字体和标题设计\n• 为 Imaginary Forces 的成立及其后数十年的片头创作奠定声誉`,
+    significance: `《七宗罪》片头最持久的价值，是它把“信息如何被看见”变成了电影内容的一部分。Cooper 没有用漂亮的字体替故事做包装；他让每一个笔画都像从故事内部长出来。优秀的视觉设计并不总是让人顺畅地阅读，有时它必须先让人感到不安，才能让人真正理解自己正被带往哪里。`,
+
+    dateConnection_en: `On September 15, 1995, David Fincher’s Se7en premiered in New York. Its decisive contribution to design history was not only its ending, but the visual ambush Kyle Cooper delivered in the opening minutes.`,
+    designerBio_en: `Kyle Cooper is among the most influential contemporary designers of film titles. In the mid-1990s he worked at the Los Angeles office of R. Greenberg Associates; after Se7en, he and producer Peter Frankfurt founded Imaginary Forces. From Mission: Impossible to Spider-Man, his work has made the case that titles are not a list to endure before a film begins, but its sharpest first act of narrative, mood, and identity.\n\nCooper brings a graphic designer’s sensitivity and a filmmaker’s rhythm. Type is never neutral information in his work. It is material that can breathe, bruise, and leave a trace. Before an audience reads a first name, it should already have entered the work’s inner world.`,
+    story_en: `Se7en’s sequence arrives after the two detectives have appeared. Suddenly we see an unnamed man’s hands: trimming fingerprints, binding notebooks, developing photographs, altering text, and making a fanatical archive from religious material. The shots are brief and incomplete; handwritten type seems scratched into the film. A fragmented remix of Nine Inch Nails’ *Closer* breaks the rhythm with the image. **It never explains the antagonist, yet makes the audience inhabit his mind.**\n\nThis was not a computer-made imitation of decay. Cooper and his team built props, shot tabletop footage, scratched names into boards, and used optical printing to preserve accidental shake, light leaks, and rough edges. Digital post-production was already common, but the team retained physical materials’ unruliness. Type becomes evidence rather than lettering placed over an image.\n\n**Its boldest decision was to let typography serve character rather than order.** Letters jump, misalign, and break apart. That violates the traditional title sequence’s clarity, but precisely evokes John Doe’s compulsion, violence, and urge to edit. Reading is interrupted, so the act of seeing becomes tense.\n\nSe7en turned credits into a narrative device, with type, photography, editing, and sound all carrying character. It inspired advertising, music videos, and thrillers, and made a generation look again at motion graphics and title design. Its lesson is not that every later work should be dark, but that a title sequence can hold its own point of view.\n\nThis page uses a montage of original Se7en title-sequence frames from Art of the Title. It directly presents the handmade lettering, photographic collage, and dossier-like editing seen in the sequence—not a poster, actor portrait, or exhibition image—and precisely matches the work, story, and film-design category.`,
+    legacy_en: `• Returned titles from credit display to the front line of film narrative\n• Used handmade type, tabletop photography, and optical error to build a tactile psychological space\n• Proved unstable typography can be an exact language of character\n• Renewed advertising, music-video, and film interest in motion graphics and title design\n• Built the reputation that led to Imaginary Forces and decades of title work`,
+    significance_en: `Se7en’s lasting value is its decision to make how information is seen part of the film’s content. Cooper did not package the story with attractive type; he made each mark feel grown from inside it. Great visual design does not always make reading smooth. Sometimes it must first make us uneasy, so that we understand where we are being taken.`,
+  },
 ]
