@@ -12998,4 +12998,59 @@ This page uses a Wikimedia Commons object image of the Superleggera. Against a w
 • Became a Cassina and Italian-modern-furniture icon, continuously produced for nearly seven decades`,
     significance_en: `Superleggera matters not because it turns weight into a boastable number, but because the number disappears behind experience. Structure, material, body, and space become one furniture object without excess: dependable when sat on, effortless when moved, quiet when seen from afar. Ponti left not a shape to copy but a harder discipline—when every part is exact, less is never impoverished, and light is never weak.`,
   },
+  {
+    id: '388',
+    date: '2026-09-17',
+    imageUrl: '/the-daily-object/images/space-shuttle-enterprise.jpg',
+    fullImageUrl: '/the-daily-object/images/full/space-shuttle-enterprise.jpg',
+    title: '航天飞机企业号',
+    title_en: 'Space Shuttle Enterprise',
+    subtitle: 'NASA / Rockwell International, 1976',
+    subtitle_en: 'NASA / Rockwell International, 1976',
+    category: 'industrial' as const,
+    designer: 'NASA 与 Rockwell International',
+    year: '1976',
+    tags: ['定义可重复航天', '让科幻走进现实', '重写太空交通想象'],
+    tags_en: ['Defined Reusable Spaceflight', 'Brought Sci-Fi into Reality', 'Reimagined Space Transport'],
+
+    dateConnection: `1976年9月17日，NASA 在加州帕姆代尔公开推出第一架完整的航天飞机轨道器原型 Enterprise。它没有进入太空，却以一次公开亮相把“可重复使用的飞船”从工程图纸变成了人人都能看见、能想象的物体。`,
+    designerBio: `Enterprise 的设计不是某一位作者的签名，而是一套横跨 NASA、主承包商 Rockwell International 和大量工程团队的系统设计。1972年，NASA 选择“有翼轨道器＋可回收飞船”的总体方案：它必须像火箭一样进入轨道，也必须像飞机一样滑翔落地。这个选择把航天器从一次性、纯功能性的舱体，推进为一种需要同时处理空气动力、热防护、维护、人机界面和公众形象的复杂工业产品。
+
+Rockwell 位于加州帕姆代尔的工厂负责把方案变成全尺寸实物。Enterprise 是 OV-101，也是后来整个航天飞机家族的轮廓原点：黑白相间的耐热外观、短翼、垂直尾翼与宽大的货舱门，共同形成了一种立即可辨认的二十世纪后半叶图标。`,
+    story: `Enterprise 原本计划取名为 **Constitution**，以呼应美国建国二百周年。但《星际迷航》粉丝发起写信运动，希望它能以星舰 Enterprise 命名；总统福特随后支持改名。于是，1976年9月17日，第一架完整轨道器从帕姆代尔厂房推出时，Leonard Nimoy 等《星际迷航》剧组成员也到场。一次国家航天计划的工业亮相，意外地与流行文化完成了握手。
+
+它的真正设计野心，在于把两个本来矛盾的物种缝合在一起。传统火箭要尽可能轻、尽可能直接地向上；飞机则要有机翼、起落架和可控的返航姿态。航天飞机把两种逻辑装进同一个轮廓：发射时依赖外部燃料箱和助推器，返回时自己滑翔降落；机身既是载人的飞船，也是可打开的太空货车。**它让航天第一次拥有了“回来、检修、再出发”的产品叙事。**
+
+Enterprise 从未安装用于太空飞行的主发动机和热防护系统，因此从来没有进入轨道；但它承担了更适合原型机的工作。1977年的进近与着陆测试中，它被背在改装 Boeing 747 上升空，再释放出来完成无动力滑翔。每一次试飞都在回答一件极其具体的事：一架从太空返回、没有第二次机会的飞行器，能否被飞行员像飞机那样安全带回跑道？
+
+**Enterprise 最动人的地方，是它证明原型并不只是“未完成品”。** 它让抽象的系统被看见、被命名、被公众拥有，也为 Columbia 以及后来五架实际进入太空的轨道器铺出验证路径。它最后没有抵达太空，却成功地改变了人们对于太空旅行应该长成什么样子的想象。
+
+本页使用 NASA 于1976年9月17日拍摄的官方原图：画面完整呈现刚公开亮相的 Enterprise 本体、机翼、机鼻、尾翼与 NASA 标识，前景为进近与着陆测试团队。它不是展览现场、游客照或概念图，直接对应本文讨论的具体原型机与 industrial 分类。`,
+    legacy: `• 将“可重复使用的航天器”塑造成可被公众一眼识别的工业产品
+• 把火箭的上升逻辑与飞机的返航逻辑整合进同一套外形和系统
+• 通过无动力滑翔测试验证航天飞机最关键的返航体验
+• 用粉丝命名事件连接国家工程、流行文化与公共想象
+• 为后续轨道器的载荷运输、空间站建设与在轨维修奠定原型基础`,
+    significance: `Enterprise 的影响并不取决于它有没有飞进太空。它是一个极其罕见的设计案例：工程复杂性没有把形象压扁，反而诞生出一件人人都能读懂的物体。它的轮廓告诉我们，宏大的技术系统也需要一个能被记住的面孔；而好的原型，不只是验证性能，也会先把未来变成一种共同的视觉语言。`,
+
+    dateConnection_en: `On September 17, 1976, NASA publicly rolled out Enterprise, the first complete Space Shuttle orbiter prototype, in Palmdale, California. It never reached space, yet made reusable spaceflight visible as an object people could recognize and imagine.`,
+    designerBio_en: `Enterprise is not the signature of one author but a systems-design achievement spanning NASA, prime contractor Rockwell International, and many engineering teams. In 1972, NASA chose the reusable winged-orbiter concept: a vehicle that had to reach orbit like a rocket and return in a controlled glide like an aircraft. That decision turned spacecraft design into an industrial problem of aerodynamics, thermal protection, maintenance, human factors, and public identity.
+
+Rockwell’s Palmdale plant translated that system into full scale. Enterprise, OV-101, established the silhouette for the Shuttle family: black-and-white thermal surfaces, short wings, vertical tail, and a broad payload bay, forming one of the late twentieth century’s most instantly recognizable industrial icons.`,
+    story_en: `Enterprise was initially to be named **Constitution**, echoing the U.S. Bicentennial. A letter-writing campaign by *Star Trek* fans asked for the name Enterprise instead, and President Ford supported the change. When the first complete orbiter rolled out in Palmdale on September 17, 1976, cast members including Leonard Nimoy were there. A public moment for national engineering unexpectedly became a handshake with popular culture.
+
+Its core design ambition was to join two seemingly contradictory species. A conventional rocket wants to be as light and direct as possible on the way up; an aircraft needs wings, landing gear, and a controllable return. The Shuttle placed both logics in one form: it launched with an external tank and boosters, then returned under its own glide; its fuselage was both a crewed spacecraft and a space-going cargo truck. **It gave spaceflight a product story of return, maintenance, and departure again.**
+
+Enterprise never received the main engines or thermal-protection system needed for orbital flight. Instead, it did exactly what a prototype should. In the 1977 Approach and Landing Tests, it was carried aloft on a modified Boeing 747, released, and flown in unpowered glides. The question was concrete: could a vehicle returning from space, with no second chance, be brought safely to a runway like an aircraft?
+
+**Enterprise shows that a prototype is not merely an unfinished thing.** It made a complex system visible, nameable, and publicly shareable, while validating the path to Columbia and the five orbiters that followed into space. It never travelled beyond the atmosphere, yet fundamentally reshaped the popular image of what space travel could look like.
+
+This page uses NASA’s official photograph made on September 17, 1976. It fully shows the newly rolled-out Enterprise—its nose, wings, tail, and NASA markings—with the Approach and Landing Test team in the foreground. It is neither an exhibition view, tourist photograph, nor concept art, but a direct match for the specific prototype and industrial-design story discussed here.`,
+    legacy_en: `• Made reusable spaceflight legible as an industrial object the public could recognize
+• Combined the ascent logic of a rocket and the return logic of an aircraft in one form and system
+• Validated the Shuttle’s most consequential return experience through unpowered glide testing
+• Connected national engineering, popular culture, and public imagination through its fan-led naming
+• Provided the prototype path for later orbital payload transport, space-station work, and on-orbit servicing`,
+    significance_en: `Enterprise matters regardless of whether it reached space. It is a rare design case in which engineering complexity did not flatten identity, but produced an object almost anyone can read. Its silhouette shows that vast technical systems need a memorable face, and that a good prototype does more than verify performance: it turns the future into a shared visual language.`,
+  },
 ]
