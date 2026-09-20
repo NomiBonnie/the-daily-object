@@ -13136,4 +13136,59 @@ This page uses a Wikimedia Commons iPhone 6 gold-front object image. It fully sh
     significance_en: `iPhone 6 did not invent the large screen. Its achievement was treating the change of scale as a full rearrangement of relationships: screen and thumb, metal and skin, camera and body, software and physical reach. It shows that a mature product’s breakthrough need not be a spectacular new component. It can be a recalibration of familiar details so complete that the old scale suddenly feels impossible to return to.`,
   },
 
+  {
+    id: '391',
+    date: '2026-09-20',
+    imageUrl: '/the-daily-object/images/mazda-mx5-miata-na.jpg',
+    fullImageUrl: '/the-daily-object/images/full/mazda-mx5-miata-na.jpg',
+    title: '马自达 MX-5 Miata（NA）',
+    title_en: 'Mazda MX-5 Miata (NA)',
+    subtitle: 'Tom Matano、C. Mark Jordan 与 Mazda 设计团队, 1989',
+    subtitle_en: 'Tom Matano, C. Mark Jordan & Mazda Design Team, 1989',
+    category: 'industrial' as const,
+    designer: 'Tom Matano、C. Mark Jordan 与 Mazda 设计团队',
+    year: '1989',
+    tags: ['复兴轻量跑车', '把驾驶还给人', '定义平民敞篷车'],
+    tags_en: ['Revived the Lightweight Roadster', 'Put Driving Back First', 'Defined the Accessible Roadster'],
+
+    dateConnection: `2025年9月20日，汽车设计师 Tom Matano 逝世。今天选择他参与定义的初代 Mazda MX-5 Miata：它用一辆小而轻的双座敞篷车，重新提醒汽车工业，驾驶本身也值得被设计。`,
+    designerBio: `Tom Matano 出生于长崎，先在日本学习工程，后赴美国进入 ArtCenter College of Design。他曾在 General Motors、Holden 与 BMW 工作，1983年加入 Mazda 北美设计部门，后来成为 Mazda 全球设计负责人。Matano 不相信跑车必须靠马力、价格或威胁感来证明自己；他更在意一个物体如何邀请人靠近、坐进去，并愿意持续与它相处。
+
+初代 MX-5 从来不是单人创作。Bob Hall 推动复兴轻量英式 roadster 的产品想法；Tom Matano 领导位于加州 Irvine 的设计方向；C. Mark Jordan 的草图为最终比例提供关键路径；日本团队则把轻快的姿态变成可量产的结构。它的署名越是集体，越能说明优秀工业设计并非孤立造型，而是目标、工程与制造围绕同一体验达成的共识。`,
+    story: `1980年代末，传统双座敞篷跑车正逐渐消失。它们迷人，但往往漏水、易坏、难伺候。市场则转向更大、更重、设备更多的车型。Mazda 的反向提问很简单：如果保留小型英国 roadster 的直接感，却让它拥有日本车的可靠性，会发生什么？1989年芝加哥车展亮相的 MX-5，给出了一个几乎立刻被全世界理解的答案。
+
+**它最重要的不是“复古”，而是把复杂性削到恰好的程度。** 前置发动机、后轮驱动、双座、软顶、五速手动变速箱；布局古老，却被重新做得干净、轻巧、可信赖。短前后悬、低腰线和极简的车侧，让车轮像把车身向四角拉开；翻灯合起时克制，升起时又像一张突然醒来的脸。它的形象不是力量对人的压迫，而是一种愿意玩耍的邀请。
+
+Matano 常把设计解释为“浪漫工程”。这不是给技术加一层文学包装，而是承认驾驶感来自许多难以单独量化的关系：方向盘到座椅的距离、换挡杆落手的位置、仪表是否能被一眼读懂、车头在弯中是否显得轻。初代 MX-5 的每处比例都服务于这种对话。**它不要求驾驶者先成为专家；它先让人愿意开，再让人从反馈中成长。**
+
+它的商业意义同样罕见。MX-5 证明轻量、低功率、双座敞篷并非怀旧市场的残余，而可以成为全球成功的现代产品。后来大量制造商重新尝试小跑车；更深的影响则留在设计逻辑里：当市场不断把产品做得更大、更复杂时，删去不必要的东西也可以是一种雄心。
+
+本页使用 Wikimedia Commons 收录的初代 Mazda MX-5 作品本体照片：完整呈现 NA 车型的敞篷轮廓、低机鼻、短前悬与标志性的弹出式大灯结构。它不是人物肖像、展览现场或氛围照，画面直接对应本文讨论的具体车型、设计故事与 industrial 分类。`,
+    legacy: `• 以可靠、可负担的量产形式复兴轻量双座 roadster
+• 用短悬、低腰线与翻灯建立亲和而极高辨识度的产品表情
+• 证明驾驶乐趣不依赖大排量、复杂电子系统或昂贵身份符号
+• 促使全球汽车品牌重新审视小型跑车与轻量化的市场价值
+• 成为史上最成功的双座跑车之一，并延续至今的设计基因`,
+    significance: `MX-5 的设计价值，在于它没有把“更多”误当作“更好”。它给人的不是一份配置清单，而是一种立即可感的关系：手、脚、视线与道路之间少了一层隔膜。Tom Matano 留下的真正遗产，是一种温和却坚定的判断：工业产品可以很聪明，但最难得的聪明，是让人重新感到自己正在参与。`,
+
+    dateConnection_en: `Tom Matano died on September 20, 2025. Today’s object is the first-generation Mazda MX-5 Miata, the small, light two-seat roadster he helped define—a car that reminded the industry that driving itself deserves design attention.`,
+    designerBio_en: `Born in Nagasaki, Tom Matano studied engineering in Japan before moving to the United States and ArtCenter College of Design. He worked at General Motors, Holden, and BMW before joining Mazda North America in 1983, later becoming Mazda’s global design head. Matano rejected the idea that a sports car needed power, price, or intimidation to justify itself. He cared about whether an object invited someone to approach, enter, and live with it.
+
+The first MX-5 was never a solo signature. Bob Hall championed the lightweight-roadster brief; Matano guided the Irvine design direction; C. Mark Jordan’s sketches set a crucial path for the final proportion; and teams in Japan made that spirit manufacturable. The collective credit is the point: industrial design is not isolated styling but a shared agreement among intent, engineering, and production.`,
+    story_en: `By the late 1980s, the traditional two-seat roadster was disappearing. It could be charming, but it was often leaky, unreliable, and demanding. The market was moving toward larger, heavier, more equipped cars. Mazda asked a productive opposite question: what if the directness of a small British roadster could be paired with Japanese reliability? The MX-5, unveiled at the 1989 Chicago Auto Show, supplied an answer the world understood immediately.
+
+**Its achievement was not nostalgia, but a disciplined reduction of complexity.** Front engine, rear-wheel drive, two seats, a soft top, and a five-speed manual were old ingredients made clean, light, and dependable. Short overhangs, a low beltline, and spare side surfaces pull the wheels outward; the pop-up lamps are restrained when closed and suddenly animate the car when raised. Its character is not a display of force but an invitation to play.
+
+Matano spoke of “romantic engineering.” That was not poetry pasted onto technology. It meant that driving pleasure arises from relations hard to measure separately: steering wheel to seat, the gear lever’s fall to hand, an instrument panel read at a glance, a nose that feels light through a bend. **The NA MX-5 does not require a driver to be an expert first; it makes one want to drive, then teaches through feedback.**
+
+Its commercial effect was equally unusual. MX-5 showed that a light, modest-powered, two-seat convertible could be a globally successful modern product rather than a nostalgic remnant. Other makers revisited small sports cars. More deeply, it offered a lesson in ambition: when markets keep making products larger and more complicated, removing the unnecessary can be ambitious too.
+
+This page uses a Wikimedia Commons photograph of the first-generation Mazda MX-5 itself. It directly shows the NA car’s open-roadster silhouette, low nose, short front overhang, and characteristic pop-up-lamp structure—not a portrait, exhibition scene, or mood image—and matches the exact model, story, and industrial-design category.`,
+    legacy_en: `• Revived the lightweight two-seat roadster as a reliable, attainable mass-market product
+• Used short overhangs, a low beltline, and pop-up lamps to create an unusually approachable, recognizable face
+• Proved driving pleasure does not require huge engines, complex electronics, or expensive status signals
+• Prompted the global industry to revisit the market value of compact sports cars and lightness
+• Became one of history’s most successful two-seat sports cars, with a design lineage that continues today`,
+    significance_en: `MX-5 matters because it refuses to mistake “more” for “better.” It gives no specification-sheet spectacle; it gives an immediate relationship with hands, feet, sightline, and road, with fewer layers in between. Matano’s lasting lesson is gentle but firm: industrial products can be clever, but the rarest kind of cleverness is making people feel that they are participating again.`,
+  },
 ]
