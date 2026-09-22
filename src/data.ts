@@ -13246,7 +13246,7 @@ This page uses Tolkien Gateway’s original image of the 1937 first-edition dust
 • Turned the book jacket from protective wrapping into the reader’s first narrative passage into a fictional world
 • Continues to shape fantasy novels, tabletop games, game maps, and film concept art through its idea of a traversable world`,
     significance_en: `The first *Hobbit* jacket shows that graphic design’s most compelling power is not merely explaining content, but establishing the sensory rules for entering it. Tolkien did not draw every detail; he used boundaries, layers, color, and negative space to make the reader complete the world. A living visual system does not finish the world for us—it makes us want to step inside.`,
-  },,
+  },
 
   {
     id: '393',
