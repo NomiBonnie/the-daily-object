@@ -13246,5 +13246,61 @@ This page uses Tolkien Gateway’s original image of the 1937 first-edition dust
 • Turned the book jacket from protective wrapping into the reader’s first narrative passage into a fictional world
 • Continues to shape fantasy novels, tabletop games, game maps, and film concept art through its idea of a traversable world`,
     significance_en: `The first *Hobbit* jacket shows that graphic design’s most compelling power is not merely explaining content, but establishing the sensory rules for entering it. Tolkien did not draw every detail; he used boundaries, layers, color, and negative space to make the reader complete the world. A living visual system does not finish the world for us—it makes us want to step inside.`,
+  },,
+
+  {
+    id: '393',
+    date: '2026-09-22',
+    imageUrl: '/the-daily-object/images/sabrina-1954-poster.jpg',
+    fullImageUrl: '/the-daily-object/images/full/sabrina-1954-poster.jpg',
+    title: '《龙凤配》电影海报',
+    title_en: 'Sabrina Film Poster',
+    subtitle: 'Paramount Pictures 设计团队, 1954',
+    subtitle_en: 'Paramount Pictures Design Team, 1954',
+    category: 'film' as const,
+    designer: 'Paramount Pictures 设计团队',
+    year: '1954',
+    tags: ['定义银幕时尚转身', '让服装推动叙事', '好莱坞海报范本'],
+    tags_en: ['Defined a Screen-Fashion Turn', 'Let Costume Drive Narrative', 'A Hollywood Poster Template'],
+
+    dateConnection: `1954年9月22日，Billy Wilder 执导的《龙凤配》（*Sabrina*）在美国上映。它表面上是一则浪漫喜剧，真正改变流行视觉文化的却是 Audrey Hepburn 从车夫女儿到巴黎归来时的造型转身：服装在这里不是装饰，而是人物获得新身份时最先被看见的语言。`,
+    designerBio: `《龙凤配》的视觉作者并非一个可以被简单写成单人名字的署名。Paramount 的服装主管 Edith Head 负责电影服装部门，并以本片获得奥斯卡最佳服装设计奖；年轻的 Hubert de Givenchy 则为 Audrey Hepburn 提供了几套巴黎段落最关键的成衣，却没有出现在片尾署名中。这段复杂而不完全公平的协作史，恰好揭示了经典电影设计从来不是孤立天才的成果，而是演员、制片厂、服装部门、摄影与剪辑共同塑造的形象系统。
+
+对 Hepburn 而言，这是一次决定性的相遇。她在拍摄期间主动前往巴黎寻找 Givenchy；误会她是 Katharine Hepburn 的设计师最初并未见她，随后才被她的气质打动。两人由此展开跨越数十年的合作。Head 的好莱坞职业系统与 Givenchy 的巴黎高级成衣在同一角色身上相遇，让 Sabrina 的变化既能服务镜头，也能被观众带回现实世界模仿。`,
+    story: `海报把这部电影的核心关系压缩得很干净：黄色底色像橱窗灯光，Humphrey Bogart、Audrey Hepburn 与 William Holden 的名字以红黑大写字排成舞台般的层级；中间的 Hepburn 身着无肩白礼服，站在两位男性之间。她不是被两位明星夹住的附属物，而是画面唯一真正明亮、垂直、稳定的轴心。**这正是《龙凤配》最敏锐的视觉判断：浪漫喜剧的转折不必先由台词发生，也可以先由一个人如何进入画面发生。**
+
+电影开头的 Sabrina 穿着宽松衣物、在车库与树上躲藏；巴黎归来后，她以修长的黑色长裤、白色刺绣礼服和利落线条重新出现。变化并不是“换了一条漂亮裙子”那么简单。服装重置了身体的比例、步态与他人看她的方式，也重置了她看自己的方式。镜头让观众先看见轮廓的改变，再理解性格的成长；服装因此承担了叙事中的时间跳跃和心理转折。
+
+**Edith Head 与 Givenchy 的分工争议，反而让这部电影成为服装设计史的重要案例。** 好莱坞制片厂体系里，服装通常以部门与片厂的方式被组织；巴黎高级时装则强调设计师的个人签名。《龙凤配》把两套逻辑碰撞在银幕上。它让 Givenchy 的名字第一次和 Hepburn 的形象紧密相连，也让人重新追问：当一个角色的视觉魅力来自多人共同劳动，署名究竟应如何分配？
+
+这张原版电影海报同样体现了1950年代商业平面设计的节制。它没有堆叠场景或复杂修辞，而是用大面积黄、红色片名条、清楚的三人构图和戏剧性的姓名秩序，完成类型、明星与欲望的即时识别。**海报没有解释所有故事，却已经把“她回来了，而且不同了”这件事放到观众眼前。**
+
+本页采用 Wikimedia Commons 收录的1954年《Sabrina》原版电影海报。画面直接呈现本片的正式平面视觉：Hepburn 的白色礼服、三位主角、片名与 Paramount 出品信息完整可见；它不是剧照、游客照或展览现场，且与电影设计、服装叙事和 film 分类严格一致。`,
+    legacy: `• 让 Audrey Hepburn 的巴黎衣橱成为战后银幕时尚的持久模板
+• 证明服装可以承担人物成长与叙事转折，而非仅仅服务年代背景
+• 开启 Hepburn 与 Givenchy 长达数十年的标志性合作，影响红毯与高级成衣文化
+• 使服装署名、制片厂制度与设计师个人创作之间的关系成为持续讨论
+• 用黄色、红色与居中人物的海报结构，留下好莱坞明星电影的经典视觉记忆`,
+    significance: `《龙凤配》最值得记住的不是谁最终选择了谁，而是它如何让观众相信一个人可以先通过被设计出来的形象，练习成为新的自己。好的电影设计从不只是“好看”：它安排视线、调整权力关系，也让角色在尚未说出口之前，就已经拥有了新的位置。`,
+
+    dateConnection_en: `On September 22, 1954, Billy Wilder’s *Sabrina* opened in the United States. It is ostensibly a romantic comedy, but its most durable contribution to visual culture is Audrey Hepburn’s transformation from a chauffeur’s daughter into a woman returned from Paris: costume is not decoration here, but the first visible language of a new identity.`,
+    designerBio_en: `*Sabrina* cannot be reduced to a single, uncomplicated visual credit. Paramount costume chief Edith Head led the film’s costume department and received the Academy Award for Best Costume Design; the young Hubert de Givenchy supplied several of Audrey Hepburn’s crucial Paris wardrobe pieces but was not credited onscreen. That complicated and not wholly fair history reveals a larger truth: classic film design is a system shaped by performers, studios, costume departments, cinematography, and editing—not a solitary signature.
+
+For Hepburn, it was a decisive meeting. During production, she went to Paris to find Givenchy. Initially expecting Katharine Hepburn, he almost declined; once they met, he was struck by her presence. Their collaboration lasted for decades. Head’s Hollywood production logic and Givenchy’s Parisian ready-to-wear met in one character, creating an image that worked for the camera and was immediately imitated beyond it.`,
+    story_en: `The poster compresses the film’s central relation with remarkable clarity. A yellow field works like shop-window light. Humphrey Bogart, Audrey Hepburn, and William Holden appear in red-and-black capitals with theatrical hierarchy; Hepburn, in a strapless white gown, stands between the two men. She is not an accessory trapped by two stars. She is the only bright, vertical, stable axis in the image. **That is *Sabrina*’s sharpest visual decision: a romantic comedy’s turning point need not begin in dialogue; it can begin with how someone enters the frame.**
+
+At the start, Sabrina hides in loose clothes around the garage and in trees. After Paris, she returns in a slender black trouser suit, a white embroidered gown, and sharply edited lines. This is not simply a prettier dress. Costume resets proportion, gait, the way other people look at her, and the way she looks at herself. The camera lets us register a changed silhouette before we fully understand a changed character. Costume carries the narrative time jump and the psychological turn.
+
+**The contested division between Edith Head and Givenchy makes the film a key case in costume-design history.** Hollywood’s studio system organized costume as a department; Paris couture emphasized the individual author’s signature. *Sabrina* brings those logics into contact onscreen. It welded Givenchy’s name to Hepburn’s image while asking an unresolved question: when a character’s visual force is made through collective labor, how should authorship be credited?
+
+The original poster is equally disciplined. Instead of stacking scenes or elaborate rhetoric, it uses a broad yellow field, a red title block, a clear three-figure composition, and a dramatic order of names to identify genre, stars, and desire at once. **It does not explain every plot point; it already tells us, “she has returned, and she is different.”**
+
+This page uses the original 1954 *Sabrina* film poster held on Wikimedia Commons. It directly shows the film’s official graphic object: Hepburn’s white gown, the three principals, title, and Paramount credit are fully visible. It is neither a still, visitor photograph, nor exhibition view, and precisely matches the film-design story and film category.`,
+    legacy_en: `• Turned Audrey Hepburn’s Paris wardrobe into an enduring template for postwar screen fashion
+• Proved costume can carry character development and narrative reversal rather than merely establish period
+• Began the landmark Hepburn–Givenchy partnership that shaped red-carpet and couture culture for decades
+• Kept authorship, studio systems, and individual fashion design in active discussion through its contested credits
+• Left an iconic Hollywood-star image through the poster’s yellow field, red title band, and centered figure`,
+    significance_en: `What matters most about *Sabrina* is not who ends up with whom, but how the film lets an image designed for a person become a rehearsal for becoming someone new. Good film design is never only beautiful: it organizes looking, shifts power, and gives a character a new position before she has spoken it aloud.`,
   },
 ]
