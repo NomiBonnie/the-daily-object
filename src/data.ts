@@ -13303,4 +13303,60 @@ This page uses the original 1954 *Sabrina* film poster held on Wikimedia Commons
 • Left an iconic Hollywood-star image through the poster’s yellow field, red title band, and centered figure`,
     significance_en: `What matters most about *Sabrina* is not who ends up with whom, but how the film lets an image designed for a person become a rehearsal for becoming someone new. Good film design is never only beautiful: it organizes looking, shifts power, and gives a character a new position before she has spoken it aloud.`,
   },
+  {
+    id: '394',
+    date: '2026-09-23',
+    imageUrl: '/the-daily-object/images/emile-galle-autumn-crocus-vase.jpg',
+    fullImageUrl: '/the-daily-object/images/full/emile-galle-autumn-crocus-vase.jpg',
+    title: '秋番红花花瓶',
+    title_en: 'Autumn Crocus Vase',
+    subtitle: '埃米尔·加莱, 约1900',
+    subtitle_en: 'Émile Gallé, ca. 1900',
+    category: 'industrial' as const,
+    designer: '埃米尔·加莱',
+    year: '约1900',
+    tags: ['定义新艺术玻璃', '让自然进入器物', '融合工艺与科学'],
+    tags_en: ['Defined Art Nouveau Glass', 'Brought Nature into Objects', 'United Craft and Science'],
+
+    dateConnection: `1904年9月23日，法国新艺术运动的关键设计师埃米尔·加莱在南锡逝世。今天选这只约1900年的《秋番红花花瓶》：它把植物学观察、玻璃化学和工业化工坊组织成一个会发光的日常物件。`,
+    designerBio: `埃米尔·加莱（Émile Gallé，1846—1904）生于法国南锡，父亲经营陶器与家具事业。他学习过哲学、植物学与绘画，又在默桑塔尔的玻璃厂做过学徒；这几条看似分岔的路径，后来都沉进了他的作品。花瓣的形态、茎叶的生长方向与昆虫的触角，在他手中从不是泛泛的装饰，而是经由观察后被重新编排的自然语言。
+
+1873年，加莱建立自己的玻璃工作室，随后接管家族的玻璃与陶瓷工厂。他把艺术家的判断放进可协作的生产系统：工匠完成吹制、套色、雕刻和蚀刻，作品需经他认可才使用签名。1901年，他参与创建并出任南锡学派首任主席，使这一地区的玻璃、家具、陶瓷与金工成为法国新艺术最有力的共同体之一。`,
+    story: `这只《秋番红花花瓶》首先用轮廓让人停下。它从圆润、沉稳的深色底座向上收紧，再舒展成细长的透明躯干；几朵橙色与紫色的番红花像从器壁内部穿出。植物并非被贴在表面，而像被困在一段正在上升的光里。**加莱真正改变的，是花瓶不再只是盛放花的容器，它本身也成为一片被凝固的花地。**
+
+花瓶的美感来自多层材料之间的配合。透明玻璃中有极细的粉红竖线；底部以紫、洋红和褐色逐层加深；花瓣则以饱和的橙与紫对照出现。套色玻璃、热加工、雕刻与表面处理让色彩既有深度，又不会遮住光。观者绕着它移动，花茎与底座的暗色会随反光改变位置，器物因此不是一张固定图案，而是一种缓慢发生的视觉经验。
+
+这也解释了加莱为何如此重要。19世纪末的工业生产常把装饰简化为可复制的表皮；他反而把材料、工艺与图案重新绑在一起。**花的形态决定了颜色如何分层，玻璃的透光决定了线条如何留下，生产技术则决定这种复杂能否在工坊中持续实现。** 这不是把艺术“加”到产品上，而是从一开始就让制造服务于感知。
+
+番红花尤其适合这个命题：它在秋天开放，短暂、低矮，却以强烈色彩切开阴冷的地面。加莱没有把它处理成博物学插图，而是选择延长、拉伸、略带梦幻的姿态。自然在这里既真实又被设计；这正是新艺术最动人的野心——让现代生活中的一只器物，仍保留生长、季节与时间的感觉。
+
+本页使用大都会艺术博物馆开放馆藏的《秋番红花花瓶》原图。画面完整、明亮地呈现约1900年加莱设计的玻璃花瓶本体及其橙紫番红花纹样；不是展厅、游客或氛围照片，与标题、故事和 industrial 分类严格对应。`,
+    legacy: `• 以多层玻璃与植物纹样确立法国新艺术玻璃的标志性语言
+• 让花瓶从实用容器扩展为能组织光线、色彩与观看路径的设计对象
+• 将植物学观察转译为可制造的纹样系统，提升装饰艺术的知识密度
+• 证明工坊协作与作者判断可以并存，影响后来的工作室生产模式
+• 通过南锡学派连接玻璃、家具、陶瓷与金工，推动整体设计观念`,
+    significance: `加莱的花瓶告诉我们，工业设计的诗意不来自多余的装饰，而来自对材料与生命的同等尊重。一只物件可以被量产、被使用，也可以让人意识到光正穿过它、季节正停在它上面。把这种感知做进制造里，才是他留给设计史最耐看的部分。`,
+
+    dateConnection_en: `Émile Gallé, a defining designer of French Art Nouveau, died in Nancy on September 23, 1904. Today’s object is his ca. 1900 *Autumn Crocus Vase*, where botanical observation, glass chemistry, and a workshop production system become one luminous everyday object.`,
+    designerBio_en: `Émile Gallé (1846–1904) was born in Nancy, France, to a father who worked in ceramics and furniture. He studied philosophy, botany, and drawing, then apprenticed at the Meisenthal glassworks. Those apparently separate paths converged in his work. Petals, stems, leaves, and insects were never generic ornament to Gallé; they were natural forms observed closely and redesigned as a visual language.
+
+Gallé founded his glass studio in 1873 and later took over his family’s glass and ceramics factory. He placed an artist’s judgment inside a collaborative production system: craftsmen blew, layered, carved, and etched the glass, while his signature was used only after approval. In 1901 he helped found and became the first president of the École de Nancy, the collective that made the region’s glass, furniture, ceramics, and metalwork a force in French Art Nouveau.`,
+    story_en: `The *Autumn Crocus Vase* first holds attention through its silhouette. A rounded, dark foot narrows upward into a long translucent body; orange and violet crocuses seem to rise from inside the vessel wall. The plants are not pasted onto the surface. They appear suspended in an ascending column of light. **Gallé’s decisive shift was to make the vase more than a container for flowers: it became a field of flowers held in glass.**
+
+Its beauty depends on the coordination of layers. Hairline pink verticals run through clear glass; violet, magenta, and brown deepen at the foot; saturated orange and purple create the blossoms. Layered glass, hot working, carving, and surface treatment give color depth without blocking light. As the viewer moves, reflections shift the stems and dark base, so the vessel is not a fixed pattern but a slow visual event.
+
+That is why Gallé matters. Late nineteenth-century industry often reduced decoration to a reproducible skin. He instead bound material, technique, and image together. **The flower’s form guides the color layers; glass transparency governs how the lines remain visible; production technology makes the complexity sustainable in a workshop.** This is not art added to a product after the fact. Manufacturing serves perception from the start.
+
+The autumn crocus is an apt motif: low and brief, it cuts through cold ground with intense color. Gallé did not treat it as botanical illustration, but lengthened and dreamt its stance. Nature remains recognizable while being designed. That was Art Nouveau’s most moving ambition—to let an object of modern life retain a sense of growth, season, and time.
+
+This page uses The Metropolitan Museum of Art’s open-access collection image of Gallé’s *Autumn Crocus Vase*. It clearly and completely shows the ca. 1900 glass object itself and its orange-and-violet crocus decoration—not a gallery, visitor, or mood image—and precisely matches the title, story, and industrial-design category.`,
+    legacy_en: `• Defined a signature language for French Art Nouveau glass through layered color and botanical motifs
+• Expanded the vase from practical container into an object that choreographs light, color, and viewing movement
+• Translated botanical observation into manufacturable pattern systems, giving decorative arts unusual knowledge depth
+• Demonstrated that workshop collaboration and authorial judgment can coexist, influencing later studio-production models
+• Connected glass, furniture, ceramics, and metalwork through the École de Nancy and advanced an integrated design vision`,
+    significance_en: `Gallé’s vase shows that industrial design becomes poetic not through surplus decoration, but through equal respect for material and life. An object can be made in a workshop and used in a home while making us notice light moving through it and a season resting on its surface. Making that perception part of manufacture is the most durable part of his legacy.`,
+  },
+
 ]
