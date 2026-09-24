@@ -13358,7 +13358,6 @@ This page uses The Metropolitan Museum of Art’s open-access collection image o
 • Connected glass, furniture, ceramics, and metalwork through the École de Nancy and advanced an integrated design vision`,
     significance_en: `Gallé’s vase shows that industrial design becomes poetic not through surplus decoration, but through equal respect for material and life. An object can be made in a workshop and used in a home while making us notice light moving through it and a season resting on its surface. Making that perception part of manufacture is the most durable part of his legacy.`,
   },
-,
   {
     id: '395',
     date: '2026-09-24',
