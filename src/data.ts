@@ -13358,5 +13358,57 @@ This page uses The Metropolitan Museum of Art’s open-access collection image o
 • Connected glass, furniture, ceramics, and metalwork through the École de Nancy and advanced an integrated design vision`,
     significance_en: `Gallé’s vase shows that industrial design becomes poetic not through surplus decoration, but through equal respect for material and life. An object can be made in a workshop and used in a home while making us notice light moving through it and a season resting on its surface. Making that perception part of manufacture is the most durable part of his legacy.`,
   },
+,
+  {
+    id: '395',
+    date: '2026-09-24',
+    imageUrl: '/the-daily-object/images/patrick-kelly-button-dress.jpg',
+    fullImageUrl: '/the-daily-object/images/full/patrick-kelly-button-dress.jpg',
+    title: '纽扣连衣裙',
+    title_en: 'Button Dress',
+    subtitle: '帕特里克·凯利, 1986',
+    subtitle_en: 'Patrick Kelly, 1986',
+    category: 'fashion' as const,
+    designer: '帕特里克·凯利',
+    year: '1986',
+    tags: ['改写巴黎成衣史', '把记忆缝进时装', '让黑人快乐可见'],
+    tags_en: ['Rewrote Paris Ready-to-Wear', 'Stitched Memory into Fashion', 'Made Black Joy Visible'],
+
+    dateConnection: `1954年9月24日，帕特里克·凯利（Patrick Kelly）出生于美国密西西比州维克斯堡。今天这条1986年的黑色纽扣连衣裙，将他从祖母针线盒里记住的零碎纽扣，转化为巴黎时装最鲜明、也最带笑意的视觉语言。`,
+    designerBio: `帕特里克·凯利（1954—1990）在密西西比州长大，最早的衣物记忆来自祖母 Ethel Rainey：家里衣服破了，她会用颜色、大小并不相同的旧纽扣缝补。那不是奢华时装的开端，却让凯利理解了一件重要的事：衣服可以携带家庭、修补与幽默，也可以把资源匮乏留下的痕迹变成风格。
+
+他先在 Jackson State University 学习艺术史和非裔美国人历史，1974年到亚特兰大，1979年又前往纽约和巴黎。1985年，他的首个“Patrick Kelly Paris”商业系列登上法国《ELLE》。随后，他成为第一位获准加入法国成衣业协会 Chambre Syndicale du Prêt-à-Porter 的美国设计师。这个门槛背后，不只是职业成功，也意味着一位来自美国南方的黑人设计师把自己的经验带进了巴黎时装体系。`,
+    story: `这条裙子的构成非常克制：贴身的黑色针织裙，深V露背，肩部是简洁的宽带。但在腰部，密密缝满的彩色纽扣突然把整件作品点亮。红、黄、蓝、粉、绿和白色不按宝石般的对称排列，而更像一个被认真保留下来的针线盒。**凯利没有把贫乏的记忆藏起来；他把“修补”变成了礼服的中心。**
+
+这不是怀旧式的乡愁。凯利知道时装经常把“精致”定义为无痕、昂贵、不可触碰，而不匹配的纽扣恰好反其道而行：它们有旧衣服的亲密感，也有手工留下的节奏。黑色裙身提供了近乎雕塑般的轮廓，腰间的颜色则像笑声从严肃结构里冒出来。两者相遇，让这件衣服既性感又轻快，既属于巴黎夜晚，也保留美国南方家居空间的温度。
+
+**凯利的厉害之处，是从不把身份处理成沉重说明。** 他的秀场会以后台祈祷开始，在舞台上喷绘一颗心，并在结尾成为庆祝；纽扣、蝴蝶结、夸张轮廓与流行文化引用，都是让观众先感到愉悦，再意识到其中的历史重量。他将黑人南方的民间记忆、时装的身体语言与巴黎成衣的速度并置，使“快乐”不再是一种轻浮姿态，而是一种可被看见的坚持。
+
+这张 Museum at FIT 的馆藏正面作品图，完整呈现1986年这件黑色针织纽扣裙的露背结构、修身轮廓与彩色纽扣腰饰。它是作品本身的专业馆藏摄影，而非秀场、展览或氛围照片；与标题、故事和 fashion 分类严格一致。`,
+    legacy: `• 以不匹配的彩色纽扣，将家庭修补记忆转化为高级成衣的标志性语言
+• 成为首位获准加入法国成衣业协会的美国设计师，拓宽巴黎时装系统的作者面貌
+• 用幽默、身体与流行符号，让黑人南方经验进入国际时装叙事
+• 证明极简轮廓可以承载复杂的身份、记忆与社会历史，而不失轻盈
+• 持续影响强调自我叙事、手工痕迹与包容表达的当代设计师`,
+    significance: `凯利让人看见，真正有力量的时装并不需要抹去来处。它可以承认衣服曾被修补、记忆并不整齐、身份也从不只有一种表情；然后把这些真实组织成一个人愿意穿进人群里的形状。纽扣在这里不是装饰性细节，而是设计把私人经验变成公共语言的证据。`,
+
+    dateConnection_en: `Patrick Kelly was born in Vicksburg, Mississippi, on September 24, 1954. This 1986 black button dress turns the mismatched buttons he remembered from his grandmother’s sewing box into one of Paris fashion’s most immediate—and joyful—visual languages.`,
+    designerBio_en: `Patrick Kelly (1954–1990) grew up in Mississippi, where his earliest clothing memories came from his grandmother, Ethel Rainey. When garments needed mending, she used old buttons of different colors and sizes. It was not a luxurious beginning, but it taught Kelly that clothing can carry family, repair, and humor—and that traces of scarcity can become style.
+
+He studied art history and African American history at Jackson State University, moved to Atlanta in 1974, and went on to New York and Paris in 1979. In 1985, his first “Patrick Kelly Paris” commercial collection received a six-page spread in French *ELLE*. He later became the first American designer admitted to the Chambre Syndicale du Prêt-à-Porter. It was not simply professional success: a Black designer from the American South had brought his own experience into the Parisian fashion system.`,
+    story_en: `The dress is spare in construction: a body-skimming black knit, a deep V back, and broad, simple shoulder straps. Then a densely sewn belt of colored buttons abruptly ignites the waist. Red, yellow, blue, pink, green, and white do not behave like symmetrical jewels. They feel more like a sewing box carefully kept. **Kelly did not hide a memory of mending; he made repair the center of an evening dress.**
+
+This is not nostalgia. Kelly understood that fashion often defines refinement as seamless, expensive, and untouchable. Mismatched buttons do the opposite: they retain domestic intimacy and the rhythm of a hand at work. The black dress gives a nearly sculptural outline; the color at the waist is laughter breaking through a serious structure. Together, they make the garment both sensual and light—ready for a Paris night while retaining the warmth of a Southern home.
+
+**Kelly’s brilliance was never to turn identity into a burden of explanation.** His shows began with backstage prayer, spray-painted a heart onstage, and ended in celebration. Buttons, bows, exaggerated shapes, and pop-cultural references let audiences feel delight before confronting the history beneath it. By placing Black Southern memory, fashion’s language of the body, and the velocity of Paris ready-to-wear together, he made joy not a frivolous pose but a visible form of insistence.
+
+This Museum at FIT collection image directly shows the 1986 black knit button dress: its open back, fitted silhouette, and colored-button waist. It is professional object photography of the work itself—not a runway, exhibition, visitor, or mood image—and precisely matches the title, story, and fashion category.`,
+    legacy_en: `• Turned mismatched colored buttons and family memories of mending into a signature language of ready-to-wear
+• Became the first American designer admitted to the Chambre Syndicale du Prêt-à-Porter, widening who could author Paris fashion
+• Brought Black Southern memory into international fashion through humor, body, and popular symbols
+• Showed that a minimal silhouette can carry layered identity, memory, and social history without losing lightness
+• Continues to influence designers who foreground self-narration, visible craft, and inclusive expression`,
+    significance_en: `Kelly shows that fashion at its strongest need not erase where it comes from. It can admit that clothing has been mended, that memory is not tidy, and that identity has more than one expression—then organize those truths into a shape someone wants to wear into a crowd. Here, buttons are not decorative details. They are evidence of design turning private experience into public language.`,
+  },
 
 ]
