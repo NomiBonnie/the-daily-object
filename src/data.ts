@@ -13466,4 +13466,56 @@ This page uses Wikimedia Commons’ original FDA Nutrition Facts Label graphic. 
 • Proved that graphic design can be almost invisible in daily life while reshaping billions of choices`,
     significance_en: `Belser’s work shows that graphic design is often strongest not when it creates surprise, but when it establishes trust. When every brand wants to speak loudly, a unified, quiet, comparable layout gives people actual room to judge. This black-and-white label moves design from “persuade you to buy” toward “help you understand,” making it one of public life’s most frequently seen—and least dispensable—interfaces.`,
   },
+
+  {
+    id: '397',
+    date: '2026-09-26',
+    imageUrl: '/the-daily-object/images/campari-soda-cone-bottle.jpg',
+    fullImageUrl: '/the-daily-object/images/full/campari-soda-cone-bottle.jpg',
+    title: 'Campari Soda 锥形瓶',
+    title_en: 'Campari Soda Cone Bottle',
+    subtitle: 'Fortunato Depero, 1932',
+    subtitle_en: 'Fortunato Depero, 1932',
+    category: 'graphic' as const,
+    designer: '福图纳托·德佩罗',
+    year: '1932',
+    tags: ['未来主义走进日常', '开创即饮包装美学', '百年不改的瓶身'],
+    tags_en: ['Put Futurism in Daily Life', 'Pioneered Ready-to-Drink Packaging', 'A Century of Unchanged Form'],
+
+    dateConnection: `1892年9月26日，福图纳托·德佩罗（Fortunato Depero）出生于意大利丰塔内莱。四十年后，他为 Campari Soda 画出的那只锥形玻璃瓶，把未来主义对速度、几何与现代生活的迷恋，压缩进一件可以握在手里的日常物品。`,
+    designerBio: `福图纳托·德佩罗（1892—1960）是意大利未来主义艺术家、平面设计师、舞台与空间创作者。与许多把艺术留在画布上的同代人不同，他一直想把新的视觉语言带进真实生活：广告、家具、纺织、书籍、剧场、店铺陈设，都可以成为实验场。
+
+1919年，他在罗韦雷托成立 Casa d’Arte Futurista；1928年又把这间“未来主义之家”带到纽约。Mart 博物馆保存的资料显示，他的实践横跨海报、装饰、家具、舞台与传播。他不把商业委托当成艺术的降级，而当作让色彩、节奏和几何进入公众生活的机会。`,
+    story: `1932年，Davide Campari 请德佩罗为一款预先调好比例的 Campari 加苏打水设计瓶子。它不是一张印在瓶上的标签，而是一整个容器的构思：瓶身向下张开的锥体，像一只倒扣的酒杯，也像未来主义海报里被拉伸的透视线。饮料的深红色透过带纹理的玻璃发亮，让液体、材质与轮廓成为一个不可拆开的图形。
+
+**这只瓶子的聪明，首先在于删掉了多余的解释。** 它没有复杂肩线、没有装饰性把手，也不依赖一张大面积纸标来告诉你是谁。锥形本身就是识别：从远处看像一个红色感叹号，近看则能读到压印的 CAM­PARI SODA 与小瓶图标。德佩罗把品牌标识嵌进容器，而不是贴在容器上；这让瓶身在冰桶、吧台或一排货架里都能保持完整的视觉句子。
+
+它也把包装的角色改写了。Campari 官方将它称为最早一批 ready-to-enjoy 的单人份即饮产品：比例、气泡与饮用场景都在出厂时确定。设计不只是让商品更好卖，而是替一种新的城市节奏设计了使用方式——不必调酒，不必量取，打开即可进入 aperitivo。**形式服务于行为，却没有牺牲形式的野心。**
+
+近一个世纪后，Campari Soda 仍沿用这枚锥形瓶。它当然经历过不同年代的印刷与瓶盖细节，但核心轮廓没有被更新潮的包装语言替代。这张 Wikimedia Commons 的正面产品图完整呈现瓶身、压印文字、红色液体与锥形比例；它是作品本身的专业摄影，不是酒吧氛围、游客照或展览现场，与标题、故事和 graphic 分类严格一致。`,
+    legacy: `• 让未来主义的几何语言从海报与舞台进入可被购买、开启和握持的日常物
+• 将瓶身轮廓本身变成品牌识别，减少对外加标签与文字说明的依赖
+• 为单人份即饮产品建立“形式、内容与使用方式一体化”的包装范式
+• 证明商业包装能够保有作者性，并在近百年后仍不显得陈旧
+• 成为意大利设计文化中最易辨认的日常物件之一`,
+    significance: `好的包装不是在产品外面再加一层漂亮外衣，而是让产品在被拿起、看见、开启之前就已经完成表达。德佩罗把未来主义最擅长的速度感和几何感，做成一枚不需要说明书的锥体：它像酒杯，也像路标，还像一件微型雕塑。设计史里少有物件能如此清楚地证明，最持久的识别度往往不来自更多元素，而来自一个再也替换不了的轮廓。`,
+
+    dateConnection_en: `Fortunato Depero was born in Fondo, Italy, on September 26, 1892. Forty years later, his cone-shaped glass bottle for Campari Soda compressed Futurism’s fascination with speed, geometry, and modern life into an everyday object made to be held.`,
+    designerBio_en: `Fortunato Depero (1892–1960) was an Italian Futurist artist, graphic designer, and creator of stage and spatial works. Unlike contemporaries who kept art on the canvas, he wanted a new visual language to enter ordinary life: advertising, furniture, textiles, books, theatre, and retail interiors were all sites for experiment.
+
+In 1919 he founded the Casa d’Arte Futurista in Rovereto, then opened a New York branch in 1928. Material preserved by Mart shows a practice spanning posters, decoration, furniture, stage work, and communication. He did not treat commercial commissions as a demotion of art; he treated them as a way to bring colour, rhythm, and geometry into public life.`,
+    story_en: `In 1932, Davide Campari asked Depero to design a bottle for a pre-mixed Campari-and-soda drink. The result was not a label applied to a container but a complete proposition: a cone widening toward the base, like an overturned drinking glass and like the stretched perspective lines of a Futurist poster. The drink’s deep red glows through textured glass, making liquid, material, and outline one inseparable graphic form.
+
+**Its intelligence begins with what it removes.** There is no complicated shoulder, ornamental handle, or large paper label that has to announce the brand. The cone itself does the recognition work: from a distance, it reads as a red exclamation mark; up close, embossed CAM­PARI SODA lettering and the bottle icon come into view. Depero built identity into the container rather than attaching it to the outside, so the object remains a complete visual sentence in an ice bucket, on a bar, or across a shelf.
+
+It also rewrote packaging’s role. Campari calls it an early ready-to-enjoy, single-serve drink: proportion, carbonation, and occasion were decided before it left the factory. The design did more than make a product saleable; it designed a new urban ritual—no mixing, no measuring, simply open and enter aperitivo. **Form served behaviour without surrendering its ambition.**
+
+Nearly a century later, Campari Soda still uses the cone. Printing and cap details have changed across decades, but the core silhouette has not been replaced by a more fashionable packaging language. This front-facing Wikimedia Commons product photograph fully shows the bottle, embossed lettering, red liquid, and cone proportion. It is professional object photography of the work itself—not a bar mood shot, visitor photograph, or exhibition view—and precisely matches the title, story, and graphic category.`,
+    legacy_en: `• Brought Futurist geometry out of posters and stages into an everyday object that could be bought, opened, and held
+• Made the bottle’s silhouette itself a brand identifier, reducing reliance on added labels and explanatory copy
+• Established an integrated packaging model in which form, contents, and use scenario work as one
+• Proved that commercial packaging can retain authorship and still resist looking dated a century later
+• Became one of the most recognisable everyday objects in Italian design culture`,
+    significance_en: `Great packaging is not a beautiful layer added around a product. It lets the product express itself before it is even picked up or opened. Depero turned Futurism’s sense of speed and geometry into a cone that needs no instruction manual: part glass, part signpost, part miniature sculpture. Few objects make the point so clearly that enduring recognition rarely comes from more elements; it comes from one outline that cannot be replaced.`,
+  },
 ]
