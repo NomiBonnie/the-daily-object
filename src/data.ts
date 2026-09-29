@@ -13623,4 +13623,56 @@ This page uses a Wikimedia Commons collection-quality product photograph of the 
 • Showed that fashion can begin with the body’s movement and carrying needs without losing form`,
     significance_en: `Cashin Carry matters not because it shouts with a novel shape, but because it turns use into style. Cashin allowed leather to age, hardware to click, and a bag to move with its owner. Details that can seem mundane become a portrait of modern life. The best accessories do not demand that people adapt to them; they make it easier to be oneself.`,
   },
+  {
+    id: '400',
+    date: '2026-09-29',
+    imageUrl: '/the-daily-object/images/nintendo-64.jpg',
+    fullImageUrl: '/the-daily-object/images/full/nintendo-64.jpg',
+    title: '任天堂 64',
+    title_en: 'Nintendo 64',
+    subtitle: 'Nintendo R&D3 / EAD, 1996',
+    subtitle_en: 'Nintendo R&D3 / EAD, 1996',
+    category: 'software' as const,
+    designer: '任天堂 R&D3 与 EAD 团队',
+    year: '1996',
+    tags: ['定义三维互动手感', '重写客厅多人游戏', '让摇杆成为语言'],
+    tags_en: ['Defined the Feel of 3D Play', 'Rewrote Living-Room Multiplayer', 'Made the Stick a Language'],
+
+    dateConnection: `1996年9月29日，Nintendo 64 在美国与《Super Mario 64》一同上市。任天堂官方历史页面把这一天列为 N64 的美国首发日；一台灰色主机和一只三叉手柄，也由此把“如何在三维空间里行动”变成大众可以握在手里的设计问题。`,
+    designerBio: `Nintendo 64 由任天堂的 R&D3 硬件团队与 EAD 软件团队协作完成。它诞生在一个主机行业正在为三维图形重新定规则的时刻：索尼、世嘉与任天堂都在争夺下一代客厅屏幕，但任天堂没有把这台机器只理解成更快的计算机，而是把它看作一套新的身体接口。
+
+主机以 64 位处理器命名，却没有追随竞争者全面转向光盘，而是坚持卡带。这个决定限制了储存空间，也带来了几乎即时的读取、坚固的实体媒介与不同于 CD 时代的物件感。更重要的是，团队必须为新维度重新设计控制方式：十字键适合二维方向，但无法自然表达“慢慢走、转弯、斜着靠近”这些连续动作。`,
+    story: `N64 最不寻常的地方不是盒子上的“64”，而是那只第一次看到会让人犹豫该怎么握的三叉手柄。它拒绝沿用传统左右对称的双把手，而是把三种操作姿势写进结构：玩二维游戏时握左右两翼；进入三维世界时，左手落在中间握把和类比摇杆；需要肩键与更多按钮时，再切换到另一种支撑。**它不是一件中立的遥控器，而是一张关于不同游戏身体姿态的地图。**
+
+中间的类比摇杆尤其关键。它将拇指的位移直接映射为角色的速度与方向：轻推是慢走，推到底是奔跑，绕圈是转向。与同日上市的《Super Mario 64》配合时，设计师不只是给玩家更多按钮，而是建立一种新的空间直觉——镜头、角色和玩家的手必须同时学会在三维里协商。后来几乎所有主机手柄的双摇杆逻辑，都可以从这次大胆但不完美的实验中看到源头。
+
+N64 也在主机本体里保留了另一种社交设计。前面板的四个控制器接口不用转接器就能把四个人拉进同一块屏幕；《Mario Kart 64》《GoldenEye 007》《Super Smash Bros.》让“轮流传手柄”变成“围着电视同时开战”。**它设计的不是单个玩家的性能指标，而是客厅里谁坐哪里、谁先笑出来、谁输掉后还要再来一局的关系。**
+
+它当然不是完美答案：卡带让部分开发者受限，三叉手柄后来也成为争议对象。但真正耐看的设计常常如此——它先把一个模糊问题做得具体，才允许后来者改良。N64 让游戏硬件从“按键的集合”变成手、眼、空间和同伴之间的编排。本页使用 Nintendo 官方历史页面的 N64 产品图：画面直接展示主机、原装灰色手柄、透明色手柄与原包装，是作品本身的官方产品图，不是玩家照片、展览现场或氛围配图，与标题、故事和 software 分类严格一致。`,
+    legacy: `• 用类比摇杆把连续速度、方向与三维移动变成大众可学习的手部语言
+• 以三种握持位置挑战单一手柄范式，推动主机交互重新思考人体工学
+• 将四个原生控制器接口写入主机正面，定义本地多人游戏的客厅仪式
+• 与《Super Mario 64》共同证明硬件输入与软件空间设计必须被一起设计
+• 保留卡带的即时响应与实体性，为光盘主导的时代提供另一种产品判断`,
+    significance: `Nintendo 64 的意义不只在于它让画面变成三维，而在于它承认三维世界不能继续用二维习惯去触摸。那只略显怪异的手柄，今天看来仍像一次诚实的设计提问：当空间变复杂，人的手该怎样变得更自由？它没有给出最后答案，却让整个行业开始认真回答。`,
+
+    dateConnection_en: `On September 29, 1996, the Nintendo 64 launched in the United States alongside Super Mario 64. Nintendo’s own history records that release date. A gray console and its three-pronged controller turned the question of how to move through 3D space into something millions of people could hold.`,
+    designerBio_en: `Nintendo 64 was created through collaboration between Nintendo’s R&D3 hardware group and EAD software team, at a moment when console makers were rewriting the rules of 3D graphics. Nintendo did not treat the machine only as a faster computer. It treated it as a new bodily interface.
+
+Named for its 64-bit processor, the console kept cartridges while rivals embraced discs. That choice constrained storage but gave the system near-instant loading and a distinctive physical character. More importantly, the team had to redesign control for a new dimension: a D-pad works for discrete 2D directions, but not naturally for easing forward, arcing around a corner, or approaching at an angle.`,
+    story_en: `N64’s most radical feature was not the “64” on the box but the three-pronged controller that initially made people wonder how to hold it. Instead of repeating the familiar symmetrical grip, it mapped three play styles into its structure: hold the outer handles for 2D games; move the left hand to the central grip and analog stick for 3D; shift again when shoulder buttons and other controls matter. **It was not a neutral remote control, but a map of different bodily postures for play.**
+
+The central analog stick was decisive. Thumb movement became both direction and speed: a light push for a walk, a full push for a run, an arc for a turn. Together with Super Mario 64, it did not simply add buttons. It established a new spatial intuition in which camera, character, and player’s hand had to negotiate 3D space at once. The dual-stick logic that later became standard across console controllers begins with this daring, imperfect experiment.
+
+N64 also built another kind of social design into the console itself. Four front-facing controller ports gathered four people around one screen without an adapter; Mario Kart 64, GoldenEye 007, and Super Smash Bros. turned passing a controller into playing together. **It designed not a solitary performance metric but a relationship: who sits where, who laughs first, and who asks for one more round after losing.**
+
+It was not a perfect answer. Cartridges constrained some developers, and the three-pronged controller remains divisive. But durable design often works this way: it makes a blurry question concrete so later generations can improve it. N64 turned game hardware from a collection of buttons into an arrangement among hand, eye, space, and company. This page uses Nintendo’s official N64 product image, directly showing the console, original gray controller, translucent controller, and packaging—not a player snapshot, exhibition view, or mood image. It precisely matches the title, story, and software category.`,
+    legacy_en: `• Made continuous speed, direction, and 3D movement a learnable hand language through the analog stick
+• Challenged the single-controller convention with three grip positions and a new ergonomic proposition
+• Put four native controller ports on the front of the machine, defining a living-room ritual of local multiplayer
+• Demonstrated with Super Mario 64 that hardware input and software space must be designed together
+• Preserved the immediacy and physicality of cartridges as an alternative product judgement in the CD era`,
+    significance_en: `Nintendo 64 matters not simply because it made images three-dimensional, but because it admitted that a 3D world could not be touched with 2D habits. Its slightly strange controller still reads as an honest design question: as space gets more complex, how can a hand become freer? It did not give the final answer, but it made an entire industry begin to answer it.`,
+  },
+
 ]
