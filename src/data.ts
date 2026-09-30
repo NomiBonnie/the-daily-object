@@ -13675,4 +13675,58 @@ It was not a perfect answer. Cartridges constrained some developers, and the thr
     significance_en: `Nintendo 64 matters not simply because it made images three-dimensional, but because it admitted that a 3D world could not be touched with 2D habits. Its slightly strange controller still reads as an honest design question: as space gets more complex, how can a hand become freer? It did not give the final answer, but it made an entire industry begin to answer it.`,
   },
 
+  {
+    id: '401',
+    date: '2026-09-30',
+    imageUrl: '/the-daily-object/images/off-white-air-jordan-1.jpg',
+    fullImageUrl: '/the-daily-object/images/full/off-white-air-jordan-1.jpg',
+    title: 'Off-White x Air Jordan 1 “Chicago”',
+    title_en: 'Off-White x Air Jordan 1 “Chicago”',
+    subtitle: 'Virgil Abloh x Nike, 2017',
+    subtitle_en: 'Virgil Abloh x Nike, 2017',
+    category: 'fashion' as const,
+    designer: 'Virgil Abloh',
+    year: '2017',
+    tags: ['解构球鞋语言', '重写街头奢侈品', '让工艺成为可见'],
+    tags_en: ['Deconstructed Sneaker Language', 'Rewrote Street Luxury', 'Made Craft Visible'],
+    dateConnection: `1980年9月30日，Virgil Abloh 出生于美国伊利诺伊州罗克福德。37年后，他与 Nike 完成的 The Ten 把十双运动鞋拆开、重写，也把“谁有资格参与设计”的问题从工作室推到街头。`,
+    designerBio: `Virgil Abloh（1980–2021）先学土木工程，后取得建筑学硕士。他没有循着传统时装教育进入行业，而是从 DJ、平面、艺术指导与 Kanye West 的创意工作中建立自己的方法。2013 年创立 Off-White 后，他借用工业标识、斜纹警示带、引号与 Helvetica 式说明文字，把“引用”本身变成可辨认的视觉语法。
+
+2018 年，Abloh 出任 Louis Vuitton 男装艺术总监，成为品牌首位担任该职位的非裔设计师。他不把奢侈品看作封闭高墙，而是一套可被音乐、建筑、运动与日常物件重新接线的系统；与 Nike 的合作，是这套方法最可被穿在脚上的版本。`,
+    story: `2017 年，Nike 把十个最具辨识度的鞋型交给 Abloh：Air Jordan 1、Air Max 90、Air Presto、Blazer、VaporMax，以及 Converse Chuck Taylor 等。项目名叫 **The Ten**，却不像传统联名那样换一个配色或加一枚 logo；Abloh 要做的是把每双鞋的构造打开，让原本藏在成品内部的泡棉、缝线、标签和层次重新说话。
+
+Air Jordan 1 “Chicago” 是整套作品最有力的一双。红、白、黑的经典篮球鞋轮廓仍在，但 Swoosh 像刚被放回鞋面，边缘没有被完全收口；鞋舌泡棉裸露，鞋带被直接命名为 “SHOELACES”，中底印着 “AIR”，橙色束带像临时的工厂标记。**它故意保留“还没完成”的状态：让你看到物件如何被制造，也让你意识到规则原来可以被重写。**
+
+这种手法并非为了制造粗糙感。Abloh 把工业样品、说明书和打版过程里的语言，转译成精确的视觉节奏：字是注释，也是图形；缝线是结构，也是装饰；外露部件既暴露制造过程，又建立新的身份。GQ 的 2017 年完整发布图集直接将它列为 “Air Jordan 1 x Virgil Abloh”；MoMA Design Store 对 The Ten 的概括同样准确——十双鞋既是工业设计，也是现成品雕塑与可穿戴物。
+
+更重要的是，The Ten 改变了运动鞋合作的尺度。它不再只把稀缺性当作价值，而是给年轻设计师一套可被学习的动作：观察一件熟悉的东西，拆开它，保留它的记忆，再以足够清楚的手法让人看到新意。**Air Jordan 1 “Chicago” 不是对经典的破坏，而是一次公开的设计批注。**
+
+本页采用 GQ 在 The Ten 发布报道中刊载的 Air Jordan 1 “Chicago” 产品图。画面完整展示红白黑鞋面、外露泡棉、解构 Swoosh、橙色束带与 “AIR” 字样；没有人物、展览现场或泛化球鞋氛围照，和标题、故事与 fashion 分类精确对应。`,
+    legacy: `• 把解构、注释与可见工艺带入大众运动鞋的核心视觉语言
+• 让联名从换色与贴标，转向对原有产品结构的重新阅读
+• 以引号、标签和说明文字建立影响全球街头品牌的图形语法
+• 模糊时装、产品、平面与建筑思维之间原本严密的边界
+• 让一代消费者把球鞋视作可讨论、可拆解、可再创作的设计物`,
+    significance: `The Ten 的锋利之处，在于它没有假装自己凭空发明了新鞋。Abloh 直接承认既有经典的力量，再把制造痕迹、命名方式与设计选择摊开给所有人看。它让“品味”不再只是拥有正确物件，而是有能力看见物件背后的判断；这也是它从一双鞋扩散成整代视觉文化的原因。`,
+    dateConnection_en: `Virgil Abloh was born in Rockford, Illinois, on September 30, 1980. Thirty-seven years later, The Ten took ten sneakers apart and rewrote them—bringing the question of who gets to participate in design out of the studio and into the street.`,
+    designerBio_en: `Virgil Abloh (1980–2021) studied civil engineering before earning a master’s degree in architecture. He built his method through DJing, graphics, art direction, and creative work with Kanye West. After founding Off-White in 2013, he turned industrial signage, diagonal warning stripes, quotation marks, and explanatory text into a recognisable grammar of citation.
+
+In 2018, Abloh became artistic director of Louis Vuitton menswear, the first Black person to hold that post at the French house. He treated luxury as a system that could be rewired through music, architecture, sport, and everyday objects. His work with Nike was that method at its most tangible.`,
+    story_en: `In 2017, Nike handed Abloh ten recognisable silhouettes: Air Jordan 1, Air Max 90, Air Presto, Blazer, VaporMax, Converse Chuck Taylor, and more. **The Ten** did not work like a typical collaboration that changes a colourway or adds a logo. Abloh opened each shoe’s construction so that foam, seams, labels, and layers normally hidden inside a finished product could speak again.
+
+Air Jordan 1 “Chicago” is the project’s clearest statement. The red, white, and black silhouette remains, but the Swoosh appears only just returned to the upper, the tongue foam is exposed, the laces are literally labelled “SHOELACES,” the midsole reads “AIR,” and an orange zip tie acts like a factory marker. **It holds onto the state of being unfinished—showing how an object is made and reminding us that its rules can be rewritten.**
+
+This was not roughness for its own sake. Type becomes annotation and graphic; stitching becomes structure and ornament; exposed parts reveal manufacture while establishing identity. GQ’s 2017 launch gallery names the shoe directly as “Air Jordan 1 x Virgil Abloh”; MoMA Design Store describes The Ten as industrial design, readymade sculpture, and wearable object.
+
+The Ten changed the scale of sneaker collaboration. It offered young designers a repeatable action: study a familiar thing, take it apart, retain its memory, and make the new intervention clear. **Air Jordan 1 “Chicago” does not destroy a classic; it is a public design annotation.**
+
+This page uses the product image of the Air Jordan 1 “Chicago” published in GQ’s launch coverage of The Ten. It clearly shows the shoe itself—with no person, exhibition context, or generic sneaker mood shot—and precisely matches the title, story, and fashion category.`,
+    legacy_en: `• Brought deconstruction, annotation, and visible craft into mainstream sneaker language
+• Moved collaboration beyond recolouring and badging toward rereading a product’s structure
+• Established a graphic syntax of quotes, tags, and explanatory text that influenced streetwear worldwide
+• Blurred boundaries between fashion, product, graphic, and architectural thinking
+• Helped a generation see sneakers as design objects to discuss, disassemble, and remake`,
+    significance_en: `The Ten is sharp because it never pretends to invent a shoe from nothing. Abloh acknowledges the force of an existing classic, then lays its making, naming, and decisions open to view. It made taste less about owning the correct object than about being able to see the judgement behind an object. That is why one shoe could expand into an entire generation of visual culture.`,
+  },
+
 ]
