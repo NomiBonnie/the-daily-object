@@ -7653,7 +7653,31 @@ This page uses the product image of the Air Jordan 1 “Chicago” published in 
 • Moved collaboration beyond recolouring and badging toward rereading a product’s structure
 • Established a graphic syntax of quotes, tags, and explanatory text that influenced streetwear worldwide
 • Blurred boundaries between fashion, product, graphic, and architectural thinking
-• Helped a generation see sneakers as design objects to discuss, disassemble, and remake`,significance_en:"The Ten is sharp because it never pretends to invent a shoe from nothing. Abloh acknowledges the force of an existing classic, then lays its making, naming, and decisions open to view. It made taste less about owning the correct object than about being able to see the judgement behind an object. That is why one shoe could expand into an entire generation of visual culture."}];/**
+• Helped a generation see sneakers as design objects to discuss, disassemble, and remake`,significance_en:"The Ten is sharp because it never pretends to invent a shoe from nothing. Abloh acknowledges the force of an existing classic, then lays its making, naming, and decisions open to view. It made taste less about owning the correct object than about being able to see the judgement behind an object. That is why one shoe could expand into an entire generation of visual culture."},{id:"402",date:"2026-10-01",imageUrl:"/the-daily-object/images/sony-cdp-101.jpg",fullImageUrl:"/the-daily-object/images/full/sony-cdp-101.jpg",title:"Sony CDP-101",title_en:"Sony CDP-101",subtitle:"Sony, 1982",subtitle_en:"Sony, 1982",category:"industrial",designer:"Sony",year:"1982",tags:["开启数字聆听","定义光盘时代","让音乐可随机访问"],tags_en:["Opened Digital Listening","Defined the CD Era","Made Music Random-Access"],dateConnection:"1982 年 10 月 1 日，Sony CDP-101 在日本上市，成为第一台面向公众销售的 CD 播放机。它与首批商业 CD 一同抵达商店，把“数字音乐”从实验室术语变成客厅里可被按下的一枚键。",designerBio:"CDP-101 的署名并不属于一位明星设计师，而是 Sony 与 Philips 围绕 Compact Disc 标准的长期协作。两家公司必须先定义光盘尺寸、播放时长、纠错方式与声音规格，产品设计才有落点。Sony 已用 Walkman 证明音响产品能重写人与声音的距离；CDP-101 则把音乐从磁带的线性卷轴，带进一张可被激光精确读取的薄片。",story:`CDP-101 的名字直白得像工程编号：CD Player，型号 101。但它面对的是一个前所未有的行为。黑胶需要落针，磁带需要快进和倒带；CD 允许听者直接跳到一首歌，机器以红外激光读取看不见的数据轨道。**音乐第一次以“可寻址”的信息形式进入普通家庭。**
+
+Sony 没有把它做成未来主义玩具。黑色金属机身保持高级分体音响的稳重比例：左侧是抽屉式碟仓，右侧是清晰分区的荧光显示、播放、暂停、跳曲与搜索键。醒目的 Compact Disc Digital Audio 标志与橙色 “16 BIT” 提示，既解释新技术，也把“数字”塑造成可见品质。**复杂的光学读取、纠错与数模转换，被收束成手指立刻理解的控制。**
+
+1982 年 10 月 1 日的日本首发定价 168,000 日元；它不是一夜普及的廉价产品，而是一台宣告新媒介已成熟的旗舰。首批约五十张商业 CD 同日出现，听者得到一整套新的物件关系：银色唱片、透明盒、曲目编号、无需翻面的连续播放。
+
+机身宽约 35 厘米、重约 7.6 公斤，今天看来颇有仪式感；但正是抽屉、按键与显示屏，让无形数据拥有了重量。后来播放器变得更小、更便宜，流媒体又让唱片退出视线。**CDP-101 仍提醒我们：媒介革命往往先以一件具体、昂贵、甚至有点笨拙的产品来到人们手中。**
+
+本页采用 Wikimedia Commons 的 CDP-101 正面产品图，完整呈现 Sony 标识、抽屉式碟仓、Compact Disc Digital Audio 标志、16 BIT 指示与右侧控制区；没有人物、展览场景或泛化 CD 氛围照，和标题、故事与 industrial 分类精确对应。`,legacy:`• 把数字音频从专业系统带进家庭消费电子产品
+• 让跳曲与随机访问取代快进倒带的线性聆听习惯
+• 建立 CD 播放器的抽屉、显示与按键分区等早期产品语法
+• 以 16-bit 与 Compact Disc 标识把技术规格转化为可见品牌语言
+• 为数字音乐库与后来的流媒体交互奠定行为预期`,significance:"Sony CDP-101 的意义不只在于“第一台”。它把一套看不见的数字标准做成了可被信任的日常界面：放入、读取、选择、播放。好的工业设计不抢走技术的风头，而是让技术第一次走进生活时显得理所当然；CDP-101 就是数字音乐开始像日用品一样被使用的门槛。",dateConnection_en:"On October 1, 1982, Sony’s CDP-101 went on sale in Japan as the first compact-disc player sold to the public. Arriving with the first commercial CD catalogue, it turned “digital audio” from laboratory language into a button in the living room.",designerBio_en:"CDP-101 was not the signature of a single star designer. It grew from Sony and Philips’ long collaboration around the Compact Disc standard: disc dimensions, playing time, error correction, and audio specification had to be settled before the product could exist. Sony had already used the Walkman to rewrite the distance between people and sound; CDP-101 moved music from the linear spool of tape to a thin disc read precisely by light.",story_en:`The CDP-101 name is as direct as an engineering code: CD Player, model 101. But it introduced an unprecedented behaviour. Vinyl asked for a needle; cassette asked for fast-forward and rewind. A CD let listeners jump straight to a track while an infrared laser read invisible data. **Music entered the ordinary home as addressable information.**
+
+Sony did not style the machine as a futuristic toy. Its black metal body kept the assured proportions of high-end component audio: a drawer-style disc bay on the left, and fluorescent display, playback, pause, skip, and search controls on the right. The Compact Disc Digital Audio mark and orange “16 BIT” indicator explained new technology while making “digital” visible as a quality. **Optical reading, error correction, and digital-to-analogue conversion became controls a fingertip could understand.**
+
+At 168,000 yen, the October 1, 1982 Japanese launch was a flagship declaration, not an overnight bargain. Roughly fifty commercial CDs arrived with it, bringing an ecosystem of silver discs, clear jewel cases, numbered tracks, and uninterrupted play.
+
+About 35 cm wide and 7.6 kg, its drawer now feels almost ceremonial. Yet those physical gestures gave invisible data a weight. Later players became smaller and cheaper; streaming removed the disc from view. **CDP-101 remains a reminder that a media revolution often reaches people first as a very specific, expensive, and slightly awkward object.**
+
+This page uses a Wikimedia Commons front product photograph of the CDP-101. It clearly shows the Sony mark, drawer-loading bay, Compact Disc Digital Audio logo, 16 BIT indicator, and control panel—without people, exhibition context, or generic CD imagery—and precisely matches the title, story, and industrial category.`,legacy_en:`• Brought digital audio from professional systems into domestic consumer electronics
+• Replaced linear fast-forward and rewind habits with track skipping and random access
+• Established an early product grammar of drawer loading, display zones, and playback controls
+• Turned technical specifications such as 16-bit audio into visible product and brand language
+• Set behavioural expectations for digital music libraries and later streaming interfaces`,significance_en:"Sony CDP-101 matters for more than being first. It made an invisible digital standard into a daily interface people could trust: insert, read, choose, play. Great industrial design makes technology feel inevitable the first time it enters life. CDP-101 was that threshold for digital music."}];/**
  * @license lucide-react v0.563.0 - ISC
  *
  * This source code is licensed under the ISC license.
