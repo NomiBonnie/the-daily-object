@@ -7677,7 +7677,35 @@ This page uses a Wikimedia Commons front product photograph of the CDP-101. It c
 • Replaced linear fast-forward and rewind habits with track skipping and random access
 • Established an early product grammar of drawer loading, display zones, and playback controls
 • Turned technical specifications such as 16-bit audio into visible product and brand language
-• Set behavioural expectations for digital music libraries and later streaming interfaces`,significance_en:"Sony CDP-101 matters for more than being first. It made an invisible digital standard into a daily interface people could trust: insert, read, choose, play. Great industrial design makes technology feel inevitable the first time it enters life. CDP-101 was that threshold for digital music."}];/**
+• Set behavioural expectations for digital music libraries and later streaming interfaces`,significance_en:"Sony CDP-101 matters for more than being first. It made an invisible digital standard into a daily interface people could trust: insert, read, choose, play. Great industrial design makes technology feel inevitable the first time it enters life. CDP-101 was that threshold for digital music."},{id:"403",date:"2026-10-02",imageUrl:"/the-daily-object/images/8-house.jpg",fullImageUrl:"/the-daily-object/images/full/8-house.jpg",title:"8 House",title_en:"8 House",subtitle:"Bjarke Ingels Group, 2010",subtitle_en:"Bjarke Ingels Group, 2010",category:"architecture",designer:"Bjarke Ingels Group（BIG）",year:"2010",tags:["把街道搬进楼里","重写混合住区","绿色屋顶示范"],tags_en:["Put the Street Inside","Rewrote Mixed-Use Housing","Green Roof Landmark"],dateConnection:"10 月 2 日是丹麦建筑师 Bjarke Ingels 的生日。1974 年出生的他，以把看似互相冲突的条件变成建筑形式的能力闻名；8 House 是这一方法最完整、也最可步行的一次实践。",designerBio:`Bjarke Ingels 于 1974 年 10 月 2 日出生在哥本哈根。他先想成为漫画家，后来在丹麦皇家艺术学院学习建筑；这种从叙事和绘图进入空间的路径，至今仍留在 BIG 的工作方法里。事务所不把“实用”与“好玩”当作对立面，而是试着让法规、预算、气候和日常行为共同生成一种清晰的形状。
+
+2005 年创立 BIG 后，Ingels 很快成为当代建筑最具辨识度的声音之一。他擅长用一个强而可解释的几何动作组织复杂项目：斜坡、环线、堆叠、扭转。8 House 并非个人独作；它由 BIG 团队完成，Ingels 与 Thomas Christoffersen 共同主导，把大尺度住宅做成一座可被走进去、骑上去的城市片段。`,story:`从空中看，8 House 像一个被打结的数字 8：两座庭院被中间的“蝴蝶结”连接。它位于哥本哈根 Ørestad South 的运河和湿地之间，2010 年完成，集合约 62,000 平方米的住宅、商铺与办公空间，曾是丹麦最大的私人开发项目之一。它没有接受“住宅一块、商业一块”的惯常分区，而是把不同生活放在同一条连续地形上。
+
+**最关键的设计不是外形，而是一条从街面一直上升到十层的公共坡道。** 人可以推车、散步或骑车经过商铺、联排住宅、花园和公寓；建筑的垂直高度被转换成一段有节奏的街道。办公室获得北向稳定光线，住户被抬到更高处获得阳光与视野，临街底层则留给商业。功能没有被隔离，而是在剖面里各得其所。
+
+两片约 1,700 平方米的斜坡绿屋顶也不是装饰。它们降低热岛效应，连接旁边的开阔农地，并把整座建筑拉回地景。两个内院尺度较小，给庞大的开发量留出邻里感；中间九米宽的通道又让行人可以从公园穿到运河。**8 House 的野心，是让一栋楼同时拥有街道的偶遇、郊区的天空和城市的密度。**
+
+BIG 将这种方法称为“建筑炼金术”：把零售、排屋和公寓这些普通成分以非常规方式混合，创造大于部件之和的生活质量。它获 2011 World Architecture Festival 混合住宅类大奖、2012 AIA National Honor Award 等认可。但真正让它留在设计史里的，并非奖项，而是那个极简单的问题：如果住区已经大到像一座城，为什么不能让它真的有一条街？
+
+本页采用 BIG 官方项目图库的 8 House 内院实景摄影：倾斜屋顶、连续坡道、围合庭院和通向湿地的开口均清晰可见。图片直接呈现作品本身，不含游客、展览现场或泛化建筑氛围，和标题、故事及 architecture 分类一致。`,legacy:`• 把连续步行与骑行路线引入大型住宅的核心体验
+• 用剖面而非孤立分区组织商业、办公与多种住宅
+• 证明高密度开发也能保留庭院、绿化与邻里尺度
+• 将绿色屋顶作为气候策略与建筑识别共同使用
+• 让“混合功能”从地产标签变成可被身体感知的空间关系`,significance:"8 House 的价值在于，它没有用奇形怪状来证明自己前卫。它把城市里最普通的要素——一条街、一个院子、一次上坡、一片屋顶——重新安排成可以被每天使用的秩序。好的建筑不是只在照片里像一个概念，而是让人在走动时明白：密度与自由并不必然相互牺牲。",dateConnection_en:"October 2 is the birthday of Danish architect Bjarke Ingels. Born in 1974, he became known for turning apparently competing constraints into architectural form; 8 House is one of the clearest and most walkable expressions of that method.",designerBio_en:`Bjarke Ingels was born in Copenhagen on October 2, 1974. He first wanted to become a cartoonist, then studied architecture at the Royal Danish Academy of Fine Arts. That route through drawing and narrative still informs BIG’s work: regulations, climate, budgets, and ordinary behaviour are treated as material for a legible spatial story.
+
+Founded in 2005, BIG became one of the most recognisable voices in contemporary architecture. The office uses decisive geometric moves—ramps, loops, stacks, twists—to organise complex programmes. 8 House was a team project led by BIG, with Ingels and Thomas Christoffersen, turning a large housing development into a piece of city one can walk and cycle through.`,story_en:`From above, 8 House reads as a knotted figure eight, its two courtyards joined at a bow-tie centre. Completed in 2010 on the edge of Copenhagen’s Ørestad South, it combines homes, shops, and offices across roughly 62,000 square metres. Rather than separating housing and commerce into blocks, it arranges everyday life along one continuous terrain.
+
+**Its decisive gesture is not the silhouette but a public ramp that rises from the street to the tenth floor.** Residents can walk, push a pram, or cycle past shops, townhouses, gardens, and apartments. Vertical height becomes a street: offices take stable northern light, homes rise toward sun and views, and retail meets the ground.
+
+Two sloping green roofs, together about 1,700 square metres, reduce heat-island effect and tie the building to the neighbouring landscape. Intimate courtyards give a huge development a neighbourly scale, while a nine-metre passage connects park and canal. **8 House asks whether a building large enough to function as a city can also contain a real street.**
+
+BIG calls this architectural alchemy: mix ordinary ingredients—retail, row houses, apartments—in unfamiliar ways to make added value. Awards followed, including the 2011 World Architecture Festival mixed-use housing prize and a 2012 AIA National Honor Award. Its lasting contribution is more direct: it makes density and freedom feel compatible in the body.
+
+This page uses an official BIG project photograph of the 8 House courtyard. Its sloping roofline, continuous promenade, courtyard, and opening toward the fields are visible; it shows the work itself, not visitors, an exhibition, or generic architectural atmosphere.`,legacy_en:`• Made continuous walking and cycling a central experience of large-scale housing
+• Used section rather than isolated zoning to arrange retail, offices, and varied homes
+• Showed that density can retain courtyards, greenery, and a neighbourly scale
+• Used green roofs as climate strategy and architectural identity together
+• Turned “mixed use” from a real-estate label into a bodily spatial relationship`,significance_en:"8 House does not rely on strange form to seem progressive. It rearranges ordinary urban elements—a street, a courtyard, an uphill walk, a roof—into an order that works every day. Great architecture is not only a concept in photographs; it lets people discover while moving that density and freedom need not be opposites."}];/**
  * @license lucide-react v0.563.0 - ISC
  *
  * This source code is licensed under the ISC license.
