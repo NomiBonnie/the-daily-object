@@ -13831,7 +13831,7 @@ This page uses an official BIG project photograph of the 8 House courtyard. Its 
 • Used green roofs as climate strategy and architectural identity together
 • Turned “mixed use” from a real-estate label into a bodily spatial relationship`,
     significance_en: `8 House does not rely on strange form to seem progressive. It rearranges ordinary urban elements—a street, a courtyard, an uphill walk, a roof—into an order that works every day. Great architecture is not only a concept in photographs; it lets people discover while moving that density and freedom need not be opposites.`,
-  },,
+  },
 
   {
     id: '404',
