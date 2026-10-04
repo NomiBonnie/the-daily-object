@@ -13888,4 +13888,58 @@ This page uses an original stage-design maquette image presented in the Museum o
 • Demonstrated that stage space is not decoration but a narrative actor that advances a performance`,
     significance_en: `Lee did not leave a style to copy. He left a sharper spatial awareness: no blank space onstage is empty, and every obstruction speaks. These models still carry that force. With very little material, they already contain an actor’s body, an audience’s gaze, and all the possibility of a performance yet to happen.`,
   },
+
+  {
+    id: '405',
+    date: '2026-10-04',
+    imageUrl: '/the-daily-object/images/iphone-4s.jpg',
+    fullImageUrl: '/the-daily-object/images/full/iphone-4s.png',
+    title: 'iPhone 4S',
+    title_en: 'iPhone 4S',
+    subtitle: 'Apple 工业设计团队，2011',
+    subtitle_en: 'Apple Industrial Design Team, 2011',
+    category: 'software' as const,
+    designer: 'Apple 工业设计团队',
+    year: '2011',
+    tags: ['让语音成为主界面', '定义手机摄影跃迁', '开启云端设备协同'],
+    tags_en: ['Made Voice a Main Interface', 'Advanced Mobile Photography', 'Started Cloud Device Sync'],
+    dateConnection: `2011 年 10 月 4 日，Apple 发布 iPhone 4S、iOS 5 与 iCloud。外观几乎延续 iPhone 4，但 Siri 首次被放到普通用户手中：手机从等待触摸的玻璃界面，开始尝试理解一句自然语言。`,
+    designerBio: `iPhone 4S 出自 Apple 工业设计、软件与工程团队的协作，而非一位单独署名的作者。当时由 Jonathan Ive 领导的工业设计团队，已经以 iPhone 4 的不锈钢边框、双面玻璃与紧凑比例建立了一种近乎建筑化的手机语言；4S 选择保留这副外壳，把变化放进用户看不见、却每天会遇到的相机、芯片、天线与系统里。
+
+这正是 Apple 当时最有影响力的产品方法：硬件并不只是承载软件的盒子，软件也不只是屏幕里的功能清单。按钮、麦克风、相机、通知、同步和语言被视为同一件产品的连续体验。4S 是这个方法的一个分水岭：它看似是一次迭代，却把“对着设备说话”变成了大众可以立刻尝试的交互动作。`,
+    story: `iPhone 4S 的表面几乎没有制造一场视觉革命。3.5 英寸 Retina 屏幕、黑白玻璃与不锈钢天线框，仍然延续 iPhone 4 的克制结构；正因为外形稳定，变化才更集中地落在体验本身。A5 双核芯片让系统更快，800 万像素相机与 1080p 视频让手机摄影跨过一个实用门槛，iCloud 则开始把照片、联系人与购买内容从单台设备的记忆，变成跨设备持续存在的服务。
+
+**真正改变产品叙事的是 Siri。** 长按 Home 键后，用户不必先找到一个图标、学习一套菜单，再输入关键词；可以直接问“明天深圳会下雨吗？”或说“提醒我六点给妈妈打电话”。它当然不总能听懂，功能也远不完整，但设计意义已经很清楚：自然语言被摆进主界面，而不再是实验室里的演示。
+
+这种设计并不等于用声音替代触摸。4S 的价值恰恰在于两者的分工：屏幕仍适合浏览、比较和确认；语音则适合在手忙、眼忙或不知道入口在哪时直接表达意图。**界面从一组固定控件，变成了可以在触摸、文字、通知与语言之间切换的多通道系统。** 此后语音助手、车载语音、智能音箱与生成式对话界面的普及，都沿着这条问题继续展开：机器要怎样理解人，而不只是等待人理解机器？
+
+2011 年的 iPhone 4S 也提醒人们，成熟设计并不总靠重新画一个轮廓来证明自己。它将既有的、已被认出的硬件形态当作稳定容器，把创新投入相机计算、云端协同和自然语言等行为层。今天回看，它的玻璃与钢仍然足够准确地指向那个时代；而 Siri 的出现，则让一块屏幕第一次更明确地拥有了“耳朵”。
+
+本页采用 Wikimedia Commons 的 iPhone 4S 正面无阴影产品图，完整展示黑色玻璃面板、前置镜头、听筒、圆形 Home 键与不锈钢边框；没有人物、展览环境或泛化手机氛围照，和标题、故事与 software 分类精确对应。`,
+    legacy: `• 让自然语言语音助手首次成为主流智能手机的核心功能
+• 将触摸、语音、通知与云同步整合为连续的设备体验
+• 以 800 万像素与 1080p 视频推动手机作为日常创作工具
+• 证明外观延续也能承载交互范式的重大转变
+• 为智能音箱、车载语音与后来的对话式界面建立大众预期`,
+    significance: `iPhone 4S 最值得被记住的，不是它多了一项功能，而是它重新分配了“谁需要适应谁”。过去，人先学习机器的按钮与路径；Siri 虽然笨拙，却提出了反方向的承诺：设备应当努力理解人的表达。这个承诺至今仍未完全兑现，但从那天起，语音不再只是电话的内容，也成为界面的形状。`,
+    dateConnection_en: `On October 4, 2011, Apple introduced iPhone 4S, iOS 5, and iCloud. Its exterior largely retained the iPhone 4, but Siri reached ordinary users for the first time: a glass interface built for touch began trying to understand a sentence spoken in natural language.`,
+    designerBio_en: `iPhone 4S was a collaboration across Apple’s industrial design, software, and engineering teams, rather than the signature of one person. The industrial design group led by Jonathan Ive had already established the iPhone 4’s almost architectural grammar of stainless-steel banding, glass faces, and compact proportion. The 4S kept that shell, placing its changes in the camera, chip, antenna, and system—the parts users encounter every day without always seeing.
+
+This was Apple’s influential product method at the time: hardware was not merely a software container, and software was not a list of screen features. Buttons, microphone, camera, alerts, sync, and language formed one continuous experience. The 4S marked a turn in that method: it looked like an iteration, but made speaking to a device a mainstream interaction anyone could try.`,
+    story_en: `iPhone 4S did not stage a visual revolution on its surface. Its 3.5-inch Retina display, black-or-white glass, and stainless-steel antenna band continued the iPhone 4’s restrained structure. That stability concentrated change in experience: the A5 chip sped up the system, the 8-megapixel camera and 1080p video made phone photography more capable, and iCloud began turning photos, contacts, and purchases into a service that persisted across devices.
+
+**Siri changed the product’s story.** By holding the Home button, a person no longer had to locate an icon, learn a menu, and type a keyword before acting. They could ask about tomorrow’s weather or say, “Remind me to call Mum at six.” It was imperfect and incomplete, but its design significance was immediate: natural language had entered the primary interface rather than remaining a laboratory demonstration.
+
+This did not mean voice replaced touch. The 4S mattered because it assigned each a role: screens are better for browsing, comparing, and confirming; voice helps when hands or eyes are occupied, or when the right entry point is unclear. **The interface became a multi-channel system, moving among touch, text, notifications, and speech rather than remaining a fixed set of controls.** Voice assistants, in-car voice systems, smart speakers, and later conversational interfaces all extend the question that began here: how should a machine understand people rather than only require people to understand it?
+
+iPhone 4S also shows that mature design does not always prove itself by redrawing a silhouette. It treated a recognised hardware form as a stable vessel and invested innovation in behavioural layers—computational imaging, cloud continuity, and language. Its glass and steel still locate it precisely in its era; Siri gave that slab of glass a more explicit pair of ears.
+
+This page uses a Wikimedia Commons no-shadow front product image of iPhone 4S. It clearly shows the black glass face, front camera, earpiece, circular Home button, and stainless-steel edge—with no person, exhibition context, or generic phone mood shot—and precisely matches the title, story, and software category.`,
+    legacy_en: `• Put a natural-language voice assistant at the centre of a mainstream smartphone
+• Joined touch, voice, notifications, and cloud sync into one continuous device experience
+• Helped make phone cameras a practical everyday creation tool through 8-megapixel capture and 1080p video
+• Showed that an interaction shift can be major even when an exterior remains familiar
+• Set public expectations for smart speakers, in-car voice, and later conversational interfaces`,
+    significance_en: `iPhone 4S is worth remembering not because it added a feature, but because it redistributed who should adapt to whom. Before it, people learned a machine’s buttons and routes. Siri, however imperfect, made the opposite promise: the device should make an effort to understand human expression. That promise remains unfinished, but from that day on, voice was no longer only what happened inside a phone call—it became a shape an interface could take.`,
+  },
 ]
