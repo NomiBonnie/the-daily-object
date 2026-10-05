@@ -13942,4 +13942,60 @@ This page uses a Wikimedia Commons no-shadow front product image of iPhone 4S. I
 • Set public expectations for smart speakers, in-car voice, and later conversational interfaces`,
     significance_en: `iPhone 4S is worth remembering not because it added a feature, but because it redistributed who should adapt to whom. Before it, people learned a machine’s buttons and routes. Siri, however imperfect, made the opposite promise: the device should make an effort to understand human expression. That promise remains unfinished, but from that day on, voice was no longer only what happened inside a phone call—it became a shape an interface could take.`,
   },
+
+  {
+    id: '406',
+    date: '2026-10-05',
+    imageUrl: '/the-daily-object/images/vietnam-veterans-memorial.jpg',
+    fullImageUrl: '/the-daily-object/images/full/vietnam-veterans-memorial.jpg',
+    title: '越战退伍军人纪念碑',
+    title_en: 'Vietnam Veterans Memorial',
+    subtitle: '林璎，1982',
+    subtitle_en: 'Maya Lin, 1982',
+    category: 'art' as const,
+    designer: '林璎（Maya Lin）',
+    year: '1982',
+    tags: ['重写纪念建筑语言', '让名字成为主角', '以极简承载哀悼'],
+    tags_en: ['Redefined Memorial Language', 'Made Names the Main Subject', 'Carried Mourning Through Minimalism'],
+
+    dateConnection: `1959 年 10 月 5 日，林璎出生。她二十一岁时为越战退伍军人纪念碑提交的匿名竞赛方案，以一条嵌入大地的黑色 V 形墙，改变了现代社会纪念战争、书写失去的方式。`,
+    designerBio: `林璎（Maya Lin，1959—）出生于美国俄亥俄州雅典市，父母均来自中国。1981 年，她还是耶鲁大学建筑系的学生；在一场面向全美的匿名竞赛中，她的越战退伍军人纪念碑方案从 1,421 件参赛作品中胜出。没有凯旋姿态，没有英雄雕像，只有一条沉入草坡、映出天空与来访者的黑色花岗岩墙。
+
+她的工作横跨建筑、雕塑、地景与公共艺术，但始终关心同一个问题：空间如何让人意识到时间、自然与自身。林璎不是用对象去“说明”一个纪念主题，而是用路径、材料、尺度和留白，让观者亲自完成情感的抵达。越战纪念碑让她一举成名，也奠定了她此后最有辨识度的设计方法。`,
+    story: `越战退伍军人纪念碑最大胆之处，在于它拒绝把纪念做成一座向上昂起的纪念碑。林璎把两道黑色花岗岩墙折成一个浅 V，埋入国家广场的草地；人沿着墙缓缓向下走，到达最低处，再回到地面。**这不是观看一件雕塑的路线，而是一段被身体走出来的下降、面对与返回。**
+
+墙的两端分别指向林肯纪念堂与华盛顿纪念碑。这个看似安静的几何动作，把越战放入美国既有的历史轴线里；而墙面上按牺牲日期排列的五万八千多个名字，则拒绝把战争化成抽象数字。名字不是附注，而是整个空间的主体。每个人都能在石面上同时看见姓名、树影、天空和自己的倒影，活着的人因此被放进记忆之中。
+
+方案公布时，它曾遭遇强烈反对：有人把黑色墙体称作“耻辱的裂口”，认为它不够英雄、不够具象。但正是这种极简克制，使它没有替观者规定情绪。它允许哀悼、愤怒、内疚、敬意和沉默同时存在。后来增设的三名士兵雕像与旗杆提供了具象叙事，**但黑色的墙始终是这座纪念地最有力的情感核心。**
+
+从设计角度看，它将信息设计、景观、材料与行为编织成一件作品：名字的时间顺序是叙事，抛光石材是界面，坡地与行走是交互。它几乎没有传统装饰，却让每一步都带有意义。此后无数公共纪念空间都从中学习——纪念不必用宏大形象压过个人，反而可以通过准确的秩序，给个人记忆留下最大的空间。
+
+本页采用美国国会图书馆收藏的林璎原始获奖方案图：图中直接呈现她为越战退伍军人纪念碑绘制的地景透视、剖面与平面关系，不是游客照、展览现场或泛化氛围图。它与标题、故事和 art（公共艺术／地景纪念设计）分类严格对应。`,
+    legacy: `• 以嵌入地景的路径取代传统纪念碑的高台与雕像
+• 让牺牲者姓名成为公共纪念空间的视觉主体
+• 用反光黑色花岗岩把观者的当下与历史记忆并置
+• 证明极简形式可以承载复杂而不被规定的集体情感
+• 深刻影响此后战争、灾难与人权纪念空间的设计语言`,
+    significance: `越战退伍军人纪念碑的力量，不在于它替历史做出了结论，而在于它设计出一种面对历史的方式。林璎把一面墙变成时间、姓名、倒影和脚步共同工作的媒介：它不要求人抬头致敬，而让人低下身、靠近看、慢慢走。最成熟的公共设计，往往正有这种克制——它不替人感受，却给每个人感受的空间。`,
+
+    dateConnection_en: `Maya Lin was born on October 5, 1959. At twenty-one, her anonymous competition proposal for the Vietnam Veterans Memorial used a black V-shaped wall set into the earth to change how modern societies remember war and give form to loss.`,
+    designerBio_en: `Maya Lin (born 1959) was born in Athens, Ohio, to Chinese immigrant parents. In 1981, while still an architecture student at Yale University, she won the anonymous national competition for the Vietnam Veterans Memorial from 1,421 entries. There was no triumphant pose or heroic statue—only a black granite wall sunk into a grassy slope, reflecting sky and visitor alike.
+
+Her work moves across architecture, sculpture, landscape, and public art, but returns to a consistent question: how can space make us conscious of time, nature, and ourselves? Lin does not use objects to explain a memorial theme. She uses route, material, scale, and emptiness so visitors can arrive at their own response. The Vietnam Veterans Memorial made her name and established the method that still defines her work.`,
+    story_en: `The Vietnam Veterans Memorial is radical because it refuses to make remembrance into an object that rises above its visitors. Lin folds two black granite walls into a shallow V and sets them into the lawn of the National Mall. One walks gradually down, reaches the lowest point, and returns to ground. **It is not a route for looking at sculpture; it is a descent, encounter, and return enacted by the body.**
+
+The walls aim toward the Lincoln Memorial and the Washington Monument. That quiet geometric move places the Vietnam War on an existing American historical axis. The more than 58,000 names, arranged by date of loss, refuse to let war become an abstraction. Names are not a caption; they are the work’s subject. On the polished stone, visitors see names, trees, sky, and their own reflection at once—the living placed within memory.
+
+The proposal met fierce opposition when it was announced. Some called its black wall a “gash of shame,” finding it insufficiently heroic or figurative. Yet that restraint is exactly what keeps the design from prescribing emotion. Grief, anger, guilt, respect, and silence can coexist. Three Soldiers and a flagpole were later added nearby, but **the black wall remains the site’s most powerful emotional core.**
+
+As design, it weaves information, landscape, material, and behaviour into one work: chronological names are narrative; polished stone is interface; slope and walking are interaction. It uses almost no conventional ornament, yet gives every step a meaning. Countless later memorials learned from it that public remembrance need not let a grand image overwhelm a person; careful order can instead make the greatest room for individual memory.
+
+This page uses Maya Lin’s original winning competition proposal held by the Library of Congress. It directly presents her landscape perspective, sections, and plan for the Vietnam Veterans Memorial—not a visitor photograph, exhibition view, or generic atmosphere image—and precisely matches the title, story, and art/public-memorial-design category.`,
+    legacy_en: `• Replaced the pedestal-and-statue model with a route embedded in landscape
+• Made individual names the visual subject of a public memorial
+• Used polished black granite to place the visitor’s present beside historical memory
+• Proved minimalist form can hold complex collective emotion without prescribing it
+• Deeply influenced the design language of later war, disaster, and human-rights memorials`,
+    significance_en: `The power of the Vietnam Veterans Memorial lies not in reaching a conclusion about history, but in designing a way to face it. Lin made a wall into a medium where time, names, reflections, and footsteps work together. It does not ask people to look up in salute; it asks them to lower themselves, look closely, and walk slowly. The most mature public design does not feel on our behalf—it makes room for each person to feel.`,
+  },
 ]
