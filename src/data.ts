@@ -13998,4 +13998,59 @@ This page uses Maya Lin’s original winning competition proposal held by the Li
 • Deeply influenced the design language of later war, disaster, and human-rights memorials`,
     significance_en: `The power of the Vietnam Veterans Memorial lies not in reaching a conclusion about history, but in designing a way to face it. Lin made a wall into a medium where time, names, reflections, and footsteps work together. It does not ask people to look up in salute; it asks them to lower themselves, look closely, and walk slowly. The most mature public design does not feel on our behalf—it makes room for each person to feel.`,
   },
+  {
+    id: '407',
+    date: '2026-10-06',
+    imageUrl: '/the-daily-object/images/paula-scher-shakespeare-in-the-park-2015.jpg',
+    fullImageUrl: '/the-daily-object/images/full/paula-scher-shakespeare-in-the-park-2015.jpg',
+    title: 'Shakespeare in the Park 2015 Campaign',
+    title_en: 'Shakespeare in the Park 2015 Campaign',
+    subtitle: 'Paula Scher，2015',
+    subtitle_en: 'Paula Scher, 2015',
+    category: 'graphic' as const,
+    designer: 'Paula Scher（葆拉·舍尔）',
+    year: '2015',
+    tags: ['重塑公共剧场语言', '让导视成为表演', '定义纽约排版能量'],
+    tags_en: ['Redefined Public Theatre Language', 'Turned Signage into Performance', 'Defined New York Typographic Energy'],
+
+    dateConnection: `1948 年 10 月 6 日，Paula Scher 出生于华盛顿特区。她以 The Public Theater 长达数十年的视觉工作，把高声量、快节奏、属于纽约街头的排版，带进了剧场的海报、门票、导视和城市空间。`,
+    designerBio: `Paula Scher（葆拉·舍尔，1948—）是 Pentagram 纽约合伙人，也是当代平面设计最有辨识度的声音之一。她早年为 CBS Records 与 Atlantic Records 设计唱片封面，随后把唱片设计的直觉，转化成品牌、环境图形与公共文化项目。
+
+她从不把字体当作中性的容器。粗重、倾斜、挤压、交叠的字词在她手中具有音量、速度和性格；文字既传递信息，也像演员一样占据舞台。Scher 为 The Public Theater、纽约市公园、MoMA、纽约爱乐等机构建立的作品，被 MoMA、Cooper Hewitt、V&A 等收藏。她证明平面设计能让公共机构说话，也让城市里的陌生人感到被邀请进来。`,
+    story: `Shakespeare in the Park 是纽约夏季最民主的剧场传统之一：在中央公园的 Delacorte Theater，观众领取免费门票，在夜色与树影里观看莎士比亚。2015 年，Paula Scher 为这一季《冬天的故事》和《威尼斯商人》做的，不是一张孤立的海报，而是一套会在排队、入场、问路、看戏时不断开口的视觉系统。
+
+画面中，亮粉色的巨大字母被切分、旋转、交叉；黑色斜体信息像演员从字形间冲出。GATE、TICKETS REQUIRED、SHAKESPEARE IN THE PARK、NO PERFORMANCE TODAY——这些本来只该被快速略过的功能信息，被编排成有节奏、有碰撞的动作。**她没有把导视藏起来，而是让导视本身开始表演。** 当“2 GATES”变成两个人形般的粉色数字，当箭头穿过 RESTROOMS，观众甚至在抵达座位前，就已进入一种夸张、机敏、略带混乱的戏剧状态。
+
+这套设计的力量，来自它同时处理了两件通常彼此矛盾的事：极其明确的信息与极其强烈的个性。免费演出意味着观众并不全是熟悉剧场规则的人；入口、无障碍通道、领票、禁拍都必须一秒读懂。Scher 用高对比的黑、白、荧光粉，极大的词和明确的箭头建立优先级，却拒绝让系统变得温吞。**易读不是把语气拿掉；真正的公共设计，能在清楚之外保留态度。**
+
+它把莎士比亚从“需要小心对待的经典”拉回纽约当下。剧本仍然来自数百年前，视觉语言却像海报、涂写、演唱会和城市警示牌彼此碰撞。Scher 不用仿古字体向权威致敬，而是用活着的语言告诉人们：这些戏本来就是给广场上的人看的，有欲望、有误会、有笑声，也有大声说出来的冲突。
+
+本页采用 Pentagram 档案中该项目的官方原始图像，直接呈现 2015 Shakespeare in the Park 的导视与传播版式，包括粉色字形、黑色斜排信息、箭头和功能标识；它不是剧场游客照、展览照或泛化舞台氛围图，与标题、故事及 graphic 分类完全对应。`,
+    legacy: `• 将海报、导视、票务提示与现场体验统一为同一套戏剧化语言
+• 证明高密度排版可以同时保持城市级可读性与鲜明个性
+• 让免费公共剧场的入口信息也成为文化体验的一部分
+• 用非怀旧的当代视觉语言重新打开莎士比亚的公共性
+• 影响剧场、音乐、艺术机构如何用品牌系统制造参与感`,
+    significance: `Paula Scher 的厉害，不是把文字做得“很酷”，而是知道文字在现实世界里会遇到什么：人群、时间压力、方向、噪音和犹豫。Shakespeare in the Park 2015 把这些摩擦都变成了设计材料。它让人明白，一套真正成熟的视觉系统不该只在屏幕截图里好看；它要能在城市中指路、制造情绪，并把陌生人推向同一个夜晚的舞台。`,
+
+    dateConnection_en: `Paula Scher was born in Washington, D.C., on October 6, 1948. Through decades of work for The Public Theater, she brought loud, fast, street-level New York typography into theatre posters, tickets, signage, and urban space.`,
+    designerBio_en: `Paula Scher (born 1948) is a Pentagram partner in New York and one of contemporary graphic design’s most distinctive voices. After designing album covers for CBS Records and Atlantic Records, she translated the music industry’s need to seize attention at a glance into brands, environmental graphics, and public-cultural projects at a larger scale.
+
+For Scher, type is never neutral. Heavy, slanted, compressed, and overlapping words carry volume, speed, and personality; they communicate, but they also occupy a stage. Her work for The Public Theater, NYC Parks, MoMA, the New York Philharmonic, and many others is held by institutions including MoMA, Cooper Hewitt, and the V&A. She changed a field often mistaken for decoration: graphic design can give public institutions a voice and make strangers in a city feel immediately invited in.`,
+    story_en: `Shakespeare in the Park is one of New York’s most democratic summer rituals. At Central Park’s Delacorte Theater, people queue for free tickets, then watch Shakespeare among night air, trees, and the noise of the city. For the 2015 season of *The Winter’s Tale* and *The Merchant of Venice*, Paula Scher made not an isolated poster but a visual system that kept speaking while people queued, entered, asked directions, and watched.
+
+Huge hot-pink letterforms are cut, rotated, and crossed by black italic information. GATE, TICKETS REQUIRED, SHAKESPEARE IN THE PARK, NO PERFORMANCE TODAY—functional messages normally skimmed in seconds—become actions with rhythm and collision. **Scher does not hide signage; she lets signage perform.** “2 GATES” becomes almost two pink figures; an arrow cuts through RESTROOMS. Before reaching a seat, visitors have entered an exaggerated, quick-witted, slightly unruly theatrical condition.
+
+The system resolves two needs that often conflict: absolute clarity and forceful character. A free performance attracts people who do not all know theatre etiquette, so gates, accessibility, ticket collection, and photography rules must be legible immediately. Scher builds hierarchy with black, white, fluorescent pink, giant words, and explicit arrows, yet refuses blandness. **Legibility does not require removing tone; public design can be clear and still have an attitude.**
+
+It also returns Shakespeare from carefully preserved “classic” to contemporary New York. The texts are centuries old; the visual language collides posters, graffiti, concert graphics, and city warnings. Scher does not honour authority through antique typography. She uses a living language to say that these plays were always for people in a public square: full of desire, mistakes, laughter, and conflict said out loud.
+
+This page uses an official original project image from Pentagram’s archive. It directly shows the 2015 Shakespeare in the Park signage and campaign layouts—pink letterforms, black diagonal messages, arrows, and operational signs—not a theatre visitor photo, exhibition view, or generic stage atmosphere. It exactly matches the title, story, and graphic category.`,
+    legacy_en: `• Unified posters, wayfinding, ticket instructions, and on-site experience in one theatrical language
+• Proved dense typography can retain city-scale legibility and a strong personality at once
+• Made entry information part of the cultural experience of free public theatre
+• Reopened Shakespeare’s public character through a contemporary, non-nostalgic visual language
+• Influenced how theatres, music, and art institutions use systems to create participation`,
+    significance_en: `Scher’s strength is not merely making words look “cool.” It is knowing what words encounter in the real world: crowds, time pressure, directions, noise, and hesitation. Shakespeare in the Park 2015 turns those frictions into design material. A mature visual system should not only look good in a screenshot; it should direct people in a city, create feeling, and move strangers toward a shared stage on one night.`,
+  },
 ]
