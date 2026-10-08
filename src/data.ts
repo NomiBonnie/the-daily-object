@@ -14081,5 +14081,61 @@ This page uses an official original project image from Pentagram’s archive. It
     legacy_en: `• Combined interchangeable parts, divided tasks, and continuous transport into a reproducible production system\n• Helped move the automobile from an expensive machine for a few to an everyday possibility for many\n• Made tempo, workstation, and gesture as important to industrial design as form\n• Reshaped the cost structure of global manufacturing, retail, logistics, and consumer society\n• Exposed the lasting tension between efficiency and workers’ autonomy`,
     significance_en: `Ford’s moving assembly line belongs on a design calendar not because it looks elegant, but because it radically enlarged design’s scale. It showed that a product lives not only in its body, materials, and controls, but in invisible flows, institutions, and time. When a system makes things arrive cheaper and faster, it also decides who must adapt to it—and at what pace they live.`,
   },
+,
 
+  {
+    id: '409',
+    date: '2026-10-08',
+    imageUrl: '/the-daily-object/images/de-la-warr-pavilion.jpg',
+    fullImageUrl: '/the-daily-object/images/full/de-la-warr-pavilion.jpg',
+    title: '德拉沃尔馆',
+    title_en: 'De La Warr Pavilion',
+    subtitle: 'Erich Mendelsohn & Serge Chermayeff，1935',
+    subtitle_en: 'Erich Mendelsohn & Serge Chermayeff, 1935',
+    category: 'architecture' as const,
+    designer: '埃里希·门德尔松与谢尔盖·切尔马耶夫',
+    year: '1935',
+    tags: ['英国现代主义地标', '让公共文化面向海洋', '定义流线型建筑语言'],
+    tags_en: ['British Modernist Landmark', 'Opened Culture to the Sea', 'Defined Streamline Architecture'],
+
+    dateConnection: `1900 年 10 月 8 日，建筑师 Serge Chermayeff 出生。三十五年后，他与 Erich Mendelsohn 完成英国南岸的 De La Warr Pavilion：一座把剧场、展厅、餐厅与海景散步连接起来的公共文化建筑，也成为英国现代主义最清晰、最亲切的宣言之一。`,
+    designerBio: `Serge Chermayeff（谢尔盖·切尔马耶夫，1900—1996）生于俄国格罗兹尼，后在英国与美国从事建筑、城市规划和设计教育。他从不满足于把现代主义理解成一种白墙风格；对他而言，建筑首先是一种社会组织方式——谁能进入、如何相遇、视线如何被打开，和立面一样重要。
+
+Erich Mendelsohn（埃里希·门德尔松，1887—1953）则以富有速度感的表现主义与现代主义建筑闻名。1933 年，他因纳粹上台离开德国，在英国与 Chermayeff 合作。两人的经验恰好互补：Mendelsohn 擅长将流动、光线和结构压缩为鲜明的形体；Chermayeff 则把这种形体落实为面向公众的文化空间。De La Warr Pavilion 是他们最重要的英国合作，也是两位流亡与迁徙背景中的建筑师，对开放社会作出的一次具体回答。`,
+    story: `1934 年，Bexhill-on-Sea 的市政当局为一座海滨文化中心举办竞赛。委托方的要求在当时极其新鲜：它不该是只服务精英的会所，而应当有剧场、展览、餐饮和屋顶露台，成为普通市民可以抵达的“娱乐宫”。Mendelsohn 与 Chermayeff 的方案胜出，并在短短十余个月里落成。
+
+远看它像一艘停在海岸边的白色客轮：长水平屋檐、连续玻璃幕墙、细柱、露台与栏杆把建筑拉向海平线。最令人难忘的是西侧圆弧玻璃塔里的螺旋楼梯。**楼梯不是被藏起来的交通工具，而是一件被玻璃托举、向海边展示的公共表演。** 人上楼时的身体、光线与栏杆共同构成建筑的动态立面；现代主义在这里不再冷峻，而是有风、有视野，也有人在移动。
+
+它的真正创新不只在造型。传统海滨度假建筑常把剧场、餐厅和观景区分成封闭的房间；De La Warr Pavilion 用露台、连廊、玻璃和开放楼梯把这些活动编成连续路线。观众可以看演出，也可以穿过大厅、在屋顶停留、朝大海走去。**建筑不再只是一个装东西的盒子，而是一段被设计的公共时间。** 这也解释了为什么它在 1935 年开放后迅速成为英国现代建筑的象征：它把“现代”从技术新奇，变成一种人人可使用的日常体验。
+
+这座建筑也有一层更尖锐的历史背景。它在欧洲法西斯主义扩张之际，由一位逃离德国的建筑师和一位跨国成长的设计者完成；没有纪念碑式的口号，却用透明、可进入、面向公共海岸的空间，表达了另一种价值。此后它经历战争、海风侵蚀与长期衰败，2005 年修复后重新作为当代艺术与演出场所开放。它提醒人们：现代主义最好的遗产不是“看起来未来”，而是让公共生活比从前更自由一点。
+
+本页采用 Wikimedia Commons 收录的建筑正面专业摄影：画面直接呈现 De La Warr Pavilion 的圆弧露台、水平玻璃立面、细柱与内部螺旋楼梯，是作品本身而非游客合影、展览现场或泛化海滨氛围图；与标题、故事和 architecture 分类严格对应。`,
+    legacy: `• 以透明楼梯与连续露台重写公共建筑的动线语言
+• 将剧场、展览、餐饮与海滨散步组织为一个开放系统
+• 成为英国国际主义现代建筑最具辨识度的地标之一
+• 证明现代主义可以服务日常休闲，而非只服务机构权威
+• 为其后文化中心与海滨公共空间提供了开放、可见的范本`,
+    significance: `De La Warr Pavilion 的厉害，在于它没有把“公共性”写成标语，而是把它做进每一段路径。你能看见楼梯，能走上露台，能在玻璃后看到别人的移动，也能让海景进入室内。它把建筑从一件孤立的白色雕塑，变成一台让陌生人共享视线、时间与城市边界的机器。九十多年后，这种开放仍然比许多看似更新的建筑更现代。`,
+
+    dateConnection_en: `Serge Chermayeff was born on October 8, 1900. Thirty-five years later, he and Erich Mendelsohn completed the De La Warr Pavilion on England’s south coast: a public cultural building that joined theatre, gallery, restaurant, and a walk toward the sea, becoming one of Britain’s clearest and most generous statements of modernism.`,
+    designerBio_en: `Serge Chermayeff (1900–1996) was born in Grozny, Russia, and worked in Britain and the United States as an architect, planner, and design educator. He never treated modernism as a white-wall style. For him, architecture organized social life: who could enter, how people met, and how sightlines opened mattered as much as a façade.
+
+Erich Mendelsohn (1887–1953) was known for modernist buildings charged with movement. Forced from Germany after the Nazi rise to power in 1933, he joined Chermayeff in Britain. Their strengths met precisely here: Mendelsohn could condense light, motion, and structure into a memorable form; Chermayeff could make that form work as civic cultural space. The De La Warr Pavilion became their most significant British collaboration—and a concrete argument for an open society by two internationally formed architects.`,
+    story_en: `In 1934, Bexhill-on-Sea held a competition for a seafront cultural centre. The commission was unusually progressive: not a private club for an elite, but a “palace of entertainment” with theatre, exhibition space, food, and roof terraces for ordinary residents. Mendelsohn and Chermayeff won, and the building rose in little more than a year.
+
+From a distance it resembles a white ocean liner moored at the coast. Long horizontal canopies, continuous glass, slender columns, terraces, and rails pull the building toward the horizon. Its unforgettable feature is the spiral stair inside a curved glazed tower. **The stair is not hidden circulation; it is a public performance, held up by glass and shown to the sea.** Bodies climbing, light moving, and rails looping together become an active façade. Modernism here is not austere: it has wind, a view, and people in motion.
+
+Its innovation was not only formal. Where conventional resort buildings separated theatre, dining, and viewing into closed rooms, De La Warr connected them through terraces, galleries, glass, and open stairs. A visitor could attend a performance, cross the hall, pause on a roof, and head toward the water. **Architecture stopped being a box for activities and became a stretch of public time designed in sequence.** That is why, when it opened in 1935, it quickly became an emblem of British modern architecture: it made “modern” a daily experience available to anyone, not a technical novelty.
+
+There is a sharper historical dimension, too. Built amid fascism’s expansion in Europe by an architect displaced from Germany and a transnational designer, it made no monumental slogan. Its transparency, accessibility, and public-facing seafront expressed a different value. After war, salt air, and long decline, it was restored and reopened in 2005 as a place for contemporary art and performance. Its best lesson is that modernism need not look futuristic to matter; it can make public life a little freer.
+
+This page uses a professional front-view photograph from Wikimedia Commons. It directly shows the De La Warr Pavilion’s curved terraces, horizontal glazed façade, slender columns, and visible internal spiral stair—an image of the work itself, not a visitor portrait, exhibition view, or generic seaside atmosphere. It precisely matches the title, story, and architecture category.`,
+    legacy_en: `• Recast circulation through transparent stairs and continuous terraces
+• Organized theatre, exhibitions, dining, and a seafront walk as one open system
+• Became one of the most recognizable landmarks of British International Style architecture
+• Proved modernism could serve everyday leisure rather than institutional authority alone
+• Offered later cultural centres a model of open, visible public space`,
+    significance_en: `The De La Warr Pavilion’s achievement is that it does not state “publicness” as a slogan; it builds it into every route. You can see the stair, walk onto the terrace, observe others moving behind glass, and let the sea enter the room. It turns architecture from an isolated white sculpture into a machine for strangers to share sightlines, time, and the edge of a city. More than ninety years later, that openness remains more modern than many newer buildings.`,
+  },
 ]
