@@ -14081,7 +14081,6 @@ This page uses an official original project image from Pentagram’s archive. It
     legacy_en: `• Combined interchangeable parts, divided tasks, and continuous transport into a reproducible production system\n• Helped move the automobile from an expensive machine for a few to an everyday possibility for many\n• Made tempo, workstation, and gesture as important to industrial design as form\n• Reshaped the cost structure of global manufacturing, retail, logistics, and consumer society\n• Exposed the lasting tension between efficiency and workers’ autonomy`,
     significance_en: `Ford’s moving assembly line belongs on a design calendar not because it looks elegant, but because it radically enlarged design’s scale. It showed that a product lives not only in its body, materials, and controls, but in invisible flows, institutions, and time. When a system makes things arrive cheaper and faster, it also decides who must adapt to it—and at what pace they live.`,
   },
-,
 
   {
     id: '409',
