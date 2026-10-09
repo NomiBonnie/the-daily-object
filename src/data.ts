@@ -14137,4 +14137,63 @@ This page uses a professional front-view photograph from Wikimedia Commons. It d
 • Offered later cultural centres a model of open, visible public space`,
     significance_en: `The De La Warr Pavilion’s achievement is that it does not state “publicness” as a slogan; it builds it into every route. You can see the stair, walk onto the terrace, observe others moving behind glass, and let the sea enter the room. It turns architecture from an isolated white sculpture into a machine for strangers to share sightlines, time, and the edge of a city. More than ninety years later, that openness remains more modern than many newer buildings.`,
   },
+  {
+    id: '410',
+    date: '2026-10-09',
+    imageUrl: '/the-daily-object/images/imagine-album-sleeve-1971.jpg',
+    fullImageUrl: '/the-daily-object/images/full/imagine-album-sleeve-1971.jpg',
+    title: 'Imagine Album Sleeve',
+    title_en: 'Imagine Album Sleeve',
+    subtitle: 'Yoko Ono & George Maciunas，1971',
+    subtitle_en: 'Yoko Ono & George Maciunas, 1971',
+    category: 'music' as const,
+    designer: '小野洋子与乔治·马丘纳斯',
+    year: '1971',
+    tags: ['把和平变成视觉符号', '定义极简唱片封套', '让观念艺术走向大众'],
+    tags_en: ['Turned Peace into a Visual Symbol', 'Defined Minimal Album Sleeves', 'Brought Conceptual Art to the Masses'],
+
+    dateConnection: `1940 年 10 月 9 日，John Lennon 出生于利物浦。三十一年后，他的专辑 *Imagine* 以一张几乎要消失在云层里的脸，替一首关于想象共同世界的歌找到了视觉形式。封套由 Yoko Ono 负责设计与摄影，George Maciunas 完成排版；它也是两位观念艺术家把唱片当作思想媒介的一次精准合作。`,
+    designerBio: `Yoko Ono（小野洋子，1933—）是横跨诗歌、行为、影像、声音与观念艺术的创作者。她在 1960 年代参与纽约与东京前卫艺术现场，作品常以简短指令邀请观者补全：想象一朵云、倾听一个声音、完成一个动作。对她而言，艺术不是展示一个封闭的答案，而是启动观众的意识。
+
+George Maciunas（乔治·马丘纳斯，1931—1978）是 Fluxus 运动的发起人之一，也是极具实验精神的平面设计师。他用极低成本的印刷、目录、包装与版式，让艺术像日常信息一样流通。*Imagine* 的署名看似朴素，却浓缩了两条重要脉络：Ono 用影像和文字打开想象，Maciunas 用排版让这种想象被清晰地送到唱片店、客厅和无数人的手里。`,
+    story: `1971 年的 *Imagine* 不是一张把歌手摆在画面正中央、用醒目字标出“明星”的唱片封面。Yoko Ono 拍下戴圆框眼镜的 John Lennon，又让云层叠进他的脸。标题与姓名被压缩成左侧一小块深色文字，周围留出大片灰蓝、乳白和雾气。**它把“Imagine”最核心的动作——看见尚未存在的东西——直接变成了图像。**
+
+封面的妙处是它没有把和平画成标志、鸽子或口号。云既遮住 Lennon，也让他融入天空；人没有被抹去，却不再占据世界的中心。那是一种克制的视觉叙事：一个具体的人，正试图把自己放进更大的共同体。与音乐里极简、缓慢、几乎像公共祈愿的钢琴旋律一样，画面拒绝夸张，反而让观看者有空间把自己的愿望投射进去。
+
+背面收录了 Ono 1963 年《Grapefruit》中的一句指令诗：“imagine the clouds dripping. dig a hole in your garden to put them in.” 这不是附加装饰，而是封套结构的一部分：正面先让云进入人的脸，背面再要求读者把云想象成可以触摸、可以安放的事物。**唱片封套由此不只是音乐的包装，而是一件从图像、文字到聆听体验连续展开的观念作品。**
+
+Maciunas 的排版同样重要。小写、紧凑、几乎没有装饰的字与柔软的云形成反差；它不解释情绪，也不抢走照片的注意力，而是像一个安静的标签。视觉秩序被压到最少，却让“imagine / john lennon”成为可复制、可辨认、可进入公共记忆的符号。后来无数专辑封面都学习过这种信任留白的方式：少放一点，不是少表达一点。
+
+这张封套也提醒我们，流行文化与前卫艺术之间并没有绝对的墙。Ono 的观念写作、Maciunas 的 Fluxus 设计语言，原本属于小规模实验网络；借由 Lennon 的巨大公众影响，它们进入全球唱片架。今天人们记得 *Imagine*，不只因为旋律，也因为那张云中的脸已经替歌曲完成了第一句无声的邀请：先把世界看成可以不同。
+
+本页使用 John Lennon 官方档案发布的 1971 年 *Imagine* 原始正面封套图。画面直接呈现 Ono 摄影、设计与 Maciunas 排版所构成的作品本身；不是 Lennon 肖像照、现场演出照或泛化云景，与标题、故事及 music 分类严格对应。`,
+    legacy: `• 把“想象”这一抽象动作转化为一眼可认的云中肖像
+• 证明流行唱片封套可以承载观念艺术，而不必牺牲大众可读性
+• 将摄影、排版、指令诗与音乐组织为一个连续体验
+• 以极少元素建立了摇滚史上最持久的和平视觉符号之一
+• 让 Fluxus 的低调设计语言进入全球流行文化的共同记忆`,
+    significance: `*Imagine* 封套的力量，不在于它替歌曲画了一张“漂亮插图”，而在于它让视觉与音乐说同一种语气：轻、开放、没有把答案塞给你。Yoko Ono 与 George Maciunas 把一张 12 英寸纸套设计成了一个入口——先让人看见云穿过一张脸，再让人意识到，边界、身份和现实本身都可以被重新想象。`,
+
+    dateConnection_en: `John Lennon was born in Liverpool on October 9, 1940. Thirty-one years later, *Imagine* gave its invitation to imagine a shared world a visual form: a face almost dissolving into clouds. Yoko Ono designed and photographed the sleeve, while George Maciunas set its typography—a precise collaboration between two conceptual artists using a record as a vehicle for thought.`,
+    designerBio_en: `Yoko Ono (born 1933) is an artist whose work moves among poetry, performance, film, sound, and conceptual art. In the 1960s she worked in the avant-garde scenes of New York and Tokyo, often using brief instructions that ask a viewer to complete the work: imagine a cloud, listen to a sound, perform an action. For Ono, art does not display a sealed answer; it activates consciousness.
+
+George Maciunas (1931–1978), a founder of Fluxus, was also an exceptionally inventive graphic designer. Through low-cost printing, catalogues, packaging, and typography, he made art circulate with the directness of everyday information. The modest credit on *Imagine* joins two crucial practices: Ono opening imagination through image and text; Maciunas making that imagination legible enough to travel through record shops, living rooms, and millions of hands.`,
+    story_en: `The 1971 *Imagine* sleeve is not a conventional star portrait with the artist centered and the name shouted in large type. Yoko Ono photographed John Lennon in round glasses and layered clouds across his face. The title and name shrink into a small dark block at left, surrounded by blue-grey haze and white light. **It turns the central act of “Imagine”—seeing what does not yet exist—into an image.**
+
+Its intelligence is that it does not illustrate peace with a dove, a logo, or a slogan. Clouds partly veil Lennon while making him part of the sky; a specific person remains present without occupying the centre of the world. It is restrained visual storytelling: one person attempting to place himself within a larger common field. Like the song’s spare, slow piano line, the image does not overstate feeling. It leaves enough room for the viewer to project a wish into it.
+
+The reverse sleeve carries Ono’s 1963 instruction poem from *Grapefruit*: “imagine the clouds dripping. dig a hole in your garden to put them in.” This is not decoration. The front lets cloud enter a face; the back asks the reader to imagine cloud as touchable and placeable. **The sleeve becomes more than music packaging: it is a conceptual work unfolding across image, text, and listening.**
+
+Maciunas’s typography matters equally. Its small, compact, nearly unadorned letters oppose the softness of the clouds. It neither explains the emotion nor competes with the photograph; it acts as a quiet label. With almost nothing, the layout makes “imagine / john lennon” reproducible, recognizable, and available to public memory. Many later album sleeves learned the same lesson: using less does not mean expressing less.
+
+The work also erases a false wall between pop culture and the avant-garde. Ono’s instruction writing and Maciunas’s Fluxus design language had grown in small experimental networks; Lennon’s public reach carried them onto record shelves around the world. *Imagine* endures not only because of its melody. The clouded face gives the song its first silent invitation: see the world as capable of being otherwise.
+
+This page uses the original 1971 front sleeve image published in John Lennon’s official archive. It directly shows the work itself—Ono’s photograph and design with Maciunas’s typography—not a Lennon portrait, concert image, or generic cloud scene. It precisely matches the title, story, and music category.`,
+    legacy_en: `• Turned the abstract act of imagining into an instantly recognizable clouded portrait
+• Proved a popular album sleeve could carry conceptual art without losing public legibility
+• Joined photography, typography, instruction poetry, and music into one continuous experience
+• Established one of rock history’s most durable visual symbols of peace with very few elements
+• Moved Fluxus’s understated design language into global popular memory`,
+    significance_en: `The *Imagine* sleeve matters not because it gives the song a pretty illustration, but because image and music speak in the same voice: light, open, and unwilling to force an answer. Yoko Ono and George Maciunas made a twelve-inch sleeve into an entrance. First you see clouds crossing a face; then you recognize that boundaries, identities, and reality itself can be imagined otherwise.`,
+  },
 ]
