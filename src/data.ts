@@ -14196,7 +14196,6 @@ This page uses the original 1971 front sleeve image published in John Lennon’s
 • Moved Fluxus’s understated design language into global popular memory`,
     significance_en: `The *Imagine* sleeve matters not because it gives the song a pretty illustration, but because image and music speak in the same voice: light, open, and unwilling to force an answer. Yoko Ono and George Maciunas made a twelve-inch sleeve into an entrance. First you see clouds crossing a face; then you recognize that boundaries, identities, and reality itself can be imagined otherwise.`,
   },
-,
   {
     id: '411',
     date: '2026-10-10',
