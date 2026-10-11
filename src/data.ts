@@ -14255,4 +14255,60 @@ This page uses the original Tokyo 1964 official emblem artwork, directly showing
 • Proved simple symbols can carry complex history and collective aspiration`,
     significance_en: `Tokyo 1964 still works because it does not depend on nostalgia. It shows that mature design need not draw “Japan,” “Olympics,” and “modernity” one by one; it can build a structure in which those meanings arise naturally. Nothing sits above the red circle and nothing explains the white field, yet in one glance you can feel sun, speed, order, openness, and a nation’s determination to re-enter the world.`,
   },
+
+  {
+    id: '412',
+    date: '2026-10-11',
+    imageUrl: '/the-daily-object/images/rei-kawakubo-body-meets-dress.jpg',
+    fullImageUrl: '/the-daily-object/images/full/rei-kawakubo-body-meets-dress.webp',
+    title: 'Body Meets Dress, Dress Meets Body',
+    title_en: 'Body Meets Dress, Dress Meets Body',
+    subtitle: 'Rei Kawakubo / Comme des Garçons，1997',
+    subtitle_en: 'Rei Kawakubo / Comme des Garçons, 1997',
+    category: 'fashion' as const,
+    designer: '川久保玲（Rei Kawakubo）',
+    year: '1997',
+    tags: ['颠覆理想身体想象', '重写时装轮廓语言', '让服装成为观念艺术'],
+    tags_en: ['Challenged Ideal Body Images', 'Rewrote Fashion Silhouettes', 'Made Clothing Conceptual Art'],
+
+    dateConnection: `1942 年 10 月 11 日，川久保玲出生于东京。她后来创立 Comme des Garçons，并不断用服装追问一个看似简单的问题：身体必须被衣服修饰得更“好看”吗？1997 年春夏系列《Body Meets Dress, Dress Meets Body》给出的回答极其锋利：不必。`,
+    designerBio: `川久保玲（Rei Kawakubo，1942—）不是从传统服装学院出发的设计师。她在庆应义塾大学学习艺术与文学，先做自由造型师，1969 年创立 Comme des Garçons，1973 年成立公司。1981 年，她带着大量黑色、破损感与不对称轮廓登上巴黎时装周，西方媒体一度把那种冲击称为“广岛别致”；争议没有削弱她，反而让时装界重新意识到，衣服可以不以讨好身体为目的。 
+
+她长期拒绝把“优雅”理解为腰线、对称、纤细和顺滑。她更关心衣服与身体之间那块不稳定的空间：布料能否独立站立？轮廓能否反过来塑造身体？穿着者能否从既定的性别、年龄与美丑判断中暂时脱身？这种持续的追问，使她成为过去数十年最有影响力的时装设计师之一。`,
+    story: `1997 年春夏，Comme des Garçons 推出《Body Meets Dress, Dress Meets Body》。秀场上的格纹针织、轻薄面料和看似熟悉的裙装，被填入胸前、背部、肩膀、腹部与臀部等“不该凸起”的位置。它很快被叫作 “Lumps and Bumps”——鼓包与隆起。那些填充不是为了制造传统意义的曲线，而是故意把轮廓推向不安、滑稽甚至难以命名的方向。
+
+**川久保玲没有为身体量体裁衣，而是让衣服成为另一具身体。** 当一个鼓包出现在肩背或腰侧，观众会立刻意识到：我们平日所谓“自然的好身材”，其实是一套被反复训练出来的视觉规则。时装通常负责隐藏、提拉、收紧和修正；这个系列却把“修正”停下来，让身体的边界显得陌生。它不是反时尚的姿态，而是把时尚最擅长的塑形能力，转过来审问时尚本身。
+
+这件作品的形式非常精准。外层并非粗暴的雕塑壳，而是带有柔软纹理和色彩的针织与网眼；填充物在行走中会让衣服鼓起、偏移、呼吸。你看到的不是一个固定物体，而是一种关系：身体、空气、布料、运动与旁人的目光同时参与塑造轮廓。**衣服不再忠实描边人体，它开始与人体谈判。**
+
+它当年让不少人困惑，也为后来关于身体多样性、性别表达与时装雕塑性的讨论打开了入口。真正重要的不是“怪”，而是它把一个几乎无人质疑的默认设置暴露出来：为什么某些突起被称为性感，另一些则被称为缺陷？为什么衣服只能顺从解剖学？当川久保玲把答案留白，观众才第一次有机会看见规则本身。
+
+本页采用 LACMA 馆藏的官方对象摄影，直接展示 1997 年《Body Meets Dress, Dress Meets Body》系列中的一件女装：紫色肌理面料、偏离人体常规位置的填充隆起与不对称体积清晰可见。它不是秀场游客照、展览现场照或泛化的 Comme des Garçons 图像，而是本条目所讲系列中的具体作品，与标题、故事和 fashion 分类严格对应。`,
+    legacy: `• 把“合身”从时装不可动摇的目标，变成可以被质疑的文化规则
+• 让填充、空隙与失衡成为与剪裁同等重要的造型语言
+• 为时装、表演、影像与当代艺术提供了反常规人体的共同语汇
+• 推动时尚界讨论身体标准、性别观看与“美”的社会建构
+• 证明服装可以既被穿着，也能像观念艺术一样提出问题`,
+    significance: `《Body Meets Dress, Dress Meets Body》至今仍有力量，因为它没有用一句口号反对审美，而是直接改变了观看的条件。它让人先感到轮廓不对，再意识到自己为何期待它“对”。这正是川久保玲最厉害的地方：她不替人们规定新的美，而是把旧的美从理所当然的位置挪开一点，让身体和想象都有新的余地。`,
+
+    dateConnection_en: `Rei Kawakubo was born in Tokyo on October 11, 1942. She would found Comme des Garçons and repeatedly ask a deceptively simple question through clothing: must dress always make the body look more conventionally “beautiful”? Her Spring/Summer 1997 collection, *Body Meets Dress, Dress Meets Body*, gave a sharp answer: no.`,
+    designerBio_en: `Rei Kawakubo (born 1942) did not emerge from a conventional fashion-school route. She studied art and literature at Keio University, worked as a freelance stylist, founded Comme des Garçons in 1969, and established the company in 1973. When she brought black, distressed, asymmetrical silhouettes to Paris in 1981, parts of the Western press called the shock “Hiroshima chic.” The controversy did not diminish her; it made fashion confront the possibility that clothes need not exist to flatter the body.
+
+Kawakubo has consistently resisted defining elegance through waists, symmetry, slimness, or smoothness. She is interested in the unsettled space between garment and body: can fabric stand independently? Can a silhouette reshape the body rather than serve it? Can a wearer momentarily escape ready-made judgments about gender, age, beauty, and defect? That sustained inquiry has made her one of the most influential fashion designers of recent decades.`,
+    story_en: `For Spring/Summer 1997, Comme des Garçons presented *Body Meets Dress, Dress Meets Body*. Gingham knitwear, sheer fabrics, and familiar-looking dresses were padded at the chest, back, shoulders, abdomen, and hips—places where a body was not expected to bulge. The collection quickly acquired its nickname: “Lumps and Bumps.” These pads did not create conventional curves; they pushed the outline toward unease, comedy, and something difficult to name.
+
+**Kawakubo did not tailor clothes to the body; she made the garment into another body.** A bulge at a shoulder blade or waist makes the viewer notice that what we call a “natural good figure” is actually a visual rule we have learned to expect. Fashion conventionally hides, lifts, tightens, and corrects. This collection pauses that correction and makes the body’s boundary unfamiliar. It is not an anti-fashion gesture. It turns fashion’s own power to shape a silhouette back on fashion itself.
+
+Its form is remarkably precise. The outer layers are not crude sculptural shells, but textured knits and mesh with softness and color; the padding swells, shifts, and breathes as the wearer moves. What appears is not a fixed object but a relationship among body, air, cloth, movement, and another person’s gaze. **The garment no longer faithfully traces the human body; it begins to negotiate with it.**
+
+The collection confused many people at the time, while opening space for later conversations about body diversity, gender expression, and fashion’s sculptural potential. Its significance is not simply that it was “strange.” It exposed an almost invisible default: why are some protrusions called sensual while others are called defects? Why should clothing obey anatomy? By leaving the answer open, Kawakubo lets the viewer finally see the rule itself.
+
+This page uses LACMA’s official collection photograph of a woman’s garment from the 1997 *Body Meets Dress, Dress Meets Body* collection. Its violet textured fabric, asymmetrical padded protrusions, and deliberately displaced volume are directly visible. It is neither a runway visitor image, exhibition installation, nor generic Comme des Garçons atmosphere, but a precise image of the work discussed here, matching the title, story, and fashion category.`,
+    legacy_en: `• Turned “good fit” from fashion’s unquestioned aim into a cultural rule open to challenge
+• Made padding, voids, and imbalance a formal vocabulary as important as tailoring
+• Gave fashion, performance, film, and contemporary art a shared language for non-normative bodies
+• Advanced conversations on bodily standards, gendered looking, and the social construction of beauty
+• Proved that clothing can be worn while also asking questions like conceptual art`,
+    significance_en: `*Body Meets Dress, Dress Meets Body* remains powerful because it does not oppose beauty with a slogan; it changes the conditions of looking. First, a viewer feels that the silhouette is “wrong,” then recognizes why they expected it to be “right.” That is Kawakubo’s achievement: she does not prescribe a new beauty. She shifts the old one slightly out of its automatic place, leaving new room for bodies and imagination.`,
+  },
 ]
