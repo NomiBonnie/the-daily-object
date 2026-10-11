@@ -14272,7 +14272,7 @@ This page uses the original Tokyo 1964 official emblem artwork, directly showing
     tags_en: ['Challenged Ideal Body Images', 'Rewrote Fashion Silhouettes', 'Made Clothing Conceptual Art'],
 
     dateConnection: `1942 年 10 月 11 日，川久保玲出生于东京。她后来创立 Comme des Garçons，并不断用服装追问一个看似简单的问题：身体必须被衣服修饰得更“好看”吗？1997 年春夏系列《Body Meets Dress, Dress Meets Body》给出的回答极其锋利：不必。`,
-    designerBio: `川久保玲（Rei Kawakubo，1942—）不是从传统服装学院出发的设计师。她在庆应义塾大学学习艺术与文学，先做自由造型师，1969 年创立 Comme des Garçons，1973 年成立公司。1981 年，她带着大量黑色、破损感与不对称轮廓登上巴黎时装周，西方媒体一度把那种冲击称为“广岛别致”；争议没有削弱她，反而让时装界重新意识到，衣服可以不以讨好身体为目的。 
+    designerBio: `川久保玲（Rei Kawakubo，1942—）不是从传统服装学院出发的设计师。她在庆应义塾大学学习艺术与文学，先做自由造型师，1969 年创立 Comme des Garçons，1973 年成立公司。1981 年，她带着大量黑色、破损感与不对称轮廓登上巴黎时装周，西方媒体一度把那种冲击称为“广岛别致”；争议没有削弱她，反而让时装界重新意识到，衣服可以不以讨好身体为目的。
 
 她长期拒绝把“优雅”理解为腰线、对称、纤细和顺滑。她更关心衣服与身体之间那块不稳定的空间：布料能否独立站立？轮廓能否反过来塑造身体？穿着者能否从既定的性别、年龄与美丑判断中暂时脱身？这种持续的追问，使她成为过去数十年最有影响力的时装设计师之一。`,
     story: `1997 年春夏，Comme des Garçons 推出《Body Meets Dress, Dress Meets Body》。秀场上的格纹针织、轻薄面料和看似熟悉的裙装，被填入胸前、背部、肩膀、腹部与臀部等“不该凸起”的位置。它很快被叫作 “Lumps and Bumps”——鼓包与隆起。那些填充不是为了制造传统意义的曲线，而是故意把轮廓推向不安、滑稽甚至难以命名的方向。
