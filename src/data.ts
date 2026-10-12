@@ -14311,4 +14311,59 @@ This page uses LACMA’s official collection photograph of a woman’s garment f
 • Proved that clothing can be worn while also asking questions like conceptual art`,
     significance_en: `*Body Meets Dress, Dress Meets Body* remains powerful because it does not oppose beauty with a slogan; it changes the conditions of looking. First, a viewer feels that the silhouette is “wrong,” then recognizes why they expected it to be “right.” That is Kawakubo’s achievement: she does not prescribe a new beauty. She shifts the old one slightly out of its automatic place, leaving new room for bodies and imagination.`,
   },
+  {
+    id: '413',
+    date: '2026-10-12',
+    imageUrl: '/the-daily-object/images/petronas-twin-towers.jpg',
+    fullImageUrl: '/the-daily-object/images/full/petronas-twin-towers.jpg',
+    title: 'PETRONAS Twin Towers',
+    title_en: 'PETRONAS Twin Towers',
+    subtitle: 'César Pelli，1996',
+    subtitle_en: 'César Pelli, 1996',
+    category: 'architecture' as const,
+    designer: '西萨·佩里（César Pelli）',
+    year: '1996',
+    tags: ['重塑吉隆坡天际线', '现代主义的地域回应', '定义双塔建筑范式'],
+    tags_en: ['Reshaped Kuala Lumpur’s Skyline', 'Modernism Rooted in Place', 'Defined the Twin-Tower Icon'],
+
+    dateConnection: `1926 年 10 月 12 日，西萨·佩里出生于阿根廷图库曼。他后来用 PETRONAS 双子塔为吉隆坡画出一个能被全世界一眼认出的轮廓：两座 88 层的银色高塔，以伊斯兰几何为骨架，把马来西亚的文化坐标、经济野心与工程能力压缩进同一座城市地标。`,
+    designerBio: `西萨·佩里（César Pelli，1926—2019）出生于阿根廷，后成为美国建筑师。他在图库曼国立大学学习建筑，赴美后取得伊利诺伊大学建筑学硕士；早年在埃罗·沙里宁事务所工作，参与过 TWA 航站楼等项目。1977 至 1984 年，他担任耶鲁建筑学院院长，随后创立 César Pelli & Associates，事务所后来发展为 Pelli Clarke & Partners。
+
+佩里的建筑从不把“高”当成唯一答案。他反复强调，建筑面对的最终对象是社会：新建筑应当改善城市，也应从当地的文化、历史与公共生活里长出来。玻璃、金属和几何形体在他手中并非冷漠的国际风格语汇，而是用来回应地点、光线与城市尺度的材料。`,
+    story: `1990 年代初，马来西亚希望在吉隆坡原赛马场地块上建起国家级的商务与文化中心。佩里面对的并不只是“做一座最高楼”的任务：如果建筑只追逐高度，它很快会被下一座更高的楼取代；如果它要成为城市的标志，就必须让世界看见它属于哪里。
+
+**双子塔的平面来自两个相互交叠的正方形，形成伊斯兰传统中的八角星。** 这个几何决定并没有被藏在图纸里，而是一路推到建筑的垂直轮廓、立面节奏和内部细节。银色不锈钢与玻璃反射热带天空，层层退台把巨大的体量削成像植物茎秆般向上收束的轮廓。它既是摩天楼，也是一种被放大到城市尺度的纹样。
+
+为了让建筑真正越过当时的高度纪录，设计团队在原有方案上增加了带尖顶的穹顶与塔尖，最终达到 451.9 米。两座塔并非各自为政：41、42 层之间的双层天桥把它们连接起来。**那座桥既不是装饰，也不是简单的“把两栋楼粘在一起”——它把竞争性的高楼意象变成一个合作的整体。** 天桥可随塔楼在风中微动，功能上连接会议、祈祷和交通空间，视觉上则在天空中画出一道门户。
+
+双子塔于 1996 年完成、1997 年启用，很快成为马来西亚的全球图标。它的成功不只在于曾经的“世界最高”，而在于佩里把国际化高层建筑的技术语言，改写成可被当地文化认领的形式。它没有把伊斯兰几何贴成表面装饰；结构、平面、比例和光泽一起工作，让文化来源成为建筑的生成逻辑。
+
+本页使用直接拍摄 PETRONAS 双子塔本体的清晰竖幅建筑摄影：两座完整塔楼、标志性的尖塔与 41—42 层空中天桥均明确可见。它不是游客合影、展览现场、泛化城市天际线或其他吉隆坡建筑，而是与标题、故事及 architecture 分类精确对应的作品原图。`,
+    legacy: `• 让吉隆坡获得具有全球辨识度的城市轮廓
+• 证明超高层建筑可以从本地文化几何中生成，而非只复制国际模板
+• 把双塔从“重复体量”转化为具有协作意味的城市符号
+• 以空中天桥重写高层建筑之间的空间关系
+• 让后来的地标建筑更重视技术、地域与公共形象的统一`,
+    significance: `PETRONAS 双子塔最值得记住的，不是它曾拥有“最高”的头衔，而是它对“全球化建筑长什么样”给出的答案。佩里没有用马来西亚符号去装点一幢纽约式摩天楼；他让八角星、材料反光、双塔关系与城市愿望从一开始便是同一件事。高度终会被刷新，真正留下来的，是一座建筑如何让一座城市相信自己可以被世界看见，同时仍然保持自己的形状。`,
+
+    dateConnection_en: `César Pelli was born in San Miguel de Tucumán, Argentina, on October 12, 1926. With the PETRONAS Twin Towers, he drew a silhouette the world could recognize at once: two 88-storey silver towers whose Islamic geometric framework compresses Malaysia’s cultural coordinates, economic ambition, and engineering confidence into one urban landmark.`,
+    designerBio_en: `César Pelli (1926–2019) was an Argentine-born American architect. He studied architecture at the National University of Tucumán, earned a master’s degree at the University of Illinois, and worked early in his career at Eero Saarinen’s office on projects including the TWA Flight Center. From 1977 to 1984 he served as dean of the Yale School of Architecture, then founded César Pelli & Associates, now Pelli Clarke & Partners.
+
+Pelli never treated height as architecture’s only answer. He argued that society is the ultimate recipient of every building: a new project should improve the city and grow from local culture, history, and public life. In his work, glass, metal, and geometry are not anonymous International Style vocabulary; they are materials for responding to place, light, and urban scale.`,
+    story_en: `In the early 1990s, Malaysia planned a national business and cultural centre on a former racetrack in Kuala Lumpur. Pelli’s task was not merely to make the world’s tallest building. Height alone would soon be surpassed; to become a civic symbol, the project had to make clear where it belonged.
+
+**The towers’ floor plan begins with two interlocking squares, forming an eight-pointed star familiar in Islamic tradition.** This geometry was not hidden in the drawings. It drives the vertical profile, façade rhythm, and interior detail. Stainless steel and glass reflect the tropical sky, while repeating setbacks taper the enormous mass into a stem-like silhouette. It is a skyscraper, but also a pattern enlarged to urban scale.
+
+To exceed the existing height record, the team added domes with integrated pinnacles, reaching 451.9 metres. The two towers are not independent objects: a double-storey skybridge connects floors 41 and 42. **It is neither ornament nor a simple stitch between two buildings; it turns the competitive image of towers into a cooperative whole.** The bridge can move subtly as the towers respond to wind; it connects conference, prayer, and circulation spaces while visually drawing a gateway in the sky.
+
+Completed in 1996 and opened in 1997, the towers quickly became a global icon for Malaysia. Their achievement is not simply having been “the tallest.” Pelli translated the technical language of international high-rise construction into a form local culture could claim. Islamic geometry is not applied decoration here; plan, proportion, material, and shine work together so that cultural reference becomes a generative architectural logic.
+
+This page uses a clear vertical architectural photograph directly depicting the PETRONAS Twin Towers themselves: both complete towers, their defining pinnacles, and the skybridge at levels 41–42 are visible. It is not a visitor portrait, exhibition view, generic skyline, or another Kuala Lumpur building, but a precise visual match for the title, story, and architecture category.`,
+    legacy_en: `• Gave Kuala Lumpur a globally recognizable urban silhouette
+• Proved a supertall can grow from local geometric culture rather than copy an international template
+• Turned twin towers from repeated masses into a symbol of cooperation
+• Reframed the spatial relationship between high-rises through the skybridge
+• Encouraged later landmarks to integrate technology, place, and public identity`,
+    significance_en: `The PETRONAS Twin Towers matter not because they once held a “tallest” title, but because of their answer to what global architecture can look like. Pelli did not decorate a New York-style skyscraper with Malaysian symbols. He made the eight-pointed star, reflective material, relationship between the towers, and a city’s aspiration parts of the same act. Height will always be surpassed; what remains is a building that lets a city believe it can be seen by the world without losing its own shape.`,
+  },
 ]
