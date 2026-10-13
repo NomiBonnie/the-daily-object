@@ -14366,4 +14366,60 @@ This page uses a clear vertical architectural photograph directly depicting the 
 • Encouraged later landmarks to integrate technology, place, and public identity`,
     significance_en: `The PETRONAS Twin Towers matter not because they once held a “tallest” title, but because of their answer to what global architecture can look like. Pelli did not decorate a New York-style skyscraper with Malaysian symbols. He made the eight-pointed star, reflective material, relationship between the towers, and a city’s aspiration parts of the same act. Height will always be surpassed; what remains is a building that lets a city believe it can be seen by the world without losing its own shape.`,
   },
+
+  {
+    id: '414',
+    date: '2026-10-13',
+    imageUrl: '/the-daily-object/images/the-nightmare-before-christmas-poster.jpg',
+    fullImageUrl: '/the-daily-object/images/full/the-nightmare-before-christmas-poster.jpg',
+    title: 'The Nightmare Before Christmas',
+    title_en: 'The Nightmare Before Christmas',
+    subtitle: '亨利·塞利克、蒂姆·伯顿与迪士尼团队，1993',
+    subtitle_en: 'Henry Selick, Tim Burton & Disney Team, 1993',
+    category: 'film' as const,
+    designer: '亨利·塞利克、蒂姆·伯顿与迪士尼团队',
+    year: '1993',
+    tags: ['重塑定格动画想象', '定义哥特节日美学', '让怪诞走进主流'],
+    tags_en: ['Reimagined Stop-Motion', 'Defined Gothic Holiday Style', 'Brought the Strange Mainstream'],
+
+    dateConnection: `1993 年 10 月 13 日，《The Nightmare Before Christmas》在美国上映。它把万圣节的幽暗与圣诞节的明亮撞在一起，也把定格动画从“手工技法”推进成一套完整、可被全球观众一眼认出的视觉世界。`,
+    designerBio: `这部电影的创作并不属于单一作者。蒂姆·伯顿提供了最初的诗歌、角色和世界观；亨利·塞利克担任导演，负责把那些线条真正变成可运动、可表演的电影；迪士尼与 Skellington Productions 的模型师、动画师、布景师、服装与摄影团队，则把每一帧都做成能独立成立的微缩舞台。丹尼·艾夫曼的歌曲和配乐又为杰克赋予了独特的情绪节奏。
+
+塞利克的贡献尤其重要：他不是把伯顿式的画风简单搬到银幕，而是把它翻译为材料、比例、关节和镜头。杰克的长肢、螺旋山丘、南瓜灯和弯曲栅栏，必须同时满足雕塑、动画和叙事的要求。那是一种高度协作的电影设计：每一件“怪东西”都得能被真实制作、逐格移动，并在镜头里保持它的情绪。`,
+    story: `故事起于一个极简但极有力的视觉设定：万圣镇的骷髅王杰克·斯凯灵顿偶然发现圣诞镇，误以为自己能接管那种陌生而明亮的节日。这个冲突不是靠大量世界观说明完成的；两个世界从色彩、形状、材质和节奏上就已经彼此对立。万圣镇以扭曲的轮廓、冷蓝紫和尖锐阴影组织画面；圣诞镇则由圆润、温暖和丰盛的红绿金色构成。**设计先让观众感到“这里不属于他”，故事才开始成立。**
+
+最有名的螺旋山丘并非单纯的奇观。它像一条被拉长的手势，既把杰克与莎莉放进可识别的剪影，也把整部电影的逻辑说清楚：这个世界拒绝直线与稳定，却精确地控制着失衡。角色、墓碑、门牌、街道乃至月亮，都向同一套哥特而童话的几何语言靠拢。怪诞不是随机堆砌，而是被严格统一的视觉系统。
+
+**定格动画让这种系统拥有了数字动画难以替代的触感。** 布料有纤维，木头有纹理，黏土和树脂会在光线下留下细微的真实反应。动画师每移动一点模型就拍一格，杰克的表情、披风和骨架因此带着一种微妙的阻力感。观众知道这些角色并不真的存在，却能感觉到它们占据过桌面、被手碰过、在摄影棚的灯下投过影。
+
+电影上映时的票房并不等于它后来的文化位置；真正让它不断回到公众视野的，是这套视觉语言的可延展性。它可以成为海报、玩具、橱窗、主题乐园和节日装饰，却不会因复制而失去识别度。因为它的核心并不是一句“暗黑圣诞节”的概念，而是一种完整的设计语法：轮廓先行、材质可感、色彩有情绪，连恐怖都带着一点俏皮。
+
+本页使用影片的原始官方竖版海报：杰克站在螺旋山丘顶端、背后是满月，山下是南瓜灯与万圣镇的剪影。这不是游客照、展览照或泛化的万圣节氛围图，而是直接呈现该片核心角色、标志性场景与视觉系统的作品本体图像，和标题、故事及 film 分类精确对应。`,
+    legacy: `• 证明定格动画可以承载完整而成熟的世界观设计
+• 让哥特、童话与节日视觉进入全球流行文化
+• 以角色轮廓和场景造型建立可跨媒介延展的识别系统
+• 启发后来的动画、舞台、玩具与主题乐园设计
+• 让“怪诞”成为兼具温度与商业生命力的主流美学`,
+    significance: `《The Nightmare Before Christmas》的长期魅力，不在于它把两个节日混在一起，而在于它让“风格”真正承担叙事。你甚至不需要听懂台词，也能看出杰克为何被圣诞镇吸引、又为何无法替代它。那种清晰来自每一个微小决定的共同方向：一条弧线、一盏灯、一件布料、一次停格移动，全部在讲同一个故事。`,
+
+    dateConnection_en: `On October 13, 1993, *The Nightmare Before Christmas* opened in the United States. It collided Halloween’s darkness with Christmas brightness and turned stop-motion from a handmade technique into a complete visual world recognizable at a glance around the globe.`,
+    designerBio_en: `This film was never the work of one author. Tim Burton supplied the originating poem, characters, and world; Henry Selick, as director, made those lines move and perform; Disney and Skellington Productions’ model makers, animators, set builders, costume artists, and cinematographers made every frame a miniature stage. Danny Elfman’s songs and score gave Jack his particular emotional rhythm.
+
+Selick’s contribution is crucial. He did not simply transfer a Burton-like drawing style to the screen; he translated it into materials, scale, joints, and camera language. Jack’s long limbs, Spiral Hill, pumpkins, and crooked fences had to work simultaneously as sculpture, animation, and storytelling. It was intensely collaborative film design: every strange object had to be physically made, moved one frame at a time, and remain emotionally legible on camera.`,
+    story_en: `The film begins with an elegantly simple visual premise: Jack Skellington, Halloween Town’s skeletal king, discovers Christmas Town and mistakes his fascination for an ability to take it over. The contrast is not explained through exposition. Colour, form, material, and rhythm make the two worlds incompatible before the plot even says so. Halloween Town is organized through warped silhouettes, cool blue-violets, and sharp shadows; Christmas Town through roundness, warmth, and abundant reds, greens, and golds. **Design lets us feel that Jack does not belong there before the story asks us to understand why.**
+
+Its famous Spiral Hill is not mere spectacle. It is an extended gesture: it gives Jack and Sally a memorable silhouette while explaining the film’s logic. This world rejects straight lines and stability, yet controls imbalance with precision. Characters, gravestones, signposts, streets, even the moon all obey a shared gothic-fairytale geometry. The strangeness is not random accumulation; it is a rigorously unified visual system.
+
+**Stop-motion gives that system a tactility digital animation cannot simply imitate.** Fabric has fibres, wood has grain, and clay and resin respond subtly to light. Animators moved models fractionally, one frame at a time, so Jack’s face, coat, and skeleton carry a delicate sense of resistance. We know these figures are not alive, yet can feel that they occupied a tabletop, were touched by hands, and cast shadows under studio lights.
+
+The original release did not by itself explain the film’s later cultural position. What keeps returning to public life is the extensibility of its visual language. It can become a poster, toy, storefront, theme-park overlay, or holiday decoration without losing recognition. Its core is not merely “dark Christmas”: it is a whole grammar—silhouette first, tangible materials, emotional colour, and a trace of playfulness even in horror.
+
+This page uses the original official vertical poster artwork: Jack stands on Spiral Hill before the full moon, with pumpkins and Halloween Town silhouetted below. It is neither a visitor photograph, exhibition image, nor a generic Halloween atmosphere, but a direct depiction of the film’s central character, signature scene, and visual system—precisely matching the title, story, and film category.`,
+    legacy_en: `• Proved stop-motion can carry a complete, mature world-design system
+• Brought gothic, fairytale, and holiday visual language into global popular culture
+• Built an identity extensible across media through character silhouette and set design
+• Influenced later animation, stage design, toys, and theme-park experiences
+• Made the strange a mainstream aesthetic with both warmth and commercial longevity`,
+    significance_en: `The lasting appeal of *The Nightmare Before Christmas* is not that it mixes two holidays, but that it lets style do real narrative work. Even without dialogue, we understand why Jack is drawn to Christmas Town and why he cannot replace it. That clarity comes from every small decision pulling together: a curve, a lamp, a piece of fabric, a single stop-motion gesture—all telling the same story.`,
+  },
 ]
