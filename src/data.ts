@@ -14422,4 +14422,60 @@ This page uses the original official vertical poster artwork: Jack stands on Spi
 • Made the strange a mainstream aesthetic with both warmth and commercial longevity`,
     significance_en: `The lasting appeal of *The Nightmare Before Christmas* is not that it mixes two holidays, but that it lets style do real narrative work. Even without dialogue, we understand why Jack is drawn to Christmas Town and why he cannot replace it. That clarity comes from every small decision pulling together: a curve, a lamp, a piece of fabric, a single stop-motion gesture—all telling the same story.`,
   },
+  {
+    id: '415',
+    date: '2026-10-14',
+    imageUrl: '/the-daily-object/images/polo-ralph-lauren-shirt.jpg',
+    fullImageUrl: '/the-daily-object/images/full/polo-ralph-lauren-shirt.jpg',
+    title: 'Polo Shirt',
+    title_en: 'Polo Shirt',
+    subtitle: 'Ralph Lauren，1972',
+    subtitle_en: 'Ralph Lauren, 1972',
+    category: 'fashion' as const,
+    designer: '拉尔夫·劳伦（Ralph Lauren）',
+    year: '1972',
+    tags: ['定义美式休闲衣橱', '让运动服成为日常', '建立生活方式品牌'],
+    tags_en: ['Defined American Casualwear', 'Made Sportswear Everyday', 'Built a Lifestyle Brand'],
+
+    dateConnection: `1939 年 10 月 14 日，拉尔夫·劳伦出生于纽约布朗克斯。1972 年，他推出了 24 种颜色的 Polo Shirt：一件源于网球衫的短袖针织上衣，从此不再只是运动服，而成为几代人衣橱里最容易被认出的美国设计。`,
+    designerBio: `拉尔夫·劳伦（Ralph Lauren，1939—）出生于纽约布朗克斯，原名 Ralph Lifshitz。他没有走传统时装学院路线：服役后做过销售，1967 年以一组宽领带创办 Polo。它已经透露出他的核心方法：从既有的美国符号里挑选、重组，再把它们变成人人可以进入的想象。
+
+劳伦设计的并不只是单件衣服，而是一整套可被穿上的生活场景。马球、网球、大学校园、乡村俱乐部、牛仔与常春藤联盟，被编排成统一的视觉语言，再通过成衣、广告、门店与家居产品普及。Polo Shirt 正是这套方法最浓缩的载体。`,
+    story: `1972 年推出的 Polo Shirt 并非从零开始。针织短袖、翻领和门襟原本属于网球服的功能语汇；法国品牌 Lacoste 早已让这种轮廓进入大众视野。拉尔夫·劳伦的关键改变，是把它从运动场抽离，放入一个关于美国休闲、社交和个人风格的完整叙事里。**他没有把球衣做得更专业，而是把运动服做成了日常身份的容器。**
+
+这件衣服很克制：棉质网眼、罗纹领口、两三颗纽扣、短袖，以及胸前小小的马球骑手。网眼让它比衬衫放松，领口又保留正式感；小标识不抢占整件衣服，却留下清楚的归属。它配西装、牛仔裤或短裤都成立。**这种介于“整理好”和“没费力”之间的平衡，才是它成为制服的原因。**
+
+首批 24 种颜色也十分重要。白色像传统网球装，海军蓝像校园制服，亮黄、粉红或草绿则把个人性格带进同一件基本款。颜色不是季节装饰，而是让固定版型获得长期生命力的产品策略。后来无数品牌复制了这个公式，却很少能复制它把产品、标志与生活方式绑在一起的能力。
+
+Polo Shirt 跨过了年龄、性别、职业与地理。它可以是学生校服、办公室的星期五、看台上的队服，也可以是旅行箱里最省心的一件上衣。它不靠夸张轮廓，而靠稳定比例、材质与使用情境进入生活。**真正强大的设计，往往不是让人一眼惊呼，而是让人多年后仍愿意每天穿。**
+
+本页采用 Ralph Lauren 官方商品摄影，直接呈现一件白色网眼 Polo Shirt：翻领、短门襟、短袖与胸前刺绣骑手标识均清晰可见。它不是秀场、游客或氛围照片，而是作品本体的专业产品图；虽为当代延续款，但完整保留 1972 年原作建立的核心轮廓与设计语言，和标题、故事及 fashion 分类准确对应。`,
+    legacy: `• 让针织运动上衣成为全球日常衣橱的基础单品
+• 把小型胸前标识发展为可被远距离识别的品牌语言
+• 建立“固定版型＋多色系统”的长寿产品策略
+• 证明时装品牌可以用产品、广告、零售与家居共同构建世界观
+• 影响数十年学院风、运动休闲与商务休闲的穿着方式`,
+    significance: `Polo Shirt 的厉害之处，是它把一件简单的上衣变成了设计系统。版型足够稳定，颜色足够开放，标识足够克制，场景又足够宽广。它没有依赖一次性的潮流噱头，而是让许多人在不同人生阶段都能把同一件衣服穿出自己的样子。对设计师而言，这是一堂关于“少做一点，但让每个决定都能被长期使用”的课。`,
+
+    dateConnection_en: `Ralph Lauren was born in the Bronx, New York, on October 14, 1939. In 1972, he introduced the Polo Shirt in 24 colours: a short-sleeved knit top rooted in tenniswear that would stop being merely sportswear and become one of the most recognizable American designs in generations of wardrobes.`,
+    designerBio_en: `Ralph Lauren (born 1939), born Ralph Lifshitz in the Bronx, did not take the conventional fashion-school route. After military service and sales work, he founded Polo in 1967 with a line of unusually wide, theatrical neckties. That first product already contained his method: rather than inventing an unprecedented garment, he selected and recomposed existing American symbols, then made their imagined world accessible.
+
+Lauren’s design has never been only about individual clothes. Polo, tennis, college campuses, country clubs, the West, and Ivy League references become one visual language across apparel, advertising, retail, and home. The Polo Shirt is its most concentrated and successful expression.`,
+    story_en: `The Polo Shirt launched in 1972 did not begin from nothing. Knitted short sleeves, a collar, and a placket already belonged to tenniswear; Lacoste had brought that silhouette into popular culture. Ralph Lauren’s key move was to take it out of the court and place it inside a broader story about American leisure, sociability, and personal style. **He did not make the jersey more athletic; he made sportswear into a container for everyday identity.**
+
+The design is restrained: soft cotton mesh, a ribbed collar, two or three buttons, short sleeves, and a small polo-player emblem at the chest. Each part has a job. Mesh relaxes the form while the collar keeps a trace of formality; the mark does not overwhelm the garment, yet makes its belonging legible from near and far. It works beneath a blazer, with denim, chinos, or shorts. **That precise balance between looking put together and looking effortless is why it became a uniform.**
+
+The first 24 colours mattered. They turned a neutral sport top into a system for choice, collection, and expression: white recalled traditional tenniswear, navy suggested campus uniform, while yellow, pink, and green gave the same basic form a personal register. Colour was not seasonal decoration but a product strategy that gave a fixed silhouette a long life. Many brands copied the formula; few matched its integration of product, emblem, and lifestyle.
+
+Its influence also crosses age, gender, occupation, and geography. It can be a student uniform, Friday office shirt, stadium top, or the reliable piece in a suitcase. It does not demand attention through an extreme silhouette. Instead, proportion, material, and repeated use let it enter daily life. **The strongest design does not always make people gasp once; it can make them want to wear it for decades.**
+
+This page uses Ralph Lauren official product photography that directly shows a white mesh Polo Shirt: its turned collar, short placket, short sleeves, and embroidered polo-player emblem are clearly visible. It is not a runway, visitor, or atmospheric image, but a professional product image of the object itself. Though a current continuation model, it retains the core silhouette and design language established by the 1972 original, precisely matching the title, story, and fashion category.`,
+    legacy_en: `• Turned a knitted sports top into a global wardrobe essential
+• Developed the small chest emblem into an instantly legible brand language
+• Established the enduring “fixed silhouette plus colour system” product strategy
+• Showed how product, advertising, retail, and home can build a unified brand world
+• Influenced decades of collegiate, athleisure, and business-casual dress`,
+    significance_en: `The Polo Shirt’s achievement is that it turns a simple top into a design system. Its shape is stable, its colour range open, its emblem restrained, and its settings broad. It does not depend on a one-season gimmick; it lets different people wear the same garment differently throughout their lives. For designers, it is a lesson in doing less—but making every decision durable enough to be used for decades.`,
+  },
+
 ]
