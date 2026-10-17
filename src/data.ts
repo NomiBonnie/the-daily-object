@@ -14528,7 +14528,6 @@ This page uses professional architectural photography published by *Architecture
 • Preserved as a key architectural legacy of the Robin Boyd Foundation`,
     significance_en: `Walsh Street House matters not because it makes an extravagant shape, but because it treats inhabitation as modernism’s highest test. Boyd did not separate architecture from furniture, reading, sociability, order, or accident; together they form the house’s rhythm. For designers now, it is a reminder that the best systems do not erase human traces. They make room for those traces to happen naturally.`,
   },
-,
   {
     id: '417',
     date: '2026-10-17',
