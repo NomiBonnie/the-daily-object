@@ -14528,5 +14528,56 @@ This page uses professional architectural photography published by *Architecture
 • Preserved as a key architectural legacy of the Robin Boyd Foundation`,
     significance_en: `Walsh Street House matters not because it makes an extravagant shape, but because it treats inhabitation as modernism’s highest test. Boyd did not separate architecture from furniture, reading, sociability, order, or accident; together they form the house’s rhythm. For designers now, it is a reminder that the best systems do not erase human traces. They make room for those traces to happen naturally.`,
   },
+,
+  {
+    id: '417',
+    date: '2026-10-17',
+    imageUrl: '/the-daily-object/images/le-coq-dor-curtain.jpg',
+    fullImageUrl: '/the-daily-object/images/full/le-coq-dor-curtain.jpg',
+    title: 'Le Coq d’Or: Curtain Design',
+    title_en: 'Le Coq d’Or: Curtain Design',
+    subtitle: '娜塔莉亚·冈察洛娃，1914',
+    subtitle_en: 'Natalia Goncharova, 1914',
+    category: 'film' as const,
+    designer: '娜塔莉亚·冈察洛娃（Natalia Goncharova）',
+    year: '1914',
+    tags: ['重塑舞台视觉语言', '俄国先锋艺术核心', '让民间图像现代化'],
+    tags_en: ['Reimagined Stage Language', 'Russian Avant-Garde Core', 'Modernized Folk Imagery'],
 
+    dateConnection: `1962 年 10 月 17 日，娜塔莉亚·冈察洛娃在巴黎逝世。今天选择她为 1914 年 Ballets Russes《Le Coq d’Or》绘制的幕布设计：这不是一张“为舞台服务”的背景图，而是一座由色彩、民间图案和锐利结构搭起的独立视觉宇宙。`,
+    designerBio: `娜塔莉亚·冈察洛娃（Natalia Goncharova，1881—1962）是俄国先锋艺术最不肯被单一媒介定义的人之一。她画画、做版画、写作，也为歌剧与芭蕾设计服装、布景和整体舞台图像。她与米哈伊尔·拉里奥诺夫共同发展“光线主义”，却从不把现代主义理解为脱离地方文化的抽象游戏；圣像画、民间木版年画、刺绣、招牌和乡村织物，都进入了她的形式词汇。
+
+1914 年，佳吉列夫邀请她为 Rimsky-Korsakov 的《Le Coq d’Or》设计舞台与服装。她面对的不是一张画布，而是一种会被音乐、演员、灯光和观众视线共同激活的图像系统。冈察洛娃把俄罗斯民间艺术的平面性、节奏与夸张色彩，转译成可在剧场里呼吸的现代设计。`,
+    story: `《Le Coq d’Or》的故事来自普希金讽刺童话：一个昏庸的国王、一个预言危险的金鸡，以及一座随时可能崩塌的王国。冈察洛娃没有用写实布景去复制宫殿或风景。她把画面处理成一张被放大的民间版画：红、赭、金和蓝以近乎不讲透视的方式并置；房屋、山峰、花纹和图腾被切成斜向的块面；边框像连续的舞台花边，把整座世界牢牢框住。
+
+**这张幕布最厉害的地方，是它同时像一幅画、一个建筑立面和一台机器。** 反复出现的圆形、矩形与尖角不是装饰填充，而是节奏装置。观众尚未看见演员，就已经被带进一个不稳定的王国：图案在跳跃，建筑在倾斜，色彩像声音一样互相追赶。它为整场演出先设定了规则——这里的真实不靠逼真，而靠视觉强度。
+
+冈察洛娃并没有把“传统”当作怀旧素材。她把民间图像中扁平、重复、强对比的特征推到现代主义的极限，让它们与立体主义式的切割、未来主义式的动势发生碰撞。**舞台设计因此不再是剧情背后的布，而成为能与音乐和身体平等对话的主角。** 后来的戏剧、时装、动画和视觉传播反复借用这种方法：用一个统一而大胆的图像语法，把世界观在第一眼就说清楚。
+
+本页使用冈察洛娃 1914 年为《Le Coq d’Or》第三幕绘制的原始幕布设计图。画面直接展示作品本体，而非舞台演出、展览或参观者照片；完整的红金蓝配色、民间装饰边框与几何化建筑均清晰可见，与标题、故事和 film 分类中的舞台视觉设计方向精确对应。`,
+    legacy: `• 把俄国民间图像转化为国际先锋舞台语言
+• 证明布景与服装可以共同建立完整叙事世界
+• 让平面性、重复纹样与高饱和色成为现代剧场的主动选择
+• 深刻影响 Ballets Russes 之后的歌剧、时装与舞台美术
+• 为跨媒介视觉系统提供“先定语法，再展开故事”的范本`,
+    significance: `《Le Coq d’Or》幕布提醒我们：设计并不总要模拟现实，才有力量。冈察洛娃用最不“真实”的方式，制造了最强烈的在场感。她让图案成为空间，让色彩成为节奏，让一张静止的图先于演员开口。对今天的设计师来说，它仍是一堂关于视觉世界观的课：当每个元素都服从同一种语言，舞台还没开演，故事已经开始。`,
+
+    dateConnection_en: `Natalia Goncharova died in Paris on October 17, 1962. Her 1914 curtain design for the Ballets Russes production of *Le Coq d’Or* is not mere scenery: it is an autonomous visual universe built from colour, folk ornament, and sharp structure.`,
+    designerBio_en: `Natalia Goncharova (1881–1962) was one of the Russian avant-garde’s least containable figures. She painted, made prints, wrote, and designed costumes, sets, and whole stage worlds for opera and ballet. With Mikhail Larionov she developed Rayonism, yet she never treated modernism as an abstract language severed from place. Icons, lubok prints, embroidery, shop signs, and rural textiles all entered her vocabulary.
+
+In 1914 Sergei Diaghilev invited her to design Rimsky-Korsakov’s *Le Coq d’Or*. Her medium was no longer a single canvas but an image system activated by music, performers, light, and an audience. Goncharova translated the flatness, rhythm, and intensified colour of Russian folk art into a modern language that could breathe in a theatre.`,
+    story_en: `Pushkin’s satirical fairy tale gives *Le Coq d’Or* a foolish king, a prophetic golden rooster, and a kingdom poised to collapse. Goncharova refused naturalistic palace scenery. Instead, she made the stage read like an enlarged folk print: red, ochre, gold, and blue sit in almost anti-perspectival fields; houses, mountains, motifs, and totems are cut into diagonal planes; a scalloped border frames the entire world.
+
+**The curtain works at once as painting, façade, and machine.** Repeating circles, rectangles, and acute angles are not filler; they are rhythmic instruments. Before performers appear, the audience enters an unstable kingdom: patterns jump, structures lean, and colours chase one another like sound. The image establishes the evening’s rule—truth here comes not from realism but from visual intensity.
+
+Goncharova did not use tradition as nostalgia. She pushed the flatness, repetition, and contrast of folk imagery to a modernist extreme, colliding them with Cubist fragmentation and Futurist motion. **Stage design ceased to be fabric behind the plot; it became an equal protagonist speaking with music and bodies.** Theatre, fashion, animation, and visual communication would repeatedly inherit this lesson: a coherent, bold visual grammar can make a world legible at first glance.
+
+This page uses Goncharova’s original 1914 curtain design for Act III of *Le Coq d’Or*. It depicts the work itself—not a performance, exhibition, or visitor photograph—with its red-gold-blue palette, folk-art border, and geometric architecture clearly visible. It precisely matches the title, story, and the stage-visual-design dimension of the film category.`,
+    legacy_en: `• Turned Russian folk imagery into an international avant-garde stage language
+• Showed that sets and costumes can jointly construct a whole narrative world
+• Made flatness, repeated motifs, and saturated colour active choices in modern theatre
+• Influenced opera, fashion, and scenography after the Ballets Russes
+• Offered cross-media designers a model: establish a visual grammar before the story unfolds`,
+    significance_en: `The *Le Coq d’Or* curtain shows that design need not imitate reality to feel powerfully present. Goncharova made pattern into space and colour into rhythm; the static image begins speaking before any actor does. It remains a lesson in world-building: when every element answers to the same visual language, the story has started before the curtain rises.`,
+  },
 ]
