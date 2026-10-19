@@ -14629,7 +14629,7 @@ This page uses Disney’s official vertical artwork for *The Jungle Book* (1967)
 • Became one of hand-drawn animation’s most durable global images
 • Influenced animation, character branding, and anthropomorphic interaction design`,
     significance_en: `*The Jungle Book* left behind not a fixed style, but a design discipline: first make viewers understand who is acting and why, then let technique intensify that feeling. It hides a sophisticated production system behind effortless viewing. A character speaks or takes a step, and the world becomes believable.`,
-  },,
+  },
   {
     id: '419',
     date: '2026-10-19',
