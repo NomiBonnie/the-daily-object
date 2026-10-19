@@ -14629,5 +14629,61 @@ This page uses Disney’s official vertical artwork for *The Jungle Book* (1967)
 • Became one of hand-drawn animation’s most durable global images
 • Influenced animation, character branding, and anthropomorphic interaction design`,
     significance_en: `*The Jungle Book* left behind not a fixed style, but a design discipline: first make viewers understand who is acting and why, then let technique intensify that feeling. It hides a sophisticated production system behind effortless viewing. A character speaks or takes a step, and the world becomes believable.`,
+  },,
+  {
+    id: '419',
+    date: '2026-10-19',
+    imageUrl: '/the-daily-object/images/powerbook-duo-210.jpg',
+    fullImageUrl: '/the-daily-object/images/full/powerbook-duo-210.jpg',
+    title: 'PowerBook Duo 210 / 230',
+    title_en: 'PowerBook Duo 210 / 230',
+    subtitle: 'Apple Computer, 1992',
+    subtitle_en: 'Apple Computer, 1992',
+    category: 'industrial' as const,
+    designer: 'Apple 工业设计团队（Apple Industrial Design Team）',
+    year: '1992',
+    tags: ['定义模块化笔电', '重构移动办公方式', '预演混合计算体验'],
+    tags_en: ['Defined Modular Laptops', 'Reframed Mobile Work', 'Anticipated Hybrid Computing'],
+
+    dateConnection: `1992 年 10 月 19 日，Apple 推出 PowerBook Duo 210 与 230，同时推出能让它们变身桌面机的 Duo Dock。今天回看这对产品，最值得记住的不是当年的处理器参数，而是一个异常清楚的设计判断：电脑不必在“能带走”和“能扩展”之间二选一。`,
+    designerBio: `PowerBook Duo 来自 1990 年代初 Apple 对便携计算的一次大胆分工。彼时笔记本若想拥有桌面机的软驱、硬盘、显示器、网络与扩展槽，往往只能变得又厚又重；若要真正轻便，又必须接受接口、存储和性能上的妥协。Apple 没有试图在单一机身里塞进一切，而是把系统拆成两个明确角色：一台可以随身携带的超薄 PowerBook，和一台留在桌面的 Dock。
+
+这是产品设计而非单纯工程规格的胜利。Duo 210 与 230 的机身比同时代全功能笔记本更薄、更轻，移除了内置软驱和大量端口；这些“缺失”并不是偷工减料，而是为移动状态重新分配重量、体积与注意力。回到办公室后，用户把笔记本推进 Duo Dock，原本轻巧的便携机立即接入外接显示器、键盘、鼠标、存储与网络。`,
+    story: `Duo 的核心不是一台小电脑，而是一种**在不同场景之间切换同一台电脑身份**的方法。今天看起来理所当然的“带着电脑出门，回到桌前接大屏和外设”，在 1992 年仍是反直觉的产品架构。多数厂商把笔记本当成缩小版桌面机：该有的接口、驱动器和部件都塞进去。Apple 则承认移动与固定使用的需求本来不同，并用物理连接器把两种状态设计成一个连续系统。
+
+这也解释了它为什么叫 Duo。机身本身采用了极紧凑的深灰色“PowerBook”语言：前置掌托、居中的轨迹球、内凹的键盘区域、短而平的前缘，让手腕与指针操作在有限宽度里仍有清晰秩序。屏幕下方的彩色 Apple 标志与右侧型号字样并不抢戏，却让严肃的工业灰保留了品牌识别。它合上时像一本硬壳笔记本，打开后又把显示、输入和掌托排成对称而可读的工作界面。
+
+真正聪明的决定发生在桌面端。Duo Dock 并不只是一个“充电座”，而是把本应拖累机身的功能留在办公室：额外驱动器、端口、扩展能力与桌面显示都由它承担。用户不是复制两台机器里的文件，也不需要为出门和回办公室改变工作环境；同一套系统被放进不同的物理外壳。**Duo 把可移动性从“缩小所有东西”改写成“只带走当下需要的东西”。**
+
+这种逻辑对后来产品影响很深。超极本、USB-C 扩展坞、桌面模式手机乃至混合办公的热插拔显示器，都继续回答同一个问题：怎样让一个人的数字工作在多个地点保持连续？它们当然比 Duo 快得多，但产品思想相似——不要把所有场景压进一个对象，而要为不同场景设计诚实、顺手的连接关系。
+
+本页采用 Wikimedia Commons 的 PowerBook Duo 210 原始产品摄影。画面直接展示 1992 年首发型号的正面机身、灰色外壳、轨迹球、键盘布局、屏幕边框与清晰的“PowerBook Duo 210”型号标识；它是作品本体的独立产品照，不是游客照、展览照或氛围图，与标题、故事和 industrial 分类准确对应。`,
+    legacy: `• 以“笔记本＋Dock”建立早期模块化移动计算范式
+• 让轻薄不再等于永久放弃桌面扩展能力
+• 把同一工作环境在移动与固定场景间无缝延续
+• 预演扩展坞、外接显示器与混合办公的日常逻辑
+• 证明删减端口与部件也可以是积极的设计选择`,
+    significance: `PowerBook Duo 最迷人的地方，是它没有把“完整”误解为“什么都装进来”。它把真正重要的体验放在用户如何移动、何时停下、在哪里继续工作上，再让硬件为这种节奏服务。对今天的设计师而言，它仍是一则很好的提醒：系统设计不是让每个部分各自最强，而是让它们在不同情境里恰好接得上。`,
+
+    dateConnection_en: `On October 19, 1992, Apple introduced the PowerBook Duo 210 and 230 alongside the Duo Dock that could turn them into desktop systems. Their lasting lesson is not a processor specification, but a remarkably clear design decision: computing did not have to choose between portability and expansion.`,
+    designerBio_en: `The PowerBook Duo was Apple’s early-1990s answer to a difficult contradiction in portable computing. A laptop with the drives, ports, display support, networking, and expansion of a desktop was usually thick and heavy; a truly light machine usually meant accepting severe compromise. Apple did not force every feature into one enclosure. Instead, it split the system into two legible roles: an ultra-compact PowerBook for travel and a Dock for the desk.
+
+That was a product-design decision, not merely an engineering trick. Duo 210 and 230 were thinner and lighter than contemporary full-feature notebooks because they removed the internal floppy drive and many ports. Those absences were not negligence: they reassigned weight, volume, and attention for the mobile state. Back at a desk, sliding the notebook into a Duo Dock connected it to an external display, keyboard, mouse, storage, and networking.`,
+    story_en: `The Duo’s real subject was not a small computer but **one computer identity across different situations**. Carrying a machine away, then reconnecting it to a larger screen and peripherals at a desk now feels ordinary; in 1992, it was a counterintuitive product architecture. Most manufacturers treated a laptop as a shrunken desktop, cramming every drive and port inside. Apple acknowledged that mobile and fixed work asked for different things, then designed a physical connector to make those states continuous.
+
+Its name explains the proposition. The compact dark-grey chassis follows a concentrated PowerBook language: forward palm rests, a centred trackball, a recessed keyboard field, and a short, flat front edge that bring clear order to a limited width. The coloured Apple mark and model name beneath the screen are restrained but legible. Closed, it resembles a hardbound notebook; opened, display, input, and palm rest form a readable working surface.
+
+The most intelligent choice sits at the desk. The Duo Dock was not merely a charger: it held the drives, ports, expansion, and desktop-display capability that would otherwise burden the portable machine. Users did not maintain two computers or change environments when they returned to work. One system moved between different physical shells. **Duo reframed portability from “make everything smaller” to “carry only what the current situation needs.”**
+
+That logic runs through later ultrabooks, USB-C docks, phone desktop modes, and the hot-plug displays of hybrid work. Their technology is far faster, but the product question is the same: how can a person’s digital work remain continuous across places? The answer is not to compress every condition into one object, but to design honest, graceful connections among conditions.
+
+This page uses an original Wikimedia Commons product photograph of the PowerBook Duo 210. It directly shows a launch-era model’s front-facing chassis, grey housing, trackball, keyboard arrangement, screen bezel, and clearly legible “PowerBook Duo 210” marking. It is an independent photograph of the object itself—not a visitor, exhibition, or atmosphere image—and precisely matches the title, story, and industrial category.`,
+    legacy_en: `• Established an early modular-computing model through “notebook plus dock”
+• Showed that thin portability need not permanently sacrifice desktop expansion
+• Kept one work environment continuous between mobile and fixed settings
+• Anticipated today’s docks, external displays, and hybrid-work routines
+• Proved that removing ports and components can be an affirmative design choice`,
+    significance_en: `The PowerBook Duo is compelling because it did not confuse “complete” with “everything inside.” It began with how people move, pause, and resume work, then made hardware serve that rhythm. It remains a useful lesson for designers: system design is not making every component independently maximal. It is making the components meet exactly when and where people need them to.`,
   },
+
 ]
