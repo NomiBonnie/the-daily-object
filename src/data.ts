@@ -14795,7 +14795,7 @@ This page uses a vertical Wikimedia Commons architectural photograph. It directl
 • Challenged the neutral white box as the only model for displaying art
 • Proved that curved concrete can be intensely legible in public life`,
     significance_en: `The Guggenheim’s achievement is not simply making a spiral conspicuous. It makes form, structure, circulation, and viewing say the same thing. It reminds designers that lasting iconicity is not a pose that can be copied; it is a proposition that every step inside continues to prove necessary.`,
-  },,
+  },
   {
     id: '422',
     date: '2026-10-22',
