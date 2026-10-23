@@ -14851,4 +14851,60 @@ This page uses the official vertical theatrical key art for *Blade Runner 2049*:
 • Became a major visual reference for contemporary science-fiction production design`,
     significance_en: `*Blade Runner 2049* is powerful because it does not treat the future as a stage for displaying technology, but as a condition pressing on bodies. Gassner makes every light, wall, and dust cloud do narrative work: design is not backdrop here, but the audience’s first language for understanding what remains of the human.`,
   },
+
+  {
+    id: '423',
+    date: '2026-10-23',
+    imageUrl: '/the-daily-object/images/original-ipod.jpg',
+    fullImageUrl: '/the-daily-object/images/full/original-ipod.jpg',
+    title: '初代 iPod',
+    title_en: 'Original iPod',
+    subtitle: 'Apple 工业设计团队 / Jonathan Ive，2001',
+    subtitle_en: 'Apple Industrial Design Team / Jonathan Ive, 2001',
+    category: 'industrial' as const,
+    designer: 'Apple 工业设计团队 / Jonathan Ive',
+    year: '2001',
+    tags: ['重写数字音乐体验', '定义随身交互范式', '开启苹果复兴之路'],
+    tags_en: ['Rewrote Digital Music', 'Defined Portable Interaction', 'Sparked Apple’s Revival'],
+
+    dateConnection: `2001 年 10 月 23 日，Apple 发布第一代 iPod。Steve Jobs 用“1,000 songs in your pocket”概括它：一台容量 5GB、可装约一千首歌的随身播放器，从此把数字音乐从电脑桌面带进衣袋。`,
+    designerBio: `Jonathan Ive 与 Apple 工业设计团队在世纪之交正重新建立 Apple 的产品语言。iMac G3 的半透明色彩让电脑从办公设备变成个性物品；到 iPod，他们转向相反的克制：一块干净的白色正面、一块小屏幕、一个圆形控制器。设计不靠装饰讲述技术，而让人一眼知道从哪里开始。
+
+项目的关键不只是播放器本身。Tony Fadell 负责产品构想与工程推进，Apple 将硬件、iTunes 软件与 FireWire 同步整合为一个系统。它不是“能播放 MP3 的小机器”，而是一条从导入、整理、挑选到聆听都尽量少摩擦的路径。`,
+    story: `2001 年的随身数字音乐并不缺设备：市场上已有各类 MP3 播放器。但它们普遍容量有限、菜单混乱，用户得在电脑、文件夹与小屏幕之间不断妥协。iPod 的突破首先是一个产品编辑决定：采用当时罕见的 1.8 英寸硬盘，把容量推至 5GB；再用机械滚轮与四个明确的按键，把长长的音乐列表压缩成拇指可完成的动作。
+
+**滚轮不是为了造一个新奇的圆，而是为了解决“很多内容如何快速浏览”。** 手指绕圈，列表随之加速；停下时，中心键确认。这个交互把速度、方向与选择变成可被身体记住的节奏。屏幕上只有几行黑字，白色表面上几乎没有多余信息；它用限制换来清楚，让第一次拿起它的人不必先学习一套机器语言。
+
+最有意思的是，iPod 的白色并非当时消费电子的默认答案。它与 iMac G3 的糖果色拉开距离，也避开了专业音响常见的黑色、银色和密集按键。白色耳机线后来成为一种公开的识别符号：音乐不再藏在家里的唱片架或电脑硬盘，而以轻巧、可见、可随身移动的方式进入城市生活。
+
+它也并不完美。初代只支持 Mac、售价 399 美元，且还没有后来更简单的 Click Wheel。但 iPod 给 Apple 找到了一个决定性的尺度：产品可以足够小、足够亲密，却同时连接软件、内容与习惯。随后出现的 Windows 支持、iTunes Store、iPod mini 与 iPhone，都是在这条路径上展开的。**它改变的不是一台播放器，而是人们携带文化的方式。**
+
+本页使用 Wikimedia Commons 的原始第一代 iPod 产品摄影：画面清晰展示初代特有的机械滚轮、独立四枚环形按键、白色机身与单色菜单屏幕。它直接呈现 2001 年发布的对象本身，不是展览、游客或氛围照片，和标题、故事及 industrial 分类精确对应。`,
+    legacy: `• 将“海量内容”变成可用单手浏览的随身体验
+• 以硬件、软件与同步流程重塑消费电子产品系统
+• 让白色极简成为 Apple 最具辨识度的设计语言之一
+• 改变音乐购买、整理与分享的日常行为
+• 为 iPhone 之前的 Apple 建立了全球消费品牌势能`,
+    significance: `初代 iPod 的厉害，不是把更多歌曲塞进更小的盒子，而是把复杂性安放在用户看不见的地方：硬盘、同步、文件管理都退后，留下拇指、滚轮与一首歌。它仍是产品设计最干净的提醒之一：技术真正变得亲近，不是因为功能被删空，而是因为每个必要动作都被重新组织得理所当然。`,
+
+    dateConnection_en: `On October 23, 2001, Apple introduced the first iPod. Steve Jobs framed it in five words—“1,000 songs in your pocket”: a 5GB portable player that moved digital music from the desktop into everyday life.`,
+    designerBio_en: `At the turn of the millennium, Jonathan Ive and Apple’s industrial-design team were rebuilding Apple’s product language. The translucent colour of the iMac G3 made a computer feel personal; with the iPod, the team chose the opposite restraint: a clean white face, a small screen, and a circular controller. The design did not decorate technology. It made the first action obvious.
+
+The crucial achievement was larger than the player. Tony Fadell drove the product concept and engineering, while Apple joined hardware, iTunes, and FireWire synchronisation into one system. It was not simply a small machine that could play MP3s, but a low-friction route from importing and organising to choosing and listening.`,
+    story_en: `Portable digital music already had devices in 2001, but most had limited capacity and confusing menus. Users kept negotiating between computers, file folders, and tiny screens. The iPod’s first breakthrough was an act of product editing: a then-unusual 1.8-inch hard drive raised capacity to 5GB, while a mechanical scroll wheel and four explicit buttons turned a long library into thumb-scale actions.
+
+**The wheel was not a novel circle; it answered how to browse a great deal of content quickly.** A finger moves around it, the list accelerates, and the centre button confirms. Speed, direction, and selection become a rhythm the body can remember. With only a few lines of black text and almost no surplus information on its white face, the iPod traded limits for clarity.
+
+White was not the default answer for consumer electronics. It broke from the iMac G3’s candy colours and from the black, silver, button-dense language of hi-fi equipment. The white earbud cable later became a public marker: music was no longer held at home in a record rack or hard drive, but carried visibly through the city.
+
+The first iPod was not perfect. It was Mac-only, cost $399, and lacked the later Click Wheel. Yet it found a decisive scale for Apple: a product could be small and intimate while connecting software, content, and habit. Windows support, the iTunes Store, iPod mini, and iPhone all unfolded from that route. **It changed not only a player, but how people carried culture.**
+
+This page uses a Wikimedia Commons product photograph of the original first-generation iPod. It clearly shows the period-specific mechanical scroll wheel, four separate ring buttons, white enclosure, and monochrome menu screen. It directly depicts the 2001 object itself—not an exhibition, visitor, or atmosphere image—and precisely matches the title, story, and industrial category.`,
+    legacy_en: `• Made large personal libraries browsable with one hand
+• Reframed consumer electronics as an integrated hardware, software, and sync system
+• Made restrained white minimalism one of Apple’s most recognisable design languages
+• Changed everyday practices of buying, organising, and sharing music
+• Built the consumer-brand momentum Apple carried into the iPhone era`,
+    significance_en: `The original iPod mattered not because it squeezed more songs into a smaller box, but because it put complexity where users did not have to see it. The hard drive, synchronisation, and file management moved backstage; a thumb, a wheel, and a song remained. It is still a clear product-design lesson: technology becomes intimate not when every function disappears, but when every necessary action feels inevitable.`,
+  },
 ]
