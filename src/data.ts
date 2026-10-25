@@ -14962,5 +14962,61 @@ This page uses an original Cassina Nuage product photograph from Wikimedia Commo
 • Proved high-capacity storage can remain light, open, and legible
 • Influenced open storage, adaptable partitions, and contemporary living systems`,
     significance_en: `The Nuage Bookshelf matters because it refuses to prescribe one correct home. With rigorous structure, standardised components, and bold colour, Perriand made room for life instead. Good industrial design does not organise the world into permanence; it provides a dependable order in which change can happen.`,
+  },,
+
+  {
+    id: '425',
+    date: '2026-10-25',
+    imageUrl: '/the-daily-object/images/windows-xp.png',
+    fullImageUrl: '/the-daily-object/images/full/windows-xp.png',
+    title: 'Windows XP',
+    title_en: 'Windows XP',
+    subtitle: 'Microsoft，2001',
+    subtitle_en: 'Microsoft, 2001',
+    category: 'software' as const,
+    designer: 'Microsoft 用户体验与视觉设计团队',
+    year: '2001',
+    tags: ['定义千禧桌面美学', '让电脑变得亲近', '软件界面的共同记忆'],
+    tags_en: ['Defined Millennium Desktop Style', 'Made Computing Feel Personal', 'A Shared UI Memory'],
+
+    dateConnection: `2001 年 10 月 25 日，Windows XP 正式面向公众发布。它带着蓝绿圆润的 Luna 视觉系统和那片名为 Bliss 的草坡，替一代人定义了“电脑看起来应该是什么样子”。`,
+    designerBio: `Windows XP 由 Microsoft 在 Whistler 项目中开发，是 Windows NT 系列第一次真正面向普通家庭的大规模统一版本。它把此前分开的消费级 Windows 与专业级 Windows 收到同一条产品线里；稳定性是底层承诺，而人们每天真正接触到的，是窗口、任务栏、开始菜单、图标、声音和开机画面组成的视觉语言。
+
+XP 的设计并非只靠一个软件工程团队完成。Microsoft 的用户体验、视觉设计、品牌与产品团队必须把复杂的文件、网络、设备和应用程序重新组织成可被初学者理解的路径。名称中的 XP 是 “eXPerience”：它承诺的不是某一个功能，而是更完整、更有人情味的使用体验。`,
+    story: `在 XP 之前，个人电脑界面往往带着办公室工具的硬朗感：灰色、直角、密集的菜单与小图标。Luna 反其道而行。它用饱和的蓝色任务栏、绿色 Start 按钮、圆润的窗口边角和高光按钮，让一台复杂的机器显得更友好、更有情绪。今天回看，它甚至有点大胆；但在 2001 年，这种色彩、材质与留白明确告诉用户：电脑不必只属于懂技术的人。
+
+**XP 最厉害的地方，是把“可用”变成一种可被记住的气氛。** Start 菜单把常用程序、个人文件和系统任务分区；任务栏分组降低了窗口混乱；控制面板、图片文件夹和安装向导也被赋予一致的蓝绿语言。它并没有消灭复杂性，却用重复的形状、颜色与层级，让人逐渐学会系统的语法。对无数第一次拥有电脑的人来说，操作系统不再是一堵命令墙，而是一张可以走进去的桌面。
+
+Bliss 壁纸是这套体验的情绪锚点。照片本身来自加州 Sonoma 的草坡，并非电脑生成；XP 把它放到数亿台设备的起点。明亮的蓝天、饱和的绿地和没有尽头的小路，把“启动”从技术动作变成一种乐观的邀请。与此同时，开机画面上四格 Windows 标志与橙色 XP 字样又保留了品牌的明确识别：一面是自然和亲近，一面是软件系统的秩序。
+
+它也留下了值得反思的遗产。Luna 的渐变、高光和体积感，后来被扁平化潮流取代；Windows XP 的安全与长期支持问题也提醒我们，亲切的表面不能替代系统维护。但 **XP 证明了软件界面可以拥有公共记忆。** 人们记住它，不只是因为使用时间长，而是因为每次开机、点击和等待都被编排成同一种清晰、鲜明且有温度的体验。
+
+本页采用 Wikimedia Commons 的 Windows XP x64 原始启动画面截图：黑色底面上完整呈现 Windows XP 标志、四色窗口图形、加载条与 Microsoft 标识。它是软件本体的直接截图，不是电脑实拍、展览照或氛围图；图片与 Windows XP 的标题、发布故事和 software 分类精确对应。`,
+    legacy: `• 让消费级电脑界面从工具感走向情绪化与亲和力
+• 以开始菜单与任务栏组织建立大众可学习的操作路径
+• 将品牌色彩、图标、窗口与声音整合为完整体验系统
+• 使“桌面”成为一代人共同拥有的视觉记忆
+• 为后来的拟物化与跨设备体验设计提供参照`,
+    significance: `Windows XP 并不只是一个旧系统。它让软件设计露出一个关键事实：用户首先感受的不是架构，而是秩序是否可读、操作是否有节奏、机器是否愿意迎接人。Luna 的价值正在于此——它把无形的软件变成了有表情的日常环境。`,
+
+    dateConnection_en: `Windows XP reached the public on October 25, 2001. With its rounded blue-and-green Luna visual system and the Bliss hill, it defined what a computer was supposed to look like for a generation.`,
+    designerBio_en: `Developed by Microsoft under the Whistler project, Windows XP was the first large-scale consumer unification of the Windows NT line. Its technical promise was stability; what people met every day was a visual language of windows, taskbars, Start menus, icons, sounds, and the boot screen.
+
+XP was not authored by engineering alone. Microsoft’s experience, visual-design, brand, and product teams had to turn files, networks, devices, and applications into a path a new user could understand. XP meant “eXPerience”: not one feature, but a more complete and human experience of computing.`,
+    story_en: `Before XP, personal-computer interfaces often felt like hard office tools: grey, angular, and dense with menus. Luna deliberately went another way. Saturated blue taskbars, a green Start button, rounded window edges, and highlighted controls made a complicated machine appear more approachable. In 2001, that colour, material, and whitespace said clearly that computing need not belong only to technical people.
+
+**XP’s achievement was making usability into an atmosphere people could remember.** The Start menu separated frequent programs, personal files, and system tasks; taskbar grouping reduced window chaos; the Control Panel, picture folders, and setup wizards inherited the same blue-and-green language. Complexity remained, but recurring forms, colours, and hierarchy taught users the system’s grammar.
+
+The Bliss wallpaper became the experience’s emotional anchor. It was a photograph of a Sonoma, California hill—not computer-generated—and XP placed it at the beginning of hundreds of millions of devices. Bright sky, saturated grass, and an open path turned booting from a technical act into an optimistic invitation. The four-pane Windows mark and orange XP lettering kept the system unmistakably branded.
+
+Luna’s gradients, highlights, and volume were later replaced by flat design, while XP’s security and support history showed that friendliness cannot replace maintenance. Yet **XP proved that a software interface can become a shared public memory.** It is remembered not merely because it lasted, but because booting, clicking, and waiting were orchestrated into a clear, vivid, humane experience.
+
+This page uses a direct Wikimedia Commons screenshot of the Windows XP x64 boot screen. Against black it clearly shows the Windows XP wordmark, four-colour window graphic, loading bar, and Microsoft mark. It is a direct image of the software—not a computer photograph, exhibition view, or atmosphere image—and precisely matches the title, release story, and software category.`,
+    legacy_en: `• Shifted consumer PC interfaces from tool-like severity toward emotional accessibility
+• Established learnable mainstream navigation through Start-menu and taskbar organisation
+• Joined colour, iconography, windows, and sound into a coherent experience system
+• Made the desktop a shared visual memory for a generation
+• Offered a reference point for later skeuomorphic and cross-device experience design`,
+    significance_en: `Windows XP was more than an old operating system. It surfaced a lasting truth of software design: people first feel whether order is legible, action has rhythm, and a machine seems ready to welcome them. Luna made invisible software into an everyday environment with an expression.`,
   },
 ]
