@@ -14962,7 +14962,7 @@ This page uses an original Cassina Nuage product photograph from Wikimedia Commo
 • Proved high-capacity storage can remain light, open, and legible
 • Influenced open storage, adaptable partitions, and contemporary living systems`,
     significance_en: `The Nuage Bookshelf matters because it refuses to prescribe one correct home. With rigorous structure, standardised components, and bold colour, Perriand made room for life instead. Good industrial design does not organise the world into permanence; it provides a dependable order in which change can happen.`,
-  },,
+  },
 
   {
     id: '425',
@@ -15018,5 +15018,61 @@ This page uses a direct Wikimedia Commons screenshot of the Windows XP x64 boot 
 • Made the desktop a shared visual memory for a generation
 • Offered a reference point for later skeuomorphic and cross-device experience design`,
     significance_en: `Windows XP was more than an old operating system. It surfaced a lasting truth of software design: people first feel whether order is legible, action has rhythm, and a machine seems ready to welcome them. Luna made invisible software into an everyday environment with an expression.`,
+  },,
+
+  {
+    id: '426',
+    date: '2026-10-26',
+    imageUrl: '/the-daily-object/images/gta-san-andreas.jpg',
+    fullImageUrl: '/the-daily-object/images/full/gta-san-andreas.jpg',
+    title: '侠盗猎车手：圣安地列斯',
+    title_en: 'Grand Theft Auto: San Andreas',
+    subtitle: 'Rockstar North，2004',
+    subtitle_en: 'Rockstar North, 2004',
+    category: 'software' as const,
+    designer: 'Rockstar North / Rockstar Games 美术与世界设计团队',
+    year: '2004',
+    tags: ['重写开放世界尺度', '定义街头视觉语言', '游戏城市叙事标杆'],
+    tags_en: ['Redefined Open-World Scale', 'Defined Street Visual Language', 'A Benchmark for Game Cities'],
+
+    dateConnection: `2004 年 10 月 26 日，Rockstar Games 在北美为 PlayStation 2 正式发行《侠盗猎车手：圣安地列斯》。它把洛杉矶、旧金山和拉斯维加斯的文化想象压缩进一张可驾驶、可步行、可迷路的地图，也让“开放世界”从一种技术承诺变成了一种完整的城市体验。`,
+    designerBio: `《侠盗猎车手：圣安地列斯》由 Rockstar North 开发、Rockstar Games 发行。它不是由单一署名设计师完成的物件，而是一支由关卡设计、环境美术、角色动画、车辆、界面、声音与叙事人员共同建立的城市系统。Rockstar North 在《GTA III》与《罪恶都市》中已经探索过三维城市的自由行动；到了《圣安地列斯》，他们面对的是更难的问题：怎样让一片巨大地域不只是内容清单，而像有社会结构、有气候、有阶层差异的地方。
+
+团队把 1992 年代的加州作为视觉与叙事的基底，却没有复制真实城市。Los Santos、San Fierro 与 Las Venturas 分别借鉴洛杉矶、旧金山和拉斯维加斯，再用乡村、公路、沙漠和小镇把它们拉开。这样的抽象让地图既足够熟悉，又能以游戏自己的比例运作：一段车程、一次换装、一首电台歌曲，都成为读懂城市的方式。`,
+    story: `在它之前，开放世界游戏已经证明玩家可以自由移动；《圣安地列斯》进一步证明，**自由必须被设计成一种有节奏的感受。** 从 Grove Street 的低矮住宅、棕榈树与涂鸦，到 San Fierro 的斜坡、有轨电车和潮湿灰蓝，再到 Las Venturas 的霓虹、赌场与干燥公路，空间并不靠说明文字区分自己。颜色、路宽、建筑密度、交通、音乐与人物服装先说话，玩家进入一个区域时便能感到规则改变了。
+
+这种环境叙事最重要的工具，是“过渡”。城市之间不是选单里的跳转点，而是要穿过的路：高架、农田、加油站、山地、荒漠和广播频道把尺度变成了身体记忆。地图因此不是一张等待清空的任务表，而是一种被速度、距离和偶遇塑造的地理经验。设计团队也用商店、理发、纹身、健身、帮派地盘和车辆改装让角色与环境互相反馈；这些系统不只是增加玩法，而是让玩家在视觉上留下“我在这里生活过”的痕迹。
+
+它的包装图同样是 2000 年代游戏视觉文化的标志。黑色粗框把人物、车辆、直升机、火车、街景和细节切成连环画般的格子；中心的白色 Gothic 标志则把复杂的城市噪音压成一个一眼可认的名字。**这不是单纯的角色拼贴：它用多视角、强轮廓与局部叙事，提前告诉玩家这座城市永远同时发生许多事。** 后来无数开放世界作品借用了它的规模雄心，但很少有作品能把城市类型、流行文化与玩家行动组织得这么有触感。
+
+《圣安地列斯》并非没有争议，成人题材与“Hot Coffee”风波也让它成为游戏分级与发行史的一部分。但从设计角度看，它留下的核心遗产很清楚：虚拟城市不必只靠逼真的材质取胜。真正让人记住一座游戏城市的，是它是否有可辨认的街区、可感知的距离，以及一套会回应玩家行为的视觉秩序。
+
+本页采用原版《Grand Theft Auto: San Andreas》官方盒装封面艺术：竖向画面以黑框分格呈现 Carl “CJ” Johnson、车辆、直升机、火车与城市街景，中央为作品原始 Gothic 标志。它直接展示今天所述的游戏本体与其标志性视觉系统，不是游客照、展览照或氛围图；与标题、故事和 software 分类精确对应。`,
+    legacy: `• 把开放世界从可自由移动的地图推进为有节奏的城市体验
+• 以地域色彩、交通、声音与建筑密度建立可读的环境叙事
+• 让角色外观、车辆与日常活动成为玩家留下身份痕迹的系统
+• 将多格漫画式封面语言变成千禧年代游戏视觉图标
+• 为后来的大型虚拟城市建立尺度、过渡与生活感的设计基准`,
+    significance: `《圣安地列斯》的厉害，不只在于地图够大，而在于它让“远方”真的有意义。每一段路、每一种天色、每一首电台歌都在告诉玩家自己身在何处。好的开放世界设计不是把更多东西塞进城市；它让城市以自己的视觉语法，持续对人的行动作出回应。`,
+
+    dateConnection_en: `On October 26, 2004, Rockstar Games released *Grand Theft Auto: San Andreas* for PlayStation 2 in North America. Compressing imagined Los Angeles, San Francisco, and Las Vegas into a world to drive, walk, and get lost in, it made the open world a complete urban experience rather than a technical promise.`,
+    designerBio_en: `Developed by Rockstar North and published by Rockstar Games, *Grand Theft Auto: San Andreas* was not the work of one credited designer but of a city-building system spanning level design, environment art, character animation, vehicles, interface, sound, and narrative. After *GTA III* and *Vice City*, the team faced a harder question: how can a large territory feel less like a content list and more like a place with climate, class, and social structure?
+
+The team used early-1990s California as a visual and narrative base without copying real cities. Los Santos, San Fierro, and Las Venturas borrow from Los Angeles, San Francisco, and Las Vegas, then are separated by countryside, highways, desert, and small towns. The abstraction makes the map both familiar and legible in its own scale: a drive, a change of clothes, or a radio track becomes a way to understand the city.`,
+    story_en: `Earlier open-world games had already proved that players could move freely. *San Andreas* went further: **freedom had to be designed as a rhythm.** Grove Street’s low houses, palms, and graffiti; San Fierro’s slopes, streetcars, and damp blue-grey; and Las Venturas’s neon, casinos, and dry roads distinguish themselves before a caption appears. Colour, street width, building density, traffic, music, and clothing make each place feel governed by a different logic.
+
+Its most important environmental-design tool is transition. Cities are not menu destinations; players travel through overpasses, farms, gas stations, mountains, desert, and radio stations to reach them. Scale becomes bodily memory. Shops, barbers, tattoos, gyms, gang territory, and vehicle customisation make character and environment affect each other; they do not merely add activities, but leave visible evidence that the player has lived here.
+
+The cover art became an icon of 2000s game culture. Heavy black frames divide people, cars, helicopters, trains, and street scenes like comic panels, while the white Gothic logo compresses the city’s noise into an instantly recognised name. **It is not a simple character collage: multiple viewpoints, emphatic outlines, and fragments of narrative promise a city where many things are always happening at once.** Later open worlds borrowed its ambition of scale, but few have coordinated urban types, popular culture, and player action with such tactile clarity.
+
+Its adult themes and the “Hot Coffee” controversy also made it part of ratings and publishing history. Yet its central design legacy remains clear: virtual cities do not become memorable only through realistic materials. They need distinct districts, felt distances, and a visual order that responds to what players do.
+
+This page uses the original official box-cover art for *Grand Theft Auto: San Andreas*: a vertical, black-framed grid of Carl “CJ” Johnson, vehicles, helicopter, train, and city scenes centred on the original Gothic logo. It directly depicts the game and its signature visual system—not a visitor, exhibition, or atmosphere image—and precisely matches the title, story, and software category.`,
+    legacy_en: `• Advanced the open world from free movement into a paced experience of city life
+• Used regional colour, traffic, sound, and building density for legible environmental storytelling
+• Made appearance, vehicles, and everyday activity systems through which players leave an identity trace
+• Turned comic-panel cover art into a visual icon of millennium-era games
+• Set a design benchmark for scale, transition, and lived-in feeling in virtual cities`,
+    significance_en: `*San Andreas* matters not simply because its map was large, but because distance meant something within it. Every road, sky, and radio track tells players where they are. Good open-world design does not pack more into a city; it gives the city a visual grammar that keeps answering human action.`,
   },
 ]
