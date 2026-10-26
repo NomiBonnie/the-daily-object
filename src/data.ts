@@ -15018,7 +15018,7 @@ This page uses a direct Wikimedia Commons screenshot of the Windows XP x64 boot 
 • Made the desktop a shared visual memory for a generation
 • Offered a reference point for later skeuomorphic and cross-device experience design`,
     significance_en: `Windows XP was more than an old operating system. It surfaced a lasting truth of software design: people first feel whether order is legible, action has rhythm, and a machine seems ready to welcome them. Luna made invisible software into an everyday environment with an expression.`,
-  },,
+  },
 
   {
     id: '426',
