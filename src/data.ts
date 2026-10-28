@@ -15130,7 +15130,7 @@ This page uses a Wikimedia Commons original exterior image of the Everson Museum
 • Made plaza, approach, and interior court parts of a shared civic experience
 • Established the geometric, luminous, and processional vocabulary of Pei’s later museums`,
     significance_en: `The Everson Museum of Art shows that a public building is defined not only by what it collects, but by how it lets people approach, pause, and turn. Pei did not make a polite backdrop; he arranged concrete, gravity, and movement into a clear invitation. A good museum is never merely a box for art. It must itself be worth looking at.`,
-  },,
+  },
 
   {
     id: '428',
