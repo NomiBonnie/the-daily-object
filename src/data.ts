@@ -15242,7 +15242,7 @@ This page uses the original 2003 Windows game cover for *Call of Duty*. It direc
 • Helped popularise cooperative multiplayer, rapid encounters, and legible battlefield information
 • Established an action-game narrative template that has been inherited, repeated, and questioned for over two decades`,
     significance_en: `*Call of Duty* matters not only because of the scale of the franchise it became, but because it rearranged the relationship between player and scene. It makes the battlefield a constantly pressurising environment of image, sound, and action: you do not simply watch a designed spectacle—you move through it with limited control. Great interaction design is not feature accumulation. It uses rhythm and viewpoint to make people feel where they are.`,
-  },,
+  },
   {
     id: '430',
     date: '2026-10-30',
