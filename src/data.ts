@@ -15242,5 +15242,56 @@ This page uses the original 2003 Windows game cover for *Call of Duty*. It direc
 • Helped popularise cooperative multiplayer, rapid encounters, and legible battlefield information
 • Established an action-game narrative template that has been inherited, repeated, and questioned for over two decades`,
     significance_en: `*Call of Duty* matters not only because of the scale of the franchise it became, but because it rearranged the relationship between player and scene. It makes the battlefield a constantly pressurising environment of image, sound, and action: you do not simply watch a designed spectacle—you move through it with limited control. Great interaction design is not feature accumulation. It uses rhythm and viewpoint to make people feel where they are.`,
+  },,
+  {
+    id: '430',
+    date: '2026-10-30',
+    imageUrl: '/the-daily-object/images/airpods-pro-2019.jpg',
+    fullImageUrl: '/the-daily-object/images/full/airpods-pro-2019.jpg',
+    title: 'AirPods Pro',
+    title_en: 'AirPods Pro',
+    subtitle: 'Apple Industrial Design Team, 2019',
+    subtitle_en: 'Apple Industrial Design Team, 2019',
+    category: 'industrial' as const,
+    designer: 'Apple 工业设计团队',
+    year: '2019',
+    tags: ['重塑真无线耳机形态', '定义主动降噪日常', '让声音交互无感化'],
+    tags_en: ['Reshaped True-Wireless Form', 'Defined Everyday Noise Control', 'Made Audio Interaction Invisible'],
+
+    dateConnection: `2019 年 10 月 30 日，第一代 AirPods Pro 开始发货并在 Apple Store 上架。两天前，Apple 以“全新入耳式设计”发布它；这一天，它真正从发布稿进入人们的耳朵，也把主动降噪从航空舱和专业耳机带进了通勤、办公室与街头。`,
+    designerBio: `AirPods Pro 不是由一位明星设计师署名的作品，而是 Apple 工业设计、声学、软硬件与人机交互团队共同完成的系统设计。它延续了初代 AirPods “打开盒盖即可配对”的低摩擦逻辑，却没有把升级理解为简单增加功能；团队需要重新处理一个更困难的问题：如何让一副密封式入耳耳机既稳固、有效隔音，又不让人感到被耳机压迫。
+
+Apple 为此使用三种尺寸的柔软硅胶耳塞、压力平衡通气系统、短柄上的按压力度感应器，以及由 H1 芯片驱动的实时计算。真正重要的不是每个部件单独多先进，而是它们被组织成一种几乎不必阅读说明书的体验：戴上、听见、切换，产品把复杂性藏在动作和反馈之后。`,
+    story: `初代 AirPods 让真无线耳机从“技术新玩具”变成可被大众接受的日常物件；AirPods Pro 则把这一语言推向更明确的身体尺度。耳塞必须深入耳道才能形成密封，但 Apple 没有采用粗壮、外露的运动耳机姿态，而是把主体压缩成一枚圆润的白色胶囊，再以比初代更短的柄部保留辨识度。**它看起来仍然像 AirPods，却第一次明确地告诉人：这是为了耳朵内部而设计的。**
+
+主动降噪的设计也不止于“更安静”。外向与内向麦克风持续采样，系统每秒多次调整反向声波；但用户不需要看波形，也不需要进入复杂菜单。捏住耳机柄，降噪与通透模式就在一个清晰的物理动作里切换。通透模式尤其改变了人们使用耳机的心理负担：不必摘下耳机，也能听到列车广播、同事说话或街道提示。**它把耳机从隔绝世界的设备，变成可调节人与环境距离的界面。**
+
+这套设计随后被大量真无线耳机借鉴：短柄、充电盒、耳塞、降噪、环境声与快速配对逐渐成为行业默认配置。但 AirPods Pro 的影响力并不只在外形模仿。它证明声音产品的交互可以少到近乎消失：没有屏幕占据注意力，没有复杂层级，关键控制被放在拇指和食指最容易找到的位置，状态则直接由你听到的世界变化来确认。
+
+官方产品图也准确呈现这种设计判断：两枚耳机悬置在纯黑背景上，完整展示硅胶耳塞、外部麦克风格栅、短柄与压力感应区域。它是 Apple 为 2019 年 AirPods Pro 发布提供的原始产品视觉资产，不是佩戴者照片、展会照或氛围图；图片、标题、故事与 industrial 分类完全对应。`,
+    legacy: `• 将真无线耳机从配件推向日常计算与个人声学界面
+• 以短柄、圆润主体与耳塞建立可被一眼识别的产品轮廓
+• 让主动降噪与通透模式成为大众耳机的基础预期
+• 用实体按压与即时声学反馈减少屏幕依赖和学习成本
+• 促使行业重新思考耳机如何调节人和周遭环境的关系`,
+    significance: `AirPods Pro 的价值不只在于卖出多少副，而在于它把一套复杂的声学系统做得像一种本能。好的工业设计并非把技术展示得更响亮，而是让技术恰好退后一步：人不必理解麦克风、算法和芯片，仍能在嘈杂处得到安静，在需要时重新听见世界。`,
+
+    dateConnection_en: `On October 30, 2019, the first-generation AirPods Pro began shipping and arrived in Apple Stores. Apple had announced the new in-ear design two days earlier; on this date it moved from press release to people’s ears, bringing active noise cancellation from aircraft cabins and specialist headphones into commutes, offices, and streets.`,
+    designerBio_en: `AirPods Pro is not credited to a single celebrity designer. It is a system designed by Apple’s industrial design, acoustics, hardware, software, and human-interface teams. It extended the original AirPods’ low-friction promise—open the case and pair—but treated the upgrade as a harder question: how can a sealed in-ear headphone be secure and isolating without making the wearer feel sealed in?
+
+Three soft silicone tip sizes, a pressure-equalising vent system, a force sensor on the shortened stem, and real-time computation around the H1 chip became one coherent interaction. The point was not that each element was advanced on its own. The point was that their complexity disappeared behind an experience that needs almost no instruction: wear, hear, switch.`,
+    story_en: `The original AirPods made true wireless audio an everyday object. AirPods Pro brought that language closer to the body. A seal requires an ear tip, yet Apple avoided the bulky, overtly athletic stance of many in-ear headphones. Instead it compressed the body into a soft white capsule and kept a shorter stem for instant recognition. **It still looked like AirPods, but for the first time clearly announced that it was designed for the inside of the ear.**
+
+Its noise cancellation was more than a promise of quiet. Outward- and inward-facing microphones continuously sample sound, while the system adjusts anti-noise in real time. Yet the user never needs a waveform or a deep menu. Squeeze the stem and noise cancellation changes to Transparency mode through one legible physical gesture. Transparency mode changed the psychological cost of wearing headphones: without taking them out, a user can still hear a train announcement, a colleague, or the street. **The earphones became an interface for adjusting one’s distance from the world, not a device for simply shutting it out.**
+
+Many later true-wireless headphones borrowed the short stem, case, tips, noise cancellation, ambient sound, and quick pairing. AirPods Pro’s more lasting lesson was interactional: audio products can make controls nearly disappear. There is no screen demanding attention and no elaborate hierarchy. The essential control sits where thumb and index finger naturally meet; the result is confirmed by a change in the world you hear.
+
+This page uses Apple’s original 2019 AirPods Pro product image. Against a pure black background, the two earbuds clearly show the silicone tips, external microphone grilles, shortened stems, and force-sensor areas. It is Apple’s own release asset—not a lifestyle, exhibition, or atmosphere image—and precisely matches the title, story, and industrial category.`,
+    legacy_en: `• Moved true-wireless headphones from accessory to everyday personal-audio interface
+• Established a recognisable form through the short stem, rounded body, and ear tip
+• Made active noise cancellation and Transparency mode baseline consumer expectations
+• Reduced screen dependence through physical squeeze controls and immediate acoustic feedback
+• Pushed the industry to rethink how headphones regulate a person’s relationship with surroundings`,
+    significance_en: `AirPods Pro matters not only because of how many units it sold, but because it made a complex acoustic system feel instinctive. Good industrial design does not make technology louder; it lets technology step back at the right moment. A user need not understand microphones, algorithms, or chips to find quiet in noise—and to hear the world again when it matters.`,
   },
 ]
