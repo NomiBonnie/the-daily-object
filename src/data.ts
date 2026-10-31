@@ -15293,5 +15293,60 @@ This page uses Apple’s original 2019 AirPods Pro product image. Against a pure
 • Reduced screen dependence through physical squeeze controls and immediate acoustic feedback
 • Pushed the industry to rethink how headphones regulate a person’s relationship with surroundings`,
     significance_en: `AirPods Pro matters not only because of how many units it sold, but because it made a complex acoustic system feel instinctive. Good industrial design does not make technology louder; it lets technology step back at the right moment. A user need not understand microphones, algorithms, or chips to find quiet in noise—and to hear the world again when it matters.`,
+  },,
+  {
+    id: '431',
+    date: '2026-10-31',
+    imageUrl: '/the-daily-object/images/heydar-aliyev-centre.jpg',
+    fullImageUrl: '/the-daily-object/images/full/heydar-aliyev-centre.jpg',
+    title: 'Heydar Aliyev Centre',
+    title_en: 'Heydar Aliyev Centre',
+    subtitle: '扎哈·哈迪德建筑事务所，2012',
+    subtitle_en: 'Zaha Hadid Architects, 2012',
+    category: 'architecture' as const,
+    designer: '扎哈·哈迪德（Zaha Hadid）/ Zaha Hadid Architects',
+    year: '2012',
+    tags: ['重写公共建筑轮廓', '定义流动空间美学', '计算设计建筑地标'],
+    tags_en: ['Redefined Civic Architecture', 'Defined Fluid Spatial Aesthetics', 'A Computational Design Landmark'],
+
+    dateConnection: `1950 年 10 月 31 日，扎哈·哈迪德出生于巴格达。她将绘画中的速度、斜线与失重感带进建筑，并在 2004 年成为首位获得普利兹克建筑奖的女性。巴库的 Heydar Aliyev Centre 是她最广为人知的建成作品之一：它让一座国家文化中心不再像一块纪念碑，而像从地面连续生长出来的白色地景。`,
+    designerBio: `扎哈·哈迪德（1950—2016）成长于伊拉克巴格达，先学数学，后进入伦敦建筑联盟学院。她早期的绘画受俄国前卫艺术与至上主义影响：城市被拆成漂浮、倾斜、相互加速的几何碎片。很长一段时间里，这些作品因过于激进而被视为“无法建造”；她也因此有过“纸上建筑师”的称呼。
+
+但哈迪德从未把形式当作独立的雕塑游戏。她关心的是建筑如何解除直角、楼层与单一中心对身体的约束，如何让人通过坡道、折线、光线和视线连续地移动。她与 Zaha Hadid Architects 将数字建模、结构工程与材料制造结合，完成了 MAXXI、伦敦水上运动中心、广州大剧院等项目；她留下的不是一套可复制的曲线，而是一种重新组织空间和公共生活的方法。`,
+    story: `巴库在苏联时期形成了大量轴线明确、体量庄重的公共建筑。2007 年，ZHA 在竞赛后受委托设计新的文化中心；它面对的不是“做一座好看的地标”这么简单，而是如何让一座承载展览、图书馆、礼堂和国家文化活动的建筑，摆脱命令式纪念碑的姿态。**Heydar Aliyev Centre 的回答是取消“建筑到广场”的边界：地面抬起、折叠、分叉，最后变成屋顶和室内。**
+
+这种连续性看似轻盈，背后却是很硬的工程问题。建筑用混凝土结构与空间桁架共同工作，把大量垂直支撑吸收到外壳与幕墙系统中，才获得大尺度、少柱的公共空间。外层采用玻璃纤维增强混凝土和玻璃纤维增强聚酯；每一道拼缝都不是装饰，而是把自由曲面拆解成可制造、可运输、能应对温度与荷载变化的构件。**它的曲线不是电脑随手画出的姿态，而是材料、结构、施工与视觉节奏共同谈判后的结果。**
+
+从远处看，建筑像被风推起的一张白纸；走近后，坡面把人引向入口、下沉空间与不同高度的公共区域。传统建筑常用门厅、走廊和楼层把功能分开，这里则用一整片可行走的表皮把它们串联。空间不要求访客先理解平面图，而是让身体在行进中逐渐读懂方向、尺度和光线。
+
+它在 2014 年获得 Design Museum 的 Design of the Year，成为首个获该奖的建筑项目。奖项并不意味着它没有争议；宏大的国家文化项目总会牵连城市形象、资金与权力。但作为设计对象，它仍值得被认真观看：它把“流动”从一个漂亮的风格词，变成了广场、外壳、结构、室内与人流之间的具体关系。
+
+本页采用 Heydar Aliyev Centre 建筑本体的 Wikimedia Commons 原始外观照片：画面完整呈现其标志性的白色波浪形屋面、玻璃端墙与下沉式绿地，没有游客、展览或活动作为主体。图片直接对应建筑标题、空间叙事和 architecture 分类。`,
+    legacy: `• 让公共文化建筑从独立物体转为可被行走的城市地景
+• 证明自由曲面可以通过结构、材料与构件逻辑而非装饰实现
+• 将参数化建模从视觉语言推进到大型公共项目的协作工具
+• 以连续坡面和少柱空间改变访客阅读建筑的身体路径
+• 让“流动建筑”成为二十一世纪公共空间最具辨识度的设计议题之一`,
+    significance: `Heydar Aliyev Centre 最有力的地方，不是它像一段凝固的曲线，而是它让建筑停止站在城市面前发号施令。地面、立面、屋顶和室内在这里成为同一个动作。好的建筑当然可以令人惊叹，但更难的是：它要把惊叹变成可被人走进去、停下来、反复使用的公共经验。`,
+
+    dateConnection_en: `Zaha Hadid was born in Baghdad on October 31, 1950. She brought the speed, diagonals, and weightlessness of her paintings into architecture, and in 2004 became the first woman to receive the Pritzker Architecture Prize. Baku’s Heydar Aliyev Centre is among her best-known built works: a national cultural centre that reads not as a monument placed on the ground, but as a white landscape continuously rising from it.`,
+    designerBio_en: `Zaha Hadid (1950–2016) grew up in Baghdad, studied mathematics, then entered London’s Architectural Association. Her early paintings drew on Russian avant-garde and Suprematism: cities became floating, tilted, accelerating fragments. For years these proposals were considered too radical to build, earning her the label of a “paper architect.”
+
+Hadid never treated form as autonomous sculpture. Her work asked how architecture could release the body from right angles, stacked floors, and a single centre—using ramps, folds, light, and sightlines to make movement continuous. With Zaha Hadid Architects, she joined digital modelling, engineering, and fabrication in projects from MAXXI to the London Aquatics Centre. Her legacy is not a repeatable curve, but a way of reorganising space and public life.`,
+    story_en: `Baku inherited many formal, axial public buildings from the Soviet era. When ZHA was appointed after a 2007 competition, the challenge was not merely to make a striking landmark. It was to make a centre for exhibitions, a library, an auditorium, and civic programs without reverting to the posture of a command monument. **The Heydar Aliyev Centre answers by dissolving the border between building and plaza: the ground rises, folds, branches, and becomes roof and interior.**
+
+That continuity looks effortless but depends on hard engineering. Concrete and a space-frame system work together; much vertical support is absorbed into the envelope and curtain wall, allowing large public rooms with few columns. Glass-fibre reinforced concrete and glass-fibre reinforced polyester form the outer skin. Every seam is not decoration but a way to rationalise a free-form surface into components that can be fabricated, transported, assembled, and made resilient to temperature and load. **Its curves are not a computer gesture; they are the negotiated result of material, structure, construction, and visual rhythm.**
+
+From afar, the building resembles a sheet of white paper lifted by wind. Up close, slopes direct visitors toward entrances, sunken spaces, and public rooms at different levels. Where conventional buildings divide programs with lobbies, corridors, and floors, this project uses one walkable surface to bind them. Visitors do not need to decode a plan first; movement gradually explains direction, scale, and light.
+
+The project won the Design Museum’s 2014 Design of the Year, the first architectural project to do so. The award does not erase the debates surrounding large state cultural projects. But as a design object, it remains essential: it turns “fluidity” from a handsome style word into a concrete relationship between plaza, skin, structure, interior, and human movement.
+
+This page uses an original Wikimedia Commons exterior photograph of the Heydar Aliyev Centre. It clearly presents the signature white wave-like roof, glazed end wall, and landscaped foreground, with no visitor, exhibition, or event as its subject. The image directly matches the architectural title, spatial story, and architecture category.`,
+    legacy_en: `• Recast the civic cultural building from an isolated object into a walkable urban landscape
+• Demonstrated that free-form surfaces can emerge from structural, material, and component logic rather than decoration
+• Advanced parametric modelling from visual language to a collaboration tool for large public projects
+• Changed the bodily route through architecture with continuous slopes and large column-free rooms
+• Made fluid architecture one of the most recognisable questions in twenty-first-century public space`,
+    significance_en: `The Heydar Aliyev Centre matters not because it resembles a frozen curve, but because it stops architecture from standing before the city and issuing commands. Ground, façade, roof, and interior become one action. Great architecture can astonish; the harder achievement is to turn astonishment into a public experience people can enter, pause within, and use again.`,
   },
 ]
