@@ -15293,7 +15293,7 @@ This page uses Apple’s original 2019 AirPods Pro product image. Against a pure
 • Reduced screen dependence through physical squeeze controls and immediate acoustic feedback
 • Pushed the industry to rethink how headphones regulate a person’s relationship with surroundings`,
     significance_en: `AirPods Pro matters not only because of how many units it sold, but because it made a complex acoustic system feel instinctive. Good industrial design does not make technology louder; it lets technology step back at the right moment. A user need not understand microphones, algorithms, or chips to find quiet in noise—and to hear the world again when it matters.`,
-  },,
+  },
   {
     id: '431',
     date: '2026-10-31',
