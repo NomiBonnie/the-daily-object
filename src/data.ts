@@ -15349,7 +15349,6 @@ This page uses an original Wikimedia Commons exterior photograph of the Heydar A
 • Made fluid architecture one of the most recognisable questions in twenty-first-century public space`,
     significance_en: `The Heydar Aliyev Centre matters not because it resembles a frozen curve, but because it stops architecture from standing before the city and issuing commands. Ground, façade, roof, and interior become one action. Great architecture can astonish; the harder achievement is to turn astonishment into a public experience people can enter, pause within, and use again.`,
   },
-,
 
   {
     id: '432',
