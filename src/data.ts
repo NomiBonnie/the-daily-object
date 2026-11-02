@@ -15405,4 +15405,61 @@ This page uses an original image of one of Hello Kitty’s first 1975 coin purse
 • Established an extensible model for later Japanese character industries and global IP design`,
     significance_en: `Hello Kitty endures not only because it is cute, but because it is restrained. Shimizu did not overload the character with personality, expression, or backstory. She used minimal visual information to create maximal emotional access. Great graphic design often works the same way: it makes itself recognisable at a glance, then lets each person find a little of their own feeling inside it.`,
   },
+,
+
+  {
+    id: '433',
+    date: '2026-11-02',
+    imageUrl: '/the-daily-object/images/ipad-mini-2012.png',
+    fullImageUrl: '/the-daily-object/images/full/ipad-mini-2012.png',
+    title: 'iPad mini',
+    title_en: 'iPad mini',
+    subtitle: 'Apple 工业设计团队，2012',
+    subtitle_en: 'Apple Industrial Design Team, 2012',
+    category: 'industrial' as const,
+    designer: 'Apple 工业设计团队',
+    year: '2012',
+    tags: ['重写平板握持尺度', '定义紧凑计算体验', '推动移动阅读普及'],
+    tags_en: ['Redefined Tablet Scale', 'Defined Compact Computing', 'Advanced Mobile Reading'],
+
+    dateConnection: `2012 年 11 月 2 日，第一代 iPad mini 的 Wi‑Fi 版本正式开售。十天前，Apple 在加州发布它；这一天，它真正进入书包、通勤和单手阅读的日常。它不是把 iPad 粗暴缩小，而是用 7.9 英寸屏幕、7.2 毫米机身和更窄的边框，重新规定了一台平板该如何被拿住。`,
+    designerBio: `第一代 iPad mini 是 Apple 工业设计、软件、人机交互、显示与制造团队的共同作品。2010 年的 iPad 已经证明触屏平板可以成为一种独立的计算类别，但它仍是一件需要双手、需要桌面或膝盖支撑的物件。团队面对的难题不是把零件塞进更小外壳，而是保留网页、书籍、照片与应用的完整体验，同时让产品接近一本可以随手带走的平装书。
+
+Apple 当时仍由 Jonathan Ive 领导工业设计方向。团队延续了 iPad 的铝合金背壳、黑白玻璃正面、圆角矩形与 Home 键这些已建立的视觉语法，却把比例、重量、边框与手指可达范围重新校准。设计的核心不在于“更小”，而在于把大屏内容和一只手的身体尺度重新接上。`,
+    story: `iPad mini 最聪明的地方，是没有把自己理解成一台缩水的电脑。7.9 英寸屏幕的对角线只比当时 9.7 英寸 iPad 小约五分之一，但显示面积明显收缩；这迫使设计团队把“可读、可点、可握”作为一个整体处理。**它把屏幕边缘收紧到足以用拇指跨过的距离，让一台平板第一次可以像书一样被一只手自然托住。**
+
+这种改变看上去只是几毫米，实际改变了使用场景。大尺寸 iPad 更适合放在桌上观看、输入或展示；iPad mini 则更容易进入站立通勤、床边阅读、会议随手记录和儿童使用。它的 308 克重量与 7.2 毫米厚度不是规格表上的炫耀，而是让“随身携带”从意愿变成习惯的物理条件。产品设计真正处理的，往往不是功能有没有，而是身体是否愿意反复接近它。
+
+**边框也是这件作品的关键。** 第一代 iPad mini 没有后来的全面屏姿态，左右仍需要留出稳定的握持区域；但它避免把边框做成笨重的框架。屏幕、黑色边缘、白色或深色外圈和铝合金背板形成清晰层次：前面是内容窗口，侧面是握持余量，背面是轻薄而坚实的结构。这种克制让机器在关屏时仍像一件完成度很高的物体，而不是一块为了容纳屏幕而存在的板材。
+
+它也暴露了紧凑设计的取舍。初代沿用较低分辨率显示，文字精细度不及同年高分辨率 iPad；但 Apple 没有把这一代定义为廉价替代品，而是用与 iPad 一致的应用生态和完整浏览体验，建立了一个新的使用尺度。后来的 iPad mini 不断升级芯片、屏幕与手写笔能力，轮廓却始终回到这个原始判断：有些计算不该占据一张桌子，恰好能被一只手带走，反而更有力量。
+
+本页使用第一代 iPad mini 的正面产品原图：完整呈现其白色边框、前置摄像头、Home 键与 7.9 英寸屏幕比例。它是作品本身的孤立产品视觉，不是用户生活照、展览照或氛围图，与标题、故事和 industrial 分类精确对应。`,
+    legacy: `• 将“单手可握”的身体尺度带入主流平板产品设计
+• 证明紧凑尺寸并不等于阉割体验，而是一种独立使用场景
+• 以窄边框、轻薄机身与完整应用生态重塑移动阅读习惯
+• 让尺寸、重量和拇指可达范围成为消费电子体验的核心变量
+• 为此后小尺寸平板与大屏手机的产品边界提供了重要参照`,
+    significance: `第一代 iPad mini 的价值，在于它把一条常被忽略的设计原则说得很清楚：尺寸不是参数，而是行为。屏幕缩小一点，产品就可能从“带着走”变成“随手拿起”；重量减轻一点，阅读、记录和观看就会进入更多零碎时刻。好的工业设计不只是在外观上变小，它要让人与物之间的距离真的变短。`,
+
+    dateConnection_en: `On November 2, 2012, the Wi‑Fi version of the first iPad mini went on sale. Apple had unveiled it in California ten days earlier; on this date it entered backpacks, commutes, and one-handed reading. Rather than crudely shrinking the iPad, it used a 7.9-inch display, a 7.2 mm body, and narrower bezels to redefine how a tablet should be held.`,
+    designerBio_en: `The first iPad mini was a collective work of Apple’s industrial design, software, human-interface, display, and manufacturing teams. The 2010 iPad had proved that a touch tablet could be a distinct computing category, but it was still an object usually requiring two hands, a desk, or a lap. The challenge was not simply to put components into a smaller enclosure; it was to retain a full experience of web pages, books, photos, and apps while making the object as easy to carry as a paperback.
+
+With Jonathan Ive leading Apple’s industrial-design direction, the team retained the iPad’s aluminium back, glass front, rounded rectangle, and Home button, then recalibrated proportion, mass, bezel, and reach. The point was not “smaller.” It was to reconnect large-screen content with the bodily scale of one hand.`,
+    story_en: `The iPad mini’s most intelligent move was refusing to think of itself as a shrunken computer. Its 7.9-inch display was only about one fifth smaller diagonally than the contemporary 9.7-inch iPad, while its display area contracted much more. That forced the team to resolve reading, tapping, and holding as one system. **It pulled the screen edges close enough for a thumb to cross, making a tablet feel naturally supportable in one hand, like a book.**
+
+The apparent millimetres changed real contexts. A larger iPad suited a table, a lap, viewing, input, and presentation; the mini more easily entered standing commutes, bedside reading, quick meeting notes, and children’s hands. Its 308-gram mass and 7.2 mm depth were not specification-sheet theatre. They made carrying something every day a habit rather than an intention. Product design often concerns not whether a feature exists, but whether a body wants to return to it.
+
+**Its bezel was equally important.** The first mini did not have today’s all-screen posture: the sides still had to offer a stable grip. Yet the bezel never became a bulky frame. Screen, black inner edge, white or dark outer face, and aluminium back make a clear hierarchy—content window in front, gripping allowance at the sides, a thin but solid structure behind. That restraint made it feel complete even when the screen was off, not like a slab built merely to contain a display.
+
+The compact design also exposed a trade-off. The first generation retained a lower-resolution display, less sharp for text than the contemporary Retina iPad. But Apple did not present it as a crippled substitute. A matching app ecosystem and full browsing experience established a new scale of use. Later iPad minis evolved their chips, displays, and pencil support, yet their silhouette returned to the original judgement: some computing becomes more powerful when it does not demand a desk, but can leave with one hand.
+
+This page uses an isolated front product image of the first iPad mini. It clearly presents the white bezel, front camera, Home button, and 7.9-inch screen proportion. It is the object itself—not a lifestyle, exhibition, or atmosphere image—and precisely matches the title, story, and industrial category.`,
+    legacy_en: `• Brought the bodily scale of one-handed holding into mainstream tablet design
+• Proved that compact dimensions can define an independent use case rather than a compromised experience
+• Reshaped mobile reading through narrow bezels, low mass, and a complete app ecosystem
+• Made size, weight, and thumb reach central variables in consumer-electronics experience
+• Provided a key reference for later small tablets and the boundary between tablets and large phones`,
+    significance_en: `The first iPad mini matters because it states a frequently overlooked design principle with unusual clarity: size is not a parameter; it is behaviour. Make a screen a little smaller and a product can move from “something you carry” to “something you pick up.” Reduce its weight and reading, noting, and watching enter more fragments of a day. Great industrial design does not merely become smaller in appearance. It makes the distance between a person and an object genuinely shorter.`,
+  },
 ]
