@@ -15405,7 +15405,6 @@ This page uses an original image of one of Hello Kitty’s first 1975 coin purse
 • Established an extensible model for later Japanese character industries and global IP design`,
     significance_en: `Hello Kitty endures not only because it is cute, but because it is restrained. Shimizu did not overload the character with personality, expression, or backstory. She used minimal visual information to create maximal emotional access. Great graphic design often works the same way: it makes itself recognisable at a glance, then lets each person find a little of their own feeling inside it.`,
   },
-,
 
   {
     id: '433',
