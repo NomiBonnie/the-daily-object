@@ -15461,4 +15461,59 @@ This page uses an isolated front product image of the first iPad mini. It clearl
 • Provided a key reference for later small tablets and the boundary between tablets and large phones`,
     significance_en: `The first iPad mini matters because it states a frequently overlooked design principle with unusual clarity: size is not a parameter; it is behaviour. Make a screen a little smaller and a product can move from “something you carry” to “something you pick up.” Reduce its weight and reading, noting, and watching enter more fragments of a day. Great industrial design does not merely become smaller in appearance. It makes the distance between a person and an object genuinely shorter.`,
   },
+  {
+    id: '434',
+    date: '2026-11-03',
+    imageUrl: '/the-daily-object/images/one-world-trade-center-2014.jpg',
+    fullImageUrl: '/the-daily-object/images/full/one-world-trade-center-2014.jpg',
+    title: 'One World Trade Center',
+    title_en: 'One World Trade Center',
+    subtitle: 'David Childs / SOM，2014',
+    subtitle_en: 'David Childs / SOM, 2014',
+    category: 'architecture' as const,
+    designer: 'David Childs / Skidmore, Owings & Merrill（SOM）',
+    year: '2014',
+    tags: ['重塑城市天际线', '以高度回应历史', '复兴摩天楼美学'],
+    tags_en: ['Reshaped the Skyline', 'Made Height a Historical Reply', 'Renewed Skyscraper Aesthetics'],
+
+    dateConnection: `2014 年 11 月 3 日，One World Trade Center 正式开门办公，首位租户 Condé Nast 迁入。这座 541 米高的塔楼由此不再只是工地围挡后的城市轮廓，而成为重建后的世贸中心真正投入使用的核心建筑。`,
+    designerBio: `David Childs 是美国建筑师，也是 Skidmore, Owings & Merrill（SOM）的长期设计合伙人。他的职业生涯横跨纽约、华盛顿与全球商业建筑：他既熟悉高密度城市中塔楼的技术秩序，也关心建筑如何在公共记忆与日常使用之间取得分寸。One World Trade Center 并非由一位作者独力完成；它凝聚了 SOM、工程师、幕墙顾问、港务局与无数施工团队的协作。但 Childs 主导的建筑表达，为这项漫长、复杂且高度公共化的重建工程确立了最终的形象。
+
+世贸中心重建面对的难题远超“再建一座最高楼”。塔楼必须成为可出租、可维护的办公建筑，也必须回应原址的创伤、纽约的天际线和严格的安全要求。SOM 没有把它做成原双塔的复制品，而是选择一种更克制的姿态：清晰、挺拔、能从远处识别，却让象征性埋在比例、光线和结构里。`,
+    story: `One World Trade Center 的高度是 1,776 英尺，直接对应美国《独立宣言》签署的年份。这个数字很容易被当作纪念碑式的口号，但设计真正值得看的是它如何避免只剩口号。塔楼从坚实的方形基座向上切削，八个修长的等腰三角面逐步旋转，到了中段又回到正方形。**它不是一根简单拔起的玻璃柱，而是一种在上升中不断改变表情的几何体。**
+
+这种形体既服务视觉，也服务城市尺度。低区的基座必须应对复杂的安保与交通条件，因此采用坚固、抽象的表皮；中上段则用大面积玻璃幕墙把天空、云层和周边城市反射进立面。白天，建筑的边缘随着光线变得清楚或消失；夜晚，顶部的尖塔重新划出纽约下城的方向。设计没有试图抹去地点的历史，而是把“继续向上生长”变成一种可被每天看见的城市动作。
+
+**幕墙的克制尤其重要。** SOM 使用约 1.5 米宽、贯通层高的隔热玻璃板，减少中间竖梃，让立面看起来更接近一整片连续的光，而不是被小格子切碎的办公楼皮肤。近看时，玻璃反射出街区与天气；远看时，塔身通过细微的折面捕捉不同方向的天空。这是一座巨大建筑，却努力让自己的重量被光线削弱。
+
+它当然不是没有争议的建筑：重建过程漫长，安全、经济与象征意义始终彼此拉扯。但正因如此，One World Trade Center 才值得作为设计对象而非单纯地标来观看。它将纪念性、办公效率、工程限制和城市图像压进同一副轮廓中。好的摩天楼不是只比谁更高；它要在远处给城市一个方向，在近处仍能成为人们每天进入、工作、离开的真实场所。
+
+本页采用 2014 年拍摄的 One World Trade Center 建筑原图：完整呈现其单体塔身、折面玻璃立面与尖塔，画面没有游客、展览或氛围元素作为主体。这张专业建筑照片与标题、空间叙事和 architecture 分类严格对应。`,
+    legacy: `• 用 1,776 英尺的高度把国家叙事转化为可见的城市比例
+• 以旋转的八面几何重塑玻璃摩天楼的单一盒子形象
+• 让高安保基座与明亮连续的上部幕墙形成可读的功能层次
+• 为创伤后重建提供了不复制过去、也不回避记忆的建筑范式
+• 重新确立下曼哈顿天际线的方向感与视觉重心`,
+    significance: `One World Trade Center 的设计力量，在于它没有用怀旧解决记忆，也没有用夸张逃避记忆。它把一座办公楼必须面对的现实条件做成了建筑语言：安全、结构、租户、光线、城市远景和历史重量同时存在。它提醒我们，建筑最有分量的象征性，往往不是写在表面上的，而是藏在一座建筑如何站立、反光并被人使用的方式里。`,
+
+    dateConnection_en: `On November 3, 2014, One World Trade Center officially opened for business as its first tenant, Condé Nast, moved in. At 541 metres, the tower ceased to be a silhouette behind construction fencing and became the working core of the rebuilt World Trade Center.`,
+    designerBio_en: `David Childs is an American architect and longtime design partner at Skidmore, Owings & Merrill (SOM). His work spans New York, Washington, and commercial architecture worldwide. One World Trade Center was not authored by one person: it required SOM, engineers, façade consultants, the Port Authority, and enormous construction teams. But Childs’s direction gave a final architectural expression to a reconstruction project that was long, technically complex, and intensely public.
+
+The task was never simply to rebuild the tallest tower. It had to work as leasable, maintainable office space while answering the site’s trauma, New York’s skyline, and stringent security demands. SOM did not reproduce the Twin Towers. It made a more restrained proposition: lucid, vertical, recognisable at distance, with its symbolism embedded in proportion, light, and structure.`,
+    story_en: `One World Trade Center rises 1,776 feet, a direct reference to the year of the American Declaration of Independence. That number is easy to reduce to a commemorative slogan. The more compelling design question is how the building avoids becoming only that. From a solid square base, eight tall isosceles triangular faces taper and rotate upward, returning to a square at mid-height. **It is not a glass shaft simply pulled skyward, but a geometry that changes expression as it rises.**
+
+The form works visually and urbanistically. The lower base answers difficult security and circulation demands through a strong, abstract surface; higher up, broad glass curtain walls draw sky, cloud, and city into the façade. In daylight its edges sharpen or dissolve with changing light. At night, the spire redraws a direction for Lower Manhattan. Rather than erase the site’s history, the building makes continued upward growth a daily civic gesture.
+
+**Its restraint in the curtain wall is crucial.** SOM used insulated glass panels about five feet wide and full storey high, reducing intermediate mullions so the façade reads more like a continuous field of light than a grid-fragmented office skin. At close range it reflects street and weather; at distance, its subtle facets catch different parts of the sky. It is an enormous building that lets light work to diminish its apparent mass.
+
+The building remains contested: its reconstruction was prolonged, and security, economics, and symbolism continually pulled against each other. That is precisely why it matters as a design object rather than merely a landmark. It compresses commemoration, office performance, engineering constraints, and civic image into one outline. A great skyscraper does more than compete for height: from afar it gives a city orientation, and at ground level it still becomes a place people enter, work in, and leave every day.
+
+This page uses a 2014 original photograph of One World Trade Center. It clearly presents the single tower, faceted glass façade, and spire, without visitors, exhibitions, or lifestyle framing. The professional architectural image strictly matches the title, spatial story, and architecture category.`,
+    legacy_en: `• Turned 1,776 feet into a visible civic proportion rather than a superficial gesture
+• Reworked the single-box glass tower through rotating octagonal geometry
+• Made security, base, and luminous upper curtain wall a legible functional hierarchy
+• Offered a post-trauma rebuilding model that neither duplicates the past nor evades memory
+• Re-established direction and visual focus in the Lower Manhattan skyline`,
+    significance_en: `One World Trade Center is powerful because it neither uses nostalgia to resolve memory nor spectacle to avoid it. It turns the actual conditions of an office tower—security, structure, tenants, daylight, city views, and historical weight—into architectural language. Its lesson is that the strongest symbolism in architecture is often not written on a surface; it resides in how a building stands, reflects, and is used.`,
+  },
 ]
