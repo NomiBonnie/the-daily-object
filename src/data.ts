@@ -15516,4 +15516,55 @@ This page uses a 2014 original photograph of One World Trade Center. It clearly 
 • Re-established direction and visual focus in the Lower Manhattan skyline`,
     significance_en: `One World Trade Center is powerful because it neither uses nostalgia to resolve memory nor spectacle to avoid it. It turns the actual conditions of an office tower—security, structure, tenants, daylight, city views, and historical weight—into architectural language. Its lesson is that the strongest symbolism in architecture is often not written on a surface; it resides in how a building stands, reflects, and is used.`,
   },
+  {
+    id: '435',
+    date: '2026-11-04',
+    imageUrl: '/the-daily-object/images/the-man-who-sold-the-world-us-1970.jpg',
+    fullImageUrl: '/the-daily-object/images/full/the-man-who-sold-the-world-us-1970.jpg',
+    title: 'The Man Who Sold the World',
+    title_en: 'The Man Who Sold the World',
+    subtitle: 'Michael J. Weller / David Bowie, 1970',
+    subtitle_en: 'Michael J. Weller / David Bowie, 1970',
+    category: 'music' as const,
+    designer: 'Michael J. Weller',
+    year: '1970',
+    tags: ['重写摇滚视觉身份', '预告性别表达解放', '开启鲍伊经典时期'],
+    tags_en: ['Rewrote Rock Identity', 'Anticipated Gender Freedom', 'Opened Bowie’s Classic Era'],
+
+    dateConnection: `1970 年 11 月 4 日，David Bowie 的第三张录音室专辑《The Man Who Sold the World》在美国由 Mercury Records 正式发行。它比英国发行早五个月到来；这张美国首版的插画封套，也因此是今天最精确的设计对象。`,
+    designerBio: `Michael J. Weller 是英国地下漫画艺术家、政治写作者与插画家，也是唱片封套设计师。1970 年，Bowie 的朋友 Weller 为《The Man Who Sold the World》画出美国版封套：一位持枪的牛仔站在阴森建筑前，像从廉价西部片、哥特小说与地下漫画里拼接出来的角色。它不是后来最为人熟知的“裙装 Bowie”照片，却是这张专辑最初抵达市场时真正的视觉入口。
+
+Weller 的图像语言带着手绘线条的粗粝和反主流印刷物的直接性。它没有把摇滚明星修饰成遥不可及的偶像，而是留下一个有些滑稽、又不安的漫画人物。那种不稳定感，恰好与唱片里关于疯狂、宗教、战争、技术与身份分裂的歌词形成呼应。`,
+    story: `1970 年的 Bowie 还不是后来那个闪电脸的全球符号。《The Man Who Sold the World》是一次声音和形象的急转弯：此前《Space Oddity》的民谣气质被更重的吉他、贝斯、鼓和早期 Moog 合成器替代；Mick Ronson 与 Mick Woodmansey 首次出现在 Bowie 的唱片上，之后会成为 Spiders from Mars 的核心成员。**这张唱片不是成熟神话的回顾，而是一个新角色体系刚刚开始长出骨架的现场。**
+
+封面把这种转向画得很具体。Weller 参考 Cane Hill Hospital 的意象，画面中红衣牛仔、旧式建筑和飞散的帽子碎片并置。枪指向画面边缘，像一段没有交代结局的叙事；夸张的轮廓、偏冷的蓝绿背景和不成比例的姿态，则让它更像心理剧而非英雄海报。**它拒绝给听者一个稳定、漂亮、可消费的明星面孔，反而把专辑的陌生感先一步塞进眼睛。**
+
+这也是唱片包装如何参与音乐意义的好例子。美国首版没有采用后来著名的 Keith MacMillan 摄影；1971 年英国版才出现 Bowie 身穿 Michael Fish 设计男装裙、斜躺在 Haddon Hall 的封面。后者当然更大胆，也更预言性地挑战了性别规范，但它并非 11 月 4 日的发行版本。今天选用 Weller 的美国原版，不是为了避开更漂亮的图，而是因为**日期、版本与图像必须是同一件事。**
+
+后来 Bowie 的 Ziggy Stardust、Aladdin Sane 与 Thin White Duke 都成为流行文化的视觉坐标；回看这张略显粗粝的封面，能看到一种重要的前史：身份可以被设计、被表演、也可以被推翻。它没有替 Bowie 定义一个永久形象，却给了他不断变形的许可。页面采用的正是 1970 年美国首版封套原图，完整展示 Weller 的红衣牛仔、建筑与标题字样；它是作品本身，不是演出照、展览照或氛围图，与标题、故事和 music 分类严格一致。`,
+    legacy: `• 用插画叙事取代明星肖像，扩大摇滚封套的角色空间
+• 将不安、碎裂与荒诞转化为可见的音乐前导
+• 为 Bowie 此后不断自我重塑的视觉策略打开序幕
+• 证明不同地区版本可以让同一张唱片拥有不同文化入口
+• 留下“发行版本必须与视觉版本对应”的唱片设计范本`,
+    significance: `《The Man Who Sold the World》的美国封套并不完美得像一张海报，这正是它有力量的地方。它在 Bowie 成为品牌之前，先把他呈现成一个可疑、可变、尚未定型的人物。好的封面设计不是替内容贴标签；它能在音乐开始之前，就让听者进入作品自己的心理气候。`,
+
+    dateConnection_en: `On 4 November 1970, David Bowie’s third studio album, The Man Who Sold the World, was released in the United States by Mercury Records. It arrived five months before the UK edition, making its illustrated American sleeve the most exact design object for this date.`,
+    designerBio_en: `Michael J. Weller is a British underground-comics artist, political writer, illustrator, and record-sleeve designer. In 1970, Bowie’s friend Weller created the American cover for The Man Who Sold the World: a gun-carrying cowboy before an ominous building, assembled from the visual language of B-movie Westerns, Gothic fiction, and underground comics. It is not the later, famous photograph of Bowie in a dress, but it was the visual gateway through which the album first reached the market.
+
+Weller’s language is rough, direct, and resolutely hand-drawn. Rather than polish a rock star into an untouchable idol, it leaves us with a figure who is both comic and unsettling. That instability mirrors the album’s concerns with madness, religion, war, technology, and fractured identity.`,
+    story_en: `In 1970, Bowie was not yet the global lightning-bolt icon. The Man Who Sold the World was a sharp turn in sound and image: the folk character of Space Oddity gave way to heavier guitar, bass, drums, and early Moog synthesis. Mick Ronson and Mick Woodmansey made their first appearances on a Bowie record, before becoming central to the Spiders from Mars. **This is not a retrospective of a finished myth; it is the moment a new system of characters starts to grow its skeleton.**
+
+Weller made that turn visible. Drawing on the idea of Cane Hill Hospital, he placed a red-coated cowboy, an old building, and fragments of a flying hat in one image. The gun points beyond the frame like a story without an ending; exaggerated outlines, cold blue-green ground, and unstable proportions make it a psychological scene rather than a heroic poster. **It refuses to offer a stable, beautiful, consumable celebrity face, placing the album’s strangeness in the eye before the music begins.**
+
+It is also a lesson in how packaging participates in musical meaning. The American first issue did not use the celebrated Keith MacMillan photograph. The 1971 UK edition introduced Bowie reclining at Haddon Hall in a Michael Fish “man’s dress”—a bolder, more prophetic challenge to gender convention, but not the version released on 4 November. This page uses Weller’s American original because **date, edition, and image must describe the same object.**
+
+Ziggy Stardust, Aladdin Sane, and the Thin White Duke would later become cultural visual coordinates. This rougher sleeve reveals an essential prehistory: identity can be designed, performed, and overturned. It did not define a permanent Bowie image; it gave him permission to keep changing. The page uses the original 1970 US sleeve itself, clearly showing Weller’s red-coated cowboy, building, and title lettering—not a concert, exhibition, or lifestyle photograph—and precisely matches the title, story, and music category.`,
+    legacy_en: `• Replaced star portraiture with illustration-driven narrative in a rock sleeve
+• Turned unease, fracture, and absurdity into a visual prelude to sound
+• Opened the visual strategy of Bowie’s continuing self-reinvention
+• Showed how territorial editions can give one album distinct cultural entrances
+• Offers a lasting lesson: release version and visual version must correspond`,
+    significance_en: `The American sleeve of The Man Who Sold the World is not poster-perfect, and that is its strength. Before Bowie became a brand, it presents him as suspicious, mutable, and unresolved. Great cover design does not merely label content; it lets a listener enter a work’s psychological climate before the first note.`,
+  },
 ]
