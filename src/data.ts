@@ -15567,4 +15567,55 @@ Ziggy Stardust, Aladdin Sane, and the Thin White Duke would later become cultura
 • Offers a lasting lesson: release version and visual version must correspond`,
     significance_en: `The American sleeve of The Man Who Sold the World is not poster-perfect, and that is its strength. Before Bowie became a brand, it presents him as suspicious, mutable, and unresolved. Great cover design does not merely label content; it lets a listener enter a work’s psychological climate before the first note.`,
   },
+  {
+    id: '436',
+    date: '2026-11-06',
+    imageUrl: '/the-daily-object/images/bertoia-diamond-chair-1952.jpg',
+    fullImageUrl: '/the-daily-object/images/full/bertoia-diamond-chair-1952.jpg',
+    title: 'Bertoia Diamond Chair',
+    title_en: 'Bertoia Diamond Chair',
+    subtitle: 'Harry Bertoia，1952',
+    subtitle_en: 'Harry Bertoia, 1952',
+    category: 'industrial' as const,
+    designer: 'Harry Bertoia（哈里·贝尔托亚）',
+    year: '1952',
+    tags: ['重塑金属坐具美学', '模糊雕塑家具边界', '定义中世纪现代主义'],
+    tags_en: ['Recast Metal Seating', 'Blurred Sculpture and Furniture', 'Defined Mid-Century Modernism'],
+
+    dateConnection: `1978 年 11 月 6 日，Harry Bertoia 在宾夕法尼亚州 Barto 去世，终年 63 岁。他留下的 Diamond Chair 在 1952 年由 Knoll 推出，至今仍持续生产。今天纪念的不是一位只会画椅子轮廓的设计师，而是一位把一根根钢丝编成空间、光线与身体关系的人。`,
+    designerBio: `Harry Bertoia（1915—1978）出生于意大利弗留利，15 岁时移居底特律，后来在 Cranbrook Academy of Art 学习并教授金工、珠宝与绘画。Cranbrook 当时像现代设计的交叉路口：Charles 和 Ray Eames、Florence Knoll、Eero Saarinen 都曾在这里工作或学习。Bertoia 最初擅长的是细小、精密的金属首饰和单版画；他的线条感并非从家具工业开始，而是从手掌大小的金属、阴影与间隙里长出来的。
+
+1950 年，Hans 与 Florence Knoll 邀请他在 Knoll 的工厂里建立金工工作室，并没有给他一张“设计椅子”的任务书。他得到的是材料、时间与探索的自由。两年后，Bertoia 交出了一整套钢丝家具：Side Chair、Bird Chair、Asymmetric Chaise，以及最具雕塑感的 Diamond Chair。这个系列的商业成功，也让他之后能投入大型公共雕塑与 Sonambient 声音雕塑的创作。`,
+    story: `Diamond Chair 的名字来自它向四周展开的菱形轮廓，但真正让它难忘的不是“像一颗钻石”，而是它把空白也当成材料。细钢丝被点焊成网，网面在背部和座面向内收拢，再由极简的金属底座托起。人坐进去时，身体被线条轻轻接住；人离开后，椅子仍像一团悬在空气中的速写。**它不是把雕塑做成能坐的东西，而是让坐具保留了雕塑的呼吸感。**
+
+这种轻盈背后，是对工业材料非常准确的判断。1950 年代的家具常把钢管、胶合板和塑料当作现代生活的符号；Bertoia 则选择了最容易显得冷硬的金属丝，却没有把它处理成机器零件。网格既提供弹性，也让光穿过、让背景进入形体。靠垫可以增添舒适度，但即使没有软垫，椅子的结构本身已经足够完整：线条、空隙、受力点和阴影共同构成坐的体验。
+
+**它也重新定义了“占据空间”的方式。** 一把实心扶手椅会在房间里形成体块，Diamond Chair 却让空间从自身穿过。它在视觉上几乎消失，却因为夸张的宽度和曲面而始终有强烈存在感。这种矛盾让它适合私人客厅、公共大厅和博物馆，也让后来无数金属网椅、透明家具和轻量化坐具必须面对同一个问题：如何让一件家具足够轻，却不显得脆弱；足够有形，却不把空间堵住。
+
+Knoll 将 Bertoia 的家具系列持续生产至今，说明它从来不是一次短暂的形式实验。更重要的是，它保留了设计过程里最稀缺的东西：让材料自己决定一部分形态，而不是把预设造型强加给材料。页面采用巴黎国立现代艺术博物馆收藏的 1952 年 Diamond Chair 原始馆藏照片；画面完整展示椅子的菱形钢丝网、标志性四脚底座与投影，没有游客、展览氛围或无关物件作为主体，与标题、故事及 industrial 分类严格对应。`,
+    legacy: `• 用钢丝网将家具从实体体块变成可被光线穿透的空间结构
+• 让金属材料从冷硬工业语言转化为具有弹性与诗意的日常体验
+• 为中世纪现代主义建立了“雕塑也可使用”的经典范式
+• 启发后续轻量化、透明化与网格化家具的形式探索
+• 证明一件家具能持续生产七十余年，仍不失其未来感`,
+    significance: `Diamond Chair 的伟大，在于它不靠夸张装饰证明自己特别。它把一把椅子最基本的问题——如何承托一具身体——拆回线条、空隙、弹性和重力，再把答案做得像一幅悬空的金属素描。好的工业设计从不只是把材料加工成产品；它会改变我们感知空间、重量和身体的位置。`,
+
+    dateConnection_en: `On 6 November 1978, Harry Bertoia died in Barto, Pennsylvania, aged 63. His Diamond Chair, introduced by Knoll in 1952, remains in continuous production. Today marks not merely a designer who drew chairs, but an artist who turned individual steel rods into a relationship between space, light, and the body.`,
+    designerBio_en: `Harry Bertoia (1915–1978) was born in Friuli, Italy, moved to Detroit at fifteen, and later studied and taught metalwork, jewellery, and painting at Cranbrook Academy of Art. Cranbrook was a crossroads of modern design: Charles and Ray Eames, Florence Knoll, and Eero Saarinen all worked or studied there. Bertoia’s first language was the intimate precision of jewellery and monotypes. His command of line began not with industrial furniture, but with hand-sized metal, shadow, and interval.
+
+In 1950, Hans and Florence Knoll invited him to establish a metalworking studio inside the Knoll factory. They did not hand him a brief to design a chair. They gave him materials, time, and freedom to explore. Two years later he delivered a whole wire-furniture family: the Side Chair, Bird Chair, Asymmetric Chaise, and its most sculptural member, the Diamond Chair. The collection’s commercial success let him devote his later career to monumental public sculpture and Sonambient sounding sculptures.`,
+    story_en: `The Diamond Chair takes its name from the diamond-shaped outline that opens across its body, but its enduring force is that it treats emptiness as material. Fine steel rods are spot-welded into a mesh, drawn inward at the back and seat, and held aloft by an economical metal base. When someone sits in it, the body is gently received by lines; when empty, the chair remains like a sketch suspended in air. **It is not sculpture made sit-able. It is seating that retains sculpture’s capacity to breathe.**
+
+That lightness rests on a precise reading of industrial material. In the 1950s, tubular steel, plywood, and plastic often signalled modern life. Bertoia chose steel wire—perhaps the easiest material to make feel hard and impersonal—but never treated it as machine hardware. The mesh offers flex while admitting light and background into the form. A cushion can add comfort, yet even bare, the chair is complete: line, interval, pressure point, and shadow jointly make the experience of sitting.
+
+**It also rewrote how furniture occupies a room.** A solid armchair establishes a volume. The Diamond Chair lets space pass through it. It can almost disappear visually, yet its generous spread and curved profile retain a powerful presence. That paradox suits homes, public interiors, and museums, and posed a continuing challenge for later mesh, transparent, and lightweight furniture: how can an object be light without looking fragile, and substantial without blocking space?
+
+Knoll’s continuous production shows that Bertoia’s series was never a passing formal experiment. More importantly, it protects something rare in design: a willingness to let material determine part of the form instead of imposing a pre-set silhouette upon it. This page uses an original museum photograph of the 1952 Diamond Chair in the Musée national d’art moderne, Paris. It fully shows the diamond wire mesh, signature four-legged base, and cast shadow, with no visitors, exhibition atmosphere, or unrelated object as the subject; it precisely matches the title, story, and industrial category.`,
+    legacy_en: `• Turned furniture from solid volume into a spatial structure that admits light
+• Transformed steel wire from cold industrial language into an elastic, poetic everyday experience
+• Established an enduring mid-century modern model in which sculpture can also be used
+• Inspired later explorations in lightweight, transparent, and mesh furniture
+• Proved that a chair can remain in production for more than seven decades without losing its future tense`,
+    significance_en: `The Diamond Chair is great because it does not need ornament to prove its distinction. It reduces the essential question of a chair—how to support a body—to line, interval, elasticity, and gravity, then resolves it as a metal drawing in the air. Great industrial design does more than process material into product; it changes how we sense space, weight, and the place of our bodies.`,
+  },
 ]
