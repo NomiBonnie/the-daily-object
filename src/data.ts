@@ -15672,4 +15672,60 @@ Knoll’s continuous production shows that Bertoia’s series was never a passin
     significance_en: `MASP never needs to announce its public ambition. It builds it through one precise structural decision: not filling the ground. Lina Bo Bardi made a museum that can safeguard art while leaving the city its sky, view, and place for people. Architecture at its most consequential does more than provide rooms; it redistributes who can pause, see, and meet in a city.`,
   },
 
+
+  {
+    id: '439',
+    date: '2026-11-09',
+    imageUrl: '/the-daily-object/images/my-god-help-me-survive-deadly-love-1990.jpg',
+    fullImageUrl: '/the-daily-object/images/full/my-god-help-me-survive-deadly-love-1990.jpg',
+    title: 'My God, Help Me to Survive This Deadly Love',
+    title_en: 'My God, Help Me to Survive This Deadly Love',
+    subtitle: 'Dmitri Vrubel，1990',
+    subtitle_en: 'Dmitri Vrubel, 1990',
+    category: 'graphic' as const,
+    designer: 'Dmitri Vrubel（德米特里·弗鲁贝尔）',
+    year: '1990',
+    tags: ['重写政治图像记忆', '把围墙变成画布', '定义冷战终局视觉'],
+    tags_en: ['Rewrote Political Memory', 'Turned a Wall into Canvas', 'Defined Cold War’s End'],
+
+    dateConnection: `1989 年 11 月 9 日，柏林墙的边境管制被宣布开放。隔年，Dmitri Vrubel 在墙体东侧画下《My God, Help Me to Survive This Deadly Love》：这幅作品没有制造“墙倒了”的浪漫插图，而是把旧秩序最亲密、也最令人窒息的一幕重新放到墙上。`,
+    designerBio: `Dmitri Vrubel（1960—2022）是出生于莫斯科的艺术家，成长于苏联末期的非官方艺术环境。他的创作长期关心权力、政治语言和历史如何进入人的身体与日常视野。1989 年柏林墙开放后，原本被严格控制的东侧墙面迅速成为一个罕见的公共画布：来自多个国家的艺术家受邀在这段仍留在原地的边界上创作，后来形成 East Side Gallery。
+
+Vrubel 在 1990 年选择的不是抽象的自由符号，而是一张人人都能读懂、又不愿久看的新闻图像。1979 年，苏联领导人 Leonid Brezhnev 与东德领导人 Erich Honecker 在东德建国三十周年庆典上行“社会主义兄弟之吻”。十年后，Vrubel 将这个外交仪式放大到墙体尺度，并加上俄文与德文标题。2009 年墙面修复时，他亲自重绘了作品。`,
+    story: `这幅壁画的力量，来自一种极其准确的“再框定”。原始照片里的吻，本来是两个政权盟友展示团结的礼节；Vrubel 没有改变核心动作，却把它放回柏林墙上，令原先象征亲密的姿态突然带上了控制、依附和窒息的意味。**同一张脸、同一个吻，换了介质和场所，政治意义就被完全翻转。**
+
+画面并不靠复杂构图取胜。两张脸占满大部分墙面，皮肤的皱褶、眼镜、发丝与嘴唇被近距离放大；上方和下方的俄德双语标题像一道咒语，几乎把人物夹在中间。它让观看者无法舒服地退到“历史已经结束”的安全距离。你看到的是一场发生在两位领导人之间的仪式，也是一个体制如何要求个体接受它的亲密姿态。
+
+**材质是这件作品不可替代的一部分。** 如果它被印在美术馆里的白墙或书页上，仍会是一张尖锐的图像；但它被画在真实的边境墙体上，裂纹、风化和粗糙的混凝土都会参与意义生成。墙曾用于隔绝人，如今却成为公开表达的表面。作品没有抹平原物的暴力历史，而是借用那块表面，让它说出曾经不能说的话。
+
+这也解释了为什么它会成为 East Side Gallery 最被辨认的图像之一。它没有把冷战结束简化成一个庆祝口号，而是保留了转折时刻的复杂性：解放与创伤、欢呼与不安、历史的落幕与记忆的继续同时存在。**好的公共视觉设计不是把立场喊得最大声，而是找到一个足够准确的图像，让人无法轻易把问题忘掉。**
+
+页面使用的是这幅壁画本体的正面完整图像：清晰呈现 Brezhnev、Honecker、俄德双语标题及墙体肌理，没有游客、打卡姿态、展览环境或水印喧宾夺主。图像、标题、叙事与 graphic 分类严格对应。`,
+    legacy: `• 将“社会主义兄弟之吻”从官方礼仪翻译成对权力依附的视觉批评
+• 证明地点与介质可以彻底改写一张既有新闻图像的意义
+• 让柏林墙从隔绝工具转变为全球公共记忆的开放画布
+• 建立冷战终局最具国际辨识度的视觉符号之一
+• 为公共艺术提供“历史材料本身就是媒介”的经典范式`,
+    significance: `《My God, Help Me to Survive This Deadly Love》不是一张关于柏林的纪念照，而是一套极少元素构成的视觉论证：两个人、一堵墙、两行字。它提醒我们，图像设计真正的锋利，不在于添加多少象征，而在于能否把一个早已被看过的姿态，放进正确的语境里，让人重新意识到它究竟意味着什么。`,
+
+    dateConnection_en: `On 9 November 1989, the Berlin Wall’s border controls were announced open. The following year, Dmitri Vrubel painted My God, Help Me to Survive This Deadly Love on its eastern side. Rather than offering a sentimental illustration of a wall coming down, the work placed one of the old order’s most intimate—and suffocating—images back onto the wall itself.`,
+    designerBio_en: `Dmitri Vrubel (1960–2022) was a Moscow-born artist shaped by the nonconformist cultural climate of the late Soviet period. His work repeatedly examined how power, political language, and history enter ordinary sight and the human body. After the Berlin Wall opened in 1989, its formerly controlled eastern face became an extraordinary public canvas. Artists from multiple countries painted this surviving in-situ border section, which became the East Side Gallery.
+
+In 1990, Vrubel chose neither an abstract emblem of freedom nor a celebratory scene. He used a news image that was both instantly legible and difficult to watch: Soviet leader Leonid Brezhnev and East German leader Erich Honecker performing the socialist fraternal kiss at the GDR’s thirtieth-anniversary celebration in 1979. He enlarged it to wall scale and added a bilingual Russian-German title. During the 2009 restoration, Vrubel repainted the work himself.`,
+    story_en: `The mural’s force comes from a precise act of reframing. In the source photograph, the kiss was a diplomatic ritual through which two allied regimes displayed solidarity. Vrubel left the central gesture intact, but returned it to the Berlin Wall; what had signified closeness became an image of control, dependence, and suffocation. **The same faces and the same kiss acquire an entirely different political meaning when their medium and setting change.**
+
+The composition does not depend on complexity. Two faces occupy nearly the whole wall; skin folds, spectacles, hair, and lips are enlarged at intimate range. The Russian and German title above and below acts almost like an incantation, pinning the figures between two lines of text. It denies the viewer the comfortable distance of believing history has simply finished. What appears is both a ritual between leaders and an image of how a system demanded that people accept its performance of intimacy.
+
+**The material is inseparable from the work.** Printed on a museum wall or a page, it would still be a sharp image. Painted on an actual border wall, cracks, weathering, and coarse concrete enter its meaning. A wall made to separate people becomes a surface for public expression. The mural does not smooth over the violence of the original object; it uses that very surface to say what could not previously be said.
+
+That is why it became one of the East Side Gallery’s most recognisable images. It does not reduce the end of the Cold War to a victory slogan. It retains the turn’s complexity: liberation and trauma, celebration and unease, historical ending and continuing memory. **Great public visual design does not merely shout a position. It finds an image precise enough that we cannot easily forget the question.**
+
+This page uses a complete frontal image of the mural itself, clearly showing Brezhnev, Honecker, the bilingual title, and the wall’s texture. Visitors, souvenir-taking, exhibition context, and watermarks do not compete with the work. Image, title, narrative, and graphic category precisely correspond.`,
+    legacy_en: `• Recast the socialist fraternal kiss from official ritual into a visual critique of political dependence
+• Proved that site and medium can completely rewrite the meaning of a familiar news image
+• Turned the Berlin Wall from an instrument of separation into an open canvas of global memory
+• Established one of the most internationally recognisable visual symbols of the Cold War’s end
+• Offered public art a classic model in which history’s material is itself the medium`,
+    significance_en: `My God, Help Me to Survive This Deadly Love is not a commemorative photograph of Berlin but a visual argument built from very little: two people, one wall, two lines of type. It reminds us that image-making is sharpest not when it adds symbols, but when it places an already familiar gesture in the exact context that makes us see what it has meant all along.`,
+  },
 ]
