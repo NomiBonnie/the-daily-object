@@ -15780,4 +15780,60 @@ What matters now is not merely nostalgia for a low-resolution screen. It is an e
 • Supplied an iterative framework for Windows 3.x, Windows 95, and modern desktop software`,
     significance_en: `Windows 1.0 matters not because it had already perfected the graphical interface, but because it placed a change in interaction paradigm onto the widest PC platform. It shows that interface design is not a skin placed over function. It determines whether people can see a system’s structure, dare to begin, and use distinct tools as one working environment.`,
   },
+
+  {
+    id: '441',
+    date: '2026-11-11',
+    imageUrl: '/the-daily-object/images/johannes-itten-color-wheel-1961.jpg',
+    fullImageUrl: '/the-daily-object/images/full/johannes-itten-color-wheel-1961.png',
+    title: 'The Art of Color',
+    title_en: 'The Art of Color',
+    subtitle: 'Johannes Itten，1961',
+    subtitle_en: 'Johannes Itten, 1961',
+    category: 'graphic' as const,
+    designer: 'Johannes Itten（约翰内斯·伊顿）',
+    year: '1961',
+    tags: ['奠定色彩教育语法', '重塑现代设计基础', '让颜色成为关系'],
+    tags_en: ['Set the Grammar of Color Education', 'Reshaped Modern Design Foundations', 'Made Color a Relationship'],
+
+    dateConnection: `1888 年 11 月 11 日，Johannes Itten 出生于瑞士伯尔尼州。今天选他的《The Art of Color》色环，不是因为它提供了一套永远正确的配色公式，而是因为它把“颜色”从直觉性的装饰，变成了设计师可以观察、比较与组织的关系。`,
+    designerBio: `Johannes Itten（1888—1967）是瑞士画家、设计师与教育家，也是魏玛包豪斯最早一批大师之一。1919 年，他受 Walter Gropius 邀请进入包豪斯，负责基础课程。那是一门影响极深的课：学生先不急着学习某一种职业技艺，而从材料、形式、节奏、明暗与色彩开始，训练眼睛和手如何判断。
+
+Itten 的教学从不把色彩当作一张固定答案表。他关心色相之间如何相互改变，明暗如何影响重量感，冷暖如何塑造距离，补色如何制造张力。他在 1961 年出版的《The Art of Color》把长期教学经验整理成系统，随后成为艺术与设计教育里最常被引用的色彩著作之一。`,
+    story: `这张色环看上去几乎像一件人人都见过的基础教具：中央三角形放着黄、红、蓝三原色，外圈依次展开十二种色相，中间用环带把它们组织成一套可比较的秩序。它真正厉害的地方，不是把颜色“命名”出来，而是让颜色开始以**关系**被看见。红色在这里从来不是孤立的红色；它会因为旁边的绿、橙、紫，因为面积、明度和位置，而显得更热、更重、更远或更近。
+
+Itten 把色彩训练从“我喜欢这个颜色”推进到“我知道它为什么在此处起作用”。他的七种色彩对比——色相、明暗、冷暖、补色、同时、饱和、面积——并不是限制创作的法条，而是让直觉可以被复盘的语言。设计师面对海报、界面、空间或服装时，终于可以精确讨论：问题究竟来自对比不够、节奏失衡，还是视觉重量被放错了位置。
+
+**色环也因此是一种界面。** 它把难以言说的感受压缩成一个可以扫视、指向、移动视线的平面系统：相邻色暗示连续，正对色制造冲突，三角形指出混合的起点，环带把变化铺展开。它没有替设计师做决定，却让决定有了可以共享的坐标。许多后来更科学的色彩模型会修正它的颜料逻辑；但在视觉教育中，它仍然有效，因为它首先教会人看见关系，而非背诵数值。
+
+它与包豪斯精神的连接也在这里：基础不是风格模板，而是一种能迁移的思考方法。Itten 的课堂里，色彩从绘画进入材料研究、舞台、织物、产品和版面；今天，它仍出现在品牌系统、UI 状态、数据可视化与空间导视的最底层。**一张简单的圆图之所以耐用，是因为它把审美判断从玄学，变成了可被反复练习的观察。**
+
+页面使用的是 Itten 1961 色环的完整、正面公开领域矢量再现图：没有人物、展览现场、设备或水印干扰。图中十二色环与中央原色结构就是本文讨论的作品本体；方形构图清晰、明亮，适合手机观看，标题、故事与 graphic 分类严格对应。`,
+    legacy: `• 把色相、明暗、冷暖与补色组织成现代设计教育的共同语言
+• 让配色从个人偏好转向可观察、可讨论、可修正的视觉关系
+• 影响平面、产品、服装、空间与界面设计的基础训练
+• 以简单图形证明信息结构本身可以成为强有力的视觉工具
+• 为后来的品牌系统、交互状态与视觉规范提供色彩思考框架`,
+    significance: `Itten 的色环并不神秘，却足够诚实：颜色从不会独自发生作用。它的价值，是给设计师一套看见相互作用的方式。真正成熟的视觉判断，不是知道某个颜色“高级”，而是知道它在何种邻接、比例、光线与语境里，能够让一个系统变得清楚、有力、并且有人情味。`,
+
+    dateConnection_en: `Johannes Itten was born in the Swiss canton of Bern on 11 November 1888. This page marks that date with the colour wheel from The Art of Color—not because it supplies an eternal recipe for palettes, but because it turns colour from instinctive decoration into relationships a designer can observe, compare, and organise.`,
+    designerBio_en: `Johannes Itten (1888–1967) was a Swiss painter, designer, and educator, and one of the earliest masters at the Weimar Bauhaus. Invited by Walter Gropius in 1919, he led the preliminary course. Rather than starting with a profession’s techniques, students began with material, form, rhythm, value, and colour: training the eye and hand to judge.
+
+Itten did not treat colour as a chart of fixed answers. He studied how hues alter one another, how lightness changes visual weight, how temperature creates distance, and how complements create tension. His 1961 book The Art of Color gathered that teaching into a system that became one of the most cited texts in art and design education.`,
+    story_en: `At first glance, the wheel resembles a familiar classroom aid: yellow, red, and blue form a central triangle; twelve hues unfold around it; a ring arranges them into a legible order. Its real achievement is not naming colours but making colour visible as **relationship**. Red is never an isolated red here. Against green, orange, or violet—and through area, value, and position—it can feel warmer, heavier, nearer, or farther away.
+
+Itten moved colour training beyond “I like this colour” toward “I understand why it works here.” His seven contrasts—hue, light-dark, cold-warm, complementary, simultaneous, saturation, and extension—are not laws that suppress invention. They are language for reviewing intuition. A designer can ask whether a poster, interface, room, or garment fails through weak contrast, unstable rhythm, or misplaced visual weight.
+
+**The wheel is therefore an interface.** It compresses elusive sensation into a flat system that can be scanned and discussed: neighbouring hues imply continuity, opposites produce friction, the triangle identifies a mixing origin, and the ring distributes change. It does not decide for a designer; it gives decisions shared coordinates. Later, more scientific models refine its pigment logic. Yet it remains useful in visual education because it teaches relationships before numbers.
+
+That is also its Bauhaus connection: foundations are not a style template but a transferable way of thinking. In Itten’s teaching, colour moved from painting into material study, stage work, textiles, products, and layouts. It still underlies brand systems, UI states, data visualisation, and wayfinding. **The diagram endures because it turns aesthetic judgement from mystique into observation that can be practised.**
+
+This page uses a complete frontal public-domain vector rendering of Itten’s 1961 colour wheel. It contains no people, exhibition setting, hardware, or watermark. The twelve-hue ring and central primary-colour structure are the work discussed here; the bright square composition is clear on a phone, and image, title, story, and graphic category precisely correspond.`,
+    legacy_en: `• Established hue, value, temperature, and complementary contrast as shared language in design education
+• Shifted palette-making from private preference toward observable, discussable, revisable relationships
+• Influenced foundational training across graphic, product, fashion, spatial, and interface design
+• Showed that an information structure can itself be a powerful visual tool
+• Supplied a framework for thinking about later brand systems, interaction states, and visual standards`,
+    significance_en: `Itten’s wheel is not mysterious, but it is honest: colour never acts alone. Its value is a way of seeing interaction. Mature visual judgement is not knowing that a colour is “premium”; it is knowing in what adjacency, proportion, light, and context that colour can make a system clear, forceful, and humane.`,
+  },
 ]
