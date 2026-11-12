@@ -15835,7 +15835,7 @@ This page uses a complete frontal public-domain vector rendering of Itten’s 19
 • Showed that an information structure can itself be a powerful visual tool
 • Supplied a framework for thinking about later brand systems, interaction states, and visual standards`,
     significance_en: `Itten’s wheel is not mysterious, but it is honest: colour never acts alone. Its value is a way of seeing interaction. Mature visual judgement is not knowing that a colour is “premium”; it is knowing in what adjacency, proportion, light, and context that colour can make a system clear, forceful, and humane.`,
-  },,
+  },
   {
     id: '442',
     date: '2026-11-12',
