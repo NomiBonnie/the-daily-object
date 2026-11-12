@@ -15835,5 +15835,60 @@ This page uses a complete frontal public-domain vector rendering of Itten’s 19
 • Showed that an information structure can itself be a powerful visual tool
 • Supplied a framework for thinking about later brand systems, interaction states, and visual standards`,
     significance_en: `Itten’s wheel is not mysterious, but it is honest: colour never acts alone. Its value is a way of seeing interaction. Mature visual judgement is not knowing that a colour is “premium”; it is knowing in what adjacency, proportion, light, and context that colour can make a system clear, forceful, and humane.`,
+  },,
+  {
+    id: '442',
+    date: '2026-11-12',
+    imageUrl: '/the-daily-object/images/rodin-the-thinker-1880.jpg',
+    fullImageUrl: '/the-daily-object/images/full/rodin-the-thinker-1880.jpg',
+    title: 'The Thinker',
+    title_en: 'The Thinker',
+    subtitle: 'Auguste Rodin，1880–1881',
+    subtitle_en: 'Auguste Rodin, 1880–1881',
+    category: 'art' as const,
+    designer: 'Auguste Rodin（奥古斯特·罗丹）',
+    year: '1880–1881',
+    tags: ['重塑现代雕塑语言', '让思想拥有身体', '打破学院派表面'],
+    tags_en: ['Recast Modern Sculpture', 'Gave Thought a Body', 'Broke Academic Surfaces'],
+
+    dateConnection: `1840 年 11 月 12 日，Auguste Rodin 出生于巴黎。今天回看《The Thinker》，不是把它当成“沉思”的通用图标，而是回到它最初的位置：一尊原本要坐在《地狱之门》顶端、俯视无数受难者的雕塑。它之所以不断被复制、戏仿与记住，恰恰因为 Rodin 让思考不再只是脑中的活动，而变成了一具被重量、肌肉和欲望拉住的身体。`,
+    designerBio: `Auguste Rodin（1840—1917）早年并不属于巴黎学院体系的胜者。他三次报考巴黎美术学院都未被录取，随后长期靠装饰雕塑、建筑构件和工坊工作谋生。那段经历让他熟悉石膏、黏土、石材与铸铜的实际工序，也让他对学院派追求的光滑轮廓和“正确”姿态始终保持距离。
+
+1875 年赴意大利后，Michelangelo 对他产生决定性影响。Rodin 看到的不是静止而完美的人体，而是被扭转、拉伸、压缩的力量。后来从《青铜时代》到《加莱义民》、从《吻》到《巴尔扎克》，他不断把雕塑从纪念碑式的正面观看中释放出来：表面保留手的痕迹，身体像正在变化，观众必须绕着作品移动，才能读到它的全部张力。`,
+    story: `《The Thinker》最初不是一件独立作品。1880 年，法国政府委托 Rodin 为一座从未建成的装饰艺术博物馆制作大门，他以但丁《神曲》为起点，构思《地狱之门》。这尊小型人物原本位于门楣中央，俯视下方翻滚、相拥、坠落的群像；它常被理解为但丁，也可以被看作 Rodin 对“创作者”的自画像。后来他把人物放大为独立铜像，原本附着于叙事的角色，才成为全世界都认识的《The Thinker》。
+
+它最反常的地方，在于“思考”没有被做成安静的姿势。男人赤裸、双脚紧扣，背部和肩膀绷得像正在承受一股看不见的力；右肘顶住膝盖，手背压向嘴唇。**这不是坐下来休息的人，而像一具身体正在把思想从内部挤出来。** Rodin 没有把精神与肉体分开：额头的阴影、手指的压力、脚趾的抓地感，都是思考的一部分。
+
+这也解释了它为何如此不同于十九世纪常见的英雄雕像。传统纪念碑常靠清晰轮廓、完美抛光和稳定姿态建立权威；Rodin 反而让铜的表面起伏、粗粝、带着近乎未完成的痕迹。光线落在肩背、膝盖和岩石般的底座上时，形体不断改变。作品没有给观众一个唯一正确的正面，而是要求人围绕它移动，在不同角度看见紧张、疲惫、欲望和克制。
+
+**《The Thinker》后来变成流行文化里最常见的“思想”符号，也因此容易被误读成一座安静、聪明的雕像。** 但它的原始语境远比这个更激烈：它生于一扇关于惩罚、爱欲和坠落的门上。Rodin 让一个人坐在地狱上方，不是为了给出答案，而是让观众看见理解世界本身也会消耗身体。
+
+页面使用 Cleveland Museum of Art 收藏的 Rodin 生前铸造《The Thinker》馆藏原图；它完整呈现铜像的俯身姿态、手部、脚部和粗粝基座，没有游客、展览环境或无关物件。图像是作品本体，与标题、叙事及 art 分类严格对应。`,
+    legacy: `• 将“思考”从抽象观念转化为可被感知的身体张力
+• 用粗粝表面与流动光影改写现代雕塑的完成标准
+• 让雕塑摆脱单一正面，要求观众通过移动参与观看
+• 从《地狱之门》的局部发展为跨文化最具辨识度的艺术图像
+• 影响表现主义与二十世纪雕塑对情绪、肌肉和材料痕迹的处理`,
+    significance: `《The Thinker》的力量不在于替“深刻”摆出一个姿势，而在于它拒绝把思想美化成无重力的状态。Rodin 让一具身体弯下去、绷紧、停在尚未行动的边缘，于是雕塑本身成了一个问题：人在面对世界的混乱时，究竟如何承受理解它的重量？这份不安，正是它跨越一个多世纪仍能击中观众的原因。`,
+
+    dateConnection_en: `Auguste Rodin was born in Paris on 12 November 1840. The Thinker is not merely a generic icon of contemplation. It began as a figure intended to sit above The Gates of Hell, looking down upon the suffering bodies below. Its lasting power comes from Rodin’s refusal to treat thought as something that happens only in the head: he made it a body held by weight, muscle, and desire.`,
+    designerBio_en: `Auguste Rodin (1840–1917) did not begin as a winner of Paris’s academic system. Rejected three times by the École des Beaux-Arts, he spent years earning a living through decorative sculpture, architectural ornament, and workshop production. That training gave him an intimate knowledge of plaster, clay, stone, and bronze, while leaving him suspicious of the academy’s polished surfaces and correct poses.
+
+A trip to Italy in 1875 brought a decisive encounter with Michelangelo. Rodin found not static perfection but bodies twisted, stretched, and compressed by force. From The Age of Bronze to The Burghers of Calais, from The Kiss to Balzac, he freed sculpture from frontal monumentality: surfaces retain the hand’s trace, bodies seem to change, and viewers must move around a work to read its tension.`,
+    story_en: `The Thinker was not initially an independent work. In 1880, the French state commissioned Rodin to make a portal for a museum of decorative arts that was never built. Taking Dante’s Divine Comedy as a starting point, he conceived The Gates of Hell. This smaller figure sat at the centre of its lintel, overlooking figures tumbling, embracing, and falling below. Often read as Dante, it can also be understood as Rodin’s image of the creator. When he enlarged it as an independent bronze, a figure once bound to a narrative became The Thinker known around the world.
+
+Its most radical quality is that thinking does not appear as a quiet pose. The nude man’s feet grip, his back and shoulders tighten as if taking an invisible load; his elbow braces against his knee and the back of his hand presses into his mouth. **This is not someone seated at rest. It is a body forcing thought outward from within.** Rodin refuses to divide mind from flesh: the shadow on the brow, pressure in the fingers, and grip of the toes all participate in thinking.
+
+That is why it differs so sharply from nineteenth-century heroic statuary. Traditional monuments often used a clean silhouette, polished finish, and stable pose to establish authority. Rodin leaves bronze uneven, restless, almost unfinished. As light shifts across shoulder, knee, and rock-like base, the form changes. There is no single correct front; viewers must walk around it to encounter strain, fatigue, desire, and restraint.
+
+**The Thinker became one of popular culture’s most common signs for thought, which can make it seem like a quiet, clever statue.** Its original context is far more violent. It was born on a portal about punishment, desire, and descent. Rodin placed one figure above hell not to provide an answer, but to show that making sense of the world also asks something of the body.
+
+This page uses the Cleveland Museum of Art’s original collection image of a lifetime cast of The Thinker. It fully shows the bronze figure’s leaning pose, hands, feet, and rough base, without visitors, exhibition atmosphere, or unrelated objects. The image is the work itself and precisely matches the title, story, and art category.`,
+    legacy_en: `• Turned thought from an abstract idea into a physically perceptible tension
+• Rewrote modern sculpture’s standard of finish through rough surfaces and changing light
+• Freed sculpture from a single frontal view, asking viewers to participate through movement
+• Grew from one element of The Gates of Hell into a globally recognisable cultural image
+• Influenced expressionist and twentieth-century sculptural treatments of emotion, musculature, and material trace`,
+    significance_en: `The Thinker is powerful not because it gives “depth” a pose, but because it refuses to beautify thought as weightless. Rodin bends and tightens a body at the edge of action, turning the sculpture into a question: how does a person bear the weight of understanding a disordered world? That unease is why it can still reach viewers more than a century later.`,
   },
 ]
