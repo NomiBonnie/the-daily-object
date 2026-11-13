@@ -15891,4 +15891,59 @@ This page uses the Cleveland Museum of Art’s original collection image of a li
 • Influenced expressionist and twentieth-century sculptural treatments of emotion, musculature, and material trace`,
     significance_en: `The Thinker is powerful not because it gives “depth” a pose, but because it refuses to beautify thought as weightless. Rodin bends and tightens a body at the edge of action, turning the sculpture into a question: how does a person bear the weight of understanding a disordered world? That unease is why it can still reach viewers more than a century later.`,
   },
+  {
+    id: '443',
+    date: '2026-11-13',
+    imageUrl: '/the-daily-object/images/fantasia-1940-official-art.jpg',
+    fullImageUrl: '/the-daily-object/images/full/fantasia-1940-official-art.jpg',
+    title: 'Fantasia',
+    title_en: 'Fantasia',
+    subtitle: 'Walt Disney Productions，1940',
+    subtitle_en: 'Walt Disney Productions, 1940',
+    category: 'film' as const,
+    designer: 'Walt Disney Productions 动画、音乐与声音团队',
+    year: '1940',
+    tags: ['重写动画电影边界', '让声音拥有空间', '定义视听想象力'],
+    tags_en: ['Redefined Animated Cinema', 'Gave Sound Spatial Form', 'Defined Audiovisual Imagination'],
+
+    dateConnection: `1940 年 11 月 13 日，《Fantasia》在纽约百老汇剧院首映。它不是一部把音乐放在动画底下的普通电影，而是一场反过来让画面追随音乐、让影院空间也成为作品一部分的大胆实验：八段古典乐曲，各自长成不同的视觉世界。`,
+    designerBio: `《Fantasia》没有一位可以单独署名的“设计师”。它是 Walt Disney Productions 的一次集体创作：动画导演、背景画师、角色动画师、摄影技术人员、音乐顾问、Leopold Stokowski 指挥的 Philadelphia Orchestra，以及负责录音与放映系统的工程师共同参与。它的野心也超出了当时动画工业通常的分工——不是先完成一个故事，再为它配乐，而是把音乐、色彩、运动、镜头和声音当作同一件作品来设计。
+
+项目的起点是《The Sorcerer’s Apprentice》。Mickey Mouse 在 1930 年代末已需要一次角色更新；Disney 原本想用 Paul Dukas 的交响诗为它做一部更精致的短片。与 Stokowski 的合作把这个想法推得更远：如果一段音乐可以被动画重新想象，为什么不让整场电影成为一系列“看得见的音乐”？于是，从 Bach 的抽象线条到 Stravinsky 的史前地球，从 Ponchielli 的芭蕾到 Mussorgsky 的夜山，完全不同的视觉语法被放进同一部片里。`,
+    story: `《Fantasia》最激进的地方，是它拒绝让动画只承担“讲故事”的任务。开场的 Bach《Toccata and Fugue in D Minor》几乎没有角色和情节：乐手的剪影、色块、光线与不断变化的抽象形状，尝试把节奏、音色和力度直接转译为视觉。接着，《Nutcracker Suite》让花、蘑菇、鱼和四季的变化随乐句起舞；《Rite of Spring》则以火山、海洋与恐龙，给一段现代主义音乐做出史诗性的时间尺度。**每一段都像在问同一个问题：声音如果能够被看见，会长成什么样子？**
+
+这种设计方法也改变了 Mickey。此前的他多是机灵、扁平、靠动作制造笑点的卡通角色；《The Sorcerer’s Apprentice》里的“魔法师 Mickey”拥有更圆润的脸、更清楚的瞳孔、蓝色星月帽与红袍。形象更新并不只是为了可爱。它让观众能读到他的野心、惊讶和失控，进而把一个喜剧角色放进近乎崇高的音乐叙事里。这个造型后来成为 Disney 最持久的视觉标志之一。
+
+影片对“听见”的设计同样不肯妥协。为首轮放映，Disney 团队和 RCA 开发了 **Fantasound**：多轨录音、额外扬声器与控制设备让声音可以在影院里移动、扩展，形成早期立体声体验。设备昂贵到只有少数影院能够安装，却让《Fantasia》成为一个明确的判断：电影声音不是附属配件，而是能够塑造空间、方向和情绪的材料。1941 年，影片的声音技术与“视觉化音乐”的成就获得奥斯卡特别奖。
+
+它首映时并非商业胜利。战争、昂贵的巡回放映和观众对这种无统一剧情形式的陌生，都限制了传播；但它后来不断重映，并在不同年代被重新理解。**《Fantasia》留下的真正遗产，不是某一帧动画，而是一种创作许可：当媒介之间不再有主从关系，音乐可以画画，动画可以作曲，技术也可以成为想象力的一部分。**
+
+页面采用 Disney D23 发布的《The Sorcerer’s Apprentice》官方电影画面：Mickey 以魔法书穿越蓝黑色的漩涡，完整呈现影片最具辨识度的角色设计、色彩与运动感。它是作品本身的官方原始画面，不是游客照、展览照或氛围图；标题、故事与 film 分类严格对应。`,
+    legacy: `• 把古典音乐、抽象图像与角色动画并置为同一种视听语言
+• 以 Fantasound 推动多轨录音与影院立体声体验的早期实践
+• 将 Mickey 重塑为具有情绪层次的“魔法师”视觉符号
+• 证明动画可以不依赖单一叙事，仍拥有完整的结构与情感力量
+• 影响后来的音乐影像、实验动画、沉浸式放映与声画设计`,
+    significance: `《Fantasia》之所以仍然像未来作品，不是因为它预测了某种技术，而是因为它先提出了一个更自由的设计关系：没有任何媒介天生只是服务另一个媒介。画面可以从声音里长出来，声音也可以改变空间的形状。当创作者愿意把这些边界一起拆开，电影就不再只是银幕上的故事，而成为一次被看见、被听见、也被身体感知到的想象。`,
+
+    dateConnection_en: `On 13 November 1940, Fantasia premiered at the Broadway Theatre in New York. It was not a conventional animation with music placed underneath it. It reversed the relationship: images followed music, and the theatre itself became part of the work. Eight classical pieces became eight distinct visual worlds.`,
+    designerBio_en: `Fantasia has no single designer’s signature. It was a collective production by Walt Disney Productions: animation directors, background artists, character animators, camera technicians, music advisers, Leopold Stokowski and the Philadelphia Orchestra, and engineers responsible for recording and projection all shaped it. Its ambition also exceeded the normal divisions of animation production. Rather than finish a story and add music, the film designed music, colour, movement, camera, and sound as one work.
+
+The project began with The Sorcerer’s Apprentice. Mickey Mouse needed renewal in the late 1930s, and Disney initially imagined a more elaborate short built around Paul Dukas’s symphonic poem. Collaboration with Stokowski pushed the idea further: if animation could reimagine one musical work, why not make an entire film of visible music? From Bach’s abstractions to Stravinsky’s prehistoric earth, and from Ponchielli’s ballet to Mussorgsky’s night mountain, radically different visual grammars entered one feature.`,
+    story_en: `Fantasia’s most radical move was refusing to make animation serve only narrative. Its opening Bach Toccata and Fugue in D Minor has almost no characters or plot. Musicians’ silhouettes, blocks of colour, light, and shifting abstract forms attempt to translate rhythm, timbre, and force directly into image. The Nutcracker Suite turns flowers, mushrooms, fish, and seasons into choreography; The Rite of Spring gives modernist music an epic scale of volcanoes, oceans, and dinosaurs. **Each sequence asks the same question: if sound could be seen, what form would it take?**
+
+That approach also redesigned Mickey. Earlier, he was a quick, flat comic character whose action made the joke. The Sorcerer’s Apprentice gave him a rounder face, visible pupils, a blue star-and-moon hat, and a red robe. This was not merely cuteness. It made ambition, surprise, and loss of control readable, allowing a comic figure to enter an almost sublime musical drama. Sorcerer Mickey became one of Disney’s most enduring visual symbols.
+
+The film was just as uncompromising about hearing. For its first run, Disney and RCA developed **Fantasound**: multitrack recording, additional speakers, and control equipment that let sound move and expand through the theatre—an early stereo experience. It was so expensive that only a small number of cinemas could install it. Yet it made a clear proposition: film sound was not an accessory; it was material capable of shaping space, direction, and emotion. In 1941, the film’s sound technology and achievement in visualised music received Academy Awards special recognition.
+
+Fantasia was not an immediate commercial success. War, costly roadshow presentation, and audiences’ unfamiliarity with a feature without one plot limited its reach. It was repeatedly rereleased and reinterpreted in later decades. **Its real legacy is not one celebrated frame but a creative permission: when media no longer have a master and servant, music can draw, animation can compose, and technology can become part of imagination.**
+
+This page uses an official Disney D23 film image from The Sorcerer’s Apprentice: Mickey rides an enchanted book through a blue-black vortex. It directly shows the film’s most recognisable character design, colour system, and kinetic energy. It is an official image from the work itself—not a visitor, exhibition, or mood photograph—and precisely matches the title, story, and film category.`,
+    legacy_en: `• Joined classical music, abstract imagery, and character animation into one audiovisual language
+• Advanced early multitrack recording and theatrical stereo through Fantasound
+• Recast Mickey as the emotionally legible visual icon of Sorcerer Mickey
+• Proved animation could work without a single narrative and still hold structure and feeling
+• Influenced music visualisation, experimental animation, immersive exhibition, and sound-image design`,
+    significance_en: `Fantasia still feels like a work from the future not because it predicted a technology, but because it proposed a freer relationship among media. No medium is naturally subordinate to another. Images can grow from sound, and sound can change the shape of space. When those boundaries are designed together, film becomes more than a story on a screen: it becomes an imagination that is seen, heard, and physically felt.`,
+  },
 ]
