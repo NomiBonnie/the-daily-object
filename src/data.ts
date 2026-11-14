@@ -15946,4 +15946,59 @@ This page uses an official Disney D23 film image from The Sorcerer’s Apprentic
 • Influenced music visualisation, experimental animation, immersive exhibition, and sound-image design`,
     significance_en: `Fantasia still feels like a work from the future not because it predicted a technology, but because it proposed a freer relationship among media. No medium is naturally subordinate to another. Images can grow from sound, and sound can change the shape of space. When those boundaries are designed together, film becomes more than a story on a screen: it becomes an imagination that is seen, heard, and physically felt.`,
   },
+  {
+    id: '444',
+    date: '2026-11-14',
+    imageUrl: '/the-daily-object/images/eurostar-class-373.jpg',
+    fullImageUrl: '/the-daily-object/images/full/eurostar-class-373.jpg',
+    title: 'Eurostar Class 373',
+    title_en: 'Eurostar Class 373',
+    subtitle: 'GEC-Alsthom 联合制造团队，1994',
+    subtitle_en: 'GEC-Alsthom Consortium, 1994',
+    category: 'industrial' as const,
+    designer: 'GEC-Alsthom、BN、Metro-Cammell、Brush Traction 联合团队',
+    year: '1994',
+    tags: ['重写跨海旅行想象', '三国铁路的共同语言', '把隧道变成城市纽带'],
+    tags_en: ['Reimagined Cross-Channel Travel', 'A Shared Railway Language', 'Turned a Tunnel into a City Link'],
+
+    dateConnection: `1994 年 11 月 14 日，Eurostar 的公众“Discovery”客运服务开始运行：从伦敦滑铁卢出发，经英吉利海峡隧道连接巴黎与布鲁塞尔。今天纪念的不是抽象的“通车”，而是 Class 373 第一次把一项横跨三国、三套铁路规则的设计，变成普通乘客能够购买、乘坐的日常体验。`,
+    designerBio: `Class 373 并不属于一位明星设计师。它是一个跨国制造与工程协作的产物：GEC-Alsthom（后来的 Alstom）以法国 TGV 为基础，法国的 La Rochelle 与 Belfort、比利时的 Brugeoise et Nivelles，以及英国 Birmingham 的 Metro-Cammell 等工厂共同参与制造；Brush Traction 提供英国设计的异步牵引电机。它的开发名为 TGV TMST——TransManche Super Train，意为“跨海峡超级列车”。
+
+真正困难的并非把一列高速列车做得更快。它必须同时读懂英国、法国和比利时的供电与信号系统；要穿过英国较窄的车辆限界；还要满足海底隧道的严苛消防与故障撤离要求。Class 373 因此不是把既有 TGV 换上品牌色，而是一件把彼此不兼容的基础设施翻译成一个完整移动空间的工业设计。`,
+    story: `从远处看，Class 373 的轮廓足够简单：两端动力车像被风拉长的楔形，连续的车窗带把二十节编组读成一个整体。可它的形式不是为“速度感”做的装饰。原始 Eurostar 列车以 TGV 的铰接式车厢为骨架——相邻车厢共享转向架——让近四百米长的列车仍有平稳连贯的节奏；两端动力车则给整列车提供冗余，在海峡隧道内即使一端失效，另一端仍能把列车牵引到安全出口。**这是一种把安全要求直接做进轮廓、结构与服务逻辑的设计。**
+
+它还必须学会“变换语言”。列车要适配 25 kV 交流架空线、法国 1.5 kV 直流与比利时 3 kV 直流供电，并兼容不同国家的信号、站台和运营环境。英国铁路限界更小，意味着车体横截面不能照搬大陆 TGV；海底隧道的火灾标准又要求材料、隔离、牵引与应急系统重新组织。**Class 373 的价值不在于某一个炫目的技术点，而在于把这些彼此冲突的条件收束为一件乘客几乎无需思考的产品。**
+
+1994 年 11 月 14 日的“Discovery”服务，是这份复杂性第一次真正进入公众生活。伦敦、巴黎和布鲁塞尔不再只是由机场、边检与航班时刻表连接；列车把“市中心到市中心”变成可被重复使用的旅行习惯。它改变的不只是速度，也改变了地理在人的脑海里被感受的方式：一片海不再必然意味着一次断裂，跨国移动可以像进入另一条城市地铁线那样连续。
+
+Class 373 后来经历了 Pininfarina 主导的内装翻新，并被 Eurostar e300 的名称延续；新一代列车也已接棒。但原始车型仍值得被记住，因为它没有把跨境复杂性展示给乘客，而是把复杂性消化在系统内部。**最成熟的交通设计，常常不让人惊叹于它多难，而是让人自然地相信：这条路本来就该这样连起来。**
+
+页面使用的是行驶中的 Eurostar Class 373 原车正面三分之四原图：完整可辨识地呈现其楔形动力车、连续编组、Eurostar 标识与轨道环境；没有游客、展览空间或无关主体。图片展示的正是本文讨论的列车本体，与标题、故事和 industrial 分类严格对应。`,
+    legacy: `• 把英国、法国与比利时的多制式铁路条件整合为一次无缝乘客体验
+• 证明高速铁路能够把跨国出行从航空补充转变为城市中心间的日常选择
+• 将海底隧道消防、冗余牵引与车辆限界变成可被验证的产品设计标准
+• 以长编组铰接结构建立平稳、连续且高容量的跨境列车体验
+• 为后续欧洲高速铁路网络提供“基础设施差异可被设计吸收”的范例`,
+    significance: `Class 373 的优雅，在于它不把工程妥协伪装成风格，而是让每一项约束共同塑造了产品。它提醒我们：工业设计最有力量的时刻，往往不是创造一件孤立的漂亮物件，而是把制度、技术、安全与人的期待重新编排，让原本断开的世界真的可以连在一起。`,
+
+    dateConnection_en: `On 14 November 1994, Eurostar’s public “Discovery” passenger service began: London Waterloo, Paris, and Brussels were linked through the Channel Tunnel. This date marks more than an abstract opening. It was the first day the Class 373 made a design spanning three countries and three railway rulebooks into an ordinary ticketed journey.`,
+    designerBio_en: `The Class 373 was not the work of one celebrity designer. It was a cross-border manufacturing and engineering collaboration: GEC-Alsthom (later Alstom) adapted the French TGV platform, with construction shared among sites in La Rochelle and Belfort, Brugeoise et Nivelles in Belgium, and Metro-Cammell in Birmingham; British-designed asynchronous traction motors came from Brush Traction. Its development name, TGV TMST, meant TransManche Super Train.
+
+The challenge was not simply to make a faster train. It had to understand the power and signalling systems of Britain, France, and Belgium; fit Britain’s smaller loading gauge; and meet severe fire-survival and evacuation requirements for an undersea tunnel. The Class 373 was therefore not a TGV repainted in a new livery. It translated incompatible infrastructures into one coherent moving environment.`,
+    story_en: `At a distance, the Class 373 looks simple: wedge-like power cars pulled long by the wind, with a continuous band of windows reading twenty vehicles as one. Its form, however, was not decoration for speed. The original Eurostar used a TGV-derived articulated structure—adjacent cars share bogies—so a train nearly 400 metres long could move with a continuous, stable rhythm. Its two power cars also created redundancy: in the Channel Tunnel, one could still haul the whole train to safety if the other failed. **Safety was designed directly into its silhouette, structure, and service logic.**
+
+It also had to switch languages. The train accommodated 25 kV AC overhead power, France’s 1.5 kV DC, and Belgium’s 3 kV DC, alongside differing signalling, platforms, and operating conditions. Britain’s tighter loading gauge prevented a direct copy of a continental TGV; tunnel fire standards demanded a new organisation of materials, isolation, traction, and emergency systems. **The Class 373’s achievement was not one flashy technical feature but its ability to absorb conflicting conditions into a product passengers barely had to think about.**
+
+The 14 November 1994 Discovery service brought that complexity into public life for the first time. London, Paris, and Brussels were no longer connected only through airports, border procedures, and flight timetables. The train made city-centre-to-city-centre travel a repeatable habit. It changed not only speed but the way geography was felt: a sea no longer had to mean a break, and crossing a border could feel as continuous as joining another urban rail line.
+
+The Class 373 was later refurbished with interiors led by Pininfarina and continued as the Eurostar e300; a newer generation has since taken over. Yet the original matters because it did not display cross-border complexity to its passengers. It absorbed it. **The most mature transport design does not make us marvel at how difficult it is; it makes us feel that the connection should always have existed.**
+
+This page uses a clear three-quarter image of a running Eurostar Class 373 itself, showing its recognisable wedge-shaped power car, continuous formation, Eurostar marks, and rail setting. No visitors, exhibition context, or unrelated subject competes with the work. Image, title, story, and industrial category precisely correspond.`,
+    legacy_en: `• Integrated Britain, France, and Belgium’s multi-system rail conditions into one seamless passenger experience
+• Demonstrated that high-speed rail could make cross-border travel a daily city-centre alternative to flying
+• Turned tunnel fire safety, redundant traction, and loading-gauge limits into proven product-design standards
+• Used an articulated long-set structure to create a stable, continuous, high-capacity international journey
+• Offered European high-speed rail a model for designing infrastructure differences into the background`,
+    significance_en: `The Class 373 is elegant because it does not disguise engineering compromises as style. Each constraint shapes the product. It shows industrial design at its most consequential: not creating an isolated beautiful object, but rearranging policy, technology, safety, and human expectation so that worlds once separated can genuinely connect.`,
+  },
 ]
